@@ -7,8 +7,6 @@ execute if score @s[scores={bp.hunter_morph=18}] bp.food matches 20 run effect g
 execute if score @s[scores={bp.hunter_morph=18}] bp.food matches 9.. run effect give @s minecraft:speed 1 0 true
 
 
-
-
 execute if score @s bp.hunter_morph matches 5 run effect give @e[distance=0.1..2] minecraft:poison 10 0 false
 execute if score @s bp.hunter_morph matches 6 run effect clear @s minecraft:poison
 execute if score @s bp.hunter_morph matches 6 run execute if score @s bp.hurting matches 1.. run effect give @e[distance=0.1..4] poison 10 0 false
@@ -19,6 +17,5 @@ execute if score @s bp.hunter_morph matches 19 run effect clear @s minecraft:wit
 
 
 execute if score @s bp.hunter_morph matches 1.. run effect give @s hunger 2 1 true
-advancement revoke @a only bracken
 execute if score @s[scores={bp.hunter_morph=1..}] bp.food matches ..3 run function bracken:player/species/hunter/demorph
 execute if score @s[scores={bp.hunter_morph=1..}] bp.health matches ..0 run function bracken:player/species/hunter/demorph
