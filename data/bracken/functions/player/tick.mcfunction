@@ -55,5 +55,5 @@ execute if entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{Custo
 execute if entity @s[nbt={Inventory:[{Slot:102b,id:"minecraft:elytra",tag:{CustomModelData:888502}}]}] run function bracken:player/nightfall
 
 #Tinted cube
-execute if entity @s[scores={bp.obsidian=1..2}] unless predicate bracken:dimensions/void run fill ~2 ~3 ~2 ~-2 ~-1 ~-2 minecraft:tinted_glass hollow
+execute if entity @s[scores={bp.obsidian=1..2}] unless predicate bracken:dimensions/void align xyz run function bracken:dimension_crossing/void_cube
 
