@@ -4,7 +4,7 @@
     "entity": "this",
     "predicate": {
       "vehicle": {
-        "type": "minecraft:boat"
+        "type": "minecraft:chest_boat"
       }
     }
   }
