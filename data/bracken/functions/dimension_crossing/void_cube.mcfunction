@@ -5,7 +5,7 @@
 
 # Outer layer 
 
-fill ~1 ~2 ~1 ~-2 ~-1 ~-2 obsidian replace air
+fill ~1 ~2 ~1 ~-2 ~-1 ~-2 obsidian replace #bracken:void_replace
 
 execute if entity @e[tag=bp.frozen,distance=..85] run fill ~1 ~2 ~1 ~-2 ~-1 ~-2 tinted_glass replace obsidian
 
