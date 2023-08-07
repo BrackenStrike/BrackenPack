@@ -39,6 +39,16 @@
         },
         {
           "type": "loot_table",
+          "name": "bracken:item/the_brine/essence_of_eternity",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
           "name": "bracken:item/ability_books/tetra_slime",
           "conditions": [
             {

@@ -61,5 +61,5 @@ effect give @s[scores={bp.deathtimer=11..}] instant_health 1 1 true
 
 
 #tree jump
-execute if entity @e[type=marker,tag=bp.slimezone,distance=40..] run tellraw @a[distance=..100] {"translate":"The prey flees! The hunt begins..."}
-execute if entity @e[type=marker,tag=bp.slimezone,distance=40..] run kill @e[type=marker,tag=bp.slimezone,sort=nearest,distance=..50]
+execute if entity @e[type=marker,tag=bp.slimezone,distance=40..,sort=nearest,limit=1] run tellraw @a[distance=..100] {"translate":"The prey flees! The hunt begins..."}
+execute if entity @e[type=marker,tag=bp.slimezone,distance=40..,sort=nearest,limit=1] run kill @e[type=marker,tag=bp.slimezone,sort=nearest,distance=..50]

@@ -39,12 +39,12 @@
       "minCount": 1,
       "maxCount": 2
     },
-      {
+    {
         "type": "minecraft:fox",
         "weight": 1,
         "minCount": 1,
         "maxCount": 1
-      }
+    }
     ],
     "monster": []
   },

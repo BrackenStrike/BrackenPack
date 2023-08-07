@@ -1,11 +1,6 @@
 {
   "spawners": {
-    "water_ambient": [{
-      "type": "minecraft:elder_guardian",
-      "weight": 1,
-      "minCount": 1,
-      "maxCount": 1
-    }],
+    "water_ambient": [],
     "ambient": [
       {
         "type": "minecraft:bat",

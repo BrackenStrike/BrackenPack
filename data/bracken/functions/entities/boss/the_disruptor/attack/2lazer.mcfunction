@@ -13,9 +13,9 @@ execute if score @s bp.dis.attack_cd matches 100.. run function bracken:entities
 
 
 scoreboard players add @s bp.dis.cd 1
-execute if score @s bp.dis.attack_cd matches ..100 if score @s bp.dis.cd matches 20 facing entity @p eyes run function bracken:entities/boss/the_disruptor/attack/misc/lazersummon
-execute rotated as @e[type=minecraft:area_effect_cloud,tag=bp.ray,nbt={Age:4}] run function bracken:entities/boss/the_disruptor/attack/misc/lazer
-execute rotated as @e[type=minecraft:area_effect_cloud,tag=bp.ray,nbt={Age:4}] run playsound minecraft:block.beacon.deactivate master @a[distance=..30] ~ ~ ~ 1 1 0
+execute if score @s bp.dis.attack_cd matches ..100 if score @s bp.dis.cd matches 20 facing entity @p eyes run function bracken:entities/boss/the_disruptor/attack/lazer/lazersummon
+execute rotated as @e[type=minecraft:area_effect_cloud,tag=bp.ray,nbt={Age:4}] run function bracken:entities/boss/the_disruptor/attack/lazer/lazer_raycast
+execute rotated as @e[type=minecraft:area_effect_cloud,tag=bp.ray,nbt={Age:4}] run playsound minecraft:block.beacon.deactivate master @a[distance=..50] ~ ~ ~ 1 1 0
 execute if score @s bp.dis.cd matches 20 run scoreboard players set @s bp.dis.cd 0
 
 scoreboard players remove @s bp.dis.attack_cd 1

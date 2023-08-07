@@ -5,4 +5,4 @@
 ##########################################################
 
 setblock ~ ~ ~ minecraft:end_portal_frame
-summon minecraft:marker ~ ~ ~ {Tags:[bp.boss,bp.project_ruination]}
+summon minecraft:marker ~ ~ ~ {Tags:[bp.entity,bp.boss,bp.project_ruination]}

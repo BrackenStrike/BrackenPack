@@ -1,7 +1,6 @@
 {
   "spawners": {
     "water_ambient": [
-     
     ],
     "ambient": [
       {
@@ -13,7 +12,6 @@
     ],
     "misc": [],
     "water_creature": [
-       
       {
         "type": "minecraft:cod",
         "weight": 10,
@@ -40,7 +38,7 @@
         "minCount": 4,
         "maxCount": 4
       },
-       {
+      {
         "type": "minecraft:frog",
         "weight": 10,
         "minCount": 8,

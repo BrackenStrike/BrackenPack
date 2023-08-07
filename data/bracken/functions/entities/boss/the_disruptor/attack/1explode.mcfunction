@@ -1,10 +1,5 @@
 #init
-execute if score @s bp.dis.attack_cd matches ..0 run scoreboard players set @s bp.dis.cd 0
-execute if score @s bp.dis.attack_cd matches ..0 store result score x.e bp.the_disruptor run data get entity @p Pos[0]
-execute if score @s bp.dis.attack_cd matches ..0 store result score y.e bp.the_disruptor run data get entity @p Pos[1]
-execute if score @s bp.dis.attack_cd matches ..0 store result score z.e bp.the_disruptor run data get entity @p Pos[2]
-execute if score @s bp.dis.attack_cd matches ..0 run scoreboard players add y.e bp.the_disruptor 10
-execute if score @s bp.dis.attack_cd matches ..0 run scoreboard players set @s bp.dis.attack_cd 60
+execute if score @s bp.dis.attack_cd matches ..0 run function bracken:entities/boss/the_disruptor/attack/explode/init
 
 #commands
 scoreboard players set @s bp.dis.-1 -1

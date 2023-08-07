@@ -20,7 +20,7 @@
       "minCount": 1,
       "maxCount": 4
     },
-                 {
+    {
       "type": "minecraft:cow",
       "weight": 1,
       "minCount": 1,
@@ -32,7 +32,7 @@
       "minCount": 1,
       "maxCount": 4
     },
-                 {
+    {
       "type": "minecraft:sheep",
       "weight": 1,
       "minCount": 1,
