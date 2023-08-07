@@ -8,6 +8,7 @@
 fill ~1 ~2 ~1 ~-2 ~-1 ~-2 obsidian replace #bracken:void_replace
 
 execute if entity @e[tag=bp.frozen,distance=..85] run fill ~1 ~2 ~1 ~-2 ~-1 ~-2 tinted_glass replace obsidian
+execute if entity @e[type=elder_guardian,distance=..60] run fill ~1 ~2 ~1 ~-2 ~-1 ~-2 tinted_glass replace obsidian
 
 execute unless block ~-1 ~0 ~-1 #bracken:void_spare run setblock ~-1 ~0 ~-1 air
 execute unless block ~-1 ~0 ~ #bracken:void_spare run setblock ~-1 ~0 ~ air
