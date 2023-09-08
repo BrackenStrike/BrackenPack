@@ -17,7 +17,7 @@ effect give @s[scores={bp.longtick=3}] minecraft:hunger 13 0 true
 attribute @s[scores={bp.panacea=10}] minecraft:generic.max_health modifier add b9615b04-a3a9-45f8-adb1-dc03b37fe2a3 "bp.panacea_health" 4 add
 
 # CHLOROCRAFTING
-execute if entity @s[scores={bp.1_second=3}] at @e[type=minecraft:item_frame,nbt={Facing:1b,Item:{id:"minecraft:melon_seeds",Count:1b}}] if block ~ ~-1 ~ minecraft:crafting_table run function bracken:entities/chlorocrafter
+execute if entity @s[scores={bp.1_second=3}] at @e[type=minecraft:item_frame,nbt={Facing:1b,Item:{id:"minecraft:melon_seeds",Count:1b}}] if block ~ ~-1 ~ minecraft:crafting_table run function bracken:entities/panacea/chlorocrafter
 execute if entity @s[scores={bp.1_second=3}] as @e[type=villager,tag=bp.table] at @s unless block ~ ~1 ~ minecraft:flowering_azalea run tp @s ~ -200 ~
 
 # SPORE DROPS
