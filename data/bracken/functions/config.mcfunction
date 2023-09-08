@@ -31,7 +31,7 @@
 
 gamerule sendCommandFeedback false
 scoreboard players set @s bp.verylongtick 2
-tag @s add bp.config_gamrule
+tag @s add bp.config_gamerule
 
 tellraw @s ["\n\n\n\n",{"text":"Bracken Pack Config:\n","bold":true,"underlined":true,"color":"yellow"}]
 

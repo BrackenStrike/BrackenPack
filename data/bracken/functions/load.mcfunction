@@ -44,6 +44,7 @@ scoreboard objectives add bp.creeper_horn dummy
 scoreboard objectives add bp.poison dummy
 scoreboard objectives add bp.glacium_glider dummy
 scoreboard objectives add bp.nightfall dummy
+scoreboard objectives add bp.wither_immunity dummy 0
 
 #astral potion
 scoreboard objectives add bp.astral_time dummy
@@ -228,8 +229,6 @@ execute if score #bp.teams_dummy bp.teams_con matches 1 run function bracken:pla
 function bracken:3_seconds
 function bracken:10_seconds
 
-##########   ITEMS   ##########
-scoreboard objectives add bp.wither_immunity dummy 0
 
 
 
