@@ -52,9 +52,9 @@
       "tick_chance": 0.00001
     },
     "music": {
-      "sound": "minecraft:music.dragon",
-      "min_delay": 120000,
-      "max_delay": 240000,
+      "sound": "bracken:omnidrome",
+      "min_delay": 12000,
+      "max_delay": 24000,
       "replace_current_music": true
     }
   },
