@@ -13,9 +13,6 @@ effect clear @s minecraft:poison
 attribute @s[scores={bp.pax=10}] minecraft:generic.max_health modifier add 35709842-6f1c-48eb-9683-43bcf0faa33e "bp.pax_health" 20 add
 effect clear @s minecraft:bad_omen
 
-# Mansion Spell Book
-execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
-
 # Dimension Travel
 execute if score @s bp.1_second matches 8 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-15,dy=-300] run function bracken:dimension_crossing/pax_to_faewild
 
