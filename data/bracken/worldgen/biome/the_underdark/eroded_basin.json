@@ -27,6 +27,12 @@
         "maxCount": 4
       },
       {
+        "type": "minecraft:zombie",
+        "weight": 1,
+        "minCount": 4,
+        "maxCount": 8
+      },
+      {
         "type": "minecraft:magma_cube",
         "weight": 25,
         "minCount": 1,
