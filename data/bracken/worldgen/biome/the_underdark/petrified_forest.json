@@ -21,9 +21,9 @@
       },
       {
         "type": "minecraft:zombie",
-        "weight": 1,
+        "weight": 3,
         "minCount": 4,
-        "maxCount": 8
+        "maxCount": 4
       },
       {
         "type": "minecraft:enderman",
