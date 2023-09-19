@@ -27,8 +27,8 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:zombie",
-        "weight": 2,
+        "type": "minecraft:skeleton",
+        "weight": 4,
         "minCount": 4,
         "maxCount": 4
       },
