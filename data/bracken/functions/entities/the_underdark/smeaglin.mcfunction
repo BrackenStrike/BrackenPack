@@ -3,5 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-execute at @e[type=piglin,tag=bp.smeaglin] anchored feet run data merge entity @e[type=item,distance=..2,limit=1,tag=!bp.smeaglin] {Tags:["bp.smeaglin"],Age:5990,PickupDelay:32767}
-
+execute at @e[type=piglin,tag=bp.smeaglin] anchored feet if entity @e[type=item,distance=1..2,limit=1,tag=!bp.smeaglin1] run playsound minecraft:item.flintandsteel.use block @a[distance=..10] ~ ~ ~ 10
+execute at @e[type=piglin,tag=bp.smeaglin] anchored feet run execute at @e[type=item,distance=1..2,limit=1,tag=!bp.smeaglin1] run fill ~ ~1 ~ ~ ~-1 ~ fire replace air
+execute at @e[type=piglin,tag=bp.smeaglin] anchored feet run data merge entity @e[type=item,distance=1..2,limit=1,tag=!bp.smeaglin1] {Tags:["bp.smeaglin1"],PickupDelay:32767,Fire:20000}
+execute at @e[type=piglin,tag=bp.smeaglin] anchored feet run data merge entity @e[type=item,distance=..1,limit=1,tag=!bp.smeaglin2] {Tags:["bp.smeaglin2"],Age:5990,PickupDelay:32767}
