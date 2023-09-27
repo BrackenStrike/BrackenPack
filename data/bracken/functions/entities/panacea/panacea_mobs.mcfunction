@@ -15,8 +15,8 @@ data merge entity @e[type=piglin,distance=..100,limit=1,sort=nearest,tag=!bp.pig
 
 
 
-data merge entity @e[type=zombie_villager,distance=..100,limit=1,sort=nearest,tag=!bp.yakitubba1] {CustomName:'{"text":"Baby Yakitubba ","color":"dark_green"}',CustomNameVisible:0b,Silent:1,IsBaby:1,ArmorItems:[{},{},{},{id:"minecraft:bamboo",Count:1b,tag:{display:{Name:'{"text":"Yakitubba"}'},CustomModelData:888510}}],Attributes:[{Name:generic.follow_range,Base:64},{Name:generic.movement_speed,Base:0.1}],ActiveEffects:[{Id:14,Amplifier:1b,Duration:-1,ShowParticles:0b},{Id:1,Amplifier:1b,Duration:5b,ShowParticles:0b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Tags:["bp.yakitubba1"],DeathLootTable:"bracken:entity/panacea/yakitubba1"}
+data merge entity @e[type=zombie_villager,distance=..100,limit=1,sort=nearest,tag=!bp.yakitubba1] {CustomName:'{"text":"Baby Yakitubba ","color":"dark_green"}',CustomNameVisible:0b,Silent:1,IsBaby:1,ArmorItems:[{},{},{},{id:"minecraft:bamboo",Count:1b,tag:{display:{Name:'{"text":"Yakitubba"}'},CustomModelData:888510}}],Attributes:[{Name:generic.follow_range,Base:64},{Name:generic.movement_speed,Base:0.1}],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:speed",amplifier:1b,duration:5b,show_particles:0b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Tags:["bp.yakitubba1"],DeathLootTable:"bracken:entity/panacea/yakitubba1"}
 
 
 kill @e[tag=bp.rain_event_marker,type=minecraft:armor_stand,nbt={OnGround:1b}]
-execute at @e[type=minecraft:area_effect_cloud,nbt={Effects:[{Id:27,Amplifier:10b}]}] run function bracken:entities/panacea/leaf_cube
+execute at @e[type=minecraft:area_effect_cloud,nbt={effects:[{id:"minecraft:bad_luck",amplifier:10b}]}] run function bracken:entities/panacea/leaf_cube

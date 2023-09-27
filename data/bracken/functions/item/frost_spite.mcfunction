@@ -3,7 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-summon area_effect_cloud ~ ~ ~ {Particle:"snowflake",Radius:0f,RadiusPerTick:2f,Duration:10,Effects:[{Id:2,Amplifier:10b,Duration:20}]}
+summon area_effect_cloud ~ ~ ~ {Particle:"snowflake",Radius:0f,RadiusPerTick:2f,Duration:10,effects:[{id:"minecraft:slowness",amplifier:10b,duration:20}]}
 summon tnt
 playsound minecraft:block.glass.break player @a[distance=..10] ~ ~ ~ 10 0
 playsound minecraft:entity.dolphin.deathe player @a[distance=..10] ~ ~ ~ 1 0
