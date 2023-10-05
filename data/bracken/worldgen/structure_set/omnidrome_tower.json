@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bracken:omnidrome_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 3,
+    "separation": 2,
+    "salt": 10000000
+  }
+}
