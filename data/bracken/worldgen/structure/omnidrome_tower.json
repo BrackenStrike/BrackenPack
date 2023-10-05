@@ -2,7 +2,7 @@
   "type": "minecraft:jigsaw",
   "biomes": "bracken:omnidrome/infrapolis",
   "spawn_overrides": {},
-  "start_pool": "bracken:omnidrome_tower",
+  "start_pool": "bracken:blocks/omnidrome_tower",
   "size": 6,
   "step": "surface_structures",
   "start_height": {
