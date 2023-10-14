@@ -22,4 +22,7 @@ execute if entity @s[tag=bp.rain_event] run function bracken:entities/panacea/mo
 execute if entity @s[type=minecraft:armor_stand,tag=bp.stand] run function bracken:entities/stands/base
 
 ## OTHER ENTITIES
-execute if entity @s[type=#bracken:other_entities_tick,tag=!bp.ability_books] run function bracken:entities/misc/other_entities_tick
+execute if entity @s[tag=!bp.ability_books] run function bracken:entities/misc/other_entities_tick
+
+## PIERCER OF HEAVENS
+execute if entity @s[type=#minecraft:arrows,tag=bp.piercer_of_heavens] run function bracken:entities/piercer_of_heavens

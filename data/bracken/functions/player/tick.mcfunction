@@ -1,6 +1,6 @@
 ##########################################################
 # Description: All player related commands including from spell books, dimensions, and player races.
-# Creators: Bracken and Grandmaster
+# Creators: Bracken, Grandmaster and Sulfenir
 ##########################################################
 
 ####### Scoreboard Commands #######
@@ -40,6 +40,13 @@ function bracken:player/universal_dimension_commands
 
 # Items
 function bracken:player/items/main
+function bracken:player/item/tick
 
+# Altum Archeon
+scoreboard players set @s bp.altum_archeon 0
 
+# Piercer of Heavens
+scoreboard players set @s bp.piercer_of_heavens 0
 
+# Permafrost
+execute if score @s bp.permafrost_howl matches 1.. run function bracken:player/permafrost

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "chest": {
+              "nbt": "{bp:{id:\"perpetual_aegis\"}}"
+            }
+          }
+        },
+        "damage": {
+          "blocked": false
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:player/item/perpetual_aegis/deal_damage"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{bp:{id:\"cleaver_of_judgement\"}}"
+            }
+          }
+        },
+        "damage": {
+          "blocked": false
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:player/item/cleaver_of_judgement/deal_damage"
+  }
+}

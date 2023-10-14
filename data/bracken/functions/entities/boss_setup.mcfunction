@@ -14,9 +14,11 @@ execute if entity @s[type=minecraft:marker,tag=bp.project_ruination] run functio
 
 #solatium thrall
 execute if entity @s[type=minecraft:giant,tag=bp.solatium_thrall] if entity @p[distance=..100] run function bracken:entities/boss/solatium_thrall/tick
+execute if entity @s[type=minecraft:marker,tag=bp.thrall] if entity @p[distance=..125] run function bracken:entities/boss/thrall/misc/closing_comment
 
 #sporangium
 execute if entity @s[type=minecraft:slime,tag=bp.sporangium] run function bracken:entities/boss/sporangium/tick
 
 #unsung
 execute if entity @s[type=minecraft:zombie,tag=bp.unsung] run function bracken:entities/boss/unsung/tick
+execute if entity @s[type=minecraft:marker,tag=bp.unsung] if entity @p[distance=..25] run function bracken:entities/boss/unsung/misc/closing_comment

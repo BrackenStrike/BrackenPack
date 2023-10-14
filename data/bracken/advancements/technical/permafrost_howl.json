@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{bp:{id:\"permafrost_howl\"}}"
+            }
+          }
+        },
+        "damage": {
+          "blocked": false
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:player/item/permafrost_howl/hit"
+  }
+}

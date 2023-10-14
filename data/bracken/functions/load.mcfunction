@@ -45,6 +45,33 @@ scoreboard objectives add bp.poison dummy
 scoreboard objectives add bp.glacium_glider dummy
 scoreboard objectives add bp.nightfall dummy
 scoreboard objectives add bp.wither_immunity dummy 0
+scoreboard objectives add bp.perpetual_aegis dummy
+scoreboard objectives add bp.breach_factor_jump dummy
+scoreboard objectives add bp.breach_factor_float dummy
+scoreboard objectives add bp.breach_factor_cd dummy
+scoreboard objectives add bp.varsktracers dummy
+scoreboard objectives add bp.permafrost_howl dummy
+scoreboard objectives add bp.aequor_speed dummy
+scoreboard objectives add bp.aequor_haste dummy
+scoreboard objectives add bp.aequor_strength dummy
+scoreboard objectives add bp.aequor_jump_boost dummy
+scoreboard objectives add bp.aequor_regeneration dummy
+scoreboard objectives add bp.aequor_resistance dummy
+scoreboard objectives add bp.aequor_fire_resistance dummy
+scoreboard objectives add bp.aequor_water_breathing dummy
+scoreboard objectives add bp.aequor_invisibility dummy
+scoreboard objectives add bp.aequor_night_vision dummy
+scoreboard objectives add bp.aequor_health_boost dummy
+scoreboard objectives add bp.aequor_absorption dummy
+scoreboard objectives add bp.aequor_saturation dummy
+scoreboard objectives add bp.aequor_luck dummy
+scoreboard objectives add bp.aequor_slow_falling dummy
+scoreboard objectives add bp.aequor_conduit_power dummy
+scoreboard objectives add bp.aequor_dolphins_grace dummy
+scoreboard objectives add bp.aequor_hero_of_the_village dummy
+scoreboard objectives add bp.altum_archeon minecraft.used:minecraft.netherite_pickaxe
+scoreboard objectives add bp.cleaver_of_judgement dummy
+scoreboard objectives add bp.piercer_of_heavens minecraft.used:minecraft.bow
 
 #astral potion
 scoreboard objectives add bp.astral_time dummy
@@ -218,6 +245,7 @@ scoreboard players set @a bp.gold 0
 scoreboard players set @a bp.portal 0
 scoreboard players set @a bp.cooldown 0
 scoreboard players set #2 bp.var 2
+scoreboard players set #20 bp.var 20
 
 ##########   DISPLAY HEARTS   ##########
 #scoreboard objectives setdisplay list bp.health

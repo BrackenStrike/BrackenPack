@@ -24,7 +24,7 @@
     [],
     [],
     [],
-    [],
+    ["bracken:omnidrome/cyber_tree2"],
     [
       "minecraft:freeze_top_layer"
     ]
