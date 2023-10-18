@@ -1,0 +1,2 @@
+execute if score data bp.bygn_vcroy.s matches ..6 run playsound minecraft:entity.evoker.prepare_summon hostile @a[distance=..30] ~ ~ ~ 1 1
+execute if score data bp.bygn_vcroy.s matches ..6 run summon area_effect_cloud ~ ~-1.5 ~ {Radius:15f,RadiusPerTick:-0.05f,Duration:1000,Color:9811166,effects:[{id:"minecraft:slowness",amplifier:9b,duration:60,show_particles:1b}],CustomName:'{"translate":"frostlock","color":"blue","bold":true}'}
