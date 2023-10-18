@@ -1,0 +1,88 @@
+{
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [
+      {
+        "type": "minecraft:wolf",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:polar_bear",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "monster": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": []
+  },
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:iceberg_packed",
+      "minecraft:iceberg_blue"
+    ],
+    [],
+    [
+      "minecraft:ice_patch",
+      "minecraft:blue_ice"
+    ],
+    [],
+    [],
+    [],
+    ["minecraft:patch_dead_bush_2"],
+    [
+      "minecraft:patch_tall_grass_2",
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "bracken:glacium/ice_tree1",
+      "bracken:glacium/ice_tree2"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0,
+  "downfall": 0.1,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "sky_color": 0,
+    "fog_color": 5924999,
+    "water_color": 4014691,
+    "water_fog_color": 7897757,
+    "grass_color": 5074010,
+    "foliage_colour": 5074010,
+    "additions_sound": {
+      "sound": "minecraft:ambient.crimson_forest.loop",
+      "tick_chance": 0.02
+    },
+    "music": {
+      "sound": "minecraft:music.nether.crimson_forest",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop"
+  },
+  "has_precipitation": true
+}

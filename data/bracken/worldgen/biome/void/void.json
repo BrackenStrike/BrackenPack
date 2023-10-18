@@ -1,0 +1,61 @@
+{
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [],
+    "monster": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "bracken:cave",
+      "bracken:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "bracken:void/barrier"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0.95,
+  "downfall": 0.1,
+  "effects": {
+    "fog_color": 0,
+    "water_color": 0,
+    "water_fog_color": 0,
+    "grass_color": 0,
+    "sky_color": 0,
+    "foliage_colour": 0,
+    "mood_sound": {
+      "sound": "bracken:void_ambient",
+      "tick_delay": 1000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:block.end_portal.spawn",
+      "tick_chance": 0.0002
+    },
+    "music": {
+      "sound": "minecraft:music_disc.13",
+      "min_delay": 120,
+      "max_delay": 240,
+      "replace_current_music": false
+    }
+  },
+  "has_precipitation": false
+}

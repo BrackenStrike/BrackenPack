@@ -1,0 +1,89 @@
+{
+  "spawners": {
+    "water_ambient": [
+      {
+      "type": "minecraft:squid",
+      "weight": 30,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "minecraft:drowned",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 1
+    }
+    ],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:phantom",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": []
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0.95,
+  "downfall": 0.1,
+  "effects": {
+    "fog_color": 10799560,
+    "water_color": 3149898,
+    "water_fog_color": 1835840,
+    "grass_color": 668950,
+    "sky_color": 4030565,
+    "foliage_colour": 0,
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.0001428
+    },
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.underwater.loop.additions.ultra_rare",
+      "tick_chance": 0.001
+    },
+    "music": {
+      "sound": "minecraft:music.under_water",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "ambient_sound": "minecraft:ambient.underwater.loop"
+  },
+  "has_precipitation": true
+}

@@ -1,0 +1,94 @@
+{
+  "spawners": {
+    "water_ambient": [
+      
+      
+    ],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [
+      
+    ],
+    "creature": [
+      {
+        "type": "minecraft:hoglin",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "monster": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "bracken:cave",
+      "bracken:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [
+      "minecraft:desert_well"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:mushroom_island_vegetation",
+      "minecraft:brown_mushroom_taiga",
+      "minecraft:red_mushroom_taiga",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:seagrass_simple",
+      "bracken:brine/blackstone_blobs",
+      "bracken:brine/redstone_blobs",
+      "bracken:brine/rock",
+      "minecraft:kelp_cold"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0.95,
+  "downfall": 0.1,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "fog_color": 14745599,
+    "water_color": 5095618,
+    "water_fog_color": 3093076,
+    "grass_color": 2320701,
+    "sky_color": 9633746,
+    "foliage_colour": 2320701,
+    "particle": {
+      "options": {
+        "type": "minecraft:warped_spore"
+      },
+      "probability": 0.00428
+    },
+    "additions_sound": {
+      "sound": "minecraft:block.beacon.ambient",
+      "tick_chance": 0.0002
+    },
+    "music": {
+      "sound": "minecraft:music.under_water",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "ambient_sound": "minecraft:ambient.nether_wastes.loop"
+  },
+  "has_precipitation": true
+}

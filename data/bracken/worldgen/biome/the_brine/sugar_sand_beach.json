@@ -1,0 +1,127 @@
+{
+  "spawners": {
+    "water_ambient": [
+    {
+      "type": "minecraft:drowned",
+      "weight": 1,
+      "minCount": 4,
+      "maxCount": 10
+    },
+    
+      {
+        "type": "minecraft:tropical_fish",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      }
+      
+    ],
+    "ambient": [],
+    "misc": [
+      
+    ],
+    "water_creature": [
+      
+      
+    ],
+    "creature": [
+      {
+        "type": "minecraft:turtle",
+        "weight": 5,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+      "type": "minecraft:chicken",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }
+    ],
+    "monster": [
+      
+      
+      {
+        "type": "minecraft:slime",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:turtle",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "bracken:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [
+      "minecraft:desert_well"
+    ],
+    [],
+    [],
+    [
+      "minecraft:patch_sugar_cane_desert",
+      "minecraft:patch_dead_bush_2",
+      "bracken:brine/blackstone_blobs",
+      "bracken:brine/redstone_blobs",
+      "minecraft:patch_sugar_cane",
+      "minecraft:seagrass_warm",
+      "minecraft:seagrass_simple",
+      "minecraft:warm_ocean_vegetation"
+    ],
+    [],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0.95,
+  "downfall": 0.1,
+  "effects": {
+    "fog_color": 14745599,
+    "water_color": 5095618,
+    "water_fog_color": 3093076,
+    "grass_color": 2320701,
+    "sky_color": 9633746,
+    "foliage_colour": 2320701,
+    "particle": {
+      "options": {
+        "type": "minecraft:warped_spore"
+      },
+      "probability": 0.01428
+    },
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.underwater.loop.additions.ultra_rare",
+      "tick_chance": 0.001
+    },
+    "music": {
+      "sound": "minecraft:music.under_water",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "ambient_sound": "minecraft:ambient.underwater.loop"
+  },
+  "has_precipitation": true
+}

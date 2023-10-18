@@ -1,0 +1,88 @@
+{
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [],
+    "monster": [{
+      "type": "minecraft:enderman",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "minecraft:slime",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    }]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": []
+  },
+  "features": [
+    [],
+    [
+      "bracken:sanctum/gray_blobs1",
+      "bracken:sanctum/gray_blobs2",
+      "bracken:sanctum/gray_blobs3",
+      "bracken:sanctum/gray_blobs4"
+    ],
+    [
+      "minecraft:basalt_pillar"
+    ],
+    [
+      "bracken:sanctum/rubble"
+    ],
+    [
+      "bracken:sanctum/calcite_spikes"
+    ],
+    [
+      "bracken:sanctum/rubble1"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_water"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0.95,
+  "downfall": 0.1,
+  "effects": {
+    "fog_color": 15227970,
+    "water_color": 16146734,
+    "water_fog_color": 11414808,
+    "grass_color": 13882581,
+    "sky_color": 7943472,
+    "foliage_colour": 13882581,
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.218093334
+    },
+    "mood_sound": {
+      "sound": "minecraft:entity.zombie_villager.converted",
+      "tick_delay": 1000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.loop",
+      "tick_chance": 0.05
+    },
+    "music": {
+      "sound": "minecraft:music.nether.soul_sand_valley",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    }
+  },
+  "has_precipitation": false
+}

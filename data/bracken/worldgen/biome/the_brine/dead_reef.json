@@ -1,0 +1,107 @@
+{
+  "spawners": {
+    "water_ambient": [{
+      "type": "minecraft:drowned",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "minecraft:pufferfish",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    }
+    
+      
+      
+      
+    ],
+    "ambient": [
+    ],
+    "misc": [],
+    "water_creature": [
+      
+    ],
+    "creature": [{
+      "type": "minecraft:chicken",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }],
+    "monster": [
+    {
+      "type": "minecraft:pufferfish",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    }]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "bracken:cave",
+      "bracken:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    ["bracken:brine/deadrock"],
+    ["bracken:brine/dead"],
+    [
+      "minecraft:patch_tall_grass_2",
+      "minecraft:flower_swamp",
+      "minecraft:patch_sugar_cane_desert",
+
+      "minecraft:patch_grass_jungle",
+      "minecraft:seagrass_simple",
+      "bracken:brine/prismarine_blobs2"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0.95,
+  "downfall": 0.1,
+  "effects": {
+    "fog_color": 14745599,
+    "water_color": 5095618,
+    "water_fog_color": 3093076,
+    "grass_color": 2320701,
+    "sky_color": 9633746,
+    "foliage_colour": 2320701,
+    "particle": {
+      "options": {
+        "type": "minecraft:warped_spore"
+      },
+      "probability": 0.02428
+    },
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.underwater.loop.additions",
+      "tick_chance": 0.02
+    },
+    "music": {
+      "sound": "bracken:brine",
+      "min_delay": 1200,
+      "max_delay": 2400,
+      "replace_current_music": true
+    },
+    "ambient_sound": "minecraft:ambient.underwater.loop"
+  },
+  "has_precipitation": true
+}

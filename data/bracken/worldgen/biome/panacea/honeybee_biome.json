@@ -1,0 +1,74 @@
+{
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [
+      {
+        "type": "minecraft:bee",
+        "weight": 5,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": []
+  },
+  "features": [
+    [
+      "bracken:panacea/honey_pile"
+    ],
+    ["bracken:panacea/honey_tree"],
+    [
+      "bracken:panacea/comb_column"
+    ],
+    [
+      "bracken:panacea/honey_pool"
+    ],
+    ["bracken:panacea/shroom_blobs"],
+    ["bracken:panacea/coal_blobs"],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0.95,
+  "downfall": 0.1,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "fog_color": 15132551,
+    "water_color": 11509077,
+    "water_fog_color": 11503445,
+    "grass_color": 7238193,
+    "sky_color": 14147765,
+    "foliage_color": 9653504,
+    "particle": {
+      "options": {
+        "type": "minecraft:sneeze"
+      },
+      "probability": 0.0001428
+    },
+    "additions_sound": {
+      "sound": "minecraft:entity.parrot.ambient",
+      "tick_chance": 0.0002
+    },
+    "music": {
+      "sound": "minecraft:music.creative",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    }
+  },
+  "has_precipitation": true
+}

@@ -1,0 +1,92 @@
+{
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [
+    ],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 120,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "monster": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    [],
+    [
+      "minecraft:flower_swamp",
+      "bracken:pax/peace_tree1",
+      "bracken:pax/peace_tree2",
+      "bracken:pax/cloud_tree1",
+      "bracken:pax/cloud_tree2",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_melon",
+      "minecraft:spring_water"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0.95,
+  "downfall": 0.1,
+  "effects": {
+    "water_color": 11851209,
+    "water_fog_color": 2173534,
+    "fog_color": 14146776,
+    "sky_color": 13361126,
+    "grass_color": 15588262,
+    "foliage_color": 16777215,
+    "particle": {
+      "options": {
+        "type": "minecraft:falling_nectar"
+      },
+      "probability": 0.00001
+    },
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "music": {
+      "sound": "bracken:pax",
+      "min_delay": 1200,
+      "max_delay": 2400,
+      "replace_current_music": false
+    }
+  },
+  "has_precipitation": false
+}
