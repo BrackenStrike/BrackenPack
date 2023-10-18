@@ -1,0 +1,90 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_shovel"
+    },
+    "title": {
+      "translate": "Expert Spelunker"
+    },
+    "description": {
+      "translate": "Visit every Underdark biome"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "bracken:the_underdark/enter_underdark",
+  "criteria": {
+    "bracken:biome1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "bracken:the_underdark/eroded_basin"
+          }
+        }
+      }
+    },
+    "bracken:biome2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "bracken:the_underdark/titan_dripstone_cavern"
+          }
+        }
+      }
+    },
+    "bracken:biome3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "bracken:the_underdark/petrified_forest"
+          }
+        }
+      }
+    },
+    "bracken:biome4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "bracken:the_underdark/ruby_fungi_forest"
+          }
+        }
+      }
+    },
+    "bracken:biome5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "bracken:the_underdark/crystal_caves"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bracken:biome1"
+    ],
+    [
+      "bracken:biome2"
+    ],
+    [
+      "bracken:biome3"
+    ],
+    [
+      "bracken:biome4"
+    ],
+    [
+      "bracken:biome5"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "parent": "bracken:the_underdark/enter_underdark",
+    "display": {
+        "title": {
+            "translate": "Sedimentary My Dear Watson"
+        },
+        "description": {
+            "translate": "Enter the titan dripstone cavern biome",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:dripstone_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:the_underdark/gravel1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "bracken:the_underdark/titan_dripstone_cavern"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_underdark/gravel1"
+        ]
+    ]
+}

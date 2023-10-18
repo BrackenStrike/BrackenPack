@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:nether/create_full_beacon",
+    "display": {
+        "title": {
+            "translate": "Snowfall"
+        },
+        "description": {
+            "translate": "Survive standing on an activated beacon. Crash through to Glacium.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:snow_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:gla1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:glacium"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:gla1"
+        ]
+    ]
+}

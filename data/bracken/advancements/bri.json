@@ -1,0 +1,37 @@
+{
+    "parent": "minecraft:adventure/root",
+    "display": {
+        "title": {
+            "translate": "Out of the Blue, Into the Black"
+        },
+        "description": {
+            "translate": "Swim to the bottom of a whilrpool and enter the Brine",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:tube_coral_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:bri1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:the_brine"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:bri1"
+        ]
+    ]
+}
+

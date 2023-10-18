@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "translate": "The Faewild"
+        },
+        "description": {
+            "translate": "O Brave New World!",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:twisting_vines"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "bracken:textures/gui/advancements/backgrounds/the_faewild.png"
+    },
+    "criteria": {
+        "bracken:the_faewild/fae1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:the_faewild"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_faewild/fae1"
+        ]
+    ]
+}

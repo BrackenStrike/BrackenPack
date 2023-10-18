@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "translate": "The Brine"
+        },
+        "description": {
+            "translate": "The outermost realm",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:nether_wart",
+            "nbt": "{CustomModelData:888506}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "bracken:textures/gui/advancements/backgrounds/the_brine.png"
+    },
+    "criteria": {
+        "bracken:the_brine/bri1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:the_brine"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_brine/bri1"
+        ]
+    ]
+}

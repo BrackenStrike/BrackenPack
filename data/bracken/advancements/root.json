@@ -1,0 +1,28 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "translate": "A Sincere Thanks."
+        },
+        "description": {
+            "translate": "Thanks for downloading the BrackenPack. Have fun!"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "bracken:textures/gui/advancements/backgrounds/root.png"
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "experience": 5,
+        "function": "bracken:set_score"
+    }
+}

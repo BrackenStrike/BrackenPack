@@ -1,0 +1,38 @@
+{
+  "parent": "bracken:the_faewild/darkthunder",
+  "display": {
+    "title": {
+      "translate": "Worst of Nightmares"
+    },
+    "description": {
+      "translate": "Vanquish a knightmare",
+      "color": "green"
+    },
+    "icon": {
+      "item": "minecraft:black_bed"
+  },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bracken:the_faewild/knight1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{DeathLootTable:\"bracken:entity/the_faewild/knight\"}",
+          "location": {
+            "dimension": "bracken:the_faewild"
+          }
+        }
+      }
+    }
+},
+  "requirements": [
+    [
+      "bracken:the_faewild/knight1"
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "parent": "bracken:sanctum/voidship",
+    "display": {
+        "title": {
+            "translate": "Nothing here."
+        },
+        "description": {
+            "translate": "Slip beneath worlds. Forget what you see there.",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:barrier"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:voi1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:void"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:voi1"
+        ]
+    ]
+}

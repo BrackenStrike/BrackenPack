@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:nether/return_to_sender",
+    "display": {
+        "title": {
+            "translate": "Synthwave Symphony"
+        },
+        "description": {
+            "translate": "Place an end crystal in the nether and sprint nearby to enter the Omnidrome",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:lime_stained_glass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:omn1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:omnidrome"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:omn1"
+        ]
+    ]
+}

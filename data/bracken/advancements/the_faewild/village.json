@@ -1,0 +1,43 @@
+{
+    "parent": "bracken:the_faewild/enter_the_faewild",
+    "display": {
+        "title": {
+            "translate": "Good and Ill Together"
+        },
+        "description": {
+            "translate": "Discover the fae village",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:warped_door"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:the_faewild/village1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:the_faewild",
+                                "structure": "bracken:fae_village"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_faewild/village1"
+        ]
+    ]
+}

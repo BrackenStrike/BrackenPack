@@ -1,0 +1,42 @@
+{
+    "parent": "bracken:the_brine/enter_the_brine",
+    "display": {
+        "title": {
+            "translate": "Advanced Darkness"
+        },
+        "description": {
+            "translate": "Enter the blackwater depths biome",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:black_concrete"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:the_brine/blackwater1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "bracken:the_brine/blackwater_depths"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_brine/blackwater1"
+        ]
+    ]
+}

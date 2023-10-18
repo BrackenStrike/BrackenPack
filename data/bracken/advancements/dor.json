@@ -1,0 +1,36 @@
+{
+    "parent": "bracken:pax",
+    "display": {
+        "title": {
+            "translate": "Interdimensional Criminal"
+        },
+        "description": {
+            "translate": "Get stuck in Dormis. Not really the wisest thing to do. ",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:dor1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:dormis"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:dor1"
+        ]
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:adventure/root",
+    "display": {
+        "title": {
+            "translate": "Diggy Diggy Hole"
+        },
+        "description": {
+            "translate": "Dig down to the Underdark",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:deepslate"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:und1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:the_underdark"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:und1"
+        ]
+    ]
+}

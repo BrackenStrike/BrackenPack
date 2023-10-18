@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "translate": "The Underdark"
+        },
+        "description": {
+            "translate": "A world beneath",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:netherite_pickaxe",
+            "nbt": "{CustomModelData:888501,Enchantments:[{}]}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "bracken:textures/gui/advancements/backgrounds/underdark.png"
+    },
+    "criteria": {
+        "bracken:the_underdark/und2": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:the_underdark"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_underdark/und2"
+        ]
+    ]
+}

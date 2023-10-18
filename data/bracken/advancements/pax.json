@@ -1,0 +1,37 @@
+{
+    "parent": "bracken:fae",
+    "display": {
+        "title": {
+            "translate": "Pax Aeterna"
+        },
+        "description": {
+            "translate": "Ascend further to the Pax dimesion",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:MHF_Sheep}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:pax1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:pax"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:pax1"
+        ]
+    ]
+}

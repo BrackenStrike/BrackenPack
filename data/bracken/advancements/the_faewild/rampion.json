@@ -1,0 +1,50 @@
+{
+    "parent": "bracken:the_faewild/enter_the_faewild",
+    "display": {
+        "title": {
+            "translate": "Blind Love"
+        },
+        "description": {
+            "translate": "Obtain the enchanting table from the rampion tower",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:the_faewild/rampion1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:the_faewild",
+                                "structure": "bracken:fae_rampion_tower"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:enchanting_table"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_faewild/rampion1"
+        ]
+    ]
+}

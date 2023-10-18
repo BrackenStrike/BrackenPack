@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:adventure/throw_trident",
+    "display": {
+        "title": {
+            "translate": "Primordial Paradise"
+        },
+        "description": {
+            "translate": "Get close to a creeper whilst wearing a creeper head",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:moss_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:pan1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:panacea"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:pan1"
+        ]
+    ]
+}

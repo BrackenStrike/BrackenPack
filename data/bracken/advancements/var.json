@@ -1,0 +1,36 @@
+{
+    "parent": "minecraft:adventure/throw_trident",
+    "display": {
+        "title": {
+            "translate": "Cherenkovicious"
+        },
+        "description": {
+            "translate": "Use the Lightning Bolt book. Arrive somewhere else???",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:copper_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:fae1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:varskspace"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:fae1"
+        ]
+    ]
+}

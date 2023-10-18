@@ -1,0 +1,51 @@
+{
+    "parent": "bracken:the_underdark/unsung",
+    "display": {
+        "title": {
+            "translate": "A Long Way from Pax"
+        },
+        "description": {
+            "translate": "Get the Paxmaker Sword",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{CustomModelData:888501}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:the_underdark/paxmaker1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:the_underdark"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_sword"
+                        ],
+                        "nbt": "{CustomModelData:888501}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_underdark/paxmaker1"
+        ]
+    ]
+}

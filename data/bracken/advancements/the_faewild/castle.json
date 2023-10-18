@@ -1,0 +1,43 @@
+{
+    "parent": "bracken:the_faewild/enter_the_faewild",
+    "display": {
+        "title": {
+            "translate": "More than Kin, Less than Kind"
+        },
+        "description": {
+            "translate": "Journey to the fae castle",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:verdant_froglight"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:the_faewild/castle1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:the_faewild",
+                                "structure": "bracken:fae_castle"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_faewild/castle1"
+        ]
+    ]
+}

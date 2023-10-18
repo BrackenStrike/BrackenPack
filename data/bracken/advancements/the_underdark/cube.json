@@ -1,0 +1,29 @@
+{
+    "parent": "bracken:the_underdark/mineshaft",
+    "display": {
+        "title": {
+            "translate": "Erased from Infamy"
+        },
+        "description": {
+            "translate": "Approach the talking obsidian cube. What could go wrong?",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:the_underdark/unsung1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_underdark/unsung1"
+        ]
+    ]
+}

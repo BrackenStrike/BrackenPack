@@ -1,0 +1,51 @@
+{
+    "parent": "bracken:the_brine/weakness",
+    "display": {
+        "title": {
+            "translate": "Burning Dispassion"
+        },
+        "description": {
+            "translate": "Destroy the burning heart at the center of the station. Collect the fragment as a souvenir",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:gold_block",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:the_brine/station1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:the_brine"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gold_block"
+                        ],
+                        "nbt": "{Enchantments:[{}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_brine/station1"
+        ]
+    ]
+}
