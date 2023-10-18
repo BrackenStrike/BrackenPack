@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "H"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:emerald"
+        },
+        "H": {
+            "item": "minecraft:honey_bottle"
+        }
+    },
+    "result": {
+        "item": "minecraft:experience_bottle",
+        "count": 1
+    }
+}
