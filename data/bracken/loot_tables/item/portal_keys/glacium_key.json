@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{bp.portal_key:5b,CustomModelData:888505}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "Glacium Portal Key",
+                  "color": "aqua",
+                  "italic": true,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "Unlocks a door to somewhere...",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

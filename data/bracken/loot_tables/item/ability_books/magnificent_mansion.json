@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Magnificent Mansion",
+                "color": "light_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "consumes 20 levels to initialize",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "consumes 2 levels after initialization",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{bp:{id:\"magnificent_mansion\"},CustomModelData:888519,Enchantments:[{}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:888501}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Creeper Horn",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "Calls all nearby creepers.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{instrument:\"minecraft:ponder_goat_horn\",bp:{id:\"creeper_horn\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

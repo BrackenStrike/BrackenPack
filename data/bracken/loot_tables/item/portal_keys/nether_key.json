@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{bp.portal_key:2b,CustomModelData:888506}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "Nether Portal Key",
+                  "color": "red",
+                  "italic": true,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "Unlocks a door to somewhere...",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

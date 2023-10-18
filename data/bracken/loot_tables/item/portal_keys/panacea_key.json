@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{bp.portal_key:7b,CustomModelData:888509}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "Panacea Portal Key",
+                  "color": "dark_green",
+                  "italic": true,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "Unlocks a door to somewhere...",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:enderman_spawn_egg",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:2,Enchantments:[{}],CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-10,Operation:0,UUID:[I;1113027975,-644395143,-1346952979,-351466035]},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-.01,Operation:0,UUID:[I;-674138169,-908574571,-1952283716,-248487679]},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-10,Operation:0,UUID:[I;1282424771,-572633220,-1241937806,-241423645]}],EntityTag:{id:\"minecraft:area_effect_cloud\",Particle:\"squid_ink\",CustomNameVisible:1b,RadiusPerTick:.1f,Duration:600,Effects:[{Id:4b,Amplifier:63b,Duration:100,ShowParticles:0b},{Id:14b,Amplifier:1b,Duration:100,ShowParticles:0b},{Id:15b,Amplifier:1b,Duration:100,ShowParticles:0b},{Id:16b,Amplifier:1b,Duration:100,ShowParticles:0b},{Id:17b,Amplifier:63b,Duration:100,ShowParticles:0b},{Id:20b,Amplifier:63b,Duration:100,ShowParticles:0b}],CustomName:'{\"translate\":\"DROP OF VOID\",\"bold\":true}'}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "Void Bomb",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "A vague feeling tells you not to use this.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{bp.portal_key:9b,CustomModelData:888512}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "Underdark Portal Key",
+                  "color": "gray",
+                  "italic": true,
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "Unlocks a door to somewhere...",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

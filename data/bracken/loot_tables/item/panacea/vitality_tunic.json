@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AttributeModifiers:[{Amount:0.2d,AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Operation:2,Slot:\"chest\",UUID:[I;-1556938542,-381664793,-1102686690,-60608705]}],CustomModelData:888502,display:{color:1486853}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "Vitality Tunic",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

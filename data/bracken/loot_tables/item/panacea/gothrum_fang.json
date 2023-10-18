@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:888501}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Gothrum Fang",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "A make-do weapon.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{bp:{id:\"gothrum_fang\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

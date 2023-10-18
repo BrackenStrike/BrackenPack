@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_wart",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:888511}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Voidfish Venom",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{bp.potion:8b,bp:{id:\"potion_recipe\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

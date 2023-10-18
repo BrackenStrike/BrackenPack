@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:888501,bp.species_book:10b,pages:['[\"\",{\"translate\":\"Click to join a species. This book is a one-time use.\",\"bold\":true},{\"translate\":\"\\\\n\\\\n\",\"color\":\"black\"},{\"translate\":\"- \",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.automech\"}},{\"translate\":\"Automech\",\"color\":\"green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.automech\"}},{\"translate\":\" -\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.automech\"}},{\"translate\":\"\\\\n\\\\n\"},{\"translate\":\"- \",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.dweller\"}},{\"translate\":\"Dweller\",\"color\":\"dark_gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.dweller\"}},{\"translate\":\" -\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.dweller\"}},{\"translate\":\"\\\\n\\\\n\"},{\"translate\":\"- \",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.enderling\"}},{\"translate\":\"Enderling\",\"color\":\"dark_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.enderling\"}},{\"translate\":\" -\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.enderling\"}},{\"translate\":\"\\\\n\\\\n\"},{\"translate\":\"- \",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.faefolk\"}},{\"translate\":\"Faefolk\",\"color\":\"blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.faefolk\"}},{\"translate\":\" -\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.faefolk\"}},{\"translate\":\"\\\\n\\\\n\"},{\"translate\":\"- \",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.frostkin\"}},{\"translate\":\"Frostkin\",\"color\":\"aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.frostkin\"}},{\"translate\":\" -\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.frostkin\"}},{\"translate\":\"\\\\n\\\\n\"}]','[\"\",{\"translate\":\"- \",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.human\"}},{\"translate\":\"Human\",\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.human\"}},{\"translate\":\" -\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.human\"}},{\"translate\":\"\\\\n\\\\n\",\"color\":\"reset\"},{\"translate\":\"- \",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.hunter\"}},{\"translate\":\"Hunter\",\"color\":\"dark_green\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.hunter\"}},{\"translate\":\" -\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.hunter\"}},{\"translate\":\"\\\\n\\\\n\"},{\"translate\":\"- \",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.nereid\"}},{\"translate\":\"Nereid\",\"color\":\"dark_blue\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.nereid\"}},{\"translate\":\" -\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.nereid\"}},{\"translate\":\"\\\\n\\\\n\"},{\"translate\":\"- \",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.netherkin\"}},{\"translate\":\"Netherkin\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.netherkin\"}},{\"translate\":\" -\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.netherkin\"}},{\"translate\":\"\\\\n\\\\n\"},{\"translate\":\"- \",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.outlander\"}},{\"translate\":\"Outlander\",\"color\":\"gray\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.outlander\"}},{\"translate\":\" -\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.outlander\"}},{\"translate\":\"\\\\n\\\\n\"},{\"translate\":\"- \",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.realmkeeper\"}},{\"translate\":\"Realmkeeper\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.realmkeeper\"}},{\"translate\":\" -\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.realmkeeper\"}},{\"translate\":\"\\\\n\\\\n\"},{\"translate\":\"- \",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.villain\"}},{\"translate\":\"Villain\",\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.villain\"}},{\"translate\":\" -\",\"color\":\"reset\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.villain\"}}]'],title:\"BOOK OF REFORGED ANCESTRY\",author:\"The Provider\",generation:3}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": [
+                {
+                  "translate": "Species Beginner Book",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "Use to join a species.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

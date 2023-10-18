@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:slime_spawn_egg",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:2,Enchantments:[{}],CustomModelData:888502,EntityTag:{id:\"minecraft:vex\",CustomNameVisible:1b,Silent:1b,HandItems:[{id:\"minecraft:ender_eye\",Count:1b,tag:{CustomModelData:888503}},{id:\"minecraft:ender_eye\",Count:1b,tag:{CustomModelData:888503}}],active_effects:[{id:\"minecraft:invisibility\",amplifier:1b,duration:-1,show_particles:0b}],PersistenceRequired:1b,LifeTicks:200000,Attributes:[{Name:generic.follow_range,Base:70},{Name:generic.attack_damage,Base:0}],Tags:[\"bp.construct\",\"bp.entity\"],CustomName:'{\"text\":\"Construct\",\"bold\":true}'}}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "Ruination Capsule",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "translate": "A part still lives.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

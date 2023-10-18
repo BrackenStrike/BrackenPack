@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:888502}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Yakitubba Hide",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "Flesh of madness.",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{bp:{id:\"yakitubba_hide\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

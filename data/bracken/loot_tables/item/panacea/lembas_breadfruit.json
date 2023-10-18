@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:888501}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Lembas Breadfruit",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "How many did you eat?",
+                  "color": "gray",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{bp:{id:\"lembas_breadfruit\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
