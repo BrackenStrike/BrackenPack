@@ -1,0 +1,51 @@
+{
+    "parent": "bracken:glacium/fatigue",
+    "display": {
+        "title": {
+            "translate": "Vestige of Vanity"
+        },
+        "description": {
+            "translate": "Destroy the frozen heart at the top of the watchtower. Collect the fragment as a souvenir",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:ice",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:glacium/heart1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:glacium"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:ice"
+                        ],
+                        "nbt": "{Enchantments:[{}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:glacium/heart1"
+        ]
+    ]
+}
