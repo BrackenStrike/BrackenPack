@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "head_hit": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "head": {
+                "nbt": "{bp:{id:\"fragile\"}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "bracken:item/fragile/head"
+    }
+  }
+  

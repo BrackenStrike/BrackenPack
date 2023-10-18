@@ -1,0 +1,29 @@
+{
+    "parent": "bracken:panacea/enter_panacea",
+    "display": {
+        "title": {
+            "translate": "A Sinking Feeling!"
+        },
+        "description": {
+            "translate": "Step on quicksand",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:mud"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:panacea/quicksand1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "bracken:panacea/quicksand1"
+        ]
+    ]
+}

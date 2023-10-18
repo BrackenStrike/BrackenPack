@@ -1,0 +1,30 @@
+{
+  "parent": "bracken:panacea/tree",
+  "display": {
+    "title": {
+      "translate": "Sleeping Giant"
+    },
+    "description": {
+      "translate": "Awaken the Sporangium from its dormant state",
+      "color": "green"
+    },
+    "icon": {
+      "item": "minecraft:slime_ball"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bracken:panacea/sporangium1": {
+        "trigger": "minecraft:impossible"
+    }
+},
+  "requirements": [
+    [
+      "bracken:panacea/sporangium1"
+    ]
+  ]
+}
+

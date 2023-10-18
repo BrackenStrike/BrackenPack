@@ -1,0 +1,31 @@
+{
+    "parent": "bracken:panacea/rain",
+    "display": {
+        "title": {
+            "translate": "Gastor Blast!"
+        },
+        "description": {
+            "translate": "Make a leaf cocoon with a perrterror gastor",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:888520}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:panacea/gastor1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "bracken:panacea/gastor1"
+        ]
+    ]
+}
+

@@ -1,0 +1,29 @@
+{
+    "parent": "bracken:panacea/enter_panacea",
+    "display": {
+        "title": {
+            "translate": "Rain of Terror"
+        },
+        "description": {
+            "translate": "Expereince rainfall in Panacea",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:panacea/rain1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "bracken:panacea/rain1"
+        ]
+    ]
+}

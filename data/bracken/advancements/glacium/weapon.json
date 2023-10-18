@@ -1,0 +1,52 @@
+{
+    "parent": "bracken:glacium/heart",
+    "display": {
+        "title": {
+            "translate": "Glass Cannon"
+        },
+        "description": {
+            "translate": "Find a frost weapon",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:diamond_axe",
+            "nbt": "{CustomModelData:888502,Enchantments:[{}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:glacium/weapon1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:glacium"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_sword",
+                            "minecraft:diamond_axe"
+                        ],
+                        "nbt": "{CustomModelData:888502}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:glacium/weapon1"
+        ]
+    ]
+}

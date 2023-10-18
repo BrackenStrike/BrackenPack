@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "translate": "Sanctum"
+        },
+        "description": {
+            "translate": "A mostly abandoned dimension",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:leather_chestplate",
+            "nbt": "{CustomModelData:888503,Enchantments:[{}]}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "bracken:textures/gui/advancements/backgrounds/sanctum.png"
+    },
+    "criteria": {
+        "bracken:sanctum/san2": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:sanctum"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:sanctum/san2"
+        ]
+    ]
+}

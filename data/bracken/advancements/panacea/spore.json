@@ -1,0 +1,51 @@
+{
+    "parent": "bracken:panacea/enter_panacea",
+    "display": {
+        "title": {
+            "translate": "Keeping Spore"
+        },
+        "description": {
+            "translate": "Obtain a panaspore",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:melon_seeds",
+            "nbt": "{CustomModelData:888502}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:panacea/spore1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:panacea"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:melon_seeds"
+                        ],
+                        "nbt": "{CustomModelData:888502}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:panacea/spore1"
+        ]
+    ]
+}

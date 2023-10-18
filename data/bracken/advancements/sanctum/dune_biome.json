@@ -1,0 +1,36 @@
+{
+    "parent": "bracken:sanctum/enter_sanctum",
+    "display": {
+        "title": {
+            "translate": "Vitrified Lands"
+        },
+        "description": {
+            "translate": "Enter the dark soot dunes biome",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:calcite"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:sanctum/dune_biome1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biome": "bracken:sanctum/dark_soot_dunes"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:sanctum/dune_biome1"
+        ]
+    ]
+}

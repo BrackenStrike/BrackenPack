@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "legs_hit": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "legs": {
+                "nbt": "{bp:{id:\"fragile\"}}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "bracken:item/fragile/legs"
+    }
+  }
+  

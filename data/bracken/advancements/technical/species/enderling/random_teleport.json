@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"bp.enderling\"]}"
+        },
+        "item": {
+          "items": [
+            "minecraft:chorus_fruit"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:player/species/enderling/random_teleport"
+  }
+}

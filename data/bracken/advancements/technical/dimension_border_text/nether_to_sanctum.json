@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "the_nether",
+                        "position": {
+                            "y": {
+                                "min": -10,
+                                "max": 15
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:dimension_crossing/first_time_text/nether_to_sanctum"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{bp.potion:104b, bp:[{greed_duration:2b},{greed_amplifier:0b}]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/potion/greed/2_0_greed"
+    }
+}

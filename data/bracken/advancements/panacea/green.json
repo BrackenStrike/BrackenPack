@@ -1,0 +1,77 @@
+{
+  "parent": "bracken:panacea/crafter",
+  "display": {
+    "title": {
+      "translate": "Symbiosis"
+    },
+    "description": {
+      "translate": "Collect and wear all pieces of vitality armor",
+      "color": "green"
+    },
+    "icon": {
+      "item": "minecraft:leather_chestplate",
+      "nbt": "{CustomModelData:888502}"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bracken:panacea/green1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "legs": {
+                  "items": [
+                    "minecraft:leather_leggings"
+                  ],
+                  "nbt": "{CustomModelData:888502}"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "items": [
+                    "minecraft:leather_boots"
+                  ],
+                  "nbt": "{CustomModelData:888502}"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "items": [
+                    "minecraft:leather_chestplate"
+                  ],
+                  "nbt": "{CustomModelData:888502}"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bracken:panacea/green1"
+    ]
+  ]
+}

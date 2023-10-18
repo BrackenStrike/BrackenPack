@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{bp.potion:102b, bp:[{astral:2b}]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/potion/astral_projection/2_astral"
+    }
+}

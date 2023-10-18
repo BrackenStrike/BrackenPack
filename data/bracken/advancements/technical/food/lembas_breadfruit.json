@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{bp:{id:\"lembas_breadfruit\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:player/food/lembas_breadfruit"
+  }
+}

@@ -1,0 +1,57 @@
+{
+    "parent": "bracken:glacium/enter_glacium",
+    "display": {
+        "title": {
+            "translate": "Wither Water"
+        },
+        "description": {
+            "translate": "Submerge yourself into the chilly Glacium waters",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:glacium/water1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "effects": {
+                                "minecraft:wither": {}
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:glacium",
+                                "block": {
+                                    "blocks": [
+                                        "minecraft:water"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:glacium/water1"
+        ]
+    ]
+}

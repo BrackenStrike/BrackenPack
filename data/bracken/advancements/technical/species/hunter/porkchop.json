@@ -1,0 +1,21 @@
+{
+  "parent": "bracken:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "team": "Hunter"
+        },
+        "item": {
+          "items": [
+            "minecraft:porkchop"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:player/species/hunter/porkchop"
+  }
+}

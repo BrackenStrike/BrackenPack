@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{bp:{id:\"yakitubba_hide\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:player/food/yakitubba_hide"
+  }
+}

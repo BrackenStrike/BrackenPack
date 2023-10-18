@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "weapon_hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "nbt": "{bp:{id:\"fragile\"}}"
+            }
+          }
+        },
+        "entity": []
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:item/fragile/weapon_hit"
+  }
+}
