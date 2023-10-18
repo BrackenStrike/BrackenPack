@@ -1,0 +1,972 @@
+{
+# The Bracken Pack Language File
+# Translator: Arnold_Rynux
+# Datapack version: v92
+
+# The Bracken Pack 语言文件
+# 译者: Arnold_Rynux Eddy
+# 数据包版本: v92
+
+# Dimensions and pax portal #
+# 维度和天境传送门 #
+
+    # Dimensions #
+    # 维度 #
+        "Pax": "天境",
+        "The Faewild": "仙灵荒野",
+        "Overworld": "主世界",
+        "The Underdark": "幽暗地域",
+        "The Nether": "下界",
+        "Sanctum": "遗忘深渊",
+        "Void": "虚无之地",
+        "The End": "末地",
+        "Dormis": "梦境之狱",
+        "Glacium": "极寒冰川",
+        "Omnidrome": "全位领域",
+        "Panacea": "万灵之地",
+        "The Brine": "盐海",
+        "Varskspace": "万象空间",
+    
+    # Crossing #
+    # 跨纬度 #
+        "You are approaching a border between dimensions for the first time.": "首次靠近维度间的边界！",
+        "Look into the top surface of an activated conduit to arrive in the Overworld!": "看着已激活的潮涌核心顶部以到达主世界！",
+        "Look into the top surface of an activated conduit to arrive in the Brine!": "看着已激活的潮涌核心顶部以到达盐海！",
+        "Venture deeper and you will arrive in the Faewild!": "继续向下将到达仙灵荒野！",
+        "Venture deeper and you will arrive in the Overworld!": "继续向下将到达主世界！",
+        "Venture deeper and you will arrive in the Underdark!": "继续向下将到达幽暗地域！",
+        "Venture deeper and you will arrive in the Nether!": "继续向下将到达下界！",
+        "Venture deeper and you will arrive in Sanctum!": "继续向下将到达遗忘深渊！",
+        "Venture deeper and you will arrive in the Void!": "继续向下将到达虚无之地！",
+
+        "Venture higher and you will arrive in Pax!": "继续向上将到达天境！",
+        "Venture higher and you will arrive in the Faewild!": "继续向上将到达仙灵荒野！",
+        "Venture higher and you will arrive in the Overworld!": "继续向上将到达主世界！",
+        "Venture higher and you will arrive in the Underdark!": "继续向上将到达幽暗地域！",
+        "Venture higher and you will arrive in the Nether!": "继续向上将到达下界！", 
+
+        "Dormis travel loading...": "梦境之狱加载中...",
+        "A cage in Dormis has been loaded...": "梦境之狱牢笼已加载...",
+        "§a§k ashfdjkl §r§a[_MAIN_] OMNIDROME SPAWN LOADED §kashfdjkl": "§a§k ashfdjkl §r§a[_MAIN_] 全位领域已加载 §kashfdjkl",
+        "Brine travel loading...": "盐海加载中...",
+
+    # Portal keys #
+    # 传送门钥匙 #
+        "Unlocks a door to somewhere...": "解锁通向某处的门...",
+
+        "Overworld Portal Key": "主世界钥匙",
+        "Panacea Portal Key": "万灵之地钥匙",
+        "Brine Portal Key": "盐海钥匙",
+        "Dormis Portal Key": "梦境之狱钥匙",
+        "End Portal Key": "末地钥匙",
+        "Faewild Portal Key": "仙灵荒野钥匙",
+        "Glacium Portal Key": "极寒冰川钥匙",
+        "Nether Portal Key": "下界钥匙",
+        "Omnidrome Portal Key": "全位领域钥匙",
+        "Pax Portal Key": "天域钥匙",
+        "Sanctum Portal Key": "遗忘深渊钥匙",
+        "Underdark Portal Key": "幽暗地域钥匙",
+        "Void Portal Key": "虚无之地钥匙",
+        "Varskspace Portal Key": "万象空间钥匙",
+
+    # Pax portal #
+    # 天境传送门 #
+        "The portal has been activated.": "传送门已激活",
+        "The portal has been deactivated.": "传送门已关闭",
+
+        "Portal": "传送门",
+        "Keys": "钥匙",
+
+# Advancements #
+# 成就 #
+
+    # Pax #
+    # 天境 #
+        "Pax Aeterna": "永恒天境",
+        "Ascend further to the Pax dimesion":"扶摇而上，直达天境",
+
+    # The Faewild #
+    # 仙灵荒野 #
+        "Castles in the Sky": "空中城堡",
+        "Climb up to the Faewild": "踏足仙灵荒野",
+        
+        "More than Kin, Less than Kind": "亲上稍亲，天性不近",
+        "Journey to the fae castle": "到达仙灵城堡",
+
+        "Shadow of a Dream": "幻梦之影",
+        "Enter the darkthunder thicket biome": "进入暗雷树林生物群落",
+
+        "Past is Prologue": "凡是过往，皆为序章",
+        "Enter the dreamfall dells biome": "进入梦落幽谷生物群落",
+
+        "O Brave New World!": "啊，美丽新世界！",
+
+        "Worst of Nightmares": "最糟糕的梦魇",
+        "Vanquish a knightmare": "战胜梦魇骑士",
+
+        "Smooth Runs the Water": "静水流深",
+        "Reach the fae pool": "到达仙灵之池",
+
+        "Blind Love": "盲目的爱",
+        "Obtain the enchanting table from the rampion tower": "在铃草之塔获得附魔台",
+
+        "All the World's a Stage": "世界是个舞台",
+        "Visit the fae theatre": "到达仙灵剧院",
+
+        "Good and Ill Together": "吉凶交织",
+        "Discover the fae village": "发现仙灵村庄",
+
+    # Overworld #
+    # 主世界 #
+
+    # The Underdark #
+    # 幽暗地域 #
+        "Diggy Diggy Hole": "挖个大洞",
+        "Dig down to the Underdark": "向下挖，直到幽暗地域",
+
+        "Expert Spelunker": "探洞专家",
+        "Visit every Underdark biome": "到达幽暗地域的所有生物群落",
+
+        "Crystal Clear": "晶莹剔透",
+        "Enter the crystal caves biome": "到达水晶洞穴生物群落",
+
+        "Erased from Infamy": "抹去骂名",
+        "Approach the talking obsidian cube. What could go wrong?": "靠近会说话的黑曜石立方，会有什么问题吗？",
+
+        "A world beneath": "一个地下世界",
+
+        "Swept Away": "一扫而空",
+        "Enter the eroded basin biome": "到达侵蚀盆地生物群落",
+
+        "Humongous Fungus Among Us": "人间巨菇",
+        "Enter the ruby fungi forest biome": "到达红蘑菇林生物群落",
+
+        "Heavier Than Air": "重于鸿毛",
+        "Walk into a toxic gas cloud": "走进一片毒云",
+
+        "Sedimentary My Dear Watson": "沉积如山",
+        "Enter the titan dripstone cavern biome": "到达巨型滴水石洞生物群落",
+
+        "What? Why?": "什么？为什么？",
+        "Find a lost miner. Then punch them for some reason": "找到一名迷失矿工，然后出于某种原因揍他一拳",
+
+        "Why Twice?": "“再”？",
+        "Discover the twice abandoned mineshaft": "发现再弃矿井",
+
+        "A Long Way from Pax": "天境路漫",
+        "Get the Paxmaker Sword": "获得创世天剑",
+
+        "Sunken Landmass": "沉沦大陆",
+        "Enter the petrified forest biome": "到达石化森林生物群落",
+
+        "Mitosis Madness": "疯狂分裂",
+        "Slay a creature infected with polyfolus. Watch out for if it duplicates! ": "击杀被蕨叶宿主寄生的生物。小心，它会增生！",
+
+        "Crunch!": "嘎吱作响",
+        "Get bit by a shellbreaker spider": "被一只破壳蜘蛛咬伤",
+
+        "Willess Thing": "无智之物",
+        "Destroy Unsung": "击败无闻者",
+
+        "Wrong Way Wagon": "错路行车",
+        "Loot an ensnared wagon deep within a spider's nest": "搜刮蜘蛛巢深处的车",
+
+    # The Nether #
+    # 下界 #
+
+    # Sanctum #
+    # 遗忘深渊 #
+        "An Antique Land": "古老之地",
+        "Dig below the Nether": "挖到下界之下",
+
+        "Ruination Initiation": "末日工程初始化",
+        "Awaken the program with an eye of ender ": "用末影之眼唤醒程序",
+
+        "Vitrified Lands": "玻璃化之地",
+        "Enter the dark soot dunes biome": "到达黑尘沙丘生物群落",
+        
+        "A mostly abandoned dimension": "几近废弃的维度",
+
+        "Ruination Termination": "末日之终",
+        "Defeat the program before it's too late": "在为时已晚之前打败程序",
+
+        "Unseen Threat": "无形威胁",
+        "Get ambushed by an invisible marauder": "被隐形掠夺者袭击",
+
+        "Heavy Metal": "重金属",
+        "Find netherite loot in Sanctum": "在遗忘深渊找到下界合金",
+
+        "You Shouldn't Be Here ": "你不该来这",
+        "Enter the Sanctum as an Outlander": "作为一名异界者到达遗忘深渊",
+
+        "Don't Blink": "不要眨眼",
+        "Slay a proto-Golem": "击杀原型傀儡",
+
+        "Ruination Validation": "末日验证",
+        "Feed xp to the program until it can be free": "向程序投送经验直至解除",
+
+        "This is Not a Place of Honor": "这里不是荣誉之地",
+        "Enter the tunnels beneath the dark dunes vault and walk into complete darkness": "进入黑沙宝库下的管道，并且走入完全黑暗",
+
+        "Otherworldly Waypoint": "异世航点",
+        "Descend into the voidship harbor biome": "走下虚空船港生物群落",
+
+    # Void #
+    # 虚无之地 #
+        "Nothing here.": "空无一物",
+        "Slip beneath worlds. Forget what you see there.": "到达世界之下，忘记你所见之物",
+
+    # The End #
+    # 末地 #
+
+    # Dormis #
+    # 梦境之狱 #        
+        "Interdimensional Criminal": "维际罪犯",
+        "Get stuck in Dormis. Not really the wisest thing to do. ": "被困梦境之狱，不是最明智的选择",
+
+    # Glacium #
+    # 极寒冰川 #
+        "Netherbane Warrior": "梦魇战士",
+        "Collect and wear all pieces of Glacium armor": "收集并穿戴所有的极寒冰川盔甲部件",
+
+        "Go with the floe": "随冰而行",
+        "Ride a boat in the glacial mass biome": "在冰封之地生物群落划船",
+
+        "Bring winter clothes": "带上冬衣",
+
+        "Middle-Era Watchtower": "中世纪瞭望塔",
+        "Get mining fatigue from a frozen watchtower": "从冰冻瞭望塔处获得挖掘疲劳",
+
+        "Vestige of Vanity": "虚荣遗痕",
+        "Destroy the frozen heart at the top of the watchtower. Collect the fragment as a souvenir": "在瞭望塔顶部破坏冰冻之心，把碎片收为纪念品",
+
+        "Yee Haw!": "噫！哈！",
+        "Ride a stray steed": "骑上流髑战马",
+
+        "Strike Low": "低地突袭",
+        "Slay the lower half of the Viceroy with a sword": "用剑击杀督军下身",
+
+        "Aim High": "瞄准高处",
+        "Slay the upper half of the Viceroy with a bow": "用弓击杀督军上身",
+
+        "Fight of the Valkyries": "女武神之战",
+        "Get on the giant snowflake and defeat Gvenhildir": "登上巨型雪花并打败格文希迪尔",
+
+        "Off Duty": "下班",
+        "Find a snowman in Glacium and remove their mask": "在极寒冰川找到雪人，并且摘下它的面具",
+
+        "Meltdown!": "融化！",
+        "Approach the frozen throne to awaken the Viceroy from their slumber": "靠近冰封王座，并把督军从沉睡中唤醒",
+
+        "Wither Water": "凋零之水",
+        "Submerge yourself into the chilly Glacium waters": "使自己淹没在极寒的冰川之水中",
+
+        "Glass Cannon": "玻璃大炮",
+        "Find a frost weapon": "找到一把寒霜武器",
+
+        "Snowfall": "降雪",
+        "Survive standing on an activated beacon. Crash through to Glacium.": "在激活的信标上活下来，坠往极寒冰川",
+
+
+
+    # Omnidrome #
+    # 全位领域 #
+        "Synthwave Symphony": "合成交响",
+        "Place an end crystal in the nether and sprint nearby to enter the Omnidrome": "在下界放置一颗末影水晶，并且冲向它，到达全位领域",
+
+    # Panacea #
+    # 万灵之地 #
+        "Primordial Paradise": "原始天堂",
+        "Get close to a creeper whilst wearing a creeper head": "戴着苦力怕的头靠近苦力怕",
+
+        "The old world": "旧世界",
+
+        "Second Breakfast": "第二顿早餐",
+        "Consume lembas breadfruit": "食用旅行面包果",
+
+        "Carboniferous!": "石炭纪！",
+        "Obtain coal in Panacea": "在万灵之地获得煤炭",
+
+        "Ashes and Dust": "尘与土",
+        "Enter the condemned taiga biome": "进入谴责之林生物群落",
+
+        "Very Crafty!": "灵巧手艺",
+        "Use a chlorocrafter": "使用叶绿工作台",
+
+        "Agents of Bedlam": "混乱代理",
+        "Explore the creeper dominion biome": "探索苦力怕之地生物群落",
+
+        "All Mortal Greatness...": "所有凡人的伟大...",
+        "Find the mortal cull": "找到戮凡之斧",
+
+        "The Tooth Hurts!": "獠牙利齿！",
+        "Fight with a Gothrum Fang": "使用戈斯鲁獠牙战斗",
+
+        "Hunt a Legend": "狩猎传奇",
+        "Damage the Sporangium until it enters its final form": "攻击孢囊直至最终形态",
+
+        "This is Madness!": "简直是疯了！",
+        "Consume yakitubba hide. Go berserk!": "食用亚奇图巴皮，化身狂战士！",
+
+        "Gastor Blast!": "胃酸爆炸！",
+        "Make a leaf cacoon with a perrterror gastor": "用极恐之腹创造一个叶之茧",
+
+        "Symbiosis": "寄宿共生",
+        "Collect and wear all pieces of vitality armor": "收集并穿戴所有的万灵之地盔甲部件",
+
+        "Calling all Creepers!": "呼叫所有苦力怕！",
+        "Use a Creeper Horn": "使用苦力怕号角",
+
+        "Another Anomaly": "另一异象",
+        "Enter the creeper pyramid": "进入苦力怕神殿",
+
+        "A Sinking Feeling!": "不祥的预感！",
+        "Step on quicksand": "踩在流沙上",
+
+        "Rain of Terror": "恐惧之雨",
+        "Expereince rainfall in Panacea": "在万灵之地经历雨事件",
+
+        "Sleeping Giant": "沉睡的巨物",
+        "Awaken the Sporangium from its dormant state": "将孢囊从休眠状态中唤醒",
+
+        "Keeping Spore": "菌种保藏",
+        "Obtain a panaspore": "获得万灵孢子",
+
+        "A Giving Tree": "无私的树",
+        "Investigate the tetra tree": "探访群生之树",
+
+    # The Brine #
+    # 盐海 #
+        "Out of the Blue, Into the Black": "出乎意料，卷入黑暗",
+        "Swim to the bottom of a whilrpool and enter the Brine": "游到漩涡底部，进入盐海",
+
+        "Advanced Darkness": "伸手不见五指",
+        "Enter the blackwater depths biome": "进入黑水深海生物群落",
+
+        "The outermost realm": "天涯海角",
+
+        "Time in a Bottle": "瓶中时光",
+        "Obtain essence of eternity": "获得永恒精华",
+
+        "Protector's Fabrication": "守护者的造物",
+        "Slay a Gavsakka": "击杀陆地守卫",
+
+        "Tell No Tales": "死无对证",
+        "Board a pirate ship and Defeat the pirate captain!": "登上海盗船并击败海盗船长！",
+
+        "Land of the Protector": "守护者之地",
+        "Enter the revered waters biome": "进入崇敬水域生物群落",
+
+        "Burning Dispassion": "燃烧的公平",
+        "Destroy the burning heart at the center of the station. Collect the fragment as a souvenir": "破坏驻地中央的燃烧之心，并收集碎片留作纪念",
+
+        "Keeping the Peace": "维护和平",
+        "Approach a Realmkeeper station": "靠近护域者驻地",
+
+        "Yikes!": "哎呀！",
+        "Get attacked by a bobbit worm": "受到博比特虫攻击",
+
+    # Varskspace #
+    # 万象空间 #
+        "Cherenkovicious": "切连科夫效应",
+        "Get struck by lightning. Arrive somewhere else???": "被闪电击中，到达另一个地方？？？",
+
+    # Other #
+    # 其他 #
+        "A Sincere Thanks.": "诚挚的感谢",
+        "Thanks for downloading the BrackenPack. Have fun!": "感谢下载The Bracken Pack，祝游戏愉快！",
+
+
+# Custom items #
+# 自定义物品 #
+
+    # Ability books #
+    # 魔法书 #
+        "You do not have enough levels to cast this spell.": "你没有足够的等级使用该法术",
+        "A spell is attempted but nothing happens...": "尝试施法但无事发生...",
+        "consumes 1 level": "消耗1等级",
+        "consumes 2 levels": "消耗2等级",
+        "consumes 3 levels": "消耗3等级",
+        "consumes 4 levels": "消耗4等级",
+        "consumes 5 levels": "消耗5等级",
+        "consumes 7 levels": "消耗7等级",
+        "consumes 10 levels": "消耗10等级",
+        "consumes 12 levels": "消耗12等级",
+        "consumes 25 levels": "消耗25等级",
+        "Consumes 50 levels.": "消耗50等级",
+        "consumes 20 levels to initialize": "消耗20等级以初始化",
+        "consumes 2 levels after initialization": "初始化后消耗2等级",
+        
+        "Adamantine Will": "钢铁意志",
+        " generated [ADAMANTINE WILL]": "使用了[钢铁意志]",
+
+        "Crimson Spark": "绯红火花",
+        " generated [CRIMSON SPARK]": "使用了[绯红火花]",
+
+        "Fang Attack": "尖牙突袭",
+        "Sanctum_Fangs": "尖牙",
+        " used [FANG ATTACK]": "使用了[尖牙突袭]",
+
+        "Fireball": "火球术",
+        " used [FIREBALL]": "使用了[火球术]",
+
+        "Flying Boat": "浮空飞船",
+        " generated [FLYING BOAT]": "使用了[浮空飞船]",
+        " destroyed boat.": "摧毁了飞船",
+        "No boat found to destroy.": "没有飞船可以摧毁",
+        
+        "Frostlock": "寒霜之锁",
+        " generated [FROSTLOCK]": "使用了[寒霜之锁]",
+        "frostlock": "寒霜之锁",
+
+        "Great Nullifier": "消除术",
+        " used [GREAT NULLIFIER]": "使用了[消除术]",
+
+        "Iron Golem": "钢铁傀儡",
+        " generated [IRON GOLEM]": "使用了[钢铁傀儡]",
+
+        "Kill": "死亡之书",
+        " generated [KILL]": "使用了[死亡之书]",
+
+        "Travel Call": "旅行之召",
+        " vanished with [TRAVEL CALL]": "与[旅行之召]一同消失",
+
+        "Magnificent Mansion": "虚空宅邸",
+        " generated [Magnificent Mansion]": "使用了[虚空宅邸]",
+        "§6Magnificent Mansion has been forged into existance.": "§6虚空宅邸已筑造而成",
+        "§6You have transported away from Magnificent Mansion!": "§6你已离开虚空宅邸！",
+        "§6You have been transported to Magnificent Mansion!": "§6你已传送至虚空宅邸！",
+        "§cThis dimension is incompatible to use Magnificent Mansion.": "§c该维度与虚空宅邸不相容",
+        "§6Your portal has been closed!": "§6你的传送门已关闭！",
+        "§cYou are too near to close your portal!": "§c你靠得太近，无法关闭传送门！",
+        "§cYou are too far away to close your portal!": "§c你离得太远，无法关闭传送门！",
+
+        "Mass Heal": "治愈之术",
+        " generated [MASS HEAL]": "使用了[治愈之术]",
+
+        "Returning Tides": "回忆之潮",
+        "§9Your home has been saved!": "§9你的家园已保存！",
+        "§cTELEPORT CANCELED! You must stay still to teleport!": "§c传送取消！你必须保持静止才能传送！",
+        " generated [RECALL]": "使用了[回忆之潮]",
+        "§9Returning Tides activated...": "§9回忆之潮已激活",
+        "§cThis dimension is incompatible to use Returning Tides.": "§c该维度与回忆之潮不相容",
+        "§9Set home by first standing on an enchanting table.": "§9站在附魔台上设置家园",
+        "§cTELEPORT CANCELED! You home is either void or destroyed!": "§c传送取消！你的家园不存在或已被摧毁！",
+
+        "Scatterstorm": "离散风暴",
+        " generated [SCATTERSTORM]": "使用了[离散风暴]",
+
+        "Swordfall": "巨剑天罚",
+        " generated [SWORDFALL]": "使用了[巨剑天罚]",
+        "Spell is already in use!": "法术正在使用！",
+
+        "Tetra_Slime": "群生之史",
+        "Tetra Slime": "群生之史",
+        " generated [TETRA SLIME]": "使用了[群生之史]",
+
+        "Truelight Glow": "真圣光辉",
+        " generated [TRUELIGHT GLOW]": "使用了[真圣光辉]",
+        
+        "World Soar": "翱翔飞升",
+        " generated [WORLD SOAR]": "使用了[翱翔飞升]",
+
+        "Worm Toothed Burrower": "虫齿吞掘",
+        " generated [WORM-TOOTHED BURROWER]": "使用了[虫齿吞掘]",
+
+    # Maps #
+    # 地图 #
+        "Dormis Courtyard Map": "梦境之狱法庭地图",
+        "Glacium Hotsprings Map": "极寒冰川温泉地图",
+        "Omnidrome Palace Map": "全位领域行宫地图",
+        "Pax Portal Map": "天境传送门地图",
+        "Sanctum Embassy Map": "遗忘深渊使馆地图",
+        "Tetra Tree Map": "群生之树地图",
+        "Twice-Abandoned Mineshaft Map": "再弃矿井地图",
+
+    # Beginner book #
+    # 初始种族之书 #
+        "Species Beginner Book": "初始种族之书",
+        "Use to join a species.": "使用以加入一个种族",
+        "Click to join a species. This book is a one-time use.": "点击加入一个种族，这本书是一次性的",
+        "The Provider": "给予者",
+
+    # Book of arbitrium #
+    # 仲裁之书 #
+        "BOOK OF ARBITRIUM": "仲裁之书",
+        "Use to change species.": "使用以改变种族",
+        "Species of the Planes": "种族列表",
+        "------------------------------\nWould you like to be a ": "------------------------------\n你是否想成为一名",
+        "------------------------------\nWould you like to be an ": "------------------------------\n你是否想成为一名",
+        "Click here to change species.": "点击改变种族",
+        "You are now an ": "你现在是一名",
+        "You are now a ": "你现在是一名",
+        "You are already an ": "你已经是一名",
+        "You are already a ": "你已经是一名",
+        ".": "。",
+        "!": "！",
+
+        "Automech": "智械族",
+        "?\n+ Are greatly resiliant to damage and knockback\n+ Have saturation while standing on a redstone block\n+ Have saturation and increased speed while in Omnidrome\n- Are slower than other species, especially when wet\n\n": "？\n+ 对伤害和击退有高度抗性\n+ 站在红石块上有饱和效果\n+ 在全位领域有饱和效果与速度速度提升\n- 比其他种族慢，尤其是在水中\n\n",
+        
+        "Dweller": "潜居者",
+        "?\n+ Have increased mining speed\n+ Have permanent night vision\n- Are sensitive to bright light\n- Are always hungry and are never satisfied with food\n\n": "？\n+ 更快的挖掘速度\n+ 永久夜视\n- 对强光敏感\n- 永远饥饿且对食物永不满足\n\n",
+        
+        "Enderling": "末影族",
+        "?\n+ Can teleport by holding sneak and right-clicking with nothing in the offhand\n+ Teleport range is greatly increased in The End\n+ Chorus fruit will teleport you over a much larger spread distance than normal\n- Will take damage from sources of water\n\n": "？\n+ 副手空手时潜行并右键可传送\n+ 在末地时传送距离大幅增加\n+ 紫颂果传送范围大幅增加\n- 会受到水源伤害\n\n",
+
+        "Faefolk": "仙灵",
+        "?\n+ Can jump two blocks high\n+ Have increased movement speed\n+ Have increased jump height and movement speed in the Faewild\n+ Will passively gain small amounts of experience points over time \n- Have decreased attack damage\n\n": "？\n+ 跳跃高度为两格\n+ 移动速度增加\n+ 在仙灵荒野时跳跃高度更高，移动速度更快\n+ 被动获得少量经验\n- 攻击伤害降低\n\n",
+
+        "Frostkin": "霜冻族",
+        "?\n+ Are more resilient to damage\n+ Have immunity to Slowness and Poison\n+ Are unaffected by the frigid colds of Glacium \n- Become weak and hungry while in hot climates\n- Take increased damage from Fire and lava\n\n": "？\n+ 拥有伤害抗性\n+ 免疫缓慢和中毒\n+ 不受极寒冰川的寒冷影响\n- 在炎热气候中会虚弱和饥饿\n- 受到火焰和岩浆的伤害增加\n\n",
+
+        "Human": "人类",
+        "?\n+ Have Luck x5 and Hero of the Village x5 when in the Overworld\n- Have Bad Luck x5 in every other dimension\n\n": "？\n+ 在主世界拥有幸运5和村庄英雄5\n- 在其他维度有霉运5\n\n",
+
+        "Hunter": "猎形者",
+        "?\n+ Hunters assimilate what they eat. Eating raw food will \"morph\" you into something resembling what you ate\n+ Drinking milk, honey or getting too hungry will \"de-morph\" you\n- Large quantities of food are required to satisfy you each day\n- Being \"morphed\" takes a considerable amount of effort and energy, making you hungrier\n\n": "？\n+ 猎形者会同化食物，食用生食会让你“变形”成食物的类似体\n+ 喝奶、蜂蜜或者过于饥饿会使你复原\n- “变形”将消耗大量能量，使你更加饥饿\n\n",
+
+        "Nereid": "海生族",
+        "?\n+ Have perminant water breathing and night vision\n+ Have increased movement speed and mining speed while underwater or in rain\n+ Conduit Power will regenerate you\n- Become weak and hungry while in hot climates \n- Have slightly decreased movement speed outside of water\n\n": "？\n+ 拥有永久水下呼吸和夜视\n+ 在水下或雨中拥有更快的移动速度和挖掘速度\n+ 潮涌能量能提供生命恢复\n- 在炎热气候中会虚弱和饥饿\n- 在水体外略微降低移动速度\n\n",
+
+        "Netherkin": "下界族",
+        "?\n+ Have perminant fire resistance and night vision \n+ Have increased attack damage when on fire or in lava\n+ Have increased attack damage in the nether \n- Will take damage from sources of water\n\n": "？\n+ 拥有永久抗火和夜视\n+ 在火或岩浆中伤害更高\n+ 在下界伤害更高\n- 会受到水源伤害",
+
+        "Outlander": "异界者",
+        "?\n+ Can turn invisible after not moving for a while\n+ Will regenerate health when hungry\n+ Can backstab entities, inflicting three times the damage when hitting an entity from behind\n- Cannot turn invisible while in Sanctum\n- Have Mining Fatigue while in Sanctum\n\n": "？\n+ 静止片刻后能隐形\n+ 生命值和饥饿值能再生\n+ 能够背刺实体，从背后攻击能造成三倍伤害\n- 无法在遗忘深渊隐形\n- 在遗忘深渊获得挖掘疲劳\n\n",
+
+        "Realmkeeper": "护域者",
+        "?\n+ Have increased max health\n+ Wearing full gold armor empowers you\n- Wearing stronger armor than gold will heavily weaken you\n- Will lose extra health when below y=25\n\n": "？\n+ 拥有更高的最大生命值\n+ 穿戴全套金盔甲时拥有增益\n- 穿戴更高级盔甲时会虚弱\n- 在y=25高度以下失去额外生命值\n\n",
+
+        "Villain": "灾厄族",
+        "?\n+ Are more resilient to damage\n+ Have increased attack damage\n+ Have slightly increased attack speed \n- Iron golems will always be hostile\n- Villagers will give you Bad Omen\n- Cannot be given Hero of the Village\n\n": "？\n+ 拥有伤害抗性\n+ 攻击伤害更高\n+ 攻击速度略微提升\n- 铁傀儡将永远敌对\n- 村民会给你不祥之兆效果\n- 无法获得村庄英雄\n\n",
+
+    # Glacium #
+    # 极寒冰川 #
+        "Frosbeak": "寒霜之喙",
+        "Jeg skiver!": "千斩万切！",
+
+        "Froscuisses": "寒霜护腿",
+        "Jeg er mote!": "我即潮流！",
+
+        "Frosfang": "寒霜獠牙",
+        "jeg biter!": "猛兽扑啸！",
+
+        "Frosplakkrt": "寒霜胸甲",
+        "vokte hjertet mitt!": "守护我心！",
+
+        "Frossabattn": "寒霜之靴",
+        "jeg løper!": "飞奔疾行！",
+
+        "Viceroy's Visor": "督军面罩",
+        "Jeg ser!": "一目了然！",
+
+        "Glacium Glider": "冰川之翼",
+        "Traveler's largesse": "旅者的慷慨",
+
+        "Glacium Halberd": "寒霜长戟",
+
+        "Ice Wand": "寒冰之杖",
+
+        "Frozen Recurve": "寒霜反曲弓",
+
+        "Frost Spite": "寒霜咒怨",
+        " had the last laugh": "笑到了最后",
+        "Combat": "战斗",
+
+    # Panacea #
+    # 万灵之地 #
+        "Panaspore": "万灵孢子",
+
+        "Vitality Tunic": "活力长袍",
+        "Vitality Chestplate": "活力胸甲",
+        "one of three": "三件之一",
+
+        "Vitality Leggings": "活力护腿",
+        "two of three": "三件之二",
+
+        "Vitality Boots": "活力之靴",
+
+        "A Mortal Cull": "戮凡之斧",
+        "Still warm from the great forge": "尚存余温",
+
+        "Creeper Horn": "苦力怕号角",
+        "Calls all nearby creepers.": "召唤附近的苦力怕",
+
+        "Gothrum Fang": "戈斯鲁獠牙",
+        "A make-do weapon.": "一把还算凑合的武器",
+
+        "Lembas Breadfruit": "旅行面包果",
+        "How many did you eat?": "你吃了几个？",
+
+        "Perrterror Gastor": "极恐之腹",
+        "Single-use leaf shield.": "一次性树叶护盾",
+
+        "Yakitubba Hide": "亚奇图巴皮",
+        "Flesh of madness.": "疯狂的血肉",
+
+    # Omnidrome #
+    # 全位领域 #
+        "Null": "空",
+
+        "Void Bomb": "虚空炸弹",
+        "void bomb": "虚空炸弹",
+        "A vague feeling tells you not to use this.": "一种冥冥之中的感觉告诉你不要使用它",
+        "DROP OF VOID": "虚空之滴",
+
+    # Sanctum #
+    # 遗忘深渊 #
+        "Ruination Capsule": "末日胶囊",
+        "A part still lives.": "仍存活的一部分",
+
+        "Shepherdess Cloak": "牧者斗篷",
+        "Shepherdess_Cloak": "牧者斗篷",
+        "Be safe my little one, I'll only be gone a little while...": "保重，孩子，我只会离开一小会儿...",
+
+        "Stolen Sword": "被盗之剑",
+        "This item has been looted off someone before.": "这件物品曾被某人掠夺过",
+
+    # The Brine #
+    # 盐海 #
+        "Incorruptible Cutlass": "廉洁之刃",
+
+        "Cordyceps Powder": "虫草粉末",
+        "Essence of Eternity": "永恒精华",
+        "Essence of Infinity": "无限精华",
+        "Jellyfish Stinger": "水母刺针",
+        "Nautilus Chamber": "鹦鹉螺室",
+        "Sentinel Rings": "哨戒之环",
+        "Tempest Nectar": "暴风花蜜",
+        "Void Petal": "虚空花瓣",
+        "Voidfish Venom": "虚空鱼毒",
+        "Wither Fin": "凋零之鳍",
+        "Worm Mandible": "蠕虫下颚",
+
+    # Faewild #
+    # 仙灵荒野 #
+        "sharpened hoof": "锋利之蹄",
+        "Horse Head": "马头",
+
+        "Arrow of True Love": "真爱之箭",
+
+        "Snake Oil": "蛇油",
+        "Totally Useless": "完全没用",
+        "Beastly Rose": "恶意玫瑰",
+
+        "Salmon of Knowledge": "鲑鱼之知",
+        "Bucket of Salmon?": "鲑鱼桶？",
+
+        "Apple": "苹果",
+        "Secret Army": "秘密军队",
+
+        "Eat em' up!": "大快朵颐！",
+
+    # Potions #
+    # 药水 #
+        "Saturation Potion": "饱和药水",
+        "Potion of Aquatic Enhancement": "水生强化药水",
+        "Potion of Astral Projection": "星体投射药水",
+        "Potion of Blindness": "失明药水",
+        "Potion of Greed": "贪婪药水",
+        "Potion of Haste": "急迫药水",
+        "Potion of Levitation": "飘浮药水",
+        "Potion of Nausea": "反胃药水",
+        "Abyssal Toxin": "深渊毒素",
+        "Potion of Withering": "凋零药水",
+
+        "Potion of Untethering": "解缚药水",
+        "E ʻike i ka mea aʻu e ʻike nei": "看看我眼中的世界",
+
+    # Other #
+    # 其他 #
+        "Paxmaker Sword": "创世天剑",
+        "A protector, usque in diem, cum omnes gladiis sunt comminutae.": "守护之剑，直至一切都被剑斩断",
+
+        "Carthendryll": "终末之镰",
+        "The end of all realms is The End.": "万物之终末",
+
+        "Feilfri": "费尔弗里",
+        "og pickaxen min": "与镐同在",
+
+        "Jewel_of_Adhain": "火焰宝石",
+        "An spréach a chuir tús leis ar fad.": "开启一切的火花",
+
+        "Jewel_of_Fuar": "寒冰宝石",
+        "Éilíonn an geimhreadh tost.": "寒冬要求沉默",
+
+        "Skogabogg Scimitar": "剧毒之刃",
+        "A sword by any other name would sting as sharp": "宝剑易名，不失锋芒",
+
+        "Thrall\'s Crown" : "萨尔王冠",
+        "This does not belong to you.": "它不属于你",
+
+        "Nightfall": "日暮",
+        "It returned from the Void different...": "它从虚无之地归来，已变得不同...",
+
+# Entities #
+# 实体 #
+
+    # Boss #
+    # 头目 #
+    
+        # Bygone Viceroy #
+        # 旧日督军 #
+            "Bygone Viceroy": "旧日督军",
+            "Frostforged": "霜锻护卫",
+            "vicefrost attack": "副霜攻击",
+            "Active half of the Bygone Viceroy": "旧日督军(上身)",
+            "Motive half of the Bygone Viceroy": "旧日督军(下身)",
+        
+        # Project Ruination #
+        # 末日工程 #
+            "Project Ruination": "末日工程",
+            "varsk_bomb": "万象炸弹",
+            "Nulliform": "无形",
+            "Construct": "结构",
+            "VOIDBREACH INITIATED: 01111-01 011011-1 01110101 00100000 0110-111 01101001 01110110 01100101 00100000 01101101 01100101 00100-00 01101110 0110-111 00100000 01100011 011-1000 01101111 01101001 01100011 011-0101": "虚空裂隙已初始化：01111-01 011011-1 01110101 00100000 0110-111 01101001 01110110 01100101 00100000 01101101 01100101 00100-00 01101110 0110-111 00100000 01100011 011-1000 01101111 01101001 01100011 011-0101",
+            "VARSKTECK ACTIVATED: 01001001 00100000 01110111 01101001 01101100 01101100 00100000 01100010 01101111 01110010 01110010 01101111 01110111 00100000 01100110 01110010 01101111 01101101 00100000 01100001 01101110 00100000 01100001 01101100 01101100 01111001": "万象科技已激活：01001001 00100000 01110111 01101001 01101100 01101100 00100000 01100010 01101111 01110010 01110010 01101111 01110111 00100000 01100110 01110010 01101111 01101101 00100000 01100001 01101110 00100000 01100001 01101100 01101100 01111001",
+            "Project's Doom Event": "末日时刻",
+            "SYSTEM RESTART: STAND BY FOR EXTRACTION PROCESS - 01001001 00100000 01101110 01100101 01100101 01100100 00100000 01111001 01101111 01110101 01110010 00100000 01110000 01101111 01110111 01100101 01110010": "系统重启：请等待提取 - 01001001 00100000 01101110 01100101 01100101 01100100 00100000 01111001 01101111 01110101 01110010 00100000 01110000 01101111 01110111 01100101 01110010",
+
+        # Solatium Thrall #
+        # 梦狱使徒萨尔 #
+            "Solatium Thrall": "梦狱使徒萨尔",
+            "Blast_Warning": "爆破预警",
+            "Thrall Blast": "萨尔爆破",
+            "Thrall: Do you think I could not see into your heart?\"": "萨尔：你认为我无法看透你的内心？",
+            "Thrall: Hush!\"": "萨尔：嘘！",
+            "Solatium_Field": "慰藉领域",
+            "Thrall: My heart, it gives me right. May the tyrant rage.\"": "萨尔：吾心赐我权力，愿暴君盛怒",
+            "Thrall: Are you moved now?\"": "萨尔：你现在动摇了吗？",
+            "Thrall: Not yet, not yet.\"": "萨尔：还没有，还没有",
+            "Blight Rider": "瘟疫骑士",
+            "Fireblight": "火之瘟疫",
+            "Thrall: The heart grows hard, if you can face the horrors of this world.\"": "萨尔：如果你能面对世界的恐惧，心就会刀枪不破",
+            "Thrall: I wished, I could have spared you this...\"": "萨尔：我希望，我能够饶了你这个...",
+            "Thrall\'s Retribution": "萨尔的回报",
+            "Thrall: You shall have your reward...\"": "萨尔：你可以领走奖品了...",
+            "The Thrall speaks: \"You know that I have the strictest orders not allow anyone near the prisoners...\"": "萨尔：你知道我有最严格的命令，不允许任何人靠近囚犯...",
+            "The Thrall speaks: \"This villain, in this very hour!\"": "萨尔：这个小人！在这种时候！",
+            "The Thrall speaks: \"And this is?\"": "萨尔：你是？",
+            "The Thrall speaks: \"I always act in duty bound, But also hate all cruelty.\"": "萨尔：我总是尽职尽责，但也恨所有的残酷",
+            "The Thrall speaks: \"The hour of vengeance has come.\"": "萨尔：复仇的时刻来临了",
+            "The Thrall speaks: \"Who hardly lives, And like a shadow looks?\"": "萨尔：是谁苟延残喘，身形似影？",
+            "The Thrall speaks: \"This cannot be, this cannot be.\"": "萨尔：不该是这样，不该是这样",
+            "The Thrall speaks: \"Are you afraid?\"": "萨尔：你害怕了吗？",
+            "The Thrall speaks: \"And then?\"": "萨尔：然后呢？",
+            "Thrall: My true name... Thank you.\"": "萨尔：我的真名...谢谢你",
+            "Crownblaze": "王冠烈焰",
+            "Blightheart": "瘟疫之心",
+
+        # Sporangium #
+        # 群生孢囊 #
+            "Deca Slime": "融合之史",
+            "The sporangium is metamorphosing into something...": "孢囊正在蜕变成某种东西...",
+            "nematocyst": "刺细胞",
+            "The prey flees! The hunt begins...": "猎物逃窜，狩猎开始...",
+            "A rusty weapon was excreted by the Tetra Slime.": "由群生之史排出的生锈武器",
+            "Mature Sporangium": "成熟孢囊",
+            
+        # The Disruptor #
+        # 干扰者 #
+            "The Disruptor": "干扰者",
+
+        # Unsung #
+        # 无闻者 #
+            "Unsung": "无闻者",
+            "Pertinax creatura? Prope es?": "顽强的生物？你是吗?",
+            "Tua destructio ab architectis iudicata est...": "你的破坏行为已被建造者指认...",
+
+    # Faewild #
+    # 仙灵荒野 #
+        "Knightmare": "梦魇骑士",
+
+        "Arrowsmith": "制箭师",
+        "Bohemian": "不羁文人",
+        "Fae Knight": "仙灵骑士",
+        "Playwright": "剧作家",
+        "Pack Rat": "收藏家",
+        "Keeperscout": "侦察守卫",
+        "Ferryman": "摆渡人",
+        "Hermit": "隐士",
+        "Queene Maiden": "仙灵少女",
+
+        "Faefolk Ranger": "仙灵弓箭手",
+
+        "Pool Shulker": "泉影贝",
+
+    # Glacium #
+    # 极寒冰川 #
+        "Snowman": "雪人",
+        "Ice Pixie": "冰雪精",
+        "Stray Steed": "流髑战马",
+        "Gvenhildir": "格文希迪尔",
+        "Gvenhildir\'s Trident": "格文希迪尔的三叉戟",
+        "Weapon of a former Valkyrie": "前女武神的武器",
+        "Painted Mask": "染色面具",
+        "Watchman": "守望者",
+        "ice droplet": "融冰之滴",
+        "ice cloud": "寒冰之云",
+        "Frozen Heart": "冰封之心",
+
+    # Panacea #
+    # 万灵之地 #
+        "Rain Event": "雨事件",
+        "killed!": "已击杀！",
+        "Chlorocrafter": "叶绿工作台",
+
+        "Gothrum": "戈斯鲁",
+        "Gothrum Head": "戈斯鲁头颅",
+
+        "Dehydrated Ventithrub": "脱水文蓟",
+        "Ventithrub": "文蓟",
+        "Ventithrub Flower": "文蓟花朵",
+
+        "Autochthonous Piglin": "原生猪灵",
+        "Autochthonous Piglin Brute": "原生猪灵蛮兵",
+
+        "Baby Yakitubba": "幼年亚奇图巴",
+        "Yakitubba": "亚奇图巴",
+
+        "Perrterror": "极恐苦力怕",
+
+        "Perfect Creeper": "完美苦力怕",
+
+        "Killer Bee": "杀人蜂",
+
+    # Sanctum #
+    # 遗忘深渊 #
+        "Wither has been banished from this realm.": "凋零已被驱逐出该维度",
+        "Proto-Golem": "原型傀儡",
+
+        "Archeroth": "弓箭手",
+
+        "Netherite Golem": "下届合金傀儡",
+
+        "Marauder": "掠夺者",
+
+    # The Underdark #
+    # 幽暗地域 #
+        "Polyfolus": "蕨叶宿主",
+        "polyfolus": "蕨叶宿主",
+        "poisonous gas": "毒气",
+        "Lost Miner": "迷失矿工",
+        "thx Aza": "感谢馈赠",
+        "Smeaglin": "焚金者",
+        "Egg blast": "炸蛋",
+        "Shellbreaker Spider": "破壳蜘蛛",
+
+    # The Brine #
+    # 盐海 #
+        "Pirate Captain": "海盗船长",
+        "Pirate Head": "海盗头颅",
+        "Pirate Gunner": "海盗枪手",
+        "Pirate Lookout": "海盗哨卫",
+        "Pirate Deckhand": "海盗水手",
+
+        "Sentinel": "哨兵",
+
+        "Dunkelosteus": "恐鱼",
+
+    # Dormis #
+    # 梦境之狱 #
+        "Blight Shade": "瘟疫之影",
+
+    # Omnidrome #
+    #   #
+        "Corrupted_Golem": "腐化傀儡",
+        "Polychaete Shulker": "多毛潜影贝",
+        "Guardsman": "卫兵",
+
+    # Jukebox #
+    # 唱片机 #
+        "Now Playing: Arnold Rynux - Brine": "正在播放：Arnold Rynux - Brine",
+        "Now Playing: Arnold Rynux - Faewild": "正在播放：Arnold Rynux - Faewild",
+        "Now Playing: Arnold Rynux - Glacium": "正在播放：Arnold Rynux - Glacium",
+        "Now Playing: Arnold Rynux - Pax": "正在播放：Arnold Rynux - Pax",
+        "Now Playing: Arnold Rynux - Underdark": "正在播放：Arnold Rynux - Underdark",
+        "Now Playing: Arnold Rynux - Viceroy": "正在播放：Arnold Rynux - Viceroy",
+
+    # Other #
+    # 其他 #
+        "Phantom Rider": "幻翼骑士",
+        "Phantom Boss": "幻翼之主",
+
+        "Crofter": "农场主",
+
+# Config #
+# 设置 #
+    "[Normal]": "[正常]",
+    "[Incendium]": "[Incendium]",
+    "[Nullscape]": "[Nullscape]",
+    "[Enable]": "[启用]",
+    "[Disable]": "[禁用]",
+    " ": " ",
+    "Bracken Pack Config:\n": "Bracken Pack设置：\n",
+    "All options are enabled by default.": "所有设置默认开启",
+    "___________________": "___________________",
+
+    "* Ability Books": "* 魔法书",
+    "Enable/Disable Ability Books: \nIf disabled all Ability Books will no longer activate their effects and a unique message will be displayed if an attempt is made to use them. This does not affect the Beginner Species Book nor the Book of Arbitrium. It will still be possible to obtain Ability Books from loot tables.": "启用/禁用魔法书：\n如果禁用，所有魔法书将不再生效，并且会在玩家尝试使用时发出一条消息。该项不影响初始种族之书。仍可以获得魔法书。",
+    "Ability Books have been disabled. Whenever a player uses an Ability Book it will no longer be functional.": "魔法书已禁用，玩家使用魔法书时不再有效。",
+    "Ability Books are already disabled!": "魔法书已禁用！",
+    "Ability Books have been enabled. Whenever a player uses an Ability Book it will now be functional.": "魔法书已启用，玩家使用魔法书时会有效。",
+    "Ability Books are already enabled!": "魔法书已启用！",
+
+    "* Beginner Species Book": "* 初始种族之书",
+    "Enable/Disable Beginner Species Book: \nIf disabled the Beginner Species Book will no longer function and won't be handed out to new players.": "启用/禁用初始种族之书： \n若禁用，初始种族之书将不再生效，且新玩家不再获得该书",
+
+    "* Dimensional Travel": "* 维度旅行",
+    "Enable/Disable Dimensional Travel: \nThis will affect whether players are allowed to travel between the new dimensions added from the Bracken Pack.": "启用/禁用维度旅行：\n该项将影响玩家是否能在数据包维度间旅行",
+    "Dimensional travel within the Bracken Pack has been disabled. Players will no longer be able to travel between dimensions added from the Bracken Pack.": "数据包维度旅行已禁用，玩家不再能够在数据包维度间旅行",
+    "Dimensional travel is already disabled!": "维度旅行已禁用",
+    "Dimensional travel within the Bracken Pack has been enabled. Players will now be allowed to travel between dimensions added from the Bracken Pack.": "数据包维度旅行已启用，玩家能够在数据包维度间旅行",
+    "Dimensional travel is already enabled!": "维度旅行已启用",
+
+    "* Pax Portal requires keys": "* 天境传送门需要钥匙",
+    "Enable/Disable Portal Keys: \nIf disabled all Pax Portals will no longer need Portal Keys to access dimensions. Portal Keys can still be found in loot tables. Pax Portals may require being turned off before change has taken affect.": "启用/禁用传送门钥匙：\n如果禁用，天境传送门将不再需要钥匙。传送门钥匙仍可以被找到。天境传送门可能需要重启以生效。",
+    "Use of portal keys has been disabled. Pax Portals will no longer require keys to access dimensions.": "传送门钥匙已禁用，天境传送门不再需要钥匙。",
+    "Pax Portal keys are already disabled!": "传送门钥匙已禁用！",
+    "Use of portal keys has been enabled. Pax Portals will now require Portal Keys to be obtained before access to dimensions.": "传送门钥匙已启用，天境传送门将需要钥匙。",
+    "Pax Portal keys are already enabled!": "传送门钥匙已启用！",
+
+    "* Species of the Planes": "* 种族",
+    "Enable/Disable Species: \nThis will not force players to leave their current species. If disabled all commands for player species will no longer be activated. The Species Beginner Book will no longer be handed out to new players but both the Beginner Species Book and the Book of Arbitrium will still allow players to change species.": "启用/禁用魔法书：\n这并不会迫使玩家离开当前的种族。如果禁用，所有种族命令将不再生效。新玩家将不再获得初始种族之书，但是该书与仲裁之书仍能改变玩家种族。",
+    "Species have been enabled. Pack will now run functions for species. Beginner Book will be handed out to new players.": "种族已启用，数据包将运行种族命令。初始种族之书将发给新玩家。",
+    "Species are already enabled!": "种族之书已启用！",
+    "Species have been disabled. Pack will no longer run functions for species. Beginner Book will cease to be handed out to new players.": "种族已禁用，数据包将不再运行种族命令。初始种族之书将不会发给新玩家。",
+    "Species are already disabled!": "种族之书已禁用！",
+
+    "* Use of teams in datapack": "* 团队",
+    "Enable/Disable Teams: \nThis will not affect gameplay. Use of teams may make the Bracken Pack incompatible with other datapacks.": "启用/禁用团队：\n该项不会影响游玩。启用团队可能会导致与其他数据包不兼容。",
+    "Use of teams within the Bracken Pack has been disabled. Player names will now be the default color.": "团队已禁用，玩家名字现为默认颜色。",
+    "Use of teams is already disabled!": "团队已禁用！",
+    "Use of teams within the Bracken Pack has been enabled. Player names will now match the color that represents their species.": "团队已启用，玩家名字将与所选种族匹配。",
+    "Use of teams is already enabled!": "团队已启用！",
+
+    "* Nether Height": "* 下界高度",
+    "Nether Height: \nIncendium is a popular datapack by Starmute that revamps the Nether. Crucially, it increases the height of the nether. Setting this option to \"Incendium\" will change the height when players teleport to and from the Underdark to match the nether height with Incendium.": "Incendium：\nIncendium是Starmute制作的修改下界的数据包，选择[Incendium]将改变从下界传送至幽暗地域的高度。",
+    "Nether height has been set to Incendium. Travel between the nether and the Underdark now matches the nether height with Incendium.": "下界高度已设置为Incendium，传送高度与Incendium匹配。",
+    "Nether height is already set to Incendium!": "下界高度已设置为Incencium！",
+    "Nether height has been set to the normal vanilla height.": "下界高度已设置为原版",
+    "Nether height is already set to Normal!": "下界高度已设置为原版！",
+
+    "* End Height": "* 末地高度",
+    "End Height: \nNullscape is a popular datapack by Starmute that revamps the End dimension. Crucially, it increases the height of the End. Setting this option to \"Nullscape\" will change the height when players teleport to and from the Void to match the End height with Nullscape.": "末地高度：\nNullscape是Starmute制作的修改末地的数据包，选择[Nullscape]将改变从虚无之地传送至末地的高度",
+    "End height has been set to the normal vanilla height.": "末地高度已设置为原版",
+    "End height is already set to Normal!": "末地高度已设置为原版",
+    "End height has been set to Nullscape. Travel between the Void and the End now matches the End height with Nullscape.": "末地高度已设置为Nullscape，虚无之地与末地旅行已匹配Nullscape",
+    "End height is already set to Nullscape!": "末地高度已设置为Nullscape",
+
+    "Use \"/function bracken:config\" to configure settings for the Bracken Pack": "使用\"/function bracken:config\"来调整设置",
+
+# Other #
+# 其他 #
+    "Respawn Alphie": "复活Alphie",
+    "not gone yet": "仍未离开"
+
+# Unmade #
+# 未完成 #
+#thrall crown
+
+}

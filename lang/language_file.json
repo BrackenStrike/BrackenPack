@@ -1,0 +1,972 @@
+{
+    # The Bracken Pack Language File
+    # Translator: 
+    # Datapack version: v92
+    
+    #
+    #
+    #
+    
+    # Dimensions and pax portal #
+    #   #
+    
+        # Dimensions #
+        #   #
+            "Pax": "",
+            "The Faewild": "",
+            "Overworld": "",
+            "The Underdark": "",
+            "The Nether": "",
+            "Sanctum": "",
+            "Void": "",
+            "The End": "",
+            "Dormis": "",
+            "Glacium": "",
+            "Omnidrome": "",
+            "Panacea": "",
+            "The Brine": "",
+            "Varskspace": "",
+        
+        # Crossing #
+        #   #
+            "You are approaching a border between dimensions for the first time.": "",
+            "Look into the top surface of an activated conduit to arrive in the Overworld!": "",
+            "Look into the top surface of an activated conduit to arrive in the Brine!": "",
+            "Venture deeper and you will arrive in the Faewild!": "",
+            "Venture deeper and you will arrive in the Overworld!": "",
+            "Venture deeper and you will arrive in the Underdark!": "",
+            "Venture deeper and you will arrive in the Nether!": "",
+            "Venture deeper and you will arrive in Sanctum!": "",
+            "Venture deeper and you will arrive in the Void!": "",
+    
+            "Venture higher and you will arrive in Pax!": "",
+            "Venture higher and you will arrive in the Faewild!": "",
+            "Venture higher and you will arrive in the Overworld!": "",
+            "Venture higher and you will arrive in the Underdark!": "",
+            "Venture higher and you will arrive in the Nether!": "", 
+    
+            "Dormis travel loading...": "",
+            "A cage in Dormis has been loaded...": "",
+            "§a§k ashfdjkl §r§a[_MAIN_] OMNIDROME SPAWN LOADED §kashfdjkl": "",
+            "Brine travel loading...": "",
+    
+        # Portal keys #
+        #   #
+            "Unlocks a door to somewhere...": "",
+    
+            "Overworld Portal Key": "",
+            "Panacea Portal Key": "",
+            "Brine Portal Key": "",
+            "Dormis Portal Key": "",
+            "End Portal Key": "",
+            "Faewild Portal Key": "",
+            "Glacium Portal Key": "",
+            "Nether Portal Key": "",
+            "Omnidrome Portal Key": "",
+            "Pax Portal Key": "",
+            "Sanctum Portal Key": "",
+            "Underdark Portal Key": "",
+            "Void Portal Key": "",
+            "Varskspace Portal Key": "",
+    
+        # Pax portal #
+        #   #
+            "The portal has been activated.": "",
+            "The portal has been deactivated.": "",
+
+            "Portal": "",
+            "Keys": "",
+    
+    # Advancements #
+    #   #
+    
+        # Pax #
+        #   #
+            "Pax Aeterna": "",
+            "Ascend further to the Pax dimesion":"",
+    
+        # The Faewild #
+        #   #
+            "Castles in the Sky": "",
+            "Climb up to the Faewild": "",
+            
+            "More than Kin, Less than Kind": "",
+            "Journey to the fae castle": "",
+    
+            "Shadow of a Dream": "",
+            "Enter the darkthunder thicket biome": "",
+    
+            "Past is Prologue": "",
+            "Enter the dreamfall dells biome": "",
+    
+            "O Brave New World!": "",
+    
+            "Worst of Nightmares": "",
+            "Vanquish a knightmare": "",
+    
+            "Smooth Runs the Water": "",
+            "Reach the fae pool": "",
+    
+            "Blind Love": "",
+            "Obtain the enchanting table from the rampion tower": "",
+    
+            "All the World's a Stage": "",
+            "Visit the fae theatre": "",
+    
+            "Good and Ill Together": "",
+            "Discover the fae village": "",
+    
+        # Overworld #
+        #   #
+    
+        # The Underdark #
+        #   #
+            "Diggy Diggy Hole": "",
+            "Dig down to the Underdark": "",
+    
+            "Expert Spelunker": "",
+            "Visit every Underdark biome": "",
+    
+            "Crystal Clear": "",
+            "Enter the crystal caves biome": "",
+    
+            "Erased from Infamy": "",
+            "Approach the talking obsidian cube. What could go wrong?": "",
+    
+            "A world beneath": "",
+    
+            "Swept Away": "",
+            "Enter the eroded basin biome": "",
+    
+            "Humongous Fungus Among Us": "",
+            "Enter the ruby fungi forest biome": "",
+    
+            "Heavier Than Air": "",
+            "Walk into a toxic gas cloud": "",
+    
+            "Sedimentary My Dear Watson": "",
+            "Enter the titan dripstone cavern biome": "",
+    
+            "What? Why?": "",
+            "Find a lost miner. Then punch them for some reason": "",
+    
+            "Why Twice?": "",
+            "Discover the twice abandoned mineshaft": "",
+    
+            "A Long Way from Pax": "",
+            "Get the Paxmaker Sword": "",
+    
+            "Sunken Landmass": "",
+            "Enter the petrified forest biome": "",
+    
+            "Mitosis Madness": "",
+            "Slay a creature infected with polyfolus. Watch out for if it duplicates! ": "",
+    
+            "Crunch!": "",
+            "Get bit by a shellbreaker spider": "",
+    
+            "Willess Thing": "",
+            "Destroy Unsung": "",
+    
+            "Wrong Way Wagon": "",
+            "Loot an ensnared wagon deep within a spider's nest": "",
+    
+        # The Nether #
+        #   #
+    
+        # Sanctum #
+        #   #
+            "An Antique Land": "",
+            "Dig below the Nether": "",
+    
+            "Ruination Initiation": "",
+            "Awaken the program with an eye of ender ": "",
+    
+            "Vitrified Lands": "",
+            "Enter the dark soot dunes biome": "",
+            
+            "A mostly abandoned dimension": "",
+    
+            "Ruination Termination": "",
+            "Defeat the program before it's too late": "",
+    
+            "Unseen Threat": "",
+            "Get ambushed by an invisible marauder": "",
+    
+            "Heavy Metal": "",
+            "Find netherite loot in Sanctum": "",
+    
+            "You Shouldn't Be Here ": "",
+            "Enter the Sanctum as an Outlander": "",
+    
+            "Don't Blink": "",
+            "Slay a proto-Golem": "",
+    
+            "Ruination Validation": "",
+            "Feed xp to the program until it can be free": "",
+    
+            "This is Not a Place of Honor": "",
+            "Enter the tunnels beneath the dark dunes vault and walk into complete darkness": "",
+    
+            "Otherworldly Waypoint": "",
+            "Descend into the voidship harbor biome": "",
+    
+        # Void #
+        #   #
+            "Nothing here.": "",
+            "Slip beneath worlds. Forget what you see there.": "",
+    
+        # The End #
+        #   #
+    
+        # Dormis #
+        #   #        
+            "Interdimensional Criminal": "",
+            "Get stuck in Dormis. Not really the wisest thing to do. ": "",
+    
+        # Glacium #
+        #   #
+            "Netherbane Warrior": "",
+            "Collect and wear all pieces of Glacium armor": "",
+    
+            "Go with the floe": "",
+            "Ride a boat in the glacial mass biome": "",
+    
+            "Bring winter clothes": "",
+    
+            "Middle-Era Watchtower": "",
+            "Get mining fatigue from a frozen watchtower": "",
+    
+            "Vestige of Vanity": "",
+            "Destroy the frozen heart at the top of the watchtower. Collect the fragment as a souvenir": "",
+    
+            "Yee Haw!": "",
+            "Ride a stray steed": "",
+    
+            "Strike Low": "",
+            "Slay the lower half of the Viceroy with a sword": "",
+    
+            "Aim High": "",
+            "Slay the upper half of the Viceroy with a bow": "",
+    
+            "Fight of the Valkyries": "",
+            "Get on the giant snowflake and defeat Gvenhildir": "",
+    
+            "Off Duty": "",
+            "Find a snowman in Glacium and remove their mask": "",
+    
+            "Meltdown!": "",
+            "Approach the frozen throne to awaken the Viceroy from their slumber": "",
+    
+            "Wither Water": "",
+            "Submerge yourself into the chilly Glacium waters": "",
+    
+            "Glass Cannon": "",
+            "Find a frost weapon": "",
+    
+            "Snowfall": "",
+            "Survive standing on an activated beacon. Crash through to Glacium.": "",
+    
+    
+    
+        # Omnidrome #
+        #   #
+            "Synthwave Symphony": "",
+            "Place an end crystal in the nether and sprint nearby to enter the Omnidrome": "",
+    
+        # Panacea #
+        #   #
+            "Primordial Paradise": "",
+            "Get close to a creeper whilst wearing a creeper head": "",
+    
+            "The old world": "",
+    
+            "Second Breakfast": "",
+            "Consume lembas breadfruit": "",
+    
+            "Carboniferous!": "",
+            "Obtain coal in Panacea": "",
+    
+            "Ashes and Dust": "",
+            "Enter the condemned taiga biome": "",
+    
+            "Very Crafty!": "",
+            "Use a chlorocrafter": "",
+    
+            "Agents of Bedlam": "",
+            "Explore the creeper dominion biome": "",
+    
+            "All Mortal Greatness...": "",
+            "Find the mortal cull": "",
+    
+            "The Tooth Hurts!": "",
+            "Fight with a Gothrum Fang": "",
+    
+            "Hunt a Legend": "",
+            "Damage the Sporangium until it enters its final form": "",
+    
+            "This is Madness!": "",
+            "Consume yakitubba hide. Go berserk!": "",
+    
+            "Gastor Blast!": "",
+            "Make a leaf cacoon with a perrterror gastor": "",
+    
+            "Symbiosis": "",
+            "Collect and wear all pieces of vitality armor": "",
+    
+            "Calling all Creepers!": "",
+            "Use a Creeper Horn": "",
+    
+            "Another Anomaly": "",
+            "Enter the creeper pyramid": "",
+    
+            "A Sinking Feeling!": "",
+            "Step on quicksand": "",
+    
+            "Rain of Terror": "",
+            "Expereince rainfall in Panacea": "",
+    
+            "Sleeping Giant": "",
+            "Awaken the Sporangium from its dormant state": "",
+    
+            "Keeping Spore": "",
+            "Obtain a panaspore": "",
+    
+            "A Giving Tree": "",
+            "Investigate the tetra tree": "",
+    
+        # The Brine #
+        #   #
+            "Out of the Blue, Into the Black": "",
+            "Swim to the bottom of a whilrpool and enter the Brine": "",
+    
+            "Advanced Darkness": "",
+            "Enter the blackwater depths biome": "",
+    
+            "The outermost realm": "",
+    
+            "Time in a Bottle": "",
+            "Obtain essence of eternity": "",
+    
+            "Protector's Fabrication": "",
+            "Slay a Gavsakka": "",
+    
+            "Tell No Tales": "",
+            "Board a pirate ship and Defeat the pirate captain!": "",
+    
+            "Land of the Protector": "",
+            "Enter the revered waters biome": "",
+    
+            "Burning Dispassion": "",
+            "Destroy the burning heart at the center of the station. Collect the fragment as a souvenir": "",
+    
+            "Keeping the Peace": "",
+            "Approach a Realmkeeper station": "",
+    
+            "Yikes!": "",
+            "Get attacked by a bobbit worm": "",
+    
+        # Varskspace #
+        #   #
+            "Cherenkovicious": "",
+            "Get struck by lightning. Arrive somewhere else???": "",
+    
+        # Other #
+        #   #
+            "A Sincere Thanks.": "",
+            "Thanks for downloading the BrackenPack. Have fun!": "",
+    
+    
+    # Custom items #
+    #   #
+    
+        # Ability books #
+        #   #
+            "You do not have enough levels to cast this spell.": "",
+            "A spell is attempted but nothing happens...": "",
+            "consumes 1 level": "",
+            "consumes 2 levels": "",
+            "consumes 3 levels": "",
+            "consumes 4 levels": "",
+            "consumes 5 levels": "",
+            "consumes 7 levels": "",
+            "consumes 10 levels": "",
+            "consumes 12 levels": "",
+            "consumes 25 levels": "",
+            "Consumes 50 levels.": "",
+            "consumes 20 levels to initialize": "",
+            "consumes 2 levels after initialization": "",
+            
+            "Adamantine Will": "",
+            " generated [ADAMANTINE WILL]": "",
+    
+            "Crimson Spark": "",
+            " generated [CRIMSON SPARK]": "",
+    
+            "Fang Attack": "",
+            "Sanctum_Fangs": "",
+            " used [FANG ATTACK]": "",
+    
+            "Fireball": "",
+            " used [FIREBALL]": "",
+    
+            "Flying Boat": "",
+            " generated [FLYING BOAT]": "",
+            " destroyed boat.": "",
+            "No boat found to destroy.": "",
+            
+            "Frostlock": "",
+            " generated [FROSTLOCK]": "",
+            "frostlock": "",
+    
+            "Great Nullifier": "",
+            " used [GREAT NULLIFIER]": "",
+    
+            "Iron Golem": "",
+            " generated [IRON GOLEM]": "",
+    
+            "Kill": "",
+            " generated [KILL]": "",
+    
+            "Traval Call": "",
+            " vanished with [TRAVEL CALL]": "",
+    
+            "Magnificent Mansion": "",
+            " generated [Magnificent Mansion]": "",
+            "§6Magnificent Mansion has been forged into existance.": "",
+            "§6You have transported away from Magnificent Mansion!": "",
+            "§6You have been transported to Magnificent Mansion!": "",
+            "§cThis dimension is incompatible to use Magnificent Mansion.": "",
+            "§6Your portal has been closed!": "",
+            "§cYou are too near to close your portal!": "",
+            "§cYou are too far away to close your portal!": "",
+    
+            "Mass Heal": "",
+            " generated [MASS HEAL]": "",
+    
+            "Returning Tides": "",
+            "§9Your home has been saved!": "",
+            "§cTELEPORT CANCELED! You must stay still to teleport!": "",
+            " generated [RECALL]": "",
+            "§9Returning Tides activated...": "",
+            "§cThis dimension is incompatible to use Returning Tides.": "",
+            "§9Set home by first standing on an enchanting table.": "",
+            "§cTELEPORT CANCELED! You home is either void or destroyed!": "",
+    
+            "Scatterstorm": "",
+            " generated [SCATTERSTORM]": "",
+    
+            "Swordfall": "",
+            " generated [SWORDFALL]": "",
+            "Spell is already in use!": "",
+    
+            "Tetra_Slime": "",
+            "Tetra Slime": "",
+            " generated [TETRA SLIME]": "",
+    
+            "Truelight Glow": "",
+            " generated [TRUELIGHT GLOW]": "",
+            
+            "World Soar": "",
+            " generated [WORLD SOAR]": "",
+    
+            "Worm Toothed Burrower": "",
+            " generated [WORM-TOOTHED BURROWER]": "",
+    
+        # Maps #
+        #   #
+            "Dormis Courtyard Map": "",
+            "Glacium Hotsprings Map": "",
+            "Omnidrome Palace Map": "",
+            "Pax Portal Map": "",
+            "Sanctum Embassy Map": "",
+            "Tetra Tree Map": "",
+            "Twice-Abandoned Mineshaft Map": "",
+    
+        # Beginner book #
+        #   #
+            "Species Beginner Book": "",
+            "Use to join a species.": "",
+            "Click to join a species. This book is a one-time use.": "",
+            "The Provider": "",
+    
+        # Book of arbitrium #
+        #   #
+            "BOOK OF ARBITRIUM": "",
+            "Use to change species.": "",
+            "Species of the Planes": "",
+            "------------------------------\nWould you like to be a ": "",
+            "------------------------------\nWould you like to be an ": "",
+            "Click here to change species.": "",
+            "You are now an ": "",
+            "You are now a ": "",
+            "You are already an ": "",
+            "You are already a ": "",
+            ".": "",
+            "!": "",
+    
+            "Automech": "智械族",
+            "?\n+ Are greatly resiliant to damage and knockback\n+ Have saturation while standing on a redstone block\n+ Have saturation and increased speed while in Omnidrome\n- Are slower than other species, especially when wet\n\n": "",
+            
+            "Dweller": "潜居者",
+            "?\n+ Have increased mining speed\n+ Have permanent night vision\n- Are sensitive to bright light\n- Are always hungry and are never satisfied with food\n\n": "",
+            
+            "Enderling": "末影族",
+            "?\n+ Can teleport by holding sneak and right-clicking with nothing in the offhand\n+ Teleport range is greatly increased in The End\n+ Chorus fruit will teleport you over a much larger spread distance than normal\n- Will take damage from sources of water\n\n": "",
+    
+            "Faefolk": "仙灵",
+            "?\n+ Can jump two blocks high\n+ Have increased movement speed\n+ Have increased jump height and movement speed in the Faewild\n+ Will passively gain small amounts of experience points over time \n- Have decreased attack damage\n\n": "",
+    
+            "Frostkin": "霜冻族",
+            "?\n+ Are more resilient to damage\n+ Have immunity to Slowness and Poison\n+ Are unaffected by the frigid colds of Glacium \n- Become weak and hungry while in hot climates\n- Take increased damage from Fire and lava\n\n": "",
+    
+            "Human": "人类",
+            "?\n+ Have Luck x5 and Hero of the Village x5 when in the Overworld\n- Have Bad Luck x5 in every other dimension\n\n": "",
+    
+            "Hunter": "猎人",
+            "?\n+ Hunters assimilate what they eat. Eating raw food will \"morph\" you into something resembling what you ate\n+ Drinking milk, honey or getting too hungry will \"de-morph\" you\n- Large quantities of food are required to satisfy you each day\n- Being \"morphed\" takes a considerable amount of effort and energy, making you hungrier\n\n": "",
+    
+            "Nereid": "海生族",
+            "?\n+ Have perminant water breathing and night vision\n+ Have increased movement speed and mining speed while underwater or in rain\n+ Conduit Power will regenerate you\n- Become weak and hungry while in hot climates \n- Have slightly decreased movement speed outside of water\n\n": "",
+    
+            "Netherkin": "下界族",
+            "?\n+ Have perminant fire resistance and night vision \n+ Have increased attack damage when on fire or in lava\n+ Have increased attack damage in the nether \n- Will take damage from sources of water\n\n": "",
+    
+            "Outlander": "异界者",
+            "?\n+ Can turn invisible after not moving for a while\n+ Will regenerate health when hungry\n+ Can backstab entities, inflicting three times the damage when hitting an entity from behind\n- Cannot turn invisible while in Sanctum\n- Have Mining Fatigue while in Sanctum\n\n": "",
+    
+            "Realmkeeper": "护域者",
+            "?\n+ Have increased max health\n+ Wearing full gold armor empowers you\n- Wearing stronger armor than gold will heavily weaken you\n- Will lose extra health when below y=25\n\n": "",
+    
+            "Villain": "灾厄族",
+            "?\n+ Are more resilient to damage\n+ Have increased attack damage\n+ Have slightly increased attack speed \n- Iron golems will always be hostile\n- Villagers will give you Bad Omen\n- Cannot be given Hero of the Village\n\n": "",
+    
+        # Glacium #
+        #   #
+            "Frosbeak": "",
+            "Jeg skiver!": "",
+    
+            "Froscuisses": "",
+            "Jeg er mote!": "",
+    
+            "Frosfang": "",
+            "jeg biter!": "",
+    
+            "Frosplakkrt": "",
+            "vokte hjertet mitt!": "",
+    
+            "Frossabattn": "",
+            "jeg løper!": "",
+    
+            "Viceroy's Visor": "",
+            "Jeg ser!": "",
+    
+            "Glacium Glider": "",
+            "Traveler's largesse": "",
+    
+            "Glacium Halberd": "",
+    
+            "Ice Wand": "",
+    
+            "Frozen Recurve": "",
+
+            "Frost Spite": "",
+            " had the last laugh": "",
+            "Combat": "",
+    
+        # Panacea #
+        #   #
+            "Panaspore": "",
+    
+            "Vitality Tunic": "",
+            "Vitality Chestplate": "",
+            "one of three": "",
+    
+            "Vitality Leggings": "",
+            "two of three": "",
+    
+            "Vitality Boots": "",
+    
+            "A Mortal Cull": "",
+            "Still warm from the great forge": "",
+
+            "Creeper Horn": "",
+            "Calls all nearby creepers.": "",
+
+            "Gothrum Fang": "",
+            "A make-do weapon.": "",
+
+            "Lembas Breadfruit": "",
+            "How many did you eat?": "",
+
+            "Perrterror Gastor": "",
+            "Single-use leaf shield.": "",
+
+            "Yakitubba Hide": "",
+            "Flesh of madness.": "",
+    
+        # Omnidrome #
+        #   #
+            "Null": "",
+    
+            "Void Bomb": "",
+            "void bomb": "",
+            "A vague feeling tells you not to use this.": "",
+            "DROP OF VOID": "",
+    
+        # Sanctum #
+        #   #
+            "Ruination Capsule": "",
+            "A part still lives.": "",
+    
+            "Shepherdess Cloak": "",
+            "Shepherdess_Cloak": "",
+            "Be safe my little one, I'll only be gone a little while...": "",
+    
+            "Stolen Sword": "",
+            "This item has been looted off someone before.": "",
+    
+        # The Brine #
+        #   #
+            "Incorruptible Cutlass": "",
+
+            "Cordyceps Powder": "",
+            "Essence of Eternity": "",
+            "Essence of Infinity": "",
+            "Jellyfish Stinger": "",
+            "Nautilus Chamber": "",
+            "Sentinel Rings": "",
+            "Tempest Nectar": "",
+            "Void Petal": "",
+            "Voidfish Venom": "",
+            "Wither Fin": "",
+            "Worm Mandible": "",
+
+        # Faewild #
+        #   #
+            "sharpened hoof": "",
+            "Horse Head": "",
+
+            "Arrow of True Love": "",
+
+            "Snake Oil": "",
+            "Totally Useless": "",
+            "Beastly Rose": "",
+
+            "Salmon of Knowledge": "",
+            "Bucket of Salmon?": "",
+
+            "Apple": "",
+            "Secret Army": "",
+
+            "Eat em' up!": "",
+
+        # Potions #
+        #   #
+            "Saturation Potion": "",
+            "Potion of Aquatic Enhancement": "",
+            "Potion of Astral Projection": "",
+            "Potion of Blindness": "",
+            "Potion of Greed": "",
+            "Potion of Haste": "",
+            "Potion of Levitation": "",
+            "Potion of Nausea": "",
+            "Abyssal Toxin": "",
+            "Potion of Withering": "",
+
+            "Potion of Untethering": "",
+            "E ʻike i ka mea aʻu e ʻike nei": "",
+
+        # Other #
+        #   #
+            "Paxmaker Sword": "",
+            "A protector, usque in diem, cum omnes gladiis sunt comminutae.": "",
+    
+            "Carthendryll": "",
+            "The end of all realms is The End.": "",
+    
+            "Feilfri": "",
+            "og pickaxen min": "",
+    
+            "Jewel_of_Adhain": "",
+            "An spréach a chuir tús leis ar fad.": "",
+    
+            "Jewel_of_Fuar": "",
+            "Éilíonn an geimhreadh tost.": "",
+    
+            "Skogabogg Scimitar": "",
+            "A sword by any other name would sting as sharp": "",
+    
+            "Thrall\'s Crown" : "",
+            "This does not belong to you.": "",
+    
+            "Nightfall": "",
+            "It returned from the Void different...": "",
+
+    # Entities #
+    #   #
+    
+        # Boss #
+        #   #
+        
+            # Bygone Viceroy #
+            #   #
+                "Bygone Viceroy": "",
+                "Frostforged": "",
+                "vicefrost attack": "",
+                "Active half of the Bygone Viceroy": "",
+                "Motive half of the Bygone Viceroy": "",
+            
+            # Project Ruination #
+            #   #
+                "Project Ruination": "",
+                "varsk_bomb": "",
+                "Nulliform": "",
+                "Construct": "",
+                "VOIDBREACH INITIATED: 01111-01 011011-1 01110101 00100000 0110-111 01101001 01110110 01100101 00100000 01101101 01100101 00100-00 01101110 0110-111 00100000 01100011 011-1000 01101111 01101001 01100011 011-0101": "",
+                "VARSKTECK ACTIVATED: 01001001 00100000 01110111 01101001 01101100 01101100 00100000 01100010 01101111 01110010 01110010 01101111 01110111 00100000 01100110 01110010 01101111 01101101 00100000 01100001 01101110 00100000 01100001 01101100 01101100 01111001": "",
+                "Project's Doom Event": "",
+                "SYSTEM RESTART: STAND BY FOR EXTRACTION PROCESS - 01001001 00100000 01101110 01100101 01100101 01100100 00100000 01111001 01101111 01110101 01110010 00100000 01110000 01101111 01110111 01100101 01110010": "",
+    
+            # Solatium Thrall #
+            #   #
+                "Solatium Thrall": "",
+                "Blast_Warning": "",
+                "Thrall Blast": "",
+                "Thrall: Do you think I could not see into your heart?\"": "",
+                "Thrall: Hush!\"": "",
+                "Solatium_Field": "",
+                "Thrall: My heart, it gives me right. May the tyrant rage.\"": "",
+                "Thrall: Are you moved now?\"": "",
+                "Thrall: Not yet, not yet.\"": "",
+                "Blight Rider": "",
+                "Fireblight": "",
+                "Thrall: The heart grows hard, if you can face the horrors of this world.\"": "",
+                "Thrall: I wished, I could have spared you this...\"": "",
+                "Thrall\'s Retribution": "",
+                "Thrall: You shall have your reward...\"": "",
+                "The Thrall speaks: \"You know that I have the strictest orders not allow anyone near the prisoners...\"": "",
+                "The Thrall speaks: \"This villain, in this very hour!\"": "",
+                "The Thrall speaks: \"And this is?\"": "",
+                "The Thrall speaks: \"I always act in duty bound, But also hate all cruelty.\"": "",
+                "The Thrall speaks: \"The hour of vengeance has come.\"": "",
+                "The Thrall speaks: \"Who hardly lives, And like a shadow looks?\"": "",
+                "The Thrall speaks: \"This cannot be, this cannot be.\"": "",
+                "The Thrall speaks: \"Are you afraid?\"": "",
+                "The Thrall speaks: \"And then?\"": "",
+                "Thrall: My true name... Thank you.\"": "",
+                "Crownblaze": "",
+                "Blightheart": "",
+    
+            # Sporangium #
+            #   #
+                "Deca Slime": "",
+                "The sporangium is metamorphosing into something...": "",
+                "nematocyst": "",
+                "The prey flees! The hunt begins...": "",
+                "A rusty weapon was excreted by the Tetra Slime.": "",
+                "Mature Sporangium": "",
+                
+            # The Disruptor #
+            #   #
+                "The Disruptor": "",
+    
+            # Unsung #
+            #   #
+                "Unsung": "",
+                "Pertinax creatura? Prope es?": "",
+                "Tua destructio ab architectis iudicata est...": "",
+
+        # Faewild #
+        #   #
+            "Knightmare": "",
+
+            "Arrowsmith": "",
+            "Bohemian": "",
+            "Fae Knight": "",
+            "Playwright": "",
+            "Pack Rat": "",
+            "Keeperscout": "",
+            "Ferryman": "",
+            "Hermit": "",
+            "Queene Maiden": "",
+
+            "Faefolk Ranger": "",
+
+            "Pool Shulker": "",
+    
+        # Glacium #
+        #   #
+            "Snowman": "",
+            "Ice Pixie": "",
+            "Stray Steed": "",
+            "Gvenhildir": "",
+            "Gvenhildir\'s Trident": "",
+            "Weapon of a former Valkyrie": "",
+            "Painted Mask": "",
+            "Watchman": "",
+            "ice droplet": "",
+            "ice cloud": "",
+            "Frozen Heart": "",
+    
+        # Panacea #
+        #   #
+            "Rain Event": "",
+            "killed!": "",
+            "Chlorocrafter": "",
+
+            "Gothrum": "",
+            "Gothrum Head": "",
+
+            "Dehydrated Ventithrub": "",
+            "Ventithrub": "",
+            "Ventithrub Flower": "",
+
+            "Autochthonous Piglin": "",
+            "Autochthonous Piglin Brute": "",
+
+            "Baby Yakitubba": "",
+            "Yakitubba": "",
+
+            "Perrterror": "",
+
+            "Perfect Creeper": "",
+
+            "Killer Bee": "",
+    
+        # Sanctum #
+        #   #
+            "Wither has been banished from this realm.": "",
+            "Proto-Golem": "",
+
+            "Archeroth": "",
+
+            "Netherite Golem": "",
+
+            "Marauder": "",
+    
+        # The Underdark #
+        #   #
+            "Polyfolus": "",
+            "polyfolus": "",
+            "poisonous gas": "",
+            "Lost Miner": "",
+            "thx Aza": "",
+            "Smeaglin": "",
+            "Egg blast": "",
+            "Shellbreaker Spider": "",
+    
+        # The Brine #
+        #   #
+            "Pirate Captain": "",
+            "Pirate Head": "",
+            "Pirate Gunner": "",
+            "Pirate Lookout": "",
+            "Pirate Deckhand": "",
+
+            "Sentinel": "",
+
+            "Dunkelosteus": "",
+
+        # Dormis #
+        #   #
+            "Blight Shade": "",
+
+        # Omnidrome #
+        #   #
+            "Corrupted_Golem": "",
+            "Polychaete Shulker": "",
+            "Guardsman": "",
+    
+        # Jukebox #
+        #   #
+            "Now Playing: Arnold Rynux - Brine": "",
+            "Now Playing: Arnold Rynux - Faewild": "",
+            "Now Playing: Arnold Rynux - Glacium": "",
+            "Now Playing: Arnold Rynux - Pax": "",
+            "Now Playing: Arnold Rynux - Underdark": "",
+            "Now Playing: Arnold Rynux - Viceroy": "",
+    
+        # Other #
+        #   #
+            "Phantom Rider": "",
+            "Phantom Boss": "",
+
+            "Crofter": "",
+    
+    # Config #
+    #   #
+        "[Normal]": "",
+        "[Incendium]": "",
+        "[Nullscape]": "",
+        "[Enable]": "",
+        "[Disable]": "",
+        " ": " ",
+        "Bracken Pack Config:\n": "",
+        "All options are enabled by default.": "",
+        "___________________": "___________________",
+    
+        "* Ability Books": "",
+        "Enable/Disable Ability Books: \nIf disabled all Ability Books will no longer activate their effects and a unique message will be displayed if an attempt is made to use them. This does not affect the Beginner Species Book nor the Book of Arbitrium. It will still be possible to obtain Ability Books from loot tables.": "",
+        "Ability Books have been disabled. Whenever a player uses an Ability Book it will no longer be functional.": "",
+        "Ability Books are already disabled!": "",
+        "Ability Books have been enabled. Whenever a player uses an Ability Book it will now be functional.": "",
+        "Ability Books are already enabled!": "",
+
+        "* Beginner Species Book": "",
+        "Enable/Disable Beginner Species Book: \nIf disabled the Beginner Species Book will no longer function and won't be handed out to new players.": "",
+
+        "* Dimensional Travel": "",
+        "Enable/Disable Dimensional Travel: \nThis will affect whether players are allowed to travel between the new dimensions added from the Bracken Pack.": "",
+        "Dimensional travel within the Bracken Pack has been disabled. Players will no longer be able to travel between dimensions added from the Bracken Pack.": "",
+        "Dimensional travel is already disabled!": "",
+        "Dimensional travel within the Bracken Pack has been enabled. Players will now be allowed to travel between dimensions added from the Bracken Pack.": "",
+        "Dimensional travel is already enabled!": "",
+    
+        "* Pax Portal requires keys": "",
+        "Enable/Disable Portal Keys: \nIf disabled all Pax Portals will no longer need Portal Keys to access dimensions. Portal Keys can still be found in loot tables. Pax Portals may require being turned off before change has taken affect.": "",
+        "Use of portal keys has been disabled. Pax Portals will no longer require keys to access dimensions.": "",
+        "Pax Portal keys are already disabled!": "",
+        "Use of portal keys has been enabled. Pax Portals will now require Portal Keys to be obtained before access to dimensions.": "",
+        "Pax Portal keys are already enabled!": "",
+    
+        "* Species of the Planes": "",
+        "Enable/Disable Species: \nThis will not force players to leave their current species. If disabled all commands for player species will no longer be activated. The Species Beginner Book will no longer be handed out to new players but both the Beginner Species Book and the Book of Arbitrium will still allow players to change species.": "",
+        "Species have been enabled. Pack will now run functions for species. Beginner Book will be handed out to new players.": "",
+        "Species are already enabled!": "",
+        "Species have been disabled. Pack will no longer run functions for species. Beginner Book will cease to be handed out to new players.": "",
+        "Species are already disabled!": "",
+    
+        "* Use of teams in datapack": "",
+        "Enable/Disable Teams: \nThis will not affect gameplay. Use of teams may make the Bracken Pack incompatible with other datapacks.": "",
+        "Use of teams within the Bracken Pack has been disabled. Player names will now be the default color.": "",
+        "Use of teams is already disabled!": "",
+        "Use of teams within the Bracken Pack has been enabled. Player names will now match the color that represents their species.": "",
+        "Use of teams is already enabled!": "",
+    
+        "* Nether Height": "",
+        "Nether Height: \nIncendium is a popular datapack by Starmute that revamps the Nether. Crucially, it increases the height of the nether. Setting this option to \"Incendium\" will change the height when players teleport to and from the Underdark to match the nether height with Incendium.": "",
+        "Nether height has been set to Incendium. Travel between the nether and the Underdark now matches the nether height with Incendium.": "",
+        "Nether height is already set to Incendium!": "",
+        "Nether height has been set to the normal vanilla height.": "",
+        "Nether height is already set to Normal!": "",
+
+        "* End Height": "",
+        "End Height: \nNullscape is a popular datapack by Starmute that revamps the End dimension. Crucially, it increases the height of the End. Setting this option to \"Nullscape\" will change the height when players teleport to and from the Void to match the End height with Nullscape.": "",
+        "End height has been set to the normal vanilla height.": "",
+        "End height is already set to Normal!": "",
+        "End height has been set to Nullscape. Travel between the Void and the End now matches the End height with Nullscape.": "",
+        "End height is already set to Nullscape!": "",
+    
+        "Use \"/function bracken:config\" to configure settings for the Bracken Pack": "",
+    
+    # Other #
+    #   #
+        "Respawn Alphie": "",
+        "not gone yet": ""
+    
+# Unmade #
+#   #
+#thrall crown
+
+}
