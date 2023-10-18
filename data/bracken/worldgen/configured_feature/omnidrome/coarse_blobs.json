@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "minecraft:netherrack"
+    },
+    "state": {
+      "Name": "minecraft:coarse_dirt"
+    },
+    "radius": {
+      "value": {
+        "min_inclusive": 7,
+        "max_inclusive": 10
+      },
+      "type": "minecraft:uniform"
+    }
+  }
+}

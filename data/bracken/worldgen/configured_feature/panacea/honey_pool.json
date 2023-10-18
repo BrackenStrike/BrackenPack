@@ -1,0 +1,25 @@
+{
+  "config": {
+    "contents": {
+      "Name": "minecraft:honey_block"
+    },
+    "rim": {
+      "Name": "minecraft:smooth_red_sandstone"
+    },
+    "size": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 7,
+        "max_inclusive": 10
+      }
+    },
+    "rim_size": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      }
+    }
+  },
+  "type": "minecraft:delta_feature"
+}

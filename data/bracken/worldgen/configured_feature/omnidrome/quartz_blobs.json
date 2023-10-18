@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "minecraft:end_stone"
+    },
+    "state": {
+      "Name": "minecraft:smooth_quartz"
+    },
+    "radius": {
+      "value": {
+        "min_inclusive": 9,
+        "max_inclusive": 10
+      },
+      "type": "minecraft:uniform"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "minecraft:mycelium"
+    },
+    "state": {
+      "Name": "minecraft:stone"
+    },
+    "radius": {
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 4
+      },
+      "type": "minecraft:uniform"
+    }
+  }
+}
