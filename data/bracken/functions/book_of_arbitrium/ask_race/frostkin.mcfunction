@@ -1,0 +1,3 @@
+scoreboard players enable @s bp.frostkin_
+scoreboard players set @s bp.arb_book 0
+tellraw @s ["",{"translate":"------------------------------\nWould you like to be a "},{"translate":"Frostkin","color":"aqua"},{"translate":"?\n+ Are more resilient to damage\n+ Have immunity to Slowness and Poison\n+ Are unaffected by the frigid colds of Glacium \n- Become weak and hungry while in hot climates\n- Take increased damage from Fire and lava\n\n"},{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger bp.frostkin_"}},{"translate":"\n------------------------------"}]
