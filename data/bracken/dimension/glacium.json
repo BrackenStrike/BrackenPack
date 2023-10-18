@@ -1,0 +1,60 @@
+{
+  "type": "bracken:glacium",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "bracken:glacium",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "bracken:glacium/glacial_mass",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.4
+          }
+        },
+        {
+          "biome": "bracken:glacium/invasive_forest",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": 0,
+            "continentalness": 0.4,
+            "erosion": 0,
+            "weirdness": 1,
+            "depth": 0,
+            "offset": 0.3
+          }
+        },
+        {
+          "biome": "bracken:glacium/boreal_frontier",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.4,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:glacium/fractured_wastes",
+          "parameters": {
+            "temperature": -0.1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.3,
+            "depth": 0,
+            "offset": 0.3
+          }
+        }
+      ]
+    }
+  }
+}

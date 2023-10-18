@@ -1,0 +1,72 @@
+{
+  "type": "bracken:the_underdark",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "bracken:the_underdark",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "bracken:the_underdark/petrified_forest",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.4,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:the_underdark/eroded_basin",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.5,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:the_underdark/titan_dripstone_cavern",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.2,
+            "depth": 0,
+            "offset": 0.2
+          }
+        },
+        {
+          "biome": "bracken:the_underdark/ruby_fungi_forest",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": -0.1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:the_underdark/crystal_caves",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0.2,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.5,
+            "depth": 0,
+            "offset": 0.4
+          }
+        }
+      ]
+    }
+  }
+}
