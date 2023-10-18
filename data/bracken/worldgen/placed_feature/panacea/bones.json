@@ -1,0 +1,12 @@
+{
+    "feature": "bracken:panacea/bones",
+    "placement": [
+        {
+            "type": "count",
+            "count": 1
+        },
+        {
+            "type": "minecraft:in_square"
+        }
+    ]
+}

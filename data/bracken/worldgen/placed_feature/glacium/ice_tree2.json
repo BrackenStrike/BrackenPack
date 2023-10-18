@@ -1,0 +1,23 @@
+{
+    "feature": "bracken:glacium/ice_tree2",
+    "placement": [
+        {
+            "type": "count",
+            "count": 3
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "minecraft:surface_water_depth_filter",
+            "max_water_depth": 0
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

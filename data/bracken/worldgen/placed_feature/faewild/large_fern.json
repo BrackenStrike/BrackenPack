@@ -1,0 +1,19 @@
+{
+    "feature": "bracken:faewild/large_fern",
+    "placement": [
+        {
+            "type": "count",
+            "count": 27
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "feature": "bracken:faewild/candles1",
+    "placement": [
+        
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 10
+          },
+        
+        {
+			"type": "minecraft:biome"
+		}
+    ]
+}

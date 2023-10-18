@@ -1,0 +1,16 @@
+{
+    "feature": "bracken:dormis/bedrockblock",
+    "placement": [
+        {
+            "type": "count",
+            "count": 15
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE"
+        }
+    ]
+}
