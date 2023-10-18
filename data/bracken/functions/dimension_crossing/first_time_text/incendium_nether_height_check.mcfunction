@@ -1,1 +1,0 @@
-execute if score #bp.nether_height_dummy bp.nether_height_con matches 0 run function bracken:dimension_crossing/first_time_text/nether_to_underdark
