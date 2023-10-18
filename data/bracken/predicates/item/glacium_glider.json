@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "chest": {
+        "items": [
+          "minecraft:elytra"
+        ],
+        "nbt": "{CustomModelData:888501}"
+      }
+    }
+  }
+}
