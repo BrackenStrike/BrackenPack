@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 10,
+        "max": 17
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.04
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ice",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/portal_keys/dormis_key",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/glacium/froscuisses",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/glacium/frossabattn",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

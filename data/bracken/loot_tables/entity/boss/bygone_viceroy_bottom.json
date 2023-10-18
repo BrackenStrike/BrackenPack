@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "bracken:item/glacium/glacium_glider"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "bracken:item/portal_keys/glacium_key"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_banner",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:888502,Enchantments:[{}],BlockEntityTag:{Patterns:[{Color:0,Pattern:\"mr\"},{Color:9,Pattern:\"flo\"},{Color:7,Pattern:\"cbo\"},{Color:3,Pattern:\"sku\"},{Color:0,Pattern:\"gra\"}]}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone"
+        }
+      ]
+    }
+  ]
+}

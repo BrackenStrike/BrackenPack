@@ -1,0 +1,87 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_soup"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/music_discs/faewild",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.04
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/ability_books/flying_boat",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/ability_books/world_soar",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
