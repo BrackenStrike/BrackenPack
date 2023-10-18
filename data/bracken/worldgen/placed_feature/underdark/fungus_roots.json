@@ -1,0 +1,12 @@
+{
+    "feature": "bracken:underdark/fungus_roots",
+    "placement": [
+        {
+            "type": "count",
+            "count": 50
+        },
+        {
+            "type": "minecraft:in_square"
+        }
+    ]
+}

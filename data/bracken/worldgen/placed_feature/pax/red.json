@@ -1,0 +1,17 @@
+{
+    "feature": "bracken:pax/red",
+    "placement": [
+        
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 100
+          },
+        
+        {
+			"type": "minecraft:biome"
+		}
+    ]
+}

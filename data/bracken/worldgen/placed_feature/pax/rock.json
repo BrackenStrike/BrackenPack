@@ -1,0 +1,22 @@
+{
+    "feature": "bracken:pax/rock",
+    "placement": [
+        {
+            "type": "count",
+            "count": {
+                "value": {
+                    "min_inclusive": 0,
+                    "max_inclusive": 2
+                },
+                "type": "minecraft:uniform"
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE"
+        }
+    ]
+}
