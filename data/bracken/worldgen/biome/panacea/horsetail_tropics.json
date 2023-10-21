@@ -150,7 +150,8 @@
       "minecraft:patch_sugar_cane",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:kelp_warm"
+      "minecraft:kelp_warm",
+      "bracken:panacea/beet"
     ],
     [
       "minecraft:freeze_top_layer"

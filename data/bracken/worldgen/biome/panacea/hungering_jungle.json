@@ -156,8 +156,7 @@
       "minecraft:patch_melon",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:kelp_warm",
-      "bracken:panacea/beet"
+      "minecraft:kelp_warm"
     ],
     [
       "minecraft:freeze_top_layer"
