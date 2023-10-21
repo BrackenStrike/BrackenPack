@@ -140,6 +140,7 @@
     ["bracken:faewild/large_fern"],
     [
       "minecraft:patch_large_fern",
+      "minecraft:patch_melon",
       "minecraft:trees_flower_forest",
       "minecraft:patch_grass_jungle",
       "minecraft:patch_waterlily",
