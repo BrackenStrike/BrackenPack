@@ -36,10 +36,7 @@
                     "provider": {
                       "type": "minecraft:simple_state_provider",
                       "state": {
-                        "Name": "minecraft:grass_block",
-                        "Properties": {
-                          "snowy": "false"
-                        }
+                        "Name": "minecraft:mud"
                       }
                     }
                   },
@@ -49,7 +46,7 @@
                       "type": "minecraft:weighted_state_provider",
                       "entries": [
                         {
-                          "weight": 3,
+                          "weight": 30,
                           "data": {
                             "Name": "minecraft:wheat",
                             "Properties": {
