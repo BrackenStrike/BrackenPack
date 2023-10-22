@@ -1,6 +1,11 @@
 {
   "spawners": {
-    "water_ambient": [],
+    "water_ambient": [{
+      "type": "minecraft:tropical_fish",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }],
     "ambient": [],
     "misc": [],
     "water_creature": [],

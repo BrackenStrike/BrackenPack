@@ -1,8 +1,8 @@
 {
-    "feature": "bracken:panacea/bogwater3",
+    "feature": "bracken:sanctum/fire",
     "placement": [
       {
-        "count": 1,
+        "count": 4,
         "type": "minecraft:count_on_every_layer"
       },
       {
