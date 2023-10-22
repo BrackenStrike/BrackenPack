@@ -29,7 +29,7 @@
     ["minecraft:warm_ocean_vegetation",
     "minecraft:sea_pickle","bracken:brine/supercoral"],
     ["bracken:sanctum/city_tree2"],
-    ["minecraft:glow_lichen"],
+    ["minecraft:glow_lichen","bracken:sanctum/fire"],
     [],
     [],
     [],
