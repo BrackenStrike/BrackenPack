@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "bracken:pax/sky_garden",
+  "biomes": "bracken:pax/autumn_idyll",
   "spawn_overrides": {},
   "start_pool": "bracken:pax_launchpad",
   "size": 6,
