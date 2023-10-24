@@ -14,7 +14,10 @@
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
-            "depth": 0,
+            "depth": [
+              0,
+              0.09
+            ],
             "offset": 0
           }
         },
@@ -26,7 +29,10 @@
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
-            "depth": 0,
+            "depth": [
+              0,
+              0.09
+            ],
             "offset": 0
           }
         },
@@ -38,7 +44,10 @@
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
-            "depth": 0,
+            "depth": [
+              0,
+              0.09
+            ],
             "offset": 0
           }
         },
@@ -50,7 +59,10 @@
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
-            "depth": 0,
+            "depth": [
+              0,
+              0.09
+            ],
             "offset": 0
           }
         },
@@ -62,7 +74,25 @@
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
-            "depth": 0,
+            "depth": [
+              0,
+              0.09
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:pax/igress",
+          "parameters": {
+            "temperature": -0.1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": [
+              0.1,
+              2
+            ],
             "offset": 0
           }
         }
