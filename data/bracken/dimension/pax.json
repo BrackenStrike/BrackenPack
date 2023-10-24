@@ -82,7 +82,7 @@
           }
         },
         {
-          "biome": "bracken:pax/igress",
+          "biome": "bracken:pax/ingress",
           "parameters": {
             "temperature": -0.1,
             "humidity": 0,
