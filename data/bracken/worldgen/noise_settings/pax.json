@@ -207,7 +207,7 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bracken:pax/igress"
+            "bracken:pax/ingress"
           ]
         },
         "then_run": {
