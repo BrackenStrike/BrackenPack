@@ -11,6 +11,14 @@
     ],
     "misc": [],
     "water_creature": [],
+    "axolotls": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
     "creature": [
       {
         "type": "minecraft:mooshroom",

@@ -34,6 +34,12 @@
         "maxCount": 1
       },
       {
+        "type": "minecraft:frog",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
         "type": "minecraft:fox",
         "weight": 2,
         "minCount": 1,

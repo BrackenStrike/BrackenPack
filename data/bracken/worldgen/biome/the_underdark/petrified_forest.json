@@ -11,7 +11,20 @@
     ],
     "misc": [],
     "water_creature": [],
-    "creature": [],
+    "axolotls": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "creature": [{
+      "type": "minecraft:donkey",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 3
+    }],
     "monster": [
       {
         "type": "minecraft:zombie_villager",

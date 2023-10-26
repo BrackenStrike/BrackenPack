@@ -35,6 +35,12 @@
         "weight": 10,
         "minCount": 4,
         "maxCount": 4
+      },
+      {
+        "type": "minecraft:frog",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
       }
     ],
     "monster": [
