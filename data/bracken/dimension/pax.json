@@ -16,7 +16,7 @@
             "weirdness": 0,
             "depth": [
               0,
-              0.3
+              1.59
             ],
             "offset": 0
           }
@@ -31,7 +31,7 @@
             "weirdness": 0,
             "depth": [
               0,
-              0.3
+              1.59
             ],
             "offset": 0
           }
@@ -46,7 +46,7 @@
             "weirdness": 0,
             "depth": [
               0,
-              0.3
+              1.59
             ],
             "offset": 0
           }
@@ -61,7 +61,7 @@
             "weirdness": 0,
             "depth": [
               0,
-              0.3
+              1.59
             ],
             "offset": 0
           }
@@ -76,7 +76,7 @@
             "weirdness": 0,
             "depth": [
               0,
-              0.3
+              1.59
             ],
             "offset": 0
           }
@@ -90,8 +90,8 @@
             "erosion": 0,
             "weirdness": 0,
             "depth": [
-              0.4,
-              1
+              1.6,
+              2
             ],
             "offset": 0
           }
