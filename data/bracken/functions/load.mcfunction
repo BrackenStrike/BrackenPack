@@ -26,6 +26,7 @@ scoreboard objectives add bp.brinetravel dummy
 scoreboard objectives add bp.obsidian dummy
 scoreboard objectives add bp.spite dummy
 scoreboard objectives add bp.world_player_id dummy
+scoreboard objectives add bp.dust_storm dummy
 
 # time
 scoreboard objectives add bp.tick dummy

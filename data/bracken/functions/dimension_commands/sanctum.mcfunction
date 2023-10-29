@@ -20,3 +20,4 @@ execute if score @s bp.1_second matches 12 if score #bp.dimension_travel_dummy b
 
 # Dust Storm
 execute positioned over ocean_floor if entity @s[predicate=bracken:rain,dy=999] run function bracken:entities/sanctum/dust_storm
+execute if entity @s[predicate=bracken:rain] function bracken:entities/sanctum/dust_storm2
