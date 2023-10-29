@@ -16,12 +16,12 @@ execute if score @s bp.dust_storm matches ..0 run scoreboard players set @s bp.d
 scoreboard players remove @s bp.dust_storm 1
 
 execute if score @s bp.dust_storm matches ..0 if score #1 bp.math.out matches 0 run effect give @s minecraft:levitation 1 2 true
-execute if score @s bp.dust_storm matches ..0 if score #1 bp.math.out matches 0 run playsound playsound minecraft:entity.elder_guardian.death hostile @s ~ ~ ~ 100 0
+execute if score @s bp.dust_storm matches ..0 if score #1 bp.math.out matches 0 run playsound minecraft:entity.elder_guardian.death hostile @s ~ ~ ~ 100 0
 
 execute if score @s bp.dust_storm matches ..0 if score #1 bp.math.out matches 1 run effect give @s minecraft:levitation 1 5 true
-execute if score @s bp.dust_storm matches ..0 if score #1 bp.math.out matches 1 run playsound playsound minecraft:entity.elder_guardian.death hostile @s ~ ~ ~ 100 0
+execute if score @s bp.dust_storm matches ..0 if score #1 bp.math.out matches 1 run playsound minecraft:entity.elder_guardian.death hostile @s ~ ~ ~ 100 0
 execute if score @s bp.dust_storm matches ..0 if score #1 bp.math.out matches 2 run effect give @s minecraft:slow_falling 2 0 true
 
 execute if score @s bp.dust_storm matches ..0 if score #1 bp.math.out matches 2 run effect give @s minecraft:levitation 2 3 true
 execute if score @s bp.dust_storm matches ..0 if score #1 bp.math.out matches 2 run effect give @s minecraft:slow_falling 3 0 true
-execute if score @s bp.dust_storm matches ..0 if score #1 bp.math.out matches 2 run playsound playsound minecraft:entity.elder_guardian.death hostile @s ~ ~ ~ 100 0
+execute if score @s bp.dust_storm matches ..0 if score #1 bp.math.out matches 2 run playsound minecraft:entity.elder_guardian.death hostile @s ~ ~ ~ 100 0
