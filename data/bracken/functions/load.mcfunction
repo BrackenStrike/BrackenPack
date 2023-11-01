@@ -8,6 +8,8 @@ function bracken:entities/boss/the_disruptor/load
 function bracken:entities/boss/project_ruination/load
 function bracken:entities/boss/sporangium/load
 function bracken:entities/boss/unsung/load
+
+#Rain Event
 function bracken:entities/panacea/load
 
 ##########   ADD SCOREBOARD OBJECTIVES   ##########
@@ -206,6 +208,7 @@ scoreboard objectives add bp.coas minecraft.used:minecraft.carrot_on_a_stick
 
 ##########   SPECIES BOOKS   ##########
 scoreboard objectives add bp.arb_book dummy
+
 scoreboard objectives add bp.automech trigger
 scoreboard objectives add bp.frostkin trigger
 scoreboard objectives add bp.faefolk trigger
@@ -231,6 +234,14 @@ scoreboard objectives add bp.netherkin_ trigger
 scoreboard objectives add bp.outlander_ trigger
 scoreboard objectives add bp.realmkeeper_ trigger
 scoreboard objectives add bp.villain_ trigger
+
+##########   OMNIDROME COMMANDS   ##########
+scoreboard objectives add OMNI.help trigger
+scoreboard objectives add OMNI.gamemode trigger
+scoreboard objectives add OMNI.fly trigger
+scoreboard objectives add OMNI.get_playerIDs trigger
+scoreboard objectives add OMNI.tp_to_player trigger
+scoreboard objectives add OMNI.summon trigger
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule commandBlockOutput false
