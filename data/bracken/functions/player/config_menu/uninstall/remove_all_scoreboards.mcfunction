@@ -187,6 +187,16 @@ scoreboard objectives remove bp.ice
 
 # Omnidrome
 scoreboard objectives remove bp.spawn_loading 
+scoreboard objectives remove bp.disruptor_beaten 
+scoreboard objectives remove bp.killed_elder_guardians 
+scoreboard objectives remove bp.omni_entry_gm
+scoreboard objectives remove bp.omni_id
+scoreboard objectives remove OMNI.help 
+scoreboard objectives remove OMNI.gamemode
+scoreboard objectives remove OMNI.fly
+scoreboard objectives remove OMNI.get_playerIDs
+scoreboard objectives remove OMNI.tp_to_player
+scoreboard objectives remove OMNI.summon
 
 ##########   PAX PORTAL   ##########
 scoreboard objectives remove bp.portal_R 

@@ -9,6 +9,8 @@ scoreboard players set @s bp.hurting 0
 scoreboard players set @s bp.walk 0
 scoreboard players set @s bp.swim 0
 scoreboard players set @s[scores={bp.fly=1..}] bp.fly 0
+scoreboard players set @s[scores={OMNI.fly=1..}] OMNI.fly 1
+scoreboard players set @s[scores={OMNI.fly=..0}] OMNI.fly 0
 scoreboard players set @s[scores={bp.jump=2..}] bp.jump 1
 
 
@@ -37,3 +39,8 @@ execute if score @s bp.astral_time matches 1.. run function bracken:player/potio
 execute if score @s bp.greed_duration matches 1.. run function bracken:player/potion/greed/tick
 
 
+#Omnidrome commands
+
+execute as @a[predicate=!bracken:dimensions/omnidrome] run function bracken:dimension_commands/other/restore_omni_gm
+
+execute as @a[predicate=bracken:dimensions/omnidrome] unless score #1 bp.disruptor_beaten matches 1 if score @s bp.killed_elder_guardians matches 1.. run function bracken:dimension_commands/other/process_disruptor_defeat

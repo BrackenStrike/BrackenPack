@@ -8,8 +8,8 @@ execute if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if
 execute if entity @s[scores={bp.3_second=5}] as @e[type=marker,tag=bp.dimension_marker] at @s if block ~ ~-1 ~ air in bracken:omnidrome run function bracken:dimension_crossing/spawn_platforms/remove_spawn_platform
 
 # Movement and Effects
-effect give @s[scores={bp.sneakcharge=10..}] minecraft:levitation 1 15 true
-tp @s[scores={bp.sneakcharge=10..}] ~ ~0.001 ~
+effect give @s[scores={bp.sneakcharge=10..,OMNI.fly=1..}] minecraft:levitation 1 15 true
+tp @s[scores={bp.sneakcharge=10..,OMNI.fly=1..}] ~ ~0.001 ~
 effect clear @s[predicate=!bracken:sneak,scores={bp.sneakcharge=..28}] minecraft:levitation
 effect give @s[predicate=bracken:sprint] minecraft:speed 1 4 true
 effect give @s[scores={bp.longtick=2}] minecraft:jump_boost 15 255 true

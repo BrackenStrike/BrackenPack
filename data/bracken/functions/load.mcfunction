@@ -193,6 +193,9 @@ scoreboard objectives add bp.ice dummy
 # Omnidrome
 scoreboard objectives add bp.spawn_loading dummy
 scoreboard players set #1 bp.spawn_loading 1
+scoreboard objectives add bp.disruptor_beaten dummy
+scoreboard objectives add bp.killed_elder_guardians minecraft.killed:minecraft.elder_guardian
+scoreboard objectives add bp.omni_entry_gm dummy
 
 ##########   PAX PORTAL   ##########
 scoreboard objectives add bp.portal_R dummy
@@ -242,6 +245,7 @@ scoreboard objectives add OMNI.fly trigger
 scoreboard objectives add OMNI.get_playerIDs trigger
 scoreboard objectives add OMNI.tp_to_player trigger
 scoreboard objectives add OMNI.summon trigger
+scoreboard objectives add bp.omni_id dummy
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule commandBlockOutput false

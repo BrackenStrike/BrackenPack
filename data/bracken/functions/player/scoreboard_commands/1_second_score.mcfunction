@@ -34,3 +34,13 @@ scoreboard players set @s[predicate=bracken:item/poison_sword_mainhand] bp.poiso
 scoreboard players set @s[predicate=bracken:item/spite_mainhand] bp.spite 3
 scoreboard players set @s[predicate=bracken:item/spite_offhand] bp.spite 3
 scoreboard players remove @s[scores={bp.spite=1..}] bp.spite 2
+ 
+# omnidrome UUID
+execute as @a[predicate=bracken:dimensions/omnidrome] unless score @s bp.omni_id = @s bp.omni_id store result score @s bp.omni_id run random roll 1..2147483646
+
+# omnidrome scoreboard triggers
+execute as @a[predicate=!bracken:dimensions/omnidrome] run function bracken:player/scoreboard_commands/omni/disable
+
+execute as @a[predicate=bracken:dimensions/omnidrome] if score #1 bp.disruptor_beaten matches 1 run function bracken:player/scoreboard_commands/omni/enable
+
+execute as @a[predicate=bracken:dimensions/omnidrome] if score #1 bp.disruptor_beaten matches 1 run function bracken:player/scoreboard_commands/omni/process_all
