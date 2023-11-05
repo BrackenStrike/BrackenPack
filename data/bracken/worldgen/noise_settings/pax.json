@@ -141,10 +141,10 @@
               "type": "minecraft:vertical_gradient",
               "random_name": "s4",
               "true_at_and_below": {
-                "absolute": 64
+                "absolute": 65
               },
               "false_at_and_above": {
-                "absolute": 64
+                "absolute": 70
               }
             },
             "then_run": {
