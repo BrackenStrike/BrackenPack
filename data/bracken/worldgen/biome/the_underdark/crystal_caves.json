@@ -18,9 +18,23 @@
     "water_creature": [
       
     ],
+    "axolotls": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
     "creature": [
       {
         "type": "minecraft:creeper",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:donkey",
         "weight": 5,
         "minCount": 1,
         "maxCount": 3

@@ -112,12 +112,13 @@
   },
   "features": [
     [],
-    ["bracken:panacea/big_tree"],
+    ["bracken:panacea/big_tree",
+    "minecraft:patch_berry_common"],
     [
       "minecraft:forest_rock"
     ],
     ["bracken:panacea/coal_blobs"],
-    [],
+    ["bracken:panacea/berry"],
     [],
     [],
     [],

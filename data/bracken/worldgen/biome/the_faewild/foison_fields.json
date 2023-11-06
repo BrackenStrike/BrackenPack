@@ -14,7 +14,7 @@
     "creature": [
       {
         "type": "minecraft:pig",
-        "weight": 52,
+        "weight": 12,
         "minCount": 4,
         "maxCount": 4
       },
@@ -26,13 +26,19 @@
       },
       {
         "type": "minecraft:fox",
-        "weight": 2,
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:rabbit",
+        "weight": 10,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "minecraft:rabbit",
-        "weight": 50,
+        "type": "minecraft:frog",
+        "weight": 10,
         "minCount": 4,
         "maxCount": 4
       }

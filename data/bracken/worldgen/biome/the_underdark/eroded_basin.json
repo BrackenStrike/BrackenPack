@@ -27,6 +27,12 @@
         "maxCount": 4
       },
       {
+        "type": "minecraft:skeleton",
+        "weight": 4,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
         "type": "minecraft:magma_cube",
         "weight": 25,
         "minCount": 1,

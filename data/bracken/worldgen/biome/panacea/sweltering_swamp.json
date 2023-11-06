@@ -149,7 +149,8 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_dead_bush",
-      "minecraft:seagrass_swamp"
+      "minecraft:seagrass_swamp",
+      "bracken:panacea/carrot"
     ],
     [],
     [

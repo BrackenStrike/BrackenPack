@@ -141,17 +141,48 @@
               "type": "minecraft:vertical_gradient",
               "random_name": "s4",
               "true_at_and_below": {
-                "absolute": 64
+                "absolute": 65
               },
               "false_at_and_above": {
-                "absolute": 64
+                "absolute": 70
               }
             },
             "then_run": {
-              "type": "minecraft:block",
-              "result_state": {
-                "Name": "minecraft:chiseled_quartz_block"
-              }
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:stone_depth",
+                    "offset": 0,
+                    "surface_type": "floor",
+                    "add_surface_depth": false,
+                    "secondary_depth_range": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:sand"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:stone_depth",
+                    "offset": 1,
+                    "surface_type": "floor",
+                    "add_surface_depth": false,
+                    "secondary_depth_range": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "minecraft:smooth_sandstone"
+                    }
+                  }
+                }
+              ]
             }
           }
         }
@@ -202,6 +233,7 @@
           ]
         }
       },
+      
       {
         "type": "minecraft:condition",
         "if_true": {

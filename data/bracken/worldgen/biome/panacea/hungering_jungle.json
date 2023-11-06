@@ -81,6 +81,12 @@
         "maxCount": 4
       },
       {
+        "type": "minecraft:zombie_horse",
+        "weight": 5,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
         "type": "minecraft:spider",
         "weight": 5,
         "minCount": 4,
@@ -154,6 +160,7 @@
       "minecraft:vines",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_melon",
+      "bracken:panacea/melon",
       "minecraft:spring_water",
       "minecraft:spring_lava",
       "minecraft:kelp_warm"

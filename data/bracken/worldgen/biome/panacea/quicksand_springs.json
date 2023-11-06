@@ -121,7 +121,8 @@
       
     ],
     [
-      "bracken:panacea/bogwater3"
+      "bracken:panacea/bogwater3",
+      "bracken:panacea/wheat"
     ],
     [
       "bracken:panacea/coal_blobs",
@@ -152,6 +153,7 @@
     [
       "minecraft:patch_sugar_cane",
       "minecraft:spring_water",
+      "bracken:panacea/wheat",
 
       "minecraft:kelp_warm"
     ],

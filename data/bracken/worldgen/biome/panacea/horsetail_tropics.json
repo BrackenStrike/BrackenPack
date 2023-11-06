@@ -45,6 +45,12 @@
         "maxCount": 4
       },
       {
+        "type": "minecraft:zombie_horse",
+        "weight": 5,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
         "type": "minecraft:bee",
         "weight": 5,
         "minCount": 4,
@@ -140,6 +146,7 @@
     ["bracken:faewild/large_fern"],
     [
       "minecraft:patch_large_fern",
+      "minecraft:patch_melon",
       "minecraft:trees_flower_forest",
       "minecraft:patch_grass_jungle",
       "minecraft:patch_waterlily",
@@ -149,7 +156,8 @@
       "minecraft:patch_sugar_cane",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:kelp_warm"
+      "minecraft:kelp_warm",
+      "bracken:panacea/beet"
     ],
     [
       "minecraft:freeze_top_layer"

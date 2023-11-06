@@ -26,6 +26,14 @@
     "water_creature": [
       
     ],
+    "axolotls": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
     "creature": [
       {
         "type": "minecraft:hoglin",
@@ -38,6 +46,12 @@
       "weight": 1,
       "minCount": 1,
       "maxCount": 2
+    },
+    {
+      "type": "minecraft:frog",
+      "weight": 10,
+      "minCount": 4,
+      "maxCount": 4
     },
     {
         "type": "minecraft:fox",

@@ -24,6 +24,14 @@
       }
     ],
     "water_creature": [],
+    "axolotls": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
     "creature": [
       {
         "type": "minecraft:pig",
@@ -94,6 +102,7 @@
       "minecraft:patch_tall_grass_2",
       "minecraft:patch_large_fern",
       "minecraft:bamboo",
+      "bracken:panacea/potato",
       "minecraft:bamboo_vegetation"
     ],
     [

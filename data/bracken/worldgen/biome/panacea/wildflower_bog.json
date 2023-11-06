@@ -25,6 +25,14 @@
         "maxCount": 1
       }
     ],
+    "axolotls": [
+      {
+        "type": "minecraft:axolotl",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
     "creature": [
       {
         "type": "minecraft:pig",
@@ -160,7 +168,9 @@
       "minecraft:patch_sugar_cane",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:kelp_warm"
+      "minecraft:kelp_warm",
+      "minecraft:patch_pumpkin",
+      "bracken:panacea/pumpkin"
     ],
     [
       "minecraft:freeze_top_layer"
