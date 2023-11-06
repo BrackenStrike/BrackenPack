@@ -18,6 +18,7 @@ YoannBB
 
 CURRENT CONTRIBUTORS
 Accelerator
+Jakerson
 SixLuckyBlocks
 
 LEGACY CONTRIBUTORS
