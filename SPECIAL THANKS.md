@@ -6,25 +6,26 @@ This pack is made awesome by the following awesome people...
 DEVELOPMENT TEAM
 AileeNyx
 Arnold_Rynux
-Cardboard_Box
 Catcocomics
 Dr. C
 Freddy64merpro
 Grandmaster
-Jorick_Sephis
-Natebat9
 reNemesic
 Sulfenir
 Tuxxic
 TytoninaeArt
-YoannBB2
+YoannBB
 
-CONTRIBUTORS
+CURRENT CONTRIBUTORS
 Accelerator
+SixLuckyBlocks
+
+LEGACY CONTRIBUTORS
+Cardboard_Box
 Hawaiian_flower
 Jerry_From_Squidward
+Jorick_Sephis
 NecromancerT-Rav
-SixLuckyBlocks
 The_Happy_Protogen
 Trog
 
