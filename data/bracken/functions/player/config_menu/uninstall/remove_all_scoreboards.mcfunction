@@ -197,6 +197,10 @@ scoreboard objectives remove OMNI.fly
 scoreboard objectives remove OMNI.get_playerIDs
 scoreboard objectives remove OMNI.tp_to_player
 scoreboard objectives remove OMNI.summon
+scoreboard objectives remove bp.omnitp_walk 
+scoreboard objectives remove bp.omnitp_sprint
+scoreboard objectives remove bp.omnitp_jump
+scoreboard objectives remove bp.omnitp_chrono
 
 ##########   PAX PORTAL   ##########
 scoreboard objectives remove bp.portal_R 

@@ -246,6 +246,10 @@ scoreboard objectives add OMNI.get_playerIDs trigger
 scoreboard objectives add OMNI.tp_to_player trigger
 scoreboard objectives add OMNI.summon trigger
 scoreboard objectives add bp.omni_id dummy
+scoreboard objectives add bp.omnitp_walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add bp.omnitp_sprint minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add bp.omnitp_jump minecraft.custom:minecraft.jump
+scoreboard objectives add bp.omnitp_chrono dummy
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule commandBlockOutput false

@@ -27,7 +27,7 @@ scoreboard players remove @s[scores={bp.sneakcharge=1..},predicate=!bracken:snea
 scoreboard players set @s[scores={bp.armor=..10}] bp.gold 0
 
 # VARSKSPACE TRAVEL - moved to an advancement
-#execute if entity @e[type=lightning_bolt,tag=bp.varsk_lightning,distance=..3] run function bracken:dimension_crossing/varskspace_travel
+# execute if entity @e[type=lightning_bolt,tag=bp.varsk_lightning,distance=..3] run function bracken:dimension_crossing/varskspace_travel
 
 # Ability Books
 scoreboard players remove @s[scores={bp.wtb_cooldown=1..}] bp.wtb_cooldown 2
@@ -43,4 +43,11 @@ execute if score @s bp.greed_duration matches 1.. run function bracken:player/po
 
 execute as @a[predicate=!bracken:dimensions/omnidrome] run function bracken:dimension_commands/other/restore_omni_gm
 
-execute as @a[predicate=bracken:dimensions/omnidrome] unless score #1 bp.disruptor_beaten matches 1 if score @s bp.killed_elder_guardians matches 1.. run function bracken:dimension_commands/other/process_disruptor_defeat
+execute as @a[predicate=bracken:dimensions/omnidrome] if score #1 bp.disruptor_beaten matches 1 run function bracken:dimension_commands/omni/process_all
+
+execute as @a[predicate=bracken:dimensions/omnidrome] unless score #1 bp.disruptor_beaten matches 1 if score @s bp.killed_elder_guardians matches 1.. run function bracken:dimension_commands/omni/process_disruptor_defeat
+
+execute as @a[tag=bp.omni_spectator,predicate=!bracken:dimensions/omnidrome] run damage @s 100000000 minecraft:bad_respawn_point
+
+# failsafe in case an admin uses /tp inadvertently while in watchmode
+tag @a[tag=bp.omni_spectator,predicate=!bracken:dimensions/omnidrome,gamemode=!spectator] remove bp.omni_spectator
