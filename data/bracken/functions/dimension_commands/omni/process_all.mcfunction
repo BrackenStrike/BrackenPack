@@ -5,7 +5,7 @@
 
 # get player ids
 execute if score @s OMNI.get_playerIDs matches 1.. run tellraw @s {"text":"IDENTIFIERS","color":"green","bold":true}
-execute if score @s OMNI.get_playerIDs matches 1.. as @a run tellraw @s[scores={OMNI.get_playerIDs=1..}] ["",{"text":"@","color":"green"},{"selector":"@s","color":"green"},{"text":" => ","color":"green"},{"score":{"name":"@s","objective":"bp.omni_id"},"color":"green"}]
+execute if score @s OMNI.get_playerIDs matches 1.. as @a run tellraw @a[scores={OMNI.get_playerIDs=1..}] ["",{"text":"@","color":"green"},{"selector":"@s","color":"green"},{"text":" => ","color":"green"},{"score":{"name":"@s","objective":"bp.omni_id"},"color":"green"}]
 execute if score @s OMNI.get_playerIDs matches 1.. run scoreboard players reset @s OMNI.get_playerIDs
 
 # Omni-tp
