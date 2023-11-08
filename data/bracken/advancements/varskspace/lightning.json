@@ -15,7 +15,8 @@
                                 "absolute": {
                                     "max": 3
                                 }
-                            }
+                            },
+                            "nbt": "{Tags:[\"bp.varsk_lightning\"]}"
                         }
                     }
                 ]
