@@ -10,7 +10,7 @@ scoreboard players set @s bp.walk 0
 scoreboard players set @s bp.swim 0
 scoreboard players set @s[scores={bp.fly=1..}] bp.fly 0
 scoreboard players set @s[scores={bp.jump=2..}] bp.jump 1
-
+execute if score #1 bp.varskstorm.cd matches 1.. run scoreboard players remove #1 bp.varskstorm.cd 1
 
 scoreboard players set @s[scores={bp.sprint=1..}] bp.sprint 0
 scoreboard players remove @s bp.obsidian 1

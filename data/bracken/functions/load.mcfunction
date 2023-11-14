@@ -193,6 +193,11 @@ scoreboard objectives add bp.ice dummy
 scoreboard objectives add bp.spawn_loading dummy
 scoreboard players set #1 bp.spawn_loading 1
 
+# Varskspace
+scoreboard objectives add bp.varskstorm.cd dummy
+scoreboard players set #1 bp.varskstorm.cd 0
+scoreboard players set #2 bp.varskstorm.cd 0
+
 ##########   PAX PORTAL   ##########
 scoreboard objectives add bp.portal_R dummy
 scoreboard objectives add bp.portal_G dummy

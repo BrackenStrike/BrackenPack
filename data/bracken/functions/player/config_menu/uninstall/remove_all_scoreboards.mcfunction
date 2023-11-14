@@ -188,6 +188,9 @@ scoreboard objectives remove bp.ice
 # Omnidrome
 scoreboard objectives remove bp.spawn_loading 
 
+# Varskspace
+scoreboard objectives remove bp.varskstorm.cd
+
 ##########   PAX PORTAL   ##########
 scoreboard objectives remove bp.portal_R 
 scoreboard objectives remove bp.portal_G 

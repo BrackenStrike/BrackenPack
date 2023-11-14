@@ -13,4 +13,25 @@ execute at @a unless entity @e[type=end_crystal,predicate=bracken:dimensions/the
 # forceload void at 0 0 (for mansion spell book)
 execute in bracken:void run forceload add 0 0
 
+# 1/2500 chance to start a varskstorm
+
+execute store result score #3 bp.varskstorm.cd run random value 0..2500 
+execute if score #3 bp.varskstorm.cd matches 0 if data storage bp.vars {varskstorm:{stage:0}} run data merge storage bp.vars {varskstorm:{stage:1}}
+
+# 
+
+scoreboard players add #4 bp.varskstorm.cd 1
+
+execute if score #4 bp.varskstorm.cd matches 6 if data storage bp.vars {varskstorm:{stage:1}} run data merge storage bp.vars {varskstorm:{stage:2}}
+execute if score #4 bp.varskstorm.cd matches 12 if data storage bp.vars {varskstorm:{stage:2}} run data merge storage bp.vars {varskstorm:{stage:3}}
+execute if score #4 bp.varskstorm.cd matches 12.. run scoreboard players set #4 bp.varskstorm.cd 0
+
+
+
+
+# 1/250 chance to end a varskstorm
+
+execute store result score #3 bp.varskstorm.cd run random value 0..250 
+execute if score #3 bp.varskstorm.cd matches 0 run data merge storage bp.vars {varskstorm:{stage:0}}
+
 schedule function bracken:10_seconds 10s
