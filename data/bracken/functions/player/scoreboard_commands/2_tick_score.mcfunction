@@ -38,14 +38,7 @@ execute if score @s bp.giant matches 1.. run function bracken:ability_books/swor
 execute if score @s bp.astral_time matches 1.. run function bracken:player/potion/astral_projection/tick
 execute if score @s bp.greed_duration matches 1.. run function bracken:player/potion/greed/tick
 
-
-#Omnidrome commands
-
 execute as @a[predicate=!bracken:dimensions/omnidrome] run function bracken:dimension_commands/other/restore_omni_gm
-
-execute as @a[predicate=bracken:dimensions/omnidrome] if score #1 bp.disruptor_beaten matches 1 run function bracken:dimension_commands/omni/process_all
-
-execute as @a[predicate=bracken:dimensions/omnidrome] unless score #1 bp.disruptor_beaten matches 1 if score @s bp.killed_elder_guardians matches 1.. run function bracken:dimension_commands/omni/process_disruptor_defeat
 
 execute as @a[tag=bp.omni_spectator,predicate=!bracken:dimensions/omnidrome] run damage @s 100000000 minecraft:bad_respawn_point
 

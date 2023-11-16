@@ -21,3 +21,9 @@ execute if entity @s[y=275,dy=100] run effect give @s slow_falling 1 1 true
 # Mansion Spell Book
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
 
+# Omnidrome Commands
+
+execute if score #1 bp.disruptor_beaten matches 1 run function bracken:dimension_commands/omni/process_all
+
+execute unless score #1 bp.disruptor_beaten matches 1 if score @s bp.killed_elder_guardians matches 1.. run function bracken:dimension_commands/omni/process_disruptor_defeat
+
