@@ -37,6 +37,15 @@
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "bracken:varskspace_spire4",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
     }
   ]
 }
