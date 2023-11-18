@@ -1,8 +1,8 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "bracken:sanctum/no_mans_land",
+  "biomes": "bracken:sanctum/dark_soot_dunes",
   "spawn_overrides": {},
-  "start_pool": "bracken:post",
+  "start_pool": "bracken:sanctum_object",
   "size": 6,
   "step": "surface_structures",
   "start_height": {

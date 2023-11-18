@@ -7,7 +7,7 @@
       "element": {
         "location": "bracken:sanctum_building",
         "processors": "minecraft:bastion_generic_degradation",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
     },
@@ -16,7 +16,7 @@
       "element": {
         "location": "bracken:sanctum_building1",
         "processors": "minecraft:bastion_generic_degradation",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
     },
@@ -25,7 +25,7 @@
       "element": {
         "location": "bracken:sanctum_building2",
         "processors": "minecraft:bastion_generic_degradation",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
       }
     },
