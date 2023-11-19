@@ -16,6 +16,7 @@ execute in bracken:void run forceload add 0 0
 # 1/2500 chance to start a varskstorm
 
 execute store result score #3 bp.varskstorm.cd run random value 0..2500 
+execute if score #3 bp.varskstorm.cd matches 0 if data storage bp.vars {varskstorm:{stage:0}} run scoreboard players set #4 bp.varskstorm.cd 0
 execute if score #3 bp.varskstorm.cd matches 0 if data storage bp.vars {varskstorm:{stage:0}} run data merge storage bp.vars {varskstorm:{stage:1}}
 
 # 
