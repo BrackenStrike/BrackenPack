@@ -19,11 +19,12 @@ execute store result score #3 bp.varskstorm.cd run random value 0..2500
 execute if score #3 bp.varskstorm.cd matches 0 if data storage bp.vars {varskstorm:{stage:0}} run scoreboard players set #4 bp.varskstorm.cd 0
 execute if score #3 bp.varskstorm.cd matches 0 if data storage bp.vars {varskstorm:{stage:0}} run data merge storage bp.vars {varskstorm:{stage:1}}
 
-# 
+
 
 scoreboard players add #4 bp.varskstorm.cd 1
 
 execute if score #4 bp.varskstorm.cd matches 6 if data storage bp.vars {varskstorm:{stage:1}} run data merge storage bp.vars {varskstorm:{stage:2}}
+execute if score #4 bp.varskstorm.cd matches 6 if data storage bp.vars {varskstorm:{stage:2}} run playsound bracken:varskspace master @a ~ ~ ~ 100 1 0
 execute if score #4 bp.varskstorm.cd matches 12 if data storage bp.vars {varskstorm:{stage:2}} run data merge storage bp.vars {varskstorm:{stage:3}}
 execute if score #4 bp.varskstorm.cd matches 12.. run scoreboard players set #4 bp.varskstorm.cd 0
 
@@ -33,6 +34,6 @@ execute if score #4 bp.varskstorm.cd matches 12.. run scoreboard players set #4 
 # 1/25 chance to end a varskstorm
 
 execute store result score #3 bp.varskstorm.cd run random value 0..25 
-execute if score #3 bp.varskstorm.cd matches 0 run data merge storage bp.vars {varskstorm:{stage:0}}
+execute if score #3 bp.varskstorm.cd matches 0 if data storage bp.vars {varskstorm:{stage:3}} run data merge storage bp.vars {varskstorm:{stage:0}}
 
 schedule function bracken:10_seconds 10s
