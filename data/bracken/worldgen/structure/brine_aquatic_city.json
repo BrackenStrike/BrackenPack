@@ -3,7 +3,7 @@
   "biomes": "bracken:brine/blossom_reef",
   "spawn_overrides": {},
   "start_pool": "bracken:city/brine_city_center",
-  "size": 6,
+  "size": 7,
   "step": "surface_structures",
   "start_height": {
     "absolute": 256
