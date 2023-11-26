@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "bracken:brine/blossom_reef",
+  "biomes": "bracken:the_brine/blossom_reef",
   "spawn_overrides": {},
   "start_pool": "bracken:city/brine_city_center",
   "size": 7,
