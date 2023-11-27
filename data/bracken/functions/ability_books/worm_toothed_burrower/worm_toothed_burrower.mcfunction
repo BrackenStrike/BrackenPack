@@ -10,4 +10,4 @@ tellraw @a[distance=..100] ["",{"selector":"@s "},{"translate":" generated [WORM
 scoreboard players set @s bp.wtb_cooldown 600
 
 experience add @s -25 levels
-
+scoreboard players set @s bp.worm_toothed_burrower 0

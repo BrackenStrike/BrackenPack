@@ -10,3 +10,4 @@ effect give @s minecraft:resistance 20 9 false
 tellraw @s ["",{"selector":"@s "},{"translate":" generated [ADAMANTINE WILL]"}]
 experience add @s -7 levels
 scoreboard players set @s bp.cooldown 200
+scoreboard players set @s bp.adamantine_will 0

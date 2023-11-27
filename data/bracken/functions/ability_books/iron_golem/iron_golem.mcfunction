@@ -10,3 +10,4 @@ tellraw @s ["",{"selector":"@s "},{"translate":" generated [IRON GOLEM]"}]
 
 experience add @s -5 levels
 scoreboard players set @s bp.cooldown 40
+scoreboard players set @s bp.iron_golem 0

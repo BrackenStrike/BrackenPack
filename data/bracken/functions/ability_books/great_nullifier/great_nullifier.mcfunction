@@ -13,3 +13,4 @@ tellraw @s ["",{"selector":"@s "},{"translate":" used [GREAT NULLIFIER]"}]
 
 experience add @s -2 levels
 scoreboard players set @s bp.cooldown 5
+scoreboard players set @s bp.great_nullifier 0

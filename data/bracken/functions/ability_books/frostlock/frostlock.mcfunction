@@ -11,3 +11,4 @@ experience add @s -5 levels
 scoreboard players set @s bp.cooldown 100
 
 function bracken:ability_books/frostlock/effects
+scoreboard players set @s bp.frostlock 0

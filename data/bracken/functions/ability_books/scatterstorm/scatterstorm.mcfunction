@@ -12,3 +12,4 @@ tellraw @s ["",{"selector":"@s "},{"translate":" generated [SCATTERSTORM]"}]
 
 experience add @s -3 levels
 scoreboard players set @s bp.cooldown 50
+scoreboard players set @s bp.scatterstorm 0

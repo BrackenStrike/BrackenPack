@@ -11,3 +11,4 @@ tellraw @s ["",{"selector":"@s "},{"translate":" generated [WORLD SOAR]"}]
 
 experience add @s -2 levels
 scoreboard players set @s bp.cooldown 10
+scoreboard players set @s bp.world_soar 0

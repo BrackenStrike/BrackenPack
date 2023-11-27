@@ -10,3 +10,4 @@ tellraw @s ["",{"selector":"@s "},{"translate":" used [FIREBALL]"}]
 
 experience add @s -5 levels
 scoreboard players set @s bp.cooldown 10
+scoreboard players set @s bp.fireball 0

@@ -29,23 +29,4 @@ execute if predicate bracken:ability_books/worm_toothed_burrower run function br
 
 execute if score @s bp.offhand matches 1 run function bracken:ability_books/offhand
 
-##########   OMNI-BOOK BASED COMMANDS   ##########
-execute if @s[scores={bp.adamantine_will=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.crimson_spark=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.fang_attack=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.fireball=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.frostlock=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.great_nullifier=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.flying_boat=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.iron_golem=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.kill=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.travel_call=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.mansion=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.mass_heal=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.recall=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.scatterstorm=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.swordfall=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.tetra_slime=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.truelight_glow=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.world_soar=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.worm_toothed_burrower=1..}] run function bracken:ability_books/adamantine_will/checks
+

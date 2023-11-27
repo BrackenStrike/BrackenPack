@@ -10,3 +10,4 @@ tellraw @s ["",{"selector":"@s "},{"translate":" generated [TETRA SLIME]"}]
 
 experience add @s -12 levels
 scoreboard players set @s bp.cooldown 60
+scoreboard players set @s bp.tetra_slime 0

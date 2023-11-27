@@ -9,3 +9,4 @@ summon minecraft:lightning_bolt ^ ^1 ^0 {Tags:["bp.varsk_lightning","bp.entity"]
 tellraw @s ["",{"selector":"@s "},{"translate":" vanished with [TRAVEL CALL]"}]
 experience add @s -25 levels
 scoreboard players set @s bp.cooldown 40
+scoreboard players set @s bp.travel_call 0

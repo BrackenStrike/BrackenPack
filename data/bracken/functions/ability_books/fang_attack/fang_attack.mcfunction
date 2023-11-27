@@ -11,3 +11,4 @@ execute at @e[type=!item,distance=3..30,name=!"Sanctum_Fangs"] run summon minecr
 tellraw @s ["",{"selector":"@s "},{"translate":" used [FANG ATTACK]"}]
 
 experience add @s -2 levels
+scoreboard players set @s bp.fang_attack 0

@@ -13,3 +13,4 @@ tellraw @s ["",{"selector":"@s "},{"translate":" generated [MASS HEAL]"}]
 
 experience add @s -2 levels
 scoreboard players set @s bp.cooldown 30
+scoreboard players set @s bp.mass_heal 0
