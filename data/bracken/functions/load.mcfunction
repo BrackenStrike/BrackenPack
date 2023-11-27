@@ -276,6 +276,23 @@ execute if score #bp.teams_dummy bp.teams_con matches 1 run function bracken:pla
 function bracken:3_seconds
 function bracken:10_seconds
 
-
-
-
+##########   OMNI BOOK TRIGGERS   ###########
+scoreboard objectives add bp.adamantine_will trigger
+scoreboard objectives add bp.crimson_spark trigger
+scoreboard objectives add bp.fang_attack trigger
+scoreboard objectives add bp.fireball trigger
+scoreboard objectives add flying_boat trigger
+scoreboard objectives add bp.frostlock trigger
+scoreboard objectives add great.nullifier trigger
+scoreboard objectives add bp.iron_golem trigger
+scoreboard objectives add bp.kill trigger
+scoreboard objectives add bp.travel_call trigger
+scoreboard objectives add bp.mansion trigger
+scoreboard objectives add bp.mass_heal trigger
+scoreboard objectives add bp.recall trigger
+scoreboard objectives add bp.scatterstorm trigger
+scoreboard objectives add bp.swordfall trigger
+scoreboard objectives add bp.tetra_slime trigger
+scoreboard objectives add bp.truelight_glow trigger
+scoreboard objectives add bp.world_soar trigger
+scoreboard objectives add bp.worm_toothed_burrower trigger

@@ -27,3 +27,25 @@ execute if score #1 bp.disruptor_beaten matches 1 run function bracken:dimension
 
 execute unless score #1 bp.disruptor_beaten matches 1 if score @s bp.killed_elder_guardians matches 1.. run function bracken:dimension_commands/omni/process_disruptor_defeat
 
+
+#Bracken ability book test
+scoreboard players enable @s bp.automech
+scoreboard players enable @s bp.adamantine_will
+scoreboard players enable @s bp.crimson_spark
+scoreboard players enable @s bp.fang_attack
+scoreboard players enable @s bp.fireball
+scoreboard players enable @s bp.flying_boat
+scoreboard players enable @s bp.frostlock
+scoreboard players enable @s bp.great.nullifier
+scoreboard players enable @s bp.iron_golem
+scoreboard players enable @s bp.kill
+scoreboard players enable @s bp.travel_call
+scoreboard players enable @s bp.mansion
+scoreboard players enable @s bp.mass_heal
+scoreboard players enable @s bp.recall 
+scoreboard players enable @s bp.scatterstorm
+scoreboard players enable @s bp.swordfall
+scoreboard players enable @s bp.tetra_slime
+scoreboard players enable @s bp.truelight_glow
+scoreboard players enable @s bp.world_soar
+scoreboard players enable @s bp.worm_toothed_burrower
