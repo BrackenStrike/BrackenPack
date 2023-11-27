@@ -51,22 +51,22 @@ scoreboard players enable @s bp.world_soar
 scoreboard players enable @s bp.worm_toothed_burrower
 
 ##########   OMNI-BOOK BASED COMMANDS   ##########
-execute if @s[scores={bp.adamantine_will=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if @s[scores={bp.crimson_spark=1..}] run function bracken:ability_books/crimson_spark/checks
-execute if @s[scores={bp.fang_attack=1..}] run function bracken:ability_books/fang_attack/checks
-execute if @s[scores={bp.fireball=1..}] run function bracken:ability_books/fireball/checks
-execute if @s[scores={bp.frostlock=1..}] run function bracken:ability_books/frostlock/checks
-execute if @s[scores={bp.great_nullifier=1..}] run function bracken:ability_books/great_nullifier/checks
-execute if @s[scores={bp.flying_boat=1..}] run function bracken:ability_books/flying_boat/checks
-execute if @s[scores={bp.iron_golem=1..}] run function bracken:ability_books/iron_golem/checks
-execute if @s[scores={bp.kill=1..}] run function bracken:ability_books/kill/checks
-execute if @s[scores={bp.travel_call=1..}] run function bracken:ability_books/travel_call/checks
-execute if @s[scores={bp.mansion=1..}] run function bracken:ability_books/mansion/checks
-execute if @s[scores={bp.mass_heal=1..}] run function bracken:ability_books/mass_heal/checks
-execute if @s[scores={bp.recall=1..}] run function bracken:ability_books/recall/checks
-execute if @s[scores={bp.scatterstorm=1..}] run function bracken:ability_books/scatterstorm/checks
-execute if @s[scores={bp.swordfall=1..}] run function bracken:ability_books/swordfall/checks
-execute if @s[scores={bp.tetra_slime=1..}] run function bracken:ability_books/tetra_slime/checks
-execute if @s[scores={bp.truelight_glow=1..}] run function bracken:ability_books/truelight_glow/checks
-execute if @s[scores={bp.world_soar=1..}] run function bracken:ability_books/world_soar/checks
-execute if @s[scores={bp.worm_toothed_burrower=1..}] run function bracken:ability_books/worm_toothed_burrower/checks
+execute if entity @s[scores={bp.adamantine_will=1..}] run function bracken:ability_books/adamantine_will/checks
+execute if entity @s[scores={bp.crimson_spark=1..}] run function bracken:ability_books/crimson_spark/checks
+execute if entity @s[scores={bp.fang_attack=1..}] run function bracken:ability_books/fang_attack/checks
+execute if entity @s[scores={bp.fireball=1..}] run function bracken:ability_books/fireball/checks
+execute if entity @s[scores={bp.frostlock=1..}] run function bracken:ability_books/frostlock/checks
+execute if entity @s[scores={bp.great_nullifier=1..}] run function bracken:ability_books/great_nullifier/checks
+execute if entity @s[scores={bp.flying_boat=1..}] run function bracken:ability_books/flying_boat/checks
+execute if entity @s[scores={bp.iron_golem=1..}] run function bracken:ability_books/iron_golem/checks
+execute if entity @s[scores={bp.kill=1..}] run function bracken:ability_books/kill/checks
+execute if entity @s[scores={bp.travel_call=1..}] run function bracken:ability_books/travel_call/checks
+execute if entity @s[scores={bp.mansion=1..}] run function bracken:ability_books/mansion/checks
+execute if entity @s[scores={bp.mass_heal=1..}] run function bracken:ability_books/mass_heal/checks
+execute if entity @s[scores={bp.recall=1..}] run function bracken:ability_books/recall/checks
+execute if entity @s[scores={bp.scatterstorm=1..}] run function bracken:ability_books/scatterstorm/checks
+execute if entity @s[scores={bp.swordfall=1..}] run function bracken:ability_books/swordfall/checks
+execute if entity @s[scores={bp.tetra_slime=1..}] run function bracken:ability_books/tetra_slime/checks
+execute if entity @s[scores={bp.truelight_glow=1..}] run function bracken:ability_books/truelight_glow/checks
+execute if entity @s[scores={bp.world_soar=1..}] run function bracken:ability_books/world_soar/checks
+execute if entity @s[scores={bp.worm_toothed_burrower=1..}] run function bracken:ability_books/worm_toothed_burrower/checks
