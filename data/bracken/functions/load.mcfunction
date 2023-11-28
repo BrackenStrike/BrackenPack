@@ -259,5 +259,46 @@ function bracken:3_seconds
 function bracken:10_seconds
 
 
+##########   OMNI BOOK TRIGGERS   ###########
+scoreboard objectives add OMNI.POWER.adamantine_will trigger
+scoreboard objectives add OMNI.POWER.crimson_spark trigger
+scoreboard objectives add OMNI.POWER.fang_attack trigger
+scoreboard objectives add OMNI.POWER.fireball trigger
+scoreboard objectives add OMNI.POWER.flying_boat trigger
+scoreboard objectives add OMNI.POWER.frostlock trigger
+scoreboard objectives add OMNI.POWER.great.nullifier trigger
+scoreboard objectives add OMNI.POWER.iron_golem trigger
+scoreboard objectives add OMNI.POWER.kill trigger
+scoreboard objectives add OMNI.POWER.travel_call trigger
+scoreboard objectives add OMNI.POWER.mansion trigger
+scoreboard objectives add OMNI.POWER.mass_heal trigger
+scoreboard objectives add OMNI.POWER.recall trigger
+scoreboard objectives add OMNI.POWER.scatterstorm trigger
+scoreboard objectives add OMNI.POWER.swordfall trigger
+scoreboard objectives add OMNI.POWER.tetra_slime trigger
+scoreboard objectives add OMNI.POWER.truelight_glow trigger
+scoreboard objectives add OMNI.POWER.world_soar trigger
+scoreboard objectives add OMNI.POWER.worm_toothed_burrower trigger
 
+scoreboard objectives add OMNI.BUILD.cube
+scoreboard objectives add OMNI.BUILD.road_north
+scoreboard objectives add OMNI.BUILD.road_south
+scoreboard objectives add OMNI.BUILD.road_east
+scoreboard objectives add OMNI.BUILD.road_west
+scoreboard objectives add OMNI.BUILD.pillar
+scoreboard objectives add OMNI.BUILD.cyber_tree
+scoreboard objectives add OMNI.BUILD.pyramid
+
+scoreboard objectives add OMNI.SUMMON.lightning
+scoreboard objectives add OMNI.SUMMON.harmless
+scoreboard objectives add OMNI.SUMMON.enemy
+scoreboard objectives add OMNI.SUMMON.pulse
+
+#scoreboard objectives add OMNI.ENABLE.flight
+#scoreboard objectives add OMNI.ENABLE.sprint
+
+scoreboard objectives add OMNI.TELEPORT.to_nearest_nearby_player
+scoreboard objectives add OMNI.TELEPORT.from_nearby_players
+
+scoreboard objectives add OMNI.ASK.help
 
