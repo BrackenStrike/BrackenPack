@@ -29,7 +29,7 @@ scoreboard players enable @s[tag=bp.automech] OMNI.POWER.fang_attack
 scoreboard players enable @s[tag=bp.automech] OMNI.POWER.fireball
 scoreboard players enable @s[tag=bp.automech] OMNI.POWER.flying_boat
 scoreboard players enable @s[tag=bp.automech] OMNI.POWER.frostlock
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.great.nullifier
+scoreboard players enable @s[tag=bp.automech] OMNI.POWER.great_nullifier
 scoreboard players enable @s[tag=bp.automech] OMNI.POWER.iron_golem
 scoreboard players enable @s[tag=bp.automech] OMNI.POWER.kill
 scoreboard players enable @s[tag=bp.automech] OMNI.POWER.travel_call
@@ -87,7 +87,7 @@ execute if entity @s[scores={OMNI.POWER.great_nullifier=1..}] run function brack
 execute if entity @s[scores={OMNI.POWER.flying_boat=1..}] run function bracken:ability_books/flying_boat/checks
 execute if entity @s[scores={OMNI.POWER.iron_golem=1..}] run function bracken:ability_books/iron_golem/checks
 execute if entity @s[scores={OMNI.POWER.kill=1..}] run function bracken:ability_books/kill/checks
-execute if entity @s[scores={OMNI.POWER.travel_call=1..}] run function bracken:ability_books/lightning/checks
+execute if entity @s[scores={OMNI.POWER.travel_call=1..}] run function bracken:ability_books/lightning_bolt/checks
 execute if entity @s[scores={OMNI.POWER.mansion=1..}] run function bracken:ability_books/mansion/checks
 execute if entity @s[scores={OMNI.POWER.mass_heal=1..}] run function bracken:ability_books/mass_heal/checks
 execute if entity @s[scores={OMNI.POWER.recall=1..}] run function bracken:ability_books/recall/checks
