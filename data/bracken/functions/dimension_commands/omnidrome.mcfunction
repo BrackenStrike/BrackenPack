@@ -87,7 +87,7 @@ execute if entity @s[scores={OMNI.POWER.great_nullifier=1..}] run function brack
 execute if entity @s[scores={OMNI.POWER.flying_boat=1..}] run function bracken:ability_books/flying_boat/checks
 execute if entity @s[scores={OMNI.POWER.iron_golem=1..}] run function bracken:ability_books/iron_golem/checks
 execute if entity @s[scores={OMNI.POWER.kill=1..}] run function bracken:ability_books/kill/checks
-execute if entity @s[scores={OMNI.POWER.travel_call=1..}] run function bracken:ability_books/travel_call/checks
+execute if entity @s[scores={OMNI.POWER.travel_call=1..}] run function bracken:ability_books/lightning/checks
 execute if entity @s[scores={OMNI.POWER.mansion=1..}] run function bracken:ability_books/mansion/checks
 execute if entity @s[scores={OMNI.POWER.mass_heal=1..}] run function bracken:ability_books/mass_heal/checks
 execute if entity @s[scores={OMNI.POWER.recall=1..}] run function bracken:ability_books/recall/checks
@@ -143,9 +143,9 @@ scoreboard players enable @s OMNI.SUMMON.pulse
 scoreboard players enable @s OMNI.TELEPORT.to_nearest_nearby_player
 scoreboard players enable @s OMNI.TELEPORT.from_nearby_players
 
-scoreboard players enable @s[scores={OMNI.ENABLE.flight=0}] OMNI.ENABLE.flight
-scoreboard players enable @s[scores={OMNI.ENABLE.flight=1..}] OMNI.DISABLE.flight
-scoreboard players enable @s[scores={OMNI.ENABLE.sprint=0}] OMNI.ENABLE.sprint
-scoreboard players enable @s[scores={OMNI.ENABLE.sprint=1..}] OMNI.DISABLE.sprint
+execute unless entity @s[scores={OMNI.ENABLE.flight=1..}] run scoreboard players enable @s OMNI.ENABLE.flight
+execute unless entity @s[scores={OMNI.ENABLE.flight=0}] run scoreboard players enable @s OMNI.DISABLE.flight
+execute unless entity @s[scores={OMNI.ENABLE.sprint=1..}] run scoreboard players enable @s OMNI.ENABLE.sprint
+execute unless entity @s[scores={OMNI.ENABLE.sprint=0}] run scoreboard players enable @s OMNI.DISABLE.sprint
 
 scoreboard players enable @s OMNI.ASK.help

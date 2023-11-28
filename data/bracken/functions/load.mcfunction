@@ -266,7 +266,7 @@ scoreboard objectives add OMNI.POWER.fang_attack trigger
 scoreboard objectives add OMNI.POWER.fireball trigger
 scoreboard objectives add OMNI.POWER.flying_boat trigger
 scoreboard objectives add OMNI.POWER.frostlock trigger
-scoreboard objectives add OMNI.POWER.great.nullifier trigger
+scoreboard objectives add OMNI.POWER.great_nullifier trigger
 scoreboard objectives add OMNI.POWER.iron_golem trigger
 scoreboard objectives add OMNI.POWER.kill trigger
 scoreboard objectives add OMNI.POWER.travel_call trigger
@@ -280,25 +280,25 @@ scoreboard objectives add OMNI.POWER.truelight_glow trigger
 scoreboard objectives add OMNI.POWER.world_soar trigger
 scoreboard objectives add OMNI.POWER.worm_toothed_burrower trigger
 
-scoreboard objectives add OMNI.BUILD.cube
-scoreboard objectives add OMNI.BUILD.road_north
-scoreboard objectives add OMNI.BUILD.road_south
-scoreboard objectives add OMNI.BUILD.road_east
-scoreboard objectives add OMNI.BUILD.road_west
-scoreboard objectives add OMNI.BUILD.pillar
-scoreboard objectives add OMNI.BUILD.cyber_tree
-scoreboard objectives add OMNI.BUILD.pyramid
+scoreboard objectives add OMNI.BUILD.cube trigger
+scoreboard objectives add OMNI.BUILD.road_north trigger
+scoreboard objectives add OMNI.BUILD.road_south trigger
+scoreboard objectives add OMNI.BUILD.road_east trigger
+scoreboard objectives add OMNI.BUILD.road_west trigger
+scoreboard objectives add OMNI.BUILD.pillar trigger
+scoreboard objectives add OMNI.BUILD.cyber_tree trigger
+scoreboard objectives add OMNI.BUILD.pyramid trigger
 
-scoreboard objectives add OMNI.SUMMON.lightning
-scoreboard objectives add OMNI.SUMMON.harmless
-scoreboard objectives add OMNI.SUMMON.enemy
-scoreboard objectives add OMNI.SUMMON.pulse
+scoreboard objectives add OMNI.SUMMON.lightning trigger
+scoreboard objectives add OMNI.SUMMON.harmless trigger
+scoreboard objectives add OMNI.SUMMON.enemy trigger
+scoreboard objectives add OMNI.SUMMON.pulse trigger
 
-#scoreboard objectives add OMNI.ENABLE.flight
-#scoreboard objectives add OMNI.ENABLE.sprint
+#scoreboard objectives add OMNI.ENABLE.flight trigger
+#scoreboard objectives add OMNI.ENABLE.sprint trigger
 
-scoreboard objectives add OMNI.TELEPORT.to_nearest_nearby_player
-scoreboard objectives add OMNI.TELEPORT.from_nearby_players
+scoreboard objectives add OMNI.TELEPORT.to_nearest_nearby_player trigger
+scoreboard objectives add OMNI.TELEPORT.from_nearby_players trigger
 
-scoreboard objectives add OMNI.ASK.help
+scoreboard objectives add OMNI.ASK.help trigger
 
