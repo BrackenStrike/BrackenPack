@@ -108,9 +108,19 @@ execute if entity @s[scores={OMNI.BUILD.road_west=1..}] run function bracken:dim
 execute if entity @s[scores={OMNI.BUILD.pillar=1..}] run function bracken:dimension_commands/omni_powers/build_pillar
 execute if entity @s[scores={OMNI.BUILD.cyber_tree=1..}] run function bracken:dimension_commands/omni_powers/build_cyber_tree
 execute if entity @s[scores={OMNI.BUILD.pyramid=1..}] run function bracken:dimension_commands/omni_powers/build_pyramid
+execute if entity @s[scores={OMNI.BUILD.end_island=1..}] run function bracken:dimension_commands/omni_powers/build_end_island
+execute if entity @s[scores={OMNI.BUILD.single_block=1..}] run function bracken:dimension_commands/omni_powers/build_single_block
+execute if entity @s[scores={OMNI.BUILD.sculk_patch=1..}] run function bracken:dimension_commands/omni_powers/build_sculk_patch
+execute if entity @s[scores={OMNI.BUILD.clear_debris=1..}] run function bracken:dimension_commands/omni_powers/build_clear_debris
+execute if entity @s[scores={OMNI.BUILD.clear_material=1..}] run function bracken:dimension_commands/omni_powers/build_clear_material
 
-execute if entity @s[scores={OMNI.SUMMON.harmless=1..}] run function bracken:dimension_commands/omni_powers/summon_harmless
-execute if entity @s[scores={OMNI.SUMMON.enemy=1..}] run function bracken:dimension_commands/omni_powers/summon_enemy
+execute if entity @s[scores={OMNI.SUMMON.theoretical_blaze=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_blaze
+execute if entity @s[scores={OMNI.SUMMON.theoretical_creeper=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_creeper
+execute if entity @s[scores={OMNI.SUMMON.theoretical_mount=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_mount
+execute if entity @s[scores={OMNI.SUMMON.theoretical_pirate=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_pirate
+execute if entity @s[scores={OMNI.SUMMON.theoretical_ravager=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_ravager
+execute if entity @s[scores={OMNI.SUMMON.theoretical_tnt=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_tnt
+execute if entity @s[scores={OMNI.SUMMON.theoretical_warden=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_warden
 execute if entity @s[scores={OMNI.SUMMON.lightning=1..}] run function bracken:dimension_commands/omni_powers/summon_lightning
 execute if entity @s[scores={OMNI.SUMMON.pulse=1..}] run function bracken:dimension_commands/omni_powers/summon_pulse
 
@@ -134,9 +144,21 @@ scoreboard players enable @s OMNI.BUILD.road_west
 scoreboard players enable @s OMNI.BUILD.cyber_tree
 scoreboard players enable @s OMNI.BUILD.pillar
 scoreboard players enable @s OMNI.BUILD.pyramid
+scoreboard players enable @s OMNI.BUILD.end_island
+scoreboard players enable @s OMNI.BUILD.single_block
+scoreboard players enable @s OMNI.BUILD.clear_debris
+scoreboard players enable @s OMNI.BUILD.clear_material
+scoreboard players enable @s OMNI.BUILD.sculk_patch
 
-scoreboard players enable @s OMNI.SUMMON.enemy
-scoreboard players enable @s OMNI.SUMMON.harmless
+scoreboard players enable @s OMNI.SUMMON.theoretical_blaze
+scoreboard players enable @s OMNI.SUMMON.theoretical_creeper
+scoreboard players enable @s OMNI.SUMMON.theoretical_mount
+scoreboard players enable @s OMNI.SUMMON.theoretical_pirate
+scoreboard players enable @s OMNI.SUMMON.theoretical_ravager
+scoreboard players enable @s OMNI.SUMMON.theoretical_snowman
+scoreboard players enable @s OMNI.SUMMON.theoretical_tnt
+scoreboard players enable @s OMNI.SUMMON.theoretical_warden
+scoreboard players enable @s OMNI.SUMMON.construct
 scoreboard players enable @s OMNI.SUMMON.lightning
 scoreboard players enable @s OMNI.SUMMON.pulse
 
