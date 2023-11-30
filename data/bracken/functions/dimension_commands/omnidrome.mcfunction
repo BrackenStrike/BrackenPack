@@ -115,8 +115,8 @@ execute if entity @s[scores={OMNI.BUILD.sculk_patch=1..}] run function bracken:d
 execute if entity @s[scores={OMNI.CLEAR.debris=1..}] run function bracken:dimension_commands/omni_powers/clear_debris
 execute if entity @s[scores={OMNI.CLEAR.material=1..}] run function bracken:dimension_commands/omni_powers/clear_material
 
-execute if entity @s[scores={OMNI.SUMMON.theoretical_construct=1..}] run function bracken:dimension_commands/omni_powers/summon_construct
-execute if entity @s[scores={OMNI.SUMMON.theoretical_snowman=1..}] run function bracken:dimension_commands/omni_powers/summon_snowman
+execute if entity @s[scores={OMNI.SUMMON.construct=1..}] run function bracken:dimension_commands/omni_powers/summon_construct
+execute if entity @s[scores={OMNI.SUMMON.theoretical_snowman=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_snowman
 execute if entity @s[scores={OMNI.SUMMON.theoretical_blaze=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_blaze
 execute if entity @s[scores={OMNI.SUMMON.theoretical_creeper=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_creeper
 execute if entity @s[scores={OMNI.SUMMON.theoretical_mount=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_mount
@@ -152,7 +152,7 @@ scoreboard players enable @s OMNI.BUILD.single_block
 scoreboard players enable @s OMNI.BUILD.sculk_patch
 
 scoreboard players enable @s OMNI.CLEAR.debris
-scoreboard players enable @s OMNI.CLEAR.clear_material
+scoreboard players enable @s OMNI.CLEAR.material
 
 
 scoreboard players enable @s OMNI.SUMMON.theoretical_blaze
