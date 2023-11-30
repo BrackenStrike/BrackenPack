@@ -289,10 +289,13 @@ scoreboard objectives add OMNI.BUILD.pillar trigger
 scoreboard objectives add OMNI.BUILD.cyber_tree trigger
 scoreboard objectives add OMNI.BUILD.pyramid trigger
 scoreboard objectives add OMNI.BUILD.end_island trigger
-scoreboard objectives add OMNI.BUILD.clear_debris trigger
-scoreboard objectives add OMNI.BUILD.clear_material trigger
-scoreboard objectives add OMNI.BUILD.single_block trigger
 scoreboard objectives add OMNI.BUILD.sculk_patch trigger
+scoreboard objectives add OMNI.BUILD.single_block trigger
+
+scoreboard objectives add OMNI.CLEAR.debris trigger
+scoreboard objectives add OMNI.CLEAR.material trigger
+
+
 
 scoreboard objectives add OMNI.SUMMON.lightning trigger
 scoreboard objectives add OMNI.SUMMON.construct trigger
