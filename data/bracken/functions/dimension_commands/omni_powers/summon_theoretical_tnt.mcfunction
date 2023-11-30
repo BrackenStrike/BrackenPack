@@ -4,4 +4,4 @@
 ##########################################################
 
 scoreboard players set @s OMNI.SUMMON.theoretical_tnt 0
-summon tnt ~ ~ ~ {NoGravity:1b,Silent:1b,Glowing:1b,Fuse:20,CustomName:'{"text":"Theoretical Tnt","color":"green"}'}
+summon tnt ~ ~ ~ {NoGravity:1b,Silent:1b,Glowing:1b,Fuse:100,CustomName:'{"text":"Theoretical Tnt","color":"green"}'}
