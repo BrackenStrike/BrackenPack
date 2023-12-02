@@ -4,5 +4,4 @@
 ##########################################################
 
 scoreboard players set @s OMNI.ENABLE.sprint 0
-tell @s[scores={bp.omni_sprint=0}] sprint enabled
 scoreboard players set @s bp.omni_sprint 1
