@@ -192,6 +192,8 @@ scoreboard objectives add bp.ice dummy
 # Omnidrome
 scoreboard objectives add bp.spawn_loading dummy
 scoreboard players set #1 bp.spawn_loading 1
+scoreboard objectives add bp.omni_flight dummy
+scoreboard objectives add bp.omni_sprint dummy
 
 ##########   PAX PORTAL   ##########
 scoreboard objectives add bp.portal_R dummy
@@ -312,6 +314,8 @@ scoreboard objectives add OMNI.SUMMON.disruptor_beam trigger
 
 scoreboard objectives add OMNI.ENABLE.flight trigger
 scoreboard objectives add OMNI.ENABLE.sprint trigger
+scoreboard objectives add OMNI.DISABLE.flight trigger
+scoreboard objectives add OMNI.DISABLE.sprint trigger
 
 scoreboard objectives add OMNI.TELEPORT.to_nearest_nearby_player trigger
 scoreboard objectives add OMNI.TELEPORT.from_nearby_players trigger

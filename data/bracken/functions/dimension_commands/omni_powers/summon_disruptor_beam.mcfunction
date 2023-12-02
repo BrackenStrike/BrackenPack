@@ -1,10 +1,3 @@
-##########################################################
-# Description: Omni summon command.
-# Creators: Bracken
-##########################################################
-
-scoreboard players set @s OMNI.SUMMON.disruptor_beam 0
-particle minecraft:composter ~ ~1 ~ 0.1 0.1 0.1 0 10
+particle minecraft:composter ~ ~ ~ 0.1 0.1 0.1 0 10
 effect give @a[distance=..1] minecraft:instant_damage
-execute as @a[distance=..1] run function bracken:entities/boss/the_disruptor/attack/lazer/lazer_dmg
-execute positioned ^ ^ ^0.1 if block ~ ~ ~ air run function bracken:entities/boss/the_disruptor/attack/lazer/lazer_raycast
+execute positioned ^ ^ ^0.1 if block ~ ~ ~ air run function bracken:dimension_commands/omni_powers/summon_disruptor_beam

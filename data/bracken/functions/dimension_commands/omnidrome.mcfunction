@@ -8,10 +8,10 @@ execute if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if
 execute if entity @s[scores={bp.3_second=5}] as @e[type=marker,tag=bp.dimension_marker] at @s if block ~ ~-1 ~ air in bracken:omnidrome run function bracken:dimension_crossing/spawn_platforms/remove_spawn_platform
 
 # Movement and Effects
-effect give @s[scores={OMNI.ENABLE.flight=1..,bp.sneakcharge=10..}] minecraft:levitation 1 15 true
-tp @s[scores={OMNI.ENABLE.flight=1..,bp.sneakcharge=10..}] ~ ~0.001 ~
-effect clear @s[predicate=!bracken:sneak,scores={bp.sneakcharge=..28,OMNI.ENABLE.flight=1..}] minecraft:levitation
-effect give @s[predicate=bracken:sprint,scores={OMNI.ENABLE.sprint=1..}] minecraft:speed 1 4 true
+effect give @s[scores={bp.omni_flight=1..,bp.sneakcharge=10..}] minecraft:levitation 1 15 true
+tp @s[scores={bp.omni_flight=1..,bp.sneakcharge=10..}] ~ ~0.001 ~
+effect clear @s[predicate=!bracken:sneak,scores={bp.sneakcharge=..28,bp.omni_flight=1..}] minecraft:levitation
+effect give @s[predicate=bracken:sprint,scores={bp.omni_sprint=1..}] minecraft:speed 1 4 true
 effect give @s[scores={bp.longtick=2}] minecraft:jump_boost 15 255 true
 
 execute if entity @s[y=-42,dy=-100] in bracken:omnidrome run tp @s ~ 275 ~
@@ -172,9 +172,9 @@ scoreboard players enable @s OMNI.SUMMON.disruptor_beam
 scoreboard players enable @s OMNI.TELEPORT.to_nearest_nearby_player
 scoreboard players enable @s OMNI.TELEPORT.from_nearby_players
 
-execute unless entity @s[scores={OMNI.ENABLE.flight=1..}] run scoreboard players enable @s OMNI.ENABLE.flight
-execute unless entity @s[scores={OMNI.ENABLE.flight=0}] run scoreboard players enable @s OMNI.DISABLE.flight
-execute unless entity @s[scores={OMNI.ENABLE.sprint=1..}] run scoreboard players enable @s OMNI.ENABLE.sprint
-execute unless entity @s[scores={OMNI.ENABLE.sprint=0}] run scoreboard players enable @s OMNI.DISABLE.sprint
+scoreboard players enable @s OMNI.OMNI.ENABLE.flight
+scoreboard players enable @s OMNI.OMNI.ENABLE.sprint
+scoreboard players enable @s OMNI.OMNI.DISABLE.flight
+scoreboard players enable @s OMNI.OMNI.DISABLE.sprint
 
 scoreboard players enable @s OMNI.ASK.help
