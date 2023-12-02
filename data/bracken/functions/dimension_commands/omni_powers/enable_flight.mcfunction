@@ -4,5 +4,5 @@
 ##########################################################
 
 scoreboard players set @s OMNI.ENABLE.flight 0
-tell @s flight enabled
+tell @s[scores={bp.omni_flight=0}] flight enabled
 scoreboard players set @s bp.omni_flight 1
