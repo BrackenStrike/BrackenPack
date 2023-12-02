@@ -308,12 +308,14 @@ scoreboard objectives add OMNI.SUMMON.theoretical_pirate trigger
 scoreboard objectives add OMNI.SUMMON.theoretical_snowman trigger
 scoreboard objectives add OMNI.SUMMON.theoretical_warden trigger
 scoreboard objectives add OMNI.SUMMON.pulse trigger
+scoreboard objectives add OMNI.SUMMON.disruptor_beam trigger
 
-#scoreboard objectives add OMNI.ENABLE.flight trigger
-#scoreboard objectives add OMNI.ENABLE.sprint trigger
+scoreboard objectives add OMNI.ENABLE.flight trigger
+scoreboard objectives add OMNI.ENABLE.sprint trigger
 
 scoreboard objectives add OMNI.TELEPORT.to_nearest_nearby_player trigger
 scoreboard objectives add OMNI.TELEPORT.from_nearby_players trigger
 
 scoreboard objectives add OMNI.ASK.help trigger
+
 

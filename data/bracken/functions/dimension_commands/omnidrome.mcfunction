@@ -8,10 +8,10 @@ execute if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if
 execute if entity @s[scores={bp.3_second=5}] as @e[type=marker,tag=bp.dimension_marker] at @s if block ~ ~-1 ~ air in bracken:omnidrome run function bracken:dimension_crossing/spawn_platforms/remove_spawn_platform
 
 # Movement and Effects
-effect give @s[scores={bp.sneakcharge=10..}] minecraft:levitation 1 15 true
-tp @s[scores={bp.sneakcharge=10..}] ~ ~0.001 ~
-effect clear @s[predicate=!bracken:sneak,scores={bp.sneakcharge=..28}] minecraft:levitation
-effect give @s[predicate=bracken:sprint] minecraft:speed 1 4 true
+effect give @s[scores={OMNI.ENABLE.flight=1..,bp.sneakcharge=10..}] minecraft:levitation 1 15 true
+tp @s[scores={OMNI.ENABLE.flight=1..,bp.sneakcharge=10..}] ~ ~0.001 ~
+effect clear @s[predicate=!bracken:sneak,scores={bp.sneakcharge=..28,OMNI.ENABLE.flight=1..}] minecraft:levitation
+effect give @s[predicate=bracken:sprint,scores={OMNI.ENABLE.sprint=1..}] minecraft:speed 1 4 true
 effect give @s[scores={bp.longtick=2}] minecraft:jump_boost 15 255 true
 
 execute if entity @s[y=-42,dy=-100] in bracken:omnidrome run tp @s ~ 275 ~
@@ -126,6 +126,7 @@ execute if entity @s[scores={OMNI.SUMMON.theoretical_tnt=1..}] run function brac
 execute if entity @s[scores={OMNI.SUMMON.theoretical_warden=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_warden
 execute if entity @s[scores={OMNI.SUMMON.lightning=1..}] run function bracken:dimension_commands/omni_powers/summon_lightning
 execute if entity @s[scores={OMNI.SUMMON.pulse=1..}] run function bracken:dimension_commands/omni_powers/summon_pulse
+execute if entity @s[scores={OMNI.SUMMON.disruptor_beam=1..}] run function bracken:dimension_commands/omni_powers/disruptor_beam
 
 execute if entity @s[scores={OMNI.TELEPORT.to_nearest_nearby_player=1..}] run function bracken:dimension_commands/omni_powers/teleport_to
 execute if entity @s[scores={OMNI.TELEPORT.from_nearby_players=1..}] run function bracken:dimension_commands/omni_powers/teleport_from
@@ -166,6 +167,7 @@ scoreboard players enable @s OMNI.SUMMON.theoretical_warden
 scoreboard players enable @s OMNI.SUMMON.construct
 scoreboard players enable @s OMNI.SUMMON.lightning
 scoreboard players enable @s OMNI.SUMMON.pulse
+scoreboard players enable @s OMNI.SUMMON.disruptor_beam
 
 scoreboard players enable @s OMNI.TELEPORT.to_nearest_nearby_player
 scoreboard players enable @s OMNI.TELEPORT.from_nearby_players

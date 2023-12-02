@@ -21,3 +21,6 @@ execute if score @s bp.1_second matches 12 if score #bp.dimension_travel_dummy b
 # Dust Storm
 execute positioned over ocean_floor if entity @s[predicate=bracken:rain,dy=999] run function bracken:entities/sanctum/dust_storm
 execute if entity @s[predicate=bracken:rain] run function bracken:entities/sanctum/dust_storm2
+
+# travel omnidrome
+execute if score @s bp.1_second matches 17 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @e[type=minecraft:item_display,tag=bp.omnidrome_entrance,distance=..2,predicate=bracken:dimensions/sanctum] run function bracken:dimension_crossing/sanctum_to_omnidrome
