@@ -398,6 +398,120 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
+                "minecraft:bane_of_arthropods": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:feather_falling": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:lure": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:unbreaking": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sweeping_edge": 1
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
                 "minecraft:silk_touch": 1
               },
               "add": false
