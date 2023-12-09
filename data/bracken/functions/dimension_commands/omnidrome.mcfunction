@@ -3,6 +3,8 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
+# No XP
+kill @e[type=experience_orb,distance=..5]
 # Dimension Travel
 execute if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if predicate bracken:sprint if entity @e[type=minecraft:end_crystal,distance=..2,predicate=bracken:dimensions/omnidrome] run function bracken:dimension_crossing/omnidrome_to_nether
 execute if entity @s[scores={bp.3_second=5}] as @e[type=marker,tag=bp.dimension_marker] at @s if block ~ ~-1 ~ air in bracken:omnidrome run function bracken:dimension_crossing/spawn_platforms/remove_spawn_platform
@@ -12,6 +14,7 @@ effect give @s[scores={bp.omni_flight=1..,bp.sneakcharge=10..}] minecraft:levita
 tp @s[scores={bp.omni_flight=1..,bp.sneakcharge=10..}] ~ ~0.001 ~
 effect clear @s[predicate=!bracken:sneak,scores={bp.sneakcharge=..28,bp.omni_flight=1..}] minecraft:levitation
 effect give @s[predicate=bracken:sprint,scores={bp.omni_sprint=1..}] minecraft:speed 1 4 true
+execute if entity @s[predicate=bracken:sprint,scores={bp.omni_sprint=1..}] run particle minecraft:block_marker minecraft:barrier
 effect give @s[scores={bp.longtick=2}] minecraft:jump_boost 15 255 true
 
 execute if entity @s[y=-42,dy=-100] in bracken:omnidrome run tp @s ~ 275 ~
