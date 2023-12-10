@@ -45,7 +45,7 @@ scoreboard objectives add bp.creeper_horn dummy
 scoreboard objectives add bp.poison dummy
 scoreboard objectives add bp.glacium_glider dummy
 scoreboard objectives add bp.nightfall dummy
-scoreboard objectives add bp.wither_immunity dummy 0
+scoreboard objectives add bp.wither_immunity dummy
 scoreboard objectives add bp.perpetual_aegis dummy
 scoreboard objectives add bp.breach_factor_jump dummy
 scoreboard objectives add bp.breach_factor_float dummy

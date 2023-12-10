@@ -493,25 +493,6 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:sweeping_edge": 1
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:enchanted_book",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ],
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
                 "minecraft:silk_touch": 1
               },
               "add": false
