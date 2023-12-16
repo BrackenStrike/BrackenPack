@@ -14,7 +14,7 @@ effect give @s[scores={bp.omni_flight=1..,bp.sneakcharge=10..}] minecraft:levita
 tp @s[scores={bp.omni_flight=1..,bp.sneakcharge=10..}] ~ ~0.001 ~
 effect clear @s[predicate=!bracken:sneak,scores={bp.sneakcharge=..28,bp.omni_flight=1..}] minecraft:levitation
 effect give @s[predicate=bracken:sprint,scores={bp.omni_sprint=1..}] minecraft:speed 1 4 true
-execute if entity @s[predicate=bracken:sprint,scores={bp.omni_sprint=1..}] run particle minecraft:block_marker minecraft:barrier ~ ~1 ~
+execute if entity @s[predicate=bracken:sprint,scores={bp.omni_sprint=1..}] run particle minecraft:block_marker minecraft:tinted_glass ~ ~1 ~
 effect give @s[scores={bp.longtick=2}] minecraft:jump_boost 15 255 true
 
 execute if entity @s[y=-42,dy=-100] in bracken:omnidrome run tp @s ~ 275 ~

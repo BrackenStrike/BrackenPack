@@ -922,6 +922,45 @@
               "type": "minecraft:vertical_gradient",
               "random_name": "b1",
               "true_at_and_below": {
+                "absolute": 30
+              },
+              "false_at_and_above": {
+                "absolute": 30
+              }
+            },
+            "then_run": {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "minecraft:end_stone"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "bracken:omnidrome/archivistory"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "minecraft:y_above",
+            "anchor": {
+              "absolute": 30
+            },
+            "surface_depth_multiplier": 0,
+            "add_stone_depth": false
+          },
+          "then_run": {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:vertical_gradient",
+              "random_name": "b1",
+              "true_at_and_below": {
                 "absolute": 31
               },
               "false_at_and_above": {
@@ -931,7 +970,7 @@
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:end_stone"
+                "Name": "minecraft:mycelium"
               }
             }
           }
@@ -961,6 +1000,45 @@
               "type": "minecraft:vertical_gradient",
               "random_name": "b2",
               "true_at_and_below": {
+                "absolute": 62
+              },
+              "false_at_and_above": {
+                "absolute": 62
+              }
+            },
+            "then_run": {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "minecraft:netherrack"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "bracken:omnidrome/archivistory"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "minecraft:y_above",
+            "anchor": {
+              "absolute": 62
+            },
+            "surface_depth_multiplier": 0,
+            "add_stone_depth": false
+          },
+          "then_run": {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:vertical_gradient",
+              "random_name": "b2",
+              "true_at_and_below": {
                 "absolute": 63
               },
               "false_at_and_above": {
@@ -970,7 +1048,7 @@
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:netherrack"
+                "Name": "minecraft:crimson_nylium"
               }
             }
           }
@@ -1000,6 +1078,45 @@
               "type": "minecraft:vertical_gradient",
               "random_name": "b3",
               "true_at_and_below": {
+                "absolute": 94
+              },
+              "false_at_and_above": {
+                "absolute": 94
+              }
+            },
+            "then_run": {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "minecraft:stone"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "bracken:omnidrome/archivistory"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "minecraft:y_above",
+            "anchor": {
+              "absolute": 94
+            },
+            "surface_depth_multiplier": 0,
+            "add_stone_depth": false
+          },
+          "then_run": {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:vertical_gradient",
+              "random_name": "b3",
+              "true_at_and_below": {
                 "absolute": 95
               },
               "false_at_and_above": {
@@ -1009,7 +1126,7 @@
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:stone"
+                "Name": "minecraft:grass_block"
               }
             }
           }

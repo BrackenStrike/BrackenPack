@@ -19,7 +19,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "consumes 4 levels",
+                  "translate": "consumes 1 level",
                   "color": "gray",
                   "italic": false
                 }

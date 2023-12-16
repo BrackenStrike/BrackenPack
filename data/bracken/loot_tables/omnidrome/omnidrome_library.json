@@ -69,7 +69,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/sccatterstorm",
+          "name": "bracken:item/ability_books/scatterstorm",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -475,25 +475,6 @@
               "function": "minecraft:set_enchantments",
               "enchantments": {
                 "minecraft:unbreaking": 1
-              },
-              "add": false
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:enchanted_book",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.05
-            }
-          ],
-          "functions": [
-            {
-              "function": "minecraft:set_enchantments",
-              "enchantments": {
-                "minecraft:sweeping_edge": 1
               },
               "add": false
             }
