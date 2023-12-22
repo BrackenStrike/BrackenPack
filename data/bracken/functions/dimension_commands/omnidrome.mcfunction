@@ -26,80 +26,80 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/m
 
 ##########   OMNI-BOOK BASED COMMANDS   ##########
 #automech ability
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.adamantine_will
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.crimson_spark
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.fang_attack
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.fireball
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.flying_boat
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.frostlock
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.great_nullifier
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.iron_golem
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.kill
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.travel_call
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.mansion
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.mass_heal
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.recall 
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.scatterstorm
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.swordfall
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.tetra_slime
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.truelight_glow
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.world_soar
-scoreboard players enable @s[tag=bp.automech] OMNI.POWER.worm_toothed_burrower
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.adamantine_will=1..}] OMNI.POWER.adamantine_will
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.crimson_spark=1..}] OMNI.POWER.crimson_spark
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.fang_attack=1..}] OMNI.POWER.fang_attack
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.fireball=1..}] OMNI.POWER.fireball
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.flying_boat=1..}] OMNI.POWER.flying_boat
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.frostlock=1..}] OMNI.POWER.frostlock
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.great_nullifier=1..}] OMNI.POWER.great_nullifier
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.iron_golem=1..}] OMNI.POWER.iron_golem
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.kill=1..}] OMNI.POWER.kill
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.travel_call=1..}] OMNI.POWER.travel_call
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.mansion=1..}] OMNI.POWER.mansion
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.mass_heall=1..}] OMNI.POWER.mass_heal
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.recall=1..}] OMNI.POWER.recall 
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.scatterstorm=1..}] OMNI.POWER.scatterstorm
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.swordfall=1..}] OMNI.POWER.swordfall
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.tetra_slime=1..}] OMNI.POWER.tetra_slime
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.truelight_glow=1..}] OMNI.POWER.truelight_glow
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.world_soar=1..}] OMNI.POWER.world_soar
+scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.worm_toothed_burrower=1..}] OMNI.POWER.worm_toothed_burrower
 
 #others ability
-scoreboard players enable @s[tag=bp.villain] OMNI.POWER.adamantine_will
-scoreboard players enable @s[tag=bp.villain] OMNI.POWER.fang_attack
+scoreboard players enable @s[tag=bp.villain,scores={OMNI.POWER.adamantine_will=1..}] OMNI.POWER.adamantine_will
+scoreboard players enable @s[tag=bp.villain,scores={OMNI.POWER.fang_attack=1..}] OMNI.POWER.fang_attack
 
-scoreboard players enable @s[tag=bp.outlander] OMNI.POWER.fang_attack
-scoreboard players enable @s[tag=bp.outlander] OMNI.POWER.great_nullifier
+scoreboard players enable @s[tag=bp.outlander,scores={OMNI.POWER.fang_attack=1..}] OMNI.POWER.fang_attack
+scoreboard players enable @s[tag=bp.outlander,scores={OMNI.POWER.great_nullifier=1..}] OMNI.POWER.great_nullifier
 
-scoreboard players enable @s[tag=bp.netherkin] OMNI.POWER.fireball
-scoreboard players enable @s[tag=bp.netherkin] OMNI.POWER.frostlock
+scoreboard players enable @s[tag=bp.netherkin,scores={OMNI.POWER.fireball=1..}] OMNI.POWER.fireball
+scoreboard players enable @s[tag=bp.netherkin,scores={OMNI.POWER.frostlock=1..}] OMNI.POWER.frostlock
 
-scoreboard players enable @s[tag=bp.frostkin] OMNI.POWER.frostlock
-scoreboard players enable @s[tag=bp.frostkin] OMNI.POWER.fireball
+scoreboard players enable @s[tag=bp.frostkin,scores={OMNI.POWER.frostlock=1..}] OMNI.POWER.frostlock
+scoreboard players enable @s[tag=bp.frostkin,scores={OMNI.POWER.fireball=1..}] OMNI.POWER.fireball
 
-scoreboard players enable @s[tag=bp.human] OMNI.POWER.great_nullifier
-scoreboard players enable @s[tag=bp.human] OMNI.POWER.kill
+scoreboard players enable @s[tag=bp.human,scores={OMNI.POWER.great_nullifier=1..}] OMNI.POWER.great_nullifier
+scoreboard players enable @s[tag=bp.human,scores={OMNI.POWER.kill=1..}] OMNI.POWER.kill
 
-scoreboard players enable @s[tag=bp.dweller] OMNI.POWER.adamantine_will
-scoreboard players enable @s[tag=bp.dweller] OMNI.POWER.truelight_glow
+scoreboard players enable @s[tag=bp.dweller,scores={OMNI.POWER.adamantine_will=1..}] OMNI.POWER.adamantine_will
+scoreboard players enable @s[tag=bp.dweller,scores={OMNI.POWER.truelight_glow=1..}] OMNI.POWER.truelight_glow
 
-scoreboard players enable @s[tag=bp.hunter] OMNI.POWER.mass_heal
-scoreboard players enable @s[tag=bp.hunter] OMNI.POWER.kill
+scoreboard players enable @s[tag=bp.hunter,scores={OMNI.POWER.mass_heal=1..}] OMNI.POWER.mass_heal
+scoreboard players enable @s[tag=bp.hunter,scores={OMNI.POWER.kill=1..}] OMNI.POWER.kill
 
-scoreboard players enable @s[tag=bp.nereid] OMNI.POWER.recall
-scoreboard players enable @s[tag=bp.nereid] OMNI.POWER.mass_heal 
+scoreboard players enable @s[tag=bp.nereid,scores={OMNI.POWER.recall=1..}] OMNI.POWER.recall
+scoreboard players enable @s[tag=bp.nereid,scores={OMNI.POWER.mass_heal=1..}] OMNI.POWER.mass_heal 
 
-scoreboard players enable @s[tag=bp.enderling] OMNI.POWER.scatterstorm
-scoreboard players enable @s[tag=bp.enderling] OMNI.POWER.recall
+scoreboard players enable @s[tag=bp.enderling,scores={OMNI.POWER.scatterstorm=1..}] OMNI.POWER.scatterstorm
+scoreboard players enable @s[tag=bp.enderling,scores={OMNI.POWER.recall=1..}] OMNI.POWER.recall
 
-scoreboard players enable @s[tag=bp.realmkeeper] OMNI.POWER.truelight_glow
-scoreboard players enable @s[tag=bp.realmkeeper] OMNI.POWER.world_soar
+scoreboard players enable @s[tag=bp.realmkeeper,scores={OMNI.POWER.truelight_glow=1..}] OMNI.POWER.truelight_glow
+scoreboard players enable @s[tag=bp.realmkeeper,scores={OMNI.POWER.world_soar=1..}] OMNI.POWER.world_soar
 
-scoreboard players enable @s[tag=bp.faefolk] OMNI.POWER.world_soar
-scoreboard players enable @s[tag=bp.faefolk] OMNI.POWER.scatterstorm
+scoreboard players enable @s[tag=bp.faefolk,scores={OMNI.POWER.world_soar=1..}] OMNI.POWER.world_soar
+scoreboard players enable @s[tag=bp.faefolk,scores={OMNI.POWER.scatterstorm=1..}] OMNI.POWER.scatterstorm
 
 
-execute if entity @s[scores={OMNI.POWER.adamantine_will=1..}] run function bracken:ability_books/adamantine_will/checks
-execute if entity @s[scores={OMNI.POWER.crimson_spark=1..}] run function bracken:ability_books/crimson_spark/checks
-execute if entity @s[scores={OMNI.POWER.fang_attack=1..}] run function bracken:ability_books/fang_attack/checks
-execute if entity @s[scores={OMNI.POWER.fireball=1..}] run function bracken:ability_books/fireball/checks
-execute if entity @s[scores={OMNI.POWER.frostlock=1..}] run function bracken:ability_books/frostlock/checks
-execute if entity @s[scores={OMNI.POWER.great_nullifier=1..}] run function bracken:ability_books/great_nullifier/checks
-execute if entity @s[scores={OMNI.POWER.flying_boat=1..}] run function bracken:ability_books/flying_boat/checks
-execute if entity @s[scores={OMNI.POWER.iron_golem=1..}] run function bracken:ability_books/iron_golem/checks
-execute if entity @s[scores={OMNI.POWER.kill=1..}] run function bracken:ability_books/kill/checks
-execute if entity @s[scores={OMNI.POWER.travel_call=1..}] run function bracken:ability_books/lightning_bolt/checks
-execute if entity @s[scores={OMNI.POWER.mansion=1..}] run function bracken:ability_books/mansion/checks
-execute if entity @s[scores={OMNI.POWER.mass_heal=1..}] run function bracken:ability_books/mass_heal/checks
-execute if entity @s[scores={OMNI.POWER.recall=1..}] run function bracken:ability_books/recall/checks
-execute if entity @s[scores={OMNI.POWER.scatterstorm=1..}] run function bracken:ability_books/scatterstorm/checks
-execute if entity @s[scores={OMNI.POWER.swordfall=1..}] run function bracken:ability_books/swordfall/checks
-execute if entity @s[scores={OMNI.POWER.tetra_slime=1..}] run function bracken:ability_books/tetra_slime/checks
-execute if entity @s[scores={OMNI.POWER.truelight_glow=1..}] run function bracken:ability_books/truelight_glow/checks
-execute if entity @s[scores={OMNI.POWER.world_soar=1..}] run function bracken:ability_books/world_soar/checks
-execute if entity @s[scores={OMNI.POWER.worm_toothed_burrower=1..}] run function bracken:ability_books/worm_toothed_burrower/checks
+execute if entity @s[scores={OMNI.POWER.adamantine_will=2..}] run function bracken:ability_books/adamantine_will/checks
+execute if entity @s[scores={OMNI.POWER.crimson_spark=2..}] run function bracken:ability_books/crimson_spark/checks
+execute if entity @s[scores={OMNI.POWER.fang_attack=2..}] run function bracken:ability_books/fang_attack/checks
+execute if entity @s[scores={OMNI.POWER.fireball=2..}] run function bracken:ability_books/fireball/checks
+execute if entity @s[scores={OMNI.POWER.frostlock=2..}] run function bracken:ability_books/frostlock/checks
+execute if entity @s[scores={OMNI.POWER.great_nullifier=2..}] run function bracken:ability_books/great_nullifier/checks
+execute if entity @s[scores={OMNI.POWER.flying_boat=2..}] run function bracken:ability_books/flying_boat/checks
+execute if entity @s[scores={OMNI.POWER.iron_golem=2..}] run function bracken:ability_books/iron_golem/checks
+execute if entity @s[scores={OMNI.POWER.kill=2..}] run function bracken:ability_books/kill/checks
+execute if entity @s[scores={OMNI.POWER.travel_call=2..}] run function bracken:ability_books/lightning_bolt/checks
+execute if entity @s[scores={OMNI.POWER.mansion=2..}] run function bracken:ability_books/mansion/checks
+execute if entity @s[scores={OMNI.POWER.mass_heal=2..}] run function bracken:ability_books/mass_heal/checks
+execute if entity @s[scores={OMNI.POWER.recall=2..}] run function bracken:ability_books/recall/checks
+execute if entity @s[scores={OMNI.POWER.scatterstorm=2..}] run function bracken:ability_books/scatterstorm/checks
+execute if entity @s[scores={OMNI.POWER.swordfall=2..}] run function bracken:ability_books/swordfall/checks
+execute if entity @s[scores={OMNI.POWER.tetra_slime=2..}] run function bracken:ability_books/tetra_slime/checks
+execute if entity @s[scores={OMNI.POWER.truelight_glow=2..}] run function bracken:ability_books/truelight_glow/checks
+execute if entity @s[scores={OMNI.POWER.world_soar=2..}] run function bracken:ability_books/world_soar/checks
+execute if entity @s[scores={OMNI.POWER.worm_toothed_burrower=2..}] run function bracken:ability_books/worm_toothed_burrower/checks
 
 
 ##########   OMNI-OTHER ABILITY COMMANDS   ##########

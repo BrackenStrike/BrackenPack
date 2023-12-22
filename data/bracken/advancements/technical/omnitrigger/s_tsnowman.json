@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:snowman",
+              "type": "minecraft:snow_golem",
               "nbt": "{Tags:[\"bp.theoretical\"]}"
             }
           }
@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bracken:player/omnitrigger/tsnowman"
+    "function": "bracken:player/omnitrigger/s_tsnowman"
   }
 }

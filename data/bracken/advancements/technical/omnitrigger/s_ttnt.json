@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "bracken:panacea/twarden1": {
+    "bracken:panacea/ttnt1": {
         "trigger": "minecraft:location",
         "conditions": {
             "player": [
@@ -10,7 +10,7 @@
                     "predicate": {
                         "location": {
                             "dimension": "bracken:omnidrome",
-                            "structure": "bracken:container/omnidrome_container8"
+                            "structure": "bracken:container/omnidrome_container"
                         }
                     }
                 }
@@ -19,6 +19,6 @@
     }
 },
   "rewards": {
-    "function": "bracken:player/omnitrigger/twarden"
+    "function": "bracken:player/omnitrigger/s_ttnt"
   }
 }

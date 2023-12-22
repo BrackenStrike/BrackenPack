@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "type": "minecraft:creeper",
+              "type": "minecraft:vindicator",
               "nbt": "{Tags:[\"bp.theoretical\"]}"
             }
           }
@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bracken:player/omnitrigger/tcreeper"
+    "function": "bracken:player/omnitrigger/s_tpirate"
   }
 }
