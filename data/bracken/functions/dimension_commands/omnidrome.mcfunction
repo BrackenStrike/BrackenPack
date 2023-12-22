@@ -119,14 +119,14 @@ execute if entity @s[scores={OMNI.CLEAR.debris=1..}] run function bracken:dimens
 execute if entity @s[scores={OMNI.CLEAR.material=1..}] run function bracken:dimension_commands/omni_powers/clear_material
 
 execute if entity @s[scores={OMNI.SUMMON.construct=1..}] run function bracken:dimension_commands/omni_powers/summon_construct
-execute if entity @s[scores={OMNI.SUMMON.theoretical_snowman=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_snowman
-execute if entity @s[scores={OMNI.SUMMON.theoretical_blaze=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_blaze
-execute if entity @s[scores={OMNI.SUMMON.theoretical_creeper=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_creeper
-execute if entity @s[scores={OMNI.SUMMON.theoretical_mount=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_mount
-execute if entity @s[scores={OMNI.SUMMON.theoretical_pirate=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_pirate
-execute if entity @s[scores={OMNI.SUMMON.theoretical_ravager=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_ravager
-execute if entity @s[scores={OMNI.SUMMON.theoretical_tnt=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_tnt
-execute if entity @s[scores={OMNI.SUMMON.theoretical_warden=1..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_warden
+execute if entity @s[scores={OMNI.SUMMON.theoretical_snowman=2..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_snowman
+execute if entity @s[scores={OMNI.SUMMON.theoretical_blaze=2..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_blaze
+execute if entity @s[scores={OMNI.SUMMON.theoretical_creeper=2..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_creeper
+execute if entity @s[scores={OMNI.SUMMON.theoretical_mount=2..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_mount
+execute if entity @s[scores={OMNI.SUMMON.theoretical_pirate=2..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_pirate
+execute if entity @s[scores={OMNI.SUMMON.theoretical_ravager=2..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_ravager
+execute if entity @s[scores={OMNI.SUMMON.theoretical_tnt=2..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_tnt
+execute if entity @s[scores={OMNI.SUMMON.theoretical_warden=2..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_warden
 execute if entity @s[scores={OMNI.SUMMON.lightning=1..}] run function bracken:dimension_commands/omni_powers/summon_lightning
 execute if entity @s[scores={OMNI.SUMMON.pulse=1..}] run function bracken:dimension_commands/omni_powers/summon_pulse
 execute if entity @s[scores={OMNI.SUMMON.disruptor_beam=1..}] positioned ^ ^1.2 ^ run function bracken:dimension_commands/omni_powers/summon_disruptor_beam
@@ -159,14 +159,14 @@ scoreboard players enable @s OMNI.CLEAR.debris
 scoreboard players enable @s OMNI.CLEAR.material
 
 
-scoreboard players enable @s OMNI.SUMMON.theoretical_blaze
-scoreboard players enable @s OMNI.SUMMON.theoretical_creeper
-scoreboard players enable @s OMNI.SUMMON.theoretical_mount
-scoreboard players enable @s OMNI.SUMMON.theoretical_pirate
-scoreboard players enable @s OMNI.SUMMON.theoretical_ravager
-scoreboard players enable @s OMNI.SUMMON.theoretical_snowman
-scoreboard players enable @s OMNI.SUMMON.theoretical_tnt
-scoreboard players enable @s OMNI.SUMMON.theoretical_warden
+scoreboard players enable @s[scores={OMNI.SUMMON.theoretical_blaze=1..}] OMNI.SUMMON.theoretical_blaze
+scoreboard players enable @s[scores={OMNI.SUMMON.theoretical_creeper=1..}] OMNI.SUMMON.theoretical_creeper
+scoreboard players enable @s[scores={OMNI.SUMMON.theoretical_mount=1..}] OMNI.SUMMON.theoretical_mount
+scoreboard players enable @s[scores={OMNI.SUMMON.theoretical_pirate=1..}] OMNI.SUMMON.theoretical_pirate
+scoreboard players enable @s[scores={OMNI.SUMMON.theoretical_ravager=1..}] OMNI.SUMMON.theoretical_ravager
+scoreboard players enable @s[scores={OMNI.SUMMON.theoretical_snowman=1..}] OMNI.SUMMON.theoretical_snowman
+scoreboard players enable @s[scores={OMNI.SUMMON.theoretical_tnt=1..}] OMNI.SUMMON.theoretical_tnt
+scoreboard players enable @s[scores={OMNI.SUMMON.theoretical_warden=1..}] OMNI.SUMMON.theoretical_warden
 scoreboard players enable @s OMNI.SUMMON.construct
 scoreboard players enable @s OMNI.SUMMON.lightning
 scoreboard players enable @s OMNI.SUMMON.pulse

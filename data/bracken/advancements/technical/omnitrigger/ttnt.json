@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "bracken:panacea/ttnt1": {
+        "trigger": "minecraft:location",
+        "conditions": {
+            "player": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "location": {
+                            "dimension": "bracken:omnidrome",
+                            "structure": "bracken:container/omnidrome_container7"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+},
+  "rewards": {
+    "function": "bracken:player/omnitrigger/ttnt"
+  }
+}
