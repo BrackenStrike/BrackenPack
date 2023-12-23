@@ -22,6 +22,7 @@
         "conditions": {}
       }
   },
+  
   "requirements": [
       [
         "bracken:sanctum/boss1"

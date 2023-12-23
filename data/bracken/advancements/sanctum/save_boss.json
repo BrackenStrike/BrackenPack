@@ -21,6 +21,9 @@
             "trigger": "minecraft:impossible"
         }
     },
+    "rewards": {
+        "function": "bracken:player/omnitrigger/k_ruination"
+      },
     "requirements": [
         [
             "bracken:sanctum/save_boss1"
