@@ -35,13 +35,13 @@
             }
         }
     },
-    "rewards": {
-        "function": "bracken:player/omnitrigger/k_ruination"
-      },
     "requirements": [
         
         [
             "bracken:sanctum/kill_boss1"
         ]
-    ]
+    ],
+    "rewards": {
+        "function": "bracken:player/omnitrigger/k_ruination"
+      }
 }
