@@ -5,13 +5,13 @@
             "conditions": {
               "item": {
                 "item": "minecraft:carrot_on_a_stick",
-                "nbt": "{CustomModelData:888502}"
+                "nbt": "{CustomModelData:888509}"
               }
             }
           }
     },
     "rewards": {
-        "function": "bracken:player/omnitrigger/s_travel_call"
+        "function": "bracken:player/omnitrigger/p_truelight_glow"
       }
 }
 
