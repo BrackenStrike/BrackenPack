@@ -3,17 +3,46 @@
   "pools": [
     {
       "rolls": {
-        "min": 17,
-        "max": 25
+        "min": 7,
+        "max": 12
       },
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:poisonous_potato",
+          "name": "minecraft:torch",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.25
+              "chance": 0.8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spyglass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Potion of Night Vision",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:night_vision\"}"
             }
           ]
         },
@@ -27,12 +56,40 @@
             }
           ],
           "functions":[
-            {"function":"set_nbt","tag":"{effects:[{id:\"minecraft:slowness\",duration:100},{id:\"minecraft:blindness\",duration:100},{id:\"minecraft:night_vision\",duration:100},{id:\"minecraft:hunger\",duration:100},{id:\"minecraft:poison\",duration:100},{id:\"minecraft:wither\",duration:100}]}"}
+            {"function":"set_nbt","tag":"{effects:[{id:\"minecraft:night_vision\",duration:100}]}"}
+          ]
+        },        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.7
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:\"minecraft:poison\"}"
+            }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:cobblestone",
+          "name": "minecraft:bow",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -42,41 +99,21 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh",
+          "name": "minecraft:arrow",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.6
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:potato",
+          "name": "minecraft:golden_carrot",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.25
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:mossy_cobblestone",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:mushroom_stew",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.15
+              "chance": 0.3
             }
           ]
         }
