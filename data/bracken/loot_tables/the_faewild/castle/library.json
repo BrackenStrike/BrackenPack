@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 7,
-        "max": 12
+        "min": 10,
+        "max": 18
       },
       "entries": [
         {
@@ -23,7 +23,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.8
+              "chance": 0.7
             }
           ]
         },
@@ -33,7 +33,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.8
+              "chance": 0.7
             }
           ]
         },
@@ -53,7 +53,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.8
+              "chance": 0.6
             }
           ]
         },
@@ -63,7 +63,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.6
+              "chance": 0.9
             }
           ]
         },
@@ -83,7 +83,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.8
+              "chance": 0.7
             }
           ]
         },
@@ -143,7 +143,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:bane_of_arthropods ": 1,
+                "minecraft:bane_of_arthropods": 1,
                 "minecraft:feather_falling": 1,
                 "minecraft:punch": 1,
                 "minecraft:multishot": 1
@@ -318,7 +318,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.8
+              "chance": 0.6
             }
           ]
         },

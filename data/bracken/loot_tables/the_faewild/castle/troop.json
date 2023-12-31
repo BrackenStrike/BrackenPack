@@ -81,11 +81,17 @@
         
         {
           "type": "item",
-          "name": "minecraft:leather_tunic",
+          "name": "minecraft:leather_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ],
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{color:487424},Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:shaper\"},Enchantments:[{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:protection\",lvl:3s}]}"
+              "tag": "{display:{color:487424},Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:shaper\"}}"
             },
             
             
@@ -110,19 +116,25 @@
         },
         {
           "type": "item",
-          "name": "minecraft:leather_pants",
+          "name": "minecraft:leather_leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ],
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{color:487424},Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:shaper\"},Enchantments:[{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:protection\",lvl:3s}]}"
+              "tag": "{display:{color:487424},Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:shaper\"}}"
             },
             
             
             {
               "function": "set_damage",
               "damage": {
-                "min": 0.88,
-                "max": 0.93
+                "min": 0.5,
+                "max": 0.63
               }
             }
           ]
@@ -130,37 +142,49 @@
         {
           "type": "item",
           "name": "minecraft:leather_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ],
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{color:487424},Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:shaper\"},Enchantments:[{id:\"minecraft:feather_falling\",lvl:2s},{id:\"minecraft:swift_sneak\",lvl:2s},{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:protection\",lvl:3s}]}"
+              "tag": "{display:{color:487424},Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:shaper\"}}"
             },
             
             
             {
               "function": "set_damage",
               "damage": {
-                "min": 0.88,
-                "max": 0.93
+                "min": 0.58,
+                "max": 0.63
               }
             }
           ]
         },
         {
           "type": "item",
-          "name": "minecraft:leather_cap",
+          "name": "minecraft:leather_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ],
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{display:{color:487424},Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:shaper\"},Enchantments:[{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:protection\",lvl:3s}]}"
+              "tag": "{display:{color:487424},Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:shaper\"}}"
             },
             
             
             {
               "function": "set_damage",
               "damage": {
-                "min": 0.88,
-                "max": 0.93
+                "min": 0.58,
+                "max": 0.63
               }
             }
           ]
