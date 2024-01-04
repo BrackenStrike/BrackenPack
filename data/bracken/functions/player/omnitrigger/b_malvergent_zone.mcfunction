@@ -1,7 +1,7 @@
 ##########################################################
-# Description: Omni build command.
-# Creators: Bracken
+# Description: Enables omnitrigger command
+# Creators: BrackenStrike
 ##########################################################
 
 scoreboard players set @s OMNI.BUILD.pyramid 1
-place feature bracken:omnidrome/pyramids2
+scoreboard players set @s OMNI.BUILD.single_block 1

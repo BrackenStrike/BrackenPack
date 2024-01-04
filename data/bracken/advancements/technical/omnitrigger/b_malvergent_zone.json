@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:minecraft:location",
+        "conditions": {
+            "player": [
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "location": {
+                            "biome": "bracken:omnidrome/malvergent_zone"
+                        }
+                    }
+                }
+            ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "bracken:player/omnitrigger/b_malvergent_zone"
+    }
+}

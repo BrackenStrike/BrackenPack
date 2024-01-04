@@ -103,20 +103,20 @@ execute if entity @s[scores={OMNI.POWER.worm_toothed_burrower=2..}] run function
 
 
 ##########   OMNI-OTHER ABILITY COMMANDS   ##########
-execute if entity @s[scores={OMNI.BUILD.cube=1..}] run function bracken:dimension_commands/omni_powers/build_cube
-execute if entity @s[scores={OMNI.BUILD.road_north=1..}] run function bracken:dimension_commands/omni_powers/build_road_north
-execute if entity @s[scores={OMNI.BUILD.road_south=1..}] run function bracken:dimension_commands/omni_powers/build_road_south
-execute if entity @s[scores={OMNI.BUILD.road_east=1..}] run function bracken:dimension_commands/omni_powers/build_road_east
-execute if entity @s[scores={OMNI.BUILD.road_west=1..}] run function bracken:dimension_commands/omni_powers/build_road_west
-execute if entity @s[scores={OMNI.BUILD.pillar=1..}] run function bracken:dimension_commands/omni_powers/build_pillar
-execute if entity @s[scores={OMNI.BUILD.cyber_tree=1..}] run function bracken:dimension_commands/omni_powers/build_cyber_tree
-execute if entity @s[scores={OMNI.BUILD.pyramid=1..}] run function bracken:dimension_commands/omni_powers/build_pyramid
-execute if entity @s[scores={OMNI.BUILD.end_island=1..}] run function bracken:dimension_commands/omni_powers/build_end_island
-execute if entity @s[scores={OMNI.BUILD.single_block=1..}] run function bracken:dimension_commands/omni_powers/build_single_block
-execute if entity @s[scores={OMNI.BUILD.sculk_patch=1..}] run function bracken:dimension_commands/omni_powers/build_sculk_patch
+execute if entity @s[scores={OMNI.BUILD.cube=2..}] run function bracken:dimension_commands/omni_powers/build_cube
+execute if entity @s[scores={OMNI.BUILD.road_north=2..}] run function bracken:dimension_commands/omni_powers/build_road_north
+execute if entity @s[scores={OMNI.BUILD.road_south=2..}] run function bracken:dimension_commands/omni_powers/build_road_south
+execute if entity @s[scores={OMNI.BUILD.road_east=2..}] run function bracken:dimension_commands/omni_powers/build_road_east
+execute if entity @s[scores={OMNI.BUILD.road_west=2..}] run function bracken:dimension_commands/omni_powers/build_road_west
+execute if entity @s[scores={OMNI.BUILD.pillar=2..}] run function bracken:dimension_commands/omni_powers/build_pillar
+execute if entity @s[scores={OMNI.BUILD.cyber_tree=2..}] run function bracken:dimension_commands/omni_powers/build_cyber_tree
+execute if entity @s[scores={OMNI.BUILD.pyramid=2..}] run function bracken:dimension_commands/omni_powers/build_pyramid
+execute if entity @s[scores={OMNI.BUILD.end_island=2..}] run function bracken:dimension_commands/omni_powers/build_end_island
+execute if entity @s[scores={OMNI.BUILD.single_block=2..}] run function bracken:dimension_commands/omni_powers/build_single_block
+execute if entity @s[scores={OMNI.BUILD.sculk_patch=2..}] run function bracken:dimension_commands/omni_powers/build_sculk_patch
 
-execute if entity @s[scores={OMNI.CLEAR.debris=1..}] run function bracken:dimension_commands/omni_powers/clear_debris
-execute if entity @s[scores={OMNI.CLEAR.material=1..}] run function bracken:dimension_commands/omni_powers/clear_material
+execute if entity @s[scores={OMNI.CLEAR.debris=2..}] run function bracken:dimension_commands/omni_powers/clear_debris
+execute if entity @s[scores={OMNI.CLEAR.material=2..}] run function bracken:dimension_commands/omni_powers/clear_material
 
 execute if entity @s[scores={OMNI.SUMMON.construct=2..}] run function bracken:dimension_commands/omni_powers/summon_construct
 execute if entity @s[scores={OMNI.SUMMON.theoretical_snowman=2..}] run function bracken:dimension_commands/omni_powers/summon_theoretical_snowman
@@ -143,17 +143,17 @@ execute if entity @s[scores={OMNI.ASK.help=1..}] run function bracken:dimension_
 
 
 
-scoreboard players enable @s OMNI.BUILD.cube
-scoreboard players enable @s OMNI.BUILD.road_north
-scoreboard players enable @s OMNI.BUILD.road_south
-scoreboard players enable @s OMNI.BUILD.road_east
-scoreboard players enable @s OMNI.BUILD.road_west
-scoreboard players enable @s OMNI.BUILD.cyber_tree
-scoreboard players enable @s OMNI.BUILD.pillar
-scoreboard players enable @s OMNI.BUILD.pyramid
-scoreboard players enable @s OMNI.BUILD.end_island
-scoreboard players enable @s OMNI.BUILD.single_block
-scoreboard players enable @s OMNI.BUILD.sculk_patch
+scoreboard players enable @s[scores={OMNI.BUILD.cube=1..}] OMNI.BUILD.cube
+scoreboard players enable @s[scores={OMNI.BUILD.road_north=1..}] OMNI.BUILD.road_north
+scoreboard players enable @s[scores={OMNI.BUILD.road_south=1..}] OMNI.BUILD.road_south
+scoreboard players enable @s[scores={OMNI.BUILD.road_east=1..}] OMNI.BUILD.road_east
+scoreboard players enable @s[scores={OMNI.BUILD.road_west=1..}] OMNI.BUILD.road_west
+scoreboard players enable @s[scores={OMNI.BUILD.cyber_tree=1..}] OMNI.BUILD.cyber_tree
+scoreboard players enable @s[scores={OMNI.BUILD.pillar=1..}] OMNI.BUILD.pillar
+scoreboard players enable @s[scores={OMNI.BUILD.pyramid=1..}] OMNI.BUILD.pyramid
+scoreboard players enable @s[scores={OMNI.BUILD.end_island=1..}] OMNI.BUILD.end_island
+scoreboard players enable @s[scores={OMNI.BUILD.single_block=1..}] OMNI.BUILD.single_block
+scoreboard players enable @s[scores={OMNI.BUILD.sculk_patch=1..}] OMNI.BUILD.sculk_patch
 
 scoreboard players enable @s OMNI.CLEAR.debris
 scoreboard players enable @s OMNI.CLEAR.material

@@ -1,7 +1,6 @@
 ##########################################################
-# Description: Omni build command.
-# Creators: Bracken
+# Description: Enables omnitrigger command
+# Creators: BrackenStrike
 ##########################################################
 
 scoreboard players set @s OMNI.BUILD.cyber_tree 1
-place feature bracken:omnidrome/cyber_tree1
