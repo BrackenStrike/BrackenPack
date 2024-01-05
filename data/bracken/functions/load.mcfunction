@@ -196,6 +196,9 @@ scoreboard players set #1 bp.spawn_loading 1
 scoreboard objectives add bp.omni_flight dummy
 scoreboard objectives add bp.omni_sprint dummy
 
+# Void
+scoreboard objectives add bp.voidtp dummy
+
 ##########   PAX PORTAL   ##########
 scoreboard objectives add bp.portal_R dummy
 scoreboard objectives add bp.portal_G dummy
