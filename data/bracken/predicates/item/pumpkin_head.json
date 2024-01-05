@@ -5,7 +5,7 @@
     "equipment": {
       "head": {
         "items": [
-          "minecraft:pumpkin"
+          "minecraft:air"
         ]
       }
     }

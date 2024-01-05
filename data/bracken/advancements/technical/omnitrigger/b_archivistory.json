@@ -1,23 +1,28 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:minecraft:location",
-        "conditions": {
-            "player": [
-                {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                        "location": {
-                            "biome": "bracken:omnidrome/archivistory"
-                        }
-                    }
-                }
-            ]
-        }
+  "criteria": {
+      "bracken:technical/omnitrigger/b_archivistory1": {
+          "trigger": "minecraft:location",
+          "conditions": {
+              "player": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "location": {
+                              "biome": "bracken:omnidrome/archivistory"
+                          }
+                      }
+                  }
+              ]
+          }
       }
-    },
-    "rewards": {
-      "function": "bracken:player/omnitrigger/b_archivistory"
-    }
+  },
+  "requirements": [
+      [
+          "bracken:technical/omnitrigger/b_archivistory1"
+      ]
+  ],
+  "rewards": {
+    "function": "bracken:player/omnitrigger/b_archivistory"
+  }
 }

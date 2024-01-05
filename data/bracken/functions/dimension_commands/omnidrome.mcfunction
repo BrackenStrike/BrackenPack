@@ -155,8 +155,8 @@ scoreboard players enable @s[scores={OMNI.BUILD.end_island=1..}] OMNI.BUILD.end_
 scoreboard players enable @s[scores={OMNI.BUILD.single_block=1..}] OMNI.BUILD.single_block
 scoreboard players enable @s[scores={OMNI.BUILD.sculk_patch=1..}] OMNI.BUILD.sculk_patch
 
-scoreboard players enable @s OMNI.CLEAR.debris
-scoreboard players enable @s OMNI.CLEAR.material
+scoreboard players enable @s[scores={OMNI.CLEAR.debris=1..}] OMNI.CLEAR.debris
+scoreboard players enable @s[scores={OMNI.CLEAR.material=1..}] OMNI.CLEAR.material
 
 
 scoreboard players enable @s[scores={OMNI.SUMMON.theoretical_blaze=1..}] OMNI.SUMMON.theoretical_blaze
