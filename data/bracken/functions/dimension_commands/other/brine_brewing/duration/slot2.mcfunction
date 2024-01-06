@@ -4,36 +4,36 @@
 ##########################################################
 
 scoreboard players set @s bp.brine_potion 0
-execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[0].Duration
+execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[0].duration
 scoreboard players operation @s bp.brine_potion *= #2 bp.var
-execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[0].Duration short 1 run scoreboard players get @s bp.brine_potion
+execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[0].duration short 1 run scoreboard players get @s bp.brine_potion
 
 scoreboard players set @s bp.brine_potion 0
-execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[1].Duration
+execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[1].duration
 scoreboard players operation @s bp.brine_potion *= #2 bp.var
-execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[1].Duration short 1 run scoreboard players get @s bp.brine_potion
+execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[1].duration short 1 run scoreboard players get @s bp.brine_potion
 
 scoreboard players set @s bp.brine_potion 0
-execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[2].Duration
+execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[2].duration
 scoreboard players operation @s bp.brine_potion *= #2 bp.var
-execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[2].Duration short 1 run scoreboard players get @s bp.brine_potion
+execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[2].duration short 1 run scoreboard players get @s bp.brine_potion
 
 scoreboard players set @s bp.brine_potion 0
-execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[3].Duration
+execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[3].duration
 scoreboard players operation @s bp.brine_potion *= #2 bp.var
-execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[3].Duration short 1 run scoreboard players get @s bp.brine_potion
+execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[3].duration short 1 run scoreboard players get @s bp.brine_potion
 
 scoreboard players set @s bp.brine_potion 0
-execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[4].Duration
+execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[4].duration
 scoreboard players operation @s bp.brine_potion *= #2 bp.var
-execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[4].Duration short 1 run scoreboard players get @s bp.brine_potion
+execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[4].duration short 1 run scoreboard players get @s bp.brine_potion
 
 scoreboard players set @s bp.brine_potion 0
-execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[5].Duration
+execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[5].duration
 scoreboard players operation @s bp.brine_potion *= #2 bp.var
-execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[5].Duration short 1 run scoreboard players get @s bp.brine_potion
+execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[5].duration short 1 run scoreboard players get @s bp.brine_potion
 
-execute if data block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[{Id:14}] run data modify block ~ ~ ~ Items[{Slot:2b}].tag.CustomPotionEffects[{Id:14}].ShowParticles set value 0b
+execute if data block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[{id:"invisibility"}] run data modify block ~ ~ ~ Items[{Slot:2b}].tag.custom_potion_effects[{id:"invisibility"}].ShowParticles set value 0b
 #data modify block ~ ~ ~ Items[{Slot:2b}] merge value {tag:{bp:[{id:"potion_modified2"},{id:"potion_modified1"}]}}
 data modify block ~ ~ ~ Items[{Slot:2b}].tag.bp append value {id:"potion_modified2"}
 data modify block ~ ~ ~ Items[{Slot:2b}].tag.bp append value {id:"potion_modified1"}
