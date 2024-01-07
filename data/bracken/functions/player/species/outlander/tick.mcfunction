@@ -16,8 +16,6 @@ execute if score @s bp.swim matches 1.. run scoreboard players set @s bp.outland
 execute if score @s bp.outlander_charge matches 180.. run effect give @s minecraft:invisibility 1 0 true
 execute if score @s bp.outlander_charge matches 180.. run effect give @s minecraft:wither 1 0 true
 
-# Food re-fill
-execute if score @s bp.food matches ..15 run effect give @s minecraft:saturation 1 0 true
 
 # Backstabbing logic
 # effect give @e[tag=bp.outlander_backstabbable] glowing 1 0 false

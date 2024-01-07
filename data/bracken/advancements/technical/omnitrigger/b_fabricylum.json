@@ -1,0 +1,28 @@
+{
+  "criteria": {
+      "bracken:technical/omnitrigger/b_fabricylum1": {
+          "trigger": "minecraft:location",
+          "conditions": {
+              "player": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "location": {
+                              "biome": "bracken:omnidrome/fabricylum"
+                          }
+                      }
+                  }
+              ]
+          }
+      }
+  },
+  "requirements": [
+      [
+          "bracken:technical/omnitrigger/b_fabricylum1"
+      ]
+  ],
+  "rewards": {
+    "function": "bracken:player/omnitrigger/b_fabricylum"
+  }
+}

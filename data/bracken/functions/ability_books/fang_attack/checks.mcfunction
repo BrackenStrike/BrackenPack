@@ -9,4 +9,4 @@ execute if score #bp.ability_books_dummy bp.books_con matches 1 if entity @s[lev
 execute if score #bp.ability_books_dummy bp.books_con matches 0 run tellraw @s {"translate":"A spell is attempted but nothing happens..."}
 
 scoreboard players set @s bp.offhand 0
-scoreboard players set @s OMNI.POWER.fang_attack 0
+scoreboard players set @s OMNI.POWER.fang_attack 1

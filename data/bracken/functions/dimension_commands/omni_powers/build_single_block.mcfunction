@@ -3,5 +3,5 @@
 # Creators: Bracken
 ##########################################################
 
-scoreboard players set @s OMNI.BUILD.single_block 0
+scoreboard players set @s OMNI.BUILD.single_block 1
 place feature bracken:omnidrome/glass

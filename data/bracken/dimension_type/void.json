@@ -1,5 +1,5 @@
 {
-  "ultrawarm": true,
+  "ultrawarm": false,
   "effects": "minecraft:the_nether",
   "natural": false,
   "piglin_safe": true,

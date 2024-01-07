@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "bracken:panacea/horn1": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+              "item": {
+                "item": "minecraft:carrot_on_a_stick",
+                "nbt": "{CustomModelData:888515}"
+              }
+            }
+          }
+    },
+    "rewards": {
+        "function": "bracken:player/omnitrigger/p_swordfall"
+      }
+}
+
+
+
+
