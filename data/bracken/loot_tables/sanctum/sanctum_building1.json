@@ -23,12 +23,15 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": {
+                "min": 5,
+                "max": 20
+              }
             }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.2
             }
           ]
         },
@@ -48,7 +51,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.6
+              "chance": 0.1
             }
           ]
         },
@@ -58,7 +61,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": {
+                "min": 5,
+                "max": 10
+              }
             }],
           "conditions": [
             {
@@ -73,7 +79,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.1
             }
           ]
         },
@@ -83,12 +89,15 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": {
+                "min": 5,
+                "max": 10
+              }
             }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.1
             }
           ]
         },
@@ -113,7 +122,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 5
+              "count": {
+                "min": 1,
+                "max": 5
+              }
             }],
           "conditions": [
             {
@@ -128,7 +140,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 5
+              "count": {
+                "min": 1,
+                "max": 5
+              }
             }],
           "conditions": [
             {
@@ -143,7 +158,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.3
+              "chance": 0.1
             }
           ]
         },
@@ -153,12 +168,15 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": {
+                "min": 1,
+                "max": 15
+              }
             }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.9
+              "chance": 0.2
             }
           ]
         },
@@ -188,12 +206,15 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": {
+                "min": 1,
+                "max": 15
+              }
             }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.9
+              "chance": 0.2
             }
           ]
         },
@@ -213,12 +234,15 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": {
+                "min": 1,
+                "max": 15
+              }
             }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.6
+              "chance": 0.2
             }
           ]
         },
@@ -228,12 +252,15 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": {
+                "min": 1,
+                "max": 15
+              }
             }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.8
+              "chance": 0.2
             }
           ]
         }

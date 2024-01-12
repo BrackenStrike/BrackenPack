@@ -13,7 +13,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 5
+              "count": {
+                "min": 5,
+                "max": 7
+              }
             }],
           "conditions": [
             {
@@ -28,7 +31,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 10
+              "count": {
+                "min": 5,
+                "max": 10
+              }
             }],
           "conditions": [
             {
@@ -58,7 +64,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 10
+              "count": {
+                "min": 5,
+                "max": 10
+              }
             }],
           "conditions": [
             {
@@ -73,7 +82,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": {
+                "min": 5,
+                "max": 20
+              }
             }],
           "conditions": [
             {
@@ -101,7 +113,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": {
+                "min": 5,
+                "max": 20
+              }
             }],
           "conditions": [
             {
@@ -116,7 +131,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": {
+                "min": 5,
+                "max": 20
+              }
             }],
           "conditions": [
             {
@@ -131,7 +149,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": {
+                "min": 5,
+                "max": 20
+              }
             }],
           "conditions": [
             {
@@ -186,12 +207,15 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": {
+                "min": 5,
+                "max": 20
+              }
             }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.6
             }
           ]
         },
@@ -201,7 +225,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": {
+                "min": 5,
+                "max": 20
+              }
             }],
           "conditions": [
             {
