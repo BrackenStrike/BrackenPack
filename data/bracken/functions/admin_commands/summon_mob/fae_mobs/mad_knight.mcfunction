@@ -1,0 +1,1 @@
+/summon vindicator ~ ~ ~ {Silent:1b,PersistenceRequired:1b,Johnny:1b,CustomName:'{"text":"Mad Knight","color":"blue","bold":false}',HandItems:[{id:"minecraft:iron_axe",Count:1b,tag:{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]}},{}],ArmorItems:[{},{},{},{id:"minecraft:bamboo",Count:1b,tag:{CustomModelData:888512}}]}
