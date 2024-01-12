@@ -13,7 +13,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.008
+              "chance": 0.08
             }
           ]
         },
@@ -23,7 +23,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.14
+              "chance": 0.4
             }
           ]
         },
@@ -33,13 +33,163 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.01
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_hoe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shaper_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wayfinder_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raiser_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rib_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_upgrade_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -50,6 +200,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_bars",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -60,6 +215,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_copper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -80,6 +240,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:copper_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -100,6 +265,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cracked_polished_blackstone_bricks",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -130,6 +300,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",

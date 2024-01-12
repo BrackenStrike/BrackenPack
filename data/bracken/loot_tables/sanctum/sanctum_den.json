@@ -13,7 +13,67 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.01
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wayfinder_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raiser_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rib_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_upgrade_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
             }
           ]
         },
@@ -30,6 +90,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:moss_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -40,6 +105,11 @@
         {
           "type": "loot_table",
           "name": "bracken:item/potions/saturation_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -63,7 +133,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.02
+              "chance": 0.2
             }
           ]
         },
@@ -73,13 +143,18 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.03
+              "chance": 0.3
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:flint",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -100,6 +175,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -110,6 +190,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -120,6 +205,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ender_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -130,6 +220,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -140,6 +235,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:end_stone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -196,6 +296,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:spectral_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",

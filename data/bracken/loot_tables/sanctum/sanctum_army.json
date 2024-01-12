@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 2,
-        "max": 5
+        "min": 7,
+        "max": 10
       },
       "entries": [
         {
@@ -13,13 +13,18 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.6
+              "chance": 0.2
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:moss_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -30,10 +35,15 @@
         {
           "type": "loot_table",
           "name": "bracken:item/potions/saturation_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.2
             }
           ]
         },
@@ -103,7 +113,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.1
+              "chance": 0.2
             }
           ]
         },
@@ -113,7 +123,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.1
+              "chance": 0.2
             }
           ]
         },
@@ -130,30 +140,45 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.8
+              "chance": 0.2
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.8
+              "chance": 0.2
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:bone_meal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.8
+              "chance": 0.2
             }
           ]
         },
@@ -163,17 +188,22 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.2
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.7
+              "chance": 0.2
             }
           ]
         }

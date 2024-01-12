@@ -13,13 +13,18 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.001
+              "chance": 0.1
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:moss_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -43,13 +48,18 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.06
+              "chance": 0.6
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_copper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -70,10 +80,60 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:copper_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
               "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wayfinder_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raiser_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rib_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
             }
           ]
         },
@@ -90,6 +150,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -120,6 +185,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cracked_polished_blackstone_bricks",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -140,6 +210,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:polished_blackstone_brick_stairs",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -150,6 +225,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
