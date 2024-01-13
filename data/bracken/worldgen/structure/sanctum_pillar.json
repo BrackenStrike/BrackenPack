@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "bracken:sanctum/no_mans_land",
+  "biomes": "bracken:sanctum/rubblework_city",
   "spawn_overrides": {},
   "start_pool": "bracken:pillar/sanctum_pillar131",
   "size": 7,
