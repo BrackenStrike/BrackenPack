@@ -6,9 +6,9 @@
       "weight": 1,
       "element": {
         "location": "bracken:pillar/sanctum_pillar111",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "element_type": "minecraft:legacy_single_pool_element"
       }
     }
   ]
