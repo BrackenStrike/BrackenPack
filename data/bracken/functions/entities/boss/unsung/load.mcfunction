@@ -15,5 +15,6 @@ bossbar set bracken:unsung max 400
 scoreboard objectives add bp.unsung dummy
 scoreboard objectives add bp.speed dummy
 scoreboard objectives add bp.slash dummy
+scoreboard objectives add bp.unsung.health dummy
 
 scoreboard players set 4 bp.math.final 4

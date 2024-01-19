@@ -13,6 +13,7 @@ bossbar set bracken:fae_emperor max 400
 
 
 scoreboard objectives add bp.fae_emperor dummy
+scoreboard objectives add bp.fae_emperor.health dummy
 scoreboard objectives add bp.speed dummy
 scoreboard objectives add bp.arrowrain dummy
 

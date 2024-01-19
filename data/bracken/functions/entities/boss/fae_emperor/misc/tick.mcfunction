@@ -1,5 +1,5 @@
 execute store result bossbar bracken:fae_emperor value run data get entity @s Health 1
-execute store result score @s bp.health run data get entity @s Health 1
+execute store result score @s bp.fae_emperor.health run data get entity @s Health
 
 bossbar set bracken:fae_emperor players @a[distance=..50]
 
@@ -24,7 +24,7 @@ execute as @e[type=armor_stand,tag=bp.banner] unless entity @s[nbt={HandItems:[{
 
 
 #death
-execute if entity @s[scores={bp.health=..20}] run function bracken:entities/boss/fae_emperor/misc/death
+execute if entity @s[scores={bp.fae_emperor.health=..20}] run function bracken:entities/boss/fae_emperor/misc/death
 
 
 
