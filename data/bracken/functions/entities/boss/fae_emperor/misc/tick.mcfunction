@@ -1,5 +1,5 @@
 execute store result bossbar bracken:fae_emperor value run data get entity @s Health 1
-execute store result score @s bp.fae_emperor.health run data get entity @s Health
+execute store result score @s bp.fae_emperor.health run data get entity @s Health 1
 
 bossbar set bracken:fae_emperor players @a[distance=..50]
 

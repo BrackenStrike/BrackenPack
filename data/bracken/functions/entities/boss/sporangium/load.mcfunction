@@ -17,5 +17,6 @@ scoreboard objectives add bp.slime dummy
 scoreboard objectives add bp.nema dummy
 scoreboard objectives add bp.slimedeath dummy
 scoreboard objectives add bp.deathtimer dummy
+scoreboard objectives add bp.sporangium.health dummy
 
 scoreboard players set 4 bp.math.final 4

@@ -1,6 +1,6 @@
 
 execute store result bossbar bracken:sporangium value run data get entity @s Health 1
-execute store result score @s bp.health run data get entity @s Health 1
+execute store result score @s bp.sporangium.health run data get entity @s Health 1
 
 
 
@@ -40,7 +40,7 @@ scoreboard players remove @s bp.nema 1
 
 
 #death
-execute if entity @s[scores={bp.health=..60},tag=!bp.death,tag=bp.ready,tag=bp.ready2] run function bracken:entities/boss/sporangium/misc/death
+execute if entity @s[scores={bp.sporangium.health=..60},tag=!bp.death,tag=bp.ready,tag=bp.ready2] run function bracken:entities/boss/sporangium/misc/death
 
 
 
