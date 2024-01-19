@@ -5,19 +5,19 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:iron_leggings",
+          "name": "minecraft:golden_shovel",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{CustomModelData:888501,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:thorns\",lvl:5s},{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],Trim:{material:\"minecraft:lapis\",pattern:\"minecraft:eye\"} }"
+              "tag": "{CustomModelData:888501,RepairCost:1000,Unbreakable:1b,HideFlags:5,Enchantments:[{id:\"minecraft:efficiency\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "translate": "Penanace Leggings",
-                  "color": "white",
-                  "bold": false
+                  "translate": "Immortal Spade",
+                  "color": "yellow",
+                  "italic": false
                 }
               ]
             },
@@ -25,8 +25,8 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "translate": "Far-fetched foirfeacht",
-                  "color": "gray",
+                  "translate": "Stolen from mind. Designs divine.",
+                  "color": "white",
                   "italic": false
                 }
               ]

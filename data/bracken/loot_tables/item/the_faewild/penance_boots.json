@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:iron_boot",
+          "name": "minecraft:iron_boots",
           "functions": [
             {
               "function": "set_nbt",
@@ -17,7 +17,7 @@
                 {
                   "translate": "Penanace Boots",
                   "color": "white",
-                  "bold": true
+                  "bold": false
                 }
               ]
             },

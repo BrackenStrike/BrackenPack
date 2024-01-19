@@ -14,6 +14,15 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "name": "bracken:item/the_faewild/immortal_spade"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
           "name": "bracken:item/portal_keys/faewild_key"
         }
       ]
