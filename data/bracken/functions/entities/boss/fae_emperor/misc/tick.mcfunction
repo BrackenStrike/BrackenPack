@@ -19,7 +19,7 @@ execute if score @s bp.arrowrain matches 1.. at @e[type=armor_stand,tag=bp.banne
 scoreboard players remove @s bp.arrowrain 1
 
 #kill banners
-execute as @e[type=armor_stand,tag=bp.banner] unless entity @s[nbt={HandItems:[{id:"minecraft:purple_banner",Count:1b}]}] run kill @s
+execute as @e[type=armor_stand,tag=bp.banner] unless entity @s[nbt={ArmorItems:[{id:"minecraft:purple_banner",Count:1b},{},{},{}]}] run kill @s
 
 
 

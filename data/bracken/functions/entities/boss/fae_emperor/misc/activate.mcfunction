@@ -5,7 +5,7 @@ data merge entity @s {DeathLootTable:"bracken:entity/boss/fae_emperor",Attribute
 tag @s add bp.active
 
 
-#playsound minecraft:entity.allay.hurt hostile @a[distance=..25] ~ ~ ~ 10 0
+playsound bracken:faewild_ambient_04 hostile @a[distance=..50] ~ ~ ~ 100 1
 
 
 bossbar add bracken:fae_emperor {"translate":"Fae Emperor","color":"gray","bold":true}
