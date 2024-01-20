@@ -5,7 +5,7 @@
 
 
 
-bossbar add bracken:fae_emperor {"translate":"fae_emperor","color":"gray","bold":true}
+bossbar add bracken:fae_emperor {"translate":"Fae Emperor","color":"gray","bold":true}
 bossbar set bracken:fae_emperor color white
 bossbar set bracken:fae_emperor style notched_10
 bossbar set bracken:fae_emperor max 200

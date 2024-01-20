@@ -16,11 +16,11 @@ execute if score @s bp.speed matches 1.. at @e[type=minecraft:armor_stand,tag=bp
 
 
 #arrow rain
-execute if score @s bp.arrowrain matches 1.. at @e[type=armor_stand,tag=bp.banner] run summon arrow ~ ~-1 ~
+execute if score @s bp.arrowrain matches 1.. at @e[type=armor_stand,tag=bp.banner] run summon arrow ~ ~ ~ {crit:1b,SoundEvent:"entity.fox.bite"}
 scoreboard players remove @s bp.arrowrain 1
 
 #kill banners
-execute as @e[type=armor_stand,tag=bp.banner] unless entity @s[nbt={ArmorItems:[{id:"minecraft:purple_banner",Count:1b},{},{},{}]}] run kill @s
+execute as @e[type=armor_stand,tag=bp.banner] unless entity @s[nbt={HandItems:[{},{id:"minecraft:shield",Count:1b}]}] run kill @s
 
 
 
