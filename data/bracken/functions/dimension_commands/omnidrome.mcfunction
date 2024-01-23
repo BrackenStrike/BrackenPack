@@ -26,25 +26,7 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/m
 
 ##########   OMNI-BOOK BASED COMMANDS   ##########
 #automech ability
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.adamantine_will=1..}] OMNI.POWER.adamantine_will
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.crimson_spark=1..}] OMNI.POWER.crimson_spark
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.fang_attack=1..}] OMNI.POWER.fang_attack
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.fireball=1..}] OMNI.POWER.fireball
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.flying_boat=1..}] OMNI.POWER.flying_boat
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.frostlock=1..}] OMNI.POWER.frostlock
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.great_nullifier=1..}] OMNI.POWER.great_nullifier
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.iron_golem=1..}] OMNI.POWER.iron_golem
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.kill=1..}] OMNI.POWER.kill
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.travel_call=1..}] OMNI.POWER.travel_call
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.mansion=1..}] OMNI.POWER.mansion
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.mass_heall=1..}] OMNI.POWER.mass_heal
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.recall=1..}] OMNI.POWER.recall 
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.scatterstorm=1..}] OMNI.POWER.scatterstorm
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.swordfall=1..}] OMNI.POWER.swordfall
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.tetra_slime=1..}] OMNI.POWER.tetra_slime
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.truelight_glow=1..}] OMNI.POWER.truelight_glow
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.world_soar=1..}] OMNI.POWER.world_soar
-scoreboard players enable @s[tag=bp.automech,scores={OMNI.POWER.worm_toothed_burrower=1..}] OMNI.POWER.worm_toothed_burrower
+execute if entity @s[tag=bp.automech] run function bracken:dimension_commands/omni_powers/trigger_commands/automech_ability
 
 #others ability
 scoreboard players enable @s[tag=bp.villain,scores={OMNI.POWER.adamantine_will=1..}] OMNI.POWER.adamantine_will
@@ -157,7 +139,6 @@ scoreboard players enable @s[scores={OMNI.BUILD.sculk_patch=1..}] OMNI.BUILD.scu
 
 scoreboard players enable @s[scores={OMNI.CLEAR.debris=1..}] OMNI.CLEAR.debris
 scoreboard players enable @s[scores={OMNI.CLEAR.material=1..}] OMNI.CLEAR.material
-
 
 scoreboard players enable @s[scores={OMNI.SUMMON.theoretical_blaze=1..}] OMNI.SUMMON.theoretical_blaze
 scoreboard players enable @s[scores={OMNI.SUMMON.theoretical_creeper=1..}] OMNI.SUMMON.theoretical_creeper
