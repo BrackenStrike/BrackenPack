@@ -7,7 +7,7 @@
       "element": {
         "location": "bracken:custom_mobs/fae_ranger",
         "processors": "minecraft:empty",
-        "projection": "terrain_matching",
+        "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"
       }
     }
