@@ -8,4 +8,4 @@ summon experience_bottle ~ ~ ~ {Motion:[0.0,1.0,0.10],Item:{id:"minecraft:experi
 summon experience_bottle ~ ~ ~ {Motion:[0.0,1.0,-0.10],Item:{id:"minecraft:experience_bottle",Count:1b}}
 scoreboard players set @s bp.speed 30
 
-playsound bracken:faewild_ambient_04 hostile @a[distance=..50] ~ ~ ~ 100 1
+playsound minecraft:entity.ravager.death hostile @a[distance=..50] ~ ~ ~ 100 2

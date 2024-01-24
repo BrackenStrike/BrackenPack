@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bracken:faedrians_wall",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 4,
+    "separation": 3,
+    "salt": 9012942
+  }
+}
