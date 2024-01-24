@@ -7,7 +7,7 @@
       "element": {
         "location": "bracken:the_faewild/wall/wall_start",
         "processors": "minecraft:empty",
-        "projection": "rigid",
+        "projection": "terrain_matching",
         "element_type": "minecraft:single_pool_element"
       }
     }
