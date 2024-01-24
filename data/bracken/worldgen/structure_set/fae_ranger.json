@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "bracken:faedrians_wall",
+      "structure": "bracken:fae_ranger",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 2,
-    "separation": 1,
-    "salt": 9012942
+    "spacing": 4,
+    "separation": 2,
+    "salt": 918908482
   }
 }

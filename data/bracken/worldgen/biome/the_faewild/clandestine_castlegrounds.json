@@ -31,14 +31,7 @@
         "maxCount": 4
       }
     ],
-    "monster": [{
-      "type": "minecraft:skeleton",
-      "weight": 52,
-      "minCount": 1,
-      "maxCount": 2
-    }
-      
-    ]
+    "monster": []
   },
   "spawn_costs": {},
   "carvers": {
