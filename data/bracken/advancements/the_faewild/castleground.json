@@ -2,14 +2,14 @@
     "parent": "bracken:the_faewild/enter_the_faewild",
     "display": {
         "title": {
-            "translate": "Cloud-Capp'd Towers"
+            "translate": "More than Kin, Less than Kind"
         },
         "description": {
-            "translate": "Journey to the fae castle",
+            "translate": "Enter the clandestine castlegrounds biome",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:verdant_froglight"
+            "item": "minecraft:amethyst_cluster"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,7 +17,7 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:the_faewild/castle1": {
+        "bracken:the_faewild/castleground1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": [
@@ -26,8 +26,7 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "dimension": "bracken:the_faewild",
-                                "structure": "bracken:fae_castle"
+                                "biome": "bracken:the_faewild/clandestine_castlegrounds"
                             }
                         }
                     }
@@ -37,7 +36,7 @@
     },
     "requirements": [
         [
-            "bracken:the_faewild/castle1"
+            "bracken:the_faewild/castleground1"
         ]
     ]
 }

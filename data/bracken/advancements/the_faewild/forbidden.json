@@ -1,0 +1,51 @@
+{
+    "parent": "bracken:the_faewild/slay",
+    "display": {
+        "title": {
+            "translate": "Fling Away Ambition"
+        },
+        "description": {
+            "translate": "Find a forbidden object",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:golden_shovel",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "bracken:the_faewild/forbidden1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:the_faewild"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:golden_shovel"
+                        ],
+                        "nbt": "{CustomModelData:888501,RepairCost:1000,Unbreakable:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_faewild/forbidden1"
+        ]
+    ]
+}
