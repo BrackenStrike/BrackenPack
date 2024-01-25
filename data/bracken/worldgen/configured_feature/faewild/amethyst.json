@@ -4,7 +4,7 @@
     "features": [
       
       {
-        "chance": 0.05,
+        "chance": 0.21,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
