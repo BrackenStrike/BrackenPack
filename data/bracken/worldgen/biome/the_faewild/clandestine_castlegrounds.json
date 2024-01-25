@@ -31,7 +31,20 @@
         "maxCount": 4
       }
     ],
-    "monster": []
+    "monster": [{
+      "type": "minecraft:skeleton",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "minecraft:enderman",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    }
+      
+    ]
   },
   "spawn_costs": {},
   "carvers": {

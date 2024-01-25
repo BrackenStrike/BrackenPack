@@ -8,8 +8,8 @@
       "translate": "Anger the Fae Emperor again"
     },
     "icon": {
-      "item": "minecraft:bamboo",
-      "nbt": "{CustomModelData:888513}"
+      "item": "minecraft:iron_chestplate",
+      "nbt": "{CustomModelData:888501,Enchantments:[{}],Trim:{material:\"minecraft:lapis\",pattern:\"minecraft:eye\"} }"
   },
     "frame": "task",
     "show_toast": true,
