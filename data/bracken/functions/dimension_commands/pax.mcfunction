@@ -12,8 +12,8 @@ effect give @s[scores={bp.food=..18}] minecraft:saturation 1 0 true
 effect clear @s minecraft:poison
 attribute @s[scores={bp.pax=10}] minecraft:generic.max_health modifier add 35709842-6f1c-48eb-9683-43bcf0faa33e "bp.pax_health" 20 add
 effect clear @s minecraft:bad_omen
-execute unless predicate bracken:in_boat unless predicate bracken:in_chest_boat if block ~ ~ ~ minecraft:water run effect give @s minecraft:instant_health 2 0 false
-execute unless predicate bracken:in_boat unless predicate bracken:in_chest_boat if block ~ ~ ~ minecraft:water run effect give @s minecraft:slow_falling 2 0 false
+execute unless predicate bracken:in_boat unless predicate bracken:in_chest_boat if block ~ ~ ~ minecraft:water run effect give @s minecraft:regeneration 2 2 false
+execute unless predicate bracken:in_boat unless predicate bracken:in_chest_boat if block ~ ~ ~ minecraft:water run effect give @s minecraft:slow_falling 8 0 false
 execute unless predicate bracken:in_boat unless predicate bracken:in_chest_boat if block ~ ~ ~ minecraft:water run scoreboard players set @s bp.glacium_glider 22
 
 
