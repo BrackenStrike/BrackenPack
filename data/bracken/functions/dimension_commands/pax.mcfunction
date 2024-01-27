@@ -12,6 +12,10 @@ effect give @s[scores={bp.food=..18}] minecraft:saturation 1 0 true
 effect clear @s minecraft:poison
 attribute @s[scores={bp.pax=10}] minecraft:generic.max_health modifier add 35709842-6f1c-48eb-9683-43bcf0faa33e "bp.pax_health" 20 add
 effect clear @s minecraft:bad_omen
+execute unless predicate bracken:in_boat unless predicate bracken:in_chest_boat if block ~ ~ ~ minecraft:water run effect give @s[scores={bp.longtick=4}] minecraft:instant_health 2 0 false
+execute unless predicate bracken:in_boat unless predicate bracken:in_chest_boat if block ~ ~ ~ minecraft:water run effect give @s[scores={bp.longtick=4}] minecraft:slow_falling 2 0 false
+execute unless predicate bracken:in_boat unless predicate bracken:in_chest_boat if block ~ ~ ~ minecraft:water run scoreboard players set @s bp.wither_immunity 2
+
 
 # Dimension Travel
 execute if score @s bp.1_second matches 8 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-15,dy=-300] run function bracken:dimension_crossing/pax_to_faewild
