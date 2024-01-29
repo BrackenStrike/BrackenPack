@@ -1,7 +1,43 @@
 {
-  "name": "large house",
+  "name": "side_path",
   "fallback": "minecraft:empty",
   "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "bracken:city/side_large_path",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "bracken:city/side_medium_path",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "bracken:city/side_small_path",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "bracken:city/side_spiral_path",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
     {
       "weight": 1,
       "element": {
