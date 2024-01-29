@@ -1,6 +1,6 @@
 {
   "name": "side_path",
-  "fallback": "minecraft:empty",
+  "fallback": "bracken:city/brine_large_house_side2",
   "elements": [
     {
       "weight": 1,

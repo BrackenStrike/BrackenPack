@@ -1,6 +1,6 @@
 {
-  "name": "brine_large_house",
-  "fallback": "minecraft:empty",
+  "name": "brine_small_house",
+  "fallback": "bracken:city/brine_small_house_corner1",
   "elements": [
     {
       "weight": 1,
