@@ -1,6 +1,6 @@
 {
   "name": "brine_small_house",
-  "fallback": "bracken:city/terminators",
+  "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,

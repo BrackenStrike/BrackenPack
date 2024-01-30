@@ -1,6 +1,6 @@
 {
   "name": "terminators",
-  "fallback": "minecraft:empty",
+  "fallback": "bracken:city/terminators",
   "elements": [
     {
       "weight": 1,
