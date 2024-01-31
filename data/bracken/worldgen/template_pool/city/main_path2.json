@@ -5,16 +5,7 @@
     {
       "weight": 4,
       "element": {
-        "location": "bracken:city/main_path1",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
-      }
-    },
-    {
-      "weight": 1,
-      "element": {
-        "location": "bracken:city/side_normal_path",
+        "location": "bracken:city/main_path2",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
