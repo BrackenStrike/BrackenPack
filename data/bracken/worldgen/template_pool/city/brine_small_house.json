@@ -6,7 +6,7 @@
       "weight": 4,
       "element": {
         "location": "bracken:city/brine_small_house_corner1",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -15,7 +15,7 @@
       "weight": 4,
       "element": {
         "location": "bracken:city/brine_small_house_corner2",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -24,7 +24,7 @@
       "weight": 4,
       "element": {
         "location": "bracken:city/brine_small_house_corner3",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -33,7 +33,7 @@
       "weight": 4,
       "element": {
         "location": "bracken:city/brine_small_house_corner4",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -42,7 +42,7 @@
       "weight": 4,
       "element": {
         "location": "bracken:city/brine_small_house_corner5",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -51,7 +51,7 @@
       "weight": 4,
       "element": {
         "location": "bracken:city/brine_small_house_corner6",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -60,7 +60,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner7",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -69,7 +69,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner8",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -78,7 +78,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner9",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -87,7 +87,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner10",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -96,7 +96,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner11",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -105,7 +105,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner12",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -114,7 +114,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner13",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -123,7 +123,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner14",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -132,7 +132,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner15",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -141,7 +141,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner16",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -150,7 +150,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner17",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -159,7 +159,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner18",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -168,7 +168,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner19",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -177,7 +177,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner20",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -185,7 +185,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner21",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -194,10 +194,29 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_small_house_corner22",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bracken:city/brine_small_house_corner23",
+        "processors": "bracken:ruin",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "bracken:city/brine_small_house_corner24",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     }
   ]
+  
 }

@@ -6,7 +6,7 @@
       "weight": 4,
       "element": {
         "location": "bracken:city/tunnel1",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -15,7 +15,7 @@
       "weight": 2,
       "element": {
         "location": "bracken:city/tunnel2",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

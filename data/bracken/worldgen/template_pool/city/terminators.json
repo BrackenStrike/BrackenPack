@@ -6,7 +6,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_large_house_side1t",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -15,7 +15,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_large_house_side2t",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -24,7 +24,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_large_house_side3t",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
@@ -33,7 +33,7 @@
       "weight": 1,
       "element": {
         "location": "bracken:city/brine_large_house_side4t",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }

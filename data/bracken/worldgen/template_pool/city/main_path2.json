@@ -6,7 +6,7 @@
       "weight": 4,
       "element": {
         "location": "bracken:city/main_path2",
-        "processors": "minecraft:empty",
+        "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
