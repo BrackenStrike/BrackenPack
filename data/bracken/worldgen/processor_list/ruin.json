@@ -441,7 +441,21 @@
           },
           "input_predicate": {
             "block": "minecraft:dark_prismarine",
-            "probability": 0.05,
+            "probability": 0.02,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        
+        {
+          "output_state": {
+            "Name": "minecraft:prismarine"
+          },
+          "input_predicate": {
+            "block": "minecraft:prismarine_bricks",
+            "probability": 0.25,
             "predicate_type": "minecraft:random_block_match"
           },
           "location_predicate": {
@@ -450,11 +464,24 @@
         },
         {
           "output_state": {
-            "Name": "minecraft:prismarine"
+            "Name": "minecraft:white_stained_glass"
           },
           "input_predicate": {
-            "block": "minecraft:prismarine_bricks",
-            "probability": 0.15,
+            "block": "minecraft:glass",
+            "probability": 0.5,
+            "predicate_type": "minecraft:random_block_match"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          }
+        },
+        {
+          "output_state": {
+            "Name": "minecraft:water"
+          },
+          "input_predicate": {
+            "block": "minecraft:prismarine",
+            "probability": 0.02,
             "predicate_type": "minecraft:random_block_match"
           },
           "location_predicate": {
