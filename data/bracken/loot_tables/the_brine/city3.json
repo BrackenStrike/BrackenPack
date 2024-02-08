@@ -4,7 +4,7 @@
     {
       "rolls": {
         "min": 6,
-        "max": 15
+        "max": 12
       },
       "entries": [
         
@@ -34,7 +34,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.6
+              "chance": 0.4
             }
           ]
         },
@@ -54,7 +54,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.6
+              "chance": 0.9
             }
           ]
         },
@@ -84,7 +84,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.4
             }
           ]
         },
@@ -254,7 +254,37 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.6
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:smooth_sandstone",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_bricks",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dark_prismarine",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
             }
           ]
         },

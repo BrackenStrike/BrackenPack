@@ -121,7 +121,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:redstone_dust",
+          "name": "minecraft:redstone",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

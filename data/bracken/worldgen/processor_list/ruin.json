@@ -481,7 +481,7 @@
           },
           "input_predicate": {
             "block": "minecraft:sea_lantern",
-            "probability": 0.2,
+            "probability": 0.5,
             "predicate_type": "minecraft:random_block_match"
           },
           "location_predicate": {
