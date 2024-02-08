@@ -4,13 +4,23 @@
     {
       "rolls": {
         "min": 6,
-        "max": 10
+        "max": 15
       },
       "entries": [
         
         {
-          "type": "loot_table",
-          "name": "bracken:item/the_brine/cordyceps_powder",
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_shard",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -19,8 +29,48 @@
           ]
         },
         {
-          "type": "loot_table",
-          "name": "bracken:item/the_brine/essence_of_eternity",
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:kelp",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ink_sac",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_ink_sac",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -29,8 +79,8 @@
           ]
         },
         {
-          "type": "loot_table",
-          "name": "bracken:item/the_brine/jellyfish_stinger",
+          "type": "minecraft:item",
+          "name": "minecraft:glass",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -39,8 +89,8 @@
           ]
         },
         {
-          "type": "loot_table",
-          "name": "bracken:item/the_brine/nautilus_chamber",
+          "type": "minecraft:item",
+          "name": "minecraft:white_stained_glass",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -49,8 +99,8 @@
           ]
         },
         {
-          "type": "loot_table",
-          "name": "bracken:item/the_brine/tempest_nectar",
+          "type": "minecraft:item",
+          "name": "minecraft:light_gray_stained_glass",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -59,8 +109,8 @@
           ]
         },
         {
-          "type": "loot_table",
-          "name": "bracken:item/the_brine/void_petal",
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -69,8 +119,8 @@
           ]
         },
         {
-          "type": "loot_table",
-          "name": "bracken:item/the_brine/voidfish_venom",
+          "type": "minecraft:item",
+          "name": "minecraft:black_stained_glass",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -79,8 +129,8 @@
           ]
         },
         {
-          "type": "loot_table",
-          "name": "bracken:item/the_brine/wither_fin",
+          "type": "minecraft:item",
+          "name": "minecraft:brown_stained_glass",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -89,12 +139,122 @@
           ]
         },
         {
-          "type": "loot_table",
-          "name": "bracken:item/the_brine/worm_mandible",
+          "type": "minecraft:item",
+          "name": "minecraft:red_stained_glass",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
               "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_stained_glass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_stained_glass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_stained_glass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_stained_glass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_stained_glass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_stained_glass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_stained_glass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_stained_glass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magenta_stained_glass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_stained_glass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.6
             }
           ]
         },
@@ -108,130 +268,10 @@
               "chance": 0.4
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:glowstone_dust",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:redstone_dust",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dragon_breath",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.3
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:nautilus_shell",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:magma_cream",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:glistering_melon_slice",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
-        },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/ability_books/returning_tides",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.02
-            }
-          ]
-        },
-        
-        {
-          "type": "loot_table",
-          "name": "bracken:item/music_discs/brine",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.02
-            }
-          ]
-        },
-        
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:turtle_egg",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:sugar",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:ghast_tear",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
-        },
-        
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:nether_wart",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.3
-            }
-          ]
         }
+        
+        
+        
         
         
       ]
