@@ -8,6 +8,7 @@ function bracken:entities/boss/the_disruptor/load
 function bracken:entities/boss/project_ruination/load
 function bracken:entities/boss/sporangium/load
 function bracken:entities/boss/unsung/load
+function bracken:entities/boss/fae_emperor/load
 function bracken:entities/panacea/load
 
 ##########   ADD SCOREBOARD OBJECTIVES   ##########
@@ -194,6 +195,9 @@ scoreboard objectives add bp.spawn_loading dummy
 scoreboard players set #1 bp.spawn_loading 1
 scoreboard objectives add bp.omni_flight dummy
 scoreboard objectives add bp.omni_sprint dummy
+
+# Void
+scoreboard objectives add bp.voidtp dummy
 
 ##########   PAX PORTAL   ##########
 scoreboard objectives add bp.portal_R dummy

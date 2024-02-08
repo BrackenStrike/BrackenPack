@@ -31,11 +31,12 @@
         "maxCount": 4
       }
     ],
-    "monster": [{
+    "monster": [
+    {
       "type": "minecraft:skeleton",
-      "weight": 52,
+      "weight": 1,
       "minCount": 1,
-      "maxCount": 2
+      "maxCount": 1
     }
       
     ]
@@ -74,9 +75,9 @@
     "fog_color": 6113113,
     "water_color": 4996043,
     "water_fog_color": 4995962,
-    "grass_color": 2065734,
     "sky_color": 2502751,
-    "foliage_color": 4241526,
+    "grass_color": 6768491,
+    "foliage_color": 12614516,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
@@ -96,3 +97,4 @@
   },
   "has_precipitation": true
 }
+

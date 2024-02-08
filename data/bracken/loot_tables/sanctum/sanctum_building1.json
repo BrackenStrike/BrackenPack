@@ -13,17 +13,25 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.001
+              "chance": 0.1
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:moss_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 20
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.2
             }
           ]
         },
@@ -43,13 +51,21 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.06
+              "chance": 0.1
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_copper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -63,17 +79,76 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.1
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:copper_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wayfinder_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raiser_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rib_armor_trim_smithing_template",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
             }
           ]
         },
@@ -83,17 +158,25 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.3
+              "chance": 0.1
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 15
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.9
+              "chance": 0.2
             }
           ]
         },
@@ -120,10 +203,18 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cracked_polished_blackstone_bricks",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 15
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.9
+              "chance": 0.2
             }
           ]
         },
@@ -140,20 +231,36 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:polished_blackstone_brick_stairs",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 15
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.6
+              "chance": 0.2
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 15
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.8
+              "chance": 0.2
             }
           ]
         }
