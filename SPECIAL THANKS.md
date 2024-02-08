@@ -10,7 +10,7 @@ Catcocomics
 Dr. C
 Freddy64merpro
 Grandmaster
-reNemesic
+reNemesic/Crimdev
 Sulfenir
 Tuxxic
 TytoninaeArt
@@ -34,9 +34,7 @@ PRIMORDIAL PATRONS
 Yokaiza
 
 DEMIMOD PATRONS
-BubblePopPony
 J8ck
-Natebat9
 
 AND BY USERS LIKE YOU
 Thank you.
