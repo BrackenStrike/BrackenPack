@@ -11,4 +11,4 @@ execute if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if
 
 # Varskstorm
 
-execute unless data storage bp.vars {varskstorm:{stage:0}} run function bracken:dimension_commands/varskstorm/case_check
+execute if entity @s[tag=bp.sparked] unless data storage bp.vars {varskstorm:{stage:0}} run function bracken:dimension_commands/varskstorm/case_check

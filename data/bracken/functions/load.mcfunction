@@ -200,6 +200,7 @@ scoreboard objectives add bp.omni_sprint dummy
 scoreboard objectives add bp.voidtp dummy
 
 # Varskspace
+data merge storage bp.vars {varskstorm:{stage:0}}
 scoreboard objectives add bp.varskstorm.cd dummy
 scoreboard players set #1 bp.varskstorm.cd 0
 scoreboard players set #2 bp.varskstorm.cd 0
