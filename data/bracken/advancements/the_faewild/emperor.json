@@ -1,0 +1,30 @@
+{
+  "parent": "bracken:the_faewild/castle",
+  "display": {
+    "title": {
+      "translate": "Nothing Will Come of Nothing"
+    },
+    "description": {
+      "translate": "Anger the Fae Emperor again"
+    },
+    "icon": {
+      "item": "minecraft:iron_chestplate",
+      "nbt": "{CustomModelData:888501,Enchantments:[{}],Trim:{material:\"minecraft:lapis\",pattern:\"minecraft:eye\"} }"
+  },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bracken:the_faewild/emperor1": {
+        "trigger": "minecraft:impossible"
+    }
+},
+  "requirements": [
+    [
+      "bracken:the_faewild/emperor1"
+    ]
+  ]
+}
+

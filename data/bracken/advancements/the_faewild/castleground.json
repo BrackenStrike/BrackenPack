@@ -1,0 +1,42 @@
+{
+    "parent": "bracken:the_faewild/enter_the_faewild",
+    "display": {
+        "title": {
+            "translate": "More than Kin, Less than Kind"
+        },
+        "description": {
+            "translate": "Enter the clandestine castlegrounds biome",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:amethyst_cluster"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:the_faewild/castleground1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "bracken:the_faewild/clandestine_castlegrounds"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_faewild/castleground1"
+        ]
+    ]
+}

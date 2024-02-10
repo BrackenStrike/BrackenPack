@@ -10,6 +10,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 7
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -20,6 +28,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -30,6 +46,11 @@
         {
           "type": "loot_table",
           "name": "bracken:item/potions/saturation_potion",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -40,6 +61,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:glistering_melon_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -50,6 +79,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rooted_dirt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 20
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -63,7 +100,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.01
+              "chance": 0.1
             }
           ]
         },
@@ -73,6 +110,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone_meal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 20
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -83,6 +128,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 20
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -93,6 +146,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:fermented_spider_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 20
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -103,6 +164,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:glass_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 20
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -113,6 +179,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -133,16 +204,32 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:moss_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 20
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.6
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:moss_carpet",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 20
+              }
+            }],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -159,7 +246,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.03
+              "chance": 0.3
             }
           ]
         }

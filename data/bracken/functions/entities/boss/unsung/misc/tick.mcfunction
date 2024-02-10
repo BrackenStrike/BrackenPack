@@ -1,5 +1,5 @@
 execute store result bossbar bracken:unsung value run data get entity @s Health 1
-execute store result score @s bp.health run data get entity @s Health 1
+execute store result score @s bp.unsung.health run data get entity @s Health 1
 
 bossbar set bracken:unsung players @a[distance=..50]
 
@@ -37,7 +37,7 @@ scoreboard players remove @s bp.slash 1
 execute if entity @s[scores={bp.slash=2..}] at @p[distance=..25] run particle minecraft:enchant ~ ~1 ~ 0.5 0.5 0.5 0.01 1
 
 #death
-execute if entity @s[scores={bp.health=..20}] run function bracken:entities/boss/unsung/misc/death
+execute if entity @s[scores={bp.unsung.health=..20}] run function bracken:entities/boss/unsung/misc/death
 
 
 

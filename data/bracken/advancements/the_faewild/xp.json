@@ -1,0 +1,49 @@
+{
+    "parent": "bracken:the_faewild/enter_the_faewild",
+    "display": {
+        "title": {
+            "translate": "Memory Lock'd"
+        },
+        "description": {
+            "translate": "Obtain 16 bottles of experience in the Faewild",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:panacea/xp1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:the_faewild"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:experience_bottle"
+                        ],
+                        "count": 16
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:panacea/xp1"
+        ]
+    ]
+}

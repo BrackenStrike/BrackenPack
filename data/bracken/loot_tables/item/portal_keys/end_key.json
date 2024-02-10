@@ -16,7 +16,7 @@
               "name": [
                 {
                   "translate": "End Portal Key",
-                  "color": "purple",
+                  "color": "dark_purple",
                   "italic": true,
                   "bold": true
                 }

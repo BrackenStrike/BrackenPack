@@ -1,0 +1,37 @@
+{
+  "parent": "bracken:the_faewild/village",
+  "display": {
+    "title": {
+      "translate": "Undreamed Shores"
+    },
+    "description": {
+      "translate": "Ride in a flying boat",
+      "color": "green"
+    },
+    "icon": {
+      "item": "minecraft:birch_boat"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bracken:the_faewild/fly_boat1": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:boat",
+          "nbt": "{NoGravity:1b,Glowing:1b}",
+          "location": {
+            "dimension": "bracken:the_faewild"
+          }
+        }
+      }
+    }
+},
+  "requirements": [
+    [
+      "bracken:the_faewild/fly_boat1"
+    ]
+  ]
+}

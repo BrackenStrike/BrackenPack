@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:punch\",lvl:2s}]}"
+              "tag": "{display:{Name:'{\"text\":\"Dreambow\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"What dreams may come, when we have shuffled off this mortal coil?\",\"color\":\"aqua\",\"italic\":false}']},RepairCost:100,Damage:200,Enchantments:[{id:\"minecraft:punch\",lvl:10s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
             }
             
             

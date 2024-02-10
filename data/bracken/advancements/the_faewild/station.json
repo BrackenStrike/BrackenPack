@@ -1,0 +1,51 @@
+{
+    "parent": "bracken:the_faewild/castle",
+    "display": {
+        "title": {
+            "translate": "In Black Ink my Love"
+        },
+        "description": {
+            "translate": "Destroy one of the four inked hearts hidden in the castle. Collect the fragment as a souvenir",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:amethyst_block",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:the_faewild/station1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:the_faewild"
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:amethyst_block"
+                        ],
+                        "nbt": "{Enchantments:[{}]}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_faewild/station1"
+        ]
+    ]
+}
