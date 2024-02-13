@@ -9,7 +9,7 @@ scoreboard players set @s bp.mansion_use 0
 scoreboard players set @s bp.giant 0
 scoreboard players set @s bp.wtb_cooldown 0
 scoreboard players set @s bp.cooldown 0
-execute if score #bp.species_dummy bp.species_con matches 1 if score #bp.bsb_dummy bp.bsb_con matches 1 run loot give @s loot bracken:item/species_beginner_book
+execute if data storage bracken:config {species_on: true} if data storage bracken:config {bsb_on: true} run loot give @s loot bracken:item/species_beginner_book
 
 function bracken:player/set_player_id
 

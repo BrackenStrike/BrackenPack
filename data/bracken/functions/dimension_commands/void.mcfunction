@@ -12,7 +12,7 @@ execute if entity @s[tag=bp.to_mansion_1] run function bracken:ability_books/man
 execute if entity @s[tag=bp.mansion_1] run function bracken:ability_books/mansion/create_mansion/tp_to_mansion_setup
 
 # VOID RANDOM TP
-execute if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-32,dy=-200] run function bracken:dimension_crossing/voidtp
+execute if data storage bracken:config {dimension_travel: true} if entity @s[y=-32,dy=-200] run function bracken:dimension_crossing/voidtp
 
 
 
