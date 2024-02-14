@@ -1,0 +1,7 @@
+{
+    "asset_id": "bracken:vorace/vorace",
+    "description": {
+        "translate": "trim_pattern.bracken.vorace"
+    },
+    "template_item": "minecraft:barrier"
+}
