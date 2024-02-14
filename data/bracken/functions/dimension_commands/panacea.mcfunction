@@ -28,6 +28,6 @@ execute if entity @s[scores={bp.1_second=3}] as @e[type=villager,tag=bp.table] a
 execute if entity @s[predicate=bracken:quicksand] if block ~ ~0 ~ mud run function bracken:dimension_commands/other/quicksand
 
 # Dimension Travel
-execute if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if score @s bp.creeper matches 2.. if entity @e[type=minecraft:creeper,distance=..1] run function bracken:dimension_crossing/panacea_to_overworld
-execute if score @s bp.1_second matches 12 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-35,dy=-300] in bracken:void run tp @s ~ 240 ~
+execute if data storage bracken:config {dimension_travel: true} if score @s bp.creeper matches 2.. if entity @e[type=minecraft:creeper,distance=..1] run function bracken:dimension_crossing/panacea_to_overworld
+execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel: true} if entity @s[y=-35,dy=-300] in bracken:void run tp @s ~ 240 ~
 
