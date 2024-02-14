@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.2,Operation:1,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.776,Operation:2,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"}],CustomModelData:888519}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "Diamond Warhammer",
+                  "color": "white",
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+               
+                {
+                  "translate": "",
+                  "color": "blue",
+                  "italic": false
+                },
+
+                {
+                  "translate": "When in Main Hand:",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": " 7 Attack Damage",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "translate": " 1 Attack Speed",
+                  "color": "dark_green",
+                  "italic": false
+                },
+                {
+                  "translate": " 20% Knockback Resistance",
+                  "color": "dark_green",
+                  "italic": false
+                }
+              ]
+            },
+            
+
+
+
+
+
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.48,
+                "max": 0.93
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
