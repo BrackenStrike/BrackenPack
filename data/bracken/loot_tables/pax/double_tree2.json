@@ -4,62 +4,135 @@
     {
       "rolls": {
         "min": 5,
-        "max": 15
+        "max": 8
       },
       "entries": [
+        
+        
+        
         {
           "type": "minecraft:item",
-          "name": "minecraft:torch",
+          "name": "minecraft:spruce_leaves",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
-            }
-          ]
-        },
-  {
-          "type": "minecraft:item",
-          "name": "minecraft:melon_slice",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.9
             }
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:leather",
+          "type": "loot_table",
+          "name": "bracken:item/species_fruits/automech_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.1
             }
           ]
-        }
-      ]
-    },
-	{
-	"rolls": 1,
-        "entries": [
-	{
+        },
+        {
           "type": "loot_table",
-          "name": "bracken:item/portal_keys/pax_key",
+          "name": "bracken:item/species_fruits/dweller_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 1
+              "chance": 0.1
             }
           ]
-        }
-]
-},
-	{
-	"rolls": 1,
-        "entries": [
-	{
+        },
+        {
           "type": "loot_table",
-          "name": "bracken:item/portal_keys/dormis_key",
+          "name": "bracken:item/species_fruits/enderling_fruit",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/species_fruits/faefolk_fruit",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/species_fruits/frostkin_fruit",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/species_fruits/human_fruit",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/species_fruits/hunter_fruit",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/species_fruits/nereid_fruit",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/species_fruits/netherkin_fruit",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/species_fruits/outlander_fruit",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/species_fruits/realmkeeper_fruit",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/species_fruits/villain_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -67,21 +140,7 @@
             }
           ]
         }
-]
-},
-{
-"rolls": 1,
-      "entries": [
-  {
-        "type": "loot_table",
-        "name": "bracken:item/ability_books/returning_tides",
-        "conditions": [
-          {
-            "condition": "minecraft:random_chance",
-            "chance": 0.6
-          }
-        ]
-      }
+  
 ]
 }
   ]
