@@ -109,7 +109,7 @@ execute unless data storage bracken:config {nether_height: incendium} run data m
 execute unless data storage bracken:config {end_height: nullscape} run data merge storage bracken:config {end_height:  normal}
 
 execute unless data storage bracken:config {teams_on: false} run data merge storage bracken:config {dimension_travel: true}
-execute unless data storage bracken:config {teams_on: false} run data merge storage bracken:config {teams_on: true}
+execute unless data storage bracken:config {dimension_travel: false} run data merge storage bracken:config {teams_on: true}
 execute unless data storage bracken:config {species_on: false} run data merge storage bracken:config {species_on: true}
 execute unless data storage bracken:config {bsb_on: false} run data merge storage bracken:config {bsb_on: true}
 execute unless data storage bracken:config {ability_books_on: false} run data merge storage bracken:config {ability_books_on: true}
