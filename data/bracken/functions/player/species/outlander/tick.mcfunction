@@ -1,7 +1,9 @@
 ##########################################################
 # Description: Executed every tick by outlanders
-# Creators: Bracken, reNemesic
+# Creators: Bracken
 ##########################################################
+
+# Note : backstabbing logic is handled on the 2-tick clock
 
 # Invisibility code
 
@@ -15,19 +17,3 @@ execute if score @s bp.swim matches 1.. run scoreboard players set @s bp.outland
 
 execute if score @s bp.outlander_charge matches 180.. run effect give @s minecraft:invisibility 1 0 true
 execute if score @s bp.outlander_charge matches 180.. run effect give @s minecraft:wither 1 0 true
-
-
-# Backstabbing logic
-# effect give @e[tag=bp.outlander_backstabbable] glowing 1 0 false
-
-execute if entity @e[distance=..5,tag=!bp.outlander] positioned ^ ^1 ^1.5 run function bracken:player/species/outlander/raycast_tag
-
-execute as @e[tag=bp.outlander_backstab,distance=..5] at @s rotated as @s positioned ^ ^ ^-1.6 as @a[tag=bp.outlander,distance=..1.5] run function bracken:player/species/outlander/backstab
-
-# This is a temporary fix and will most definitely cause issues if multiple outlanders are in the same area
-execute unless entity @e[tag=bp.outlander_backstab,distance=..5] run function bracken:player/species/outlander/unbackstab
-
-execute if score @s bp.tick matches 1 run tag @e[distance=..5] remove bp.outlander_backstab
-
-execute as @e[tag=bp.outlander_backstab,distance=..5] at @s rotated as @s positioned ^ ^ ^-1.6 unless entity @a[tag=bp.outlander,distance=..1.5] as @p[tag=bp.outlander] run function bracken:player/species/outlander/unbackstab
-
