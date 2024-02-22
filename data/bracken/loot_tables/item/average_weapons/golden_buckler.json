@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:wooden_sword",
+          "name": "minecraft:golden_sword",
           "functions": [
             {
               "function": "set_nbt",
