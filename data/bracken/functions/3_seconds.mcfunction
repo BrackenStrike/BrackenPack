@@ -13,4 +13,9 @@ execute as @e[type=marker] at @s run function bracken:entities/misc/markers_3_se
 ##########   POLYFOLUS MINIBOSS  ##########
 execute at @a as @e[distance=..50,limit=5,type=minecraft:item,nbt={Item:{id:"minecraft:red_mushroom_block",tag:{CustomModelData:888501}}}] at @s run function bracken:entities/the_underdark/polyfolus
 
+##########   IRON APPLE ARMOR BOOST EFFECT END  ##########
+scoreboard players remove @s[scores={bp.iron_apple=1..}] bp.iron_apple 1
+attribute @s[scores={bp.iron_apple=0}] minecraft:generic.armor modifier remove 8a346447-3af8-4f78-bbc4-c944332a347b
+
+
 schedule function bracken:3_seconds 3s

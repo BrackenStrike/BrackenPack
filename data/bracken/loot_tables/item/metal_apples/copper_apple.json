@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:888516}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "Copper Apple",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ]
+            },
+            
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{bp:{id:\"copper_apple\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
