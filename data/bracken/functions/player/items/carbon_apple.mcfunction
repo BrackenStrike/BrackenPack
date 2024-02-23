@@ -5,4 +5,4 @@
 
 advancement revoke @s only bracken:technical/food/metal_apples/carbon_apple
 
-effect give @s minecraft:wither 120 0 true
+effect give @s minecraft:wither 120 0 false
