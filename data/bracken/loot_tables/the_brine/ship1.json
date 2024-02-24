@@ -137,17 +137,8 @@
               "chance": 0.1
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brewing_stand",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
-            }
-          ]
         }
+        
       ]
     }
   ]

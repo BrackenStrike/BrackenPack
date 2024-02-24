@@ -13,7 +13,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.1
+              "chance": 0.4
             }
           ]
         },
@@ -54,7 +54,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.1
             }
           ]
         },
@@ -71,6 +71,16 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -104,7 +114,17 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/diamond_cutlass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
             }
           ]
         },
