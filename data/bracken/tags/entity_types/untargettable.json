@@ -35,6 +35,7 @@
         "minecraft:text_display",
         "minecraft:tnt",
         "minecraft:experience_orb",
-        "minecraft:experience_bottle"
+        "minecraft:experience_bottle",
+        "minecraft:wither_skull"
     ]
 }
