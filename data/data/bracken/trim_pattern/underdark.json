@@ -1,0 +1,7 @@
+{
+    "asset_id": "bracken:underdark/underdark",
+    "description": {
+        "translate": "trim_pattern.bracken.underdark"
+    },
+    "template_item": "minecraft:barrier"
+}

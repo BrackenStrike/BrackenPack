@@ -1,0 +1,7 @@
+{
+    "asset_id": "bracken:pax/pax",
+    "description": {
+        "translate": "trim_pattern.bracken.pax"
+    },
+    "template_item": "minecraft:barrier"
+}
