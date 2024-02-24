@@ -15,7 +15,7 @@ execute at @a as @e[distance=..50,limit=5,type=minecraft:item,nbt={Item:{id:"min
 
 ##########   IRON APPLE ARMOR BOOST EFFECT END  ##########
 scoreboard players remove @a[scores={bp.iron_apple=1..}] bp.iron_apple 1
-execute as @a run attribute @s[scores={bp.iron_apple=1}] minecraft:generic.armor modifier remove 8a346447-3af8-4f78-bbc4-c944332a347b
+execute as @a run attribute @s[scores={bp.iron_apple=1..2}] minecraft:generic.armor modifier remove 8a346447-3af8-4f78-bbc4-c944332a347b
 
 
 schedule function bracken:3_seconds 3s
