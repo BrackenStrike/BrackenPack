@@ -209,16 +209,7 @@
             }
           ]
         },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/portal_keys/dormis_key",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.01
-            }
-          ]
-        },
+        
         {
           "type": "minecraft:item",
           "name": "minecraft:paper",

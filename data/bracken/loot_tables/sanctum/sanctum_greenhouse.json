@@ -25,6 +25,7 @@
             }
           ]
         },
+        
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",

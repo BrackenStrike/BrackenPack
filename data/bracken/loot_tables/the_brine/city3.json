@@ -19,6 +19,36 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/lustra_shovel",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/lustra_hoe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/toothed_sword",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.01
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:prismarine_shard",
           "conditions": [

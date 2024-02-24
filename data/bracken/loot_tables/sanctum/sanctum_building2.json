@@ -28,6 +28,36 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/netherite_warhammer",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/netherite_mace",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/netherite_buckler",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:polished_blackstone_brick_stairs",
           "functions": [

@@ -49,6 +49,16 @@
         },
         {
           "type": "loot_table",
+          "name": "bracken:item/metal_apples/carbon_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
           "name": "bracken:item/music_discs/viceroy",
           "conditions": [
             {
@@ -67,16 +77,7 @@
             }
           ]
         },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/portal_keys/dormis_key",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.01
-            }
-          ]
-        },
+        
         {
           "type": "minecraft:item",
           "name": "minecraft:wither_skeleton_skull",

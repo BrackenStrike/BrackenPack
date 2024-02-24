@@ -68,6 +68,16 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/metal_apples/iron_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:torch",
           "conditions": [

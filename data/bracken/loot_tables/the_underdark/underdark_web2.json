@@ -17,16 +17,7 @@
             }
           ]
         },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/ability_books/fireball",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.03
-            }
-          ]
-        },
+        
         {
           "type": "loot_table",
           "name": "bracken:item/music_discs/underdark",

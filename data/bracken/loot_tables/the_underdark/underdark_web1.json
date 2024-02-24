@@ -29,6 +29,18 @@
         },
         {
           "type": "loot_table",
+          "name": "bracken:item/metal_apples/iron_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+       
+       
+        {
+          "type": "loot_table",
           "name": "bracken:item/music_discs/underdark",
           "conditions": [
             {
@@ -37,6 +49,7 @@
             }
           ]
         },
+        
         {
           "type": "minecraft:item",
           "name": "minecraft:redstone_torch",
@@ -107,6 +120,7 @@
             }
           ]
         },
+        
         {
           "type": "item",
           "name": "minecraft:diamond_pickaxe",

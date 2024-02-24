@@ -17,23 +17,14 @@
             }
           ]
         },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/ability_books/world_soar",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.03
-            }
-          ]
-        },
+        
         {
           "type": "loot_table",
           "name": "bracken:item/ability_books/flying_boat",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.01
+              "chance": 0.05
             }
           ]
         },
@@ -82,6 +73,7 @@
             }
           ]
         },
+        
         {
           "type": "minecraft:item",
           "name": "minecraft:large_fern",

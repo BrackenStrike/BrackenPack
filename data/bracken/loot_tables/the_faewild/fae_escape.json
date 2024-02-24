@@ -19,11 +19,41 @@
         },
         {
           "type": "loot_table",
+          "name": "bracken:item/metal_apples/copper_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
           "name": "bracken:item/ability_books/flying_boat",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
               "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/copper_dagger",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/copper_rapier",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
             }
           ]
         },
@@ -39,11 +69,11 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/world_soar",
+          "name": "bracken:item/ability_books/mass_heal",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.01
+              "chance": 0.03
             }
           ]
         },

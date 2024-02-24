@@ -29,6 +29,16 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:blue_bed",
           "conditions": [
             {
