@@ -6,8 +6,8 @@ execute if data storage bp.vars {varskstorm:{stage:2}} run particle electric_spa
 
 
 
-execute if data storage bp.vars {varskstorm:{stage:3}} if score #1 bp.varskstorm.cd matches ..0 if block ~ ~-1 ~ lightning_rod run function bracken:dimension_commands/varskstorm/spawn_thunderbolt {range:5}
-execute if data storage bp.vars {varskstorm:{stage:3}} if score #1 bp.varskstorm.cd matches ..0 unless block ~ ~-1 ~ lightning_rod run function bracken:dimension_commands/varskstorm/spawn_thunderbolt {range:50}
+execute if data storage bp.vars {varskstorm:{stage:3}} if score #cooldown bp.varskstorm matches ..0 if block ~ ~-1 ~ lightning_rod run function bracken:dimension_commands/varskstorm/spawn_thunderbolt {range:5}
+execute if data storage bp.vars {varskstorm:{stage:3}} if score #cooldown bp.varskstorm matches ..0 unless block ~ ~-1 ~ lightning_rod run function bracken:dimension_commands/varskstorm/spawn_thunderbolt {range:50}
 execute if data storage bp.vars {varskstorm:{stage:3}} run particle falling_obsidian_tear ~ ~ ~ 50 30 50 0 9 force
 execute if data storage bp.vars {varskstorm:{stage:3}} run particle electric_spark ~ ~ ~ 50 30 50 1 3 force
 
