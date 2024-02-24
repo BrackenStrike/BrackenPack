@@ -14,10 +14,5 @@ execute if entity @s[tag=bp.mansion_1] run function bracken:ability_books/mansio
 # VOID RANDOM TP
 execute if data storage bracken:config {dimension_travel: true} if entity @s[y=-32,dy=-200] run function bracken:dimension_crossing/voidtp
 
-# Ambient noise because the game won't let us add our own custom soundtrack to the worldgen/biome files rah
-
-execute if predicate bracken:random/one_in_5000 run playsound bracken:void_ambient master @s ~ ~ ~ 100 1.0 1
-
-
-
-
+# Beware the sounds of unknowable creatures as you descend.
+execute if score @s bp.3_second matches 1 if predicate bracken:random/one_in_30 run playsound bracken:void_ambient ambient @s ~ ~ ~ 100 1.0 1

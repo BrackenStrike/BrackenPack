@@ -24,3 +24,6 @@ execute if entity @s[predicate=bracken:rain] run function bracken:entities/sanct
 
 # travel to omnidrome which still needs work
 #execute if score @s bp.1_second matches 17 if data storage bracken:config {dimension_travel: true} if entity @e[type=minecraft:item_display,tag=bp.omnidrome_entrance,distance=..2,predicate=bracken:dimensions/sanctum] run function bracken:dimension_crossing/sanctum_to_omnidrome
+
+# The desolation speaks.
+execute if score @s bp.3_second matches 1 if predicate bracken:random/one_in_30 run playsound bracken:sanctum_ambient ambient @s ~ ~ ~ 100 1.0 1
