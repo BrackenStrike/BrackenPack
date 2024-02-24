@@ -39,23 +39,7 @@
     "water_fog_color": 0,
     "grass_color": 0,
     "sky_color": 0,
-    "foliage_colour": 0,
-    "mood_sound": {
-      "sound": "bracken:void_ambient",
-      "tick_delay": 1000,
-      "block_search_extent": 8,
-      "offset": 2
-    },
-    "additions_sound": {
-      "sound": "minecraft:block.end_portal.spawn",
-      "tick_chance": 0.0002
-    },
-    "music": {
-      "sound": "minecraft:music_disc.13",
-      "min_delay": 120,
-      "max_delay": 240,
-      "replace_current_music": false
-    }
+    "foliage_colour": 0
   },
   "has_precipitation": false
 }
