@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Unruly Compass",
+                "color": "white",
+                "italic": false
+              }
+            },
+            
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{bp:{id:\"unruly_compass\"},CustomModelData:888501,Enchantments:[{}],Fireworks:{Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;65493],FadeColors:[I;16711910]}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

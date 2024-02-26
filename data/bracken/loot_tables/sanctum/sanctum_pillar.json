@@ -62,6 +62,16 @@
         },
         {
           "type": "loot_table",
+          "name": "bracken:item/ability_books/lightning_bolt",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
           "name": "bracken:item/potions/saturation_potion",
           "functions": [
             {

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "nbt": "{bp:{id:\"unruly_compass\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:player/items/unruly_compass"
+  }
+}
