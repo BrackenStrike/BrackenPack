@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:firework_rocket",
+          "name": "minecraft:ender_eye",
           "functions": [
             {
               "function": "minecraft:set_name",
@@ -18,7 +18,7 @@
             
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"unruly_compass\"},CustomModelData:888501,Enchantments:[{}],Fireworks:{Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;65493],FadeColors:[I;16711910]}]}"
+              "tag": "{bp:{id:\"unruly_compass\"},HideFlags:255,CustomModelData:888504,Enchantments:[{}]}"
             }
           ]
         }

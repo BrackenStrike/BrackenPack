@@ -18,7 +18,7 @@
             
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"unruly_compass\"},CustomModelData:888501,Enchantments:[{}]}"
+              "tag": "{bp:{id:\"unruly_compass\"},CustomModelData:888501}"
             }
           ]
         }
