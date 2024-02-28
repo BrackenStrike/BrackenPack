@@ -19,11 +19,11 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/lightning_bolt",
+          "name": "bracken:item/tools/unruly_compass",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.01
+              "chance": 0.2
             }
           ]
         },

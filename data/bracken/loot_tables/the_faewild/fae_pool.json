@@ -17,6 +17,16 @@
             }
           ]
         },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/metal_apples/bejeweled_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
         
         {
           "type": "loot_table",

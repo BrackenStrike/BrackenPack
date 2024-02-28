@@ -18,6 +18,26 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/metal_apples/copper_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/tools/unruly_compass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:netherite_scrap",
           "conditions": [

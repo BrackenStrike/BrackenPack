@@ -19,11 +19,11 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/metal_apples/copper_apple",
+          "name": "bracken:item/metal_apples/bejeweled_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.1
+              "chance": 0.2
             }
           ]
         },
