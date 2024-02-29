@@ -1,0 +1,36 @@
+{
+    "parent": "bracken:omnidrome/enter_omnidrome",
+    "display": {
+        "title": {
+            "translate": "Under Construction"
+        },
+        "description": {
+            "translate": "Enter the stanterion biome",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:note_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:omnidrome/stan_biome1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biome": "bracken:omnidrome/stanterion"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:omnidrome/stan_biome1"
+        ]
+    ]
+}

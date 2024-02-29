@@ -33,7 +33,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"realmkeeper_fruit\"}}"
+              "tag": "{bp:{species_fruit:1b,id:\"realmkeeper_fruit\"}}"
             }
           ]
         }

@@ -1,0 +1,37 @@
+{
+    "parent": "bracken:pax/petal_biome",
+    "display": {
+        "title": {
+            "translate": "I think. I am."
+        },
+        "description": {
+            "translate": "Visit the double trees",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:oak_leaves"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:pax/double_tree1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                    
+                        "structure": "bracken:pax_double_tree"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:pax/double_tree1"
+        ]
+    ]
+}

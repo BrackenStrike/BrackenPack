@@ -1,0 +1,32 @@
+{
+
+  "display": {
+      "icon": {
+        "item": "minecraft:barrier"
+      },
+      "title": {
+        "translate": "Rogue Navigator"
+      },
+      "description": {
+        "translate": "Examine the Disruptor",
+        "color": "green"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+  },
+  "parent": "bracken:omnidrome/living_palace",
+  "criteria": {
+      "bracken:omnidrome/boss1": {
+        "trigger": "minecraft:impossible",
+        "conditions": {}
+      }
+  },
+  
+  "requirements": [
+      [
+        "bracken:omnidrome/boss1"
+      ]
+  ]
+}

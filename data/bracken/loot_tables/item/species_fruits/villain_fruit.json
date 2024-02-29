@@ -33,7 +33,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"villain_fruit\"}}"
+              "tag": "{bp:{species_fruit:1b,id:\"villain_fruit\"}}"
             }
           ]
         }
