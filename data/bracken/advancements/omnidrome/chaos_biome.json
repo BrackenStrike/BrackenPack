@@ -1,15 +1,15 @@
 {
-    "parent": "bracken:pax/enter_pax",
+    "parent": "bracken:omnidrome/enter_omnidrome",
     "display": {
         "title": {
-            "translate": "Season of Renaissance"
+            "translate": "Keeping Inventory"
         },
         "description": {
-            "translate": "Enter the petal grove biome",
+            "translate": "Enter the archivistory biome",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:pink_petals"
+            "item": "minecraft:writable_book"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,12 +17,12 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:pax/petal_biome1": {
+        "bracken:omnidrome/chaos_biome1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biome": "bracken:pax/petal_grove"
+                        "biome": "bracken:omnidrome/archivistory"
                     }
                 }
             }
@@ -30,7 +30,7 @@
     },
     "requirements": [
         [
-            "bracken:pax/petal_biome1"
+            "bracken:omnidrome/chaos_biome1"
         ]
     ]
 }

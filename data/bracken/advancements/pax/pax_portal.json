@@ -1,15 +1,15 @@
 {
-    "parent": "bracken:pax/enter_pax",
+    "parent": "bracken:pax/cloud_biome",
     "display": {
         "title": {
-            "translate": "Season of Renaissance"
+            "translate": "Seperate Ways"
         },
         "description": {
-            "translate": "Enter the petal grove biome",
+            "translate": "Find the Pax gateway",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:pink_petals"
+            "item": "minecraft:oak_leaves"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,12 +17,13 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:pax/petal_biome1": {
+        "bracken:pax/pax_portal1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biome": "bracken:pax/petal_grove"
+                    
+                        "structure": "bracken:pax_arch"
                     }
                 }
             }
@@ -30,7 +31,7 @@
     },
     "requirements": [
         [
-            "bracken:pax/petal_biome1"
+            "bracken:pax/pax_portal1"
         ]
     ]
 }

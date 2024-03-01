@@ -2,14 +2,14 @@
     "parent": "bracken:pax/enter_pax",
     "display": {
         "title": {
-            "translate": "Season of Renaissance"
+            "translate": "Ascention"
         },
         "description": {
-            "translate": "Enter the petal grove biome",
+            "translate": "Reach the top of Pax's pillars",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:pink_petals"
+            "item": "minecraft:grass_block"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,12 +17,17 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:pax/petal_biome1": {
+        "bracken:pax/ascend1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biome": "bracken:pax/petal_grove"
+                        "dimension": "bracken:pax"
+                    },
+                    "distance": {
+                      "y": 500,
+                  
+                      "absolute": 20
                     }
                 }
             }
@@ -30,7 +35,7 @@
     },
     "requirements": [
         [
-            "bracken:pax/petal_biome1"
+            "bracken:pax/ascend1"
         ]
     ]
 }

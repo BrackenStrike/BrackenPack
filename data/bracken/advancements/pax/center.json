@@ -2,14 +2,14 @@
     "parent": "bracken:pax/enter_pax",
     "display": {
         "title": {
-            "translate": "Season of Renaissance"
+            "translate": "Home Base"
         },
         "description": {
-            "translate": "Enter the petal grove biome",
+            "translate": "Journey to the center of Pax",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:pink_petals"
+            "item": "minecraft:quartz_block"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,12 +17,17 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:pax/petal_biome1": {
+        "bracken:pax/center1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biome": "bracken:pax/petal_grove"
+                        "dimension": "bracken:pax"
+                    },
+                    "distance": {
+                      "x": 0,
+                      "z": 0,
+                      "absolute": 100
                     }
                 }
             }
@@ -30,7 +35,7 @@
     },
     "requirements": [
         [
-            "bracken:pax/petal_biome1"
+            "bracken:pax/center1"
         ]
     ]
 }

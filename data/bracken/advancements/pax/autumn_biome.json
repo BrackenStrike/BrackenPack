@@ -2,14 +2,14 @@
     "parent": "bracken:pax/enter_pax",
     "display": {
         "title": {
-            "translate": "Season of Renaissance"
+            "translate": "Season of Harvest"
         },
         "description": {
-            "translate": "Enter the petal grove biome",
+            "translate": "Enter the autumn idyll biome",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:pink_petals"
+            "item": "minecraft:bread"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,12 +17,12 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:pax/petal_biome1": {
+        "bracken:pax/autumn_biome1": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biome": "bracken:pax/petal_grove"
+                        "biome": "bracken:pax/autumn_idyll"
                     }
                 }
             }
@@ -30,7 +30,7 @@
     },
     "requirements": [
         [
-            "bracken:pax/petal_biome1"
+            "bracken:pax/autumn_biome1"
         ]
     ]
 }
