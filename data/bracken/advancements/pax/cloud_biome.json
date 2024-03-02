@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:powder_snow"
+            "item": "minecraft:powder_snow_bucket"
         },
         "frame": "task",
         "show_toast": true,
