@@ -1,0 +1,36 @@
+{
+    "parent": "bracken:pax/enter_pax",
+    "display": {
+        "title": {
+            "translate": "Season of Renaissance"
+        },
+        "description": {
+            "translate": "Enter the petal grove biome",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:pink_petals"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:pax/petal_biome1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biome": "bracken:pax/petal_grove"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:pax/petal_biome1"
+        ]
+    ]
+}

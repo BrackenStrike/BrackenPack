@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:888518}"
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "translate": "Bejeweled Apple",
+                  "color": "aqua",
+                  "italic": false
+                }
+              ]
+            },
+            
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{bp:{id:\"bejeweled_apple\"}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

@@ -7,5 +7,5 @@
 effect give @s minecraft:resistance 2 4 true
 summon minecraft:lightning_bolt ^ ^1 ^0 {Tags:["bp.varsk_lightning","bp.entity"]}
 tellraw @s ["",{"selector":"@s "},{"translate":" vanished with [TRAVEL CALL]"}]
-experience add @s -25 levels
+experience add @s -12 levels
 scoreboard players set @s bp.cooldown 40

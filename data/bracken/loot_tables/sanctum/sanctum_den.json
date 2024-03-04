@@ -18,6 +18,48 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/metal_apples/copper_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/tools/unruly_compass",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/netherite_warhammer",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/ability_books/lightning_bolt",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
+        },
+       
+        
+        {
           "type": "minecraft:item",
           "name": "minecraft:wayfinder_armor_trim_smithing_template",
           "functions": [
@@ -132,16 +174,7 @@
             }
           ]
         },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/portal_keys/dormis_key",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
-            }
-          ]
-        },
+        
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_scrap",

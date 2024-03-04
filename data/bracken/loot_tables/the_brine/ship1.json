@@ -37,16 +37,7 @@
             }
           ]
         },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/portal_keys/dormis_key",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.01
-            }
-          ]
-        },
+        
         {
           "type": "loot_table",
           "name": "bracken:item/ability_books/crimson_spark",
@@ -79,14 +70,15 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_carrot",
+          "name": "minecraft:nautilus_shell",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.3
+              "chance": 0.4
             }
           ]
         },
+        
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
@@ -116,17 +108,8 @@
               "chance": 0.1
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:brewing_stand",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
-            }
-          ]
         }
+        
       ]
     }
   ]

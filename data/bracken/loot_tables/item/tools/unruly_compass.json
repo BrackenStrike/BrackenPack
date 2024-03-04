@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Unruly Compass",
+                "color": "white",
+                "italic": false
+              }
+            },
+            
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{bp:{id:\"unruly_compass\"},HideFlags:255,CustomModelData:888504,Enchantments:[{}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

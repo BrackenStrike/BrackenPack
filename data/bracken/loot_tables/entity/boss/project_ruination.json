@@ -1,11 +1,12 @@
 {
   "pools": [
+    
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/ability_books/magnificent_mansion"
+          "name": "bracken:item/ability_books/lightning_bolt"
         }
       ]
     },

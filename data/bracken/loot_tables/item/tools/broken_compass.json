@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "Broken Compass",
+                "color": "red",
+                "italic": false
+              }
+            },
+            
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{bp:{id:\"unruly_compass\"},CustomModelData:888501}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

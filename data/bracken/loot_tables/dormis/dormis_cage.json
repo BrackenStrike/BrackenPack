@@ -17,6 +17,7 @@
             }
           ]
         },
+        
         {
           "type": "minecraft:item",
           "name": "minecraft:crafting_table",

@@ -18,6 +18,36 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/metal_apples/carbon_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.08
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/diamond_sabre",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/diamond_mace",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:cobweb",
           "conditions": [
@@ -27,16 +57,7 @@
             }
           ]
         },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/portal_keys/dormis_key",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.001
-            }
-          ]
-        },
+        
         {
           "type": "minecraft:item",
           "name": "minecraft:snowball",

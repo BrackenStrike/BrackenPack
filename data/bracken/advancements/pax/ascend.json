@@ -1,0 +1,41 @@
+{
+    "parent": "bracken:pax/enter_pax",
+    "display": {
+        "title": {
+            "translate": "Ascention"
+        },
+        "description": {
+            "translate": "Reach the top of Pax's pillars",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:pax/ascend1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:pax"
+                    },
+                    "distance": {
+                      "y": 500,
+                  
+                      "absolute": 20
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:pax/ascend1"
+        ]
+    ]
+}

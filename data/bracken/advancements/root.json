@@ -1,5 +1,5 @@
 {
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "parent": "minecraft:story/root",
     "display": {
         "title": {
             "translate": "A Sincere Thanks."
@@ -8,13 +8,13 @@
             "translate": "Thanks for downloading the BrackenPack. Have fun!"
         },
         "icon": {
-            "item": "minecraft:grass_block"
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:BrackenStriker}"
         },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": false,
-        "background": "bracken:textures/gui/advancements/backgrounds/root.png"
+        "hidden": false
     },
     "criteria": {
         "start": {
@@ -26,3 +26,4 @@
         "function": "bracken:set_score"
     }
 }
+

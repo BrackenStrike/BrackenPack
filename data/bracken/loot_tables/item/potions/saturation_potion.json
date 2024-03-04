@@ -18,7 +18,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{custom_potion_effects:[{id:\"minecraft:slowness\",amplifier:5b,duration:200,show_particles:1b}],CustomPotionColor:16711705}"
+              "tag": "{custom_potion_effects:[{id:\"minecraft:saturation\",amplifier:5b,duration:400,show_particles:1b}],CustomPotionColor:16711705}"
             }
           ]
         }

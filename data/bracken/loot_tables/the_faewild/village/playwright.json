@@ -18,6 +18,16 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/copper_dagger",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:book",
           "conditions": [
