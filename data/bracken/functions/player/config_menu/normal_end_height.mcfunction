@@ -1,4 +1,4 @@
-execute unless score #bp.end_height_dummy bp.end_height_con matches 1 run tellraw @s [{"text":"End height has been set to the normal vanilla height.","color":"yellow"}]
-execute unless score #bp.end_height_dummy bp.end_height_con matches 0 run tellraw @s [{"text":"End height is already set to Normal!","color":"yellow"}]
+execute unless data storage bracken:config {end_height: normal} run tellraw @s [{"text":"End height has been set to the normal vanilla height.","color":"yellow"}]
+execute unless data storage bracken:config {end_height: nullscape} run tellraw @s [{"text":"End height is already set to Normal!","color":"yellow"}]
 
-scoreboard players set #bp.end_height_dummy bp.end_height_con 1
+data merge storage bracken:config {end_height:  normal}

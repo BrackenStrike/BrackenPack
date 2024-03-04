@@ -30,9 +30,9 @@ scoreboard players add @s bp.verylongtick 1
 #scoreboard players add @s bp.5_min_tick 1
 
 # Player species
-#execute if score #bp.species_dummy bp.species_con matches 2 if entity @s[tag=bp.species] run function #bracken:player/species/tick
-execute if score #bp.species_dummy bp.species_con matches 1 if entity @s[tag=bp.species] run function bracken:player/species/tick
-execute if score #bp.species_dummy bp.species_con matches 0 if entity @s[scores={bp.longtick=2}] run function bracken:player/species/leave
+#execute if score #bp.species_dummy bp.config matches 2 if entity @s[tag=bp.species] run function #bracken:player/species/tick
+execute if data storage bracken:config {species_on: true} if entity @s[tag=bp.species] run function bracken:player/species/tick
+execute if data storage bracken:config {species_on: false} if entity @s[scores={bp.longtick=2}] run function bracken:player/species/leave
 
 # Dimension Commands
 function bracken:player/overworld_check

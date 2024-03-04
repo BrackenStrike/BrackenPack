@@ -4,8 +4,8 @@
 ##########################################################
 
 
-execute if score #bp.ability_books_dummy bp.books_con matches 1 run function bracken:ability_books/mansion/mansion
-execute if score #bp.ability_books_dummy bp.books_con matches 0 run tellraw @s {"translate":"A spell is attempted but nothing happens..."}
+execute if data storage bracken:config {ability_books_on: true} run function bracken:ability_books/mansion/mansion
+execute if data storage bracken:config {ability_books_on: false} run tellraw @s {"translate":"A spell is attempted but nothing happens..."}
 
 scoreboard players set @s bp.offhand 0
 scoreboard players set @s OMNI.POWER.mansion 1

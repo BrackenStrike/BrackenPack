@@ -1,1 +1,1 @@
-execute if score #bp.nether_height_dummy bp.nether_height_con matches 1 run function bracken:dimension_crossing/first_time_text/nether_to_underdark
+execute if data storage bracken:config {nether_height: normal} run function bracken:dimension_crossing/first_time_text/nether_to_underdark
