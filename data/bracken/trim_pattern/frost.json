@@ -1,0 +1,7 @@
+{
+    "asset_id": "bracken:frost/frost",
+    "description": {
+        "translate": "trim_pattern.bracken.frost"
+    },
+    "template_item": "minecraft:barrier"
+}

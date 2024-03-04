@@ -1,0 +1,7 @@
+{
+    "asset_id": "bracken:volt/volt",
+    "description": {
+        "translate": "trim_pattern.bracken.volt"
+    },
+    "template_item": "minecraft:barrier"
+}

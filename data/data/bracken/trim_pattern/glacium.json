@@ -1,0 +1,7 @@
+{
+    "asset_id": "bracken:glacium/glacium",
+    "description": {
+        "translate": "trim_pattern.bracken.glacium"
+    },
+    "template_item": "minecraft:barrier"
+}
