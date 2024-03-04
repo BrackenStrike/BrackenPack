@@ -9,7 +9,8 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:wither_skeleton_skull"
+            "item": "minecraft:fishing_rod",
+            "nbt": "{CustomModelData:888501}"
         },
         "frame": "challenge",
         "show_toast": true,

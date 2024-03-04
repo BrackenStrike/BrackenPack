@@ -8,7 +8,8 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:lime_concrete"
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:888517}"
         },
         "frame": "task",
         "show_toast": false,
