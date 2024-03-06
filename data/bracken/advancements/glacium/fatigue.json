@@ -5,7 +5,7 @@
             "translate": "Middle-Era Watchtower"
         },
         "description": {
-            "translate": "Get mining fatigue from a frozen watchtower",
+            "translate": "Get slowness from a frozen watchtower",
             "color": "green"
         },
         "icon": {
@@ -27,7 +27,7 @@
                         "predicate": {
                             "type": "minecraft:player",
                             "effects": {
-                                "minecraft:mining_fatigue": {}
+                                "minecraft:slowness": {}
                             }
                         }
                     },
