@@ -28,4 +28,4 @@ scoreboard players remove @s[scores={bp.fae=1..}] bp.fae 1
 scoreboard players remove @s[scores={bp.wither_skull=1..}] bp.wither_skull 1
 
 #Tinted cube
-execute if entity @s[scores={bp.obsidian=1..2}] unless predicate bracken:dimensions/void run fill ~2 ~3 ~2 ~-2 ~-1 ~-2 minecraft:obsidian hollow
+execute if entity @s[scores={bp.obsidian=1..2}] unless predicate bracken:dimensions/void run function bracken:dimension_crossing/voidcube
