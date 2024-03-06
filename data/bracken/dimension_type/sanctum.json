@@ -13,7 +13,7 @@
   "logical_height": 100,
   "infiniburn": "#minecraft:infiniburn_sanctum",
   "min_y": 0,
-  "height": 320,
+  "height": 304,
   "monster_spawn_block_light_limit": 0,
   "monster_spawn_light_level": {
     "type": "minecraft:uniform",
