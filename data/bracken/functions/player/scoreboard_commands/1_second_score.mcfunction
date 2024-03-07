@@ -34,3 +34,6 @@ scoreboard players set @s[predicate=bracken:item/poison_sword_mainhand] bp.poiso
 scoreboard players set @s[predicate=bracken:item/spite_mainhand] bp.spite 3
 scoreboard players set @s[predicate=bracken:item/spite_offhand] bp.spite 3
 scoreboard players remove @s[scores={bp.spite=1..}] bp.spite 2
+
+# varsk effect
+execute at @s[tag=bp.sparked] run particle entity_effect ~ ~1 ~ 0 0.5 0 1 1 normal

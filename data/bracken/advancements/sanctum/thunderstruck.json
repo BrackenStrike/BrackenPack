@@ -1,0 +1,30 @@
+{
+    "parent": "sanctum/enter_sanctum",
+    "display": {
+        "title": {
+            "translate": "Varskstorm"
+        },
+        "description": {
+            "translate": "Have the entanglement effect active durring rain or stormy weather",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:feather",
+            "nbt": "{CustomModelData:888501}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:sanctum/thunderstruck1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "bracken:sanctum/thunderstruck1"
+        ]
+    ]
+}
