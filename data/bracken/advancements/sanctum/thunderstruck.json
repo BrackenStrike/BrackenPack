@@ -1,5 +1,5 @@
 {
-    "parent": "sanctum/enter_sanctum",
+    "parent": "bracken:sanctum/compass",
     "display": {
         "title": {
             "translate": "Varskstorm"

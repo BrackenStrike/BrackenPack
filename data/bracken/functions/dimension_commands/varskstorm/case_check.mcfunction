@@ -11,5 +11,5 @@ execute if data storage bp.vars {varskstorm:{stage:3}} if score #cooldown bp.var
 execute if data storage bp.vars {varskstorm:{stage:3}} run particle falling_obsidian_tear ~ ~ ~ 50 30 50 0 9 force
 execute if data storage bp.vars {varskstorm:{stage:3}} run particle electric_spark ~ ~ ~ 50 30 50 1 3 force
 
-
+advancement grant @a[predicate=bracken:rain,distance=..30] only bracken:sanctum/thunderstruck
 execute if block ~ ~-1 ~ lightning_rod run particle minecraft:electric_spark ~ ~ ~ 0.1 0.9 0.1 0.4 17 force
