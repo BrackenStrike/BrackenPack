@@ -3,8 +3,8 @@
   "pools": [
     {
       "rolls": {
-        "min": 7,
-        "max": 12
+        "min": 10,
+        "max": 18
       },
       "entries": [
         {
@@ -13,7 +13,17 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.8
+              "chance": 0.9
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/metal_apples/copper_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
             }
           ]
         },
@@ -38,12 +48,42 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_apple",
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/iron_short_spear",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/iron_rapier",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/iron_buckler",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/iron_dagger",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
             }
           ]
         },
@@ -85,7 +125,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.1
+              "chance": 0.2
             }
           ],
           "functions": [
@@ -110,7 +150,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.9
             }
           ]
         },
@@ -120,7 +160,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.1
+              "chance": 0.2
             }
           ],
           "functions": [
@@ -145,7 +185,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.1
+              "chance": 0.2
             }
           ],
           "functions": [
@@ -170,7 +210,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.1
+              "chance": 0.2
             }
           ],
           "functions": [
@@ -196,7 +236,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.7
+              "chance": 0.9
             }
           ],
           "functions": [
@@ -212,7 +252,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.6
             }
           ]
         },

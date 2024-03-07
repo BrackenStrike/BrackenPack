@@ -18,6 +18,16 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/copper_axe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:chain",
           "conditions": [
@@ -28,12 +38,12 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_pickaxe",
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/copper_pickaxe",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.3
             }
           ]
         },

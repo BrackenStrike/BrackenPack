@@ -1,0 +1,7 @@
+{
+    "asset_id": "bracken:ruin/ruin",
+    "description": {
+        "translate": "trim_pattern.bracken.ruin"
+    },
+    "template_item": "minecraft:barrier"
+}

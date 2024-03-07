@@ -1,0 +1,7 @@
+{
+    "asset_id": "bracken:wisdom/wisdom",
+    "description": {
+        "translate": "trim_pattern.bracken.wisdom"
+    },
+    "template_item": "minecraft:barrier"
+}

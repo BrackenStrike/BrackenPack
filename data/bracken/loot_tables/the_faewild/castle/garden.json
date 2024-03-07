@@ -48,6 +48,16 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/copper_hoe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:lily_pad",
           "conditions": [

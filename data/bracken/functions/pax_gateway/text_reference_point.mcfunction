@@ -25,5 +25,5 @@ scoreboard players set @e[type=minecraft:marker,tag=bp.pax_scores,distance=..25,
 scoreboard players set @e[type=minecraft:marker,tag=bp.pax_scores,distance=..25,limit=1] bp.portal_G 0
 
 # Disables Portal Keys
-execute if score #bp.portal_keys_dummy bp.portal_keys_con matches 0 as @e[type=minecraft:marker,tag=bp.pax_scores,distance=..25,limit=1] run function bracken:pax_gateway/add_key_tags
+execute if data storage bracken:config {portal_keys_on: false} as @e[type=minecraft:marker,tag=bp.pax_scores,distance=..25,limit=1] run function bracken:pax_gateway/add_key_tags
 

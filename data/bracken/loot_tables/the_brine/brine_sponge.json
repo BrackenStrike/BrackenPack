@@ -18,6 +18,16 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/toothed_sword",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:glistering_melon_slice",
           "conditions": [
@@ -37,16 +47,7 @@
             }
           ]
         },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/portal_keys/dormis_key",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.01
-            }
-          ]
-        },
+        
         {
           "type": "loot_table",
           "name": "bracken:item/music_discs/brine",

@@ -22,12 +22,43 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/metal_apples/bejeweled_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/copper_rapier",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/copper_axe",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        },
+        
+        {
           "type": "minecraft:item",
           "name": "minecraft:cookie",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.2
+              "chance": 0.3
             }
           ]
         },
@@ -57,20 +88,11 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.05
+              "chance": 0.08
             }
           ]
         },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/ability_books/world_soar",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.01
-            }
-          ]
-        },
+        
         {
           "type": "minecraft:item",
           "name": "minecraft:cake",

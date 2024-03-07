@@ -28,6 +28,7 @@ scoreboard objectives add bp.obsidian dummy
 scoreboard objectives add bp.spite dummy
 scoreboard objectives add bp.world_player_id dummy
 scoreboard objectives add bp.dust_storm dummy
+scoreboard objectives add bp.iron_apple dummy
 
 # time
 scoreboard objectives add bp.tick dummy
@@ -105,25 +106,15 @@ scoreboard objectives add bp.armor armor
 scoreboard objectives add bp.absorption dummy
 
 ##########   CONFIG MENU  ##########
-scoreboard objectives add bp.nether_height_con dummy
-scoreboard objectives add bp.end_height_con dummy
+execute unless data storage bracken:config {nether_height: incendium} run data merge storage bracken:config {nether_height: normal}
+execute unless data storage bracken:config {end_height: nullscape} run data merge storage bracken:config {end_height:  normal}
 
-scoreboard objectives add bp.dimension_travel_con dummy
-scoreboard objectives add bp.teams_con dummy
-scoreboard objectives add bp.species_con dummy
-scoreboard objectives add bp.bsb_con dummy
-scoreboard objectives add bp.books_con dummy
-scoreboard objectives add bp.portal_keys_con dummy
-
-execute unless score #bp.nether_height_dummy bp.nether_height_con matches 0 run scoreboard players set #bp.nether_height_dummy bp.nether_height_con 1
-execute unless score #bp.end_height_dummy bp.end_height_con matches 0 run scoreboard players set #bp.end_height_dummy bp.end_height_con 1
-
-execute unless score #bp.dimension_travel_dummy bp.dimension_travel_con matches 0 run scoreboard players set #bp.dimension_travel_dummy bp.dimension_travel_con 1
-execute unless score #bp.teams_dummy bp.teams_con matches 0 run scoreboard players set #bp.teams_dummy bp.teams_con 1
-execute unless score #bp.species_dummy bp.species_con matches 0 run scoreboard players set #bp.species_dummy bp.species_con 1
-execute unless score #bp.bsb_dummy bp.bsb_con matches 0 run scoreboard players set #bp.bsb_dummy bp.bsb_con 1
-execute unless score #bp.ability_books_dummy bp.books_con matches 0 run scoreboard players set #bp.ability_books_dummy bp.books_con 1
-execute unless score #bp.portal_keys_dummy bp.portal_keys_con matches 0 run scoreboard players set #bp.portal_keys_dummy bp.portal_keys_con 1
+execute unless data storage bracken:config {teams_on: false} run data merge storage bracken:config {dimension_travel: true}
+execute unless data storage bracken:config {dimension_travel: false} run data merge storage bracken:config {teams_on: true}
+execute unless data storage bracken:config {species_on: false} run data merge storage bracken:config {species_on: true}
+execute unless data storage bracken:config {bsb_on: false} run data merge storage bracken:config {bsb_on: true}
+execute unless data storage bracken:config {ability_books_on: false} run data merge storage bracken:config {ability_books_on: true}
+execute unless data storage bracken:config {portal_keys_on: false} run data merge storage bracken:config {portal_keys_on: true}
 
 ##########   REMOVE FORCELOAD  ##########
 scoreboard objectives add bp.xchunk dummy
@@ -264,7 +255,7 @@ scoreboard players set #20 bp.var 20
 #scoreboard objectives setdisplay list bp.health
 
 ##########   ADD TEAMS   ##########
-execute if score #bp.teams_dummy bp.teams_con matches 1 run function bracken:player/add_teams
+execute if data storage bracken:config {teams_on: true} run function bracken:player/add_teams
 
 ##########   START TICK FUNCTIONS   ###########
 function bracken:3_seconds

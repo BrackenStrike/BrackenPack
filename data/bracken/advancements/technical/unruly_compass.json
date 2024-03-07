@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:used_ender_eye",
+      "conditions": {
+        "item": {
+          "nbt": "{bp:{id:\"unruly_compass\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:player/items/unruly_compass"
+  }
+}

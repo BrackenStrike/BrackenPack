@@ -11,7 +11,7 @@ scoreboard players set @s bp.arb_book 0
 #execute if entity @s[nbt={SelectedItem:{id:"minecraft:written_book",tag:{tags:[bp.book_of_arbitrium]}}}] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
 #execute if entity @s[nbt={SelectedItem:{tag:{bp.species_book:10b}}}] unless entity @s[tag=bp.book_used] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
 execute if predicate bracken:item/boa_mainhand unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
-execute if score #bp.bsb_dummy bp.bsb_con matches 1 if predicate bracken:item/species_book_mainhand unless entity @s[tag=bp.book_used] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
+execute if data storage bracken:config {bsb_on: true} if predicate bracken:item/species_book_mainhand unless entity @s[tag=bp.book_used] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
 
 function bracken:book_of_arbitrium/triggers
 

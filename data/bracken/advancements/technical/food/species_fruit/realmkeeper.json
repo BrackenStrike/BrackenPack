@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{bp:{id:\"realmkeeper_fruit\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:player/species/realmkeeper/join"
+  }
+}

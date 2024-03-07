@@ -115,8 +115,7 @@
       "min_delay": 1200,
       "max_delay": 2400,
       "replace_current_music": true
-    },
-    "ambient_sound": "minecraft:ambient.underwater.loop"
+    }
   },
   "has_precipitation": true
 }

@@ -13,7 +13,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.5
+              "chance": 0.9
             }
           ]
         },
@@ -39,11 +39,41 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/portal_keys/dormis_key",
+          "name": "bracken:item/average_weapons/diamond_greatsword",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.01
+              "chance": 0.04
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/diamond_sabre",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.04
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/diamond_mace",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.04
+            }
+          ]
+        },
+        {
+          "type": "loot_table",
+          "name": "bracken:item/average_weapons/diamond_katana",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.04
             }
           ]
         },
@@ -53,7 +83,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.1
+              "chance": 0.04
             }
           ]
         },
@@ -63,7 +93,7 @@
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.1
+              "chance": 0.04
             }
           ]
         }

@@ -18,7 +18,7 @@ execute unless predicate bracken:in_boat unless predicate bracken:in_chest_boat 
 
 
 # Dimension Travel
-execute if score @s bp.1_second matches 8 if score #bp.dimension_travel_dummy bp.dimension_travel_con matches 1 if entity @s[y=-15,dy=-300] run function bracken:dimension_crossing/pax_to_faewild
+execute if score @s bp.1_second matches 8 if data storage bracken:config {dimension_travel: true} if entity @s[y=-15,dy=-300] run function bracken:dimension_crossing/pax_to_faewild
 
 # PAX CONDITIONAL SLOWFALL
 execute if score @s bp.tick matches 2 if blocks ~1 ~1 ~1 ~-1 ~-10 ~-1 ~ 500 ~ all unless entity @s[predicate=bracken:item/wearing_elytra] run effect give @s minecraft:slow_falling 3 0 true

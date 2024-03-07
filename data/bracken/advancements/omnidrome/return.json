@@ -1,0 +1,50 @@
+{
+    "parent": "bracken:omnidrome/enter_omnidrome",
+    "display": {
+        "title": {
+            "translate": "Welcome Guest"
+        },
+        "description": {
+            "translate": "Enter the Omnidrome as an Automech",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "bracken:omnidrome/return1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "nbt": "{Tags:[\"bp.automech\"]}"
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:omnidrome"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:omnidrome/return1"
+        ]
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "parent": "bracken:pax/enter_pax",
+    "display": {
+        "title": {
+            "translate": "Place of Former Dreaming"
+        },
+        "description": {
+            "translate": "Enter the cenotaph biome",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{CustomModelData:888501}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:pax/sword_biome1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biome": "bracken:pax/cenotaph"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:pax/sword_biome1"
+        ]
+    ]
+}

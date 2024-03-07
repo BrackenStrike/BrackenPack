@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{Unbreakable:0b,CustomModelData:1,Enchantments:[{id:\"minecraft:looting\",lvl:11s},{id:\"minecraft:luck_of_the_sea\",lvl:39s},{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:lure\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:11,Operation:0,UUID:[I;-371068275,1956793767,-1438637349,490584705],Slot:\"offhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:1.8,Operation:0,UUID:[I;-2102775187,229134302,-1602860168,1073419015],Slot:\"offhand\"}]}"
+              "tag": "{Unbreakable:0b,CustomModelData:888501,Enchantments:[{id:\"minecraft:looting\",lvl:11s},{id:\"minecraft:luck_of_the_sea\",lvl:39s},{id:\"minecraft:sharpness\",lvl:6s},{id:\"minecraft:lure\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:11,Operation:0,UUID:[I;-371068275,1956793767,-1438637349,490584705],Slot:\"offhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:1.8,Operation:0,UUID:[I;-2102775187,229134302,-1602860168,1073419015],Slot:\"offhand\"}]}"
             },
             {
               "function": "set_name",

@@ -1,0 +1,37 @@
+{
+    "parent": "bracken:pax/cloud_biome",
+    "display": {
+        "title": {
+            "translate": "Seperate Ways"
+        },
+        "description": {
+            "translate": "Find the Pax gateway",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:oak_leaves"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:pax/pax_portal1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                    
+                        "structure": "bracken:pax_arch"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:pax/pax_portal1"
+        ]
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{bp:{id:\"human_fruit\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:player/species/human/join"
+  }
+}

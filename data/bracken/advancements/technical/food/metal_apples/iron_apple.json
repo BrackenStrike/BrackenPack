@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "nbt": "{bp:{id:\"iron_apple\"}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:player/items/iron_apple"
+  }
+}

@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Searches though custom potion ingrediants to find which one is in the brewing stand
+# Description: Searches though custom potion ingredients to find which one is in the brewing stand
 # Creators: Grandmaster
 ##########################################################
 

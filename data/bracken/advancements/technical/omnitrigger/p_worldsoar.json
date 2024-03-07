@@ -11,7 +11,7 @@
           }
     },
     "rewards": {
-        "function": "bracken:player/omnitrigger/worldsoar"
+        "function": "bracken:player/omnitrigger/p_worldsoar"
       }
 }
 

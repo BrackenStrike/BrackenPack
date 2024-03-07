@@ -1,0 +1,36 @@
+{
+    "parent": "bracken:pax/enter_pax",
+    "display": {
+        "title": {
+            "translate": "Season of Respite"
+        },
+        "description": {
+            "translate": "Enter the cloud canopy biome",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:powder_snow_bucket"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:pax/cloud_biome1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biome": "bracken:pax/cloud_canopy"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:pax/cloud_biome1"
+        ]
+    ]
+}
