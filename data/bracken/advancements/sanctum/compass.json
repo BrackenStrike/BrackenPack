@@ -5,12 +5,12 @@
             "translate": "Entanglement Effect"
         },
         "description": {
-            "translate": "Break an unruly compass",
+            "translate": "Break an unruly compass with your teeth",
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:compass",
-            "nbt": "{CustomModelData:888504}"
+            "item": "minecraft:apple",
+            "nbt": "{CustomModelData:888519}"
         },
         "frame": "task",
         "show_toast": true,
@@ -19,7 +19,7 @@
     },
     "criteria": {
         "bracken:sanctum/compass1": {
-            "trigger": "minecraft:using_item",
+            "trigger": "minecraft:consume_item",
             "conditions": {
               "item": {
                 "nbt": "{bp:{id:\"unruly_compass\"}}"
