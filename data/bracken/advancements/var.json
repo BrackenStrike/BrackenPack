@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:adventure/throw_trident",
+    "parent": "minecraft:adventure/root",
     "display": {
         "title": {
             "translate": "Cherenkovicious"
