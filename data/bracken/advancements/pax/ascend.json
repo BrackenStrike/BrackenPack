@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:grass_block"
+            "item": "minecraft:firework_rocket"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,22 +17,25 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:pax/ascend1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:pax"
-                    },
-                    "distance": {
-                      "y": 500,
-                  
-                      "absolute": 20
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "y": {
+                      "min": 460.5,
+                      "max": 461.5
                     }
+                  }
                 }
-            }
+              }
+            ]
+          }
         }
-    },
+      },
     "requirements": [
         [
             "bracken:pax/ascend1"

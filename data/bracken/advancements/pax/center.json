@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:quartz_block"
+            "item": "minecraft:magenta_glazed_terracotta"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,22 +17,29 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:pax/center1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:pax"
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "position": {
+                    "x": {
+                      "min": -0.5,
+                      "max": 0.5
                     },
-                    "distance": {
-                      "x": 0,
-                      "z": 0,
-                      "absolute": 100
+                    "z": {
+                      "min": -0.5,
+                      "max": 0.5
                     }
+                  }
                 }
-            }
+              }
+            ]
+          }
         }
-    },
+      },
     "requirements": [
         [
             "bracken:pax/center1"
