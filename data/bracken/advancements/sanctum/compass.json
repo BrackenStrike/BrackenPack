@@ -1,0 +1,35 @@
+{
+    "parent": "sanctum/enter_sanctum",
+    "display": {
+        "title": {
+            "translate": "Entanglement Effect"
+        },
+        "description": {
+            "translate": "Break an unruly compass",
+            "color": "green"
+        },
+        "icon": {
+            "item": "minecraft:compass",
+            "nbt": "{CustomModelData:888504}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:sanctum/compass1": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+              "item": {
+                "nbt": "{bp:{id:\"unruly_compass\"}}"
+              }
+            }
+          }
+    },
+    "requirements": [
+        [
+            "bracken:sanctum/compass1"
+        ]
+    ]
+}
