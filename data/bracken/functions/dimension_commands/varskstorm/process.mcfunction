@@ -1,6 +1,6 @@
 execute if data storage bp.vars {varskstorm:{stage:0}} run scoreboard players set #count bp.varskstorm 0
 execute if data storage bp.vars {varskstorm:{stage:0}} run data merge storage bp.vars {varskstorm:{stage:1}}
-
+advancement grant @a[distance=..30] only bracken:sanctum/thunderstruck
 scoreboard players add #count bp.varskstorm 1
 
 execute if score #count bp.varskstorm matches 6 if data storage bp.vars {varskstorm:{stage:1}} run data merge storage bp.vars {varskstorm:{stage:2}}
