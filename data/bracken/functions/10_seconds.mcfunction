@@ -13,4 +13,5 @@ execute at @a unless entity @e[type=end_crystal,predicate=bracken:dimensions/the
 # forceload void at 0 0 (for mansion spell book)
 execute in bracken:void run forceload add 0 0
 
+
 schedule function bracken:10_seconds 10s

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "milk_bucket"
+                    ]
+                },
+                "player": {
+                    "nbt": "{Tags:[\"bp.sparked\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/potion/clear_varsk_spark"
+    }
+}

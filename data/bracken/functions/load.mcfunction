@@ -190,6 +190,12 @@ scoreboard objectives add bp.omni_sprint dummy
 # Void
 scoreboard objectives add bp.voidtp dummy
 
+# Varskspace
+data merge storage bp.vars {varskstorm:{stage:0}}
+scoreboard objectives add bp.varskstorm dummy
+scoreboard players set #cooldown bp.varskstorm 0
+scoreboard players set #repeat bp.varskstorm 0
+
 ##########   PAX PORTAL   ##########
 scoreboard objectives add bp.portal_R dummy
 scoreboard objectives add bp.portal_G dummy
