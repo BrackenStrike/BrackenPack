@@ -15,7 +15,7 @@
               "function": "minecraft:set_name",
               "name": [
                 {
-                  "translate": "Species Beginner Book",
+                  "translate": "Species Beginner Scroll",
                   "color": "white",
                   "italic": false
                 }
