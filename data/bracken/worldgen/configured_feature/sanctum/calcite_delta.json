@@ -1,0 +1,25 @@
+{
+  "config": {
+    "contents": {
+      "Name": "minecraft:cyan_concrete_powder"
+    },
+    "rim": {
+      "Name": "minecraft:calcite"
+    },
+    "size": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 7,
+        "max_inclusive": 10
+      }
+    },
+    "rim_size": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 3
+      }
+    }
+  },
+  "type": "minecraft:delta_feature"
+}
