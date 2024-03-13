@@ -3,7 +3,7 @@
   "config": {
     "features": [
       {
-        "chance": 0.2,
+        "chance": 0.05,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -30,7 +30,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -57,7 +57,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.005,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -87,7 +87,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -115,7 +115,7 @@
       },
 
       {
-        "chance": 0.2,
+        "chance": 0.005,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -145,7 +145,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:gravel"
                     ]
                   },
                   {
@@ -172,7 +172,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.005,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -202,7 +202,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:gravel"
                     ]
                   },
                   {
@@ -229,7 +229,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.05,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -261,7 +261,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -288,7 +288,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.1,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -320,7 +320,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -347,7 +347,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.1,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -379,7 +379,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -406,7 +406,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.005,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -437,7 +437,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:gravel"
                     ]
                   },
                   {
@@ -464,7 +464,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.005,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -495,7 +495,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:gravel"
                     ]
                   },
                   {
@@ -522,7 +522,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.005,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -553,7 +553,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:gravel"
                     ]
                   },
                   {
@@ -580,7 +580,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.005,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -611,7 +611,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:gravel"
                     ]
                   },
                   {
@@ -638,7 +638,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.005,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -669,7 +669,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:gravel"
                     ]
                   },
                   {
@@ -696,7 +696,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.005,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -727,7 +727,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:gravel"
                     ]
                   },
                   {
@@ -754,7 +754,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.005,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -785,7 +785,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:gravel"
                     ]
                   },
                   {
@@ -812,7 +812,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.005,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -843,7 +843,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:gravel"
                     ]
                   },
                   {
@@ -870,7 +870,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.005,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -901,7 +901,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:gravel"
                     ]
                   },
                   {
@@ -928,7 +928,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.1,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -962,7 +962,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -989,7 +989,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.1,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -1023,7 +1023,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -1052,7 +1052,7 @@
 
 
       {
-        "chance": 0.2,
+        "chance": 0.1,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -1086,7 +1086,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -1115,7 +1115,7 @@
      
       
       {
-        "chance": 0.2,
+        "chance": 0.1,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -1149,7 +1149,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -1177,7 +1177,7 @@
       },
       
       {
-        "chance": 0.2,
+        "chance": 0.1,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -1211,7 +1211,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -1238,7 +1238,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.1,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -1270,7 +1270,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -1297,7 +1297,7 @@
         }
       },
       {
-        "chance": 0.2,
+        "chance": 0.1,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -1329,7 +1329,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -1355,69 +1355,9 @@
           ]
         }
       },
+     
       {
-        "chance": 0.2,
-        "feature": {
-          "feature": {
-            "type": "minecraft:simple_block",
-            "config": {
-              "to_place": {
-                "type": "minecraft:simple_state_provider",
-                "state": {
-                  "Properties": {
-                    "north": "false",
-                    "south": "false",
-                    "east": "false",
-                    "west": "false",
-                    "facing": "up"
-                  },
-                  "Name": "minecraft:iron_bars"
-                }
-              }
-            }
-          },
-          "placement": [
-            {
-              "type": "minecraft:block_predicate_filter",
-              "predicate": {
-                "type": "minecraft:all_of",
-                "predicates": [
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      -1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:gray_concrete_powder"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "chance": 0.2,
+        "chance": 0.1,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -1447,7 +1387,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -1473,124 +1413,9 @@
           ]
         }
       },
+      
       {
-        "chance": 0.2,
-        "feature": {
-          "feature": {
-            "type": "minecraft:simple_block",
-            "config": {
-              "to_place": {
-                "type": "minecraft:simple_state_provider",
-                "state": {
-                  "Properties": {
-                    "waterlogged": "false",
-                    "axis": "x"
-                  },
-                  "Name": "minecraft:chain"
-                }
-              }
-            }
-          },
-          "placement": [
-            {
-              "type": "minecraft:block_predicate_filter",
-              "predicate": {
-                "type": "minecraft:all_of",
-                "predicates": [
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      -1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:gray_concrete_powder"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "chance": 0.2,
-        "feature": {
-          "feature": {
-            "type": "minecraft:simple_block",
-            "config": {
-              "to_place": {
-                "type": "minecraft:simple_state_provider",
-                "state": {
-                  "Properties": {
-                    "waterlogged": "false",
-                    "axis": "z"
-                  },
-                  "Name": "minecraft:chain"
-                }
-              }
-            }
-          },
-          "placement": [
-            {
-              "type": "minecraft:block_predicate_filter",
-              "predicate": {
-                "type": "minecraft:all_of",
-                "predicates": [
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      -1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:gray_concrete_powder"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "chance": 0.2,
+        "chance": 0.1,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -1621,7 +1446,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -1647,252 +1472,9 @@
           ]
         }
       },
+      
       {
-        "chance": 0.2,
-        "feature": {
-          "feature": {
-            "type": "minecraft:simple_block",
-            "config": {
-              "to_place": {
-                "type": "minecraft:simple_state_provider",
-                "state": {
-                  "Properties": {
-                    "facing": "east",
-                    "open": "false",
-                    "powered": "false",
-                    "half": "upper",
-                    "hinge": "left"
-                  },
-                  "Name": "minecraft:iron_door"
-                }
-              }
-            }
-          },
-          "placement": [
-            {
-              "type": "minecraft:block_predicate_filter",
-              "predicate": {
-                "type": "minecraft:all_of",
-                "predicates": [
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      -1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:gray_concrete_powder"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "chance": 0.2,
-        "feature": {
-          "feature": {
-            "type": "minecraft:simple_block",
-            "config": {
-              "to_place": {
-                "type": "minecraft:simple_state_provider",
-                "state": {
-                  "Properties": {
-                    "facing": "west",
-                    "open": "false",
-                    "powered": "false",
-                    "half": "upper",
-                    "hinge": "left"
-                  },
-                  "Name": "minecraft:iron_door"
-                }
-              }
-            }
-          },
-          "placement": [
-            {
-              "type": "minecraft:block_predicate_filter",
-              "predicate": {
-                "type": "minecraft:all_of",
-                "predicates": [
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      -1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:gray_concrete_powder"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "chance": 0.2,
-        "feature": {
-          "feature": {
-            "type": "minecraft:simple_block",
-            "config": {
-              "to_place": {
-                "type": "minecraft:simple_state_provider",
-                "state": {
-                  "Properties": {
-                    "facing": "north",
-                    "open": "false",
-                    "powered": "false",
-                    "half": "upper",
-                    "hinge": "left"
-                  },
-                  "Name": "minecraft:iron_door"
-                }
-              }
-            }
-          },
-          "placement": [
-            {
-              "type": "minecraft:block_predicate_filter",
-              "predicate": {
-                "type": "minecraft:all_of",
-                "predicates": [
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      -1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:gray_concrete_powder"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "chance": 0.2,
-        "feature": {
-          "feature": {
-            "type": "minecraft:simple_block",
-            "config": {
-              "to_place": {
-                "type": "minecraft:simple_state_provider",
-                "state": {
-                  "Properties": {
-                    "facing": "south",
-                    "open": "false",
-                    "powered": "false",
-                    "half": "upper",
-                    "hinge": "left"
-                  },
-                  "Name": "minecraft:iron_door"
-                }
-              }
-            }
-          },
-          "placement": [
-            {
-              "type": "minecraft:block_predicate_filter",
-              "predicate": {
-                "type": "minecraft:all_of",
-                "predicates": [
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      -1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:gray_concrete_powder"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "chance": 0.6,
+        "chance": 0.1,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -1919,7 +1501,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:gray_concrete_powder"
+                      "minecraft:light_gray_concrete_powder"
                     ]
                   },
                   {
@@ -1964,7 +1546,7 @@
                   0
                 ],
                 "blocks": [
-                  "minecraft:gray_concrete_powder"
+                  "minecraft:light_gray_concrete_powder"
                 ]
               },
               {
@@ -1980,4 +1562,3 @@
     }
   }
 }
-

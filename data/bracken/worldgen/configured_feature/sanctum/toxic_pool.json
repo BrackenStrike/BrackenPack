@@ -7,13 +7,13 @@
         "Properties": {
           "level": "0"
         },
-        "Name": "minecraft:clay"
+        "Name": "minecraft:water"
       }
     },
     "barrier": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:cyan_concrete_powder"
+        "Name": "minecraft:red_sand"
       }
     }
   }
