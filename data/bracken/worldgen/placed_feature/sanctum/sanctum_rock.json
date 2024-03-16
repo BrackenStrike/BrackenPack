@@ -3,7 +3,7 @@
     "placement": [
         {
             "type": "count",
-            "count": 100
+            "count": 10
         },
         {
             "type": "minecraft:in_square"
@@ -11,6 +11,9 @@
         {
             "type": "heightmap",
             "heightmap": "WORLD_SURFACE_WG"
-        }
+        },
+        {
+            "type": "minecraft:biome"
+          }
     ]
 }

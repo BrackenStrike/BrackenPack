@@ -22,7 +22,7 @@
           }
         },
         {
-          "biome": "bracken:sanctum/toxic_lakepit",
+          "biome": "bracken:sanctum/toxic_playa",
           "parameters": {
             "temperature": 0.7,
             "humidity": 0.7,

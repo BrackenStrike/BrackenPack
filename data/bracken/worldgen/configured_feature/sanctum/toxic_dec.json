@@ -30,7 +30,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -87,7 +87,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -229,7 +229,7 @@
         }
       },
       {
-        "chance": 0.05,
+        "chance": 0.01,
         "feature": {
           "feature": {
             "type": "minecraft:simple_block",
@@ -261,7 +261,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -320,7 +320,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -379,7 +379,298 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "minecraft:air"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": {
+            "type": "minecraft:simple_block",
+            "config": {
+              "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Properties": {
+                    "powered": "false",
+                    "face": "floor",
+                    "facing": "north"
+                  },
+                  "Name": "minecraft:polished_blackstone_button"
+                }
+              }
+            }
+          },
+          "placement": [
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:tuff"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "minecraft:air"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": {
+            "type": "minecraft:simple_block",
+            "config": {
+              "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Properties": {
+                    "powered": "false",
+                    "face": "floor",
+                    "facing": "west"
+                  },
+                  "Name": "minecraft:polished_blackstone_button"
+                }
+              }
+            }
+          },
+          "placement": [
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:tuff"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "minecraft:air"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": {
+            "type": "minecraft:simple_block",
+            "config": {
+              "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Properties": {
+                    "powered": "false",
+                    "face": "floor",
+                    "facing": "north"
+                  },
+                  "Name": "minecraft:stone_button"
+                }
+              }
+            }
+          },
+          "placement": [
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:tuff"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "minecraft:air"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": {
+            "type": "minecraft:simple_block",
+            "config": {
+              "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Properties": {
+                    "powered": "false",
+                    "face": "floor",
+                    "facing": "west"
+                  },
+                  "Name": "minecraft:stone_button"
+                }
+              }
+            }
+          },
+          "placement": [
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:tuff"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": [
+                      "minecraft:air"
+                    ]
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "chance": 0.1,
+        "feature": {
+          "feature": {
+            "type": "minecraft:simple_block",
+            "config": {
+              "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:calcite"
+                }
+              }
+            }
+          },
+          "placement": [
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -962,7 +1253,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -1023,7 +1314,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -1086,7 +1377,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -1149,7 +1440,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -1211,7 +1502,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -1270,7 +1561,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -1329,7 +1620,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -1387,7 +1678,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -1446,7 +1737,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -1501,7 +1792,7 @@
                       0
                     ],
                     "blocks": [
-                      "minecraft:light_gray_concrete_powder"
+                      "minecraft:tuff"
                     ]
                   },
                   {
@@ -1546,7 +1837,7 @@
                   0
                 ],
                 "blocks": [
-                  "minecraft:light_gray_concrete_powder"
+                  "minecraft:tuff"
                 ]
               },
               {
@@ -1562,3 +1853,4 @@
     }
   }
 }
+

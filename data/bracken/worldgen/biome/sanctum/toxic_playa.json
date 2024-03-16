@@ -25,9 +25,9 @@
   "features": [
     ["bracken:sanctum/fire"],
     ["bracken:sanctum/toxic_pool"],
-    ["bracken:sanctum/calcite_delta"],
+    ["bracken:sanctum/sanctum_rock"],
     ["bracken:sanctum/toxic_dec"],
-    [],
+    ["bracken:sanctum/pipes"],
     [],
     [],
     [],
@@ -43,7 +43,7 @@
   "downfall": 0.1,
   "effects": {
     "fog_color": 15227970,
-    "water_color": 16146734,
+    "water_color": 14691600,
     "water_fog_color": 11414808,
     "grass_color": 13882581,
     "sky_color": 7943472,
