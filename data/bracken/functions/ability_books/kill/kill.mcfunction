@@ -4,7 +4,7 @@
 ##########################################################
 
 experience add @s -10 levels
-scoreboard players set @s bp.cooldown 60
+scoreboard players set @s bp.cooldown 12000
 
 playsound bracken:ability_book_tier_2 player @a[distance=..30] ~ ~ ~ 10
 effect clear @e[distance=..2] minecraft:resistance

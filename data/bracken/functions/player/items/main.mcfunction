@@ -10,10 +10,13 @@ execute unless entity @s[tag=bp.enderling] run clear @s minecraft:ender_eye{brac
 execute unless score @s bp.creeper_horn matches 600.. run scoreboard players add @s bp.creeper_horn 1
 
 # coas
-execute if score @s bp.coas matches 1.. run function bracken:player/coas/used
+execute if score @s bp.coas matches 1.. if score @s bp.cooldown matches 0 run function bracken:player/coas/used
 
 # Ability books
 scoreboard players remove @s[scores={bp.cooldown=1..}] bp.cooldown 1
+execute if entity @s[scores={bp.cooldown=1..}] run particle minecraft:enchant ~ ~ ~ 0.4 1 0.4 0.05 8
+playsound bracken:ability_book_tier_4 ambient @s[scores={bp.cooldown=2}] ~ ~ ~ 1 2
+scoreboard players set @s[scores={bp.death=0}] bp.cooldown 0
 
 # Glacium Glider
 scoreboard players set @s bp.wither_immunity 0

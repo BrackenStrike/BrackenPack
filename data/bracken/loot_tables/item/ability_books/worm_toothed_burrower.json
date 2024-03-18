@@ -22,6 +22,11 @@
                   "translate": "consumes 25 levels",
                   "color": "gray",
                   "italic": false
+                },
+                {
+                  "translate": "8 minute cooldown",
+                  "color": "gray",
+                  "italic": false
                 }
               ]
             },

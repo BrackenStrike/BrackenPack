@@ -22,6 +22,11 @@
                   "translate": "consumes 1 level",
                   "color": "gray",
                   "italic": false
+                },
+                {
+                  "translate": "3 second wait period",
+                  "color": "gray",
+                  "italic": false
                 }
               ]
             },
