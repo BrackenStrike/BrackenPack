@@ -18,3 +18,5 @@ execute positioned over ocean_floor if entity @s[distance=..0.1,predicate=bracke
 execute if score @s bp.food matches ..15 run effect give @s minecraft:saturation 1 0 true
 
 execute if block ~ ~ ~ minecraft:powder_snow run function bracken:player/species/frostkin/powder_snow
+
+return 1

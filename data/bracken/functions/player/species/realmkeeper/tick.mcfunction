@@ -10,3 +10,5 @@ execute if score @s bp.health matches 18.. run effect give @s[predicate=bracken:
 # I am doing this because absorption_clear.mcfunction makes a NBT check and I don't want to make that check every tick!
 execute unless entity @s[tag=bp.absorption_check] if entity @s[scores={bp.longtick=10}] run tag @s add bp.absorption_check
 execute if entity @s[tag=bp.absorption_check] run function bracken:player/species/realmkeeper/absorption_clear
+
+return 1

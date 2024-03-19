@@ -5,3 +5,5 @@
 
 tag @s add bp.species
 tag @s add bp.watcher
+
+return 1

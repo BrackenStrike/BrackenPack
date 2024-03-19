@@ -17,3 +17,4 @@ execute as @s[tag=bp.sporangium,tag=bp.active] run function bracken:entities/bos
 
 
 
+return 1

@@ -31,3 +31,6 @@ execute if entity @s[predicate=bracken:rain] run function bracken:entities/sanct
 
 # The desolation speaks.
 execute if score @s bp.3_second matches 1 if predicate bracken:random/one_in_30 run playsound bracken:sanctum_ambient ambient @s ~ ~ ~ 100 1.0 1
+
+#return
+return 1

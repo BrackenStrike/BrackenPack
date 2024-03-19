@@ -6,3 +6,5 @@
 tag @s add bp.species
 tag @s add bp.realmkeeper
 team join Realmkeeper
+
+return 1

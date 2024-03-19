@@ -19,3 +19,5 @@ execute if score @s bp.hunter_morph matches 19 run effect clear @s minecraft:wit
 execute if score @s bp.hunter_morph matches 1.. run effect give @s hunger 2 1 true
 execute if score @s[scores={bp.hunter_morph=1..}] bp.food matches ..3 run function bracken:player/species/hunter/demorph
 execute if score @s[scores={bp.hunter_morph=1..}] bp.health matches ..0 run function bracken:player/species/hunter/demorph
+
+return 1

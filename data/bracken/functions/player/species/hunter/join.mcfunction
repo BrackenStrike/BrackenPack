@@ -6,3 +6,5 @@
 tag @s add bp.species
 tag @s add bp.hunter
 team join Hunter
+
+return 1

@@ -5,3 +5,5 @@
 
 tag @s remove bp.species
 tag @s remove bp.human
+
+return 1

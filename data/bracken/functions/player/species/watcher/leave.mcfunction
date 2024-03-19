@@ -5,3 +5,5 @@
 
 tag @s remove bp.species
 tag @s remove bp.watcher
+
+return 1

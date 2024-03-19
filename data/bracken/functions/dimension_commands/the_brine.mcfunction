@@ -30,3 +30,6 @@ execute if score @s bp.ambience.brine_beach_cd matches 0 run scoreboard players 
 
 
 execute unless score @s bp.ambience.brine_beach_cd matches -2147483648..2147483647 run scoreboard players set @s bp.ambience.brine_beach_cd 0
+
+#return
+return 1

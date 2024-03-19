@@ -16,3 +16,6 @@ execute if data storage bracken:config {dimension_travel: true} if entity @s[y=-
 
 # Beware the sounds of unknowable creatures as you descend.
 execute if score @s bp.3_second matches 1 if predicate bracken:random/one_in_30 run playsound bracken:void_ambient ambient @s ~ ~ ~ 100 1.0 1
+
+#return
+return 1

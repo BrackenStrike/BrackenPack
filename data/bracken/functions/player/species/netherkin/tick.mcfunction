@@ -15,3 +15,5 @@ effect give @s minecraft:night_vision 33 0 true
 execute if predicate bracken:on_fire run function bracken:player/species/netherkin/on_fire
 
 execute positioned over motion_blocking if entity @s[dy=999,predicate=bracken:rain] run function bracken:player/species/netherkin/rain
+
+return 1

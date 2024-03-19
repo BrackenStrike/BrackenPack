@@ -6,3 +6,5 @@
 tag @s add bp.species
 tag @s add bp.netherkin
 team join Netherkin
+
+return 1

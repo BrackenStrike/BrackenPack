@@ -162,3 +162,6 @@ scoreboard players enable @s[scores={OMNI.DISABLE.flight=1..}] OMNI.DISABLE.flig
 scoreboard players enable @s[scores={OMNI.DISABLE.sprint=1..}] OMNI.DISABLE.sprint
 
 scoreboard players enable @s OMNI.ASK.help
+
+#return
+return 1

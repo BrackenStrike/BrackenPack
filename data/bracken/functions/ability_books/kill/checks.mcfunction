@@ -10,3 +10,5 @@ execute if data storage bracken:config {ability_books_on: false} run tellraw @s 
 
 scoreboard players set @s bp.offhand 0
 scoreboard players set @s OMNI.POWER.kill 1
+
+return 1

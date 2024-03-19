@@ -3,28 +3,28 @@
 # Creators: Sulfenir and Grandmaster
 ##########################################################
 
-execute if predicate bracken:ability_books/adamantine_will run function bracken:ability_books/adamantine_will/checks
-execute if predicate bracken:ability_books/crimson_spark run function bracken:ability_books/crimson_spark/checks
-execute if predicate bracken:ability_books/fang_attack run function bracken:ability_books/fang_attack/checks
-execute if predicate bracken:ability_books/fireball run function bracken:ability_books/fireball/checks
-execute if predicate bracken:ability_books/flying_boat run function bracken:ability_books/flying_boat/checks
-execute if predicate bracken:ability_books/frostlock run function bracken:ability_books/frostlock/checks
-execute if predicate bracken:ability_books/great_nullifier run function bracken:ability_books/great_nullifier/checks
-execute if predicate bracken:ability_books/iron_golem run function bracken:ability_books/iron_golem/checks
-execute if predicate bracken:ability_books/kill run function bracken:ability_books/kill/checks
-execute if predicate bracken:ability_books/lightning_bolt run function bracken:ability_books/lightning_bolt/checks
-execute if predicate bracken:ability_books/magnificent_mansion run function bracken:ability_books/mansion/checks
-execute if predicate bracken:ability_books/mass_heal run function bracken:ability_books/mass_heal/checks
-execute if predicate bracken:ability_books/returning_tides run function bracken:ability_books/recall/checks
-execute if predicate bracken:ability_books/scatterstorm run function bracken:ability_books/scatterstorm/checks
-execute if predicate bracken:ability_books/swordfall run function bracken:ability_books/swordfall/checks
-execute if predicate bracken:ability_books/tetra_slime run function bracken:ability_books/tetra_slime/checks
-execute if predicate bracken:ability_books/truelight_glow run function bracken:ability_books/truelight_glow/checks
-execute if predicate bracken:ability_books/world_soar run function bracken:ability_books/world_soar/checks
-execute if predicate bracken:ability_books/worm_toothed_burrower run function bracken:ability_books/worm_toothed_burrower/checks
+execute if predicate bracken:ability_books/adamantine_will if function bracken:ability_books/adamantine_will/checks run return 1
+execute if predicate bracken:ability_books/crimson_spark if function bracken:ability_books/crimson_spark/checks run return 1
+execute if predicate bracken:ability_books/fang_attack if function bracken:ability_books/fang_attack/checks run return 1
+execute if predicate bracken:ability_books/fireball if function bracken:ability_books/fireball/checks run return 1
+execute if predicate bracken:ability_books/flying_boat if function bracken:ability_books/flying_boat/checks run return 1
+execute if predicate bracken:ability_books/frostlock if function bracken:ability_books/frostlock/checks run return 1
+execute if predicate bracken:ability_books/great_nullifier if function bracken:ability_books/great_nullifier/checks run return 1
+execute if predicate bracken:ability_books/iron_golem if function bracken:ability_books/iron_golem/checks run return 1
+execute if predicate bracken:ability_books/kill if function bracken:ability_books/kill/checks run return 1
+execute if predicate bracken:ability_books/lightning_bolt if function bracken:ability_books/lightning_bolt/checks run return 1
+execute if predicate bracken:ability_books/magnificent_mansion if function bracken:ability_books/mansion/checks run return 1
+execute if predicate bracken:ability_books/mass_heal if function bracken:ability_books/mass_heal/checks run return 1
+execute if predicate bracken:ability_books/returning_tides if function bracken:ability_books/recall/checks run return 1
+execute if predicate bracken:ability_books/scatterstorm if function bracken:ability_books/scatterstorm/checks run return 1
+execute if predicate bracken:ability_books/swordfall if function bracken:ability_books/swordfall/checks run return 1
+execute if predicate bracken:ability_books/tetra_slime if function bracken:ability_books/tetra_slime/checks run return 1
+execute if predicate bracken:ability_books/truelight_glow if function bracken:ability_books/truelight_glow/checks run return 1
+execute if predicate bracken:ability_books/world_soar if function bracken:ability_books/world_soar/checks run return 1
+execute if predicate bracken:ability_books/worm_toothed_burrower if function bracken:ability_books/worm_toothed_burrower/checks run return 1
 
-#execute if predicate bracken:ability_books/prismatic_laser run function bracken:ability_books/prismatic_laser/checks
-#execute if predicate bracken:ability_books/magic_missile run function bracken:ability_books/magic_missile/checks
-#execute if predicate bracken:ability_books/void_pull run function bracken:ability_books/void_pull/checks
+#execute if predicate bracken:ability_books/prismatic_laser if function bracken:ability_books/prismatic_laser/checks run return 1
+#execute if predicate bracken:ability_books/magic_missile if function bracken:ability_books/magic_missile/checks run return 1
+#execute if predicate bracken:ability_books/void_pull if function bracken:ability_books/void_pull/checks run return 1
 
-execute if predicate bracken:item/perrterror_gastor_mainhand run function bracken:item/perrterror_gastor
+execute if predicate bracken:item/perrterror_gastor_mainhand if function bracken:item/perrterror_gastor run return 1
