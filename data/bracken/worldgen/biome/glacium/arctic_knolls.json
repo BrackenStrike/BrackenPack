@@ -25,8 +25,8 @@
       "minecraft:ice_patch",
       "minecraft:blue_ice"
     ],
-    ["bracken:cyan_rings"],
-    ["bracken:knoll"],
+    ["bracken:glacium/cyan_rings"],
+    ["bracken:glacium/knoll"],
     ["minecraft:twisting_vines",
     "minecraft:nether_sprouts"],
     [],
