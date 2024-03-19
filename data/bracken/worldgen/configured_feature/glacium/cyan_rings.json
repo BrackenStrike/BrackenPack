@@ -4,9 +4,7 @@
     "fluid": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Properties": {
-          "level": "0"
-        },
+       
         "Name": "minecraft:powder_snow"
       }
     },
