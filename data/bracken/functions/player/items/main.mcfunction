@@ -12,7 +12,7 @@ execute unless score @s bp.creeper_horn matches 600.. run scoreboard players add
 # coas
 execute if score @s bp.coas matches 1.. run function bracken:player/coas/used
 
-# Ability books
+# Ability book cooldown
 scoreboard players remove @s[scores={bp.cooldown=-6..}] bp.cooldown 1
 execute if entity @s[scores={bp.cooldown=1..}] run particle minecraft:enchant ~ ~ ~ 0.4 1 0.4 0.05 8
 playsound bracken:ability_book_tier_4 ambient @s[scores={bp.cooldown=-5}] ~ ~ ~ 1 2
