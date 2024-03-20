@@ -1,3 +1,11 @@
+# time
+scoreboard objectives add bp.tick dummy
+scoreboard objectives add bp.1_second dummy
+scoreboard objectives add bp.3_second dummy
+scoreboard objectives add bp.longtick dummy
+scoreboard objectives add bp.verylongtick dummy
+scoreboard objectives add bp.5_min_tick dummy
+
 #Math Init
 function bracken:math/load
 
@@ -29,14 +37,6 @@ scoreboard objectives add bp.spite dummy
 scoreboard objectives add bp.world_player_id dummy
 scoreboard objectives add bp.dust_storm dummy
 scoreboard objectives add bp.iron_apple dummy
-
-# time
-scoreboard objectives add bp.tick dummy
-scoreboard objectives add bp.1_second dummy
-scoreboard objectives add bp.3_second dummy
-scoreboard objectives add bp.longtick dummy
-scoreboard objectives add bp.verylongtick dummy
-scoreboard objectives add bp.5_min_tick dummy
 
 
 ##########   ITEMS AND EQUIPMENT   ##########
@@ -122,36 +122,6 @@ scoreboard objectives add bp.zchunk dummy
 scoreboard players set #1 bp.xchunk 16
 scoreboard players set #1 bp.zchunk 16
 
-##########   ABILITY BOOKS  ##########
-scoreboard objectives add bp.offhand dummy
-scoreboard objectives add bp.cooldown dummy
-
-# Returning Tides
-scoreboard objectives add bp.recall_marker dummy
-scoreboard objectives add bp.recall_world dummy
-scoreboard objectives add bp.recall_void dummy
-scoreboard objectives add bp.recall_use dummy
-scoreboard objectives add bp.recall_wait dummy
-scoreboard objectives add bp.recall_walk minecraft.custom:minecraft.walk_one_cm
-scoreboard objectives add bp.recall_sprint minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add bp.recall_jump minecraft.custom:minecraft.jump
-
-# Mansion
-scoreboard objectives add bp.mansion_id dummy
-scoreboard objectives add bp.mansion_world dummy
-scoreboard objectives add bp.mansion_use dummy
-scoreboard objectives add bp.xmansion dummy
-scoreboard objectives add bp.ymansion dummy
-scoreboard objectives add bp.zmansion dummy
-scoreboard objectives add bp.xmansion1 dummy
-scoreboard objectives add bp.ymansion1 dummy
-scoreboard objectives add bp.zmansion1 dummy
-scoreboard objectives add bp.xmansion2 dummy
-scoreboard objectives add bp.ymansion2 dummy
-scoreboard objectives add bp.zmansion2 dummy
-scoreboard objectives add bp.dimension dummy
-scoreboard players set #70 bp.ymansion 70
-
 ##########   DIMENSIONS  ##########
 
 scoreboard objectives add bp.x_rotation dummy
@@ -198,11 +168,6 @@ scoreboard objectives add bp.varskstorm dummy
 scoreboard players set #cooldown bp.varskstorm 0
 scoreboard players set #repeat bp.varskstorm 0
 
-##########   OMNI BOOK TRIGGERS   ###########
-function bracken:dimension_commands/omni_powers/trigger_commands/add_book_commands
-##########   OMNI OTHER TRIGGERS   ###########
-function bracken:dimension_commands/omni_powers/trigger_commands/add_other_commands
-
 ##########   PAX PORTAL   ##########
 scoreboard objectives add bp.portal_R dummy
 scoreboard objectives add bp.portal_G dummy
@@ -214,6 +179,40 @@ scoreboard objectives add bp.portal dummy
 scoreboard objectives add bp.giant dummy
 scoreboard objectives add bp.wtb_cooldown dummy
 scoreboard objectives add bp.coas minecraft.used:minecraft.carrot_on_a_stick
+
+scoreboard objectives add bp.offhand dummy
+scoreboard objectives add bp.cooldown dummy
+
+# Returning Tides
+scoreboard objectives add bp.recall_marker dummy
+scoreboard objectives add bp.recall_world dummy
+scoreboard objectives add bp.recall_void dummy
+scoreboard objectives add bp.recall_use dummy
+scoreboard objectives add bp.recall_wait dummy
+scoreboard objectives add bp.recall_walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add bp.recall_sprint minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add bp.recall_jump minecraft.custom:minecraft.jump
+
+# Mansion
+scoreboard objectives add bp.mansion_id dummy
+scoreboard objectives add bp.mansion_world dummy
+scoreboard objectives add bp.mansion_use dummy
+scoreboard objectives add bp.xmansion dummy
+scoreboard objectives add bp.ymansion dummy
+scoreboard objectives add bp.zmansion dummy
+scoreboard objectives add bp.xmansion1 dummy
+scoreboard objectives add bp.ymansion1 dummy
+scoreboard objectives add bp.zmansion1 dummy
+scoreboard objectives add bp.xmansion2 dummy
+scoreboard objectives add bp.ymansion2 dummy
+scoreboard objectives add bp.zmansion2 dummy
+scoreboard objectives add bp.dimension dummy
+scoreboard players set #70 bp.ymansion 70
+
+##########   OMNI BOOK TRIGGERS   ###########
+function bracken:dimension_commands/omni_powers/trigger_commands/add_book_commands
+##########   OMNI OTHER TRIGGERS   ###########
+function bracken:dimension_commands/omni_powers/trigger_commands/add_other_commands
 
 ##########   SPECIES BOOKS   ##########
 scoreboard objectives add bp.arb_book dummy
