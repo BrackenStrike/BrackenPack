@@ -8,3 +8,5 @@ particle minecraft:dust 0.5 0.5 0 1 ^1 ^16.5 ^.5 2 5 2 0 150
 execute if entity @p[distance=..10,scores={bp.portal=1..}] as @p[tag=bp.portal_teleport] run function bracken:dimension_crossing/faewild_to_overworld
 effect give @a[tag=bp.portal_teleport] resistance 20 9 false
 tag @s add bp.set
+
+return 1

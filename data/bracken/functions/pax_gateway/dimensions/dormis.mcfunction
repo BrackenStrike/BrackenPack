@@ -12,3 +12,4 @@ tag @s add bp.set
 execute if entity @p[distance=..10,scores={bp.portal=1..}] unless entity @e[type=marker,tag=bp.pax_scores,tag=bp.dormis_platform,distance=..25,limit=1] run function bracken:dimension_crossing/spawn_platforms/dormis_spawn_platform
 execute if entity @p[distance=..10,scores={bp.portal=1..}] in bracken:dormis run forceload add ~ ~
 
+return 1
