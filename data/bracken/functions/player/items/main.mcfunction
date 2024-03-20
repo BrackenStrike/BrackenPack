@@ -31,3 +31,12 @@ scoreboard players remove @s[scores={bp.hurting=1..}] bp.hurting 1
 
 # frost spite
 execute if entity @s[scores={bp.death=0,bp.spite=1}] run function bracken:item/frost_spite
+
+# Altum Archeon
+scoreboard players set @s bp.altum_archeon 0
+
+# Piercer of Heavens
+scoreboard players set @s bp.piercer_of_heavens 0
+
+# Permafrost
+execute if score @s bp.permafrost_howl matches 1.. run function bracken:player/permafrost
