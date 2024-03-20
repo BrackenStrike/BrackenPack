@@ -31,13 +31,13 @@
       "middle_layer_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:packed_ice"
+          "Name": "minecraft:ice"
         }
       },
       "outer_layer_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:bedrock"
+          "Name": "minecraft:snow_block"
         }
       }
     },
@@ -55,19 +55,19 @@
     },
     "invalid_blocks_threshold": 1,
     "layers": {
-      "filling": 3.7,
-      "inner_layer": 3.2,
-      "middle_layer": 4.2,
-      "outer_layer": 5.2
+      "filling": 6.7,
+      "inner_layer": 6.2,
+      "middle_layer": 7.2,
+      "outer_layer": 8.2
     },
-    "max_gen_offset": 8,
-    "min_gen_offset": -8,
+    "max_gen_offset": 16,
+    "min_gen_offset": -16,
     "noise_multiplier": 0.05,
     "outer_wall_distance": {
       "type": "minecraft:uniform",
       "value": {
-        "max_inclusive": 6,
-        "min_inclusive": 4
+        "max_inclusive": 12,
+        "min_inclusive": 8
       }
     },
     "placements_require_layer0_alternate": true,

@@ -21,14 +21,10 @@
       "minecraft:iceberg_blue"
     ],
     [],
-    [
-      "minecraft:ice_patch",
-      "minecraft:blue_ice"
-    ],
-    ["bracken:glacium/cyan_rings"],
-    ["bracken:glacium/knoll"],
-    ["minecraft:twisting_vines",
-    "minecraft:nether_sprouts"],
+    [],
+    [],
+    [],
+    [],
     [],
     [],
     [
@@ -51,7 +47,12 @@
     "grass_color": 5074010,
     "foliage_colour": 5074010,
     
-    
+    "particle": {
+      "options": {
+        "type": "minecraft:snowflake"
+      },
+      "probability": 0.0428
+    },
     "additions_sound": {
       "sound": "minecraft:ambient.crimson_forest.loop",
       "tick_chance": 0.02

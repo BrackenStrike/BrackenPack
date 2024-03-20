@@ -3,7 +3,7 @@
 
   "placement": [
     {
-      "count": 1,
+      "count": 10,
       "type": "minecraft:count_on_every_layer"
     },
     {

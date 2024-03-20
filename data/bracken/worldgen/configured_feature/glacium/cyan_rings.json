@@ -11,7 +11,7 @@
     "barrier": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:warped_nylium"
+        "Name": "minecraft:warped_wart_block"
       }
     }
   }
