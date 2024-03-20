@@ -5,7 +5,7 @@
 
 scoreboard players set #offhand bp.var 1
 
-execute if predicate bracken:item/coas_mainhand run function bracken:player/coas/mainhand
-execute if predicate bracken:item/coas_offhand if score #offhand bp.var matches 1 run function bracken:player/coas/offhand
+execute if predicate bracken:item/coas_mainhand if score @s bp.cooldown matches ..3 run function bracken:player/coas/mainhand
+execute if predicate bracken:item/coas_offhand if score #offhand bp.var matches 1 if score @s bp.cooldown matches ..3 run function bracken:player/coas/offhand
 
 scoreboard players set @s bp.coas 0
