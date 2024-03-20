@@ -3,5 +3,4 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-effect give @s nausea 1 0 false
-effect give @s weakness 1 0 false
+effect give @s weakness 1 1 false
