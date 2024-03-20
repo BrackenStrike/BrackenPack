@@ -3,4 +3,4 @@
 # Creators: BrackenStrike
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.recall 1
+scoreboard players set @s _OMNI.POWER.recall 1

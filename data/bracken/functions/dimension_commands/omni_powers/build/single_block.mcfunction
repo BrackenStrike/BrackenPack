@@ -3,5 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-scoreboard players set @s OMNI.BUILD.pyramid 1
-place feature bracken:omnidrome/pyramids2
+scoreboard players set @s OMNI.BUILD.single_block 0
+place feature bracken:omnidrome/glass
+
+return 1

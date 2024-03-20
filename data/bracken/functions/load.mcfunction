@@ -182,6 +182,8 @@ scoreboard objectives add bp.ender_dragon_killed minecraft.killed:ender_dragon
 scoreboard objectives add bp.ice dummy
 
 # Omnidrome
+scoreboard objectives add bp.omnidrome dummy
+
 scoreboard objectives add bp.spawn_loading dummy
 scoreboard players set #1 bp.spawn_loading 1
 scoreboard objectives add bp.omni_flight dummy
@@ -195,6 +197,11 @@ data merge storage bp.vars {varskstorm:{stage:0}}
 scoreboard objectives add bp.varskstorm dummy
 scoreboard players set #cooldown bp.varskstorm 0
 scoreboard players set #repeat bp.varskstorm 0
+
+##########   OMNI BOOK TRIGGERS   ###########
+function bracken:dimension_commands/omni_powers/trigger_commands/add_book_commands
+##########   OMNI OTHER TRIGGERS   ###########
+function bracken:dimension_commands/omni_powers/trigger_commands/add_other_commands
 
 ##########   PAX PORTAL   ##########
 scoreboard objectives add bp.portal_R dummy
@@ -260,67 +267,4 @@ execute if data storage bracken:config {teams_on: true} run function bracken:pla
 ##########   START TICK FUNCTIONS   ###########
 function bracken:3_seconds
 function bracken:10_seconds
-
-
-##########   OMNI BOOK TRIGGERS   ###########
-scoreboard objectives add OMNI.POWER.adamantine_will trigger
-scoreboard objectives add OMNI.POWER.crimson_spark trigger
-scoreboard objectives add OMNI.POWER.fang_attack trigger
-scoreboard objectives add OMNI.POWER.fireball trigger
-scoreboard objectives add OMNI.POWER.flying_boat trigger
-scoreboard objectives add OMNI.POWER.frostlock trigger
-scoreboard objectives add OMNI.POWER.great_nullifier trigger
-scoreboard objectives add OMNI.POWER.iron_golem trigger
-scoreboard objectives add OMNI.POWER.kill trigger
-scoreboard objectives add OMNI.POWER.travel_call trigger
-scoreboard objectives add OMNI.POWER.mansion trigger
-scoreboard objectives add OMNI.POWER.mass_heal trigger
-scoreboard objectives add OMNI.POWER.recall trigger
-scoreboard objectives add OMNI.POWER.scatterstorm trigger
-scoreboard objectives add OMNI.POWER.swordfall trigger
-scoreboard objectives add OMNI.POWER.tetra_slime trigger
-scoreboard objectives add OMNI.POWER.truelight_glow trigger
-scoreboard objectives add OMNI.POWER.world_soar trigger
-scoreboard objectives add OMNI.POWER.worm_toothed_burrower trigger
-
-scoreboard objectives add OMNI.BUILD.cube trigger
-scoreboard objectives add OMNI.BUILD.road_north trigger
-scoreboard objectives add OMNI.BUILD.road_south trigger
-scoreboard objectives add OMNI.BUILD.road_east trigger
-scoreboard objectives add OMNI.BUILD.road_west trigger
-scoreboard objectives add OMNI.BUILD.pillar trigger
-scoreboard objectives add OMNI.BUILD.cyber_tree trigger
-scoreboard objectives add OMNI.BUILD.pyramid trigger
-scoreboard objectives add OMNI.BUILD.end_island trigger
-scoreboard objectives add OMNI.BUILD.sculk_patch trigger
-scoreboard objectives add OMNI.BUILD.single_block trigger
-
-scoreboard objectives add OMNI.CLEAR.debris trigger
-scoreboard objectives add OMNI.CLEAR.material trigger
-
-
-
-scoreboard objectives add OMNI.SUMMON.lightning trigger
-scoreboard objectives add OMNI.SUMMON.construct trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_blaze trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_creeper trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_mount trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_ravager trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_tnt trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_pirate trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_snowman trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_warden trigger
-scoreboard objectives add OMNI.SUMMON.pulse trigger
-scoreboard objectives add OMNI.SUMMON.disruptor_beam trigger
-
-scoreboard objectives add OMNI.ENABLE.flight trigger
-scoreboard objectives add OMNI.ENABLE.sprint trigger
-scoreboard objectives add OMNI.DISABLE.flight trigger
-scoreboard objectives add OMNI.DISABLE.sprint trigger
-
-#scoreboard objectives add OMNI.TELEPORT.to_nearest_nearby_player trigger
-#scoreboard objectives add OMNI.TELEPORT.from_nearby_players trigger
-
-scoreboard objectives add OMNI.ASK.help trigger
-
 

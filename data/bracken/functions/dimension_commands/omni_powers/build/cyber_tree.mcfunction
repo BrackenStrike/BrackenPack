@@ -3,5 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-scoreboard players set @s OMNI.BUILD.pillar 1
-fill ~ ~ ~ ~ ~14 ~ minecraft:orange_stained_glass replace air
+scoreboard players set @s OMNI.BUILD.cyber_tree 0
+place feature bracken:omnidrome/cyber_tree1
+
+return 1

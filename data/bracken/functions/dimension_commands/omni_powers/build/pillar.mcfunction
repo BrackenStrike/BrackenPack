@@ -3,5 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-scoreboard players set @s OMNI.BUILD.end_island 1
-place feature minecraft:end_island ~ ~-1 ~
+scoreboard players set @s OMNI.BUILD.pillar 0
+fill ~ ~ ~ ~ ~14 ~ minecraft:orange_stained_glass replace air
+
+return 1

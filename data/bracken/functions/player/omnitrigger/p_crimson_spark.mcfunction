@@ -3,4 +3,4 @@
 # Creators: BrackenStrike
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.crimson_spark 1
+scoreboard players set @s _OMNI.POWER.crimson_spark 1

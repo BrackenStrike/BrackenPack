@@ -27,5 +27,9 @@ scoreboard players remove @s[scores={bp.fae=1..}] bp.fae 1
 # the_nether
 scoreboard players remove @s[scores={bp.wither_skull=1..}] bp.wither_skull 1
 
+#omnidrome
+scoreboard players remove @s[scores={bp.omnidrome=1..}] bp.omnidrome 1
+execute if score @s bp.omnidrome matches 5 run function bracken:dimension_commands/omni_powers/trigger_commands/reset_trigger_commands
+
 #Tinted cube
 execute if entity @s[scores={bp.obsidian=1..2}] unless predicate bracken:dimensions/void run function bracken:dimension_crossing/voidcube

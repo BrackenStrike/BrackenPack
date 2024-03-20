@@ -3,4 +3,4 @@
 # Creators: BrackenStrike
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.tetra_slime 1
+scoreboard players set @s _OMNI.POWER.tetra_slime 1
