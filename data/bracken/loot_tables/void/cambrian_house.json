@@ -51,9 +51,6 @@
             }
           ]
         },
-
-
-
         {
           "type": "loot_table",
           "name": "bracken:item/portal_keys/void_key",
@@ -64,9 +61,6 @@
             }
           ]
         },
-
-
-
         {
           "type": "minecraft:item",
           "name": "minecraft:potato",

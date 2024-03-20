@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Check for specific boss before ifning boss tick function.
+# Description: Check for specific boss before running boss tick function.
 # Creators: Bracken and Sulfenir
 ##########################################################
 

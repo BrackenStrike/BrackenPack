@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Checks the dimension the player is in before ifning dimension commands.
+# Description: Checks the dimension the player is in before running dimension commands.
 # Creators: Bracken and Grandmaster
 ##########################################################
 
