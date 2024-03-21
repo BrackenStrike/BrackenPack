@@ -37,6 +37,7 @@
                   ],
                   "blocks": [
                     "minecraft:cracked_polished_blackstone_bricks",
+                    "minecraft:polished_blackstone_brick_wall",
                     "minecraft:white_concrete_powder",
                     "minecraft:tuff",
                     "minecraft:blackstone",
