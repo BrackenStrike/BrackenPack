@@ -3,11 +3,7 @@
 # Creators: Grandmaster
 ##########################################################
 
-scoreboard players set @s bp.portal_W 0
-scoreboard players set @s bp.portal_R 0
-scoreboard players set @s bp.portal_B 0
-scoreboard players set @s bp.portal_G 0
-scoreboard players set @s bp.portal 0
+function bracken:pax_gateway/pax_scores_set_zero
 scoreboard players operation @s bp.portal_B = @p[tag=bp.portal_target] bp.portal_B
 scoreboard players operation @s bp.portal_G = @p[tag=bp.portal_target] bp.portal_G
 scoreboard players operation @s bp.portal_R = @p[tag=bp.portal_target] bp.portal_R

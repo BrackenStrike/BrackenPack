@@ -5,6 +5,8 @@
 
 tellraw @a[distance=..25] "The portal has been activated."
 
+kill @e[type=minecraft:marker,distance=..50,limit=5,tag=bp.floating_text]
+
 # Facing South
 summon minecraft:marker ~-15 ~-0.5 ~-7 {Tags:[bp.floating_text]}
 
