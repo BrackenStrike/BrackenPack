@@ -2097,6 +2097,45 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
+            "bracken:glacium/gathheim"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "minecraft:y_above",
+            "anchor": {
+              "absolute": 70
+            },
+            "surface_depth_multiplier": 0,
+            "add_stone_depth": false
+          },
+          "then_run": {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:vertical_gradient",
+              "random_name": "z1",
+              "true_at_and_below": {
+                "absolute": 260
+              },
+              "false_at_and_above": {
+                "absolute": 260
+              }
+            },
+            "then_run": {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "minecraft:snow_block"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
             "bracken:glacium/destitute_garrison"
           ]
         },
@@ -2143,6 +2182,47 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
+            "bracken:glacium/destitute_garrison"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "minecraft:y_above",
+            "anchor": {
+              "absolute": 70
+            },
+            "surface_depth_multiplier": 0,
+            "add_stone_depth": false
+          },
+          "then_run": {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:vertical_gradient",
+              "random_name": "z2",
+              "true_at_and_below": {
+                "absolute": 260
+              },
+              "false_at_and_above": {
+                "absolute": 260
+              }
+            },
+            "then_run": {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "minecraft:cobblestone"
+              }
+            }
+          }
+        }
+      },
+
+
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
             "bracken:glacium/arctic_knolls"
           ]
         },
@@ -2182,6 +2262,45 @@
               }
             }
           ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "bracken:glacium/arctic_knolls"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:condition",
+          "if_true": {
+            "type": "minecraft:y_above",
+            "anchor": {
+              "absolute": 70
+            },
+            "surface_depth_multiplier": 0,
+            "add_stone_depth": false
+          },
+          "then_run": {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:vertical_gradient",
+              "random_name": "z3",
+              "true_at_and_below": {
+                "absolute": 260
+              },
+              "false_at_and_above": {
+                "absolute": 260
+              }
+            },
+            "then_run": {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "minecraft:ice"
+              }
+            }
+          }
         }
       },
       {
