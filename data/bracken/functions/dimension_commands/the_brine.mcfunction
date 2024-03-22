@@ -10,8 +10,7 @@ execute if score @s bp.1_second matches 8 anchored eyes run function bracken:dim
 execute if score @s bp.1_second matches 2 run function bracken:entities/the_brine/the_brine_mobs
 
 # Effects
-execute if score @s bp.3_second matches 2 run fill ~10 ~5 ~10 ~-10 ~-5 ~-10 minecraft:air replace minecraft:fire
-execute if score @s bp.3_second matches 18 run fill ~10 ~5 ~10 ~-10 ~-5 ~-10 minecraft:campfire[lit=false] replace minecraft:campfire[lit=true]
+execute if score @s bp.3_second matches 2 run function bracken:dimension_commands/other/no_fire_fill_commands
 
 # Dimension Travel
 execute if data storage bracken:config {dimension_travel: true} if score @s bp.1_second matches 5 if entity @e[distance=..76,type=minecraft:item_display,tag=bp.brine_portal_exit] run function bracken:dimension_commands/other/brine_exit_portal

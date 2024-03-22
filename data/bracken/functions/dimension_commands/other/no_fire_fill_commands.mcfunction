@@ -1,5 +1,5 @@
 ##########################################################
-# Description: CPU intensive fill commands for Glacium
+# Description: CPU intensive fill commands for Glacium and Brine
 # Creators: Bracken
 ##########################################################
 
