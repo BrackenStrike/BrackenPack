@@ -3,8 +3,8 @@
     "water_ambient": [{
       "type": "minecraft:drowned",
       "weight": 1,
-      "minCount": 1,
-      "maxCount": 1
+      "minCount": 2,
+      "maxCount": 5
     },
     {
       "type": "minecraft:pufferfish",
@@ -12,7 +12,6 @@
       "minCount": 1,
       "maxCount": 1
     }
-    
       
       
       

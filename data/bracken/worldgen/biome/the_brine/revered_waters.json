@@ -6,10 +6,21 @@
       "minCount": 1,
       "maxCount": 1
     },
-      
       {
         "type": "minecraft:turtle",
         "weight": 5,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:tropical_fish",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:drowned",
+        "weight": 4,
         "minCount": 2,
         "maxCount": 5
       }

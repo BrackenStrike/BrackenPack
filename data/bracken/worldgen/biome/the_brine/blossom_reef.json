@@ -11,6 +11,12 @@
       "weight": 1,
       "minCount": 3,
       "maxCount": 5
+    },
+    {
+      "type": "minecraft:drowned",
+      "weight": 2,
+      "minCount": 2,
+      "maxCount": 5
     }
       
       

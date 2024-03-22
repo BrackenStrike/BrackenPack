@@ -10,8 +10,8 @@
     {
       "type": "minecraft:drowned",
       "weight": 4,
-      "minCount": 1,
-      "maxCount": 1
+      "minCount": 5,
+      "maxCount": 8
     }
     ],
     "ambient": [],
