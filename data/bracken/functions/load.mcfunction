@@ -54,6 +54,11 @@ scoreboard objectives add bp.breach_factor_float dummy
 scoreboard objectives add bp.breach_factor_cd dummy
 scoreboard objectives add bp.varsktracers dummy
 scoreboard objectives add bp.permafrost_howl dummy
+scoreboard objectives add bp.altum_archeon minecraft.used:minecraft.netherite_pickaxe
+scoreboard objectives add bp.cleaver_of_judgement dummy
+scoreboard objectives add bp.piercer_of_heavens minecraft.used:minecraft.bow
+
+#aequor
 scoreboard objectives add bp.aequor_speed dummy
 scoreboard objectives add bp.aequor_haste dummy
 scoreboard objectives add bp.aequor_strength dummy
@@ -72,9 +77,6 @@ scoreboard objectives add bp.aequor_slow_falling dummy
 scoreboard objectives add bp.aequor_conduit_power dummy
 scoreboard objectives add bp.aequor_dolphins_grace dummy
 scoreboard objectives add bp.aequor_hero_of_the_village dummy
-scoreboard objectives add bp.altum_archeon minecraft.used:minecraft.netherite_pickaxe
-scoreboard objectives add bp.cleaver_of_judgement dummy
-scoreboard objectives add bp.piercer_of_heavens minecraft.used:minecraft.bow
 
 #astral potion
 scoreboard objectives add bp.astral_time dummy
@@ -253,7 +255,7 @@ scoreboard players set @a bp.verylongtick 0
 scoreboard players set @a bp.hurting 0
 scoreboard players set @a bp.gold 0
 scoreboard players set @a bp.portal 0
-scoreboard players set @a bp.cooldown 0
+scoreboard players set @a bp.cooldown -6
 scoreboard players set #2 bp.var 2
 scoreboard players set #20 bp.var 20
 

@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "bracken:player/items/unruly_compass"
+    "function": "bracken:item/unruly_compass"
   }
 }

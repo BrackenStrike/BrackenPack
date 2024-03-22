@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bracken:player/item/permafrost_howl/hit"
+    "function": "bracken:item/permafrost_howl/hit"
   }
 }

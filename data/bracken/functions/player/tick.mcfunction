@@ -39,5 +39,4 @@ function bracken:player/overworld_check
 function bracken:player/universal_dimension_commands
 
 # Items
-function bracken:player/items/main
-function bracken:player/item/tick
+function bracken:item/main

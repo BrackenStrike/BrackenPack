@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bracken:player/item/cleaver_of_judgement/deal_damage"
+    "function": "bracken:item/cleaver_of_judgement/deal_damage"
   }
 }

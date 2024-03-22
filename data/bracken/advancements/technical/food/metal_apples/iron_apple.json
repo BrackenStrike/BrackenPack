@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "bracken:player/items/iron_apple"
+    "function": "bracken:item/food/apples/iron_apple"
   }
 }
