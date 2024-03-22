@@ -1,0 +1,12 @@
+summon drowned ~ ~ ~ {\
+ArmorItems:[{},{},{},{Count:1b,id:"minecraft:bamboo",tag:{CustomModelData:888504}}],\
+ArmorDropChances:[0.0f,0.0f,0.0f,0.0f],\
+CanPickUpLoot:0b,CanBreakDoors:0b,Silent:1b,NoAI:1b,PersistenceRequired:1b,\
+Tags:["bp.dunkelosteus","bp.aquatic"],DeathLootTable:"bracken:entity/the_brine/dunkelosteus",\
+active_effects:[{id:"minecraft:invisibility",duration:-1,amplifier:1,show_particles:0b}],\
+CustomName:"Dunkelosteus",\
+Attributes:[\
+{Name:"minecraft:generic.attack_damage",Base:24},\
+{Name:"minecraft:generic.armor",Base:10},\
+{Name:"minecraft:generic.movement_speed",Base:0.9},\
+{Name:"minecraft:generic.max_health",Base:75}]}
