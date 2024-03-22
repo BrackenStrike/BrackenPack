@@ -27,4 +27,4 @@ execute as @e[type=drowned,tag=!bp.aquatic,distance=..100,limit=1,sort=nearest] 
 execute at @e[type=drowned,tag=bp.jellyfish,distance=..2] run effect give @a[distance=..3,gamemode=survival] poison 5 0 false
 
 #drowned stuck on y=60
-execute as @e[type=drowned,predicate=bracken:height/70_below] run data merge entity @s {Motion:[0.0d,5.0d,0.0d]}
+execute as @e[type=drowned,distance=..100,predicate=bracken:height/70_below] run data merge entity @s {Motion:[0.0d,5.0d,0.0d]}
