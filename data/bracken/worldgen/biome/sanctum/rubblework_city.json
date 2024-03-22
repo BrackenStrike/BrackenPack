@@ -33,11 +33,7 @@
     ],
     [],
     [
-      "minecraft:spring_water",
-      "bracken:sanctum/gray_blobs",
-      "bracken:sanctum/deepslate_blobs",
-      "bracken:sanctum/blackstone_blobs"
-    ],
+      "minecraft:spring_water"],
     [
       "minecraft:freeze_top_layer"
     ]
