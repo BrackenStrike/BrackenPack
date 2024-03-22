@@ -28,7 +28,10 @@
     ["bracken:glacium/cyan_rings"],
     ["bracken:glacium/knoll"],
     ["minecraft:twisting_vines",
-    "minecraft:nether_sprouts"],
+    "minecraft:nether_sprouts",
+    "minecraft:seagrass_swamp",
+    "minecraft:patch_waterlily"
+  ],
     [],
     [],
     [

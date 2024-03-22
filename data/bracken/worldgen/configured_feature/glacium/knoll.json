@@ -5,7 +5,7 @@
       "alternate_inner_layer_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:powder_snow"
+          "Name": "minecraft:frosted_ice"
         }
       },
       "cannot_replace": "#minecraft:features_cannot_replace",
@@ -18,20 +18,15 @@
       "inner_layer_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:blue_ice"
+          "Name": "minecraft:ice"
         }
       },
-      "inner_placements": [
-        {
-          "Name": "minecraft:ice",
-          "Properties": {}
-        }
-      ],
+
       "invalid_blocks": "#minecraft:geode_invalid_blocks",
       "middle_layer_provider": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:ice"
+          "Name": "minecraft:snow_block"
         }
       },
       "outer_layer_provider": {
@@ -44,7 +39,7 @@
     "crack": {
       "base_crack_size": 2.0,
       "crack_point_offset": 2,
-      "generate_crack_chance": 0.25
+      "generate_crack_chance": 0.95
     },
     "distribution_points": {
       "type": "minecraft:uniform",
@@ -55,10 +50,10 @@
     },
     "invalid_blocks_threshold": 1,
     "layers": {
-      "filling": 6.7,
-      "inner_layer": 6.2,
-      "middle_layer": 7.2,
-      "outer_layer": 8.2
+      "filling": 1.7,
+      "inner_layer": 2.2,
+      "middle_layer": 3.2,
+      "outer_layer": 4.2
     },
     "max_gen_offset": 16,
     "min_gen_offset": -16,
@@ -66,8 +61,8 @@
     "outer_wall_distance": {
       "type": "minecraft:uniform",
       "value": {
-        "max_inclusive": 12,
-        "min_inclusive": 8
+        "max_inclusive": 6,
+        "min_inclusive": 4
       }
     },
     "placements_require_layer0_alternate": true,

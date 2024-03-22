@@ -15,7 +15,7 @@
   },
   "features": [
     ["minecraft:spring_lava_frozen"],
-    ["bracken:glacium/rock"],
+    [],
     ["bracken:glacium/glacium_lava"],
     [],
     [],

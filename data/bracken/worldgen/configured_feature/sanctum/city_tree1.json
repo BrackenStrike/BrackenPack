@@ -8,24 +8,24 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:deepslate_bricks"
+        "Name": "minecraft:tinted_glass"
       }
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:blackstone"
+        "Name": "minecraft:air"
       }
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:cracked_deepslate_bricks"
+        "Name": "minecraft:deepslate_bricks"
       }
     },
     "trunk_placer": {
       "type": "minecraft:mega_jungle_trunk_placer",
-      "base_height": 13,
+      "base_height": 9,
       "height_rand_a": 1,
       "height_rand_b": 3
     },

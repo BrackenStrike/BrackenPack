@@ -21,7 +21,7 @@
                     0
                   ],
                   "blocks": [
-                    "minecraft:cracked_deepslate_bricks"
+                    "minecraft:deepslate_bricks"
                   ]
                 },
                 {
@@ -35,6 +35,7 @@
                     ],
                     "blocks": [
                         "minecraft:cracked_polished_blackstone_bricks",
+                        "minecraft:cracked_deepslate_bricks",
                         "minecraft:obsidian",
                         "minecraft:tuff",
                         "minecraft:polished_blackstone_brick_wall",

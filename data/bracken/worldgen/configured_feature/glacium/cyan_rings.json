@@ -5,7 +5,10 @@
       "type": "minecraft:simple_state_provider",
       "state": {
        
-        "Name": "minecraft:powder_snow"
+        "Name": "minecraft:water",
+        "Properties": {
+          "level": "0"
+        }
       }
     },
     "barrier": {
