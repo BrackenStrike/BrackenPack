@@ -1,9 +1,9 @@
 {
-    "feature": "bracken:glacium/wart",
+    "feature": "bracken:glacium/magma",
     "placement": [
         {
             "type": "count",
-            "count": 100
+            "count": 50
         },
         {
             "type": "minecraft:in_square"
