@@ -1,63 +1,54 @@
 {
-    "feature": "bracken:sanctum/rubble2",
-    "placement": [
-        {
-            "type": "minecraft:count_on_every_layer",
-            "count": 1
-        },
-        {
-            "type": "minecraft:block_predicate_filter",
+  "feature": "bracken:sanctum/rubble2",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 125
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:replaceable"
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:cracked_deepslate_bricks",
+
+              "minecraft:clay",
+              "minecraft:stone"
+            ]
+          },
+          {
+            "type": "minecraft:not",
             "predicate": {
-              "type": "minecraft:all_of",
-              "predicates": [
-                {
-                  "type": "minecraft:replaceable"
-                },
-                {
-                  "type": "minecraft:matching_blocks",
-                  "offset": [
-                    0,
-                    -1,
-                    0
-                  ],
-                  "blocks": [
-                    "minecraft:deepslate_bricks"
-                  ]
-                },
-                {
-                  "type": "minecraft:not",
-                  "predicate": {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      0,
-                      0
-                    ],
-                    "blocks": [
-                        "minecraft:cracked_polished_blackstone_bricks",
-                        "minecraft:cracked_deepslate_bricks",
-                        "minecraft:obsidian",
-                        "minecraft:tuff",
-                        "minecraft:polished_blackstone_brick_wall",
-                      "minecraft:clay"
-                    ]
-                  }
-                }
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                0,
+                0
+              ],
+              "blocks": [
+                "minecraft:cracked_polished_blackstone_bricks",
+                "minecraft:white_concrete_powder",
+                "minecraft:deepslate_bricks",
+                "minecraft:obsidian"
               ]
             }
-          },
-        {
-            "type": "heightmap",
-            "heightmap": "WORLD_SURFACE_WG"
-        },
-        {
-            "type": "minecraft:surface_water_depth_filter",
-            "max_water_depth": 1
-        },
-  
-        
-        {
-            "type": "minecraft:biome"
-        }
-    ]
-  }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -618,34 +618,41 @@
           ]
         },
         "then_run": {
-          "type": "minecraft:condition",
-          "if_true": {
-            "type": "minecraft:y_above",
-            "anchor": {
-              "absolute": 100
-            },
-            "surface_depth_multiplier": 0,
-            "add_stone_depth": false
-          },
-          "then_run": {
-            "type": "minecraft:condition",
-            "if_true": {
-              "type": "minecraft:vertical_gradient",
-              "random_name": "b1",
-              "true_at_and_below": {
-                "absolute": 200
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "add_surface_depth": true,
+                "secondary_depth_range": 6
               },
-              "false_at_and_above": {
-                "absolute": 200
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:cracked_polished_blackstone_bricks"
+                }
               }
             },
-            "then_run": {
-              "type": "minecraft:block",
-              "result_state": {
-                "Name": "minecraft:cracked_polished_blackstone_bricks"
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 2,
+                "surface_type": "floor",
+                "add_surface_depth": true,
+                "secondary_depth_range": 6
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:cracked_polished_blackstone_bricks"
+                }
               }
             }
-          }
+          ]
         }
       }
     ]

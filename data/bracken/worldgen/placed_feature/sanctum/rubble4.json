@@ -1,9 +1,9 @@
 {
-  "feature": "bracken:sanctum/rubble",
+  "feature": "bracken:sanctum/rubble4",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",
-      "count": 2
+      "count": 150
     },
     {
       "type": "minecraft:block_predicate_filter",
@@ -21,7 +21,11 @@
               0
             ],
             "blocks": [
-              "minecraft:cracked_polished_blackstone_bricks",
+              
+              "minecraft:cracked_deepslate_bricks",
+              
+
+              "minecraft:clay",
               "minecraft:stone"
             ]
           },
@@ -35,10 +39,10 @@
                 0
               ],
               "blocks": [
-                "minecraft:cracked_deepslate_bricks",
+                
                 "minecraft:white_concrete_powder",
-                "minecraft:tuff",
-                "minecraft:blackstone",
+                "minecraft:cracked_polished_blackstone_bricks",
+                "minecraft:deepslate_bricks",
                 "minecraft:obsidian"
               ]
             }
@@ -51,4 +55,3 @@
     }
   ]
 }
-
