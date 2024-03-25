@@ -7,7 +7,7 @@
 execute if score @s bp.1_second matches 8 anchored eyes run function bracken:dimension_commands/other/brine_brewing/raycast
 
 # Mobs
-execute if score @s bp.1_second matches 2 run function bracken:entities/the_brine/the_brine_mobs
+execute if score @s bp.1_second matches 2 run function bracken:entities/the_brine/summon_brine_mobs
 
 # Effects
 execute if score @s bp.3_second matches 2 run function bracken:dimension_commands/other/no_fire_fill_commands

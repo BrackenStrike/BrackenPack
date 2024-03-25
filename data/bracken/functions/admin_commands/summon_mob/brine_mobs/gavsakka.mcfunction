@@ -1,1 +1,1 @@
-function bracken:entities/the_brine/summon_gavsakka
+function bracken:entities/the_brine/summons/summon_gavsakka

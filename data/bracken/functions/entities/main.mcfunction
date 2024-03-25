@@ -3,6 +3,9 @@
 # Creators: Sulfenir, Grandmaster and Bracken
 ##########################################################
 
+## THE BRINE
+execute if entity @s[tag=bp.the_brine] if function bracken:entities/the_brine/main run return 1
+
 ## ABILITY BOOKS
 execute if entity @s[tag=bp.ability_books] if function bracken:entities/ability_books run return 1
 

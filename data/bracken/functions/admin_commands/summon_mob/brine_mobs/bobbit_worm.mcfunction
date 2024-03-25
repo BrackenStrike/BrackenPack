@@ -1,1 +1,1 @@
-function bracken:entities/the_brine/summon_bobbit_worm
+function bracken:entities/the_brine/summons/summon_bobbit_worm

@@ -9,5 +9,5 @@ execute as @a at @s run function bracken:player/tick
 ## ENTITY COMMANDS
 execute as @e[type=!item,tag=bp.entity] at @s run function bracken:entities/bracken_entities
 
-## ITEM FIRE IMMUNITY (currently not in use)
-#execute as @e[type=item,nbt={Item:{tag:{tags:[bp.fire_immune]}}}] run data merge entity @s {Glowing:1b,Invulnerable:1b}
+execute if score #tick bp.1_second matches 20 run scoreboard players set #tick bp.1_second 0
+scoreboard players add #tick bp.1_second 1
