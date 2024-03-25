@@ -17,6 +17,6 @@ bossbar set bracken:unsung color purple
 bossbar set bracken:unsung style notched_6
 bossbar set bracken:unsung max 400
 
-fill ~10 ~10 ~10 ~-10 ~0 ~-10 air replace obsidian
+fill ~10 ~10 ~10 ~-10 ~0 ~-10 air
 advancement grant @a[distance=..50] only bracken:the_underdark/cube
 data modify entity @s angry_at set from entity @r[distance=..50] UUID

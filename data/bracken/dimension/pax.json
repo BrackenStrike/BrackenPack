@@ -49,7 +49,7 @@
             "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
-            "weirdness": 1,
+            "weirdness": 0.8,
             "depth": 0,
             "offset": 0
           }
