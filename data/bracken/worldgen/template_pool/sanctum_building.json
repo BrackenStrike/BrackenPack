@@ -5,7 +5,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "bracken:sanctum_building",
+        "location": "bracken:sanctum/sanctum_building",
         "processors": "bracken:ruin",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
@@ -14,7 +14,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "bracken:sanctum_building1",
+        "location": "bracken:sanctum/sanctum_building1",
         "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"
@@ -23,7 +23,7 @@
     {
       "weight": 10,
       "element": {
-        "location": "bracken:sanctum_building2",
+        "location": "bracken:sanctum/sanctum_building2",
         "processors": "bracken:ruin",
         "projection": "terrain_matching",
         "element_type": "minecraft:legacy_single_pool_element"
@@ -32,16 +32,16 @@
     {
       "weight": 10,
       "element": {
-        "location": "bracken:sanctum_hand",
+        "location": "bracken:sanctum/sanctum_hand",
         "processors": "bracken:ruin",
-        "projection": "terrain_matching",
+        "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"
       }
     },
     {
       "weight": 10,
       "element": {
-        "location": "bracken:sanctum_building3",
+        "location": "bracken:sanctum/sanctum_building3",
         "processors": "bracken:ruin",
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"

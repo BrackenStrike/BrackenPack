@@ -5,7 +5,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "bracken:panacea_pad",
+        "location": "bracken:panacea/panacea_pad",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

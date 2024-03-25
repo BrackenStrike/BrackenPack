@@ -5,7 +5,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "bracken:omnidrome_dna",
+        "location": "bracken:omnidrome/omnidrome_dna",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

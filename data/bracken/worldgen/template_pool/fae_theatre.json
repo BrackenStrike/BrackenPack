@@ -5,7 +5,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "bracken:fae_theatre",
+        "location": "bracken:the_faewild/fae_theatre",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

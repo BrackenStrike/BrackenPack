@@ -5,7 +5,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "bracken:underdark_crystal",
+        "location": "bracken:the_underdark/underdark_crystal",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"

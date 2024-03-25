@@ -2,7 +2,7 @@
   "type": "minecraft:jigsaw",
   "biomes": "bracken:the_brine/incursive_fungus",
   "spawn_overrides": {},
-  "start_pool": "bracken:brine_jelly_start",
+  "start_pool": "bracken:brine_jelly",
   "size": 6,
   "step": "surface_structures",
   "start_height": {

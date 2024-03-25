@@ -1,11 +1,11 @@
 {
-  "name": "double",
+  "name": "pool",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "bracken:pax_double_tree",
+        "location": "bracken:the_brine/brine_pirate_ship",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"

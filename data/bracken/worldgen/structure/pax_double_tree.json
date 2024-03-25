@@ -2,7 +2,7 @@
   "type": "minecraft:jigsaw",
   "biomes": "bracken:pax/petal_grove",
   "spawn_overrides": {},
-  "start_pool": "bracken:double",
+  "start_pool": "bracken:pax_double_tree",
   "size": 6,
   "step": "surface_structures",
   "start_height": {

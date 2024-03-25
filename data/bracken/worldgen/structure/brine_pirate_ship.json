@@ -2,7 +2,7 @@
   "type": "minecraft:jigsaw",
   "biomes": "bracken:the_brine/sugar_sand_beach",
   "spawn_overrides": {},
-  "start_pool": "bracken:pirate_ship",
+  "start_pool": "bracken:brine_pirate_ship",
   "size": 6,
   "step": "surface_structures",
   "start_height": {

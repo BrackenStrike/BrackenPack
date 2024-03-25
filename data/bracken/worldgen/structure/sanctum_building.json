@@ -2,7 +2,7 @@
   "type": "minecraft:jigsaw",
   "biomes": "bracken:sanctum/no_mans_land",
   "spawn_overrides": {},
-  "start_pool": "bracken:post",
+  "start_pool": "bracken:sanctum_building",
   "size": 6,
   "step": "surface_structures",
   "start_height": {
