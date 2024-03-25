@@ -36,7 +36,7 @@ scoreboard objectives add OMNI.ENABLE.sprint trigger
 scoreboard objectives add OMNI.DISABLE.flight trigger
 scoreboard objectives add OMNI.DISABLE.sprint trigger
 
-#scoreboard objectives add OMNI.TELEPORT.to_nearest_nearby_player trigger
+scoreboard objectives add OMNI.TELEPORT.to_nearest_nearby_player trigger
 #scoreboard objectives add OMNI.TELEPORT.from_nearby_players trigger
 
 scoreboard objectives add OMNI.ASK.help trigger

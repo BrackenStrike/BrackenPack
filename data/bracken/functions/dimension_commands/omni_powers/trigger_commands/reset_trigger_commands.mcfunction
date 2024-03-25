@@ -58,7 +58,7 @@ scoreboard players reset @s OMNI.ENABLE.sprint
 scoreboard players reset @s OMNI.DISABLE.flight 
 scoreboard players reset @s OMNI.DISABLE.sprint 
 
-#scoreboard players reset @s OMNI.TELEPORT.to_nearest_nearby_player 
+scoreboard players reset @s OMNI.TELEPORT.to_nearest_nearby_player 
 #scoreboard players reset @s OMNI.TELEPORT.from_nearby_players 
 
 scoreboard players reset @s OMNI.ASK.help 

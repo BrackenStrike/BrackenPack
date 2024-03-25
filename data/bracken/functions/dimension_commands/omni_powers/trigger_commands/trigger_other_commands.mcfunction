@@ -31,7 +31,7 @@ execute if entity @s[scores={OMNI.SUMMON.lightning=1..}] if function bracken:dim
 execute if entity @s[scores={OMNI.SUMMON.pulse=1..}] if function bracken:dimension_commands/omni_powers/summon/pulse run return 1
 execute if entity @s[scores={OMNI.SUMMON.disruptor_beam=1..}] positioned ^ ^1.1 ^ if function bracken:dimension_commands/omni_powers/summon/disruptor_beam run return 1
 
-#execute if entity @s[scores={OMNI.TELEPORT.to_nearest_nearby_player=1..}] if function bracken:dimension_commands/omni_powers/teleport_to run return 1
+execute if entity @s[scores={OMNI.TELEPORT.to_nearest_nearby_player=1..}] if function bracken:dimension_commands/omni_powers/teleport_to run return 1
 #execute if entity @s[scores={OMNI.TELEPORT.from_nearby_players=1..}] if function bracken:dimension_commands/omni_powers/teleport_from run return 1
 
 execute if entity @s[scores={OMNI.ENABLE.flight=1..}] if function bracken:dimension_commands/omni_powers/enable_flight run return 1

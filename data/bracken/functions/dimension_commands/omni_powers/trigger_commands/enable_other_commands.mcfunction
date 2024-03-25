@@ -31,7 +31,7 @@ scoreboard players enable @s[scores={_OMNI.SUMMON.lightning=1}] OMNI.SUMMON.ligh
 scoreboard players enable @s[scores={_OMNI.SUMMON.pulse=1}] OMNI.SUMMON.pulse
 scoreboard players enable @s[scores={_OMNI.SUMMON.disruptor_beam=1}] OMNI.SUMMON.disruptor_beam
 
-#scoreboard players enable @s OMNI.TELEPORT.to_nearest_nearby_player
+scoreboard players enable @s OMNI.TELEPORT.to_nearest_nearby_player
 #scoreboard players enable @s OMNI.TELEPORT.from_nearby_players
 
 scoreboard players enable @s[scores={_OMNI.ENABLE.flight=1}] OMNI.ENABLE.flight
