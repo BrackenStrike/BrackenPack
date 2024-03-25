@@ -87,6 +87,16 @@
           ]
         },
         {
+          "type": "loot_table",
+          "name": "bracken:item/ability_books/returning_tides",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.02
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:suspicious_stew",
           "conditions": [

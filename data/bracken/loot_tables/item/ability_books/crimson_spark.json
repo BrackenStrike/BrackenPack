@@ -22,11 +22,6 @@
                   "translate": "consumes 1 level",
                   "color": "gray",
                   "italic": false
-                },
-                {
-                  "translate": "1 second cooldown",
-                  "color": "gray",
-                  "italic": false
                 }
               ]
             },
