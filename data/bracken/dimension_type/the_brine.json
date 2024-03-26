@@ -8,7 +8,7 @@
   "has_skylight": true,
   "has_ceiling": false,
   "coordinate_scale": 1,
-  "fixed_time": 1000,
+  "fixed_time": 6000,
   "ambient_light": -20,
   "logical_height": 100,
   "infiniburn": "#minecraft:infiniburn_brine",

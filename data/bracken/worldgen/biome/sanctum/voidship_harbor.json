@@ -47,28 +47,33 @@
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
-    "fog_color": 15227970,
-    "water_color": 7351357,
-    "water_fog_color": 5902125,
-    "grass_color": 0,
-    "sky_color": 7943472,
-    "foliage_colour": 0,
-   
+    "fog_color": 65280,
+    "water_color": 65280,
+    "water_fog_color": 65280,
+    "grass_color": 65280,
+    "sky_color": 16777192,
+    "foliage_colour": 65280,
+    "particle": {
+      "options": {
+        "type": "minecraft:enchant"
+      },
+      "probability": 0.00051809334
+    },
     "mood_sound": {
-      "sound": "minecraft:entity.zombie_villager.converted",
-      "tick_delay": 1000,
+      "sound": "minecraft:entity.elder_guardian.death",
+      "tick_delay": 60000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley.loop",
-      "tick_chance": 0.05
+      "sound": "minecraft:block.bell.resonate",
+      "tick_chance": 0.00001
     },
     "music": {
-      "sound": "minecraft:music.overworld.deep_dark",
+      "sound": "bracken:omnidrome",
       "min_delay": 12000,
       "max_delay": 24000,
-      "replace_current_music": false
+      "replace_current_music": true
     }
   },
   "has_precipitation": false

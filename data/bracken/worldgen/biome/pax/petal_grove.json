@@ -75,30 +75,35 @@
   "temperature": 0.95,
   "downfall": 0.1,
   "effects": {
-    "fog_color": 14146776,
-    "sky_color": 13361126,
-    "water_color": 11851209,
-    "water_fog_color": 2173534,
-    "grass_color": 13949813,
-    "foliage_colour": 16749744,
+    "fog_color": 65280,
+    "water_color": 65280,
+    "water_fog_color": 65280,
+    "grass_color": 65280,
+    "sky_color": 16777192,
+    "foliage_colour": 65280,
     "particle": {
       "options": {
-        "type": "minecraft:falling_nectar"
+        "type": "minecraft:enchant"
       },
-      "probability": 0.00218093334
+      "probability": 0.00051809334
     },
     "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000000,
+      "sound": "minecraft:entity.elder_guardian.death",
+      "tick_delay": 60000,
       "block_search_extent": 8,
       "offset": 2
     },
+    "additions_sound": {
+      "sound": "minecraft:block.bell.resonate",
+      "tick_chance": 0.00001
+    },
     "music": {
-      "sound": "bracken:pax",
-      "min_delay": 1200,
-      "max_delay": 2400,
-      "replace_current_music": false
+      "sound": "bracken:omnidrome",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
     }
   },
   "has_precipitation": false
 }
+

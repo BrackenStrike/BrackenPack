@@ -9,7 +9,7 @@
   "has_ceiling": true,
   "coordinate_scale": 0.01,
   "ambient_light": -20,
-  "fixed_time": 8000,
+  "fixed_time": 6000,
   "logical_height": 256,
   "infiniburn": "#minecraft:infiniburn_dormis",
   "min_y": 0,
