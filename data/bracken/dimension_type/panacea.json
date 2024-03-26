@@ -9,7 +9,7 @@
   "has_skylight": true,
   "has_ceiling": false,
   "coordinate_scale": 1,
-  "ambient_light": -0.4,
+  "ambient_light": -20,
   "fixed_time": 7000,
   "logical_height": 100,
   "infiniburn": "#minecraft:infiniburn_panacea",

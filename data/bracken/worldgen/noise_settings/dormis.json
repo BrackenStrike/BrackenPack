@@ -7,7 +7,7 @@
   "ore_veins_enabled": false,
   "legacy_random_source": false,
   "default_block": {
-    "Name": "minecraft:bedrock"
+    "Name": "minecraft:brown_stained_glass"
   },
   "default_fluid": {
     "Name": "minecraft:lava",

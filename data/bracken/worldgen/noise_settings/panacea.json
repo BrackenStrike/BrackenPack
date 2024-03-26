@@ -14,10 +14,10 @@
     "amplified": true
   },
   "default_block": {
-    "Name": "minecraft:moss_block"
+    "Name": "minecraft:green_stained_glass"
   },
   "default_fluid": {
-    "Name": "minecraft:water",
+    "Name": "minecraft:lava",
     "Properties": {
       "level": "0"
     }

@@ -9,7 +9,7 @@
   "has_ceiling": false,
   "coordinate_scale": 1,
   "fixed_time": 1000,
-  "ambient_light": 0,
+  "ambient_light": -20,
   "logical_height": 100,
   "infiniburn": "#minecraft:infiniburn_brine",
   "min_y": 0,

@@ -91,19 +91,7 @@ scoreboard objectives add bp.greed_death deathCount
 ##########   SPECIES  ##########
 scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
 
-# Hunters
-scoreboard objectives add bp.hunter_morph dummy
 
-#Enderlings
-scoreboard objectives add bp.enderling_teleport dummy
-
-# Outlanders
-scoreboard objectives add bp.outlander_charge dummy
-
-# Realmkeepers
-scoreboard objectives add bp.gold dummy
-scoreboard objectives add bp.armor armor
-scoreboard objectives add bp.absorption dummy
 
 ##########   CONFIG MENU  ##########
 execute unless data storage bracken:config {nether_height: incendium} run data merge storage bracken:config {nether_height: normal}
@@ -211,30 +199,10 @@ scoreboard objectives add bp.coas minecraft.used:minecraft.carrot_on_a_stick
 ##########   SPECIES BOOKS   ##########
 scoreboard objectives add bp.arb_book dummy
 scoreboard objectives add bp.automech trigger
-scoreboard objectives add bp.frostkin trigger
-scoreboard objectives add bp.faefolk trigger
-scoreboard objectives add bp.human trigger
-scoreboard objectives add bp.hunter trigger
-scoreboard objectives add bp.dweller trigger
-scoreboard objectives add bp.enderling trigger
-scoreboard objectives add bp.nereid trigger
-scoreboard objectives add bp.netherkin trigger
-scoreboard objectives add bp.outlander trigger
-scoreboard objectives add bp.realmkeeper trigger
-scoreboard objectives add bp.villain trigger
+
 
 scoreboard objectives add bp.automech_ trigger
-scoreboard objectives add bp.frostkin_ trigger
-scoreboard objectives add bp.faefolk_ trigger
-scoreboard objectives add bp.human_ trigger
-scoreboard objectives add bp.hunter_ trigger
-scoreboard objectives add bp.dweller_ trigger
-scoreboard objectives add bp.enderling_ trigger
-scoreboard objectives add bp.nereid_ trigger
-scoreboard objectives add bp.netherkin_ trigger
-scoreboard objectives add bp.outlander_ trigger
-scoreboard objectives add bp.realmkeeper_ trigger
-scoreboard objectives add bp.villain_ trigger
+
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule commandBlockOutput false

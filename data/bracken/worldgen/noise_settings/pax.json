@@ -7,10 +7,10 @@
   "ore_veins_enabled": false,
   "legacy_random_source": false,
   "default_block": {
-    "Name": "minecraft:smooth_quartz"
+    "Name": "minecraft:white_stained_glass"
   },
   "default_fluid": {
-    "Name": "minecraft:water",
+    "Name": "minecraft:lava",
     "Properties": {
       "level": "0"
     }

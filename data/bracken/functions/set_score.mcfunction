@@ -9,8 +9,9 @@ scoreboard players set @s bp.mansion_use 0
 scoreboard players set @s bp.giant 0
 scoreboard players set @s bp.wtb_cooldown 0
 scoreboard players set @s bp.cooldown 0
-execute if data storage bracken:config {species_on: true} if data storage bracken:config {bsb_on: true} run loot give @s loot bracken:item/species_beginner_book
+execute if data storage bracken:config {species_on: true} if data storage bracken:config {bsb_on: true} run loot give @s loot bracken:item/species_fruits/automech_fruit
 
 function bracken:player/set_player_id
+function bracken:player/omnitrigger/all
 
 #tellraw @s [{"translate":"Use \"/function bracken:config\" to configure settings for the Bracken Pack","color":"yellow"}]
