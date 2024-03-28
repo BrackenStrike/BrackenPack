@@ -21,12 +21,12 @@
       "minecraft:iceberg_blue"
     ],
     [
-    "bracken:glacium/wart"],
+    "bracken:glacium/wart","bracken:glacium/column"],
     [
       "minecraft:ice_patch",
       "minecraft:blue_ice"
     ],
-    ["bracken:glacium/cyan_rings"],
+    ["bracken:glacium/cyan_rings","bracken:glacium/glacium_dec"],
     [],
     ["minecraft:twisting_vines",
     "minecraft:nether_sprouts",
@@ -35,7 +35,7 @@
     "minecraft:sea_pickle"
   ],
     ["bracken:glacium/magma"],
-    ["bracken:glacium/fire"],
+    ["bracken:glacium/path"],
     [
       "minecraft:freeze_top_layer"
     ]

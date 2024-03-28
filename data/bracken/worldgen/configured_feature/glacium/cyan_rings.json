@@ -14,7 +14,7 @@
     "barrier": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:soul_soil"
+        "Name": "minecraft:warped_wart_block"
       }
     }
   }

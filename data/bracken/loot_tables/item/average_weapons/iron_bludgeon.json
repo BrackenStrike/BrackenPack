@@ -5,17 +5,17 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:netherite_sword",
+          "name": "minecraft:iron_sword",
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.15,Operation:1,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"offhand\"}],CustomModelData:888514}"
+              "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:1,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:2,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"offhand\"}],CustomModelData:888514}"
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "translate": "Netherite Mace",
+                  "translate": "Iron Bludgeon",
                   "color": "white",
                   "italic": false
                 }
@@ -37,7 +37,7 @@
                   "italic": false
                 },
                 {
-                  "translate": " 8 Attack Damage",
+                  "translate": " 6 Attack Damage",
                   "color": "dark_green",
                   "italic": false
                 },
@@ -47,7 +47,7 @@
                   "italic": false
                 },
                 {
-                  "translate": " 15% Knockback Resistance",
+                  "translate": " 10% Knockback Resistance",
                   "color": "dark_green",
                   "italic": false
                 }
