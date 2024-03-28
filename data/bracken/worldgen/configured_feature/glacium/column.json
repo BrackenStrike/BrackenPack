@@ -8,6 +8,21 @@
     "prioritize_tip": false,
     "layers": [
       {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:soul_campfire",
+            "Properties": {
+              "facing": "north",
+              "lit": "true",
+              "signal_fire": "false",
+              "waterlogged": "false"
+            }
+          }
+        }
+      },
+      {
         "height": 14,
         "provider": {
           "type": "minecraft:simple_state_provider",

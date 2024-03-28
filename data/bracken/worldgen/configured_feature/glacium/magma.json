@@ -2,7 +2,7 @@
   "type": "minecraft:netherrack_replace_blobs",
   "config": {
     "target": {
-      "Name": "minecraft:water"
+      "Name": "minecraft:warped_wart_block"
     },
     "state": {
       "Name": "minecraft:shroomlight"

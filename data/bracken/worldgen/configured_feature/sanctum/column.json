@@ -8,7 +8,7 @@
     "prioritize_tip": false,
     "layers": [
       {
-        "height": 8,
+        "height": 5,
         "provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
