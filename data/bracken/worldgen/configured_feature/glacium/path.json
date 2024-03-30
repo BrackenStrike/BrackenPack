@@ -12,7 +12,7 @@
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:packed_ice"
+        "Name": "minecraft:warped_wart_block"
       }
     },
     "vegetation_feature": {

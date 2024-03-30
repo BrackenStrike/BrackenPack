@@ -2164,7 +2164,7 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:packed_ice"
+                  "Name": "minecraft:warped_wart_block"
                 }
               }
             },
