@@ -8,6 +8,15 @@
     "prioritize_tip": false,
     "layers": [
       {
+        "height": 14,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:cracked_stone_bricks"
+          }
+        }
+      },
+      {
         "height": 1,
         "provider": {
           "type": "minecraft:simple_state_provider",
@@ -21,16 +30,8 @@
             }
           }
         }
-      },
-      {
-        "height": 14,
-        "provider": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "minecraft:cracked_stone_bricks"
-          }
-        }
       }
+      
     ]
   }
 }
