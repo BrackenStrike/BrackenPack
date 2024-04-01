@@ -14,7 +14,7 @@
     "size_horizontal": 1,
     "size_vertical": 2
   },
-
+  "noise_router": {},
   "ore_veins_enabled": false,
   "sea_level": 32,
   "spawn_target": [],

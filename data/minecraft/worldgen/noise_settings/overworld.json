@@ -15,10 +15,59 @@
     "size_horizontal": 1,
     "size_vertical": 2
   },
-  
+  "noise_router": {},
   "ore_veins_enabled": true,
   "sea_level": 63,
- 
+  "spawn_target": [
+    {
+      "continentalness": [
+        -0.11,
+        1.0
+      ],
+      "depth": 0.0,
+      "erosion": [
+        -1.0,
+        1.0
+      ],
+      "humidity": [
+        -1.0,
+        1.0
+      ],
+      "offset": 0.0,
+      "temperature": [
+        -1.0,
+        1.0
+      ],
+      "weirdness": [
+        -1.0,
+        -0.16
+      ]
+    },
+    {
+      "continentalness": [
+        -0.11,
+        1.0
+      ],
+      "depth": 0.0,
+      "erosion": [
+        -1.0,
+        1.0
+      ],
+      "humidity": [
+        -1.0,
+        1.0
+      ],
+      "offset": 0.0,
+      "temperature": [
+        -1.0,
+        1.0
+      ],
+      "weirdness": [
+        0.16,
+        1.0
+      ]
+    }
+  ],
   "surface_rule": {
     "type": "minecraft:sequence",
     "sequence": [
