@@ -10,10 +10,7 @@
     "Name": "minecraft:brown_stained_glass"
   },
   "default_fluid": {
-    "Name": "minecraft:lava",
-    "Properties": {
-      "level": "0"
-    }
+    "Name": "minecraft:air"
   },
   "noise": {
     "min_y": 0,
