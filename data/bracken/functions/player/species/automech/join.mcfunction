@@ -6,6 +6,7 @@
 tag @s add bp.species
 tag @s add bp.automech
 team join Automech @s
+clear @s written_book{CustomModelData:888501,generation:3} 1
 
 attribute @s minecraft:generic.armor modifier add 8a346447-3af8-4f78-bbc4-c944332a347a "bp.automech.armor" 8 add
 attribute @s minecraft:generic.knockback_resistance modifier add b3d948ab-3af5-4ae8-a8bb-f962bfa3081e "bp.automech.knockback_resistance" 0.65 add
