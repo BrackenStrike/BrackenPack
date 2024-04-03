@@ -3,4 +3,4 @@
 # Creators: BrackenStrike
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.flying_boat 1
+scoreboard players set @s _OMNI.POWER.flying_boat 1

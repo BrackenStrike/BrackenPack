@@ -37,8 +37,6 @@
             }
           ]
         },
-       
-       
         {
           "type": "loot_table",
           "name": "bracken:item/music_discs/underdark",

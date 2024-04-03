@@ -71,9 +71,6 @@
             }
           ]
         },
-        
-        
-       
         {
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle",

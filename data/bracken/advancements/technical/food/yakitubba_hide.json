@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "bracken:player/food/yakitubba_hide"
+    "function": "bracken:item/food/yakitubba_hide"
   }
 }

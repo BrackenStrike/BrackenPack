@@ -1,0 +1,30 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "minecraft:player_head",
+            "functions": [
+              {
+                "function": "set_nbt",
+                "tag": "{SkullOwner:\"MHF_Ghast\",Enchantments:[{id:\"minecraft:blast_protection\",lvl:100s}]}"
+              },
+              {
+                "function": "set_name",
+                "name": [
+                  {
+                    "translate": "Painted Mask",
+                    "color": "white",
+                    "bold": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

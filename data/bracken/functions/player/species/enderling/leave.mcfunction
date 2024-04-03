@@ -7,3 +7,5 @@ tag @s remove bp.species
 tag @s remove bp.enderling
 
 scoreboard players reset @s bp.enderling_teleport
+
+return 1

@@ -19,7 +19,7 @@ tp @e[type=piglin,distance=..100,sort=nearest,limit=1] ~ -512 ~
 
 
 
-data merge entity @e[type=creeper,distance=..100,limit=1,sort=nearest,tag=!bp.perrterror] {active_effects:[{id:"minecraft:bad_luck",amplifier:10b,duration:-1,show_particles:0b}],powered:1b,Tags:["bp.entity","bp.perrterror","bp.rain_event"],CustomName:'{"text":"Perrterror","color":"dark_green"}',CustomNameVisible:0b,DeathLootTable:"bracken:entity/panacea/perrterror",Attributes:[{Name:generic.follow_range,Base:64}]}
+data merge entity @e[type=creeper,distance=..100,limit=1,sort=nearest,tag=!bp.perrterror] {active_effects:[{id:"minecraft:unluck",amplifier:10b,duration:-1,show_particles:0b}],powered:1b,Tags:["bp.entity","bp.perrterror","bp.rain_event"],CustomName:'{"text":"Perrterror","color":"dark_green"}',CustomNameVisible:0b,DeathLootTable:"bracken:entity/panacea/perrterror",Attributes:[{Name:generic.follow_range,Base:64}]}
 
 
 

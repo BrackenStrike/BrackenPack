@@ -13,13 +13,9 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_helmet",
+          "type": "minecraft:loot_table",
+          "name": "bracken:item/dormis/thralls_crown",
           "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{tags:[bp.fire_immune],Damage:0.1,display:{Name:'{\"text\":\"Thrall\\'s Crown\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\"This does not belong to you.\",\"color\":\"gray\"}']},CustomModelData:888502,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:100s},{id:\"minecraft:binding_curse\",lvl:1s}],AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:100,Operation:0,UUID:[I;-246185741,-1245099623,-1785514533,2001895771],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:100,Operation:0,UUID:[I;1052734379,-917354059,-1213704371,-548662746],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:100,Operation:0,UUID:[I;-157765945,343887442,-1538240534,552742553],Slot:\"head\"}]}"
-            },
             {
               "function": "minecraft:set_damage",
               "damage": {

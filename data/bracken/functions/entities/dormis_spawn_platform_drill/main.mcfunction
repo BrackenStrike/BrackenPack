@@ -12,3 +12,5 @@ execute if entity @s[tag=bp.dormis_platform_east] if block ~ ~ ~ bedrock run fun
 execute if entity @s[tag=bp.dormis_platform_north] if block ~ ~ ~ bedrock run function bracken:entities/dormis_spawn_platform_drill/dormis_platform_north
 execute if entity @s[tag=bp.dormis_platform_west] if block ~ ~ ~ bedrock run function bracken:entities/dormis_spawn_platform_drill/dormis_platform_west
 execute if entity @s[tag=bp.dormis_platform_south] if block ~ ~ ~ bedrock run function bracken:entities/dormis_spawn_platform_drill/dormis_platform_south
+
+return 1

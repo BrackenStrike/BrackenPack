@@ -3,6 +3,7 @@
 # Creators: Grandmaster
 ##########################################################
 
+tag @s add bp.set
 execute if entity @s[scores={bp.portal_R=1,bp.portal_G=0,bp.portal_B=0,bp.portal_W=0},tag=bp.dormis_key] run summon armor_stand ~ ~0.5 ~ {Tags:[bp.floating_text2],Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,CustomName:'{"text":"Dormis","color":"dark_red"}',CustomNameVisible:1b}
 execute if entity @s[scores={bp.portal_R=0,bp.portal_G=1,bp.portal_B=1,bp.portal_W=1},tag=bp.glacium_key] run summon armor_stand ~ ~0.5 ~ {Tags:[bp.floating_text2],Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,CustomName:'{"text":"Glacium","color":"aqua"}',CustomNameVisible:1b}
 execute if entity @s[scores={bp.portal_R=0,bp.portal_G=1,bp.portal_B=0,bp.portal_W=1},tag=bp.omnidrome_key] run summon armor_stand ~ ~0.5 ~ {Tags:[bp.floating_text2],Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,CustomName:'{"text":"Omnidrome","color":"green"}',CustomNameVisible:1b}
@@ -18,4 +19,4 @@ execute if entity @s[scores={bp.portal_R=1,bp.portal_G=1,bp.portal_B=0,bp.portal
 execute if entity @s[scores={bp.portal_R=1,bp.portal_G=0,bp.portal_B=0,bp.portal_W=1},tag=bp.nether_key] run summon armor_stand ~ ~0.5 ~ {Tags:[bp.floating_text2],Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,CustomName:'{"text":"The Nether","color":"red"}',CustomNameVisible:1b}
 execute if entity @s[scores={bp.portal_R=1,bp.portal_G=0,bp.portal_B=1,bp.portal_W=1},tag=bp.end_key] run summon armor_stand ~ ~0.5 ~ {Tags:[bp.floating_text2],Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,CustomName:'{"text":"The End","color":"light_purple"}',CustomNameVisible:1b}
 
-tag @s remove bp.set
+tag @s[scores={bp.portal_R=0,bp.portal_G=0,bp.portal_B=0,bp.portal_W=0}] remove bp.set

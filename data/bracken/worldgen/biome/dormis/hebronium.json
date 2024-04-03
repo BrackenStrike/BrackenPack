@@ -66,7 +66,7 @@
       "max_delay": 24000,
       "replace_current_music": false
     },
-    "ambient_sound": "minecraft:block.roots.step"
+    "ambient_sound": "minecraft:ambient.nether_wastes.loop"
   },
   "has_precipitation": false
 }

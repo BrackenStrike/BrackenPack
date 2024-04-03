@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+        "rolls": 1,
+        "entries": [
+            {
+            "type": "item",
+            "name": "minecraft:enderman_spawn_egg",
+            "functions": [
+                {
+                    "function": "set_nbt",
+                    "tag": "{HideFlags:2,Enchantments:[{}],AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-10,Operation:0,UUID:[I;1113027975,-644395143,-1346952979,-351466035]},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-.01,Operation:0,UUID:[I;-674138169,-908574571,-1952283716,-248487679]},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-10,Operation:0,UUID:[I;1282424771,-572633220,-1241937806,-241423645]}],EntityTag:{id:\"minecraft:area_effect_cloud\",Particle:\"squid_ink\",CustomNameVisible:1b,RadiusPerTick:.1f,Duration:600,effects:[{id:\"minecraft:mining_fatigue\",amplifier:63b,duration:100,show_particles:0b},{id:\"minecraft:invisibility\",amplifier:1b,duration:100,show_particles:0b},{id:\"minecraft:blindness\",amplifier:1b,duration:100,show_particles:0b},{id:\"minecraft:night_vision\",amplifier:1b,duration:100,show_particles:0b},{id:\"minecraft:hunger\",amplifier:63b,duration:100,show_particles:0b},{id:\"minecraft:wither\",amplifier:63b,duration:100,show_particles:0b}],CustomName:'{\"text\":\"DROP OF VOID\",\"bold\":true}'}}"
+                },
+                {
+                "function": "set_name",
+                "name": [
+                    {
+                      "translate": "void bomb",
+                      "color": "black",
+                      "bold": true,
+                      "obfuscated": true
+                    }
+                  ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                    {
+                        "translate": "A vague feeling tells you not to use this.",
+                        "color": "white"
+                    }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

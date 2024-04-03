@@ -59,7 +59,7 @@
             }
           ],
           "functions":[
-            {"function":"set_nbt","tag":"{Effects:[{EffectId:2b,EffectDuration:160},{EffectId:15b,EffectDuration:160},{EffectId:16b,EffectDuration:160},{EffectId:17b,EffectDuration:160},{EffectId:19b,EffectDuration:160},{EffectId:20b,EffectDuration:160}]}"}
+            {"function":"set_nbt","tag":"{effects:[{id:\"minecraft:slowness\",duration:160},{id:\"minecraft:blindness\",duration:160},{id:\"minecraft:night_vision\",duration:160},{id:\"minecraft:hunger\",duration:160},{id:\"minecraft:poison\",duration:160},{id:\"minecraft:wither\",duration:160}]}"}
           ]
         },
         {

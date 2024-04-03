@@ -5,3 +5,5 @@
 
 tag @s remove bp.species
 tag @s remove bp.realmkeeper
+
+return 1

@@ -12,7 +12,7 @@
         "type": "minecraft:tropical_fish",
         "weight": 20,
         "minCount": 1,
-        "maxCount": 1
+        "maxCount": 10
       }
       
     ],

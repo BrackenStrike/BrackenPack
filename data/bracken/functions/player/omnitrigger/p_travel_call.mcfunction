@@ -3,4 +3,4 @@
 # Creators: BrackenStrike
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.travel_call 1
+scoreboard players set @s _OMNI.POWER.travel_call 1

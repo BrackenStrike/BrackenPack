@@ -13,3 +13,5 @@ execute if data storage bracken:config {dimension_travel: true} if score @s bp.c
 # Varskstorm
 execute if entity @s[tag=bp.sparked] unless data storage bp.vars {varskstorm:{stage:0}} run function bracken:dimension_commands/varskstorm/case_check
 
+#return
+return 1

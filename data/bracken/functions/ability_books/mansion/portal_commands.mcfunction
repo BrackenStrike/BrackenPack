@@ -8,3 +8,5 @@ execute if score @p[distance=..1] bp.mansion_id = @s[scores={bp.mansion_use=0}] 
 
 scoreboard players add @s bp.tick 1
 execute at @s[scores={bp.tick=9600..}] run function bracken:ability_books/mansion/destroy_portal
+
+return 1

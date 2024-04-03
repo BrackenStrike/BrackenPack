@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "bracken:player/item/perpetual_aegis/deal_damage"
+    "function": "bracken:item/perpetual_aegis/deal_damage"
   }
 }

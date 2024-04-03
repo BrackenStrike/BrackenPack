@@ -1,3 +1,11 @@
+# time
+scoreboard objectives add bp.tick dummy
+scoreboard objectives add bp.1_second dummy
+scoreboard objectives add bp.3_second dummy
+scoreboard objectives add bp.longtick dummy
+scoreboard objectives add bp.verylongtick dummy
+scoreboard objectives add bp.5_min_tick dummy
+
 #Math Init
 function bracken:math/load
 
@@ -30,14 +38,6 @@ scoreboard objectives add bp.world_player_id dummy
 scoreboard objectives add bp.dust_storm dummy
 scoreboard objectives add bp.iron_apple dummy
 
-# time
-scoreboard objectives add bp.tick dummy
-scoreboard objectives add bp.1_second dummy
-scoreboard objectives add bp.3_second dummy
-scoreboard objectives add bp.longtick dummy
-scoreboard objectives add bp.verylongtick dummy
-scoreboard objectives add bp.5_min_tick dummy
-
 
 ##########   ITEMS AND EQUIPMENT   ##########
 scoreboard objectives add bp.creeper dummy
@@ -54,6 +54,11 @@ scoreboard objectives add bp.breach_factor_float dummy
 scoreboard objectives add bp.breach_factor_cd dummy
 scoreboard objectives add bp.varsktracers dummy
 scoreboard objectives add bp.permafrost_howl dummy
+scoreboard objectives add bp.altum_archeon minecraft.used:minecraft.netherite_pickaxe
+scoreboard objectives add bp.cleaver_of_judgement dummy
+scoreboard objectives add bp.piercer_of_heavens minecraft.used:minecraft.bow
+
+#aequor
 scoreboard objectives add bp.aequor_speed dummy
 scoreboard objectives add bp.aequor_haste dummy
 scoreboard objectives add bp.aequor_strength dummy
@@ -72,9 +77,6 @@ scoreboard objectives add bp.aequor_slow_falling dummy
 scoreboard objectives add bp.aequor_conduit_power dummy
 scoreboard objectives add bp.aequor_dolphins_grace dummy
 scoreboard objectives add bp.aequor_hero_of_the_village dummy
-scoreboard objectives add bp.altum_archeon minecraft.used:minecraft.netherite_pickaxe
-scoreboard objectives add bp.cleaver_of_judgement dummy
-scoreboard objectives add bp.piercer_of_heavens minecraft.used:minecraft.bow
 
 #astral potion
 scoreboard objectives add bp.astral_time dummy
@@ -122,36 +124,6 @@ scoreboard objectives add bp.zchunk dummy
 scoreboard players set #1 bp.xchunk 16
 scoreboard players set #1 bp.zchunk 16
 
-##########   ABILITY BOOKS  ##########
-scoreboard objectives add bp.offhand dummy
-scoreboard objectives add bp.cooldown dummy
-
-# Returning Tides
-scoreboard objectives add bp.recall_marker dummy
-scoreboard objectives add bp.recall_world dummy
-scoreboard objectives add bp.recall_void dummy
-scoreboard objectives add bp.recall_use dummy
-scoreboard objectives add bp.recall_wait dummy
-scoreboard objectives add bp.recall_walk minecraft.custom:minecraft.walk_one_cm
-scoreboard objectives add bp.recall_sprint minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add bp.recall_jump minecraft.custom:minecraft.jump
-
-# Mansion
-scoreboard objectives add bp.mansion_id dummy
-scoreboard objectives add bp.mansion_world dummy
-scoreboard objectives add bp.mansion_use dummy
-scoreboard objectives add bp.xmansion dummy
-scoreboard objectives add bp.ymansion dummy
-scoreboard objectives add bp.zmansion dummy
-scoreboard objectives add bp.xmansion1 dummy
-scoreboard objectives add bp.ymansion1 dummy
-scoreboard objectives add bp.zmansion1 dummy
-scoreboard objectives add bp.xmansion2 dummy
-scoreboard objectives add bp.ymansion2 dummy
-scoreboard objectives add bp.zmansion2 dummy
-scoreboard objectives add bp.dimension dummy
-scoreboard players set #70 bp.ymansion 70
-
 ##########   DIMENSIONS  ##########
 
 scoreboard objectives add bp.x_rotation dummy
@@ -182,6 +154,8 @@ scoreboard objectives add bp.ender_dragon_killed minecraft.killed:ender_dragon
 scoreboard objectives add bp.ice dummy
 
 # Omnidrome
+scoreboard objectives add bp.omnidrome dummy
+
 scoreboard objectives add bp.spawn_loading dummy
 scoreboard players set #1 bp.spawn_loading 1
 scoreboard objectives add bp.omni_flight dummy
@@ -207,6 +181,40 @@ scoreboard objectives add bp.portal dummy
 scoreboard objectives add bp.giant dummy
 scoreboard objectives add bp.wtb_cooldown dummy
 scoreboard objectives add bp.coas minecraft.used:minecraft.carrot_on_a_stick
+
+scoreboard objectives add bp.offhand dummy
+scoreboard objectives add bp.cooldown dummy
+
+# Returning Tides
+scoreboard objectives add bp.recall_marker dummy
+scoreboard objectives add bp.recall_world dummy
+scoreboard objectives add bp.recall_void dummy
+scoreboard objectives add bp.recall_use dummy
+scoreboard objectives add bp.recall_wait dummy
+scoreboard objectives add bp.recall_walk minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add bp.recall_sprint minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add bp.recall_jump minecraft.custom:minecraft.jump
+
+# Mansion
+scoreboard objectives add bp.mansion_id dummy
+scoreboard objectives add bp.mansion_world dummy
+scoreboard objectives add bp.mansion_use dummy
+scoreboard objectives add bp.xmansion dummy
+scoreboard objectives add bp.ymansion dummy
+scoreboard objectives add bp.zmansion dummy
+scoreboard objectives add bp.xmansion1 dummy
+scoreboard objectives add bp.ymansion1 dummy
+scoreboard objectives add bp.zmansion1 dummy
+scoreboard objectives add bp.xmansion2 dummy
+scoreboard objectives add bp.ymansion2 dummy
+scoreboard objectives add bp.zmansion2 dummy
+scoreboard objectives add bp.dimension dummy
+scoreboard players set #70 bp.ymansion 70
+
+##########   OMNI BOOK TRIGGERS   ###########
+function bracken:dimension_commands/omni_powers/trigger_commands/add_book_commands
+##########   OMNI OTHER TRIGGERS   ###########
+function bracken:dimension_commands/omni_powers/trigger_commands/add_other_commands
 
 ##########   SPECIES BOOKS   ##########
 scoreboard objectives add bp.arb_book dummy
@@ -247,7 +255,7 @@ scoreboard players set @a bp.verylongtick 0
 scoreboard players set @a bp.hurting 0
 scoreboard players set @a bp.gold 0
 scoreboard players set @a bp.portal 0
-scoreboard players set @a bp.cooldown 0
+scoreboard players set @a bp.cooldown -6
 scoreboard players set #2 bp.var 2
 scoreboard players set #20 bp.var 20
 
@@ -260,67 +268,4 @@ execute if data storage bracken:config {teams_on: true} run function bracken:pla
 ##########   START TICK FUNCTIONS   ###########
 function bracken:3_seconds
 function bracken:10_seconds
-
-
-##########   OMNI BOOK TRIGGERS   ###########
-scoreboard objectives add OMNI.POWER.adamantine_will trigger
-scoreboard objectives add OMNI.POWER.crimson_spark trigger
-scoreboard objectives add OMNI.POWER.fang_attack trigger
-scoreboard objectives add OMNI.POWER.fireball trigger
-scoreboard objectives add OMNI.POWER.flying_boat trigger
-scoreboard objectives add OMNI.POWER.frostlock trigger
-scoreboard objectives add OMNI.POWER.great_nullifier trigger
-scoreboard objectives add OMNI.POWER.iron_golem trigger
-scoreboard objectives add OMNI.POWER.kill trigger
-scoreboard objectives add OMNI.POWER.travel_call trigger
-scoreboard objectives add OMNI.POWER.mansion trigger
-scoreboard objectives add OMNI.POWER.mass_heal trigger
-scoreboard objectives add OMNI.POWER.recall trigger
-scoreboard objectives add OMNI.POWER.scatterstorm trigger
-scoreboard objectives add OMNI.POWER.swordfall trigger
-scoreboard objectives add OMNI.POWER.tetra_slime trigger
-scoreboard objectives add OMNI.POWER.truelight_glow trigger
-scoreboard objectives add OMNI.POWER.world_soar trigger
-scoreboard objectives add OMNI.POWER.worm_toothed_burrower trigger
-
-scoreboard objectives add OMNI.BUILD.cube trigger
-scoreboard objectives add OMNI.BUILD.road_north trigger
-scoreboard objectives add OMNI.BUILD.road_south trigger
-scoreboard objectives add OMNI.BUILD.road_east trigger
-scoreboard objectives add OMNI.BUILD.road_west trigger
-scoreboard objectives add OMNI.BUILD.pillar trigger
-scoreboard objectives add OMNI.BUILD.cyber_tree trigger
-scoreboard objectives add OMNI.BUILD.pyramid trigger
-scoreboard objectives add OMNI.BUILD.end_island trigger
-scoreboard objectives add OMNI.BUILD.sculk_patch trigger
-scoreboard objectives add OMNI.BUILD.single_block trigger
-
-scoreboard objectives add OMNI.CLEAR.debris trigger
-scoreboard objectives add OMNI.CLEAR.material trigger
-
-
-
-scoreboard objectives add OMNI.SUMMON.lightning trigger
-scoreboard objectives add OMNI.SUMMON.construct trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_blaze trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_creeper trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_mount trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_ravager trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_tnt trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_pirate trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_snowman trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_warden trigger
-scoreboard objectives add OMNI.SUMMON.pulse trigger
-scoreboard objectives add OMNI.SUMMON.disruptor_beam trigger
-
-scoreboard objectives add OMNI.ENABLE.flight trigger
-scoreboard objectives add OMNI.ENABLE.sprint trigger
-scoreboard objectives add OMNI.DISABLE.flight trigger
-scoreboard objectives add OMNI.DISABLE.sprint trigger
-
-#scoreboard objectives add OMNI.TELEPORT.to_nearest_nearby_player trigger
-#scoreboard objectives add OMNI.TELEPORT.from_nearby_players trigger
-
-scoreboard objectives add OMNI.ASK.help trigger
-
 
