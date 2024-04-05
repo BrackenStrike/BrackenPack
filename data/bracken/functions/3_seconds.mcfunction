@@ -22,6 +22,6 @@ scoreboard players remove @a[scores={bp.iron_apple=1..}] bp.iron_apple 1
 execute as @a run attribute @s[scores={bp.iron_apple=1..2}] minecraft:generic.armor modifier remove 8a346447-3af8-4f78-bbc4-c944332a347b
 
 ##########   THE BRINE DROWNED STUCK AT Y=60  ##########
-execute at @p[predicate=bracken:dimensions/the_brine] run data merge entity @s[type=drowned,distance=..100,predicate=bracken:height/70_below] {Motion:[0.0d,5.0d,0.0d]}
+execute at @p[predicate=bracken:dimensions/the_brine] as @e[type=drowned,distance=..100,predicate=bracken:height/70_below] run data merge entity @s {Motion:[0.0d,5.0d,0.0d]}
 
 schedule function bracken:3_seconds 3s
