@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "target": {
+      "Name": "minecraft:stone"
+    },
+    "state": {
+      "Name": "minecraft:diorite"
+    },
+    "radius": 2
+  }
+}
+

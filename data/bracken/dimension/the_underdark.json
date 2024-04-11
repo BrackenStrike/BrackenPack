@@ -55,6 +55,30 @@
           }
         },
         {
+          "biome": "bracken:the_underdark/sulfur_caldera",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": -0.2,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.7,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "bracken:the_underdark/diorite_sea",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0.4,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.9,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
           "biome": "bracken:the_underdark/crystal_caves",
           "parameters": {
             "temperature": 0.3,
