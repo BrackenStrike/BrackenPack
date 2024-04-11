@@ -1,10 +1,10 @@
 ##########################################################
 # Description: Heal player
-# Creators: Sulfenir
+# Creators: Sulfenir and Bracken
 ##########################################################
 
-effect give @s minecraft:instant_health 1 0 true
+damage @s 2 minecraft:generic
 particle minecraft:crimson_spore ~ ~0.5 ~ 0.5 0 0.5 1 64
-playsound minecraft:item.totem.use player @s ~ ~ ~ 0.3 2
+playsound minecraft:entity.blaze.hurt player @s ~ ~ ~ 0.3 0
 
 scoreboard players set @s bp.cleaver_of_judgement 0

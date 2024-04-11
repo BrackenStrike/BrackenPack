@@ -5,26 +5,21 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_axe",
+          "name": "minecraft:netherite_sword",
           "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:30,Operation:0,UUID:[I;1872410414,-61781409,-1794531078,661849160],Slot:\"mainhand\"}],CustomModelData:888502}"
+            },
             {
               "function": "minecraft:set_name",
               "name": {
-                "translate": "Cleaver of Judgement",
-                "color": "light_purple",
+                "translate": "Sai",
+                "color": "white",
                 "italic": false
               }
             },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
-                {
-                  "translate": "...",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            },
+            
             {
               "function": "minecraft:set_nbt",
               "tag": "{bp:{id:\"cleaver_of_judgement\"}}"
