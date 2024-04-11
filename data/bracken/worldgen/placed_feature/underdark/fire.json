@@ -2,7 +2,7 @@
     "feature": "bracken:underdark/fire",
     "placement": [
       {
-        "count": 5,
+        "count": 1,
         "type": "minecraft:count_on_every_layer"
       },
       {

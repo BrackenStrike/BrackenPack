@@ -52,7 +52,7 @@
     ],
     ["bracken:underdark/fire"],
     ["bracken:underdark/sulfur_blobs"],
-    [],
+    ["bracken:underdark/sulfur_rock"],
     [],
     [
       "minecraft:ore_dirt",
@@ -105,7 +105,7 @@
     "foliage_colour": 14078891,
     "particle": {
       "options": {
-        "type": "minecraft:campfire_cosy_smoke"
+        "type": "minecraft:smoke"
       },
       "probability": 0.001193334
     },

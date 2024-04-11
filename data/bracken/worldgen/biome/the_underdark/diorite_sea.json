@@ -51,7 +51,11 @@
     ["bracken:underdark/dio_blobs"],
     ["bracken:underdark/lush_blobs"],
     [],
-    [],
+    [
+      "minecraft:lush_caves_ceiling_vegetation",
+      "minecraft:cave_vines",
+      "minecraft:lush_caves_vegetation"
+    ],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",

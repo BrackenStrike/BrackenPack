@@ -2,7 +2,7 @@
   "type": "minecraft:netherrack_replace_blobs",
   "config": {
     "target": {
-      "Name": "minecraft:stone"
+      "Name": "minecraft:deepslate"
     },
     "state": {
       "Name": "minecraft:diorite"
