@@ -2,7 +2,7 @@
   "feature": "bracken:panacea/pumpkin",
   "placement": [
     {
-      "chance": 500,
+      "chance": 5,
       "type": "minecraft:rarity_filter"
     },
     {

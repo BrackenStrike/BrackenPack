@@ -12,7 +12,7 @@
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:podzol"
+        "Name": "minecraft:mud"
       }
     },
     "vegetation_feature": {
