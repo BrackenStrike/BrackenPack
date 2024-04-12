@@ -24,7 +24,7 @@
         "max_exclusive": 1
       }
     },
-    "floor_to_ceiling_search_range": 190,
+    "floor_to_ceiling_search_range": 100,
     "column_radius": {
       "type": "minecraft:uniform",
       "value": {
@@ -39,6 +39,6 @@
         "max_exclusive": 2
       }
     },
-    "max_column_radius_to_cave_height_ratio": 0.33
+    "max_column_radius_to_cave_height_ratio": 0.43
   }
 }
