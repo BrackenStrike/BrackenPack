@@ -51,9 +51,9 @@
       "type": "minecraft:acacia_foliage_placer"
     },
     "trunk_placer": {
-      "base_height": 22,
-      "height_rand_a": 18,
-      "height_rand_b": 16,
+      "base_height": 16,
+      "height_rand_a": 12,
+      "height_rand_b": 10,
       "type": "minecraft:fancy_trunk_placer"
     },
     "sapling_provider": {

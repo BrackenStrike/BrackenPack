@@ -24,12 +24,12 @@
         "max_exclusive": 1
       }
     },
-    "floor_to_ceiling_search_range": 190,
+    "floor_to_ceiling_search_range": 150,
     "column_radius": {
       "type": "minecraft:uniform",
       "value": {
         "min_inclusive": 3,
-        "max_inclusive": 19
+        "max_inclusive": 15
       }
     },
     "height_scale": {
