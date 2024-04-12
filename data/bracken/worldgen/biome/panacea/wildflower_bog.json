@@ -133,14 +133,11 @@
       "minecraft:spore_blossom",
       "minecraft:flower_meadow"
     ],
-    [
-      "bracken:panacea/lake"
-    ],
+    [],
     [
       "minecraft:flower_forest_flowers"
     ],
-    [
-      "bracken:panacea/bogwater","bracken:panacea/bogwater2"
+    ["bracken:panacea/bogwater2"
     ],
     [
       "minecraft:patch_tall_grass_2"
