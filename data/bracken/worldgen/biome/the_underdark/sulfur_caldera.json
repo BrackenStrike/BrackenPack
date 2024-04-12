@@ -53,7 +53,7 @@
     ["bracken:underdark/fire"],
     ["bracken:underdark/sulfur_blobs"],
     ["bracken:underdark/sulfur_rock"],
-    [],
+    ["bracken:underdark/sulfur_rock2"],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -98,7 +98,7 @@
   "downfall": 0.1,
   "effects": {
     "sky_color": 8600895,
-    "fog_color": 5786701,
+    "fog_color": 11042862,
     "water_color": 8166054,
     "water_fog_color": 6383526,
     "grass_color": 16770224,

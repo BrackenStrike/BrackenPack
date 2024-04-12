@@ -18,7 +18,7 @@
                 "east": "false",
                 "age": "0"
               },
-              "Name": "minecraft:fire"
+              "Name": "minecraft:soul_fire"
             },
             "type": "minecraft:simple_state_provider"
           }
