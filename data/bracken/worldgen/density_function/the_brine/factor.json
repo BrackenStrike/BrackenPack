@@ -12,7 +12,7 @@
         },
         "argument2": {
           "type": "minecraft:add",
-          "argument1": -10.0,
+          "argument1": 0.0,
           "argument2": 0
         }
       }
