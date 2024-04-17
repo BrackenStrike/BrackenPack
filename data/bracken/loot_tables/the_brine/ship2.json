@@ -17,16 +17,7 @@
             }
           ]
         },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/ability_books/swordfall",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.005
-            }
-          ]
-        },
+        
        
         
         {
@@ -79,16 +70,7 @@
             }
           ]
         },
-        {
-          "type": "loot_table",
-          "name": "bracken:item/ability_books/crimson_spark",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.08
-            }
-          ]
-        },
+        
         {
           "type": "minecraft:item",
           "name": "minecraft:redstone_block",

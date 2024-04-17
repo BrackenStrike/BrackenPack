@@ -12,8 +12,8 @@ data merge entity @e[type=fox,distance=..100,limit=1,sort=nearest,tag=!bp.trilob
 #bobbit worm
 execute as @e[type=marker,tag=bp.worm,sort=nearest,limit=1] at @s run function bracken:entities/the_brine/summons/bobbit_worm_marker
 
-#dunkelosteus
-execute as @e[type=marker,tag=bp.dunkelosteus,sort=nearest,limit=1] at @s run function bracken:entities/the_brine/summons/dunkelosteus_marker
+#dunkleosteus
+execute as @e[type=marker,tag=bp.dunkleosteus,sort=nearest,limit=1] at @s run function bracken:entities/the_brine/summons/dunkleosteus_marker
 
 #nautilus
 execute as @e[type=drowned,tag=!bp.aquatic,distance=..100,limit=1,sort=nearest] at @s run data merge entity @s[y=250,dy=-500] {active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:speed",amplifier:1b,duration:5b,show_particles:0b}],Tags:[bp.aquatic,bp.nautilus,bp.entity,bp.the_brine],Silent:1b,DeathLootTable:"bracken:entity/the_brine/nautilus",CanPickUpLoot:0b,HandItems:[{id:"minecraft:bamboo",Count:1b,tag:{display:{Name:'{"text":"Nautilus"}'},CustomModelData:888503}},{id:"minecraft:air"}],HandDropChances:[0.000F,0.000F],Attributes:[{Name:generic.attack_damage,Base:0},{Name:generic.max_health,Base:10},{Name:generic.movement_speed,Base:0.2}]}

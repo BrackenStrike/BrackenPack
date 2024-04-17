@@ -1,0 +1,20 @@
+{
+  "pools": [
+    
+    
+    {
+      "rolls": {
+        "min": 0,
+        "max": 12
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon"
+        }
+      ]
+    }
+    
+    
+  ]
+}

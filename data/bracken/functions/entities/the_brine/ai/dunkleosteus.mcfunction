@@ -1,5 +1,5 @@
 ##########################################################
-# Description: AI for dunkelosteus in the brine
+# Description: AI for dunkleosteus in the brine
 # Creators: Bracken and Grandmaster
 ##########################################################
 
