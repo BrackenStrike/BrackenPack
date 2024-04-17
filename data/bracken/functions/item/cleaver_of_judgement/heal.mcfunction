@@ -3,7 +3,7 @@
 # Creators: Sulfenir and Bracken
 ##########################################################
 
-damage @s 2 minecraft:generic
+damage @s 4 minecraft:generic
 particle minecraft:crimson_spore ~ ~0.5 ~ 0.5 0 0.5 1 64
 playsound minecraft:entity.blaze.hurt player @s ~ ~ ~ 0.3 0
 
