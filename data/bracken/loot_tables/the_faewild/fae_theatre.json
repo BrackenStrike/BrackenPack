@@ -71,7 +71,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/wooden_mace",
+          "name": "bracken:item/average_weapons/wooden_bludgeon",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

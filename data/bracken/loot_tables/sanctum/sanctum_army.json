@@ -82,7 +82,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/netherite_mace",
+          "name": "bracken:item/average_weapons/netherite_bludgeon",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
