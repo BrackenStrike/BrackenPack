@@ -52,7 +52,7 @@
       "tick_chance": 0.00001
     },
     "music": {
-      "sound": "bracken:omnidrome",
+      "sound": "minecraft:music.nether.basalt_deltas",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": true

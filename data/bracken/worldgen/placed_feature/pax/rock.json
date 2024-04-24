@@ -4,12 +4,14 @@
         {
             "type": "count",
             "count": {
-                "value": {
-                    "min_inclusive": 0,
-                    "max_inclusive": 2
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                  "absolute": 0
                 },
-                "type": "minecraft:uniform"
-            }
+                "max_inclusive": {
+                  "absolute": 2
+                }
+              }
         },
         {
             "type": "minecraft:in_square"

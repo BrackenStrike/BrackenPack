@@ -13,9 +13,11 @@
     },
     "density": {
       "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 0.3,
-        "max_exclusive": 0.7
+      "min_inclusive": {
+        "absolute": 0.3
+      },
+      "max_inclusive": {
+        "absolute": 0.7
       }
     },
     "wetness": {
@@ -29,9 +31,11 @@
     },
     "radius": {
       "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 2,
-        "max_inclusive": 8
+      "min_inclusive": {
+        "absolute": 2
+      },
+      "max_inclusive": {
+        "absolute": 8
       }
     },
     "max_stalagmite_stalactite_height_diff": 1,
@@ -39,9 +43,11 @@
     "floor_to_ceiling_search_range": 52,
     "height": {
       "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 3,
-        "max_inclusive": 6
+      "min_inclusive": {
+        "absolute": 3
+      },
+      "max_inclusive": {
+        "absolute": 6
       }
     }
   }

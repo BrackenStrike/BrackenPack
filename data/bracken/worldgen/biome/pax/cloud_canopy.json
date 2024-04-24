@@ -82,7 +82,7 @@
       "offset": 2
     },
     "music": {
-      "sound": "bracken:pax",
+      "sound": "minecraft:music.nether.basalt_deltas",
       "min_delay": 1200,
       "max_delay": 2400,
       "replace_current_music": false

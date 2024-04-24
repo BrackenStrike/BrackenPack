@@ -5,11 +5,13 @@
             "type": "count",
             "count": {
                 "type": "minecraft:uniform",
-                "value": {
-                    "min_inclusive": 0,
-                    "max_inclusive": 5
+                "min_inclusive": {
+                  "absolute": 0
+                },
+                "max_inclusive": {
+                  "absolute": 5
                 }
-            }
+              }
         },
         {
             "type": "minecraft:in_square"
@@ -18,7 +20,7 @@
             "type": "minecraft:height_range",
             "height": {
                 "min_inclusive": {
-                    "above_bottom": 4
+                    "absolute": 4
                 },
                 "max_inclusive": {
                     "below_top": 4
