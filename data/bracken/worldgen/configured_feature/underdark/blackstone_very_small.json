@@ -7,12 +7,6 @@
     "state": {
       "Name": "minecraft:blackstone"
     },
-    "radius": {
-      "value": {
-        "min_inclusive": 0,
-        "max_inclusive": 1
-      },
-      "type": "minecraft:uniform"
-    }
+    "radius": 0
   }
 }
