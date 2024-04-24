@@ -165,63 +165,7 @@
         }
       },
       
-      {
-        "chance": 0.1,
-        "feature": {
-          "feature": {
-            "type": "minecraft:simple_block",
-            "config": {
-              "to_place": {
-                "type": "minecraft:simple_state_provider",
-                "state": {
-                  "Properties": {
-                    "half": "lower"
-                  },
-                  "Name": "minecraft:pitcher_pant"
-                }
-              }
-            }
-          },
-          "placement": [
-            {
-              "type": "minecraft:block_predicate_filter",
-              "predicate": {
-                "type": "minecraft:all_of",
-                "predicates": [
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      -1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:packed_ice"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  },
-                  {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      1,
-                      0
-                    ],
-                    "blocks": [
-                      "minecraft:air"
-                    ]
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
+      
       {
         "chance": 0.2,
         "feature": {

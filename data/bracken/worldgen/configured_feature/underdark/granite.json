@@ -7,14 +7,6 @@
     "state": {
       "Name": "minecraft:granite"
     },
-    "radius": {
-      "type": "minecraft:uniform",
-      "min_inclusive": {
-        "absolute": 8
-      },
-      "max_inclusive": {
-        "absolute": 10
-      }
-    }
+    "radius": 9
   }
 }

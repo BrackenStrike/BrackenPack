@@ -7,14 +7,6 @@
     "state": {
       "Name": "minecraft:infested_stone"
     },
-    "radius": {
-      "type": "minecraft:uniform",
-      "min_inclusive": {
-        "absolute": 1
-      },
-      "max_inclusive": {
-        "absolute": 2
-      }
-    }
+    "radius": 2
   }
 }

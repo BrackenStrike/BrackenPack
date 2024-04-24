@@ -29,45 +29,13 @@
       }
     },
     "probability": 0.01,
-    "y": {
-      "min_inclusive": {
-        "absolute": 10
-      },
-      "max_inclusive": {
-        "absolute": 67
-      },
-      "type": "minecraft:uniform"
-    },
-    "vertical_rotation": {
-        "type": "minecraft:uniform",
-        "min_inclusive": {
-          "absolute": -0.125
-        },
-        "max_inclusive": {
-          "absolute": 0.125
-        }
-      },
+    "y": 40,
+    "vertical_rotation": 0,
     "shape": {
-      "horizontal_radius_factor": {
-        "type": "minecraft:uniform",
-        "min_inclusive": {
-          "absolute": 0.75
-        },
-        "max_inclusive": {
-          "absolute": 1
-        }
-      },
+      "horizontal_radius_factor": 0.9,
       "vertical_radius_default_factor": 1,
       "vertical_radius_center_factor": 0,
-      "distance_factor": {
-        "type": "minecraft:uniform",
-        "min_inclusive": {
-          "absolute": 0.75
-        },
-        "max_inclusive": {
-          "absolute": 1
-        }
-      },
+      "distance_factor": 0.9,
       "thickness": {
         "type": "minecraft:trapezoid",
         "value": {

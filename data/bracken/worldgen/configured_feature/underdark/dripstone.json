@@ -6,9 +6,11 @@
     "max_distance_from_center_affecting_height_bias": 8,
     "dripstone_block_layer_thickness": {
       "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 2,
-        "max_inclusive": 4
+      "min_inclusive": {
+        "absolute": 2
+      },
+      "max_inclusive": {
+        "absolute": 4
       }
     },
     "density": {
