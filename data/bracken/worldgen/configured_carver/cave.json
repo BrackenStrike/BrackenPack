@@ -1,14 +1,6 @@
 {
   "config": {
-    "yScale": {
-      "type": "minecraft:uniform",
-      "min_inclusive": {
-        "absolute": 0.1
-      },
-      "max_inclusive": {
-        "absolute": 0.9
-      }
-    },
+    "yScale": 0.5,
     "lava_level": {
       "above_bottom": 0
     },

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:large_dripstone",
   "config": {
-    "wind_speed": 1.5,
-    "min_radius_for_wind": 4,
+    "wind_speed": 1.4,
+    "min_radius_for_wind": 1,
     "min_bluntness_for_wind": 0.6,
     "stalactite_bluntness": 0.6,
     "stalagmite_bluntness": 0.7,
