@@ -5,10 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
+          "name": "minecraft:carrot_on_a_stick"
+        }
+       
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
               "name": {
                 "translate": "Adamantine Will",
                 "color": "yellow",
@@ -23,15 +26,21 @@
                   "color": "gray",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
             },
+            
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"adamantine_will\"},CustomModelData:888510,Enchantments:[{}]}"
+              "function": "minecraft:set_custom_model_data",
+              "value": 888510
+            },
+                        
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{bp:{id:\"adamantine_will\"}}"
             }
           ]
         }
       ]
     }
-  ]
-}
+    

@@ -5,13 +5,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
+          "name": "minecraft:carrot_on_a_stick"
+        }
+       
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
               "name": {
                 "translate": "Frostlock",
-                "color": "light_purple",
+                "color": "yellow",
                 "italic": false
               }
             },
@@ -23,15 +26,20 @@
                   "color": "gray",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
             },
+            
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"frostlock\"},CustomModelData:888512,Enchantments:[{}]}"
+              "function": "minecraft:set_custom_model_data",
+              "value": 888512
+            },
+                        
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{bp:{id:\"frostlock\"}}"
             }
           ]
         }
       ]
     }
-  ]
-}

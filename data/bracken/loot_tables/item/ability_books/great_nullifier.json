@@ -5,13 +5,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
+          "name": "minecraft:carrot_on_a_stick"
+        }
+       
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
               "name": {
-                "translate": "Great Nullifier",
-                "color": "light_purple",
+                "translate": "Great Nulifier",
+                "color": "yellow",
                 "italic": false
               }
             },
@@ -23,15 +26,20 @@
                   "color": "gray",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
             },
+            
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"great_nullifier\"},CustomModelData:888517,Enchantments:[{}]}"
+              "function": "minecraft:set_custom_model_data",
+              "value": 888517
+            },
+                        
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{bp:{id:\"great_nullifier\"}}"
             }
           ]
         }
       ]
     }
-  ]
-}

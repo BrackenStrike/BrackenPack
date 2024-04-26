@@ -5,13 +5,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
+          "name": "minecraft:carrot_on_a_stick"
+        }
+       
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
               "name": {
                 "translate": "Worm Toothed Burrower",
-                "color": "light_purple",
+                "color": "yellow",
                 "italic": false
               }
             },
@@ -23,15 +26,20 @@
                   "color": "gray",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
             },
+            
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{tags:[\"bp.fire_immune\"],bp:{id:\"worm_toothed_burrower\"},CustomModelData:888516,Enchantments:[{}]}"
+              "function": "minecraft:set_custom_model_data",
+              "value": 888516
+            },
+                        
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{tags:[\"bp.fire_immune\"],bp:{id:\"worm_toothed_burrower\"}}"
             }
           ]
         }
       ]
     }
-  ]
-}
