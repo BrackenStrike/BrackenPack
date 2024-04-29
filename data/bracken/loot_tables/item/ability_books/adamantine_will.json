@@ -19,6 +19,12 @@
               }
             },
             {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              }
+            },
+            {
               "function": "minecraft:set_lore",
               "lore": [
                 {
