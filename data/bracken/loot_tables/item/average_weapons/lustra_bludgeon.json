@@ -7,24 +7,20 @@
           "type": "item",
           "name": "minecraft:netherite_sword",
           "functions": [
+            
             {
-              "function": "set_nbt",
-              "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:3,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.15,Operation:1,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"offhand\"}],CustomModelData:888525}"
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Lustra Bludgeon",
+                "italic": false
+              }
+              
             },
             {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "Lustra Bludgeon",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
+              "function": "minecraft:set_lore",
+              "entity": "this",
               "lore": [
-               
                 {
                   "translate": "",
                   "color": "blue",
@@ -37,7 +33,7 @@
                   "italic": false
                 },
                 {
-                  "translate": " 4 Attack Damage",
+                  "translate": " 7 Attack Damage",
                   "color": "dark_green",
                   "italic": false
                 },
@@ -47,18 +43,52 @@
                   "italic": false
                 },
                 {
-                  "translate": " 15% Knockback Resistance",
+                  "translate": " 10% Knockback Resistance",
                   "color": "dark_green",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
             },
-            
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 888525
+            },     
+            {
+              "function": "minecraft:set_attributes",         
+              "modifiers": [
+                
+                {
+                  "attribute": "minecraft:generic.knockback_resistance",
+                  "name": "a",
+                  "amount": 0.1,
+                  
+                  "operation": "add_value",
+                   "slot": [
+                    "offhand",
+                    "mainhand"
+                  ]              
 
-
-
-
-
+                  
+                },            
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "b",
+                  
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                  
+                }
+              ]
+                  
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "attribute_modifiers": false
+              }
+            },
             {
               "function": "set_damage",
               "damage": {
@@ -72,4 +102,3 @@
     }
   ]
 }
-

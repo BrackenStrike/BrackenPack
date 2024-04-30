@@ -63,7 +63,7 @@
                   "name": "a",
                   "amount": -0.3,
                   
-                  "operation": "add_value",
+                  "operation": "add_multiplied_base",
                    "slot":"mainhand"
                              
 
