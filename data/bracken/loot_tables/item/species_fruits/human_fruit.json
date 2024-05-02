@@ -4,41 +4,44 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
-          "name": "minecraft:apple",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888508}"
+          "type": "minecraft:item",
+          "name": "minecraft:apple"
+        }
+       
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
+              "name": {
+                "translate": "Human Fruit",
+                "color": "light_purple",
+                "italic": false
+              }
             },
             {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "Human Fruit",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
+              "function": "minecraft:set_lore",
+              "entity": "this",
               "lore": [
                 {
                   "translate": "Become Human",
                   "color": "blue",
                   "italic": false
                 }
-              ]
-            },
+              ],
+              "mode": "insert"
+            },           
+            
+            
             {
-              "function": "minecraft:set_nbt",
+              "function": "minecraft:set_custom_model_data",
+              "value": 888508
+            },
+                        
+            {
+              "function": "minecraft:set_custom_data",
               "tag": "{bp:{species_fruit:1b,id:\"human_fruit\"}}"
             }
           ]
         }
       ]
     }
-  ]
-}
-

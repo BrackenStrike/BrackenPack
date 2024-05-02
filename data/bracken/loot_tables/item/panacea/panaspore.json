@@ -4,24 +4,28 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
-          "name": "minecraft:melon_seeds",
-          "functions": [
+          "type": "minecraft:item",
+          "name": "minecraft:melon_seeds"
+        }
+       
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
+          "name": {
+            "translate": "Panaspore"
+          }
+        },
+        
+        
+            
+            
+            
             {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888502}"
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "Panaspore"
-                }
-              ]
+              "function": "minecraft:set_custom_model_data",
+              "value": 888502
             }
           ]
         }
       ]
     }
-  ]
-}
