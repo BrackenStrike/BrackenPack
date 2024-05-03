@@ -115,13 +115,13 @@
           }
         },
         {
-          "biome": "bracken:panacea/creeper_dominion",
+          "biome": "bracken:panacea/crimson_organism",
           "parameters": {
             "temperature": 1,
-            "humidity": 1,
+            "humidity": 0.9,
             "continentalness": 0,
             "erosion": 0,
-            "weirdness": 0.8,
+            "weirdness": 0.9,
             "depth": 0,
             "offset": 0.1
           }
