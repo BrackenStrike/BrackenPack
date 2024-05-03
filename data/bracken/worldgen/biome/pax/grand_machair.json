@@ -10,7 +10,7 @@
     "creature": [
       {
         "type": "minecraft:sheep",
-        "weight": 120,
+        "weight": 12,
         "minCount": 4,
         "maxCount": 4
       }
@@ -24,9 +24,10 @@
     [],
     [],
     ["bracken:pax/rock"],
-    [],
-    [],
-    [],
+    ["bracken:pax/platform"],
+    ["bracken:pax/column"],
+    ["minecraft:trees_meadow",
+    "minecraft:trees_swamp"],
     [],
     [],
     [],
@@ -46,8 +47,8 @@
     "sky_color": 13361126,
     "water_color": 11851209,
     "water_fog_color": 2173534,
-    "grass_color": 10541704,
-    "foliage_colour": 10541704,
+    "grass_color": 10530139,
+    "foliage_colour": 10530139,
     "particle": {
       "options": {
         "type": "minecraft:falling_nectar"

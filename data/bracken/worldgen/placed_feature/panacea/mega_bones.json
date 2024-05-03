@@ -1,0 +1,12 @@
+{
+    "feature": "bracken:panacea/mega_bones",
+    "placement": [
+        {
+            "type": "count",
+            "count": 2
+        },
+        {
+            "type": "minecraft:in_square"
+        }
+    ]
+}

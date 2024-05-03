@@ -14,18 +14,20 @@
     "air": []
   },
   "features": [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
+    [
+      "minecraft:forest_rock"
+    ],
+    ["bracken:panacea/meat_dec"],
+    ["bracken:panacea/bones"],
+    ["bracken:panacea/meat_pool"],
+    ["bracken:panacea/mega_bones"],
+    ["bracken:panacea/path"],
     [],
     [],
     ["bracken:panacea/coal_blobs"],
     [
-      "bracken:panacea/creeper_dec",
-      "bracken:panacea/bones",
+      
+      
       "bracken:panacea/meat"
     ],
     [
