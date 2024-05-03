@@ -256,7 +256,7 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:chiseled_quartz_block"
+                  "Name": "minecraft:grass_block"
                 }
               }
             },
@@ -272,7 +272,7 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:quartz_block"
+                  "Name": "minecraft:dirt"
                 }
               }
             }

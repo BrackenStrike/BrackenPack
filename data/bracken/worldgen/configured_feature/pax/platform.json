@@ -12,7 +12,10 @@
     "ground_state": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:chiseled_quartz_block"
+        "Name": "minecraft:grass_block",
+        "Properties": {
+          "snowy": "false"
+        }
       }
     },
     "vegetation_feature": {
@@ -36,10 +39,7 @@
                     "provider": {
                       "type": "minecraft:simple_state_provider",
                       "state": {
-                        "Name": "minecraft:grass_block",
-                        "Properties": {
-                          "snowy": "false"
-                        }
+                        "Name": "minecraft:chiseled_quartz_block"
                       }
                     }
                   }
