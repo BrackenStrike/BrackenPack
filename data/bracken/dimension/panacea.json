@@ -115,6 +115,18 @@
           }
         },
         {
+          "biome": "bracken:panacea/creeper_dominion",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.8,
+            "depth": 0,
+            "offset": 0.1
+          }
+        },
+        {
           "biome": "bracken:panacea/bamboo_valley",
           "parameters": {
             "temperature": -0.75,

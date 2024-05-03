@@ -31,6 +31,18 @@
           }
         },
         {
+          "biome": "bracken:pax/grand_machair",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": -0.6,
+            "continentalness": -0.5,
+            "erosion": 0,
+            "weirdness": -0.5,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
           "biome": "bracken:pax/cloud_canopy",
           "parameters": {
             "temperature": -0.5,
