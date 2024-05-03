@@ -9,7 +9,7 @@
     "layers": [
       
       {
-        "height": 4,
+        "height": 8,
         "provider": {
           "type": "minecraft:simple_state_provider",
           "state": {

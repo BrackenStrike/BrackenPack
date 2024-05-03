@@ -15,9 +15,10 @@
   },
   "features": [
     [
-      "minecraft:forest_rock"
+      "minecraft:forest_rock",
+      "bracken:panacea/meat_dec"
     ],
-    ["bracken:panacea/meat_dec"],
+    ["bracken:panacea/creeper_dec"],
     ["bracken:panacea/bones"],
     ["bracken:panacea/meat_pool"],
     [],

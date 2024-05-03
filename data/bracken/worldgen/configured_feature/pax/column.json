@@ -29,7 +29,7 @@
         }
       },
       {
-        "height": 10,
+        "height": 1,
         "provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
