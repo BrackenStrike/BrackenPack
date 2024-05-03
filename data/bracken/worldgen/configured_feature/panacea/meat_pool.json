@@ -14,7 +14,15 @@
     "barrier": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:nether_wart_block"
+        "Name": "minecraft:mushroom_stem",
+        "Properties": {
+          "west": "true",
+          "up": "true",
+          "south": "true",
+          "north": "true",
+          "east": "true",
+          "down": "true"
+        }
       }
     }
   }

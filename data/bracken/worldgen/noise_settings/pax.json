@@ -256,7 +256,7 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:grass_block"
+                  "Name": "minecraft:chiseled_quartz_block"
                 }
               }
             },

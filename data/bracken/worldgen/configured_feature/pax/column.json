@@ -12,21 +12,12 @@
         "provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:fire"
+            "Name": "minecraft:quartz_block"
           }
         }
       },
       {
-        "height": 1,
-        "provider": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "minecraft:gold_block"
-          }
-        }
-      },
-      {
-        "height": 10,
+        "height": 3,
         "provider": {
           "type": "minecraft:simple_state_provider",
           "state": {
@@ -36,8 +27,18 @@
             }
           }
         }
+      },
+      {
+        "height": 10,
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:quartz_block"
+          }
+        }
       }
     ]
   }
 }
+
 
