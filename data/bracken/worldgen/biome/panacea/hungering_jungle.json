@@ -80,12 +80,7 @@
         "minCount": 4,
         "maxCount": 4
       },
-      {
-        "type": "minecraft:zombie_horse",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      },
+      
       {
         "type": "minecraft:spider",
         "weight": 5,
