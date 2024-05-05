@@ -9,9 +9,12 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:fishing_rod",
-            "nbt": "{CustomModelData:888501}"
-        },
+            "id": "minecraft:fishing_rod",
+            "components": {
+              
+              "minecraft:custom_model_data": 888501
+            }
+          },
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

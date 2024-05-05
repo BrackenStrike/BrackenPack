@@ -9,8 +9,11 @@
       "color": "green"
     },
     "icon": {
-      "item": "minecraft:leather_chestplate",
-      "nbt": "{CustomModelData:888502}"
+      "id": "minecraft:leather_chestplate",
+      "components": {
+        
+        "minecraft:custom_model_data": 888502
+      }
     },
     "frame": "challenge",
     "show_toast": true,
@@ -32,7 +35,9 @@
                   "items": [
                     "minecraft:leather_leggings"
                   ],
-                  "nbt": "{CustomModelData:888502}"
+                  "components": {
+                      "minecraft:custom_model_data": 888502
+                  }
                 }
               }
             }
@@ -46,7 +51,9 @@
                   "items": [
                     "minecraft:leather_boots"
                   ],
-                  "nbt": "{CustomModelData:888502}"
+                  "components": {
+                      "minecraft:custom_model_data": 888502
+                  }
                 }
               }
             }
@@ -60,7 +67,9 @@
                   "items": [
                     "minecraft:leather_chestplate"
                   ],
-                  "nbt": "{CustomModelData:888502}"
+                  "components": {
+                      "minecraft:custom_model_data": 888502
+                  }
                 }
               }
             }

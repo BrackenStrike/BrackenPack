@@ -9,9 +9,13 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner:MHF_Ghast}"
-        },
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                  "name": "MHF_Ghast"
+                }
+              }
+          },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
