@@ -17,13 +17,8 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:glacium/wake1": {
-            "trigger": "minecraft:impossible"
+        "discovered": {
+          "trigger": "minecraft:impossible"
         }
-    },
-    "requirements": [
-        [
-            "bracken:glacium/wake1"
-        ]
-    ]
+      }
 }

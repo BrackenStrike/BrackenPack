@@ -1,5 +1,5 @@
 {
-    "parent": "bracken:glacium/wake",
+    "parent": "bracken:glacium/enter_glacium",
     "display": {
         "title": {
             "translate": "Aim High"

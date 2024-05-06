@@ -18,15 +18,8 @@
   },
   "parent": "bracken:omnidrome/living_palace",
   "criteria": {
-      "bracken:omnidrome/boss1": {
-        "trigger": "minecraft:impossible",
-        "conditions": {}
-      }
-  },
-  
-  "requirements": [
-      [
-        "bracken:omnidrome/boss1"
-      ]
-  ]
+    "discovered": {
+      "trigger": "minecraft:impossible"
+    }
+  }
 }

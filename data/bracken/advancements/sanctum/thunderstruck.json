@@ -21,13 +21,8 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:sanctum/thunderstruck1": {
-            "trigger": "minecraft:impossible"
+        "discovered": {
+          "trigger": "minecraft:impossible"
         }
-    },
-    "requirements": [
-        [
-            "bracken:sanctum/thunderstruck1"
-        ]
-    ]
+      }
 }

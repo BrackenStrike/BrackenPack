@@ -21,14 +21,9 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/gastor1": {
-            "trigger": "minecraft:impossible"
+        "discovered": {
+          "trigger": "minecraft:impossible"
         }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/gastor1"
-        ]
-    ]
+      }
 }
 

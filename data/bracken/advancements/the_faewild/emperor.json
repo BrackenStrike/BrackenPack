@@ -24,15 +24,10 @@
     "hidden": false
   },
   "criteria": {
-    "bracken:the_faewild/emperor1": {
-        "trigger": "minecraft:impossible"
+    "discovered": {
+      "trigger": "minecraft:impossible"
     }
-},
-  "requirements": [
-    [
-      "bracken:the_faewild/emperor1"
-    ]
-  ]
+  }
 }
 
 
