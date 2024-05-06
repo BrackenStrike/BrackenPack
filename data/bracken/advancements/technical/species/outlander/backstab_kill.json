@@ -3,9 +3,15 @@
 		"requirement": {
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
-				"player": {
-					"nbt": "{Tags:[\"bp.outlander\"]}"
-				},
+				"player": [
+					{
+					  "condition": "minecraft:entity_properties",
+					  "entity": "this",
+					  "predicate": {
+						"nbt": "{Tags:[\"bp.outlander\"]}"
+					  }
+					}
+				  ],
 				"entity": {
 					"nbt": "{Tags:[\"bp.outlander_backstab\"]}"
 				}

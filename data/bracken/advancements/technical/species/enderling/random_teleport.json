@@ -3,9 +3,15 @@
     "requirement": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "player": {
-          "nbt": "{Tags:[\"bp.enderling\"]}"
-        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"bp.enderling\"]}"
+            }
+          }
+        ],
         "item": {
           "items": [
             "minecraft:chorus_fruit"
@@ -18,3 +24,5 @@
     "function": "bracken:player/species/enderling/random_teleport"
   }
 }
+
+
