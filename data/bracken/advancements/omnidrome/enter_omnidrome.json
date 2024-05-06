@@ -25,11 +25,11 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                    "location": {
-                        "dimension": "bracken:omnidrome"
-                    }
+                  "location": {
+                    "dimension": "bracken:omnidrome"
+                  }
                 }
-            }
+              }
         }
     },
     "requirements": [

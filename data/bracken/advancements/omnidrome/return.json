@@ -20,26 +20,13 @@
         "bracken:omnidrome/return1": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:player",
-                            "nbt": "{Tags:[\"bp.automech\"]}"
-                        }
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "dimension": "bracken:omnidrome"
-                            }
-                        }
-                    }
-                ]
-            }
+                "player": {
+                  "location": {
+                    "dimension": "bracken:omnidrome"
+                  },
+                  "nbt": "{Tags:[\"bp.automech\"]}"
+                }
+              }
         }
     },
     "requirements": [
@@ -48,3 +35,8 @@
         ]
     ]
 }
+
+
+
+
+

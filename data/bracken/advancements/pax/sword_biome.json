@@ -25,11 +25,11 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                    "location": {
-                        "biome": "bracken:pax/cenotaph"
-                    }
+                  "location": {
+                    "biome": "bracken:pax/cenotaph"
+                  }
                 }
-            }
+              }
         }
     },
     "requirements": [

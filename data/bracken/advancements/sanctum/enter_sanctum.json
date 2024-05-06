@@ -25,11 +25,11 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                    "location": {
-                        "dimension": "bracken:sanctum"
-                    }
+                  "location": {
+                    "dimension": "bracken:sanctum"
+                  }
                 }
-            }
+              }
         }
     },
     "requirements": [

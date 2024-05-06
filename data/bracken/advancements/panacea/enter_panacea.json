@@ -25,11 +25,11 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                    "location": {
-                        "dimension": "bracken:panacea"
-                    }
+                  "location": {
+                    "dimension": "bracken:panacea"
+                  }
                 }
-            }
+              }
         }
     },
     "requirements": [

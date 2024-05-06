@@ -22,7 +22,7 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:glacium/boat1": {
+        "bracken:glacium/valk1": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": [
@@ -43,7 +43,7 @@
     },
     "requirements": [
         [
-            "bracken:glacium/boat1"
+            "bracken:glacium/valk1"
         ]
     ]
 }
