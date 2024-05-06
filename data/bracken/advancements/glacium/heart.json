@@ -1,5 +1,5 @@
 {
-    "parent": "bracken:glacium/enter_glacium",
+    "parent": "bracken:glacium/fatigue",
     "display": {
         "title": {
             "translate": "Vestige of Vanity"

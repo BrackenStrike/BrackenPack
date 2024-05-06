@@ -4,9 +4,13 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
-          "equipment": {
-            "mainhand": {
-              "nbt": "{bp:{id:\"cleaver_of_judgement\"}}"
+         
+          "slots": {
+            "weapon.mainhand": {
+              "items": "minecraft:netherite_sword",
+              "components": {
+                "minecraft:custom_model_data": 888502
+              }
             }
           }
         },
@@ -20,3 +24,5 @@
     "function": "bracken:item/cleaver_of_judgement/deal_damage"
   }
 }
+
+

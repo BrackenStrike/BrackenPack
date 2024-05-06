@@ -4,8 +4,14 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
-          "nbt": "{bp:{id:\"creeper_horn\"}}"
-        }
+          "items": [
+              "minecraft:goat_horn"
+          ],
+          "components": {
+              
+              "minecraft:custom_model_data": 888501
+          }
+      }
       }
     }
   },
