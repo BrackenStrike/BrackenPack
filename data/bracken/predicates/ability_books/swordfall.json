@@ -4,7 +4,9 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "nbt": "{bp:{id:\"swordfall\"}}"
+        "predicates": {
+          "minecraft:custom_data": "{bp:{id:\"swordfall\"}}"
+        }
       }
     }
   }

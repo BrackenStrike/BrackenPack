@@ -3,14 +3,16 @@
     "requirement": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "items": [
-            "minecraft:apple"
-        ],
-        "components": {
-            
-            "minecraft:custom_model_data": 888502
-        }
-    }
+        "item": {
+          "items": [
+              "minecraft:apple"
+          ],
+          "components": {
+              
+              "minecraft:custom_model_data": 888502
+          }
+      }
+      }
     }
   },
   "rewards": {

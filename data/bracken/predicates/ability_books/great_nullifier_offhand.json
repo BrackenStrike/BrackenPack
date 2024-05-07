@@ -4,7 +4,9 @@
   "predicate": {
     "equipment": {
       "offhand": {
-        "nbt": "{bp:{id:\"great_nullifier\"}}"
+        "predicates": {
+          "minecraft:custom_data": "{bp:{id:\"great_nullifier\"}}"
+        }
       }
     }
   }

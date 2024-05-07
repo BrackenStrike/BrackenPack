@@ -1,21 +1,23 @@
 {
+  "parent": "bracken:panacea/enter_panacea",
+  
   "criteria": {
-    "requirement": {
-      "trigger": "minecraft:using_item",
-      "conditions": {
-        "item": {
-          "items": [
-              "minecraft:goat_horn"
-          ],
-          "components": {
-              
+    "bracken:panacea/creeperhorn1": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": {},
+          "item": {
+            "items": "minecraft:goat_horn",
+            "components": {
               "minecraft:custom_model_data": 888501
+            }
           }
-      }
-      }
+        }
     }
-  },
-  "rewards": {
-    "function": "bracken:item/creeper_horn"
-  }
+},
+"requirements": [
+    [
+        "bracken:panacea/creeperhorn1"
+    ]
+]
 }

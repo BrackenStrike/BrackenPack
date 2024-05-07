@@ -4,7 +4,9 @@
   "predicate": {
     "equipment": {
       "mainhand": {
-        "nbt": "{bp:{id:\"worm_toothed_burrower\"}}"
+        "predicates": {
+          "minecraft:custom_data": "{bp:{id:\"worm_toothed_burrower\"}}"
+        }
       }
     }
   }
