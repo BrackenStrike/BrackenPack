@@ -7,12 +7,6 @@
     "state": {
       "Name": "minecraft:smooth_quartz"
     },
-    "radius": {
-      "value": {
-        "min_inclusive": 9,
-        "max_inclusive": 10
-      },
-      "type": "minecraft:uniform"
-    }
+    "radius": 10
   }
 }

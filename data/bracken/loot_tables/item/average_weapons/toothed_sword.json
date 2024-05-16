@@ -7,24 +7,20 @@
           "type": "item",
           "name": "minecraft:wooden_sword",
           "functions": [
+            
             {
-              "function": "set_nbt",
-              "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:1,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"offhand\"}],CustomModelData:888509}"
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Toothed Sword",
+                "italic": false
+              }
+              
             },
             {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "Toothed Sword",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore":  [
-               
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
                 {
                   "translate": "",
                   "color": "blue",
@@ -46,9 +42,35 @@
                   "color": "dark_green",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
             },
-            
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 888509
+            },     
+            {
+              "function": "minecraft:set_attributes",         
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "a",
+                  
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                  
+                }
+                
+              ]
+                  
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "attribute_modifiers": false
+              }
+            },
             {
               "function": "set_damage",
               "damage": {
@@ -62,3 +84,4 @@
     }
   ]
 }
+

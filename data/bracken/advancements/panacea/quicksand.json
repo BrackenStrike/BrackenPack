@@ -17,13 +17,8 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/quicksand1": {
-            "trigger": "minecraft:impossible"
+        "discovered": {
+          "trigger": "minecraft:impossible"
         }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/quicksand1"
-        ]
-    ]
+      }
 }

@@ -9,10 +9,7 @@
   },
   "spawn_costs": {},
   "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
+    "air": []
   },
   "features": [
     ["bracken:omnidrome/cyber_tree2"],

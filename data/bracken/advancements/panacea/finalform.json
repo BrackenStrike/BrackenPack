@@ -17,14 +17,9 @@
     "hidden": false
   },
   "criteria": {
-    "bracken:panacea/finalform1": {
-        "trigger": "minecraft:impossible"
+    "discovered": {
+      "trigger": "minecraft:impossible"
     }
-},
-  "requirements": [
-    [
-      "bracken:panacea/finalform1"
-    ]
-  ]
+  }
 }
 

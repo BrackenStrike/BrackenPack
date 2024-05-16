@@ -59,10 +59,7 @@
   },
   "spawn_costs": {},
   "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
+    "air": []
   },
   "features": [
     ["minecraft:spring_lava_frozen",
@@ -113,7 +110,7 @@
       "tick_chance": 0.02
     },
     "music": {
-      "sound": "bracken:glacium",
+      "sound": "minecraft:music.nether.basalt_deltas",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false

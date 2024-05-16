@@ -17,15 +17,8 @@
   },
   "parent": "bracken:sanctum/vault",
   "criteria": {
-      "bracken:sanctum/boss1": {
-        "trigger": "minecraft:impossible",
-        "conditions": {}
-      }
-  },
-  
-  "requirements": [
-      [
-        "bracken:sanctum/boss1"
-      ]
-  ]
+    "discovered": {
+      "trigger": "minecraft:impossible"
+    }
+  }
 }

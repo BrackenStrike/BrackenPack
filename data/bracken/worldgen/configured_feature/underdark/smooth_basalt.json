@@ -7,12 +7,6 @@
     "state": {
       "Name": "minecraft:smooth_basalt"
     },
-    "radius": {
-      "value": {
-        "min_inclusive": 0,
-        "max_inclusive": 3
-      },
-      "type": "minecraft:uniform"
-    }
+    "radius": 2
   }
 }

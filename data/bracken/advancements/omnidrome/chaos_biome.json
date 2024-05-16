@@ -21,11 +21,12 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                    "location": {
-                        "biome": "bracken:omnidrome/archivistory"
-                    }
+                  "location": {
+                    "dimension": "bracken:glacium",
+                    "biome": "bracken:omnidrome/archivistory"
+                  }
                 }
-            }
+              }
         }
     },
     "requirements": [
@@ -34,3 +35,6 @@
         ]
     ]
 }
+
+
+

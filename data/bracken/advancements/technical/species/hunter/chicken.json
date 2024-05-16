@@ -4,9 +4,15 @@
     "requirement": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "player": {
-          "team": "Hunter"
-        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "team": "Hunter"
+            }
+          }
+        ],
         "item": {
           "items": [
             "minecraft:chicken"

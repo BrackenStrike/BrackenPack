@@ -7,24 +7,20 @@
           "type": "item",
           "name": "minecraft:netherite_sword",
           "functions": [
+            
             {
-              "function": "set_nbt",
-              "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:7,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"player.entity_interaction_range\",Name:\"player.entity_interaction_range\",Amount:1,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"}],CustomModelData:888515}"
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Netherite Greatsword",
+                "italic": false
+              }
+              
             },
             {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "Netherite Greatsword",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
+              "function": "minecraft:set_lore",
+              "entity": "this",
               "lore": [
-               
                 {
                   "translate": "",
                   "color": "blue",
@@ -51,14 +47,46 @@
                   "color": "dark_green",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
             },
-            
-
-
-
-
-
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 888515
+            },     
+            {
+              "function": "minecraft:set_attributes",         
+              "modifiers": [
+                
+                         
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "b",
+                  
+                  "amount": 7,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                  
+                },
+                {
+                  "attribute": "minecraft:player.entity_interaction_range",
+                  "name": "c",
+                  
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                  
+                }
+                
+              ]
+                  
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "attribute_modifiers": false
+              }
+            },
             {
               "function": "set_damage",
               "damage": {
@@ -72,4 +100,3 @@
     }
   ]
 }
-

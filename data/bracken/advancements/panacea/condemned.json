@@ -20,18 +20,12 @@
         "bracken:panacea/condemned1": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:panacea/condemned_taiga"
-                            }
-                        }
-                    }
-                ]
-            }
+                "player": {
+                  "location": {
+                    "biome": "bracken:panacea/condemned_taiga"
+                  }
+                }
+              }
         }
     },
     "requirements": [

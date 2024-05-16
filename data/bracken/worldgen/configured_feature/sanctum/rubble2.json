@@ -8,7 +8,7 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:cracked_polished_deepslate_bricks"
+        "Name": "minecraft:deepslate_bricks"
       }
     },
     "trunk_provider": {

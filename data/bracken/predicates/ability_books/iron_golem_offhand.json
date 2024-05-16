@@ -4,7 +4,9 @@
   "predicate": {
     "equipment": {
       "offhand": {
-        "nbt": "{bp:{id:\"iron_golem\"}}"
+        "predicates": {
+          "minecraft:custom_data": "{bp:{id:\"iron_golem\"}}"
+        }
       }
     }
   }

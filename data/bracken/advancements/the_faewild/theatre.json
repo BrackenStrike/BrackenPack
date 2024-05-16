@@ -9,9 +9,27 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:blue_banner",
-            "nbt": "{BlockEntityTag:{Patterns:[{Color:4,Pattern:\"flo\"},{Color:4,Pattern:\"bo\"}]}}"
-        },
+            "id": "minecraft:blue_banner",
+            "components": {
+                "items": [
+                  {
+                    "items": "minecraft:blue_banner",
+                    "components": {
+                      "minecraft:banner_patterns": [
+                        {
+                          "pattern": "minecraft:flower",
+                          "color": "yellow"
+                        },
+                        {
+                          "pattern": "minecraft:border",
+                          "color": "yellow"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+          },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
@@ -42,3 +60,4 @@
         ]
     ]
 }
+

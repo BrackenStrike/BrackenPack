@@ -21,12 +21,11 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                    "location": {
-
-                        "structure": "bracken:omnidrome_living_palace"
-                    }
+                  "location": {
+                    "structure": "bracken:omnidrome_living_palace"                    
+                  }
                 }
-            }
+              }
         }
     },
     "requirements": [

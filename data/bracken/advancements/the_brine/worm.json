@@ -9,22 +9,20 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:bamboo",
-            "nbt": "{CustomModelData:888520}"
-        },
+            "id": "minecraft:bamboo",
+            "components": {
+              
+              "minecraft:custom_model_data": 888520
+            }
+          },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "bracken:the_brine/worm1": {
-            "trigger": "minecraft:impossible"
+        "discovered": {
+          "trigger": "minecraft:impossible"
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_brine/worm1"
-        ]
-    ]
+      }
 }

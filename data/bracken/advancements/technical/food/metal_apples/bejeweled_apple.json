@@ -4,8 +4,14 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "nbt": "{bp:{id:\"bejeweled_apple\"}}"
-        }
+          "items": [
+              "minecraft:apple"
+          ],
+          "components": {
+              
+              "minecraft:custom_model_data": 888518
+          }
+      }
       }
     }
   },

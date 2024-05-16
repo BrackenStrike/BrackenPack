@@ -20,18 +20,13 @@
         "bracken:panacea/creeper1": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:panacea/creeper_dominion"
-                            }
-                        }
-                    }
-                ]
-            }
+                "player": {
+                  "location": {
+                    
+                    "biome": "bracken:panacea/creeper_dominion"
+                  }
+                }
+              }
         }
     },
     "requirements": [

@@ -17,13 +17,8 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/rain1": {
-            "trigger": "minecraft:impossible"
+        "discovered": {
+          "trigger": "minecraft:impossible"
         }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/rain1"
-        ]
-    ]
+      }
 }

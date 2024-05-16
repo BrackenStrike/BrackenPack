@@ -21,11 +21,11 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                    "location": {
-                        "biome": "bracken:pax/autumn_idyll"
-                    }
+                  "location": {
+                    "biome": "bracken:pax/autumn_idyll"
+                  }
                 }
-            }
+              }
         }
     },
     "requirements": [

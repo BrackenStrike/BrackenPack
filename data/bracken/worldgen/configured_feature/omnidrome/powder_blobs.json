@@ -7,12 +7,6 @@
     "state": {
       "Name": "minecraft:white_concrete_powder"
     },
-    "radius": {
-      "value": {
-        "min_inclusive": 5,
-        "max_inclusive": 9
-      },
-      "type": "minecraft:uniform"
-    }
+    "radius": 8
   }
 }

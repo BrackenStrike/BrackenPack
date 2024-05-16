@@ -9,9 +9,16 @@
       "color": "green"
     },
     "icon": {
-      "item": "minecraft:black_banner",
-      "nbt": "{BlockEntityTag:{Base:15,Patterns:[{Pattern:sku,Color:0}]}}"
-  },
+      "id": "minecraft:black_banner",
+      "components": {
+        "minecraft:banner_patterns": [
+          {
+            "pattern": "minecraft:skull",
+            "color": "white"
+          }
+        ]
+      }
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -37,3 +44,4 @@
     ]
   ]
 }
+

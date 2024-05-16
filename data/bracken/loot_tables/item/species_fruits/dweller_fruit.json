@@ -4,41 +4,45 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
-          "name": "minecraft:apple",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888504}"
+          "type": "minecraft:item",
+          "name": "minecraft:apple"
+        }
+       
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
+              "name": {
+                "translate": "Dweller Fruit",
+                "color": "light_purple",
+                "italic": false
+              }
             },
             {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "Dweller Fruit",
-                  "color": "light_purple",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
+              "function": "minecraft:set_lore",
+              "entity": "this",
               "lore": [
                 {
                   "translate": "Become Dweller",
                   "color": "blue",
                   "italic": false
                 }
-              ]
-            },
+              ],
+              "mode": "insert"
+            },           
+            
+            
             {
-              "function": "minecraft:set_nbt",
+              "function": "minecraft:set_custom_model_data",
+              "value": 888504
+            },
+                        
+            {
+              "function": "minecraft:set_custom_data",
               "tag": "{bp:{species_fruit:1b,id:\"dweller_fruit\"}}"
             }
           ]
         }
       ]
     }
-  ]
-}
 

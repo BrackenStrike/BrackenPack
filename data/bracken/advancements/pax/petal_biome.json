@@ -21,11 +21,11 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                    "location": {
-                        "biome": "bracken:pax/petal_grove"
-                    }
+                  "location": {
+                    "biome": "bracken:pax/petal_grove"
+                  }
                 }
-            }
+              }
         }
     },
     "requirements": [

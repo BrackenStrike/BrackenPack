@@ -7,12 +7,6 @@
     "state": {
       "Name": "minecraft:moss_block"
     },
-    "radius": {
-      "value": {
-        "min_inclusive": 1,
-        "max_inclusive": 10
-      },
-      "type": "minecraft:uniform"
-    }
+    "radius": 6
   }
 }

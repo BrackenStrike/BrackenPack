@@ -21,11 +21,11 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                    "location": {
-                        "biome": "bracken:pax/cloud_canopy"
-                    }
+                  "location": {
+                    "biome": "bracken:pax/cloud_canopy"
+                  }
                 }
-            }
+              }
         }
     },
     "requirements": [

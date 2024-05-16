@@ -20,7 +20,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/sanctum/stolen_sword"
+          "name": "bracken:item/average_weapons/netherite_dagger"
         }
       ],
       "conditions": [

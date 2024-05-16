@@ -7,26 +7,20 @@
           "type": "item",
           "name": "minecraft:netherite_hoe",
           "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-0.3,Operation:2,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"}],CustomModelData:888502}"
-            },
-            
             
             {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "Lustra Hoe",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Lustra Hoe",
+                "italic": false
+              }
+              
             },
             {
-              "function": "set_lore",
+              "function": "minecraft:set_lore",
+              "entity": "this",
               "lore": [
-               
                 {
                   "translate": "",
                   "color": "blue",
@@ -48,15 +42,35 @@
                   "color": "dark_green",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
             },
-            
-            
-
-
-
-
-
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 888502
+            },     
+            {
+              "function": "minecraft:set_attributes",         
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "a",
+                  
+                  "amount": -0.3,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                  
+                }
+                
+              ]
+                  
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "attribute_modifiers": false
+              }
+            },
             {
               "function": "set_damage",
               "damage": {
@@ -70,4 +84,3 @@
     }
   ]
 }
-

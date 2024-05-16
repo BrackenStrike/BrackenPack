@@ -7,24 +7,20 @@
           "type": "item",
           "name": "minecraft:diamond_sword",
           "functions": [
+            
             {
-              "function": "set_nbt",
-              "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:6,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"offhand\"}],CustomModelData:888513}"
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Diamond Sabre",
+                "italic": false
+              }
+              
             },
             {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "Diamond Sabre",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
+              "function": "minecraft:set_lore",
+              "entity": "this",
               "lore": [
-               
                 {
                   "translate": "",
                   "color": "blue",
@@ -51,14 +47,49 @@
                   "color": "dark_green",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
             },
-            
-
-
-
-
-
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 888513
+            },     
+            {
+              "function": "minecraft:set_attributes",         
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "a",
+                  
+                  "amount": 0.1,
+                  "operation": "add_value",
+                  "slot": [
+                    "offhand",
+                    "mainhand"
+                  ]
+                  
+                },
+                
+                         
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "b",
+                  
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                  
+                }
+                
+              ]
+                  
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "attribute_modifiers": false
+              }
+            },
             {
               "function": "set_damage",
               "damage": {
@@ -72,4 +103,3 @@
     }
   ]
 }
-

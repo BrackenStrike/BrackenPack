@@ -39,10 +39,7 @@
   },
   "spawn_costs": {},
   "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
+    "air": []
   },
   "features": [
     [],
@@ -116,7 +113,7 @@
       "offset": 2
     },
     "additions_sound": {
-      "sound": "bracken:underdark_ambient_wind",
+      "sound": "minecraft:ambient.basalt_deltas.mood",
       "tick_chance": 0.0001
     },
     "music": {

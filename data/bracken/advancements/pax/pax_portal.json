@@ -21,12 +21,11 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                    "location": {
-                    
-                        "structure": "bracken:pax_arch"
-                    }
+                  "location": {
+                    "structure": "bracken:pax_arc"                    
+                  }
                 }
-            }
+              }
         }
     },
     "requirements": [

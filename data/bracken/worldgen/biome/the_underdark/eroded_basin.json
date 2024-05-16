@@ -72,10 +72,7 @@
   },
   "spawn_costs": {},
   "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
+    "air": []
   },
   "features": [
     [],
@@ -155,7 +152,7 @@
       "tick_chance": 0.0005
     },
     "music": {
-      "sound": "bracken:underdark",
+      "sound": "minecraft:music.nether.basalt_deltas",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false

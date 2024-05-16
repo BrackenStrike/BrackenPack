@@ -55,10 +55,7 @@
   },
   "spawn_costs": {},
   "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
+    "air": []
   },
   "features": [
     ["bracken:faewild/candles1"],
@@ -117,7 +114,7 @@
       "tick_chance": 0.005
     },
     "music": {
-      "sound": "bracken:faewild",
+      "sound": "minecraft:music.nether.basalt_deltas",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false

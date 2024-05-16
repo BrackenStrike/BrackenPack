@@ -5,10 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
+          "name": "minecraft:carrot_on_a_stick"
+        }
+       
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
               "name": {
                 "translate": "Flying Boat",
                 "color": "yellow",
@@ -23,15 +26,27 @@
                   "color": "gray",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
+            },
+            
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 888506
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"flying_boat\"},CustomModelData:888506,Enchantments:[{}]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              }
+            },
+                        
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{bp:{id:\"flying_boat\"}}"
             }
           ]
         }
       ]
     }
-  ]
-}
+    

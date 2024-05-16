@@ -3,13 +3,7 @@
     "placement": [
         {
             "type": "count",
-            "count": {
-                "type": "minecraft:uniform",
-                "value": {
-                    "min_inclusive": 10,
-                    "max_inclusive": 20
-                }
-            }
+            "count": 15
         },
         {
             "type": "minecraft:in_square"
