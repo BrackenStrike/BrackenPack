@@ -13,8 +13,8 @@ execute if entity @s[type=minecraft:elder_guardian,tag=bp.the_disruptor] if func
 execute if entity @s[type=minecraft:marker,tag=bp.project_ruination] if function bracken:entities/boss/project_ruination/tick run return 1
 
 #solatium thrall
-execute if entity @s[type=minecraft:giant,tag=bp.solatium_thrall] if entity @p[distance=..100] if function bracken:entities/boss/solatium_thrall/tick run return 1
-#execute if entity @s[type=minecraft:marker,tag=bp.thrall] if entity @p[distance=..125] if function bracken:entities/boss/solatium_thrall/misc/closing_comment run return 1
+execute if entity @s[type=minecraft:piglin_brute,tag=bp.solatium_thrall] if entity @p[distance=..100] if function bracken:entities/boss/solatium_thrall/tick run return 1
+
 
 #sporangium
 execute if entity @s[type=minecraft:slime,tag=bp.sporangium] if function bracken:entities/boss/sporangium/tick run return 1

@@ -10,4 +10,4 @@ tellraw @s ["",{"selector":"@s "},{"translate":" generated [FROSTLOCK]"}]
 experience add @s -5 levels
 scoreboard players set @s bp.cooldown 20
 
-function bracken:ability_books/frostlock/effects
+
