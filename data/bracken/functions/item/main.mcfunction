@@ -4,7 +4,7 @@
 ##########################################################
 
 # Clear Enderling Tp Item
-clear @s[tag=!bp.enderling] minecraft:ender_eye{bracken:{id:"enderling_controlled_teleport"}}
+clear @s[tag=!bp.enderling] minecraft:ender_eye[minecraft:custom_data={bracken:{id:"enderling_controlled_teleport"}}]
 
 # Count up creeper horn cd
 execute unless score @s bp.creeper_horn matches 600.. run scoreboard players add @s bp.creeper_horn 1
@@ -42,11 +42,12 @@ scoreboard players set @s bp.piercer_of_heavens 0
 execute if score @s bp.permafrost_howl matches 1.. run function bracken:player/permafrost
 
 # Sulf Items
-execute if predicate bracken:item/perpetual_aegis run function bracken:item/perpetual_aegis/tick
-execute if predicate bracken:item/breach_factor run function bracken:item/breach_factor/tick
-execute if predicate bracken:item/varsktracers run function bracken:item/varsktracers/tick
-execute if predicate bracken:item/permafrost_howl run function bracken:item/permafrost_howl/tick
-execute if predicate bracken:item/aequor run function bracken:item/aequor/tick
-execute if predicate bracken:item/altum_archeon run function bracken:item/altum_archeon/tick
+#execute if predicate bracken:item/perpetual_aegis run function bracken:item/perpetual_aegis/tick
+#execute if predicate bracken:item/breach_factor run function bracken:item/breach_factor/tick
+#execute if predicate bracken:item/varsktracers run function bracken:item/varsktracers/tick
+#execute if predicate bracken:item/permafrost_howl run function bracken:item/permafrost_howl/tick
+#execute if predicate bracken:item/aequor run function bracken:item/aequor/tick
+#execute if predicate bracken:item/altum_archeon run function bracken:item/altum_archeon/tick
 execute if predicate bracken:item/cleaver_of_judgement run function bracken:item/cleaver_of_judgement/tick
-execute if predicate bracken:item/piercer_of_heavens run function bracken:item/piercer_of_heavens/tick
+#execute if predicate bracken:item/piercer_of_heavens run function bracken:item/piercer_of_heavens/tick
+

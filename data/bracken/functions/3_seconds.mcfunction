@@ -11,7 +11,7 @@ execute at @a unless entity @e[type=minecraft:giant,tag=bp.solatium_thrall,dista
 execute as @e[type=marker] at @s run function bracken:entities/misc/markers_3_second
 
 ##########   POLYFOLUS MINIBOSS  ##########
-execute at @a as @e[distance=..50,limit=5,type=minecraft:item,nbt={Item:{id:"minecraft:red_mushroom_block",tag:{CustomModelData:888501}}}] at @s run function bracken:entities/the_underdark/polyfolus
+execute at @a as @e[distance=..50,limit=5,type=minecraft:item,nbt={Item:{id:"minecraft:red_mushroom_block",components:{"minecraft:custom_model_data":888501}}}] at @s run function bracken:entities/the_underdark/polyfolus
 
 ##########   VARSKSTORM  ##########
 execute if entity @a[tag=bp.sparked,predicate=bracken:dimensions/overworld,predicate=bracken:rain] run function bracken:dimension_commands/varskstorm/process

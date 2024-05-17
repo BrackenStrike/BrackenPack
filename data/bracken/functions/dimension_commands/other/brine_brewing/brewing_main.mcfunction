@@ -5,8 +5,8 @@
 
 data merge block ~ ~ ~ {Fuel:20}
 
-execute if data block ~ ~ ~ {Items:[{Slot:3b, id:"minecraft:nether_wart",tag:{bp:{id:"potion_recipe"}}}]} if data block ~ ~ ~ {Items:[{tag:{Potion:"minecraft:awkward"}}]} run function bracken:dimension_commands/other/brine_brewing/ingrediants
-execute if data block ~ ~ ~ {Items:[{Slot:3b, id:"minecraft:nether_wart",tag:{bp:{id:"potion_modifier"}}}]} run function bracken:dimension_commands/other/brine_brewing/potion_modifier/modifier_check
+execute if data block ~ ~ ~ {Items:[{Slot:3b, id:"minecraft:nether_wart",components:{"minecraft:custom_data":{bp:{id:"potion_recipe"}}}}]} if data block ~ ~ ~ {Items:[{components:{"minecraft:potion_contents":{potion:"minecraft:awkward"}}}]} run function bracken:dimension_commands/other/brine_brewing/ingrediants
+execute if data block ~ ~ ~ {Items:[{Slot:3b, id:"minecraft:nether_wart",components:{"minecraft:custom_data":{bp:{id:"potion_modifier"}}}}]} run function bracken:dimension_commands/other/brine_brewing/potion_modifier/modifier_check
 
 execute if data block ~ ~ ~ {Items:[{Slot:3b, id:"minecraft:redstone"}]} run function bracken:dimension_commands/other/brine_brewing/redstone/redstone_check
 execute if data block ~ ~ ~ {Items:[{Slot:3b, id:"minecraft:glowstone_dust"}]} run function bracken:dimension_commands/other/brine_brewing/glowstone/glowstone_check
