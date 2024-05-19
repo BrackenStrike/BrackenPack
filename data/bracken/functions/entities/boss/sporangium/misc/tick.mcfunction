@@ -54,7 +54,7 @@ kill @e[type=slime,scores={bp.slimedeath=1..},tag=bp.spore,distance=..2]
 #truedeath
 execute if entity @s[scores={bp.deathtimer=140..}] run function bracken:entities/boss/sporangium/misc/truedeath
 execute if entity @s[scores={bp.deathtimer=11..}] run particle minecraft:happy_villager ~ ~1 ~ 1 10 3 0.01 150
-execute if entity @s[scores={bp.deathtimer=11..}] run particle minecraft:dust 1 0.2 0 1 ~ ~ ~ 0.5 10 0.5 0.01 100
+execute if entity @s[scores={bp.deathtimer=11..}] run particle minecraft:dust{color:[1.0, 0.2, 0.0], scale:1.0} ~ ~ ~ 0.5 10 0.5 0.01 100
 scoreboard players add @s[scores={bp.deathtimer=2..}] bp.deathtimer 1
 
 effect give @s[scores={bp.deathtimer=11..}] instant_health 1 1 true
