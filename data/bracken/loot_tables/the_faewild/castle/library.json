@@ -166,7 +166,7 @@
             {
               "function": "minecraft:set_enchantments",
               "enchantments": {
-                "minecraft:sweeping": 1,
+                "minecraft:sweeping_edge": 1,
                 "minecraft:blast_protection": 1,
                 "minecraft:vanishing_curse": 1,
                 "minecraft:mending": 1

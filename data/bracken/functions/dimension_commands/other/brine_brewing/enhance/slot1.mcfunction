@@ -3,13 +3,36 @@
 # Creators: Grandmaster
 ##########################################################
 
-data modify block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[{amplifier:6b}].amplifier set value 7
-data modify block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[{amplifier:5b}].amplifier set value 6
-data modify block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[{amplifier:4b}].amplifier set value 5
-data modify block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[{amplifier:3b}].amplifier set value 4
-data modify block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[{amplifier:2b}].amplifier set value 3
-data modify block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[{amplifier:1b}].amplifier set value 2
-data modify block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[{amplifier:0b}].amplifier set value 1
+scoreboard players set @s bp.brine_potion 0
+execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[0].amplifier
+scoreboard players add @s bp.brine_potion 1
+execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[0].amplifier short 1 run scoreboard players get @s bp.brine_potion
+
+scoreboard players set @s bp.brine_potion 0
+execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[1].amplifier
+scoreboard players add @s bp.brine_potion 1
+execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[1].amplifier short 1 run scoreboard players get @s bp.brine_potion
+
+scoreboard players set @s bp.brine_potion 0
+execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[2].amplifier
+scoreboard players add @s bp.brine_potion 1
+execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[2].amplifier short 1 run scoreboard players get @s bp.brine_potion
+
+scoreboard players set @s bp.brine_potion 0
+execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[3].amplifier
+scoreboard players add @s bp.brine_potion 1
+execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[3].amplifier short 1 run scoreboard players get @s bp.brine_potion
+
+scoreboard players set @s bp.brine_potion 0
+execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[4].amplifier
+scoreboard players add @s bp.brine_potion 1
+execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[4].amplifier short 1 run scoreboard players get @s bp.brine_potion
+
+scoreboard players set @s bp.brine_potion 0
+execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[5].amplifier
+scoreboard players add @s bp.brine_potion 1
+execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:1b}].components."minecraft:potion_contents".custom_effects[5].amplifier short 1 run scoreboard players get @s bp.brine_potion
+
 
 data modify block ~ ~ ~ Items[{Slot:1b}].components."minecraft:custom_data".bp append value {id:"potion_modified2"}
 data modify block ~ ~ ~ Items[{Slot:1b}].components."minecraft:custom_data".bp append value {id:"potion_modified1"}
