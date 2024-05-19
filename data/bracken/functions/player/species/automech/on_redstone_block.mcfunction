@@ -4,5 +4,5 @@
 ##########################################################
 
 
-particle minecraft:dust 1 0 0 1 ~ ~1 ~ 0.5 0.5 0.5 0.1 2
+particle minecraft:dust{color:[1.0, 0.0, 0.0], scale:1.0} ~ ~1 ~ 0.5 0.5 0.5 0.1 2
 effect give @s minecraft:saturation 1 0 true

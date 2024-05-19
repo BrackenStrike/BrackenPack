@@ -4,7 +4,7 @@ execute if entity @s[scores={bp.doomsday=750}] run tellraw @a[distance=..50] "01
 
 playsound minecraft:entity.ravager.celebrate hostile @a[distance=..30] ~ ~ ~ 100 0
 playsound minecraft:entity.evoker.prepare_wololo hostile @a[distance=..30] ~ ~ ~ 100 0
-summon firework_rocket ~ ~1 ~ {CustomNameVisible:0b,LifeTime:1,CustomName:'{"translate":"Project\'s Doom Event","color":"green"}',FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;16715061],FadeColors:[I;15087886]}]}}}}
+summon firework_rocket ~ ~1 ~ {CustomNameVisible:0b,LifeTime:1,CustomName:'{"translate":"Project\'s Doom Event","color":"green"}',FireworksItem:{id:firework_rocket,Count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",colors:[I;16715061],fade_colors:[I;15087886],has_trail:1b,has_twinkle:1b}]}}}}
 scoreboard players add @s bp.doomsday 1
 
 

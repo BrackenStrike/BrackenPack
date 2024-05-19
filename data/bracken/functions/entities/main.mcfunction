@@ -1,5 +1,5 @@
 ##########################################################
-# Description: All entity related commands with the "bp.entity" tag.
+# Description: All entity related commands with the "bp.entity" tag .
 # Creators: Sulfenir, Grandmaster and Bracken
 ##########################################################
 
