@@ -6,7 +6,11 @@
           "player": {
             "equipment": {
               "legs": {
-                "nbt": "{bp:{id:\"fragile\"}}"
+                "components": {
+                  "minecraft:custom_data": {
+                    "nbt": "{bp:{id:\"fragile\"}}"
+                }
+                }
               }
             }
           }

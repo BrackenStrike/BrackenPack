@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "bracken:glacium/glacial_mass",
+  "biomes": "bracken:glacium/destitute_garrison",
   "spawn_overrides": {},
   "start_pool": "bracken:glacium_hotsprings3",
   "size": 6,

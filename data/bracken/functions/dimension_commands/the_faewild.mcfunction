@@ -9,7 +9,7 @@ scoreboard players set @s bp.fae 10
 effect give @s[scores={bp.longtick=6}] minecraft:jump_boost 13 1 true
 effect give @s[predicate=bracken:sneak] minecraft:slow_falling 1 0 true
 experience add @s[scores={bp.1_second=1}] 1 points
-attribute @s[scores={bp.fae=10}] minecraft:generic.max_health modifier add 15c1c42e-9de9-4c7a-a427-776166bc6cac "bp.fae_health" -2 add
+attribute @s[scores={bp.fae=10}] minecraft:generic.max_health modifier add 15c1c42e-9de9-4c7a-a427-776166bc6cac "bp.fae_health" -2 add_value
 
 execute if entity @s[scores={bp.overworld=2..},gamemode=!spectator] run fill ~3 11 ~3 ~-3 11 ~-3 minecraft:oak_leaves replace minecraft:air
 execute if entity @s[scores={bp.pax=2..},gamemode=!spectator] run fill ~3 277 ~3 ~-3 277 ~-3 minecraft:oak_leaves replace minecraft:air
