@@ -41,14 +41,16 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:night_vision\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:night_vision"
+              }
             }
           ]
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/iron_dagger",
+          "value": "bracken:item/average_weapons/iron_dagger",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -58,7 +60,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/iron_buckler",
+          "value": "bracken:item/average_weapons/iron_buckler",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -68,7 +70,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/iron_rapier",
+          "value": "bracken:item/average_weapons/iron_rapier",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -78,7 +80,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/iron_short_spear",
+          "value": "bracken:item/average_weapons/iron_short_spear",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -88,7 +90,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/returning_tides",
+          "value": "bracken:item/ability_books/returning_tides",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -106,7 +108,15 @@
             }
           ],
           "functions":[
-            {"function":"set_nbt","tag":"{effects:[{id:\"minecraft:night_vision\",duration:100}]}"}
+            {
+              "function": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:night_vision",
+                  "duration": 100
+                }
+              ]
+            }
           ]
         },        
         {
@@ -120,8 +130,10 @@
           ],
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{Potion:\"minecraft:poison\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:poison"
+              }
             }
           ]
         },

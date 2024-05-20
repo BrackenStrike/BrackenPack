@@ -8,8 +8,13 @@
             "name": "minecraft:player_head",
             "functions": [
               {
-                "function": "set_nbt",
-                "tag": "{SkullOwner:\"MHF_Ghast\",Enchantments:[{id:\"minecraft:blast_protection\",lvl:100s}]}"
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:enchantments": {
+                    "minecraft:blast_protection": 20
+                  },
+                  "minecraft:profile": "MHF_Ghast"
+                }
               },
               {
                 "function": "set_name",

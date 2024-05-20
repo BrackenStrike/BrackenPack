@@ -19,7 +19,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/copper_axe",
+          "value": "bracken:item/average_weapons/copper_axe",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -39,7 +39,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/copper_pickaxe",
+          "value": "bracken:item/average_weapons/copper_pickaxe",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -121,8 +121,10 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:weakness\"}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:weakness"
+              }
             }
           ]
         },
