@@ -28,7 +28,10 @@
                     "items": [
                         "minecraft:apple"
                     ],
-                    "nbt": "{bp:{id:\"unruly_compass\"}}"
+                    "components": {
+                        
+                        "minecraft:custom_model_data": 888519
+                    }
                 }
               }
         }
