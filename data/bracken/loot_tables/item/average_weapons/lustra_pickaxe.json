@@ -8,8 +8,28 @@
           "name": "minecraft:netherite_pickaxe",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:1,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"}],CustomModelData:888502}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "generic.attack_damage",
+                      "slot": "mainhand",
+                      "uuid": [
+                        -1112438523,
+                        -1678162319,
+                        -1888207382,
+                        -993756585
+                      ],
+                      "name": "generic.attack_damage",
+                      "amount": 1,
+                      "operation": "add_value"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                },
+                "minecraft:custom_model_data": 888502
+              }
             },
             {
               "function": "set_name",
@@ -24,13 +44,11 @@
             {
               "function": "set_lore",
               "lore": [
-               
                 {
                   "translate": "",
                   "color": "blue",
                   "italic": false
                 },
-
                 {
                   "translate": "When in Main Hand:",
                   "color": "gray",
@@ -46,7 +64,8 @@
                   "color": "dark_green",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
             },
             
 

@@ -29,7 +29,8 @@
                   "color": "white",
                   "italic": false
                 }  
-              ]
+              ],
+              "mode": "insert"
             },
             {
               "function": "set_damage",

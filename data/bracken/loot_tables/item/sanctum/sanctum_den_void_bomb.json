@@ -29,7 +29,8 @@
                         "translate": "A vague feeling tells you not to use this.",
                         "color": "white"
                     }
-                ]
+                ],
+                "mode": "insert"
               }
             ]
           }

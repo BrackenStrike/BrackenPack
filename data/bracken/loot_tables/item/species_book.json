@@ -33,7 +33,8 @@
                   "translate": "Consumes 50 levels.",
                   "color": "gold"
                 }
-              ]
+              ],
+              "mode": "insert"
             }
           ]
         }
