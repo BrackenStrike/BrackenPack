@@ -9,11 +9,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": {
-                "translate": "Altum Archeon",
-                "color": "light_purple",
-                "italic": false
-              }
+                  "name": {
+                    "translate": "Altum Archeon",
+                    "color": "light_purple",
+                    "italic": false
+                  }
             },
             {
               "function": "minecraft:set_lore",
@@ -23,11 +23,18 @@
                   "color": "gray",
                   "italic": false
                 }
-              ]
+              ],
+              "mode": "insert"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"altum_archeon\"}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "bp": {
+                    "id": "altum_archeon"
+                  }
+                }
+              }
             }
           ]
         }

@@ -8,8 +8,25 @@
           "name": "minecraft:netherite_sword",
           "functions": [
             {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:30,Operation:0,UUID:[I;1872410414,-61781409,-1794531078,661849160],Slot:\"mainhand\"}],CustomModelData:888502}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "generic.attack_damage",
+                    "slot": "mainhand",
+                    "uuid": [
+                      1872410414,
+                      -61781409,
+                      -1794531078,
+                      661849160
+                    ],
+                    "name": "generic.attack_damage",
+                    "amount": 30,
+                    "operation": "add_value"
+                  }
+                ],
+                "minecraft:custom_model_data": 888502
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -19,10 +36,15 @@
                 "italic": false
               }
             },
-            
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"cleaver_of_judgement\"}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "bp": {
+                    "id": "cleaver_of_judgement"
+                  }
+                }
+              }
             }
           ]
         }

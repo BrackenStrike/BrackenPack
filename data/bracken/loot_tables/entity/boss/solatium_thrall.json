@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/ability_books/worm_toothed_burrower"
+          "value": "bracken:item/ability_books/worm_toothed_burrower"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/dormis/thralls_crown",
+          "value": "bracken:item/dormis/thralls_crown",
           "functions": [
             {
               "function": "minecraft:set_damage",
@@ -36,8 +36,14 @@
           "name": "minecraft:netherite_chestplate",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{tags:[bp.fire_immune]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "tags": [
+                    "bp.fire_immune"
+                  ]
+                }
+              }
             },
             {
               "function": "minecraft:set_damage",
@@ -59,8 +65,14 @@
           "name": "minecraft:golden_leggings",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{tags:[bp.fire_immune]}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "tags": [
+                    "bp.fire_immune"
+                  ]
+                }
+              }
             },
             {
               "function": "minecraft:set_damage",
