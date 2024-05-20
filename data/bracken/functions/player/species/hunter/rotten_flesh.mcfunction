@@ -1,5 +1,6 @@
 scoreboard players set @s bp.hunter_morph 3
 function bracken:player/species/hunter/morph
+attribute @s minecraft:generic.scale modifier remove 43cb0192-8e75-4ad5-8ab2-1820477e7258
 
 advancement revoke @s only bracken:technical/species/hunter/apple
 advancement revoke @s only bracken:technical/species/hunter/beef
