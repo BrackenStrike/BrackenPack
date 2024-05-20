@@ -41,7 +41,7 @@
                 {
                   "attribute": "minecraft:generic.attack_speed",
                   "name": "a",
-                  "amount": 1.8,
+                  "amount": 0.8,
                   
                   "operation": "add_value",
                    "slot":"offhand"
@@ -65,13 +65,13 @@
               "enchantments": {
                 "minecraft:luck_of_the_sea": 11,
                 "minecraft:lure": 3,
-                "minecraft:looting": 11
+                "minecraft:looting": 5
               }
             },
             {
               "function": "set_damage",
               "damage": {
-                "min": 0.48,
+                "min": 0.38,
                 "max": 0.93
               }
             }

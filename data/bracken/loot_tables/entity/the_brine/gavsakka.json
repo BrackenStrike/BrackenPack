@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/the_brine/wither_fin"
+          "value": "bracken:item/the_brine/wither_fin"
         }
       ],
       "conditions": [

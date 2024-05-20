@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/ability_books/frostlock"
+          "value": "bracken:item/ability_books/frostlock"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/glacium_key"
+          "value": "bracken:item/portal_keys/glacium_key"
         }
       ]
     },

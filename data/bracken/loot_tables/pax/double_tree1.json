@@ -44,7 +44,7 @@
         "entries": [
 	 {
           "type": "loot_table",
-          "name": "bracken:item/maps/pax_portal_map",
+          "value": "bracken:item/maps/pax_portal_map",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

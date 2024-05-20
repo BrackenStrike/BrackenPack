@@ -5,7 +5,7 @@
             [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "bracken:item/panacea/panaspore",
+                    "value": "bracken:item/panacea/panaspore",
                     "weight":10
                 },
                 {

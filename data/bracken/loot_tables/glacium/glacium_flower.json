@@ -169,7 +169,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/lightning_bolt",
+          "value": "bracken:item/ability_books/lightning_bolt",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

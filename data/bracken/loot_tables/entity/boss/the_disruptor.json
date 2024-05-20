@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/ability_books/great_nullifier"
+          "value": "bracken:item/ability_books/great_nullifier"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/omnidrome_key"
+          "value": "bracken:item/portal_keys/omnidrome_key"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/omnidrome/void_bomb"
+          "value": "bracken:item/omnidrome/void_bomb"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/omnidrome/null"
+          "value": "bracken:item/omnidrome/null"
         }
       ]
     }

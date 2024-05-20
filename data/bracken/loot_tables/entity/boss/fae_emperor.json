@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/ability_books/world_soar"
+          "value": "bracken:item/ability_books/world_soar"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/the_faewild/immortal_spade"
+          "value": "bracken:item/the_faewild/immortal_spade"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/faewild_key"
+          "value": "bracken:item/portal_keys/faewild_key"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/the_faewild/penance_chestplate"
+          "value": "bracken:item/the_faewild/penance_chestplate"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/the_faewild/penance_leggings"
+          "value": "bracken:item/the_faewild/penance_leggings"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/the_faewild/penance_boots"
+          "value": "bracken:item/the_faewild/penance_boots"
         }
       ]
     },

@@ -41,7 +41,7 @@
                 {
                   "attribute": "minecraft:generic.knockback_resistance",
                   "name": "a",
-                  "amount": 0.2,
+                  "amount": 0.1,
                   
                   "operation": "add_value",
                    "slot": "mainhand"
@@ -52,7 +52,7 @@
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "b",
                   
-                  "amount": 25,
+                  "amount": 22,
                   "operation": "add_value",
                   "slot": "mainhand"
                   
@@ -61,7 +61,7 @@
                   "attribute": "minecraft:generic.armor",
                   "name": "a",
                   
-                  "amount": 4,
+                  "amount": 2,
                   "operation": "add_value",
                   "slot": "mainhand"
                   

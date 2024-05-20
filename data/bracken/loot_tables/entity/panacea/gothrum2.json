@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/panacea/panaspore"
+          "value": "bracken:item/panacea/panaspore"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/panacea/gothrum_fang"
+          "value": "bracken:item/panacea/gothrum_fang"
         }
       ],
       "conditions": [

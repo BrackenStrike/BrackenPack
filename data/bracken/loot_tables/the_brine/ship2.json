@@ -22,7 +22,7 @@
         
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/iron_rapier",
+          "value": "bracken:item/average_weapons/iron_rapier",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -32,7 +32,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/iron_cutlass",
+          "value": "bracken:item/average_weapons/iron_cutlass",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

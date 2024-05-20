@@ -27,7 +27,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/tools/unruly_compass",
+          "value": "bracken:item/tools/unruly_compass",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

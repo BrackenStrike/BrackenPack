@@ -19,7 +19,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/metal_apples/copper_apple",
+          "value": "bracken:item/metal_apples/copper_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -29,7 +29,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/tools/unruly_compass",
+          "value": "bracken:item/tools/unruly_compass",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -39,7 +39,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/netherite_warhammer",
+          "value": "bracken:item/average_weapons/netherite_warhammer",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -49,7 +49,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/lightning_bolt",
+          "value": "bracken:item/ability_books/lightning_bolt",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -131,7 +131,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/lightning_bolt",
+          "value": "bracken:item/ability_books/lightning_bolt",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -159,7 +159,7 @@
         },        
         {
           "type": "loot_table",
-          "name": "bracken:item/potions/saturation_potion",
+          "value": "bracken:item/potions/saturation_potion",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -313,7 +313,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/scatterstorm",
+          "value": "bracken:item/ability_books/scatterstorm",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -323,7 +323,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/sanctum/sanctum_den_void_bomb",
+          "value": "bracken:item/sanctum/sanctum_den_void_bomb",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

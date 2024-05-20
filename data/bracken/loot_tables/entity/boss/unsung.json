@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/ability_books/magnificent_mansion"
+          "value": "bracken:item/ability_books/magnificent_mansion"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/underdark/paxmaker_sword"
+          "value": "bracken:item/underdark/paxmaker_sword"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/underdark_key"
+          "value": "bracken:item/portal_keys/underdark_key"
         }
       ]
     }

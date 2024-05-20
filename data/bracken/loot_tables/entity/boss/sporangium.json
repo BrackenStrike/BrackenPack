@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/ability_books/tetra_slime"
+          "value": "bracken:item/ability_books/tetra_slime"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/panacea/mortal_cull"
+          "value": "bracken:item/panacea/mortal_cull"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/panacea_key"
+          "value": "bracken:item/portal_keys/panacea_key"
         }
       ]
     },
@@ -35,7 +35,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/panacea/panaspore"
+          "value": "bracken:item/panacea/panaspore"
         }
       ]
     }

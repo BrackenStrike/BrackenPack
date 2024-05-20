@@ -20,7 +20,7 @@
         
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/flying_boat",
+          "value": "bracken:item/ability_books/flying_boat",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

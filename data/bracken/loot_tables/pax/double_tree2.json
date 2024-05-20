@@ -22,7 +22,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/species_fruits/automech_fruit",
+          "value": "bracken:item/species_fruits/automech_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -32,7 +32,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/species_fruits/dweller_fruit",
+          "value": "bracken:item/species_fruits/dweller_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -42,7 +42,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/species_fruits/enderling_fruit",
+          "value": "bracken:item/species_fruits/enderling_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -52,7 +52,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/species_fruits/faefolk_fruit",
+          "value": "bracken:item/species_fruits/faefolk_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -62,7 +62,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/species_fruits/frostkin_fruit",
+          "value": "bracken:item/species_fruits/frostkin_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -72,7 +72,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/species_fruits/human_fruit",
+          "value": "bracken:item/species_fruits/human_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -82,7 +82,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/species_fruits/hunter_fruit",
+          "value": "bracken:item/species_fruits/hunter_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -92,7 +92,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/species_fruits/nereid_fruit",
+          "value": "bracken:item/species_fruits/nereid_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -102,7 +102,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/species_fruits/netherkin_fruit",
+          "value": "bracken:item/species_fruits/netherkin_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -112,7 +112,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/species_fruits/outlander_fruit",
+          "value": "bracken:item/species_fruits/outlander_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -122,7 +122,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/species_fruits/realmkeeper_fruit",
+          "value": "bracken:item/species_fruits/realmkeeper_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -132,7 +132,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/species_fruits/villain_fruit",
+          "value": "bracken:item/species_fruits/villain_fruit",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

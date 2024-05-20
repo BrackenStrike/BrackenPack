@@ -49,7 +49,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/metal_apples/carbon_apple",
+          "value": "bracken:item/metal_apples/carbon_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -59,7 +59,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/music_discs/viceroy",
+          "value": "bracken:item/music_discs/viceroy",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

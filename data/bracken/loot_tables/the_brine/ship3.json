@@ -19,7 +19,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/lightning_bolt",
+          "value": "bracken:item/ability_books/lightning_bolt",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -50,7 +50,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/metal_apples/copper_apple",
+          "value": "bracken:item/metal_apples/copper_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -60,7 +60,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/metal_apples/bejeweled_apple",
+          "value": "bracken:item/metal_apples/bejeweled_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -70,7 +70,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/metal_apples/iron_apple",
+          "value": "bracken:item/metal_apples/iron_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -90,7 +90,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/crimson_spark",
+          "value": "bracken:item/ability_books/crimson_spark",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -100,7 +100,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/swordfall",
+          "value": "bracken:item/ability_books/swordfall",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -181,7 +181,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/diamond_cutlass",
+          "value": "bracken:item/average_weapons/diamond_cutlass",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -236,7 +236,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/brine_key"
+          "value": "bracken:item/portal_keys/brine_key"
         }
       ]
     }
