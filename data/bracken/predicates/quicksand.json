@@ -2,7 +2,7 @@
   "condition": "minecraft:location_check",
 
   "predicate": {
-    "biome": "bracken:panacea/quicksand_springs"
+    "biomes": "bracken:panacea/quicksand_springs"
     
 
   }

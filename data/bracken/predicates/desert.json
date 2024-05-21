@@ -4,43 +4,43 @@
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:windswept_savanna"
+        "biomes": "minecraft:windswept_savanna"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:savanna_plateau"
+        "biomes": "minecraft:savanna_plateau"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:savanna"
+        "biomes": "minecraft:savanna"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:desert"
+        "biomes": "minecraft:desert"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:eroded_badlands"
+        "biomes": "minecraft:eroded_badlands"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:wooded_badlands"
+        "biomes": "minecraft:wooded_badlands"
       }
     },
     {
       "condition": "minecraft:location_check",
       "predicate": {
-        "biome": "minecraft:badlands"
+        "biomes": "minecraft:badlands"
       }
     },
     {
