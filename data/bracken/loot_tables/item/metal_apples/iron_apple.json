@@ -18,6 +18,16 @@
                 "italic": false
               }
             },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 4,
+                  "saturation": 9.6,
+                  "can_always_eat": true
+                }
+              }
+            },
             
             
             

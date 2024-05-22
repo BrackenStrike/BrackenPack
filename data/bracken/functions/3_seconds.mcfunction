@@ -5,7 +5,7 @@
 
 
 ##########   THRALL WITHER SKELETONS   ##########
-execute at @a unless entity @e[type=minecraft:giant,tag=bp.solatium_thrall,distance=..100] run kill @e[type=wither_skeleton,tag=bp.solatium_thrall,distance=..100]
+execute at @a unless entity @e[type=minecraft:zombie,tag=bp.solatium_thrall,distance=..100] run kill @e[type=wither_skeleton,tag=bp.solatium_thrall,distance=..100]
 
 ##########   MISCELANEOUS MARKERS   ##########
 execute as @e[type=marker] at @s run function bracken:entities/misc/markers_3_second

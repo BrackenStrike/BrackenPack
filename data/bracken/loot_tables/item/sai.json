@@ -21,7 +21,7 @@
                       661849160
                     ],
                     "name": "generic.attack_damage",
-                    "amount": 30,
+                    "amount": 10,
                     "operation": "add_value"
                   }
                 ],
