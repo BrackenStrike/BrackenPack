@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/ability_books/lightning_bolt"
+          "value": "bracken:item/ability_books/lightning_bolt"
         }
       ]
     },
@@ -15,7 +15,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/sanctum_key"
+          "value": "bracken:item/portal_keys/sanctum_key"
         }
       ]
     },
@@ -24,7 +24,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/sanctum/ruination_capsule"
+          "value": "bracken:item/sanctum/ruination_capsule"
         }
       ]
     },
@@ -33,7 +33,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/sanctum/shepherdess_cloak"
+          "value": "bracken:item/sanctum/shepherdess_cloak"
         }
       ]
     }

@@ -59,7 +59,35 @@
             }
           ],
           "functions":[
-            {"function":"set_nbt","tag":"{effects:[{id:\"minecraft:slowness\",duration:160},{id:\"minecraft:blindness\",duration:160},{id:\"minecraft:night_vision\",duration:160},{id:\"minecraft:hunger\",duration:160},{id:\"minecraft:poison\",duration:160},{id:\"minecraft:wither\",duration:160}]}"}
+            {
+              "function": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:slowness",
+                  "duration": 160
+                },
+                {
+                  "type": "minecraft:blindness",
+                  "duration": 160
+                },
+                {
+                  "type": "minecraft:night_vision",
+                  "duration": 160
+                },
+                {
+                  "type": "minecraft:hunger",
+                  "duration": 160
+                },
+                {
+                  "type": "minecraft:poison",
+                  "duration": 160
+                },
+                {
+                  "type": "minecraft:wither",
+                  "duration": 160
+                }
+              ]
+            }
           ]
         },
         {

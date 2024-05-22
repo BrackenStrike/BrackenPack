@@ -308,7 +308,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/returning_tides",
+          "value": "bracken:item/ability_books/returning_tides",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

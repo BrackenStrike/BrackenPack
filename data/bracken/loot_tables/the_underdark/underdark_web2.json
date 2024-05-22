@@ -20,7 +20,7 @@
         
         {
           "type": "loot_table",
-          "name": "bracken:item/music_discs/underdark",
+          "value": "bracken:item/music_discs/underdark",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -110,7 +110,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/truelight_glow",
+          "value": "bracken:item/ability_books/truelight_glow",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -140,7 +140,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/maps/twice_abandoned_mineshaft",
+          "value": "bracken:item/maps/twice_abandoned_mineshaft",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

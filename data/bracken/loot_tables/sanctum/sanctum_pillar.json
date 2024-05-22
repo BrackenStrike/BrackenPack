@@ -27,7 +27,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/netherite_bludgeon",
+          "value": "bracken:item/average_weapons/netherite_bludgeon",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -37,7 +37,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/tools/unruly_compass",
+          "value": "bracken:item/tools/unruly_compass",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -47,7 +47,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/metal_apples/copper_apple",
+          "value": "bracken:item/metal_apples/copper_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -82,7 +82,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/lightning_bolt",
+          "value": "bracken:item/ability_books/lightning_bolt",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -92,7 +92,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/potions/saturation_potion",
+          "value": "bracken:item/potions/saturation_potion",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -309,7 +309,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/fireball",
+          "value": "bracken:item/ability_books/fireball",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

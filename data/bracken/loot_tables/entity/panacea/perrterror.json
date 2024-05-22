@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/panacea/panaspore"
+          "value": "bracken:item/panacea/panaspore"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/panacea/perrterror_gastor"
+          "value": "bracken:item/panacea/perrterror_gastor"
         }
       ],
       "conditions": [
@@ -47,7 +47,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/panacea/creeper_horn"
+          "value": "bracken:item/panacea/creeper_horn"
         }
       ],
       "conditions": [

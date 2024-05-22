@@ -23,7 +23,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/metal_apples/bejeweled_apple",
+          "value": "bracken:item/metal_apples/bejeweled_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -33,7 +33,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/copper_rapier",
+          "value": "bracken:item/average_weapons/copper_rapier",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -43,7 +43,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/copper_axe",
+          "value": "bracken:item/average_weapons/copper_axe",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -64,7 +64,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/music_discs/faewild",
+          "value": "bracken:item/music_discs/faewild",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -84,7 +84,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/flying_boat",
+          "value": "bracken:item/ability_books/flying_boat",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

@@ -33,7 +33,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/metal_apples/copper_apple",
+          "value": "bracken:item/metal_apples/copper_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -43,7 +43,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/metal_apples/bejeweled_apple",
+          "value": "bracken:item/metal_apples/bejeweled_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -53,7 +53,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/metal_apples/iron_apple",
+          "value": "bracken:item/metal_apples/iron_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

@@ -5,26 +5,36 @@
         "entries": [
           {
             "type": "item",
-            "name": "minecraft:player_head",
+            "name": "minecraft:trident",
             "functions": [
               {
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:enchantments": {
-                    "minecraft:blast_protection": 20
-                  },
-                  "minecraft:profile": "MHF_Ghast"
+                    "minecraft:loyalty": 5,
+                    "minecraft:impaling": 5,
+                    "minecraft:mending": 1
+                  }
                 }
               },
               {
                 "function": "set_name",
                 "name": [
                   {
-                    "translate": "Painted Mask",
-                    "color": "white",
+                    "translate": "Gvenhildir's Trident",
+                    "color": "blue",
                     "bold": true
                   }
                 ]
+              },
+              {
+                "function": "set_lore",
+                "lore": [
+                  {
+                    "translate": "Weapon of a former Valkyrie"
+                  }
+                ],
+                "mode": "insert"
               }
             ]
           }
@@ -32,4 +42,3 @@
       }
     ]
   }
-  

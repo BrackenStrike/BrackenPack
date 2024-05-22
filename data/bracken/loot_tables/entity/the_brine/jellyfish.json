@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/the_brine/jellyfish_stinger"
+          "value": "bracken:item/the_brine/jellyfish_stinger"
         }
       ],
       "conditions": [

@@ -19,7 +19,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/adamantine_will",
+          "value": "bracken:item/ability_books/adamantine_will",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -29,7 +29,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/world_soar",
+          "value": "bracken:item/ability_books/world_soar",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -39,7 +39,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/truelight_glow",
+          "value": "bracken:item/ability_books/truelight_glow",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -49,7 +49,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/scatterstorm",
+          "value": "bracken:item/ability_books/scatterstorm",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -59,7 +59,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/swordfall",
+          "value": "bracken:item/ability_books/swordfall",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -70,7 +70,7 @@
         
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/mass_heal",
+          "value": "bracken:item/ability_books/mass_heal",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -80,7 +80,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/kill",
+          "value": "bracken:item/ability_books/kill",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -90,7 +90,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/flying_boat",
+          "value": "bracken:item/ability_books/flying_boat",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -100,7 +100,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/fireball",
+          "value": "bracken:item/ability_books/fireball",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -110,7 +110,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/fang_attack",
+          "value": "bracken:item/ability_books/fang_attack",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -120,7 +120,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/crimson_spark",
+          "value": "bracken:item/ability_books/crimson_spark",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -130,7 +130,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/iron_golem",
+          "value": "bracken:item/ability_books/iron_golem",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -140,7 +140,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/lightning_bolt",
+          "value": "bracken:item/ability_books/lightning_bolt",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -150,7 +150,7 @@
         },  
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/returning_tides",
+          "value": "bracken:item/ability_books/returning_tides",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -162,7 +162,7 @@
 
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/great_nullifier",
+          "value": "bracken:item/ability_books/great_nullifier",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -172,7 +172,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/frostlock",
+          "value": "bracken:item/ability_books/frostlock",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -182,7 +182,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/magnificent_mansion",
+          "value": "bracken:item/ability_books/magnificent_mansion",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -192,7 +192,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/tetra_slime",
+          "value": "bracken:item/ability_books/tetra_slime",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -202,7 +202,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/worm_toothed_burrower",
+          "value": "bracken:item/ability_books/worm_toothed_burrower",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -518,7 +518,7 @@
           "entries": [
       {
             "type": "loot_table",
-            "name": "bracken:item/maps/omnidrome_palace_map",
+            "value": "bracken:item/maps/omnidrome_palace_map",
             "conditions": [
               {
                 "condition": "minecraft:random_chance",

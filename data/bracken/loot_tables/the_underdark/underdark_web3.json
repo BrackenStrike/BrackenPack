@@ -29,7 +29,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/fireball",
+          "value": "bracken:item/ability_books/fireball",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -149,7 +149,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/maps/twice_abandoned_mineshaft",
+          "value": "bracken:item/maps/twice_abandoned_mineshaft",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

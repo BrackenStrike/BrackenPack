@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/the_brine/sentinel_rings"
+          "value": "bracken:item/the_brine/sentinel_rings"
         }
       ],
       "conditions": [

@@ -27,7 +27,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/metal_apples/copper_apple",
+          "value": "bracken:item/metal_apples/copper_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -56,7 +56,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/potions/saturation_potion",
+          "value": "bracken:item/potions/saturation_potion",
           "functions": [
             {
               "function": "minecraft:set_count",

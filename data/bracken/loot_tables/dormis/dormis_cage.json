@@ -30,7 +30,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/adamantine_will",
+          "value": "bracken:item/ability_books/adamantine_will",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -53,9 +53,9 @@
     {
     "rolls": 1,
           "entries": [
-     {
+          {
             "type": "loot_table",
-            "name": "bracken:item/maps/dormis_courtyard_map",
+            "value": "bracken:item/maps/dormis_courtyard_map",
             "conditions": [
               {
                 "condition": "minecraft:random_chance",

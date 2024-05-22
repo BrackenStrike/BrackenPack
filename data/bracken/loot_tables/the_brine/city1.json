@@ -10,7 +10,7 @@
         
         {
           "type": "loot_table",
-          "name": "bracken:item/the_brine/cordyceps_powder",
+          "value": "bracken:item/the_brine/cordyceps_powder",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -20,7 +20,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/the_brine/essence_of_eternity",
+          "value": "bracken:item/the_brine/essence_of_eternity",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -30,7 +30,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/the_brine/jellyfish_stinger",
+          "value": "bracken:item/the_brine/jellyfish_stinger",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -40,7 +40,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/the_brine/nautilus_chamber",
+          "value": "bracken:item/the_brine/nautilus_chamber",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -50,7 +50,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/the_brine/tempest_nectar",
+          "value": "bracken:item/the_brine/tempest_nectar",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -60,7 +60,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/the_brine/void_petal",
+          "value": "bracken:item/the_brine/void_petal",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -70,7 +70,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/the_brine/voidfish_venom",
+          "value": "bracken:item/the_brine/voidfish_venom",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -80,7 +80,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/the_brine/wither_fin",
+          "value": "bracken:item/the_brine/wither_fin",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -90,7 +90,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/the_brine/worm_mandible",
+          "value": "bracken:item/the_brine/worm_mandible",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -121,7 +121,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/lustra_sickle",
+          "value": "bracken:item/average_weapons/lustra_sickle",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -141,7 +141,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/average_weapons/lustra_sabre",
+          "value": "bracken:item/average_weapons/lustra_sabre",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -201,7 +201,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/returning_tides",
+          "value": "bracken:item/ability_books/returning_tides",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -212,7 +212,7 @@
         
         {
           "type": "loot_table",
-          "name": "bracken:item/music_discs/brine",
+          "value": "bracken:item/music_discs/brine",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

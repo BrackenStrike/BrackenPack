@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "bracken:item/portal_keys/overworld_key",
+          "value": "bracken:item/portal_keys/overworld_key",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -21,7 +21,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "bracken:item/portal_keys/nether_key",
+          "value": "bracken:item/portal_keys/nether_key",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -36,7 +36,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "bracken:item/portal_keys/faewild_key",
+          "value": "bracken:item/portal_keys/faewild_key",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -51,7 +51,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "bracken:item/portal_keys/dormis_key",
+          "value": "bracken:item/portal_keys/dormis_key",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

@@ -19,7 +19,7 @@
         },
         {
           "type": "loot_table",
-          "name": "bracken:item/metal_apples/bejeweled_apple",
+          "value": "bracken:item/metal_apples/bejeweled_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
@@ -30,7 +30,7 @@
         
         {
           "type": "loot_table",
-          "name": "bracken:item/ability_books/world_soar",
+          "value": "bracken:item/ability_books/world_soar",
           "conditions": [
             {
               "condition": "minecraft:random_chance",

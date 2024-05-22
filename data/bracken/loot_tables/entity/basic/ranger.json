@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "bracken:item/ranger_bow"
+          "value": "bracken:item/ranger_bow"
         }
       ],
       "conditions": [

@@ -5,7 +5,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "bracken:item/glacium/painted_mask"
+            "value": "bracken:item/glacium/painted_mask"
           }
         ]
       },
@@ -14,7 +14,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "bracken:item/glacium/gvenhildirs_trident",
+            "value": "bracken:item/glacium/gvenhildirs_trident",
             "functions": [
               {
                 "function": "minecraft:set_damage",
