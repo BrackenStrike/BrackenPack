@@ -17,26 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:the_brine/blackwater1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:the_brine/blackwater_depths"
-                            }
-                        }
-                    }
-                ]
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "biomes": "bracken:the_brine/blackwater_depths"
+              }
             }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_brine/blackwater1"
-        ]
-    ]
-}
+      }
+  }

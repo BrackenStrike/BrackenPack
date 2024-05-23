@@ -4,7 +4,7 @@ playsound minecraft:entity.ghast.hurt hostile @a[distance=..30] ~ ~ ~ 100 0
 summon fireball ~ ~10 ~ {ExplosionPower:10b,power:[0.0,-0.005,0.0],CustomName:'{"translate":"Thrall\'s Retribution","color":"gold"}',Item:{id:"minecraft:soul_fire",Count:1b,components:{"minecraft:enchantment_glint_override":1b}}}
 tellraw @a[distance=..100] {"translate":"Thrall: You shall have your reward...\"","color":"gold","bold":true}
 setblock ~ ~15 ~ spawner{SpawnCount:1,SpawnRange:2,Delay:40,MinSpawnDelay:440,MaxSpawnDelay:441,MaxNearbyEntities:1,RequiredPlayerRange:35,SpawnData:{entity:{id:"minecraft:lightning_bolt",Tags:["bp.entity","bp.varsk_lightning"]}}} replace
-fill ~1 ~16 ~1 ~-1 ~14 ~-1 minecraft:bedrock replace minecraft:air
+fill ~1 ~16 ~1 ~-1 ~14 ~-1 minecraft:obsidian replace minecraft:air
 #setblock ~2 ~ ~ minecraft:chest{LootTable:"bracken:entity/boss/solatium_thrall"}
 
 kill @e[distance=..50,tag=bp.thrall.element]

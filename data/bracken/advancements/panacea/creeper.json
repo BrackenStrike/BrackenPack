@@ -17,21 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/creeper1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    
-                    "biome": "bracken:panacea/creeper_dominion"
-                  }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "biomes": "bracken:panacea/creeper_dominion"
               }
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/creeper1"
-        ]
-    ]
-}
+      }
+  }

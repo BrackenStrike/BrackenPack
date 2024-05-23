@@ -17,26 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:the_brine/revered1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:the_brine/revered_waters"
-                            }
-                        }
-                    }
-                ]
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "biomes": "bracken:the_brine/revered_waters"
+              }
             }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_brine/revered1"
-        ]
-    ]
-}
+      }
+  }

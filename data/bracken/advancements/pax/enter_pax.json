@@ -17,20 +17,15 @@
         "background": "bracken:textures/gui/advancements/backgrounds/pax.png"
     },
     "criteria": {
-        "bracken:pax/pax2": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    "dimension": "bracken:pax"
-                  }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "dimension": "bracken:pax"
               }
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:pax/pax2"
-        ]
-    ]
-}
+      }
+  }

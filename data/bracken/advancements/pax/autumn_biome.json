@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:pax/autumn_biome1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    "biome": "bracken:pax/autumn_idyll"
-                  }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "biomes": "bracken:pax/autumn_idyll"
               }
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:pax/autumn_biome1"
-        ]
-    ]
-}
+      }
+  }

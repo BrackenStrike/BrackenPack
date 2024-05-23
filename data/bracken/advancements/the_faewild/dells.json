@@ -17,26 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:the_faewild/dells1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:the_faewild/dreamfall_dells"
-                            }
-                        }
-                    }
-                ]
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "biomes": "bracken:the_faewild/dreamfall_dells"
+              }
             }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_faewild/dells1"
-        ]
-    ]
-}
+      }
+  }

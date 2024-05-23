@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:pax/double_tree1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    "structure": "bracken:pax_double_tree"                    
-                  }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "structure": "bracken:pax_double_tree"
               }
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:pax/double_tree1"
-        ]
-    ]
-}
+      }
+  }

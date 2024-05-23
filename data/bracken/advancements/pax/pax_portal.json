@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:pax/pax_portal1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    "structure": "bracken:pax_arc"                    
-                  }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "structure": "bracken:pax_arc"
               }
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:pax/pax_portal1"
-        ]
-    ]
-}
+      }
+  }

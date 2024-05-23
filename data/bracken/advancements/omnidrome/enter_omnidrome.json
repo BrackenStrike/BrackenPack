@@ -21,20 +21,15 @@
         "background": "bracken:textures/gui/advancements/backgrounds/omnidrome.png"
     },
     "criteria": {
-        "bracken:omnidrome/omni2": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    "dimension": "bracken:omnidrome"
-                  }
-                }
-              }
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "dimension": "bracken:omnidrome"
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:omnidrome/omni2"
-        ]
-    ]
+      }
+    }
 }

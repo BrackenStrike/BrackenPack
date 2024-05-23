@@ -21,20 +21,15 @@
         "background": "bracken:textures/gui/advancements/backgrounds/the_brine.png"
     },
     "criteria": {
-        "bracken:the_brine/bri1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:the_brine"
-                    }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "dimension": "bracken:the_brine"
+              }
             }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_brine/bri1"
-        ]
-    ]
-}
+      }
+  }

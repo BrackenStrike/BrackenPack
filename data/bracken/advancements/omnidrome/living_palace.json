@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:omnidrome/living_palace1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    "structure": "bracken:omnidrome_living_palace"                    
-                  }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "structure": "bracken:omnidrome_living_palace"
               }
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:omnidrome/living_palace1"
-        ]
-    ]
-}
+      }
+  }

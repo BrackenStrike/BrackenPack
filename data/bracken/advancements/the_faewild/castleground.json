@@ -17,26 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:the_faewild/castleground1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:the_faewild/clandestine_castlegrounds"
-                            }
-                        }
-                    }
-                ]
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "biomes": "bracken:the_faewild/clandestine_castlegrounds"
+              }
             }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_faewild/castleground1"
-        ]
-    ]
-}
+      }
+  }

@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:sanctum/dune_biome1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biome": "bracken:sanctum/voidship_harbor"
-                    }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "biomes": "bracken:sanctum/voidship_harbor"
+              }
             }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:sanctum/dune_biome1"
-        ]
-    ]
-}
+      }
+  }

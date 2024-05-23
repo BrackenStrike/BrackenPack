@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/pyramid1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    "structure": "bracken:panacea_creeper_pyramid"                    
-                  }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "structure": "bracken:panacea_creeper_pyramid"
               }
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/pyramid1"
-        ]
-    ]
-}
+      }
+  }

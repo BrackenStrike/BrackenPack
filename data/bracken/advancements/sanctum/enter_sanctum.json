@@ -21,20 +21,15 @@
         "background": "bracken:textures/gui/advancements/backgrounds/sanctum.png"
     },
     "criteria": {
-        "bracken:sanctum/san2": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    "dimension": "bracken:sanctum"
-                  }
-                }
-              }
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "dimension": "bracken:sanctum"
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:sanctum/san2"
-        ]
-    ]
+      }
+    }
 }

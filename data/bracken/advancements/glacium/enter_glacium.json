@@ -21,20 +21,15 @@
         "background": "bracken:textures/gui/advancements/backgrounds/glacium.png"
     },
     "criteria": {
-        "bracken:glacium/gla1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:glacium"
-                    }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "dimension": "bracken:glacium"
+              }
             }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:glacium/gla1"
-        ]
-    ]
-}
+      }
+  }

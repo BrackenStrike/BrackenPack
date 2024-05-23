@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:omnidrome/stan_biome1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    "biome": "bracken:omnidrome/stanterion"
-                  }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "biomes": "bracken:omnidrome/stanterion"
               }
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:omnidrome/stan_biome1"
-        ]
-    ]
-}
+      }
+  }

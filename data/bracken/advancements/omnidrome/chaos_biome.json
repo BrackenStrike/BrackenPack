@@ -2,7 +2,7 @@
     "parent": "bracken:omnidrome/enter_omnidrome",
     "display": {
         "title": {
-            "translate": "Keeping Inventory"
+            "translate": "Storage Settings"
         },
         "description": {
             "translate": "Enter the archivistory biome",
@@ -17,24 +17,18 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:omnidrome/chaos_biome1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    "dimension": "bracken:glacium",
-                    "biome": "bracken:omnidrome/archivistory"
-                  }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "biomes": "bracken:omnidrome/archivistory"
               }
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:omnidrome/chaos_biome1"
-        ]
-    ]
-}
+      }
+  }
 
 
 

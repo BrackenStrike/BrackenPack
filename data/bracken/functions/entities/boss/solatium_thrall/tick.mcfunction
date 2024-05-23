@@ -12,4 +12,7 @@ execute as @s[tag=bp.boss,tag=bp.solatium_thrall,tag=bp.active] run function bra
 execute if entity @p[distance=..50] if entity @s[tag=!bp.active,name=!Rocco] run function bracken:entities/boss/solatium_thrall/misc/activate
 execute unless entity @p[distance=..95] if entity @s[tag=bp.active,name=!Rocco] run function bracken:entities/boss/solatium_thrall/misc/deactivate
 
+#clear fire res
+execute at @e[type=minecraft:blaze,tag=bp.crownblaze] run effect clear @a[distance=..20] minecraft:fire_resistance
+execute at @e[type=minecraft:blaze,tag=bp.crownblaze] run particle minecraft:flame ~ ~ ~ 10 10 10 0.01 15
 return 1

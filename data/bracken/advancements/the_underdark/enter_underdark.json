@@ -21,20 +21,15 @@
         "background": "bracken:textures/gui/advancements/backgrounds/underdark.png"
     },
     "criteria": {
-        "bracken:the_underdark/und2": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:the_underdark"
-                    }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "dimension": "bracken:the_underdark"
+              }
             }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_underdark/und2"
-        ]
-    ]
-}
+      }
+  }

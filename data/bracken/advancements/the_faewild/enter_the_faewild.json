@@ -17,20 +17,15 @@
         "background": "bracken:textures/gui/advancements/backgrounds/the_faewild.png"
     },
     "criteria": {
-        "bracken:the_faewild/fae1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:the_faewild"
-                    }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "dimension": "bracken:the_faewild"
+              }
             }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_faewild/fae1"
-        ]
-    ]
-}
+      }
+  }

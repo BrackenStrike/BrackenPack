@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/tree1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    "structure": "bracken:panacea_tetra_tree"
-                  }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "structure": "bracken:panacea_tetra_tree"
               }
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/tree1"
-        ]
-    ]
-}
+      }
+  }

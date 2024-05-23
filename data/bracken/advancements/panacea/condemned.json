@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/condemned1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    "biome": "bracken:panacea/condemned_taiga"
-                  }
-                }
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "biomes": "bracken:panacea/condemned_taiga"
               }
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/condemned1"
-        ]
-    ]
-}
+      }
+  }

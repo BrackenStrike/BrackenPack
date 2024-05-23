@@ -21,20 +21,15 @@
         "background": "bracken:textures/gui/advancements/backgrounds/panacea.png"
     },
     "criteria": {
-        "bracken:panacea/pan1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                  "location": {
-                    "dimension": "bracken:panacea"
-                  }
-                }
-              }
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": {
+            "location": {
+              "dimension": "bracken:panacea"
+            }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/pan1"
-        ]
-    ]
+      }
+    }
 }

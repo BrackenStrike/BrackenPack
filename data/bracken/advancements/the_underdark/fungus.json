@@ -17,26 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:the_underdark/fungus1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:the_underdark/ruby_fungi_forest"
-                            }
-                        }
-                    }
-                ]
+        "requirement": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "player": {
+              "location": {
+                "biomes": "bracken:the_underdark/fungi_forest"
+              }
             }
+          }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_underdark/fungus1"
-        ]
-    ]
-}
+      }
+  }
