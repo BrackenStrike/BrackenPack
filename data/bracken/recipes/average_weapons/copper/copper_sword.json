@@ -22,39 +22,15 @@
       "minecraft:max_damage": 175,
         "minecraft:custom_name":   "{\"translate\":\"Copper Sword\",\"color\":white,\"italic\":false}",
         "minecraft:custom_model_data": 888532,
-        "minecraft:lore": [
-          {
-          "translate": "",
-          "color": "blue",
-          "italic": false
-        },
-
-        {
-          "translate": "When in Main Hand:",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "translate": " 5.5 Attack Damage",
-          "color": "dark_green",
-          "italic": false
-        },
-        {
-          "translate": " 1.6 Attack Speed",
-          "color": "dark_green",
-          "italic": false
-        }
-      ],
+        "minecraft:lore": ["{\"translate\":\"\",\"color\":white,\"italic\":false}",
+        "{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
+        "{\"translate\":\" 5.5 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+        "{\"translate\":\" 1.6 Attack Speed\",\"color\":dark_green,\"italic\":false}"],
         "minecraft:attribute_modifiers": {
           "modifiers": [
             {
               "type": "minecraft:generic.attack_damage",
-              "uuid": [
-                0,
-                0,
-                0,
-                0
-              ],
+              "uuid": [1647767269,-163166104,-1453368689,-1263221871],
               "name": "damage",
               "amount": 4.5,
               "operation": "add_value",

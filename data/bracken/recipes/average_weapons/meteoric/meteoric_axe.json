@@ -22,29 +22,10 @@
       "minecraft:max_damage": 375,
         "minecraft:custom_name":   "{\"translate\":\"Meteoric Axe\",\"color\":white,\"italic\":false}",
         "minecraft:custom_model_data": 888503,
-        "minecraft:lore": [
-          {
-          "translate": "",
-          "color": "blue",
-          "italic": false
-        },
-
-        {
-          "translate": "When in Main Hand:",
-          "color": "gray",
-          "italic": false
-        },
-        {
-          "translate": " 10 Attack Damage",
-          "color": "dark_green",
-          "italic": false
-        },
-        {
-          "translate": " 0.5 Attack Speed",
-          "color": "dark_green",
-          "italic": false
-        }
-      ],
+        "minecraft:lore": ["{\"translate\":\"\",\"color\":white,\"italic\":false}",
+        "{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
+        "{\"translate\":\" 10 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+        "{\"translate\":\" 0.5 Attack Speed\",\"color\":dark_green,\"italic\":false}"],
         "minecraft:attribute_modifiers": {
           "modifiers": [
             
@@ -52,7 +33,7 @@
               "type": "minecraft:generic.attack_speed",
               "uuid": [1647767269,-163166104,-1453368689,-1263221871],
               "name": "aspeed",
-              "amount": -4,
+              "amount": -3.2,
               "operation": "add_value",
               "slot": "mainhand"
             },

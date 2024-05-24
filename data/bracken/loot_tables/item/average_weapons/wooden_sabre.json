@@ -43,7 +43,7 @@
                   "italic": false
                 },
                 {
-                  "translate": " +10% Movement Speed",
+                  "translate": " +2.5% Movement Speed",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -61,7 +61,7 @@
                   "attribute": "minecraft:generic.movement_speed",
                   "name": "a",
                   
-                  "amount": 0.1,
+                  "amount": 0.025,
                   "operation": "add_value",
                   "slot": "mainhand"
                   
@@ -70,7 +70,7 @@
                   "attribute": "minecraft:generic.movement_speed",
                   "name": "ab",
                   
-                  "amount": 0.1,
+                  "amount": 0.025,
                   "operation": "add_value",
                   "slot": "offhand"
                   

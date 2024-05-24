@@ -38,7 +38,7 @@
                   "italic": false
                 },
                 {
-                  "translate": " 3 Attack Speed",
+                  "translate": " 1 Attack Speed",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -63,7 +63,7 @@
                   "attribute": "minecraft:generic.attack_speed",
                   "name": "a",
                   
-                  "amount": -0.3,
+                  "amount": -3,
                   "operation": "add_value",
                   "slot": "mainhand"
                   
