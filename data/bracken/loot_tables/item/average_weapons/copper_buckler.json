@@ -33,7 +33,7 @@
                   "italic": false
                 },
                 {
-                  "translate": " 4 Attack Damage",
+                  "translate": " 3.5 Attack Damage",
                   "color": "dark_green",
                   "italic": false
                 },
@@ -53,7 +53,14 @@
             {
               "function": "minecraft:set_custom_model_data",
               "value": 888529
-            },     
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                
+                "minecraft:max_damage": 175
+              }
+            },      
             {
               "function": "minecraft:set_attributes",         
               "modifiers": [
@@ -64,10 +71,17 @@
                   "amount": 3,
                   
                   "operation": "add_value",
-                   "slot": [
-                    "offhand",
-                    "mainhand"
-                  ]              
+                   "slot": "mainhand"   
+
+                  
+                },
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "ab",
+                  "amount": 3,
+                  
+                  "operation": "add_value",
+                   "slot": "offhand"   
 
                   
                 },            
@@ -75,7 +89,7 @@
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "b",
                   
-                  "amount": 3,
+                  "amount": 2.5,
                   "operation": "add_value",
                   "slot": "mainhand"
                   

@@ -64,10 +64,17 @@
                   "amount": 0.25,
                   
                   "operation": "add_value",
-                   "slot": [
-                    "offhand",
-                    "mainhand"
-                  ]              
+                   "slot": "mainhand"              
+
+                  
+                },
+                {
+                  "attribute": "minecraft:generic.knockback_resistance",
+                  "name": "ab",
+                  "amount": 0.25,
+                  
+                  "operation": "add_value",
+                   "slot": "offhand"              
 
                   
                 },            
@@ -84,8 +91,8 @@
                   "attribute": "minecraft:generic.attack_speed",
                   "name": "c",
                   
-                  "amount": -0.776,
-                  "operation": "add_multiplied_base",
+                  "amount": -3,
+                  "operation": "add_value",
                   "slot": "mainhand"
                   
                 }

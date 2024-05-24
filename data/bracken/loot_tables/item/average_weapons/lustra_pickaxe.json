@@ -32,6 +32,13 @@
               }
             },
             {
+              "function": "minecraft:set_components",
+              "components": {
+                
+                "minecraft:max_damage": 3000
+              }
+            },
+            {
               "function": "set_name",
               "name": [
                 {

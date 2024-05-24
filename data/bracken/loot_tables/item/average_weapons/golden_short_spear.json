@@ -53,6 +53,13 @@
             {
               "function": "minecraft:set_custom_model_data",
               "value": 888520
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                
+                "minecraft:max_damage": 59
+              }
             },     
             {
               "function": "minecraft:set_attributes",         

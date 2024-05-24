@@ -53,6 +53,13 @@
             {
               "function": "minecraft:set_custom_model_data",
               "value": 888530
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                
+                "minecraft:max_damage": 3000
+              }
             },     
             {
               "function": "minecraft:set_attributes",         
@@ -64,10 +71,17 @@
                   "amount": 0.2,
                   
                   "operation": "add_value",
-                   "slot": [
-                    "offhand",
-                    "mainhand"
-                  ]              
+                   "slot": "mainhand"              
+
+                  
+                },
+                {
+                  "attribute": "minecraft:generic.knockback_resistance",
+                  "name": "ab",
+                  "amount": 0.2,
+                  
+                  "operation": "add_value",
+                   "slot": "offhand"              
 
                   
                 },            
@@ -84,8 +98,8 @@
                   "attribute": "minecraft:generic.attack_speed",
                   "name": "c",
                   
-                  "amount": -0.776,
-                  "operation": "add_multiplied_base",
+                  "amount": -3,
+                  "operation": "add_value",
                   "slot": "mainhand"
                   
                 }

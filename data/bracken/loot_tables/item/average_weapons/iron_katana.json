@@ -68,10 +68,35 @@
                   
                   "amount": 0.2,
                   "operation": "add_value",
-                  "slot": [
-                    "offhand",
-                    "mainhand"
-                  ]
+                  "slot": "mainhand"
+                  
+                },
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "ab",
+                  
+                  "amount": 0.2,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                  
+                },
+                
+                {
+                  "attribute": "minecraft:generic.jump_strength",
+                  "name": "c",
+                  
+                  "amount": -0.5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                  
+                },
+                {
+                  "attribute": "minecraft:generic.jump_strength",
+                  "name": "cb",
+                  
+                  "amount": -0.5,
+                  "operation": "add_value",
+                  "slot": "offhand"
                   
                 },
                 
@@ -83,18 +108,6 @@
                   "amount": 5,
                   "operation": "add_value",
                   "slot": "mainhand"
-                  
-                },
-                {
-                  "attribute": "minecraft:generic.jump_strength",
-                  "name": "c",
-                  
-                  "amount": -0.5,
-                  "operation": "add_value",
-                  "slot": [
-                    "offhand",
-                    "mainhand"
-                  ]
                   
                 }
                 

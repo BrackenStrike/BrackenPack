@@ -18,7 +18,7 @@
     "result": {
       "id": "minecraft:apple",
       "components": {
-        "minecraft:custom_name":   "{\"translate\":\"Bejewled Apple\",\"color\":aqua,\"italic\":false}",
+        "minecraft:custom_name":   "{\"translate\":\"Bejeweled Apple\",\"color\":aqua,\"italic\":false}",
         "minecraft:custom_model_data": 888518,
         "minecraft:food": {
           "nutrition": 4,
@@ -27,7 +27,7 @@
         },
         
         "minecraft:custom_data": {
-            "nbt": "{bp:{id:\"bejewled_apple\"}}"
+            "nbt": "{bp:{id:\"bejeweled_apple\"}}"
         }
       }
     }

@@ -43,7 +43,7 @@
                   "italic": false
                 },
                 {
-                  "translate": " 3 Armor",
+                  "translate": " 4 Armor",
                   "color": "dark_green",
                   "italic": false
                 }
@@ -53,6 +53,13 @@
             {
               "function": "minecraft:set_custom_model_data",
               "value": 888523
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                
+                "minecraft:max_damage": 3000
+              }
             },     
             {
               "function": "minecraft:set_attributes",         
@@ -61,16 +68,23 @@
                 {
                   "attribute": "minecraft:generic.armor",
                   "name": "a",
-                  "amount": 3,
+                  "amount": 4,
                   
                   "operation": "add_value",
-                   "slot": [
-                    "offhand",
-                    "mainhand"
-                  ]              
+                   "slot": "mainhand"     
 
                   
-                },            
+                }, 
+                {
+                  "attribute": "minecraft:generic.armor",
+                  "name": "ab",
+                  "amount": 4,
+                  
+                  "operation": "add_value",
+                   "slot": "offhand"     
+
+                  
+                },             
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "b",

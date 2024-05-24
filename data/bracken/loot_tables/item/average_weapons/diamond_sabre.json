@@ -63,10 +63,16 @@
                   
                   "amount": 0.1,
                   "operation": "add_value",
-                  "slot": [
-                    "offhand",
-                    "mainhand"
-                  ]
+                  "slot": "mainhand"
+                  
+                },
+                {
+                  "attribute": "minecraft:generic.movement_speed",
+                  "name": "ab",
+                  
+                  "amount": 0.1,
+                  "operation": "add_value",
+                  "slot": "offhand"
                   
                 },
                 

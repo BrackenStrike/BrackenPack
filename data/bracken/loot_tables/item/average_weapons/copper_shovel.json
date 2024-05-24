@@ -33,7 +33,7 @@
                   "italic": false
                 },
                 {
-                  "translate": " 4.5 Attack Damage",
+                  "translate": " 4 Attack Damage",
                   "color": "dark_green",
                   "italic": false
                 },
@@ -48,7 +48,14 @@
             {
               "function": "minecraft:set_custom_model_data",
               "value": 888501
-            },     
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                
+                "minecraft:max_damage": 175
+              }
+            },      
             {
               "function": "minecraft:set_attributes",         
               "modifiers": [
@@ -56,7 +63,7 @@
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "a",
                   
-                  "amount": 3.5,
+                  "amount": 3,
                   "operation": "add_value",
                   "slot": "mainhand"
                   

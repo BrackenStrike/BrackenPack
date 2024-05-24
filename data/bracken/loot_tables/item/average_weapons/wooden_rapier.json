@@ -56,9 +56,9 @@
                 {
                   "attribute": "minecraft:generic.attack_speed",
                   "name": "a",
-                  "amount": -0.5,
+                  "amount": -1.8,
                   
-                  "operation": "add_multiplied_base",
+                  "operation": "add_value",
                    "slot":"mainhand"
                              
 
