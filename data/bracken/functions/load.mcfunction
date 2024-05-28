@@ -134,6 +134,9 @@ scoreboard objectives add bp.zz_rotation dummy
 # Overworld
 scoreboard objectives add bp.overworld dummy
 
+# Dormis
+scoreboard objectives add bp.dormis dummy
+
 # Faewild
 scoreboard objectives add bp.fae dummy
 
@@ -143,15 +146,23 @@ scoreboard objectives add bp.panacea dummy
 # Pax
 scoreboard objectives add bp.pax dummy
 
+# Sanctum
+scoreboard objectives add bp.sanctum dummy
+
 # The Brine
 scoreboard objectives add bp.brine_potion dummy
 scoreboard objectives add bp.potion_count dummy
+scoreboard objectives add bp.brine dummy
+
+# The Underdark
+scoreboard objectives add bp.underdark dummy
 
 # The End
 scoreboard objectives add bp.ender_dragon_killed minecraft.killed:ender_dragon
 
 # Glacium
 scoreboard objectives add bp.ice dummy
+scoreboard objectives add bp.glacium dummy
 
 # Omnidrome
 scoreboard objectives add bp.omnidrome dummy
@@ -163,12 +174,14 @@ scoreboard objectives add bp.omni_sprint dummy
 
 # Void
 scoreboard objectives add bp.voidtp dummy
+scoreboard objectives add bp.void dummy
 
 # Varskspace
 data merge storage bp.vars {varskstorm:{stage:0}}
 scoreboard objectives add bp.varskstorm dummy
 scoreboard players set #cooldown bp.varskstorm 0
 scoreboard players set #repeat bp.varskstorm 0
+scoreboard objectives add bp.varskspace dummy
 
 ##########   PAX PORTAL   ##########
 scoreboard objectives add bp.portal_R dummy

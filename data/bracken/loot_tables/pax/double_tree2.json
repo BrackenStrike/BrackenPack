@@ -10,13 +10,25 @@
         
         
         
+        
+        
         {
           "type": "minecraft:item",
-          "name": "minecraft:spruce_leaves",
+          "name": "minecraft:enchanted_golden_apple",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.9
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
             }
           ]
         },

@@ -3,8 +3,13 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
+scoreboard players set @s bp.void 10
 # Effects
-effect give @s[gamemode=!creative] minecraft:slow_falling 13 9 true
+#effect give @s[gamemode=!creative] minecraft:slow_falling 13 9 true
+attribute @s[scores={bp.void=10}] minecraft:generic.gravity modifier add 2283212d-002b-4aa9-9075-8e38d4adce0e "bp.void_gravity" -1.2 add_multiplied_base
+attribute @s[scores={bp.void=10}] minecraft:generic.safe_fall_distance modifier add 2283212d-002b-4aa9-9075-8e38d4adce0e "bp.void_safefall" 1000 add_multiplied_base
+attribute @s[scores={bp.void=10}] minecraft:generic.jump_strength modifier add 2283212d-002b-4aa9-9075-8e38d4adce0e "bp.void_jump" 1 add_multiplied_base
+
 effect give @s[gamemode=!creative,tag=!bp.watcher,scores={bp.longtick=8}] minecraft:blindness 29 9 true
 
 # Mansion Spell Book

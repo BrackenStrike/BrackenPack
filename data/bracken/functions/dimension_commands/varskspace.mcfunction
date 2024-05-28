@@ -3,12 +3,20 @@
 # Creators: Bracken
 ##########################################################
 
+scoreboard players set @s bp.varskspace 10
+
 # Effects
-effect give @s[scores={bp.longtick=7}] minecraft:jump_boost 13 9 true
-effect give @s minecraft:speed 2 9 true
+#effect give @s[scores={bp.longtick=7}] minecraft:jump_boost 13 9 true
+#effect give @s minecraft:speed 2 9 true
 scoreboard players remove @s[predicate=!bracken:sprint,scores={bp.sprintcharge=1..}] bp.sprintcharge 1
 scoreboard players add @s[predicate=bracken:sprint] bp.sprintcharge 2
 scoreboard players set @s[scores={bp.sprintcharge=1001..}] bp.sprintcharge 100
+
+attribute @s[scores={bp.varskspace=10}] minecraft:generic.gravity modifier add b219651a-a1ee-494b-ad0c-38b00d270549 "bp.varskspace_gravity" -1.2 add_multiplied_base
+attribute @s[scores={bp.varskspace=10}] minecraft:generic.gravity modifier add b219651a-a1ee-494b-ad0c-38b00d270549 "bp.varskspace_gravity" -1.2 add_multiplied_base
+attribute @s[scores={bp.varskspace=10}] minecraft:generic.jump_strength modifier add b219651a-a1ee-494b-ad0c-38b00d270549 "bp.varskspace_jump" 0.5 add_multiplied_base
+
+b219651a-a1ee-494b-ad0c-38b00d270549
 
 # Speed Effects (travel to Overworld)
 effect give @s[scores={bp.sprintcharge=20..}] minecraft:speed 1 19 true

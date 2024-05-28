@@ -8,8 +8,14 @@ scoreboard players set @s bp.fae 10
 # Effects
 effect give @s[scores={bp.longtick=6}] minecraft:jump_boost 13 1 true
 effect give @s[predicate=bracken:sneak] minecraft:slow_falling 1 0 true
-experience add @s[scores={bp.1_second=1}] 1 points
-attribute @s[scores={bp.fae=10}] minecraft:generic.max_health modifier add 15c1c42e-9de9-4c7a-a427-776166bc6cac "bp.fae_health" -2 add_value
+experience add @s[scores={bp.longtick=1}] 1 points
+
+attribute @s[scores={bp.fae=10}] minecraft:generic.max_health modifier add 8f04a263-3308-4d4b-9238-0c773173a434 "bp.fae_health" -2 add_value
+attribute @s[scores={bp.fae=10}] minecraft:generic.gravity modifier add 8f04a263-3308-4d4b-9238-0c773173a434 "bp.fae_gravity" -0.25 add_multiplied_base
+attribute @s[scores={bp.fae=10}] minecraft:generic.fall_damage_multiplier modifier add 8f04a263-3308-4d4b-9238-0c773173a434 "bp.fae_safefall" -0.95 add_multiplied_base
+
+
+
 
 execute if entity @s[scores={bp.overworld=2..},gamemode=!spectator] run fill ~3 11 ~3 ~-3 11 ~-3 minecraft:oak_leaves replace minecraft:air
 execute if entity @s[scores={bp.pax=2..},gamemode=!spectator] run fill ~3 277 ~3 ~-3 277 ~-3 minecraft:oak_leaves replace minecraft:air

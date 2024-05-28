@@ -16,7 +16,10 @@ tp @s[scores={bp.omni_flight=2..,bp.sneakcharge=10..}] ~ ~0.001 ~
 effect clear @s[predicate=!bracken:sneak,scores={bp.sneakcharge=..28,bp.omni_flight=2..}] minecraft:levitation
 effect give @s[predicate=bracken:sprint,scores={bp.omni_sprint=2..}] minecraft:speed 1 4 true
 execute if entity @s[predicate=bracken:sprint,scores={bp.omni_sprint=2..}] run particle minecraft:block_marker{block_state:"minecraft:tinted_glass"} ~ ~1 ~
-effect give @s[scores={bp.longtick=2}] minecraft:jump_boost 15 255 true
+#effect give @s[scores={bp.longtick=2}] minecraft:jump_boost 15 255 true
+
+attribute @s[scores={bp.omnidrome=10}] minecraft:generic.safe_fall_distance modifier add 81aeebd8-08af-4395-a5aa-584464ad2b64 "bp.omni_safefall" 1000 add_multiplied_base
+attribute @s[scores={bp.omnidrome=10}] minecraft:player.block_interaction_range modifier add 81aeebd8-08af-4395-a5aa-584464ad2b64 "bp.omni_blockrange" 10 add_multiplied_base
 
 execute if entity @s[y=-42,dy=-100] run function bracken:dimension_commands/other/omnidrome_loop_bottom
 execute if entity @s[y=280,dy=100] run tp @s ~ -38 ~

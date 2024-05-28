@@ -3,6 +3,8 @@
 # Creators: Bracken
 ##########################################################
 
+scoreboard players set @s bp.underdark 10
+
 # Mobs
 execute if score @s bp.1_second matches 10 run function bracken:entities/the_underdark/underdark_entities
 
