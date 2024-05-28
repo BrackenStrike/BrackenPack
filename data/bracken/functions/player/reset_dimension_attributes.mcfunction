@@ -8,10 +8,12 @@ attribute @s[scores={bp.dormis=0}] minecraft:generic.movement_speed modifier rem
 attribute @s[scores={bp.dormis=0}] minecraft:generic.gravity modifier remove ea360667-8914-4fc9-8601-7e972ed8a453
 
 #glacium
-attribute @s[scores={bp.brine=0}] minecraft:player.block_break_speed modifier remove e0a79d96-ec86-4e7c-9ec7-37ad7ee38a14
+attribute @s[scores={bp.glacium=0}] minecraft:player.block_break_speed modifier remove e0a79d96-ec86-4e7c-9ec7-37ad7ee38a14
+attribute @s[scores={bp.glacium=0}] minecraft:generic.armor_toughness modifier remove e0a79d96-ec86-4e7c-9ec7-37ad7ee38a14
 
 #omnidrome done
 attribute @s[scores={bp.omnidrome=0}] minecraft:generic.safe_fall_distance modifier remove 81aeebd8-08af-4395-a5aa-584464ad2b64
+attribute @s[scores={bp.omnidrome=0}] minecraft:player.block_interaction_range modifier remove 81aeebd8-08af-4395-a5aa-584464ad2b64
 
 #panacea done
 attribute @s[scores={bp.panacea=0}] minecraft:generic.max_health modifier remove 26b50535-213d-4ffb-bec3-2ee398259176
