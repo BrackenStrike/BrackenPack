@@ -3,6 +3,7 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
+scoreboard players set @s bp.omnidrome 10
 # No XP
 kill @e[type=experience_orb,distance=..5]
 
@@ -38,7 +39,7 @@ function bracken:dimension_commands/omni_powers/trigger_commands/trigger_book_co
 function bracken:dimension_commands/omni_powers/trigger_commands/trigger_other_commands
 
 
-scoreboard players set @s bp.omnidrome 10
+
 
 #return
 return 1

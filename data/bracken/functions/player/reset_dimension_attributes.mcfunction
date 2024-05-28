@@ -35,6 +35,7 @@ attribute @s[scores={bp.sanctum=0}] minecraft:player.block_break_speed modifier 
 attribute @s[scores={bp.fae=0}] minecraft:generic.max_health modifier remove 8f04a263-3308-4d4b-9238-0c773173a434
 attribute @s[scores={bp.fae=0}] minecraft:generic.gravity modifier remove 8f04a263-3308-4d4b-9238-0c773173a434
 attribute @s[scores={bp.fae=0}] minecraft:generic.fall_damage_multiplier modifier remove 8f04a263-3308-4d4b-9238-0c773173a434
+attribute @s[scores={bp.fae=0}] minecraft:generic.jump_strength modifier add 8f04a263-3308-4d4b-9238-0c773173a434
 
 #underdark
 

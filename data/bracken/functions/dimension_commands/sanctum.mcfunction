@@ -8,7 +8,7 @@ scoreboard players set @s bp.sanctum 10
 # Effects
 effect give @s[scores={bp.longtick=5},tag=!bp.outlander] minecraft:invisibility 13 0 true
 effect clear @s[tag=bp.outlander] minecraft:invisibility
-attribute @s[scores={bp.sanctum=10}] minecraft:player.block_break_speed modifier add e6c0ce48-1c54-427d-9f9f-32571e0a4f5a "bp.sanctum_blockbreak" 2.5 add_multiplied_base
+attribute @s[scores={bp.sanctum=10}] minecraft:player.block_break_speed modifier add e6c0ce48-1c54-427d-9f9f-32571e0a4f5a "bp.sanctum_blockbreak" 2.75 add_multiplied_base
 
 # Mobs
 execute if entity @s[scores={bp.tick=2,bp.sneakcharge=..1}] run function bracken:entities/sanctum/sanctum_entities
