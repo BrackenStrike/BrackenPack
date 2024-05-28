@@ -35,14 +35,18 @@ attribute @s[scores={bp.sanctum=0}] minecraft:player.block_break_speed modifier 
 attribute @s[scores={bp.fae=0}] minecraft:generic.max_health modifier remove 8f04a263-3308-4d4b-9238-0c773173a434
 attribute @s[scores={bp.fae=0}] minecraft:generic.gravity modifier remove 8f04a263-3308-4d4b-9238-0c773173a434
 attribute @s[scores={bp.fae=0}] minecraft:generic.fall_damage_multiplier modifier remove 8f04a263-3308-4d4b-9238-0c773173a434
-attribute @s[scores={bp.fae=0}] minecraft:generic.jump_strength modifier add 8f04a263-3308-4d4b-9238-0c773173a434
+attribute @s[scores={bp.fae=0}] minecraft:generic.jump_strength modifier remove 8f04a263-3308-4d4b-9238-0c773173a434
+attribute @s[scores={bp.fae=0}] minecraft:generic.safe_fall_distance modifier remove 8f04a263-3308-4d4b-9238-0c773173a434
 
 #underdark
 
 #varskspace 
-#attribute @s[scores={bp.varskspace=0}] minecraft:generic.movement_speed modifier remove b219651a-a1ee-494b-ad0c-38b00d270549
-#attribute @s[scores={bp.varskspace=0}] minecraft:generic.gravity modifier remove b219651a-a1ee-494b-ad0c-38b00d270549
+attribute @s[scores={bp.varskspace=0}] minecraft:generic.movement_speed modifier remove b219651a-a1ee-494b-ad0c-38b00d270549
+attribute @s[scores={bp.varskspace=0}] minecraft:generic.gravity modifier remove b219651a-a1ee-494b-ad0c-38b00d270549
 attribute @s[scores={bp.varskspace=0}] minecraft:generic.jump_strength modifier remove b219651a-a1ee-494b-ad0c-38b00d270549
+
+attribute @s[scores={bp.varskspace=0}] minecraft:generic.safe_fall_distance modifier remove b219651a-a1ee-494b-ad0c-38b00d270549
+attribute @s[scores={bp.varskspace=0}] minecraft:generic.fall_damage_multiplier modifier remove b219651a-a1ee-494b-ad0c-38b00d270549
 
 #void 
 attribute @s[scores={bp.void=0}] minecraft:generic.gravity modifier remove 2283212d-002b-4aa9-9075-8e38d4adce0e

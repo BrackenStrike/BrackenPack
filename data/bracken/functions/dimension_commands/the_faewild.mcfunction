@@ -14,6 +14,7 @@ attribute @s[scores={bp.fae=10}] minecraft:generic.max_health modifier add 8f04a
 attribute @s[scores={bp.fae=10}] minecraft:generic.gravity modifier add 8f04a263-3308-4d4b-9238-0c773173a434 "bp.fae_gravity" -0.25 add_multiplied_base
 attribute @s[scores={bp.fae=10}] minecraft:generic.fall_damage_multiplier modifier add 8f04a263-3308-4d4b-9238-0c773173a434 "bp.fae_safefall" -0.95 add_multiplied_base
 attribute @s[scores={bp.fae=10}] minecraft:generic.jump_strength modifier add 8f04a263-3308-4d4b-9238-0c773173a434 "bp.fae_jump" 0.2 add_multiplied_base
+attribute @s[scores={bp.fae=10}] minecraft:generic.safe_fall_distance modifier add 8f04a263-3308-4d4b-9238-0c773173a434 "bp.fae_safefall" 5 add_value
 
 
 
