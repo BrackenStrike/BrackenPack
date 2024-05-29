@@ -13,8 +13,9 @@
         "item": "minecraft:wooden_sword"
       },
       "#": {
-        "item": "#minecraft:stone_tool_materials"
+        "item": "minecraft:cobblestone"
       }
+      
     },
     "result": {
       "id": "minecraft:stone_sword",
