@@ -34,7 +34,7 @@ execute if score @s bp.1_second matches 9 if data storage bracken:config {dimens
 # Will whisper music to my weary spirit.
 execute if score @s bp.3_second matches 1 if predicate bracken:random/one_in_30 run playsound bracken:faewild_ambient ambient @s ~ ~ ~ 100 1.0 1
 
-execute if score @s bp.3_second matches 1 if predicate bracken:random/one_in_45 run playsound bracken:faewild_long_ambient ambient @s ~ ~ ~ 100 1.0 1
+
 
 #return
 return 1

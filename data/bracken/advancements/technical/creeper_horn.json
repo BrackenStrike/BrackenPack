@@ -1,11 +1,8 @@
 {
-  "parent": "bracken:panacea/enter_panacea",
-  
   "criteria": {
-    "bracken:panacea/creeperhorn1": {
+    "requirement": {
         "trigger": "minecraft:using_item",
         "conditions": {
-          "player": {},
           "item": {
             "items": "minecraft:goat_horn",
             "components": {
@@ -15,9 +12,7 @@
         }
     }
 },
-"requirements": [
-    [
-        "bracken:panacea/creeperhorn1"
-    ]
-]
+"rewards": {
+  "function": "bracken:item/creeper_horn"
+}
 }
