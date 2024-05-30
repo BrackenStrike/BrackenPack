@@ -109,10 +109,7 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "additions_sound": {
-      "sound": "minecraft:ambient.underwater.loop.additions.ultra_rare",
-      "tick_chance": 0.001
-    },
+    
     "music": {
       "sound": "minecraft:music.under_water",
       "min_delay": 12000,

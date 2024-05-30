@@ -125,10 +125,7 @@
       "block_search_extent": 8,
       "offset": 2
     },
-    "additions_sound": {
-      "sound": "minecraft:ambient.underwater.loop.additions",
-      "tick_chance": 0.02
-    },
+    
     "music": {
       "sound": "minecraft:music.nether.basalt_deltas",
       "min_delay": 1200,

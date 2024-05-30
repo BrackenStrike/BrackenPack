@@ -74,6 +74,15 @@
                   
             },
             {
+              "attribute": "minecraft:generic.attack_speed",
+              "name": "c",
+              
+              "amount": -3,
+              "operation": "add_value",
+              "slot": "mainhand"
+              
+            },
+            {
               "function": "minecraft:toggle_tooltips",
               "toggles": {
                 "attribute_modifiers": false

@@ -60,7 +60,15 @@
               "function": "minecraft:set_attributes",         
               "modifiers": [
                 
-                            
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "d",
+                  
+                  "amount": -3,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                  
+                },           
                 {
                   "attribute": "minecraft:generic.attack_damage",
                   "name": "b",

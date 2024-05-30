@@ -55,12 +55,12 @@
     },
     "additions_sound": {
       "sound": "minecraft:entity.lightning_bolt.thunder",
-      "tick_chance": 0.005
+      "tick_chance": 0.0005
     },
     "music": {
       "sound": "minecraft:ambient.basalt_deltas.mood",
-      "min_delay": 12000,
-      "max_delay": 24000,
+      "min_delay": 120000,
+      "max_delay": 240000,
       "replace_current_music": false
     },
     "ambient_sound": "minecraft:music.nether.basalt_deltas"

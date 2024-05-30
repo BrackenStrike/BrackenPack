@@ -67,6 +67,15 @@
                    "slot": "mainhand"     
 
                   
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "c",
+                  
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                  
                 }, 
                 {
                   "attribute": "minecraft:generic.armor",

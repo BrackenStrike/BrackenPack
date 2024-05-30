@@ -55,6 +55,15 @@
                 
                 "minecraft:max_damage": 175
               }
+            },
+            {
+              "attribute": "minecraft:generic.attack_speed",
+              "name": "c",
+              
+              "amount": -3,
+              "operation": "add_value",
+              "slot": "mainhand"
+              
             },      
             {
               "function": "minecraft:set_attributes",         

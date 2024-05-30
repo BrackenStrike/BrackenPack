@@ -7,55 +7,26 @@
           "type": "item",
           "name": "minecraft:netherite_pickaxe",
           "functions": [
+            
             {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:attribute_modifiers": {
-                  "modifiers": [
-                    {
-                      "type": "generic.attack_damage",
-                      "slot": "mainhand",
-                      "uuid": [
-                        -1112438523,
-                        -1678162319,
-                        -1888207382,
-                        -993756585
-                      ],
-                      "name": "generic.attack_damage",
-                      "amount": 1,
-                      "operation": "add_value"
-                    }
-                  ],
-                  "show_in_tooltip": false
-                },
-                "minecraft:custom_model_data": 888502
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "translate": "Lustra Pickaxe",
+                "italic": false
               }
+              
             },
             {
-              "function": "minecraft:set_components",
-              "components": {
-                
-                "minecraft:max_damage": 3000
-              }
-            },
-            {
-              "function": "set_name",
-              "name": [
-                {
-                  "translate": "Lustra Pickaxe",
-                  "color": "white",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_lore",
+              "function": "minecraft:set_lore",
+              "entity": "this",
               "lore": [
                 {
                   "translate": "",
                   "color": "blue",
                   "italic": false
                 },
+
                 {
                   "translate": "When in Main Hand:",
                   "color": "gray",
@@ -74,12 +45,48 @@
               ],
               "mode": "insert"
             },
-            
-
-
-
-
-
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 888502
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                
+                "minecraft:max_damage": 3000
+              }
+            },      
+            {
+              "function": "minecraft:set_attributes",         
+              "modifiers": [
+                {
+                  "attribute": "minecraft:generic.attack_damage",
+                  "name": "a",
+                  
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                  
+                },
+                {
+                  "attribute": "minecraft:generic.attack_speed",
+                  "name": "c",
+                  
+                  "amount": -2.7,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                  
+                }
+                
+              ]
+                  
+            },
+            {
+              "function": "minecraft:toggle_tooltips",
+              "toggles": {
+                "attribute_modifiers": false
+              }
+            },
             {
               "function": "set_damage",
               "damage": {
