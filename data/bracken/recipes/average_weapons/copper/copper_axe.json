@@ -35,6 +35,14 @@
               "amount": 7.5,
               "operation": "add_value",
               "slot": "mainhand"
+            },
+            {
+              "type": "minecraft:generic.attack_speed",
+              "uuid": [686304587,2009351061,-2104117110,-356820480],
+              "name": "aspeed",
+              "amount": -3,
+              "operation": "add_value",
+              "slot": "mainhand"
             }
           ],
           "show_in_tooltip": false

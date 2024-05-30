@@ -30,9 +30,17 @@
           "modifiers": [
             {
               "type": "minecraft:generic.attack_speed",
-              "uuid": [1647767269,-163166104,-1453368689,-1263221871],
+              "uuid": [686304587,2009351061,-2104117110,-356820480],
               "name": "damage",
               "amount": -0.3,
+              "operation": "add_value",
+              "slot": "mainhand"
+            },
+            {
+              "type": "minecraft:generic.attack_damage",
+              "uuid": [1647767269,-163166104,-1453368689,-1263221871],
+              "name": "damage",
+              "amount": 0,
               "operation": "add_value",
               "slot": "mainhand"
             }
