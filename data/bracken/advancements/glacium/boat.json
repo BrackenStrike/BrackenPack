@@ -27,7 +27,7 @@
                         "predicate": {
                             "type": "minecraft:boat",
                             "location": {
-                                "biome": "bracken:glacium/glacial_mass"
+                                "biomes": "bracken:glacium/glacial_mass"
                             }
                         }
                     }

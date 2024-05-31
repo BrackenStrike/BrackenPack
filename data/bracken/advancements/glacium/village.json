@@ -28,7 +28,7 @@
                             "type": "minecraft:snow_golem",
                             "location": {
                                 "dimension": "bracken:glacium",
-                                "structure": "bracken:village"
+                                "structures": "bracken:village"
                             }
                         }
                     }

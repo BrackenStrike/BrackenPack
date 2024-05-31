@@ -27,7 +27,7 @@
                       "predicate": {
                           "location": {
                               "dimension": "bracken:the_faewild",
-                              "structure": "bracken:fae_rampion_tower"
+                              "structures": "bracken:fae_rampion_tower"
                           }
                       }
                   }

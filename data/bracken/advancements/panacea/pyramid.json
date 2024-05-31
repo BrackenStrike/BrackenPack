@@ -22,7 +22,7 @@
           "conditions": {
             "player": {
               "location": {
-                "structure": "bracken:panacea_creeper_pyramid"
+                "structures": "bracken:panacea_creeper_pyramid"
               }
             }
           }

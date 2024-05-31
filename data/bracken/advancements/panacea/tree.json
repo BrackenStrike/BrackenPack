@@ -22,7 +22,7 @@
           "conditions": {
               "player": {
                 "location": {
-                  "structure": "bracken:panacea_tetra_tree"
+                  "structures": "bracken:panacea_tetra_tree"
                 }
               }
             }

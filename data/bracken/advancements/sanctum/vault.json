@@ -26,7 +26,7 @@
                       "light": {
                           "light": 0
                       },
-                      "structure": "bracken:sanctum_boss"
+                      "structures": "bracken:sanctum_boss"
                   }
               }
           }

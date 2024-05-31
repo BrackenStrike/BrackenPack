@@ -9,11 +9,7 @@
           "color": "green"
       },
       "icon": {
-        "id": "minecraft:apple",
-        "components": {
-          
-          "minecraft:custom_model_data": 888513
-        }
+        "id": "minecraft:golden_apple"
       },
       "frame": "task",
       "show_toast": true,
@@ -26,7 +22,7 @@
           "conditions": {
               "player": {
                 "location": {
-                  "structure": "bracken:pax_double_tree"                    
+                  "structures": "bracken:pax_double_tree"                    
                 }
               }
             }
