@@ -27,7 +27,7 @@
                       "predicate": {
                           "location": {
                               "dimension": "bracken:the_underdark",
-                              "structure": "bracken:twice_abandoned_mineshaft"
+                              "structures": "bracken:twice_abandoned_mineshaft"
                           }
                       }
                   }
