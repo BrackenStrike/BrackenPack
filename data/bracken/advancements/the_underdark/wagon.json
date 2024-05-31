@@ -7,7 +7,7 @@
       "translate": "Wrong Way Wagon"
     },
     "description": {
-      "translate": "Find a spider's nest. Look for an ensnared wagon."
+      "translate": "Loot an ensnared wagon deep within a spider's nest"
     },
     "frame": "task",
     "show_toast": true,
@@ -16,15 +16,30 @@
   },
   "parent": "bracken:the_underdark/petrified",
   "criteria": {
-    "requirement": {
-      "trigger": "minecraft:location",
+    "the_underdark_web1": {
+      "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "player": {
-          "location": {
-            "structure": "bracken:underdark_web"
-          }
-        }
+        "loot_table": "bracken:the_underdark/underdark_web1"
+      }
+    },
+    "the_underdark_web2": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "bracken:the_underdark/underdark_web2"
+      }
+    },
+    "the_underdark_web3": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "bracken:the_underdark/underdark_web3"
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "the_underdark_web1",
+      "the_underdark_web2",
+      "the_underdark_web3"
+    ]
+  ]
 }
