@@ -8,7 +8,11 @@
             "color": "green"
         },
         "icon": {
-            "id": "minecraft:twisting_vines"
+          "id": "minecraft:apple",
+          "components": {
+              
+              "minecraft:custom_model_data": 888518
+            }
         },
         "frame": "task",
         "show_toast": false,
