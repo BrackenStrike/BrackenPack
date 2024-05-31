@@ -9,7 +9,7 @@
       "color": "green"
     },
     "icon": {
-      "item": "minecraft:black_bed"
+      "id": "minecraft:black_bed"
   },
     "frame": "challenge",
     "show_toast": true,

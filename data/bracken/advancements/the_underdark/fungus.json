@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:red_mushroom"
+            "id": "minecraft:red_mushroom"
         },
         "frame": "task",
         "show_toast": true,

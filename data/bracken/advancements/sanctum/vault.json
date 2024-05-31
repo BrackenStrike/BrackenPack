@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:bedrock"
+            "id": "minecraft:bedrock"
         },
         "frame": "task",
         "show_toast": true,

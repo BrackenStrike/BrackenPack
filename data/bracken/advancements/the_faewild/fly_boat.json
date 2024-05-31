@@ -9,7 +9,7 @@
       "color": "green"
     },
     "icon": {
-      "item": "minecraft:birch_boat"},
+      "id": "minecraft:birch_boat"},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

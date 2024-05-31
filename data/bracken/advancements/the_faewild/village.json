@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:warped_door"
+            "id": "minecraft:warped_door"
         },
         "frame": "task",
         "show_toast": true,

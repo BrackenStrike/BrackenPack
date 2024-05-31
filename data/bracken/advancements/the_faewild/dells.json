@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:warped_nylium"
+            "id": "minecraft:warped_nylium"
         },
         "frame": "task",
         "show_toast": true,

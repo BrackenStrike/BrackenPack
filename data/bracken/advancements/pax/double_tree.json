@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:oak_leaves"
+            "id": "minecraft:oak_leaves"
         },
         "frame": "task",
         "show_toast": true,

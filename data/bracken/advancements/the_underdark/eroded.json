@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:magma_block"
+            "id": "minecraft:magma_block"
         },
         "frame": "task",
         "show_toast": true,

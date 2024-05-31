@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:dead_bush"
+            "id": "minecraft:dead_bush"
         },
         "frame": "task",
         "show_toast": true,

@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:smooth_red_sandstone"
+            "id": "minecraft:smooth_red_sandstone"
         },
         "frame": "task",
         "show_toast": true,

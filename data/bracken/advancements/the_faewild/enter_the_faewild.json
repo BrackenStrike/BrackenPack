@@ -8,7 +8,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:twisting_vines"
+            "id": "minecraft:twisting_vines"
         },
         "frame": "task",
         "show_toast": false,

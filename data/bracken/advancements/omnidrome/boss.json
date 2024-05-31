@@ -2,7 +2,7 @@
 
   "display": {
       "icon": {
-        "item": "minecraft:barrier"
+        "id": "minecraft:barrier"
       },
       "title": {
         "translate": "Rogue Navigator"

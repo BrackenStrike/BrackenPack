@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:bread"
+            "id": "minecraft:bread"
         },
         "frame": "task",
         "show_toast": true,

@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:cobweb"
+            "id": "minecraft:cobweb"
         },
         "frame": "task",
         "show_toast": true,

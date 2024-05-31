@@ -9,7 +9,7 @@
       "color": "green"
     },
     "icon": {
-      "item": "minecraft:diamond_sword"
+      "id": "minecraft:diamond_sword"
     },
     "frame": "challenge",
     "show_toast": true,

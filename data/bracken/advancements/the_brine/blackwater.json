@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:black_concrete"
+            "id": "minecraft:black_concrete"
         },
         "frame": "task",
         "show_toast": true,

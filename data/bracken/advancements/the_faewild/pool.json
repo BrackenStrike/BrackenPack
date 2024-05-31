@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:blue_shulker_box"
+            "id": "minecraft:blue_shulker_box"
         },
         "frame": "task",
         "show_toast": true,

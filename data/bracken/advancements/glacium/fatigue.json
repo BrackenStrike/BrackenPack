@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:cracked_stone_bricks"
+            "id": "minecraft:cracked_stone_bricks"
         },
         "frame": "task",
         "show_toast": true,

@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:deepslate"
+            "id": "minecraft:deepslate"
         },
         "frame": "task",
         "show_toast": true,

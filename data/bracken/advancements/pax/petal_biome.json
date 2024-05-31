@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:pink_petals"
+            "id": "minecraft:pink_petals"
         },
         "frame": "task",
         "show_toast": true,

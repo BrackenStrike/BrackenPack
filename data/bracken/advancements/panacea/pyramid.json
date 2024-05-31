@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:mossy_cobblestone"
+            "id": "minecraft:mossy_cobblestone"
         },
         "frame": "task",
         "show_toast": true,

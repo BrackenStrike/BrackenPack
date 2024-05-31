@@ -8,7 +8,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:golden_apple"
+            "id": "minecraft:golden_apple"
         },
         "frame": "task",
         "show_toast": false,

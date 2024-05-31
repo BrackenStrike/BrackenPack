@@ -9,7 +9,7 @@
       "color": "green"
     },
     "icon": {
-      "item": "minecraft:slime_ball"
+      "id": "minecraft:slime_ball"
     },
     "frame": "task",
     "show_toast": true,

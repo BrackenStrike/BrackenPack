@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:basalt"
+            "id": "minecraft:basalt"
         },
         "frame": "task",
         "show_toast": true,

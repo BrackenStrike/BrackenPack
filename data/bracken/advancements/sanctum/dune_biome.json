@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:calcite"
+            "id": "minecraft:calcite"
         },
         "frame": "task",
         "show_toast": true,

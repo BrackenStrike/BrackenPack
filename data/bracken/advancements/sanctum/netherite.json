@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:netherite_ingot"
+            "id": "minecraft:netherite_ingot"
         },
         "frame": "task",
         "show_toast": true,

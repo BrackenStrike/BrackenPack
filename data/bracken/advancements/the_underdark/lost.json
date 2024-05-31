@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:filled_map"
+            "id": "minecraft:filled_map"
         },
         "frame": "task",
         "show_toast": true,

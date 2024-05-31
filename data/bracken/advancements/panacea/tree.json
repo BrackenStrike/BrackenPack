@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:oak_log"
+            "id": "minecraft:oak_log"
         },
         "frame": "task",
         "show_toast": true,

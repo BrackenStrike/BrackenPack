@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:blue_stained_glass"
+            "id": "minecraft:blue_stained_glass"
         },
         "frame": "task",
         "show_toast": true,

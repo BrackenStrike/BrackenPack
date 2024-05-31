@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:amethyst_cluster"
+            "id": "minecraft:amethyst_cluster"
         },
         "frame": "task",
         "show_toast": true,
