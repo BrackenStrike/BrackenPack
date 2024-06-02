@@ -1,5 +1,7 @@
 {
     "values": [
+        "minecraft:fishing_bobber",
+        "minecraft:armor_stand",
         "minecraft:item",
         "minecraft:trident",
         "minecraft:item_frame",
