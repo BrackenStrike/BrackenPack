@@ -1,63 +1,63 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "rolls": {
-        "min": 10,
-        "max": 15
-      },
-      "entries": [
+    "type": "minecraft:chest",
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:pumpkin_seeds",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.9
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_hoe",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:snowball",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.7
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pumpkin",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pumpkin_pie",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
-            }
-          ]
+            "rolls": {
+                "min": 10,
+                "max": 15
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pumpkin_seeds",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.9
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond_hoe",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.1
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.7
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pumpkin",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.2
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pumpkin_pie",
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.1
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

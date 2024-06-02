@@ -1,8 +1,8 @@
 {
-  "type": "minecraft:forest_rock",
-  "config": {
-    "state": {
-      "Name": "minecraft:nether_gold_ore"
+    "type": "minecraft:forest_rock",
+    "config": {
+        "state": {
+            "Name": "minecraft:nether_gold_ore"
+        }
     }
-  }
 }

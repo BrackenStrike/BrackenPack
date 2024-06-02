@@ -18,14 +18,14 @@
     },
     "criteria": {
         "requirement": {
-          "trigger": "minecraft:location",
-          "conditions": {
-            "player": {
-              "location": {
-                "biomes": "bracken:the_faewild/darkthunder_thicket"
-              }
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "bracken:the_faewild/darkthunder_thicket"
+                    }
+                }
             }
-          }
         }
-      }
-  }
+    }
+}

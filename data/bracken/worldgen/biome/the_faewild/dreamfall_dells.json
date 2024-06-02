@@ -1,71 +1,73 @@
 {
-  "spawners": {
-    "water_ambient": [],
-    "ambient": [],
-    "misc": [],
-    "water_creature": [],
-    "creature": [{
-      "type": "minecraft:allay",
-      "weight": 5,
-      "minCount": 2,
-      "maxCount": 6
-    }],
-    "monster": []
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": []
-  },
-  "features": [
-    [],
-    [
-      "bracken:faewild/lake"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [
-      "bracken:faewild/lapis_ore"
-    ],
-    [],
-    [],
-    [
-      "minecraft:seagrass_swamp",
-      "minecraft:sea_pickle",
-      "bracken:faewild/stone_tree",
-      "minecraft:twisting_vines",
-      "minecraft:nether_sprouts"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "fog_color": 6113113,
-    "water_color": 4996043,
-    "water_fog_color": 4995962,
-    "grass_color": 2065734,
-    "sky_color": 2502751,
-    "foliage_color": 2065734,
-    "mood_sound": {
-      "sound": "minecraft:ambient.underwater.loop.additions",
-      "tick_delay": 60,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [
+            {
+                "type": "minecraft:allay",
+                "weight": 5,
+                "minCount": 2,
+                "maxCount": 6
+            }
+        ],
+        "monster": []
     },
-    "additions_sound": {
-      "sound": "minecraft:ambient.crimson_forest.additions",
-      "tick_chance": 0.01
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
     },
-    "music": {
-      "sound": "minecraft:music_disc.far",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
-  },
-  "has_precipitation": true
+    "features": [
+        [],
+        [
+            "bracken:faewild/lake"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "bracken:faewild/lapis_ore"
+        ],
+        [],
+        [],
+        [
+            "minecraft:seagrass_swamp",
+            "minecraft:sea_pickle",
+            "bracken:faewild/stone_tree",
+            "minecraft:twisting_vines",
+            "minecraft:nether_sprouts"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "fog_color": 6113113,
+        "water_color": 4996043,
+        "water_fog_color": 4995962,
+        "grass_color": 2065734,
+        "sky_color": 2502751,
+        "foliage_color": 2065734,
+        "mood_sound": {
+            "sound": "minecraft:ambient.underwater.loop.additions",
+            "tick_delay": 60,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "additions_sound": {
+            "sound": "minecraft:ambient.crimson_forest.additions",
+            "tick_chance": 0.01
+        },
+        "music": {
+            "sound": "minecraft:music_disc.far",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
+    },
+    "has_precipitation": true
 }

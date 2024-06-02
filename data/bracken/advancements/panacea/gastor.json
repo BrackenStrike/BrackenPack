@@ -11,10 +11,9 @@
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
             "components": {
-              
-              "minecraft:custom_model_data": 888520
+                "minecraft:custom_model_data": 888520
             }
-          },
+        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
@@ -22,8 +21,7 @@
     },
     "criteria": {
         "discovered": {
-          "trigger": "minecraft:impossible"
+            "trigger": "minecraft:impossible"
         }
-      }
+    }
 }
-

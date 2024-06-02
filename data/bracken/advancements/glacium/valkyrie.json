@@ -12,10 +12,10 @@
             "id": "minecraft:player_head",
             "components": {
                 "minecraft:profile": {
-                  "name": "MHF_Ghast"
+                    "name": "MHF_Ghast"
                 }
-              }
-          },
+            }
+        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

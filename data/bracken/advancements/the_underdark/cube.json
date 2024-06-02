@@ -17,13 +17,8 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:the_underdark/unsung1": {
+        "requirement": {
             "trigger": "minecraft:impossible"
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_underdark/unsung1"
-        ]
-    ]
+    }
 }

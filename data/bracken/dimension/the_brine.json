@@ -1,163 +1,162 @@
 {
-  "type": "bracken:the_brine",
-  "generator": {
-    "type": "minecraft:noise",
-    "settings": "bracken:the_brine",
-    "biome_source": {
-      "type": "minecraft:multi_noise",
-      "biomes": [
-        {
-          "biome": "bracken:the_brine/sugar_sand_beach",
-          "parameters": {
-            "temperature": -0.1,
-            "humidity": 0.2,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0.2,
-            "depth": [
-              0,
-              0.3
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_brine/incursive_fungus",
-          "parameters": {
-            "temperature": 0.2,
-            "humidity": -0.5,
-            "continentalness": -0.2,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0,
-              0.3
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_brine/keeper_district",
-          "parameters": {
-            "temperature": -0.5,
-            "humidity": 0.2,
-            "continentalness": 0.5,
-            "erosion": 0,
-            "weirdness": 0.5,
-            "depth": [
-              0,
-              0.3
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_brine/kelp_cove",
-          "parameters": {
-            "temperature": 0.2,
-            "humidity": -0.2,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0.2,
-            "depth": [
-              0,
-              0.3
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_brine/revered_waters",
-          "parameters": {
-            "temperature": 0.2,
-            "humidity": 0.2,
-            "continentalness": -0.7,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0,
-              0.3
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_brine/dead_reef",
-          "parameters": {
-            "temperature": -0.2,
-            "humidity": 0.4,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0,
-              0.3
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_brine/sponge_ranch",
-          "parameters": {
-            "temperature": 0.2,
-            "humidity": 0.2,
-            "continentalness": -0.3,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0,
-              0.3
-            ],
-            "offset": 0
-          }
-        },
-
-        {
-          "biome": "bracken:the_brine/blossom_reef",
-          "parameters": {
-            "temperature": 0.1,
-            "humidity": 0.1,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0,
-              0.3
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_brine/indigo_median",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0.31,
-              0.7
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_brine/blackwater_depths",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0.8,
-              1
-            ],
-            "offset": 0
-          }
+    "type": "bracken:the_brine",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "bracken:the_brine",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "bracken:the_brine/sugar_sand_beach",
+                    "parameters": {
+                        "temperature": -0.1,
+                        "humidity": 0.2,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.2,
+                        "depth": [
+                            0,
+                            0.3
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_brine/incursive_fungus",
+                    "parameters": {
+                        "temperature": 0.2,
+                        "humidity": -0.5,
+                        "continentalness": -0.2,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0,
+                            0.3
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_brine/keeper_district",
+                    "parameters": {
+                        "temperature": -0.5,
+                        "humidity": 0.2,
+                        "continentalness": 0.5,
+                        "erosion": 0,
+                        "weirdness": 0.5,
+                        "depth": [
+                            0,
+                            0.3
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_brine/kelp_cove",
+                    "parameters": {
+                        "temperature": 0.2,
+                        "humidity": -0.2,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.2,
+                        "depth": [
+                            0,
+                            0.3
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_brine/revered_waters",
+                    "parameters": {
+                        "temperature": 0.2,
+                        "humidity": 0.2,
+                        "continentalness": -0.7,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0,
+                            0.3
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_brine/dead_reef",
+                    "parameters": {
+                        "temperature": -0.2,
+                        "humidity": 0.4,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0,
+                            0.3
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_brine/sponge_ranch",
+                    "parameters": {
+                        "temperature": 0.2,
+                        "humidity": 0.2,
+                        "continentalness": -0.3,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0,
+                            0.3
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_brine/blossom_reef",
+                    "parameters": {
+                        "temperature": 0.1,
+                        "humidity": 0.1,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0,
+                            0.3
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_brine/indigo_median",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0.31,
+                            0.7
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_brine/blackwater_depths",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0.8,
+                            1
+                        ],
+                        "offset": 0
+                    }
+                }
+            ]
         }
-      ]
     }
-  }
 }

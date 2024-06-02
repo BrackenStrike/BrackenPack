@@ -13,8 +13,8 @@
             "components": {
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:custom_model_data": 888501
-              }
-          },
+            }
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
@@ -41,7 +41,7 @@
                             "minecraft:golden_shovel"
                         ],
                         "components": {
-                          "minecraft:enchantment_glint_override": true
+                            "minecraft:enchantment_glint_override": true
                         }
                     }
                 ]

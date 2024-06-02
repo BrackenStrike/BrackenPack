@@ -1,33 +1,28 @@
 {
-  "pools": [
-    
-    
-      {
-          "rolls": 1,
-          "entries": [
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:black_bed"
-            }
-          ],
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.2
-            }
-          ]
-        },
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:obsidian"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:black_bed"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.2
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:obsidian"
+                }
+            ]
         }
-      ]
-    }
-    
-    
-  ]
+    ]
 }
-

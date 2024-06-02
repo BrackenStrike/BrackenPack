@@ -11,10 +11,10 @@
             "id": "minecraft:player_head",
             "components": {
                 "minecraft:profile": {
-                  "name": "BrackenStriker"
+                    "name": "BrackenStriker"
                 }
-              }
-          },
+            }
+        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
@@ -30,5 +30,3 @@
         "function": "bracken:set_score"
     }
 }
-
-

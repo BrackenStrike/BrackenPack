@@ -10,10 +10,10 @@
         "icon": {
             "id": "minecraft:diamond_sword",
             "components": {
-              "minecraft:enchantment_glint_override": true,
-              "minecraft:custom_model_data": 888502
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_model_data": 888502
             }
-          },
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
@@ -22,14 +22,14 @@
     },
     "criteria": {
         "requirement": {
-          "trigger": "minecraft:location",
-          "conditions": {
-            "player": {
-              "location": {
-                "dimension": "bracken:glacium"
-              }
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:glacium"
+                    }
+                }
             }
-          }
         }
-      }
-  }
+    }
+}

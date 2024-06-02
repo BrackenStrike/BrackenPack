@@ -1,22 +1,22 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "minecraft:elder_guardian",
-              "nbt": "{Tags:[\"bp.the_disruptor\"]}"
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:elder_guardian",
+                            "nbt": "{Tags:[\"bp.the_disruptor\"]}"
+                        }
+                    }
+                ]
             }
-          }
-        ]
-      }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/omnitrigger/k_disruptor"
     }
-  },
-  "rewards": {
-    "function": "bracken:player/omnitrigger/k_disruptor"
-  }
 }

@@ -11,10 +11,10 @@
         "icon": {
             "id": "minecraft:netherite_sword",
             "components": {
-              "minecraft:enchantment_glint_override": true,
-              "minecraft:custom_model_data": 888501
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_model_data": 888501
             }
-          },
+        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
@@ -41,8 +41,7 @@
                             "minecraft:netherite_sword"
                         ],
                         "components": {
-                          
-                          "minecraft:custom_model_data": 888501
+                            "minecraft:custom_model_data": 888501
                         }
                     }
                 ]

@@ -1,17 +1,17 @@
 {
-  "config": {
-    "fluid": {
-      "state": {
-        "Name": "minecraft:coal_block"
-      },
-      "type": "minecraft:simple_state_provider"
+    "config": {
+        "fluid": {
+            "state": {
+                "Name": "minecraft:coal_block"
+            },
+            "type": "minecraft:simple_state_provider"
+        },
+        "barrier": {
+            "state": {
+                "Name": "minecraft:rooted_dirt"
+            },
+            "type": "minecraft:simple_state_provider"
+        }
     },
-    "barrier": {
-      "state": {
-        "Name": "minecraft:rooted_dirt"
-      },
-      "type": "minecraft:simple_state_provider"
-    }
-  },
-  "type": "minecraft:lake"
+    "type": "minecraft:lake"
 }

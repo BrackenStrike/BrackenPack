@@ -1,78 +1,77 @@
 {
     "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-            {
-                "type": "minecraft:item",
-                "name": "minecraft:golden_helmet",
-                "functions": [
-                  {
-                    "function": "minecraft:set_components",
-                    "components": {
-                      "minecraft:fire_resistant": true,
-                      "minecraft:damage": 0.1,
-                      "minecraft:enchantments": {
-                        "minecraft:projectile_protection": 50,
-                        "minecraft:binding_curse": 1
-                      },
-                      "minecraft:custom_name": "{\"text\":\"Thrall's Crown\",\"color\":\"gold\",\"bold\":true}",
-                      "minecraft:lore": [
-                        "{\"text\":\"This does not belong to you.\",\"color\":\"gray\"}"
-                      ],
-                      "minecraft:attribute_modifiers": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_helmet",
+                    "functions": [
                         {
-                          "type": "generic.armor_toughness",
-                          "slot": "head",
-                          "uuid": [
-                            -246185741,
-                            -1245099623,
-                            -1785514533,
-                            2001895771
-                          ],
-                          "name": "generic.armor_toughness",
-                          "amount": 100,
-                          "operation": "add_value"
-                        },
-                        {
-                          "type": "generic.knockback_resistance",
-                          "slot": "head",
-                          "uuid": [
-                            1052734379,
-                            -917354059,
-                            -1213704371,
-                            -548662746
-                          ],
-                          "name": "generic.knockback_resistance",
-                          "amount": 100,
-                          "operation": "add_value"
-                        },
-                        {
-                          "type": "generic.armor",
-                          "slot": "head",
-                          "uuid": [
-                            -157765945,
-                            343887442,
-                            -1538240534,
-                            552742553
-                          ],
-                          "name": "generic.armor",
-                          "amount": 100,
-                          "operation": "add_value"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:fire_resistant": true,
+                                "minecraft:damage": 0.1,
+                                "minecraft:enchantments": {
+                                    "minecraft:projectile_protection": 50,
+                                    "minecraft:binding_curse": 1
+                                },
+                                "minecraft:custom_name": "{\"text\":\"Thrall's Crown\",\"color\":\"gold\",\"bold\":true}",
+                                "minecraft:lore": [
+                                    "{\"text\":\"This does not belong to you.\",\"color\":\"gray\"}"
+                                ],
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "generic.armor_toughness",
+                                        "slot": "head",
+                                        "uuid": [
+                                            -246185741,
+                                            -1245099623,
+                                            -1785514533,
+                                            2001895771
+                                        ],
+                                        "name": "generic.armor_toughness",
+                                        "amount": 100,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "generic.knockback_resistance",
+                                        "slot": "head",
+                                        "uuid": [
+                                            1052734379,
+                                            -917354059,
+                                            -1213704371,
+                                            -548662746
+                                        ],
+                                        "name": "generic.knockback_resistance",
+                                        "amount": 100,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "generic.armor",
+                                        "slot": "head",
+                                        "uuid": [
+                                            -157765945,
+                                            343887442,
+                                            -1538240534,
+                                            552742553
+                                        ],
+                                        "name": "generic.armor",
+                                        "amount": 100,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "minecraft:custom_model_data": 888502,
+                                "minecraft:custom_data": {
+                                    "tags": [
+                                        "bp.fire_immune"
+                                    ]
+                                }
+                            }
                         }
-                      ],
-                      "minecraft:custom_model_data": 888502,
-                      "minecraft:custom_data": {
-                        "tags": [
-                          "bp.fire_immune"
-                        ]
-                      }
-                    }
-                  }
-                ]
-            }
-        ]
-      }
+                    ]
+                }
+            ]
+        }
     ]
-  }
-  
+}

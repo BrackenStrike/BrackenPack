@@ -1,49 +1,43 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:apple"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "text": "Lembas Breadfruit",
+                        "color": "white",
+                        "italic": false
+                    }
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "text": "How many did you eat?",
+                            "color": "gray",
+                            "italic": false
+                        }
+                    ],
+                    "mode": "insert"
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "value": 888501
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{bp:{id:\"lembas_breadfruit\"}}"
+                }
+            ]
         }
-       
-      ],
-      "functions": [
-        {
-          "function": "minecraft:set_name",
-          "name": {
-            "text": "Lembas Breadfruit",
-            "color": "white",
-            "italic": false
-          }
-        },
-        
-        {
-          "function": "minecraft:set_lore",
-          "entity": "this",
-          "lore": [
-            {
-              "text": "How many did you eat?",
-              "color": "gray",
-              "italic": false
-            }
-          ],
-          "mode": "insert"
-        },
-            
-            
-            
-            {
-              "function": "minecraft:set_custom_model_data",
-              "value": 888501
-            },
-                        
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{bp:{id:\"lembas_breadfruit\"}}"
-            }
-          ]
-        }
-      ]
-    }
+    ]
+}

@@ -8,10 +8,9 @@
             "color": "green"
         },
         "icon": {
-          "id": "minecraft:apple",
-          "components": {
-              
-              "minecraft:custom_model_data": 888518
+            "id": "minecraft:apple",
+            "components": {
+                "minecraft:custom_model_data": 888518
             }
         },
         "frame": "task",
@@ -22,14 +21,14 @@
     },
     "criteria": {
         "requirement": {
-          "trigger": "minecraft:location",
-          "conditions": {
-            "player": {
-              "location": {
-                "dimension": "bracken:the_faewild"
-              }
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:the_faewild"
+                    }
+                }
             }
-          }
         }
-      }
-  }
+    }
+}

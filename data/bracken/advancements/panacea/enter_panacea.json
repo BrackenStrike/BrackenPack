@@ -10,10 +10,9 @@
         "icon": {
             "id": "minecraft:carrot_on_a_stick",
             "components": {
-              
-              "minecraft:custom_model_data": 888520
+                "minecraft:custom_model_data": 888520
             }
-          },
+        },
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
@@ -21,15 +20,15 @@
         "background": "bracken:textures/gui/advancements/backgrounds/panacea.png"
     },
     "criteria": {
-      "requirement": {
-        "trigger": "minecraft:location",
-        "conditions": {
-          "player": {
-            "location": {
-              "dimension": "bracken:panacea"
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "bracken:panacea"
+                    }
+                }
             }
-          }
         }
-      }
     }
 }

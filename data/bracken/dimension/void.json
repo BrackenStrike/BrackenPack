@@ -1,24 +1,24 @@
 {
-  "type": "bracken:void",
-  "generator": {
-    "type": "minecraft:noise",
-    "settings": "bracken:void",
-    "biome_source": {
-      "type": "minecraft:multi_noise",
-      "biomes": [
-        {
-          "biome": "bracken:void/void",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
+    "type": "bracken:void",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "bracken:void",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "bracken:void/void",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                }
+            ]
         }
-      ]
     }
-  }
 }

@@ -1,75 +1,81 @@
 {
-  "spawners": {
-    "water_ambient": [{
-      "type": "minecraft:tropical_fish",
-      "weight": 1,
-      "minCount": 1,
-      "maxCount": 1
-    }],
-    "ambient": [],
-    "misc": [],
-    "water_creature": [],
-    "creature": [
-      
-    ],
-    "monster": [
-      
-    ]
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
-  "features": [
-    [
-      
-      "minecraft:sculk_patch_deep_dark"
-    ],
-    ["bracken:sanctum/coal",
-    "bracken:brine/redstone_blobs"],
-    ["minecraft:warm_ocean_vegetation",
-    "minecraft:sea_pickle","bracken:brine/supercoral"],
-    ["bracken:sanctum/city_tree2"],
-    ["minecraft:glow_lichen","bracken:sanctum/fire"],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "fog_color": 15227970,
-    "water_color": 7351357,
-    "water_fog_color": 5902125,
-    "grass_color": 0,
-    "sky_color": 7943472,
-    "foliage_colour": 0,
-   
-    "mood_sound": {
-      "sound": "minecraft:entity.zombie_villager.converted",
-      "tick_delay": 1000,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawners": {
+        "water_ambient": [
+            {
+                "type": "minecraft:tropical_fish",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [],
+        "monster": []
     },
-    "additions_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley.loop",
-      "tick_chance": 0.05
+    "spawn_costs": {},
+    "carvers": {
+        "air": [
+            "minecraft:cave",
+            "minecraft:cave_extra_underground",
+            "minecraft:canyon"
+        ]
     },
-    "music": {
-      "sound": "minecraft:music.overworld.deep_dark",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
-  },
-  "has_precipitation": false
+    "features": [
+        [
+            "minecraft:sculk_patch_deep_dark"
+        ],
+        [
+            "bracken:sanctum/coal",
+            "bracken:brine/redstone_blobs"
+        ],
+        [
+            "minecraft:warm_ocean_vegetation",
+            "minecraft:sea_pickle",
+            "bracken:brine/supercoral"
+        ],
+        [
+            "bracken:sanctum/city_tree2"
+        ],
+        [
+            "minecraft:glow_lichen",
+            "bracken:sanctum/fire"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "fog_color": 15227970,
+        "water_color": 7351357,
+        "water_fog_color": 5902125,
+        "grass_color": 0,
+        "sky_color": 7943472,
+        "foliage_colour": 0,
+        "mood_sound": {
+            "sound": "minecraft:entity.zombie_villager.converted",
+            "tick_delay": 1000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "additions_sound": {
+            "sound": "minecraft:ambient.soul_sand_valley.loop",
+            "tick_chance": 0.05
+        },
+        "music": {
+            "sound": "minecraft:music.overworld.deep_dark",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
+    },
+    "has_precipitation": false
 }

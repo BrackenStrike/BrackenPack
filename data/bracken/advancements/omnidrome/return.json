@@ -21,12 +21,12 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                  "location": {
-                    "dimension": "bracken:omnidrome"
-                  },
-                  "nbt": "{Tags:[\"bp.automech\"]}"
+                    "location": {
+                        "dimension": "bracken:omnidrome"
+                    },
+                    "nbt": "{Tags:[\"bp.automech\"]}"
                 }
-              }
+            }
         }
     },
     "requirements": [
@@ -35,8 +35,3 @@
         ]
     ]
 }
-
-
-
-
-
