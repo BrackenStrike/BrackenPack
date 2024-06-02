@@ -3,6 +3,9 @@
 # Creators: Sulfenir and Grandmaster
 ##########################################################
 
+function bracken:player/species/leave
+advancement revoke @s only bracken:technical/food/species_fruit/villain
+
 tag @s add bp.species
 tag @s add bp.villain
 team join Villain

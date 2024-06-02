@@ -16,7 +16,13 @@
                     "items": [
                         "minecraft:ender_eye"
                     ],
-                    "nbt": "{bracken:{id:\"enderling_controlled_teleport\"}}"
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "bracken": {
+                                "id": "enderling_controlled_teleport"
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -24,4 +30,5 @@
     "rewards": {
         "function": "bracken:player/species/enderling/controlled_teleport"
     }
+    "dev_message":"remove this line to make the advancement usable again"
 }
