@@ -1,31 +1,31 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:totem_of_undying"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:totem_of_undying"
+                }
+            ]
+        },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:gold_block"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gold_block"
+                }
+            ]
+        },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:spyglass"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spyglass"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

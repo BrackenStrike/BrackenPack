@@ -6,6 +6,7 @@ tellraw @s ["",{"translate":"------------------------------\nWould you like to b
 + Possess slightly increased attack speed \n\
 - Iron golems will always be hostile\n\
 - Villagers will give you Bad Omen\n\
-- Cannot be given Hero of the Village\n\n"},\
+- Cannot be given Hero of the Village\n\
+- Permanently have Bad Luck x10\n\n"},\
 {"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger bp.villain_"}},\
 {"translate":"\n------------------------------"}]

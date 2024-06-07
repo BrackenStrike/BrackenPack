@@ -1,72 +1,72 @@
 {
-  "type": "bracken:omnidrome",
-  "generator": {
-    "type": "minecraft:noise",
-    "settings": "bracken:omnidrome",
-    "biome_source": {
-      "type": "minecraft:multi_noise",
-      "biomes": [
-        {
-          "biome": "bracken:omnidrome/infrapolis",
-          "parameters": {
-            "temperature": -0.8,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:omnidrome/stanterion",
-          "parameters": {
-            "temperature": 0.1,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:omnidrome/fabricylum",
-          "parameters": {
-            "temperature": 0.3,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:omnidrome/malvergent_zone",
-          "parameters": {
-            "temperature": 0.5,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:omnidrome/archivistory",
-          "parameters": {
-            "temperature": -0.2,
-            "humidity": 0.6,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
+    "type": "bracken:omnidrome",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "bracken:omnidrome",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "bracken:omnidrome/infrapolis",
+                    "parameters": {
+                        "temperature": -0.8,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:omnidrome/stanterion",
+                    "parameters": {
+                        "temperature": 0.1,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:omnidrome/fabricylum",
+                    "parameters": {
+                        "temperature": 0.3,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:omnidrome/malvergent_zone",
+                    "parameters": {
+                        "temperature": 0.5,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:omnidrome/archivistory",
+                    "parameters": {
+                        "temperature": -0.2,
+                        "humidity": 0.6,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                }
+            ]
         }
-      ]
     }
-  }
 }

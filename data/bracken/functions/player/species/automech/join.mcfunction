@@ -3,6 +3,9 @@
 # Creators: Grandmaster and Sulfenir
 ##########################################################
 
+function bracken:player/species/leave
+advancement revoke @s only bracken:technical/food/species_fruit/automech
+
 tag @s add bp.species
 tag @s add bp.automech
 team join Automech @s

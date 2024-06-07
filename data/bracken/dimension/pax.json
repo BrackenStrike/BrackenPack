@@ -1,84 +1,84 @@
 {
-  "type": "bracken:pax",
-  "generator": {
-    "type": "minecraft:noise",
-    "settings": "bracken:pax",
-    "biome_source": {
-      "type": "minecraft:multi_noise",
-      "biomes": [
-        {
-          "biome": "bracken:pax/sky_garden",
-          "parameters": {
-            "temperature": 0.45,
-            "humidity": 0.4,
-            "continentalness": 0.4,
-            "erosion": 0,
-            "weirdness": 0.2,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:pax/autumn_idyll",
-          "parameters": {
-            "temperature": 0.4,
-            "humidity": 0.4,
-            "continentalness": 0.4,
-            "erosion": 0,
-            "weirdness": 0.3,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:pax/grand_machair",
-          "parameters": {
-            "temperature": 0.5,
-            "humidity": 0.5,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0.3,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:pax/cloud_canopy",
-          "parameters": {
-            "temperature": -0.5,
-            "humidity": -0.6,
-            "continentalness": -0.5,
-            "erosion": 0,
-            "weirdness": -0.2,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:pax/cenotaph",
-          "parameters": {
-            "temperature": -0.5,
-            "humidity": 0.5,
-            "continentalness": 0.5,
-            "erosion": 0,
-            "weirdness": 0.9,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:pax/petal_grove",
-          "parameters": {
-            "temperature": -0.5,
-            "humidity": -0.5,
-            "continentalness": -0.5,
-            "erosion": 0,
-            "weirdness": -0.3,
-            "depth": 0,
-            "offset": 0
-          }
+    "type": "bracken:pax",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "bracken:pax",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "bracken:pax/sky_garden",
+                    "parameters": {
+                        "temperature": 0.45,
+                        "humidity": 0.4,
+                        "continentalness": 0.4,
+                        "erosion": 0,
+                        "weirdness": 0.2,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:pax/autumn_idyll",
+                    "parameters": {
+                        "temperature": 0.4,
+                        "humidity": 0.4,
+                        "continentalness": 0.4,
+                        "erosion": 0,
+                        "weirdness": 0.3,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:pax/grand_machair",
+                    "parameters": {
+                        "temperature": 0.5,
+                        "humidity": 0.5,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.3,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:pax/cloud_canopy",
+                    "parameters": {
+                        "temperature": -0.5,
+                        "humidity": -0.6,
+                        "continentalness": -0.5,
+                        "erosion": 0,
+                        "weirdness": -0.2,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:pax/cenotaph",
+                    "parameters": {
+                        "temperature": -0.5,
+                        "humidity": 0.5,
+                        "continentalness": 0.5,
+                        "erosion": 0,
+                        "weirdness": 0.9,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:pax/petal_grove",
+                    "parameters": {
+                        "temperature": -0.5,
+                        "humidity": -0.5,
+                        "continentalness": -0.5,
+                        "erosion": 0,
+                        "weirdness": -0.3,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                }
+            ]
         }
-      ]
     }
-  }
 }

@@ -1,156 +1,156 @@
 {
-  "type": "bracken:panacea",
-  "generator": {
-    "type": "minecraft:noise",
-    "settings": "bracken:panacea",
-    "biome_source": {
-      "type": "minecraft:multi_noise",
-      "biomes": [
-        {
-          "biome": "bracken:panacea/honeybee_biome",
-          "parameters": {
-            "temperature": -0.4,
-            "humidity": 1,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0.6,
-            "depth": 0,
-            "offset": 0.4
-          }
-        },
-        {
-          "biome": "bracken:panacea/horsetail_tropics",
-          "parameters": {
-            "temperature": 0.7,
-            "humidity": 1,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0.5,
-            "depth": 0,
-            "offset": 0.4
-          }
-        },
-        {
-          "biome": "bracken:panacea/quicksand_springs",
-          "parameters": {
-            "temperature": 0.6,
-            "humidity": 1,
-            "continentalness": 0.5,
-            "erosion": 0,
-            "weirdness": 0.5,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:panacea/condemned_taiga",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 1,
-            "erosion": 1,
-            "weirdness": 1,
-            "depth": 0,
-            "offset": 0.7
-          }
-        },
-        {
-          "biome": "bracken:panacea/polypore_plains",
-          "parameters": {
-            "temperature": 0.9,
-            "humidity": 1,
-            "continentalness": 0,
-            "erosion": 0.5,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:panacea/wildflower_bog",
-          "parameters": {
-            "temperature": -0.5,
-            "humidity": 1,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0.5,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:panacea/ravenous_greenwood",
-          "parameters": {
-            "temperature": -1,
-            "humidity": -0.9,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:panacea/sweltering_swamp",
-          "parameters": {
-            "temperature": -0.6,
-            "humidity": 1,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0.1,
-            "depth": 0,
-            "offset": 0.2
-          }
-        },
-        {
-          "biome": "bracken:panacea/creeper_dominion",
-          "parameters": {
-            "temperature": 1,
-            "humidity": 0.9,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0.8,
-            "depth": 0,
-            "offset": 0.1
-          }
-        },
-        {
-          "biome": "bracken:panacea/crimson_organism",
-          "parameters": {
-            "temperature": 1,
-            "humidity": 0.9,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0.9,
-            "depth": 0,
-            "offset": 0.1
-          }
-        },
-        {
-          "biome": "bracken:panacea/bamboo_valley",
-          "parameters": {
-            "temperature": -0.75,
-            "humidity": 0.9,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0.5
-          }
-        },
-        {
-          "biome": "bracken:panacea/hungering_jungle",
-          "parameters": {
-            "temperature": 1,
-            "humidity": 1,
-            "continentalness": 0,
-            "erosion": 0.3,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0.3
-          }
+    "type": "bracken:panacea",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "bracken:panacea",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "bracken:panacea/honeybee_biome",
+                    "parameters": {
+                        "temperature": -0.4,
+                        "humidity": 1,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.6,
+                        "depth": 0,
+                        "offset": 0.4
+                    }
+                },
+                {
+                    "biome": "bracken:panacea/horsetail_tropics",
+                    "parameters": {
+                        "temperature": 0.7,
+                        "humidity": 1,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.5,
+                        "depth": 0,
+                        "offset": 0.4
+                    }
+                },
+                {
+                    "biome": "bracken:panacea/quicksand_springs",
+                    "parameters": {
+                        "temperature": 0.6,
+                        "humidity": 1,
+                        "continentalness": 0.5,
+                        "erosion": 0,
+                        "weirdness": 0.5,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:panacea/condemned_taiga",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 1,
+                        "erosion": 1,
+                        "weirdness": 1,
+                        "depth": 0,
+                        "offset": 0.7
+                    }
+                },
+                {
+                    "biome": "bracken:panacea/polypore_plains",
+                    "parameters": {
+                        "temperature": 0.9,
+                        "humidity": 1,
+                        "continentalness": 0,
+                        "erosion": 0.5,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:panacea/wildflower_bog",
+                    "parameters": {
+                        "temperature": -0.5,
+                        "humidity": 1,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.5,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:panacea/ravenous_greenwood",
+                    "parameters": {
+                        "temperature": -1,
+                        "humidity": -0.9,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:panacea/sweltering_swamp",
+                    "parameters": {
+                        "temperature": -0.6,
+                        "humidity": 1,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.1,
+                        "depth": 0,
+                        "offset": 0.2
+                    }
+                },
+                {
+                    "biome": "bracken:panacea/creeper_dominion",
+                    "parameters": {
+                        "temperature": 1,
+                        "humidity": 0.9,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.8,
+                        "depth": 0,
+                        "offset": 0.1
+                    }
+                },
+                {
+                    "biome": "bracken:panacea/crimson_organism",
+                    "parameters": {
+                        "temperature": 1,
+                        "humidity": 0.9,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.9,
+                        "depth": 0,
+                        "offset": 0.1
+                    }
+                },
+                {
+                    "biome": "bracken:panacea/bamboo_valley",
+                    "parameters": {
+                        "temperature": -0.75,
+                        "humidity": 0.9,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0.5
+                    }
+                },
+                {
+                    "biome": "bracken:panacea/hungering_jungle",
+                    "parameters": {
+                        "temperature": 1,
+                        "humidity": 1,
+                        "continentalness": 0,
+                        "erosion": 0.3,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0.3
+                    }
+                }
+            ]
         }
-      ]
     }
-  }
 }

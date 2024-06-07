@@ -1,50 +1,44 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:goat_horn"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:goat_horn"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "entity": "this",
+                    "name": {
+                        "text": "Creeper Horn",
+                        "color": "white",
+                        "italic": false
+                    }
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "text": "Calls all nearby creepers.",
+                            "color": "gray",
+                            "italic": false
+                        }
+                    ],
+                    "mode": "insert"
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "value": 888501
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{instrument:\"minecraft:ponder_goat_horn\",bp:{id:\"creeper_horn\"}}"
+                }
+            ]
         }
-       
-      ],
-      "functions": [
-        {
-          "function": "minecraft:set_name",
-          "entity": "this",
-          "name": {
-            "text": "Creeper Horn",
-            "color": "white",
-            "italic": false
-          }
-          
-        },
-        {
-          "function": "minecraft:set_lore",
-          "entity": "this",
-          "lore": [
-            {
-              "text": "Calls all nearby creepers.",
-              "color": "gray",
-              "italic": false
-            }
-          ],
-          "mode": "insert"
-        },
-            
-            
-            
-            {
-              "function": "minecraft:set_custom_model_data",
-              "value": 888501
-            },
-                        
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{instrument:\"minecraft:ponder_goat_horn\",bp:{id:\"creeper_horn\"}}"
-            }
-          ]
-        }
-      ]
-    }
+    ]
+}

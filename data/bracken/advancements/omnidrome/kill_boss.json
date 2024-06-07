@@ -11,10 +11,9 @@
         "icon": {
             "id": "minecraft:fishing_rod",
             "components": {
-              
-              "minecraft:custom_model_data": 888501
+                "minecraft:custom_model_data": 888501
             }
-          },
+        },
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,
@@ -40,7 +39,6 @@
         }
     },
     "requirements": [
-        
         [
             "bracken:omnidrome/kill_boss1"
         ]

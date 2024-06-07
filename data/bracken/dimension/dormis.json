@@ -1,102 +1,102 @@
 {
-  "type": "bracken:dormis",
-  "generator": {
-    "type": "minecraft:noise",
-    "settings": "bracken:dormis",
-    "biome_source": {
-      "type": "minecraft:multi_noise",
-      "biomes": [
-        {
-          "biome": "bracken:dormis/golanium",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              -2,
-              -1.0
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:dormis/shechemium",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              -0.99,
-              -0.7
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:dormis/ramothium",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              -0.69,
-              -0.2
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:dormis/bezerium",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              -0.19,
-              0.2
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:dormis/kedeshium",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0.21,
-              0.6
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:dormis/hebronium",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0.61,
-              1
-            ],
-            "offset": 0.0
-          }
+    "type": "bracken:dormis",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "bracken:dormis",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "bracken:dormis/golanium",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            -2,
+                            -1.0
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:dormis/shechemium",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            -0.99,
+                            -0.7
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:dormis/ramothium",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            -0.69,
+                            -0.2
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:dormis/bezerium",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            -0.19,
+                            0.2
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:dormis/kedeshium",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0.21,
+                            0.6
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:dormis/hebronium",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0.61,
+                            1
+                        ],
+                        "offset": 0.0
+                    }
+                }
+            ]
         }
-      ]
     }
-  }
 }

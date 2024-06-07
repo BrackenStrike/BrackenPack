@@ -18,10 +18,10 @@
     },
     "criteria": {
         "discovered": {
-          "trigger": "minecraft:impossible"
+            "trigger": "minecraft:impossible"
         }
-      },
+    },
     "rewards": {
         "function": "bracken:player/omnitrigger/k_ruination"
-      }
+    }
 }

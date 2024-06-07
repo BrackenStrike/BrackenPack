@@ -1,87 +1,87 @@
 {
-  "type": "bracken:sanctum",
-  "generator": {
-    "type": "minecraft:noise",
-    "settings": "bracken:sanctum",
-    "biome_source": {
-      "type": "minecraft:multi_noise",
-      "biomes": [
-        {
-          "biome": "bracken:sanctum/no_mans_land",
-          "parameters": {
-            "temperature": 0.5,
-            "humidity": 0.5,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0.5,
-            "depth": [
-              0,
-              1.59
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:sanctum/toxic_playa",
-          "parameters": {
-            "temperature": 0.7,
-            "humidity": 0.7,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0.4,
-            "depth": [
-              0,
-              1.59
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:sanctum/dark_soot_dunes",
-          "parameters": {
-            "temperature": 0.7,
-            "humidity": -0.7,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": -0.5,
-            "depth": [
-              0,
-              1.59
-            ],
-            "offset": 0.8
-          }
-        },
-        {
-          "biome": "bracken:sanctum/rubblework_city",
-          "parameters": {
-            "temperature": 0.5,
-            "humidity": -0.5,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0,
-              1.59
-            ],
-            "offset": 0.8
-          }
-        },
-        {
-          "biome": "bracken:sanctum/voidship_harbor",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              1.6,
-              2
-            ],
-            "offset": 0
-          }
+    "type": "bracken:sanctum",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "bracken:sanctum",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "bracken:sanctum/no_mans_land",
+                    "parameters": {
+                        "temperature": 0.5,
+                        "humidity": 0.5,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.5,
+                        "depth": [
+                            0,
+                            1.59
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:sanctum/toxic_playa",
+                    "parameters": {
+                        "temperature": 0.7,
+                        "humidity": 0.7,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.4,
+                        "depth": [
+                            0,
+                            1.59
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:sanctum/dark_soot_dunes",
+                    "parameters": {
+                        "temperature": 0.7,
+                        "humidity": -0.7,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": -0.5,
+                        "depth": [
+                            0,
+                            1.59
+                        ],
+                        "offset": 0.8
+                    }
+                },
+                {
+                    "biome": "bracken:sanctum/rubblework_city",
+                    "parameters": {
+                        "temperature": 0.5,
+                        "humidity": -0.5,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0,
+                            1.59
+                        ],
+                        "offset": 0.8
+                    }
+                },
+                {
+                    "biome": "bracken:sanctum/voidship_harbor",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            1.6,
+                            2
+                        ],
+                        "offset": 0
+                    }
+                }
+            ]
         }
-      ]
     }
-  }
 }

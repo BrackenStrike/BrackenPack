@@ -12,10 +12,10 @@
             "id": "minecraft:player_head",
             "components": {
                 "minecraft:profile": {
-                  "name": "MHF_Sheep"
+                    "name": "MHF_Sheep"
                 }
-              }
-          },
+            }
+        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
@@ -39,4 +39,3 @@
         ]
     ]
 }
-

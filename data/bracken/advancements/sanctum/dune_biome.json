@@ -18,14 +18,14 @@
     },
     "criteria": {
         "requirement": {
-          "trigger": "minecraft:location",
-          "conditions": {
-            "player": {
-              "location": {
-                "biomes": "bracken:sanctum/dark_soot_dunes"
-              }
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "bracken:sanctum/dark_soot_dunes"
+                    }
+                }
             }
-          }
         }
-      }
-  }
+    }
+}

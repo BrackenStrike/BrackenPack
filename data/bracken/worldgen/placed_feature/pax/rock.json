@@ -12,9 +12,8 @@
             "type": "heightmap",
             "heightmap": "WORLD_SURFACE"
         },
-        
-    {
-      "type": "minecraft:biome"
-    }
+        {
+            "type": "minecraft:biome"
+        }
     ]
 }

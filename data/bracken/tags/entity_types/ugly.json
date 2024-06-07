@@ -1,9 +1,9 @@
 {
-  "replace": false,
-  "values": [
-    "minecraft:zombie",
-    "minecraft:skeleton",
-    "minecraft:zombie_villager",
-    "minecraft:witch"
-  ]
+    "replace": false,
+    "values": [
+        "minecraft:zombie",
+        "minecraft:skeleton",
+        "minecraft:zombie_villager",
+        "minecraft:witch"
+    ]
 }

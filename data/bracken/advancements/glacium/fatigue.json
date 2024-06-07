@@ -21,14 +21,14 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
-                  "location": {
-                    "dimension": "bracken:glacium"
-                  },
-                  "effects": {
-                    "minecraft:slowness": {}
-                  }
+                    "location": {
+                        "dimension": "bracken:glacium"
+                    },
+                    "effects": {
+                        "minecraft:slowness": {}
+                    }
                 }
-              }
+            }
         }
     },
     "requirements": [

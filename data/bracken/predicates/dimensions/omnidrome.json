@@ -1,6 +1,6 @@
 {
-  "condition": "minecraft:location_check",
-  "predicate": {
-    "dimension": "bracken:omnidrome"
-  }
+    "condition": "minecraft:location_check",
+    "predicate": {
+        "dimension": "bracken:omnidrome"
+    }
 }

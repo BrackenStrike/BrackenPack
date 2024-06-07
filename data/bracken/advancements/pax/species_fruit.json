@@ -11,10 +11,9 @@
         "icon": {
             "id": "minecraft:apple",
             "components": {
-              
-              "minecraft:custom_model_data": 888513
+                "minecraft:custom_model_data": 888513
             }
-          },
+        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
@@ -29,13 +28,12 @@
                         "minecraft:apple"
                     ],
                     "components": {
-                        
-                        "minecraft:custom_data":{
+                        "minecraft:custom_data": {
                             "nbt": "{bp:{species_fruit:1b}}"
                         }
                     }
                 }
-              }
+            }
         }
     },
     "requirements": [
@@ -44,5 +42,3 @@
         ]
     ]
 }
-
-

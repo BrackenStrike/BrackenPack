@@ -1,14 +1,14 @@
 {
-  "structures": [
-    {
-      "structure": "bracken:reef/crab",
-      "weight": 1
+    "structures": [
+        {
+            "structure": "bracken:reef/crab",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 23,
+        "separation": 18,
+        "salt": 90129427
     }
-  ],
-  "placement": {
-    "type": "minecraft:random_spread",
-    "spacing": 23,
-    "separation": 18,
-    "salt": 90129427
-  }
 }

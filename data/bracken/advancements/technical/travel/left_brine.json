@@ -1,10 +1,10 @@
 {
-	"criteria": {
-		"requirement": {
-			"trigger": "minecraft:changed_dimension",
-			"conditions": {
-				"from": "bracken:the_brine"
-			}
-		}
-	}
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "bracken:the_brine"
+            }
+        }
+    }
 }

@@ -1,15 +1,15 @@
 {
-  "name": "clam",
-  "fallback": "minecraft:empty",
-  "elements": [
-    {
-      "weight": 1,
-      "element": {
-        "location": "bracken:reef/clam",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:legacy_single_pool_element"
-      }
-    }
-  ]
+    "name": "clam",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:reef/clam",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        }
+    ]
 }

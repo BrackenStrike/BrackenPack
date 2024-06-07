@@ -1,6 +1,7 @@
 {
-  "replace": false,
-  "values": [
-    "minecraft:river",
-    "minecraft:frozen_river"]
+    "replace": false,
+    "values": [
+        "minecraft:river",
+        "minecraft:frozen_river"
+    ]
 }

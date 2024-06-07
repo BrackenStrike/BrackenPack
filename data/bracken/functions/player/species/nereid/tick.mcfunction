@@ -11,7 +11,7 @@ effect give @s minecraft:night_vision 11 0 true
 effect give @s minecraft:water_breathing 1 0 true
 
 execute unless entity @s[predicate=bracken:rainless_biomes] if entity @s[predicate=bracken:rain] run function bracken:player/species/nereid/in_water
-execute if score @s bp.1_second matches 4 positioned over ocean_floor if entity @s[distance=..0.1,predicate=bracken:lightlevel,predicate=bracken:desert,predicate=bracken:item/pumpkin_head] run function bracken:player/species/nereid/desert
+execute if score @s bp.1_second matches 4 positioned over ocean_floor if entity @s[distance=..0.1,predicate=bracken:lightlevel,predicate=bracken:desert,predicate=bracken:item/no_helmet] run function bracken:player/species/nereid/desert
 execute if score @s[predicate=bracken:netherlike] bp.1_second matches 4 run function bracken:player/species/nereid/hot_dimension
 
 return 1

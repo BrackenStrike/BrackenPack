@@ -1,14 +1,14 @@
 {
-  "type": "minecraft:jigsaw",
-  "biomes": "bracken:the_faewild/wanderlight_woods",
-  "spawn_overrides": {},
-  "start_pool": "bracken:fae_mush_ring",
-  "size": 6,
-  "step": "surface_structures",
-  "start_height": {
-    "absolute": 1
-  },
-  "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "max_distance_from_center": 80,
-  "use_expansion_hack": true
+    "type": "minecraft:jigsaw",
+    "biomes": "bracken:the_faewild/wanderlight_woods",
+    "spawn_overrides": {},
+    "start_pool": "bracken:fae_mush_ring",
+    "size": 6,
+    "step": "surface_structures",
+    "start_height": {
+        "absolute": 1
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 80,
+    "use_expansion_hack": true
 }

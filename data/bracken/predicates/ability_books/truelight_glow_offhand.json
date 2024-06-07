@@ -1,13 +1,13 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "equipment": {
-      "offhand": {
-        "predicates": {
-          "minecraft:custom_data": "{bp:{id:\"truelight_glow\"}}"
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "offhand": {
+                "predicates": {
+                    "minecraft:custom_data": "{bp:{id:\"truelight_glow\"}}"
+                }
+            }
         }
-      }
     }
-  }
 }

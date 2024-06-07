@@ -23,7 +23,7 @@
                 "damage": {
                     "source_entity": {
                         "type": "minecraft:spider",
-              "nbt": "{Attributes:[{Name:generic.attack_damage,Base:10}]}",
+                        "nbt": "{Attributes:[{Name:generic.attack_damage,Base:10}]}",
                         "location": {
                             "dimension": "bracken:the_underdark"
                         }

@@ -1,73 +1,80 @@
 {
-  "spawners": {
-    "water_ambient": [],
-    "ambient": [],
-    "misc": [],
-    "water_creature": [],
-    "creature": [
-      
-    ],
-    "monster": []
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": []
-  },
-  "features": [
-    [
-      "minecraft:forest_rock",
-      "bracken:panacea/meat_dec"
-    ],
-    ["bracken:panacea/creeper_dec"],
-    ["bracken:panacea/bones"],
-    ["bracken:panacea/meat_pool"],
-    [],
-    ["bracken:panacea/path"],
-    [],
-    ["minecraft:weeping_vines",
-    "minecraft:crimson_forest_vegetation"],
-    ["bracken:panacea/coal_blobs"],
-    [
-      
-      
-      "bracken:panacea/meat"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [],
+        "monster": []
     },
-    "fog_color": 13473931,
-    "water_color": 12608085,
-    "water_fog_color": 10657365,
-    "grass_color": 12730699,
-    "sky_color": 14309717,
-    "foliage_color": 12730699,
-    
-    "particle": {
-      "options": {
-        "type": "minecraft:crimson_spore"
-      },
-      "probability": 0.004428
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
     },
-    "additions_sound": {
-      "sound": "minecraft:entity.parrot.ambient",
-      "tick_chance": 0.0002
+    "features": [
+        [
+            "minecraft:forest_rock",
+            "bracken:panacea/meat_dec"
+        ],
+        [
+            "bracken:panacea/creeper_dec"
+        ],
+        [
+            "bracken:panacea/bones"
+        ],
+        [
+            "bracken:panacea/meat_pool"
+        ],
+        [],
+        [
+            "bracken:panacea/path"
+        ],
+        [],
+        [
+            "minecraft:weeping_vines",
+            "minecraft:crimson_forest_vegetation"
+        ],
+        [
+            "bracken:panacea/coal_blobs"
+        ],
+        [
+            "bracken:panacea/meat"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "fog_color": 13473931,
+        "water_color": 12608085,
+        "water_fog_color": 10657365,
+        "grass_color": 12730699,
+        "sky_color": 14309717,
+        "foliage_color": 12730699,
+        "particle": {
+            "options": {
+                "type": "minecraft:crimson_spore"
+            },
+            "probability": 0.004428
+        },
+        "additions_sound": {
+            "sound": "minecraft:entity.parrot.ambient",
+            "tick_chance": 0.0002
+        },
+        "music": {
+            "sound": "minecraft:music.creative",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
     },
-    "music": {
-      "sound": "minecraft:music.creative",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
-  },
-  "has_precipitation": true
+    "has_precipitation": true
 }

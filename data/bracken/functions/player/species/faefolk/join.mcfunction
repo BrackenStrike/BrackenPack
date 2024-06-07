@@ -3,6 +3,9 @@
 # Creators: Bracken, Sulfenir and Grandmaster
 ##########################################################
 
+function bracken:player/species/leave
+advancement revoke @s only bracken:technical/food/species_fruit/faefolk
+
 tag @s add bp.species
 tag @s add bp.faefolk
 team join Faefolk

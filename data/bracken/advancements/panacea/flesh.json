@@ -11,10 +11,9 @@
         "icon": {
             "id": "minecraft:apple",
             "components": {
-              
-              "minecraft:custom_model_data": 888502
+                "minecraft:custom_model_data": 888502
             }
-          },
+        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
@@ -32,7 +31,7 @@
                         "minecraft:custom_model_data": 888502
                     }
                 }
-              }
+            }
         }
     },
     "requirements": [

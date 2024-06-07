@@ -1,6 +1,6 @@
 {
-  "condition": "minecraft:location_check",
-  "predicate": {
-    "dimension": "bracken:varskspace"
-  }
+    "condition": "minecraft:location_check",
+    "predicate": {
+        "dimension": "bracken:varskspace"
+    }
 }

@@ -1,49 +1,43 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:apple"
-        }
-       
-      ],
-      "functions": [
-        {
-          "function": "minecraft:set_name",
-              "name": {
-                "translate": "Realmkeeper Fruit",
-                "color": "light_purple",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Become Realmkeeper",
-                  "color": "blue",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple"
                 }
-              ],
-              "mode": "insert"
-            },           
-            
-            
-            {
-              "function": "minecraft:set_custom_model_data",
-              "value": 888513
-            },
-                        
-            {
-              "function": "minecraft:set_custom_data",
-              "tag": "{bp:{species_fruit:1b,id:\"realmkeeper_fruit\"}}"
-            }
-          ]
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "translate": "Realmkeeper Fruit",
+                        "color": "light_purple",
+                        "italic": false
+                    }
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "translate": "Become Realmkeeper",
+                            "color": "blue",
+                            "italic": false
+                        }
+                    ],
+                    "mode": "insert"
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "value": 888513
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{bp:{species_fruit:1b,id:\"realmkeeper_fruit\"}}"
+                }
+            ]
         }
-      ]
-    }
-
-
+    ]
+}
