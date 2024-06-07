@@ -21,8 +21,7 @@ tp @e[type=piglin,distance=..100,sort=nearest,limit=1] ~ -512 ~
 
 data merge entity @e[type=creeper,distance=..100,limit=1,sort=nearest,tag=!bp.perrterror] {active_effects:[{id:"minecraft:unluck",amplifier:10b,duration:-1,show_particles:0b}],powered:1b,Tags:["bp.entity","bp.perrterror","bp.rain_event"],CustomName:'{"text":"Perrterror Creeper","color":"dark_green"}',CustomNameVisible:0b,DeathLootTable:"bracken:entity/panacea/perrterror",Attributes:[{Name:generic.follow_range,Base:64}]}
 
-
-
+data merge entity @e[type=hoglin,limit=1,tag=!bp.daeodon] {DeathLootTable:"bracken:entity/panacea/perrterror",Health:60f,Age:6000,IsImmuneToZombification:1b,Tags:["bp.daeodon"],CustomName:'{"color":"dark_green","italic":false,"translate":"Daeodon"}',Attributes:[{Name:generic.attack_damage,Base:8.5},{Name:generic.max_health,Base:60},{Name:generic.scale,Base:1.5}]}
 execute at @e[type=zombie_villager,distance=..100,limit=1,sort=nearest] run summon ravager ~ ~ ~ {CustomName:'{"text":"Yakitubba","color":"dark_green"}',CustomNameVisible:0b,Silent:1,Attributes:[{Name:generic.follow_range,Base:64},{Name:generic.movement_speed,Base:0.0}],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,ShowParticles:0b},{id:"minecraft:speed",amplifier:1b,duration:5b,show_particles:0b}],Tags:["bp.yakitubba2","bp.entity","bp.rain_event"],DeathLootTable:"bracken:entity/panacea/yakitubba2",DisabledSlots:4144959,Passengers:[{id:"minecraft:armor_stand",Small:0b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:bamboo",Count:1b,components:{"minecraft:custom_name":'{"text":"Yakitubba","italic":false}',"minecraft:custom_model_data":888508}}],ArmorDropChances:[0.085F,0.000F,0.000F,0.000F],Tags:["bp.rain_event_marker"]}]}
 
 tp @e[type=zombie_villager,distance=..100,sort=nearest,limit=1] ~ -512 ~
