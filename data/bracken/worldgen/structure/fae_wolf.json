@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:the_faewild/darkthunder_thicket",
+    "biomes": "bracken:the_faewild/wanderlight_woods",
     "spawn_overrides": {},
     "start_pool": "bracken:fae_wolf",
     "size": 6,
