@@ -13,3 +13,6 @@ data merge entity @e[type=vex,distance=..100,limit=1,sort=nearest,tag=!ice_pixie
 
 execute at @e[type=zombie_villager,distance=..100,limit=1,sort=nearest] run summon skeleton_horse ~ ~ ~ {PersistenceRequired:0b,Tame:1b,Passengers:[{id:"minecraft:stray",HandItems:[{id:"minecraft:bow",Count:1b,components:{"minecraft:custom_name":'{"text":"Frozen Recurve","italic":false}',"minecraft:custom_model_data":888502,"minecraft:enchantments":{levels:{"minecraft:power":6,"minecraft:punch":3}}} },{}],HandDropChances:[0.1000F,0.085F],ArmorItems:[{},{},{},{id:"minecraft:chainmail_helmet",Count:1b}]}],CustomName:'{"translate":"Stray Steed","color":"blue","italic":false}',Attributes:[{Name:generic.armor,Base:30}]}
 tp @e[type=zombie_villager,distance=..100,sort=nearest,limit=1] ~ -512 ~
+
+
+data merge entity @e[type=wolf,distance=..100,limit=1,sort=nearest,tag=!bp.dire_wolf] {CustomNameVisible:0b,Health:40f,variant:"snowy",Tags:["bp.dire_wolf"],CustomName:'{"text":"Dire Wolf"}',Attributes:[{Name:generic.attack_damage,Base:8},{Name:generic.max_health,Base:40},{Name:generic.scale,Base:1.5}]}
