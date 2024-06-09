@@ -1,0 +1,15 @@
+{
+    "name": "glacium_hotsprings",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:glacium_hotsprings",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        }
+    ]
+}

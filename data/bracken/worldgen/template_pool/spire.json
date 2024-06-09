@@ -1,0 +1,51 @@
+{
+    "name": "spire",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "location": "bracken:varskspace/varskspace_spire",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 12,
+            "element": {
+                "location": "bracken:varskspace/varskspace_spire1",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "location": "bracken:varskspace/varskspace_spire2",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "location": "bracken:varskspace/varskspace_spire3",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "location": "bracken:varskspace/varskspace_spire4",
+                "processors": "minecraft:empty",
+                "projection": "terrain_matching",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "name": "post",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "location": "bracken:sanctum/sanctum_building",
+                "processors": "bracken:ruin",
+                "projection": "terrain_matching",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "location": "bracken:sanctum/sanctum_building1",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "location": "bracken:sanctum/sanctum_building2",
+                "processors": "bracken:ruin",
+                "projection": "terrain_matching",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "location": "bracken:sanctum/sanctum_hand",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "location": "bracken:sanctum/sanctum_building3",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        }
+    ]
+}

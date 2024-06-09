@@ -1,0 +1,15 @@
+{
+    "name": "palace_fin",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 100,
+            "element": {
+                "location": "bracken:omnidrome/omnidrome_palace_fin",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        }
+    ]
+}
