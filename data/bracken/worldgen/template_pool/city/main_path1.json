@@ -1,0 +1,15 @@
+{
+    "name": "brine_city_corner",
+    "fallback": "bracken:city/terminators",
+    "elements": [
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:city/main_path1",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

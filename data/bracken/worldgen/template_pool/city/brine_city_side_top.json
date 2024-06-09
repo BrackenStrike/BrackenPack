@@ -1,0 +1,42 @@
+{
+    "name": "brine_city_side_top",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_city_side_top1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_city_side_top2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_city_side_top3",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_city_side_top4",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

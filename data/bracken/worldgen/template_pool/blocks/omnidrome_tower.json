@@ -1,0 +1,33 @@
+{
+    "name": "tower",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "location": "bracken:blocks/omnidrome_large_tower_base",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:blocks/omnidrome_medium_tower_base",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "location": "bracken:blocks/omnidrome_small_tower_base",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

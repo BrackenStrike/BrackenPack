@@ -1,0 +1,240 @@
+{
+    "name": "brine_small_house",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner1",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner2",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner3",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner4",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner5",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner6",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner7",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner8",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner9",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner10",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner11",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner12",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner13",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner14",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner15",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner16",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner17",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner18",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner19",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner20",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner21",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner22",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner23",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner24",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner25",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_small_house_corner26",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

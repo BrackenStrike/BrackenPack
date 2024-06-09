@@ -1,0 +1,33 @@
+{
+    "name": "cube",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:blocks/omnidrome_large_cube",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "location": "bracken:blocks/omnidrome_medium_cube",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "location": "bracken:blocks/omnidrome_small_cube",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

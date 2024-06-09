@@ -1,0 +1,15 @@
+{
+    "name": "stairway_root",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:stairs/pax_stairway_root",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        }
+    ]
+}

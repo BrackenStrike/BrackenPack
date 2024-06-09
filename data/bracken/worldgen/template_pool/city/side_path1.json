@@ -1,0 +1,42 @@
+{
+    "name": "side_path",
+    "fallback": "bracken:city/terminators",
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "location": "bracken:city/side_large_path1",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:city/side_medium_path1",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 8,
+            "element": {
+                "location": "bracken:city/side_small_path1",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 8,
+            "element": {
+                "location": "bracken:city/side_spiral_path1",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

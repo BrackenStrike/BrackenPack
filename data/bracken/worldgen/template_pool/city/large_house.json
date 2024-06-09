@@ -1,0 +1,42 @@
+{
+    "name": "terminators",
+    "fallback": "bracken:city/terminators",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_large_house_side1",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_large_house_side2",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_large_house_side3",
+                "processors": "bracken:ruin",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:city/brine_large_house_side4",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

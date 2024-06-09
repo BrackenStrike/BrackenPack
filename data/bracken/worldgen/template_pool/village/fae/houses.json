@@ -1,0 +1,174 @@
+{
+    "name": "bracken:village/fae/houses",
+    "fallback": "bracken:village/fae/terminators",
+    "elements": [
+        {
+            "weight": 20,
+            "element": {
+                "location": "bracken:village/fae/houses/fae_small_house_1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "location": "bracken:village/fae/houses/fae_small_house_2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "location": "bracken:village/fae/houses/fae_small_house_3",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "location": "bracken:village/fae/houses/fae_small_house_4",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "location": "bracken:village/fae/houses/fae_medium_house_1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "location": "bracken:village/fae/houses/fae_medium_house_2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "location": "bracken:village/fae/houses/fae_medium_house_3",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 20,
+            "element": {
+                "location": "bracken:village/fae/houses/fae_medium_house_4",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 15,
+            "element": {
+                "location": "bracken:village/fae/houses/fae_armorer_2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 40,
+            "element": {
+                "location": "bracken:village/fae/houses/arrowsmith_house",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 40,
+            "element": {
+                "location": "bracken:village/fae/houses/bohemian_house",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 40,
+            "element": {
+                "location": "bracken:village/fae/houses/hermit_house",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 40,
+            "element": {
+                "location": "bracken:village/fae/houses/ferryman_house",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 40,
+            "element": {
+                "location": "bracken:village/fae/houses/keeperscout_house",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 40,
+            "element": {
+                "location": "bracken:village/fae/houses/pack_rat_house",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 40,
+            "element": {
+                "location": "bracken:village/fae/houses/playwright_house",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 40,
+            "element": {
+                "location": "bracken:village/fae/houses/queene_house",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 30,
+            "element": {
+                "location": "bracken:village/fae/houses/fae_animal_pen_1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:empty_pool_element"
+            }
+        }
+    ]
+}
