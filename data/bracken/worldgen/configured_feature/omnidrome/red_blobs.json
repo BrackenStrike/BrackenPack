@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:netherrack_replace_blobs",
+    "config": {
+        "target": {
+            "Name": "minecraft:nether_bricks"
+        },
+        "state": {
+            "Name": "minecraft:red_nether_bricks"
+        },
+        "radius": 9
+    }
+}

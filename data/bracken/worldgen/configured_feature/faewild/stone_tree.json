@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:huge_fungus",
+    "config": {
+        "hat_state": {
+            "Name": "minecraft:light_blue_stained_glass"
+        },
+        "decor_state": {
+            "Name": "minecraft:sea_lantern"
+        },
+        "planted": false,
+        "valid_base_block": {
+            "Name": "minecraft:warped_nylium"
+        },
+        "stem_state": {
+            "Properties": {
+                "axis": "y"
+            },
+            "Name": "minecraft:chiseled_stone_bricks"
+        },
+        "replaceable_blocks": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+                "minecraft:oak_sapling",
+                "minecraft:mangrove_propagule",
+                "minecraft:brown_mushroom",
+                "minecraft:red_mushroom",
+                "minecraft:sugar_cane",
+                "minecraft:warped_fungus",
+                "minecraft:crimson_fungus",
+                "minecraft:twisting_vines",
+                "minecraft:twisting_vines_plant"
+            ]
+        }
+    }
+}

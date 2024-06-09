@@ -1,0 +1,78 @@
+{
+    "type": "minecraft:tree",
+    "config": {
+        "force_dirt": false,
+        "dirt_provider": {
+            "state": {
+                "Name": "minecraft:dirt"
+            },
+            "type": "minecraft:simple_state_provider"
+        },
+        "ignore_vines": false,
+        "minimum_size": {
+            "limit": 1,
+            "lower_size": 1,
+            "upper_size": 2,
+            "type": "minecraft:two_layers_feature_size"
+        },
+        "decorators": [
+            {
+                "provider": {
+                    "state": {
+                        "Properties": {
+                            "snowy": "true"
+                        },
+                        "Name": "minecraft:grass_block"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                },
+                "type": "minecraft:alter_ground"
+            }
+        ],
+        "trunk_provider": {
+            "state": {
+                "Properties": {
+                    "axis": "y"
+                },
+                "Name": "minecraft:polished_basalt"
+            },
+            "type": "minecraft:simple_state_provider"
+        },
+        "foliage_provider": {
+            "state": {
+                "Properties": {
+                    "persistent": "false",
+                    "distance": "7"
+                },
+                "Name": "minecraft:warped_wart_block"
+            },
+            "type": "minecraft:simple_state_provider"
+        },
+        "foliage_placer": {
+            "radius": 0,
+            "offset": 0,
+            "crown_height": 15,
+            "type": "minecraft:mega_pine_foliage_placer"
+        },
+        "trunk_placer": {
+            "base_height": 13,
+            "height_rand_a": 2,
+            "height_rand_b": 14,
+            "type": "minecraft:giant_trunk_placer"
+        },
+        "decorator": {
+            "config": {
+                "count": 13,
+                "extra_chance": 0.2,
+                "extra_count": 1
+            },
+            "type": "minecraft:count_extra"
+        },
+        "sapling_provider": {
+            "state": {
+                "Name": "minecraft:dirt"
+            },
+            "type": "minecraft:simple_state_provider"
+        }
+    }
+}
