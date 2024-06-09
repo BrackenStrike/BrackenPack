@@ -1,3 +1,36 @@
+CONURE'S EDITS V5
+-----------------
+
+---- Merged the pack with Crimdev's Nereid fix -----
+
+More fixes for Nereids:
+
+Function player/species/nereid/leave now removes the block_break_speed attribute
+
+Edited function player/species/nereid/tick:
+	Now looks for predicate in_water instead of rain
+	Now looks for predicate effect/conduit_power instead of conduit
+
+Removed predicate "conduit" - it was unused and duplicated by effect/conduit_power
+
+Removed functions that were unused and duplicated by player/species/common/hot_environment:
+	- player/species/nereid/hot_dimension
+	- player/species/nereid/desert
+
+Removed predicates:
+	- fully_illuminated (duplicated by light/15)
+	- illuminated (duplicated by light/at_least_8)
+	- slightly_illuminated (duplicated by light/at_least_5)
+	- free_mainhand (completely unused)
+	- free_offhand (duplicated by air_offhand)
+	- sneaking (duplicated by sneak)
+	- sprinting (duplicated by sprint)
+	- fire (duplicated by on_fire)
+
+
+
+
+
 CONURE'S EDITS V4
 -----------------
 
