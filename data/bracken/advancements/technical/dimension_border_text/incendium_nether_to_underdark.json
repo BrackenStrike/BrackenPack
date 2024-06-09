@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "the_nether",
+                        "position": {
+                            "y": {
+                                "min": 169,
+                                "max": 214
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:dimension_crossing/first_time_text/incendium_nether_height_check"
+    }
+}

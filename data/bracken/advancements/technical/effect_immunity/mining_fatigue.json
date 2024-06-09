@@ -1,0 +1,13 @@
+{
+	"criteria": { "effect_immunity": {
+		"trigger": "minecraft:effects_changed",
+		"conditions": {
+			"effects": { "minecraft:mining_fatigue": {} },
+			"player": [{
+				"condition": "reference",
+				"name": "bracken:effect_immunity/mining_fatigue"
+			}]
+		}
+	}},
+	"rewards": { "function": "bracken:player/effect_immunity/mining_fatigue" }
+}

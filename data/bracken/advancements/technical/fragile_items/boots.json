@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "boot_hit": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "feet": {
+                "predicates": {
+                  "minecraft:custom_data": "{bp:{id:\"fragile\"}}"
+                }
+              }
+            }
+          }
+        }
+      } 
+    },
+    "rewards": {
+      "function": "bracken:item/fragile/feet"
+    }
+  }
+  

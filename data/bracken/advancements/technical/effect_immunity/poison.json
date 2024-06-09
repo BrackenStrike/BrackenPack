@@ -1,0 +1,13 @@
+{
+	"criteria": { "effect_immunity": {
+		"trigger": "minecraft:effects_changed",
+		"conditions": {
+			"effects": { "minecraft:poison": {} },
+			"player": [{
+				"condition": "reference",
+				"name": "bracken:effect_immunity/poison"
+			}]
+		}
+	}},
+	"rewards": { "function": "bracken:player/effect_immunity/poison" }
+}

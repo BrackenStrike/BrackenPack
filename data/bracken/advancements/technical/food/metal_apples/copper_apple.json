@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:apple"
+                    ],
+                    "components": {
+                        "minecraft:custom_model_data": 888516
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:item/food/apples/copper_apple"
+    }
+}
