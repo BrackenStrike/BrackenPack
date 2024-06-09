@@ -1,0 +1,16 @@
+{
+    "values": [
+        "minecraft:air",
+        "minecraft:water",
+        "minecraft:cave_air",
+        "minecraft:redstone_torch",
+        "minecraft:torch",
+        "minecraft:soul_torch",
+        "minecraft:cobweb",
+        "minecraft:fire",
+        "minecraft:soul_fire",
+        "minecraft:tall_grass",
+        "minecraft:short_grass",
+        "minecraft:vine"
+    ]
+}

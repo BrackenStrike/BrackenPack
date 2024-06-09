@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:tnt",
+        "minecraft:fireball",
+        "minecraft:tnt_minecart",
+        "minecraft:end_crystal",
+        "minecraft:wither_skull"
+    ]
+}
