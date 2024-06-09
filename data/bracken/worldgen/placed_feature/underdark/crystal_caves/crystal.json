@@ -1,0 +1,12 @@
+{
+    "feature": "bracken:underdark/crystal_caves/crystal",
+    "placement": [
+        {
+            "count": 40,
+            "type": "minecraft:count_on_every_layer"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

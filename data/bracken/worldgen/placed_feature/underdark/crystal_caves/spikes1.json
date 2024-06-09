@@ -1,0 +1,53 @@
+{
+    "feature": "bracken:underdark/crystal_caves/spikes1",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 2
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:replaceable"
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "blocks": [
+                            "minecraft:calcite",
+                            "minecraft:stone",
+                            "minecraft:prismarine",
+                            "minecraft:deepslate"
+                        ]
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "blocks": [
+                                "minecraft:blue_stained_glass",
+                                "minecraft:white_stained_glass",
+                                "minecraft:light_blue_stained_glass"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}
