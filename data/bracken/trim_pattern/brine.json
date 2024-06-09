@@ -1,7 +1,0 @@
-{
-    "asset_id": "bracken:brine/brine",
-    "description": {
-        "translate": "trim_pattern.bracken.brine"
-    },
-    "template_item": "minecraft:barrier"
-}

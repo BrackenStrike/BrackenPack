@@ -1,8 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "minecraft:marker",
-        "minecraft:lightning_bolt",
-        "minecraft:vex"
-    ]
-}
