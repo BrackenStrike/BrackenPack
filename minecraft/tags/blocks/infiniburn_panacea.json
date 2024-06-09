@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "#logs_that_burn",
+    "#leaves",
+    "fern",
+    "tall_grass",
+    "short_grass",
+    "coal_block",
+    "#saplings",
+    "dead_bush",
+    "large_fern"
+  ]
+}

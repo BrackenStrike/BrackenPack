@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "gold_block",
+    "coal_block",
+    "netherrack",
+    "magma_block",
+    "yellow_concrete_powder",
+    "granite",
+    "glowstone",
+    "smooth_red_sandstone",
+    "bedrock",
+    "obsidian"
+  ]
+}
