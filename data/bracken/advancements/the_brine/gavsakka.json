@@ -1,0 +1,39 @@
+{
+	"parent": "bracken:the_brine/revered",
+	"display": {
+		"title": {
+			"translate": "Protector's Fabrication"
+		},
+		"description": {
+			"translate": "Slay a Gavsakka",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:small_amethyst_bud",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:the_brine/gavakka1": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:wither_skeleton",
+					"nbt": "{DeathLootTable:\"bracken:entity/the_brine/gavsakka\"}",
+					"location": {
+						"dimension": "bracken:the_brine"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:the_brine/gavakka1"
+	]]
+}

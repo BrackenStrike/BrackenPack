@@ -1,0 +1,51 @@
+{
+	"parent": "bracken:sanctum/enter_sanctum",
+	"display": {
+		"title": {
+			"translate": "Heavy Metal"
+		},
+		"description": {
+			"translate": "Find netherite loot in Sanctum",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:netherite_ingot"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:sanctum/netherite1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "bracken:sanctum"
+						}
+					}
+				}],
+				"items": [{
+					"items": [
+						"minecraft:netherite_pickaxe",
+						"minecraft:netherite_leggings",
+						"minecraft:netherite_chestplate",
+						"minecraft:netherite_boots",
+						"minecraft:netherite_block",
+						"minecraft:netherite_sword",
+						"minecraft:netherite_helmet",
+						"minecraft:netherite_ingot",
+						"minecraft:netherite_scrap"
+					]
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:sanctum/netherite1"
+	]]
+}

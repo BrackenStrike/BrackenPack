@@ -1,0 +1,30 @@
+{
+    "parent": "minecraft:adventure/root",
+    "display": {
+        "title": {
+            "translate": "Castles in the Sky"
+        },
+        "description": {
+            "translate": "Climb up to the Faewild",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:stripped_warped_stem"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:fae1": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:the_faewild" }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:fae1"
+        ]
+    ]
+}

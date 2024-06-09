@@ -1,0 +1,31 @@
+{
+	"parent": "bracken:the_brine/enter_the_brine",
+	"display": {
+		"title": {
+			"translate": "Land of the Protector"
+		},
+		"description": {
+			"translate": "Enter the revered waters biome",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:smooth_red_sandstone"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biomes": "bracken:the_brine/revered_waters"
+					}
+				}
+			}
+		}
+	}
+}

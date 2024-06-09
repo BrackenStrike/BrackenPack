@@ -1,0 +1,54 @@
+{
+	"parent": "bracken:glacium/wake",
+	"display": {
+		"title": {
+			"translate": "Strike Low"
+		},
+		"description": {
+			"translate": "Slay the lower half of the Viceroy with a sword",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:diamond_sword"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:glacium/kill11": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "minecraft:wither_skeleton",
+						"nbt": "{Tags:[\"bp.bygone_viceroy.bottom\"]}"
+					}
+				}],
+				"killing_blow": {
+					"source_entity": {
+						"type": "minecraft:player",
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:wooden_sword",
+									"minecraft:golden_sword",
+									"minecraft:stone_sword",
+									"minecraft:iron_sword",
+									"minecraft:diamond_sword",
+									"minecraft:netherite_sword"
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:glacium/kill11"
+	]]
+}

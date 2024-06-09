@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "translate": "Pax"
+        },
+        "description": {
+            "translate": "Realm of peace",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:golden_apple"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "bracken:textures/gui/advancements/backgrounds/pax.png"
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:pax" }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+	"parent": "bracken:the_underdark/enter_underdark",
+	"display": {
+		"title": {
+			"translate": "Humongous Fungus Among Us"
+		},
+		"description": {
+			"translate": "Enter the ruby fungi forest biome",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:red_mushroom"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:the_underdark/fungus1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_underdark/ruby_fungi_forest"
+						}
+					}
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:the_underdark/fungus1"
+	]]
+}

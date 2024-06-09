@@ -1,0 +1,31 @@
+{
+	"parent": "bracken:sanctum/enter_sanctum",
+	"display": {
+		"title": {
+			"translate": "Otherworldly Waypoint"
+		},
+		"description": {
+			"translate": "Descend into the voidship harbor biome",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:sculk_vein"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biomes": "bracken:sanctum/voidship_harbor"
+					}
+				}
+			}
+		}
+	}
+}

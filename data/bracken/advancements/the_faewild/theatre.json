@@ -1,0 +1,55 @@
+{
+    "parent": "bracken:the_faewild/enter_the_faewild",
+    "display": {
+        "title": {
+            "translate": "All the World's a Stage"
+        },
+        "description": {
+            "translate": "Visit the fae theatre",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:blue_banner",
+            "components": {
+                            "minecraft:banner_patterns": [
+                                {
+                                    "pattern": "minecraft:flower",
+                                    "color": "yellow"
+                                },
+                                {
+                                    "pattern": "minecraft:border",
+                                    "color": "yellow"
+                                }
+                            ]
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:the_faewild/theatre1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:the_faewild",
+                                "structures": "bracken:fae_theatre"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_faewild/theatre1"
+        ]
+    ]
+}

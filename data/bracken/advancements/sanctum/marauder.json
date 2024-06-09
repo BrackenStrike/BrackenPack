@@ -1,0 +1,37 @@
+{
+	"parent": "bracken:sanctum/enter_sanctum",
+	"display": {
+		"title": {
+			"translate": "Unseen Threat"
+		},
+		"description": {
+			"translate": "Get ambushed by an invisible marauder",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:netherite_axe"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:sanctum/marauder1": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:vindicator",
+						"location": {
+							"dimension": "bracken:sanctum"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:sanctum/marauder1"
+	]]
+}

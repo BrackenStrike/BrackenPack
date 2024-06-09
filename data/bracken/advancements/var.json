@@ -1,0 +1,30 @@
+{
+    "parent": "minecraft:adventure/root",
+    "display": {
+        "title": {
+            "translate": "Cherenkovicious"
+        },
+        "description": {
+            "translate": "Get struck by Varsk lightning. Arrive somewhere else???",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:copper_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:fae1": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:varskspace" }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:fae1"
+        ]
+    ]
+}
