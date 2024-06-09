@@ -1,0 +1,267 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "features": [
+            {
+                "chance": 0.2,
+                "feature": {
+                    "feature": {
+                        "type": "minecraft:simple_block",
+                        "config": {
+                            "to_place": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Properties": {
+                                        "waterlogged": "false"
+                                    },
+                                    "Name": "minecraft:dead_brain_coral"
+                                }
+                            }
+                        }
+                    },
+                    "placement": [
+                        {
+                            "type": "minecraft:block_predicate_filter",
+                            "predicate": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:blackstone"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "chance": 0.2,
+                "feature": {
+                    "feature": {
+                        "type": "minecraft:simple_block",
+                        "config": {
+                            "to_place": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Properties": {
+                                        "axis": "y"
+                                    },
+                                    "Name": "minecraft:basalt"
+                                }
+                            }
+                        }
+                    },
+                    "placement": [
+                        {
+                            "type": "minecraft:block_predicate_filter",
+                            "predicate": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:blackstone"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "chance": 0.2,
+                "feature": {
+                    "feature": {
+                        "type": "minecraft:simple_block",
+                        "config": {
+                            "to_place": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Properties": {
+                                        "waterlogged": "false"
+                                    },
+                                    "Name": "minecraft:obsidian"
+                                }
+                            }
+                        }
+                    },
+                    "placement": [
+                        {
+                            "type": "minecraft:block_predicate_filter",
+                            "predicate": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:blackstone"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "chance": 0.05,
+                "feature": {
+                    "feature": {
+                        "type": "minecraft:simple_block",
+                        "config": {
+                            "to_place": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Properties": {
+                                        "waterlogged": "false"
+                                    },
+                                    "Name": "minecraft:coal_block"
+                                }
+                            }
+                        }
+                    },
+                    "placement": [
+                        {
+                            "type": "minecraft:block_predicate_filter",
+                            "predicate": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:blackstone"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "default": {
+            "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                    "to_place": {
+                        "type": "minecraft:simple_state_provider",
+                        "state": {
+                            "Properties": {
+                                "waterlogged": "false"
+                            },
+                            "Name": "minecraft:dead_horn_coral_fan"
+                        }
+                    }
+                }
+            },
+            "placement": [
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                ],
+                                "blocks": [
+                                    "minecraft:blackstone"
+                                ]
+                            },
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                    "minecraft:air"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

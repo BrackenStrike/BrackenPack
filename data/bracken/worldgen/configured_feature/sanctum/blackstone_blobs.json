@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:netherrack_replace_blobs",
+    "config": {
+        "target": {
+            "Name": "minecraft:clay"
+        },
+        "state": {
+            "Name": "minecraft:cracked_polished_blackstone_bricks"
+        },
+        "radius": 0
+    }
+}

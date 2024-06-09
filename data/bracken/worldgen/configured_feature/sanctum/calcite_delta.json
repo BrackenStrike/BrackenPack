@@ -1,0 +1,13 @@
+{
+    "config": {
+        "contents": {
+            "Name": "minecraft:cyan_concrete_powder"
+        },
+        "rim": {
+            "Name": "minecraft:calcite"
+        },
+        "size": 8,
+        "rim_size": 2
+    },
+    "type": "minecraft:delta_feature"
+}
