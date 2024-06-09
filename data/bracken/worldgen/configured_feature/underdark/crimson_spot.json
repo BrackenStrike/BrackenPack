@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:netherrack_replace_blobs",
+    "config": {
+        "target": {
+            "Properties": {
+                "snowy": "false"
+            },
+            "Name": "minecraft:mycelium"
+        },
+        "state": {
+            "Name": "minecraft:crimson_nylium"
+        },
+        "radius": 0
+    }
+}

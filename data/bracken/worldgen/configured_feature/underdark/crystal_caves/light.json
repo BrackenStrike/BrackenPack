@@ -1,0 +1,107 @@
+{
+    "type": "minecraft:simple_random_selector",
+    "config": {
+        "features": [
+            {
+                "feature": {
+                    "type": "minecraft:simple_block",
+                    "config": {
+                        "to_place": {
+                            "state": {
+                                "Name": "minecraft:light",
+                                "Properties": {
+                                    "waterlogged": "false",
+                                    "level": "15"
+                                }
+                            },
+                            "type": "minecraft:simple_state_provider"
+                        }
+                    }
+                },
+                "placement": [
+                    {
+                        "type": "minecraft:environment_scan",
+                        "direction_of_search": "up",
+                        "target_condition": {
+                            "type": "minecraft:solid"
+                        },
+                        "allowed_search_condition": {
+                            "type": "minecraft:matching_blocks",
+                            "blocks": [
+                                "minecraft:air"
+                            ]
+                        },
+                        "max_steps": 32
+                    },
+                    {
+                        "type": "minecraft:block_predicate_filter",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                1,
+                                0
+                            ],
+                            "blocks": [
+                                "minecraft:cyan_stained_glass",
+                                "minecraft:light_blue_stained_glass",
+                                "minecraft:blue_stained_glass",
+                                "minecraft:white_stained_glass"
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "feature": {
+                    "type": "minecraft:simple_block",
+                    "config": {
+                        "to_place": {
+                            "state": {
+                                "Name": "minecraft:light",
+                                "Properties": {
+                                    "waterlogged": "false",
+                                    "level": "15"
+                                }
+                            },
+                            "type": "minecraft:simple_state_provider"
+                        }
+                    }
+                },
+                "placement": [
+                    {
+                        "type": "minecraft:environment_scan",
+                        "direction_of_search": "down",
+                        "target_condition": {
+                            "type": "minecraft:solid"
+                        },
+                        "allowed_search_condition": {
+                            "type": "minecraft:matching_blocks",
+                            "blocks": [
+                                "minecraft:air"
+                            ]
+                        },
+                        "max_steps": 32
+                    },
+                    {
+                        "type": "minecraft:block_predicate_filter",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                -1,
+                                0
+                            ],
+                            "blocks": [
+                                "minecraft:cyan_stained_glass",
+                                "minecraft:light_blue_stained_glass",
+                                "minecraft:blue_stained_glass",
+                                "minecraft:white_stained_glass"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

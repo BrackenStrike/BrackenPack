@@ -1,0 +1,13 @@
+{
+    "config": {
+        "contents": {
+            "Name": "minecraft:water"
+        },
+        "rim": {
+            "Name": "minecraft:prismarine"
+        },
+        "size": 8,
+        "rim_size": 2
+    },
+    "type": "minecraft:delta_feature"
+}

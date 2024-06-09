@@ -1,0 +1,65 @@
+{
+    "type": "minecraft:tree",
+    "config": {
+        "decorators": [],
+        "ignore_vines": true,
+        "force_dirt": false,
+        "dirt_provider": {
+            "state": {
+                "Name": "minecraft:dirt"
+            },
+            "type": "minecraft:simple_state_provider"
+        },
+        "minimum_size": {
+            "limit": 1,
+            "lower_size": 0,
+            "upper_size": 0,
+            "type": "minecraft:two_layers_feature_size"
+        },
+        "foliage_provider": {
+            "state": {
+                "Properties": {
+                    "level": "9",
+                    "waterlogged": "false"
+                },
+                "Name": "minecraft:light"
+            },
+            "type": "minecraft:simple_state_provider"
+        },
+        "sapling_provider": {
+            "state": {
+                "Properties": {
+                    "stage": "0"
+                },
+                "Name": "minecraft:acacia_sapling"
+            },
+            "type": "minecraft:simple_state_provider"
+        },
+        "foliage_placer": {
+            "radius": 1,
+            "offset": 0,
+            "height": 3,
+            "type": "minecraft:fancy_foliage_placer"
+        },
+        "trunk_provider": {
+            "state": {
+                "Properties": {
+                    "west": "true",
+                    "up": "true",
+                    "south": "true",
+                    "north": "true",
+                    "east": "true",
+                    "down": "true"
+                },
+                "Name": "minecraft:mushroom_stem"
+            },
+            "type": "minecraft:simple_state_provider"
+        },
+        "trunk_placer": {
+            "base_height": 11,
+            "height_rand_a": 6,
+            "height_rand_b": 6,
+            "type": "minecraft:forking_trunk_placer"
+        }
+    }
+}
