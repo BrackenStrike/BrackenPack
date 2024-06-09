@@ -1,0 +1,12 @@
+{
+    "feature": "bracken:panacea/honey_pool",
+    "placement": [
+        {
+            "count": 40,
+            "type": "minecraft:count_on_every_layer"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

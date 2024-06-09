@@ -1,0 +1,16 @@
+{
+    "feature": "bracken:panacea/comb_column",
+    "placement": [
+        {
+            "type": "count",
+            "count": 1
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

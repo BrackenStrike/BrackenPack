@@ -1,0 +1,28 @@
+{
+    "feature": "bracken:panacea/meat_dec",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 250
+        },
+        {
+            "type": "minecraft:count",
+            "count": 8
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "above_bottom": 40
+                },
+                "max_inclusive": {
+                    "absolute": 250
+                }
+            }
+        }
+    ]
+}
