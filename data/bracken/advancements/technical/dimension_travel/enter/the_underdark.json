@@ -1,0 +1,7 @@
+{
+	"criteria": { "changed_dimension": {
+		"trigger": "minecraft:changed_dimension",
+		"conditions": { "to": "bracken:the_underdark" }
+	}},
+	"rewards": { "function": "bracken:dimension_travel/enter/the_underdark" }
+}
