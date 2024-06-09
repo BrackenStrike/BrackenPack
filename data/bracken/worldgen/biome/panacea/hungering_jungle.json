@@ -1,0 +1,192 @@
+{
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [
+            {
+                "type": "minecraft:salmon",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:dolphin",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "creature": [
+            {
+                "type": "minecraft:pig",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:sniffer",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:hoglin",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:frog",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:parrot",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:zombie_horse",
+                "weight": 1,
+                "minCount": 2,
+                "maxCount": 2
+            },
+            {
+                "type": "minecraft:spider",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:chicken",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:ocelot",
+                "weight": 2,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "monster": [
+            {
+                "type": "minecraft:slime",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:spider",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:creeper",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:zombie",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "minecraft:zombie_villager",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ]
+    },
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
+    },
+    "features": [
+        [
+            "bracken:panacea/bog_tree"
+        ],
+        [
+            "bracken:panacea/coal_blobs",
+            "minecraft:trees_jungle"
+        ],
+        [
+            "minecraft:forest_rock"
+        ],
+        [],
+        [
+            "minecraft:trees_old_growth_spruce_taiga",
+            "minecraft:dark_forest_vegetation"
+        ],
+        [
+            "minecraft:patch_tall_grass_2",
+            "minecraft:flower_swamp",
+            "minecraft:bamboo_light",
+            "minecraft:patch_grass_jungle",
+            "minecraft:patch_waterlily"
+        ],
+        [],
+        [
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal"
+        ],
+        [
+            "minecraft:brown_mushroom_old_growth",
+            "minecraft:red_mushroom_old_growth"
+        ],
+        [
+            "minecraft:patch_large_fern",
+            "minecraft:vines",
+            "minecraft:patch_sugar_cane",
+            "minecraft:patch_melon",
+            "bracken:panacea/melon",
+            "minecraft:spring_water",
+            "minecraft:spring_lava",
+            "minecraft:kelp_warm"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "fog_color": 14280612,
+        "water_color": 11509077,
+        "water_fog_color": 11503445,
+        "grass_color": 6517311,
+        "sky_color": 11919559,
+        "foliage_color": 13947994,
+        "additions_sound": {
+            "sound": "minecraft:entity.parrot.ambient",
+            "tick_chance": 0.0002
+        },
+        "music": {
+            "sound": "minecraft:music.creative",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
+    },
+    "has_precipitation": true
+}
