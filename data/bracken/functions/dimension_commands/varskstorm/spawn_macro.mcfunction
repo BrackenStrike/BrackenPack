@@ -1,0 +1,1 @@
+$execute positioned over ocean_floor run summon lightning_bolt ~$(dx) ~ ~$(dz) {Tags:["bp.varsk_lightning","bp.entity"]}
