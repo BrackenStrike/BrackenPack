@@ -1,0 +1,399 @@
+CONURE'S EDITS V4
+-----------------
+
+---- Merged the pack with GitHub branch Dev1 ----
+
+---- Merged the pack with GitHub branch conure-edits (changes by Crimdev) ----
+Crim's Edits:
+	Rename light predicates
+	Remove italisation from locator map names
+	Merge all the ability book mainhand/offhand predicates into one and remove the mainhand/offhand checks, instead using one single predicate for both cases
+	Remove all mentions where the teams were necessary for the species to work, as promised by the config option that disables teams
+
+Fixed bug: Changed the join command in function player/add_teams to "faefolk" instead of "faewild"
+
+Edited function player/species/human/join:
+	Now only grants the luck modifier if in the overworld.
+
+Fixed bug: Function dimension_travel/enter/overworld now grants luck to humans, and dimension_travel/leave/overworld revokes it.
+	Before, it was the other way around.
+
+Removed unused functions:
+	- player/coas/used
+	- player/coas/mainhand
+	- player/coas/offhand
+
+Edited function player/coas/route:
+	Replaced all instances of "if function ... run return 1" with "run return run function ..."
+
+Removed unused predicates ability_books/<name>_offhand
+
+Edited predicates ability_books/<name>:
+	The offhand term now requires that the player doesn't also have a coas in their mainhand. This makes it so that when dual-wielding ability books, the mainhand book is always prioritized.
+	Without this change, there would be certain books that were always prioritized over other certain books, regardless of which hand they were in.
+
+
+
+
+
+CONURE'S EDITS V3
+-----------------
+
+Species Tweaking
+
+Edited functions player/species/<speciesname>/leave:
+	Added a command to remove the player's team. Admins will now be able to type /function bracken:player/species/leave without being immediately added back to the same species.
+
+Faefolk now get their increased jumping abilities from attributes rather than an effect
+	Edited function player/species/faefolk/join:
+		Added a +50% jump_strength and +1 safe_fall_distance modifier (replicates the effect of Jump Boost 1)
+	Edited function player/species/faefolk/leave: Now removes the above modifiers
+	Edited function player/species/faefolk/tick: Removed jump boost effect command
+
+Enderlings' Controlled Teleport is now advancement-driven for both use-cases
+	Edited advancement technical/species/enderling/controlled_teleport:
+		Added an alternative trigger for throwing the eye of ender in a dimension with strongholds
+	Edited function player/species/enderling/tick:
+		Removed call to function player/species/enderling/controlled_teleport
+
+Edited function player/species/hunter/tick:
+	Hunger-Speed commands now test a range of morph scores rather than each one individually
+	Removed "run execute" (in a few other places as well)
+
+Netherkin dimension attributes are no longer checked every tick
+	Edited functions dimension_travel/enter/the_nether and dimension_travel/leave/the_nether:
+		Attack strength attribute is now granted/revoked respectively for Netherkin
+	Edited function player/species/netherkin/join:
+		Attribute is now granted if the player is already in the Nether
+	Edited function player/species/netherkin/tick: Removed nether strength commands
+	Attribute now uses add_multiplied_total instead of add_multiplied_base
+
+
+
+Bug Found: Dying in one dimension and respawning in another doesn't trigger dimension_changed advancements, so players could get around the dimension commands through death.
+
+Added function dimension_travel/force_update:
+	Re-calculates all dimension commands - calls the "join" function for the player's current dimension, and the "leave" command for all the others. Intended to be called as a fix for anytime a bug occurs where the player can get around the dimension commands, such as this one.
+
+Added Formal Respawn Tracking
+	Moved detection of objective bp.death from player/species/tick to player/tick
+	Added function player/respawn:
+		Called by player/tick when bp.death is exactly 1
+		Intended to run any commands that should run as soon as the player respawns
+		Currently calls functions dimension_travel/force_update and player/species/join
+
+
+
+---- Effect Immunity Rework ----
+Setting up advancements that detect effects, detect immunity, and clear the effect if immunity is found.
+
+Added predicates effect_immunity/<effectname>:
+	Return true if the checked player should be considered immune to the corresponding effect.
+
+Added advancements technical/effect_immunity/<effectname>:
+	Each advancement detects when you gain a certain effect via the "effects_changed" trigger
+	Advancements use the effect_immunity predicates to test immunity
+
+Added functions player/effect_immunity/<effectname>:
+	Called by the advancements, immediately revoke said advancement
+	Simply clear the player of the corresponding effect
+
+Moved "effect clear" commands between the following functions:
+	- player/species/frostkin/tick -> player/species/frostkin/join
+	- player/species/villain/tick -> player/species/villain/join
+	- dimension_commands/pax -> dimension_travel/enter/pax
+	- dimension_commands/sanctum -> dimension_travel/enter/sanctum
+	- item/glacium_glider -> equipment/glacium_glider/on
+		Moving these functions causes the effects to be cleared when you first take on a state (becoming a frostkin, entering pax, equipping the glider, etc). The passive immunity that comes later is covered by the advancements.
+
+Added checks for immunity before granting an effect in the following functions:
+	- player/species/outlander/tick
+	- player/species/villain/tick
+	- dimension_commands/sanctum
+	- dimension_commands/other/beacon_portal
+	- item/food/apples/carbon_apple
+
+Replaced objective bp.wither_immunity with predicate effect_immunity/wither in every function where it's referenced:
+	- dimension_commands/glacium
+	- player/species/common/aquavulnerability
+	- player/species/common/rain_damage
+	- player/species/netherkin/rain
+		Removed this function, as it is duplicated by player/species/common/rain_damage and never referenced
+
+Removed objective bp.wither_immunity - removed all commands manipulating the objective in these functions:
+	- item/main
+	- item/glacium_glider
+		Removed this function, as it no longer had any actual commands in it
+		Removed reference to it in function dimension_commands/other/pax_waters
+	- player/config_menu/uninstall/remove_all_scoreboards
+	- load
+
+Removed objective bp.glacium_glider (same process as bp.wither_immunity)
+
+
+
+Replaced the multiple boat check predicates with the in_water predicate in the following functions:
+	- player/species/automech/tick
+		Removed call to #bracken:waterloggable as well
+	- player/species/nereid/tick
+	- dimension_commands/glacium
+	- dimension_commands/pax
+
+
+
+
+
+CONURE'S EDITS V2
+-----------------
+
+---- Merged this pack with the Hunter-Apple bugfix introduced by Crimdev ----
+
+
+
+More Item/Scoreboard Optimization:
+
+Commented all code pertaining to the following unused scoreboard objectives (in function item/main):
+	- bp.altum_archeon
+	- bp.piercer_of_heavens
+
+Fixed Bug: Changed "slots"->"equipment" and "weapon.mainhand"->"mainhand" in the following advancements:
+	- technical/cleaver_of_judgement
+	- technical/gothrum_fang
+
+
+
+Bugs Identified:
+	All of the "omnitrigger" advancements and their respective functions have some major issues.
+
+Removed all advancements under the folder technical/omnitrigger/ which specify a carrot on a stick with "using_item". (These were all the advancements starting with the letter "p".) This trigger doesn't work with the carrot on a stick, so these advancements were doing nothing.
+
+Removed all functions under player/omnitrigger/ beginning with "p"
+	These functions were only called by the removed advancements, and their functionality is already present elsewhere in the pack (within the ability book files), making them redundant
+
+Edited advancements technical/omnitrigger/<advancement>:
+	Changed the entity_properties predicate to a location_check predicate ("b" advancements)
+	Changed "biome"->"biomes" to conform to new 1.20.6 format ("b" advancements)
+	Changed the names of the criteria to avert existing softlocks (see function bugfix above)
+
+Removed advancement technical/omnitrigger/k_disruptor
+	Functionality has been moved to the display advancement omnidrome/kill_boss
+	I saw that Project Ruination already works like this, so I changed it for consistency
+
+
+
+"Alphie" dog command is now advancement-driven:
+	Added advancement technical/alphie and function entities/alphie
+	Removed alphie command from function 10_seconds
+	Fixed bugs with the components on the Alphie respawn egg
+
+
+
+Reducing Lag from Display Advancements (and making them more responsive):
+
+Changed dimension advancements from a "location" trigger to a "changed_dimension" trigger:
+	- bri, dor, fae, gla, omn, pan, pax, san, und, var, voi
+	- glacium/enter_glacium
+	- omnidrome/enter_omnidrome
+	- omnidrome/return
+		Function player/species/automech/join now also directly grants this advancement if in Omnidrome
+	- panacea/enter_panacea
+	- pax/enter_pax
+	- sanctum/enter_sanctum
+	- sanctum/outlander
+		Function player/species/outlander/join now also directly grants this advancement if in Sanctum
+	- the_brine/enter_the_brine
+	- the_faewild/enter_the_faewild
+	- the_underdark/enter_underdark
+
+Changed effect advancements from a "location" trigger to an "effects_changed" trigger:
+	- glacium/fatigue
+	- glacium/water
+	- the_brine/weakness
+	- the_underdark/gas
+
+
+
+Fixed Bug: Removed function entities/pax/pax_entities(unused)
+	This function had been printing errors to the server logs for having an invalid name
+	Commands were moved to entities/pax/pax_entities, and commented out
+
+
+
+Attempting to fix the "MIN function" error logs:
+	The source of these errors is the game warning you about redundant code. In some worldgen/noise_settings files, there are defined density functions that the game doesn't like even though they technically work properly, so it prints warnings to the server logs fully detailing every part of this function, which results in the logs getting flooded with near-unreadable information. However, after considerable effort, I was able to deduce what it was actually saying, and I found the part of the code that causes it.
+	There's a "min" function that's taking the minimum of two inputs. The first is a function that always returns a positive value, and the second is zero. Zero will always be less than that positive function, so the positive one will never be referenced, and this is why the game is freaking out. It appears to me that whoever made this worldgen file was tampering with experimental settings, and they wanted to disable their code without actually deleting their work. You can't comment out code in a JSON file, so they decided to introduce a function that never actually used this code on purpose. (Again, this is just speculation on my part.)
+	I'm attempting a more clean fix.
+
+Added datapack folder data/bracken/worldgen/density_function_unsed:
+	The game will never read anything in this folder, so anything can go here without any consequences. I'll be putting the problematic code into this folder - for example, if a function always returns 0, I'll replace it with just the value 0 in the actual code, and put the removed function here. See the README.txt in that folder for more info.
+
+I've carried out this process for the following files:
+	- noise_settings/omnidrome: Replaced the function starting on line 92 with a 0, moved to density_function_unused/noisesettings_omnidrome_line92
+
+Edited noise_settings file "the_brine":
+	The issue here was actually that the big complicated function was ALWAYS being referenced, and the input on the other side (which is just a value of 1) was being ignored. I went ahead and just deleted that value of 1.
+
+After doing this, it looks like all the MIN warnings are actually gone. Mission success.
+
+
+
+
+
+CONURE'S EDITS V1
+-----------------
+
+Clean up the dimension tick:
+
+Edited function player/dimension_check:
+	Changed "if function ... run return 1" to "run return run function ..."
+	Moved player/overworld_check functionality to this file
+		- using "return run" replicates the exact same short-circuiting behavior as before
+
+Removed function player/overworld_check
+
+Edited function player/tick:
+	Now calls player/dimension_check instead of player/overworld_check
+
+
+
+Bug Found:
+	The advancements named "technical/food/species_fruit/<species>" don't auto-revoke themselves, meaning you can only use each fruit type once and then never again. They also don't seem to remove your previous species, if you had one.
+
+Added functions player/species/<species>/use_fruit:
+	Revokes the corresponding fruit advancement, removes any existing race, then adds the player to the corresponding race.
+
+Edited advancements technical/food/species_fruit/<species>:
+	Now call function player/species/<species>/use_fruit instead of player/species/<species>/join
+	Changed the name of the criterion from "requirement" to "use_fruit" in all files
+		- This is to fix potential existing softlocks. Changing this name removes the advancement from anyone who may have already had it before, because of the way advancements are stored on the player.
+
+
+
+Optimization:
+	Dimension attributes are constantly being granted by dimension_commands, and revoked in 3_second_score. This can be streamlined by adding utility advancements detecting when players enter/leave dimensions.
+
+Added advancements:
+	technical/dimension_travel/enter/<dimension>
+	technical/dimension_travel/leave/<dimension>
+Added functions:
+	dimension_travel/enter/<dimension>
+	dimension_travel/leave/<dimension>
+		- Each advancement calls the corresponding function. Advancements trigger when a player enters or leaves a given dimension.
+		- Advancements follow the State-Flip structure: the "leave" advancement revokes the "enter" advancement, and vice versa.
+
+Removed function player/reset_dimension_attributes:
+	All commands have been moved to their respective files: dimension_travel/leave/<dimension>
+	Removed the call to reset_dimension_attributes in the function player/scoreboard_commands/3_second_score
+
+Removed function player/travel/left_brine and advancement technical/travel/left_brine:
+	Commands have been moved to dimension_travel/leave/the_brine
+
+Edited functions dimension_commands/<dimension>:
+	All attribute commands have been moved to their respective files: dimension_travel/enter/<dimension>
+
+Edited function set_score (initial join function):
+	Upon joining the game, the player immediately has the advancement technical/dimension_travel/enter/overworld granted.
+
+Fixed Bug: Panacea's armor modifier and Glacium's toughness modifier were using add_multiplied_base. A player's base armor and toughness are both zero, so these modifiers did nothing. They've been changed to add_multiplied_total.
+
+Fixed Bug: Sanctum block breaking speed attribute was using different UUIDs for granting and removing the attribute, meaning it was never getting removed.
+
+
+
+Optimization, part 2:
+	Some of the scoreboard objectives named bp.<dimension> seem to work on a decay system, where being in the dimension keeps you at one score, and it decays back to zero after you leave, with certain functions watching for this decay. I've moved some of this functionality over to the enter/leave files from before.
+
+Edited function player/universal_dimension_commands:
+	The call to the function dimension_commands/omni_powers/trigger_commands/reset_trigger_commands has been moved to the function dimension_travel/leave/omnidrome
+
+
+
+Disabling Unused Code:
+	With the previous changes, some scoreboard objectives are now completely unused, but there are still commands running every tick that edit their properties, which contributes to lag. I'll only be commenting these out so as to not delete any code that you guys might want to add back in later.
+
+Edited functions player/universal_dimension_commands and dimension_commands/<dimension>:
+	Commented out all code pertaining to the following scoreboard objectives
+		- bp.dormis
+		- bp.glacium
+		- bp.omnidrome
+		- bp.panacea
+		- bp.sanctum
+		- bp.brine
+		- bp.fae
+		- bp.underdark
+		- bp.varskspace
+		- bp.void
+
+
+
+Optimizing Equipment Detection:
+	Rather than checking every tick or every second to see if the player is wearing a certain item, we can set up an advancement state-flip to directly detect when they equip and unequip the item. Then, commands can search for the presence or absence of those advancements, which is efficient.
+
+Removed (commented) all commands affecting the objective "bp.creeper" in player/scoreboard_commands/1_second_score and player/universal_dimension_commands
+
+Added advancements technical/equipment/creeper_head/on, technical/equipment/creeper_head/off
+Added functions equipment/creeper_head/on, equipment/creeper_head/on
+	Advancements point to the functions, functions revoke the opposite advancement. This is the state-flip. Advancements are triggered by inventory changes rather than periodic ticks.
+	Functions update the player's score for the objective bp.creeper, to 0 while not wearing the head, and 1 while wearing it.
+
+Edited functions dimension_commands/overworld and dimension_commands/panacea:
+	The command detecting when the player should change dimension now searches for score "bp.creeper matches 1".
+
+All of the creeper-head changes were repeated for the following items:
+	- Nightfall
+	- Glacium Glider
+
+Edited functions item/main and item/<item> for the items listed above:
+	Commands no longer edit the value of those relevant scoreboard objectives.
+
+Edited function dimension_commands/other/pax_waters:
+	Now directly calls the function item/glacium_glider rather than setting the scoreboard objective
+
+
+
+Fixed Bug: Advancements technical/fragile_items/<item> were using an invalid component-match to test for custom data
+
+Fixed Bug: Nereids were the only species which called the predicate in_boat but not in_chest_boat to get water effects
+	Function: player/species/nereid/tick
+
+
+
+---- At this point I actually booted up a world and started testing things ----
+
+Fixed Bug: Function player/species/dweller/leave had an invalid attribute command
+
+Renamed predicate "random/2_in_3 copy" to "random/2_in_3" (the server console was complaining about it)
+
+Fixed an issue with attribute modifier specifications in the following loot tables:
+	- item/average_weapons/copper_axe
+	- item/average_weapons/copper_shovel
+	- item/average_weapons/lustra_shovel
+
+Fixed an issue with the "fire_resistant" component (changed to empty object {}) in the following loot tables:
+	- item/ability_books/truelight_glow
+	- item/dormis/thralls_crown
+
+Fixed an issue with calling a nonexisted vanilla item in the following loot tables:
+	- item/average_weapons/copper_sickle
+	- item/average_weapons/meteoric_sickle
+
+NOTE FOR DEVS: Function bracken:untitled won't load properly, the server says the message is too long. I'm not sure what to do about it so I figured I'd just leave a note here and comment out the command
+
+Fixed Bugs involving incorrect structure names in the following advancements:
+	the_underdark/mineshaft: "twice_abandoned_mineshaft" changed to "underdark_twice_abandoned_mineshaft"
+	pax/pax_portal: "pax_arc" changed to "pax_arch"
+	glacium/village: Removed call to "bracken:village", as I couldn't find any structure in the code that seemed similar
+	sanctum/vault: "sanctum_boss" changed to "sanctum_building"
+
+Fixed the item icon specification in advancement the_faewild/theatre
+
+
+
+---- Merged my edits with the updated version Crimdev posted in the discord ----
+
+
+
+Fixing Predicates:
+	It seems that many of the predicates in the pack, particularly the item predicates, weren't properly updated to 1.20.6. I've gone ahead and updated all predicates.
+
+Fixed Bug: Some functions under book_of_arbitruim/ask_race had no \ for line breaks, which caused the functions to stop loading.
