@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "bracken:the_brine/keeper_district",
+    "spawn_overrides": {},
+    "start_pool": "bracken:brine_station_core",
+    "size": 7,
+    "step": "surface_structures",
+    "start_height": {
+        "absolute": 466
+    },
+    "max_distance_from_center": 128,
+    "use_expansion_hack": false
+}

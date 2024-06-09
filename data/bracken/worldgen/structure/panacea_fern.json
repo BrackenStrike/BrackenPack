@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "bracken:panacea/wildflower_bog",
+    "spawn_overrides": {},
+    "start_pool": "bracken:panacea_fern",
+    "size": 6,
+    "step": "surface_structures",
+    "start_height": {
+        "absolute": -2
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 80,
+    "use_expansion_hack": true
+}

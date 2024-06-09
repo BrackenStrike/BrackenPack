@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "bracken:the_brine/sugar_sand_beach",
+    "spawn_overrides": {},
+    "start_pool": "bracken:the_brine/brine_tower_root",
+    "size": 7,
+    "step": "surface_structures",
+    "start_height": {
+        "absolute": 376
+    },
+    "max_distance_from_center": 80,
+    "use_expansion_hack": false
+}

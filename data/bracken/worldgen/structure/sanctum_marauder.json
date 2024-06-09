@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "bracken:sanctum/rubblework_city",
+    "spawn_overrides": {},
+    "start_pool": "bracken:sanctum_marauder",
+    "size": 6,
+    "step": "surface_structures",
+    "start_height": {
+        "absolute": -1
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 80,
+    "use_expansion_hack": false
+}
