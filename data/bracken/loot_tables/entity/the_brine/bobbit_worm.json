@@ -1,0 +1,13 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/the_brine/worm_mandible"
+		}],
+		"conditions": [{
+			"condition": "minecraft:random_chance",
+			"chance": 0.8
+		}]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/ability_books/tetra_slime"
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/panacea/mortal_cull"
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/portal_keys/panacea_key"
+		}]
+	},{
+		"rolls": {
+			"min": 20,
+			"max": 30
+		},
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/panacea/panaspore"
+		}]
+	}]
+}

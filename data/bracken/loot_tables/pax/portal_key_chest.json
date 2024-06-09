@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"value": "bracken:item/portal_keys/overworld_key",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 1
+			}]
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"value": "bracken:item/portal_keys/nether_key",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.002
+			}]
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"value": "bracken:item/portal_keys/faewild_key",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"value": "bracken:item/portal_keys/dormis_key",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		}]
+	}]
+}

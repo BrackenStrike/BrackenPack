@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 5,
+			"max": 15
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:torch",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.5
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:sunflower",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.5
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:leather",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"value": "bracken:item/maps/pax_portal_map",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 1
+			}]
+		}]
+	}]
+}
