@@ -1,0 +1,9 @@
+playsound minecraft:entity.evoker.prepare_summon hostile @a[distance=..30] ~ ~ ~ 1 1
+summon stray ~3 ~1 ~ {CustomName:'{"translate":"Frostforged","italic":false}',HandItems:[{id:"minecraft:bow",Count:1b,components:{"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}} },{}],ArmorItems:[{},{},{id:"minecraft:chainmail_chestplate",Count:1b,components:{"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}}},{id:"minecraft:damaged_anvil",Count:1b,components:{"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}}}]}
+
+summon stray ~-3 ~1 ~ {CustomName:'{"translate":"Frostforged","italic":false}',HandItems:[{id:"minecraft:bow",Count:1b,components:{"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}} },{}],ArmorItems:[{},{},{id:"minecraft:chainmail_chestplate",Count:1b,components:{"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}}},{id:"minecraft:damaged_anvil",Count:1b,components:{"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}}}]}
+
+summon stray ~ ~1 ~3 {CustomName:'{"translate":"Frostforged","italic":false}',HandItems:[{id:"minecraft:bow",Count:1b,components:{"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}} },{}],ArmorItems:[{},{},{id:"minecraft:chainmail_chestplate",Count:1b,components:{"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}}},{id:"minecraft:damaged_anvil",Count:1b,components:{"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}}}]}
+
+summon stray ~ ~1 ~-3 {CustomName:'{"translate":"Frostforged","italic":false}',HandItems:[{id:"minecraft:bow",Count:1b,components:{"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}} },{}],ArmorItems:[{},{},{id:"minecraft:chainmail_chestplate",Count:1b,components:{"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}}},{id:"minecraft:damaged_anvil",Count:1b,components:{"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}}}]}
+
