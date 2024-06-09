@@ -1,0 +1,14 @@
+loot give @s loot bracken:item/portal_keys/brine_key
+loot give @s loot bracken:item/portal_keys/dormis_key
+loot give @s loot bracken:item/portal_keys/end_key
+loot give @s loot bracken:item/portal_keys/faewild_key
+loot give @s loot bracken:item/portal_keys/glacium_key
+loot give @s loot bracken:item/portal_keys/nether_key
+loot give @s loot bracken:item/portal_keys/omnidrome_key
+loot give @s loot bracken:item/portal_keys/overworld_key
+loot give @s loot bracken:item/portal_keys/panacea_key
+loot give @s loot bracken:item/portal_keys/pax_key
+loot give @s loot bracken:item/portal_keys/sanctum_key
+loot give @s loot bracken:item/portal_keys/underdark_key
+loot give @s loot bracken:item/portal_keys/varskspace_key
+loot give @s loot bracken:item/portal_keys/void_key
