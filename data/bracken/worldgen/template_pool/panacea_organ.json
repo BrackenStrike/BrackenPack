@@ -1,9 +1,9 @@
 {
-    "name": "statue",
+    "name": "organ",
     "fallback": "minecraft:empty",
     "elements": [
         {
-            "weight": 2,
+            "weight": 1,
             "element": {
                 "location": "bracken:panacea/organ/panacea_organ_tooth1",
                 "processors": "minecraft:empty",
@@ -21,7 +21,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:panacea/organ/panacea_organ_bone1",
                 "processors": "minecraft:empty",
@@ -30,7 +30,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:panacea/organ/panacea_organ_eye1",
                 "processors": "minecraft:empty",
@@ -39,7 +39,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:panacea/organ/panacea_organ_eye2",
                 "processors": "minecraft:empty",
@@ -48,7 +48,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:panacea/organ/panacea_organ_eye3",
                 "processors": "minecraft:empty",
@@ -60,6 +60,15 @@
             "weight": 1,
             "element": {
                 "location": "bracken:panacea/organ/panacea_organ_bone2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:panacea/organ/panacea_organ_mob",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
