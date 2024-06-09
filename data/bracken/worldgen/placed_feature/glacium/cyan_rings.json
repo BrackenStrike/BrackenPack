@@ -1,0 +1,19 @@
+{
+    "feature": "bracken:glacium/cyan_rings",
+    "placement": [
+        {
+            "type": "count",
+            "count": 5
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "OCEAN_FLOOR"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "feature": "bracken:varskspace/lanterns",
+    "placement": [
+        {
+            "type": "count",
+            "count": 20
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "min_inclusive": {
+                    "above_bottom": 250
+                },
+                "max_inclusive": {
+                    "below_top": 1
+                },
+                "type": "minecraft:uniform"
+            }
+        }
+    ]
+}

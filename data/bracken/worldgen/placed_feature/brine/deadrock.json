@@ -1,0 +1,51 @@
+{
+    "feature": "bracken:brine/deadrock",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 6
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:replaceable"
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "blocks": [
+                            "minecraft:sand"
+                        ]
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "blocks": [
+                                "minecraft:mycelium",
+                                "minecraft:prismarine",
+                                "minecraft:oak_planks",
+                                "minecraft:dirt"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}
