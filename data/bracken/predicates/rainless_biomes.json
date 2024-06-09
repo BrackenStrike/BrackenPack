@@ -1,0 +1,69 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biomes": "minecraft:windswept_savanna"
+		}
+	},{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biomes": "minecraft:savanna_plateau"
+		}
+	},{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biomes": "minecraft:savanna"
+		}
+	},{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biomes": "minecraft:desert"
+		}
+	},{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biomes": "minecraft:eroded_badlands"
+		}
+	},{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biomes": "minecraft:wooded_badlands"
+		}
+	},{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biomes": "minecraft:badlands"
+		}
+	},{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"dimension": "minecraft:the_nether"
+		}
+	},{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"dimension": "bracken:dormis"
+		}
+	},{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"dimension": "bracken:sanctum"
+		}
+	},{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"dimension": "bracken:omnidrome"
+		}
+	},{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"dimension": "bracken:varskspace"
+		}
+	},{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"dimension": "bracken:pax"
+		}
+	}]
+}

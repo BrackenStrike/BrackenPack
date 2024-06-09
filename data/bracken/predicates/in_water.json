@@ -1,0 +1,18 @@
+[{
+	"condition": "location_check",
+	"predicate": { "fluid": {
+		"fluids": "#minecraft:water"
+	}}
+},{
+	"condition": "minecraft:inverted",
+	"term": {
+		"condition": "minecraft:reference",
+		"name": "bracken:in_chest_boat"
+	}
+},{
+	"condition": "minecraft:inverted",
+	"term": {
+		"condition": "minecraft:reference",
+		"name": "bracken:in_boat"
+	}
+}]
