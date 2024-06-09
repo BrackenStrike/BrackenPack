@@ -1,0 +1,6 @@
+{
+	"condition": "minecraft:location_check",
+	"predicate": {
+		"biomes": "bracken:the_underdark/crystal_caves"
+	}
+}
