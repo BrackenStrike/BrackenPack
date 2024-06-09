@@ -1,0 +1,41 @@
+{
+    "parent": "bracken:panacea/enter_panacea",
+    "display": {
+        "title": {
+            "translate": "Calling all Creepers!"
+        },
+        "description": {
+            "translate": "Use a Creeper Horn",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:goat_horn",
+            "components": {
+                "minecraft:custom_model_data": 888501
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:panacea/horn1": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": {},
+                "item": {
+                    "items": "minecraft:goat_horn",
+                    "predicates": {
+                        "minecraft:custom_data": "{bp:{id:\"creeper_horn\"}}"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:panacea/horn1"
+        ]
+    ]
+}

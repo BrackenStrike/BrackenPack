@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "translate": "Panacea"
+        },
+        "description": {
+            "translate": "The old world",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": 888520
+            }
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "bracken:textures/gui/advancements/backgrounds/panacea.png"
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:panacea" }
+        }
+    }
+}

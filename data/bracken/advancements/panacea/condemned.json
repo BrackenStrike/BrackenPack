@@ -1,0 +1,31 @@
+{
+    "parent": "bracken:panacea/enter_panacea",
+    "display": {
+        "title": {
+            "translate": "Ashes and Dust"
+        },
+        "description": {
+            "translate": "Enter the condemned taiga biome",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:basalt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "bracken:panacea/condemned_taiga"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "parent": "bracken:panacea/creeper",
+    "display": {
+        "title": {
+            "translate": "Another Anomaly"
+        },
+        "description": {
+            "translate": "Enter the creeper pyramid",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:mossy_cobblestone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "bracken:panacea_creeper_pyramid"
+                    }
+                }
+            }
+        }
+    }
+}

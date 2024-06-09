@@ -1,0 +1,36 @@
+{
+    "parent": "bracken:panacea/enter_panacea",
+    "display": {
+        "title": {
+            "translate": "A Giving Tree"
+        },
+        "description": {
+            "translate": "Investigate the tetra tree",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:oak_log"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:panacea/tree1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "structures": "bracken:panacea_tetra_tree"
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:panacea/tree1"
+        ]
+    ]
+}

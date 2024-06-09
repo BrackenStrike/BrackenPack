@@ -1,0 +1,31 @@
+{
+    "parent": "bracken:panacea/enter_panacea",
+    "display": {
+        "title": {
+            "translate": "Agents of Bedlam"
+        },
+        "description": {
+            "translate": "Explore the creeper dominion biome",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:creeper_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "bracken:panacea/creeper_dominion"
+                    }
+                }
+            }
+        }
+    }
+}
