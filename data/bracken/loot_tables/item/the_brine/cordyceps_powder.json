@@ -1,0 +1,23 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:nether_wart"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"name": {
+				"text": "Cordyceps Powder",
+				"color": "white",
+				"italic": false
+			}
+		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888504
+		},{
+			"function": "minecraft:set_custom_data",
+			"tag": "{bp.potion:4b,bp:{id:\"potion_recipe\"}}"
+		}]
+	}]
+}

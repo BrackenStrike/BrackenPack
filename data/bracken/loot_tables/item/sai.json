@@ -1,0 +1,41 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_sword",
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:attribute_modifiers": [{
+						"type": "generic.attack_damage",
+						"slot": "mainhand",
+						"uuid": [
+							1872410414,-61781409,-1794531078,661849160
+						],
+						"name": "generic.attack_damage",
+						"amount": 30,
+						"operation": "add_value"
+					}],
+					"minecraft:custom_model_data": 888502
+				}
+			},{
+				"function": "minecraft:set_name",
+				"name": {
+					"translate": "Sai",
+					"color": "white",
+					"italic": false
+				}
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:custom_data": {
+						"bp": {
+							"id": "cleaver_of_judgement"
+						}
+					}
+				}
+			}]
+		}]
+	}]
+}

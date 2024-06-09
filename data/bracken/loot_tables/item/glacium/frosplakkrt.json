@@ -1,0 +1,50 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:diamond_chestplate",
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:enchantments": {
+						"minecraft:protection": 5,
+						"minecraft:fire_protection": 8,
+						"minecraft:vanishing_curse": 1
+					},
+					"minecraft:custom_model_data": 888502
+				}
+			},{
+				"function": "set_name",
+				"name": [{
+					"translate": "Frosplakkrt",
+					"color": "blue",
+					"bold": true
+				}]
+			},{
+				"function": "set_lore",
+				"lore": [{
+					"translate": "vokte hjertet mitt!",
+					"color": "gray",
+					"italic": false
+				}],
+				"mode": "insert"
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.88,
+					"max": 0.93
+				}
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:custom_data": {
+						"bp": {
+							"id": "fragile"
+						}
+					}
+				}
+			}]
+		}]
+	}]
+}
