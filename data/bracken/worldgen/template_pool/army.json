@@ -1,0 +1,42 @@
+{
+    "name": "army",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "location": "bracken:sanctum_army1",
+                "processors": "bracken:ruin",
+                "projection": "terrain_matching",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:sanctum_army2",
+                "processors": "bracken:ruin",
+                "projection": "terrain_matching",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "location": "bracken:sanctum_army4",
+                "processors": "bracken:ruin",
+                "projection": "terrain_matching",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "location": "bracken:sanctum_army3",
+                "processors": "bracken:ruin",
+                "projection": "terrain_matching",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        }
+    ]
+}
