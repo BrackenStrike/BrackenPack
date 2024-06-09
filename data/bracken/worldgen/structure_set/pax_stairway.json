@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:pax_stairway",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 12,
+        "separation": 10,
+        "salt": 68522761
+    }
+}

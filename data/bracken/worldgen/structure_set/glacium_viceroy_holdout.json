@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:glacium_viceroy_holdout",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 23,
+        "separation": 20,
+        "salt": 1908413135
+    }
+}

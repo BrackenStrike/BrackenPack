@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:varskspace_indicator",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 18,
+        "separation": 14,
+        "salt": 981008344
+    }
+}

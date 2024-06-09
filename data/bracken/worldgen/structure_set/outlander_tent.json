@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:outlander_tent",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 40,
+        "separation": 28,
+        "salt": 50246545
+    }
+}

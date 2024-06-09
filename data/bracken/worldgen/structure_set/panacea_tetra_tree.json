@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:panacea_tetra_tree",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 30,
+        "separation": 22,
+        "salt": 1136852058
+    }
+}

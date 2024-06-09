@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:brine_jelly",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 10,
+        "separation": 7,
+        "salt": 68522789
+    }
+}

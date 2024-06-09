@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:glacium_snowflake",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 17,
+        "separation": 16,
+        "salt": 965693497
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:reef/megalodon_tooth",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 16,
+        "separation": 12,
+        "salt": 90129427
+    }
+}

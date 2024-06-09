@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:omnidrome_observatory",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 32,
+        "separation": 18,
+        "salt": 431221225
+    }
+}

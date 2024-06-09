@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:fae_mush_ring",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 12,
+        "separation": 8,
+        "salt": 9894636
+    }
+}

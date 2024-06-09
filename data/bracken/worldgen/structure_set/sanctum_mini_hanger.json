@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:sanctum_mini_hanger",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 30,
+        "separation": 27,
+        "salt": 68542789
+    }
+}

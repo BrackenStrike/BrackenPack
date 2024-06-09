@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:reef/urchin",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 30,
+        "separation": 24,
+        "salt": 9012947
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:panacea_creeper_pyramid",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 21,
+        "separation": 18,
+        "salt": 1136852054
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:traveler_indicator",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 1800,
+        "separation": 1400,
+        "salt": 981008344
+    }
+}

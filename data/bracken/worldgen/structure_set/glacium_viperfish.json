@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:glacium_viperfish",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 21,
+        "separation": 7,
+        "salt": 1760579003
+    }
+}

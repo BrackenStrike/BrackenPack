@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:omnidrome_living_palace",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 54,
+        "separation": 40,
+        "salt": 2098825
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:brine_sponge_tower",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 18,
+        "separation": 8,
+        "salt": 502246545
+    }
+}

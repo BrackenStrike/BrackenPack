@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:pax_hay_bale",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 15,
+        "separation": 14,
+        "salt": 90129427
+    }
+}

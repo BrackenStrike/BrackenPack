@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:dormis_thrall_courtyard",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 20,
+        "separation": 17,
+        "salt": 1675869782
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:glacium_sun",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 30,
+        "separation": 7,
+        "salt": 68522789
+    }
+}

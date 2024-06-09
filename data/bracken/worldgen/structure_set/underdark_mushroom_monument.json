@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:underdark_mushroom_monument",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 14,
+        "separation": 10,
+        "salt": 670017525
+    }
+}

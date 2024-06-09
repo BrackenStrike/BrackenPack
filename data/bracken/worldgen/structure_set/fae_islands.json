@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:fae_islands",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 20,
+        "separation": 14,
+        "salt": 625772379
+    }
+}

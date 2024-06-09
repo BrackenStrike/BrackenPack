@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:glacium_orb",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 25,
+        "separation": 18,
+        "salt": 1296522414
+    }
+}

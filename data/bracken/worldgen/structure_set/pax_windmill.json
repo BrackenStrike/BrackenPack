@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:pax_windmill",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 21,
+        "separation": 12,
+        "salt": 901294217
+    }
+}

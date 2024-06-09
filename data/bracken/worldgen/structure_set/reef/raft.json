@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:reef/raft",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 26,
+        "separation": 22,
+        "salt": 901294217
+    }
+}

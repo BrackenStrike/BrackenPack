@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:reef/lightflower",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 6,
+        "separation": 1,
+        "salt": 9129427
+    }
+}

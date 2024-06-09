@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:brine_station",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 32,
+        "separation": 27,
+        "salt": 68522789
+    }
+}

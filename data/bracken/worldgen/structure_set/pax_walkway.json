@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:pax_walkway",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 2,
+        "separation": 1,
+        "salt": 502246545
+    }
+}

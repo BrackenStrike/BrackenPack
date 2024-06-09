@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:void/cambrian_ship_drc",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 31,
+        "separation": 5,
+        "salt": 230221225
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:void/void_trilobite_cw",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 32,
+        "separation": 7,
+        "salt": 431221225
+    }
+}

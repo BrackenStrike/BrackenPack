@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:pax_boat_parting",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 20,
+        "separation": 12,
+        "salt": 6522789
+    }
+}

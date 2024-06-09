@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:panacea_fern",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 4,
+        "separation": 1,
+        "salt": 9894636
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:sanctum_embassy",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 34,
+        "separation": 18,
+        "salt": 1013009019
+    }
+}

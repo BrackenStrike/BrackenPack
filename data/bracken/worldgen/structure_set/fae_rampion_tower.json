@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:fae_rampion_tower",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 18,
+        "separation": 10,
+        "salt": 1140592612
+    }
+}
