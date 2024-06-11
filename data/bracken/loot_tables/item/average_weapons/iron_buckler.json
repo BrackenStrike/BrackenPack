@@ -6,11 +6,8 @@
 			"name": "minecraft:iron_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Iron Buckler",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Iron Buckler"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

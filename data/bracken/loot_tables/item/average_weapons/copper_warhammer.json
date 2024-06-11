@@ -6,11 +6,8 @@
 			"name": "minecraft:golden_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Copper Warhammer",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Copper Warhammer"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

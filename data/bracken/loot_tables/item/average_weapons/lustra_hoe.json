@@ -6,11 +6,8 @@
 			"name": "minecraft:netherite_hoe",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Lustra Hoe",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Lustra Hoe"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

@@ -6,11 +6,8 @@
 			"name": "minecraft:golden_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Copper Buckler",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Copper Buckler"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

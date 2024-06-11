@@ -6,11 +6,8 @@
 			"name": "minecraft:diamond_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Diamond Bludgeon",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Diamond Bludgeon"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

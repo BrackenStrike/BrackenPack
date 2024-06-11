@@ -6,11 +6,8 @@
 			"name": "minecraft:netherite_axe",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Lustra Axe",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Lustra Axe"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",
