@@ -6,11 +6,8 @@
 			"name": "minecraft:wooden_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Wooden Buckler",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Wooden Buckler"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

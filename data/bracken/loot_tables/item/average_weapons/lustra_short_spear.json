@@ -6,11 +6,8 @@
 			"name": "minecraft:netherite_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Lustra Short Spear",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Lustra Short Spear"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

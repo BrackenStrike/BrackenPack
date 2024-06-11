@@ -6,11 +6,8 @@
 			"name": "minecraft:netherite_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Netherite Sabre",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Netherite Sabre"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

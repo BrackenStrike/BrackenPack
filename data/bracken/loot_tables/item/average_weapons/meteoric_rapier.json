@@ -6,11 +6,8 @@
 			"name": "minecraft:netherite_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Meteoric Rapier",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Meteoric Rapier"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",
