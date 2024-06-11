@@ -6,12 +6,8 @@
 			"name": "minecraft:golden_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Null",
-					"color": "white",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Null"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

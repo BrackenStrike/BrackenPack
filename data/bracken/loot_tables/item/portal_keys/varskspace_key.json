@@ -10,6 +10,7 @@
 			"tag": "{bp.portal_key:13b}"
 		},{
 			"function": "minecraft:set_name",
+			"target": "item_name",
 			"name": {
 				"translate": "Varskspace Portal Key",
 				"color": "dark_purple",

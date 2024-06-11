@@ -7,12 +7,8 @@
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
-			"entity": "this",
-			"name": {
-				"text": "Gothrum Fang",
-				"color": "white",
-				"italic": false
-			}
+			"target": "item_name",
+			"name": "Gothrum Fang"
 		},{
 			"function": "minecraft:set_lore",
 			"entity": "this",

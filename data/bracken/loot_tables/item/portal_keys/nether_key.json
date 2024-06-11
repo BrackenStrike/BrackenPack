@@ -10,6 +10,7 @@
 			"tag": "{bp.portal_key:2b}"
 		},{
 			"function": "minecraft:set_name",
+			"target": "item_name",
 			"name": {
 				"translate": "Nether Portal Key",
 				"color": "red",

@@ -13,7 +13,7 @@
 						"minecraft:projectile_protection": 50,
 						"minecraft:binding_curse": 1
 					},
-					"minecraft:custom_name": "{\"text\":\"Thrall's Crown\",\"color\":\"gold\",\"bold\":true}",
+					"minecraft:item_name": "{\"text\":\"Thrall's Crown\",\"color\":\"gold\",\"bold\":true}",
 					"minecraft:lore": [
 						"{\"text\":\"This does not belong to you.\",\"color\":\"gray\"}"
 					],

@@ -6,12 +6,8 @@
 			"name": "minecraft:leather_chestplate",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Shepherdess Cloak",
-					"color": "white",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Shepherdess Cloak"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

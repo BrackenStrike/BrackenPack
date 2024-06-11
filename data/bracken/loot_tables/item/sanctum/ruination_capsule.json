@@ -50,11 +50,8 @@
 				}
 			},{
 				"function": "set_name",
-				"name": [{
-					"translate": "Ruination Capsule",
-					"color": "white",
-					"italic": false
-				}]
+				"target": "item_name",
+				"name": "Ruination Capsule"
 			},{
 				"function": "set_lore",
 				"lore": [{

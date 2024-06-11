@@ -14,9 +14,7 @@
 					"minecraft:attribute_modifiers": [{
 						"type": "generic.attack_damage",
 						"slot": "mainhand",
-						"uuid": [
-							1401610331,1048199356,-1607358411,589202321
-						],
+						"uuid": [1401610331,1048199356,-1607358411,589202321],
 						"name": "generic.attack_damage",
 						"amount": 14,
 						"operation": "add_value"
@@ -25,11 +23,12 @@
 				}
 			},{
 				"function": "set_name",
-				"name": [{
+				"target": "item_name",
+				"name": {
 					"translate": "Frosfang",
 					"color": "blue",
 					"bold": true
-				}]
+				}
 			},{
 				"function": "set_lore",
 				"lore": [{

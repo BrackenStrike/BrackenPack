@@ -21,18 +21,13 @@
 				}
 			},{
 				"function": "minecraft:set_name",
-				"name": {
-					"translate": "Sai",
-					"color": "white",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Sai"
 			},{
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:custom_data": {
-						"bp": {
-							"id": "cleaver_of_judgement"
-						}
+						"bp": { "id": "cleaver_of_judgement" }
 					}
 				}
 			}]

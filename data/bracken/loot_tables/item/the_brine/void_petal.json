@@ -7,11 +7,8 @@
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
-			"name": {
-				"text": "Void Petal",
-				"color": "white",
-				"italic": false
-			}
+			"target": "item_name",
+			"name": "Void Petal"
 		},{
 			"function": "minecraft:set_custom_model_data",
 			"value": 888503

@@ -35,11 +35,8 @@
 				}
 			},{
 				"function": "set_name",
-				"name": [{
-					"translate": "Paxmaker Sword",
-					"color": "white",
-					"italic": false
-				}]
+				"target": "item_name",
+				"name": "Paxmaker Sword"
 			},{
 				"function": "set_lore",
 				"lore": [{

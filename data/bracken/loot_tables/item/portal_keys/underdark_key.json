@@ -10,6 +10,7 @@
 			"tag": "{bp.portal_key:9b}"
 		},{
 			"function": "minecraft:set_name",
+			"target": "item_name",
 			"name": {
 				"translate": "Underdark Portal Key",
 				"color": "gray",

@@ -23,11 +23,8 @@
 				}
 			},{
 				"function": "minecraft:set_name",
-				"name": [{
-					"translate": "Species Beginner Scroll",
-					"color": "white",
-					"italic": false
-				}]
+				"target": "item_name",
+				"name": "Species Beginner Scroll"
 			},{
 				"function": "minecraft:set_lore",
 				"lore": [{

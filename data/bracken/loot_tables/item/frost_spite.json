@@ -9,11 +9,8 @@
 				"value": 888501
 			},{
 				"function": "minecraft:set_name",
-				"name": {
-					"text": "Frost Spite",
-					"color": "yellow",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Frost Spite"
 			},{
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -26,10 +23,9 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:custom_data": {
-						"bp": {
-							"id": "frost_spite"
-						}
-					}
+						"bp": { "id": "frost_spite" }
+					},
+					"minecraft:rarity": "uncommon"
 				}
 			}]
 		}]

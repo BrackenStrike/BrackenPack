@@ -7,11 +7,8 @@
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
-			"name": {
-				"translate": "Dweller Fruit",
-				"color": "light_purple",
-				"italic": false
-			}
+			"target": "item_name",
+			"name": "Dweller Fruit"
 		},{
 			"function": "minecraft:set_lore",
 			"entity": "this",
@@ -34,7 +31,8 @@
 					"nutrition": 4,
 					"saturation": 2.4,
 					"can_always_eat": true
-				}
+				},
+				"minecraft:rarity": "epic"
 			}
 		}]
 	}]

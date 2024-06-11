@@ -18,15 +18,13 @@
 						},
 						"show_in_tooltip": false
 					},
-					"minecraft:custom_model_data": 888501
+					"minecraft:custom_model_data": 888501,
+					"minecraft:rarity": "epic"
 				}
 			},{
 				"function": "set_name",
-				"name": [{
-					"translate": "Immortal Spade",
-					"color": "light_purple",
-					"italic": false
-				}]
+				"target": "item_name",
+				"name": "Immortal Spade"
 			},{
 				"function": "set_lore",
 				"lore": [{

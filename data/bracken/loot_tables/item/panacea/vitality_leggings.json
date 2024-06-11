@@ -6,12 +6,8 @@
 			"name": "minecraft:leather_leggings",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Vitality Leggings",
-					"color": "white",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Vitality Leggings"
 			},{
 				"function": "minecraft:set_custom_model_data",
 				"value": 888502

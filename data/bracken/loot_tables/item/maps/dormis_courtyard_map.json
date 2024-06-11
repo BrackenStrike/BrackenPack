@@ -13,10 +13,10 @@
 				"skip_existing_chunks": false
 			},{
 				"function": "minecraft:set_name",
+				"target": "item_name",
 				"name": {
 					"translate": "Dormis Courtyard Map",
-					"color": "dark_red",
-					"italic": false
+					"color": "dark_red"
 				}
 			}]
 		}]

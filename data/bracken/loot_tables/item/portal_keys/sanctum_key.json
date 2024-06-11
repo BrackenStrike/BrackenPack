@@ -10,6 +10,7 @@
 			"tag": "{bp.portal_key:11b}"
 		},{
 			"function": "minecraft:set_name",
+			"target": "item_name",
 			"name": {
 				"translate": "Sanctum Portal Key",
 				"color": "yellow",

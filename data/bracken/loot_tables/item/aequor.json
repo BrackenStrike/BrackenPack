@@ -6,11 +6,8 @@
 			"name": "minecraft:netherite_helmet",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"name": {
-					"translate": "Aequor",
-					"color": "light_purple",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Aequor"
 			},{
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -23,10 +20,9 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:custom_data": {
-						"bp": {
-							"id": "aequor"
-						}
-					}
+						"bp": { "id": "aequor" }
+					},
+					"minecraft:rarity": "epic"
 				}
 			}]
 		}]

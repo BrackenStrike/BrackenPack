@@ -7,12 +7,8 @@
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
-			"entity": "this",
-			"name": {
-				"text": "Creeper Horn",
-				"color": "white",
-				"italic": false
-			}
+			"target": "item_name",
+			"name": "Creeper Horn"
 		},{
 			"function": "minecraft:set_lore",
 			"entity": "this",
