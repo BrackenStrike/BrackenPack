@@ -33,7 +33,6 @@ scoreboard objectives add bp.sneakcharge dummy
 scoreboard objectives add bp.var dummy
 scoreboard objectives add bp.brinetravel dummy
 scoreboard objectives add bp.obsidian dummy
-scoreboard objectives add bp.spite dummy
 scoreboard objectives add bp.world_player_id dummy
 scoreboard objectives add bp.dust_storm dummy
 scoreboard objectives add bp.iron_apple dummy
@@ -55,6 +54,7 @@ scoreboard objectives add bp.permafrost_howl dummy
 scoreboard objectives add bp.altum_archeon minecraft.used:minecraft.netherite_pickaxe
 scoreboard objectives add bp.cleaver_of_judgement dummy
 scoreboard objectives add bp.piercer_of_heavens minecraft.used:minecraft.bow
+scoreboard objectives add bp.frost_spite_death deathCount
 
 #aequor
 scoreboard objectives add bp.aequor_speed dummy
@@ -85,7 +85,6 @@ scoreboard objectives add bp.astral_death deathCount
 scoreboard objectives add bp.greed_duration dummy
 scoreboard objectives add bp.greed_amplifier dummy
 scoreboard objectives add bp.greed_kills totalKillCount
-scoreboard objectives add bp.greed_milk minecraft.used:minecraft.milk_bucket
 scoreboard objectives add bp.greed_death deathCount
 
 ##########   SPECIES  ##########
@@ -154,9 +153,6 @@ scoreboard objectives add bp.brine dummy
 
 # The Underdark
 scoreboard objectives add bp.underdark dummy
-
-# The End
-scoreboard objectives add bp.ender_dragon_killed minecraft.killed:ender_dragon
 
 # Glacium
 scoreboard objectives add bp.ice dummy
