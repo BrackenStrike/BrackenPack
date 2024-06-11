@@ -17,7 +17,8 @@
     "result": {
         "id": "minecraft:apple",
         "components": {
-            "minecraft:custom_name": "{\"translate\":\"Bejeweled Apple\",\"color\":aqua,\"italic\":false}",
+            "minecraft:item_name": "\"Bejeweled Apple\"",
+	    "minecraft:rarity": "rare",
             "minecraft:custom_model_data": 888518,
             "minecraft:food": {
                 "nutrition": 4,

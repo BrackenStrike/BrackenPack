@@ -18,7 +18,7 @@
         "id": "minecraft:golden_sword",
         "components": {
             "minecraft:max_damage": 59,
-            "minecraft:custom_name": "{\"translate\":\"Wooden Staff\",\"color\":white,\"italic\":false}",
+            "minecraft:item_name": "\"Copper Short Spear\"",
             "minecraft:custom_model_data": 888531,
             "minecraft:lore": [
                 "{\"translate\":\"\",\"color\":white,\"italic\":false}",

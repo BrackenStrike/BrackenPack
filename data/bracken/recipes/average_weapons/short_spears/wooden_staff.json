@@ -15,7 +15,7 @@
         "id": "minecraft:wooden_sword",
         "components": {
             "minecraft:max_damage": 59,
-            "minecraft:custom_name": "{\"translate\":\"Wooden Staff\",\"color\":white,\"italic\":false}",
+            "minecraft:item_name": "\"Wooden Staff\"",
             "minecraft:custom_model_data": 888520,
             "minecraft:lore": [
                 "{\"translate\":\"\",\"color\":white,\"italic\":false}",

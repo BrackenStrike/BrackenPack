@@ -18,7 +18,7 @@
         "id": "minecraft:netherite_sword",
         "components": {
             "minecraft:max_damage": 325,
-            "minecraft:custom_name": "{\"translate\":\"Meteoric Sword\",\"color\":white,\"italic\":false}",
+            "minecraft:item_name": "\"Meteoric Sword\"",
             "minecraft:custom_model_data": 888533,
             "minecraft:lore": [
                 "{\"translate\":\"\",\"color\":white,\"italic\":false}",

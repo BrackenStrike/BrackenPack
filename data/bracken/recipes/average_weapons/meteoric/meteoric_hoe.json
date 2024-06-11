@@ -18,7 +18,7 @@
         "id": "minecraft:netherite_hoe",
         "components": {
             "minecraft:max_damage": 375,
-            "minecraft:custom_name": "{\"translate\":\"Meteoric Hoe\",\"color\":white,\"italic\":false}",
+            "minecraft:item_name": "\"Meteoric Hoe\"",
             "minecraft:custom_model_data": 888503,
             "minecraft:lore": [
                 "{\"translate\":\"\",\"color\":white,\"italic\":false}",

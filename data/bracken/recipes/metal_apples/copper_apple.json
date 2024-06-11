@@ -17,7 +17,8 @@
     "result": {
         "id": "minecraft:apple",
         "components": {
-            "minecraft:custom_name": "{\"translate\":\"Copper Apple\",\"color\":aqua,\"italic\":false}",
+            "minecraft:item_name": "\"Copper Apple\"",
+	    "minecraft:rarity": "rare",
             "minecraft:custom_model_data": 888516,
             "minecraft:food": {
                 "nutrition": 4,

@@ -18,7 +18,7 @@
         "id": "minecraft:golden_pickaxe",
         "components": {
             "minecraft:max_damage": 175,
-            "minecraft:custom_name": "{\"translate\":\"Copper Pickaxe\",\"color\":white,\"italic\":false}",
+            "minecraft:item_name": "\"Copper Pickaxe\"",
             "minecraft:custom_model_data": 888501,
             "minecraft:lore": [
                 "{\"translate\":\"\",\"color\":white,\"italic\":false}",
