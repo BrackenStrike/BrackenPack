@@ -7,11 +7,8 @@
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
-			"name": {
-				"translate": "Crimson Spark",
-				"color": "yellow",
-				"italic": false
-			}
+			"target": "item_name",
+			"name": "Crimson Spark"
 		},{
 			"function": "minecraft:set_lore",
 			"lore": [{
@@ -26,7 +23,8 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:enchantment_glint_override": true
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:rarity": "uncommon"
 			}
 		},{
 			"function": "minecraft:set_custom_data",

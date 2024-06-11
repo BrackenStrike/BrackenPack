@@ -13,10 +13,11 @@
 						"minecraft:punch": 10,
 						"minecraft:vanishing_curse": 1
 					},
-					"minecraft:custom_name": "{\"text\":\"Dreambow\",\"color\":\"yellow\",\"italic\":false}",
+					"minecraft:item_name": "\"Dreambow\"",
 					"minecraft:lore": [
 						"{\"text\":\"What dreams may come, when we have shuffled off this mortal coil?\",\"color\":\"aqua\",\"italic\":false}"
-					]
+					],
+					"minecraft:rarity": "epic"
 				}
 			}]
 		}]

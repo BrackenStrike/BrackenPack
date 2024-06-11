@@ -10,6 +10,7 @@
 			"tag": "{bp.portal_key:5b}"
 		},{
 			"function": "minecraft:set_name",
+			"target": "item_name",
 			"name": {
 				"translate": "Glacium Portal Key",
 				"color": "aqua",

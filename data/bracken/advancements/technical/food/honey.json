@@ -4,14 +4,12 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "items": [
-                        "minecraft:milk_bucket"
-                    ]
+                    "items": "minecraft:honey_bottle"
                 }
             }
         }
     },
     "rewards": {
-        "function": "bracken:dimension_crossing/varskspace_nullify"
+        "function": "bracken:player/consume/honey"
     }
 }

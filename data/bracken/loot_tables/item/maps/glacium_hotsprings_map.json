@@ -13,10 +13,10 @@
 				"skip_existing_chunks": false
 			},{
 				"function": "minecraft:set_name",
+				"target": "item_name",
 				"name": {
 					"translate": "Glacium Hotsprings Map",
-					"color": "aqua",
-					"italic": false
+					"color": "aqua"
 				}
 			}]
 		}]

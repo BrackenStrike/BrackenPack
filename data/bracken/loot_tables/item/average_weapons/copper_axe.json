@@ -6,11 +6,8 @@
 			"name": "minecraft:golden_axe",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Copper Axe",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Copper Axe"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

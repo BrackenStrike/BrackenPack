@@ -6,11 +6,8 @@
 			"name": "minecraft:netherite_chestplate",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"name": {
-					"translate": "Perpetual Aegis",
-					"color": "light_purple",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Perpetual Aegis"
 			},{
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -23,10 +20,9 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:custom_data": {
-						"bp": {
-							"id": "perpetual_aegis"
-						}
-					}
+						"bp": { "id": "perpetual_aegis" }
+					},
+					"minecraft:rarity": "epic"
 				}
 			}]
 		}]

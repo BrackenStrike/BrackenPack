@@ -6,12 +6,8 @@
 			"name": "minecraft:leather_chestplate",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Vitality Tunic",
-					"color": "white",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Vitality Tunic"
 			},{
 				"function": "minecraft:set_custom_model_data",
 				"value": 888502

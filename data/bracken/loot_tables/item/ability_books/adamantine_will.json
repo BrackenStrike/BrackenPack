@@ -7,15 +7,13 @@
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
-			"name": {
-				"translate": "Adamantine Will",
-				"color": "yellow",
-				"italic": false
-			}
+			"target": "item_name",
+			"name": "Adamantine Will"
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:enchantment_glint_override": true
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:rarity": "uncommon"
 			}
 		},{
 			"function": "minecraft:set_lore",

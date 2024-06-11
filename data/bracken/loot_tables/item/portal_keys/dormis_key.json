@@ -10,6 +10,7 @@
 			"tag": "{bp.portal_key:1b}"
 		},{
 			"function": "set_name",
+			"target": "item_name",
 			"name": {
 				"translate": "Dormis Portal Key",
 				"color": "dark_red",

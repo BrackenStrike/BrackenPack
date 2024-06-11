@@ -6,11 +6,8 @@
 			"name": "minecraft:netherite_axe",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Meteoric Axe",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Meteoric Axe"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

@@ -11,22 +11,18 @@
 					"minecraft:attribute_modifiers": [{
 						"type": "generic.movement_speed",
 						"slot": "chest",
-						"uuid": [
-							1872410414,-61781409,-1794531078,661849160
-						],
+						"uuid": [1872410414,-61781409,-1794531078,661849160],
 						"name": "generic.movement_speed",
 						"amount": 0.04,
 						"operation": "add_value"
 					}],
-					"minecraft:custom_model_data": 888501
+					"minecraft:custom_model_data": 888501,
+					"minecraft:rarity": "common"
 				}
 			},{
 				"function": "minecraft:set_name",
-				"name": {
-					"translate": "Glacium Glider",
-					"color": "white",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Glacium Glider"
 			},{
 				"function": "minecraft:set_lore",
 				"lore": [{

@@ -6,11 +6,8 @@
 			"name": "minecraft:golden_hoe",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Copper Hoe",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Copper Hoe"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

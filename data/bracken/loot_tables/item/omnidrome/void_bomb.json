@@ -84,15 +84,13 @@
 							}]
 						},
 						"CustomName": "{\"translate\":\"DROP OF VOID\",\"bold\":true}"
-					}
+					},
+					"minecraft:rarity": "common"
 				}
 			},{
 				"function": "set_name",
-				"name": [{
-					"translate": "Void Bomb",
-					"color": "white",
-					"italic": false
-				}]
+				"target": "item_name",
+				"name": "Void Bomb"
 			},{
 				"function": "set_lore",
 				"lore": [{

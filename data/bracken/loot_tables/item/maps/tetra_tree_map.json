@@ -13,10 +13,10 @@
 				"skip_existing_chunks": false
 			},{
 				"function": "minecraft:set_name",
+				"target": "item_name",
 				"name": {
 					"translate": "Tetra Tree Map",
-					"color": "green",
-					"italic": false
+					"color": "green"
 				}
 			}]
 		}]

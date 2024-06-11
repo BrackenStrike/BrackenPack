@@ -23,12 +23,12 @@
 				}
 			},{
 				"function": "minecraft:set_name",
-				"name": [{
+				"target": "item_name",
+				"name": {
 					"translate": "BOOK OF ARBITRIUM",
-					"color": "white",
 					"italic": true,
 					"bold": true
-				}]
+				}
 			},{
 				"function": "minecraft:set_lore",
 				"lore": [{

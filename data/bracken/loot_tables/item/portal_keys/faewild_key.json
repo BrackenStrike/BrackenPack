@@ -10,6 +10,7 @@
 			"tag": "{bp.portal_key:6b}"
 		},{
 			"function": "minecraft:set_name",
+			"target": "item_name",
 			"name": {
 				"translate": "Faewild Portal Key",
 				"color": "dark_aqua",

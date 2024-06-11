@@ -6,11 +6,8 @@
 			"name": "minecraft:netherite_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Lustra Katana",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Lustra Katana"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

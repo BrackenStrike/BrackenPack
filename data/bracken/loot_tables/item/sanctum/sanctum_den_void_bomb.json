@@ -82,12 +82,13 @@
 				}
 			},{
 				"function": "set_name",
-				"name": [{
+				"target": "item_name",
+				"name": {
 					"translate": "void bomb",
 					"color": "black",
 					"bold": true,
 					"obfuscated": true
-				}]
+				}
 			},{
 				"function": "set_lore",
 				"lore": [{

@@ -7,11 +7,8 @@
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
-			"name": {
-				"text": "Lembas Breadfruit",
-				"color": "white",
-				"italic": false
-			}
+			"target": "item_name",
+			"name": "Lembas Breadfruit"
 		},{
 			"function": "minecraft:set_lore",
 			"entity": "this",

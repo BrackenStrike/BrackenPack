@@ -13,10 +13,10 @@
 				"skip_existing_chunks": false
 			},{
 				"function": "minecraft:set_name",
+				"target": "item_name",
 				"name": {
 					"translate": "Twice-Abandoned Mineshaft Map",
-					"color": "gray",
-					"italic": false
+					"color": "gray"
 				}
 			}]
 		}]

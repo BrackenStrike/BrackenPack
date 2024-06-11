@@ -6,11 +6,8 @@
 			"name": "minecraft:netherite_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Netherite Warhammer",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Netherite Warhammer"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

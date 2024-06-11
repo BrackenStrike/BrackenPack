@@ -6,11 +6,8 @@
 			"name": "minecraft:golden_pickaxe",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Copper Pickaxe",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Copper Pickaxe"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

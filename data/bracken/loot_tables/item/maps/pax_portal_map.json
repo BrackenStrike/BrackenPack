@@ -13,10 +13,10 @@
 				"skip_existing_chunks": false
 			},{
 				"function": "minecraft:set_name",
+				"target": "item_name",
 				"name": {
 					"translate": "Pax Portal Map",
-					"color": "gold",
-					"italic": false
+					"color": "gold"
 				}
 			}]
 		}]

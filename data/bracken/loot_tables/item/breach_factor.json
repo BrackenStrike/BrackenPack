@@ -6,11 +6,8 @@
 			"name": "minecraft:netherite_leggings",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"name": {
-					"translate": "Breach Factor",
-					"color": "light_purple",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Breach Factor"
 			},{
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -23,10 +20,9 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:custom_data": {
-						"bp": {
-							"id": "breach_factor"
-						}
-					}
+						"bp": { "id": "breach_factor" }
+					},
+					"minecraft:rarity": "epic"
 				}
 			}]
 		}]

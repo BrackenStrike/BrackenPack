@@ -1,3 +1,110 @@
+CONURE'S EDITS V6
+-----------------
+
+Edited function dimension_commands/the_end:
+	Removed command that searches for the objective bp.ender_dragon_killed
+
+Added advancement technical/kill_ender_dragon:
+	Always triggers upon killing a dragon in the End
+	Calls the function dimension_commands/other/summon_end_key
+
+Edited function dimension_commands/other/summon_end_key:
+	Now revokes the advancement instead of resetting the scoreboard objective
+
+Removed objective bp.ender_dragon_killed (now unused). Affects the following functions:
+	- load
+	- player/config_menu/uninstall/remove_all_scoreboards
+
+
+
+Removed advancements:
+	- technical/clear_varsk_spark
+	- technical/varskstorm/milk
+	- technical/varskstorm/honey
+
+Removed functions:
+	- player/potion/clear_varsk_spark
+	- dimension_crossing/varskspace_nullify
+
+Added advancements:
+	- technical/food/milk
+	- technical/food/honey
+
+Added functions:
+	- player/consume/milk
+	- player/consume/honey
+
+The new functions/advancements now perform the actions that the deleted ones previously did.
+
+Function player/consume/milk now handles the logic for cancelling the "greed" effect.
+
+Removed objective bp.greed_milk (now obsolete). Functions:
+	- player/potion/greed/<all>
+	- load
+	- player/config_menu/uninstall/remove_all_scoreboards
+
+
+
+Bug found: The Frost Spite sets your "bp.death" score up to 10, which prevents the respawn function from being called when you respawn.
+
+Added objective bp.frost_spite_death, tracking death count. Functions:
+	- load
+	- player/config_menu/uninstall/remove_all_scoreboards
+
+Edited function item/main:
+	Frost spite command now only searches for objective bp.frost_spite_death instead of bp.death and bp.spite
+
+Added predicate item/frost_spite: returns true if the Frost Spite is held in either hand
+
+Edited function item/frost_spite:
+	Resets objective bp.frost_spite_death to 0 instead of changing the score for bp.death
+	Function then immediately returns if predicate item/frost_spite returns false
+	Optimized the ordering in which predicates (mainhand/offhand) are checked
+	Fixed Typo: sound event is minecraft:entity.dolphin.death (instead of "deathe")
+
+Removed objective bp.spite (now unused). Affects the following functions:
+	- player/scoreboard_commands/1_second_score
+	- load
+	- player/config_menu/uninstall/remove_all_scoreboards
+
+
+
+Edited ALL Loot Tables under the "item" directory:
+	All item names now use the "item_name" component instead of "custom_name"
+	Removed instances of "italic:false" in item names (the item_name component does this automatically)
+	Replaced some explicit "color" settings with the "minecraft:rarity" component:
+		"color:white" -> "common" rarity (if the item wasn't already common)
+		"color:yellow" -> "uncommon" rarity
+		"color:aqua" -> "rare" rarity
+		"color:light_purple" -> "epic" rarity
+
+Also applied these changes to the following Recipes:
+	- average_weapons/<all>
+	- metal_apples/<all>
+	- tools/unruly_compass
+	- sai
+
+
+
+Issue found: Ticking commands in item/main constantly try to run the functions item/poison_sword and player/permafrost, but neither of those functions exist. Those lines have been commented out.
+
+Commented out all code relating to the objective bp.poison. Functions:
+	- item/main
+	- player/scoreboard_commands/1_second_score
+
+Commented out all code relating to objective bp.hurting (referenced in many places, but never actually modified). Functions:
+	- player/scoreboard_commands/2_tick_score
+	- player/species/hunter/tick
+	- item/main
+
+
+
+Added missing advancement:technical/fragile_items/weapon_hit
+
+
+
+
+
 CONURE'S EDITS V5
 -----------------
 

@@ -6,11 +6,8 @@
 			"name": "minecraft:netherite_pickaxe",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"name": {
-					"translate": "Altum Archeon",
-					"color": "light_purple",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Altum Archeon"
 			},{
 				"function": "minecraft:set_lore",
 				"lore": [{
@@ -23,10 +20,9 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:custom_data": {
-						"bp": {
-							"id": "altum_archeon"
-						}
-					}
+						"bp": { "id": "altum_archeon" }
+					},
+					"minecraft:rarity": "epic"
 				}
 			}]
 		}]

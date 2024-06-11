@@ -7,11 +7,8 @@
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
-			"name": {
-				"text": "Tempest Nectar",
-				"color": "white",
-				"italic": false
-			}
+			"target": "item_name",
+			"name": "Tempest Nectar"
 		},{
 			"function": "minecraft:set_custom_model_data",
 			"value": 888501

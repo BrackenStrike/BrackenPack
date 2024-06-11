@@ -60,8 +60,7 @@ scoreboard objectives remove bp.sprintcharge
 scoreboard objectives remove bp.sneakcharge 
 scoreboard objectives remove bp.var 
 scoreboard objectives remove bp.brinetravel 
-scoreboard objectives remove bp.obsidian 
-scoreboard objectives remove bp.spite 
+scoreboard objectives remove bp.obsidian
 scoreboard objectives remove bp.world_player_id 
 
 # time
@@ -80,6 +79,7 @@ scoreboard objectives remove bp.gothrum_fang
 scoreboard objectives remove bp.creeper_horn 
 scoreboard objectives remove bp.poison
 scoreboard objectives remove bp.nightfall
+scoreboard objectives remove bp.frost_spite_death
 
 #astral potion
 scoreboard objectives remove bp.astral_time 
@@ -90,7 +90,6 @@ scoreboard objectives remove bp.astral_death
 scoreboard objectives remove bp.greed_duration 
 scoreboard objectives remove bp.greed_amplifier 
 scoreboard objectives remove bp.greed_kills
-scoreboard objectives remove bp.greed_milk
 scoreboard objectives remove bp.greed_death
 
 ##########   SPECIES  ##########
@@ -167,10 +166,7 @@ scoreboard objectives remove bp.pax
 
 # The Brine
 scoreboard objectives remove bp.brine_potion 
-scoreboard objectives remove bp.potion_count 
-
-# The End
-scoreboard objectives remove bp.ender_dragon_killed
+scoreboard objectives remove bp.potion_count
 
 # Glacium
 scoreboard objectives remove bp.ice 

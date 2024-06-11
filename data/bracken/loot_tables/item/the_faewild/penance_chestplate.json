@@ -22,11 +22,8 @@
 				}
 			},{
 				"function": "set_name",
-				"name": [{
-					"translate": "Penanace Chestplate",
-					"color": "white",
-					"bold": false
-				}]
+				"target": "item_name",
+				"name": "Penanace Chestplate"
 			},{
 				"function": "set_lore",
 				"lore": [{

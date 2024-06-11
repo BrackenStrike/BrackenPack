@@ -10,15 +10,16 @@
 					"minecraft:enchantments": {
 						"minecraft:blast_protection": 20
 					},
-					"minecraft:profile": "MHF_Ghast"
+					"minecraft:profile": "MHF_Ghast",
+					"minecraft:rarity": "common"
 				}
 			},{
 				"function": "set_name",
-				"name": [{
+				"target": "item_name",
+				"name": {
 					"translate": "Painted Mask",
-					"color": "white",
 					"bold": true
-				}]
+				}
 			}]
 		}]
 	}]

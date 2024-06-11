@@ -6,11 +6,8 @@
 			"name": "minecraft:stone_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Stone Dagger",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Stone Dagger"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",

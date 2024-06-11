@@ -6,19 +6,17 @@
 			"name": "minecraft:feather",
 			"functions": [{
 				"function": "minecraft:set_name",
+				"target": "item_name",
 				"name": {
 					"translate": "Broken Compass",
-					"color": "red",
-					"italic": false
+					"color": "red"
 				}
 			},{
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:custom_model_data": 888501,
 					"minecraft:custom_data": {
-						"bp": {
-							"id": "unruly_compass"
-						}
+						"bp": { "id": "unruly_compass" }
 					}
 				}
 			}]

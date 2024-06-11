@@ -6,11 +6,8 @@
 			"name": "minecraft:golden_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
-				"entity": "this",
-				"name": {
-					"translate": "Copper Katana",
-					"italic": false
-				}
+				"target": "item_name",
+				"name": "Copper Katana"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",
