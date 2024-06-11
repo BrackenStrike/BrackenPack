@@ -22,11 +22,11 @@ scoreboard players set @s[scores={bp.death=0}] bp.cooldown 0
 execute if score @s bp.nightfall matches 1 run function bracken:item/nightfall
 
 # Poison Sword
-execute if score @s bp.poison matches 1..22 run function bracken:item/poison_sword
-scoreboard players remove @s[scores={bp.hurting=1..}] bp.hurting 1
+#execute if score @s bp.poison matches 1..22 run function bracken:item/poison_sword
+#scoreboard players remove @s[scores={bp.hurting=1..}] bp.hurting 1
 
 # frost spite
-execute if entity @s[scores={bp.death=0,bp.spite=1}] run function bracken:item/frost_spite
+execute if score @s bp.frost_spite_death matches 1.. run function bracken:item/frost_spite
 
 # Altum Archeon
 #scoreboard players set @s bp.altum_archeon 0
@@ -35,7 +35,7 @@ execute if entity @s[scores={bp.death=0,bp.spite=1}] run function bracken:item/f
 #scoreboard players set @s bp.piercer_of_heavens 0
 
 # Permafrost
-execute if score @s bp.permafrost_howl matches 1.. run function bracken:player/permafrost
+#execute if score @s bp.permafrost_howl matches 1.. run function bracken:player/permafrost
 
 # Sulf Items
 #execute if predicate bracken:item/perpetual_aegis run function bracken:item/perpetual_aegis/tick
