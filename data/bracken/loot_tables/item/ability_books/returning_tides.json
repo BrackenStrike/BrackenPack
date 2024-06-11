@@ -7,11 +7,8 @@
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
-			"name": {
-				"translate": "Returning Tides",
-				"color": "yellow",
-				"italic": false
-			}
+			"target": "item_name",
+			"name": "Returning Tides"
 		},{
 			"function": "minecraft:set_lore",
 			"lore": [{
@@ -30,7 +27,8 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:enchantment_glint_override": true
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:rarity": "uncommon"
 			}
 		},{
 			"function": "minecraft:set_custom_data",
