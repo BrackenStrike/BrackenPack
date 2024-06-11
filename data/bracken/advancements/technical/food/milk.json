@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:milk_bucket"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/consume/milk"
+    }
+}
