@@ -1,6 +1,3 @@
-
-
-
 CONURE'S EDITS V6
 -----------------
 
@@ -23,7 +20,7 @@ Removed objective bp.ender_dragon_killed (now unused). Affects the following fun
 Removed advancements:
 	- technical/clear_varsk_spark
 	- technical/varskstorm/milk
-	- technical/varskstorm/honey
+	- technical/food/varskstorm/honey
 
 Removed functions:
 	- player/potion/clear_varsk_spark
