@@ -1,3 +1,25 @@
+CONURE'S EDITS V7
+-----------------
+I now have GitHub Desktop which means I don't have to keep track of every single edited file so closely anymore. From now on, edit descriptions will be more general and human-readable
+
+Renamed function dimension_commands/other/brine_brewing/ingrediants to "ingredients", and updated references
+
+Added item modifier "decrement_count": removes 1 item from any item stack
+
+Edited functions under dimension_commands/other/brine_brewing/custom_potions/:
+	Now call modifier decrement_count instead of using scoreboard math to remove an item from the ingredient slot
+	Changed custom_names to item_names
+	Removed objective bp.potion_count (now unused)
+
+Made brine brewing semi-advancement-driven:
+	Advancement detects when you click a brewing stand in the brine, causes a raycast attempt
+	The call to "raycast" in dimension_commands/the_brine now only triggers if the last raycast attempt successfully found a brewing stand, meaning it won't start on its own without a call to the advancement
+	In short, the game won't try to raycast unless you've clicked on a brewing stand, and it will continue to raycast every second thereafter UNTIL you look away from the brewing stand, at which point the attempts will stop again
+
+
+
+
+
 CONURE'S EDITS V6
 -----------------
 

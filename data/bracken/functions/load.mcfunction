@@ -148,7 +148,6 @@ scoreboard objectives add bp.sanctum dummy
 
 # The Brine
 scoreboard objectives add bp.brine_potion dummy
-scoreboard objectives add bp.potion_count dummy
 scoreboard objectives add bp.brine dummy
 
 # The Underdark

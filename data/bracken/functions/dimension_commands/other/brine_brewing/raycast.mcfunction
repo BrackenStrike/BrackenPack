@@ -1,6 +1,6 @@
 ##########################################################
-# Description: Raycast for Frostlock.
-# Creators: Grandmaster
+# Description: Raycast for Brine Brewing
+# Creators: Grandmaster, Conure
 ##########################################################
 
 execute if entity @s[distance=..5] if block ^ ^ ^ brewing_stand run function bracken:dimension_commands/other/brine_brewing/brewing_main

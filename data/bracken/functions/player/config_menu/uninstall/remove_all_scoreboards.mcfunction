@@ -3,92 +3,79 @@
 # Creators: Grandmaster
 ##########################################################
 
-#Math Init
-scoreboard objectives remove bp.math.in 
-scoreboard objectives remove bp.math.out 
-scoreboard objectives remove bp.math.var 
-scoreboard objectives remove bp.math.final 
+# time
+scoreboard objectives remove bp.tick
+scoreboard objectives remove bp.1_second
+scoreboard objectives remove bp.3_second
+scoreboard objectives remove bp.longtick
+scoreboard objectives remove bp.verylongtick
+scoreboard objectives remove bp.5_min_tick
 
-#Boss Init
-scoreboard objectives remove bp.thrall.health 
-scoreboard objectives remove bp.thrall 
-
-scoreboard objectives remove bp.bygn_vcroy.s 
-scoreboard objectives remove bp.bygn_vcroy.t 
-
-scoreboard objectives remove bp.the_disruptor 
-scoreboard objectives remove bp.dis.distance 
-scoreboard objectives remove bp.dis.move_state 
-scoreboard objectives remove bp.dis.attack_cd 
-scoreboard objectives remove bp.dis.attack_state 
-scoreboard objectives remove bp.dis.pos 
-scoreboard objectives remove bp.dis.boss_speed 
-scoreboard objectives remove bp.dis.cd 
-scoreboard objectives remove bp.dis.range 
-scoreboard objectives remove bp.dis.-1 
-scoreboard objectives remove bp.dis.health 
-
-scoreboard objectives remove bp.prjct_ruin 
-scoreboard objectives remove bp.prjct_ruin.p 
-scoreboard objectives remove bp.prjct_ruin.a 
-scoreboard objectives remove bp.prjct_ruin.cd 
-scoreboard objectives remove bp.pull 
-scoreboard objectives remove bp.doomsday 
-
-scoreboard objectives remove bp.sporangium 
-scoreboard objectives remove bp.slime 
-scoreboard objectives remove bp.nema 
-scoreboard objectives remove bp.slimedeath 
-scoreboard objectives remove bp.deathtimer 
-
-scoreboard objectives remove bp.unsung 
-scoreboard objectives remove bp.speed 
-scoreboard objectives remove bp.slash 
-
-scoreboard objectives remove bp.rain_event 
-
-##########   SCOREBOARD OBJECTIVES   ##########
+##########   ADD SCOREBOARD OBJECTIVES   ##########
 scoreboard objectives remove bp.food
 scoreboard objectives remove bp.walk
-scoreboard objectives remove bp.sprint 
-scoreboard objectives remove bp.swim 
+scoreboard objectives remove bp.sprint
+scoreboard objectives remove bp.swim
 scoreboard objectives remove bp.hurting
 scoreboard objectives remove bp.jump
 scoreboard objectives remove bp.health
 scoreboard objectives remove bp.fly
-scoreboard objectives remove bp.sprintcharge 
-scoreboard objectives remove bp.sneakcharge 
-scoreboard objectives remove bp.var 
-scoreboard objectives remove bp.brinetravel 
+scoreboard objectives remove bp.sprintcharge
+scoreboard objectives remove bp.sneakcharge
+scoreboard objectives remove bp.var
+scoreboard objectives remove bp.brinetravel
 scoreboard objectives remove bp.obsidian
-scoreboard objectives remove bp.world_player_id 
-
-# time
-scoreboard objectives remove bp.tick 
-scoreboard objectives remove bp.1_second 
-scoreboard objectives remove bp.3_second 
-scoreboard objectives remove bp.longtick 
-scoreboard objectives remove bp.verylongtick 
-scoreboard objectives remove bp.5_min_tick 
+scoreboard objectives remove bp.world_player_id
+scoreboard objectives remove bp.dust_storm
+scoreboard objectives remove bp.iron_apple
 
 
 ##########   ITEMS AND EQUIPMENT   ##########
-scoreboard objectives remove bp.creeper 
-scoreboard objectives remove bp.wither_skull 
-scoreboard objectives remove bp.gothrum_fang 
-scoreboard objectives remove bp.creeper_horn 
+scoreboard objectives remove bp.creeper
+scoreboard objectives remove bp.wither_skull
+scoreboard objectives remove bp.gothrum_fang
+scoreboard objectives remove bp.creeper_horn
 scoreboard objectives remove bp.poison
 scoreboard objectives remove bp.nightfall
+scoreboard objectives remove bp.perpetual_aegis
+scoreboard objectives remove bp.breach_factor_jump
+scoreboard objectives remove bp.breach_factor_float
+scoreboard objectives remove bp.breach_factor_cd
+scoreboard objectives remove bp.varsktracers
+scoreboard objectives remove bp.permafrost_howl
+scoreboard objectives remove bp.altum_archeon
+scoreboard objectives remove bp.cleaver_of_judgement
+scoreboard objectives remove bp.piercer_of_heavens
 scoreboard objectives remove bp.frost_spite_death
 
+#aequor
+scoreboard objectives remove bp.aequor_speed
+scoreboard objectives remove bp.aequor_haste
+scoreboard objectives remove bp.aequor_strength
+scoreboard objectives remove bp.aequor_jump_boost
+scoreboard objectives remove bp.aequor_regeneration
+scoreboard objectives remove bp.aequor_resistance
+scoreboard objectives remove bp.aequor_fire_resistance
+scoreboard objectives remove bp.aequor_water_breathing
+scoreboard objectives remove bp.aequor_invisibility
+scoreboard objectives remove bp.aequor_night_vision
+scoreboard objectives remove bp.aequor_health_boost
+scoreboard objectives remove bp.aequor_absorption
+scoreboard objectives remove bp.aequor_saturation
+scoreboard objectives remove bp.aequor_luck
+scoreboard objectives remove bp.aequor_slow_falling
+scoreboard objectives remove bp.aequor_conduit_power
+scoreboard objectives remove bp.aequor_dolphins_grace
+scoreboard objectives remove bp.aequor_hero_of_the_village
+
 #astral potion
-scoreboard objectives remove bp.astral_time 
-scoreboard objectives remove bp.pre_astral_gamemode 
+scoreboard objectives remove bp.astral_time
+scoreboard objectives remove bp.pre_astral_gamemode
 scoreboard objectives remove bp.astral_death
 
 #greed potion
-scoreboard objectives remove bp.greed_duration 
-scoreboard objectives remove bp.greed_amplifier 
+scoreboard objectives remove bp.greed_duration
+scoreboard objectives remove bp.greed_amplifier
 scoreboard objectives remove bp.greed_kills
 scoreboard objectives remove bp.greed_death
 
@@ -96,123 +83,137 @@ scoreboard objectives remove bp.greed_death
 scoreboard objectives remove bp.death
 
 # Hunters
-scoreboard objectives remove bp.hunter_morph 
+scoreboard objectives remove bp.hunter_morph
 
 #Enderlings
-scoreboard objectives remove bp.enderling_teleport 
+scoreboard objectives remove bp.enderling_teleport
 
 # Outlanders
-scoreboard objectives remove bp.outlander_charge 
+scoreboard objectives remove bp.outlander_charge
 
 # Realmkeepers
-scoreboard objectives remove bp.gold 
-scoreboard objectives remove bp.armor 
-scoreboard objectives remove bp.absorption 
-
-##########   CONFIG MENU  ##########
-scoreboard objectives remove bp.config
+scoreboard objectives remove bp.gold
+scoreboard objectives remove bp.armor
+scoreboard objectives remove bp.absorption
 
 ##########   REMOVE FORCELOAD  ##########
-scoreboard objectives remove bp.xchunk 
-scoreboard objectives remove bp.zchunk 
-
-##########   ABILITY BOOKS  ##########
-scoreboard objectives remove bp.offhand 
-scoreboard objectives remove bp.cooldown 
-
-# Returning Tides
-scoreboard objectives remove bp.recall_marker 
-scoreboard objectives remove bp.recall_world 
-scoreboard objectives remove bp.recall_void 
-scoreboard objectives remove bp.recall_use 
-scoreboard objectives remove bp.recall_wait 
-scoreboard objectives remove bp.recall_walk
-scoreboard objectives remove bp.recall_sprint 
-scoreboard objectives remove bp.recall_jump 
-
-# Mansion
-scoreboard objectives remove bp.mansion_id 
-scoreboard objectives remove bp.mansion_world 
-scoreboard objectives remove bp.mansion_use 
-scoreboard objectives remove bp.xmansion 
-scoreboard objectives remove bp.ymansion 
-scoreboard objectives remove bp.zmansion 
-scoreboard objectives remove bp.xmansion1 
-scoreboard objectives remove bp.ymansion1 
-scoreboard objectives remove bp.zmansion1 
-scoreboard objectives remove bp.xmansion2 
-scoreboard objectives remove bp.ymansion2 
-scoreboard objectives remove bp.zmansion2 
-scoreboard objectives remove bp.dimension 
-
+scoreboard objectives remove bp.xchunk
+scoreboard objectives remove bp.zchunk
 ##########   DIMENSIONS  ##########
 
-scoreboard objectives remove bp.x_rotation 
-scoreboard objectives remove bp.z_rotation 
-scoreboard objectives remove bp.xx_rotation 
-scoreboard objectives remove bp.zz_rotation 
+scoreboard objectives remove bp.x_rotation
+scoreboard objectives remove bp.z_rotation
+scoreboard objectives remove bp.xx_rotation
+scoreboard objectives remove bp.zz_rotation
 
 # Overworld
-scoreboard objectives remove bp.overworld 
+scoreboard objectives remove bp.overworld
+
+# Dormis
+scoreboard objectives remove bp.dormis
 
 # Faewild
-scoreboard objectives remove bp.fae 
+scoreboard objectives remove bp.fae
 
 # Panacea
-scoreboard objectives remove bp.panacea 
+scoreboard objectives remove bp.panacea
 
 # Pax
-scoreboard objectives remove bp.pax 
+scoreboard objectives remove bp.pax
+
+# Sanctum
+scoreboard objectives remove bp.sanctum
 
 # The Brine
-scoreboard objectives remove bp.brine_potion 
-scoreboard objectives remove bp.potion_count
+scoreboard objectives remove bp.brine_potion
+scoreboard objectives remove bp.brine
+
+# The Underdark
+scoreboard objectives remove bp.underdark
 
 # Glacium
-scoreboard objectives remove bp.ice 
+scoreboard objectives remove bp.ice
+scoreboard objectives remove bp.glacium
 
 # Omnidrome
-scoreboard objectives remove bp.spawn_loading 
+scoreboard objectives remove bp.omnidrome
+
+scoreboard objectives remove bp.spawn_loading
+scoreboard objectives remove bp.omni_flight
+scoreboard objectives remove bp.omni_sprint
 
 # Void
 scoreboard objectives remove bp.voidtp
+scoreboard objectives remove bp.void
+
+# Varskspace
+scoreboard objectives remove bp.varskstorm
+scoreboard objectives remove bp.varskspace
 
 ##########   PAX PORTAL   ##########
-scoreboard objectives remove bp.portal_R 
-scoreboard objectives remove bp.portal_G 
-scoreboard objectives remove bp.portal_B 
-scoreboard objectives remove bp.portal_W 
-scoreboard objectives remove bp.portal 
+scoreboard objectives remove bp.portal_R
+scoreboard objectives remove bp.portal_G
+scoreboard objectives remove bp.portal_B
+scoreboard objectives remove bp.portal_W
+scoreboard objectives remove bp.portal
 
 ##########   ABILITY BOOKS   ##########
-scoreboard objectives remove bp.giant 
-scoreboard objectives remove bp.wtb_cooldown 
+scoreboard objectives remove bp.giant
+scoreboard objectives remove bp.wtb_cooldown
 scoreboard objectives remove bp.coas
 
-##########   SPECIES BOOKS   ##########
-scoreboard objectives remove bp.arb_book 
-scoreboard objectives remove bp.automech 
-scoreboard objectives remove bp.frostkin 
-scoreboard objectives remove bp.faefolk 
-scoreboard objectives remove bp.human 
-scoreboard objectives remove bp.hunter 
-scoreboard objectives remove bp.dweller 
-scoreboard objectives remove bp.enderling 
-scoreboard objectives remove bp.nereid 
-scoreboard objectives remove bp.netherkin 
-scoreboard objectives remove bp.outlander 
-scoreboard objectives remove bp.realmkeeper 
-scoreboard objectives remove bp.villain 
+scoreboard objectives remove bp.offhand
+scoreboard objectives remove bp.cooldown
 
-scoreboard objectives remove bp.automech_ 
-scoreboard objectives remove bp.frostkin_ 
-scoreboard objectives remove bp.faefolk_ 
-scoreboard objectives remove bp.human_ 
-scoreboard objectives remove bp.hunter_ 
-scoreboard objectives remove bp.dweller_ 
-scoreboard objectives remove bp.enderling_ 
-scoreboard objectives remove bp.nereid_ 
-scoreboard objectives remove bp.netherkin_ 
-scoreboard objectives remove bp.outlander_ 
-scoreboard objectives remove bp.realmkeeper_ 
-scoreboard objectives remove bp.villain_ 
+# Returning Tides
+scoreboard objectives remove bp.recall_marker
+scoreboard objectives remove bp.recall_world
+scoreboard objectives remove bp.recall_void
+scoreboard objectives remove bp.recall_use
+scoreboard objectives remove bp.recall_wait
+scoreboard objectives remove bp.recall_walk
+scoreboard objectives remove bp.recall_sprint
+scoreboard objectives remove bp.recall_jump
+
+# Mansion
+scoreboard objectives remove bp.mansion_id
+scoreboard objectives remove bp.mansion_world
+scoreboard objectives remove bp.mansion_use
+scoreboard objectives remove bp.xmansion
+scoreboard objectives remove bp.ymansion
+scoreboard objectives remove bp.zmansion
+scoreboard objectives remove bp.xmansion1
+scoreboard objectives remove bp.ymansion1
+scoreboard objectives remove bp.zmansion1
+scoreboard objectives remove bp.xmansion2
+scoreboard objectives remove bp.ymansion2
+scoreboard objectives remove bp.zmansion2
+scoreboard objectives remove bp.dimension
+
+##########   SPECIES BOOKS   ##########
+scoreboard objectives remove bp.arb_book
+scoreboard objectives remove bp.automech
+scoreboard objectives remove bp.frostkin
+scoreboard objectives remove bp.faefolk
+scoreboard objectives remove bp.human
+scoreboard objectives remove bp.hunter
+scoreboard objectives remove bp.dweller
+scoreboard objectives remove bp.enderling
+scoreboard objectives remove bp.nereid
+scoreboard objectives remove bp.netherkin
+scoreboard objectives remove bp.outlander
+scoreboard objectives remove bp.realmkeeper
+scoreboard objectives remove bp.villain
+
+scoreboard objectives remove bp.automech_
+scoreboard objectives remove bp.frostkin_
+scoreboard objectives remove bp.faefolk_
+scoreboard objectives remove bp.human_
+scoreboard objectives remove bp.hunter_
+scoreboard objectives remove bp.dweller_
+scoreboard objectives remove bp.enderling_
+scoreboard objectives remove bp.nereid_
+scoreboard objectives remove bp.netherkin_
+scoreboard objectives remove bp.outlander_
+scoreboard objectives remove bp.realmkeeper_
+scoreboard objectives remove bp.villain_

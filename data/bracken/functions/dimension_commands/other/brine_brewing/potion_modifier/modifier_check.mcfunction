@@ -3,7 +3,6 @@
 # Creators: Grandmaster
 ##########################################################
 
-scoreboard players set @s bp.potion_count 0
 scoreboard players set @s bp.brine_potion 0
 execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:3b}].components."minecraft:custom_data"."bp.potion"
 

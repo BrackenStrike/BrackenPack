@@ -5,7 +5,7 @@
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/the_brine
 
-
+tag @s remove bp.brine_brewing_active
 
 
 #Originally the function bracken:player/travel/left_brine
