@@ -26,7 +26,7 @@ execute if score @s bp.nightfall matches 1 run function bracken:item/nightfall
 #scoreboard players remove @s[scores={bp.hurting=1..}] bp.hurting 1
 
 # frost spite
-execute if score @s bp.frost_spite_death matches 1.. run function bracken:item/frost_spite
+execute if score @s bp.frost_spite_death matches 1.. run function bracken:item/frost_spite/search
 
 # Altum Archeon
 #scoreboard players set @s bp.altum_archeon 0

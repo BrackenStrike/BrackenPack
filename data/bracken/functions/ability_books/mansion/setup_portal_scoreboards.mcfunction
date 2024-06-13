@@ -1,6 +1,8 @@
 tag @s remove bp.mm_setup
 forceload add ~ ~
 
+scoreboard players operation @s bp.mansion_id = @p[tag=bp.target3,distance=..15] bp.mansion_id
+
 execute if entity @p[tag=bp.target3,tag=bp.set_mansion,distance=..15] run scoreboard players set @s bp.mansion_use 1
 execute if entity @p[tag=bp.target3,tag=!bp.set_mansion,distance=..15] run scoreboard players set @s bp.mansion_use 0
 

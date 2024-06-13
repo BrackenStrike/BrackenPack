@@ -16,6 +16,9 @@ Made brine brewing semi-advancement-driven:
 	The call to "raycast" in dimension_commands/the_brine now only triggers if the last raycast attempt successfully found a brewing stand, meaning it won't start on its own without a call to the advancement
 	In short, the game won't try to raycast unless you've clicked on a brewing stand, and it will continue to raycast every second thereafter UNTIL you look away from the brewing stand, at which point the attempts will stop again
 
+Updated function player/config_menu/uninstall/remove_all_scoreboards:
+	Now properly removes every scoreboard objective listed in the "load" function
+
 
 
 

@@ -2,13 +2,9 @@
 	"condition": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
-		"equipment": {
-			"chest": {
-				"items": [
-					"minecraft:elytra"
-				],
-				"components": { "minecraft:custom_model_data": 888502 }
-			}
-		}
+		"equipment": { "chest": {
+			"items": "minecraft:elytra",
+			"components": { "minecraft:custom_model_data": 888502 }
+		}}
 	}
 }

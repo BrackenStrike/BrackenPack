@@ -1,9 +1,9 @@
-[{
+{
 	"condition": "minecraft:entity_properties",
 	"entity": "this",
 	"predicate": {
-		"vehicle": {
-			"type": "minecraft:boat"
-		}
+		"equipment": { "head": {
+			"items": "minecraft:air"
+		}}
 	}
-}]
+}

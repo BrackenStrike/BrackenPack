@@ -8,7 +8,7 @@
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:custom_name": "{\"text\":\"Vitality Chestplate\",\"color\":\"dark_green\",\"bold\":true}",
+					"minecraft:item_name": "{\"text\":\"Vitality Chestplate\",\"color\":\"dark_green\",\"bold\":true}",
 					"minecraft:lore": [
 						"{\"text\":\"one of three\",\"color\":\"gold\"}"
 					],
