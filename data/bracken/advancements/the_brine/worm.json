@@ -1,27 +1,27 @@
 {
-    "parent": "bracken:the_brine/enter_the_brine",
-    "display": {
-        "title": {
-            "translate": "Yikes!"
-        },
-        "description": {
-            "translate": "Get attacked by a bobbit worm",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:bamboo",
-            "components": {
-                "minecraft:custom_model_data": 888520
-            }
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "discovered": {
-            "trigger": "minecraft:impossible"
-        }
-    }
+	"parent": "bracken:the_brine/enter_the_brine",
+	"display": {
+		"title": {
+			"translate": "Yikes!"
+		},
+		"description": {
+			"translate": "Get attacked by a bobbit worm",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:bamboo",
+			"components": {
+				"minecraft:custom_model_data": 888520
+			}
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	}
 }

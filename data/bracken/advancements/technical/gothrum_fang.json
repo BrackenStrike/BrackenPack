@@ -4,8 +4,8 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "player": {
-                    "slots": {
-                        "weapon.mainhand": {
+                    "equipment": {
+                        "mainhand": {
                             "items": "minecraft:iron_sword",
                             "components": {
                                 "minecraft:custom_model_data": 888501

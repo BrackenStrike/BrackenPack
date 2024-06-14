@@ -6,5 +6,6 @@ attribute @s minecraft:generic.scale modifier remove 43cb0192-8e75-4ad5-8ab2-182
 effect clear @s
 tag @s remove bp.species
 tag @s remove bp.hunter
+team leave @s
 
 return 1

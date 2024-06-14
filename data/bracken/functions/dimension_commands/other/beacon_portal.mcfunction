@@ -11,4 +11,4 @@ execute if block ~ ~-1 ~ minecraft:beacon{Levels:4} run scoreboard players add @
 execute if entity @s[scores={bp.ice=2..}] run effect give @s minecraft:nausea 10 5 true
 effect give @s[scores={bp.ice=6..}] minecraft:resistance 7 7 false
 
-execute if entity @s[tag=!bp.frostkin,scores={bp.ice=1..}] run effect give @s minecraft:wither 5 1 true
+execute if score @s bp.ice matches 1.. unless predicate bracken:effect_immunity/wither run effect give @s minecraft:wither 5 1 true

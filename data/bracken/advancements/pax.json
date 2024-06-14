@@ -23,14 +23,8 @@
     },
     "criteria": {
         "bracken:pax1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:pax"
-                    }
-                }
-            }
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:pax" }
         }
     },
     "requirements": [

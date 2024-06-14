@@ -1,14 +1,14 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "equipment": {
-            "mainhand": {
-                "items": [
-                    "minecraft:warped_fungus_on_a_stick"
-                ],
-                "nbt": "{bp:{id:\"frost_spite\"}}"
-            }
-        }
-    }
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"items": [
+					"minecraft:warped_fungus_on_a_stick"
+				],
+				"predicates": { "minecraft:custom_data": "{bp:{id:\"frost_spite\"}}" }
+			}
+		}
+	}
 }

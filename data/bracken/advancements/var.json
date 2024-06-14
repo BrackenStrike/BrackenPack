@@ -18,14 +18,8 @@
     },
     "criteria": {
         "bracken:fae1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:varskspace"
-                    }
-                }
-            }
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:varskspace" }
         }
     },
     "requirements": [

@@ -1,24 +1,19 @@
 {
-    "criteria": {
-        "bracken:panacea/ttnt1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "dimension": "bracken:omnidrome",
-                                "structure": "bracken:container/omnidrome_container"
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "rewards": {
-        "function": "bracken:player/omnitrigger/s_ttnt"
-    }
+	"criteria": {
+		"location": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"dimension": "bracken:omnidrome",
+						"structures": "bracken:omnidrome_container"
+					}
+				}]
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:player/omnitrigger/s_ttnt"
+	}
 }

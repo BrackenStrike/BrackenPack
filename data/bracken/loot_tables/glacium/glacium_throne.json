@@ -1,153 +1,108 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-        {
-            "rolls": {
-                "min": 10,
-                "max": 15
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bone",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.8
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/metal_apples/carbon_apple",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.3
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/diamond_greatsword",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/diamond_sabre",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/diamond_bludgeon",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/diamond_katana",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/diamond_short_spear",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:cobweb",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.3
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.3
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:wither_skeleton_skull",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/music_discs/viceroy",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.02
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:ice",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.5
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/glacium/viceroys_visor",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/glacium/frosplakkrt",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 10,
+			"max": 15
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:bone",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/metal_apples/carbon_apple",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/diamond_greatsword",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/diamond_sabre",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/diamond_bludgeon",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/diamond_katana",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/diamond_short_spear",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:cobweb",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:diamond",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:wither_skeleton_skull",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/music_discs/viceroy",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.02
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:ice",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.5
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/glacium/viceroys_visor",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/glacium/frosplakkrt",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		}]
+	}]
 }

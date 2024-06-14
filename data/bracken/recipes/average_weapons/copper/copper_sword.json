@@ -18,7 +18,7 @@
         "id": "minecraft:golden_sword",
         "components": {
             "minecraft:max_damage": 175,
-            "minecraft:custom_name": "{\"translate\":\"Copper Sword\",\"color\":white,\"italic\":false}",
+            "minecraft:item_name": "\"Copper Sword\"",
             "minecraft:custom_model_data": 888532,
             "minecraft:lore": [
                 "{\"translate\":\"\",\"color\":white,\"italic\":false}",

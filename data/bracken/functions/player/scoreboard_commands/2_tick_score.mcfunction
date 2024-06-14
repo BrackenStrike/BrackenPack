@@ -5,7 +5,7 @@
 
 scoreboard players set @s bp.tick 0
 
-scoreboard players set @s bp.hurting 0
+#scoreboard players set @s bp.hurting 0
 scoreboard players set @s bp.walk 0
 scoreboard players set @s bp.swim 0
 scoreboard players set @s[scores={bp.fly=1..}] bp.fly 0
@@ -37,4 +37,4 @@ execute if score @s bp.astral_time matches 1.. run function bracken:player/potio
 execute if score @s bp.greed_duration matches 1.. run function bracken:player/potion/greed/tick
 
 # Outlander backstab logic
-execute as @a[tag=bp.outlander] run function bracken:player/species/outlander/backstab/2t
+execute if entity @s[tag=bp.outlander] run function bracken:player/species/outlander/backstab/2t

@@ -1,27 +1,27 @@
 {
-    "parent": "bracken:sanctum/compass",
-    "display": {
-        "title": {
-            "translate": "Varskstorm"
-        },
-        "description": {
-            "translate": "Have the entanglement effect active durring rain or stormy weather",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:feather",
-            "components": {
-                "minecraft:custom_model_data": 888501
-            }
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "discovered": {
-            "trigger": "minecraft:impossible"
-        }
-    }
+	"parent": "bracken:sanctum/compass",
+	"display": {
+		"title": {
+			"translate": "Varskstorm"
+		},
+		"description": {
+			"translate": "Have the entanglement effect active durring rain or stormy weather",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:feather",
+			"components": {
+				"minecraft:custom_model_data": 888501
+			}
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	}
 }

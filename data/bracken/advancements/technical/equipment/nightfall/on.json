@@ -1,0 +1,10 @@
+{
+	"criteria": { "equipment_tracking": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": { "player": [{
+			"condition": "reference",
+			"name": "bracken:item/nightfall"
+		}]}
+	}},
+	"rewards": { "function": "bracken:equipment/nightfall/on" }
+}

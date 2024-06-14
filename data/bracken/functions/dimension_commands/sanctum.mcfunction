@@ -3,12 +3,10 @@
 # Creators: Bracken
 ##########################################################
 
-scoreboard players set @s bp.sanctum 10
+#scoreboard players set @s bp.sanctum 10
 
 # Effects
-effect give @s[scores={bp.longtick=5},tag=!bp.outlander] minecraft:invisibility 13 0 true
-effect clear @s[tag=bp.outlander] minecraft:invisibility
-attribute @s[scores={bp.sanctum=10}] minecraft:player.block_break_speed modifier add e6c0ce48-1c54-427d-9f9f-32571e0a4f5a "bp.sanctum_blockbreak" 2.75 add_multiplied_base
+execute if score @s bp.longtick matches 5 run effect give @s[predicate=!bracken:effect_immunity/invisibility] minecraft:invisibility 13 0 true
 
 # Mobs
 execute if entity @s[scores={bp.tick=2,bp.sneakcharge=..1}] run function bracken:entities/sanctum/sanctum_entities
@@ -26,7 +24,7 @@ effect give @s[y=212,dy=100] jump_boost 1 1 true
 effect give @s[y=228,dy=100] jump_boost 1 7 true
 
 # Dust Storm
-execute positioned over ocean_floor if entity @s[predicate=bracken:rain,dy=999] run function bracken:dimension_commands/sanctum_dust_storm/dust_storm
+execute positioned over world_surface if entity @s[predicate=bracken:rain,dy=999] run function bracken:dimension_commands/sanctum_dust_storm/dust_storm
 execute if entity @s[predicate=bracken:rain] run function bracken:dimension_commands/sanctum_dust_storm/dust_storm2
 
 # travel to omnidrome which still needs work

@@ -5,7 +5,7 @@
             "translate": "Out of the Blue, Into the Black"
         },
         "description": {
-            "translate": "Swim to the bottom of a whilrpool and enter the Brine",
+            "translate": "Swim to the bottom of a whirlpool and enter the Brine",
             "color": "green"
         },
         "icon": {
@@ -18,14 +18,8 @@
     },
     "criteria": {
         "bracken:bri1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:the_brine"
-                    }
-                }
-            }
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:the_brine" }
         }
     },
     "requirements": [

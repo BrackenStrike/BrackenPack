@@ -9,15 +9,8 @@ scoreboard players set @s bp.pax 10
 #effect give @s[scores={bp.longtick=4}] minecraft:jump_boost 15 2 true
 #effect give @s[scores={bp.longtick=4}] minecraft:weakness 15 99 true
 effect give @s[scores={bp.food=..18}] minecraft:saturation 1 0 true
-effect clear @s minecraft:poison
 
-attribute @s[scores={bp.pax=10}] minecraft:generic.max_health modifier add e6c0ce48-1c54-427d-9f9f-32571e0a4f5a "bp.pax_health" 20 add_value
-attribute @s[scores={bp.pax=10}] minecraft:generic.gravity modifier add e6c0ce48-1c54-427d-9f9f-32571e0a4f5a "bp.pax_gravity" -0.5 add_multiplied_base
-attribute @s[scores={bp.pax=10}] minecraft:generic.safe_fall_distance modifier add e6c0ce48-1c54-427d-9f9f-32571e0a4f5a "bp.pax_safefall" 1000 add_multiplied_base
-attribute @s[scores={bp.pax=10}] minecraft:generic.attack_damage modifier add e6c0ce48-1c54-427d-9f9f-32571e0a4f5a "bp.pax_ad" -1000 add_multiplied_base
-
-effect clear @s minecraft:bad_omen
-execute unless predicate bracken:in_boat unless predicate bracken:in_chest_boat if block ~ ~ ~ minecraft:water run function bracken:dimension_commands/other/pax_waters
+execute if predicate bracken:in_water run function bracken:dimension_commands/other/pax_waters
 
 # Dimension Travel
 execute if score @s bp.1_second matches 8 if data storage bracken:config {dimension_travel: true} if entity @s[y=-15,dy=-300] run function bracken:dimension_crossing/pax_to_faewild

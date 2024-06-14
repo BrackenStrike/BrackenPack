@@ -35,8 +35,11 @@ execute if data storage bracken:config {species_on: true} if entity @s[tag=bp.sp
 execute if data storage bracken:config {species_on: false} if entity @s[scores={bp.longtick=2}] run function bracken:player/species/leave
 
 # Dimension Commands
-function bracken:player/overworld_check
+function bracken:player/dimension_check
 function bracken:player/universal_dimension_commands
+
+# Respawning
+execute if score @s bp.death matches 1 run function bracken:player/respawn
 
 # Items
 function bracken:item/main

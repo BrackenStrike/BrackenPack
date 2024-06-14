@@ -1,527 +1,377 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-        {
-            "rolls": {
-                "min": 2,
-                "max": 4
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:name_tag",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.7
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/adamantine_will",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/world_soar",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/truelight_glow",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/scatterstorm",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/swordfall",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/mass_heal",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/kill",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/flying_boat",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/fireball",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/fang_attack",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/crimson_spark",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/iron_golem",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/lightning_bolt",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/returning_tides",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/great_nullifier",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/frostlock",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/magnificent_mansion",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/tetra_slime",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/worm_toothed_burrower",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:paper",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.9
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_block",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.4
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:globe_banner_pattern",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:creeper_banner_pattern",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:flower_banner_pattern",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:skull_banner_pattern",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:piglin_banner_pattern",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:mojang_banner_pattern",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:enchanted_book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:luck_of_the_sea": 1
-                            },
-                            "add": false
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:enchanted_book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:multishot": 1
-                            },
-                            "add": false
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:enchanted_book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:fortune": 1
-                            },
-                            "add": false
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:enchanted_book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:infinity": 1
-                            },
-                            "add": false
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:enchanted_book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:bane_of_arthropods": 1
-                            },
-                            "add": false
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:enchanted_book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:feather_falling": 1
-                            },
-                            "add": false
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:enchanted_book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:lure": 1
-                            },
-                            "add": false
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:enchanted_book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:efficiency": 1
-                            },
-                            "add": false
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:enchanted_book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:unbreaking": 1
-                            },
-                            "add": false
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:enchanted_book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:silk_touch": 1
-                            },
-                            "add": false
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:enchanted_book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:looting": 1
-                            },
-                            "add": false
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/maps/omnidrome_palace_map",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 2,
+			"max": 4
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:name_tag",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.7
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/adamantine_will",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/world_soar",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/truelight_glow",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/scatterstorm",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/swordfall",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/mass_heal",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/kill",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/flying_boat",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/fireball",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/fang_attack",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/crimson_spark",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/iron_golem",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/lightning_bolt",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/returning_tides",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/great_nullifier",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/frostlock",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/magnificent_mansion",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/tetra_slime",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/worm_toothed_burrower",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:paper",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.9
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:iron_block",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.4
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:globe_banner_pattern",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:creeper_banner_pattern",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:flower_banner_pattern",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:skull_banner_pattern",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:piglin_banner_pattern",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:mojang_banner_pattern",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:luck_of_the_sea": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:multishot": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:fortune": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:infinity": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:bane_of_arthropods": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:feather_falling": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:lure": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:efficiency": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:unbreaking": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:silk_touch": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:looting": 1
+				},
+				"add": false
+			}]
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"value": "bracken:item/maps/omnidrome_palace_map",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		}]
+	}]
 }

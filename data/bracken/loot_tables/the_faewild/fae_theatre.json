@@ -1,383 +1,269 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-        {
-            "rolls": {
-                "min": 15,
-                "max": 25
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.5
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/wooden_buckler",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/wooden_cutlass",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/wooden_dagger",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/wooden_greatsword",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/wooden_katana",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/wooden_bludgeon",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/wooden_rapier",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/wooden_sabre",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/wooden_sickle",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/wooden_staff",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/wooden_warhammer",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:wooden_sword",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:wooden_shovel",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:wooden_pickaxe",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:wooden_axe",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:wooden_hoe",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.01
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:experience_bottle",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.08
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:cake",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:pink_dye",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:magenta_dye",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:red_dye",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:orange_dye",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:yellow_dye",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:lime_dye",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:green_dye",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:light_blue_dye",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:blue_dye",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:purple_dye",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:gray_dye",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:light_gray_dye",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:brown_dye",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:cobweb",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.6
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather_boots",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather_leggings",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather_chestplate",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:leather_helmet",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 15,
+			"max": 25
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:leather",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.5
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/wooden_buckler",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/wooden_cutlass",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/wooden_dagger",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/wooden_greatsword",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/wooden_katana",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/wooden_bludgeon",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/wooden_rapier",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/wooden_sabre",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/wooden_sickle",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/wooden_staff",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/wooden_warhammer",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:wooden_sword",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:wooden_shovel",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:wooden_pickaxe",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:wooden_axe",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:wooden_hoe",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:experience_bottle",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.08
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:cake",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:pink_dye",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:magenta_dye",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:red_dye",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:orange_dye",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:yellow_dye",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:lime_dye",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:green_dye",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:light_blue_dye",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:blue_dye",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:purple_dye",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:gray_dye",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:light_gray_dye",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:brown_dye",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:cobweb",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.6
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:leather_boots",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:leather_leggings",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:leather_chestplate",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:leather_helmet",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		}]
+	}]
 }

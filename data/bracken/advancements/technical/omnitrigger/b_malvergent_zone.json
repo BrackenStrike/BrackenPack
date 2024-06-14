@@ -1,28 +1,16 @@
 {
-    "criteria": {
-        "bracken:technical/omnitrigger/b_malvergent_zone1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:omnidrome/malvergent_zone"
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:technical/omnitrigger/b_malvergent_zone1"
-        ]
-    ],
-    "rewards": {
-        "function": "bracken:player/omnitrigger/b_malvergent_zone"
-    }
+	"criteria": {
+		"in_biome": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:location_check",
+					"predicate": { "biomes": "bracken:omnidrome/malvergent_zone" }
+				}]
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:player/omnitrigger/b_malvergent_zone"
+	}
 }

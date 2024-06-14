@@ -18,14 +18,8 @@
     },
     "criteria": {
         "bracken:gla1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:glacium"
-                    }
-                }
-            }
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:glacium" }
         }
     },
     "requirements": [

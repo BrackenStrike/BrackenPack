@@ -1,0 +1,7 @@
+{
+	"criteria": { "changed_dimension": {
+		"trigger": "minecraft:changed_dimension",
+		"conditions": { "from": "bracken:the_faewild" }
+	}},
+	"rewards": { "function": "bracken:dimension_travel/leave/the_faewild" }
+}

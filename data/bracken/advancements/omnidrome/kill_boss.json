@@ -1,46 +1,29 @@
 {
-    "parent": "bracken:omnidrome/boss",
-    "display": {
-        "title": {
-            "translate": "Induced Apoptosis"
-        },
-        "description": {
-            "translate": "End the Disruptor's rebellion",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:fishing_rod",
-            "components": {
-                "minecraft:custom_model_data": 888501
-            }
-        },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "bracken:omnidrome/kill_boss1": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:elder_guardian",
-                            "location": {
-                                "dimension": "bracken:omnidrome"
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:omnidrome/kill_boss1"
-        ]
-    ]
+	"parent": "bracken:omnidrome/boss",
+	"display": {
+		"title": { "translate": "Induced Apoptosis" },
+		"description": {
+			"translate": "End the Disruptor's rebellion",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:fishing_rod",
+			"components": { "minecraft:custom_model_data": 888501 }
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:omnidrome/kill_boss1": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": { "entity": {
+				"type": "minecraft:elder_guardian",
+				"nbt": "{Tags:[\"bp.the_disruptor\"]}",
+				"location": { "dimension": "bracken:omnidrome" }
+			}}
+		}
+	},
+	"rewards": { "function": "bracken:player/omnitrigger/k_disruptor" }
 }

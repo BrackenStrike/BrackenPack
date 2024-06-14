@@ -21,14 +21,8 @@
     },
     "criteria": {
         "requirement": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:the_faewild"
-                    }
-                }
-            }
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:the_faewild" }
         }
     }
 }

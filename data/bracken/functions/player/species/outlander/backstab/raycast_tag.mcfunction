@@ -1,6 +1,6 @@
 ############################################
 # Description : Backstab ability entity target detection
-# Creators : reNemesic
+# Creators : crimdev
 ############################################
 
 execute positioned ~ ~-1 ~ run tag @e[type=!#bracken:untargettable,distance=..1,tag=!bp.outlander] add bp.outlander_backstab

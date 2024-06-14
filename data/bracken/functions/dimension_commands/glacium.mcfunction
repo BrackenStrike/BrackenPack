@@ -3,15 +3,12 @@
 # Creators: Bracken
 ##########################################################
 
-scoreboard players set @s bp.glacium 10
+#scoreboard players set @s bp.glacium 10
 
 # Effects
-execute unless predicate bracken:in_boat unless predicate bracken:in_chest_boat if block ~ ~ ~ minecraft:water if entity @s[scores={bp.wither_immunity=0}] run effect give @s[tag=!bp.frostkin] minecraft:wither 2 0 true
+execute if predicate bracken:in_water run effect give @s[predicate=!bracken:effect_immunity/wither] minecraft:wither 2 0 true
 execute if score @s bp.1_second matches 15 run function bracken:dimension_commands/other/no_fire_fill_commands
-execute unless entity @s[predicate=bracken:slightly_illuminated] positioned over ocean_floor if entity @s[predicate=bracken:rain,dy=999] run effect give @s[tag=!bp.frostkin] minecraft:wither 1 1 false
-
-attribute @s[scores={bp.glacium=10}] minecraft:player.block_break_speed modifier add e0a79d96-ec86-4e7c-9ec7-37ad7ee38a14 "bp.glacium_blockbreak" -0.75 add_multiplied_base
-attribute @s[scores={bp.glacium=10}] minecraft:generic.armor_toughness modifier add e0a79d96-ec86-4e7c-9ec7-37ad7ee38a14 "bp.glacium_armortough" -0.5 add_multiplied_base
+execute unless entity @s[predicate=bracken:light/at_least_5] positioned over world_surface if entity @s[predicate=bracken:rain,dy=999] run effect give @s[predicate=!bracken:effect_immunity/wither] minecraft:wither 1 1 false
 
 
 # Mobs

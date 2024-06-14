@@ -1,28 +1,16 @@
 {
-    "criteria": {
-        "bracken:technical/omnitrigger/b_stanterion1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:omnidrome/stanterion"
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:technical/omnitrigger/b_stanterion1"
-        ]
-    ],
-    "rewards": {
-        "function": "bracken:player/omnitrigger/b_stanterion"
-    }
+	"criteria": {
+		"in_biome": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:location_check",
+					"predicate": { "biomes": "bracken:omnidrome/stanterion" }
+				}]
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:player/omnitrigger/b_stanterion"
+	}
 }

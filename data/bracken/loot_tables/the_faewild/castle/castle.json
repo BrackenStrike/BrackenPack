@@ -1,182 +1,130 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-        {
-            "rolls": {
-                "min": 7,
-                "max": 12
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:torch",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.8
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:spyglass",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.3
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:potion",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_name",
-                            "name": {
-                                "text": "Potion of Night Vision",
-                                "color": "white",
-                                "italic": false
-                            }
-                        },
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:potion_contents": "minecraft:night_vision"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/iron_dagger",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/iron_buckler",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/iron_rapier",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/iron_short_spear",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.05
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/returning_tides",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.02
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:suspicious_stew",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.15
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_stew_effect",
-                            "effects": [
-                                {
-                                    "type": "minecraft:night_vision",
-                                    "duration": 100
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:tipped_arrow",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.9
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:potion_contents": "minecraft:poison"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bow",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:experience_bottle",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.5
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:arrow",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.9
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:golden_carrot",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.3
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 7,
+			"max": 12
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:torch",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:spyglass",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:potion",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"name": {
+					"text": "Potion of Night Vision",
+					"color": "white",
+					"italic": false
+				}
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:potion_contents": "minecraft:night_vision"
+				}
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/iron_dagger",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/iron_buckler",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/iron_rapier",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/iron_short_spear",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/returning_tides",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.02
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:suspicious_stew",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.15
+			}],
+			"functions": [{
+				"function": "minecraft:set_stew_effect",
+				"effects": [{
+					"type": "minecraft:night_vision",
+					"duration": 100
+				}]
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:tipped_arrow",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.9
+			}],
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:potion_contents": "minecraft:poison"
+				}
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:bow",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:experience_bottle",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.5
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:arrow",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.9
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:golden_carrot",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		}]
+	}]
 }

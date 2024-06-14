@@ -1,93 +1,66 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-        {
-            "rolls": {
-                "min": 10,
-                "max": 15
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bone",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.8
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:cobweb",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.3
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:soul_campfire",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:soul_torch",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.5
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/metal_apples/carbon_apple",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/music_discs/viceroy",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.02
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:wither_skeleton_skull",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 10,
+			"max": 15
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:bone",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:cobweb",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:soul_campfire",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:soul_torch",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.5
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/metal_apples/carbon_apple",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/music_discs/viceroy",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.02
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:diamond",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:wither_skeleton_skull",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		}]
+	}]
 }

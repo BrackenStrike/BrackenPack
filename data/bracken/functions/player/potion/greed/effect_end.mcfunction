@@ -3,6 +3,5 @@
 # Creators: Grandmaster
 ##########################################################
 
-scoreboard players set @s bp.greed_milk 0
 scoreboard players set @s bp.greed_death 0
 scoreboard players set @s bp.greed_duration 0

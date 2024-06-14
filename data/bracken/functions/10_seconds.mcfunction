@@ -3,9 +3,7 @@
 # Creators: Grandmaster
 ##########################################################
 
-##########   SPECIAL THANKS TO ALPHIE   ##########
-#name a dog _Alphie_ to activate
-execute at @a run data merge entity @e[limit=1,type=wolf,name="_Alphie_",distance=..10] {CollarColor:10b,CustomName:'{"translate":"Alphie","color":"dark_purple","bold":true}',ArmorItems:[{},{},{id:"minecraft:wolf_spawn_egg",Count:1b,components:{"minecraft:enchantment_glint_override":1b,"minecraft:custom_name":"{\"translate\":\"Respawn Alphie\",\"color\":\"dark_purple\",\"bold\":true}","minecraft:lore":["{\"translate\":\"not gone yet\",\"color\":\"light_purple\",\"italic\":true}"],"minecraft:entity_data":{Age:-1000,CollarColor:10b,CustomName:"{\"translate\":\"_Alphie_\"}"}}},{}],ArmorDropChances:[0.085F,0.085F,1.000F,0.085F],Attributes:[{Name:generic.max_health,Base:16},{Name:generic.attack_damage,Base:10}]}
+#Alphie function has been moved to the advancement bracken:technical/alphie
 
 # dimension spawn structure loading
 execute at @a unless entity @e[type=end_crystal,predicate=bracken:dimensions/the_nether,distance=..20] unless entity @e[distance=..20,type=minecraft:item_display,tag=bp.brine_entrance] run scoreboard players set #1 bp.spawn_loading 0

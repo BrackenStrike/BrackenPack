@@ -9,7 +9,9 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "team": "Hunter"
+                            "nbt": {
+                                "Tags": "[\"bp.hunter\"]"
+                            }
                         }
                     }
                 ],

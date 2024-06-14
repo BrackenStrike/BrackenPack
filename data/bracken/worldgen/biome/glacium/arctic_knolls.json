@@ -59,7 +59,7 @@
         "water_color": 4014691,
         "water_fog_color": 7897757,
         "grass_color": 5074010,
-        "foliage_colour": 5074010,
+        "foliage_color": 5074010,
         "additions_sound": {
             "sound": "minecraft:ambient.crimson_forest.loop",
             "tick_chance": 0.02

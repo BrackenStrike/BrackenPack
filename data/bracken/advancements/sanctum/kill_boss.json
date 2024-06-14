@@ -1,46 +1,42 @@
 {
-    "parent": "bracken:sanctum/boss",
-    "display": {
-        "title": {
-            "translate": "Ruination Termination"
-        },
-        "description": {
-            "translate": "Defeat the program before it's too late",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:wither_skeleton_skull"
-        },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "bracken:sanctum/kill_boss1": {
-            "trigger": "minecraft:player_killed_entity",
-            "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:giant",
-                            "location": {
-                                "dimension": "bracken:sanctum"
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:sanctum/kill_boss1"
-        ]
-    ],
-    "rewards": {
-        "function": "bracken:player/omnitrigger/k_ruination"
-    }
+	"parent": "bracken:sanctum/boss",
+	"display": {
+		"title": {
+			"translate": "Ruination Termination"
+		},
+		"description": {
+			"translate": "Defeat the program before it's too late",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:wither_skeleton_skull"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:sanctum/kill_boss1": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "minecraft:giant",
+						"location": {
+							"dimension": "bracken:sanctum"
+						}
+					}
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:sanctum/kill_boss1"
+	]],
+	"rewards": {
+		"function": "bracken:player/omnitrigger/k_ruination"
+	}
 }

@@ -9,14 +9,23 @@
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "team": "Hunter"
+                            "nbt": {
+                                "Tags": "[\"bp.hunter\"]"
+                            }
                         }
                     }
                 ],
                 "item": {
                     "items": [
                         "minecraft:apple"
-                    ]
+                    ],
+                    "components": {
+                        "food": {
+                            "nutrition": 4,
+                            "saturation": 2.4,
+                            "can_always_eat": false
+                        }
+                    }
                 }
             }
         }

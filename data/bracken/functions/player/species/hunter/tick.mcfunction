@@ -1,17 +1,13 @@
 effect give @s minecraft:hunger 2 0 true
-execute if score @s[scores={bp.hunter_morph=16}] bp.food matches 20 run effect give @s minecraft:speed 1 1 true
-execute if score @s[scores={bp.hunter_morph=16}] bp.food matches 9.. run effect give @s minecraft:speed 1 0 true
-execute if score @s[scores={bp.hunter_morph=17}] bp.food matches 20 run effect give @s minecraft:speed 1 1 true
-execute if score @s[scores={bp.hunter_morph=17}] bp.food matches 9.. run effect give @s minecraft:speed 1 0 true
-execute if score @s[scores={bp.hunter_morph=18}] bp.food matches 20 run effect give @s minecraft:speed 1 1 true
-execute if score @s[scores={bp.hunter_morph=18}] bp.food matches 9.. run effect give @s minecraft:speed 1 0 true
+execute if score @s[scores={bp.hunter_morph=16..18}] bp.food matches 20 run effect give @s minecraft:speed 1 1 true
+execute if score @s[scores={bp.hunter_morph=16..18}] bp.food matches 9.. run effect give @s minecraft:speed 1 0 true
 
 
 execute if score @s bp.hunter_morph matches 5 run effect give @e[distance=0.1..2] minecraft:poison 10 0 false
 execute if score @s bp.hunter_morph matches 6 run effect clear @s minecraft:poison
-execute if score @s bp.hunter_morph matches 6 run execute if score @s bp.hurting matches 1.. run effect give @e[distance=0.1..4] poison 10 0 false
+#execute if score @s bp.hunter_morph matches 6 if score @s bp.hurting matches 1.. run effect give @e[distance=0.1..4] poison 10 0 false
 execute if score @s bp.hunter_morph matches 12 run effect give @e[distance=0.1..1] wither 1 2 true
-execute if score @s bp.hunter_morph matches 13 run execute if score @s bp.hurting matches 1.. run effect give @e[distance=0.1..4,limit=1] glowing 30 0 false
+#execute if score @s bp.hunter_morph matches 13 if score @s bp.hurting matches 1.. run effect give @e[distance=0.1..4,limit=1] glowing 30 0 false
 
 execute if score @s bp.hunter_morph matches 19 run effect clear @s minecraft:wither
 

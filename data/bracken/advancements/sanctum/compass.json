@@ -1,42 +1,40 @@
 {
-    "parent": "bracken:sanctum/enter_sanctum",
-    "display": {
-        "title": {
-            "translate": "Entanglement Effect"
-        },
-        "description": {
-            "translate": "Break an unruly compass with your teeth",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:apple",
-            "components": {
-                "minecraft:custom_model_data": 888519
-            }
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "bracken:sanctum/compass1": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "minecraft:apple"
-                    ],
-                    "components": {
-                        "minecraft:custom_model_data": 888519
-                    }
-                }
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:sanctum/compass1"
-        ]
-    ]
+	"parent": "bracken:sanctum/enter_sanctum",
+	"display": {
+		"title": {
+			"translate": "Entanglement Effect"
+		},
+		"description": {
+			"translate": "Break an unruly compass with your teeth",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:apple",
+			"components": {
+				"minecraft:custom_model_data": 888519
+			}
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:sanctum/compass1": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:apple"
+					],
+					"components": {
+						"minecraft:custom_model_data": 888519
+					}
+				}
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:sanctum/compass1"
+	]]
 }

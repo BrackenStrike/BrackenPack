@@ -1,40 +1,38 @@
 {
-    "parent": "bracken:the_underdark/petrified",
-    "display": {
-        "title": {
-            "translate": "Crunch!"
-        },
-        "description": {
-            "translate": "Get bit by a shellbreaker spider",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:cobweb"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "bracken:the_underdark/shellbreaker1": {
-            "trigger": "minecraft:entity_hurt_player",
-            "conditions": {
-                "damage": {
-                    "source_entity": {
-                        "type": "minecraft:spider",
-                        "nbt": "{Attributes:[{Name:generic.attack_damage,Base:10}]}",
-                        "location": {
-                            "dimension": "bracken:the_underdark"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:the_underdark/shellbreaker1"
-        ]
-    ]
+	"parent": "bracken:the_underdark/petrified",
+	"display": {
+		"title": {
+			"translate": "Crunch!"
+		},
+		"description": {
+			"translate": "Get bit by a shellbreaker spider",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:cobweb"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:the_underdark/shellbreaker1": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:spider",
+						"nbt": "{Attributes:[{Name:generic.attack_damage,Base:10}]}",
+						"location": {
+							"dimension": "bracken:the_underdark"
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:the_underdark/shellbreaker1"
+	]]
 }

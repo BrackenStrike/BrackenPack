@@ -18,14 +18,8 @@
     },
     "criteria": {
         "bracken:und1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:the_underdark"
-                    }
-                }
-            }
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:the_underdark" }
         }
     },
     "requirements": [

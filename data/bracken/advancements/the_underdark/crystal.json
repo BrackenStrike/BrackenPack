@@ -1,31 +1,31 @@
 {
-    "parent": "bracken:the_underdark/enter_underdark",
-    "display": {
-        "title": {
-            "translate": "Crystal Clear"
-        },
-        "description": {
-            "translate": "Enter the crystal caves biome",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:blue_stained_glass"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "biomes": "bracken:the_underdark/crystal_caves"
-                    }
-                }
-            }
-        }
-    }
+	"parent": "bracken:the_underdark/enter_underdark",
+	"display": {
+		"title": {
+			"translate": "Crystal Clear"
+		},
+		"description": {
+			"translate": "Enter the crystal caves biome",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:blue_stained_glass"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biomes": "bracken:the_underdark/crystal_caves"
+					}
+				}
+			}
+		}
+	}
 }

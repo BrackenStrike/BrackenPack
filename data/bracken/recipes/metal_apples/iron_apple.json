@@ -17,7 +17,8 @@
     "result": {
         "id": "minecraft:apple",
         "components": {
-            "minecraft:custom_name": "{\"translate\":\"Iron Apple\",\"color\":aqua,\"italic\":false}",
+            "minecraft:item_name": "\"Iron Apple\"",
+	    "minecraft:rarity": "rare",
             "minecraft:custom_model_data": 888517,
             "minecraft:food": {
                 "nutrition": 4,

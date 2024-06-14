@@ -1,37 +1,28 @@
 {
-    "parent": "bracken:omnidrome/enter_omnidrome",
-    "display": {
-        "title": {
-            "translate": "Welcome Guest"
-        },
-        "description": {
-            "translate": "Enter the Omnidrome as an Automech",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:compass"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": true
-    },
-    "criteria": {
-        "bracken:omnidrome/return1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:omnidrome"
-                    },
-                    "nbt": "{Tags:[\"bp.automech\"]}"
-                }
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:omnidrome/return1"
-        ]
-    ]
+	"parent": "bracken:omnidrome/enter_omnidrome",
+	"display": {
+		"title": {
+			"translate": "Welcome Guest"
+		},
+		"description": {
+			"translate": "Enter the Omnidrome as an Automech",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:compass"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"criteria": {
+		"bracken:omnidrome/return1": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "bracken:omnidrome",
+				"player": { "nbt": "{Tags:[\"bp.automech\"]}" }
+			}
+		}
+	}
 }

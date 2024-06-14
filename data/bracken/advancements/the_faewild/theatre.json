@@ -11,10 +11,6 @@
         "icon": {
             "id": "minecraft:blue_banner",
             "components": {
-                "items": [
-                    {
-                        "items": "minecraft:blue_banner",
-                        "components": {
                             "minecraft:banner_patterns": [
                                 {
                                     "pattern": "minecraft:flower",
@@ -25,9 +21,6 @@
                                     "color": "yellow"
                                 }
                             ]
-                        }
-                    }
-                ]
             }
         },
         "frame": "task",

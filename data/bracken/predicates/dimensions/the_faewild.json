@@ -1,6 +1,6 @@
 {
-    "condition": "minecraft:location_check",
-    "predicate": {
-        "dimension": "bracken:the_faewild"
-    }
+	"condition": "minecraft:location_check",
+	"predicate": {
+		"dimension": "bracken:the_faewild"
+	}
 }

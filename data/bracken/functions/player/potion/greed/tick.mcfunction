@@ -4,7 +4,6 @@
 ##########################################################
 
 execute if score @s bp.greed_kills matches 1.. run function bracken:player/potion/greed/summon_experience
-execute if score @s bp.greed_milk matches 1.. run function bracken:player/potion/greed/effect_end
 execute if score @s bp.greed_death matches 1.. run function bracken:player/potion/greed/effect_end
 
 scoreboard players remove @s bp.greed_duration 1

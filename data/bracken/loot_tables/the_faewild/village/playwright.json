@@ -1,113 +1,80 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-        {
-            "rolls": {
-                "min": 7,
-                "max": 12
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bookshelf",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.3
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/copper_dagger",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.7
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:paper",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.8
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:experience_bottle",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:writable_book",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.6
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:rose_bush",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.5
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:globe_banner_pattern",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:ink_sac",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.8
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:chiseled_bookshelf",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 7,
+			"max": 12
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:bookshelf",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/copper_dagger",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.7
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:paper",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:experience_bottle",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:writable_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.6
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:rose_bush",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.5
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:globe_banner_pattern",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:ink_sac",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:chiseled_bookshelf",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		}]
+	}]
 }

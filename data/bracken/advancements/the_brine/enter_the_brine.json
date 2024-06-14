@@ -1,34 +1,30 @@
 {
-    "display": {
-        "title": {
-            "translate": "The Brine"
-        },
-        "description": {
-            "translate": "The outermost realm",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:nether_wart",
-            "components": {
-                "minecraft:custom_model_data": 888506
-            }
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true,
-        "background": "bracken:textures/gui/advancements/backgrounds/the_brine.png"
-    },
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:the_brine"
-                    }
-                }
-            }
-        }
-    }
+	"display": {
+		"title": {
+			"translate": "The Brine"
+		},
+		"description": {
+			"translate": "The outermost realm",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:nether_wart",
+			"components": {
+				"minecraft:custom_model_data": 888506
+			}
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true,
+		"background": "bracken:textures/gui/advancements/backgrounds/the_brine.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "bracken:the_brine"
+			}
+		}
+	}
 }

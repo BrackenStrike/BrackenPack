@@ -1,103 +1,73 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-        {
-            "rolls": {
-                "min": 10,
-                "max": 17
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:snowball",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.9
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:diamond_horse_armor",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.04
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:ice",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.3
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/diamond_greatsword",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.04
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/diamond_sabre",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.04
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/diamond_bludgeon",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.04
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/diamond_katana",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.04
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/glacium/froscuisses",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.04
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/glacium/frossabattn",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.04
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 10,
+			"max": 17
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:snowball",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.9
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:diamond_horse_armor",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:ice",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/diamond_greatsword",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/diamond_sabre",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/diamond_bludgeon",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/diamond_katana",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/glacium/froscuisses",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/glacium/frossabattn",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}]
+		}]
+	}]
 }

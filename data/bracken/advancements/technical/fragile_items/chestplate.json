@@ -1,23 +1,22 @@
 {
     "criteria": {
-        "chest_hit": {
-            "trigger": "minecraft:entity_hurt_player",
-            "conditions": {
-                "player": {
-                    "equipment": {
-                        "chest": {
-                            "components": {
-                                "minecraft:custom_data": {
-                                    "nbt": "{bp:{id:\"fragile\"}}"
-                                }
-                            }
-                        }
-                    }
+      "chest_hit": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "chest": {
+                "predicates": {
+                  "minecraft:custom_data": "{bp:{id:\"fragile\"}}"
                 }
+              }
             }
+          }
         }
+      }
     },
     "rewards": {
-        "function": "bracken:item/fragile/chest"
+      "function": "bracken:item/fragile/chest"
     }
-}
+  }
+  

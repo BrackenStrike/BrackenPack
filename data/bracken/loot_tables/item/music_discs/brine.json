@@ -1,35 +1,25 @@
 {
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:music_disc_11"
-                }
-            ],
-            "functions": [
-                {
-                    "function": "minecraft:set_lore",
-                    "entity": "this",
-                    "lore": [
-                        {
-                            "text": "Arnold Rynux - Brine",
-                            "color": "gray",
-                            "italic": false
-                        }
-                    ],
-                    "mode": "insert"
-                },
-                {
-                    "function": "minecraft:set_custom_model_data",
-                    "value": 888501
-                },
-                {
-                    "function": "minecraft:set_custom_data",
-                    "tag": "{bracken:{custom_music_disc:1b,custom_music:\"brine\"}}"
-                }
-            ]
-        }
-    ]
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:music_disc_11"
+		}],
+		"functions": [{
+			"function": "minecraft:set_lore",
+			"entity": "this",
+			"lore": [{
+				"text": "Arnold Rynux - Brine",
+				"color": "gray",
+				"italic": false
+			}],
+			"mode": "insert"
+		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888501
+		},{
+			"function": "minecraft:set_custom_data",
+			"tag": "{bracken:{custom_music_disc:1b,custom_music:\"brine\"}}"
+		}]
+	}]
 }

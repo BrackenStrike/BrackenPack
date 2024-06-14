@@ -1,63 +1,45 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-        {
-            "rolls": {
-                "min": 15,
-                "max": 25
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:experience_bottle",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.8
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/metal_apples/bejeweled_apple",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/world_soar",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.03
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:cobweb",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.6
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:ender_pearl",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 15,
+			"max": 25
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:experience_bottle",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/metal_apples/bejeweled_apple",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/world_soar",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.03
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:cobweb",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.6
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:ender_pearl",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		}]
+	}]
 }

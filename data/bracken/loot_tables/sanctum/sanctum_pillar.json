@@ -1,354 +1,256 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-        {
-            "rolls": {
-                "min": 15,
-                "max": 20
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:raw_gold_block",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 2,
-                                "max": 5
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/average_weapons/netherite_bludgeon",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/tools/unruly_compass",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/metal_apples/copper_apple",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:golden_pickaxe",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:netherite_upgrade_smithing_template",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 1
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/lightning_bolt",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.02
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/potions/saturation_potion",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": 5
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.8
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:nether_gold_ore",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 5,
-                                "max": 10
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:netherite_scrap",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:gold_block",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:lava_bucket",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:netherrack",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 5,
-                                "max": 20
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:rotten_flesh",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 5,
-                                "max": 20
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:flint",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 5,
-                                "max": 20
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:music_disc_11",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:gold_ingot",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 5,
-                                "max": 20
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:gold_nugget",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 5,
-                                "max": 20
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.5
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:ender_eye",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 5
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:obsidian",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 5,
-                                "max": 20
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:blaze_powder",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 5
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "loot_table",
-                    "value": "bracken:item/ability_books/fireball",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:blackstone",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_count",
-                            "count": {
-                                "min": 5,
-                                "max": 20
-                            }
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.3
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 15,
+			"max": 20
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:raw_gold_block",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 2,
+					"max": 5
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/netherite_bludgeon",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/tools/unruly_compass",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/metal_apples/copper_apple",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:golden_pickaxe",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_upgrade_smithing_template",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": 1
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/lightning_bolt",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.02
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/potions/saturation_potion",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": 5
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:nether_gold_ore",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 5,
+					"max": 10
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_scrap",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:gold_block",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:lava_bucket",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:netherrack",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 5,
+					"max": 20
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:rotten_flesh",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 5,
+					"max": 20
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:flint",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 5,
+					"max": 20
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:music_disc_11",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:gold_ingot",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 5,
+					"max": 20
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:gold_nugget",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 5,
+					"max": 20
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.5
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:ender_eye",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 1,
+					"max": 5
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:obsidian",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 5,
+					"max": 20
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:blaze_powder",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 1,
+					"max": 5
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/fireball",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:blackstone",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"min": 5,
+					"max": 20
+				}
+			}],
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		}]
+	}]
 }

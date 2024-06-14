@@ -12,7 +12,7 @@ execute unless entity @e[type=minecraft:wither_skeleton,tag=bp.bygone_viceroy,di
 
 effect clear @s minecraft:slowness
 
-execute as @s[tag=bp.bygone_viceroy.top,tag=bp.active] run function bracken:entities/boss/bygone_viceroy/misc/top_tick
-execute as @s[tag=bp.bygone_viceroy.bottom,tag=bp.active] run function bracken:entities/boss/bygone_viceroy/misc/bottom_tick
+execute if entity @s[tag=bp.bygone_viceroy.top,tag=bp.active] run function bracken:entities/boss/bygone_viceroy/misc/top_tick
+execute if entity @s[tag=bp.bygone_viceroy.bottom,tag=bp.active] run function bracken:entities/boss/bygone_viceroy/misc/bottom_tick
 
 return 1

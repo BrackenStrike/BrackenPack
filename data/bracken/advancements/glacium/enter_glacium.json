@@ -1,35 +1,31 @@
 {
-    "display": {
-        "title": {
-            "translate": "Glacium"
-        },
-        "description": {
-            "translate": "Bring winter clothes",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:diamond_sword",
-            "components": {
-                "minecraft:enchantment_glint_override": true,
-                "minecraft:custom_model_data": 888502
-            }
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true,
-        "background": "bracken:textures/gui/advancements/backgrounds/glacium.png"
-    },
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:glacium"
-                    }
-                }
-            }
-        }
-    }
+	"display": {
+		"title": {
+			"translate": "Glacium"
+		},
+		"description": {
+			"translate": "Bring winter clothes",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:diamond_sword",
+			"components": {
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:custom_model_data": 888502
+			}
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true,
+		"background": "bracken:textures/gui/advancements/backgrounds/glacium.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "bracken:glacium"
+			}
+		}
+	}
 }

@@ -4,7 +4,7 @@
 # Creators: Grandmaster
 ##########################################################
 
-execute as @s[tag=!bp.recall_wait] run function bracken:ability_books/recall/wait_startup
+execute if entity @s[tag=!bp.recall_wait] run function bracken:ability_books/recall/wait_startup
 
 scoreboard players add @s bp.recall_wait 2
 

@@ -18,14 +18,8 @@
     },
     "criteria": {
         "bracken:voi1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:void"
-                    }
-                }
-            }
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:void" }
         }
     },
     "requirements": [

@@ -25,7 +25,7 @@
             "conditions": {
                 "player": {
                     "location": {
-                        "structures": "bracken:pax_arc"
+                        "structures": "bracken:pax_arch"
                     }
                 }
             }

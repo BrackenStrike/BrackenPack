@@ -13,7 +13,7 @@ execute unless entity @p[distance=..99] if entity @s[tag=bp.active] run function
 
 
 
-execute as @s[tag=bp.sporangium,tag=bp.active] run function bracken:entities/boss/sporangium/misc/tick
+execute if entity @s[tag=bp.sporangium,tag=bp.active] run function bracken:entities/boss/sporangium/misc/tick
 
 
 

@@ -36,7 +36,7 @@
         "water_fog_color": 65280,
         "grass_color": 65280,
         "sky_color": 16777192,
-        "foliage_colour": 65280,
+        "foliage_color": 65280,
         "particle": {
             "options": {
                 "type": "minecraft:enchant"

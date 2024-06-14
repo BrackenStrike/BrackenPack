@@ -3,10 +3,10 @@
 # Creators: Bracken
 ##########################################################
 
-scoreboard players set @s bp.brine 10
+#scoreboard players set @s bp.brine 10
 
 # Brine Brewing
-execute if score @s bp.1_second matches 8 anchored eyes run function bracken:dimension_commands/other/brine_brewing/raycast
+execute if score @s bp.1_second matches 8 if entity @s[tag=bp.brine_brewing_active] run function bracken:dimension_commands/other/brine_brewing/start
 
 # Mobs
 execute if score @s bp.1_second matches 2 run function bracken:entities/the_brine/summon_brine_mobs

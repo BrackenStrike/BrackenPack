@@ -1,11 +1,11 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "equipment": {
-            "mainhand": {
-                "nbt": "{bp:{id:\"perrterror_gastor\"}}"
-            }
-        }
-    }
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"predicates": { "minecraft:custom_data": "{bp:{id:\"perrterror_gastor\"}}" }
+			}
+		}
+	}
 }

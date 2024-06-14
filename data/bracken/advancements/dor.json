@@ -18,14 +18,8 @@
     },
     "criteria": {
         "bracken:dor1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:dormis"
-                    }
-                }
-            }
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:dormis" }
         }
     },
     "requirements": [

@@ -4,8 +4,8 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "player": {
-                    "slots": {
-                        "weapon.mainhand": {
+                    "equipment": {
+                        "mainhand": {
                             "items": "minecraft:netherite_sword",
                             "components": {
                                 "minecraft:custom_model_data": 888502

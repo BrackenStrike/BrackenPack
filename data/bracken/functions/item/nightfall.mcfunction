@@ -15,4 +15,4 @@ execute at @s[scores={bp.jump=1..,bp.sneakcharge=1..}] run playsound minecraft:e
 
 scoreboard players set @s[scores={bp.jump=1..,bp.sneakcharge=1..}] bp.jump 0
 
-scoreboard players remove @s bp.nightfall 1
+#scoreboard players remove @s bp.nightfall 1

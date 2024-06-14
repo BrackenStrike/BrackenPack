@@ -1,0 +1,13 @@
+{
+	"criteria": { "effect_immunity": {
+		"trigger": "minecraft:effects_changed",
+		"conditions": {
+			"effects": { "minecraft:bad_omen": {} },
+			"player": [{
+				"condition": "reference",
+				"name": "bracken:effect_immunity/bad_omen"
+			}]
+		}
+	}},
+	"rewards": { "function": "bracken:player/effect_immunity/bad_omen" }
+}

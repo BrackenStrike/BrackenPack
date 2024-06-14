@@ -18,14 +18,8 @@
     },
     "criteria": {
         "bracken:omn1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "dimension": "bracken:omnidrome"
-                    }
-                }
-            }
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:omnidrome" }
         }
     },
     "requirements": [

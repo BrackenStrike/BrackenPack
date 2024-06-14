@@ -46,7 +46,7 @@
         "water_fog_color": 14606591,
         "grass_color": 11317746,
         "sky_color": 11041992,
-        "foliage_colour": 11317746,
+        "foliage_color": 11317746,
         "particle": {
             "options": {
                 "type": "minecraft:dripping_obsidian_tear"

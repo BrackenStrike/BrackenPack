@@ -3,8 +3,6 @@
 # Creators: Sulfenir
 ##########################################################
 
-execute if score @s bp.death matches 1 run function bracken:player/species/join
-
 execute if entity @s[tag=bp.automech] if function bracken:player/species/automech/tick run return 1
 execute if entity @s[tag=bp.dweller] if function bracken:player/species/dweller/tick run return 1
 execute if entity @s[tag=bp.enderling] if function bracken:player/species/enderling/tick run return 1

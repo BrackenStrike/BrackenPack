@@ -1,0 +1,13 @@
+{
+	"criteria": { "effect_immunity": {
+		"trigger": "minecraft:effects_changed",
+		"conditions": {
+			"effects": { "minecraft:hero_of_the_village": {} },
+			"player": [{
+				"condition": "reference",
+				"name": "bracken:effect_immunity/hero_of_the_village"
+			}]
+		}
+	}},
+	"rewards": { "function": "bracken:player/effect_immunity/hero_of_the_village" }
+}

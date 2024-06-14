@@ -1,6 +1,6 @@
 execute if score @s bp.hunter_morph matches 1.. run playsound minecraft:entity.zombie_villager.converted ambient @s ~ ~ ~
 execute if score @s bp.hunter_morph matches 1.. run particle large_smoke ~ ~ ~ 0 0 0 0.05 2000
-effect clear @s[team=Hunter,scores={bp.hunter_morph=1..}]
+effect clear @s[tag=bp.hunter,scores={bp.hunter_morph=1..}]
 
 
 scoreboard players set @s bp.hunter_morph 0

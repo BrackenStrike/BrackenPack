@@ -29,15 +29,16 @@ team modify Nereid color dark_blue
 team modify Villain color dark_red
 team modify Hunter color dark_green
 
-execute as @a[tag=bp.automech] run team join Automech @s
-execute as @a[tag=bp.dweller] run team join Dweller @s
-execute as @a[tag=bp.enderling] run team join Enderling @s
-execute as @a[tag=bp.faewild] run team join Faewild @s
-execute as @a[tag=bp.frostkin] run team join Frostkin @s
-execute as @a[tag=bp.human] run team join Human @s
-execute as @a[tag=bp.hunter] run team join Hunter @s
-execute as @a[tag=bp.nereid] run team join Nereid @s
-execute as @a[tag=bp.netherkin] run team join Netherkin @s
-execute as @a[tag=bp.outlander] run team join Outlander @s
-execute as @a[tag=bp.realmkeeper] run team join Realkeeper @s
-execute as @a[tag=bp.villain] run team join Villain @s
+execute unless data storage bracken:config {teams_on:true} run return 0
+team join Automech @a[tag=bp.automech]
+team join Dweller @a[tag=bp.dweller]
+team join Enderling @a[tag=bp.enderling]
+team join Faefolk @a[tag=bp.faefolk]
+team join Frostkin @a[tag=bp.frostkin]
+team join Human @a[tag=bp.human]
+team join Hunter @a[tag=bp.hunter]
+team join Nereid @a[tag=bp.nereid]
+team join Netherkin @a[tag=bp.netherkin]
+team join Outlander @a[tag=bp.outlander]
+team join Realkeeper @a[tag=bp.realmkeeper]
+team join Villain @a[tag=bp.villain]

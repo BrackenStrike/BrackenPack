@@ -1,113 +1,84 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-        {
-            "rolls": {
-                "min": 2,
-                "max": 10
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:stick",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.8
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:coal",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:oak_planks",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.3
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:tipped_arrow",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.2
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:potion_contents": "minecraft:weakness"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:iron_leggings",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:binding_curse": 1
-                            },
-                            "add": false
-                        },
-                        {
-                            "function": "set_damage",
-                            "damage": {
-                                "min": 0.28,
-                                "max": 0.33
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:iron_shovel",
-                    "conditions": [
-                        {
-                            "condition": "minecraft:random_chance",
-                            "chance": 0.1
-                        }
-                    ],
-                    "functions": [
-                        {
-                            "function": "minecraft:set_enchantments",
-                            "enchantments": {
-                                "minecraft:vanishing_curse": 1
-                            },
-                            "add": false
-                        },
-                        {
-                            "function": "set_damage",
-                            "damage": {
-                                "min": 0.18,
-                                "max": 0.23
-                            }
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 2,
+			"max": 10
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:stick",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:coal",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:oak_planks",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:tipped_arrow",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:potion_contents": "minecraft:weakness"
+				}
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:iron_leggings",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:binding_curse": 1
+				},
+				"add": false
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.28,
+					"max": 0.33
+				}
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:iron_shovel",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:vanishing_curse": 1
+				},
+				"add": false
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.18,
+					"max": 0.23
+				}
+			}]
+		}]
+	}]
 }

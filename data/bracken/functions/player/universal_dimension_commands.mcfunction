@@ -8,20 +8,19 @@
 scoreboard players remove @s[scores={bp.overworld=1..}] bp.overworld 1
 
 # dormis
-scoreboard players remove @s[scores={bp.dormis=1..}] bp.dormis 1
+#scoreboard players remove @s[scores={bp.dormis=1..}] bp.dormis 1
 
 #glacium
 execute if entity @s[scores={bp.ice=1..}] run particle minecraft:item_snowball ~ ~ ~ 0.2 0.2 0.2 0.01 1
 execute if entity @s[scores={bp.ice=5..}] run particle minecraft:cloud ~ ~ ~ 2 2 2 0.01 10
-scoreboard players remove @s[scores={bp.glacium=1..}] bp.glacium 1
+#scoreboard players remove @s[scores={bp.glacium=1..}] bp.glacium 1
 
 #omnidrome
-scoreboard players remove @s[scores={bp.omnidrome=1..}] bp.omnidrome 1
-execute if score @s bp.omnidrome matches 5 run function bracken:dimension_commands/omni_powers/trigger_commands/reset_trigger_commands
+#scoreboard players remove @s[scores={bp.omnidrome=1..}] bp.omnidrome 1
 
 #panacea
-scoreboard players remove @s[scores={bp.panacea=1..}] bp.panacea 1
-scoreboard players remove @s[scores={bp.creeper=1..}] bp.creeper 1
+#scoreboard players remove @s[scores={bp.panacea=1..}] bp.panacea 1
+#scoreboard players remove @s[scores={bp.creeper=1..}] bp.creeper 1
 
 #pax
 scoreboard players remove @s[scores={bp.pax=1..}] bp.pax 1
@@ -30,22 +29,22 @@ scoreboard players remove @s[scores={bp.portal=1..}] bp.portal 1
 tag @s[scores={bp.portal=0}] remove bp.portal_teleport
 
 # sanctum
-scoreboard players remove @s[scores={bp.sanctum=1..}] bp.sanctum 1
+#scoreboard players remove @s[scores={bp.sanctum=1..}] bp.sanctum 1
 
 # brine
-scoreboard players remove @s[scores={bp.brine=1..}] bp.brine 1
+#scoreboard players remove @s[scores={bp.brine=1..}] bp.brine 1
 
 # the_faewild
-scoreboard players remove @s[scores={bp.fae=1..}] bp.fae 1
+#scoreboard players remove @s[scores={bp.fae=1..}] bp.fae 1
 
 # underdark
-scoreboard players remove @s[scores={bp.underdark=1..}] bp.underdark 1
+#scoreboard players remove @s[scores={bp.underdark=1..}] bp.underdark 1
 
 # varskspace
-scoreboard players remove @s[scores={bp.varskspace=1..}] bp.varskspace 1
+#scoreboard players remove @s[scores={bp.varskspace=1..}] bp.varskspace 1
 
 # void
-scoreboard players remove @s[scores={bp.void=1..}] bp.void 1
+#scoreboard players remove @s[scores={bp.void=1..}] bp.void 1
 
 
 

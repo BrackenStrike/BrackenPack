@@ -1,74 +1,53 @@
 {
-    "pools": [
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "value": "bracken:item/glacium/glacium_glider"
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-                    "value": "bracken:item/portal_keys/glacium_key"
-                }
-            ]
-        },
-        {
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:light_blue_banner",
-                    "functions": [
-                        {
-                            "function": "minecraft:set_components",
-                            "components": {
-                                "minecraft:enchantment_glint_override": true,
-                                "minecraft:custom_model_data": 888502,
-                                "minecraft:banner_patterns": [
-                                    {
-                                        "color": "white",
-                                        "pattern": "rhombus"
-                                    },
-                                    {
-                                        "color": "cyan",
-                                        "pattern": "flower"
-                                    },
-                                    {
-                                        "color": "gray",
-                                        "pattern": "curly_border"
-                                    },
-                                    {
-                                        "color": "light_blue",
-                                        "pattern": "skull"
-                                    },
-                                    {
-                                        "color": "white",
-                                        "pattern": "gradient"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "rolls": {
-                "min": 0,
-                "max": 10
-            },
-            "entries": [
-                {
-                    "type": "minecraft:item",
-                    "name": "minecraft:bone"
-                }
-            ]
-        }
-    ]
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/glacium/glacium_glider"
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/portal_keys/glacium_key"
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:light_blue_banner",
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:enchantment_glint_override": true,
+					"minecraft:custom_model_data": 888502,
+					"minecraft:banner_patterns": [{
+						"color": "white",
+						"pattern": "rhombus"
+					},{
+						"color": "cyan",
+						"pattern": "flower"
+					},{
+						"color": "gray",
+						"pattern": "curly_border"
+					},{
+						"color": "light_blue",
+						"pattern": "skull"
+					},{
+						"color": "white",
+						"pattern": "gradient"
+					}]
+				}
+			}]
+		}]
+	},{
+		"rolls": {
+			"min": 0,
+			"max": 10
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:bone"
+		}]
+	}]
 }

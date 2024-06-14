@@ -1,43 +1,39 @@
 {
-    "parent": "bracken:glacium/enter_glacium",
-    "display": {
-        "title": {
-            "translate": "Go with the floe"
-        },
-        "description": {
-            "translate": "Ride a boat in the glacial mass biome",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:birch_boat"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "bracken:glacium/boat1": {
-            "trigger": "minecraft:player_interacted_with_entity",
-            "conditions": {
-                "entity": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:boat",
-                            "location": {
-                                "biomes": "bracken:glacium/glacial_mass"
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:glacium/boat1"
-        ]
-    ]
+	"parent": "bracken:glacium/enter_glacium",
+	"display": {
+		"title": {
+			"translate": "Go with the floe"
+		},
+		"description": {
+			"translate": "Ride a boat in the glacial mass biome",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:birch_boat"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:glacium/boat1": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "minecraft:boat",
+						"location": {
+							"biomes": "bracken:glacium/glacial_mass"
+						}
+					}
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:glacium/boat1"
+	]]
 }
