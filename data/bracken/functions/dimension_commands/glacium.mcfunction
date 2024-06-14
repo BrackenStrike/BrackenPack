@@ -6,9 +6,9 @@
 #scoreboard players set @s bp.glacium 10
 
 # Effects
-execute if predicate bracken:in_water unless predicate bracken:effect_immunity/wither run effect give @s[tag=!bp.frostkin] minecraft:wither 2 0 true
+execute if predicate bracken:in_water run effect give @s[predicate=!bracken:effect_immunity/wither] minecraft:wither 2 0 true
 execute if score @s bp.1_second matches 15 run function bracken:dimension_commands/other/no_fire_fill_commands
-execute unless entity @s[predicate=bracken:light/at_least_5] positioned over ocean_floor if entity @s[predicate=bracken:rain,dy=999] run effect give @s[tag=!bp.frostkin] minecraft:wither 1 1 false
+execute unless entity @s[predicate=bracken:light/at_least_5] positioned over world_surface if entity @s[predicate=bracken:rain,dy=999] run effect give @s[predicate=!bracken:effect_immunity/wither] minecraft:wither 1 1 false
 
 
 # Mobs

@@ -66,7 +66,7 @@
         "water_color": 0,
         "water_fog_color": 0,
         "grass_color": 16777215,
-        "foliage_colour": 16777215,
+        "foliage_color": 16777215,
         "additions_sound": {
             "sound": "minecraft:ambient.basalt_deltas.mood",
             "tick_chance": 0.001

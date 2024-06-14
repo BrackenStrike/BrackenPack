@@ -59,7 +59,7 @@
         "water_fog_color": 5902125,
         "grass_color": 0,
         "sky_color": 7943472,
-        "foliage_colour": 0,
+        "foliage_color": 0,
         "mood_sound": {
             "sound": "minecraft:entity.zombie_villager.converted",
             "tick_delay": 1000,

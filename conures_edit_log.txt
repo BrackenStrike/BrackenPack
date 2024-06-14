@@ -1,3 +1,18 @@
+INTENDED EDITS FOR 1.21
+-----------------------
+player/scoreboard_commands/ -> player/periodic_commands/ and all functions are checked against a periodic_ticks predicate
+	Remove the scoreboard objectives that governed these functions
+
+Replace many instances of bp.1_second with periodic ticks
+
+Implement effect-permanence system (minecraft's desync bug is now fixed)
+
+Give attributes generic.water_movement_efficiency and player.submered_mining_speed to Nereids
+
+
+
+
+
 CONURE'S EDITS V7
 -----------------
 I now have GitHub Desktop which means I don't have to keep track of every single edited file so closely anymore. From now on, edit descriptions will be more general and human-readable
