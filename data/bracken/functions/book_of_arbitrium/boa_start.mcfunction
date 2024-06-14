@@ -12,4 +12,3 @@ execute if predicate bracken:item/boa_mainhand run function bracken:book_of_arbi
 execute if data storage bracken:config {bsb_on: true} if predicate bracken:item/species_book_mainhand unless entity @s[tag=bp.book_used] unless entity @s[scores={bp.arb_book=1..}] run function bracken:book_of_arbitrium/enable
 
 function bracken:book_of_arbitrium/triggers
-
