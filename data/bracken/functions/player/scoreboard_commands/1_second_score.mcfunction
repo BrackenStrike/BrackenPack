@@ -17,12 +17,6 @@ function bracken:book_of_arbitrium/boa_start
 # the_nether
 scoreboard players set @s[predicate=bracken:item/wearing_wither_skull] bp.wither_skull 22
 
-# panacea
-#scoreboard players set @s[predicate=bracken:item/wearing_creeper_head] bp.creeper 22
-
-# Nightfall Glider
-#scoreboard players set @s[predicate=bracken:item/nightfall] bp.nightfall 22
-
 # poison sword
 #scoreboard players set @s[predicate=bracken:item/poison_sword_mainhand] bp.poison 22
 #scoreboard players set @s[predicate=bracken:item/poison_sword_offhand] bp.poison 22

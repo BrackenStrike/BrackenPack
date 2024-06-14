@@ -3,6 +3,8 @@
 # Creators: Sulfenir and Grandmaster
 ##########################################################
 
+scoreboard players set @s bp.coas 0
+
 execute if predicate bracken:ability_books/adamantine_will run return run function bracken:ability_books/adamantine_will/checks
 execute if predicate bracken:ability_books/crimson_spark run return run function bracken:ability_books/crimson_spark/checks
 execute if predicate bracken:ability_books/fang_attack run return run function bracken:ability_books/fang_attack/checks
