@@ -5,6 +5,7 @@ This pack is made awesome by the following awesome people...
 
 DEVELOPMENT TEAM
 Arnold_Rynux
+Conure
 Dr. C
 Freddy64merpro
 Grandmaster
