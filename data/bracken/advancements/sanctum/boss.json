@@ -1,31 +1,24 @@
 {
-  "display": {
-      "icon": {
-        "item": "minecraft:ender_eye"
-      },
-      "title": {
-        "translate": "Ruination Initiation"
-      },
-      "description": {
-        "translate": "Awaken the program with an eye of ender ",
-        "color": "green"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
-  },
-  "parent": "bracken:sanctum/vault",
-  "criteria": {
-      "bracken:sanctum/boss1": {
-        "trigger": "minecraft:impossible",
-        "conditions": {}
-      }
-  },
-  
-  "requirements": [
-      [
-        "bracken:sanctum/boss1"
-      ]
-  ]
+    "display": {
+        "icon": {
+            "id": "minecraft:ender_eye"
+        },
+        "title": {
+            "translate": "Ruination Initiation"
+        },
+        "description": {
+            "translate": "Awaken the program with an eye of ender ",
+            "color": "green"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "bracken:sanctum/vault",
+    "criteria": {
+        "discovered": {
+            "trigger": "minecraft:impossible"
+        }
+    }
 }

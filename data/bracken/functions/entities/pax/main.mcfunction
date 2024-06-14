@@ -8,3 +8,5 @@ execute if entity @s[type=minecraft:marker,tag=bp.launchpad] run function bracke
 
 #CROFTER
 execute if entity @e[type=giant,tag=bp.crofter] run function bracken:entities/pax/crofter
+
+return 1

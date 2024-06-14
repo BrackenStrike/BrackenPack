@@ -1,8 +1,8 @@
 {
-  "type": "minecraft:forest_rock",
-  "config": {
-    "state": {
-      "Name": "minecraft:ciseled_stone_bricks"
+    "type": "minecraft:forest_rock",
+    "config": {
+        "state": {
+            "Name": "minecraft:chiseled_stone_bricks"
+        }
     }
-  }
 }

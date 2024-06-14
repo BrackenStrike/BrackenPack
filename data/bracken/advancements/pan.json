@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:moss_block"
+            "id": "minecraft:moss_block"
         },
         "frame": "task",
         "show_toast": true,

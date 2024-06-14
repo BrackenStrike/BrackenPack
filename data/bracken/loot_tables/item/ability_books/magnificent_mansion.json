@@ -1,43 +1,53 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "Magnificent Mansion",
-                "color": "light_purple",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "consumes 20 levels to initialize",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "translate": "Magnificent Mansion",
+                        "color": "yellow",
+                        "italic": false
+                    }
                 },
                 {
-                  "translate": "consumes 2 levels after initialization",
-                  "color": "gray",
-                  "italic": false
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                        {
+                            "translate": "consumes 20 levels to initialize",
+                            "color": "gray",
+                            "italic": false
+                        },
+                        {
+                            "translate": "consumes 2 levels after initialization",
+                            "color": "gray",
+                            "italic": false
+                        }
+                    ],
+                    "mode": "insert"
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "value": 888519
+                },
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:enchantment_glint_override": true
+                    }
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{bp:{id:\"magnificent_mansion\"}}"
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"magnificent_mansion\"},CustomModelData:888519,Enchantments:[{}]}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
-

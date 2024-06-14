@@ -1,33 +1,55 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:leather_chestplate",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{Amount:0.2d,AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Operation:2,Slot:\"chest\",UUID:[I;-1556938542,-381664793,-1102686690,-60608705]}],CustomModelData:888502,display:{color:1486853}}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Vitality Tunic",
-                  "color": "white",
-                  "italic": false
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "Vitality Tunic",
+                                "color": "white",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_custom_model_data",
+                            "value": 888502
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.max_health",
+                                    "name": "a",
+                                    "amount": 2,
+                                    "operation": "add_value",
+                                    "slot": "chest"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:dyed_color": {
+                                    "rgb": 505095
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.48,
+                                "max": 0.93
+                            }
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": []
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

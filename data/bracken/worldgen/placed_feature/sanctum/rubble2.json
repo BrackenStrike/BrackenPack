@@ -1,16 +1,50 @@
 {
-    "feature": "bracken:sanctum/rubble",
+    "feature": "bracken:sanctum/rubble2",
     "placement": [
         {
-            "type": "count",
-            "count": 30
-        },
-        {
-            "type": "minecraft:in_square"
-        },
-        {
             "type": "minecraft:count_on_every_layer",
-            "count": 1
+            "count": 125
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:replaceable"
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "blocks": [
+                            "minecraft:cracked_deepslate_bricks",
+                            "minecraft:clay",
+                            "minecraft:stone"
+                        ]
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "blocks": [
+                                "minecraft:cracked_polished_blackstone_bricks",
+                                "minecraft:white_concrete_powder",
+                                "minecraft:deepslate_bricks",
+                                "minecraft:obsidian"
+                            ]
+                        }
+                    }
+                ]
+            }
         },
         {
             "type": "minecraft:biome"

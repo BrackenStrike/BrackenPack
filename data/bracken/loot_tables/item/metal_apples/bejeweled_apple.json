@@ -1,35 +1,41 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:apple",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888518}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Bejeweled Apple",
-                  "color": "aqua",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple"
                 }
-              ]
-            },
-            
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"bejeweled_apple\"}}"
-            }
-          ]
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "translate": "Bejeweled Apple",
+                        "color": "aqua",
+                        "italic": false
+                    }
+                },
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:food": {
+                            "nutrition": 4,
+                            "saturation": 9.6,
+                            "can_always_eat": true
+                        }
+                    }
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "value": 888518
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{bp:{id:\"bejeweled_apple\"}}"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
-

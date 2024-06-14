@@ -8,8 +8,11 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:888517}"
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_model_data": 888517
+            }
         },
         "frame": "task",
         "show_toast": false,
@@ -18,7 +21,7 @@
         "background": "bracken:textures/gui/advancements/backgrounds/omnidrome.png"
     },
     "criteria": {
-        "bracken:omnidrome/omni2": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -28,10 +31,5 @@
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:omnidrome/omni2"
-        ]
-    ]
+    }
 }

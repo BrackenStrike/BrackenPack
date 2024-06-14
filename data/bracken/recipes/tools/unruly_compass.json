@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " # ",
+        "#/#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:copper_ingot"
+        },
+        "/": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "id": "minecraft:apple",
+        "components": {
+            "minecraft:custom_name": "{\"translate\":\"Unruly Compass\",\"color\":white,\"italic\":false}",
+            "minecraft:custom_model_data": 888519,
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_data": {
+                "nbt": "{bp:{id:\"unruly_compass\"}}"
+            }
+        }
+    }
+}

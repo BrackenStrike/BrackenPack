@@ -1,18 +1,12 @@
 {
-  "type": "minecraft:netherrack_replace_blobs",
-  "config": {
-    "target": {
-      "Name": "minecraft:bedrock"
-    },
-    "state": {
-      "Name": "minecraft:infested_stone"
-    },
-    "radius": {
-      "value": {
-        "min_inclusive": 1,
-        "max_inclusive": 2
-      },
-      "type": "minecraft:uniform"
+    "type": "minecraft:netherrack_replace_blobs",
+    "config": {
+        "target": {
+            "Name": "minecraft:bedrock"
+        },
+        "state": {
+            "Name": "minecraft:infested_stone"
+        },
+        "radius": 1
     }
-  }
 }

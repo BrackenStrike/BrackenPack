@@ -1,30 +1,24 @@
 {
-  "parent": "bracken:panacea/sporangium",
-  "display": {
-    "title": {
-      "translate": "Hunt a Legend"
+    "parent": "bracken:panacea/sporangium",
+    "display": {
+        "title": {
+            "translate": "Hunt a Legend"
+        },
+        "description": {
+            "translate": "Damage the Sporangium until it enters its final form",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:slime_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     },
-    "description": {
-      "translate": "Damage the Sporangium until it enters its final form",
-      "color": "green"
-    },
-    "icon": {
-      "item": "minecraft:slime_block"
-    },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "bracken:panacea/finalform1": {
-        "trigger": "minecraft:impossible"
+    "criteria": {
+        "discovered": {
+            "trigger": "minecraft:impossible"
+        }
     }
-},
-  "requirements": [
-    [
-      "bracken:panacea/finalform1"
-    ]
-  ]
 }
-

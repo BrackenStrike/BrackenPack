@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:powder_snow_bucket"
+            "id": "minecraft:powder_snow_bucket"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:pax/cloud_biome1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biome": "bracken:pax/cloud_canopy"
+                        "biomes": "bracken:pax/cloud_canopy"
                     }
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:pax/cloud_biome1"
-        ]
-    ]
+    }
 }

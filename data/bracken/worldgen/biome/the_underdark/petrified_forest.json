@@ -1,170 +1,169 @@
 {
-  "spawners": {
-    "water_ambient": [],
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "misc": [],
-    "water_creature": [],
-    "axolotls": [
-      {
-        "type": "minecraft:axolotl",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      }
-    ],
-    "creature": [{
-      "type": "minecraft:donkey",
-      "weight": 5,
-      "minCount": 1,
-      "maxCount": 3
-    }],
-    "monster": [
-      {
-        "type": "minecraft:zombie_villager",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:skeleton",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:silverfish",
-        "weight": 25,
-        "minCount": 1,
-        "maxCount": 3
-      },
-      {
-        "type": "minecraft:cave_spider",
-        "weight": 5,
-        "minCount": 2,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:spider",
-        "weight": 15,
-        "minCount": 2,
-        "maxCount": 6
-      }
-    ]
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
-  },
-  "features": [
-    [],
-    [
-      "minecraft:lake_lava_surface",
-      "minecraft:lake_lava_underground"
-    ],
-    [
-      "bracken:underdark/petrified_ground",
-      "bracken:underdark/dead_tree"
-    ],
-    [
-      "bracken:underdark/tree"
-    ],
-    [],
-    [],
-    [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:disk_sand",
-      "minecraft:ore_gold_extra",
-      "bracken:underdark/emerald_ore",
-      "bracken:underdark/diamond_ore",
-      "bracken:underdark/magma_lower",
-      "bracken:underdark/bedrock",
-      "bracken:underdark/bedrock_opening",
-      "bracken:underdark/diorite_opening",
-      "bracken:underdark/lichen",
-      "bracken:underdark/blackstone_small",
-      "bracken:underdark/blackstone_big",
-      "minecraft:patch_tall_grass_2",
-      "bracken:underdark/smooth_basalt"
-    ],
-    [
-      "minecraft:ore_infested"
-    ],
-    [],
-    [],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "sky_color": 8600895,
-    "fog_color": 5786701,
-    "water_color": 8166054,
-    "water_fog_color": 6383526,
-    "grass_color": 16770224,
-    "foliage_colour": 14078891,
-    "particle": {
-      "options": {
-        "type": "minecraft:mycelium"
-      },
-      "probability": 0.118093334
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [
+            {
+                "type": "minecraft:bat",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "misc": [],
+        "water_creature": [],
+        "axolotls": [
+            {
+                "type": "minecraft:axolotl",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 6
+            }
+        ],
+        "creature": [
+            {
+                "type": "minecraft:donkey",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 3
+            }
+        ],
+        "monster": [
+            {
+                "type": "minecraft:zombie_villager",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:skeleton",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:creeper",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:silverfish",
+                "weight": 25,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:cave_spider",
+                "weight": 5,
+                "minCount": 2,
+                "maxCount": 6
+            },
+            {
+                "type": "minecraft:spider",
+                "weight": 15,
+                "minCount": 2,
+                "maxCount": 6
+            }
+        ]
     },
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
     },
-    "additions_sound": {
-      "sound": "bracken:underdark_ambient_wind",
-      "tick_chance": 0.0001
+    "features": [
+        [],
+        [
+            "minecraft:lake_lava_surface",
+            "minecraft:lake_lava_underground"
+        ],
+        [
+            "bracken:underdark/petrified_ground",
+            "bracken:underdark/dead_tree"
+        ],
+        [
+            "bracken:underdark/tree"
+        ],
+        [],
+        [],
+        [
+            "minecraft:ore_dirt",
+            "minecraft:ore_gravel",
+            "minecraft:ore_diorite_upper",
+            "minecraft:ore_diorite_lower",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small",
+            "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
+            "minecraft:ore_redstone",
+            "minecraft:ore_redstone_lower",
+            "minecraft:ore_diamond",
+            "minecraft:ore_diamond_large",
+            "minecraft:ore_diamond_buried",
+            "minecraft:ore_lapis",
+            "minecraft:ore_lapis_buried",
+            "minecraft:disk_sand",
+            "minecraft:ore_gold_extra",
+            "bracken:underdark/emerald_ore",
+            "bracken:underdark/diamond_ore",
+            "bracken:underdark/magma_lower",
+            "bracken:underdark/bedrock",
+            "bracken:underdark/bedrock_opening",
+            "bracken:underdark/diorite_opening",
+            "bracken:underdark/lichen",
+            "bracken:underdark/blackstone_small",
+            "bracken:underdark/blackstone_big",
+            "minecraft:patch_tall_grass_2",
+            "bracken:underdark/smooth_basalt"
+        ],
+        [
+            "minecraft:ore_infested"
+        ],
+        [],
+        [],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "sky_color": 8600895,
+        "fog_color": 5786701,
+        "water_color": 8166054,
+        "water_fog_color": 6383526,
+        "grass_color": 16770224,
+        "foliage_colour": 14078891,
+        "particle": {
+            "options": {
+                "type": "minecraft:mycelium"
+            },
+            "probability": 0.118093334
+        },
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "additions_sound": {
+            "sound": "minecraft:ambient.basalt_deltas.mood",
+            "tick_chance": 0.0001
+        },
+        "music": {
+            "sound": "minecraft:music.nether.basalt_deltas",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
     },
-    "music": {
-      "sound": "minecraft:music.nether.basalt_deltas",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
-  },
-  "has_precipitation": false
+    "has_precipitation": false
 }

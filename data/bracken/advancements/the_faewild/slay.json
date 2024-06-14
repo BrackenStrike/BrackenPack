@@ -1,39 +1,66 @@
 {
-  "parent": "bracken:the_faewild/emperor",
-  "display": {
-    "title": {
-      "translate": "Cried to Dream Again"
+    "parent": "bracken:the_faewild/emperor",
+    "display": {
+        "title": {
+            "translate": "Cried to Dream Again"
+        },
+        "description": {
+            "translate": "Overthrow the Emperor!",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:purple_banner",
+            "components": {
+                "minecraft:banner_patterns": [
+                    {
+                        "pattern": "minecraft:half_horizontal",
+                        "color": "black"
+                    },
+                    {
+                        "pattern": "minecraft:half_horizontal_bottom",
+                        "color": "black"
+                    },
+                    {
+                        "pattern": "minecraft:straight_cross",
+                        "color": "purple"
+                    },
+                    {
+                        "pattern": "minecraft:square_top_left",
+                        "color": "purple"
+                    },
+                    {
+                        "pattern": "minecraft:square_bottom_right",
+                        "color": "purple"
+                    },
+                    {
+                        "pattern": "minecraft:border",
+                        "color": "purple"
+                    }
+                ]
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     },
-    "description": {
-      "translate": "Overthrow the Emperor!",
-      "color": "green"
-    },
-    "icon": {
-      "item": "minecraft:purple_banner",
-      "nbt": "{BlockEntityTag:{Base:10,Patterns:[{Color:15,Pattern:\"hh\"},{Color:15,Pattern:\"hhb\"},{Color:10,Pattern:\"sc\"},{Color:10,Pattern:\"tl\"},{Color:10,Pattern:\"br\"},{Color:10,Pattern:\"bo\"}]} }"
-  },
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "bracken:the_faewild/slay1": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:skeleton",
-          "nbt": "{DeathLootTable:\"bracken:entity/boss/fae_emperor\"}",
-          "location": {
-            "dimension": "bracken:the_faewild"
-          }
+    "criteria": {
+        "bracken:the_faewild/slay1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:skeleton",
+                    "nbt": "{DeathLootTable:\"bracken:entity/boss/fae_emperor\"}",
+                    "location": {
+                        "dimension": "bracken:the_faewild"
+                    }
+                }
+            }
         }
-      }
-    }
-},
-  "requirements": [
-    [
-      "bracken:the_faewild/slay1"
+    },
+    "requirements": [
+        [
+            "bracken:the_faewild/slay1"
+        ]
     ]
-  ]
 }

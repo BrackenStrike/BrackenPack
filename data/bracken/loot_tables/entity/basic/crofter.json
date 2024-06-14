@@ -1,31 +1,28 @@
 {
-  "pools": [
-    
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/dormis_key"
-        }
-      ],
-      "conditions": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/portal_keys/dormis_key"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.9
+                }
+            ]
+        },
         {
-          "condition": "minecraft:random_chance",
-          "chance": 0.9
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pink_tulip"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pink_tulip"
-        }
-      ]
-    }
-    
-    
-  ]
+    ]
 }

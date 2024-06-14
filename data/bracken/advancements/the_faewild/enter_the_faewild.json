@@ -8,7 +8,10 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:twisting_vines"
+            "id": "minecraft:apple",
+            "components": {
+                "minecraft:custom_model_data": 888518
+            }
         },
         "frame": "task",
         "show_toast": false,
@@ -17,7 +20,7 @@
         "background": "bracken:textures/gui/advancements/backgrounds/the_faewild.png"
     },
     "criteria": {
-        "bracken:the_faewild/fae1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -27,10 +30,5 @@
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_faewild/fae1"
-        ]
-    ]
+    }
 }

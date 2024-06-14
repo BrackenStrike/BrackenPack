@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:sculk_vein"
+            "id": "minecraft:sculk_vein"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:sanctum/dune_biome1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biome": "bracken:sanctum/voidship_harbor"
+                        "biomes": "bracken:sanctum/voidship_harbor"
                     }
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:sanctum/dune_biome1"
-        ]
-    ]
+    }
 }

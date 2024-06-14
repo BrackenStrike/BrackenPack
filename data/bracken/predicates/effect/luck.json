@@ -1,9 +1,9 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "effects": {
-      "minecraft:luck": {}
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": {
+            "minecraft:luck": {}
+        }
     }
-  }
 }

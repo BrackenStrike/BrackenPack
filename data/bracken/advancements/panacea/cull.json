@@ -9,8 +9,10 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:netherite_axe",
-            "nbt": "{CustomModelData:888501}"
+            "id": "minecraft:netherite_axe",
+            "components": {
+                "minecraft:custom_model_data": 888501
+            }
         },
         "frame": "task",
         "show_toast": true,
@@ -37,7 +39,9 @@
                         "items": [
                             "minecraft:netherite_axe"
                         ],
-                        "nbt": "{CustomModelData:888501}"
+                        "components": {
+                            "minecraft:custom_model_data": 888501
+                        }
                     }
                 ]
             }

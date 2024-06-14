@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:magma_block"
+            "id": "minecraft:magma_block"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,26 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:the_underdark/eroded1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:the_underdark/eroded_basin"
-                            }
-                        }
+                "player": {
+                    "location": {
+                        "biomes": "bracken:the_underdark/eroded_basin"
                     }
-                ]
+                }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_underdark/eroded1"
-        ]
-    ]
+    }
 }

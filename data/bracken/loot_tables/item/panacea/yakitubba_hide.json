@@ -1,41 +1,43 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:apple",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888502}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Yakitubba Hide",
-                "color": "white",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "text": "Flesh of madness.",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple"
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"yakitubba_hide\"}}"
-            }
-          ]
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "text": "Yakitubba Hide",
+                        "color": "white",
+                        "italic": false
+                    }
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "text": "Flesh of madness.",
+                            "color": "gray",
+                            "italic": false
+                        }
+                    ],
+                    "mode": "insert"
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "value": 888502
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{bp:{id:\"yakitubba_hide\"}}"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -9,7 +9,8 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:coal"},
+            "id": "minecraft:coal"
+        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

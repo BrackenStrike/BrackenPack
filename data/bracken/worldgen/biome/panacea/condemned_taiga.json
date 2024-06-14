@@ -1,82 +1,72 @@
 {
-  "spawners": {
-    "water_ambient": [
-      
-    ],
-    "ambient": [
-      
-    ],
-    "misc": [],
-    "water_creature": [
-      
-    ],
-    "creature": [
-      
-    ]
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": ["bracken:cave",
-    "bracken:canyon"
-  ]
-  },
-  "features": [
-    [
-      "minecraft:small_basalt_columns"    ],
-    [
-    ],
-    [
-      "minecraft:basalt_blobs",
-      "minecraft:blackstone_blobs",
-      "minecraft:spring_delta",
-      "minecraft:patch_fire",
-      "bracken:panacea/crater",
-
-
-      "minecraft:ore_magma"
-    ],
-    ["bracken:panacea/lavalake"],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": []
     },
-    "fog_color": 0,
-    "water_color": 0,
-    "water_fog_color": 1179648,
-    "grass_color": 3080192,
-    "sky_color": 7254527,
-    "foliage_color": 4351774,
-    "particle": {
-      "options": {
-        "type": "minecraft:large_smoke"
-      },
-      "probability": 0.004428
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
     },
-    "additions_sound": {
-      "sound": "minecraft:entity.parrot.ambient",
-      "tick_chance": 0.0002
+    "features": [
+        [
+            "minecraft:small_basalt_columns"
+        ],
+        [],
+        [
+            "minecraft:basalt_blobs",
+            "minecraft:blackstone_blobs",
+            "minecraft:spring_delta",
+            "minecraft:patch_fire",
+            "bracken:panacea/crater",
+            "minecraft:ore_magma"
+        ],
+        [
+            "bracken:panacea/lavalake"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "fog_color": 0,
+        "water_color": 0,
+        "water_fog_color": 1179648,
+        "grass_color": 3080192,
+        "sky_color": 7254527,
+        "foliage_color": 4351774,
+        "particle": {
+            "options": {
+                "type": "minecraft:large_smoke"
+            },
+            "probability": 0.004428
+        },
+        "additions_sound": {
+            "sound": "minecraft:entity.parrot.ambient",
+            "tick_chance": 0.0002
+        },
+        "music": {
+            "sound": "minecraft:music.creative",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
     },
-    "music": {
-      "sound": "minecraft:music.creative",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
-  },
-  "has_precipitation": false
+    "has_precipitation": false
 }

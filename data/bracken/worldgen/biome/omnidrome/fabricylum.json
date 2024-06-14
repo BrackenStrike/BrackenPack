@@ -1,82 +1,79 @@
 {
-  "spawners": {
-    "water_ambient": [],
-    "ambient": [],
-    "misc": [],
-    "water_creature": [],
-    "creature": [],
-    "monster": []
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
-  },
-  "features": [
-    [],
-    [
-      "bracken:omnidrome/omni_pool"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "bracken:omnidrome/obsidian_blobs",
-      "bracken:omnidrome/glass",
-      "bracken:omnidrome/obsidian",
-      "bracken:omnidrome/cyber_tree1"
-    ],
-    [],
-    [],
-    [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "fog_color": 65280,
-    "water_color": 65280,
-    "water_fog_color": 65280,
-    "grass_color": 65280,
-    "sky_color": 16777192,
-    "foliage_colour": 65280,
-    "particle": {
-      "options": {
-        "type": "minecraft:enchant"
-      },
-      "probability": 0.00918093334
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [],
+        "monster": []
     },
-    "mood_sound": {
-      "sound": "minecraft:block.respawn_anchor.ambient",
-      "tick_delay": 60000,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
     },
-    "additions_sound": {
-      "sound": "minecraft:block.beacon.ambient",
-      "tick_chance": 0.001
+    "features": [
+        [],
+        [
+            "bracken:omnidrome/omni_pool"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small",
+            "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
+            "minecraft:ore_redstone",
+            "minecraft:ore_redstone_lower",
+            "bracken:omnidrome/obsidian_blobs",
+            "bracken:omnidrome/glass",
+            "bracken:omnidrome/obsidian",
+            "bracken:omnidrome/cyber_tree1"
+        ],
+        [],
+        [],
+        [
+            "minecraft:spring_water",
+            "minecraft:spring_lava"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "fog_color": 65280,
+        "water_color": 65280,
+        "water_fog_color": 65280,
+        "grass_color": 65280,
+        "sky_color": 16777192,
+        "foliage_colour": 65280,
+        "particle": {
+            "options": {
+                "type": "minecraft:enchant"
+            },
+            "probability": 0.00918093334
+        },
+        "mood_sound": {
+            "sound": "minecraft:block.respawn_anchor.ambient",
+            "tick_delay": 60000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "additions_sound": {
+            "sound": "minecraft:block.beacon.ambient",
+            "tick_chance": 0.001
+        },
+        "music": {
+            "sound": "minecraft:music.dragon",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
     },
-    "music": {
-      "sound": "minecraft:music.dragon",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
-  },
-  "has_precipitation": false
+    "has_precipitation": false
 }

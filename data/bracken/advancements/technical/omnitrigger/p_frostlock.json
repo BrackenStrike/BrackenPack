@@ -3,18 +3,14 @@
         "bracken:panacea/horn1": {
             "trigger": "minecraft:using_item",
             "conditions": {
-              "item": {
-                "item": "minecraft:carrot_on_a_stick",
-                "nbt": "{CustomModelData:888512}"
-              }
+                "item": {
+                    "item": "minecraft:carrot_on_a_stick",
+                    "nbt": "{CustomModelData:888512}"
+                }
             }
-          }
+        }
     },
     "rewards": {
         "function": "bracken:player/omnitrigger/p_frostlock"
-      }
+    }
 }
-
-
-
-

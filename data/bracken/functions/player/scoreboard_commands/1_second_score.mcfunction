@@ -36,4 +36,5 @@ scoreboard players set @s[predicate=bracken:item/spite_offhand] bp.spite 3
 scoreboard players remove @s[scores={bp.spite=1..}] bp.spite 2
 
 # varsk effect
-execute at @s[tag=bp.sparked] run particle entity_effect ~ ~1 ~ 0 0.5 0 1 2 normal
+execute at @s[tag=bp.sparked] run particle entity_effect{color:[0.5,1.0,1.0,1.0]} ~ ~1 ~ 0 0.5 0 1 2 normal
+

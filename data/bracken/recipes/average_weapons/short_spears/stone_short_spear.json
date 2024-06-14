@@ -1,0 +1,76 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "  #",
+        " / ",
+        "/  "
+    ],
+    "key": {
+        "/": {
+            "item": "minecraft:wooden_sword"
+        },
+        "#": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "id": "minecraft:stone_sword",
+        "components": {
+            "minecraft:max_damage": 59,
+            "minecraft:custom_name": "{\"translate\":\"Stone Short Spear\",\"color\":white,\"italic\":false}",
+            "minecraft:custom_model_data": 888520,
+            "minecraft:lore": [
+                "{\"translate\":\"\",\"color\":white,\"italic\":false}",
+                "{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
+                "{\"translate\":\" 5 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+                "{\"translate\":\" 1 Attack Speed\",\"color\":dark_green,\"italic\":false}",
+                "{\"translate\":\" 2 Attack Range\",\"color\":dark_green,\"italic\":false}"
+            ],
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.attack_speed",
+                        "uuid": [
+                            1647767269,
+                            -163166104,
+                            -1453368689,
+                            -1263221871
+                        ],
+                        "name": "aspeed",
+                        "amount": -3,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:generic.attack_damage",
+                        "uuid": [
+                            686304587,
+                            2009351061,
+                            -2104117110,
+                            -356820480
+                        ],
+                        "name": "adamage",
+                        "amount": 4,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    },
+                    {
+                        "type": "minecraft:player.entity_interaction_range",
+                        "uuid": [
+                            1357100067,
+                            -67550399,
+                            -1618870253,
+                            -866383811
+                        ],
+                        "name": "rdamage",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ],
+                "show_in_tooltip": false
+            }
+        }
+    }
+}

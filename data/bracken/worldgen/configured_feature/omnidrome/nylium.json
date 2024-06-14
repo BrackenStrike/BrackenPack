@@ -1,18 +1,12 @@
 {
-  "type": "minecraft:netherrack_replace_blobs",
-  "config": {
-    "target": {
-      "Name": "minecraft:obsidian"
-    },
-    "state": {
-      "Name": "minecraft:crimson_nylium"
-    },
-    "radius": {
-      "value": {
-        "min_inclusive": 1,
-        "max_inclusive": 2
-      },
-      "type": "minecraft:uniform"
+    "type": "minecraft:netherrack_replace_blobs",
+    "config": {
+        "target": {
+            "Name": "minecraft:obsidian"
+        },
+        "state": {
+            "Name": "minecraft:crimson_nylium"
+        },
+        "radius": 2
     }
-  }
 }

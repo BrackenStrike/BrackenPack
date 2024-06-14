@@ -1,46 +1,77 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:elytra",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:-2,Operation:0,UUID:[I;1872410414,-61781409,-1794531078,661849160],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;1872410414,-61781409,-1794531078,661849160],Slot:\"chest\"}],CustomModelData:888502}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Nightfall",
-                  "color": "aqua",
-                  "italic": false
+                    "type": "item",
+                    "name": "minecraft:elytra",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "generic.max_health",
+                                        "slot": "chest",
+                                        "uuid": [
+                                            1872410414,
+                                            -61781409,
+                                            -1794531078,
+                                            661849160
+                                        ],
+                                        "name": "generic.max_health",
+                                        "amount": -2,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "generic.attack_damage",
+                                        "slot": "chest",
+                                        "uuid": [
+                                            1872410414,
+                                            -61781409,
+                                            -1794531078,
+                                            661849160
+                                        ],
+                                        "name": "generic.attack_damage",
+                                        "amount": 2,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "minecraft:custom_model_data": 888502
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "Nightfall",
+                                    "color": "aqua",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "It returned from the Void different...",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "insert"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.88,
+                                "max": 0.93
+                            }
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "translate": "It returned from the Void different...",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.88,
-                "max": 0.93
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

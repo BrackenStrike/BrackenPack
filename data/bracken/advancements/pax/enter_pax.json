@@ -8,7 +8,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:golden_apple"
+            "id": "minecraft:golden_apple"
         },
         "frame": "task",
         "show_toast": false,
@@ -17,7 +17,7 @@
         "background": "bracken:textures/gui/advancements/backgrounds/pax.png"
     },
     "criteria": {
-        "bracken:pax/pax2": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -27,10 +27,5 @@
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:pax/pax2"
-        ]
-    ]
+    }
 }

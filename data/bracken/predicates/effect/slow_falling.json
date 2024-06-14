@@ -1,9 +1,9 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "effects": {
-      "minecraft:slow_falling": {}
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "effects": {
+            "minecraft:slow_falling": {}
+        }
     }
-  }
 }

@@ -8,8 +8,11 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:diamond_sword",
-            "nbt": "{CustomModelData:888502,Enchantments:[{}]}"
+            "id": "minecraft:diamond_sword",
+            "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_model_data": 888502
+            }
         },
         "frame": "task",
         "show_toast": false,
@@ -18,7 +21,7 @@
         "background": "bracken:textures/gui/advancements/backgrounds/glacium.png"
     },
     "criteria": {
-        "bracken:glacium/gla1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -28,10 +31,5 @@
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:glacium/gla1"
-        ]
-    ]
+    }
 }

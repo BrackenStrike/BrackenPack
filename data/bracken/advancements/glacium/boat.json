@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:birch_boat"
+            "id": "minecraft:birch_boat"
         },
         "frame": "task",
         "show_toast": true,
@@ -27,7 +27,7 @@
                         "predicate": {
                             "type": "minecraft:boat",
                             "location": {
-                                "biome": "bracken:glacium/glacial_mass"
+                                "biomes": "bracken:glacium/glacial_mass"
                             }
                         }
                     }

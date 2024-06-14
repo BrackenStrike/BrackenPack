@@ -1,46 +1,82 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:netherite_sword",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888501,AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.01,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:12,Operation:0,UUID:[I;1401610331,1048199356,-1607358411,589202321],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:smite\",lvl:7s},{id:\"minecraft:knockback\",lvl:3s},{id:\"minecraft:sweeping\",lvl:7s}]}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Paxmaker Sword",
-                  "color": "white",
-                  "italic": false
+                    "type": "item",
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:smite": 7,
+                                    "minecraft:knockback": 3,
+                                    "minecraft:sweeping_edge": 7
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "generic.movement_speed",
+                                        "slot": "mainhand",
+                                        "uuid": [
+                                            -1112438523,
+                                            -1678162319,
+                                            -1888207382,
+                                            -993756585
+                                        ],
+                                        "name": "generic.movement_speed",
+                                        "amount": 0.01,
+                                        "operation": "add_value"
+                                    },
+                                    {
+                                        "type": "generic.attack_damage",
+                                        "slot": "mainhand",
+                                        "uuid": [
+                                            1401610331,
+                                            1048199356,
+                                            -1607358411,
+                                            589202321
+                                        ],
+                                        "name": "generic.attack_damage",
+                                        "amount": 12,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "minecraft:custom_model_data": 888501
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "Paxmaker Sword",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Protector usque in diem, dum omnes gladii confringentur",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "insert"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.78,
+                                "max": 0.83
+                            }
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "Protector usque in diem, dum omnes gladii confringentur",
-                  "color": "white",
-                  "italic": false
-                }  
-              ]
-            },
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.78,
-                "max": 0.83
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

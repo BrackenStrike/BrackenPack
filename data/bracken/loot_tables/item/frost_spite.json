@@ -1,41 +1,48 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:warped_fungus_on_a_stick",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888501}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Frost Spite",
-                "color": "yellow",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "text": "Combat",
-                  "color": "dark_blue",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_model_data",
+                            "value": 888501
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "text": "Frost Spite",
+                                "color": "yellow",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "Combat",
+                                    "color": "dark_blue",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "insert"
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "bp": {
+                                        "id": "frost_spite"
+                                    }
+                                }
+                            }
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"frost_spite\"}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

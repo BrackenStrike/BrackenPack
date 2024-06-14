@@ -1,31 +1,31 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/ability_books/magnificent_mansion"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/ability_books/magnificent_mansion"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/underdark/paxmaker_sword"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/underdark/paxmaker_sword"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/underdark_key"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/portal_keys/underdark_key"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

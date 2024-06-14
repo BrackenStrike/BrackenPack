@@ -4,7 +4,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "nbt": "{bp.potion:104b, bp:[{greed_duration:0b},{greed_amplifier:1b}]}"
+                    "predicates": {
+                        "minecraft:custom_data": "{bp.potion:104b,bp:[{greed_duration:0b},{greed_amplifier:1b}]}"
+                    }
                 }
             }
         }

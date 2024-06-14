@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "#",
+        "/"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:netherite_sword"
+        },
+        "/": {
+            "item": "minecraft:blaze_rod"
+        }
+    },
+    "result": {
+        "id": "minecraft:netherite_sword",
+        "count": 1,
+        "show_in_tooltip": true,
+        "components": {
+            "minecraft:item_name": "Sai",
+            "minecraft:custom_model_data": 888502,
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "type": "minecraft:generic.attack_damage",
+                        "uuid": [
+                            -124218,
+                            18245,
+                            61511,
+                            -36702
+                        ],
+                        "name": "minecraft:generic.attack_damage",
+                        "amount": 30,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                    }
+                ]
+            }
+        }
+    }
+}

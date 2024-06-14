@@ -1,45 +1,47 @@
 {
-  "parent": "bracken:panacea/spore",
-  "display": {
-      "title": {
-          "translate": "Very Crafty!"
-      },
-      "description": {
-          "translate": "Use a chlorocrafter",
-          "color": "green"
-      },
-      "icon": {
-          "item": "minecraft:crafting_table",
-          "nbt": "{Enchantments:[{}]}"
-      },
-      "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
-  },
-  "criteria": {
-      "bracken:panacea/crafter1": {
-          "trigger": "minecraft:player_interacted_with_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:villager",
-                          "nbt": "{Tags:[\"bp.table\"]}",
-                          "location": {
-                              "dimension": "bracken:panacea"
-                          }
-                      }
-                  }
-              ]
-          }
-      }
-  },
-  "requirements": [
-      [
-          "bracken:panacea/crafter1"
-      ]
-  ]
+    "parent": "bracken:panacea/spore",
+    "display": {
+        "title": {
+            "translate": "Very Crafty!"
+        },
+        "description": {
+            "translate": "Use a chlorocrafter",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:crafting_table",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:panacea/crafter1": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:villager",
+                            "nbt": "{Tags:[\"bp.table\"]}",
+                            "location": {
+                                "dimension": "bracken:panacea"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:panacea/crafter1"
+        ]
+    ]
 }

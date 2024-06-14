@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:blue_stained_glass"
+            "id": "minecraft:blue_stained_glass"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,26 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:the_underdark/crystal1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:the_underdark/crystal_caves"
-                            }
-                        }
+                "player": {
+                    "location": {
+                        "biomes": "bracken:the_underdark/crystal_caves"
                     }
-                ]
+                }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_underdark/crystal1"
-        ]
-    ]
+    }
 }

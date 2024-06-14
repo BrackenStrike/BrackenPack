@@ -1,61 +1,61 @@
 {
-  "pools": [
-    {
-      "rolls": 3,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/panacea/panaspore"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 2
-      },
-      "entries": [
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/panacea/panaspore"
+                }
+            ]
+        },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:gunpowder"
-        }
-      ],
-      "conditions": [
+            "rolls": {
+                "min": 0,
+                "max": 2
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gunpowder"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.85
+                }
+            ]
+        },
         {
-          "condition": "minecraft:random_chance",
-          "chance": 0.85
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/panacea/perrterror_gastor"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.25
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/panacea/perrterror_gastor"
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/panacea/creeper_horn"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.02
+                }
+            ]
         }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.5
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/panacea/creeper_horn"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.2
-        }
-      ]
-    }
-  ]
+    ]
 }

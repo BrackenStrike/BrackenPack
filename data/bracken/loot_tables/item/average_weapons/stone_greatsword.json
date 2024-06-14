@@ -1,75 +1,98 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:stone_sword",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{HideFlags:2,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:4,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"},{AttributeName:\"player.entity_interaction_range\",Name:\"player.entity_interaction_range\",Amount:1,Operation:0,UUID:[I;-1112438523,-1678162319,-1888207382,-993756585],Slot:\"mainhand\"}],CustomModelData:888515}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Stone Greatsword",
-                  "color": "white",
-                  "italic": false
+                    "type": "item",
+                    "name": "minecraft:stone_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "Stone Greatsword",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "entity": "this",
+                            "lore": [
+                                {
+                                    "translate": "",
+                                    "color": "blue",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": "When in Main Hand:",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": " 5 Attack Damage",
+                                    "color": "dark_green",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": " 1.6 Attack Speed",
+                                    "color": "dark_green",
+                                    "italic": false
+                                },
+                                {
+                                    "translate": " +1 Attack Range",
+                                    "color": "dark_green",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "insert"
+                        },
+                        {
+                            "function": "minecraft:set_custom_model_data",
+                            "value": 888515
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:generic.attack_damage",
+                                    "name": "b",
+                                    "amount": 4,
+                                    "operation": "add_value",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "minecraft:generic.attack_speed",
+                                    "name": "d",
+                                    "amount": -2.4,
+                                    "operation": "add_value",
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "attribute": "minecraft:player.entity_interaction_range",
+                                    "name": "c",
+                                    "amount": 1,
+                                    "operation": "add_value",
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:toggle_tooltips",
+                            "toggles": {
+                                "attribute_modifiers": false
+                            }
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.48,
+                                "max": 0.93
+                            }
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-               
-                {
-                  "translate": "",
-                  "color": "blue",
-                  "italic": false
-                },
-
-                {
-                  "translate": "When in Main Hand:",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "translate": " 5 Attack Damage",
-                  "color": "dark_green",
-                  "italic": false
-                },
-                {
-                  "translate": " 1.6 Attack Speed",
-                  "color": "dark_green",
-                  "italic": false
-                },
-                {
-                  "translate": " +1 Attack Range",
-                  "color": "dark_green",
-                  "italic": false
-                }
-              ]
-            },
-            
-
-
-
-
-
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.48,
-                "max": 0.93
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
-

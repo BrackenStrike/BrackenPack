@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:warped_nylium"
+            "id": "minecraft:warped_nylium"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,26 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:the_faewild/dells1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:the_faewild/dreamfall_dells"
-                            }
-                        }
+                "player": {
+                    "location": {
+                        "biomes": "bracken:the_faewild/dreamfall_dells"
                     }
-                ]
+                }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_faewild/dells1"
-        ]
-    ]
+    }
 }

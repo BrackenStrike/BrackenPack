@@ -1,0 +1,53 @@
+{
+    "feature": "bracken:glacium/post",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 1
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:replaceable"
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "blocks": [
+                            "minecraft:cracked_stone_bricks",
+                            "minecraft:clay",
+                            "minecraft:stone"
+                        ]
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "blocks": [
+                                "minecraft:chiseled_stone_bricks",
+                                "minecraft:ice",
+                                "minecraft:snow_block",
+                                "minecraft:obsidian"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

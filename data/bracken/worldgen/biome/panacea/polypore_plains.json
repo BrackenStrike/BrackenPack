@@ -1,95 +1,93 @@
 {
-  "spawners": {
-    "water_ambient": [
-      
-    ],
-    "ambient": [
-    ],
-    "misc": [],
-    "water_creature": [
-      
-    ],
-    "creature": [{
-      "type": "minecraft:mooshroom",
-      "weight": 8,
-      "minCount": 4,
-      "maxCount": 8
-    }
-      
-    ],
-    "monster": [
-      
-    ]
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": []
-  },
-  "features": [
-    [],
-    [
-      "bracken:panacea/lake"
-    ],
-    [
-      "minecraft:glow_lichen",
-      "minecraft:mushroom_island_vegetation",
-      "minecraft:brown_mushroom_taiga",
-      "minecraft:red_mushroom_taiga",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "bracken:panacea/puffball"
-    ],
-    [
-    "bracken:underdark/fungus_roots",
-    "bracken:underdark/red_mush_dec"],
-    ["bracken:panacea/megashroom1",
-    "bracken:panacea/megashroom2",
-    "bracken:underdark/small_mush_tree"],
-    ["bracken:panacea/coal_blobs"],
-    [],
-    [],
-    [],
-    [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [
+            {
+                "type": "minecraft:mooshroom",
+                "weight": 8,
+                "minCount": 4,
+                "maxCount": 8
+            }
+        ],
+        "monster": []
     },
-    "fog_color": 14280587,
-    "water_color": 7901768,
-    "water_fog_color": 11503445,
-    "grass_color": 4351774,
-    "sky_color": 11919559,
-    "foliage_color": 4351774,
-    "particle": {
-      "options": {
-        "type": "minecraft:sneeze"
-      },
-      "probability": 0.0001428
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
     },
-    "additions_sound": {
-      "sound": "minecraft:entity.parrot.ambient",
-      "tick_chance": 0.0002
+    "features": [
+        [],
+        [
+            "bracken:panacea/lake"
+        ],
+        [
+            "minecraft:glow_lichen",
+            "minecraft:mushroom_island_vegetation",
+            "minecraft:brown_mushroom_taiga",
+            "minecraft:red_mushroom_taiga",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal",
+            "minecraft:patch_sugar_cane",
+            "minecraft:patch_pumpkin",
+            "bracken:panacea/puffball"
+        ],
+        [
+            "bracken:underdark/fungus_roots",
+            "bracken:underdark/red_mush_dec"
+        ],
+        [
+            "bracken:panacea/megashroom1",
+            "bracken:panacea/megashroom2",
+            "bracken:underdark/small_mush_tree"
+        ],
+        [
+            "bracken:panacea/coal_blobs"
+        ],
+        [],
+        [],
+        [],
+        [
+            "minecraft:spring_water",
+            "minecraft:spring_lava"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "fog_color": 14280587,
+        "water_color": 7901768,
+        "water_fog_color": 11503445,
+        "grass_color": 4351774,
+        "sky_color": 11919559,
+        "foliage_color": 4351774,
+        "particle": {
+            "options": {
+                "type": "minecraft:sneeze"
+            },
+            "probability": 0.0001428
+        },
+        "additions_sound": {
+            "sound": "minecraft:entity.parrot.ambient",
+            "tick_chance": 0.0002
+        },
+        "music": {
+            "sound": "minecraft:music.creative",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
     },
-    "music": {
-      "sound": "minecraft:music.creative",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
-  },
-  "has_precipitation": true
+    "has_precipitation": true
 }

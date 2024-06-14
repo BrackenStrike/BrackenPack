@@ -1,39 +1,138 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:enderman_spawn_egg",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{HideFlags:2,Enchantments:[{}],CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-10,Operation:0,UUID:[I;1113027975,-644395143,-1346952979,-351466035]},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-.01,Operation:0,UUID:[I;-674138169,-908574571,-1952283716,-248487679]},{AttributeName:\"generic.luck\",Name:\"generic.luck\",Amount:-10,Operation:0,UUID:[I;1282424771,-572633220,-1241937806,-241423645]}],EntityTag:{id:\"minecraft:area_effect_cloud\",Particle:\"squid_ink\",CustomNameVisible:1b,RadiusPerTick:.1f,Duration:600,effects:[{id:\"minecraft:slowness\",amplifier:1b,duration:40,show_particles:0b,show_icon:1b,ambient:0b},{id:\"minecraft:instant_damage\",amplifier:1b,duration:40,show_particles:0b,show_icon:1b,ambient:0b},{id:\"minecraft:blindness\",amplifier:0b,duration:100,show_particles:0b,show_icon:1b,ambient:0b},{id:\"minecraft:hunger\",amplifier:100b,duration:100,show_particles:0b,show_icon:1b,ambient:0b},{id:\"minecraft:wither\",amplifier:0b,duration:100,show_particles:0b,show_icon:1b,ambient:0b}],CustomName:'{\"translate\":\"DROP OF VOID\",\"bold\":true}'}}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Void Bomb",
-                  "color": "white",
-                  "italic": false
+                    "type": "item",
+                    "name": "minecraft:enderman_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantment_glint_override": true,
+                                "minecraft:attribute_modifiers": {
+                                    "modifiers": [
+                                        {
+                                            "type": "generic.attack_speed",
+                                            "uuid": [
+                                                1113027975,
+                                                -644395143,
+                                                -1346952979,
+                                                -351466035
+                                            ],
+                                            "name": "generic.attack_speed",
+                                            "amount": -10,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "generic.movement_speed",
+                                            "uuid": [
+                                                -674138169,
+                                                -908574571,
+                                                -1952283716,
+                                                -248487679
+                                            ],
+                                            "name": "generic.movement_speed",
+                                            "amount": -0.01,
+                                            "operation": "add_value"
+                                        },
+                                        {
+                                            "type": "generic.luck",
+                                            "uuid": [
+                                                1282424771,
+                                                -572633220,
+                                                -1241937806,
+                                                -241423645
+                                            ],
+                                            "name": "generic.luck",
+                                            "amount": -10,
+                                            "operation": "add_value"
+                                        }
+                                    ],
+                                    "show_in_tooltip": false
+                                },
+                                "minecraft:custom_model_data": 888502,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:area_effect_cloud",
+                                    "Particle": {
+                                        "type": "squid_ink"
+                                    },
+                                    "CustomNameVisible": 1,
+                                    "RadiusPerTick": 0.1,
+                                    "Duration": 600,
+                                    "potion_contents": {
+                                        "custom_effects": [
+                                            {
+                                                "id": "minecraft:slowness",
+                                                "amplifier": 1,
+                                                "duration": 40,
+                                                "show_particles": false,
+                                                "show_icon": true,
+                                                "ambient": false
+                                            },
+                                            {
+                                                "id": "minecraft:instant_damage",
+                                                "amplifier": 1,
+                                                "duration": 40,
+                                                "show_particles": false,
+                                                "show_icon": true,
+                                                "ambient": false
+                                            },
+                                            {
+                                                "id": "minecraft:blindness",
+                                                "amplifier": 0,
+                                                "duration": 100,
+                                                "show_particles": false,
+                                                "show_icon": true,
+                                                "ambient": false
+                                            },
+                                            {
+                                                "id": "minecraft:hunger",
+                                                "amplifier": 10,
+                                                "duration": 100,
+                                                "show_particles": false,
+                                                "show_icon": true,
+                                                "ambient": false
+                                            },
+                                            {
+                                                "id": "minecraft:wither",
+                                                "amplifier": 0,
+                                                "duration": 100,
+                                                "show_particles": false,
+                                                "show_icon": true,
+                                                "ambient": false
+                                            }
+                                        ]
+                                    },
+                                    "CustomName": "{\"translate\":\"DROP OF VOID\",\"bold\":true}"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "Void Bomb",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "A vague feeling tells you not to use this.",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "insert"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "translate": "A vague feeling tells you not to use this.",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

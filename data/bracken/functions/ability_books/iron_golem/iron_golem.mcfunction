@@ -9,4 +9,4 @@ summon minecraft:iron_golem ~ ~100 ~ {PlayerCreated:1}
 tellraw @s ["",{"selector":"@s "},{"translate":" generated [IRON GOLEM]"}]
 
 experience add @s -5 levels
-scoreboard players set @s bp.cooldown 40
+scoreboard players set @s bp.cooldown 20

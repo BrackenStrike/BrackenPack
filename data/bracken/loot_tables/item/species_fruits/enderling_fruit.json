@@ -1,44 +1,43 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:apple",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888505}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Enderling Fruit",
-                  "color": "light_purple",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple"
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
+            ],
+            "functions": [
                 {
-                  "translate": "Become Enderling",
-                  "color": "blue",
-                  "italic": false
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "translate": "Enderling Fruit",
+                        "color": "light_purple",
+                        "italic": false
+                    }
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "translate": "Become Enderling",
+                            "color": "blue",
+                            "italic": false
+                        }
+                    ],
+                    "mode": "insert"
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "value": 888505
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{bp:{species_fruit:1b,id:\"enderling_fruit\"}}"
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{species_fruit:1b,id:\"enderling_fruit\"}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
-

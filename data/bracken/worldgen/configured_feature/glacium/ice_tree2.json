@@ -1,75 +1,57 @@
 {
-  "type": "minecraft:tree",
-  "config": {
-    "force_dirt": false,
-    "dirt_provider": {
-      "state": {
-        "Name": "minecraft:dirt"
-      },
-      "type": "minecraft:simple_state_provider"
-    },
-    "ignore_vines": false,
-    "minimum_size": {
-      "limit": 1,
-      "lower_size": 0,
-      "upper_size": 1,
-      "type": "minecraft:two_layers_feature_size"
-    },
-    "decorators": [],
-    "trunk_provider": {
-      "state": {
-        "Properties": {
-          "axis": "y"
+    "type": "minecraft:tree",
+    "config": {
+        "force_dirt": false,
+        "dirt_provider": {
+            "state": {
+                "Name": "minecraft:dirt"
+            },
+            "type": "minecraft:simple_state_provider"
         },
-        "Name": "minecraft:polished_basalt"
-      },
-      "type": "minecraft:simple_state_provider"
-    },
-    "foliage_provider": {
-      "state": {
-        "Properties": {
-          "persistent": "false",
-          "distance": "7"
+        "ignore_vines": false,
+        "minimum_size": {
+            "limit": 1,
+            "lower_size": 0,
+            "upper_size": 1,
+            "type": "minecraft:two_layers_feature_size"
         },
-        "Name": "minecraft:warped_wart_block"
-      },
-      "type": "minecraft:simple_state_provider"
-    },
-    "foliage_placer": {
-      "radius": {
-        "value": {
-          "min_inclusive": 2,
-          "max_inclusive": 3
+        "decorators": [],
+        "trunk_provider": {
+            "state": {
+                "Properties": {
+                    "axis": "y"
+                },
+                "Name": "minecraft:polished_basalt"
+            },
+            "type": "minecraft:simple_state_provider"
         },
-        "type": "minecraft:uniform"
-      },
-      "offset": {
-        "value": {
-          "min_inclusive": 0,
-          "max_inclusive": 2
+        "foliage_provider": {
+            "state": {
+                "Properties": {
+                    "persistent": "false",
+                    "distance": "7"
+                },
+                "Name": "minecraft:warped_wart_block"
+            },
+            "type": "minecraft:simple_state_provider"
         },
-        "type": "minecraft:uniform"
-      },
-      "trunk_height": {
-        "value": {
-          "min_inclusive": 2,
-          "max_inclusive": 5
+        "foliage_placer": {
+            "radius": 3,
+            "offset": 1,
+            "trunk_height": 4,
+            "type": "minecraft:spruce_foliage_placer"
         },
-        "type": "minecraft:uniform"
-      },
-      "type": "minecraft:spruce_foliage_placer"
-    },
-    "trunk_placer": {
-      "base_height": 5,
-      "height_rand_a": 2,
-      "height_rand_b": 1,
-      "type": "minecraft:straight_trunk_placer"
-    },
-    "sapling_provider": {
-      "state": {
-        "Name": "minecraft:dirt"
-      },
-      "type": "minecraft:simple_state_provider"
+        "trunk_placer": {
+            "base_height": 5,
+            "height_rand_a": 2,
+            "height_rand_b": 1,
+            "type": "minecraft:straight_trunk_placer"
+        },
+        "sapling_provider": {
+            "state": {
+                "Name": "minecraft:dirt"
+            },
+            "type": "minecraft:simple_state_provider"
+        }
     }
-  }
 }

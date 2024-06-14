@@ -8,41 +8,41 @@
         {
             "type": "minecraft:block_predicate_filter",
             "predicate": {
-              "type": "minecraft:all_of",
-              "predicates": [
-                {
-                  "type": "minecraft:replaceable"
-                },
-                {
-                  "type": "minecraft:matching_blocks",
-                  "offset": [
-                    0,
-                    -1,
-                    0
-                  ],
-                  "blocks": [
-                    "minecraft:nether_bricks"
-                  ]
-                },
-                {
-                  "type": "minecraft:not",
-                  "predicate": {
-                    "type": "minecraft:matching_blocks",
-                    "offset": [
-                      0,
-                      0,
-                      0
-                    ],
-                    "blocks": [
-                        "minecraft:lime_stained_glass",
-                        "minecraft:orange_stained_glass",
-                      "minecraft:white_stained_glass"
-                    ]
-                  }
-                }
-              ]
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:replaceable"
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "blocks": [
+                            "minecraft:nether_bricks"
+                        ]
+                    },
+                    {
+                        "type": "minecraft:not",
+                        "predicate": {
+                            "type": "minecraft:matching_blocks",
+                            "offset": [
+                                0,
+                                0,
+                                0
+                            ],
+                            "blocks": [
+                                "minecraft:lime_stained_glass",
+                                "minecraft:orange_stained_glass",
+                                "minecraft:white_stained_glass"
+                            ]
+                        }
+                    }
+                ]
             }
-          },
+        },
         {
             "type": "heightmap",
             "heightmap": "WORLD_SURFACE_WG"
@@ -51,8 +51,6 @@
             "type": "minecraft:surface_water_depth_filter",
             "max_water_depth": 1
         },
-
-        
         {
             "type": "minecraft:biome"
         }

@@ -9,8 +9,10 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:fishing_rod",
-            "nbt": "{CustomModelData:888501}"
+            "id": "minecraft:fishing_rod",
+            "components": {
+                "minecraft:custom_model_data": 888501
+            }
         },
         "frame": "challenge",
         "show_toast": true,
@@ -37,7 +39,6 @@
         }
     },
     "requirements": [
-        
         [
             "bracken:omnidrome/kill_boss1"
         ]

@@ -1,72 +1,69 @@
 {
-  "spawners": {
-    "water_ambient": [],
-    "ambient": [],
-    "misc": [],
-    "water_creature": [],
-    "creature": [],
-    "monster": []
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
-  },
-  "features": [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "bracken:varskspace/glass",
-      "bracken:varskspace/bfire",
-      "bracken:varskspace/spikes",
-      "bracken:varskspace/lanterns",
-      "bracken:varskspace/glass_ground"
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [],
+        "monster": []
+    },
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "bracken:varskspace/glass",
+            "bracken:varskspace/bfire",
+            "bracken:varskspace/spikes",
+            "bracken:varskspace/lanterns",
+            "bracken:varskspace/glass_ground"
+        ],
+        [],
+        [],
+        [],
+        [
+            "minecraft:freeze_top_layer"
+        ]
     ],
-    [],
-    [],
-    [],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "mood_sound": {
-      "sound": "minecraft:block.beacon.power_select",
-      "tick_delay": 80,
-      "block_search_extent": 8,
-      "offset": 2
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:block.beacon.power_select",
+            "tick_delay": 80,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "fog_color": 11959551,
+        "water_color": 9344428,
+        "water_fog_color": 14606591,
+        "grass_color": 11317746,
+        "sky_color": 11041992,
+        "foliage_colour": 11317746,
+        "particle": {
+            "options": {
+                "type": "minecraft:dripping_obsidian_tear"
+            },
+            "probability": 0.00118093334
+        },
+        "additions_sound": {
+            "sound": "minecraft:entity.lightning_bolt.thunder",
+            "tick_chance": 0.0005
+        },
+        "music": {
+            "sound": "minecraft:ambient.basalt_deltas.mood",
+            "min_delay": 120000,
+            "max_delay": 240000,
+            "replace_current_music": false
+        },
+        "ambient_sound": "minecraft:music.nether.basalt_deltas"
     },
-    "fog_color": 11959551,
-    "water_color": 9344428,
-    "water_fog_color": 14606591,
-    "grass_color": 11317746,
-    "sky_color": 11041992,
-    "foliage_colour": 11317746,
-    "particle": {
-      "options": {
-        "type": "minecraft:dripping_obsidian_tear"
-      },
-      "probability": 0.00118093334
-    },
-    "additions_sound": {
-      "sound": "minecraft:entity.lightning_bolt.thunder",
-      "tick_chance": 0.005
-    },
-    "music": {
-      "sound": "bracken:varskspace",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
-    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop"
-  },
-  "has_precipitation": false
+    "has_precipitation": false
 }

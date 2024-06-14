@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:basalt"
+            "id": "minecraft:basalt"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,21 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:omnidrome/living_palace1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-
-                        "structure": "bracken:omnidrome_living_palace"
+                        "structures": "bracken:omnidrome_living_palace"
                     }
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:omnidrome/living_palace1"
-        ]
-    ]
+    }
 }

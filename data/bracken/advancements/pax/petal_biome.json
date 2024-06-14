@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:pink_petals"
+            "id": "minecraft:pink_petals"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:pax/petal_biome1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biome": "bracken:pax/petal_grove"
+                        "biomes": "bracken:pax/petal_grove"
                     }
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:pax/petal_biome1"
-        ]
-    ]
+    }
 }

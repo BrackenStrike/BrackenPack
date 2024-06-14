@@ -1,46 +1,60 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:iron_leggings",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888501,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:thorns\",lvl:5s},{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:1s}],Trim:{material:\"minecraft:lapis\",pattern:\"minecraft:eye\"} }"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Penanace Leggings",
-                  "color": "white",
-                  "bold": false
+                    "type": "item",
+                    "name": "minecraft:iron_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 5,
+                                    "minecraft:thorns": 5,
+                                    "minecraft:binding_curse": 1,
+                                    "minecraft:unbreaking": 3,
+                                    "minecraft:mending": 1
+                                },
+                                "minecraft:custom_model_data": 888501,
+                                "minecraft:trim": {
+                                    "material": "minecraft:lapis",
+                                    "pattern": "minecraft:eye"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "Penanace Leggings",
+                                    "color": "white",
+                                    "bold": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "Far-fetched foirfeacht",
+                                    "color": "white",
+                                    "italic": true
+                                }
+                            ],
+                            "mode": "insert"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.58,
+                                "max": 0.63
+                            }
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "translate": "Far-fetched foirfeacht",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.58,
-                "max": 0.63
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

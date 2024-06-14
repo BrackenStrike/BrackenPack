@@ -3,6 +3,8 @@
 # Creators: Bracken
 ##########################################################
 
+scoreboard players set @s bp.underdark 10
+
 # Mobs
 execute if score @s bp.1_second matches 10 run function bracken:entities/the_underdark/underdark_entities
 
@@ -18,3 +20,6 @@ execute if score @s bp.3_second matches 1 at @s unless predicate bracken:in_biom
 
 # Shiny sounds!! Beware of the guardians though.
 execute if score @s bp.3_second matches 1 at @s if predicate bracken:in_biome/crystal_caves if predicate bracken:random/one_in_30 run playsound bracken:crystal_caves_ambient ambient @s ~ ~ ~ 100 1.0 1
+
+#return
+return 1

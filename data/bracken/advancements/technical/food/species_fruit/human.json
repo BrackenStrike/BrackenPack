@@ -1,15 +1,20 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:consume_item",
-      "conditions": {
-        "item": {
-          "nbt": "{bp:{id:\"human_fruit\"}}"
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:apple"
+                    ],
+                    "components": {
+                        "minecraft:custom_model_data": 888508
+                    }
+                }
+            }
         }
-      }
+    },
+    "rewards": {
+        "function": "bracken:player/species/human/join"
     }
-  },
-  "rewards": {
-    "function": "bracken:player/species/human/join"
-  }
 }

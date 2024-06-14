@@ -12,7 +12,6 @@ execute as @e[type=marker,tag=bp.recall] at @s if score @p[tag=bp.target] bp.rec
 
 execute if score @s bp.recall_void matches 0 run tellraw @s {"translate":"§cTELEPORT CANCELED! You home is either void or destroyed!"}
 execute if entity @s[level=1..,scores={bp.recall_void=1}] run experience add @s -1 levels
-scoreboard players set @s bp.cooldown 4
 scoreboard players set @s bp.recall_void 0
 
 tag @p[tag=bp.target] remove bp.target

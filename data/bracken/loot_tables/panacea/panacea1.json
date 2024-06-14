@@ -1,23 +1,49 @@
 {
-    "pools":
-    [
+    "pools": [
         {
-            "rolls":1,
-            "entries":
-            [
+            "rolls": 1,
+            "entries": [
                 {
-                    "type":"item","name":"minecraft:leather_chestplate","weight":1,"functions":
-                    [
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 1,
+                    "functions": [
                         {
-                            "function":"set_nbt","tag":"{display:{Name:'{\"text\":\"Vitality Chestplate\",\"color\":\"dark_green\",\"bold\":true}',Lore:['{\"text\":\"one of three\",\"color\":\"gold\"}'],color:5164056},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:.20,Operation:2,UUID:[I;-779609271,1242385125,-1582455937,661836394],Slot:\"chest\"}]}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"text\":\"Vitality Chestplate\",\"color\":\"dark_green\",\"bold\":true}",
+                                "minecraft:lore": [
+                                    "{\"text\":\"one of three\",\"color\":\"gold\"}"
+                                ],
+                                "minecraft:dyed_color": 5164056,
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "generic.max_health",
+                                        "slot": "chest",
+                                        "uuid": [
+                                            -779609271,
+                                            1242385125,
+                                            -1582455937,
+                                            661836394
+                                        ],
+                                        "name": "generic.max_health",
+                                        "amount": 0.2,
+                                        "operation": "add_multiplied_total"
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
                 {
-                    "type":"item","name":"minecraft:rotten_flesh","weight":5
+                    "type": "item",
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 5
                 },
                 {
-                    "type":"item","name":"minecraft:gunpowder","weight":5
+                    "type": "item",
+                    "name": "minecraft:gunpowder",
+                    "weight": 5
                 }
             ]
         }

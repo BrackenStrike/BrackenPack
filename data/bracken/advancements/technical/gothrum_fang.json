@@ -1,21 +1,22 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "killing_blow": {
-          "source_entity": {
-            "equipment": {
-              "mainhand": {
-                "nbt": "{bp:{id:\"gothrum_fang\"}}"
-              }
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "minecraft:iron_sword",
+                            "components": {
+                                "minecraft:custom_model_data": 888501
+                            }
+                        }
+                    }
+                }
             }
-          }
         }
-      }
+    },
+    "rewards": {
+        "function": "bracken:item/gothrum_fang"
     }
-  },
-  "rewards": {
-    "function": "bracken:item/gothrum_fang"
-  }
 }

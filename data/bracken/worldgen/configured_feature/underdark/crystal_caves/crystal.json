@@ -1,25 +1,13 @@
 {
-  "config": {
-    "contents": {
-      "Name": "minecraft:water"
+    "config": {
+        "contents": {
+            "Name": "minecraft:water"
+        },
+        "rim": {
+            "Name": "minecraft:prismarine"
+        },
+        "size": 8,
+        "rim_size": 2
     },
-    "rim": {
-      "Name": "minecraft:prismarine"
-    },
-    "size": {
-      "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 7,
-        "max_inclusive": 10
-      }
-    },
-    "rim_size": {
-      "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 1,
-        "max_inclusive": 3
-      }
-    }
-  },
-  "type": "minecraft:delta_feature"
+    "type": "minecraft:delta_feature"
 }

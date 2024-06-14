@@ -8,3 +8,5 @@ execute if entity @s[type=minecraft:armor_stand,tag=bp.frozen] run function brac
 
 ##########   GLACIUM VALKYRIE   ##########
 execute if entity @s[type=minecraft:drowned,tag=bp.valkyrie] run particle minecraft:poof ^ ^2 ^-.2 0 0 0 0.01 3
+
+return 1

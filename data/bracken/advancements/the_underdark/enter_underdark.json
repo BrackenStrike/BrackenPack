@@ -8,8 +8,11 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:netherite_pickaxe",
-            "nbt": "{CustomModelData:888501,Enchantments:[{}]}"
+            "id": "minecraft:netherite_pickaxe",
+            "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_model_data": 888501
+            }
         },
         "frame": "task",
         "show_toast": false,
@@ -18,7 +21,7 @@
         "background": "bracken:textures/gui/advancements/backgrounds/underdark.png"
     },
     "criteria": {
-        "bracken:the_underdark/und2": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -28,10 +31,5 @@
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_underdark/und2"
-        ]
-    ]
+    }
 }

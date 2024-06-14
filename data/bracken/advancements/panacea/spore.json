@@ -9,8 +9,10 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:melon_seeds",
-            "nbt": "{CustomModelData:888502}"
+            "id": "minecraft:melon_seeds",
+            "components": {
+                "minecraft:custom_model_data": 888502
+            }
         },
         "frame": "task",
         "show_toast": true,
@@ -37,7 +39,9 @@
                         "items": [
                             "minecraft:melon_seeds"
                         ],
-                        "nbt": "{CustomModelData:888502}"
+                        "components": {
+                            "minecraft:custom_model_data": 888502
+                        }
                     }
                 ]
             }

@@ -30,7 +30,7 @@ execute if entity @s[scores={bp.slash=..2}] at @e[type=minecraft:armor_stand,tag
 execute if entity @s[scores={bp.slash=..0}] at @e[type=minecraft:armor_stand,tag=bp.sword,distance=..20] as @a[distance=..1] run function bracken:entities/boss/unsung/attacks/slash_damage
 
 #kill swords
-execute as @e[type=armor_stand,tag=bp.sword] unless entity @s[nbt={HandItems:[{id:"minecraft:iron_sword",Count:1b}]}] run kill @s
+execute as @e[type=armor_stand,tag=bp.sword] unless entity @s[nbt={HandItems:[{id:"minecraft:iron_sword",count:1}]}] run kill @s
 
 #blade slash
 scoreboard players remove @s bp.slash 1

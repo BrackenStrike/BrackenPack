@@ -1,11 +1,13 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "equipment": {
-      "offhand": {
-        "nbt": "{bp:{id:\"iron_golem\"}}"
-      }
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "offhand": {
+                "predicates": {
+                    "minecraft:custom_data": "{bp:{id:\"iron_golem\"}}"
+                }
+            }
+        }
     }
-  }
 }

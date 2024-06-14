@@ -3,4 +3,4 @@
 # Creators: BrackenStrike
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.mass_heal 1
+scoreboard players set @s _OMNI.POWER.mass_heal 1

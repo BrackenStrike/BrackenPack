@@ -1,37 +1,48 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:carrot_on_a_stick",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "Frostlock",
-                "color": "light_purple",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "consumes 5 levels",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:carrot_on_a_stick"
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"frostlock\"},CustomModelData:888512,Enchantments:[{}]}"
-            }
-          ]
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "translate": "Frostlock",
+                        "color": "yellow",
+                        "italic": false
+                    }
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "lore": [
+                        {
+                            "translate": "consumes 5 levels",
+                            "color": "gray",
+                            "italic": false
+                        }
+                    ],
+                    "mode": "insert"
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "value": 888512
+                },
+                {
+                    "function": "minecraft:set_components",
+                    "components": {
+                        "minecraft:enchantment_glint_override": true
+                    }
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{bp:{id:\"frostlock\"}}"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

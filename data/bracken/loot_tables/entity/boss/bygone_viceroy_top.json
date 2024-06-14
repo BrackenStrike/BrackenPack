@@ -1,55 +1,55 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/ability_books/frostlock"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/ability_books/frostlock"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/glacium_key"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/portal_keys/glacium_key"
+                }
+            ]
+        },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:beacon"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 2,
-        "max": 5
-      },
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:beacon"
+                }
+            ]
+        },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 0,
-        "max": 10
-      },
-      "entries": [
+            "rolls": {
+                "min": 2,
+                "max": 5
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:diamond"
+                }
+            ]
+        },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:bone"
+            "rolls": {
+                "min": 0,
+                "max": 10
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

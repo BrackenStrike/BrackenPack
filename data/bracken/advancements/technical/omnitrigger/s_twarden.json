@@ -1,25 +1,24 @@
 {
-  "criteria": {
-      "bracken:sanctum/proto1": {
-          "trigger": "minecraft:player_killed_entity",
-          "conditions": {
-              "entity": [
-                  {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
-                      "predicate": {
-                          "type": "minecraft:warden",
-                          "location": {
-                              "dimension": "bracken:omnidrome"
-                          }
-                      }
-                  }
-              ]
-          }
-      }
-  },
-  "rewards": {
-    "function": "bracken:player/omnitrigger/s_twarden"
-  }
+    "criteria": {
+        "bracken:sanctum/proto1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:warden",
+                            "location": {
+                                "dimension": "bracken:omnidrome"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/omnitrigger/s_twarden"
+    }
 }
-

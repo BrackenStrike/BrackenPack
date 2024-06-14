@@ -1,27 +1,27 @@
 {
-  "feature": "bracken:faewild/dark_pool",
-  "placement": [
-    {
-      "count": 1,
-      "type": "minecraft:count"
-    },
-    {
-      "type": "minecraft:in_square"
-    },
-    {
-      "height": {
-        "min_inclusive": {
-          "above_bottom": 0
+    "feature": "bracken:faewild/dark_pool",
+    "placement": [
+        {
+            "count": 1,
+            "type": "minecraft:count"
         },
-        "max_inclusive": {
-          "absolute": 256
+        {
+            "type": "minecraft:in_square"
         },
-        "type": "minecraft:uniform"
-      },
-      "type": "minecraft:height_range"
-    },
-    {
-      "type": "minecraft:biome"
-    }
-  ]
+        {
+            "height": {
+                "min_inclusive": {
+                    "above_bottom": 0
+                },
+                "max_inclusive": {
+                    "absolute": 256
+                },
+                "type": "minecraft:uniform"
+            },
+            "type": "minecraft:height_range"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
 }

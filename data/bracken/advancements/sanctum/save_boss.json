@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:experience_bottle"
+            "id": "minecraft:experience_bottle"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -17,17 +17,11 @@
         "hidden": true
     },
     "criteria": {
-        "bracken:sanctum/save_boss1": {
+        "discovered": {
             "trigger": "minecraft:impossible"
         }
     },
-    
-    "requirements": [
-        [
-            "bracken:sanctum/save_boss1"
-        ]
-    ],
     "rewards": {
         "function": "bracken:player/omnitrigger/k_ruination"
-      }
+    }
 }

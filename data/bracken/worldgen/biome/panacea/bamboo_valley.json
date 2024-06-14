@@ -1,139 +1,138 @@
 {
-  "spawners": {
-    "water_ambient": [],
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 8,
-        "maxCount": 8
-      }
-    ],
-    "misc": [
-      {
-        "type": "minecraft:pig",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:hoglin",
-        "weight": 3,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "water_creature": [],
-    "axolotls": [
-      {
-        "type": "minecraft:axolotl",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      }
-    ],
-    "creature": [
-      {
-        "type": "minecraft:pig",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:hoglin",
-        "weight": 3,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:panda",
-        "weight": 3,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 3
-      }
-    ],
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:skeleton",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:zombie",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ]
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
-  },
-  "features": [
-    [],
-    [],
-    [
-      "minecraft:forest_rock"
-    ],
-    ["bracken:panacea/coal_blobs"],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:patch_tall_grass_2",
-      "minecraft:patch_large_fern",
-      "minecraft:bamboo",
-      "bracken:panacea/potato",
-      "minecraft:bamboo_vegetation"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [
+            {
+                "type": "minecraft:bat",
+                "weight": 10,
+                "minCount": 8,
+                "maxCount": 8
+            }
+        ],
+        "misc": [
+            {
+                "type": "minecraft:pig",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:hoglin",
+                "weight": 3,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "water_creature": [],
+        "axolotls": [
+            {
+                "type": "minecraft:axolotl",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 6
+            }
+        ],
+        "creature": [
+            {
+                "type": "minecraft:pig",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:hoglin",
+                "weight": 3,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:panda",
+                "weight": 3,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:creeper",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 3
+            }
+        ],
+        "monster": [
+            {
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:skeleton",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:zombie",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ]
     },
-    "fog_color": 14277771,
-    "water_color": 11505493,
-    "water_fog_color": 11961433,
-    "grass_color": 13679961,
-    "sky_color": 11913912,
-    "foliage_color": 13679961,
-    "additions_sound": {
-      "sound": "minecraft:entity.parrot.ambient",
-      "tick_chance": 0.0002
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
     },
-    "music": {
-      "sound": "minecraft:music.creative",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
-  },
-  "has_precipitation": true
+    "features": [
+        [],
+        [],
+        [
+            "minecraft:forest_rock"
+        ],
+        [
+            "bracken:panacea/coal_blobs"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:patch_tall_grass_2",
+            "minecraft:patch_large_fern",
+            "minecraft:bamboo",
+            "bracken:panacea/potato",
+            "minecraft:bamboo_vegetation"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "fog_color": 14277771,
+        "water_color": 11505493,
+        "water_fog_color": 11961433,
+        "grass_color": 13679961,
+        "sky_color": 11913912,
+        "foliage_color": 13679961,
+        "additions_sound": {
+            "sound": "minecraft:entity.parrot.ambient",
+            "tick_chance": 0.0002
+        },
+        "music": {
+            "sound": "minecraft:music.creative",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
+    },
+    "has_precipitation": true
 }

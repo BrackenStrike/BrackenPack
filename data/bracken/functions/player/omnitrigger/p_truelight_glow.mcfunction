@@ -3,4 +3,4 @@
 # Creators: BrackenStrike
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.truelight_glow 1
+scoreboard players set @s _OMNI.POWER.truelight_glow 1

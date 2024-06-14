@@ -17,7 +17,7 @@
         }
     },
     "result": {
-        "item": "minecraft:heart_of_the_sea",
+        "id": "minecraft:heart_of_the_sea",
         "count": 1
     }
 }

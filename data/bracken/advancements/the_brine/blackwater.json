@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:black_concrete"
+            "id": "minecraft:black_concrete"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,26 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:the_brine/blackwater1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:the_brine/blackwater_depths"
-                            }
-                        }
+                "player": {
+                    "location": {
+                        "biomes": "bracken:the_brine/blackwater_depths"
                     }
-                ]
+                }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_brine/blackwater1"
-        ]
-    ]
+    }
 }

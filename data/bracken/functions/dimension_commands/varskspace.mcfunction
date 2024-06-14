@@ -3,12 +3,22 @@
 # Creators: Bracken
 ##########################################################
 
+scoreboard players set @s bp.varskspace 10
+
 # Effects
-effect give @s[scores={bp.longtick=7}] minecraft:jump_boost 13 9 true
-effect give @s minecraft:speed 2 9 true
+#effect give @s[scores={bp.longtick=7}] minecraft:jump_boost 13 9 true
+#effect give @s minecraft:speed 2 9 true
 scoreboard players remove @s[predicate=!bracken:sprint,scores={bp.sprintcharge=1..}] bp.sprintcharge 1
 scoreboard players add @s[predicate=bracken:sprint] bp.sprintcharge 2
 scoreboard players set @s[scores={bp.sprintcharge=1001..}] bp.sprintcharge 100
+
+attribute @s[scores={bp.varskspace=10}] minecraft:generic.gravity modifier add b219651a-a1ee-494b-ad0c-38b00d270549 "bp.varskspace_gravity" -0.8 add_multiplied_base
+attribute @s[scores={bp.varskspace=10}] minecraft:generic.movement_speed modifier add b219651a-a1ee-494b-ad0c-38b00d270549 "bp.varskspace_speed" 0.75 add_multiplied_base
+attribute @s[scores={bp.varskspace=10}] minecraft:generic.jump_strength modifier add b219651a-a1ee-494b-ad0c-38b00d270549 "bp.varskspace_jump" 0.5 add_multiplied_base
+attribute @s[scores={bp.varskspace=10}] minecraft:generic.safe_fall_distance modifier add b219651a-a1ee-494b-ad0c-38b00d270549 "bp.varskspace_safefall" 5 add_multiplied_base
+attribute @s[scores={bp.varskspace=10}] minecraft:generic.fall_damage_multiplier modifier add b219651a-a1ee-494b-ad0c-38b00d270549 "bp.varskspace_redfall" -0.5 add_multiplied_base
+
+
 
 # Speed Effects (travel to Overworld)
 effect give @s[scores={bp.sprintcharge=20..}] minecraft:speed 1 19 true
@@ -27,3 +37,6 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/m
 # Dimension Travel
 execute if score @s bp.1_second matches 14 if data storage bracken:config {dimension_travel: true} if entity @s[scores={bp.ice=7..}] run function bracken:dimension_crossing/overworld_to_glacium
 execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel: true} if entity @s[y=-35,dy=-300] in bracken:void run tp @s ~ 240 ~
+
+#return
+return 1

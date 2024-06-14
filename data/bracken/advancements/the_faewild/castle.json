@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:verdant_froglight"
+            "id": "minecraft:verdant_froglight"
         },
         "frame": "task",
         "show_toast": true,
@@ -27,7 +27,7 @@
                         "predicate": {
                             "location": {
                                 "dimension": "bracken:the_faewild",
-                                "structure": "bracken:fae_castle"
+                                "structures": "bracken:fae_castle"
                             }
                         }
                     }

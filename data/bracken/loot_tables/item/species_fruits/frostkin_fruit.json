@@ -1,44 +1,43 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:apple",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888507}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Frostkin Fruit",
-                  "color": "light_purple",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple"
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
+            ],
+            "functions": [
                 {
-                  "translate": "Become Frostkin",
-                  "color": "blue",
-                  "italic": false
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "translate": "Frostkin Fruit",
+                        "color": "light_purple",
+                        "italic": false
+                    }
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "translate": "Become Frostkin",
+                            "color": "blue",
+                            "italic": false
+                        }
+                    ],
+                    "mode": "insert"
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "value": 888507
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{bp:{species_fruit:1b,id:\"frostkin_fruit\"}}"
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{species_fruit:1b,id:\"frostkin_fruit\"}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
-

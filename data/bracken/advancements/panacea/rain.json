@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:spawner"
+            "id": "minecraft:spawner"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,13 +17,8 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/rain1": {
+        "discovered": {
             "trigger": "minecraft:impossible"
         }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/rain1"
-        ]
-    ]
+    }
 }

@@ -9,8 +9,10 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:apple",
-            "nbt": "{CustomModelData:888513}"
+            "id": "minecraft:apple",
+            "components": {
+                "minecraft:custom_model_data": 888513
+            }
         },
         "frame": "task",
         "show_toast": true,
@@ -25,9 +27,13 @@
                     "items": [
                         "minecraft:apple"
                     ],
-                    "nbt": "{bp:{species_fruit:1b}}"
+                    "components": {
+                        "minecraft:custom_data": {
+                            "nbt": "{bp:{species_fruit:1b}}"
+                        }
+                    }
                 }
-              }
+            }
         }
     },
     "requirements": [

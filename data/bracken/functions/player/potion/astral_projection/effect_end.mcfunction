@@ -16,5 +16,6 @@ execute as @e[type=marker,tag=bp.astral_marker] at @s if score @p[tag=bp.target1
 execute as @e[type=marker,tag=bp.astral_marker] at @s if score @p[tag=bp.target10] bp.world_player_id = @s bp.world_player_id run function bracken:player/potion/astral_projection/destroy_marker
 tag @p[tag=bp.target10] remove bp.target10
 
+effect clear @s glowing
 scoreboard players set @s bp.astral_death 0
 scoreboard players set @s bp.astral_time 0

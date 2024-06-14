@@ -1,70 +1,70 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/ability_books/world_soar"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/ability_books/world_soar"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/the_faewild/immortal_spade"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/the_faewild/immortal_spade"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/portal_keys/faewild_key"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/portal_keys/faewild_key"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/the_faewild/penance_chestplate"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/the_faewild/penance_chestplate"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/the_faewild/penance_leggings"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/the_faewild/penance_leggings"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "name": "bracken:item/the_faewild/penance_boots"
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 120,
-        "max": 150
-      },
-      "entries": [
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/the_faewild/penance_boots"
+                }
+            ]
+        },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:experience_bottle"
+            "rolls": {
+                "min": 120,
+                "max": 150
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:experience_bottle"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

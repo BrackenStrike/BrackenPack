@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:enchanting_table"
+            "id": "minecraft:enchanting_table"
         },
         "frame": "task",
         "show_toast": true,
@@ -27,7 +27,7 @@
                         "predicate": {
                             "location": {
                                 "dimension": "bracken:the_faewild",
-                                "structure": "bracken:fae_rampion_tower"
+                                "structures": "bracken:fae_rampion_tower"
                             }
                         }
                     }

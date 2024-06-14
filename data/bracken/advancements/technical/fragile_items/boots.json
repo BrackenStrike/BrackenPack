@@ -1,20 +1,23 @@
 {
     "criteria": {
-      "boot_hit": {
-        "trigger": "minecraft:entity_hurt_player",
-        "conditions": {
-          "player": {
-            "equipment": {
-              "feet": {
-                "nbt": "{bp:{id:\"fragile\"}}"
-              }
+        "boot_hit": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "feet": {
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "nbt": "{bp:{id:\"fragile\"}}"
+                                }
+                            }
+                        }
+                    }
+                }
             }
-          }
         }
-      } 
     },
     "rewards": {
-      "function": "bracken:item/fragile/feet"
+        "function": "bracken:item/fragile/feet"
     }
-  }
-  
+}

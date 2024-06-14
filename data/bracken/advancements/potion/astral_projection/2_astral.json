@@ -4,7 +4,9 @@
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-                    "nbt": "{bp.potion:102b, bp:[{astral:2b}]}"
+                    "predicates": {
+                        "minecraft:custom_data": "{bp.potion:102b, bp:[{id:\"custom_potion\"},{astral:2b}]}"
+                    }
                 }
             }
         }

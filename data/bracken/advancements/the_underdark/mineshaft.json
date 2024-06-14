@@ -1,6 +1,8 @@
 {
-    "parent": "bracken:the_underdark/gravel",
     "display": {
+        "icon": {
+            "id": "minecraft:dark_oak_log"
+        },
         "title": {
             "translate": "Why Twice?"
         },
@@ -8,14 +10,12 @@
             "translate": "Discover the twice abandoned mineshaft",
             "color": "green"
         },
-        "icon": {
-            "item": "minecraft:dark_oak_log"
-        },
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
+    "parent": "bracken:the_underdark/gravel",
     "criteria": {
         "bracken:the_underdark/mineshaft1": {
             "trigger": "minecraft:location",
@@ -26,8 +26,8 @@
                         "entity": "this",
                         "predicate": {
                             "location": {
-                                "dimension": "bracken:the_underdark",
-                                "structure": "bracken:twice_abandoned_mineshaft"
+                                "structures": "bracken:underdark_twice_abandoned_mineshaft",
+                                "dimension": "bracken:the_underdark"
                             }
                         }
                     }

@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:mud"
+            "id": "minecraft:mud"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,13 +17,8 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/quicksand1": {
+        "discovered": {
             "trigger": "minecraft:impossible"
         }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/quicksand1"
-        ]
-    ]
+    }
 }

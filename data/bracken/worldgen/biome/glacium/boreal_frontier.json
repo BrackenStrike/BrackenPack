@@ -1,124 +1,123 @@
 {
-  "spawners": {
-    "water_ambient": [],
-    "ambient": [],
-    "misc": [],
-    "water_creature": [],
-    "creature": [
-      {
-        "type": "minecraft:zombie",
-        "weight": 2,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:polar_bear",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:wolf",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "monster": [
-      {
-        "type": "minecraft:zombie_villager",
-        "weight": 2,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:husk",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:skeleton",
-        "weight": 8,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:stray",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ]
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
-  },
-  "features": [
-    ["minecraft:spring_lava_frozen",
-    "bracken:glacium/powdersnow"],
-    [
-      "bracken:glacium/rock"
-    ],
-    [
-      "minecraft:iceberg_packed",
-      "minecraft:iceberg_blue"
-    ],
-    [],
-    [
-      "minecraft:blue_ice"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0,
-  "downfall": 0.1,
-  "effects": {
-    "sky_color": 0,
-    "fog_color": 5924999,
-    "water_color": 4014691,
-    "water_fog_color": 7897757,
-    "grass_color": 5074010,
-    "foliage_colour": 5074010,
-    "particle": {
-      "options": {
-        "type": "minecraft:snowflake"
-      },
-      "probability": 0.00428
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [
+            {
+                "type": "minecraft:zombie",
+                "weight": 2,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:polar_bear",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:wolf",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "monster": [
+            {
+                "type": "minecraft:zombie_villager",
+                "weight": 2,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:husk",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:skeleton",
+                "weight": 8,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:stray",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ]
     },
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
     },
-    "additions_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley.additions",
-      "tick_chance": 0.02
+    "features": [
+        [
+            "minecraft:spring_lava_frozen",
+            "bracken:glacium/powdersnow"
+        ],
+        [
+            "bracken:glacium/rock"
+        ],
+        [
+            "minecraft:iceberg_packed",
+            "minecraft:iceberg_blue"
+        ],
+        [],
+        [
+            "minecraft:blue_ice"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0,
+    "downfall": 0.1,
+    "effects": {
+        "sky_color": 0,
+        "fog_color": 5924999,
+        "water_color": 4014691,
+        "water_fog_color": 7897757,
+        "grass_color": 5074010,
+        "foliage_colour": 5074010,
+        "particle": {
+            "options": {
+                "type": "minecraft:snowflake"
+            },
+            "probability": 0.00428
+        },
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "additions_sound": {
+            "sound": "minecraft:ambient.soul_sand_valley.additions",
+            "tick_chance": 0.02
+        },
+        "music": {
+            "sound": "minecraft:music.nether.basalt_deltas",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        },
+        "ambient_sound": "minecraft:item.elytra.flying"
     },
-    "music": {
-      "sound": "bracken:glacium",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
-    "ambient_sound": "minecraft:item.elytra.flying"
-  },
-  "has_precipitation": true
+    "has_precipitation": true
 }

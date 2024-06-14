@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "###",
+        "#/#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:emerald"
+        },
+        "/": {
+            "item": "minecraft:apple"
+        }
+    },
+    "result": {
+        "id": "minecraft:apple",
+        "components": {
+            "minecraft:custom_name": "{\"translate\":\"Bejeweled Apple\",\"color\":aqua,\"italic\":false}",
+            "minecraft:custom_model_data": 888518,
+            "minecraft:food": {
+                "nutrition": 4,
+                "saturation": 9.6,
+                "can_always_eat": true
+            },
+            "minecraft:custom_data": {
+                "nbt": "{bp:{id:\"bejeweled_apple\"}}"
+            }
+        }
+    }
+}

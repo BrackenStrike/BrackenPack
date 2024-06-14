@@ -1,46 +1,63 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:elytra",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:.04,Operation:0,UUID:[I;1872410414,-61781409,-1794531078,661849160],Slot:\"chest\"}],CustomModelData:888501,Enchantments:[{}]}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Glacium Glider",
-                  "color": "white",
-                  "italic": false
+                    "type": "item",
+                    "name": "minecraft:elytra",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantment_glint_override": true,
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "generic.movement_speed",
+                                        "slot": "chest",
+                                        "uuid": [
+                                            1872410414,
+                                            -61781409,
+                                            -1794531078,
+                                            661849160
+                                        ],
+                                        "name": "generic.movement_speed",
+                                        "amount": 0.04,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "minecraft:custom_model_data": 888501
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "Glacium Glider",
+                                "color": "white",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "Traveler's largesse",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "insert"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.88,
+                                "max": 0.93
+                            }
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "translate": "Traveler's largesse",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.88,
-                "max": 0.93
-              }
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

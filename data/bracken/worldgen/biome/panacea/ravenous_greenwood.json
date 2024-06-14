@@ -1,163 +1,164 @@
 {
-  "spawners": {
-    "water_ambient": [],
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 8,
-        "maxCount": 8
-      }
-    ],
-    "misc": [
-      {
-        "type": "minecraft:pig",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:hoglin",
-        "weight": 3,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "water_creature": [
-      
-    ],
-    "creature": [
-      {
-        "type": "minecraft:pig",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:rabbit",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:frog",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:hoglin",
-        "weight": 3,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cow",
-        "weight": 3,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:parrot",
-        "weight": 1,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:ocelot",
-        "weight": 2,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 3
-      }
-    ],
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 3,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:zombie",
-        "weight": 5,
-        "minCount": 3,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:spider",
-        "weight": 5,
-        "minCount": 3,
-        "maxCount": 6
-      }
-    ]
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
-  },
-  "features": [
-    [],
-    ["bracken:panacea/big_tree",
-    "minecraft:patch_berry_common"],
-    [
-      "minecraft:forest_rock"
-    ],
-    ["bracken:panacea/coal_blobs"],
-    ["bracken:panacea/berry"],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:trees_old_growth_spruce_taiga",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:patch_large_fern",
-      "minecraft:patch_grass_jungle"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [
+            {
+                "type": "minecraft:bat",
+                "weight": 10,
+                "minCount": 8,
+                "maxCount": 8
+            }
+        ],
+        "misc": [
+            {
+                "type": "minecraft:pig",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:hoglin",
+                "weight": 3,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "water_creature": [],
+        "creature": [
+            {
+                "type": "minecraft:pig",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:rabbit",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:frog",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:hoglin",
+                "weight": 3,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:cow",
+                "weight": 3,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:parrot",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:ocelot",
+                "weight": 2,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:creeper",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 3
+            }
+        ],
+        "monster": [
+            {
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:creeper",
+                "weight": 3,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:zombie",
+                "weight": 5,
+                "minCount": 3,
+                "maxCount": 6
+            },
+            {
+                "type": "minecraft:spider",
+                "weight": 5,
+                "minCount": 3,
+                "maxCount": 6
+            }
+        ]
     },
-    "fog_color": 13359780,
-    "water_color": 11509077,
-    "water_fog_color": 11503445,
-    "grass_color": 6514751,
-    "sky_color": 11919559,
-    "foliage_color": 4931584,
-    "additions_sound": {
-      "sound": "minecraft:entity.parrot.ambient",
-      "tick_chance": 0.0002
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
     },
-    "music": {
-      "sound": "minecraft:music.creative",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
-  },
-  "has_precipitation": true
+    "features": [
+        [],
+        [
+            "bracken:panacea/big_tree",
+            "minecraft:patch_berry_common"
+        ],
+        [
+            "minecraft:forest_rock"
+        ],
+        [
+            "bracken:panacea/coal_blobs"
+        ],
+        [
+            "bracken:panacea/berry"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:trees_old_growth_spruce_taiga",
+            "minecraft:patch_tall_grass_2",
+            "minecraft:patch_large_fern",
+            "minecraft:patch_grass_jungle"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "fog_color": 13359780,
+        "water_color": 11509077,
+        "water_fog_color": 11503445,
+        "grass_color": 6514751,
+        "sky_color": 11919559,
+        "foliage_color": 4931584,
+        "additions_sound": {
+            "sound": "minecraft:entity.parrot.ambient",
+            "tick_chance": 0.0002
+        },
+        "music": {
+            "sound": "minecraft:music.creative",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
+    },
+    "has_precipitation": true
 }

@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:clay"
+            "id": "minecraft:clay"
         },
         "frame": "task",
         "show_toast": true,

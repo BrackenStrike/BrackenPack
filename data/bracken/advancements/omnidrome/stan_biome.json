@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:note_block"
+            "id": "minecraft:note_block"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:omnidrome/stan_biome1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biome": "bracken:omnidrome/stanterion"
+                        "biomes": "bracken:omnidrome/stanterion"
                     }
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:omnidrome/stan_biome1"
-        ]
-    ]
+    }
 }

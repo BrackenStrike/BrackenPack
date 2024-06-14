@@ -1,33 +1,33 @@
 {
-  "spawners": {},
-  "spawn_costs": {},
-  "carvers": {},
-  "features": [],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "fog_color": 6113113,
-    "water_color": 4996043,
-    "water_fog_color": 4995962,
-    "grass_color": 2065734,
-    "sky_color": 2502751,
-    "foliage_color": 4241526,
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawners": {},
+    "spawn_costs": {},
+    "carvers": {},
+    "features": [],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "fog_color": 6113113,
+        "water_color": 4996043,
+        "water_fog_color": 4995962,
+        "grass_color": 2065734,
+        "sky_color": 2502751,
+        "foliage_color": 4241526,
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "additions_sound": {
+            "sound": "minecraft:ambient.crimson_forest.additions",
+            "tick_chance": 0.005
+        },
+        "music": {
+            "sound": "minecraft:music.nether.basalt_deltas",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
     },
-    "additions_sound": {
-      "sound": "minecraft:ambient.crimson_forest.additions",
-      "tick_chance": 0.005
-    },
-    "music": {
-      "sound": "bracken:faewild",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
-  },
-  "has_precipitation": true
+    "has_precipitation": true
 }

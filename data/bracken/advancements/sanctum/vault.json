@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:bedrock"
+            "id": "minecraft:bedrock"
         },
         "frame": "task",
         "show_toast": true,
@@ -26,7 +26,7 @@
                         "light": {
                             "light": 0
                         },
-                        "structure": "bracken:sanctum_boss"
+                        "structures": "bracken:sanctum_boss"
                     }
                 }
             }

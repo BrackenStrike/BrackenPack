@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:obsidian"
+            "id": "minecraft:obsidian"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,13 +17,8 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:the_underdark/unsung1": {
+        "requirement": {
             "trigger": "minecraft:impossible"
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_underdark/unsung1"
-        ]
-    ]
+    }
 }

@@ -1,45 +1,42 @@
 {
-  "spawners": {
-    "water_ambient": [],
-    "ambient": [],
-    "misc": [],
-    "water_creature": [],
-    "creature": [],
-    "monster": []
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
-  },
-  "features": [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "bracken:void/barrier"
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [],
+        "monster": []
+    },
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "bracken:void/barrier"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "fog_color": 0,
-    "water_color": 0,
-    "water_fog_color": 0,
-    "grass_color": 0,
-    "sky_color": 0,
-    "foliage_colour": 0
-  },
-  "has_precipitation": false
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "fog_color": 0,
+        "water_color": 0,
+        "water_fog_color": 0,
+        "grass_color": 0,
+        "sky_color": 0,
+        "foliage_colour": 0
+    },
+    "has_precipitation": false
 }

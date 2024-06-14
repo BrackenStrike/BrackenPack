@@ -1,10 +1,10 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "type": "minecraft:player",
-    "effects": {
-      "minecraft:conduit_power": {}
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type": "minecraft:player",
+        "effects": {
+            "minecraft:conduit_power": {}
+        }
     }
-  }
 }

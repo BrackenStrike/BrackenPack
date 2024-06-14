@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:warped_door"
+            "id": "minecraft:warped_door"
         },
         "frame": "task",
         "show_toast": true,
@@ -27,7 +27,7 @@
                         "predicate": {
                             "location": {
                                 "dimension": "bracken:the_faewild",
-                                "structure": "bracken:fae_village"
+                                "structures": "bracken:fae_village"
                             }
                         }
                     }

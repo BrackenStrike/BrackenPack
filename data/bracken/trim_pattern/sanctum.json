@@ -1,0 +1,7 @@
+{
+    "asset_id": "bracken:sanctum/sanctum",
+    "description": {
+        "translate": "trim_pattern.bracken.sanctum"
+    },
+    "template_item": "minecraft:barrier"
+}

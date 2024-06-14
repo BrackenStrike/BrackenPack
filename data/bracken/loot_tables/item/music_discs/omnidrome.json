@@ -1,29 +1,35 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_11",
-          "functions": [
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "text": "Arnold Rynux - Omnidrome",
-                  "color": "gray",
-                  "italic": false
+                    "type": "minecraft:item",
+                    "name": "minecraft:music_disc_11"
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:888508,HideFlags:32,bracken:{custom_music_disc:1b,custom_music:\"omnidrome\"}}"
-            }
-          ]
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "text": "Arnold Rynux - Omnidrome",
+                            "color": "gray",
+                            "italic": false
+                        }
+                    ],
+                    "mode": "insert"
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "value": 888508
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{bracken:{custom_music_disc:1b,custom_music:\"omnidrome\"}}"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,21 +1,27 @@
 {
-  "parent": "bracken:root",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:consume_item",
-      "conditions": {
-        "player": {
-          "team": "Hunter"
-        },
-        "item": {
-          "items": [
-            "minecraft:mutton"
-          ]
+    "parent": "bracken:root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "team": "Hunter"
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:mutton"
+                    ]
+                }
+            }
         }
-      }
+    },
+    "rewards": {
+        "function": "bracken:player/species/hunter/mutton"
     }
-  },
-  "rewards": {
-    "function": "bracken:player/species/hunter/mutton"
-  }
 }

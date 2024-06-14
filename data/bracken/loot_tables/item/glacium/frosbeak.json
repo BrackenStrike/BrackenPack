@@ -1,50 +1,79 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:diamond_axe",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888502,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:12,Operation:0,UUID:[I;1401610331,1048199356,-1607358411,589202321],Slot:\"mainhand\"}],Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:5s},{id:\"minecraft:knockback\",lvl:3s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Frosbeak",
-                  "color": "blue",
-                  "bold": true
+                    "type": "item",
+                    "name": "minecraft:diamond_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:bane_of_arthropods": 5,
+                                    "minecraft:knockback": 3,
+                                    "minecraft:vanishing_curse": 1
+                                },
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "generic.attack_damage",
+                                        "slot": "mainhand",
+                                        "uuid": [
+                                            1401610331,
+                                            1048199356,
+                                            -1607358411,
+                                            589202321
+                                        ],
+                                        "name": "generic.attack_damage",
+                                        "amount": 12,
+                                        "operation": "add_value"
+                                    }
+                                ],
+                                "minecraft:custom_model_data": 888502
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "Frosbeak",
+                                    "color": "blue",
+                                    "bold": true
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "Jeg skiver!",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "insert"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.78,
+                                "max": 0.83
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "bp": {
+                                        "id": "fragile"
+                                    }
+                                }
+                            }
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "translate": "Jeg skiver!",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.78,
-                "max": 0.83
-              }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{bp:{id:\"fragile\"}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

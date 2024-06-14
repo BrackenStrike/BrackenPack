@@ -1,50 +1,65 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:diamond_boots",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888502,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:5s},{id:\"minecraft:frost_walker\",lvl:5s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Frossabattn",
-                  "color": "blue",
-                  "bold": true
+                    "type": "item",
+                    "name": "minecraft:diamond_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 5,
+                                    "minecraft:fire_protection": 5,
+                                    "minecraft:frost_walker": 5,
+                                    "minecraft:vanishing_curse": 1
+                                },
+                                "minecraft:custom_model_data": 888502
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "Frossabattn",
+                                    "color": "blue",
+                                    "bold": true
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "jeg l\u00f8per!",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "insert"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.88,
+                                "max": 0.93
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "bp": {
+                                        "id": "fragile"
+                                    }
+                                }
+                            }
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "translate": "jeg løper!",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.88,
-                "max": 0.93
-              }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{bp:{id:\"fragile\"}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

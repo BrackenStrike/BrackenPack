@@ -1,21 +1,30 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:bow",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"Dreambow\",\"color\":\"yellow\",\"italic\":false}',Lore:['{\"text\":\"What dreams may come, when we have shuffled off this mortal coil?\",\"color\":\"aqua\",\"italic\":false}']},RepairCost:100,Damage:200,Enchantments:[{id:\"minecraft:punch\",lvl:10s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
-            }
-            
-            
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:damage": 200,
+                                "minecraft:repair_cost": 100,
+                                "minecraft:enchantments": {
+                                    "minecraft:punch": 10,
+                                    "minecraft:vanishing_curse": 1
+                                },
+                                "minecraft:custom_name": "{\"text\":\"Dreambow\",\"color\":\"yellow\",\"italic\":false}",
+                                "minecraft:lore": [
+                                    "{\"text\":\"What dreams may come, when we have shuffled off this mortal coil?\",\"color\":\"aqua\",\"italic\":false}"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

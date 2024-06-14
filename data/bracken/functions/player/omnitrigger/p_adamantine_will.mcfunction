@@ -3,4 +3,4 @@
 # Creators: BrackenStrike
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.adamantine_will 1
+scoreboard players set @s _OMNI.POWER.adamantine_will 1

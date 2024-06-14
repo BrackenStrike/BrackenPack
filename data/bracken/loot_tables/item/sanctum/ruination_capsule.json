@@ -1,39 +1,89 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:slime_spawn_egg",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{HideFlags:2,Enchantments:[{}],CustomModelData:888502,EntityTag:{id:\"minecraft:vex\",CustomNameVisible:1b,Silent:1b,HandItems:[{id:\"minecraft:ender_eye\",Count:1b,tag:{CustomModelData:888503}},{id:\"minecraft:ender_eye\",Count:1b,tag:{CustomModelData:888503}}],active_effects:[{id:\"minecraft:invisibility\",amplifier:1b,duration:-1,show_particles:0b}],PersistenceRequired:1b,LifeTicks:200000,Attributes:[{Name:generic.follow_range,Base:70},{Name:generic.attack_damage,Base:0}],Tags:[\"bp.construct\",\"bp.entity\"],CustomName:'{\"text\":\"Construct\",\"bold\":true}'}}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Ruination Capsule",
-                  "color": "white",
-                  "italic": false
+                    "type": "item",
+                    "name": "minecraft:slime_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantment_glint_override": true,
+                                "minecraft:custom_model_data": 888502,
+                                "minecraft:entity_data": {
+                                    "id": "minecraft:vex",
+                                    "CustomNameVisible": 1,
+                                    "Silent": 1,
+                                    "HandItems": [
+                                        {
+                                            "id": "minecraft:ender_eye",
+                                            "Count": 1,
+                                            "components": {
+                                                "minecraft:custom_model_data": 888503
+                                            }
+                                        },
+                                        {
+                                            "id": "minecraft:ender_eye",
+                                            "Count": 1,
+                                            "components": {
+                                                "minecraft:custom_model_data": 888503
+                                            }
+                                        }
+                                    ],
+                                    "active_effects": [
+                                        {
+                                            "id": "minecraft:invisibility",
+                                            "amplifier": 1,
+                                            "duration": -1,
+                                            "show_particles": false
+                                        }
+                                    ],
+                                    "PersistenceRequired": 1,
+                                    "LifeTicks": 200000,
+                                    "Attributes": [
+                                        {
+                                            "Name": "generic.follow_range",
+                                            "Base": 70
+                                        },
+                                        {
+                                            "Name": "generic.attack_damage",
+                                            "Base": 0
+                                        }
+                                    ],
+                                    "Tags": [
+                                        "bp.construct",
+                                        "bp.entity"
+                                    ],
+                                    "CustomName": "{\"text\":\"Construct\",\"bold\":true}"
+                                }
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "Ruination Capsule",
+                                    "color": "white",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "A part still lives.",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "insert"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "translate": "A part still lives.",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -1,45 +1,45 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:compass"
+    "display": {
+        "icon": {
+            "id": "minecraft:compass"
+        },
+        "title": {
+            "translate": "Wrong Way Wagon"
+        },
+        "description": {
+            "translate": "Loot an ensnared wagon deep within a spider's nest"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
     },
-    "title": {
-      "translate": "Wrong Way Wagon"
+    "parent": "bracken:the_underdark/petrified",
+    "criteria": {
+        "the_underdark_web1": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "bracken:the_underdark/underdark_web1"
+            }
+        },
+        "the_underdark_web2": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "bracken:the_underdark/underdark_web2"
+            }
+        },
+        "the_underdark_web3": {
+            "trigger": "minecraft:player_generates_container_loot",
+            "conditions": {
+                "loot_table": "bracken:the_underdark/underdark_web3"
+            }
+        }
     },
-    "description": {
-      "translate": "Loot an ensnared wagon deep within a spider's nest"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "parent": "bracken:the_underdark/petrified",
-  "criteria": {
-    "the_underdark_web1": {
-      "trigger": "minecraft:player_generates_container_loot",
-      "conditions": {
-        "loot_table": "bracken:the_underdark/underdark_web1"
-      }
-    },
-    "the_underdark_web2": {
-      "trigger": "minecraft:player_generates_container_loot",
-      "conditions": {
-        "loot_table": "bracken:the_underdark/underdark_web2"
-      }
-    },
-    "the_underdark_web3": {
-      "trigger": "minecraft:player_generates_container_loot",
-      "conditions": {
-        "loot_table": "bracken:the_underdark/underdark_web3"
-      }
-    }
-  },
-  "requirements": [
-    [
-      "the_underdark_web1",
-      "the_underdark_web2",
-      "the_underdark_web3"
+    "requirements": [
+        [
+            "the_underdark_web1",
+            "the_underdark_web2",
+            "the_underdark_web3"
+        ]
     ]
-  ]
 }

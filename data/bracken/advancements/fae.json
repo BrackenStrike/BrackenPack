@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:stripped_warped_stem"
+            "id": "minecraft:stripped_warped_stem"
         },
         "frame": "task",
         "show_toast": true,

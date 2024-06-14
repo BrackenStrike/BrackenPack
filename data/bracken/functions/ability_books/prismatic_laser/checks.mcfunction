@@ -8,3 +8,5 @@ execute if data storage bracken:config {ability_books_on: true} if entity @s[lev
 execute if data storage bracken:config {ability_books_on: false} run tellraw @s "A spell is attempted but nothing happens..."
 
 scoreboard players set @s bp.offhand 0
+
+return 1

@@ -3,4 +3,4 @@
 # Creators: BrackenStrike
 ##########################################################
 
-scoreboard players set @s OMNI.BUILD.cyber_tree 1
+scoreboard players set @s _OMNI.BUILD.cyber_tree 1

@@ -9,8 +9,10 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:iron_sword",
-            "nbt": "{CustomModelData:888501}"
+            "id": "minecraft:iron_sword",
+            "components": {
+                "minecraft:custom_model_data": 888501
+            }
         },
         "frame": "task",
         "show_toast": true,
@@ -22,23 +24,25 @@
             "trigger": "minecraft:player_hurt_entity",
             "conditions": {
                 "player": [
-                  {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "equipment": {
-                        "mainhand": {
-                          "items": [
-                            "minecraft:iron_sword"],
-                            "nbt": "{CustomModelData:888501}"
-                          
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "minecraft:iron_sword"
+                                    ],
+                                    "components": {
+                                        "minecraft:custom_model_data": 888501
+                                    }
+                                }
+                            }
                         }
-                      }
                     }
-                  }
                 ]
-              }
-          }
+            }
+        }
     },
     "requirements": [
         [
@@ -46,4 +50,3 @@
         ]
     ]
 }
-

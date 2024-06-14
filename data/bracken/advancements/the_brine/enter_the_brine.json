@@ -8,8 +8,10 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:nether_wart",
-            "nbt": "{CustomModelData:888506}"
+            "id": "minecraft:nether_wart",
+            "components": {
+                "minecraft:custom_model_data": 888506
+            }
         },
         "frame": "task",
         "show_toast": false,
@@ -18,7 +20,7 @@
         "background": "bracken:textures/gui/advancements/backgrounds/the_brine.png"
     },
     "criteria": {
-        "bracken:the_brine/bri1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -28,10 +30,5 @@
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_brine/bri1"
-        ]
-    ]
+    }
 }

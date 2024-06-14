@@ -1,11 +1,13 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "equipment": {
-      "mainhand": {
-        "nbt": "{bp:{id:\"crimson_spark\"}}"
-      }
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "predicates": {
+                    "minecraft:custom_data": "{bp:{id:\"crimson_spark\"}}"
+                }
+            }
+        }
     }
-  }
 }

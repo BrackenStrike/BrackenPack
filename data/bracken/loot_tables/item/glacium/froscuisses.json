@@ -1,50 +1,64 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:diamond_leggings",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888502,Enchantments:[{id:\"minecraft:protection\",lvl:5s},{id:\"minecraft:fire_protection\",lvl:6s},{id:\"minecraft:vanishing_curse\",lvl:1s}]}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Froscuisses",
-                  "color": "blue",
-                  "bold": true
+                    "type": "item",
+                    "name": "minecraft:diamond_leggings",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:protection": 5,
+                                    "minecraft:fire_protection": 6,
+                                    "minecraft:vanishing_curse": 1
+                                },
+                                "minecraft:custom_model_data": 888502
+                            }
+                        },
+                        {
+                            "function": "set_name",
+                            "name": [
+                                {
+                                    "translate": "Froscuisses",
+                                    "color": "blue",
+                                    "bold": true
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "translate": "Jeg er mote!",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ],
+                            "mode": "insert"
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0.78,
+                                "max": 0.83
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_data": {
+                                    "bp": {
+                                        "id": "fragile"
+                                    }
+                                }
+                            }
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "translate": "Jeg er mote!",
-                  "color": "gray",
-                  "italic": false
-                }
-              ]
-            },
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.78,
-                "max": 0.83
-              }
-            },
-            {
-              "function": "set_nbt",
-              "tag": "{bp:{id:\"fragile\"}}"
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

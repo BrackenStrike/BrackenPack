@@ -9,8 +9,10 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:feather",
-            "nbt": "{CustomModelData:888501}"
+            "id": "minecraft:feather",
+            "components": {
+                "minecraft:custom_model_data": 888501
+            }
         },
         "frame": "task",
         "show_toast": true,
@@ -18,13 +20,8 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:sanctum/thunderstruck1": {
+        "discovered": {
             "trigger": "minecraft:impossible"
         }
-    },
-    "requirements": [
-        [
-            "bracken:sanctum/thunderstruck1"
-        ]
-    ]
+    }
 }

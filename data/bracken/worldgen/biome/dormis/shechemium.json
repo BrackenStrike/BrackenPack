@@ -1,78 +1,73 @@
 {
-  "spawners": {
-    "water_ambient": [],
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "misc": [],
-    "water_creature": [],
-    "creature": [],
-    "monster": [
-      
-      {
-        "type": "minecraft:piglin_brute",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ]
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
-  },
-  "features": [
-    [],
-    [
-      "minecraft:lake_lava_surface",
-      "minecraft:lake_lava_underground"
-      
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "sky_color": 16777215,
-    "fog_color": 0,
-    "water_color": 0,
-    "water_fog_color": 0,
-    "grass_color": 16777215,
-    "foliage_colour": 16777215,
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 1000,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [
+            {
+                "type": "minecraft:bat",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "misc": [],
+        "water_creature": [],
+        "creature": [],
+        "monster": [
+            {
+                "type": "minecraft:piglin_brute",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ]
     },
-    "additions_sound": {
-      "sound": "minecraft:ambient.basalt_deltas.mood",
-      "tick_chance": 0.001
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
     },
-    "music": {
-      "sound": "minecraft:music.nether.basalt_deltas",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
-  },
-  "has_precipitation": false
+    "features": [
+        [],
+        [
+            "minecraft:lake_lava_surface",
+            "minecraft:lake_lava_underground"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "sky_color": 16777215,
+        "fog_color": 0,
+        "water_color": 0,
+        "water_fog_color": 0,
+        "grass_color": 16777215,
+        "foliage_colour": 16777215,
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 1000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "additions_sound": {
+            "sound": "minecraft:ambient.basalt_deltas.mood",
+            "tick_chance": 0.001
+        },
+        "music": {
+            "sound": "minecraft:music.nether.basalt_deltas",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
+    },
+    "has_precipitation": false
 }

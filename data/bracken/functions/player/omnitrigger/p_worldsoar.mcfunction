@@ -3,4 +3,4 @@
 # Creators: BrackenStrike
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.world_soar 1
+scoreboard players set @s _OMNI.POWER.world_soar 1

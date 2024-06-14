@@ -5,7 +5,7 @@
 
 scoreboard players set @s bp.potion_count 0
 scoreboard players set @s bp.brine_potion 0
-execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:3b}].tag."bp.potion"
+execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:3b}].components."minecraft:custom_data"."bp.potion"
 
 # Tempest Nectar
 execute if score @s bp.brine_potion matches 1 run function bracken:dimension_commands/other/brine_brewing/custom_potions/aquatic_start
@@ -25,4 +25,3 @@ execute if score @s bp.brine_potion matches 7 run function bracken:dimension_com
 execute if score @s bp.brine_potion matches 8 run function bracken:dimension_commands/other/brine_brewing/custom_potions/toxin_start
 # Wither Fin
 execute if score @s bp.brine_potion matches 9 run function bracken:dimension_commands/other/brine_brewing/custom_potions/wither_start
-

@@ -1,27 +1,25 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:melon_seeds",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888502}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Panaspore"
+                    "type": "minecraft:item",
+                    "name": "minecraft:melon_seeds"
                 }
-              ]
-            }
-          ]
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "translate": "Panaspore"
+                    }
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "value": 888502
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

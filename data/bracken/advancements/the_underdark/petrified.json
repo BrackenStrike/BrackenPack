@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:basalt"
+            "id": "minecraft:basalt"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,26 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:the_underdark/petrified_forest1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:the_underdark/petrified_forest"
-                            }
-                        }
+                "player": {
+                    "location": {
+                        "biomes": "bracken:the_underdark/petrified_forest"
                     }
-                ]
+                }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_underdark/petrified_forest1"
-        ]
-    ]
+    }
 }

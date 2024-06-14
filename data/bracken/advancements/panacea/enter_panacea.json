@@ -8,8 +8,10 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:carrot_on_a_stick",
-            "nbt": "{CustomModelData:888520}"
+            "id": "minecraft:carrot_on_a_stick",
+            "components": {
+                "minecraft:custom_model_data": 888520
+            }
         },
         "frame": "task",
         "show_toast": false,
@@ -18,7 +20,7 @@
         "background": "bracken:textures/gui/advancements/backgrounds/panacea.png"
     },
     "criteria": {
-        "bracken:panacea/pan1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
@@ -28,10 +30,5 @@
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/pan1"
-        ]
-    ]
+    }
 }

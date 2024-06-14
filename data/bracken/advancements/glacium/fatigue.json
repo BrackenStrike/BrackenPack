@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:cracked_stone_bricks"
+            "id": "minecraft:cracked_stone_bricks"
         },
         "frame": "task",
         "show_toast": true,
@@ -20,27 +20,14 @@
         "bracken:glacium/fatigue1": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:player",
-                            "effects": {
-                                "minecraft:slowness": {}
-                            }
-                        }
+                "player": {
+                    "location": {
+                        "dimension": "bracken:glacium"
                     },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "dimension": "bracken:glacium"
-                            }
-                        }
+                    "effects": {
+                        "minecraft:slowness": {}
                     }
-                ]
+                }
             }
         }
     },

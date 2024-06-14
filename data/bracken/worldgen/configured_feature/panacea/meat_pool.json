@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:lake",
+    "config": {
+        "fluid": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:water",
+                "Properties": {
+                    "level": "0"
+                }
+            }
+        },
+        "barrier": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:mushroom_stem",
+                "Properties": {
+                    "west": "true",
+                    "up": "true",
+                    "south": "true",
+                    "north": "true",
+                    "east": "true",
+                    "down": "true"
+                }
+            }
+        }
+    }
+}

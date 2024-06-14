@@ -1,31 +1,31 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:nether_wart",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{CustomModelData:888509}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Essence of Eternity",
-                "color": "yellow",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp.potion:1b,bp:{id:\"potion_modifier\"}}"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:nether_wart"
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "text": "Essence of Eternity",
+                        "color": "yellow",
+                        "italic": false
+                    }
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "value": 888509
+                },
+                {
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{bp.potion:1b,bp:{id:\"potion_modifier\"}}"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

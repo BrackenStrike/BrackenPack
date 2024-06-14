@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:netherrack_replace_blobs",
+    "config": {
+        "target": {
+            "Name": "minecraft:tuff"
+        },
+        "state": {
+            "Name": "minecraft:gilded_blackstone"
+        },
+        "radius": 0
+    }
+}

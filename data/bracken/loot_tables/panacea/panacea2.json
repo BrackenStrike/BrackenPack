@@ -1,17 +1,44 @@
 {
-    "pools":
-    [
-        {"rolls":1,"entries":
-            [
-                {"type":"item","name":"minecraft:leather_leggings","weight":1,"functions":
-                    [
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 1,
+                    "functions": [
                         {
-                            "function":"set_nbt","tag":"{display:{Name:'{\"text\":\"Vitality Leggings\",\"color\":\"dark_green\",\"bold\":true}',Lore:['{\"text\":\"two of three\",\"color\":\"gold\"}'],color:7717417},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Amount:5,Operation:0,UUID:[I;2022593303,-8893539,-2055800479,1871108292],Slot:\"legs\"}]}"
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": "{\"text\":\"Vitality Leggings\",\"color\":\"dark_green\",\"bold\":true}",
+                                "minecraft:lore": [
+                                    "{\"text\":\"two of three\",\"color\":\"gold\"}"
+                                ],
+                                "minecraft:dyed_color": 7717417,
+                                "minecraft:attribute_modifiers": [
+                                    {
+                                        "type": "generic.max_health",
+                                        "slot": "legs",
+                                        "uuid": [
+                                            2022593303,
+                                            -8893539,
+                                            -2055800479,
+                                            1871108292
+                                        ],
+                                        "name": "generic.max_health",
+                                        "amount": 5,
+                                        "operation": "add_value"
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
                 {
-                    "type":"item","name":"minecraft:rotten_flesh","weight":3
+                    "type": "item",
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 3
                 }
             ]
         }

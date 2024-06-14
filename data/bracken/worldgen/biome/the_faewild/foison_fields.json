@@ -1,132 +1,129 @@
 {
-  "spawners": {
-    "water_ambient": [],
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 8,
-        "maxCount": 8
-      }
-    ],
-    "misc": [],
-    "water_creature": [],
-    "creature": [
-      {
-        "type": "minecraft:pig",
-        "weight": 12,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 52,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:fox",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 2
-      },
-      {
-        "type": "minecraft:rabbit",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:frog",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "monster": [
-      {
-        "type": "minecraft:spider",
-        "weight": 2,
-        "minCount": 3,
-        "maxCount": 3
-      },
-      {
-        "type": "minecraft:slime",
-        "weight": 1,
-        "minCount": 4,
-        "maxCount": 4
-      }      
-    ]
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
-  },
-  "features": [
-    [],
-    [],
-    [
-      "minecraft:forest_rock"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:flower_swamp",
-      "minecraft:patch_grass_normal",
-      "minecraft:patch_dead_bush",
-      "minecraft:patch_waterlily",
-      "minecraft:brown_mushroom_swamp",
-      "minecraft:red_mushroom_swamp",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane_swamp",
-      "minecraft:patch_melon",
-      "minecraft:spring_water",
-      "minecraft:seagrass_swamp",
-      "minecraft:patch_large_fern",
-      "bracken:faewild/large_fern",
-      "minecraft:brown_mushroom_old_growth",
-      "minecraft:red_mushroom_old_growth",
-      "minecraft:vines",
-      "minecraft:sea_pickle",
-      "bracken:faewild/lapis_ore"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "fog_color": 6113113,
-    "water_color": 4996043,
-    "water_fog_color": 4995962,
-    "grass_color": 2065734,
-    "sky_color": 2502751,
-    "foliage_color": 2065734,
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [
+            {
+                "type": "minecraft:bat",
+                "weight": 10,
+                "minCount": 8,
+                "maxCount": 8
+            }
+        ],
+        "misc": [],
+        "water_creature": [],
+        "creature": [
+            {
+                "type": "minecraft:pig",
+                "weight": 12,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:chicken",
+                "weight": 52,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:fox",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "minecraft:rabbit",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:frog",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "monster": [
+            {
+                "type": "minecraft:spider",
+                "weight": 2,
+                "minCount": 3,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:slime",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ]
     },
-    "additions_sound": {
-      "sound": "minecraft:block.conduit.ambient.short",
-      "tick_chance": 0.002
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
     },
-    "music": {
-      "sound": "minecraft:music.nether.warped_forest",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
-  },
-  "has_precipitation": true
+    "features": [
+        [],
+        [],
+        [
+            "minecraft:forest_rock"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:flower_swamp",
+            "minecraft:patch_grass_normal",
+            "minecraft:patch_dead_bush",
+            "minecraft:patch_waterlily",
+            "minecraft:brown_mushroom_swamp",
+            "minecraft:red_mushroom_swamp",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal",
+            "minecraft:patch_sugar_cane_swamp",
+            "minecraft:patch_melon",
+            "minecraft:spring_water",
+            "minecraft:seagrass_swamp",
+            "minecraft:patch_large_fern",
+            "bracken:faewild/large_fern",
+            "minecraft:brown_mushroom_old_growth",
+            "minecraft:red_mushroom_old_growth",
+            "minecraft:vines",
+            "minecraft:sea_pickle",
+            "bracken:faewild/lapis_ore"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "fog_color": 6113113,
+        "water_color": 4996043,
+        "water_fog_color": 4995962,
+        "grass_color": 2065734,
+        "sky_color": 2502751,
+        "foliage_color": 2065734,
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "additions_sound": {
+            "sound": "minecraft:block.conduit.ambient.short",
+            "tick_chance": 0.002
+        },
+        "music": {
+            "sound": "minecraft:music.nether.warped_forest",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
+    },
+    "has_precipitation": true
 }

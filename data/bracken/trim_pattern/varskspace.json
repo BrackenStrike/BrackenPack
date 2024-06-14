@@ -1,0 +1,7 @@
+{
+    "asset_id": "bracken:varskspace/varskspace",
+    "description": {
+        "translate": "trim_pattern.bracken.varskspace"
+    },
+    "template_item": "minecraft:barrier"
+}

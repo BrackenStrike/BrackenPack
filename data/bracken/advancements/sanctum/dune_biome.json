@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:calcite"
+            "id": "minecraft:calcite"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,20 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:sanctum/dune_biome1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
                     "location": {
-                        "biome": "bracken:sanctum/dark_soot_dunes"
+                        "biomes": "bracken:sanctum/dark_soot_dunes"
                     }
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:sanctum/dune_biome1"
-        ]
-    ]
+    }
 }

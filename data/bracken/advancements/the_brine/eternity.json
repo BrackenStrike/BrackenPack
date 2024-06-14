@@ -9,8 +9,11 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:nether_wart",
-            "nbt": "{CustomModelData:888510}"
+            "id": "minecraft:nether_wart",
+            "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:custom_model_data": 888510
+            }
         },
         "frame": "task",
         "show_toast": true,
@@ -37,7 +40,9 @@
                         "items": [
                             "minecraft:nether_wart"
                         ],
-                        "nbt": "{CustomModelData:888510}"
+                        "components": {
+                            "minecraft:custom_model_data": 888510
+                        }
                     }
                 ]
             }

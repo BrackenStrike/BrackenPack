@@ -1,39 +1,43 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "item",
-          "name": "minecraft:structure_block",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{bp.portal_key:4b,CustomModelData:888510}"
-            },
-            {
-              "function": "set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "Pax Portal Key",
-                  "color": "white",
-                  "italic": true,
-                  "bold": true
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block"
                 }
-              ]
-            },
-            {
-              "function": "set_lore",
-              "lore": [
+            ],
+            "functions": [
                 {
-                  "translate": "Unlocks a door to somewhere...",
-                  "italic": false
+                    "function": "minecraft:set_custom_data",
+                    "tag": "{bp.portal_key:4b}"
+                },
+                {
+                    "function": "minecraft:set_name",
+                    "name": {
+                        "translate": "Pax Portal Key",
+                        "color": "white",
+                        "italic": true,
+                        "bold": true
+                    }
+                },
+                {
+                    "function": "minecraft:set_lore",
+                    "entity": "this",
+                    "lore": [
+                        {
+                            "translate": "Unlocks a door to somewhere...",
+                            "italic": false
+                        }
+                    ],
+                    "mode": "insert"
+                },
+                {
+                    "function": "minecraft:set_custom_model_data",
+                    "value": 888510
                 }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

@@ -3,4 +3,4 @@
 # Creators: BrackenStrike
 ##########################################################
 
-scoreboard players set @s OMNI.SUMMON.theoretical_snowman 1
+scoreboard players set @s _OMNI.SUMMON.theoretical_snowman 1

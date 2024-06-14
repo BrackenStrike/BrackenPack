@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:creeper_spawn_egg"
+            "id": "minecraft:creeper_spawn_egg"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,26 +17,15 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/creeper1": {
+        "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "biome": "bracken:panacea/creeper_dominion"
-                            }
-                        }
+                "player": {
+                    "location": {
+                        "biomes": "bracken:panacea/creeper_dominion"
                     }
-                ]
+                }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/creeper1"
-        ]
-    ]
+    }
 }

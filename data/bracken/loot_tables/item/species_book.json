@@ -1,43 +1,57 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:written_book",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{pages:['[[\"CLICK A SPECIES\\\\n\\\\n\",{\"text\":\"Automech\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Are greatly resiliant to damage and knockback\n+ Have saturation while standing on a redstone block\n+ Have saturation and increased speed while in Omnidrome\n- Are slower than other species, especially when wet\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.automech\"},\"color\":\"green\"},\"\\\\n\\\\n\",{\"text\":\"Dweller\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Have increased mining speed\n+ Have permanent night vision\n- Are sensitive to bright light\n- Are always hungry and are never satisfied with food\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.dweller\"},\"color\":\"dark_gray\"},\"\\\\n\\\\n\",{\"text\":\"Enderling\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Can teleport by holding sneak and right-clicking with nothing in the offhand\n+ Teleport range is greatly increased in The End\n+ Chorus fruit will teleport you over a much larger spread distance than normal\n- Will take damage from sources of water\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.enderling\"},\"color\":\"light_purple\"},\"\\\\n\\\\n\",{\"text\":\"Faefolk\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Can jump two blocks high\n+ Have increased movement speed\n+ Have increased jump height and movement speed in the Faewild\n+ Will passively gain small amounts of experience points over time \n- Have decreased attack damage\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.faefolk\"},\"color\":\"blue\"},\"\\\\n\\\\n\",{\"text\":\"Frostkin\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Are more resilient to damage\n+ Have immunity to Slowness and Poison\n+ Are unaffected by the frigid colds of Glacium \n- Become weak and hungry while in hot climates\n- Take increased damage from Fire and lava\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.frostkin\"},\"color\":\"aqua\"},\"\\\\n\\\\n\",{\"text\":\"Human\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Have Luck x5 and Hero of the Village x5 when in the Overworld\n- Have Bad Luck x5 in every other dimension\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.human\"},\"color\":\"red\"}]]','[[\"CLICK A SPECIES\\\\n\\\\n\",{\"text\":\"Hunter\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Hunters assimilate what they eat. Eating raw food will \\\\\"morph\\\\\" you into something resembling what you ate\n+ Drinking milk, honey or getting too hungry will \\\\\"de-morph\\\\\" you\n- Large quantities of food are required to satisfy you each day\n- Being \\\\\"morphed\\\\\" takes a considerable amount of effort and energy, making you hungrier\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.hunter\"},\"color\":\"dark_green\"},\"\\\\n\\\\n\",{\"text\":\"Nereid\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Have permanent water breathing and night vision\n+ Have increased movement speed and mining speed while underwater or in rain\n+ Conduit Power will regenerate you\n- Become weak and hungry while in hot climates \n- Have slightly decreased movement speed outside of water\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.nereid\"},\"color\":\"dark_blue\"},\"\\\\n\\\\n\",{\"text\":\"Netherkin\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Have perminant fire resistance and night vision \n+ Have increased attack damage when on fire or in lava\n+ Have increased attack damage in the nether \n- Will take damage from sources of water\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.netherkin\"},\"color\":\"gold\"},\"\\\\n\\\\n\",{\"text\":\"Outlander\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Can turn invisible after not moving for a while\n+ Will regenerate health when hungry\n+ Can backstab entities, inflicting three times the damage when hitting an entity from behind\n- Cannot turn invisible while in Sanctum\n- Have Mining Fatigue while in Sanctum\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.outlander\"},\"color\":\"gray\"},\"\\\\n\\\\n\",{\"text\":\"Realmkeeper\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Have increased max health\n+ Wearing full gold armor empowers you\n- Wearing stronger armor than gold will heavily weaken you\n- Will lose extra health when below y=25\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.realmkeeper\"},\"color\":\"yellow\"},\"\\\\n\\\\n\",{\"text\":\"Villain\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Are more resilient to damage\n+ Have increased attack damage\n+ Have slightly increased attack speed \n- Iron golems will always be hostile\n- Villagers will give you Bad Omen\n- Cannot be given Hero of the Village\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.villain\"},\"color\":\"dark_red\"}]]'],title:\"BOOK OF REFORGED ANCESTRY\",author:\"The Provider\",generation:3,CustomModelData:888502,tags:[bp.book_of_arbitrium]}"
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": [
+            "rolls": 1,
+            "entries": [
                 {
-                  "translate": "BOOK OF ARBITRIUM",
-                  "color": "white",
-                  "italic": true,
-                  "bold": true
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_model_data": 888501,
+                                "minecraft:written_book_content": {
+                                    "pages": [
+                                        "[[\"CLICK A SPECIES\n\n\",{\"text\":\"Automech\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Are greatly resiliant to damage and knockback\n+ Have saturation while standing on a redstone block\n+ Have saturation and increased speed while in Omnidrome\n- Are slower than other species, especially when wet\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.automech\"},\"color\":\"green\"},\"\n\n\",{\"text\":\"Dweller\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Have increased mining speed\n+ Have permanent night vision\n- Are sensitive to bright light\n- Are always hungry and are never satisfied with food\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.dweller\"},\"color\":\"dark_gray\"},\"\n\n\",{\"text\":\"Enderling\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Can teleport by holding sneak and right-clicking with nothing in the offhand\n+ Teleport range is greatly increased in The End\n+ Chorus fruit will teleport you over a much larger spread distance than normal\n+Have slightly increased block interaction range\n- Will take damage from sources of water\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.enderling\"},\"color\":\"light_purple\"},\"\n\n\",{\"text\":\"Faefolk\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Can jump two blocks high\n+ Have increased movement speed\n+ Have increased jump height and movement speed in the Faewild\n+ Will passively gain small amounts of experience points over time \n- Have decreased attack damage\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.faefolk\"},\"color\":\"blue\"},\"\n\n\",{\"text\":\"Frostkin\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Are more resilient to damage\n+ Have immunity to Slowness, Poison, Wither, Mining Fatigue and Hunger\n+ Are unaffected by the frigid colds of Glacium\n+ Can survive without food \n+ Are empowered by standing in powdered snow\n- Become weak and hungry while in hot climates\n- Take increased damage from fire and lava\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.frostkin\"},\"color\":\"aqua\"},\"\n\n\",{\"text\":\"Human\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Have Luck x5 and Hero of the Village x5 when in the Overworld\n+ Have no downsides\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.human\"},\"color\":\"red\"}]]","[[\"CLICK A SPECIES\n\n\",{\"text\":\"Hunter\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Hunters assimilate what they eat. Eating raw food will morph you into something resembling what you ate\n+ Drinking milk, honey or getting too hungry will de-morph you\n- Large quantities of food are required to satisfy you each day\n- Being morphed takes a considerable amount of effort and energy, making you hungrier\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.hunter\"},\"color\":\"dark_green\"},\"\n\n\",{\"text\":\"Nereid\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Have permanent water breathing and night vision\n+ Have increased movement speed and mining speed while underwater or in rain\n+ Conduit Power will regenerate you\n- Become weak and hungry while in hot climates \n- Have slightly decreased movement speed outside of water\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.nereid\"},\"color\":\"dark_blue\"},\"\n\n\",{\"text\":\"Netherkin\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Have permanent fire resistance and night vision \n+ Have increased attack damage when on fire or in lava\n+ Have increased attack damage in the nether \n- Will take damage from sources of water\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.netherkin\"},\"color\":\"gold\"},\"\n\n\",{\"text\":\"Outlander\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Can turn invisible by sneaking\n+ Can backstab entities, inflicting three times the damage when hitting an entity from behind\n+ Have increased block interaction range\n- Cannot turn invisible while in Sanctum\n- Have Mining Fatigue while in Sanctum\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.outlander\"},\"color\":\"gray\"},\"\n\n\",{\"text\":\"Realmkeeper\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Have an absorption shield that regenerates every 10 seconds \n+ Will spread the effects of eating a notch or golden apple to nearby players \n- The shield only works in illuminated areas, when you have near full health and aren't wearing a helmet\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.realmkeeper\"},\"color\":\"yellow\"},\"\n\n\",{\"text\":\"Villain\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Are more resilient to damage\n+ Have slightly increased attack damage\n+ Have slightly increased attack speed \n- Iron golems will always be hostile\n- Villagers will give you Bad Omen\n- Cannot be given Hero of the Village \n- Have permanent Bad Luck x10\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.villain\"},\"color\":\"dark_red\"}]]"
+                                    ],
+                                    "title": "BOOK OF REFORGED ANCESTRY",
+                                    "author": "The Provider",
+                                    "generation": 3
+                                },
+                                "minecraft:custom_data": {
+                                    "bp.species_book": 10
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "translate": "BOOK OF ARBITRIUM",
+                                    "color": "white",
+                                    "italic": true,
+                                    "bold": true
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "translate": "Use to change species.",
+                                    "color": "gold"
+                                },
+                                {
+                                    "translate": "Consumes 50 levels.",
+                                    "color": "gold"
+                                }
+                            ],
+                            "mode": "insert"
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
-                {
-                  "translate": "Use to change species.",
-                  "color": "gold"
-                },
-                {
-                  "translate": "Consumes 50 levels.",
-                  "color": "gold"
-                }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

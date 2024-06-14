@@ -9,4 +9,4 @@ execute if predicate bracken:sneak unless entity @e[type=boat,distance=..5] run 
 execute if predicate bracken:sneak if entity @e[type=boat,distance=..5] run function bracken:ability_books/flying_boat/destroy
 execute unless predicate bracken:sneak anchored eyes run function bracken:ability_books/flying_boat/raycast_summon
 
-scoreboard players set @s bp.cooldown 20
+scoreboard players set @s bp.cooldown 10

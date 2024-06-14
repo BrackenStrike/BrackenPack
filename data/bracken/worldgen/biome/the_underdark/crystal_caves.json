@@ -1,149 +1,146 @@
 {
-  "spawners": {
-    "water_ambient": [{
-      "type": "minecraft:guardian",
-      "weight": 1,
-      "minCount": 1,
-      "maxCount": 1
-    }],
-    "ambient": [
-      {
-        "type": "minecraft:bat",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "misc": [],
-    "water_creature": [
-      
-    ],
-    "axolotls": [
-      {
-        "type": "minecraft:axolotl",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      }
-    ],
-    "creature": [
-      {
-        "type": "minecraft:creeper",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 3
-      },
-      {
-        "type": "minecraft:donkey",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 3
-      }
-    ],
-    "monster": [
-      {
-        "type": "minecraft:pillager",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 15,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ]
-  },
-  "spawn_costs": {},
-  "carvers": {
-    "air": [
-      "bracken:cave",
-      "bracken:canyon"
-    ]
-  },
-  "features": [
-    [],
-    [
-      "minecraft:lake_lava_surface",
-      "minecraft:lake_lava_underground"
-    ],
-    [
-      "bracken:underdark/crystal_caves/crystal",
-      "bracken:underdark/crystal_caves/light"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
-    [],
-    [],
-    [
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "bracken:underdark/emerald_ore",
-      "bracken:underdark/diamond_ore",
-      "bracken:underdark/crystal_caves/ore_calcite",
-      "bracken:underdark/crystal_caves/diamond_ore2"
-    ],
-    [
-      "bracken:underdark/crystal_caves/spikes1",
-      "bracken:underdark/crystal_caves/spikes2",
-      "bracken:underdark/crystal_caves/spikes3"
-    ],
-    [
-      "bracken:underdark/crystal_caves/ore_sea_l"
-    ],
-    [],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
-  "temperature": 0.95,
-  "downfall": 0.1,
-  "effects": {
-    "fog_color": 5786701,
-    "water_color": 8166054,
-    "water_fog_color": 6383526,
-    "grass_color": 12162409,
-    "sky_color": 8600895,
-    "foliage_colour": 12162409,
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 2000,
-      "block_search_extent": 8,
-      "offset": 2
+    "spawners": {
+        "water_ambient": [
+            {
+                "type": "minecraft:guardian",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ],
+        "ambient": [
+            {
+                "type": "minecraft:bat",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "misc": [],
+        "water_creature": [],
+        "axolotls": [
+            {
+                "type": "minecraft:axolotl",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 6
+            }
+        ],
+        "creature": [
+            {
+                "type": "minecraft:creeper",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:donkey",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 3
+            }
+        ],
+        "monster": [
+            {
+                "type": "minecraft:pillager",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:creeper",
+                "weight": 15,
+                "minCount": 1,
+                "maxCount": 1
+            }
+        ]
     },
-    "additions_sound": {
-      "sound": "minecraft:ambient.underwater.loop",
-      "tick_chance": 0.0001
+    "spawn_costs": {},
+    "carvers": {
+        "air": []
     },
-    "music": {
-      "sound": "minecraft:music.nether.basalt_deltas",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    }
-  },
-  "has_precipitation": false
+    "features": [
+        [],
+        [
+            "minecraft:lake_lava_surface",
+            "minecraft:lake_lava_underground"
+        ],
+        [
+            "bracken:underdark/crystal_caves/crystal",
+            "bracken:underdark/crystal_caves/light"
+        ],
+        [
+            "minecraft:monster_room",
+            "minecraft:monster_room_deep"
+        ],
+        [],
+        [],
+        [
+            "minecraft:ore_diorite_upper",
+            "minecraft:ore_diorite_lower",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small",
+            "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
+            "minecraft:ore_redstone",
+            "minecraft:ore_redstone_lower",
+            "minecraft:ore_diamond",
+            "minecraft:ore_diamond_large",
+            "minecraft:ore_diamond_buried",
+            "minecraft:ore_lapis",
+            "minecraft:ore_lapis_buried",
+            "bracken:underdark/emerald_ore",
+            "bracken:underdark/diamond_ore",
+            "bracken:underdark/crystal_caves/ore_calcite",
+            "bracken:underdark/crystal_caves/diamond_ore2"
+        ],
+        [
+            "bracken:underdark/crystal_caves/spikes1",
+            "bracken:underdark/crystal_caves/spikes2",
+            "bracken:underdark/crystal_caves/spikes3"
+        ],
+        [
+            "bracken:underdark/crystal_caves/ore_sea_l"
+        ],
+        [],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "fog_color": 5786701,
+        "water_color": 8166054,
+        "water_fog_color": 6383526,
+        "grass_color": 12162409,
+        "sky_color": 8600895,
+        "foliage_colour": 12162409,
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 2000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "additions_sound": {
+            "sound": "minecraft:ambient.underwater.loop",
+            "tick_chance": 0.0001
+        },
+        "music": {
+            "sound": "minecraft:music.nether.basalt_deltas",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        }
+    },
+    "has_precipitation": false
 }

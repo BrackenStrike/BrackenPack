@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:compass"
+            "id": "minecraft:compass"
         },
         "frame": "task",
         "show_toast": true,
@@ -20,25 +20,12 @@
         "bracken:omnidrome/return1": {
             "trigger": "minecraft:location",
             "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:player",
-                            "nbt": "{Tags:[\"bp.automech\"]}"
-                        }
+                "player": {
+                    "location": {
+                        "dimension": "bracken:omnidrome"
                     },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "dimension": "bracken:omnidrome"
-                            }
-                        }
-                    }
-                ]
+                    "nbt": "{Tags:[\"bp.automech\"]}"
+                }
             }
         }
     },

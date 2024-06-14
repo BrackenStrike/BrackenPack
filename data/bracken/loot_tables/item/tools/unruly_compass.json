@@ -1,28 +1,35 @@
 {
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
+    "pools": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:apple",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "Unruly Compass",
-                "color": "white",
-                "italic": false
-              }
-            },
-            
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{bp:{id:\"unruly_compass\"},HideFlags:255,CustomModelData:888519,Enchantments:[{}]}"
-            }
-          ]
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "translate": "Unruly Compass",
+                                "color": "white",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:enchantment_glint_override": true,
+                                "minecraft:custom_model_data": 888519,
+                                "minecraft:custom_data": {
+                                    "bp": {
+                                        "id": "unruly_compass"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

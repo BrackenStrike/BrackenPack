@@ -1,132 +1,132 @@
 {
-  "type": "bracken:the_faewild",
-  "generator": {
-    "type": "minecraft:noise",
-    "settings": "bracken:faewild",
-    "biome_source": {
-      "type": "minecraft:multi_noise",
-      "biomes": [
-        {
-          "biome": "bracken:the_faewild/wanderlight_woods",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0.4,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0,
-              0.09
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_faewild/foison_fields",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0,
-              0.09
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_faewild/hidden_hamlet",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0.1,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0,
-              0.09
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_faewild/dreamfall_dells",
-          "parameters": {
-            "temperature": 0,
-            "humidity": -0.4,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0,
-              0.09
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_faewild/darkthunder_thicket",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0.5,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0,
-              0.09
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_faewild/malmsey_meadow",
-          "parameters": {
-            "temperature": 0,
-            "humidity": -0.3,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0.1,
-            "depth": [
-              0,
-              0.09
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_faewild/clandestine_castlegrounds",
-          "parameters": {
-            "temperature": 0,
-            "humidity": -0.4,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0.9,
-            "depth": [
-              0,
-              0.09
-            ],
-            "offset": 0
-          }
-        },
-        {
-          "biome": "bracken:the_faewild/mesosphere",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": [
-              0.1,
-              2
-            ],
-            "offset": 0
-          }
+    "type": "bracken:the_faewild",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "bracken:faewild",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "bracken:the_faewild/wanderlight_woods",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0.4,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0,
+                            0.09
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_faewild/foison_fields",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0,
+                            0.09
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_faewild/hidden_hamlet",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0.1,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0,
+                            0.09
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_faewild/dreamfall_dells",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": -0.4,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0,
+                            0.09
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_faewild/darkthunder_thicket",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0.5,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0,
+                            0.09
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_faewild/malmsey_meadow",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": -0.3,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.1,
+                        "depth": [
+                            0,
+                            0.09
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_faewild/clandestine_castlegrounds",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": -0.4,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.9,
+                        "depth": [
+                            0,
+                            0.09
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_faewild/mesosphere",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": [
+                            0.1,
+                            2
+                        ],
+                        "offset": 0
+                    }
+                }
+            ]
         }
-      ]
     }
-  }
 }

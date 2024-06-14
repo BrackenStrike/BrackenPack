@@ -9,7 +9,7 @@
             "color": "green"
         },
         "icon": {
-            "item": "minecraft:seagrass"
+            "id": "minecraft:seagrass"
         },
         "frame": "task",
         "show_toast": true,
@@ -17,13 +17,8 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:glacium/wake1": {
+        "discovered": {
             "trigger": "minecraft:impossible"
         }
-    },
-    "requirements": [
-        [
-            "bracken:glacium/wake1"
-        ]
-    ]
+    }
 }
