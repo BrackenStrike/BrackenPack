@@ -1,0 +1,20 @@
+{
+	"condition": "any_of",
+	"terms": [{
+		"condition": "all_of",
+		"terms": [{
+			"condition": "reference",
+			"name": "bracken:dimensions/pax"
+		},{
+			"condition": "reference",
+			"name": "bracken:in_water"
+		}]
+	},{
+		"condition": "entity_properties",
+		"entity": "this",
+		"predicate": { "nbt": "{Tags:[\"bp.frostkin\"]}" }
+	},{
+		"condition": "reference",
+		"name": "bracken:item/glacium_glider"
+	}]
+}
