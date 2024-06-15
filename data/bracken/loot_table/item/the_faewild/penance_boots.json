@@ -23,7 +23,7 @@
 			},{
 				"function": "set_name",
 				"target": "item_name",
-				"name": "Penanace Boots"
+				"name": "Penance Boots"
 			},{
 				"function": "set_lore",
 				"lore": [{

@@ -23,7 +23,7 @@
 			},{
 				"function": "set_name",
 				"target": "item_name",
-				"name": "Penanace Chestplate"
+				"name": "Penance Chestplate"
 			},{
 				"function": "set_lore",
 				"lore": [{
