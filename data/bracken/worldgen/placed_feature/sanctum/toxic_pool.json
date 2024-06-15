@@ -2,10 +2,6 @@
     "feature": "bracken:sanctum/toxic_pool",
     "placement": [
         {
-            "type": "count",
-            "count": 3
-        },
-        {
             "type": "minecraft:in_square"
         },
         {

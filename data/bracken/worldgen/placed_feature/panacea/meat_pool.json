@@ -2,10 +2,6 @@
     "feature": "bracken:panacea/meat_pool",
     "placement": [
         {
-            "type": "count",
-            "count": 5
-        },
-        {
             "type": "minecraft:in_square"
         },
         {
