@@ -10,10 +10,7 @@
 					"minecraft:attribute_modifiers": [{
 						"type": "generic.attack_damage",
 						"slot": "mainhand",
-						"uuid": [
-							1872410414,-61781409,-1794531078,661849160
-						],
-						"name": "generic.attack_damage",
+						"id": "bracken:sai",
 						"amount": 30,
 						"operation": "add_value"
 					}],

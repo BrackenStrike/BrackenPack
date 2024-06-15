@@ -45,19 +45,19 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.attack_speed",
-					"name": "a",
+					"id": "bracken:lustra_dagger",
 					"amount": -0.12,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
-					"name": "b",
+					"id": "bracken:lustra_dagger",
 					"amount": 3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:player.entity_interaction_range",
-					"name": "c",
+					"id": "bracken:lustra_dagger",
 					"amount": -1,
 					"operation": "add_value",
 					"slot": "mainhand"

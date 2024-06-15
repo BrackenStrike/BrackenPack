@@ -40,25 +40,25 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.knockback_resistance",
-					"name": "a",
+					"id": "bracken:diamond_bludgeon",
 					"amount": 0.1,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.knockback_resistance",
-					"name": "a",
+					"id": "bracken:diamond_bludgeon",
 					"amount": 0.1,
 					"operation": "add_value",
 					"slot": "offhand"
 				},{
 					"attribute": "minecraft:generic.attack_speed",
-					"name": "c",
+					"id": "bracken:diamond_bludgeon",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
-					"name": "b",
+					"id": "bracken:diamond_bludgeon",
 					"amount": 6,
 					"operation": "add_value",
 					"slot": "mainhand"

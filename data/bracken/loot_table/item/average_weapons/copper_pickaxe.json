@@ -41,13 +41,13 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.attack_damage",
-					"name": "a",
+					"id": "bracken:copper_pickaxe",
 					"amount": 2.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.attack_speed",
-					"name": "c",
+					"id": "bracken:copper_pickaxe",
 					"amount": -2.7,
 					"operation": "add_value",
 					"slot": "mainhand"

@@ -20,28 +20,19 @@
 					"minecraft:attribute_modifiers": [{
 						"type": "generic.armor_toughness",
 						"slot": "head",
-						"uuid": [
-							-246185741,-1245099623,-1785514533,2001895771
-						],
-						"name": "generic.armor_toughness",
+						"id": "head.armor_toughness",
 						"amount": 100,
 						"operation": "add_value"
 					},{
 						"type": "generic.knockback_resistance",
 						"slot": "head",
-						"uuid": [
-							1052734379,-917354059,-1213704371,-548662746
-						],
-						"name": "generic.knockback_resistance",
+						"name": "head.knockback_resistance",
 						"amount": 100,
 						"operation": "add_value"
 					},{
 						"type": "generic.armor",
 						"slot": "head",
-						"uuid": [
-							-157765945,343887442,-1538240534,552742553
-						],
-						"name": "generic.armor",
+						"name": "head.armor",
 						"amount": 100,
 						"operation": "add_value"
 					}],

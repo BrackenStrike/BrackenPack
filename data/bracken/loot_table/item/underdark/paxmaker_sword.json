@@ -15,19 +15,13 @@
 					"minecraft:attribute_modifiers": [{
 						"type": "generic.movement_speed",
 						"slot": "mainhand",
-						"uuid": [
-							-1112438523,-1678162319,-1888207382,-993756585
-						],
-						"name": "generic.movement_speed",
+						"id": "bracken:paxmaker_sword",
 						"amount": 0.01,
 						"operation": "add_value"
 					},{
 						"type": "generic.attack_damage",
 						"slot": "mainhand",
-						"uuid": [
-							1401610331,1048199356,-1607358411,589202321
-						],
-						"name": "generic.attack_damage",
+						"id": "bracken:paxmaker_sword",
 						"amount": 12,
 						"operation": "add_value"
 					}],

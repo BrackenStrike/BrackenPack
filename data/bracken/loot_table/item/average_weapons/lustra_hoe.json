@@ -41,7 +41,7 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.attack_speed",
-					"name": "a",
+					"id": "bracken:lustra_hoe",
 					"amount": -0.3,
 					"operation": "add_value",
 					"slot": "mainhand"

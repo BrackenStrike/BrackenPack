@@ -5,5 +5,5 @@
 
 advancement revoke @s only bracken:technical/dimension_travel/leave/panacea
 
-attribute @s minecraft:generic.max_health modifier add 26b50535-213d-4ffb-bec3-2ee398259176 "bp.panacea_health" 4 add_value
-attribute @s minecraft:generic.armor modifier add 26b50535-213d-4ffb-bec3-2ee398259176 "bp.panacea_armor" -0.6 add_multiplied_total
+attribute @s minecraft:generic.max_health modifier add bracken:panacea_health 4 add_value
+attribute @s minecraft:generic.armor modifier add bracken:panacea_armor -0.6 add_multiplied_total

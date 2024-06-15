@@ -11,26 +11,17 @@
 					"minecraft:attribute_modifiers": {
 						"modifiers": [{
 							"type": "generic.attack_speed",
-							"uuid": [
-								1113027975,-644395143,-1346952979,-351466035
-							],
-							"name": "generic.attack_speed",
+							"id": "bracken:void_bomb",
 							"amount": -10,
 							"operation": "add_value"
 						},{
 							"type": "generic.movement_speed",
-							"uuid": [
-								-674138169,-908574571,-1952283716,-248487679
-							],
-							"name": "generic.movement_speed",
+							"id": "bracken:void_bomb",
 							"amount": -0.01,
 							"operation": "add_value"
 						},{
 							"type": "generic.luck",
-							"uuid": [
-								1282424771,-572633220,-1241937806,-241423645
-							],
-							"name": "generic.luck",
+							"id": "bracken:void_bomb",
 							"amount": -10,
 							"operation": "add_value"
 						}],

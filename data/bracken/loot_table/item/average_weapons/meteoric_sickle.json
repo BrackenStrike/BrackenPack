@@ -41,13 +41,13 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.attack_speed",
-					"name": "c",
+					"id": "bracken:meteoric_sickle",
 					"amount": -3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
-					"name": "a",
+					"id": "bracken:meteoric_sickle",
 					"amount": 8,
 					"operation": "add_value",
 					"slot": "mainhand"

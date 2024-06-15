@@ -9,17 +9,12 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_name": "{\"text\":\"Vitality Leggings\",\"color\":\"dark_green\",\"bold\":true}",
-					"minecraft:lore": [
-						"{\"text\":\"two of three\",\"color\":\"gold\"}"
-					],
+					"minecraft:lore": ["{\"text\":\"two of three\",\"color\":\"gold\"}"],
 					"minecraft:dyed_color": 7717417,
 					"minecraft:attribute_modifiers": [{
 						"type": "generic.max_health",
 						"slot": "legs",
-						"uuid": [
-							2022593303,-8893539,-2055800479,1871108292
-						],
-						"name": "generic.max_health",
+						"name": "legs.max_health",
 						"amount": 5,
 						"operation": "add_value"
 					}]

@@ -36,13 +36,13 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.attack_speed",
-					"name": "a",
+					"id": "bracken:wooden_rapier",
 					"amount": -2,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
-					"name": "b",
+					"id": "bracken:wooden_rapier",
 					"amount": 3,
 					"operation": "add_value",
 					"slot": "mainhand"

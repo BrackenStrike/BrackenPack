@@ -10,19 +10,13 @@
 					"minecraft:attribute_modifiers": [{
 						"type": "generic.max_health",
 						"slot": "chest",
-						"uuid": [
-							1872410414,-61781409,-1794531078,661849160
-						],
-						"name": "generic.max_health",
+						"id": "bracken:nightfall_glider",
 						"amount": -2,
 						"operation": "add_value"
 					},{
 						"type": "generic.attack_damage",
 						"slot": "chest",
-						"uuid": [
-							1872410414,-61781409,-1794531078,661849160
-						],
-						"name": "generic.attack_damage",
+						"id": "bracken:nightfall_glider",
 						"amount": 2,
 						"operation": "add_value"
 					}],

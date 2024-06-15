@@ -40,25 +40,25 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.knockback_resistance",
-					"name": "a",
+					"id": "bracken:diamond_warhammer",
 					"amount": 0.2,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.knockback_resistance",
-					"name": "ab",
+					"id": "bracken:diamond_warhammer",
 					"amount": 0.2,
 					"operation": "add_value",
 					"slot": "offhand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
-					"name": "b",
+					"id": "bracken:diamond_warhammer",
 					"amount": 6,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.attack_speed",
-					"name": "c",
+					"id": "bracken:diamond_warhammer",
 					"amount": -3,
 					"operation": "add_value",
 					"slot": "mainhand"

@@ -1,15 +1,15 @@
 playsound minecraft:entity.blaze.death hostile @a[distance=..30] ~ ~ ~ 100 0
 playsound minecraft:entity.ghast.hurt hostile @a[distance=..30] ~ ~ ~ 100 0
 
-summon tnt ~ ~10 ~ {Motion:[0.50,0.50,0.0],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{Name:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
-summon tnt ~ ~10 ~ {Motion:[-0.50,0.50,0.0],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{Name:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
-summon tnt ~ ~10 ~ {Motion:[0.0,0.50,0.50],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{Name:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
-summon tnt ~ ~10 ~ {Motion:[0.50,0.50,-0.50],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{Name:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
+summon tnt ~ ~10 ~ {Motion:[0.50,0.50,0.0],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{id:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
+summon tnt ~ ~10 ~ {Motion:[-0.50,0.50,0.0],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{id:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
+summon tnt ~ ~10 ~ {Motion:[0.0,0.50,0.50],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{id:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
+summon tnt ~ ~10 ~ {Motion:[0.50,0.50,-0.50],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{id:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
 
-summon tnt ~ ~10 ~ {Motion:[0.50,0.50,0.50],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{Name:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
-summon tnt ~ ~10 ~ {Motion:[0.50,0.50,-0.50],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{Name:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
-summon tnt ~ ~10 ~ {Motion:[-0.50,0.50,0.50],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{Name:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
-summon tnt ~ ~10 ~ {Motion:[-0.50,0.50,-0.50],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{Name:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
+summon tnt ~ ~10 ~ {Motion:[0.50,0.50,0.50],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{id:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
+summon tnt ~ ~10 ~ {Motion:[0.50,0.50,-0.50],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{id:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
+summon tnt ~ ~10 ~ {Motion:[-0.50,0.50,0.50],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{id:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
+summon tnt ~ ~10 ~ {Motion:[-0.50,0.50,-0.50],HasVisualFire:1b,Glowing:1b,fuse:50,block_state:{id:"minecraft:gold_block"},Tags:["bp.thrall.blast"],CustomName:'{"translate":"Thrall Blast","color":"gold"}'}
 
 
 tellraw @a[distance=..100] {"translate":"Thrall: You shall have your reward...\"","color":"gold","bold":true}

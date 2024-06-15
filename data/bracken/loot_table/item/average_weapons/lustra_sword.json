@@ -41,13 +41,13 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.attack_speed",
-					"name": "c",
+					"id": "bracken:lustra_sword",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
-					"name": "a",
+					"id": "bracken:lustra_sword",
 					"amount": 3,
 					"operation": "add_value",
 					"slot": "mainhand"

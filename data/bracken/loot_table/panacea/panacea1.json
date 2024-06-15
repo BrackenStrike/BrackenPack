@@ -9,17 +9,12 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_name": "{\"text\":\"Vitality Chestplate\",\"color\":\"dark_green\",\"bold\":true}",
-					"minecraft:lore": [
-						"{\"text\":\"one of three\",\"color\":\"gold\"}"
-					],
+					"minecraft:lore": ["{\"text\":\"one of three\",\"color\":\"gold\"}"],
 					"minecraft:dyed_color": 5164056,
 					"minecraft:attribute_modifiers": [{
 						"type": "generic.max_health",
 						"slot": "chest",
-						"uuid": [
-							-779609271,1242385125,-1582455937,661836394
-						],
-						"name": "generic.max_health",
+						"id": "chest.max_health",
 						"amount": 0.2,
 						"operation": "add_multiplied_total"
 					}]

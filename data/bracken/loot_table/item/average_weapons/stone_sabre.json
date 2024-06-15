@@ -40,25 +40,25 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.movement_speed",
-					"name": "a",
+					"id": "bracken:stone_sabre",
 					"amount": 0.025,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.attack_speed",
-					"name": "d",
+					"id": "bracken:stone_sabre",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.movement_speed",
-					"name": "ab",
+					"id": "bracken:stone_sabre",
 					"amount": 0.025,
 					"operation": "add_value",
 					"slot": "offhand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
-					"name": "b",
+					"id": "bracken:stone_sabre",
 					"amount": 4,
 					"operation": "add_value",
 					"slot": "mainhand"

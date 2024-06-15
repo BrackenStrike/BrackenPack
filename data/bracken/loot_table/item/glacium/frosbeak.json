@@ -15,8 +15,7 @@
 					"minecraft:attribute_modifiers": [{
 						"type": "generic.attack_damage",
 						"slot": "mainhand",
-						"uuid": [1401610331,1048199356,-1607358411,589202321],
-						"name": "generic.attack_damage",
+						"id": "frosbeak.attack_damage",
 						"amount": 12,
 						"operation": "add_value"
 					}],

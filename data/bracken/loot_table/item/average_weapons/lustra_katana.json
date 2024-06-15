@@ -49,25 +49,25 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.movement_speed",
-					"name": "a",
+					"id": "bracken:lustra_katana",
 					"amount": 0.05,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.movement_speed",
-					"name": "ab",
+					"id": "bracken:lustra_katana",
 					"amount": 0.05,
 					"operation": "add_value",
 					"slot": "offhand"
 				},{
 					"attribute": "minecraft:generic.attack_speed",
-					"name": "d",
+					"id": "bracken:lustra_katana",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.jump_strength",
-					"name": "c",
+					"id": "bracken:lustra_katana",
 					"amount": -0.5,
 					"operation": "add_value",
 					"slot": "mainhand"
@@ -79,7 +79,7 @@
 					"slot": "offhand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
-					"name": "b",
+					"id": "bracken:lustra_katana",
 					"amount": 3,
 					"operation": "add_value",
 					"slot": "mainhand"

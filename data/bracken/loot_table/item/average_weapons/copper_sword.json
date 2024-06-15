@@ -41,13 +41,13 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.attack_speed",
-					"name": "c",
+					"id": "bracken:copper_sword",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
-					"name": "a",
+					"id": "bracken:copper_sword",
 					"amount": 4.5,
 					"operation": "add_value",
 					"slot": "mainhand"

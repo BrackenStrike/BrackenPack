@@ -36,13 +36,13 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.attack_speed",
-					"name": "d",
+					"id": "bracken:netherite_sickle",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
-					"name": "a",
+					"id": "bracken:netherite_sickle",
 					"amount": 8,
 					"operation": "add_value",
 					"slot": "mainhand"

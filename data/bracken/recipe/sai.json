@@ -23,8 +23,7 @@
                 "modifiers": [
                     {
                         "type": "minecraft:generic.attack_damage",
-                        "uuid": [-124218,18245,61511,-36702],
-                        "name": "minecraft:generic.attack_damage",
+                        "id": "bracken:sai",
                         "amount": 30,
                         "operation": "add_value",
                         "slot": "mainhand"
