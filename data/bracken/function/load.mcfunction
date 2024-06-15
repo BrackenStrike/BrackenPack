@@ -106,7 +106,7 @@ scoreboard objectives add bp.absorption dummy
 
 ##########   CONFIG MENU  ##########
 execute unless data storage bracken:config {nether_height: incendium} run data merge storage bracken:config {nether_height: normal}
-execute unless data storage bracken:config {end_height: nullscape} run data merge storage bracken:config {end_height:  normal}
+#execute unless data storage bracken:config {end_height: nullscape} run data merge storage bracken:config {end_height:  normal}
 
 execute unless data storage bracken:config {teams_on: false} run data merge storage bracken:config {teams_on: true}
 execute unless data storage bracken:config {dimension_travel: false} run data merge storage bracken:config {dimension_travel: true}

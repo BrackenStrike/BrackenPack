@@ -31,7 +31,8 @@
 						"tags": [
 							"bp.fire_immune"
 						]
-					}
+					},
+					"minecraft:fire_resistant": {}
 				}
 			},{
 				"function": "minecraft:set_damage",
@@ -54,7 +55,8 @@
 						"tags": [
 							"bp.fire_immune"
 						]
-					}
+					},
+					"minecraft:fire_resistant": {}
 				}
 			},{
 				"function": "minecraft:set_damage",
