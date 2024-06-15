@@ -8,6 +8,6 @@ attribute @s minecraft:player.block_break_speed modifier remove bracken:dweller.
 
 tag @s remove bp.species
 tag @s remove bp.dweller
-team leave @s
+team leave @s[team=Dweller]
 
 return 1

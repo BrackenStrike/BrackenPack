@@ -6,6 +6,6 @@ attribute @s minecraft:generic.scale modifier remove bracken:hunter.scale
 effect clear @s
 tag @s remove bp.species
 tag @s remove bp.hunter
-team leave @s
+team leave @s[team=Hunter]
 
 return 1

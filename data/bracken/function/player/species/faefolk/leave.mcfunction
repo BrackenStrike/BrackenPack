@@ -5,7 +5,7 @@
 
 tag @s remove bp.species
 tag @s remove bp.faefolk
-team leave @s
+team leave @s[team=Faefolk]
 
 attribute @s minecraft:generic.attack_damage modifier remove bracken:faefolk.attack_damage
 attribute @s minecraft:generic.movement_speed modifier remove bracken:faefolk.movement_speed

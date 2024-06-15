@@ -5,6 +5,6 @@
 
 tag @s remove bp.species
 tag @s remove bp.human
-team leave @s
+team leave @s[team=Human]
 attribute @s minecraft:generic.luck modifier remove bracken:human.luck
 return 1
