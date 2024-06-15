@@ -5,7 +5,7 @@
 
 tag @s remove bp.species
 tag @s remove bp.netherkin
-team leave @s
+team leave @s[team=Netherkin]
 
 attribute @s minecraft:generic.scale modifier remove bracken:netherkin.scale
 attribute @s minecraft:generic.attack_speed modifier remove bracken:netherkin.attack_speed

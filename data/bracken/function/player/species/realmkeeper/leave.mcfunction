@@ -5,6 +5,6 @@
 
 tag @s remove bp.species
 tag @s remove bp.realmkeeper
-team leave @s
+team leave @s[team=Realmkeeper]
 
 return 1

@@ -5,7 +5,7 @@
 
 tag @s remove bp.species
 tag @s remove bp.villain
-team leave @s
+team leave @s[team=Villain]
 
 attribute @s minecraft:generic.scale modifier remove bracken:villain.scale
 attribute @s minecraft:generic.attack_damage modifier remove bracken:villain.attack_damage

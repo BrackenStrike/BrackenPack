@@ -8,7 +8,7 @@ attribute @s minecraft:generic.scale modifier remove bracken:enderling.scale
 
 tag @s remove bp.species
 tag @s remove bp.enderling
-team leave @s
+team leave @s[team=Enderling]
 
 scoreboard players reset @s bp.enderling_teleport
 
