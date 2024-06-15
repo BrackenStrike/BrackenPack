@@ -8,4 +8,4 @@ advancement revoke @s only bracken:technical/brine_brewing_start
 
 tag @s remove bp.brine_brewing_active
 # The tag is re-added if the raycast successfully finds a brewing stand
-execute anchored eyes positioned ^ ^ ^ run function bracken:dimension_commands/other/brine_brewing/raycast
+execute anchored eyes positioned ^ ^ ^ run function bracken:dimension_commands/brine_brewing/raycast

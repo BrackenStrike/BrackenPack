@@ -9,5 +9,5 @@
 			}
 		}]}
 	}},
-	"rewards": { "function": "bracken:dimension_commands/other/brine_brewing/start" }
+	"rewards": { "function": "bracken:dimension_commands/brine_brewing/start" }
 }
