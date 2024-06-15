@@ -1,0 +1,49 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:golden_helmet",
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:fire_resistant": {},
+					"minecraft:damage": 0.1,
+					"minecraft:enchantments": {
+						"minecraft:projectile_protection": 50,
+						"minecraft:binding_curse": 1
+					},
+					"minecraft:item_name": "{\"text\":\"Thrall's Crown\",\"color\":\"gold\",\"bold\":true}",
+					"minecraft:lore": [
+						"{\"text\":\"This does not belong to you.\",\"color\":\"gray\"}"
+					],
+					"minecraft:attribute_modifiers": [{
+						"type": "generic.armor_toughness",
+						"slot": "head",
+						"id": "head.armor_toughness",
+						"amount": 100,
+						"operation": "add_value"
+					},{
+						"type": "generic.knockback_resistance",
+						"slot": "head",
+						"name": "head.knockback_resistance",
+						"amount": 100,
+						"operation": "add_value"
+					},{
+						"type": "generic.armor",
+						"slot": "head",
+						"name": "head.armor",
+						"amount": 100,
+						"operation": "add_value"
+					}],
+					"minecraft:custom_model_data": 888502,
+					"minecraft:custom_data": {
+						"tags": [
+							"bp.fire_immune"
+						]
+					}
+				}
+			}]
+		}]
+	}]
+}

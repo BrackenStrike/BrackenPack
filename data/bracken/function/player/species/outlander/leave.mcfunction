@@ -1,0 +1,16 @@
+##########################################################
+# Description: Executed by players leaving the outlanders
+# Creators: Bracken and Sulfenir
+##########################################################
+
+tag @s remove bp.species
+tag @s remove bp.outlander
+team leave @s
+
+attribute @s minecraft:generic.scale modifier remove bracken:outlander.scale
+attribute @s minecraft:player.block_interaction_range modifier remove bracken:outlander.block_range
+attribute @s generic.attack_damage modifier remove bracken:outlander_backstab
+
+scoreboard players reset @s bp.outlander_charge
+
+return 1

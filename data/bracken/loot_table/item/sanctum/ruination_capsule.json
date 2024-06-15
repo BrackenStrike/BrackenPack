@@ -1,0 +1,66 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:slime_spawn_egg",
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:enchantment_glint_override": true,
+					"minecraft:custom_model_data": 888502,
+					"minecraft:entity_data": {
+						"id": "minecraft:vex",
+						"CustomNameVisible": 1,
+						"Silent": 1,
+						"HandItems": [{
+							"id": "minecraft:ender_eye",
+							"Count": 1,
+							"components": {
+								"minecraft:custom_model_data": 888503
+							}
+						},{
+							"id": "minecraft:ender_eye",
+							"Count": 1,
+							"components": {
+								"minecraft:custom_model_data": 888503
+							}
+						}],
+						"active_effects": [{
+							"id": "minecraft:invisibility",
+							"amplifier": 1,
+							"duration": -1,
+							"show_particles": false
+						}],
+						"PersistenceRequired": 1,
+						"LifeTicks": 200000,
+						"attributes": [{
+							"id": "generic.follow_range",
+							"base": 70
+						},{
+							"id": "generic.attack_damage",
+							"base": 0
+						}],
+						"Tags": [
+							"bp.construct",
+							"bp.entity"
+						],
+						"CustomName": "{\"text\":\"Construct\",\"bold\":true}"
+					}
+				}
+			},{
+				"function": "set_name",
+				"target": "item_name",
+				"name": "Ruination Capsule"
+			},{
+				"function": "set_lore",
+				"lore": [{
+					"translate": "A part still lives.",
+					"color": "gray",
+					"italic": false
+				}],
+				"mode": "insert"
+			}]
+		}]
+	}]
+}
