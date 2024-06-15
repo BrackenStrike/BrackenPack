@@ -132,33 +132,33 @@ scoreboard objectives add bp.zz_rotation dummy
 scoreboard objectives add bp.overworld dummy
 
 # Dormis
-scoreboard objectives add bp.dormis dummy
+#scoreboard objectives add bp.dormis dummy
 
 # Faewild
 scoreboard objectives add bp.fae dummy
 
 # Panacea
-scoreboard objectives add bp.panacea dummy
+#scoreboard objectives add bp.panacea dummy
 
 # Pax
 scoreboard objectives add bp.pax dummy
 
 # Sanctum
-scoreboard objectives add bp.sanctum dummy
+#scoreboard objectives add bp.sanctum dummy
 
 # The Brine
 scoreboard objectives add bp.brine_potion dummy
-scoreboard objectives add bp.brine dummy
+#scoreboard objectives add bp.brine dummy
 
 # The Underdark
-scoreboard objectives add bp.underdark dummy
+#scoreboard objectives add bp.underdark dummy
 
 # Glacium
 scoreboard objectives add bp.ice dummy
-scoreboard objectives add bp.glacium dummy
+#scoreboard objectives add bp.glacium dummy
 
 # Omnidrome
-scoreboard objectives add bp.omnidrome dummy
+#scoreboard objectives add bp.omnidrome dummy
 
 scoreboard objectives add bp.spawn_loading dummy
 scoreboard players set #1 bp.spawn_loading 1
@@ -167,14 +167,14 @@ scoreboard objectives add bp.omni_sprint dummy
 
 # Void
 scoreboard objectives add bp.voidtp dummy
-scoreboard objectives add bp.void dummy
+#scoreboard objectives add bp.void dummy
 
 # Varskspace
 data merge storage bracken:var {varskstorm:{stage:0}}
 scoreboard objectives add bp.varskstorm dummy
 scoreboard players set #cooldown bp.varskstorm 0
 scoreboard players set #repeat bp.varskstorm 0
-scoreboard objectives add bp.varskspace dummy
+#scoreboard objectives add bp.varskspace dummy
 
 ##########   PAX PORTAL   ##########
 scoreboard objectives add bp.portal_R dummy
