@@ -73,7 +73,7 @@
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.jump_strength",
-					"name": "cb",
+					"id": "bracken:lustra_katana",
 					"amount": -0.5,
 					"operation": "add_value",
 					"slot": "offhand"

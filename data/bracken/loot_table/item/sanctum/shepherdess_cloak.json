@@ -24,7 +24,7 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.max_health",
-					"name": "chest.max_health",
+					"id": "chest.max_health",
 					"amount": -2,
 					"operation": "add_value",
 					"slot": "chest"

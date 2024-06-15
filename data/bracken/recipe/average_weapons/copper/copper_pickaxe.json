@@ -3,8 +3,8 @@
 	"category": "equipment",
 	"pattern": [
 		"###",
-		"/ ",
-		"/ "
+		" / ",
+		" / "
 	],
 	"key": {
 		"#": {

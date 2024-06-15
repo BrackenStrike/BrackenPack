@@ -26,13 +26,13 @@
 					},{
 						"type": "generic.knockback_resistance",
 						"slot": "head",
-						"name": "head.knockback_resistance",
+						"id": "head.knockback_resistance",
 						"amount": 100,
 						"operation": "add_value"
 					},{
 						"type": "generic.armor",
 						"slot": "head",
-						"name": "head.armor",
+						"id": "head.armor",
 						"amount": 100,
 						"operation": "add_value"
 					}],

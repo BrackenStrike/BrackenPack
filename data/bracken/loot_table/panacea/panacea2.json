@@ -14,7 +14,7 @@
 					"minecraft:attribute_modifiers": [{
 						"type": "generic.max_health",
 						"slot": "legs",
-						"name": "legs.max_health",
+						"id": "legs.max_health",
 						"amount": 5,
 						"operation": "add_value"
 					}]
