@@ -90,10 +90,7 @@
 				"chance": 0.1
 			}],
 			"functions": [{
-				"function": "enchant_randomly",
-				"enchantments": [
-					"silk_touch"
-				]
+				"function": "enchant_randomly"
 			},{
 				"function": "set_damage",
 				"damage": {
