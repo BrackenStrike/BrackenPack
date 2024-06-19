@@ -7,4 +7,4 @@ advancement revoke @s only bracken:technical/dimension_travel/leave/sanctum
 
 attribute @s minecraft:player.block_break_speed modifier add bracken:sanctum_blockbreak 2.75 add_multiplied_base
 
-effect clear @s[tag=bp.outlander] minecraft:invisibility
+function bracken:player/update_effects

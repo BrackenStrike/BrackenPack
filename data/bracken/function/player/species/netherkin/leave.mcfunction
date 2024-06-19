@@ -12,4 +12,7 @@ attribute @s minecraft:generic.attack_speed modifier remove bracken:netherkin.at
 attribute @s minecraft:generic.attack_damage modifier remove bracken:netherkin.nether_damage
 attribute @s minecraft:generic.attack_damage modifier remove bracken:netherkin.flame_damage
 
+effect clear @s minecraft:night_vision
+effect clear @s minecraft:fire_resistance
+
 return 1

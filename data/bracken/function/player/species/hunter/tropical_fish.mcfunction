@@ -1,5 +1,9 @@
 scoreboard players set @s bp.hunter_morph 4
 function bracken:player/species/hunter/morph
+
+effect give @s minecraft:water_breathing infinite 0 false
+effect give @s minecraft:slowness infinite 4 false
+effect give @s minecraft:luck infinite 0 false
 attribute @s minecraft:generic.scale modifier remove bracken:hunter.scale
 attribute @s minecraft:generic.scale modifier add bracken:hunter.scale -0.4 add_multiplied_base
 advancement revoke @s only bracken:technical/species/hunter/apple

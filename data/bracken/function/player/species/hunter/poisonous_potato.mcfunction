@@ -1,6 +1,10 @@
 scoreboard players set @s bp.hunter_morph 14
 function bracken:player/species/hunter/morph
 tp @s ~ ~-1 ~
+
+effect give @s minecraft:blindness 5 0 false
+effect give @s minecraft:poison 5 0 true
+effect give @s minecraft:slowness infinite 0 false
 attribute @s minecraft:generic.scale modifier remove bracken:hunter.scale
 attribute @s minecraft:generic.scale modifier add bracken:hunter.scale -0.5 add_multiplied_base
 advancement revoke @s only bracken:technical/species/hunter/apple

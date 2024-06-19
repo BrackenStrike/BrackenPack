@@ -1,0 +1,10 @@
+[{
+	"condition": "inverted",
+	"term": {
+		"condition": "reference",
+		"name": "bracken:effect_immunity/bad_omen"
+	}
+},{
+	"condition": "reference",
+	"name": "bracken:dimensions/dormis"
+}]

@@ -11,4 +11,8 @@ attribute @s minecraft:generic.water_movement_efficiency modifier remove bracken
 attribute @s minecraft:player.submerged_mining_speed modifier remove bracken:nereid.submerged_mining_speed
 attribute @s minecraft:generic.movement_speed modifier remove bracken:nereid.on_land.movement_speed
 
+effect clear @s minecraft:dolphins_grace
+effect clear @s minecraft:night_vision
+effect clear @s minecraft:water_breathing
+
 return 1

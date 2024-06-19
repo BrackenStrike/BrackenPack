@@ -1,7 +1,10 @@
 scoreboard players set @s bp.hunter_morph 9
 function bracken:player/species/hunter/morph
+
+effect give @s minecraft:health_boost infinite 0 false
 attribute @s minecraft:generic.scale modifier remove bracken:hunter.scale
 attribute @s minecraft:generic.scale modifier add bracken:hunter.scale 2 add_multiplied_base
+
 advancement revoke @s only bracken:technical/species/hunter/beef
 advancement revoke @s only bracken:technical/species/hunter/beetroot
 advancement revoke @s only bracken:technical/species/hunter/carrot

@@ -4,7 +4,6 @@
 ##########################################################
 
 # Effects
-execute if score @s bp.longtick matches 2 run effect give @s minecraft:bad_omen infinite 10 true
 effect give @s[scores={bp.longtick=10}] minecraft:resistance 3 9 false
 
 # Mobs

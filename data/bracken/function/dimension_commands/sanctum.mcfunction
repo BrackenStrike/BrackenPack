@@ -3,9 +3,6 @@
 # Creators: Bracken
 ##########################################################
 
-# Effects
-execute if score @s bp.longtick matches 5 run effect give @s[predicate=!bracken:effect_immunity/invisibility] minecraft:invisibility 13 0 true
-
 # Mobs
 execute if score @s bp.sneakcharge matches ..1 if predicate bracken:periodic/2t run function bracken:entities/sanctum/sanctum_entities
 execute at @e[tag=bp.netherite_golem,type=minecraft:wither_skeleton,distance=..30] run function bracken:entities/sanctum/netherite_golem

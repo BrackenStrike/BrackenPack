@@ -11,4 +11,6 @@ tag @s add bp.species
 tag @s add bp.hunter
 execute if data storage bracken:config {teams_on:true} run team join Hunter
 
+function bracken:player/update_effects
+
 return 1

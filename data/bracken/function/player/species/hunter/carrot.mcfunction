@@ -1,6 +1,8 @@
 scoreboard players set @s bp.hunter_morph 10
 function bracken:player/species/hunter/morph
 tp @s ~ ~-1 ~
+
+effect give @s minecraft:night_vision infinite 0 false
 attribute @s minecraft:generic.scale modifier remove bracken:hunter.scale
 attribute @s minecraft:generic.scale modifier add bracken:hunter.scale -0.5 add_multiplied_base
 advancement revoke @s only bracken:technical/species/hunter/apple
