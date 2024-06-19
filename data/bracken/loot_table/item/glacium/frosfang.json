@@ -5,21 +5,17 @@
 			"type": "item",
 			"name": "minecraft:diamond_sword",
 			"functions": [{
-				"function": "minecraft:set_components",
-				"components": {
-					"minecraft:enchantments": {
-						"minecraft:bane_of_arthropods": 5,
-						"minecraft:vanishing_curse": 1
-					},
-					"minecraft:attribute_modifiers": [{
-						"type": "generic.attack_damage",
-						"slot": "mainhand",
-						"id": "frosfang.attack_damage",
-						"amount": 14,
-						"operation": "add_value"
-					}],
-					"minecraft:custom_model_data": 888502
-				}
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "generic.attack_damage",
+					"slot": "mainhand",
+					"id": "frosfang.attack_damage",
+					"amount": 14,
+					"operation": "add_value"
+				}]
+			},{
+				"function": "set_custom_model_data",
+				"value": 888502
 			},{
 				"function": "set_name",
 				"target": "item_name",
@@ -43,14 +39,17 @@
 					"max": 0.93
 				}
 			},{
-				"function": "minecraft:set_components",
-				"components": {
-					"minecraft:custom_data": {
-						"bp": {
-							"id": "fragile"
-						}
-					}
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:fragility_curse": 1,
+					"minecraft:bane_of_arthropods": 5,
+					"minecraft:vanishing_curse": 1
 				}
+			},{
+				"function": "minecraft:set_components",
+				"components": { "minecraft:custom_data": {
+					"bp": { "id": "frosfang" }
+				}}
 			}]
 		}]
 	}]
