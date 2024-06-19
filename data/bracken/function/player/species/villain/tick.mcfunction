@@ -4,6 +4,6 @@
 ##########################################################
 
 data modify entity @e[type=minecraft:iron_golem,distance=..50,limit=1] AngryAt set from entity @s UUID
-execute if entity @s[scores={bp.verylongtick=30}] if entity @e[type=villager,distance=..5] run effect give @s[predicate=!bracken:effect_immunity/bad_omen] minecraft:bad_omen 1 1 true
+execute if predicate bracken:periodic/30s if entity @e[type=villager,distance=..5] run effect give @s[predicate=!bracken:effect_immunity/bad_omen] minecraft:bad_omen 1 1 true
 
 return 1

@@ -3,8 +3,6 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-#scoreboard players set @s bp.panacea 10
-
 # Rain Event
 execute if score @s bp.1_second matches 2 if predicate bracken:rain run function bracken:entities/panacea/rain_event
 

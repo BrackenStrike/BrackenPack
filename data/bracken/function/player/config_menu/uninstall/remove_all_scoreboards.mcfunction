@@ -109,34 +109,20 @@ scoreboard objectives remove bp.zz_rotation
 # Overworld
 scoreboard objectives remove bp.overworld
 
-# Dormis
-#scoreboard objectives remove bp.dormis
-
 # Faewild
 scoreboard objectives remove bp.fae
-
-# Panacea
-#scoreboard objectives remove bp.panacea
 
 # Pax
 scoreboard objectives remove bp.pax
 
-# Sanctum
-#scoreboard objectives remove bp.sanctum
-
 # The Brine
 scoreboard objectives remove bp.brine_potion
-#scoreboard objectives remove bp.brine
 
 # The Underdark
 #scoreboard objectives remove bp.underdark
 
 # Glacium
 scoreboard objectives remove bp.ice
-#scoreboard objectives remove bp.glacium
-
-# Omnidrome
-#scoreboard objectives remove bp.omnidrome
 
 scoreboard objectives remove bp.spawn_loading
 scoreboard objectives remove bp.omni_flight
@@ -144,11 +130,9 @@ scoreboard objectives remove bp.omni_sprint
 
 # Void
 scoreboard objectives remove bp.voidtp
-#scoreboard objectives remove bp.void
 
 # Varskspace
 scoreboard objectives remove bp.varskstorm
-#scoreboard objectives remove bp.varskspace
 
 ##########   PAX PORTAL   ##########
 scoreboard objectives remove bp.portal_R

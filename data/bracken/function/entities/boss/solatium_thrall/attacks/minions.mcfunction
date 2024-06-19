@@ -8,12 +8,12 @@ summon phantom ~-10 ~20 ~ {Fire:200000,Silent:1b,CustomNameVisible:0b,DeathLootT
 
 
 #minions
-tellraw @a[scores={bp.longtick=105..125},distance=..50] {"translate":"Thrall: The heart grows hard, if you can face the horrors of this world.\"","color":"gold","bold":true}
+tellraw @a[scores={bp.longtick=105..125},distance=..50] {"translate":"[Thrall] The heart grows hard, if you can face the horrors of this world.","color":"gold","bold":true}
 
 playsound minecraft:block.respawn_anchor.ambient hostile @a[scores={bp.longtick=100},distance=..50] ~ ~ ~ 100 0
 
 
-tellraw @a[scores={bp.longtick=145..175},distance=..50] {"translate":"Thrall: I wished, I could have spared you this...\"","color":"gold","bold":true}
+tellraw @a[scores={bp.longtick=145..175},distance=..50] {"translate":"[Thrall] I wished, I could have spared you this...","color":"gold","bold":true}
 
 playsound minecraft:block.respawn_anchor.ambient hostile @a[scores={bp.longtick=150},distance=..50] ~ ~ ~ 100 0
 

@@ -9,11 +9,11 @@ execute at @a[distance=..50] run summon tnt ~ ~20 ~ {HasVisualFire:1b,Glowing:1b
 
 
 #blast
-tellraw @a[scores={bp.longtick=40..55},distance=..100] {"translate":"Thrall: Do you think I could not see into your heart?\"","color":"gold","bold":true}
+tellraw @a[scores={bp.longtick=40..55},distance=..100] {"translate":"[Thrall] Do you think I could not see into your heart?","color":"gold","bold":true}
 
 playsound minecraft:block.respawn_anchor.ambient hostile @a[scores={bp.longtick=50},distance=..100] ~ ~ ~ 100 0
 
 
-tellraw @a[scores={bp.longtick=70..95},distance=..100] {"translate":"Thrall: Hush!\"","color":"gold","bold":true}
+tellraw @a[scores={bp.longtick=70..95},distance=..100] {"translate":"[Thrall] Hush!","color":"gold","bold":true}
 
 playsound minecraft:block.respawn_anchor.ambient hostile @a[scores={bp.longtick=50},distance=..100] ~ ~ ~ 100 0

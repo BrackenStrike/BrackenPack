@@ -3,7 +3,6 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-#scoreboard players set @s bp.omnidrome 10
 # No XP
 kill @e[type=experience_orb,distance=..5]
 

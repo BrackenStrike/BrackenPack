@@ -6,27 +6,26 @@
 ####### Scoreboard Commands #######
 
 # every 2 ticks
-execute if entity @s[scores={bp.tick=2..}] run function bracken:player/scoreboard_commands/2_tick_score
-scoreboard players add @s bp.tick 1
+execute if predicate bracken:periodic/2t run function bracken:player/periodic_commands/2_tick
 
 # every 1 second (20 ticks)
-execute if entity @s[scores={bp.1_second=20..}] run function bracken:player/scoreboard_commands/1_second_score
+execute if entity @s[scores={bp.1_second=20..}] run function bracken:player/periodic_commands/1_second
 scoreboard players add @s bp.1_second 1
 
 # every 3 seconds (60 ticks)
-execute if entity @s[scores={bp.3_second=60..}] run function bracken:player/scoreboard_commands/3_second_score
+execute if entity @s[scores={bp.3_second=60..}] run function bracken:player/periodic_commands/3_second
 scoreboard players add @s bp.3_second 1
 
 # every 10 seconds (200 ticks)
-execute if entity @s[scores={bp.longtick=200..}] run function bracken:player/scoreboard_commands/longtick_score
+execute if entity @s[scores={bp.longtick=200..}] run function bracken:player/periodic_commands/10_second
 scoreboard players add @s bp.longtick 1
 
 # every 30 seconds (600 ticks)
-execute if entity @s[scores={bp.verylongtick=600..}] run function bracken:player/scoreboard_commands/verylongtick_score
+execute if entity @s[scores={bp.verylongtick=600..}] run function bracken:player/periodic_commands/30_second
 scoreboard players add @s bp.verylongtick 1
 
 # every 5 minutes (6000 ticks)
-#execute if entity @s[scores={bp.5_min_tick=6000..}] run function bracken:player/scoreboard_commands/5_min_tick_score
+#execute if entity @s[scores={bp.5_min_tick=6000..}] run function bracken:player/periodic_commands/5_min
 #scoreboard players add @s bp.5_min_tick 1
 
 # Player species

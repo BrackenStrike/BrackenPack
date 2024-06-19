@@ -3,7 +3,7 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-execute unless score #tick bp.1_second matches 18 run return 1
+execute unless predicate bracken:periodic/1s run return 1
 
 execute if entity @s[tag=bp.jellyfish] if function bracken:entities/the_brine/ai/jellyfish run return 1
 execute if entity @s[tag=bp.nautilus] if function bracken:entities/the_brine/ai/nautilus run return 1

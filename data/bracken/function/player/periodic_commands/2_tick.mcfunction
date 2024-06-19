@@ -3,8 +3,6 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-scoreboard players set @s bp.tick 0
-
 #scoreboard players set @s bp.hurting 0
 scoreboard players set @s bp.walk 0
 scoreboard players set @s bp.swim 0

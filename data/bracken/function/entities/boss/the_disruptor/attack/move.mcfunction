@@ -13,6 +13,6 @@ execute store result score @s bp.zmansion run data get entity @p Pos[2]
 function bracken:entities/boss/the_disruptor/move
 
 
-execute if score @p bp.tick matches 2 run function bracken:entities/boss/the_disruptor/attack/misc/move_extra
+execute if predicate bracken:periodic/2t run function bracken:entities/boss/the_disruptor/attack/misc/move_extra
 scoreboard players remove @s bp.dis.attack_cd 1
 
