@@ -1,0 +1,17 @@
+[{
+	"condition": "inverted",
+	"term": {
+		"condition": "reference",
+		"name": "bracken:effect_immunity/hunger"
+	}
+},{
+	"condition": "any_of",
+	"terms": [{
+		"condition": "reference",
+		"name": "bracken:dimensions/panacea"
+	},{
+		"condition": "entity_properties",
+		"entity": "this",
+		"predicate": { "nbt": "{Tags:[\"bp.hunter\"]}" }
+	}]
+}]

@@ -10,6 +10,10 @@
 			"name": "bracken:in_water"
 		}]
 	},{
+		"condition": "entity_scores",
+		"entity": "this",
+		"scores": { "bp.hunter_morph": 19 }
+	},{
 		"condition": "entity_properties",
 		"entity": "this",
 		"predicate": { "nbt": "{Tags:[\"bp.frostkin\"]}" }

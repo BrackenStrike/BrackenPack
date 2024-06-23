@@ -1,0 +1,6 @@
+{
+	"criteria": { "update_effects": {
+		"trigger": "minecraft:effects_changed"
+	}},
+	"rewards": { "function": "bracken:player/effects_changed" }
+}

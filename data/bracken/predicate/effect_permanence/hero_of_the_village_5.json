@@ -1,0 +1,14 @@
+[{
+	"condition": "inverted",
+	"term": {
+		"condition": "reference",
+		"name": "bracken:effect_immunity/hero_of_the_village"
+	}
+},{
+	"condition": "reference",
+	"name": "bracken:dimensions/overworld"
+},{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": { "nbt": "{Tags:[\"bp.human\"]}" }
+}]

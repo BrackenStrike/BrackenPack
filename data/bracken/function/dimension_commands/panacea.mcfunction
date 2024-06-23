@@ -3,8 +3,6 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-#scoreboard players set @s bp.panacea 10
-
 # Rain Event
 execute if score @s bp.1_second matches 2 if predicate bracken:rain run function bracken:entities/panacea/rain_event
 
@@ -13,7 +11,6 @@ execute if score @s bp.1_second matches 9 run function bracken:entities/panacea/
 
 # Effects
 effect give @s[scores={bp.longtick=3}] minecraft:regeneration 2 0 true
-execute if score @s bp.longtick matches 3 unless predicate bracken:effect_immunity/hunger run effect give @s minecraft:hunger 13 0 true
 
 # CHLOROCRAFTING (Disabled)
 execute if entity @s[scores={bp.1_second=3}] at @e[type=minecraft:item_frame,nbt={Item:{id:"minecraft:melon_seeds"}}] if block ~ ~-1 ~ minecraft:crafting_table run function bracken:entities/panacea/chlorocrafter

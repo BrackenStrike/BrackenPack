@@ -3,7 +3,6 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-#scoreboard players set @s bp.omnidrome 10
 # No XP
 kill @e[type=experience_orb,distance=..5]
 
@@ -17,7 +16,6 @@ tp @s[scores={bp.omni_flight=2..,bp.sneakcharge=10..}] ~ ~0.001 ~
 effect clear @s[predicate=!bracken:sneak,scores={bp.sneakcharge=..28,bp.omni_flight=2..}] minecraft:levitation
 effect give @s[predicate=bracken:sprint,scores={bp.omni_sprint=2..}] minecraft:speed 1 4 true
 execute if entity @s[predicate=bracken:sprint,scores={bp.omni_sprint=2..}] run particle minecraft:block_marker{block_state:"minecraft:tinted_glass"} ~ ~1 ~
-#effect give @s[scores={bp.longtick=2}] minecraft:jump_boost 15 255 true
 
 execute if entity @s[y=-42,dy=-100] run function bracken:dimension_commands/other/omnidrome_loop_bottom
 execute if entity @s[y=280,dy=100] run tp @s ~ -38 ~

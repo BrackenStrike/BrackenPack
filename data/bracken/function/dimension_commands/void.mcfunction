@@ -3,10 +3,8 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-#scoreboard players set @s bp.void 10
 # Effects
 #effect give @s[gamemode=!creative] minecraft:slow_falling 13 9 true
-
 effect give @s[gamemode=!creative,tag=!bp.watcher,scores={bp.longtick=8}] minecraft:blindness 29 9 true
 
 # Mansion Spell Book

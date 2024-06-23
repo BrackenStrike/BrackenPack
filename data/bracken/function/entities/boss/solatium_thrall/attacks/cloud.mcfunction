@@ -9,8 +9,8 @@ summon area_effect_cloud ~ ~ ~ {Particle:{type:"large_smoke"},Radius:20f,RadiusP
 tellraw @a[scores={bp.longtick=..29},distance=..20] {"translate":"Thrall: My heart, it gives me right. May the tyrant rage.\"","color":"gold","bold":true}
 playsound minecraft:block.respawn_anchor.ambient hostile @a[scores={bp.longtick=10},distance=..20] ~ ~ ~ 100 0
 
-tellraw @a[scores={bp.longtick=100..117},distance=..20] {"translate":"Thrall: Are you moved now?\"","color":"gold","bold":true}
+tellraw @a[scores={bp.longtick=100..117},distance=..20] {"translate":"[Thrall] Are you moved now?","color":"gold","bold":true}
 playsound minecraft:block.respawn_anchor.ambient hostile @a[scores={bp.longtick=100..120},distance=..10] ~ ~ ~ 100 0
 
-tellraw @a[scores={bp.longtick=165..199},distance=..20] {"translate":"Thrall: Not yet, not yet.\"","color":"gold","bold":true}
+tellraw @a[scores={bp.longtick=165..199},distance=..20] {"translate":"[Thrall] Not yet, not yet.","color":"gold","bold":true}
 playsound minecraft:block.respawn_anchor.ambient hostile @a[scores={bp.longtick=175..199},distance=..10] ~ ~ ~ 100 0

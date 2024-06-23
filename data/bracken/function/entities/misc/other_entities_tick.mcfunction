@@ -3,9 +3,6 @@
 # Creators: Sulfenir, Grandmaster and Bracken
 ##########################################################
 
-## JUKEBOX
-execute if entity @s[tag=bp.jukebox_manager] if function bracken:entities/jukebox/tick run return 1
-
 ## DORMIS SPAWN PLATFORM
 execute if entity @s[tag=bp.dormis_platform_remove] if function bracken:entities/dormis_spawn_platform_drill/main run return 1
 

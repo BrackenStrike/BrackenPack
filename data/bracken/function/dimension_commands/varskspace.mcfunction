@@ -3,8 +3,6 @@
 # Creators: Bracken
 ##########################################################
 
-#scoreboard players set @s bp.varskspace 10
-
 # Effects
 #effect give @s[scores={bp.longtick=7}] minecraft:jump_boost 13 9 true
 #effect give @s minecraft:speed 2 9 true

@@ -5,15 +5,8 @@
 			"type": "item",
 			"name": "minecraft:diamond_leggings",
 			"functions": [{
-				"function": "minecraft:set_components",
-				"components": {
-					"minecraft:enchantments": {
-						"minecraft:protection": 5,
-						"minecraft:fire_protection": 6,
-						"minecraft:vanishing_curse": 1
-					},
-					"minecraft:custom_model_data": 888502
-				}
+				"function": "set_custom_model_data",
+				"value": 888502
 			},{
 				"function": "set_name",
 				"target": "item_name",
@@ -26,7 +19,7 @@
 				"function": "set_lore",
 				"lore": [{
 					"translate": "Jeg er mote!",
-					"color": "gray",
+					"color": "dark_aqua",
 					"italic": false
 				}],
 				"mode": "insert"
@@ -37,14 +30,18 @@
 					"max": 0.83
 				}
 			},{
-				"function": "minecraft:set_components",
-				"components": {
-					"minecraft:custom_data": {
-						"bp": {
-							"id": "fragile"
-						}
-					}
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:fragility_curse": 1,
+					"minecraft:protection": 5,
+					"minecraft:fire_protection": 6,
+					"minecraft:vanishing_curse": 1
 				}
+			},{
+				"function": "minecraft:set_components",
+				"components": {"minecraft:custom_data": {
+					"bp": { "id": "froscuisses" }
+				}}
 			}]
 		}]
 	}]

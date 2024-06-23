@@ -5,16 +5,8 @@
 			"type": "item",
 			"name": "minecraft:diamond_helmet",
 			"functions": [{
-				"function": "minecraft:set_components",
-				"components": {
-					"minecraft:enchantments": {
-						"minecraft:protection": 5,
-						"minecraft:fire_protection": 5,
-						"minecraft:aqua_affinity": 5,
-						"minecraft:vanishing_curse": 1
-					},
-					"minecraft:custom_model_data": 888502
-				}
+				"function": "minecraft:set_custom_model_data",
+				"value": 888502
 			},{
 				"function": "set_name",
 				"target": "item_name",
@@ -38,14 +30,19 @@
 					"max": 0.83
 				}
 			},{
-				"function": "minecraft:set_components",
-				"components": {
-					"minecraft:custom_data": {
-						"bp": {
-							"id": "fragile"
-						}
-					}
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:fragility_curse": 1,
+					"minecraft:protection": 5,
+					"minecraft:fire_protection": 5,
+					"minecraft:aqua_affinity": 5,
+					"minecraft:vanishing_curse": 1
 				}
+			},{
+				"function": "minecraft:set_components",
+				"components": { "minecraft:custom_data": {
+					"bp": { "id": "viceroys_visor" }
+				}}
 			}]
 		}]
 	}]
