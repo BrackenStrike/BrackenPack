@@ -1,7 +1,7 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "Flame Walker"
+    "translate": "Flood Walker"
   },
   "effects": {
     "minecraft:damage_immunity": [
@@ -13,7 +13,7 @@
             "tags": [
               {
                 "expected": true,
-                "id": "minecraft:is_freezing"
+                "id": "minecraft:burn_from_stepping"
               },
               {
                 "expected": false,
@@ -31,7 +31,10 @@
           "block_state": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:fire"
+              "Name": "minecraft:water",
+              "Properties": {
+                    "level": "1"
+                }
             }
           },
           "height": 1.0,
@@ -68,7 +71,7 @@
             "min": 0.0,
             "value": {
               "type": "minecraft:linear",
-              "base": 1.0,
+              "base": 2.0,
               "per_level_above_first": 1.0
             }
           },
