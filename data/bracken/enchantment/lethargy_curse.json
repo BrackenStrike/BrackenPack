@@ -12,7 +12,7 @@
           "per_level_above_first": -0.1
         },
         "attribute": "minecraft:generic.attack_speed",
-        "id": "minecraft:enchantment.boldness",
+        "id": "minecraft:enchantment.lethargy_curse",
         "operation": "add_value"
       }
     ]

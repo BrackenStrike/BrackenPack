@@ -30,12 +30,6 @@
 					"italic": false
 				}],
 				"mode": "insert"
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.88,
-					"max": 0.93
-				}
 			}]
 		}]
 	}]

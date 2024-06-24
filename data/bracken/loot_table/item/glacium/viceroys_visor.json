@@ -24,12 +24,6 @@
 				}],
 				"mode": "insert"
 			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.78,
-					"max": 0.83
-				}
-			},{
 				"function": "set_enchantments",
 				"enchantments": {
 					"bracken:fragility_curse": 1,

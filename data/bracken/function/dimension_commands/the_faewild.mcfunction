@@ -3,8 +3,6 @@
 # Creators: Bracken
 ##########################################################
 
-#scoreboard players set @s bp.fae 10
-
 # Effects
 #effect give @s[predicate=bracken:sneak] minecraft:slow_falling 1 0 true
 experience add @s[scores={bp.longtick=1}] 1 points

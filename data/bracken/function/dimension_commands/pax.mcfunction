@@ -6,8 +6,6 @@
 scoreboard players set @s bp.pax 10
 
 # Effects
-#effect give @s[scores={bp.longtick=4}] minecraft:jump_boost 15 2 true
-#effect give @s[scores={bp.longtick=4}] minecraft:weakness 15 99 true
 effect give @s[scores={bp.food=..18}] minecraft:saturation 1 0 true
 
 execute if predicate bracken:in_water run function bracken:dimension_commands/other/pax_waters
