@@ -22,6 +22,13 @@
 		"entries": [{
 			"type": "minecraft:loot_table",
 			"value": "bracken:item/sanctum/shepherdess_cloak"
+		}],
+		"functions": [{
+			"function": "set_damage",
+			"damage": {
+				"min": 0.48,
+				"max": 0.93
+			}
 		}]
 	}]
 }

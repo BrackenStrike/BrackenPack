@@ -20,15 +20,9 @@
 				"lore": [{
 					"translate": "vokte hjertet mitt!",
 					"color": "dark_aqua",
-					"italic": false
+					"italic": true
 				}],
 				"mode": "insert"
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.88,
-					"max": 0.93
-				}
 			},{
 				"function": "set_enchantments",
 				"enchantments": {

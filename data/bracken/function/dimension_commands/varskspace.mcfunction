@@ -4,8 +4,6 @@
 ##########################################################
 
 # Effects
-#effect give @s[scores={bp.longtick=7}] minecraft:jump_boost 13 9 true
-#effect give @s minecraft:speed 2 9 true
 scoreboard players remove @s[predicate=!bracken:sprint,scores={bp.sprintcharge=1..}] bp.sprintcharge 1
 scoreboard players add @s[predicate=bracken:sprint] bp.sprintcharge 2
 scoreboard players set @s[scores={bp.sprintcharge=1001..}] bp.sprintcharge 100

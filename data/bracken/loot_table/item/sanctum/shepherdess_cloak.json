@@ -12,7 +12,8 @@
 				"function": "minecraft:set_lore",
 				"entity": "this",
 				"lore": [{
-					"translate": "Be safe my little one, I'll only be gone a little while...",
+					"translate": "bracken.astomi.shepherdess_cloak_message",
+					"fallback": "╠╘╩╥╡ ╠╢╩╒ ╟╗ ╨║╨╘╞ ╖╓╧╦ ╢╚╖╦ ╔ ╓╕╤╞",
 					"color": "gray",
 					"italic": false
 				}],
@@ -38,14 +39,9 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:dyed_color": {
-						"rgb": 11247524
+						"rgb": 11247524,
+						"show_in_tooltip": false
 					}
-				}
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
 				}
 			}]
 		}]

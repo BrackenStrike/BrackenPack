@@ -1,6 +1,6 @@
 ##########################################################
 # Description: List of dimension effects for the Underdark.
-# Creators: Bracken
+# Creators: Bracken, Conure
 ##########################################################
 
 # Mobs
@@ -13,11 +13,7 @@ execute if predicate bracken:periodic/2t as @e[type=piglin,tag=bp.smeaglin] at @
 execute if score @s bp.1_second matches 16 if data storage bracken:config {dimension_travel: true} if entity @s[y=246,dy=100] run function bracken:dimension_crossing/underdark_to_overworld
 execute if score @s bp.1_second matches 6 if data storage bracken:config {dimension_travel: true} if entity @s[y=1,dy=-200] run function bracken:dimension_crossing/underdark_to_nether
 
-# I love the sounds of mine accidents.
-execute if predicate bracken:periodic/3s at @s unless predicate bracken:in_biome/crystal_caves if predicate bracken:random/one_in_30 run playsound bracken:underdark_ambient ambient @s ~ ~ ~ 100 1.0 1
-
-# Shiny sounds!! Beware of the guardians though.
-execute if predicate bracken:periodic/3s at @s if predicate bracken:in_biome/crystal_caves if predicate bracken:random/one_in_30 run playsound bracken:crystal_caves_ambient ambient @s ~ ~ ~ 100 1.0 1
+execute if predicate bracken:periodic/3s if predicate bracken:random/one_in_30 at @s run function bracken:dimension_commands/other/underdark_sound_selection
 
 #return
 return 1

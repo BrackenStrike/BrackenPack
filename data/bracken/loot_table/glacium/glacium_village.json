@@ -60,6 +60,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.78,
+					"max": 0.83
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -67,6 +74,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.88,
+					"max": 0.93
+				}
 			}]
 		}]
 	}]
