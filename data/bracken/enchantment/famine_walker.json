@@ -1,7 +1,7 @@
 {
   "anvil_cost": 4,
   "description": {
-    "translate": "Flamine Walker"
+    "translate": "Famine Walker"
   },
   "effects": {
     "minecraft:damage_immunity": [
