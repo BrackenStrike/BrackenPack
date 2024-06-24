@@ -17,11 +17,12 @@
       }
     ]
   },
-  "exclusive_set": "#minecraft:exclusive_set/damage",
+  "exclusive_set": "bracken:lethargy_curse",
   "max_cost": {
     "base": 25,
     "per_level_above_first": 8
   },
+  
   "max_level": 5,
   "min_cost": {
     "base": 5,

@@ -4,16 +4,16 @@
     "translate": "Curse of Dullness"
   },
   "effects": {
-    "minecraft:damage": [
+    "minecraft:attributes": [
       {
-        "effect": {
-          "type": "minecraft:add",
-          "value": {
-            "type": "minecraft:linear",
-            "base": -1.0,
-            "per_level_above_first": -0.5
-          }
-        }
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.5,
+          "per_level_above_first": -0.1
+        },
+        "attribute": "minecraft:generic.attack_damage",
+        "id": "minecraft:enchantment.boldness",
+        "operation": "add_value"
       }
     ]
   },
@@ -26,6 +26,7 @@
     "base": 2,
     "per_level_above_first": 11
   },
+  "exclusive_set": "minecraft:sharpness",
   "primary_items": "#minecraft:enchantable/sword",
   "slots": [
     "mainhand"

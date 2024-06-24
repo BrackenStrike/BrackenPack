@@ -17,6 +17,7 @@
       }
     ]
   },
+  "exclusive_set": "bracken:vitality",
   "max_cost": {
     "base": 50,
     "per_level_above_first": 0
