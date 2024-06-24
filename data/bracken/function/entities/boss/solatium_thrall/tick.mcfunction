@@ -5,7 +5,7 @@
 
 
 #falling fire
-execute at @e[type=minecraft:phantom,tag=bp.fireblight.y] run summon falling_block ~ ~ ~ {BlockState:{id:"minecraft:fire"},Time:1}
+execute at @e[type=minecraft:phantom,tag=bp.fireblight.y] run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:fire"},Time:1}
 
 execute if entity @s[tag=bp.boss,tag=bp.solatium_thrall,tag=bp.active] run function bracken:entities/boss/solatium_thrall/misc/tick
 
