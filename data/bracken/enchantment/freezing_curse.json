@@ -14,10 +14,10 @@
 				{
 				  "type": "minecraft:apply_mob_effect",
 				  "to_apply": "minecraft:slowness",
-				  "min_duration": 10,
-				  "max_duration": 20,
+				  "min_duration": 5,
+				  "max_duration": 10,
 				  "min_amplifier": 0,
-				  "max_amplifier": 2
+				  "max_amplifier": 1
 				}
 			  ]
 			}
