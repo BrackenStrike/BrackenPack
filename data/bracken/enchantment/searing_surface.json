@@ -1,7 +1,7 @@
 {
 	"anvil_cost": 8,
 	"description": {
-		"translate": "Searing Touch"
+		"translate": "Searing Surface"
 	},
 	"effects": {
 		"minecraft:post_attack": [{

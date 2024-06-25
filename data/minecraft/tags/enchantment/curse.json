@@ -1,6 +1,10 @@
 {
   "values": [
     "bracken:maiming_curse",
+    "bracken:poisoning_curse",
+    "bracken:freezing_curse",
+    "bracken:sentience_curse",
+    "bracken:devouring_curse",
     "bracken:fragility_curse",
     "bracken:lethargy_curse",
     "bracken:dullness_curse"

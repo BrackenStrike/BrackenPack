@@ -67,7 +67,7 @@
         [
             "bracken:faewild/path"
         ],
-        [],
+        ["minecraft:ore_copper","minecraft:ore_lapis"],
         [],
         [
             "minecraft:flower_plains"
@@ -81,7 +81,7 @@
             "minecraft:patch_large_fern",
             "minecraft:brown_mushroom_old_growth",
             "minecraft:red_mushroom_old_growth",
-            "minecraft:vines"
+            "minecraft:vines","bracken:faewild/lapis_ore","bracken:faewild/copper_ore"
         ],
         [
             "bracken:faewild/birch_tree"

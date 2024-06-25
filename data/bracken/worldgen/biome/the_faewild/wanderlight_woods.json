@@ -81,7 +81,7 @@
         "air": []
     },
     "features": [
-        [],
+        ["minecraft:ore_copper","minecraft:ore_lapis"],
         [],
         [
             "minecraft:forest_rock"
@@ -89,7 +89,7 @@
         [],
         [],
         [],
-        [],
+        ["bracken:faewild/lapis_ore","bracken:faewild/copper_ore"],
         [
             "minecraft:patch_melon",
             "minecraft:spring_water",

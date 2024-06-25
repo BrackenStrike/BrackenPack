@@ -7,7 +7,7 @@
 		"minecraft:item_damage": [{
 			"effect": {
 				"type": "minecraft:add",
-				"value": 2
+				"value": 4
 			}
 		}]
 	},
