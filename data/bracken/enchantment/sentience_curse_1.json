@@ -1,7 +1,7 @@
 {
 	"anvil_cost": 1,
 	"description": {
-		"translate": "Curse of Sentience II"
+		"translate": "Curse of Sentience"
 	},
 	"effects": {
 		"minecraft:post_attack": [
@@ -10,7 +10,7 @@
 			"affected": "attacker",
 			"effect": {
 			  "type": "minecraft:play_sound",
-			  "sound": "minecraft:entity.villager.ambient",
+			  "sound": "minecraft:entity.vindicator.ambient",
 			  "volume": 1,
 			  "pitch": 2
 			}
