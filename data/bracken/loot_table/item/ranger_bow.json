@@ -21,7 +21,7 @@
 				"mode": "replace_all",
 				"lore": [{
 					"translate": "bracken.common.ranger_bow_message",
-					"text": "Htwa rsamde amy omce, nhew ew vahe dhefsful ffo tish aolrmt ocli?",
+					"fallback": "Htwa rsamde amy omce, nhew ew vahe dhefsful ffo tish aolrmt ocli?",
 					"color": "aqua",
 					"italic": false
 				}]
