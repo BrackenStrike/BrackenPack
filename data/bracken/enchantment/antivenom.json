@@ -24,7 +24,7 @@
                 "tags": [
                   {
                     "expected": true,
-                    "id": "minecraft:magic"
+                    "id": "minecraft:witch_resistant_to"
                   },
                   {
                     "expected": false,
