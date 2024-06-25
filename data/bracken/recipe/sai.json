@@ -29,7 +29,8 @@
                         "slot": "mainhand"
                     }
                 ]
-            }
+            },
+		"minecraft:custom_data": { "bp": { "id": "sai" } }
         }
     }
 }

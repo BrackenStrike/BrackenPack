@@ -12,7 +12,8 @@
 				"function": "minecraft:set_lore",
 				"entity": "this",
 				"lore": [{
-					"translate": "00111011 00101001",
+					"translate": "bracken.binary.null_lore",
+					"fallback": "00111011 00101001",
 					"color": "gray",
 					"italic": false
 				}],
