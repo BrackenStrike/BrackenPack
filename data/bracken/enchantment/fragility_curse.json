@@ -1,12 +1,16 @@
 {
 	"description": "Curse of Fragility",
-	"slots": ["any"],
-	"effects": { "minecraft:item_damage": [{
-		"effect": {
-			"type": "minecraft:add",
-			"value": 2
-		}
-	}]},
+	"slots": [
+		"any"
+	],
+	"effects": {
+		"minecraft:item_damage": [{
+			"effect": {
+				"type": "minecraft:add",
+				"value": 2
+			}
+		}]
+	},
 	"max_level": 1,
 	"exclusive_set": "minecraft:unbreaking",
 	"supported_items": "#minecraft:enchantable/durability",

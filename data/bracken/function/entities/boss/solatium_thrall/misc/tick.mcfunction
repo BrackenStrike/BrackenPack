@@ -1,6 +1,4 @@
-
-execute if score @s bp.thrall matches ..0 run scoreboard players set #1 bp.math.in 4
-execute if score @s bp.thrall matches ..0 run function bracken:math/random
+execute if score @s bp.thrall matches ..0 store result score #1 bp.math.out run random value 0..3
 
 execute if score @s[name=!Rocco] bp.thrall matches ..0 if score #1 bp.math.out matches 0 run function bracken:entities/boss/solatium_thrall/attacks/cloud
 execute if score @s[name=!Rocco] bp.thrall matches ..0 if score #1 bp.math.out matches 1 run function bracken:entities/boss/solatium_thrall/attacks/minions

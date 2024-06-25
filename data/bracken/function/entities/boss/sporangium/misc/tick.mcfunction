@@ -1,11 +1,8 @@
-
 execute store result bossbar bracken:sporangium value run data get entity @s Health 1
 execute store result score @s bp.sporangium.health run data get entity @s Health 1
 
 
-
-execute if score @s bp.sporangium matches ..0 run scoreboard players set #1 bp.math.in 4
-execute if score @s bp.sporangium matches ..0 run function bracken:math/random
+execute if score @s bp.sporangium matches ..0 store result score #1 bp.math.out run random value 0..3
 
 execute if score @s[tag=!bp.death] bp.sporangium matches ..0 if score #1 bp.math.out matches 0 run function bracken:entities/boss/sporangium/attacks/grow
 execute if score @s[tag=!bp.death] bp.sporangium matches ..0 if score #1 bp.math.out matches 1 run function bracken:entities/boss/sporangium/attacks/multiply

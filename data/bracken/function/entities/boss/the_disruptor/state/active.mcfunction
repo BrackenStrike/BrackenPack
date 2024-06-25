@@ -1,5 +1,5 @@
 ##rng
-execute if score @s bp.dis.attack_cd matches ..0 run function bracken:entities/boss/the_disruptor/attack/misc/rng
+execute if score @s bp.dis.attack_cd matches ..0 store result score @s bp.dis.attack_state run random value 0..4
 
 execute facing entity @p eyes rotated ~ 0 run tp ~ ~ ~
 bossbar set bracken:the_disruptor players @a[distance=..100]

@@ -1,6 +1,4 @@
-execute if score @s bp.prjct_ruin.cd matches ..0 run scoreboard players set #1 bp.math.in 3
-execute if score @s bp.prjct_ruin.cd matches ..0 run function bracken:math/random
-execute if score @s bp.prjct_ruin.cd matches ..0 run scoreboard players operation @s bp.prjct_ruin.a = #1 bp.math.out
+execute if score @s bp.prjct_ruin.cd matches ..0 store result score @s bp.prjct_ruin.a run random value 0..2
 
 scoreboard players set data bp.prjct_ruin 0
 execute as @e[tag=bp.project_ruination.wave] run scoreboard players add data bp.prjct_ruin 1
@@ -26,4 +24,3 @@ particle minecraft:sneeze ~ ~2 ~ 2.5 2 2.5 0.01 35
 particle minecraft:totem_of_undying ~ ~2 ~ 10 10 10 0.01 1
 
 execute if score data bp.prjct_ruin matches ..200 run function bracken:entities/boss/project_ruination/core/phase/1_end
-

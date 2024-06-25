@@ -1,18 +1,9 @@
-#Get X Coordinate
-scoreboard players set #1 bp.math.in 10000000
-function bracken:math/random
-scoreboard players operation @s bp.xmansion = #1 bp.math.out
-scoreboard players remove @s bp.xmansion 5000000
+#Get XZ
+execute store result score @s bp.xmansion run random value -5000000..5000000
+execute store result score @s bp.zmansion run random value -5000000..5000000
 
-#Get Z Coordinate
-function bracken:math/random
-scoreboard players operation @s bp.zmansion = #1 bp.math.out
-scoreboard players remove @s bp.zmansion 5000000
-
-#Get Y Coordinate
-scoreboard players set #1 bp.math.in 3
-function bracken:math/random
-scoreboard players operation @s bp.ymansion = #1 bp.math.out
+#Get Y
+execute store result score @s bp.ymansion run random value 0..2
 scoreboard players operation @s bp.ymansion *= #70 bp.ymansion
 scoreboard players add @s bp.ymansion 10
 

@@ -1,8 +1,4 @@
-
-
-execute if score @s bp.prjct_ruin.cd matches ..0 run scoreboard players set #1 bp.math.in 3
-execute if score @s bp.prjct_ruin.cd matches ..0 run function bracken:math/random
-execute if score @s bp.prjct_ruin.cd matches ..0 run scoreboard players operation @s bp.prjct_ruin.a = #1 bp.math.out
+execute if score @s bp.prjct_ruin.cd matches ..0 store result score @s bp.prjct_ruin.a run random value 0..2
 
 scoreboard players set data bp.prjct_ruin 0
 execute as @e[tag=bp.project_ruination.wave] run scoreboard players add data bp.prjct_ruin 1
@@ -31,4 +27,3 @@ particle minecraft:glow_squid_ink ~ ~2 ~ 2 1.5 2 0.01 25
 execute store result score data bp.prjct_ruin run data get entity @s Health 1
 
 execute if score data bp.prjct_ruin matches ..100 run function bracken:entities/boss/project_ruination/core/phase/2_end
-
