@@ -12,8 +12,8 @@
 				{
 				  "type": "minecraft:apply_mob_effect",
 				  "to_apply": "minecraft:glowing",
-				  "min_duration": 60,
-				  "max_duration": 120,
+				  "min_duration": 10,
+				  "max_duration": 15,
 				  "min_amplifier": 0,
 				  "max_amplifier": 0
 				}

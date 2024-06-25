@@ -4,24 +4,38 @@
 		"translate": "Splintering"
 	},
 	"effects": {
-		"minecraft:attributes": [
+		"minecraft:post_attack": [
 		  {
-			"amount": {
-			  "type": "minecraft:fraction",
-			  "denominator": {
+			"enchanted": "attacker",
+			"affected": "victim",
+			"effect": {
+			  "type": "minecraft:explode",
+			  "damage_type": "minecraft:arrow",
+			  "radius": {
 				"type": "minecraft:linear",
-				"base": 2.0,
-				"per_level_above_first": 1.0
+				"base": 0.5,
+				"per_level_above_first": 0.5
 			  },
-			  "numerator": {
-				"type": "minecraft:linear",
-				"base": 1.0,
-				"per_level_above_first": 1.0
-			  }
+			  "block_interaction": "none",
+			  "small_particle": {
+				"type": "minecraft:sweep_attack"
+			  },
+			  "large_particle": {
+				"type": "minecraft:sweep_attack"
+			  },
+			  "sound": "minecraft:entity.item.break",
+			  "knockback_multiplier": 0.1,
+			  "attribute_to_user": false,
+			  "create_fire": false
 			},
-			"attribute": "minecraft:player.sweeping_damage_ratio",
-			"id": "minecraft:enchantment.splinter_edge",
-			"operation": "add_value"
+			
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        }
 		  }
 		]
 	  },
@@ -31,9 +45,9 @@
 	  "base": 20,
 	  "per_level_above_first": 9
 	},
-	"max_level": 3,
+	"max_level": 1,
 	"min_cost": {
-	  "base": 5,
+	  "base": 15,
 	  "per_level_above_first": 9
 	},
 	"slots": [
