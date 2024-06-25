@@ -18,7 +18,7 @@ execute if score @s bp.1_second matches 8 if data storage bracken:config {dimens
 
 # Pax Protection
 #execute if predicate bracken:periodic/2t as @e[type=#bracken:pax_entities,distance=..40] at @s run function bracken:entities/pax/pax_entities
-#execute if entity @s[predicate=bracken:periodic/3s,gamemode=survival] as @e[distance=..150] at @s run function bracken:entities/pax/pax_entities
+#execute if entity @s[predicate=bracken:periodic/3s,predicate=bracken:survival_like] as @e[distance=..150] at @s run function bracken:entities/pax/pax_entities
 execute if predicate bracken:periodic/2t as @e[type=#bracken:pax_entities,distance=..40] at @s run function bracken:entities/pax/pax_entities
 
 #return
