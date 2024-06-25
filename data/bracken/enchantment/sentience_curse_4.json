@@ -1,7 +1,7 @@
 {
 	"anvil_cost": 1,
 	"description": {
-		"translate": "Curse of Sentience"
+		"translate": "Curse of Sentience #4"
 	},
 	"effects": {
 		"minecraft:post_attack": [
