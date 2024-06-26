@@ -21,18 +21,20 @@
 		"minecraft:post_attack": [
 			{
 				"enchanted": "attacker",
-				"affected": "attacker",
-				"effect": {
-					"type": "minecraft:run_function",
-					"function": "bracken:player/enchantment/splintering_player"
-				}
-			},
-			{
-				"enchanted": "attacker",
 				"affected": "victim",
 				"effect": {
 					"type": "minecraft:run_function",
 					"function": "bracken:player/enchantment/splintering_target"
+				},
+				"requirements": {
+					"condition": "minecraft:inverted",
+					"term": {
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "#bracken:untargettable"
+						}
+					}
 				}
 			}
 		]
