@@ -26,16 +26,25 @@
 					"type": "minecraft:run_function",
 					"function": "bracken:player/enchantment/splintering_target"
 				},
-				"requirements": {
-					"condition": "minecraft:inverted",
-					"term": {
+				"requirements": [
+					{
 						"condition": "minecraft:entity_properties",
-						"entity": "this",
+						"entity": "direct_attacker",
 						"predicate": {
-							"type": "#bracken:untargettable"
+							"type": "#minecraft:arrows"
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"type": "#bracken:untargettable"
+							}
 						}
 					}
-				}
+				]
 			}
 		]
 	}
