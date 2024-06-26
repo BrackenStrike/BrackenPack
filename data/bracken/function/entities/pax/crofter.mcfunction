@@ -3,4 +3,4 @@
 # Creators: Bracken
 ##########################################################
 
-execute if entity @p[scores={bp.verylongtick=1}] run playsound bracken:crofter_hum neutral @a[distance=..100] ~ ~ ~ 100 1
+execute if predicate bracken:periodic/30s run playsound bracken:crofter_hum neutral @a[distance=..100] ~ ~ ~ 100 1
