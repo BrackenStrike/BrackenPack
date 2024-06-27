@@ -36,7 +36,6 @@ scoreboard objectives remove bp.wither_skull
 scoreboard objectives remove bp.gothrum_fang
 scoreboard objectives remove bp.creeper_horn
 scoreboard objectives remove bp.poison
-scoreboard objectives remove bp.nightfall
 scoreboard objectives remove bp.perpetual_aegis
 scoreboard objectives remove bp.breach_factor_jump
 scoreboard objectives remove bp.breach_factor_float

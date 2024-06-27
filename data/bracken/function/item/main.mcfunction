@@ -18,9 +18,6 @@ scoreboard players remove @s[scores={bp.cooldown=-6..}] bp.cooldown 1
 #playsound bracken:ability_book_tier_4 ambient @s[scores={bp.cooldown=-5}] ~ ~ ~ 1 2
 scoreboard players set @s[scores={bp.death=0}] bp.cooldown 0
 
-# Nightfall Glider
-execute if score @s bp.nightfall matches 1 run function bracken:item/nightfall
-
 # Poison Sword
 #execute if score @s bp.poison matches 1..22 run function bracken:item/poison_sword
 #scoreboard players remove @s[scores={bp.hurting=1..}] bp.hurting 1

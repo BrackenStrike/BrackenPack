@@ -21,26 +21,21 @@
 						"operation": "add_value"
 					}],
 					"minecraft:custom_model_data": 888502,
-					"minecraft:rarity": "rare"
+					"minecraft:rarity": "uncommon"
 				}
 			},{
 				"function": "set_name",
 				"target": "item_name",
 				"name": "Nightfall"
 			},{
-				"function": "set_lore",
-				"lore": [{
-					"translate": "It returned from the Void different...",
-					"color": "gray",
-					"italic": false
-				}],
-				"mode": "insert"
-			},{
 				"function": "set_damage",
 				"damage": {
 					"min": 0.88,
 					"max": 0.93
 				}
+			},{
+				"function": "set_enchantments",
+				"enchantments": { "bracken:technical/nightfall": 1 }
 			}]
 		}]
 	}]
