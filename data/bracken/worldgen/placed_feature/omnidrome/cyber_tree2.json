@@ -15,11 +15,7 @@
                     },
                     {
                         "type": "minecraft:matching_blocks",
-                        "offset": [
-                            0,
-                            -1,
-                            0
-                        ],
+                        "offset": [ 0, -1, 0 ],
                         "blocks": [
                             "minecraft:nether_bricks"
                         ]
@@ -28,11 +24,6 @@
                         "type": "minecraft:not",
                         "predicate": {
                             "type": "minecraft:matching_blocks",
-                            "offset": [
-                                0,
-                                0,
-                                0
-                            ],
                             "blocks": [
                                 "minecraft:lime_stained_glass",
                                 "minecraft:orange_stained_glass",
