@@ -18,7 +18,9 @@ attribute @s minecraft:player.submerged_mining_speed modifier add bracken:nereid
 
 
 attribute @s minecraft:generic.max_health modifier add bracken:nereid.max_health 0.3 add_multiplied_base
-attribute @s minecraft:generic.oxygen_bonus modifier add bracken:nereid.oxygen_bonus 180 add_value
+attribute @s minecraft:generic.oxygen_bonus modifier add bracken:nereid.oxygen_bonus 120 add_value
+attribute @s minecraft:generic.gravity modifier add bracken:nereid.gravity 0.5 add_multiplied_base
+attribute @s minecraft:generic.step_height modifier add bracken:nereid.step_height 0.5 add_value
 
 function bracken:player/update_effects
 
