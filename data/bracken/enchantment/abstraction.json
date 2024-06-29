@@ -1,20 +1,27 @@
 {
 	"anvil_cost": 1,
 	"description": {
-		"translate": "Ferocity"
+		"translate": "Abstraction"
 	},
 	"effects": {
-		"minecraft:attributes": [{
-			"amount": {
-				"type": "minecraft:linear",
-				"base": 0.1,
-				"per_level_above_first": 0.1
+		"minecraft:post_attack": [
+		  {
+			"enchanted": "attacker",
+			"affected": "victim",
+			"effect": {
+			  "type": "minecraft:run_function",
+			  "function": "bracken:player/item/abstraction"
 			},
-			"attribute": "minecraft:generic.attack_speed",
-			"id": "minecraft:enchantment.ferocity",
-			"operation": "add_value"
-		}]
-	},
+			"requirements": {
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type": "minecraft:player"
+			  }
+			}
+		  }
+		]
+	  },
 	"exclusive_set": "#minecraft:exclusive_set/damage",
 	"max_cost": {
 		"base": 25,

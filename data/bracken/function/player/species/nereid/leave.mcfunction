@@ -7,9 +7,13 @@ tag @s remove bp.species
 tag @s remove bp.nereid
 team leave @s[team=Nereid]
 
-attribute @s minecraft:generic.water_movement_efficiency modifier remove bracken:nereid.water_movement_efficiency
+#attribute @s minecraft:generic.water_movement_efficiency modifier remove bracken:nereid.water_movement_efficiency
 attribute @s minecraft:player.submerged_mining_speed modifier remove bracken:nereid.submerged_mining_speed
 attribute @s minecraft:generic.movement_speed modifier remove bracken:nereid.on_land.movement_speed
+
+
+attribute @s minecraft:generic.max_health modifier remove bracken:nereid.max_health
+attribute @s minecraft:generic.oxygen_bonus modifier remove bracken:nereid.oxygen_bonus
 
 effect clear @s minecraft:dolphins_grace
 effect clear @s minecraft:night_vision

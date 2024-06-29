@@ -34,7 +34,7 @@
 		"per_level_above_first": 0
 	  },
 	  "slots": [
-		"mainhand"
+		"hand"
 	  ],
 	  "supported_items": "#minecraft:enchantable/bow",
 	  "weight": 1

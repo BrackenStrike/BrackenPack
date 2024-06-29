@@ -1,0 +1,1 @@
+data merge entity @s {Fuse:400000}

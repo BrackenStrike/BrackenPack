@@ -16,4 +16,6 @@ attribute @s minecraft:generic.movement_speed modifier add bracken:faefolk.movem
 attribute @s minecraft:generic.jump_strength modifier add bracken:faefolk.jump 0.5 add_multiplied_base
 attribute @s minecraft:generic.safe_fall_distance modifier add bracken:faefolk.safefall 1 add_value
 
+attribute @s minecraft:generic.max_health modifier add bracken:faefolk.max_health -0.1 add_multiplied_base
+
 return 1

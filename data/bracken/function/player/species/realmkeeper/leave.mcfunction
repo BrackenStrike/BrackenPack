@@ -7,4 +7,7 @@ tag @s remove bp.species
 tag @s remove bp.realmkeeper
 team leave @s[team=Realmkeeper]
 
+
+attribute @s minecraft:generic.max_health modifier remove bracken:realmkeeper.max_health
+
 return 1

@@ -12,4 +12,7 @@ attribute @s minecraft:generic.movement_speed modifier remove bracken:faefolk.mo
 attribute @s minecraft:generic.jump_strength modifier remove bracken:faefolk.jump
 attribute @s minecraft:generic.safe_fall_distance modifier remove bracken:faefolk.safefall
 
+
+attribute @s minecraft:generic.max_health modifier remove bracken:faefolk.max_health
+
 return 1

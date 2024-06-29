@@ -13,4 +13,6 @@ attribute @s minecraft:generic.attack_speed modifier remove bracken:villain.atta
 attribute @s minecraft:generic.armor modifier remove bracken:villain.armor
 attribute @s minecraft:generic.luck modifier remove bracken:villain.luck
 
+attribute @s minecraft:generic.max_health modifier remove bracken:villain.max_health
+
 return 1

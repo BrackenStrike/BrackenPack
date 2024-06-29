@@ -4,7 +4,7 @@
 ##########################################################
 
 
-execute if score @s bp.health matches 18.. run effect give @s[predicate=bracken:light/at_least_5,scores={bp.longtick=40},predicate=bracken:item/empty_slot/head] minecraft:absorption 9 2 true
+effect give @s[predicate=bracken:light/at_least_5,scores={bp.longtick=40},predicate=bracken:item/empty_slot/head] minecraft:absorption 9 3 true
 
 
 # I am doing this because absorption_clear.mcfunction makes a NBT check and I don't want to make that check every tick!

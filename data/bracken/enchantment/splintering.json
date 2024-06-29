@@ -13,7 +13,7 @@
 			  "damage_type": "minecraft:arrow",
 			  "radius": {
 				"type": "minecraft:linear",
-				"base": 0.5,
+				"base": 0.75,
 				"per_level_above_first": 0.5
 			  },
 			  "block_interaction": "none",
@@ -51,7 +51,7 @@
 	  "per_level_above_first": 9
 	},
 	"slots": [
-	  "mainhand"
+	  "hand"
 	],
 	"supported_items": "#minecraft:enchantable/bow",
 	"weight": 1
