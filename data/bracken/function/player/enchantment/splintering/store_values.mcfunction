@@ -4,7 +4,8 @@
 ######################################################
 
 # Reset to defaults
-data merge storage bracken:var {splinters:{lvl2:false,lvl3:false,fire:-1,potion_contents:{}}}
+data merge storage bracken:var {splinters:{lvl2:false,lvl3:false,fire:-1}}
+data modify storage bracken:var splinters.potion_contents set value {} # can't data merge it
 
 # Splinter count
 ## Splintering II
