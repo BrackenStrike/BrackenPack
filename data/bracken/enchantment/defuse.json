@@ -10,7 +10,7 @@
 			"affected": "victim",
 			"effect": {
 			  "type": "minecraft:run_function",
-			  "function": "bracken:player/item/defuse"
+			  "function": "bracken:item/enchantment/defuse"
 			},
 			"requirements": {
 			  "condition": "minecraft:entity_properties",

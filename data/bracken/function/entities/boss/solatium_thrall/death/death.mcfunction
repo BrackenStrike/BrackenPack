@@ -15,7 +15,7 @@ playsound minecraft:entity.ghast.hurt hostile @a[distance=..30] ~ ~ ~ 100 0
 tellraw @a[distance=..100] {"translate":"Thrall: You shall have your reward...\"","color":"gold","bold":true}
 fill ~1 ~11 ~1 ~-1 ~9 ~-1 minecraft:obsidian replace minecraft:air
 setblock ~ ~10 ~ spawner{SpawnCount:1,SpawnRange:2,Delay:40,MinSpawnDelay:440,MaxSpawnDelay:441,MaxNearbyEntities:1,RequiredPlayerRange:35,SpawnData:{entity:{id:"minecraft:lightning_bolt",Tags:["bp.entity","bp.varsk_lightning"]}}} replace
-#setblock ~2 ~ ~ minecraft:chest{LootTable:"bracken:entity/boss/solatium_thrall"}
+setblock ~2 ~ ~ minecraft:chest{LootTable:"bracken:entity/boss/solatium_thrall"}
 
 kill @e[distance=..50,tag=bp.thrall.element]
 kill @s

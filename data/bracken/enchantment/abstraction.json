@@ -10,13 +10,13 @@
 			"affected": "victim",
 			"effect": {
 			  "type": "minecraft:run_function",
-			  "function": "bracken:player/item/abstraction"
+			  "function": "bracken:item/enchantment/abstraction"
 			},
 			"requirements": {
 			  "condition": "minecraft:entity_properties",
 			  "entity": "this",
 			  "predicate": {
-				"type": "minecraft:player"
+				"type": "minecraft:creeper"
 			  }
 			}
 		  }
