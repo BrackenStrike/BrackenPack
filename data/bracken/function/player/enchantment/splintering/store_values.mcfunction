@@ -10,9 +10,9 @@ data modify storage bracken:var splinters.potion_contents set value {}
 
 # Splinter count
 ## Splintering II
-execute if data entity @s {weapon:{components:{"minecraft:enchantments":{levels:{"bracken:splintering_alt":2}}}}} run data merge storage bracken:var {splinters:{lvl2:true}}
+execute if data entity @s {weapon:{components:{"minecraft:enchantments":{levels:{"bracken:splintering":2}}}}} run data merge storage bracken:var {splinters:{lvl2:true}}
 ## Splintering III
-execute if data entity @s {weapon:{components:{"minecraft:enchantments":{levels:{"bracken:splintering_alt":3}}}}} run data merge storage bracken:var {splinters:{lvl2:true,lvl3:true}}
+execute if data entity @s {weapon:{components:{"minecraft:enchantments":{levels:{"bracken:splintering":3}}}}} run data merge storage bracken:var {splinters:{lvl2:true,lvl3:true}}
 
 # On fire 
 execute unless data entity @s {Fire:-1s} run data merge storage bracken:var {splinters:{fire:2000}}
