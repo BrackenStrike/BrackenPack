@@ -17,7 +17,7 @@ attribute @s minecraft:generic.scale modifier add bracken:frostkin.scale 0.32 ad
 
 attribute @s minecraft:generic.step_height modifier add bracken:frostkin.step_height 0.5 add_value
 attribute @s minecraft:generic.max_health modifier add bracken:frostkin.max_health 0.2 add_multiplied_base
-attribute @s minecraft:player.sweeping_damage_ratio modifier add bracken:frostkin.sweeping 5.0 add_value
+attribute @s minecraft:player.sweeping_damage_ratio modifier add bracken:frostkin.sweeping 10.0 add_value
 attribute @s minecraft:generic.movement_efficiency modifier add bracken:frostkin.movement_efficiency 1 add_value
 
 effect clear @s minecraft:hunger
