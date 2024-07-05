@@ -3,11 +3,11 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "item",
-			"name": "minecraft:golden_hoe",
+			"name": "minecraft:iron_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Copper Hoe"
+				"name": "Cryolith Sickle"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",
@@ -20,38 +20,42 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "1 Attack Damage",
+					"translate": "11 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "3 Attack Speed",
+					"translate": "1.6 Attack Speed",
 					"color": "dark_green",
 					"italic": false
 				}],
 				"mode": "insert"
 			},{
 				"function": "minecraft:set_custom_model_data",
-				"value": 888501
+				"value": 888521
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:max_damage": 175
+					"minecraft:max_damage": 100
+				}
+			},{
+				"function": "set_enchantments",
+				"enchantments": {
+					
+					"bracken:poisoning_curse": 1,
+					"minecraft:mending": 1
 				}
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.attack_speed",
-					"id": "bracken:copper_hoe",
-					"amount": -0.3,
+					"attribute": "minecraft:generic.attack_damage",
+					"id": "bracken:cryolith_sickle",
+					"amount": 10,
 					"operation": "add_value",
 					"slot": "mainhand"
-				}]
-			},{
-				"function": "minecraft:set_attributes",
-				"modifiers": [{
-					"attribute": "minecraft:generic.attack_damage",
-					"id": "bracken:copper_hoe",
-					"amount": 0,
+				},{
+					"attribute": "minecraft:generic.attack_speed",
+					"id": "bracken:cryolith_sickle",
+					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}]

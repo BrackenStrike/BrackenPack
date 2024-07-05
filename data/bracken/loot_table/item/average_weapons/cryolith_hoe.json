@@ -3,11 +3,11 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "item",
-			"name": "minecraft:golden_hoe",
+			"name": "minecraft:iron_hoe",
 			"functions": [{
 				"function": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Copper Hoe"
+				"name": "Cryolith Hoe"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",
@@ -20,7 +20,7 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "1 Attack Damage",
+					"translate": "3 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -38,20 +38,28 @@
 					"minecraft:max_damage": 175
 				}
 			},{
+				"function": "set_enchantments",
+				"enchantments": {
+					
+					"bracken:poisoning_curse": 1,
+					"minecraft:mending": 1
+				}
+			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.attack_speed",
-					"id": "bracken:copper_hoe",
+					"id": "bracken:cryolith_hoe",
 					"amount": -0.3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}]
-			},{
+			},
+			{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:generic.attack_damage",
-					"id": "bracken:copper_hoe",
-					"amount": 0,
+					"id": "bracken:cryolith_hoe",
+					"amount": 2,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}]

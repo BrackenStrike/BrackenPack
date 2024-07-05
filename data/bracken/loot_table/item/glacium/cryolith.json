@@ -3,15 +3,15 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:pitcher_pod"
+			"name": "minecraft:repeating_command_block"
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Panaspore"
+			"name": "Cryolith Crystal"
 		},{
 			"function": "minecraft:set_custom_model_data",
-			"value": 888502
+			"value": 888501
 		}]
 	}]
 }
