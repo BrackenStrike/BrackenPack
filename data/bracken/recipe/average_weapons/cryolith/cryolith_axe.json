@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:smithing_transform",
 	"template": {
-	  "item": "minecraft:spire_armor_trim_smithing_template"
+	  "item": "minecraft:netherite_upgrade_smithing_template"
 	},
 	"base": {
 	  "item": "minecraft:diamond_axe"
