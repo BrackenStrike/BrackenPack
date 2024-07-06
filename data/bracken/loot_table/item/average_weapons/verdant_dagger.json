@@ -72,7 +72,8 @@
 			},{
 				"function": "minecraft:toggle_tooltips",
 				"toggles": {
-					"attribute_modifiers": false
+					"attribute_modifiers": false,
+					"enchantments": false
 				}
 			},{
 				"function": "set_damage",

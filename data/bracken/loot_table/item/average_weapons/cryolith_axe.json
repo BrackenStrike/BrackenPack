@@ -56,15 +56,17 @@
 				"function": "set_enchantments",
 				"enchantments": {
 					
-					"bracken:poisoning_curse": 1,
-					"minecraft:mending": 1
+					"bracken:freezing_curse": 1,
+					"minecraft:vanishing_curse": 1
 				}
 			},{
 				"function": "minecraft:toggle_tooltips",
 				"toggles": {
-					"attribute_modifiers": false
+					"attribute_modifiers": false,
+					"enchantments": false
 				}
-			},{
+			},
+			{
 				"function": "set_damage",
 				"damage": {
 					"min": 0.48,
