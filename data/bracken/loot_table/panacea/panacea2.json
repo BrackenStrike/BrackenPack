@@ -2,28 +2,13 @@
 	"pools": [{
 		"rolls": 1,
 		"entries": [{
-			"type": "item",
-			"name": "minecraft:leather_leggings",
-			"weight": 1,
-			"functions": [{
-				"function": "minecraft:set_components",
-				"components": {
-					"minecraft:item_name": "{\"text\":\"Vitality Leggings\",\"color\":\"dark_green\",\"bold\":true}",
-					"minecraft:lore": ["{\"text\":\"two of three\",\"color\":\"gold\"}"],
-					"minecraft:dyed_color": 7717417,
-					"minecraft:attribute_modifiers": [{
-						"type": "generic.max_health",
-						"slot": "legs",
-						"id": "legs.max_health",
-						"amount": 5,
-						"operation": "add_value"
-					}]
-				}
-			}]
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/panacea/panaspore",
+			"weight": 10
 		},{
 			"type": "item",
-			"name": "minecraft:rotten_flesh",
-			"weight": 3
+			"name": "minecraft:glistering_melon_slice",
+			"weight": 1
 		}]
 	}]
 }

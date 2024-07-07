@@ -12,11 +12,12 @@
 	"result": {
 		"id": "minecraft:iron_axe",
 		"components": {
-			"minecraft:max_damage": 100,
+			"minecraft:max_damage": 200,
 			"minecraft:item_name": "\"Cryolith Axe\"",
 			"minecraft:enchantments": {
         "minecraft:vanishing_curse": 1,
-        "bracken:freezing_curse": 1
+        "bracken:freezing_curse": 1,
+		"bracken:fragility_curse": 1
       },
 			"minecraft:custom_model_data": 888501,
 			"minecraft:lore": [

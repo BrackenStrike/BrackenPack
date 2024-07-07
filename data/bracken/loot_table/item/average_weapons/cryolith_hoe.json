@@ -35,13 +35,14 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:max_damage": 175
+					"minecraft:max_damage": 200
 				}
 			},{
 				"function": "set_enchantments",
 				"enchantments": {
 					
 					"bracken:freezing_curse": 1,
+					"bracken:fragility_curse": 1,
 					"minecraft:vanishing_curse": 1
 				}
 			},

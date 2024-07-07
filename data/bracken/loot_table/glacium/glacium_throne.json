@@ -98,14 +98,14 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/glacium/viceroys_visor",
+			"value": "bracken:item/average_weapons/cryolith_helmet",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/glacium/frosplakkrt",
+			"value": "bracken:item/average_weapons/cryolith_chestplate",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
