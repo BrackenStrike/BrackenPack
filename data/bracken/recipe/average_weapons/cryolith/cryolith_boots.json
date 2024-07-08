@@ -1,24 +1,26 @@
 {
-	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:netherite_upgrade_smithing_template"
-	},
-	"base": {
-	  "item": "minecraft:diamond_boots"
-	},
-	"addition": {
-	  "item": "minecraft:repeating_command_block"
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"# #",
+		"# #",
+		"   "
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:repeating_command_block"
+		}
 	},
 	"result": {
 		"id": "minecraft:diamond_boots",
 		"components": {
 			"minecraft:max_damage": 200,
 			"minecraft:item_name": "\"Cryolith Boots\"",
-			"minecraft:enchantments": {
+			"minecraft:hide_additional_tooltip":{"minecraft:enchantments": {
         "minecraft:vanishing_curse": 1,
         "bracken:quenching_curse": 1,
 		"bracken:fragility_curse": 1
-      },
+      }},
 			"minecraft:custom_model_data": 888502
 		}
 	}

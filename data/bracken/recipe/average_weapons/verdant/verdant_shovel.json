@@ -2,27 +2,31 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"pattern": [
-		"###",
+		"#%#",
 		"#/#",
-		"###"
+		"#/#"
 	],
 	"key": {
 		"#": {
 			"item": "minecraft:pitcher_pod"
 		},
 		"/": {
-			"item": "minecraft:wooden_shovel"
-		}
+			"item": "minecraft:stick"
+		},
+		"%": {
+			
+			"tag": "minecraft:planks"
+		  }
 	},
 	"result": {
 		"id": "minecraft:wooden_shovel",
 		"components": {
 			"minecraft:max_damage": 175,
 			"minecraft:item_name": "\"Verdant Shovel\"",
-			"minecraft:enchantments": {
+			"minecraft:hide_additional_tooltip":{"minecraft:enchantments": {
         "minecraft:mending": 1,
         "bracken:poisoning_curse": 1
-      },
+      }},
 			"minecraft:custom_model_data": 888501,
 			"minecraft:lore": [
 				"{\"translate\":\"\",\"color\":white,\"italic\":false}",

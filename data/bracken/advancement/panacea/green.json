@@ -61,6 +61,22 @@
                         "entity": "this",
                         "predicate": {
                             "equipment": {
+                                "feet": {
+                                    "items": [
+                                        "minecraft:leather_helmet"
+                                    ],
+                                    "components": {
+                                        "minecraft:custom_model_data": 888502
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
                                 "chest": {
                                     "items": [
                                         "minecraft:leather_chestplate"
