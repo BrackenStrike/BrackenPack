@@ -23,10 +23,10 @@
 		"components": {
 			"minecraft:max_damage": 175,
 			"minecraft:item_name": "\"Verdant Shovel\"",
-			"minecraft:hide_additional_tooltip":{"minecraft:enchantments": {
+			"minecraft:enchantments": {
         "minecraft:mending": 1,
         "bracken:poisoning_curse": 1
-      }},
+    },
 			"minecraft:custom_model_data": 888501,
 			"minecraft:lore": [
 				"{\"translate\":\"\",\"color\":white,\"italic\":false}",

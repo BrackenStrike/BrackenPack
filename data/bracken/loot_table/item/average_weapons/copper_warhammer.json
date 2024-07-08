@@ -48,13 +48,7 @@
 					"id": "bracken:copper_warhammer",
 					"amount": 0.2,
 					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:generic.knockback_resistance",
-					"id": "bracken:copper_warhammer",
-					"amount": 0.2,
-					"operation": "add_value",
-					"slot": "offhand"
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
 					"id": "bracken:copper_warhammer",

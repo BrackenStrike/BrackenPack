@@ -18,6 +18,11 @@
 		"id": "minecraft:wooden_sword",
 		"components": {
 			"minecraft:max_damage": 59,
+			
+			"minecraft:enchantments": {
+        "minecraft:mending": 1,
+        "bracken:poisoning_curse": 1},
+		
 			"minecraft:item_name": "\"Verdant Short Spear\"",
 			"minecraft:custom_model_data": 888531,
 			"minecraft:lore": [

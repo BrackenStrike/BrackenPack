@@ -12,7 +12,7 @@
 		}
 	},
 	"result": {
-		"id": "minecraft:stick",
+		"id": "minecraft:wooden_sword",
 		"components": {
 			"minecraft:max_damage": 59,
 			"minecraft:item_name": "\"Wooden Staff\"",

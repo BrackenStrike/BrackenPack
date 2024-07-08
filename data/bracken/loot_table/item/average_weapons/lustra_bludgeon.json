@@ -44,12 +44,6 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.knockback_resistance",
-					"id": "bracken:lustra_bludgeon",
-					"amount": 0.1,
-					"operation": "add_value",
-					"slot": "mainhand"
-				},{
 					"attribute": "minecraft:generic.attack_speed",
 					"id": "bracken:lustra_bludgeon",
 					"amount": -2.4,
@@ -60,7 +54,7 @@
 					"id": "bracken:lustra_bludgeon",
 					"amount": 0.1,
 					"operation": "add_value",
-					"slot": "offhand"
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
 					"id": "bracken:lustra_bludgeon",

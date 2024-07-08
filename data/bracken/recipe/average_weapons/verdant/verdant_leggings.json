@@ -19,10 +19,10 @@
 		"components": {
 			"minecraft:max_damage": 175,
 			"minecraft:item_name": "\"Verdant Leggings\"",
-			"minecraft:hide_additional_tooltip":{"minecraft:enchantments": {
+			"minecraft:enchantments": {
         "minecraft:mending": 1,
         "bracken:vitality_curse": 1
-      }},
+      },
 			"minecraft:custom_model_data": 888502
 			
 			

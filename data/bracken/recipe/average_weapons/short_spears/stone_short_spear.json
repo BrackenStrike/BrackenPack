@@ -8,7 +8,7 @@
 	],
 	"key": {
 		"/": {
-			"item": "minecraft:wooden_sword"
+			"item": "minecraft:stick"
 		},
 		"#": {
 			"tag": "minecraft:stone_tool_materials"

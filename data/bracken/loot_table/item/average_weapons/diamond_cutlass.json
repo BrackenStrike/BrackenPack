@@ -43,13 +43,7 @@
 					"id": "bracken:diamond_cutlass",
 					"amount": 3,
 					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:generic.armor",
-					"id": "bracken:diamond_cutlass",
-					"amount": 3,
-					"operation": "add_value",
-					"slot": "offhand"
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:generic.attack_speed",
 					"id": "bracken:diamond_cutlass",

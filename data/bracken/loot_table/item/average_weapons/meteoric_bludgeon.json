@@ -48,13 +48,7 @@
 					"id": "bracken:meteoric_bludgeon",
 					"amount": 0.1,
 					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:generic.knockback_resistance",
-					"id": "bracken:meteoric_bludgeon",
-					"amount": 0.1,
-					"operation": "add_value",
-					"slot": "offhand"
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
 					"id": "bracken:meteoric_bludgeon",

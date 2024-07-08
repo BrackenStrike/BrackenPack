@@ -60,13 +60,7 @@
 					"id": "bracken:meteoric_sabre",
 					"amount": 0.025,
 					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:generic.movement_speed",
-					"id": "bracken:meteoric_sabre",
-					"amount": 0.025,
-					"operation": "add_value",
-					"slot": "offhand"
+					"slot": "hand"
 				}]
 			},{
 				"function": "minecraft:toggle_tooltips",

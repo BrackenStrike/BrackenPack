@@ -59,13 +59,7 @@
 					"id": "bracken:verdant_katana",
 					"amount": 0.05,
 					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:generic.movement_speed",
-					"id": "bracken:verdant_katana",
-					"amount": 0.05,
-					"operation": "add_value",
-					"slot": "offhand"
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:generic.attack_speed",
 					"id": "bracken:verdant_katana",
@@ -77,13 +71,7 @@
 					"id": "bracken:verdant_katana",
 					"amount": -0.5,
 					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:generic.jump_strength",
-					"id": "bracken:verdant_katana",
-					"amount": -0.5,
-					"operation": "add_value",
-					"slot": "offhand"
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
 					"id": "bracken:verdant_katana",

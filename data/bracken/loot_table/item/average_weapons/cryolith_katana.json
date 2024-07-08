@@ -61,13 +61,7 @@
 					"id": "bracken:cryolith_katana",
 					"amount": 0.05,
 					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:generic.movement_speed",
-					"id": "bracken:cryolith_katana",
-					"amount": 0.05,
-					"operation": "add_value",
-					"slot": "offhand"
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:generic.attack_speed",
 					"id": "bracken:cryolith_katana",
@@ -79,13 +73,7 @@
 					"id": "bracken:cryolith_katana",
 					"amount": -0.5,
 					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:generic.jump_strength",
-					"id": "bracken:cryolith_katana",
-					"amount": -0.5,
-					"operation": "add_value",
-					"slot": "offhand"
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
 					"id": "bracken:cryolith_katana",

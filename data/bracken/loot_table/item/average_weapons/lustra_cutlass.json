@@ -48,13 +48,7 @@
 					"id": "bracken:lustra_cutlass",
 					"amount": 4,
 					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:generic.armor",
-					"id": "bracken:lustra_cutlass",
-					"amount": 4,
-					"operation": "add_value",
-					"slot": "offhand"
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:generic.attack_speed",
 					"id": "bracken:lustra_cutlass",

@@ -43,13 +43,7 @@
 					"id": "bracken:golden_sabre",
 					"amount": 0.025,
 					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:generic.movement_speed",
-					"id": "bracken:golden_sabre",
-					"amount": 0.025,
-					"operation": "add_value",
-					"slot": "offhand"
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:generic.attack_speed",
 					"id": "bracken:golden_sabre",

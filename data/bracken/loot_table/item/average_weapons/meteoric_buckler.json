@@ -48,13 +48,7 @@
 					"id": "bracken:meteoric_buckler",
 					"amount": 4,
 					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:generic.armor",
-					"id": "bracken:meteoric_buckler",
-					"amount": 4,
-					"operation": "add_value",
-					"slot": "offhand"
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
 					"id": "bracken:meteoric_buckler",

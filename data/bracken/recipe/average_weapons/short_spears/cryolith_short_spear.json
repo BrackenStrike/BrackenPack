@@ -15,15 +15,15 @@
 		}
 	},
 	"result": {
-		"id": "minecraft:diamond_sword",
+		"id": "minecraft:iron_sword",
 		"components": {
 			"minecraft:max_damage": 59,
 			"minecraft:item_name": "\"Cryolith Short Spear\"",
-			"minecraft:hide_additional_tooltip":{"minecraft:enchantments": {
+			"minecraft:enchantments": {
         "minecraft:vanishing_curse": 1,
         "bracken:freezing_curse": 1,
 		"bracken:fragility_curse": 1
-      }},
+      },
 			"minecraft:custom_model_data": 888531,
 			"minecraft:lore": [
 				"{\"translate\":\"\",\"color\":white,\"italic\":false}",

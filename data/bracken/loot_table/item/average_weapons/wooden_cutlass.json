@@ -43,13 +43,7 @@
 					"id": "bracken:wooden_cutlass",
 					"amount": 1,
 					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:generic.armor",
-					"id": "bracken:wooden_cutlass",
-					"amount": 1,
-					"operation": "add_value",
-					"slot": "offhand"
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:generic.attack_speed",
 					"id": "bracken:wooden_cutlass",
