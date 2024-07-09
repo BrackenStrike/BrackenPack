@@ -48,11 +48,11 @@
 				"chance": 0.02
 			}]
 		},{
-			"type": "minecraft:item",
-			"name": "minecraft:diamond",
+			"type": "loot_table",
+			"value": "bracken:item/glacium/cryolith",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.1
+				"chance": 0.02
 			}]
 		},{
 			"type": "minecraft:item",

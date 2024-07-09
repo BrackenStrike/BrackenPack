@@ -45,24 +45,25 @@
 				"function": "set_enchantments",
 				"enchantments": {
 					
-					"bracken:technical/freezing_curse": 1,"bracken:fragility_curse": 1,
+					"bracken:freezing_curse": 1,
+					"bracken:fragility_curse": 1,
 					"minecraft:vanishing_curse": 1
 				}
 			},
 			{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.attack_speed",
-					"id": "bracken:cryolith_buckler",
-					"amount": -2.4,
-					"operation": "add_value",
-					"slot": "mainhand"
-				},{
 					"attribute": "minecraft:generic.armor",
 					"id": "bracken:cryolith_buckler",
 					"amount": 3,
 					"operation": "add_value",
 					"slot": "hand"
+				},{
+					"attribute": "minecraft:generic.attack_speed",
+					"id": "bracken:cryolith_buckler",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:generic.attack_damage",
 					"id": "bracken:cryolith_buckler",

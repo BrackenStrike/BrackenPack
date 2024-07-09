@@ -23,8 +23,8 @@
 			"max": 5
 		},
 		"entries": [{
-			"type": "minecraft:item",
-			"name": "minecraft:diamond"
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/glacium/cryolith"
 		}]
 	},{
 		"rolls": {
