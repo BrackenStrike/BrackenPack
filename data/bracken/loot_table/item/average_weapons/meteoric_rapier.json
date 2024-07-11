@@ -55,7 +55,7 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:max_damage": 375
+					"minecraft:max_damage": 1000
 				}
 			},{
 				"function": "set_damage",

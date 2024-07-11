@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": {
+	  "item": "minecraft:raiser_armor_trim_smithing_template"
+	},
+	"base": {
+		"item": "minecraft:diamond_sword"
+	  },
+	  "addition": {
+		"item": "minecraft:diamond"
+	  },
+	  "result": {
+		  "id": "minecraft:diamond_sword",
+		  "components": {
+			"minecraft:item_name": "\"Diamond Rapier\"",
+			"minecraft:custom_model_data": 888511,
+			"minecraft:lore": [
+				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
+				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
+				"{\"translate\":\" 7 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" 2 Attack Speed\",\"color\":dark_green,\"italic\":false}"
+				
+			],
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:generic.attack_damage",
+					"id": "bracken:diamond_rapier",
+					"amount": 6,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:generic.attack_speed",
+					"id": "bracken:diamond_rapier",
+					"amount": -2,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"show_in_tooltip": false
+			}
+		}
+	}
+}

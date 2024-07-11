@@ -28,6 +28,11 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
+					"minecraft:max_damage": 500
+				}
+			},{
+				"function": "minecraft:set_components",
+				"components": {
 					"minecraft:dyed_color": {
 						"rgb": 505095
 					}
