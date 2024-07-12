@@ -38,7 +38,7 @@
 				{
 					"type": "minecraft:generic.knockback_resistance",
 					"id": "bracken:netherite_warhammer",
-					"amount": 0.2,
+					"amount": 0.25,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],

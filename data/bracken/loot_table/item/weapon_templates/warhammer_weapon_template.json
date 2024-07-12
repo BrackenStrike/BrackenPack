@@ -1,0 +1,17 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:ward_armor_trim_smithing_template"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Warhammer Weapon Template"
+		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888510
+		}]
+	}]
+}

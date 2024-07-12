@@ -13,7 +13,7 @@
 		  "id": "minecraft:stone_sword",
 		  "components": {
 			"minecraft:item_name": "\"Stone Bludgeon\"",
-			"minecraft:custom_model_data": 888518,
+			"minecraft:custom_model_data": 888514,
 			"minecraft:lore": [
 				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
 				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
