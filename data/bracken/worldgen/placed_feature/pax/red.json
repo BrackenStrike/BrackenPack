@@ -1,24 +1,16 @@
 {
-    "feature": "bracken:faewild/candles",
+    "feature": "bracken:pax/red",
     "placement": [
         {
             "type": "count",
-            "count": 1
+            "count": 100
         },
         {
             "type": "minecraft:in_square"
         },
         {
-            "type": "minecraft:height_range",
-            "height": {
-                "min_inclusive": {
-                    "above_bottom": 550
-                },
-                "max_inclusive": {
-                    "below_top": 200
-                },
-                "type": "minecraft:uniform"
-            }
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE"
         },
         {
             "type": "minecraft:biome"
