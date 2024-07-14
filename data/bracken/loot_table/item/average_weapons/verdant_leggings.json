@@ -20,12 +20,6 @@
 					"minecraft:mending": 1
 				}
 			},{
-				"function": "minecraft:toggle_tooltips",
-				"toggles": {
-					
-					"enchantments": false
-				}
-			},{
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:max_damage": 500

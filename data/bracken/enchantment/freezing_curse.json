@@ -1,5 +1,5 @@
 {
-	"description": "Curse of Freezing",
+	"description": {"translate":"Freezing","color":"gray"},
 	"slots": [
 		"mainhand"
 	],

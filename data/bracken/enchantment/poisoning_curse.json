@@ -1,5 +1,5 @@
 {
-	"description": "Curse of Poisoning",
+	"description": {"translate":"Poisoning","color":"gray"},
 	"slots": [
 		"mainhand"
 	],

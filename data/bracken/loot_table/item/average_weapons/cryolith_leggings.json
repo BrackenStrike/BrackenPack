@@ -24,12 +24,6 @@
 					"bracken:quenching_curse": 1,
 					"minecraft:vanishing_curse": 1
 				}
-			},{
-				"function": "minecraft:toggle_tooltips",
-				"toggles": {
-					
-					"enchantments": false
-				}
 			},
 			{
 				"function": "set_damage",

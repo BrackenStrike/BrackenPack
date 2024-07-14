@@ -25,12 +25,6 @@
 					"minecraft:max_damage": 500
 				}
 			},{
-				"function": "minecraft:toggle_tooltips",
-				"toggles": {
-					
-					"enchantments": false
-				}
-			},{
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:dyed_color": {

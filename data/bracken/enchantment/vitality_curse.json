@@ -1,8 +1,6 @@
 {
 	"anvil_cost": 4,
-	"description": {
-		"translate": "Curse of Vitality"
-	},
+	"description": {"translate":"Vitality","color":"gray"},
 	"effects": {
 		"minecraft:attributes": [{
 			"amount": {
