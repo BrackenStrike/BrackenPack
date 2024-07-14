@@ -3,7 +3,7 @@
     "config": {
         "features": [
             {
-                "chance": 0.2,
+                "chance": 0.01,
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
@@ -12,11 +12,11 @@
                                 "type": "minecraft:simple_state_provider",
                                 "state": {
                                     "Properties": {
-                                        "candles": "2",
+                                        "candles": "4",
                                         "lit": "true",
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:red_candle"
+                                    "Name": "minecraft:candle"
                                 }
                             }
                         }
@@ -62,7 +62,7 @@
                 }
             },
             {
-                "chance": 0.5,
+                "chance": 0.01,
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
@@ -75,7 +75,7 @@
                                         "lit": "true",
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:white_candle"
+                                    "Name": "minecraft:candle"
                                 }
                             }
                         }
@@ -117,12 +117,7 @@
                     "to_place": {
                         "type": "minecraft:simple_state_provider",
                         "state": {
-                            "Properties": {
-                                "candles": "4",
-                                "lit": "true",
-                                "waterlogged": "false"
-                            },
-                            "Name": "minecraft:candle"
+                            "Name": "minecraft:poppy"
                         }
                     }
                 }
