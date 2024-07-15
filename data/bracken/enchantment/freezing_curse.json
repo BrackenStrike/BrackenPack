@@ -1,5 +1,5 @@
 {
-	"description": {"translate":"Freezing","color":"gray"},
+	"description": {"translate":"Freezing","color":"blue"},
 	"slots": [
 		"mainhand"
 	],

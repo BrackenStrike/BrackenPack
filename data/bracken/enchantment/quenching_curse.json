@@ -1,8 +1,6 @@
 {
 	"anvil_cost": 2,
-	"description": {
-	  "translate": "Curse of Quenching"
-	},
+	"description": {"translate":"Quenching","color":"blue"},
 	"effects": {
 	  "minecraft:attributes": [
 		{
@@ -24,7 +22,7 @@
 				"predicate": {
 					"tags": [{
 						"expected": true,
-						"id": "minecraft:on_fire"
+						"id": "minecraft:is_fire"
 					},{
 						"expected": false,
 						"id": "minecraft:bypasses_invulnerability"

@@ -70,35 +70,14 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_sickle",
+			"value": "bracken:item/average_weapons/lustra_pearl",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.01
+				"chance": 0.02
 			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/lustra_sabre",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.01
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_greatsword",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.01
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_katana",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.01
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_sword",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.01
@@ -120,13 +99,6 @@
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/lustra_pickaxe",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.01
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_axe",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.01
