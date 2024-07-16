@@ -1,5 +1,5 @@
 {
-    "name": "overworld_breaker_node",
+    "name": "nether_breaker_node",
     "fallback": "minecraft:empty",
     "elements": [
         {

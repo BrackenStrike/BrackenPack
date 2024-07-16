@@ -1,7 +1,7 @@
 {
     "structures": [
         {
-            "structure": "bracken:overworld_breaker",
+            "structure": "bracken:breaker/overworld_breaker",
             "weight": 1
         }
     ],
