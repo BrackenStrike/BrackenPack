@@ -1,11 +1,11 @@
 {
-    "name": "overworld_breaker node",
+    "name": "overworld_breaker_node",
     "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
-                "location": "bracken:overworld_breaker_node",
+                "location": "bracken:breaker/nether_breaker_node",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
