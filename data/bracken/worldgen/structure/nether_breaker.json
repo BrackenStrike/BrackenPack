@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "minecraft:nether_wastes",
+    "spawn_overrides": {},
+    "start_pool": "bracken:breaker/nether_breaker_node",
+    "size": 6,
+    "step": "surface_structures",
+    "start_height": {
+        "absolute": 123
+    },
+    "max_distance_from_center": 128,
+    "use_expansion_hack": false
+}
