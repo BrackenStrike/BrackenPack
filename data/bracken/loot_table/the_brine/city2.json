@@ -70,7 +70,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_pearl",
+			"value": "bracken:item/the_brine/lustra_pearl",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
