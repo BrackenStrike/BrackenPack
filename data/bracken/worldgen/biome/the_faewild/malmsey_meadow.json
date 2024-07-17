@@ -68,12 +68,12 @@
             "bracken:faewild/path"
         ],
         ["minecraft:ore_copper","minecraft:ore_lapis"],
-        [],
+        ["bracken:faewild/candles"],
         [
             "minecraft:flower_plains"
         ],
         [
-            "bracken:faewild/candles"
+            
         ],
         [
             "minecraft:spring_water",

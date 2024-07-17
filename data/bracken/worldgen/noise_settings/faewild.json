@@ -612,7 +612,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:gravel"
+                                    "Name": "minecraft:netherrack"
                                 }
                             }
                         }
