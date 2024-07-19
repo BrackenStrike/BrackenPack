@@ -7,7 +7,7 @@
 	  "item": "minecraft:stone_sword"
 	},
 	"addition": {
-	  "item": "minecraft:command_block"
+	  "item": "minecraft:sheep_spawn_egg"
 	},
 	"result": {
 		"id": "minecraft:stone_sword",

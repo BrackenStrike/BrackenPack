@@ -7,7 +7,7 @@
 		"item": "minecraft:iron_sword"
 	  },
 	  "addition": {
-		"item": "minecraft:repeating_command_block"
+		"item": "minecraft:polar_bear_spawn_egg"
 	  },
 	  "result": {
 		  "id": "minecraft:iron_sword",
