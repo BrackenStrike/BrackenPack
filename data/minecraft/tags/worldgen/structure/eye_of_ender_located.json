@@ -1,7 +1,7 @@
 {
   "values": [
     "minecraft:stronghold",
-    "bracken:sanctum/embassy",
-    "bracken:omnidrome/living_palace"
+    "bracken:sanctum_embassy",
+    "bracken:omnidrome_living_palace"
   ]
 }

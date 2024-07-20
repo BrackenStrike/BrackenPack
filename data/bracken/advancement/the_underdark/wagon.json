@@ -14,7 +14,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "bracken:the_underdark/petrified",
+	"parent": "bracken:the_underdark/petrified_forest",
 	"criteria": {
 		"the_underdark_web1": {
 			"trigger": "minecraft:player_generates_container_loot",

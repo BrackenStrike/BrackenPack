@@ -131,25 +131,25 @@
 	  
 	  "requirements": [
 		[
-		  "bracken:the_underdark/crystal"
+		  "bracken:the_underdark/crystal_caves"
 		],
 		[
-			"bracken:the_underdark/sulfur"
+			"bracken:the_underdark/sulfur_caldera"
 		  ],
 		  [
-			"bracken:the_underdark/diorite"
+			"bracken:the_underdark/diorite_sea"
 		  ],
 		[
-		  "bracken:the_underdark/fungus"
+		  "bracken:the_underdark/ruby_fungi_forest"
 		],
 		[
-		  "bracken:the_underdark/eroded"
+		  "bracken:the_underdark/eroded_basin"
 		],
 		[
-		  "bracken:the_underdark/petrified"
+		  "bracken:the_underdark/petrified_forest"
 		],
 		[
-		  "bracken:the_underdark/gravel"
+		  "bracken:the_underdark/eroded_basin"
 		]
 	  ],
 	  "rewards": {

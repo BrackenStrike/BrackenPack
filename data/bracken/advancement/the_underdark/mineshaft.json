@@ -15,7 +15,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "bracken:the_underdark/gravel",
+	"parent": "bracken:the_underdark/titan_dripstone_cavern",
 	"criteria": {
 		"bracken:the_underdark/mineshaft1": {
 			"trigger": "minecraft:location",
