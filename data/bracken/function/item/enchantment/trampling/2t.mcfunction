@@ -1,0 +1,1 @@
+execute anchored feet as @e[distance=..3,type=!#bracken:untrampleable,predicate=!bracken:vehicle/any] run function bracken:item/enchantment/trampling/as_target

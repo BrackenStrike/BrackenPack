@@ -4,7 +4,7 @@
     "translate": "Antivenom"
   },
   "effects": {
-    
+  
     "minecraft:damage_protection": [
       {
         "effect": {
@@ -54,4 +54,4 @@
   "supported_items": "#minecraft:enchantable/armor",
   "weight": 5
 }
-  
+

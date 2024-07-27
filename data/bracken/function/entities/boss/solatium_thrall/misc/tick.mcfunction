@@ -36,7 +36,7 @@ playsound minecraft:entity.blaze.shoot hostile @a[distance=..5,scores={bp.longti
 #bossbar
 bossbar set bracken:solatium_thrall players @a[distance=..100]
 execute store result score @s bp.thrall.health run data get entity @s Health
-scoreboard players remove @s bp.thrall.health 700 
+scoreboard players remove @s bp.thrall.health 700
 execute store result bossbar bracken:solatium_thrall value run scoreboard players get @s bp.thrall.health
 
 

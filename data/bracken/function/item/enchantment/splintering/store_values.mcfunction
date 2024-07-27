@@ -14,8 +14,8 @@ execute if data entity @s {weapon:{components:{"minecraft:enchantments":{levels:
 ## Splintering III
 execute if data entity @s {weapon:{components:{"minecraft:enchantments":{levels:{"bracken:splintering":3}}}}} run data merge storage bracken:var {splinters:{lvl2:true,lvl3:true}}
 
-# On fire 
+# On fire
 execute unless data entity @s {Fire:-1s} run data merge storage bracken:var {splinters:{fire:2000}}
 
-# Potion effects 
+# Potion effects
 data modify storage bracken:var splinters.potion_contents set from entity @s item.components."minecraft:potion_contents"

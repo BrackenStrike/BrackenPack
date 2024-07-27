@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Continual effects for Swordfall. 
+# Description: Continual effects for Swordfall.
 # Creators: Bracken
 ##########################################################
 

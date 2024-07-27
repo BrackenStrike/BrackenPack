@@ -14,5 +14,5 @@ tag @s remove bp.brine_brewing_active
 # Creator : crimdev
 #######################################
 
-stopsound @s * bracken:brine_waves 
+stopsound @s * bracken:brine_waves
 scoreboard players set @s bp.ambience.brine_beach_cd 0

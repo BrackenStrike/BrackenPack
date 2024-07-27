@@ -3,7 +3,7 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-scoreboard players reset @s OMNI.POWER.adamantine_will 
+scoreboard players reset @s OMNI.POWER.adamantine_will
 scoreboard players reset @s OMNI.POWER.crimson_spark
 scoreboard players reset @s OMNI.POWER.fang_attack
 scoreboard players reset @s OMNI.POWER.fireball
@@ -41,24 +41,24 @@ scoreboard players reset @s OMNI.CLEAR.debris
 scoreboard players reset @s OMNI.CLEAR.material
 
 scoreboard players reset @s OMNI.SUMMON.lightning
-scoreboard players reset @s OMNI.SUMMON.construct 
-scoreboard players reset @s OMNI.SUMMON.theoretical_blaze 
-scoreboard players reset @s OMNI.SUMMON.theoretical_creeper 
-scoreboard players reset @s OMNI.SUMMON.theoretical_mount 
-scoreboard players reset @s OMNI.SUMMON.theoretical_ravager 
-scoreboard players reset @s OMNI.SUMMON.theoretical_tnt 
-scoreboard players reset @s OMNI.SUMMON.theoretical_pirate 
-scoreboard players reset @s OMNI.SUMMON.theoretical_snowman 
-scoreboard players reset @s OMNI.SUMMON.theoretical_warden 
-scoreboard players reset @s OMNI.SUMMON.pulse 
-scoreboard players reset @s OMNI.SUMMON.disruptor_beam 
+scoreboard players reset @s OMNI.SUMMON.construct
+scoreboard players reset @s OMNI.SUMMON.theoretical_blaze
+scoreboard players reset @s OMNI.SUMMON.theoretical_creeper
+scoreboard players reset @s OMNI.SUMMON.theoretical_mount
+scoreboard players reset @s OMNI.SUMMON.theoretical_ravager
+scoreboard players reset @s OMNI.SUMMON.theoretical_tnt
+scoreboard players reset @s OMNI.SUMMON.theoretical_pirate
+scoreboard players reset @s OMNI.SUMMON.theoretical_snowman
+scoreboard players reset @s OMNI.SUMMON.theoretical_warden
+scoreboard players reset @s OMNI.SUMMON.pulse
+scoreboard players reset @s OMNI.SUMMON.disruptor_beam
 
-scoreboard players reset @s OMNI.ENABLE.flight 
-scoreboard players reset @s OMNI.ENABLE.sprint 
-scoreboard players reset @s OMNI.DISABLE.flight 
-scoreboard players reset @s OMNI.DISABLE.sprint 
+scoreboard players reset @s OMNI.ENABLE.flight
+scoreboard players reset @s OMNI.ENABLE.sprint
+scoreboard players reset @s OMNI.DISABLE.flight
+scoreboard players reset @s OMNI.DISABLE.sprint
 
-scoreboard players reset @s OMNI.TELEPORT.to_nearest_nearby_player 
-#scoreboard players reset @s OMNI.TELEPORT.from_nearby_players 
+scoreboard players reset @s OMNI.TELEPORT.to_nearest_nearby_player
+#scoreboard players reset @s OMNI.TELEPORT.from_nearby_players
 
-scoreboard players reset @s OMNI.ASK.help 
+scoreboard players reset @s OMNI.ASK.help

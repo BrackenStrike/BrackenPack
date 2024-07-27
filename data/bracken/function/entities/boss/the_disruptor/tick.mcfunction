@@ -3,7 +3,7 @@
 # Creators: Sulfenir
 ##########################################################
 
-execute if entity @s[tag=bp.the_disruptor.inactive] if entity @p[distance=..5] run function bracken:entities/boss/the_disruptor/state/change/active 
+execute if entity @s[tag=bp.the_disruptor.inactive] if entity @p[distance=..5] run function bracken:entities/boss/the_disruptor/state/change/active
 
 execute if entity @s[tag=bp.the_disruptor.active] unless entity @e[type=minecraft:area_effect_cloud,tag=bp.center,sort=nearest,limit=1,distance=..25] run function bracken:entities/boss/the_disruptor/state/change/return
 

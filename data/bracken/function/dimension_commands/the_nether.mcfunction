@@ -7,7 +7,7 @@
 execute if score @s bp.1_second matches 17 if data storage bracken:config {dimension_travel: true} if predicate bracken:sprint if entity @e[type=minecraft:end_crystal,distance=..2,predicate=bracken:dimensions/the_nether] run function bracken:dimension_crossing/nether_to_omnidrome
 
 # travel underdark
-execute if entity @s[scores={bp.wither_skull=1..8}] run function bracken:player/set_rotation 
+execute if entity @s[scores={bp.wither_skull=1..8}] run function bracken:player/set_rotation
 execute if entity @s[scores={bp.wither_skull=0}] run function bracken:player/get_rotation
 
 # Normal nether height

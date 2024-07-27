@@ -23,10 +23,10 @@ execute if score @s bp.1_second matches 12 if data storage bracken:config {dimen
 ## Scoreboard control
 scoreboard players remove @s[y=450,dy=100,scores={bp.ambience.brine_beach_cd=1..}] bp.ambience.brine_beach_cd 1
 execute unless entity @s[y=450,dy=100] run scoreboard players set @s bp.ambience.brine_beach_cd 1
-execute unless entity @s[y=450,dy=100] run stopsound @s * bracken:brine_waves 
+execute unless entity @s[y=450,dy=100] run stopsound @s * bracken:brine_waves
 
 ## Play sound when loop ends
-execute if score @s bp.ambience.brine_beach_cd matches 0 if entity @s[y=450,dy=100] run playsound bracken:brine_waves ambient @s ~ ~ ~ 70 1.0 1 
+execute if score @s bp.ambience.brine_beach_cd matches 0 if entity @s[y=450,dy=100] run playsound bracken:brine_waves ambient @s ~ ~ ~ 70 1.0 1
 execute if score @s bp.ambience.brine_beach_cd matches 0 run scoreboard players set @s bp.ambience.brine_beach_cd 590
 
 

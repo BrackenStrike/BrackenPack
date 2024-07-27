@@ -15,7 +15,7 @@ scoreboard players enable @s[scores={_OMNI.POWER.kill=1}] OMNI.POWER.kill
 scoreboard players enable @s[scores={_OMNI.POWER.travel_call=1}] OMNI.POWER.travel_call
 scoreboard players enable @s[scores={_OMNI.POWER.mansion=1}] OMNI.POWER.mansion
 scoreboard players enable @s[scores={_OMNI.POWER.mass_heall=1}] OMNI.POWER.mass_heal
-scoreboard players enable @s[scores={_OMNI.POWER.recall=1}] OMNI.POWER.recall 
+scoreboard players enable @s[scores={_OMNI.POWER.recall=1}] OMNI.POWER.recall
 scoreboard players enable @s[scores={_OMNI.POWER.scatterstorm=1}] OMNI.POWER.scatterstorm
 scoreboard players enable @s[scores={_OMNI.POWER.swordfall=1}] OMNI.POWER.swordfall
 scoreboard players enable @s[scores={_OMNI.POWER.tetra_slime=1}] OMNI.POWER.tetra_slime

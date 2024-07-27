@@ -26,7 +26,7 @@ execute if entity @s[scores={bp.slash=2..}] at @p[distance=..15] run tp @e[type=
 
 
 
-execute if entity @s[scores={bp.slash=..2}] at @e[type=minecraft:armor_stand,tag=bp.sword,distance=..20] run fill ~ ~1 ~ ~ ~3 ~ air 
+execute if entity @s[scores={bp.slash=..2}] at @e[type=minecraft:armor_stand,tag=bp.sword,distance=..20] run fill ~ ~1 ~ ~ ~3 ~ air
 execute if entity @s[scores={bp.slash=..0}] at @e[type=minecraft:armor_stand,tag=bp.sword,distance=..20] as @a[distance=..1] run function bracken:entities/boss/unsung/attacks/slash_damage
 
 #kill swords

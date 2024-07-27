@@ -1,0 +1,49 @@
+{
+    "description": "Trampling",
+    "supported_items": "#bracken:horse_armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+        "body"
+    ],
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "bracken:item/enchantment/trampling/2t"
+                },
+                "requirements": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "movement": {
+                                "speed": {
+                                    "min": 5,
+                                    "max": 255
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "periodic_tick": 2
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -36,7 +36,7 @@ scoreboard objectives add bp.obsidian dummy
 scoreboard objectives add bp.world_player_id dummy
 scoreboard objectives add bp.dust_storm dummy
 scoreboard objectives add bp.iron_apple dummy
-
+scoreboard objectives add bp.trample_cd dummy
 
 ##########   ITEMS AND EQUIPMENT   ##########
 scoreboard objectives add bp.creeper dummy

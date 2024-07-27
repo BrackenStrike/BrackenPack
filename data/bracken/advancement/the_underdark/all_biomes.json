@@ -128,7 +128,7 @@
 		  "trigger": "minecraft:location"
 		}
 	  },
-	  
+	
 	  "requirements": [
 		[
 		  "bracken:the_underdark/crystal_caves"

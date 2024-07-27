@@ -2,18 +2,18 @@
 # Description: Config menu for operators.
 # Creators: Grandmaster
 #
-# - Nether Height: Incendium is a popular datapack by Starmute that revamps the Nether. Crucially, it increases the 
-#       height of the nether. Setting this option to \"Incendium\" will change the height when players teleport to and from the Underdark 
+# - Nether Height: Incendium is a popular datapack by Starmute that revamps the Nether. Crucially, it increases the
+#       height of the nether. Setting this option to \"Incendium\" will change the height when players teleport to and from the Underdark
 #       to match the nether height with Incendium.
 #
-# - End Height: Nullscape is a popular datapack by Starmute that revamps the End dimension. Crucially, it increases the height of the End. 
+# - End Height: Nullscape is a popular datapack by Starmute that revamps the End dimension. Crucially, it increases the height of the End.
 #       Setting this option to \"Nullscape\" will change the height when players teleport to and from the Void to match the End height with Nullscape.
 #
 # - Enable/Disable Dimensional Travel: This will affect whether players are allowed to travel between the new dimensions added from the Bracken Pack.
 #
-# - Enable/Disable Teams: This will not affect gameplay. Use of teams may make the Bracken Pack incompatible with other datapacks. 
+# - Enable/Disable Teams: This will not affect gameplay. Use of teams may make the Bracken Pack incompatible with other datapacks.
 #
-# - Enable/Disable Species: This will not force players to leave their current species. If disabled all commands for player species 
+# - Enable/Disable Species: This will not force players to leave their current species. If disabled all commands for player species
 #       will no longer be activated. The Species Beginner Book will no longer be handed out to new players but both the Beginner
 #       Species Book and the Book of Arbitrium will still allow players to change species.
 #

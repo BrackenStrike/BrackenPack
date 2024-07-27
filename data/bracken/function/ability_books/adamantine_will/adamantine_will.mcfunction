@@ -3,7 +3,7 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-playsound bracken:ability_book_tier_4 player @a[distance=..30] ~ ~ ~ 10 
+playsound bracken:ability_book_tier_4 player @a[distance=..30] ~ ~ ~ 10
 damage @s 18 minecraft:out_of_world
 effect give @s minecraft:resistance 15 9 false
 tellraw @s ["",{"selector":"@s"},{"translate":" generated [ADAMANTINE WILL]"}]

@@ -1,5 +1,5 @@
 ########################################
-# Description: Remove backstabbing effects 
+# Description: Remove backstabbing effects
 # Creator : crimdev
 ########################################
 

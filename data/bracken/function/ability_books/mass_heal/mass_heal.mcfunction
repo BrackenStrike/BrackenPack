@@ -4,7 +4,7 @@
 ##########################################################
 
 
-playsound bracken:ability_book_tier_2 player @a[distance=..30] ~ ~ ~ 10 
+playsound bracken:ability_book_tier_2 player @a[distance=..30] ~ ~ ~ 10
 effect give @e[distance=..10] minecraft:instant_health 1 1 true
 effect give @e[distance=..10] minecraft:regeneration 1 1 true
 effect give @e[distance=..10] minecraft:saturation 1 1 true

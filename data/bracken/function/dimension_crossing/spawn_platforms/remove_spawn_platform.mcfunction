@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Function to remove the marker that indicates a spawn platform. 
+# Description: Function to remove the marker that indicates a spawn platform.
 # Creators: Grandmaster
 ##########################################################
 

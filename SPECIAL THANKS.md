@@ -1,6 +1,6 @@
 ###########################################################
 
-Hey! I'm Bracken. 
+Hey! I'm Bracken.
 This pack is made awesome by the following awesome people...
 
 DEVELOPMENT TEAM

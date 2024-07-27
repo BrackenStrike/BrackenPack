@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Will remove all tags related to the portal keys. 
+# Description: Will remove all tags related to the portal keys.
 # Creators: Grandmaster
 ##########################################################
 

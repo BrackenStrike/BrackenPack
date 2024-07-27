@@ -7,6 +7,6 @@
 	"condition": "minecraft:inverted",
 	"term": {
 		"condition": "minecraft:reference",
-		"name": "bracken:in_any_boat"
+		"name": "bracken:vehicle/any_boat"
 	}
 }]

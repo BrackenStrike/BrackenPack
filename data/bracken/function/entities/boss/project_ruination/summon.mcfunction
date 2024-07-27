@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Will summon Project Ruination. Note that an eye of ender must be placed in the portal frame 
+# Description: Will summon Project Ruination. Note that an eye of ender must be placed in the portal frame
 #   to activate the boss.
 # Creators: Bracken
 ##########################################################

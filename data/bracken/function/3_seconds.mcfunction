@@ -27,4 +27,4 @@ execute at @p[predicate=bracken:dimensions/the_brine] as @e[type=drowned,distanc
 schedule function bracken:3_seconds 3s
 
 ##########   VISIT ALL DIMENSIONS
-execute as @a[advancements={bracken:bri=true,bracken:dor=true,bracken:fae=true,bracken:gla=true,bracken:omn=true,bracken:pan=true,bracken:pax=true,bracken:san=true,bracken:und=true,bracken:var=true,bracken:voi=true}] run advancement grant @s only bracken:all_dimensions
+# execute as @a[advancements={bracken:bri=true,bracken:dor=true,bracken:fae=true,bracken:gla=true,bracken:omn=true,bracken:pan=true,bracken:pax=true,bracken:san=true,bracken:und=true,bracken:var=true,bracken:voi=true}] run advancement grant @s only bracken:all_dimensions

@@ -1,7 +1,7 @@
 ##########################################################
 # Description: Checks if the player has Absorption Hearts, then clears effect if they don't.
 # Creators: DrTrog
-########################################################## 
+##########################################################
 
 # NOTE: This function only runs if a player is tagged with the bp.absorption_check tag
 

@@ -1,4 +1,4 @@
- 
+
 
 
 execute if score @s bp.prjct_ruin.cd matches ..0 run scoreboard players set @s bp.prjct_ruin.cd 120

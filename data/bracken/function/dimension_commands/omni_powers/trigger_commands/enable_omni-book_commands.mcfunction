@@ -29,7 +29,7 @@ scoreboard players enable @s[tag=bp.hunter] OMNI.POWER.mass_heal
 scoreboard players enable @s[tag=bp.hunter] OMNI.POWER.kill
 
 scoreboard players enable @s[tag=bp.nereid] OMNI.POWER.recall
-scoreboard players enable @s[tag=bp.nereid] OMNI.POWER.mass_heal 
+scoreboard players enable @s[tag=bp.nereid] OMNI.POWER.mass_heal
 
 scoreboard players enable @s[tag=bp.enderling] OMNI.POWER.scatterstorm
 scoreboard players enable @s[tag=bp.enderling] OMNI.POWER.recall
