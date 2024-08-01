@@ -22,7 +22,7 @@
           "predicate": {
             "equipment": {
               "mainhand": {
-                "predicates": { "minecraft:custom_data": { "{bp:{id:\"cleaver_of_judgement\"}}" }}
+                "predicates": { "minecraft:custom_data": {"bp":{"id":"cleaver_of_judgement"}} }
               }
             }
           }
