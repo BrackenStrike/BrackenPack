@@ -12,3 +12,4 @@ effect give @s minecraft:darkness 8 2 true
 execute if score @s bp.dust_storm matches ..0 run function bracken:dimension_commands/sanctum_dust_storm/loop
 scoreboard players remove @s bp.dust_storm 1
 
+advancement grant @s only bracken:sanctum/rain

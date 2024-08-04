@@ -13,5 +13,5 @@ execute if entity @p[distance=0.5..6] run tellraw @a ["",{"selector":"@s"},{"tex
 
 item replace entity @s[predicate=bracken:item/spite_offhand,predicate=!bracken:item/spite_mainhand] weapon.offhand with air
 item replace entity @s[predicate=bracken:item/spite_mainhand] weapon.mainhand with air
-
+advancement grant @p[nbt={Health:0f}] only bracken:glacium/spite
 particle minecraft:damage_indicator ~ ~1 ~ 1 1 1 0 100

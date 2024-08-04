@@ -14,6 +14,6 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/m
 
 #VOID TP
 execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel: true} if entity @s[y=-35,dy=-300] in bracken:void run tp @s ~ 240 ~
-
+execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel: true} if entity @s[y=-35,dy=-300] run advancement grant @s only bracken:dormis/void
 #return
 return 1

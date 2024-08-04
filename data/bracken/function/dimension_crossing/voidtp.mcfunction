@@ -32,3 +32,5 @@ execute if score @s bp.voidtp matches 11 in bracken:varskspace run tp @s ~ 160 ~
 execute if score @s bp.voidtp matches 12 in minecraft:overworld run tp @s ~ 70 ~
 
 execute if score @s bp.voidtp matches 13 in minecraft:the_nether run tp @s ~ 70 ~
+
+advancement grant @s only bracken:void/random

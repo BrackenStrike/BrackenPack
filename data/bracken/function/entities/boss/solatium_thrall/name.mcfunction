@@ -3,7 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-
+advancement grant @a[distance=..100] only bracken:dormis/spare
 function bracken:ability_books/worm_toothed_burrower/worm_toothed_burrower
 
 tellraw @a[distance=..20] {"translate":"Thrall: My true name... Thank you.\"","color":"gold","bold":true}
