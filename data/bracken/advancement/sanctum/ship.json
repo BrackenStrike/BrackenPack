@@ -1,0 +1,48 @@
+{
+    "parent": "bracken:sanctum/voidship",
+    "display": {
+        "title": {
+            "translate": "Anomalocarriage"
+        },
+        "description": {
+            "translate": "Find a voidship mini hanger",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:redstone_lamp",
+            "components": {
+              "minecraft:block_state": {
+                "lit": "true"
+              }
+            }
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:sanctum/ship1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:sanctum",
+                                "structures": "bracken:sanctum_mini_hanger"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:sanctum/ship1"
+        ]
+    ]
+}

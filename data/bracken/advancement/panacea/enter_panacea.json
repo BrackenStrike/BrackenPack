@@ -8,9 +8,9 @@
             "color": "green"
         },
         "icon": {
-            "id": "minecraft:carrot_on_a_stick",
+            "id": "minecraft:wooden_sword",
             "components": {
-                "minecraft:custom_model_data": 888520
+                "minecraft:custom_model_data": 888526
             }
         },
         "frame": "task",

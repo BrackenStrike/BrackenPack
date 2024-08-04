@@ -1,0 +1,43 @@
+{
+    "parent": "bracken:dormis/white",
+    "display": {
+        "title": {
+            "translate": "Translate the Slate"
+        },
+        "description": {
+            "translate": "Unearth a giant slate",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:magma_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:dormis/slate1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:dormis",
+                                "structures": "bracken:dormis_slate"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:dormis/slate1"
+        ]
+    ]
+}

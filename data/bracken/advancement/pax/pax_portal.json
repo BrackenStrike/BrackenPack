@@ -2,7 +2,7 @@
     "parent": "bracken:pax/cloud_biome",
     "display": {
         "title": {
-            "translate": "Seperate Ways"
+            "translate": "Separate Ways"
         },
         "description": {
             "translate": "Find the Pax gateway",
@@ -25,7 +25,7 @@
             "conditions": {
                 "player": {
                     "location": {
-                        "structures": "bracken:pax_arch"
+                        "structures": "bracken:pax_gateway"
                     }
                 }
             }

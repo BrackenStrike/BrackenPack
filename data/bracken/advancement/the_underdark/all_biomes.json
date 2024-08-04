@@ -1,10 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"id": "minecraft:netherite_boots",
-			"components": {
-				"minecraft:enchantment_glint_override": true
-			}
+			"id": "minecraft:lantern"
 		},
 		"title": "Expert Spelunker",
 		"description": "Visit all Underdark biomes",
@@ -128,7 +125,7 @@
 		  "trigger": "minecraft:location"
 		}
 	  },
-	
+	  
 	  "requirements": [
 		[
 		  "bracken:the_underdark/crystal_caves"

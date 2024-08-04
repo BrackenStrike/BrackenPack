@@ -1,18 +1,15 @@
 {
-    "parent": "bracken:panacea/spore",
+    "parent": "bracken:dormis/yellow",
     "display": {
         "title": {
-            "translate": "Very Crafty!"
+            "translate": "An Awful Lot of an Alloted Lot"
         },
         "description": {
-            "translate": "Use a chlorocrafter",
+            "translate": "Find the Thrall's courtyard",
             "color": "green"
         },
         "icon": {
-            "id": "minecraft:crafting_table",
-            "components": {
-                "minecraft:enchantment_glint_override": true
-            }
+            "id": "minecraft:smooth_red_sandstone"
         },
         "frame": "task",
         "show_toast": true,
@@ -20,18 +17,17 @@
         "hidden": false
     },
     "criteria": {
-        "bracken:panacea/crafter1": {
-            "trigger": "minecraft:player_interacted_with_entity",
+        "bracken:dormis/courtyard1": {
+            "trigger": "minecraft:location",
             "conditions": {
-                "entity": [
+                "player": [
                     {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "type": "minecraft:villager",
-                            "nbt": "{Tags:[\"bp.table\"]}",
                             "location": {
-                                "dimension": "bracken:panacea"
+                                "dimension": "bracken:dormis",
+                                "structures": "bracken:dormis_thrall_courtyard"
                             }
                         }
                     }
@@ -41,7 +37,7 @@
     },
     "requirements": [
         [
-            "bracken:panacea/crafter1"
+            "bracken:dormis/courtyard1"
         ]
     ]
 }

@@ -1,0 +1,27 @@
+{
+	"display": {
+		"title": {
+			"translate": "Void"
+		},
+		"description": {
+			"translate": "The Space Between Spaces",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:black_concrete"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true,
+		"background": "bracken:textures/gui/advancements/backgrounds/void.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "bracken:void"
+			}
+		}
+	}
+}

@@ -1,0 +1,137 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:chainmail_boots"
+		},
+		"title": "Prison Tour",
+		"description": "Visit all Dormis biomes",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "bracken:dormis/enter_dormis",
+	"criteria": {
+		"bracken:dormis/bezerium": {
+		  "conditions": {
+			"player": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "location": {
+					"biomes": "bracken:dormis/bezerium"
+				  }
+				}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:location"
+		},
+		"bracken:dormis/golanium": {
+		  "conditions": {
+			"player": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "location": {
+					"biomes": "bracken:dormis/golanium"
+				  }
+				}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:location"
+		},
+		"bracken:dormis/hebronium": {
+		  "conditions": {
+			"player": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "location": {
+					"biomes": "bracken:dormis/hebronium"
+				  }
+				}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:location"
+		},
+		"bracken:dormis/kedeshium": {
+		  "conditions": {
+			"player": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "location": {
+					"biomes": "bracken:dormis/kedeshium"
+				  }
+				}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:location"
+		},
+		"bracken:dormis/ramothium": {
+		  "conditions": {
+			"player": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "location": {
+					"biomes": "bracken:dormis/ramothium"
+				  }
+				}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:location"
+		},
+		"bracken:dormis/shechemium": {
+		  "conditions": {
+			"player": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "location": {
+					"biomes": "bracken:dormis/shechemium"
+				  }
+				}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:location"
+		} 
+	  },
+	  
+	  "requirements": [
+		[
+		  "bracken:dormis/bezerium"
+		],
+		[
+			"bracken:dormis/golanium"
+		  ],
+		  [
+			"bracken:dormis/hebronium"
+		  ],
+		[
+		  "bracken:dormis/kedeshium"
+		],
+		[
+		  "bracken:dormis/ramothium"
+		],
+		[
+		  "bracken:dormis/shechemium"
+		]
+	  ],
+	  "rewards": {
+		"experience": 600
+	  },
+	  "sends_telemetry_event": true
+	}

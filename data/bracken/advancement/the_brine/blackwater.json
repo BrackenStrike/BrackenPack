@@ -1,5 +1,5 @@
 {
-	"parent": "bracken:the_brine/enter_the_brine",
+	"parent": "bracken:the_brine/indigo",
 	"display": {
 		"title": {
 			"translate": "Advanced Darkness"

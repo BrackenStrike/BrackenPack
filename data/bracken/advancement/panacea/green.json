@@ -1,5 +1,5 @@
 {
-    "parent": "bracken:panacea/crafter",
+    "parent": "bracken:panacea/helmet",
     "display": {
         "title": {
             "translate": "Symbiosis"

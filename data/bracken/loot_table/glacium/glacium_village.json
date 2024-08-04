@@ -28,28 +28,28 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/diamond_greatsword",
+			"value": "bracken:item/average_weapons/cryolith_greatsword",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.04
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/diamond_sabre",
+			"value": "bracken:item/average_weapons/cryolith_sabre",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.04
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/diamond_bludgeon",
+			"value": "bracken:item/average_weapons/cryolith_bludgeon",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.04
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/diamond_katana",
+			"value": "bracken:item/average_weapons/cryolith_katana",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.04

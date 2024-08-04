@@ -24,5 +24,7 @@
             "trigger": "minecraft:changed_dimension",
             "conditions": { "to": "bracken:the_faewild" }
         }
-    }
+    },"rewards": {
+		"experience": 2
+	  }
 }

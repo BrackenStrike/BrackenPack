@@ -27,5 +27,7 @@
         "discovered": {
             "trigger": "minecraft:impossible"
         }
-    }
+    },"rewards": {
+		"experience": 2
+	  }
 }

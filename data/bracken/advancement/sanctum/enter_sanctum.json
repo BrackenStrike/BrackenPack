@@ -8,10 +8,9 @@
 			"color": "green"
 		},
 		"icon": {
-			"id": "minecraft:leather_chestplate",
+			"id": "minecraft:netherite_sword",
 			"components": {
-				"minecraft:enchantment_glint_override": true,
-				"minecraft:custom_model_data": 888503
+				"minecraft:custom_model_data": 888519
 			}
 		},
 		"frame": "task",

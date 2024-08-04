@@ -1,0 +1,160 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond_boots",
+			"components": {
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:custom_model_data": 888502
+			}
+		},
+		"title": "Unbreakable Expeditionist",
+		"description": "Visit all Glacium biomes",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "bracken:glacium/enter_glacium",
+	"criteria": {
+		"bracken:glacium/arctic_knolls": {
+		  "conditions": {
+			"player": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "location": {
+					"biomes": "bracken:glacium/arctic_knolls"
+				  }
+				}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:location"
+		},
+		"bracken:glacium/boreal_frontier": {
+		  "conditions": {
+			"player": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "location": {
+					"biomes": "bracken:glacium/boreal_frontier"
+				  }
+				}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:location"
+		},
+		"bracken:glacium/destitute_garrison": {
+		  "conditions": {
+			"player": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "location": {
+					"biomes": "bracken:glacium/destitute_garrison"
+				  }
+				}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:location"
+		},
+		"bracken:glacium/fractured_wastes": {
+		  "conditions": {
+			"player": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "location": {
+					"biomes": "bracken:glacium/fractured_wastes"
+				  }
+				}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:location"
+		},
+		"bracken:glacium/gathheim": {
+		  "conditions": {
+			"player": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "location": {
+					"biomes": "bracken:glacium/gathheim"
+				  }
+				}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:location"
+		},
+		"bracken:glacium/glacial_mass": {
+		  "conditions": {
+			"player": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "location": {
+					"biomes": "bracken:glacium/glacial_mass"
+				  }
+				}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:location"
+		},
+		"bracken:glacium/invasive_forest": {
+		  "conditions": {
+			"player": [
+			  {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+				  "location": {
+					"biomes": "bracken:glacium/invasive_forest"
+				  }
+				}
+			  }
+			]
+		  },
+		  "trigger": "minecraft:location"
+		}
+	  },
+	  
+	  "requirements": [
+		[
+		  "bracken:glacium/arctic_knolls"
+		],
+		[
+			"bracken:glacium/boreal_frontier"
+		  ],
+		  [
+			"bracken:glacium/destitute_garrison"
+		  ],
+		[
+		  "bracken:glacium/fractured_wastes"
+		],
+		[
+		  "bracken:glacium/gathheim"
+		],
+		[
+		  "bracken:glacium/glacial_mass"
+		],
+		[
+		  "bracken:glacium/invasive_forest"
+		]
+	  ],
+	  "rewards": {
+		"experience": 700
+	  },
+	  "sends_telemetry_event": true
+	}

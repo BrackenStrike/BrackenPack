@@ -1,0 +1,53 @@
+{
+    "parent": "bracken:sanctum/ship",
+    "display": {
+        "title": {
+            "translate": "I'm Vengeance"
+        },
+        "description": {
+            "translate": "Obtain the Nightfall elytra",
+            "color": "green"
+        },
+        "icon": {
+			"id": "minecraft:elytra",
+			"components": {
+				"minecraft:custom_model_data": 888502
+			}
+		},
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:sanctum/elytra1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "bracken:sanctum"
+                            }
+                        }
+                    }
+                ],
+                "item": {
+                    "items": [
+                        "minecraft:elytra"
+                    ],
+                    "components": {
+                        "minecraft:custom_model_data": 888502
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:sanctum/elytra1"
+        ]
+    ]
+}

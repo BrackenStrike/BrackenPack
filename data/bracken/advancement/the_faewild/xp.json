@@ -41,7 +41,9 @@
                 ]
             }
         }
-    },
+    },"rewards": {
+		"experience": 4
+	  },
     "requirements": [
         [
             "bracken:panacea/xp1"

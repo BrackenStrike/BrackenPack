@@ -57,7 +57,9 @@
                 }
             }
         }
-    },
+    },"rewards": {
+		"experience": 2
+	  },
     "requirements": [
         [
             "bracken:the_faewild/slay1"

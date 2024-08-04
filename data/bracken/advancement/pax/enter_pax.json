@@ -8,7 +8,10 @@
             "color": "green"
         },
         "icon": {
-            "id": "minecraft:golden_apple"
+            "id": "minecraft:netherite_sword",
+            "components": {
+                "minecraft:custom_model_data": 888501
+            }
         },
         "frame": "task",
         "show_toast": false,

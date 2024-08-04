@@ -8,10 +8,10 @@
 			"color": "green"
 		},
 		"icon": {
-			"id": "minecraft:netherite_pickaxe",
+			"id": "minecraft:apple",
 			"components": {
-				"minecraft:enchantment_glint_override": true,
-				"minecraft:custom_model_data": 888501
+				
+				"minecraft:custom_model_data": 888517
 			}
 		},
 		"frame": "task",

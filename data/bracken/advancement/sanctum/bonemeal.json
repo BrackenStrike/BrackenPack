@@ -1,0 +1,43 @@
+{
+    "parent": "bracken:sanctum/enter_sanctum",
+    "display": {
+        "title": {
+            "translate": "Environmentalist"
+        },
+        "description": {
+            "translate": "Use bone meal in Sanctum",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:moss_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:sanctum/bonemeal1": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "bracken:sanctum"
+						}
+					}
+				}],
+                "item": {
+                    "items": "minecraft:bone_meal"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:sanctum/bonemeal1"
+        ]
+    ]
+}

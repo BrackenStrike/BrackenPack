@@ -9,7 +9,11 @@
 			"color": "green"
 		},
 		"icon": {
-			"id": "minecraft:wither_skeleton_skull"
+			"id": "minecraft:leather_chestplate",
+			"components": {
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:custom_model_data": 888503
+			}
 		},
 		"frame": "challenge",
 		"show_toast": true,

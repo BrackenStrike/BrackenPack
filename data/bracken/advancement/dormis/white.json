@@ -1,0 +1,31 @@
+{
+    "parent": "bracken:dormis/enter_dormis",
+    "display": {
+        "title": {
+            "translate": "Deep Wisdom"
+        },
+        "description": {
+            "translate": "Enter the ramothium biome",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:diorite"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "bracken:dormis/ramothium"
+                    }
+                }
+            }
+        }
+    }
+}

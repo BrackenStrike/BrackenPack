@@ -1,0 +1,31 @@
+{
+    "parent": "bracken:dormis/enter_dormis",
+    "display": {
+        "title": {
+            "translate": "Flare Warning"
+        },
+        "description": {
+            "translate": "Enter the bezerium biome",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:yellow_concrete_powder"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biomes": "bracken:dormis/bezerium"
+                    }
+                }
+            }
+        }
+    }
+}
