@@ -12,7 +12,7 @@
 		},{
 			"function": "minecraft:set_lore",
 			"lore": [{
-				"translate": "consumes 1 level",
+				"translate": "consumes 5 levels",
 				"color": "gray",
 				"italic": false
 			}],
