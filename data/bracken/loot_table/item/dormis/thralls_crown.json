@@ -11,7 +11,8 @@
 					"minecraft:damage": 0.1,
 					"minecraft:enchantments": {
 						"minecraft:projectile_protection": 50,
-						"minecraft:binding_curse": 1
+						"minecraft:binding_curse": 1,
+						"bracken:searing_surface":5
 					},
 					"minecraft:item_name": "{\"text\":\"Thrall's Crown\",\"color\":\"gold\",\"bold\":true}",
 					"minecraft:lore": [

@@ -51,6 +51,9 @@
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {
+					"minecraft:enchantments": {
+						"bracken:searing_surface":3
+					},
 					"minecraft:custom_data": {
 						"tags": [
 							"bp.fire_immune"
