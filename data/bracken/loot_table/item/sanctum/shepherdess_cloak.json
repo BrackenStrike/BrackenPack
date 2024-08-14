@@ -22,18 +22,10 @@
 				"function": "minecraft:set_custom_model_data",
 				"value": 888503
 			},{
-				"function": "minecraft:set_attributes",
-				"modifiers": [{
-					"attribute": "minecraft:generic.max_health",
-					"id": "chest.max_health",
-					"amount": -2,
-					"operation": "add_value",
-					"slot": "chest"
-				}]
-			},{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"minecraft:thorns": 40
+					"minecraft:thorns": 40,
+					"bracken:maiming_curse": 1
 				}
 			},{
 				"function": "minecraft:set_components",

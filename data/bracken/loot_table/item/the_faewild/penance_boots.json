@@ -12,7 +12,8 @@
 						"minecraft:thorns": 5,
 						"minecraft:binding_curse": 1,
 						"minecraft:unbreaking": 3,
-						"minecraft:mending": 1
+						"minecraft:mending": 1,
+						"bracken:pushback": 2
 					},
 					"minecraft:custom_model_data": 888501,
 					"minecraft:trim": {

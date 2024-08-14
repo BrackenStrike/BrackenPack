@@ -10,7 +10,9 @@
 					"minecraft:enchantments": {
 						"minecraft:smite": 7,
 						"minecraft:knockback": 3,
-						"minecraft:sweeping_edge": 7
+						"minecraft:sweeping_edge": 3,
+						"bracken:spectrality":1,
+						"bracken:guarding":5
 					},
 					"minecraft:attribute_modifiers": [{
 						"type": "generic.movement_speed",
