@@ -11,17 +11,18 @@
 			"name": "Brine Rod"
 		},
 		{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888501
+		},
+		{
 			"function": "minecraft:set_components",
 			"components": {
 				
 				
 				"minecraft:entity_data": {
-					"id": "minecraft:player"}}},
+					"id": "minecraft:player"}}}
 					
 					
-					{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888501
-		}]
+					]
 	}]
 }

@@ -1,20 +1,22 @@
 {
     "type": "minecraft:crafting_shaped",
-    "category": "equipment",
+	"category": "equipment",
     "pattern": [
         " $$",
         " #$",
         "   "
     ],
     "key": {
-        "#": {
-            "tag": "minecraft:allay_spawn_egg"
-        },
         "$": {
             "item": "minecraft:vex_spawn_egg"
+        },
+        "#": {
+            "item": "minecraft:allay_spawn_egg"
         }
     },
     "result": {
-		"id": "minecraft:trident"
-	}
+        "id": "minecraft:trident",
+        "count": 1
+    }
 }
+
