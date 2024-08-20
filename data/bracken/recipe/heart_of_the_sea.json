@@ -1,19 +1,16 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#P#",
-        "PNP",
-        "#P#"
+        "###",
+        "#N#",
+        "###"
     ],
     "key": {
         "#": {
             "item": "minecraft:lapis_lazuli"
         },
-        "P": {
-            "item": "minecraft:prismarine_shard"
-        },
         "N": {
-            "item": "minecraft:nether_star"
+            "item": "minecraft:sheep_spawn_egg"
         }
     },
     "result": {
