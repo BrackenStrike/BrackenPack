@@ -1,0 +1,29 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:goat_horn"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Bagpipe"
+		},{
+			"function": "minecraft:set_lore",
+			"entity": "this",
+			"lore": [{
+				"text": "Placeholder",
+				"color": "gray",
+				"italic": false
+			}],
+			"mode": "insert"
+		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888502
+		},{
+			"function": "minecraft:set_custom_data",
+			"tag": "{instrument:\"minecraft:ponder_goat_horn\",bp:{id:\"bagpipe\"}}"
+		}]
+	}]
+}
