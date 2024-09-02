@@ -11,4 +11,4 @@ tp @e[type=skeleton,distance=..200,sort=nearest,limit=1] ~ -512 ~
 
 data merge entity @e[type=pillager,distance=..200,limit=1,tag=!lost_miner,sort=nearest] {CanPickUpLoot:1b,Tags:[lost_miner],CustomName:'{"translate":"Lost Miner"}',HandItems:[{id:"minecraft:iron_pickaxe",Count:1b},{id:"minecraft:diamond",Count:1b,components:{"minecraft:custom_name":'{"translate":"Thx Aza"}'}}],HandDropChances:[0.085F,0.100F]}
 
-data merge entity @e[type=bat,distance=..200,limit=1,tag=!bp.giant_bat,sort=nearest] {NoAI:1b,Tags:[bp.gaint_bat],attributes:[{id:"minecraft:generic.scale",base:4}]}
+data merge entity @e[type=bat,distance=..200,limit=1,tag=!bp.giant_bat,sort=nearest] {NoAI:0b,Tags:[bp.gaint_bat],attributes:[{id:"minecraft:generic.scale",base:4}]}
