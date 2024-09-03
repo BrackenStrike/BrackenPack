@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"category": "equipment",
+    "pattern": [
+        " $ ",
+        " D ",
+        " # "
+    ],
+    "key": {
+        "$": {
+            "item": "minecraft:drowned_spawn_egg"
+        },
+        "D": {
+            "item": "minecraft:honeycomb"
+        },
+        "#": {
+            "item": "minecraft:ominous_bottle"
+        }
+    },
+    "result": {
+        "id": "minecraft:ominous_bottle",
+        "components": {
+            "minecraft:item_name": "\"Brine Honey Beverage\"",
+            "minecraft:custom_model_data": 888505,
+            "minecraft:custom_data": {
+                "nbt": "{bp:{id:\"beverage_honey\"}}"
+            }
+        }
+    }
+}

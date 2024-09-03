@@ -26,6 +26,14 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.03
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/potions/beverage_apple",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:cooked_cod",

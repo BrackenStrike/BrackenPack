@@ -20,6 +20,13 @@
 				"chance": 0.05
 			}]
 		},{
+			"type": "loot_table",
+			"value": "bracken:item/potions/beverage_kelp",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.4
+			}]
+		},{
 			"type": "minecraft:item",
 			"name": "minecraft:glistering_melon_slice",
 			"conditions": [{

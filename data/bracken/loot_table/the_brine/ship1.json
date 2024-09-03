@@ -26,6 +26,14 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.4
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/potions/beverage_sugar_cane",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.9
+			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:mushroom_stew",
