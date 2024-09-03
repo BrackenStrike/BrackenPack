@@ -11,7 +11,7 @@
             "item": "minecraft:drowned_spawn_egg"
         },
         "D": {
-            "item": "minecraft:chorus_fuit"
+            "item": "minecraft:chorus_fruit"
         },
         "#": {
             "item": "minecraft:ominous_bottle"
@@ -20,7 +20,7 @@
     "result": {
         "id": "minecraft:ominous_bottle",
         "components": {
-            "minecraft:item_name": "\"Brine Chorus Fruit Beverage\"",
+            "minecraft:item_name": "\"Homemade Chorus Fruit Beverage\"",
             "minecraft:custom_model_data": 888503,
             "minecraft:custom_data": {
                 "nbt": "{bp:{id:\"beverage_chorus_fruit\"}}"

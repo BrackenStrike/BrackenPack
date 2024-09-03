@@ -20,7 +20,7 @@
     "result": {
         "id": "minecraft:ominous_bottle",
         "components": {
-            "minecraft:item_name": "\"Brine Sugar Cane Beverage\"",
+            "minecraft:item_name": "\"Homemade Sugar Cane Beverage\"",
             "minecraft:custom_model_data": 888510,
             "minecraft:custom_data": {
                 "nbt": "{bp:{id:\"beverage_sugar_cane\"}}"

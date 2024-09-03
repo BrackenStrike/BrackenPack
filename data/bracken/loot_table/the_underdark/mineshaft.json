@@ -39,7 +39,7 @@
 			"value": "bracken:item/potions/beverage_glow_berries",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.05
 			}]
 		},{
 			"type": "minecraft:item",

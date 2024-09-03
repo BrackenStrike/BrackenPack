@@ -20,7 +20,7 @@
     "result": {
         "id": "minecraft:ominous_bottle",
         "components": {
-            "minecraft:item_name": "\"Brine Beetroot Beverage\"",
+            "minecraft:item_name": "\"Homemade Beetroot Beverage\"",
             "minecraft:custom_model_data": 888502,
             "minecraft:custom_data": {
                 "nbt": "{bp:{id:\"beverage_beetroot\"}}"

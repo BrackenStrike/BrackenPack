@@ -28,7 +28,7 @@
 			"value": "bracken:item/potions/beverage_sweet_berries",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",

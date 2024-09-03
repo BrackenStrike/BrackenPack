@@ -32,7 +32,7 @@
 			"value": "bracken:item/potions/beverage_sugar_cane",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.9
+				"chance": 0.6
 			}]
 		},{
 			"type": "minecraft:item",

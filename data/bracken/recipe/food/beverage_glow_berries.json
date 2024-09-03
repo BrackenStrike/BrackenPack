@@ -20,7 +20,7 @@
     "result": {
         "id": "minecraft:ominous_bottle",
         "components": {
-            "minecraft:item_name": "\"Brine Glow Berry Beverage\"",
+            "minecraft:item_name": "\"Homemade Glow Berry Beverage\"",
             "minecraft:custom_model_data": 888504,
             "minecraft:custom_data": {
                 "nbt": "{bp:{id:\"beverage_glow_berries\"}}"
