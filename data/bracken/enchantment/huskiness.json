@@ -1,0 +1,35 @@
+{
+	"description": "Huskiness",
+	"supported_items": "minecraft:wolf_armor",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"body"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			
+			{
+				"id": "bracken.wolf_huskiness.health",
+				"attribute": "minecraft:generic.max_health",
+				"amount": 10,
+				"operation": "add_value"
+			},
+			{
+				"id": "bracken.wolf_huskiness.scale",
+				"attribute": "minecraft:generic.scale",
+				"amount": 0.2,
+				"operation": "add_multiplied_base"
+			}
+		]
+	}
+}

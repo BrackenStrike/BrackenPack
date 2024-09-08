@@ -55,6 +55,13 @@
 				"chance": 0.1
 			}]
 		},{
+			"type": "loot_table",
+			"value": "bracken:item/potions/beverage_chorus_fruit",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},{
 			"type": "minecraft:item",
 			"name": "minecraft:raiser_armor_trim_smithing_template",
 			"functions": [{

@@ -49,6 +49,13 @@
 				"chance": 0.5
 			}]
 		},{
+			"type": "loot_table",
+			"value": "bracken:item/potions/beverage_chorus_fruit",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
 			"type": "minecraft:item",
 			"name": "minecraft:rotten_flesh",
 			"conditions": [{

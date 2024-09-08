@@ -1,0 +1,29 @@
+{
+	"description": "Pugnacity",
+	"supported_items": "minecraft:wolf_armor",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"body"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			
+			{
+				"id": "bracken.wolf_pugnacity.damage",
+				"attribute": "minecraft:generic.attack_damage",
+				"amount": 4,
+				"operation": "add_value"
+			}
+		]
+	}
+}

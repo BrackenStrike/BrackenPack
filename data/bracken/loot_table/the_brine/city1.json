@@ -26,7 +26,16 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
 			}]
-		},{
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/the_brine/brine_rod",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},
+		{
 			"type": "loot_table",
 			"value": "bracken:item/the_brine/nautilus_chamber",
 			"conditions": [{

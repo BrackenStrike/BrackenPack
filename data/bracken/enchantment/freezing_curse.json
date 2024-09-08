@@ -17,8 +17,16 @@
 				  "min_duration": 5,
 				  "max_duration": 10,
 				  "min_amplifier": 0,
-				  "max_amplifier": 1
-				}
+				  "max_amplifier": 2
+				},{
+					"type": "minecraft:replace_block",
+					"block_state": {
+					  "type": "minecraft:simple_state_provider",
+					  "state": {
+						"Name": "minecraft:powder_snow"
+					  }
+					}
+				  }
 			  ]
 			}
 		  }

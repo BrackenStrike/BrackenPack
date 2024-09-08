@@ -2,7 +2,7 @@
     "parent": "bracken:sanctum/enter_sanctum",
     "display": {
         "title": {
-            "translate": "Environmentalist"
+            "translate": "Nature is Healing"
         },
         "description": {
             "translate": "Use bone meal in Sanctum",
