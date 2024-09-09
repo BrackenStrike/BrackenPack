@@ -1,0 +1,34 @@
+{
+	"anvil_cost": 1,
+	"description": {
+		"translate": "Ferocity"
+	},
+	"effects": {
+		"minecraft:attributes": [{
+			"amount": {
+				"type": "minecraft:linear",
+				"base": 0.1,
+				"per_level_above_first": 0.1
+			},
+			"attribute": "minecraft:generic.attack_speed",
+			"id": "minecraft:enchantment.ferocity",
+			"operation": "add_value"
+		}]
+	},
+	"exclusive_set": "#minecraft:exclusive_set/damage",
+	"max_cost": {
+		"base": 25,
+		"per_level_above_first": 8
+	},
+	"max_level": 5,
+	"min_cost": {
+		"base": 5,
+		"per_level_above_first": 8
+	},
+	"primary_items": "#minecraft:enchantable/sword",
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:enchantable/sharp_weapon",
+	"weight": 5
+}

@@ -1,0 +1,15 @@
+{
+	"parent": "bracken:the_underdark/enter_underdark",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biomes": "bracken:the_underdark/sulfur_caldera"
+					}
+				}
+			}
+		}
+	}
+}

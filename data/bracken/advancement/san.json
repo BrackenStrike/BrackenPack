@@ -1,0 +1,30 @@
+{
+    "parent": "minecraft:nether/root",
+    "display": {
+        "title": {
+            "translate": "An Antique Land"
+        },
+        "description": {
+            "translate": "Dig below the Nether",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:clay"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:san1": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": { "to": "bracken:sanctum" }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:san1"
+        ]
+    ]
+}

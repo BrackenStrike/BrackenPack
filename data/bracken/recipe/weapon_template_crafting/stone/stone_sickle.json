@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": {
+	  "item": "minecraft:host_armor_trim_smithing_template"
+	},
+	"base": {
+		"item": "minecraft:stone_sword"
+	  },
+	  "addition": {
+		"tag": "minecraft:stone_tool_materials"
+	  },
+	  "result": {
+		  "id": "minecraft:stone_sword",
+		  "components": {
+			"minecraft:item_name": "\"Stone Sickle\"",
+			"minecraft:custom_model_data": 888510,
+			"minecraft:lore": [
+				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
+				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
+				"{\"translate\":\" 6 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" 1.6 Attack Speed\",\"color\":dark_green,\"italic\":false}"
+			],
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:generic.attack_damage",
+					"id": "bracken:stone_sickle",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:generic.attack_speed",
+					"id": "bracken:stone_sickle",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"show_in_tooltip": false
+			}
+		}
+	}
+}

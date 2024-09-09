@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"translate": "Sanctum"
+		},
+		"description": {
+			"translate": "A mostly abandoned dimension",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:netherite_sword",
+			"components": {
+				"minecraft:custom_model_data": 888519
+			}
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true,
+		"background": "bracken:textures/gui/advancements/backgrounds/sanctum.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "bracken:sanctum"
+			}
+		}
+	}
+}

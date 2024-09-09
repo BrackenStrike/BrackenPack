@@ -1,0 +1,40 @@
+{
+	"parent": "bracken:the_underdark/ruby_fungi_forest",
+	"display": {
+		"title": {
+			"translate": "Mitosis Madness"
+		},
+		"description": {
+			"translate": "Slay a creature infected with polyfolus. Watch out for if it duplicates! ",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:red_mushroom_block"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:the_underdark/fungus1": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "minecraft:husk",
+						"nbt": "{Silent:1b}",
+						"location": {
+							"dimension": "bracken:the_underdark"
+						}
+					}
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:the_underdark/fungus1"
+	]]
+}

@@ -1,0 +1,23 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/glacium/painted_mask"
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/glacium/gvenhildirs_trident",
+			"functions": [{
+				"function": "minecraft:set_damage",
+				"damage": {
+					"type": "minecraft:uniform",
+					"min": 0.1,
+					"max": 1
+				}
+			}]
+		}]
+	}]
+}

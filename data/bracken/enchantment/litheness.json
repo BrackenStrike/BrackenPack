@@ -1,0 +1,46 @@
+{
+	"description": "Litheness",
+	"supported_items": "minecraft:wolf_armor",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 0,
+	"slots": [
+		"body"
+	],
+	"effects": {
+		"minecraft:attributes": [
+			{
+				"id": "bracken.wolf_litheness.nofall",
+				"attribute": "minecraft:generic.safe_fall_distance",
+				"amount": 9999,
+				"operation": "add_value"
+			},
+			{
+				"id": "bracken.wolf_litheness.movement",
+				"attribute": "minecraft:generic.movement_speed",
+				"amount": 0.15,
+				"operation": "add_value"
+			},
+			{
+				"id": "bracken.wolf_litheness.scale",
+				"attribute": "minecraft:generic.scale",
+				"amount": -0.2,
+				"operation": "add_multiplied_base"
+			},
+			{
+				"id": "bracken.wolf_litheness.jump",
+				"attribute": "minecraft:generic.jump_strength",
+				"amount": 0.1,
+				"operation": "add_value"
+			}
+		]
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "bracken:glacium/enter_glacium",
+	"display": {
+		"title": {
+			"translate": "Yee Haw!"
+		},
+		"description": {
+			"translate": "Ride a stray steed",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:saddle"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:glacium/horse1": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "minecraft:skeleton_horse",
+						"location": {
+							"dimension": "bracken:glacium"
+						}
+					}
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:glacium/horse1"
+	]]
+}

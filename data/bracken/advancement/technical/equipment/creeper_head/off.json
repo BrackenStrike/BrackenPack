@@ -1,0 +1,13 @@
+{
+	"criteria": { "equipment_tracking": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": { "player": [{
+			"condition": "inverted",
+			"term": {
+				"condition": "reference",
+				"name": "bracken:item/wearing_creeper_head"
+			}
+		}]}
+	}},
+	"rewards": { "function": "bracken:equipment/creeper_head/off" }
+}

@@ -1,0 +1,34 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/ability_books/lightning_bolt"
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/portal_keys/sanctum_key"
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/sanctum/ruination_capsule"
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/sanctum/shepherdess_cloak"
+		}],
+		"functions": [{
+			"function": "set_damage",
+			"damage": {
+				"min": 0.48,
+				"max": 0.93
+			}
+		}]
+	}]
+}

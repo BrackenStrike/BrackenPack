@@ -1,0 +1,39 @@
+{
+	"parent": "bracken:glacium/enter_glacium",
+	"display": {
+		"title": {
+			"translate": "Off Duty"
+		},
+		"description": {
+			"translate": "Find a snowman in Glacium and remove their mask",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:pumpkin"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:glacium/village1": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "minecraft:snow_golem",
+						"location": {
+							"dimension": "bracken:glacium"
+						}
+					}
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:glacium/village1"
+	]]
+}

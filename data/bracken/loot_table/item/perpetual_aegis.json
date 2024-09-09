@@ -1,0 +1,30 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_chestplate",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Perpetual Aegis"
+			},{
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "...",
+					"color": "gray",
+					"italic": false
+				}],
+				"mode": "insert"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:custom_data": {
+						"bp": { "id": "perpetual_aegis" }
+					},
+					"minecraft:rarity": "epic"
+				}
+			}]
+		}]
+	}]
+}

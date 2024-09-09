@@ -1,0 +1,31 @@
+{
+	"parent": "bracken:omnidrome/stan_biome",
+	"display": {
+		"title": {
+			"translate": "Cyborg Bug Barge"
+		},
+		"description": {
+			"translate": "Inspect the living palace",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:basalt"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "bracken:omnidrome_living_palace"
+					}
+				}
+			}
+		}
+	}
+}

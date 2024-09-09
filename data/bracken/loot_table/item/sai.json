@@ -1,0 +1,33 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_sword",
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:attribute_modifiers": [{
+						"type": "generic.attack_damage",
+						"slot": "mainhand",
+						"id": "bracken:sai",
+						"amount": 30,
+						"operation": "add_value"
+					}],
+					"minecraft:custom_model_data": 888502
+				}
+			},{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Sai"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:custom_data": {
+						"bp": { "id": "sai" }
+					}
+				}
+			}]
+		}]
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:elytra",
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:attribute_modifiers": [{
+						"type": "generic.max_health",
+						"slot": "chest",
+						"id": "bracken:nightfall_glider",
+						"amount": -2,
+						"operation": "add_value"
+					},{
+						"type": "generic.attack_damage",
+						"slot": "chest",
+						"id": "bracken:nightfall_glider",
+						"amount": 2,
+						"operation": "add_value"
+					}],
+					"minecraft:custom_model_data": 888502,
+					"minecraft:rarity": "uncommon"
+				}
+			},{
+				"function": "set_name",
+				"target": "item_name",
+				"name": "Nightfall"
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.88,
+					"max": 0.93
+				}
+			},{
+				"function": "set_enchantments",
+				"enchantments": { "bracken:technical/nightfall": 1 }
+			}]
+		}]
+	}]
+}

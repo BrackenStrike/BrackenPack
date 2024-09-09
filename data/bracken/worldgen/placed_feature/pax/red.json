@@ -2,11 +2,15 @@
     "feature": "bracken:pax/red",
     "placement": [
         {
+            "type": "count",
+            "count": 100
+        },
+        {
             "type": "minecraft:in_square"
         },
         {
-            "type": "minecraft:count_on_every_layer",
-            "count": 100
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE"
         },
         {
             "type": "minecraft:biome"

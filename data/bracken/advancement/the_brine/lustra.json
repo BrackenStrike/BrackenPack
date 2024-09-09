@@ -1,0 +1,46 @@
+{
+	"parent": "bracken:the_brine/indigo",
+	"display": {
+		"title": {
+			"translate": "Pearl of High Value"
+		},
+		"description": {
+			"translate": "Obtain a lustra pearl from a giant clam",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:sheep_spawn_egg",
+			"components": {
+				"minecraft:custom_model_data": 888501
+			}
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:the_brine/lustra1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "bracken:the_brine"
+						}
+					}
+				}],
+				"items": [{
+					"items": [
+						"minecraft:sheep_spawn_egg"
+					]
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:the_brine/lustra1"
+	]]
+}

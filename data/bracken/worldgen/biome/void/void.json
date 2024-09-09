@@ -36,7 +36,7 @@
         "water_fog_color": 0,
         "grass_color": 0,
         "sky_color": 0,
-        "foliage_colour": 0
+        "foliage_color": 0
     },
     "has_precipitation": false
 }

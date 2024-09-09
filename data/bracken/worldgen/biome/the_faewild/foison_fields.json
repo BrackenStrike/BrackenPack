@@ -68,7 +68,7 @@
         [
             "minecraft:forest_rock"
         ],
-        [],
+        ["minecraft:ore_copper","minecraft:ore_lapis"],
         [],
         [],
         [],
@@ -93,7 +93,7 @@
             "minecraft:red_mushroom_old_growth",
             "minecraft:vines",
             "minecraft:sea_pickle",
-            "bracken:faewild/lapis_ore"
+            "bracken:faewild/lapis_ore","bracken:faewild/copper_ore"
         ],
         [
             "minecraft:freeze_top_layer"

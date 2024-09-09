@@ -1,0 +1,12 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand": {
+				"items": "minecraft:iron_sword",
+				"components": { "minecraft:custom_model_data": 888502 }
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_pickaxe",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Altum Archeon"
+			},{
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "...",
+					"color": "gray",
+					"italic": false
+				}],
+				"mode": "insert"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:custom_data": {
+						"bp": { "id": "altum_archeon" }
+					},
+					"minecraft:rarity": "epic"
+				}
+			}]
+		}]
+	}]
+}

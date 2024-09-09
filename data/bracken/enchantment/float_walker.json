@@ -1,0 +1,33 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "Float Walker"
+	},
+	"effects": {
+		"minecraft:attributes": [{
+			"amount": {
+				"type": "minecraft:linear",
+				"base": -0.5,
+				"per_level_above_first": -0.2
+			},
+			"attribute": "minecraft:generic.gravity",
+			"id": "minecraft:enchantment.lessgravity",
+			"operation": "add_multiplied_base"
+		}]
+	},
+	"exclusive_set": "#minecraft:exclusive_set/boots",
+	"max_cost": {
+		"base": 75,
+		"per_level_above_first": 25
+	},
+	"max_level": 2,
+	"min_cost": {
+		"base": 25,
+		"per_level_above_first": 25
+	},
+	"slots": [
+		"feet"
+	],
+	"supported_items": "#minecraft:enchantable/foot_armor",
+	"weight": 1
+}

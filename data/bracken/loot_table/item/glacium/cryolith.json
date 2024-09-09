@@ -1,0 +1,25 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:polar_bear_spawn_egg"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Cryolith Crystal"
+		},{
+			"function": "minecraft:set_components",
+			"components": {
+				
+				
+				"minecraft:entity_data": {
+					"id": "minecraft:player"}}},
+					
+					{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888503
+		}]
+	}]
+}

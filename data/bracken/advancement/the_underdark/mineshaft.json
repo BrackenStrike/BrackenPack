@@ -1,0 +1,39 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:dark_oak_log"
+		},
+		"title": {
+			"translate": "Why Twice?"
+		},
+		"description": {
+			"translate": "Discover the twice abandoned mineshaft",
+			"color": "green"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "bracken:the_underdark/titan_dripstone_cavern",
+	"criteria": {
+		"bracken:the_underdark/mineshaft1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"structures": "bracken:underdark_twice_abandoned_mineshaft",
+							"dimension": "bracken:the_underdark"
+						}
+					}
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:the_underdark/mineshaft1"
+	]]
+}

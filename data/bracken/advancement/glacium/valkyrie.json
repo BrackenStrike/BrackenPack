@@ -1,0 +1,45 @@
+{
+	"parent": "bracken:glacium/enter_glacium",
+	"display": {
+		"title": {
+			"translate": "Fight of the Valkyries"
+		},
+		"description": {
+			"translate": "Get on the giant snowflake and defeat Gvenhildir",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "MHF_Ghast"
+				}
+			}
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:glacium/valk1": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "minecraft:drowned",
+						"nbt": "{Tags:[\"bp.valkyrie\"]}",
+						"location": {
+							"dimension": "bracken:glacium"
+						}
+					}
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:glacium/valk1"
+	]]
+}

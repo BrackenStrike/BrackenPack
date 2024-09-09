@@ -1,0 +1,31 @@
+{
+	"parent": "bracken:the_underdark/enter_underdark",
+	"display": {
+		"title": {
+			"translate": "It was me, Diorite!"
+		},
+		"description": {
+			"translate": "Enter the diorite sea biome",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:diorite"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biomes": "bracken:the_underdark/diorite_sea"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": {
+	  "item": "minecraft:raiser_armor_trim_smithing_template"
+	},
+	"base": {
+		"item": "minecraft:netherite_sword"
+	  },
+	  "addition": {
+		"item": "minecraft:netherite_scrap"
+	  },
+	  "result": {
+		  "id": "minecraft:netherite_sword",
+		  "components": {
+			"minecraft:item_name": "\"Meteoric Rapier\"",
+			"minecraft:custom_model_data": 888535,
+			"minecraft:lore": [
+				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
+				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
+				"{\"translate\":\" 8 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" 1.2 Attack Speed\",\"color\":dark_green,\"italic\":false}"
+				
+			],
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:generic.attack_damage",
+					"id": "bracken:meteoric_rapier",
+					"amount": 7,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:generic.attack_speed",
+					"id": "bracken:meteoric_rapier",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"show_in_tooltip": false
+			}
+		}
+	}
+}

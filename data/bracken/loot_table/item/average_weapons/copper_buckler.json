@@ -1,0 +1,79 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:golden_sword",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Copper Buckler"
+			},{
+				"function": "minecraft:set_lore",
+				"entity": "this",
+				"lore": [{
+					"translate": "",
+					"color": "blue",
+					"italic": false
+				},{
+					"translate": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "3.5 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "1.6 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "3 Armor",
+					"color": "dark_green",
+					"italic": false
+				}],
+				"mode": "insert"
+			},{
+				"function": "minecraft:set_custom_model_data",
+				"value": 888529
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:max_damage": 175
+				}
+			},{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:generic.attack_speed",
+					"id": "bracken:copper_buckler",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"attribute": "minecraft:generic.armor",
+					"id": "bracken:copper_buckler",
+					"amount": 3,
+					"operation": "add_value",
+					"slot": "hand"
+				},{
+					"attribute": "minecraft:generic.attack_damage",
+					"id": "bracken:copper_buckler",
+					"amount": 2.5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}]
+			},{
+				"function": "minecraft:toggle_tooltips",
+				"toggles": {
+					"attribute_modifiers": false
+				}
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.48,
+					"max": 0.93
+				}
+			}]
+		}]
+	}]
+}

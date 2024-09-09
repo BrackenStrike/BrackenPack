@@ -1,0 +1,27 @@
+{
+	"parent": "bracken:the_underdark/cube",
+	"display": {
+		"title": {
+			"translate": "Willess Thing"
+		},
+		"description": {
+			"translate": "Destroy Unsung",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:respawn_anchor",
+			"components": {
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

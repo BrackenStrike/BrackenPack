@@ -1,0 +1,30 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:bow",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Piercer of Heavens"
+			},{
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "...",
+					"color": "gray",
+					"italic": false
+				}],
+				"mode": "insert"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:custom_data": {
+						"bp": { "id": "piercer_of_heavens" }
+					},
+					"minecraft:rarity": "epic"
+				}
+			}]
+		}]
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:golden_shovel",
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:repair_cost": 1000,
+					"minecraft:unbreakable": {
+						"show_in_tooltip": false
+					},
+					"minecraft:enchantments": {
+						"levels": {
+							"minecraft:efficiency": 5,
+							"minecraft:vanishing_curse": 1
+						},
+						"show_in_tooltip": false
+					},
+					"minecraft:custom_model_data": 888501,
+					"minecraft:rarity": "epic"
+				}
+			},{
+				"function": "set_name",
+				"target": "item_name",
+				"name": "Immortal Spade"
+			},{
+				"function": "set_lore",
+				"lore": [{
+					"translate": "Stolen from mind. Designs divine.",
+					"color": "dark_blue",
+					"italic": false
+				}],
+				"mode": "insert"
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.58,
+					"max": 0.63
+				}
+			}]
+		}]
+	}]
+}

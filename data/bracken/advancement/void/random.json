@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:torch",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+		},
+		"title": {
+			"translate": "Reverse Lootbox"
+		},
+		"description": {
+			"translate": "Fall to the bottom of the Void. End up in a random dimension.",
+			"color": "green"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "bracken:void/enter_void",
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

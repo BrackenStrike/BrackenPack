@@ -1,0 +1,33 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:trident",
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:enchantments": {
+						"minecraft:loyalty": 5,
+						"minecraft:impaling": 5,
+						"minecraft:mending": 1
+					}
+				}
+			},{
+				"function": "set_name",
+				"target": "item_name",
+				"name": {
+					"translate": "Gvenhildir's Trident",
+					"color": "blue",
+					"bold": true
+				}
+			},{
+				"function": "set_lore",
+				"lore": [{
+					"translate": "Weapon of a former Valkyrie"
+				}],
+				"mode": "insert"
+			}]
+		}]
+	}]
+}

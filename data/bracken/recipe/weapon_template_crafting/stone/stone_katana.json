@@ -1,0 +1,57 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": {
+	  "item": "minecraft:wayfinder_armor_trim_smithing_template"
+	},
+	"base": {
+		"item": "minecraft:stone_sword"
+	  },
+	  "addition": {
+		"tag": "minecraft:stone_tool_materials"
+	  },
+	  "result": {
+		  "id": "minecraft:stone_sword",
+		  "components": {
+			"minecraft:item_name": "\"Stone Katana\"",
+			"minecraft:custom_model_data": 888517,
+			"minecraft:lore": [
+				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
+				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
+				"{\"translate\":\" 5 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" 1.6 Attack Speed\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" +5% Movement Speed\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" Limited Jump Strength\",\"color\":red,\"italic\":false}"
+			],
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:generic.attack_damage",
+					"id": "bracken:stone_katana",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:generic.attack_speed",
+					"id": "bracken:stone_katana",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:generic.movement_speed",
+					"id": "bracken:stone_katana",
+					"amount": 0.05,
+					"operation": "add_value",
+					"slot": "hand"
+				},
+				{
+					"type": "minecraft:generic.jump_strength",
+					"id": "bracken:stone_katana",
+					"amount": -0.5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"show_in_tooltip": false
+			}
+		}
+	}
+}

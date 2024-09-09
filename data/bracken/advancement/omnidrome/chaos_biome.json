@@ -1,0 +1,31 @@
+{
+	"parent": "bracken:omnidrome/enter_omnidrome",
+	"display": {
+		"title": {
+			"translate": "Storage Settings"
+		},
+		"description": {
+			"translate": "Enter the archivistory biome",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:writable_book"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biomes": "bracken:omnidrome/archivistory"
+					}
+				}
+			}
+		}
+	}
+}

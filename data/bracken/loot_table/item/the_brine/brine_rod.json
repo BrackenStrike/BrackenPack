@@ -1,0 +1,28 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:allay_spawn_egg"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Brine Rod"
+		},
+		{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888501
+		},
+		{
+			"function": "minecraft:set_components",
+			"components": {
+				
+				
+				"minecraft:entity_data": {
+					"id": "minecraft:player"}}}
+					
+					
+					]
+	}]
+}

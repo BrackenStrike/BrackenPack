@@ -1,0 +1,39 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:apple"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Faefolk Fruit"
+		},{
+			"function": "minecraft:set_lore",
+			"entity": "this",
+			"lore": [{
+				"translate": "Become Faefolk",
+				"color": "blue",
+				"italic": false
+			}],
+			"mode": "insert"
+		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888506
+		},{
+			"function": "minecraft:set_custom_data",
+			"tag": "{bp:{species_fruit:1b,id:\"faefolk_fruit\"}}"
+		},{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:food": {
+					"nutrition": 4,
+					"saturation": 2.4,
+					"can_always_eat": true
+				},
+				"minecraft:rarity": "epic"
+			}
+		}]
+	}]
+}

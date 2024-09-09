@@ -1,0 +1,34 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:carrot_on_a_stick"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Tetra Slime"
+		},{
+			"function": "minecraft:set_lore",
+			"lore": [{
+				"translate": "consumes 12 levels",
+				"color": "gray",
+				"italic": false
+			}],
+			"mode": "insert"
+		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888504
+		},{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:enchantment_glint_override": true,
+				"minecraft:rarity": "uncommon"
+			}
+		},{
+			"function": "minecraft:set_custom_data",
+			"tag": "{bp:{id:\"tetra_slime\"}}"
+		}]
+	}]
+}

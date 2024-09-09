@@ -1,0 +1,26 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:player_head",
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:enchantments": {
+						"minecraft:blast_protection": 20
+					},
+					"minecraft:profile": "MHF_Ghast",
+					"minecraft:rarity": "common"
+				}
+			},{
+				"function": "set_name",
+				"target": "item_name",
+				"name": {
+					"translate": "Painted Mask",
+					"bold": true
+				}
+			}]
+		}]
+	}]
+}

@@ -70,8 +70,8 @@
     },
     "features": [
         [],
-        [],
-        [],
+        ["bracken:faewild/lapis_ore","bracken:faewild/copper_ore"],
+        ["minecraft:ore_copper","minecraft:ore_lapis"],
         [
             "bracken:faewild/dark_pool"
         ],

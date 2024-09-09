@@ -1,0 +1,19 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/ranger_bow"
+		}],
+		"conditions": [{
+			"condition": "minecraft:random_chance",
+			"chance": 0.1
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:dandelion"
+		}]
+	}]
+}

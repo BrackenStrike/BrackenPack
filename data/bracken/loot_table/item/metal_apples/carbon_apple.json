@@ -1,0 +1,30 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:apple"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Carbon Apple"
+		},{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:food": {
+					"nutrition": 4,
+					"saturation": 9.6,
+					"can_always_eat": true
+				},
+				"minecraft:rarity": "rare"
+			}
+		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888515
+		},{
+			"function": "minecraft:set_custom_data",
+			"tag": "{bp:{id:\"carbon_apple\"}}"
+		}]
+	}]
+}

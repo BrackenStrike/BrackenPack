@@ -1,0 +1,13 @@
+{
+	"criteria": { "click_brewing_stand": {
+		"trigger": "minecraft:default_block_use",
+		"conditions": { "location": [{
+			"condition": "location_check",
+			"predicate": {
+				"block": { "blocks": "minecraft:brewing_stand" },
+				"dimension": "bracken:the_brine"
+			}
+		}]}
+	}},
+	"rewards": { "function": "bracken:dimension_commands/brine_brewing/start" }
+}

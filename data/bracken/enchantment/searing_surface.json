@@ -1,0 +1,41 @@
+{
+	"anvil_cost": 8,
+	"description": {
+		"translate": "Searing Surface"
+	},
+	"effects": {
+		"minecraft:post_attack": [{
+			"affected": "attacker",
+			"effect": {
+				"type": "minecraft:ignite",
+				"duration": {
+					"type": "minecraft:linear",
+					"base": 4.0,
+					"per_level_above_first": 4.0
+				}
+			},
+			"enchanted": "victim",
+			"requirements": {
+				"condition": "minecraft:damage_source_properties",
+				"predicate": {
+					"is_direct": true
+				}
+			}
+		}]
+	},
+	"max_cost": {
+		"base": 60,
+		"per_level_above_first": 20
+	},
+	"max_level": 3,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 20
+	},
+	"primary_items": "#minecraft:enchantable/chest_armor",
+	"slots": [
+		"any"
+	],
+	"supported_items": "#minecraft:enchantable/armor",
+	"weight": 1
+}

@@ -95,7 +95,7 @@
         "water_fog_color": 3093076,
         "grass_color": 2320701,
         "sky_color": 9633746,
-        "foliage_colour": 2320701,
+        "foliage_color": 2320701,
         "particle": {
             "options": {
                 "type": "minecraft:warped_spore"

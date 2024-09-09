@@ -48,7 +48,6 @@
             "minecraft:ice_spike"
         ],
         [
-            "bracken:panacea/lake",
             "bracken:panacea/horsetail_tree",
             "bracken:panacea/bones",
             "bracken:panacea/meat",
@@ -66,7 +65,6 @@
         ],
         [
             "bracken:pax/peace_tree1",
-            "bracken:pax/grainwater",
             "bracken:pax/peace_tree2",
             "bracken:pax/cloud_tree1",
             "bracken:pax/cloud_tree2",
@@ -99,7 +97,6 @@
             "bracken:faewild/large_fern",
             "minecraft:twisting_vines",
             "minecraft:nether_sprouts",
-            "bracken:faewild/lake",
             "bracken:faewild/dark_tree",
             "bracken:faewild/thin_tree"
         ],
@@ -181,7 +178,7 @@
         "water_fog_color": 65280,
         "grass_color": 65280,
         "sky_color": 16777192,
-        "foliage_colour": 65280,
+        "foliage_color": 65280,
         "particle": {
             "options": {
                 "type": "minecraft:enchant"

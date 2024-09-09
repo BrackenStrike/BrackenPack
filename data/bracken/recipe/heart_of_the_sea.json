@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#N#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "N": {
+            "item": "minecraft:sheep_spawn_egg"
+        }
+    },
+    "result": {
+        "id": "minecraft:heart_of_the_sea",
+        "count": 1
+    }
+}

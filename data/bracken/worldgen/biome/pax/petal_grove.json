@@ -80,7 +80,7 @@
         "water_color": 11851209,
         "water_fog_color": 2173534,
         "grass_color": 13949813,
-        "foliage_colour": 16749744,
+        "foliage_color": 16749744,
         "particle": {
             "options": {
                 "type": "minecraft:falling_nectar"

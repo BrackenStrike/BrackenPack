@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:end_stone_brick_stairs"
+		},
+		"title": {
+			"translate": "Book Thief"
+		},
+		"description": {
+			"translate": "Find the hidden library loot"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"parent": "bracken:omnidrome/library",
+	"criteria": {
+		"library_loot1": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "bracken:omnidrome/omnidrome_library"
+			}
+		}
+	},
+	"requirements": [[
+		"library_loot1"
+	]]
+}

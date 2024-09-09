@@ -1,0 +1,10 @@
+[{
+	"condition": "inverted",
+	"term": {
+		"condition": "reference",
+		"name": "bracken:effect_immunity/invisibility"
+	}
+},{
+	"condition": "reference",
+	"name": "bracken:dimensions/sanctum"
+}]

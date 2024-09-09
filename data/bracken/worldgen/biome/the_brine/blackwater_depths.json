@@ -60,7 +60,7 @@
         "water_fog_color": 1245198,
         "grass_color": 668950,
         "sky_color": 4005221,
-        "foliage_colour": 0,
+        "foliage_color": 0,
         "particle": {
             "options": {
                 "type": "minecraft:ash"

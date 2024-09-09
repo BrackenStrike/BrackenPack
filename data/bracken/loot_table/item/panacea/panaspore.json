@@ -1,0 +1,17 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:pitcher_pod"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Panaspore"
+		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888502
+		}]
+	}]
+}

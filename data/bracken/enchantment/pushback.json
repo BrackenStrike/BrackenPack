@@ -1,0 +1,58 @@
+{
+	"anvil_cost": 8,
+	"description": {
+		"translate": "Pushback"
+	},
+	"effects": {
+		"minecraft:post_attack": [{
+			"affected": "attacker",
+			"effect": {
+				"type": "minecraft:all_of",
+				"effects": [{
+					"type": "minecraft:damage_item",
+					"amount": 2.0
+				},{
+					"type": "minecraft:explode",
+					"block_interaction": "none",
+					"immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+					"knockback_multiplier": {
+						"type": "minecraft:linear",
+						"base": 0.3,
+						"per_level_above_first": 0.15
+					},
+					"offset": [
+						0,0.5,0
+					],
+					"large_particle": {
+						"type": "minecraft:electric_spark"
+					},
+					"radius": 3,
+					"small_particle": {
+						"type": "minecraft:dust_plume"
+					},
+					"sound": "minecraft:entity.shulker.hurt_closed"
+				}]
+			},
+			"enchanted": "victim",
+			"requirements": {
+				"condition": "minecraft:entity_properties",
+				"entity": "direct_attacker"
+			}
+		}]
+	},
+	"max_cost": {
+		"base": 60,
+		"per_level_above_first": 20
+	},
+	"max_level": 2,
+	"min_cost": {
+		"base": 10,
+		"per_level_above_first": 20
+	},
+	"primary_items": "#minecraft:enchantable/chest_armor",
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#minecraft:enchantable/armor",
+	"weight": 1
+}

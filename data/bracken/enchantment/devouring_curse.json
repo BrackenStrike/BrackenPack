@@ -1,0 +1,65 @@
+{
+	"anvil_cost": 1,
+	"description": {
+		"translate": "Curse of Devouring"
+	},
+	"effects": {
+		"minecraft:post_attack": [
+		  {
+			"enchanted": "attacker",
+			"affected": "attacker",
+			"effect": {
+			  "type": "minecraft:all_of",
+			  "effects": [
+				{
+				  "type": "minecraft:damage_item",
+				  "amount": 2
+				},
+				{
+					"type": "minecraft:damage_entity",
+					"damage_type": "minecraft:starve",
+					"min_damage": {
+					  "type": "minecraft:linear",
+					  "base": 0,
+					  "per_level_above_first": 1
+					},
+					"max_damage": {
+					  "type": "minecraft:linear",
+					  "base": 1,
+					  "per_level_above_first": 1
+					}
+				  }
+			  ]
+			}
+		  }
+		],
+		"minecraft:damage": [
+		  {
+			"effect": {
+			  "type": "minecraft:add",
+			  "value": {
+				"type": "minecraft:linear",
+				"base": 2,
+				"per_level_above_first": 1
+			  }
+			}
+		  }
+		]
+	  },
+	"max_cost": {
+		"base": 21,
+		"per_level_above_first": 11
+	},
+	"max_level": 3,
+	"min_cost": {
+		"base": 2,
+		"per_level_above_first": 1
+	},
+	
+	"primary_items": "#minecraft:enchantable/sword",
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:enchantable/sharp_weapon",
+	"weight": 10
+}

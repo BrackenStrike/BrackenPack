@@ -1,0 +1,27 @@
+{
+	"parent": "bracken:sanctum/boss",
+	"display": {
+		"title": {
+			"translate": "Ruination Validation"
+		},
+		"description": {
+			"translate": "Feed xp to the program until it can be free",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:experience_bottle"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "bracken:player/omnitrigger/k_ruination"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"parent": "bracken:glacium/enter_glacium",
+	"display": {
+		"title": {
+			"translate": "Meltdown!"
+		},
+		"description": {
+			"translate": "Approach the frozen throne to awaken the Viceroy from their slumber",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:seagrass"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

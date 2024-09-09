@@ -7,6 +7,6 @@
         "state": {
             "Name": "minecraft:lapis_ore"
         },
-        "radius": 2
+        "radius": 1
     }
 }

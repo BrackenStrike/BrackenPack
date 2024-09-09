@@ -1,0 +1,20 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:nether_wart"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Tempest Nectar"
+		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888501
+		},{
+			"function": "minecraft:set_custom_data",
+			"tag": "{bp.potion:1b,bp:{id:\"potion_recipe\"}}"
+		}]
+	}]
+}

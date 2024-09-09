@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"kill_entity": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:blaze",
+					"nbt": "{Tags:[\"bp.theoretical\"]}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:player/omnitrigger/s_tblaze"
+	}
+}

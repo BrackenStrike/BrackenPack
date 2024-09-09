@@ -1,0 +1,31 @@
+{
+	"display": {
+		"title": {
+			"translate": "The Underdark"
+		},
+		"description": {
+			"translate": "A world beneath",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:apple",
+			"components": {
+				
+				"minecraft:custom_model_data": 888517
+			}
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true,
+		"background": "bracken:textures/gui/advancements/backgrounds/underdark.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "bracken:the_underdark"
+			}
+		}
+	}
+}

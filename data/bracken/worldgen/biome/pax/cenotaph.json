@@ -18,9 +18,9 @@
     "carvers": {},
     "features": [
         [
-            "bracken:pax/red"
+          
         ],
-        [],
+        ["bracken:pax/red"],
         [
             "bracken:pax/rock"
         ],

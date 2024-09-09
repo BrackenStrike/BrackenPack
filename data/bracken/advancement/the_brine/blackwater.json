@@ -1,0 +1,31 @@
+{
+	"parent": "bracken:the_brine/indigo",
+	"display": {
+		"title": {
+			"translate": "Advanced Darkness"
+		},
+		"description": {
+			"translate": "Enter the blackwater depths biome",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:black_concrete"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biomes": "bracken:the_brine/blackwater_depths"
+					}
+				}
+			}
+		}
+	}
+}

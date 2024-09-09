@@ -1,0 +1,34 @@
+{
+	"anvil_cost": 1,
+	"description": {
+		"translate": "Curse of Dullness"
+	},
+	"effects": {
+		"minecraft:attributes": [{
+			"amount": {
+				"type": "minecraft:linear",
+				"base": -0.5,
+				"per_level_above_first": -0.1
+			},
+			"attribute": "minecraft:generic.attack_damage",
+			"id": "minecraft:enchantment.boldness",
+			"operation": "add_value"
+		}]
+	},
+	"max_cost": {
+		"base": 21,
+		"per_level_above_first": 11
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 2,
+		"per_level_above_first": 11
+	},
+	"exclusive_set": "minecraft:sharpness",
+	"primary_items": "#minecraft:enchantable/sword",
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:enchantable/sharp_weapon",
+	"weight": 10
+}

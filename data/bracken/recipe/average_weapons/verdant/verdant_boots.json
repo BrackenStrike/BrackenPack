@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"/#/",
+		"/#/",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:pitcher_pod"
+		},
+		"/": {
+			"item": "minecraft:leather"
+		}
+	},
+	"result": {
+		"id": "minecraft:leather_boots",
+		"components": {
+			"minecraft:max_damage": 500,
+			"minecraft:item_name": "\"Verdant Boots\"",
+			"minecraft:enchantments": {
+        "minecraft:mending": 1,
+        "bracken:vitality_curse": 1
+      },
+			"minecraft:custom_model_data": 888502
+			
+			
+		}
+	}
+}

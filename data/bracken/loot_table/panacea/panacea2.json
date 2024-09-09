@@ -1,0 +1,14 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/panacea/panaspore",
+			"weight": 10
+		},{
+			"type": "item",
+			"name": "minecraft:glistering_melon_slice",
+			"weight": 1
+		}]
+	}]
+}

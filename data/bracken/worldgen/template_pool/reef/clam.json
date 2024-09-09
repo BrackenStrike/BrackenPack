@@ -10,6 +10,24 @@
                 "projection": "rigid",
                 "element_type": "minecraft:legacy_single_pool_element"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:reef/clam1",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:reef/clam2",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
         }
     ]
 }

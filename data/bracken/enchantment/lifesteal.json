@@ -1,0 +1,41 @@
+{
+	"description": "Lifesteal",
+
+	"effects": {
+		"minecraft:post_attack": [
+		  {
+			"enchanted": "attacker",
+			"affected": "attacker",
+			"effect": {
+			  "type": "minecraft:all_of",
+			  "effects": [
+				{
+				  "type": "minecraft:apply_mob_effect",
+				  "to_apply": "minecraft:regeneration",
+				  "min_duration": 1,
+				  "max_duration": 2,
+				  "min_amplifier": 0,
+				  "max_amplifier": 2
+				}
+			  ]
+			}
+		  }
+		]
+	  },
+	  "anvil_cost": 8,
+	  "exclusive_set": "#minecraft:exclusive_set/bow",
+	  "max_cost": {
+		"base": 50,
+		"per_level_above_first": 0
+	  },
+	  "max_level": 1,
+	  "min_cost": {
+		"base": 20,
+		"per_level_above_first": 0
+	  },
+	  "slots": [
+		"hand"
+	  ],
+	  "supported_items": "#minecraft:enchantable/bow",
+	  "weight": 1
+	}

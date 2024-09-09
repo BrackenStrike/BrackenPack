@@ -1,0 +1,33 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:structure_block"
+		}],
+		"functions": [{
+			"function": "minecraft:set_custom_data",
+			"tag": "{bp.portal_key:3b}"
+		},{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": {
+				"translate": "End Portal Key",
+				"color": "dark_purple",
+				"italic": true,
+				"bold": true
+			}
+		},{
+			"function": "minecraft:set_lore",
+			"entity": "this",
+			"lore": [{
+				"translate": "Unlocks a door to somewhere...",
+				"italic": false
+			}],
+			"mode": "insert"
+		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888503
+		}]
+	}]
+}

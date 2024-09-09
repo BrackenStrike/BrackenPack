@@ -1,0 +1,29 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:carrot_on_a_stick"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Perrterror Gastor"
+		},{
+			"function": "minecraft:set_lore",
+			"entity": "this",
+			"lore": [{
+				"text": "Single-use leaf shield.",
+				"color": "gray",
+				"italic": false
+			}],
+			"mode": "insert"
+		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888520
+		},{
+			"function": "minecraft:set_custom_data",
+			"tag": "{bp:{id:\"perrterror_gastor\"}}"
+		}]
+	}]
+}

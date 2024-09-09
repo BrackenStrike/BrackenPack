@@ -1,0 +1,30 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_leggings",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Breach Factor"
+			},{
+				"function": "minecraft:set_lore",
+				"lore": [{
+					"translate": "...",
+					"color": "gray",
+					"italic": false
+				}],
+				"mode": "insert"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:custom_data": {
+						"bp": { "id": "breach_factor" }
+					},
+					"minecraft:rarity": "epic"
+				}
+			}]
+		}]
+	}]
+}

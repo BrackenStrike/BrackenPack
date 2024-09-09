@@ -1,0 +1,21 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:ominous_bottle"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Cocoa Beans Beverage"
+		},
+		{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888509
+		},{
+			"function": "minecraft:set_custom_data",
+			"tag": "{bp:{id:\"beverage_cocoa_beans\"}}"
+		}]
+	}]
+}

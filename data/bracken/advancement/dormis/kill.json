@@ -1,0 +1,28 @@
+{
+	"parent": "bracken:dormis/thrall",
+	"display": {
+		"title": {
+			"translate": "Tactical Retreat"
+		},
+		"description": {
+			"translate": "Defeat the Thrall",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:netherite_sword",
+			"components": {
+				
+				"minecraft:custom_model_data": 888502
+			}
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

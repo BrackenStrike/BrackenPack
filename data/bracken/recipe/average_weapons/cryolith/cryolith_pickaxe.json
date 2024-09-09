@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		" / ",
+		" / "
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:polar_bear_spawn_egg"
+		},
+		"/": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"id": "minecraft:iron_pickaxe",
+		"components": {
+			"minecraft:max_damage": 200,
+			"minecraft:item_name": "\"Cryolith Pickaxe\"",
+			"minecraft:enchantments": {
+        "minecraft:vanishing_curse": 1,
+        "bracken:freezing_curse": 1,
+		"bracken:fragility_curse": 1
+      },
+			"minecraft:custom_model_data": 888501,
+			"minecraft:lore": [
+				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
+				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
+				"{\"translate\":\" 8 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" 1.2 Attack Speed\",\"color\":dark_green,\"italic\":false}"
+			],
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:generic.attack_damage",
+					"id": "bracken:cryolith_pickaxe",
+					"amount": 7,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:generic.attack_speed",
+					"id": "bracken:cryolith_pickaxe",
+					"amount": -2.7,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"show_in_tooltip": false
+			}
+		}
+	}
+}

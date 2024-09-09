@@ -1,0 +1,36 @@
+{
+    "parent": "bracken:sanctum/voidship",
+    "display": {
+        "title": {
+            "translate": "Life Finds a Way"
+        },
+        "description": {
+            "translate": "Find and consume tropical fish",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:tropical_fish"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:sanctum/fish1": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:tropical_fish"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:sanctum/fish1"
+        ]
+    ]
+}

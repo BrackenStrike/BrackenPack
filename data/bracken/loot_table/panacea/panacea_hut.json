@@ -1,0 +1,121 @@
+{
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 7,
+			"max": 15
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:bone",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:cobweb",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:rotten_flesh",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:gold_ingot",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:cooked_salmon",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:wheat_seeds",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.9
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:wheat",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/copper_short_spear",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/iron_cutlass",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:torch",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:bow",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:arrow",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.7
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:spyglass",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.02
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:cocoa_beans",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.7
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/potions/beverage_cocoa_beans",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		}]
+	}]
+}

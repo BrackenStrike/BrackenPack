@@ -1,0 +1,24 @@
+{
+	"description": {"text":"It returned from the Void different...","color":"gray"},
+	"supported_items": [],
+	"slots": ["chest"],
+	"weight": 1,
+	"anvil_cost": 0,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_level": 1,
+	"effects": {
+		"minecraft:tick": [{
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "bracken:item/nightfall"
+			}
+		}]
+	}
+}

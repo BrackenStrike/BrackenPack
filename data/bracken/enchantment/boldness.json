@@ -1,0 +1,33 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "Boldness"
+	},
+	"effects": {
+		"minecraft:attributes": [{
+			"amount": {
+				"type": "minecraft:linear",
+				"base": 0.25,
+				"per_level_above_first": 0.25
+			},
+			"attribute": "minecraft:generic.attack_damage",
+			"id": "minecraft:enchantment.boldness",
+			"operation": "add_value"
+		}]
+	},
+	"exclusive_set": "#minecraft:exclusive_set/armor",
+	"max_cost": {
+		"base": 21,
+		"per_level_above_first": 11
+	},
+	"max_level": 5,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 11
+	},
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#minecraft:enchantable/armor",
+	"weight": 10
+}

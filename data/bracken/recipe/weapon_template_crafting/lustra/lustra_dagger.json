@@ -1,0 +1,50 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": {
+	  "item": "minecraft:coast_armor_trim_smithing_template"
+	},
+	"base": {
+	  "item": "minecraft:stone_sword"
+	},
+	"addition": {
+	  "item": "minecraft:sheep_spawn_egg"
+	},
+	"result": {
+		"id": "minecraft:stone_sword",
+		"components": {
+			"minecraft:max_damage": 3000,
+			"minecraft:item_name": "\"Lustra Dagger\"",
+			"minecraft:custom_model_data": 888527,
+			"minecraft:lore": [
+				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
+				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
+				"{\"translate\":\" 4 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" 4 Attack Speed\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" -1 Attack Range\",\"color\":red,\"italic\":false}"
+			],
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:generic.attack_damage",
+					"id": "bracken:lustra_dagger",
+					"amount": 3,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:generic.attack_speed",
+					"id": "bracken:lustra_dagger",
+					"amount": -0.12,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:player.entity_interaction_range",
+					"id": "bracken:lustra_dagger",
+					"amount": -1,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"show_in_tooltip": false
+			}
+		}
+	}
+}

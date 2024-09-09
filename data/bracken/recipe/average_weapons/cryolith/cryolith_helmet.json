@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"# #",
+		"   "
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:polar_bear_spawn_egg"
+		}
+	},
+	"result": {
+		"id": "minecraft:diamond_helmet",
+		"components": {
+			"minecraft:max_damage": 200,
+			"minecraft:item_name": "\"Cryolith Helmet\"",
+			"minecraft:enchantments": {
+        "minecraft:vanishing_curse": 1,
+        "bracken:quenching_curse": 1,
+		"bracken:fragility_curse": 1
+      },
+			"minecraft:custom_model_data": 888502
+		}
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 7,
+			"max": 15
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:rotten_flesh",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/the_brine/shark_tooth",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:cobweb",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.4
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:bone",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.6
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:coal",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.4
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:suspicious_stew",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.15
+			}],
+			"functions": [{
+				"function": "minecraft:set_stew_effect",
+				"effects": [{
+					"type": "minecraft:slowness",
+					"duration": 160
+				},{
+					"type": "minecraft:blindness",
+					"duration": 160
+				},{
+					"type": "minecraft:night_vision",
+					"duration": 160
+				},{
+					"type": "minecraft:hunger",
+					"duration": 160
+				},{
+					"type": "minecraft:poison",
+					"duration": 160
+				},{
+					"type": "minecraft:wither",
+					"duration": 160
+				}]
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:poisonous_potato",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.25
+			}]
+		}]
+	}]
+}

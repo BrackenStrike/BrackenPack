@@ -1,0 +1,5 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": { "periodic_tick": 200 }
+}

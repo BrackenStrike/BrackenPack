@@ -1,0 +1,31 @@
+{
+	"parent": "bracken:omnidrome/fabricylum",
+	"display": {
+		"title": {
+			"translate": "Powledge is Knower"
+		},
+		"description": {
+			"translate": "Visit an Omnidrome library",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:book"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "bracken:omnidrome_library"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"anvil_cost": 1,
+	"description": {
+		"translate": "Curse of Sentience #1"
+	},
+	"effects": {
+		"minecraft:post_attack": [
+		  {
+			"enchanted": "attacker",
+			"affected": "attacker",
+			"effect": {
+			  "type": "minecraft:play_sound",
+			  "sound": "minecraft:entity.vindicator.ambient",
+			  "volume": 1,
+			  "pitch": 2
+			}
+		  }
+		]
+	  },
+	"max_cost": {
+		"base": 21,
+		"per_level_above_first": 11
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 2,
+		"per_level_above_first": 11
+	},
+	
+	
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:enchantable/durability",
+	"weight": 10
+}

@@ -1,0 +1,10 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "Arnold Rynux - Glacium"
+  },
+  "length_in_seconds": 146.0,
+  "sound_event": {
+    "sound_id": "bracken:glacium"
+  }
+}

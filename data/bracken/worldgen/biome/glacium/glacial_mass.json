@@ -33,7 +33,6 @@
     "features": [
         [],
         [
-            "bracken:glacium/lake"
         ],
         [
             "minecraft:iceberg_packed",
@@ -66,7 +65,7 @@
         "water_color": 4014691,
         "water_fog_color": 7897757,
         "grass_color": 5074010,
-        "foliage_colour": 5074010,
+        "foliage_color": 5074010,
         "particle": {
             "options": {
                 "type": "minecraft:underwater"

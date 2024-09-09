@@ -1,0 +1,23 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:nether_wart"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Essence of Eternity"
+		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888509
+		},{
+			"function": "minecraft:set_custom_data",
+			"tag": "{bp.potion:1b,bp:{id:\"potion_modifier\"}}"
+		},{
+			"function": "set_components",
+			"components": { "minecraft:rarity": "uncommon" }
+		}]
+	}]
+}
