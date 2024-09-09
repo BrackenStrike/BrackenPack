@@ -14,9 +14,7 @@
         ]
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": []
-    },
+    
     "features": [
         [
             "bracken:panacea/honey_pile"

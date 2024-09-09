@@ -65,9 +65,7 @@
         ]
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": []
-    },
+    
     "features": [
         [],
         ["bracken:faewild/lapis_ore","bracken:faewild/copper_ore"],

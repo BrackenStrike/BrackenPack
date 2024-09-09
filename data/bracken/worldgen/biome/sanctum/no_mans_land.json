@@ -15,9 +15,7 @@
         "monster": []
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": []
-    },
+    
     "features": [
         [
             "minecraft:fossil_upper",

@@ -53,9 +53,7 @@
         ]
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": []
-    },
+    
     "features": [
         [
             "bracken:faewild/candles1"

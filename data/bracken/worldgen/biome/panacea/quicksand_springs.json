@@ -102,9 +102,7 @@
         ]
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": []
-    },
+    
     "features": [
         [
             "minecraft:rooted_azalea_tree"

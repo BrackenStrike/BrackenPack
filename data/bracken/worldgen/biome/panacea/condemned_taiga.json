@@ -7,9 +7,7 @@
         "creature": []
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": []
-    },
+    
     "features": [
         [
             "minecraft:small_basalt_columns"

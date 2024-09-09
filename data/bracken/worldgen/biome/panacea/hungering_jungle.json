@@ -113,9 +113,7 @@
         ]
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": []
-    },
+    
     "features": [
         [
             "bracken:panacea/bog_tree"

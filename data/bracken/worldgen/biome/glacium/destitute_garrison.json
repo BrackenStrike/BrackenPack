@@ -46,9 +46,7 @@
         ]
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": []
-    },
+    
     "features": [
         [
             "minecraft:spring_lava_frozen"
