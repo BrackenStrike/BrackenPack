@@ -9,11 +9,68 @@
 			"base": -0.6,
 			"per_level_above_first": -0.15
 		  },
-		  "attribute": "minecraft:generic.burning_time",
+		  "attribute": "minecraft:burning_time",
 		  "id": "minecraft:enchantment.fire_protection",
 		  "operation": "add_multiplied_base"
 		}
 	  ],
+	 
+		"minecraft:location_changed": [{
+			"effect": {
+				"type": "minecraft:replace_disk",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:magma_block",
+						"Properties": {
+							"level": "1"
+						}
+					}
+				},
+				"height": 1.0,
+				"offset": [
+					0,-1,0
+				],
+				"predicate": {
+					"type": "minecraft:all_of",
+					"predicates": [{
+						"type": "minecraft:matching_block_tag",
+						"offset": [
+							0,1,0
+						],
+						"tag": "minecraft:air"
+					},{
+						"type": "minecraft:matching_blocks",
+						"blocks": "minecraft:lava"
+					},{
+						"type": "minecraft:matching_fluids",
+						"fluids": "minecraft:lava"
+					  },{
+						"type": "minecraft:unobstructed"
+					}]
+				},
+				"radius": {
+					"type": "minecraft:clamped",
+					"max": 16.0,
+					"min": 0.0,
+					"value": {
+						"type": "minecraft:linear",
+						"base": 2.0,
+						"per_level_above_first": 1.0
+					}
+				},
+				"trigger_game_event": "minecraft:block_place"
+			},
+			"requirements": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"flags": {
+						"is_on_ground": true
+					}
+				}
+			}
+		}],
 
 	  "minecraft:damage_immunity": [{
 			"effect": {},

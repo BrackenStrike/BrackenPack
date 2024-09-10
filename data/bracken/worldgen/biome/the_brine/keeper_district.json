@@ -88,8 +88,7 @@
             "bracken:brine/blackstone_blobs",
             "bracken:brine/redstone_blobs",
             "minecraft:patch_sugar_cane",
-            "minecraft:seagrass_warm",
-            "minecraft:seagrass_simple"
+            "minecraft:seagrass_warm"
         ],
         [
             "bracken:brine/root_blobs"

@@ -10,7 +10,7 @@
 				"base": -0.5,
 				"per_level_above_first": -0.2
 			},
-			"attribute": "minecraft:generic.gravity",
+			"attribute": "minecraft:gravity",
 			"id": "minecraft:enchantment.lessgravity",
 			"operation": "add_multiplied_base"
 		}]

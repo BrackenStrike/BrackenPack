@@ -20,7 +20,7 @@
 			
 			{
 				"id": "bracken.wolf_pugnacity.damage",
-				"attribute": "minecraft:generic.attack_damage",
+				"attribute": "minecraft:attack_damage",
 				"amount": 4,
 				"operation": "add_value"
 			}

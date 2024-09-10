@@ -20,13 +20,13 @@
 			
 			{
 				"id": "bracken.wolf_huskiness.health",
-				"attribute": "minecraft:generic.max_health",
+				"attribute": "minecraft:max_health",
 				"amount": 10,
 				"operation": "add_value"
 			},
 			{
 				"id": "bracken.wolf_huskiness.scale",
-				"attribute": "minecraft:generic.scale",
+				"attribute": "minecraft:scale",
 				"amount": 0.2,
 				"operation": "add_multiplied_base"
 			}
