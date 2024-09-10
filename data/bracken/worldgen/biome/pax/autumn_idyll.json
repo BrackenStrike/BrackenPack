@@ -21,7 +21,8 @@
         "monster": []
     },
     "spawn_costs": {},
-    "carvers": {},
+    "carvers": [],
+   
     "features": [
         [
             "bracken:pax/wheat"

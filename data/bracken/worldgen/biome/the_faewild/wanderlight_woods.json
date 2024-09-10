@@ -77,7 +77,7 @@
         ]
     },
     "spawn_costs": {},
-    
+    "carvers": [],
     "features": [
         ["minecraft:ore_copper","minecraft:ore_lapis"],
         [],

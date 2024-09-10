@@ -1,7 +1,7 @@
 {
     "spawners": {},
     "spawn_costs": {},
-    "carvers": {},
+    "carvers": [],
     "features": [],
     "temperature": 0.95,
     "downfall": 0.1,
