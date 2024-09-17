@@ -1,6 +1,6 @@
 {
 	"description": "Huskiness",
-	"supported_items": "bracken:pet_armor",
+	"supported_items": "#bracken:pet_armor",
 	"weight": 1,
 	"max_level": 1,
 	"min_cost": {
