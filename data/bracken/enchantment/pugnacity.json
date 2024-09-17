@@ -15,6 +15,7 @@
 	"slots": [
 		"body"
 	],
+	"exclusive_set": "#bracken:exclusive_set/pet_armor",
 	"effects": {
 		"minecraft:attributes": [
 			

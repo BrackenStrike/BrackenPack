@@ -1,0 +1,10 @@
+{
+    "values": [
+        "leather_horse_armor",
+        "iron_horse_armor",
+        "golden_horse_armor",
+        "diamond_horse_armor",
+        "minecraft:wolf_armor"
+    ],
+    "replace": false
+}

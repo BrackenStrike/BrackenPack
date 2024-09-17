@@ -1,6 +1,6 @@
 {
 	"description": "Huskiness",
-	"supported_items": "minecraft:wolf_armor",
+	"supported_items": "bracken:pet_armor",
 	"weight": 1,
 	"max_level": 1,
 	"min_cost": {
@@ -15,6 +15,7 @@
 	"slots": [
 		"body"
 	],
+	"exclusive_set": "#bracken:exclusive_set/pet_armor",
 	"effects": {
 		"minecraft:attributes": [
 			

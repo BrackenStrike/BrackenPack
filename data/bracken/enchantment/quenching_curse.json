@@ -21,10 +21,7 @@
 				"block_state": {
 					"type": "minecraft:simple_state_provider",
 					"state": {
-						"Name": "minecraft:magma_block",
-						"Properties": {
-							"level": "1"
-						}
+						"Name": "minecraft:air"
 					}
 				},
 				"height": 1.0,
@@ -41,11 +38,8 @@
 						"tag": "minecraft:air"
 					},{
 						"type": "minecraft:matching_blocks",
-						"blocks": "minecraft:lava"
+						"blocks": "minecraft:fire"
 					},{
-						"type": "minecraft:matching_fluids",
-						"fluids": "minecraft:lava"
-					  },{
 						"type": "minecraft:unobstructed"
 					}]
 				},
