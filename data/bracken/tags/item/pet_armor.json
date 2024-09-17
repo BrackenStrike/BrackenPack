@@ -1,6 +1,6 @@
 {
     "values": [
-        "bracken:horse_armor",
+        "#bracken:horse_armor",
         "minecraft:wolf_armor"
     ],
     "replace": false
