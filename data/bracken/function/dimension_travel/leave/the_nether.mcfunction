@@ -5,4 +5,4 @@
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/the_nether
 
-attribute @s minecraft:generic.attack_damage modifier remove bracken:netherkin.nether_damage
+attribute @s minecraft:attack_damage modifier remove bracken:netherkin.nether_damage

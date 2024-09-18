@@ -4,8 +4,8 @@ function bracken:player/species/hunter/morph
 effect give @s minecraft:water_breathing infinite 0 false
 effect give @s minecraft:dolphins_grace infinite 0 false
 effect give @s minecraft:slowness infinite 4 false
-attribute @s minecraft:generic.scale modifier remove bracken:hunter.scale
-attribute @s minecraft:generic.scale modifier add bracken:hunter.scale -0.4 add_multiplied_base
+attribute @s minecraft:scale modifier remove bracken:hunter.scale
+attribute @s minecraft:scale modifier add bracken:hunter.scale -0.4 add_multiplied_base
 
 advancement revoke @s only bracken:technical/species/hunter/apple
 advancement revoke @s only bracken:technical/species/hunter/beef

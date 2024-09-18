@@ -51,7 +51,7 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:golden_sabre",
 					"amount": 3,
 					"operation": "add_value",

@@ -51,7 +51,7 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:player.entity_interaction_range",
+					"attribute": "minecraft:entity_interaction_range",
 					"id": "bracken:golden_greatsword",
 					"amount": 1,
 					"operation": "add_value",

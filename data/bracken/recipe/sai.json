@@ -22,7 +22,7 @@
             "minecraft:attribute_modifiers": {
                 "modifiers": [
                     {
-                        "type": "minecraft:generic.attack_damage",
+                        "type": "minecraft:attack_damage",
                         "id": "bracken:sai",
                         "amount": 30,
                         "operation": "add_value",

@@ -5,6 +5,6 @@
 
 advancement revoke @s only bracken:technical/dimension_travel/leave/sanctum
 
-attribute @s minecraft:player.block_break_speed modifier add bracken:sanctum_blockbreak 2.75 add_multiplied_base
+attribute @s minecraft:block_break_speed modifier add bracken:sanctum_blockbreak 2.75 add_multiplied_base
 
 function bracken:player/update_effects

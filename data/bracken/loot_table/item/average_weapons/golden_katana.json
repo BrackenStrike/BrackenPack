@@ -61,7 +61,7 @@
 					"operation": "add_value",
 					"slot": "hand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:golden_katana",
 					"amount": 3,
 					"operation": "add_value",

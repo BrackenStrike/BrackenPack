@@ -51,7 +51,7 @@
 					"operation": "add_value",
 					"slot": "hand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:netherite_sabre",
 					"amount": 7,
 					"operation": "add_value",

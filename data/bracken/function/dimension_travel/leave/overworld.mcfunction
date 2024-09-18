@@ -5,5 +5,5 @@
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/overworld
 
-attribute @s minecraft:generic.luck modifier remove bracken:human.luck
+attribute @s minecraft:luck modifier remove bracken:human.luck
 effect clear @s[tag=bp.human] minecraft:hero_of_the_village

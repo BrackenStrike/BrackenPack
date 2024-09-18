@@ -65,7 +65,7 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:cryolith_sabre",
 					"amount": 9,
 					"operation": "add_value",

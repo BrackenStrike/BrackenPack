@@ -41,7 +41,7 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:iron_sickle",
 					"amount": 6,
 					"operation": "add_value",

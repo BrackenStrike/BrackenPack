@@ -3,7 +3,7 @@
 # Creator : crimdev
 ########################################
 
-attribute @s generic.attack_damage modifier remove bracken:outlander_backstab
+attribute @s attack_damage modifier remove bracken:outlander_backstab
 
 title @s actionbar {"text":""}
 

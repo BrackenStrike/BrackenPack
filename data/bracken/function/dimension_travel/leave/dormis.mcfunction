@@ -5,5 +5,5 @@
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/dormis
 
-attribute @s minecraft:generic.movement_speed modifier remove bracken:dormis_speed
-attribute @s minecraft:generic.gravity modifier remove bracken:dormis_gravity
+attribute @s minecraft:movement_speed modifier remove bracken:dormis_speed
+attribute @s minecraft:gravity modifier remove bracken:dormis_gravity

@@ -41,7 +41,7 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:player.entity_interaction_range",
+					"type": "minecraft:entity_interaction_range",
 					"id": "bracken:diamond_short_spear",
 					"amount": 1,
 					"operation": "add_value",

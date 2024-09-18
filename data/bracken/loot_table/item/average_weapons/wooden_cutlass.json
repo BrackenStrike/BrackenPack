@@ -51,7 +51,7 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:wooden_cutlass",
 					"amount": 4,
 					"operation": "add_value",

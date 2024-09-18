@@ -55,13 +55,13 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:generic.jump_strength",
+					"attribute": "minecraft:jump_strength",
 					"id": "bracken:netherite_katana",
 					"amount": -0.5,
 					"operation": "add_value",
 					"slot": "hand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:netherite_katana",
 					"amount": 7,
 					"operation": "add_value",

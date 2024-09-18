@@ -5,6 +5,6 @@
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/sanctum
 
-attribute @s minecraft:player.block_break_speed modifier remove bracken:sanctum_blockbreak
+attribute @s minecraft:block_break_speed modifier remove bracken:sanctum_blockbreak
 
 effect clear @s minecraft:invisibility
