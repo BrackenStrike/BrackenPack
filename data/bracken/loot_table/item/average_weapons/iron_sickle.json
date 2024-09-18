@@ -35,7 +35,7 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"id": "bracken:iron_sickle",
 					"amount": -2.4,
 					"operation": "add_value",

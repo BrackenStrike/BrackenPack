@@ -24,13 +24,13 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"id": "bracken:null",
 					"amount": -0.12,
 					"operation": "add_value",
 					"slot": "offhand"
 				},{
-					"attribute": "minecraft:generic.luck",
+					"attribute": "minecraft:luck",
 					"id": "bracken:null",
 					"amount": 11,
 					"operation": "add_value",

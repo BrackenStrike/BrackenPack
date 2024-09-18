@@ -28,20 +28,20 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:verdant_cutlass",
 					"amount": 4.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:verdant_cutlass",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
-					"type": "minecraft:generic.armor",
+					"type": "minecraft:armor",
 					"id": "bracken:verdant_cutlass",
 					"amount": 1,
 					"operation": "add_value",

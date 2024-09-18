@@ -10,17 +10,17 @@
 					"minecraft:enchantment_glint_override": true,
 					"minecraft:attribute_modifiers": {
 						"modifiers": [{
-							"type": "generic.attack_speed",
+							"type": "attack_speed",
 							"id": "bracken:sanctum_den_void_bomb",
 							"amount": -10,
 							"operation": "add_value"
 						},{
-							"type": "generic.movement_speed",
+							"type": "movement_speed",
 							"id": "bracken:sanctum_den_void_bomb",
 							"amount": -0.01,
 							"operation": "add_value"
 						},{
-							"type": "generic.luck",
+							"type": "luck",
 							"id": "bracken:sanctum_den_void_bomb",
 							"amount": -10,
 							"operation": "add_value"

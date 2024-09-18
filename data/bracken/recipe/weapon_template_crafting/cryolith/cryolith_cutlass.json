@@ -29,20 +29,20 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:cryolith_cutlass",
 					"amount": 9,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:cryolith_cutlass",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
-					"type": "minecraft:generic.armor",
+					"type": "minecraft:armor",
 					"id": "bracken:cryolith_cutlass",
 					"amount": 2,
 					"operation": "add_value",

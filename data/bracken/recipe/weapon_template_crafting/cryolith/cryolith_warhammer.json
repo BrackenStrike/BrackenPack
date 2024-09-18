@@ -29,20 +29,20 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:cryolith_warhammer",
 					"amount": 9,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:cryolith_warhammer",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
-					"type": "minecraft:generic.knockback_resistance",
+					"type": "minecraft:knockback_resistance",
 					"id": "bracken:cryolith_warhammer",
 					"amount": 0.2,
 					"operation": "add_value",

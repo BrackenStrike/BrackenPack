@@ -8,13 +8,13 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:attribute_modifiers": [{
-						"type": "generic.max_health",
+						"type": "max_health",
 						"slot": "chest",
 						"id": "bracken:nightfall_glider",
 						"amount": -2,
 						"operation": "add_value"
 					},{
-						"type": "generic.attack_damage",
+						"type": "attack_damage",
 						"slot": "chest",
 						"id": "bracken:nightfall_glider",
 						"amount": 2,

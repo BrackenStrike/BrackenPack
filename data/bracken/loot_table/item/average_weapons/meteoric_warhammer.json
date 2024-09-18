@@ -44,19 +44,19 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.knockback_resistance",
+					"attribute": "minecraft:knockback_resistance",
 					"id": "bracken:meteoric_warhammer",
 					"amount": 0.2,
 					"operation": "add_value",
 					"slot": "hand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:meteoric_warhammer",
 					"amount": 7,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"id": "bracken:meteoric_warhammer",
 					"amount": -3.2,
 					"operation": "add_value",

@@ -51,19 +51,19 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.knockback_resistance",
+					"attribute": "minecraft:knockback_resistance",
 					"id": "bracken:verdant_warhammer",
 					"amount": 0.2,
 					"operation": "add_value",
 					"slot": "hand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:verdant_warhammer",
 					"amount": 4.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"id": "bracken:verdant_warhammer",
 					"amount": -3,
 					"operation": "add_value",

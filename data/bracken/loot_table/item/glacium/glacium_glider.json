@@ -9,7 +9,7 @@
 				"components": {
 					"minecraft:enchantment_glint_override": true,
 					"minecraft:attribute_modifiers": [{
-						"type": "generic.movement_speed",
+						"type": "movement_speed",
 						"slot": "chest",
 						"id": "chest.movement_speed",
 						"amount": 0.04,

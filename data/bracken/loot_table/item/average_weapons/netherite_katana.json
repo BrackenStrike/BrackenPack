@@ -43,13 +43,13 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.movement_speed",
+					"attribute": "minecraft:movement_speed",
 					"id": "bracken:netherite_katana",
 					"amount": 0.05,
 					"operation": "add_value",
 					"slot": "hand"
 				},{
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"id": "bracken:netherite_katana",
 					"amount": -2.4,
 					"operation": "add_value",

@@ -44,19 +44,19 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.armor",
+					"attribute": "minecraft:armor",
 					"id": "bracken:lustra_cutlass",
 					"amount": 4,
 					"operation": "add_value",
 					"slot": "hand"
 				},{
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"id": "bracken:lustra_cutlass",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:lustra_cutlass",
 					"amount": 3,
 					"operation": "add_value",

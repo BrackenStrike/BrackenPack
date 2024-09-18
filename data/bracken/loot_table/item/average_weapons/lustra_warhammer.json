@@ -44,13 +44,13 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.knockback_resistance",
+					"attribute": "minecraft:knockback_resistance",
 					"id": "bracken:lustra_warhammer",
 					"amount": 0.2,
 					"operation": "add_value",
 					"slot": "hand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:lustra_warhammer",
 					"amount": 3,
 					"operation": "add_value",

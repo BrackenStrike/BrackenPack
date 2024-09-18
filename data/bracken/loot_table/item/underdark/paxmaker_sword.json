@@ -15,13 +15,13 @@
 						"bracken:guarding":5
 					},
 					"minecraft:attribute_modifiers": [{
-						"type": "generic.movement_speed",
+						"type": "movement_speed",
 						"slot": "mainhand",
 						"id": "bracken:paxmaker_sword",
 						"amount": 0.01,
 						"operation": "add_value"
 					},{
-						"type": "generic.attack_damage",
+						"type": "attack_damage",
 						"slot": "mainhand",
 						"id": "bracken:paxmaker_sword",
 						"amount": 12,

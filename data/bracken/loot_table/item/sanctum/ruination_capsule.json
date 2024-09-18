@@ -35,10 +35,10 @@
 						"PersistenceRequired": 1,
 						"LifeTicks": 200000,
 						"attributes": [{
-							"id": "generic.follow_range",
+							"id": "follow_range",
 							"base": 70
 						},{
-							"id": "generic.attack_damage",
+							"id": "attack_damage",
 							"base": 0
 						}],
 						"Tags": [

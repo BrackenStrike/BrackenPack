@@ -44,13 +44,13 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"id": "bracken:golden_short_spear",
 					"amount": -0.776,
 					"operation": "add_multiplied_base",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:golden_short_spear",
 					"amount": 3,
 					"operation": "add_value",
