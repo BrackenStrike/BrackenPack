@@ -8,7 +8,7 @@ tag @s remove bp.nereid
 team leave @s[team=Nereid]
 
 #attribute @s minecraft:water_movement_efficiency modifier remove bracken:nereid.water_movement_efficiency
-attribute @s minecraft:player.submerged_mining_speed modifier remove bracken:nereid.submerged_mining_speed
+attribute @s minecraft:submerged_mining_speed modifier remove bracken:nereid.submerged_mining_speed
 attribute @s minecraft:movement_speed modifier remove bracken:nereid.on_land.movement_speed
 
 

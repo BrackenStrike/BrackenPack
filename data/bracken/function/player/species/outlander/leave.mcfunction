@@ -8,7 +8,7 @@ tag @s remove bp.outlander
 team leave @s[team=Outlander]
 
 attribute @s minecraft:scale modifier remove bracken:outlander.scale
-attribute @s minecraft:player.block_interaction_range modifier remove bracken:outlander.block_range
+attribute @s minecraft:block_interaction_range modifier remove bracken:outlander.block_range
 attribute @s attack_damage modifier remove bracken:outlander_backstab
 
 
