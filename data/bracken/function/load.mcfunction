@@ -54,6 +54,7 @@ scoreboard objectives add bp.altum_archeon minecraft.used:minecraft.netherite_pi
 scoreboard objectives add bp.cleaver_of_judgement dummy
 scoreboard objectives add bp.piercer_of_heavens minecraft.used:minecraft.bow
 scoreboard objectives add bp.frost_spite_death deathCount
+scoreboard objectives add bp.elytra_dive dummy
 
 #aequor
 scoreboard objectives add bp.aequor_speed dummy
