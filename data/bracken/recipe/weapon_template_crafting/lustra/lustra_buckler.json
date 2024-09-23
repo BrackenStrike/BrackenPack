@@ -4,13 +4,13 @@
 	  "item": "minecraft:vex_armor_trim_smithing_template"
 	},
 	"base": {
-	  "item": "minecraft:stone_sword"
+	  "item": "minecraft:golden_sword"
 	},
 	"addition": {
 	  "item": "minecraft:sheep_spawn_egg"
 	},
 	"result": {
-		"id": "minecraft:stone_sword",
+		"id": "minecraft:golden_sword",
 		"components": {
 			"minecraft:max_damage": 3000,
 			"minecraft:item_name": "\"Lustra Buckler\"",

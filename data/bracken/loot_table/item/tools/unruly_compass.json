@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:apple",
+			"name": "minecraft:feather",
 			"functions": [{
 				"function": "minecraft:set_name",
 				"target": "item_name",
@@ -12,10 +12,25 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:enchantment_glint_override": true,
-					"minecraft:custom_model_data": 888519,
+					"minecraft:custom_model_data": 888502,
 					"minecraft:custom_data": {
 						"bp": { "id": "unruly_compass" }
-					}
+					},
+
+					"minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true,
+              "eat_seconds": 1,
+              "using_converts_to": {
+                "id": "minecraft:feather",
+                "components": {
+                  "minecraft:item_name": "\"Broken Compass\"",
+				  "minecraft:custom_model_data": 888501
+                }
+              }
+            }
+
 				}
 			}]
 		}]

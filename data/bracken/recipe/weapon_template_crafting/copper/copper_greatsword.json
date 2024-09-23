@@ -4,13 +4,13 @@
 	  "item": "minecraft:dune_armor_trim_smithing_template"
 	},
 	"base": {
-	  "item": "minecraft:golden_sword"
+	  "item": "minecraft:stone_sword"
 	},
 	"addition": {
 	  "item": "minecraft:copper_ingot"
 	},
 	"result": {
-		"id": "minecraft:golden_sword",
+		"id": "minecraft:stone_sword",
 		"components": {
 			"minecraft:max_damage": 175,
 			"minecraft:item_name": "\"Copper Greatsword\"",

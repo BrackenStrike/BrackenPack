@@ -15,7 +15,7 @@
 		}
 	},
 	"result": {
-		"id": "minecraft:stone_axe",
+		"id": "minecraft:golden_axe",
 		"components": {
 			"minecraft:max_damage": 3000,
 			"minecraft:item_name": "\"Lustra Axe\"",

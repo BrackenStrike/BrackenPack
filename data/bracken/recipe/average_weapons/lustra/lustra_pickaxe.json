@@ -15,7 +15,7 @@
 		}
 	},
 	"result": {
-		"id": "minecraft:stone_pickaxe",
+		"id": "minecraft:golden_pickaxe",
 		"components": {
 			"minecraft:max_damage": 3000,
 			"minecraft:item_name": "\"Lustra Pickaxe\"",

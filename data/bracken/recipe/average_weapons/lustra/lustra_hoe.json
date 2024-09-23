@@ -15,7 +15,7 @@
 		}
 	},
 	"result": {
-		"id": "minecraft:stone_hoe",
+		"id": "minecraft:golden_hoe",
 		"components": {
 			"minecraft:max_damage": 3000,
 			"minecraft:item_name": "\"Lustra Hoe\"",

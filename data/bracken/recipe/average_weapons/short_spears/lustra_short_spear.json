@@ -15,7 +15,7 @@
 		}
 	},
 	"result": {
-		"id": "minecraft:stone_sword",
+		"id": "minecraft:golden_sword",
 		"components": {
 			"minecraft:max_damage": 256,
 			"minecraft:item_name": "\"Lustra Short Spear\"",

@@ -15,7 +15,7 @@
 		}
 	},
 	"result": {
-		"id": "minecraft:golden_pickaxe",
+		"id": "minecraft:stone_pickaxe",
 		"components": {
 			"minecraft:max_damage": 175,
 			"minecraft:item_name": "\"Copper Pickaxe\"",

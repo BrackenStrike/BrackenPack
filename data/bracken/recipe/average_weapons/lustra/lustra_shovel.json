@@ -15,7 +15,7 @@
 		}
 	},
 	"result": {
-		"id": "minecraft:stone_shovel",
+		"id": "minecraft:golden_shovel",
 		"components": {
 			"minecraft:max_damage": 3000,
 			"minecraft:item_name": "\"Lustra Shovel\"",

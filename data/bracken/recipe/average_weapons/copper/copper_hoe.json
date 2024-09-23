@@ -15,7 +15,7 @@
 		}
 	},
 	"result": {
-		"id": "minecraft:golden_hoe",
+		"id": "minecraft:stone_hoe",
 		"components": {
 			"minecraft:max_damage": 175,
 			"minecraft:item_name": "\"Copper Hoe\"",
