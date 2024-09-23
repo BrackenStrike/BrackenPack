@@ -14,7 +14,11 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:max_damage": 200
+					"minecraft:max_damage": 200,
+					"minecraft:equippable": {
+						"slot": "head",
+						"model": "bracken:cryolith",
+					"equip_sound": "minecraft:block.snow.fall"}
 				}
 			},{
 				"function": "set_enchantments",

@@ -3,36 +3,21 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "item",
-			"name": "minecraft:leather_chestplate",
+			"name": "minecraft:chainmail_chestplate",
 			"functions": [{
 				"function": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Verdant Chestplate"
+				"name": "Copper Chestplate"
 			},{
 				"function": "minecraft:set_custom_model_data",
 				"value": 888502
 			},{
-				"function": "set_enchantments",
-				"enchantments": {
-					
-					"bracken:vitality_curse": 1,
-					
-					"minecraft:mending": 1
-				}
-			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:max_damage": 500,
+					"minecraft:max_damage": 175,
 					"minecraft:equippable": {
 						"slot": "chest",
-						"model": "bracken:verdant",
-					"equip_sound": "minecraft:item.bone_meal.use"}
-				}
-			},{
-				"function": "minecraft:set_components",
-				"components": {
-					"minecraft:dyed_color": {
-						"rgb": 505095
+						"model": "bracken:copper"
 					}
 				}
 			},{

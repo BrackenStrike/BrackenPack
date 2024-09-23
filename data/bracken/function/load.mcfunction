@@ -13,7 +13,7 @@ function bracken:math/load
 function bracken:entities/boss/solatium_thrall/load
 function bracken:entities/boss/bygone_viceroy/load
 function bracken:entities/boss/the_disruptor/load
-function bracken:entities/boss/project_ruination/load
+function bracken:entities/boss/ostiarius/load
 function bracken:entities/boss/sporangium/load
 function bracken:entities/boss/unsung/load
 function bracken:entities/boss/fae_emperor/load

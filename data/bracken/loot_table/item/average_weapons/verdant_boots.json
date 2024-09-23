@@ -22,7 +22,11 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:max_damage": 500
+					"minecraft:max_damage": 500,
+					"minecraft:equippable": {
+						"slot": "feet",
+						"model": "bracken:verdant",
+					"equip_sound": "minecraft:item.bone_meal.use"}
 				}
 			},{
 				"function": "minecraft:set_components",

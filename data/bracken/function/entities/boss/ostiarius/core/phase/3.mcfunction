@@ -1,15 +1,15 @@
 execute if score @s bp.prjct_ruin.cd matches ..0 store result score @s bp.prjct_ruin.a run random value 0..2
 
 scoreboard players set data bp.prjct_ruin 0
-execute as @e[tag=bp.project_ruination.wave] run scoreboard players add data bp.prjct_ruin 1
+execute as @e[tag=bp.ostiarius.wave] run scoreboard players add data bp.prjct_ruin 1
 
-execute if score @s bp.prjct_ruin.cd matches ..0 if score @s bp.prjct_ruin.a matches 0 if score data bp.prjct_ruin matches 0 run function bracken:entities/boss/project_ruination/core/attack/squid
-execute if score @s bp.prjct_ruin.cd matches ..0 if score @s bp.prjct_ruin.a matches 1 run function bracken:entities/boss/project_ruination/core/attack/blackout
-execute if score @s bp.prjct_ruin.cd matches ..0 if score @s bp.prjct_ruin.a matches 2 run function bracken:entities/boss/project_ruination/core/attack/pillar
+execute if score @s bp.prjct_ruin.cd matches ..0 if score @s bp.prjct_ruin.a matches 0 if score data bp.prjct_ruin matches 0 run function bracken:entities/boss/ostiarius/core/attack/squid
+execute if score @s bp.prjct_ruin.cd matches ..0 if score @s bp.prjct_ruin.a matches 1 run function bracken:entities/boss/ostiarius/core/attack/blackout
+execute if score @s bp.prjct_ruin.cd matches ..0 if score @s bp.prjct_ruin.a matches 2 run function bracken:entities/boss/ostiarius/core/attack/pillar
 
-execute unless score @s bp.prjct_ruin.cd matches ..0 if score @s bp.prjct_ruin.a matches 0 run function bracken:entities/boss/project_ruination/core/attack/squid
-execute unless score @s bp.prjct_ruin.cd matches ..0 if score @s bp.prjct_ruin.a matches 1 run function bracken:entities/boss/project_ruination/core/attack/blackout
-execute unless score @s bp.prjct_ruin.cd matches ..0 if score @s bp.prjct_ruin.a matches 2 run function bracken:entities/boss/project_ruination/core/attack/pillar
+execute unless score @s bp.prjct_ruin.cd matches ..0 if score @s bp.prjct_ruin.a matches 0 run function bracken:entities/boss/ostiarius/core/attack/squid
+execute unless score @s bp.prjct_ruin.cd matches ..0 if score @s bp.prjct_ruin.a matches 1 run function bracken:entities/boss/ostiarius/core/attack/blackout
+execute unless score @s bp.prjct_ruin.cd matches ..0 if score @s bp.prjct_ruin.a matches 2 run function bracken:entities/boss/ostiarius/core/attack/pillar
 
 scoreboard players remove @s bp.prjct_ruin.cd 1
 
