@@ -16,6 +16,10 @@
 		"components": {
 			"minecraft:max_damage": 200,
 			"minecraft:item_name": "\"Cryolith Helmet\"",
+			"minecraft:equippable": {
+					"slot": "head",
+					"model": "bracken:cryolith",
+					"equip_sound": "minecraft:block.snow.fall"},
 			"minecraft:enchantments": {
         "minecraft:vanishing_curse": 1,
         "bracken:quenching_curse": 1,

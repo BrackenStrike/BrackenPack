@@ -21,7 +21,12 @@
 						"operation": "add_value"
 					}],
 					"minecraft:custom_model_data": 888502,
-					"minecraft:rarity": "uncommon"
+					
+					"minecraft:equippable": {
+							"slot": "chest",
+							"model": "bracken:nightfall",
+							"equip_sound": "minecraft:entity.ender_dragon.flap"},
+					"minecraft:rarity": "rare"
 				}
 			},{
 				"function": "set_name",

@@ -19,6 +19,10 @@
 		"components": {
 			"minecraft:max_damage": 500,
 			"minecraft:item_name": "\"Verdant Chestplate\"",
+			"minecraft:equippable": {
+					"slot": "chest",
+					"model": "bracken:verdant",
+					"equip_sound": "minecraft:item.bone_meal.use"},
 			"minecraft:enchantments": {
         "minecraft:mending": 1,
         "bracken:vitality_curse": 1

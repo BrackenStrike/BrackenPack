@@ -15,6 +15,11 @@
 		"id": "minecraft:diamond_boots",
 		"components": {
 			"minecraft:max_damage": 200,
+			"minecraft:equippable": {
+					"slot": "feet",
+					"model": "bracken:cryolith",
+					"equip_sound": "minecraft:block.snow.fall"},
+
 			"minecraft:item_name": "\"Cryolith Boots\"",
 			"minecraft:enchantments": {
         "minecraft:vanishing_curse": 1,

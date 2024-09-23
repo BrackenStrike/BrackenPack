@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"# #",
+		"   "
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:sheep_spawn_egg"
+		}
+	},
+	"result": {
+		"id": "minecraft:netherite_helmet",
+		"components": {
+			"minecraft:max_damage": 3000,
+			"minecraft:item_name": "\"Lustra Helmet\"",
+			"minecraft:equippable": {
+					"slot": "head",
+					"model": "bracken:lustra"},
+			"minecraft:custom_model_data": 888502
+		}
+	}
+}

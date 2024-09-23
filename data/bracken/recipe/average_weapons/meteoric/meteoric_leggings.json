@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"# #",
+		"# #"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:netherite_scrap"
+		}
+	},
+	"result": {
+		"id": "minecraft:netherite_leggings",
+		"components": {
+			"minecraft:max_damage": 1000,
+			"minecraft:item_name": "\"Meteoric Leggings\"",
+			"minecraft:equippable": {
+					"slot": "legs",
+					"model": "bracken:meteoric"},
+			"minecraft:custom_model_data": 888502
+		}
+	}
+}

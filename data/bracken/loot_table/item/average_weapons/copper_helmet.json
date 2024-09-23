@@ -16,7 +16,7 @@
 				"components": {
 					"minecraft:max_damage": 175,
 					"minecraft:equippable": {
-						"slot": "chest",
+						"slot": "head",
 						"model": "bracken:copper"
 					}
 				}

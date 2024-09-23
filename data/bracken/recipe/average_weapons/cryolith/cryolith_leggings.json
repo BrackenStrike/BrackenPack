@@ -1,19 +1,25 @@
 {
-	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:netherite_upgrade_smithing_template"
-	},
-	"base": {
-	  "item": "minecraft:diamond_leggings"
-	},
-	"addition": {
-	  "item": "minecraft:polar_bear_spawn_egg"
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"# #",
+		"# #"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:polar_bear_spawn_egg"
+		}
 	},
 	"result": {
 		"id": "minecraft:diamond_leggings",
 		"components": {
 			"minecraft:max_damage": 200,
 			"minecraft:item_name": "\"Cryolith Leggings\"",
+			"minecraft:equippable": {
+					"slot": "head",
+					"model": "bracken:cryolith",
+					"equip_sound": "minecraft:block.snow.fall"},
 			"minecraft:enchantments": {
         "minecraft:vanishing_curse": 1,
         "bracken:quenching_curse": 1,
