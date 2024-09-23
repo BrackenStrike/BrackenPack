@@ -25,6 +25,9 @@ scoreboard players set @s[scores={bp.death=0}] bp.cooldown 0
 # frost spite
 execute if score @s bp.frost_spite_death matches 1.. run function bracken:item/frost_spite/search
 
+# golden horn
+execute if score @s bp.elytra_dive matches 1.. run function bracken:item/golden_horn_effect
+
 # Altum Archeon
 #scoreboard players set @s bp.altum_archeon 0
 
