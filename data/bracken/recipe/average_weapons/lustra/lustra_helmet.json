@@ -1,17 +1,13 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"pattern": [
-		"###",
-		"# #",
-		"   "
-	],
-	"key": {
-		"#":  "minecraft:sheep_spawn_egg"
-		
-	},
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:armadillo_spawn_egg"
+	,
+	"base": "minecraft:golden_helmet"
+	,
+	"addition": "minecraft:sheep_spawn_egg"
+	,
 	"result": {
-		"id": "minecraft:netherite_helmet",
+		"id": "minecraft:golden_helmet",
 		"components": {
 			"minecraft:max_damage": 3000,
 			"minecraft:item_name": "\"Lustra Helmet\"",

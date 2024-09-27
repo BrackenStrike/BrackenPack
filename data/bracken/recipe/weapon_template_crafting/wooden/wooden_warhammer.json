@@ -4,9 +4,7 @@
 	,
 	"base": "minecraft:wooden_sword"
 	  ,
-	  "addition": {
-		"tag": "minecraft:planks"
-	  },
+	  "addition": "#minecraft:planks",
 	  "result": {
 		  "id": "minecraft:wooden_sword",
 		  "components": {

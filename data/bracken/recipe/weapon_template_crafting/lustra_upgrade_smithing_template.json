@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "#": "minecraft:gold_ingot",
+      "C": "minecraft:prismarine_bricks",
+      "S": "minecraft:armadillo_spawn_egg"
+    },
+    "pattern": [
+      "#S#",
+      "#C#",
+      "###"
+    ],
+    "result": {
+        "id": "minecraft:armadillo_spawn_egg",
+        "components": {
+            "minecraft:item_name": "\"Lustra Upgrade Smithing Template\"",
+            "minecraft:custom_model_data": 888501
+        }
+    }
+}

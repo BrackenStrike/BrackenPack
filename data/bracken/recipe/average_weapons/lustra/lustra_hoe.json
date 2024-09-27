@@ -1,17 +1,11 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"pattern": [
-		"##",
-		" /",
-		" /"
-	],
-	"key": {
-		"#":  "minecraft:sheep_spawn_egg"
-		,
-		"/":  "minecraft:stick"
-		
-	},
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:armadillo_spawn_egg"
+	,
+	"base": "minecraft:golden_hoe"
+	,
+	"addition": "minecraft:sheep_spawn_egg"
+	,
 	"result": {
 		"id": "minecraft:golden_hoe",
 		"components": {

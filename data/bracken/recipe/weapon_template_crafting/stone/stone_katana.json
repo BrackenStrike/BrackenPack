@@ -4,9 +4,7 @@
 	,
 	"base": "minecraft:stone_sword"
 	  ,
-	  "addition": {
-		"tag": "minecraft:stone_tool_materials"
-	  },
+	  "addition": "#minecraft:stone_tool_materials",
 	  "result": {
 		  "id": "minecraft:stone_sword",
 		  "components": {

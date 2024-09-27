@@ -1,17 +1,13 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"pattern": [
-		"# #",
-		"###",
-		"###"
-	],
-	"key": {
-		"#":  "minecraft:sheep_spawn_egg"
-		
-	},
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:armadillo_spawn_egg"
+	,
+	"base": "minecraft:golden_chestplate"
+	,
+	"addition": "minecraft:sheep_spawn_egg"
+	,
 	"result": {
-		"id": "minecraft:netherite_chestplate",
+		"id": "minecraft:golden_chestplate",
 		"components": {
 			"minecraft:max_damage": 3000,
 			"minecraft:equippable": {
