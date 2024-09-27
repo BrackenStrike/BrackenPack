@@ -7,12 +7,10 @@
 		" /"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:polar_bear_spawn_egg"
-		},
-		"/": {
-			"item": "minecraft:stick"
-		}
+		"#":  "minecraft:polar_bear_spawn_egg"
+		,
+		"/":  "minecraft:stick"
+		
 	},
 	"result": {
 		"id": "minecraft:iron_axe",

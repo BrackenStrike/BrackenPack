@@ -7,9 +7,8 @@
 		"# #"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:polar_bear_spawn_egg"
-		}
+		"#":  "minecraft:polar_bear_spawn_egg"
+		
 	},
 	"result": {
 		"id": "minecraft:diamond_leggings",

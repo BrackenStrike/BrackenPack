@@ -7,12 +7,10 @@
 		"/  "
 	],
 	"key": {
-		"/": {
-			"item": "minecraft:stick"
-		},
-		"#": {
-			"item": "minecraft:gold_ingot"
-		}
+		"/":  "minecraft:stick"
+		,
+		"#":  "minecraft:gold_ingot"
+		
 	},
 	"result": {
 		"id": "minecraft:golden_sword",

@@ -7,12 +7,10 @@
 		" /"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:copper_ingot"
-		},
-		"/": {
-			"item": "minecraft:stick"
-		}
+		"#":  "minecraft:copper_ingot"
+		,
+		"/":  "minecraft:stick"
+		
 	},
 	"result": {
 		"id": "minecraft:stone_axe",

@@ -5,12 +5,10 @@
         "H"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:emerald"
-        },
-        "H": {
-            "item": "minecraft:honey_bottle"
-        }
+        "#": "minecraft:emerald"
+        ,
+        "H": "minecraft:honey_bottle"
+        
     },
     "result": {
         "id": "minecraft:experience_bottle",

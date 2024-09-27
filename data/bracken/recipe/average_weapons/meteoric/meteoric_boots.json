@@ -7,9 +7,8 @@
 		"   "
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:netherite_scrap"
-		}
+		"#":  "minecraft:netherite_scrap"
+		
 	},
 	"result": {
 		"id": "minecraft:netherite_boots",

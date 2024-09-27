@@ -1,14 +1,11 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:host_armor_trim_smithing_template"
-	},
-	"base": {
-		"item": "minecraft:wooden_sword"
-	  },
-	  "addition": {
-		"item": "minecraft:pitcher_pod"
-	  },
+	"template": "minecraft:host_armor_trim_smithing_template"
+	,
+	"base": "minecraft:wooden_sword"
+	  ,
+	  "addition": "minecraft:pitcher_pod"
+	  ,
 	  "result": {
 		  "id": "minecraft:wooden_sword",
 		  "components": {

@@ -7,12 +7,10 @@
 		"###"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:pitcher_pod"
-		},
-		"/": {
-			"item": "minecraft:leather"
-		}
+		"#":  "minecraft:pitcher_pod"
+		,
+		"/":  "minecraft:leather"
+		
 	},
 	"result": {
 		"id": "minecraft:leather_helmet",

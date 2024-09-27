@@ -1,11 +1,9 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:sentry_armor_trim_smithing_template"
-	},
-	"base": {
-		"item": "minecraft:wooden_sword"
-	  },
+	"template": "minecraft:sentry_armor_trim_smithing_template"
+	,
+	"base": "minecraft:wooden_sword"
+	  ,
 	  "addition": {
 		"tag": "minecraft:planks"
 	  },

@@ -6,12 +6,10 @@
         "/"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:netherite_sword"
-        },
-        "/": {
-            "item": "minecraft:blaze_rod"
-        }
+        "#": "minecraft:netherite_sword"
+        ,
+        "/":"minecraft:blaze_rod"
+        
     },
     "result": {
         "id": "minecraft:netherite_sword",

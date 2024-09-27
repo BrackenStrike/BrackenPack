@@ -5,12 +5,10 @@
         "iii"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:leather"
-        },
-        "i": {
-            "item": "minecraft:iron_ingot"
-        }
+        "#": "minecraft:leather"
+        ,
+        "i": "minecraft:iron_ingot"
+        
     },
     "result": {
         "id": "minecraft:saddle",

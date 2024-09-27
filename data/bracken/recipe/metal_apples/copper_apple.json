@@ -7,12 +7,10 @@
         "###"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:copper_ingot"
-        },
-        "/": {
-            "item": "minecraft:apple"
-        }
+        "#": "minecraft:copper_ingot"
+        ,
+        "/": "minecraft:apple"
+        
     },
     "result": {
         "id": "minecraft:apple",

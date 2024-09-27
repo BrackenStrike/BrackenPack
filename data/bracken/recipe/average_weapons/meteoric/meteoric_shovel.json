@@ -7,12 +7,10 @@
 		"/"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:netherite_scrap"
-		},
-		"/": {
-			"item": "minecraft:stick"
-		}
+		"#":  "minecraft:netherite_scrap"
+		,
+		"/":  "minecraft:stick"
+		
 	},
 	"result": {
 		"id": "minecraft:netherite_shovel",

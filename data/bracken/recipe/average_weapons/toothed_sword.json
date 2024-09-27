@@ -10,12 +10,10 @@
         "#": {
             "tag": "minecraft:planks"
         },
-        "/": {
-            "item": "minecraft:stick"
-        },
-        "$": {
-            "item": "minecraft:vex_spawn_egg"
-        }
+        "/": "minecraft:stick"
+        ,
+        "$": "minecraft:vex_spawn_egg"
+        
     },
     "result": {
 		"id": "minecraft:wooden_sword",

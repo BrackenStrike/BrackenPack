@@ -6,12 +6,10 @@
         "###"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:lapis_lazuli"
-        },
-        "N": {
-            "item": "minecraft:sheep_spawn_egg"
-        }
+        "#": "minecraft:lapis_lazuli"
+        ,
+        "N": "minecraft:sheep_spawn_egg"
+        
     },
     "result": {
         "id": "minecraft:heart_of_the_sea",

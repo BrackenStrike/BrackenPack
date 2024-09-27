@@ -7,12 +7,10 @@
 		" /"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:sheep_spawn_egg"
-		},
-		"/": {
-			"item": "minecraft:stick"
-		}
+		"#":  "minecraft:sheep_spawn_egg"
+		,
+		"/":  "minecraft:stick"
+		
 	},
 	"result": {
 		"id": "minecraft:golden_hoe",

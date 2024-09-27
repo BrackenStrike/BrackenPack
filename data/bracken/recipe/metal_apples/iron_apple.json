@@ -7,12 +7,10 @@
         "###"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:iron_ingot"
-        },
-        "/": {
-            "item": "minecraft:apple"
-        }
+        "#": "minecraft:iron_ingot"
+        ,
+        "/": "minecraft:apple"
+        
     },
     "result": {
         "id": "minecraft:apple",

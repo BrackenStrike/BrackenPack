@@ -7,12 +7,10 @@
         " # "
     ],
     "key": {
-        "#": {
-            "item": "minecraft:copper_ingot"
-        },
-        "/": {
-            "item": "minecraft:redstone"
-        }
+        "#": "minecraft:copper_ingot"
+        ,
+        "/": "minecraft:redstone"
+        
     },
     "result": {
         "id": "minecraft:spider_eye",

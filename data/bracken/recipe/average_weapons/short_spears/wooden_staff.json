@@ -7,9 +7,8 @@
 		"/  "
 	],
 	"key": {
-		"/": {
-			"item": "minecraft:stick"
-		}
+		"/":  "minecraft:stick"
+		
 	},
 	"result": {
 		"id": "minecraft:wooden_sword",

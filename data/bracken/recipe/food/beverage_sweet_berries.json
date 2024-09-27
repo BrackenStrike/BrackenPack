@@ -7,15 +7,12 @@
         " # "
     ],
     "key": {
-        "$": {
-            "item": "minecraft:drowned_spawn_egg"
-        },
-        "D": {
-            "item": "minecraft:sweet_berries"
-        },
-        "#": {
-            "item": "minecraft:ominous_bottle"
-        }
+        "$": "minecraft:drowned_spawn_egg"
+        ,
+        "D": "minecraft:sweet_berries"
+        ,
+        "#": "minecraft:ominous_bottle"
+        
     },
     "result": {
         "id": "minecraft:ominous_bottle",

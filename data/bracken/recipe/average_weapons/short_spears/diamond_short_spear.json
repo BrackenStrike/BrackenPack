@@ -7,12 +7,10 @@
 		"/  "
 	],
 	"key": {
-		"/": {
-			"item": "minecraft:stick"
-		},
-		"#": {
-			"item": "minecraft:diamond"
-		}
+		"/":  "minecraft:stick"
+		,
+		"#":  "minecraft:diamond"
+		
 	},
 	"result": {
 		"id": "minecraft:diamond_sword",

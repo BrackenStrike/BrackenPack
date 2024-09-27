@@ -6,9 +6,8 @@
         "###"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:coal_block"
-        },
+        "#": "minecraft:coal_block"
+        ,
         "R": {
             "item": "minecraft:rose_bush"
         }

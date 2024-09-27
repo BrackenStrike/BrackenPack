@@ -7,9 +7,8 @@
         "   "
     ],
     "key": {
-        "/": {
-            "item": "minecraft:allay_spawn_egg"
-        }
+        "/": "minecraft:allay_spawn_egg"
+        
     },
     "result": {
         "id": "minecraft:drowned_spawn_egg",

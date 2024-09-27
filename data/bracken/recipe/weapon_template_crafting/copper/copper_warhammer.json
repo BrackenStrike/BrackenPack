@@ -1,14 +1,11 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:ward_armor_trim_smithing_template"
-	},
-	"base": {
-	  "item": "minecraft:stone_sword"
-	},
-	"addition": {
-	  "item": "minecraft:copper_ingot"
-	},
+	"template": "minecraft:ward_armor_trim_smithing_template"
+	,
+	"base": "minecraft:stone_sword"
+	,
+	"addition": "minecraft:copper_ingot"
+	,
 	"result": {
 		"id": "minecraft:stone_sword",
 		"components": {

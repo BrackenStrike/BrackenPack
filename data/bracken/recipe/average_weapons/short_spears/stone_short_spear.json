@@ -7,9 +7,8 @@
 		"/  "
 	],
 	"key": {
-		"/": {
-			"item": "minecraft:stick"
-		},
+		"/":  "minecraft:stick"
+		,
 		"#": {
 			"tag": "minecraft:stone_tool_materials"
 		}
