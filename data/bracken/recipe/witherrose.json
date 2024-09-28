@@ -8,9 +8,8 @@
     "key": {
         "#": "minecraft:coal_block"
         ,
-        "R": {
-            "item": "minecraft:rose_bush"
-        }
+        "R": "minecraft:rose_bush"
+        
     },
     "result": {
         "id": "minecraft:wither_rose",

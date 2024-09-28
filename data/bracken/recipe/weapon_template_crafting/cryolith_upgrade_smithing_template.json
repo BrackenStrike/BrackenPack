@@ -4,7 +4,7 @@
     "key": {
       "#": "minecraft:iron_ingot",
       "C": "minecraft:snow_block",
-      "S": "minecraft:axolotl_spawn_egg"
+      "S": "minecraft:panda_spawn_egg"
     },
     "pattern": [
       "#S#",
@@ -12,7 +12,8 @@
       "###"
     ],
     "result": {
-        "id": "minecraft:axolotl_spawn_egg",
+        "id": "minecraft:panda_spawn_egg",
+        "count": 2,
         "components": {
             "minecraft:item_name": "\"Cryolith Upgrade Smithing Template\"",
             "minecraft:custom_model_data": 888501

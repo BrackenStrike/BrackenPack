@@ -24,7 +24,7 @@
 			"function": "minecraft:set_components",
 			"components": {
 				"minecraft:enchantment_glint_override": true,
-				"minecraft:fire_resistant": {},
+
 				"minecraft:rarity": "uncommon"
 			}
 		},{

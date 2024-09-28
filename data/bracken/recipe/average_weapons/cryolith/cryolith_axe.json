@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:axolotl_spawn_egg"
+	"template": "minecraft:panda_spawn_egg"
 	,
 	"base": "minecraft:iron_axe"
 	,

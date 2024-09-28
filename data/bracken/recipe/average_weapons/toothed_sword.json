@@ -7,9 +7,8 @@
         " / "
     ],
     "key": {
-        "#": {
-            "tag": "minecraft:planks"
-        },
+        "#": "#minecraft:planks"
+	  ,
         "/": "minecraft:stick"
         ,
         "$": "minecraft:vex_spawn_egg"

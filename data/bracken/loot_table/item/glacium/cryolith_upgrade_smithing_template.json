@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:axolotl_spawn_egg"
+			"name": "minecraft:panda_spawn_egg"
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",

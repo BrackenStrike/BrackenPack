@@ -7,14 +7,11 @@
 		"#/#"
 	],
 	"key": {
-		"#":  "minecraft:pitcher_pod"
+		"#":  "minecraft:creeper_spawn_egg"
 		,
 		"/":  "minecraft:stick"
 		,
-		"%": {
-			
-			"tag": "minecraft:planks"
-		  }
+		"%": "#minecraft:planks"
 	},
 	"result": {
 		"id": "minecraft:wooden_pickaxe",

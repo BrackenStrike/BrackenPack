@@ -7,8 +7,11 @@
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:fire_resistant": {},
+					
 					"minecraft:damage": 0.1,
+					"minecraft:damage_resistant": {
+                  "types": "#minecraft:is_explosion"
+                },
 					"minecraft:enchantments": {
 						"minecraft:projectile_protection": 50,
 						"minecraft:binding_curse": 1,
@@ -37,12 +40,7 @@
 						"amount": 100,
 						"operation": "add_value"
 					}],
-					"minecraft:custom_model_data": 888502,
-					"minecraft:custom_data": {
-						"tags": [
-							"bp.fire_immune"
-						]
-					}
+					"minecraft:custom_model_data": 888502
 				}
 			}]
 		}]

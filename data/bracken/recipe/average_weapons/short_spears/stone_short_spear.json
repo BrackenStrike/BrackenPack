@@ -9,9 +9,7 @@
 	"key": {
 		"/":  "minecraft:stick"
 		,
-		"#": {
-			"tag": "minecraft:stone_tool_materials"
-		}
+		"#": "#minecraft:stone_tool_materials"
 	},
 	"result": {
 		"id": "minecraft:stone_sword",

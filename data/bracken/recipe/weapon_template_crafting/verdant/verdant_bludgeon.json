@@ -4,7 +4,7 @@
 	,
 	"base": "minecraft:wooden_sword"
 	,
-	"addition": "minecraft:pitcher_pod"
+	"addition": "minecraft:creeper_spawn_egg"
 	,
 	"result": {
 		"id": "minecraft:wooden_sword",
