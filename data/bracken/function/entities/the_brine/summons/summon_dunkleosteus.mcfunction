@@ -1,5 +1,5 @@
 summon drowned ~ ~ ~ {\
-ArmorItems:[{},{},{},{Count:1b,id:"minecraft:bamboo",components:{"minecraft:custom_model_data":888504}}],\
+ArmorItems:[{},{},{},{Count:1b,id:"minecraft:bamboo",components:{"minecraft:custom_model_data":888504,"minecraft:enchantment_glint_override":false,"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}} }}],\
 ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],\
 CanPickUpLoot:0b,CanBreakDoors:0b,Silent:1b,NoAI:1b,PersistenceRequired:1b,\
 Tags:["bp.dunkleosteus","bp.aquatic","bp.entity","bp.the_brine"],DeathLootTable:"bracken:entity/the_brine/dunkleosteus",\
