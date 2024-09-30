@@ -350,7 +350,7 @@
                 "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                        "Name": "minecraft:bedrock"
+                        "Name": "minecraft:crying_obsidian"
                     }
                 }
             },
