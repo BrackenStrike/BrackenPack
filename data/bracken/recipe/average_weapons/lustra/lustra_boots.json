@@ -15,6 +15,9 @@
 					"model": "bracken:lustra"},
 
 			"minecraft:item_name": "\"Lustra Boots\"",
+			"minecraft:enchantments": {
+        "bracken:integrity_fix": 1
+      },
 			"minecraft:custom_model_data": 888502
 		}
 	}

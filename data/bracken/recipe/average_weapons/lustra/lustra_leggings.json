@@ -11,6 +11,9 @@
 		"components": {
 			"minecraft:max_damage": 3000,
 			"minecraft:item_name": "\"Lustra Leggings\"",
+			"minecraft:enchantments": {
+        "bracken:integrity_fix": 1
+      },
 			"minecraft:equippable": {
 					"slot": "legs",
 					"model": "bracken:lustra"},

@@ -41,7 +41,7 @@
 				"function": "set_enchantments",
 				"enchantments": {
 					
-					"bracken:freezing_curse": 1,
+					"bracken:freezing_fix": 1,
 					"bracken:fragility_curse": 1,
 					"minecraft:vanishing_curse": 1
 				}

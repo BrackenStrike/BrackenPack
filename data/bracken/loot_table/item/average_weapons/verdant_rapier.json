@@ -41,8 +41,8 @@
 				"function": "set_enchantments",
 				"enchantments": {
 					
-					"bracken:poisoning_curse": 1,
-					"minecraft:mending": 1
+					"bracken:poisoning_fix": 1,
+					"bracken:infused_mending_fix": 1
 				}
 			},{
 				"function": "minecraft:set_attributes",

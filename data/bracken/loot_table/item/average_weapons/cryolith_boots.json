@@ -25,7 +25,8 @@
 				"enchantments": {
 					
 					"bracken:fragility_curse": 1,
-					"bracken:quenching_curse": 1,
+					"bracken:quenching_fix": 1,
+					"bracken:infused_frost_walker_fix": 1,
 					"minecraft:vanishing_curse": 1
 				}
 			},

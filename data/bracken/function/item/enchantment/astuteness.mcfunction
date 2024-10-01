@@ -1,0 +1,1 @@
+summon experience_orb ~ ~ ~ {Silent:1b,Value:1}

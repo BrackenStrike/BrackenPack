@@ -13,8 +13,8 @@
 			"minecraft:item_name": "\"Verdant Katana\"",
 			"minecraft:custom_model_data": 888528,
 			"minecraft:enchantments": {
-				"minecraft:mending": 1,
-				"bracken:poisoning_curse": 1
+				"bracken:infused_mending_fix": 1,
+				"bracken:poisoning_fix": 1
 			  },
 			"minecraft:lore": [
 				"{\"translate\":\"\",\"color\":white,\"italic\":false}",

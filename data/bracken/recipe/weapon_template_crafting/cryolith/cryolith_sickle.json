@@ -13,7 +13,7 @@
 			"minecraft:item_name": "\"Cryolith Sickle\"",
 			"minecraft:enchantments": {
         "minecraft:vanishing_curse": 1,
-        "bracken:freezing_curse": 1,
+        "bracken:freezing_fix": 1,
 		"bracken:fragility_curse": 1
       },
 			"minecraft:custom_model_data": 888521,

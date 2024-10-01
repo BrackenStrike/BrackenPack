@@ -20,8 +20,8 @@
 			"minecraft:item_name": "\"Verdant Axe\"",
 			
 			"minecraft:enchantments": {
-        "minecraft:mending": 1,
-        "bracken:poisoning_curse": 1
+        "bracken:infused_mending_fix": 1,
+        "bracken:poisoning_fix": 1
       },
 			"minecraft:custom_model_data": 888501,
 			"minecraft:lore": [

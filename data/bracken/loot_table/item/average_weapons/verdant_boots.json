@@ -15,9 +15,9 @@
 				"function": "set_enchantments",
 				"enchantments": {
 					
-					"bracken:vitality_curse": 1,
+					"bracken:vitality_fix": 1,
 					
-					"minecraft:mending": 1
+					"bracken:infused_mending_fix": 1
 				}
 			},{
 				"function": "minecraft:set_components",
