@@ -87,7 +87,7 @@
             "offset": 2
         },
         "music": {
-            "sound": "minecraft:music.nether.basalt_deltas",
+            "sound": {"sound_id": "bracken:brine"},
             "min_delay": 1200,
             "max_delay": 2400,
             "replace_current_music": true

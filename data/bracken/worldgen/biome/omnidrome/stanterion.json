@@ -55,7 +55,7 @@
             "tick_chance": 0.0001
         },
         "music": {
-            "sound": "minecraft:music.dragon",
+            "sound": {"sound_id": "bracken:glacium"},
             "min_delay": 12000,
             "max_delay": 24000,
             "replace_current_music": true

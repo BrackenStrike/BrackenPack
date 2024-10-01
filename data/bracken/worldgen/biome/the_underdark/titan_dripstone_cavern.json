@@ -149,7 +149,7 @@
             "offset": 2
         },
         "additions_sound": {
-            "sound": "minecraft:ambient.basalt_deltas.mood",
+            "sound": {"sound_id": "bracken:underdark"},
             "tick_chance": 0.0001
         },
         "music": {
