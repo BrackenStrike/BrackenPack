@@ -37,7 +37,7 @@ scoreboard players remove @s bp.nema 1
 
 
 #death
-execute if entity @s[scores={bp.sporangium.health=..60},tag=bp.ready,tag=bp.ready2] run function bracken:entities/boss/sporangium/misc/truedeath
+execute if entity @s[scores={bp.sporangium.health=..60},tag=!bp.death,tag=bp.ready,tag=bp.ready2] run function bracken:entities/boss/sporangium/misc/truedeath
 
 
 
