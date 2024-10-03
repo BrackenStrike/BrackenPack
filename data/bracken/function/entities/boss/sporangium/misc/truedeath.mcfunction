@@ -11,8 +11,12 @@ playsound minecraft:block.portal.trigger hostile @a[distance=..100] ~ ~ ~ 100 2
 
 bossbar remove bracken:sporangium
 
-kill @s
+setblock ~ ~ ~ minecraft:structure_block{posY:-2,posX:-2,posZ:-2,powered:0b,mode:"LOAD",name:"bracken:boss/panacea_boss"}
+setblock ~ ~-1 ~ minecraft:redstone_block
+
 tp @e[type=slime,distance=..100] ~ ~-5000 ~
+
+
 
 
 
