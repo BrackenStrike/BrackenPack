@@ -37,24 +37,10 @@ scoreboard players remove @s bp.nema 1
 
 
 #death
-execute if entity @s[scores={bp.sporangium.health=..60},tag=!bp.death,tag=bp.ready,tag=bp.ready2] run function bracken:entities/boss/sporangium/misc/death
+execute if entity @s[scores={bp.sporangium.health=..60},tag=bp.ready,tag=bp.ready2] run function bracken:entities/boss/sporangium/misc/truedeath
 
 
 
-#death pull
-execute at @e[scores={bp.slimedeath=1..},distance=..100] run tp @e[scores={bp.slimedeath=1..},distance=..1] ^ ^ ^0.5 facing entity @s
-effect give @e[scores={bp.slimedeath=1..},distance=..100] levitation 1 0 true
-
-kill @e[type=slime,scores={bp.slimedeath=1..},tag=bp.spore,distance=..2]
-
-
-#truedeath
-execute if entity @s[scores={bp.deathtimer=140..}] run function bracken:entities/boss/sporangium/misc/truedeath
-execute if entity @s[scores={bp.deathtimer=11..}] run particle minecraft:happy_villager ~ ~1 ~ 1 10 3 0.01 150
-execute if entity @s[scores={bp.deathtimer=11..}] run particle minecraft:dust{color:[1.0, 0.2, 0.0], scale:1.0} ~ ~ ~ 0.5 10 0.5 0.01 100
-scoreboard players add @s[scores={bp.deathtimer=2..}] bp.deathtimer 1
-
-effect give @s[scores={bp.deathtimer=11..}] instant_health 1 1 true
 
 
 #tree jump
