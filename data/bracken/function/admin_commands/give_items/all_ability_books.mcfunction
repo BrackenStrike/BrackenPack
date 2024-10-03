@@ -17,3 +17,5 @@ loot give @s loot bracken:item/ability_books/world_soar
 loot give @s loot bracken:item/ability_books/worm_toothed_burrower
 loot give @s loot bracken:item/ability_books/scatterstorm
 loot give @s loot bracken:item/ability_books/magnificent_mansion
+
+loot give @s loot bracken:item/ability_books/void_pull

@@ -167,6 +167,7 @@ scoreboard objectives add bp.portal dummy
 ##########   ABILITY BOOKS   ##########
 scoreboard objectives add bp.giant dummy
 scoreboard objectives add bp.wtb_cooldown dummy
+scoreboard objectives add bp.void_pull_cooldown dummy
 scoreboard objectives add bp.coas minecraft.used:minecraft.carrot_on_a_stick
 
 scoreboard objectives add bp.offhand dummy
