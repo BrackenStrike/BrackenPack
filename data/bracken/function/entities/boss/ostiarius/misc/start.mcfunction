@@ -8,6 +8,7 @@ summon giant ~0.5 ~0.5 ~0.5 {CustomName:'{"text":"Dinnerbone","color":"green","o
 scoreboard players set @e[type=minecraft:giant,tag=bp.ostiarius.core,distance=..1,limit=1] bp.prjct_ruin.p 1
 scoreboard players set @e[type=minecraft:giant,tag=bp.ostiarius.core,distance=..1,limit=1] bp.prjct_ruin.cd 0
 tellraw @a[distance=..100] {"translate":"SYSTEM RESTART: STAND BY FOR EXTRACTION PROCESS - 01001001 00100000 01101110 01100101 01100101 01100100 00100000 01111001 01101111 01110101 01110010 00100000 01110000 01101111 01110111 01100101 01110010"}
+function bracken:entities/boss/ostiarius/load
 
 playsound minecraft:block.portal.trigger ambient @a[distance=..50] ~ ~ ~ 100 2
 playsound minecraft:block.amethyst_cluster.break ambient @a[distance=..50] ~ ~ ~ 100 0

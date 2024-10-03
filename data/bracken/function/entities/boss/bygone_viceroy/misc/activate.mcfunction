@@ -4,6 +4,7 @@ execute at @p run playsound minecraft:block.glass.break hostile @a[distance=..30
 execute at @p run playsound minecraft:entity.evoker.prepare_attack hostile @a[distance=..30] ~ ~ ~ 1 2
 stopsound @a[distance=..30] music
 playsound bracken:viceroy music @a[distance=..30] ~ ~ ~ 100 1
+advancement grant @a[distance=..50] only bracken:glacium/wake
 
 fill ~1 ~6 ~1 ~-1 ~-2 ~-1 air replace minecraft:ice
 data merge entity @s {Invulnerable:0b,NoAI:0b}
