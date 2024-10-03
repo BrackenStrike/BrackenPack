@@ -1,0 +1,13 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "bracken:moon/waxing_gibbous"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "bracken:moon/waning_gibbous"
+		}
+	]
+}
