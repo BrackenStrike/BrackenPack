@@ -19,6 +19,11 @@
         "components": {
             "minecraft:item_name": "\"Homemade Sugar Cane Beverage\"",
             "minecraft:custom_model_data": 888510,
+            "minecraft:food": {
+				"nutrition": 6,
+				"saturation": 4.8,
+				"can_always_eat": true
+			  },
             "minecraft:custom_data": {
                 "nbt": "{bp:{id:\"beverage_sugar_cane\"}}"
             }

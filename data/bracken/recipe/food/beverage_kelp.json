@@ -19,6 +19,11 @@
         "components": {
             "minecraft:item_name": "\"Homemade Kelp Beverage\"",
             "minecraft:custom_model_data": 888506,
+            "minecraft:food": {
+				"nutrition": 6,
+				"saturation": 4.8,
+				"can_always_eat": true
+			  },
             "minecraft:custom_data": {
                 "nbt": "{bp:{id:\"beverage_kelp\"}}"
             }

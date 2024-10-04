@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:phantom_spawn_egg"
+			"name": "minecraft:elder_guardian_spawn_egg"
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",

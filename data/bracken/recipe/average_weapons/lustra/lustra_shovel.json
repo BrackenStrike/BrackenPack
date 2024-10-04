@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:phantom_spawn_egg"
+	"template": "minecraft:elder_guardian_spawn_egg"
 	,
 	"base": "minecraft:golden_shovel"
 	,

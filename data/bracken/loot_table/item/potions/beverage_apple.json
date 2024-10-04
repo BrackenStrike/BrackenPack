@@ -17,13 +17,7 @@
 				"nutrition": 6,
 				"saturation": 4.8,
 				"can_always_eat": true
-			  },
-			  "minecraft:suspicious_stew_effects": [
-				{
-				  "id": "minecraft:glowing",
-				  "duration": 120000
-				}
-			  ]
+			  }
 			}
 		  },
 		{
