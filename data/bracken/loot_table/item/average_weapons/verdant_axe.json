@@ -58,7 +58,8 @@
 					
 					"bracken:poisoning_fix": 1,
 					"bracken:infused_mending_fix": 1
-				}
+				},
+                "minecraft:enchantment_glint_override": false
 			},
 			{
 				"function": "minecraft:toggle_tooltips",

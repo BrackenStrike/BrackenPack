@@ -18,7 +18,8 @@
 					"bracken:vitality_fix": 1,
 					
 					"bracken:infused_mending_fix": 1
-				}
+				},
+                "minecraft:enchantment_glint_override": false
 			},{
 				"function": "minecraft:set_components",
 				"components": {

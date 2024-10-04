@@ -15,6 +15,7 @@
 				"bracken:infused_mending_fix": 1,
 				"bracken:poisoning_fix": 1
 			  },
+			  "minecraft:enchantment_glint_override": false,
 			"minecraft:custom_model_data": 888524,
 			"minecraft:lore": [
 				"{\"translate\":\"\",\"color\":white,\"italic\":false}",

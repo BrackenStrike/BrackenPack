@@ -51,7 +51,7 @@
 			},{
 				"function": "set_name",
 				"target": "item_name",
-				"name": "Ruination Capsule"
+				"name": "Ostiarius Capsule"
 			},{
 				"function": "set_lore",
 				"lore": [{
