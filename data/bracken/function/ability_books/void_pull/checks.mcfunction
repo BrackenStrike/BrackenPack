@@ -3,8 +3,8 @@
 # Creators: Grandmaster
 ##########################################################
 
-execute if data storage bracken:config {ability_books_on: true} if entity @s[level=..2] run tellraw @s "You do not have enough levels to cast this spell."
-execute if data storage bracken:config {ability_books_on: true} if entity @s[level=3..] run function bracken:ability_books/void_pull/void_pull
+execute if data storage bracken:config {ability_books_on: true} if entity @s[level=..0] run tellraw @s "You do not have enough levels to cast this spell."
+execute if data storage bracken:config {ability_books_on: true} if entity @s[level=1..] run function bracken:ability_books/void_pull/void_pull
 execute if data storage bracken:config {ability_books_on: false} run tellraw @s "A spell is attempted but nothing happens..."
 
 scoreboard players set @s bp.offhand 0
