@@ -3,7 +3,7 @@
 # Creators: Grandmaster
 ##########################################################
 
-scoreboard players set @s bp.void_pull_cooldown 500
+scoreboard players set @s bp.void_pull_cooldown 800
 
 playsound bracken:ability_book_tier_3 player @a[distance=..30] ~ ~ ~ 10
 tellraw @s ["",{"selector":"@s "},{"translate":" generated [VOID PULL]"}]
