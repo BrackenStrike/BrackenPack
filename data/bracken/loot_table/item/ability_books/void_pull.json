@@ -12,8 +12,8 @@
 		},{
 			"function": "minecraft:set_lore",
 			"lore": [{
-				"translate": "consumes 3 levels",
-				"color": "dark_gray",
+				"translate": "consumes 1 levels",
+				"color": "gray",
 				"italic": false
 			}],
 			"mode": "insert"
