@@ -15,7 +15,8 @@
 	"result": {
 		"id": "minecraft:golden_sword",
 		"components": {
-			"minecraft:max_damage": 256,
+			"minecraft:max_damage": 118,
+			"minecraft:enchantment_glint_override": true,
 			"minecraft:item_name": "\"Lustra Short Spear\"",
 			"minecraft:custom_model_data": 888531,
 			"minecraft:lore": [

@@ -10,6 +10,7 @@
 		"id": "minecraft:golden_sword",
 		"components": {
 			"minecraft:max_damage": 3000,
+			"minecraft:enchantment_glint_override": true,
 			"minecraft:item_name": "\"Lustra Dagger\"",
 			"minecraft:custom_model_data": 888527,
 			"minecraft:lore": [
