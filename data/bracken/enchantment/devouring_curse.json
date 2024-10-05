@@ -12,7 +12,7 @@
 			  "type": "minecraft:all_of",
 			  "effects": [
 				{
-				  "type": "minecraft:damage_item",
+				  "type": "minecraft:change_item_damage",
 				  "amount": 2
 				},
 				{
