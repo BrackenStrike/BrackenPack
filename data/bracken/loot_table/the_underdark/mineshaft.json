@@ -26,6 +26,38 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.01
 			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:defusing": 1,
+					"bracken:rending": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:reverse_thorns": 1,
+					"bracken:splintering": 1
+				},
+				"add": false
+			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:powered_rail",

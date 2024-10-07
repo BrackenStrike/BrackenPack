@@ -37,7 +37,7 @@
 				],
 				"components": {
 				  "minecraft:enchantments": {
-					"bracken:freezing_curse": 1
+					"bracken:freezing_fix": 1
 				  }
 				}
 			  }

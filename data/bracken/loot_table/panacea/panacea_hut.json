@@ -21,6 +21,23 @@
 			}]
 		},
 		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:mortality": 1,
+					"bracken:devouring_curse": 1,
+					"bracken:rending": 1
+				},
+				"add": false
+			}]
+		},
+		{
 			"type": "minecraft:item",
 			"name": "minecraft:rotten_flesh",
 			"conditions": [{

@@ -26,7 +26,41 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
 			}]
-		},{
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:shrewdness": 1,
+					"bracken:dulness_curse": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:mortality": 1,
+					"minecraft:mending": 1,
+					"bracken:decaying_fix": 1
+				},
+				"add": false
+			}]
+		},
+		{
 			"type": "loot_table",
 			"value": "bracken:item/metal_apples/copper_apple",
 			"conditions": [{
