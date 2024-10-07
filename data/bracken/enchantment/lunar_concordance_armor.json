@@ -1,0 +1,140 @@
+{
+	"description": {
+		"text": "Lunar Concordance",
+		"color": "dark_aqua"
+	},
+	"exclusive_set": "#bracken:exclusive_set/lunarite_armor",
+	"supported_items": "#bracken:enchantable/lunarite_armor",
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 30,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 30,
+		"per_level_above_first": 0
+	},
+	"anvil_cost": 1,
+	"slots": [
+		"armor"
+	],
+	"effects": {
+		"minecraft:damage_protection": [
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": 5
+				},
+				"requirements": {
+					"condition": "minecraft:reference",
+					"name": "bracken:item/lunarite/full"
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": 3.75
+				},
+				"requirements": {
+					"condition": "minecraft:any_of",
+					"terms": [
+						{
+							"condition": "minecraft:reference",
+							"name": "bracken:item/lunarite/gibbous"
+						}
+					]
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": 2.50
+				},
+				"requirements": {
+					"condition": "minecraft:any_of",
+					"terms": [
+						{
+							"condition": "minecraft:reference",
+							"name": "bracken:item/lunarite/quarter"
+						}
+					]
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:add",
+					"value": 1.25
+				},
+				"requirements": {
+					"condition": "minecraft:any_of",
+					"terms": [
+						{
+							"condition": "minecraft:reference",
+							"name": "bracken:item/lunarite/crescent"
+						}
+					]
+				}
+			}
+		],
+		"minecraft:item_damage": [
+			{
+				"effect": {
+					"type": "minecraft:remove_binomial",
+					"chance": {
+						"type": "minecraft:fraction",
+						"numerator": 4,
+						"denominator": 5
+					}
+				},
+				"requirements": {
+					"condition": "minecraft:reference",
+					"name": "bracken:item/lunarite/full"
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:remove_binomial",
+					"chance": {
+						"type": "minecraft:fraction",
+						"numerator": 3,
+						"denominator": 4
+					}
+				},
+				"requirements": {
+					"condition": "minecraft:reference",
+					"name": "bracken:item/lunarite/gibbous"
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:remove_binomial",
+					"chance": {
+						"type": "minecraft:fraction",
+						"numerator": 2,
+						"denominator": 3
+					}
+				},
+				"requirements": {
+					"condition": "minecraft:reference",
+					"name": "bracken:item/lunarite/quarter"
+				}
+			},
+			{
+				"effect": {
+					"type": "minecraft:remove_binomial",
+					"chance": {
+						"type": "minecraft:fraction",
+						"numerator": 1,
+						"denominator": 2
+					}
+				},
+				"requirements": {
+					"condition": "minecraft:reference",
+					"name": "bracken:item/lunarite/crescent"
+				}
+			}
+			
+		]
+	}
+}
