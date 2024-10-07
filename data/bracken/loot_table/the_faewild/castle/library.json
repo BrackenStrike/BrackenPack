@@ -103,7 +103,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:flame": 1,
+					"minecraft:flame": 1,
 					"bracken:searing_surface": 1
 				},
 				"add": false

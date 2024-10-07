@@ -31,7 +31,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:searing_surface": 1,
-					"bracken:binding_curse": 1
+					"minecraft:binding_curse": 1
 				},
 				"add": false
 			}]

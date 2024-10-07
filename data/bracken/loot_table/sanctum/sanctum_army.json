@@ -38,7 +38,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:shrewdness": 1,
-					"bracken:dulness_curse": 1
+					"bracken:dullness_curse": 1
 				},
 				"add": false
 			}]
