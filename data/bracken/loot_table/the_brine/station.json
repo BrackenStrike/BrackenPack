@@ -28,6 +28,14 @@
 			}]
 		},
 		{
+			"type": "loot_table",
+			"value": "bracken:item/tools/golden_horn",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},
+		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
@@ -77,13 +85,6 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.3
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/ability_books/tetra_slime",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.01
 			}]
 		},{
 			"type": "loot_table",

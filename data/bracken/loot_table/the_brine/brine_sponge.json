@@ -24,7 +24,7 @@
 			"value": "bracken:item/potions/beverage_kelp",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.4
+				"chance": 0.01
 			}]
 		},{
 			"type": "minecraft:item",
@@ -46,7 +46,7 @@
 			"value": "bracken:item/the_brine/shark_tooth",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.5
+				"chance": 0.2
 			}]
 		},
 		{
