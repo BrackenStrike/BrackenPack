@@ -21,28 +21,14 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/cryolith_greatsword",
+			"value": "bracken:item/glacium/cryolith_upgrade_smithing_template",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.1
+				"chance": 0.2
 			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/cryolith_sabre",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/cryolith_bludgeon",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/cryolith_katana",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
@@ -89,34 +75,7 @@
 					"max": 0.83
 				}
 			}]
-		},{
-			"type": "minecraft:item",
-			"name": "minecraft:ice",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.5
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/cryolith_helmet",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/cryolith_chestplate",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.88,
-					"max": 0.93
-				}
-			}]
-		}]
+		}
+		]
 	}]
 }

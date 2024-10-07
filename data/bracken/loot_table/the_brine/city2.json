@@ -75,12 +75,14 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
 			}]
-		},{
+		},
+		
+		{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_sabre",
+			"value": "bracken:item/the_brine/lustra_upgrade_smithing_template",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.01
+				"chance": 0.02
 			}]
 		},{
 			"type": "loot_table",
@@ -91,14 +93,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_hoe",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.01
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_pickaxe",
+			"value": "bracken:item/average_weapons/lustra_sabre",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.01

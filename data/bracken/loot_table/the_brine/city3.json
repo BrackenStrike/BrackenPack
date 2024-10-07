@@ -12,21 +12,18 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.3
 			}]
-		},{
+		},
+		
+		{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_shovel",
+			"value": "bracken:item/the_brine/lustra_upgrade_smithing_template",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.01
 			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_hoe",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.01
-			}]
-		},{
+		},
+		
+		{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/toothed_sword",
 			"conditions": [{
@@ -95,6 +92,14 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:gold_ingot",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.03
 			}]
 		},{
 			"type": "minecraft:item",
