@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:netherrack_replace_blobs",
+    "config": {
+        "target": {
+            "Name": "minecraft:obsidian"
+        },
+        "state": {
+            "Name": "minecraft:lava",
+            "Properties": {
+                "level": "0"
+            }
+        },
+        "radius": 0
+    }
+}

@@ -29,7 +29,7 @@
             "minecraft:lake_lava_underground"
         ],
         ["bracken:brine/lava_platform"],
-        [],
+        ["bracken:brine/lava"],
         [],
         [],
         [],
