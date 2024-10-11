@@ -7,7 +7,7 @@ execute if data storage bracken:config {ability_books_on: true} if entity @s[lev
 execute if data storage bracken:config {ability_books_on: true} if entity @s[level=25..,scores={bp.wtb_cooldown=4..}] run tellraw @s "Spell is already in use!"
 execute if data storage bracken:config {ability_books_on: true} if entity @s[level=25..,scores={bp.wtb_cooldown=..4}] run function bracken:ability_books/worm_toothed_burrower/worm_toothed_burrower
 execute if data storage bracken:config {ability_books_on: false} run tellraw @s {"translate":"A spell is attempted but nothing happens..."}
-
+execute if data storage bracken:config {ability_books_on: false} run playsound minecraft:block.comparator.click player @a[distance=..30] ~ ~ ~ 10
 scoreboard players set @s bp.offhand 0
 scoreboard players set @s OMNI.POWER.worm_toothed_burrower 0
 scoreboard players set @s _OMNI.POWER.worm_toothed_burrower 1

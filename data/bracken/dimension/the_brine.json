@@ -127,6 +127,36 @@
                     }
                 },
                 {
+                    "biome": "bracken:the_brine/yonder_boiling_bay",
+                    "parameters": {
+                        "temperature": 0.5,
+                        "humidity": 0.5,
+                        "continentalness": 0.5,
+                        "erosion": 0,
+                        "weirdness": 0.5,
+                        "depth": [
+                            0,
+                            0.3
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "bracken:the_brine/calcite_atolls",
+                    "parameters": {
+                        "temperature": -0.5,
+                        "humidity": 0.5,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0.2,
+                        "depth": [
+                            0,
+                            0.3
+                        ],
+                        "offset": 0
+                    }
+                },
+                {
                     "biome": "bracken:the_brine/indigo_median",
                     "parameters": {
                         "temperature": 0,

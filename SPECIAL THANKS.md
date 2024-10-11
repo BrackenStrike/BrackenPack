@@ -34,4 +34,6 @@ TytoninaeArt
 AND BY USERS LIKE YOU
 Thank you.
 
+NOTE:This data pack is open to the public. Feel free to copy/paste any of the code for your own personal use!
+-Bracken
 
