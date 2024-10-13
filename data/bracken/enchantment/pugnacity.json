@@ -17,14 +17,11 @@
 	],
 	"exclusive_set": "#bracken:exclusive_set/pet_armor",
 	"effects": {
-		"minecraft:attributes": [
-			
-			{
-				"id": "bracken.wolf_pugnacity.damage",
-				"attribute": "minecraft:attack_damage",
-				"amount": 4,
-				"operation": "add_value"
-			}
-		]
+		"minecraft:attributes": [{
+			"id": "bracken.wolf_pugnacity.damage",
+			"attribute": "minecraft:attack_damage",
+			"amount": 4,
+			"operation": "add_value"
+		}]
 	}
 }

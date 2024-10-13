@@ -17,20 +17,16 @@
 	],
 	"exclusive_set": "#bracken:exclusive_set/pet_armor",
 	"effects": {
-		"minecraft:attributes": [
-			
-			{
-				"id": "bracken.wolf_huskiness.health",
-				"attribute": "minecraft:max_health",
-				"amount": 10,
-				"operation": "add_value"
-			},
-			{
-				"id": "bracken.wolf_huskiness.scale",
-				"attribute": "minecraft:scale",
-				"amount": 0.2,
-				"operation": "add_multiplied_base"
-			}
-		]
+		"minecraft:attributes": [{
+			"id": "bracken.wolf_huskiness.health",
+			"attribute": "minecraft:max_health",
+			"amount": 10,
+			"operation": "add_value"
+		},{
+			"id": "bracken.wolf_huskiness.scale",
+			"attribute": "minecraft:scale",
+			"amount": 0.2,
+			"operation": "add_multiplied_base"
+		}]
 	}
 }

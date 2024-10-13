@@ -1,6 +1,9 @@
 {
 	"anvil_cost": 4,
-	"description": {"translate":"Vitality","color":"dark_purple"},
+	"description": {
+		"translate": "Vitality",
+		"color": "dark_purple"
+	},
 	"effects": {
 		"minecraft:attributes": [{
 			"amount": {

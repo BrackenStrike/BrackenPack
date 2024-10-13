@@ -17,13 +17,13 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-				  "equipment": {
-					"chest": {
-					  "items": "minecraft:elytra"
+					"equipment": {
+						"chest": {
+							"items": "minecraft:elytra"
+						}
 					}
-				  }
 				}
-			  }
+			}
 		}]
 	},
 	"exclusive_set": "#minecraft:exclusive_set/crossbow",
@@ -38,7 +38,7 @@
 	},
 	"slots": [
 		"hand"
-	  ],
-	  "supported_items": "#minecraft:enchantable/crossbow",
-	  "weight": 1
-	}
+	],
+	"supported_items": "#minecraft:enchantable/crossbow",
+	"weight": 1
+}

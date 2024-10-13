@@ -4,16 +4,14 @@
 		"translate": "Abstraction"
 	},
 	"effects": {
-		"minecraft:post_attack": [
-			{
-				"enchanted": "attacker",
-				"affected": "victim",
-				"effect": {
-					"type": "minecraft:run_function",
-					"function": "bracken:item/enchantment/abstraction"
-				}
+		"minecraft:post_attack": [{
+			"enchanted": "attacker",
+			"affected": "victim",
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "bracken:item/enchantment/abstraction"
 			}
-		]
+		}]
 	},
 	"exclusive_set": "#minecraft:exclusive_set/damage",
 	"max_cost": {

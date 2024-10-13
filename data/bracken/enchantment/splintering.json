@@ -17,49 +17,43 @@
 		"hand"
 	],
 	"effects": {
-		"minecraft:post_attack": [
-			{
-				"enchanted": "attacker",
-				"affected": "damaging_entity",
-				"effect": {
-					"type": "minecraft:run_function",
-					"function": "bracken:item/enchantment/splintering/store_values"
-				},
-				"requirements": {
+		"minecraft:post_attack": [{
+			"enchanted": "attacker",
+			"affected": "damaging_entity",
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "bracken:item/enchantment/splintering/store_values"
+			},
+			"requirements": {
+				"condition": "minecraft:entity_properties",
+				"entity": "direct_attacker",
+				"predicate": {
+					"type": "#minecraft:arrows"
+				}
+			}
+		},{
+			"enchanted": "attacker",
+			"affected": "victim",
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "bracken:item/enchantment/splintering/as_target"
+			},
+			"requirements": [{
+				"condition": "minecraft:entity_properties",
+				"entity": "direct_attacker",
+				"predicate": {
+					"type": "#minecraft:arrows"
+				}
+			},{
+				"condition": "minecraft:inverted",
+				"term": {
 					"condition": "minecraft:entity_properties",
-					"entity": "direct_attacker",
+					"entity": "this",
 					"predicate": {
-						"type": "#minecraft:arrows"
+						"type": "#bracken:untargettable"
 					}
 				}
-			},
-			{
-				"enchanted": "attacker",
-				"affected": "victim",
-				"effect": {
-					"type": "minecraft:run_function",
-					"function": "bracken:item/enchantment/splintering/as_target"
-				},
-				"requirements": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "direct_attacker",
-						"predicate": {
-							"type": "#minecraft:arrows"
-						}
-					},
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:entity_properties",
-							"entity": "this",
-							"predicate": {
-								"type": "#bracken:untargettable"
-							}
-						}
-					}
-				]
-			}
-		]
+			}]
+		}]
 	}
 }

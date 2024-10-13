@@ -4,19 +4,17 @@
 		"translate": "Curse of Sentience #4"
 	},
 	"effects": {
-		"minecraft:post_attack": [
-		  {
+		"minecraft:post_attack": [{
 			"enchanted": "attacker",
 			"affected": "attacker",
 			"effect": {
-			  "type": "minecraft:play_sound",
-			  "sound": "minecraft:entity.pillager.ambient",
-			  "volume": 1,
-			  "pitch": 2
+				"type": "minecraft:play_sound",
+				"sound": "minecraft:entity.pillager.ambient",
+				"volume": 1,
+				"pitch": 2
 			}
-		  }
-		]
-	  },
+		}]
+	},
 	"max_cost": {
 		"base": 21,
 		"per_level_above_first": 11
@@ -26,8 +24,6 @@
 		"base": 2,
 		"per_level_above_first": 11
 	},
-	
-	
 	"slots": [
 		"mainhand"
 	],

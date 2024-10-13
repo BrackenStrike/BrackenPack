@@ -4,48 +4,41 @@
 		"translate": "Curse of Devouring"
 	},
 	"effects": {
-		"minecraft:post_attack": [
-		  {
+		"minecraft:post_attack": [{
 			"enchanted": "attacker",
 			"affected": "attacker",
 			"effect": {
-			  "type": "minecraft:all_of",
-			  "effects": [
-				{
-				  "type": "minecraft:change_item_damage",
-				  "amount": 2
-				},
-				{
+				"type": "minecraft:all_of",
+				"effects": [{
+					"type": "minecraft:change_item_damage",
+					"amount": 2
+				},{
 					"type": "minecraft:damage_entity",
 					"damage_type": "minecraft:starve",
 					"min_damage": {
-					  "type": "minecraft:linear",
-					  "base": 0,
-					  "per_level_above_first": 1
+						"type": "minecraft:linear",
+						"base": 0,
+						"per_level_above_first": 1
 					},
 					"max_damage": {
-					  "type": "minecraft:linear",
-					  "base": 1,
-					  "per_level_above_first": 1
+						"type": "minecraft:linear",
+						"base": 1,
+						"per_level_above_first": 1
 					}
-				  }
-			  ]
+				}]
 			}
-		  }
-		],
-		"minecraft:damage": [
-		  {
+		}],
+		"minecraft:damage": [{
 			"effect": {
-			  "type": "minecraft:add",
-			  "value": {
-				"type": "minecraft:linear",
-				"base": 2,
-				"per_level_above_first": 1
-			  }
+				"type": "minecraft:add",
+				"value": {
+					"type": "minecraft:linear",
+					"base": 2,
+					"per_level_above_first": 1
+				}
 			}
-		  }
-		]
-	  },
+		}]
+	},
 	"max_cost": {
 		"base": 21,
 		"per_level_above_first": 11
@@ -55,7 +48,6 @@
 		"base": 2,
 		"per_level_above_first": 1
 	},
-	
 	"primary_items": "#minecraft:enchantable/sword",
 	"slots": [
 		"mainhand"

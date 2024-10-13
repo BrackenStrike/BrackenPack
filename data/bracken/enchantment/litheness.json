@@ -17,31 +17,26 @@
 	],
 	"exclusive_set": "#bracken:exclusive_set/pet_armor",
 	"effects": {
-		"minecraft:attributes": [
-			{
-				"id": "bracken.wolf_litheness.nofall",
-				"attribute": "minecraft:safe_fall_distance",
-				"amount": 9999,
-				"operation": "add_value"
-			},
-			{
-				"id": "bracken.wolf_litheness.movement",
-				"attribute": "minecraft:movement_speed",
-				"amount": 0.15,
-				"operation": "add_value"
-			},
-			{
-				"id": "bracken.wolf_litheness.scale",
-				"attribute": "minecraft:scale",
-				"amount": -0.2,
-				"operation": "add_multiplied_base"
-			},
-			{
-				"id": "bracken.wolf_litheness.jump",
-				"attribute": "minecraft:jump_strength",
-				"amount": 0.1,
-				"operation": "add_value"
-			}
-		]
+		"minecraft:attributes": [{
+			"id": "bracken.wolf_litheness.nofall",
+			"attribute": "minecraft:safe_fall_distance",
+			"amount": 9999,
+			"operation": "add_value"
+		},{
+			"id": "bracken.wolf_litheness.movement",
+			"attribute": "minecraft:movement_speed",
+			"amount": 0.15,
+			"operation": "add_value"
+		},{
+			"id": "bracken.wolf_litheness.scale",
+			"attribute": "minecraft:scale",
+			"amount": -0.2,
+			"operation": "add_multiplied_base"
+		},{
+			"id": "bracken.wolf_litheness.jump",
+			"attribute": "minecraft:jump_strength",
+			"amount": 0.1,
+			"operation": "add_value"
+		}]
 	}
 }

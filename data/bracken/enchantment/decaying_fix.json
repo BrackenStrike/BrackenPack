@@ -1,23 +1,24 @@
 {
 	"anvil_cost": 1,
-	"description": {"translate":"Decaying","color":"dark_purple"},
+	"description": {
+		"translate": "Decaying",
+		"color": "dark_purple"
+	},
 	"effects": {
-		"minecraft:tick": [
-		  {
+		"minecraft:tick": [{
 			"effect": {
-			  "type": "minecraft:change_item_damage",
-			  "amount": 1
+				"type": "minecraft:change_item_damage",
+				"amount": 1
 			},
 			"requirements": {
-			  "condition": "minecraft:entity_properties",
-			  "entity": "this",
-			  "predicate": {
-				"periodic_tick": 1000
-			  }
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"periodic_tick": 1000
+				}
 			}
-		  }
-		]
-	  },
+		}]
+	},
 	"max_cost": {
 		"base": 21,
 		"per_level_above_first": 11
@@ -27,8 +28,6 @@
 		"base": 2,
 		"per_level_above_first": 11
 	},
-	
-	
 	"slots": [
 		"mainhand"
 	],
