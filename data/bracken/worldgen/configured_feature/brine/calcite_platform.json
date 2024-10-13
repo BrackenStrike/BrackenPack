@@ -3,11 +3,11 @@
     "config": {
         "surface": "floor",
         "depth": 1,
-        "vertical_range": 1,
+        "vertical_range": 2,
         "extra_bottom_block_chance": 1,
         "extra_edge_column_chance": 1,
         "vegetation_chance": 1.0,
-        "xz_radius": 6,
+        "xz_radius": 10,
         "replaceable": "#minecraft:base_stone_overworld",
         "ground_state": {
             "type": "minecraft:simple_state_provider",

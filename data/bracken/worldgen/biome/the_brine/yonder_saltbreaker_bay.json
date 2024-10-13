@@ -17,14 +17,7 @@
         "ambient": [],
         "misc": [],
         "water_creature": [],
-        "creature": [
-            {
-                "type": "minecraft:hoglin",
-                "weight": 2,
-                "minCount": 1,
-                "maxCount": 1
-            }
-        ],
+        "creature": [],
         "monster": []
     },
     "spawn_costs": {},
@@ -37,7 +30,7 @@
         [],
         [],
         ["bracken:brine/calcite"],
-        ["bracken:brine/root_blobs"],
+        [],
         ["bracken:brine/calcite_platform"],
         [
             "minecraft:seagrass_warm",

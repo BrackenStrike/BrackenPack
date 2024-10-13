@@ -464,7 +464,7 @@
                 "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                        "bracken:the_brine/yonder_boiling_bay"
+                        "bracken:the_brine/cinder_harbor"
                     ]
                 },
                 "then_run": {
@@ -524,7 +524,7 @@
                 "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                        "bracken:the_brine/calcite_atolls"
+                        "bracken:the_brine/yonder_saltbreaker_bay"
                     ]
                 },
                 "then_run": {
@@ -550,7 +550,7 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:grass_block",
+                                        "Name": "minecraft:calcite",
                                         "Properties": {
                                             "snowy": "false"
                                         }
