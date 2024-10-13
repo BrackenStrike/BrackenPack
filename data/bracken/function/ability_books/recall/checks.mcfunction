@@ -4,11 +4,7 @@
 ##########################################################
 
 
-execute if data storage bracken:config {ability_books_on: true} run function bracken:ability_books/recall/recall
-execute if data storage bracken:config {ability_books_on: false} run tellraw @s {"translate":"A spell is attempted but nothing happens..."}
-execute if data storage bracken:config {ability_books_on: false} run playsound minecraft:block.comparator.click player @a[distance=..30] ~ ~ ~ 10
-scoreboard players set @s bp.offhand 0
-scoreboard players set @s OMNI.POWER.recall 0
-scoreboard players set @s _OMNI.POWER.recall 1
+execute if data storage bracken:config {ability_books_on:true} run return run function bracken:ability_books/recall/recall
 
-return 1
+playsound minecraft:block.comparator.click player @a[distance=..30] ~ ~ ~ 10
+tellraw @s {"translate":"A spell is attempted but nothing happens..."}

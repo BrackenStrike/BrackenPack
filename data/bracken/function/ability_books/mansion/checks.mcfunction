@@ -3,12 +3,9 @@
 # Creators: Grandmaster
 ##########################################################
 
-
-execute if data storage bracken:config {ability_books_on: true} run function bracken:ability_books/mansion/mansion
-execute if data storage bracken:config {ability_books_on: false} run tellraw @s {"translate":"A spell is attempted but nothing happens..."}
-execute if data storage bracken:config {ability_books_on: false} run playsound minecraft:block.comparator.click player @a[distance=..30] ~ ~ ~ 10
-scoreboard players set @s bp.offhand 0
 scoreboard players set @s OMNI.POWER.mansion 0
 scoreboard players set @s _OMNI.POWER.mansion 1
+execute if data storage bracken:config {ability_books_on:true} run return run function bracken:ability_books/mansion/mansion
 
-return 1
+playsound minecraft:block.comparator.click player @a[distance=..30] ~ ~ ~ 10
+tellraw @s {"translate":"A spell is attempted but nothing happens..."}
