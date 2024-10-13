@@ -4,7 +4,7 @@
 		"color": "dark_aqua"
 	},
 	"exclusive_set": "#bracken:exclusive_set/lunarite_armor",
-	"supported_items": "#bracken:enchantable/lunarite_armor",
+	"supported_items": [],
 	"weight": 1,
 	"max_level": 1,
 	"min_cost": {
