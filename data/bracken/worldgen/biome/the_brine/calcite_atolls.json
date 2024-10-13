@@ -36,9 +36,9 @@
         [],
         [],
         [],
-        [],
-        [],
-        [],
+        ["bracken:brine/calcite"],
+        ["bracken:brine/root_blobs"],
+        ["bracken:brine/calcite_platform"],
         [
             "minecraft:seagrass_warm",
             "bracken:brine/blackstone_blobs",

@@ -2,10 +2,10 @@
     "type": "minecraft:netherrack_replace_blobs",
     "config": {
         "target": {
-            "Name": "minecraft:blackstone"
+            "Name": "minecraft:magma_block"
         },
         "state": {
-            "Name": "minecraft:magma_block"
+            "Name": "minecraft:obsidian"
         },
         "radius": 0
     }

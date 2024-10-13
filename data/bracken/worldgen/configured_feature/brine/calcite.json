@@ -2,10 +2,10 @@
     "type": "minecraft:netherrack_replace_blobs",
     "config": {
         "target": {
-            "Name": "minecraft:blackstone"
+            "Name": "minecraft:water"
         },
         "state": {
-            "Name": "minecraft:magma_block"
+            "Name": "minecraft:diorite"
         },
         "radius": 0
     }

@@ -28,9 +28,9 @@
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"
         ],
-        ["bracken:brine/lava_platform"],
-        ["bracken:brine/lava"],
+        ["bracken:brine/lava_platform","bracken:brine/lava"],
         [],
+        ["bracken:dormis/fire","bracken:brine/spec"],
         [],
         [],
         [],
@@ -57,9 +57,9 @@
         "foliage_color": 2320701,
         "particle": {
             "options": {
-                "type": "minecraft:warped_spore"
+                "type": "minecraft:large_smoke"
             },
-            "probability": 0.00428
+            "probability": 0.004428
         },
         "additions_sound": {
             "sound": "minecraft:block.beacon.ambient",
