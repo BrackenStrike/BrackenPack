@@ -16,7 +16,12 @@
           }
             ],
         "misc": [],
-        "monster": [
+        "monster": [{
+            "type": "minecraft:guardian",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 25
+          }
           
           
         ],
