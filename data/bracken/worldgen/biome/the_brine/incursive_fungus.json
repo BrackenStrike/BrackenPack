@@ -1,32 +1,56 @@
 {
     "spawners": {
-        "water_ambient": [
-            {
-                "type": "minecraft:drowned",
-                "weight": 1,
-                "minCount": 2,
-                "maxCount": 5
-            },
-            {
-                "type": "minecraft:tropical_fish",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 4
-            }
+        "ambient": [
+          {
+            "type": "minecraft:bat",
+            "maxCount": 8,
+            "minCount": 8,
+            "weight": 10
+          }
         ],
-        "ambient": [],
+        "axolotls": [],
+        "creature": [{
+            "type": "minecraft:hoglin",
+            "maxCount": 1,
+            "minCount": 2,
+            "weight": 5
+          },
+          {
+            "type": "minecraft:mooshroom",
+            "maxCount": 1,
+            "minCount": 2,
+            "weight": 5
+          }],
         "misc": [],
-        "water_creature": [],
-        "creature": [
-            {
-                "type": "minecraft:hoglin",
-                "weight": 2,
-                "minCount": 1,
-                "maxCount": 1
-            }
+        "monster": [
+          {
+            "type": "minecraft:drowned",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 5
+          }
+          
         ],
-        "monster": []
-    },
+        "underground_water_creature": [
+          {
+            "type": "minecraft:glow_squid",
+            "maxCount": 6,
+            "minCount": 4,
+            "weight": 10
+          }
+        ],
+        "water_ambient": [
+          
+        ],
+        "water_creature": [
+          {
+            "type": "minecraft:squid",
+            "maxCount": 4,
+            "minCount": 4,
+            "weight": 10
+          }
+        ]
+      },
     "spawn_costs": {},
     "carvers": [],
     "features": [

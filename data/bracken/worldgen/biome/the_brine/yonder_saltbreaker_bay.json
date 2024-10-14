@@ -1,25 +1,16 @@
 {
     "spawners": {
-        "water_ambient": [
-            {
-                "type": "minecraft:drowned",
-                "weight": 1,
-                "minCount": 2,
-                "maxCount": 5
-            },
-            {
-                "type": "minecraft:tropical_fish",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 4
-            }
-        ],
         "ambient": [],
-        "misc": [],
-        "water_creature": [],
+        "axolotls":[],
         "creature": [],
-        "monster": []
-    },
+        "misc": [],
+        "monster": [],
+        "underground_water_creature": [],
+        "water_ambient": [],
+        "water_creature": [
+          
+        ]
+      },
     "spawn_costs": {},
     "carvers": [],
     "features": [
