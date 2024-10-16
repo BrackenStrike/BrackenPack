@@ -11,8 +11,8 @@
         "axolotls": [],
         "creature": [{
             "type": "minecraft:hoglin",
-            "maxCount": 1,
-            "minCount": 2,
+            "maxCount": 2,
+            "minCount": 1,
             "weight": 5
           }],
         "misc": [],

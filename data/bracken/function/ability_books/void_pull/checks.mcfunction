@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Will check if Ability Books are enabled or disabled and whether player has enough levels to use Ability Book.
-# Creators: Grandmaster
+# Creators: Grandmaster, Conure
 ##########################################################
 
 execute if data storage bracken:config {ability_books_on:true} if entity @s[level=1..] run return run function bracken:ability_books/void_pull/void_pull
