@@ -14,7 +14,7 @@ attribute @s attack_damage modifier remove bracken:outlander_backstab
 
 attribute @s minecraft:max_health modifier remove bracken:outlander.max_health
 
-function bracken:player/update_effects
+function bracken:player/effects_changed
 scoreboard players reset @s bp.outlander_charge
 
 return 1

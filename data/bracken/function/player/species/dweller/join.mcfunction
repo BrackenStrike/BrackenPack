@@ -16,7 +16,7 @@ attribute @s minecraft:block_break_speed modifier add bracken:dweller.break 0.5 
 
 attribute @s minecraft:max_health modifier add bracken:dweller.max_health 0.2 add_multiplied_base
 
-function bracken:player/update_effects
+function bracken:player/effects_changed
 
 return 1
 

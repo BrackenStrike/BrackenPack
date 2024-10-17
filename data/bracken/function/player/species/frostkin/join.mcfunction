@@ -20,10 +20,6 @@ attribute @s minecraft:max_health modifier add bracken:frostkin.max_health 0.2 a
 attribute @s minecraft:sweeping_damage_ratio modifier add bracken:frostkin.sweeping 10.0 add_value
 attribute @s minecraft:movement_efficiency modifier add bracken:frostkin.movement_efficiency 1 add_value
 
-effect clear @s minecraft:hunger
-effect clear @s minecraft:mining_fatigue
-effect clear @s minecraft:poison
-effect clear @s minecraft:slowness
-effect clear @s minecraft:wither
+function bracken:player/effects_changed
 
 return 1

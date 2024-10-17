@@ -19,6 +19,6 @@ attribute @s minecraft:luck modifier add bracken:villain.luck -10 add_value
 
 attribute @s minecraft:max_health modifier add bracken:dweller.max_health 0.1 add_multiplied_base
 
-effect clear @s minecraft:hero_of_the_village
+function bracken:player/effects_changed
 
 return 1

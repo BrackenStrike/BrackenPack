@@ -22,6 +22,6 @@ attribute @s minecraft:oxygen_bonus modifier add bracken:nereid.oxygen_bonus 240
 attribute @s minecraft:gravity modifier add bracken:nereid.gravity 0.5 add_multiplied_base
 attribute @s minecraft:step_height modifier add bracken:nereid.step_height 0.5 add_value
 
-function bracken:player/update_effects
+function bracken:player/effects_changed
 
 return 1
