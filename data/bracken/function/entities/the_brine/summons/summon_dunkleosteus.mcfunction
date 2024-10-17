@@ -1,5 +1,5 @@
 summon drowned ~ ~ ~ {\
-ArmorItems:[{},{},{},{Count:1b,id:"minecraft:bamboo",components:{"minecraft:custom_model_data":888504,"minecraft:enchantment_glint_override":false,"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}} }}],\
+ArmorItems:[{},{},{},{Count:1b,id:"minecraft:bamboo",components:{"minecraft:custom_model_data":888504,"minecraft:enchantment_glint_override":false,"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}}}],HandItems:[{},{}],\
 ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],\
 CanPickUpLoot:0b,CanBreakDoors:0b,Silent:1b,NoAI:1b,PersistenceRequired:1b,\
 Tags:["bp.dunkleosteus","bp.aquatic","bp.entity","bp.the_brine"],DeathLootTable:"bracken:entity/the_brine/dunkleosteus",\
@@ -8,5 +8,5 @@ CustomName:"Dunkleosteus",\
 attributes:[\
 {id:"minecraft:attack_damage",base:24},\
 {id:"minecraft:armor",base:10},\
-{id:"minecraft:movement_speed",base:0.9},\
+{id:"minecraft:water_movement_efficiency",base:1},\
 {id:"minecraft:max_health",base:75}]}
