@@ -1,4 +1,5 @@
 summon drowned ~ ~ ~ {\
+HandItems:[{},{}],\
 ArmorItems:[{},{},{},{Count:1b,id:"minecraft:bamboo",components:{"minecraft:custom_model_data":888520}}],\
 ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],\
 CanPickUpLoot:0b,CanBreakDoors:0b,Silent:1b,IsBaby:1b,NoAI:1b,PersistenceRequired:1b,\
