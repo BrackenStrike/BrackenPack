@@ -28,4 +28,4 @@ execute if entity @s[type=minecraft:armor_stand,tag=bp.stand] run return run fun
 execute if entity @s[type=#minecraft:arrows,tag=bp.piercer_of_heavens] run return run function bracken:entities/piercer_of_heavens 
 
 ## OTHER ENTITIES
-execute if entity @s[tag=!bp.ability_books] run return run function bracken:entities/misc/other_entities_tick 
+function bracken:entities/misc/other_entities_tick 

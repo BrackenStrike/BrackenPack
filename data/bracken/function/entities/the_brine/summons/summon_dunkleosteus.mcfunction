@@ -6,7 +6,7 @@ Tags:["bp.dunkleosteus","bp.aquatic","bp.entity","bp.the_brine"],DeathLootTable:
 active_effects:[{id:"minecraft:invisibility",duration:-1,amplifier:1,show_particles:0b}],\
 CustomName:"Dunkleosteus",\
 attributes:[\
-{id:"minecraft:generic.attack_damage",base:24},\
-{id:"minecraft:generic.armor",base:10},\
-{id:"minecraft:generic.movement_speed",base:0.9},\
-{id:"minecraft:generic.max_health",base:75}]}
+{id:"minecraft:attack_damage",base:24},\
+{id:"minecraft:armor",base:10},\
+{id:"minecraft:movement_speed",base:0.9},\
+{id:"minecraft:max_health",base:75}]}

@@ -3,7 +3,7 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-execute unless predicate bracken:periodic/1s 
+execute unless predicate bracken:periodic/1s run return 0
 
 execute if entity @s[tag=bp.jellyfish] run return run function bracken:entities/the_brine/ai/jellyfish
 execute if entity @s[tag=bp.nautilus] run return run function bracken:entities/the_brine/ai/nautilus
