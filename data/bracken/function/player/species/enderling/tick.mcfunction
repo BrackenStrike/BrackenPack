@@ -5,10 +5,7 @@
 
 function bracken:player/species/common/aquavulnerability
 
-execute unless predicate bracken:sneak run clear @s minecraft:ender_eye[minecraft:custom_data={bracken:{id:"enderling_controlled_teleport"}}]
+#if-else: if not sneaking, function returns.
+execute unless predicate bracken:sneak run return run clear @s *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}]
 
-execute if score @s bp.enderling_teleport matches 1.. run scoreboard players remove @s bp.enderling_teleport 1
-execute if score @s bp.enderling_teleport matches 0 if predicate bracken:sneak if predicate bracken:item/empty_slot/offhand run item replace entity @s weapon.offhand with minecraft:ender_eye[minecraft:custom_model_data=888501,minecraft:custom_data={bracken:{id:"enderling_controlled_teleport"}}]
-
-
-return 1
+execute if predicate bracken:item/empty_slot/offhand run item replace entity @s weapon.offhand with music_disc_5[!jukebox_playable,item_name='"Activate Teleport"',rarity=epic,item_model="custom/enderling_teleport",consumable={consume_seconds:0,animation:none,has_consume_particles:0b,sound:"minecraft:entity.enderman.teleport"},use_cooldown={seconds:5,cooldown_group:"bracken:enderling_teleport"},custom_data={bracken:{id:"enderling_controlled_teleport"}}]

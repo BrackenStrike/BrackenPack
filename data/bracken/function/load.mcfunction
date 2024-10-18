@@ -93,9 +93,6 @@ scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
 # Hunters
 scoreboard objectives add bp.hunter_morph dummy
 
-#Enderlings
-scoreboard objectives add bp.enderling_teleport dummy
-
 # Outlanders
 scoreboard objectives add bp.outlander_charge dummy
 

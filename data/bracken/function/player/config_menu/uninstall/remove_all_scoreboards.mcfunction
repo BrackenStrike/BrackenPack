@@ -84,9 +84,6 @@ scoreboard objectives remove bp.death
 # Hunters
 scoreboard objectives remove bp.hunter_morph
 
-#Enderlings
-scoreboard objectives remove bp.enderling_teleport
-
 # Outlanders
 scoreboard objectives remove bp.outlander_charge
 
