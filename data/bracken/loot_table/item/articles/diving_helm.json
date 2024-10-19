@@ -3,26 +3,36 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "item",
-			"name": "minecraft:iron_helmet",
+			"name": "minecraft:chainmail_helmet",
 			"functions": [{
 				"function": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Night Vision Goggles"
+				"name": "Diving Helm"
 			},{
 				"function": "minecraft:set_custom_model_data",
-				"value": 888502,
+				"value": 888504,
 				"minecraft:custom_data": {
-					"bp": { "id": "goggles" }
+					"bp": { "id": "diving_helm" }
 				}
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:max_damage": 175,
+					"minecraft:max_damage": 1000,
 					"minecraft:equippable": {
 						"slot": "head",
-						"model": "bracken:goggles"
+						"camera_overlay": "bracken:misc/diving_helm",
+						"model": "bracken:diving_helm"
 					}
 				}
+			},{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:oxygen_bonus",
+					"id": "bracken:diving_helm",
+					"amount": 60,
+					"operation": "add_value",
+					"slot": "head"
+				}]
 			},
 			{
 				"function": "set_damage",

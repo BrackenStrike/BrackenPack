@@ -28,8 +28,16 @@ execute if score @s bp.frost_spite_death matches 1.. run function bracken:item/f
 # golden horn
 execute if score @s bp.elytra_dive matches 1.. run function bracken:item/golden_horn_effect
 
+# equipment
 # night vision goggles
 effect give @s[predicate=bracken:item/goggles] night_vision 15 0 false
+
+# tinted glasses
+effect clear @s[predicate=bracken:item/tinted_glasses] blindness
+
+
+
+
 
 # Altum Archeon
 #scoreboard players set @s bp.altum_archeon 0

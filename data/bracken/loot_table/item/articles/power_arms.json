@@ -1,0 +1,42 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:chainmail_chestplate",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Power Arms"
+			},{
+				"function": "minecraft:set_custom_model_data",
+				"value": 888501
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:max_damage": 175,
+					"minecraft:equippable": {
+						"slot": "chest",
+						"model": "bracken:power_arms"
+					}
+				}
+			},
+			{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:block_interaction_range",
+					"id": "bracken:power_arms",
+					"amount": 10,
+					"operation": "add_value",
+					"slot": "chest"
+				}]
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.48,
+					"max": 0.93
+				}
+			}]
+		}]
+	}]
+}

@@ -3,34 +3,28 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "item",
-			"name": "minecraft:iron_helmet",
+			"name": "minecraft:chainmail_helmet",
 			"functions": [{
 				"function": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Cryolith Helmet"
+				"name": "Blindfold"
 			},{
 				"function": "minecraft:set_custom_model_data",
-				"value": 888502
+				"value": 888503,
+				"minecraft:custom_data": {
+					"bp": { "id": "blindfold" }
+				}
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:max_damage": 200,
+					"minecraft:max_damage": 32,
 					"minecraft:equippable": {
 						"slot": "head",
-						"camera_overlay": "bracken:misc/cryolith",
-						"model": "bracken:cryolith",
-					"equip_sound": "minecraft:block.snow.fall"}
+						"camera_overlay": "bracken:misc/blindfold",
+						"model": "bracken:blindfold"
+					}
 				}
 			},{
-				"function": "set_enchantments",
-				"enchantments": {
-					
-					"bracken:fragility_curse": 1,
-					"bracken:quenching_fix": 1,
-					"minecraft:vanishing_curse": 1
-				}
-			},
-			{
 				"function": "set_damage",
 				"damage": {
 					"min": 0.48,

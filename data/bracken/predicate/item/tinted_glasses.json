@@ -4,7 +4,7 @@
 	"predicate": {
 		"equipment": { "head": {
 			"items": "minecraft:chainmail_helmet",
-			"components": { "minecraft:custom_model_data": 888505 }
+			"components": { "minecraft:custom_model_data": 888507 }
 		}}
 	}
 }
