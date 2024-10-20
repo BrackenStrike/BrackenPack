@@ -15,6 +15,7 @@ execute if predicate bracken:effect_permanence/night_vision run effect give @s m
 
 #Enforce Effect Immunities
 execute if predicate bracken:effect_immunity/bad_omen run effect clear @s minecraft:bad_omen
+execute if predicate bracken:effect_immunity/blindness run effect clear @s minecraft:blindness
 execute if predicate bracken:effect_immunity/hero_of_the_village run effect clear @s minecraft:hero_of_the_village
 execute if predicate bracken:effect_immunity/hunger run effect clear @s minecraft:hunger
 execute if predicate bracken:effect_immunity/invisibility run effect clear @s minecraft:invisibility

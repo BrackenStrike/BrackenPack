@@ -1,0 +1,10 @@
+{
+	"criteria": { "equipment_tracking": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": { "player": [{
+			"condition": "reference",
+			"name": "bracken:item/night_vision_goggles"
+		}]}
+	}},
+	"rewards": { "function": "bracken:equipment/night_vision_goggles/on" }
+}

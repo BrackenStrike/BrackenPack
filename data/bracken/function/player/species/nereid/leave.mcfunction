@@ -19,6 +19,3 @@ attribute @s minecraft:step_height modifier remove bracken:nereid.step_height
 
 effect clear @s minecraft:dolphins_grace
 effect clear @s minecraft:night_vision
-effect clear @s minecraft:water_breathing
-
-return 1

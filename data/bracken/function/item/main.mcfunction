@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Directory for player used items for commands that run every tick
-# Creators: Bracken and Grandmaster
+# Creators: Bracken, Grandmaster, Conure
 ##########################################################
 
 # Clear Enderling Tp Item
@@ -18,26 +18,23 @@ scoreboard players remove @s[scores={bp.cooldown=-6..}] bp.cooldown 1
 #playsound bracken:ability_book_tier_4 ambient @s[scores={bp.cooldown=-5}] ~ ~ ~ 1 2
 scoreboard players set @s[scores={bp.death=0}] bp.cooldown 0
 
-# Poison Sword
-#execute if score @s bp.poison matches 1..22 run function bracken:item/poison_sword
-#scoreboard players remove @s[scores={bp.hurting=1..}] bp.hurting 1
-
 # frost spite
 execute if score @s bp.frost_spite_death matches 1.. run function bracken:item/frost_spite/search
 
 # golden horn
 execute if score @s bp.elytra_dive matches 1.. run function bracken:item/golden_horn_effect
 
-# equipment
-# night vision goggles
-effect give @s[predicate=bracken:item/goggles] night_vision 15 0 false
-
-# tinted glasses
-effect clear @s[predicate=bracken:item/tinted_glasses] blindness
+# Cleaver of Judgement
+execute if predicate bracken:item/cleaver_of_judgement run function bracken:item/cleaver_of_judgement/tick
 
 
 
 
+# ---- Unimplemented ----
+
+# Poison Sword
+#execute if score @s bp.poison matches 1..22 run function bracken:item/poison_sword
+#scoreboard players remove @s[scores={bp.hurting=1..}] bp.hurting 1
 
 # Altum Archeon
 #scoreboard players set @s bp.altum_archeon 0
@@ -55,5 +52,4 @@ effect clear @s[predicate=bracken:item/tinted_glasses] blindness
 #execute if predicate bracken:item/permafrost_howl run function bracken:item/permafrost_howl/tick
 #execute if predicate bracken:item/aequor run function bracken:item/aequor/tick
 #execute if predicate bracken:item/altum_archeon run function bracken:item/altum_archeon/tick
-execute if predicate bracken:item/cleaver_of_judgement run function bracken:item/cleaver_of_judgement/tick
 #execute if predicate bracken:item/piercer_of_heavens run function bracken:item/piercer_of_heavens/tick
