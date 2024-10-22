@@ -1,0 +1,25 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:ender_dragon_spawn_egg"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Mim Silk Patch"
+		},
+		{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888501
+		},
+		{
+			"function": "minecraft:set_components",
+			"components": {"minecraft:enchantment_glint_override": true,
+				
+				
+				"minecraft:entity_data": {
+					"id": "minecraft:player"}}}]
+	}]
+}
