@@ -7,7 +7,7 @@
 		"###"
 	],
 	"key": {
-		"#":  "minecraft:ender_dragon_spawn_egg"
+		"#":  "minecraft:shulker_spawn_egg"
 		
 	},
 	"result": {
@@ -15,7 +15,7 @@
 		"components": {
 			"minecraft:max_damage": 32,
 			"minecraft:enchantments": {
-        "bracken:astuteness": 1
+        "bracken:astuteness_fix": 1
       },
 			"minecraft:equippable": {
 					"slot": "chest",

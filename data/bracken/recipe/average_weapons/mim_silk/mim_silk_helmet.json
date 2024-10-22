@@ -7,7 +7,7 @@
 		"   "
 	],
 	"key": {
-		"#":  "minecraft:ender_dragon_spawn_egg"
+		"#":  "minecraft:shulker_spawn_egg"
 		
 	},
 	"result": {
@@ -17,10 +17,11 @@
 			"minecraft:item_name": "\"Mim Silk Helmet\"",
 			"minecraft:equippable": {
 					"slot": "head",
+					"equip_sound": "minecraft:block.wool.step",
 					"model": "bracken:silk"},
 			"minecraft:custom_model_data": 888509,
 			"minecraft:enchantments": {
-        "bracken:astuteness": 1
+        "bracken:astuteness_fix": 1
       }
 		}
 	}

@@ -7,11 +7,11 @@
         "///"
     ],
     "key": {
-        "/": "minecraft:shulker_spawn_egg"
+        "/": "minecraft:squid_spawn_egg"
         
     },
     "result": {
-        "id": "minecraft:ender_dragon_spawn_egg",
+        "id": "minecraft:shulker_spawn_egg",
         "components": {
             "minecraft:item_name": "\"Mim Silk Patch\"",
             "minecraft:custom_model_data": 888501,

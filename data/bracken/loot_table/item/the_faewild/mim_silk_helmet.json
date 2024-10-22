@@ -21,10 +21,11 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:max_damage": 32,
+					
 					"equip_sound": "minecraft:block.wool.step",
 					"minecraft:equippable": {
 						"slot": "head",
+						"equip_sound": "minecraft:block.wool.step",
 						"model": "bracken:silk"
 					}
 				}

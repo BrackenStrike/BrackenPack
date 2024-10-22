@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:ender_dragon_spawn_egg"
+			"name": "minecraft:shulker_spawn_egg"
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",

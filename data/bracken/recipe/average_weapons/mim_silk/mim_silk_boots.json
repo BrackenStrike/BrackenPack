@@ -7,7 +7,7 @@
 		"   "
 	],
 	"key": {
-		"#":  "minecraft:ender_dragon_spawn_egg"
+		"#":  "minecraft:shulker_spawn_egg"
 		
 	},
 	"result": {
@@ -16,12 +16,14 @@
 			"minecraft:max_damage": 32,
 			"minecraft:equippable": {
 					"slot": "feet",
+					
+					"equip_sound": "minecraft:block.wool.step",
 					"model": "bracken:silk"},
 
 			"minecraft:item_name": "\"Mim Silk Boots\"",
 			"minecraft:custom_model_data": 888509,
 			"minecraft:enchantments": {
-        "bracken:astuteness": 1
+        "bracken:astuteness_fix": 1
       }
 		}
 	}
