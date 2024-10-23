@@ -112,6 +112,13 @@
 				"chance": 0.01
 			}]
 		},{
+			"type": "loot_table",
+			"value": "bracken:item/articles/hypocrite_mask",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
 			"type": "minecraft:item",
 			"name": "minecraft:wooden_pickaxe",
 			"conditions": [{

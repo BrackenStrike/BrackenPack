@@ -26,6 +26,14 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/diving_helm",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/netherite_warhammer",
@@ -99,13 +107,6 @@
 					"max": 5
 				}
 			}],
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/ability_books/lightning_bolt",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1

@@ -2,7 +2,7 @@
 	"type": "minecraft:chest",
 	"pools": [{
 		"rolls": {
-			"min": 18,
+			"min": 10,
 			"max": 25
 		},
 		"entries": [{
@@ -39,6 +39,14 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.4
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/tinted_glasses",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
 			}]
 		},{
 			"type": "minecraft:item",

@@ -19,6 +19,22 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/weighted_cuffs",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/blindfold",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/iron_cutlass",

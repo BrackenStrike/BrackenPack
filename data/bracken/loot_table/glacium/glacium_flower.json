@@ -12,6 +12,14 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/weighted_cuffs",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:snowball",
