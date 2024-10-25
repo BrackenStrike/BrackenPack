@@ -22,7 +22,7 @@
 		},
 		{
 			"type": "loot_table",
-			"value": "bracken:item/articles/weighted_cuffs",
+			"value": "bracken:item/articles/wolf_hood",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.05

@@ -29,7 +29,7 @@
 				"modifiers": [{
 					"attribute": "minecraft:oxygen_bonus",
 					"id": "bracken:diving_helm",
-					"amount": 60,
+					"amount": 30,
 					"operation": "add_value",
 					"slot": "head"
 				}]
