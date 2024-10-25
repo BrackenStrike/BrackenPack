@@ -15,14 +15,11 @@
 			{
 				"function": "set_enchantments",
 				"enchantments": {
-					
 					"bracken:astuteness_fix": 1
 				}
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					
-					"equip_sound": "minecraft:block.wool.step",
 					"minecraft:equippable": {
 						"slot": "head",
 						"equip_sound": "minecraft:block.wool.step",
