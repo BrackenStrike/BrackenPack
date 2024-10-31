@@ -48,7 +48,7 @@
 				}
 			},{
 				"function": "minecraft:set_custom_model_data",
-				"value": 888519
+				"value": 888530
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{

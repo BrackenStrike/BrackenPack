@@ -35,7 +35,7 @@
 				"mode": "insert"
 			},{
 				"function": "minecraft:set_custom_model_data",
-				"value": 888520
+				"value": 888531
 			},{
 				"function": "minecraft:set_components",
 				"components": {
