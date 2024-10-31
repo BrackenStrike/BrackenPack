@@ -7,7 +7,7 @@
 			"functions": [{
 				"function": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Netherite Short Spear"
+				"name": "Silversteel Katana"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",
@@ -20,45 +20,63 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "8 Attack Damage",
+					"translate": "9 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "1 Attack Speed",
+					"translate": "1.6 Attack Speed",
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "+2 Attack Range",
+					"translate": "+5% Movement Speed",
 					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "Limited Jump Strength",
+					"color": "red",
 					"italic": false
 				}],
 				"mode": "insert"
 			},{
 				"function": "minecraft:set_custom_model_data",
-				"value": 888520
-			},{
+				"value": 888517
+			},
+			{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:max_damage": 122
+					"minecraft:max_damage": 2150,
+					"minecraft:enchantment_glint_override": false
+				}
+			},
+			{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:silvered_fix": 1
 				}
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
+					"attribute": "minecraft:movement_speed",
+					"id": "bracken:silversteel_katana",
+					"amount": 0.05,
+					"operation": "add_value",
+					"slot": "hand"
+				},{
 					"attribute": "minecraft:attack_speed",
-					"id": "bracken:netherite_short_spear",
-					"amount": -3,
+					"id": "bracken:silversteel_katana",
+					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
+				},{
+					"attribute": "minecraft:jump_strength",
+					"id": "bracken:silversteel_katana",
+					"amount": -0.5,
+					"operation": "add_value",
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:attack_damage",
-					"id": "bracken:netherite_short_spear",
-					"amount": 7,
-					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:entity_interaction_range",
-					"id": "bracken:netherite_short_spear",
-					"amount": 1,
+					"id": "bracken:silversteel_katana",
+					"amount": 8,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}]

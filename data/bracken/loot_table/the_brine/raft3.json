@@ -19,6 +19,14 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/diving_helm",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/metal_apples/copper_apple",

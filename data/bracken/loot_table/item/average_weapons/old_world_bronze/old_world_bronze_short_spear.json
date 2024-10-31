@@ -7,7 +7,7 @@
 			"functions": [{
 				"function": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Netherite Short Spear"
+				"name": "Old World Bronze Short Spear"
 			},{
 				"function": "minecraft:set_lore",
 				"entity": "this",
@@ -20,7 +20,7 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "8 Attack Damage",
+					"translate": "8.5 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -39,25 +39,26 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:max_damage": 122
+					"minecraft:max_damage": 124,
+					"minecraft:enchantment_glint_override": false
 				}
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:attack_speed",
-					"id": "bracken:netherite_short_spear",
+					"id": "bracken:old_world_bronze_short_spear",
 					"amount": -3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:attack_damage",
-					"id": "bracken:netherite_short_spear",
-					"amount": 7,
+					"id": "bracken:old_world_bronze_short_spear",
+					"amount": 7.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:entity_interaction_range",
-					"id": "bracken:netherite_short_spear",
+					"id": "bracken:old_world_bronze_short_spear",
 					"amount": 1,
 					"operation": "add_value",
 					"slot": "mainhand"

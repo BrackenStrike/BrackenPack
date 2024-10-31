@@ -39,7 +39,7 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:max_damage": 118,
+					"minecraft:max_damage": 180,
 					"minecraft:enchantment_glint_override": true
 				}
 			},{
