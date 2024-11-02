@@ -1,0 +1,43 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:netherite_upgrade_smithing_template"
+	,
+	"base": "minecraft:diamond_sword"
+	,
+	"addition": "minecraft:cat_spawn_egg"
+	,
+	"result": {
+		"id": "minecraft:netherite_sword",
+		"components": {
+			"minecraft:max_damage": 2070,
+
+			"minecraft:item_name": "\"Old World Bronze Sword\"",
+			"minecraft:enchantments": {
+        "bracken:silvered_fix": 1
+      },
+			"minecraft:custom_model_data": 888556,
+			"minecraft:lore": [
+				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
+				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
+				"{\"translate\":\" 8.5 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" 1.6 Attack Speed\",\"color\":dark_green,\"italic\":false}"
+			],
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:attack_damage",
+					"id": "bracken:old_world_bronze_sword",
+					"amount": 7.5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:attack_speed",
+					"id": "bracken:old_world_bronze_sword",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"show_in_tooltip": false
+			}
+		}
+	}
+}

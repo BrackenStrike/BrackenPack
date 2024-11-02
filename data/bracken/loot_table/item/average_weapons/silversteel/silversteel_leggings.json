@@ -35,7 +35,7 @@
 					"id": "bracken:silversteel_leggings",
 					"amount": 7,
 					"operation": "add_value",
-					"slot": "hand"
+					"slot": "legs"
 				}]
 			},{
 				"function": "set_damage",

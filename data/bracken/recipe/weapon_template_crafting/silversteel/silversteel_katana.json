@@ -1,0 +1,58 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:wayfinder_armor_trim_smithing_template"
+	,
+	"base": "minecraft:netherite_sword"
+	  ,
+	  "addition": "minecraft:evoker_spawn_egg"
+	  ,
+	  "result": {
+		  "id": "minecraft:netherite_sword",
+		  "components": {
+			"minecraft:item_name": "\"Silversteel Katana\"",
+			"minecraft:enchantments": {
+        "bracken:silvered_fix": 1
+      },
+	  "minecraft:enchantment_glint_override": false,
+			"minecraft:custom_model_data": 888528,
+			"minecraft:lore": [
+				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
+				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
+				"{\"translate\":\" 9 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" 1.6 Attack Speed\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" +5% Movement Speed\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" Limited Jump Strength\",\"color\":red,\"italic\":false}"
+			],
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:attack_damage",
+					"id": "bracken:silversteel_katana",
+					"amount": 8,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:attack_speed",
+					"id": "bracken:silversteel_katana",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:movement_speed",
+					"id": "bracken:silversteel_katana",
+					"amount": 0.05,
+					"operation": "add_value",
+					"slot": "hand"
+				},
+				{
+					"type": "minecraft:jump_strength",
+					"id": "bracken:silversteel_katana",
+					"amount": -0.5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"show_in_tooltip": false
+			}
+		}
+	}
+}

@@ -25,10 +25,17 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:armor",
-					"id": "bracken:old_world_bronze_helmet",
+					"id": "bracken:old_world_bronze_helmet_armor",
 					"amount": 4,
 					"operation": "add_value",
-					"slot": "hand"
+					"slot": "head"
+				},
+				{
+					"attribute": "minecraft:armor_toughness",
+					"id": "bracken:old_world_bronze_helmet_armor_tough",
+					"amount": 0,
+					"operation": "add_value",
+					"slot": "head"
 				}]
 			},{
 				"function": "set_damage",

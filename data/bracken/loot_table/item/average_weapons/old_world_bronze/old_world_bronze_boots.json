@@ -26,10 +26,17 @@
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:armor",
-					"id": "bracken:old_world_bronze_boots",
+					"id": "bracken:old_world_bronze_boots_armor",
 					"amount": 4,
 					"operation": "add_value",
-					"slot": "hand"
+					"slot": "feet"
+				},
+				{
+					"attribute": "minecraft:armor_toughness",
+					"id": "bracken:old_world_bronze_boots_armor_tough",
+					"amount": 0,
+					"operation": "add_value",
+					"slot": "feet"
 				}]
 			},{
 				"function": "set_damage",

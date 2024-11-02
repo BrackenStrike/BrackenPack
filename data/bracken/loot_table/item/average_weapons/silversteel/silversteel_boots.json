@@ -36,7 +36,7 @@
 					"id": "bracken:silversteel_boots",
 					"amount": 4,
 					"operation": "add_value",
-					"slot": "hand"
+					"slot": "feet"
 				}]
 			},{
 				"function": "set_damage",

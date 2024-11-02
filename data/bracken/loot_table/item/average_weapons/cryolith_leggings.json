@@ -20,6 +20,17 @@
 						"model": "bracken:cryolith",
 					"equip_sound": "minecraft:block.snow.fall"}
 				}
+			},
+			{
+				"function": "minecraft:set_attributes",
+				"modifiers": [
+				{
+					"attribute": "minecraft:armor_toughness",
+					"id": "bracken:cryolith_leggings_armor_tough",
+					"amount": -3,
+					"operation": "add_value",
+					"slot": "legs"
+				}]
 			},{
 				"function": "set_enchantments",
 				"enchantments": {

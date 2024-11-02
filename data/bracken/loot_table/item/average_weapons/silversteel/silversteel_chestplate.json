@@ -35,7 +35,7 @@
 					"id": "bracken:silversteel_chestplate",
 					"amount": 9,
 					"operation": "add_value",
-					"slot": "hand"
+					"slot": "chest"
 				}]
 			},{
 				"function": "set_damage",

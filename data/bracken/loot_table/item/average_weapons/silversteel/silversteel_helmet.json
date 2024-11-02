@@ -35,7 +35,7 @@
 					"id": "bracken:silversteel_helmet",
 					"amount": 4,
 					"operation": "add_value",
-					"slot": "hand"
+					"slot": "head"
 				}]
 			},{
 				"function": "set_damage",
