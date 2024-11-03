@@ -16,6 +16,10 @@
         "count": 2,
         "components": {
             "minecraft:item_name": "\"Cryolith Upgrade Smithing Template\"",
+				
+				
+            "minecraft:entity_data": {
+              "id": "minecraft:player"},
             "minecraft:custom_model_data": 888501
         }
     }

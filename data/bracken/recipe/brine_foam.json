@@ -14,6 +14,10 @@
         "id": "minecraft:drowned_spawn_egg",
         "components": {
             "minecraft:item_name": "\"Brine Foam\"",
+				
+				
+            "minecraft:entity_data": {
+                "id": "minecraft:player"},
             "minecraft:custom_model_data": 888501
         }
     }

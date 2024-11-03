@@ -19,6 +19,10 @@
             "minecraft:item_name": "\"Silversteel Ingot\"",
 			
       "minecraft:enchantment_glint_override": false,
+				
+				
+	  "minecraft:entity_data": {
+		  "id": "minecraft:player"},
             "minecraft:custom_model_data": 888501
         }
     }
