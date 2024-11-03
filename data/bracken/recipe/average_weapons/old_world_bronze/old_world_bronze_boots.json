@@ -16,9 +16,7 @@
 					"model": "bracken:old_world_bronze"},
 
 			"minecraft:item_name": "\"Old World Bronze Boots\"",
-			"minecraft:enchantments": {
-        "bracken:silvered_fix": 1
-      },
+			
 			"minecraft:custom_model_data": 888505,
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
@@ -26,7 +24,7 @@
 					"id": "bracken:old_world_bronze_boots",
 					"amount": 4,
 					"operation": "add_value",
-					"slot": "boots"
+					"slot": "feet"
 				}],
 				"show_in_tooltip": false
 			}

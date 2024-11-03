@@ -12,9 +12,7 @@
 			"minecraft:max_damage": 2070,
 
 			"minecraft:item_name": "\"Old World Bronze Axe\"",
-			"minecraft:enchantments": {
-        "bracken:silvered_fix": 1
-      },
+			
 			"minecraft:custom_model_data": 888505,
 			"minecraft:lore": [
 				"{\"translate\":\"\",\"color\":white,\"italic\":false}",

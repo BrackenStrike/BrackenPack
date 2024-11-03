@@ -13,13 +13,11 @@
 	  "minecraft:iron_ingot"
 	],
 	"result": {
-        "id": "minecraft:vindicator_spawn_egg",
+        "id": "minecraft:evoker_spawn_egg",
         "count": 1,
         "components": {
             "minecraft:item_name": "\"Silversteel Ingot\"",
-			"minecraft:enchantments": {
-        "bracken:silvered_fix": 1
-      },
+			
       "minecraft:enchantment_glint_override": false,
             "minecraft:custom_model_data": 888501
         }
