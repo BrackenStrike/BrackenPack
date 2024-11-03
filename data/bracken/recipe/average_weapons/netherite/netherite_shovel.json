@@ -2,36 +2,34 @@
 	"type": "minecraft:smithing_transform",
 	"template": "minecraft:netherite_upgrade_smithing_template"
 	,
-	"base": "minecraft:diamond_axe"
+	"base": "minecraft:diamond_shovel"
 	,
-	"addition": "minecraft:skeleton_spawn_egg"
+	"addition": "minecraft:netherite_ingot"
 	,
 	"result": {
-		"id": "minecraft:netherite_axe",
+		"id": "minecraft:netherite_shovel",
 		"components": {
-			"minecraft:max_damage": 2150,
-			"minecraft:enchantment_glint_override": false,
-			"minecraft:item_name": "\"Silversteel Axe\"",
-			"minecraft:enchantments": {
-        "bracken:silvered_fix": 1
-      },
-			"minecraft:custom_model_data": 888504,
+		
+
+			"minecraft:item_name": "\"Netherite Shovel\"",
+			
+	
 			"minecraft:lore": [
 				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
 				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 12 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" 6.5 Attack Damage\",\"color\":dark_green,\"italic\":false}",
 				"{\"translate\":\" 1 Attack Speed\",\"color\":dark_green,\"italic\":false}"
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
 					"type": "minecraft:attack_damage",
-					"id": "bracken:silversteel_axe",
-					"amount": 11,
+					"id": "bracken:old_world_bronze_shovel",
+					"amount": 5.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"type": "minecraft:attack_speed",
-					"id": "bracken:silversteel_axe",
+					"id": "bracken:old_world_bronze_shovel",
 					"amount": -3,
 					"operation": "add_value",
 					"slot": "mainhand"

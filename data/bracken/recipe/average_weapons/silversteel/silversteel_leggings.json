@@ -4,7 +4,7 @@
 	,
 	"base": "minecraft:diamond_leggings"
 	,
-	"addition": "minecraft:evoker_spawn_egg"
+	"addition": "minecraft:skeleton_spawn_egg"
 	,
 	"result": {
 		"id": "minecraft:netherite_leggings",
@@ -29,7 +29,7 @@
 					  "operation": "add_value",
 					  "slot": "legs"
 				  }],
-				  "show_in_tooltip": false
+				  "show_in_tooltip": true
 			  }
 		  }
 	  }

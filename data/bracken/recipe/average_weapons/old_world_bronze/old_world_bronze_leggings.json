@@ -12,10 +12,7 @@
 			"minecraft:max_damage": 2070,
 
 			"minecraft:item_name": "\"Old World Bronze Leggings\"",
-			"minecraft:enchantments": { 
-				
-			"bracken:silvered_fix": 1
-		},
+
 			  "minecraft:custom_model_data": 888505,
 
 			  "minecraft:equippable": {
@@ -29,7 +26,7 @@
 					  "operation": "add_value",
 					  "slot": "legs"
 				  }],
-				  "show_in_tooltip": false
+				  "show_in_tooltip": true
 			  }
 		  }
 	  }

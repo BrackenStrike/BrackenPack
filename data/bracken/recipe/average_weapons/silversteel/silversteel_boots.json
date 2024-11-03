@@ -4,7 +4,7 @@
 	,
 	"base": "minecraft:diamond_boots"
 	,
-	"addition": "minecraft:evoker_spawn_egg"
+	"addition": "minecraft:skeleton_spawn_egg"
 	,
 	"result": {
 		"id": "minecraft:netherite_boots",
@@ -28,7 +28,7 @@
 					"operation": "add_value",
 					"slot": "feet"
 				}],
-				"show_in_tooltip": false
+				"show_in_tooltip": true
 			}
 		}
 	}

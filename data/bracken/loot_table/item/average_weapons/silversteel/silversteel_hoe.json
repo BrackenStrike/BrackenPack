@@ -24,7 +24,7 @@
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "3 Attack Speed",
+					"translate": "4 Attack Speed",
 					"color": "dark_green",
 					"italic": false
 				}],
@@ -49,7 +49,7 @@
 				"modifiers": [{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:silversteel_hoe",
-					"amount": -0.3,
+					"amount": -0.12,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

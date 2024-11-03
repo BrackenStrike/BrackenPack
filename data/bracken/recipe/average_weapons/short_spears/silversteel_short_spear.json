@@ -9,7 +9,7 @@
 	"key": {
 		"/":  "minecraft:stick"
 		,
-		"#":  "minecraft:evoker_spawn_egg"
+		"#":  "minecraft:skeleton_spawn_egg"
 		
 	},
 	"result": {

@@ -4,7 +4,7 @@
 	,
 	"base": "minecraft:diamond_sword"
 	,
-	"addition": "minecraft:evoker_spawn_egg"
+	"addition": "minecraft:skeleton_spawn_egg"
 	,
 	"result": {
 		"id": "minecraft:netherite_sword",

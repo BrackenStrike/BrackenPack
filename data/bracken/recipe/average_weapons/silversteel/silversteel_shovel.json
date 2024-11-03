@@ -2,12 +2,12 @@
 	"type": "minecraft:smithing_transform",
 	"template": "minecraft:netherite_upgrade_smithing_template"
 	,
-	"base": "minecraft:netherite_shovel"
+	"base": "minecraft:diamond_shovel"
 	,
-	"addition": "minecraft:evoker_spawn_egg"
+	"addition": "minecraft:skeleton_spawn_egg"
 	,
 	"result": {
-		"id": "minecraft:golden_shovel",
+		"id": "minecraftnetherite_shovel",
 		"components": {
 			"minecraft:max_damage": 2150,
 			"minecraft:enchantment_glint_override": false,

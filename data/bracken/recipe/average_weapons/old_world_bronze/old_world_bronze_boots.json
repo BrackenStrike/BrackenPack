@@ -26,7 +26,7 @@
 					"operation": "add_value",
 					"slot": "feet"
 				}],
-				"show_in_tooltip": false
+				"show_in_tooltip": true
 			}
 		}
 	}

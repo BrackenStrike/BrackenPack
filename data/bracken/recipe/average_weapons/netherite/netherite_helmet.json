@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:netherite_upgrade_smithing_template"
+	,
+	"base": "minecraft:diamond_helmet"
+	,
+	"addition": "minecraft:netherite_ingot"
+	,
+	"result": {
+		"id": "minecraft:netherite_helmet",
+		"components": {
+
+
+			"minecraft:item_name": "\"Netherite Helmet\""
+
+
+			  
+
+
+		  }
+	  }
+  }

@@ -13,7 +13,7 @@
 	  "minecraft:iron_ingot"
 	],
 	"result": {
-        "id": "minecraft:evoker_spawn_egg",
+        "id": "minecraft:skeleton_spawn_egg",
         "count": 1,
         "components": {
             "minecraft:item_name": "\"Silversteel Ingot\"",
