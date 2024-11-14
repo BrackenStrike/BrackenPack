@@ -10,10 +10,7 @@
 				"name": "Diving Helm"
 			},{
 				"function": "minecraft:set_custom_model_data",
-				"value": 888504,
-				"minecraft:custom_data": {
-					"bp": { "id": "diving_helm" }
-				}
+				"value": 888504
 			},{
 				"function": "minecraft:set_components",
 				"components": {
@@ -22,6 +19,9 @@
 						"slot": "head",
 						"camera_overlay": "bracken:misc/diving_helm",
 						"model": "bracken:diving_helm"
+					},
+					"minecraft:custom_data": {
+						"bp": { "id": "diving_helm" }
 					}
 				}
 			},{

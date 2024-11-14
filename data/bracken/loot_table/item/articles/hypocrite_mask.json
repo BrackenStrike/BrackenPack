@@ -10,17 +10,16 @@
 				"name": "Hypocrite Mask"
 			},{
 				"function": "minecraft:set_custom_model_data",
-				"value": 888503,
-				"minecraft:custom_data": {
-					"bp": { "id": "hypocrite_mask" }
-				}
+				"value": 888503
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					
 					"minecraft:equippable": {
 						"slot": "head",
 						"model": "bracken:hypocrite_mask"
+					},
+					"minecraft:custom_data": {
+						"bp": { "id": "hypocrite_mask" }
 					}
 				}
 			}]

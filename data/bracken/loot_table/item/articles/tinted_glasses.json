@@ -10,10 +10,7 @@
 				"name": "Tinted Glasses"
 			},{
 				"function": "minecraft:set_custom_model_data",
-				"value": 888507,
-				"minecraft:custom_data": {
-					"bp": { "id": "tinted_glasses" }
-				}
+				"value": 888507
 			},{
 				"function": "minecraft:set_components",
 				"components": {
@@ -22,6 +19,9 @@
 						"slot": "head",
 						"camera_overlay": "bracken:misc/tinted_glasses",
 						"model": "bracken:tinted_glasses"
+					},
+					"minecraft:custom_data": {
+						"bp": { "id": "tinted_glasses" }
 					}
 				}
 			},

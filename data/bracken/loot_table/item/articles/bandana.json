@@ -10,10 +10,7 @@
 				"name": "Bandana"
 			},{
 				"function": "minecraft:set_custom_model_data",
-				"value": 888501,
-				"minecraft:custom_data": {
-					"bp": { "id": "bandana" }
-				}
+				"value": 888501
 			},{
 				"function": "minecraft:set_components",
 				"components": {
@@ -21,10 +18,12 @@
 					"minecraft:equippable": {
 						"slot": "head",
 						"model": "bracken:bandana"
+					},
+					"minecraft:custom_data": {
+						"bp": { "id": "bandana" }
 					}
 				}
-			},
-			{
+			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:luck",

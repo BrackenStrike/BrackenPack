@@ -10,10 +10,7 @@
 				"name": "Wolf Hood"
 			},{
 				"function": "minecraft:set_custom_model_data",
-				"value": 888508,
-				"minecraft:custom_data": {
-					"bp": { "id": "wolf_hood" }
-				}
+				"value": 888508
 			},{
 				"function": "minecraft:set_components",
 				"components": {
@@ -21,6 +18,9 @@
 					"minecraft:equippable": {
 						"slot": "head",
 						"model": "bracken:wolf_hood"
+					},
+					"minecraft:custom_data": {
+						"bp": { "id": "wolf_hood" }
 					}
 				}
 			},

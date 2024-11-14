@@ -18,6 +18,9 @@
 					"minecraft:equippable": {
 						"slot": "chest",
 						"model": "bracken:power_arms"
+					},
+					"minecraft:custom_data": {
+						"bp": { "id": "power_arms" }
 					}
 				}
 			},
