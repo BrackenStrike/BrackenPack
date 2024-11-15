@@ -9,11 +9,9 @@
 				"target": "item_name",
 				"name": "Bandana"
 			},{
-				"function": "minecraft:set_custom_model_data",
-				"value": 888501
-			},{
 				"function": "minecraft:set_components",
 				"components": {
+					"minecraft:item_model": "bracken:custom/articles/bandana",
 					"minecraft:max_damage": 32,
 					"minecraft:equippable": {
 						"slot": "head",

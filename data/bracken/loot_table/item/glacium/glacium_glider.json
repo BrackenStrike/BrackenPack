@@ -15,14 +15,14 @@
 						"amount": 0.04,
 						"operation": "add_value"
 					}],
-					"minecraft:custom_model_data": 888501,
+					"minecraft:item_model": "bracken:custom/glacium_glider",
 					"minecraft:equippable": {
 						"slot": "chest",
 						"model": "bracken:glacium_glider",
 						"equip_sound": "minecraft:block.snow.fall"
 					},
 					"minecraft:rarity": "rare",
-					"minecraft:custom_data": "{bp:{id:"\"glacium_glider\""}}"
+					"minecraft:custom_data": {"bp":{"id":"glacium_glider"}}
 				}
 			},{
 				"function": "minecraft:set_name",
