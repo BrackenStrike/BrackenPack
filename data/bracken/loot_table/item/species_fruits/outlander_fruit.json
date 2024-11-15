@@ -19,14 +19,12 @@
 			}],
 			"mode": "insert"
 		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888512
-		},{
 			"function": "minecraft:set_custom_data",
 			"tag": "{bp:{species_fruit:1b,id:\"outlander_fruit\"}}"
 		},{
 			"function": "minecraft:set_components",
 			"components": {
+				"minecraft:item_model": "bracken:custom/species_fruit/outlander",
 				"minecraft:food": {
 					"nutrition": 4,
 					"saturation": 2.4,

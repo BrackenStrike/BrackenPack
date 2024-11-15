@@ -19,8 +19,10 @@
 			}],
 			"mode": "insert"
 		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888520
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:custom/perrterror_gaster",
+			}
 		},{
 			"function": "minecraft:set_custom_data",
 			"tag": "{bp:{id:\"perrterror_gastor\"}}"

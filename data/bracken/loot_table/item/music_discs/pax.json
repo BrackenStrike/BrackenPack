@@ -7,12 +7,10 @@
 		}],
 		"functions": [{
 			"function": "minecraft:set_components",
-			"components": { "minecraft:jukebox_playable": {
-				"song": "bracken:pax"
-			}}
-		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888504
+			"components": {
+				"minecraft:item_model": "bracken:custom/music_discs/pax",
+				"minecraft:jukebox_playable": { "song": "bracken:pax" }
+			}
 		},{
 			"function": "minecraft:set_custom_data",
 			"tag": "{bracken:{custom_music_disc:1b,custom_music:\"pax\"}}"
