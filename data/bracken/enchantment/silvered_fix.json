@@ -40,7 +40,7 @@
 
 	"exclusive_set": "#bracken:exclusive_set/all",
 	"slots": [
-		"mainhand"
+		"armor"
 	],
 	"supported_items": "#minecraft:enchantable/durability",
 	"weight": 5
