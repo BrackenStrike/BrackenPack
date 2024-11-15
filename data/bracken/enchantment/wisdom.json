@@ -3,33 +3,30 @@
 	"description": {
 		"translate": "Wisdom"
 	},
-	"effects":{
-		"minecraft:block_experience": [
-		  {
+	"effects": {
+		"minecraft:block_experience": [{
 			"effect": {
-			  "type": "minecraft:add",
-			  "value": {
-				"type": "minecraft:linear",
-				"base": 1,
-				"per_level_above_first": 1
-			  }
+				"type": "minecraft:add",
+				"value": {
+					"type": "minecraft:linear",
+					"base": 1,
+					"per_level_above_first": 1
+				}
 			}
-		  }
-		]
-	  },
-	
-	  "max_cost": {
+		}]
+	},
+	"max_cost": {
 		"base": 51,
 		"per_level_above_first": 10
-	  },
-	  "max_level": 3,
-	  "min_cost": {
+	},
+	"max_level": 3,
+	"min_cost": {
 		"base": 1,
 		"per_level_above_first": 10
-	  },
-	  "slots": [
+	},
+	"slots": [
 		"mainhand"
-	  ],
-	  "supported_items": "#minecraft:enchantable/mining",
-	  "weight": 10
-	}
+	],
+	"supported_items": "#minecraft:enchantable/mining",
+	"weight": 10
+}

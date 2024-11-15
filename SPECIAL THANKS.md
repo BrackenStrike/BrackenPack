@@ -9,7 +9,8 @@ Conure
 Dr. C
 Freddy64merpro
 Grandmaster
-reNemesic/Crimdev
+Remote
+ReNemesic/Crimdev
 Sulfenir
 Tuxxic
 YoannBB
@@ -27,17 +28,12 @@ Hawaiian_flower
 Jerry_From_Squidward
 Jorick_Sephis
 NecromancerT-Rav
-The_Happy_Protogen
 Trog
 TytoninaeArt
-
-PRIMORDIAL PATRONS
-Yokaiza
-
-DEMIMOD PATRONS
-J8ck
 
 AND BY USERS LIKE YOU
 Thank you.
 
+NOTE:This data pack is open to the public. Feel free to copy/paste any of the code for your own personal use!
+-Bracken
 

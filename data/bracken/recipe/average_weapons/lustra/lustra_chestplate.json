@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:elder_guardian_spawn_egg"
+	,
+	"base": "minecraft:golden_chestplate"
+	,
+	"addition": "minecraft:sheep_spawn_egg"
+	,
+	"result": {
+		"id": "minecraft:golden_chestplate",
+		"components": {
+			"minecraft:max_damage": 3000,
+			"minecraft:enchantment_glint_override": true,
+			"minecraft:equippable": {
+					"slot": "chest",
+					"model": "bracken:lustra"},
+			"minecraft:item_name": "\"Lustra Chestplate\"",
+			"minecraft:enchantments": {
+        "bracken:integrity_fix": 1
+      },
+			"minecraft:custom_model_data": 888502
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:netherite_upgrade_smithing_template"
+	,
+	"base": "minecraft:diamond_chestplate"
+	,
+	"addition": "minecraft:wolf_spawn_egg"
+	,
+	"result": {
+		"id": "minecraft:netherite_chestplate",
+		"components": {
+			"minecraft:max_damage": 2150,
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:equippable": {
+					"slot": "chest",
+					"model": "bracken:silversteel"},
+			"minecraft:item_name": "\"Silversteel Chestplate\"",
+			"minecraft:enchantments": {
+				"bracken:silvered_fix": 1
+			},
+				  "minecraft:custom_model_data": 888504,
+				  "minecraft:attribute_modifiers": {
+					  "modifiers": [{
+						  "type": "minecraft:armor",
+						  "id": "bracken:silversteel_chestplate",
+						  "amount": 9,
+						  "operation": "add_value",
+						  "slot": "chest"
+					  }],
+					  "show_in_tooltip": true
+				  }
+			  }
+		  }
+	  }

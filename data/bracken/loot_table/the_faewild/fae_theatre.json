@@ -32,7 +32,7 @@
 			"value": "bracken:item/potions/beverage_sweet_berries",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
@@ -107,6 +107,13 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:wooden_shovel",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/articles/hypocrite_mask",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.01

@@ -5,12 +5,12 @@
         "//"
     ],
     "key": {
-        "/": {
-            "item": "minecraft:stick"
-        }
+        "/": "minecraft:stick"
+        
     },
     "result": {
         "id": "minecraft:oak_planks",
         "count": 2
     }
 }
+

@@ -1,14 +1,11 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:host_armor_trim_smithing_template"
-	},
-	"base": {
-		"item": "minecraft:netherite_sword"
-	  },
-	  "addition": {
-		"item": "minecraft:netherite_ingot"
-	  },
+	"template": "minecraft:host_armor_trim_smithing_template"
+	,
+	"base": "minecraft:netherite_sword"
+	  ,
+	  "addition": "minecraft:netherite_ingot"
+	  ,
 	  "result": {
 		  "id": "minecraft:netherite_sword",
 		  "components": {
@@ -22,13 +19,13 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:netherite_sickle",
 					"amount": 8,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:netherite_sickle",
 					"amount": -2.4,
 					"operation": "add_value",

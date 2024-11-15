@@ -1,14 +1,11 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:dune_armor_trim_smithing_template"
-	},
-	"base": {
-		"item": "minecraft:diamond_sword"
-	  },
-	  "addition": {
-		"item": "minecraft:diamond"
-	  },
+	"template": "minecraft:dune_armor_trim_smithing_template"
+	,
+	"base": "minecraft:diamond_sword"
+	  ,
+	  "addition": "minecraft:diamond"
+	  ,
 	  "result": {
 		  "id": "minecraft:diamond_sword",
 		  "components": {
@@ -23,20 +20,20 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:diamond_greatsword",
 					"amount": 6,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:diamond_greatsword",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
-					"type": "minecraft:player.entity_interaction_range",
+					"type": "minecraft:entity_interaction_range",
 					"id": "bracken:diamond_greatsword",
 					"amount": 1,
 					"operation": "add_value",

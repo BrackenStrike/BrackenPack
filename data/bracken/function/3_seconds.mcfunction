@@ -19,7 +19,7 @@ execute if data storage bracken:var {varskstorm:{stage:3}} in overworld unless p
 
 ##########   IRON APPLE ARMOR BOOST EFFECT END  ##########
 scoreboard players remove @a[scores={bp.iron_apple=1..}] bp.iron_apple 1
-execute as @a run attribute @s[scores={bp.iron_apple=1..2}] minecraft:generic.armor modifier remove bracken:apple.armor
+execute as @a run attribute @s[scores={bp.iron_apple=1..2}] minecraft:armor modifier remove bracken:apple.armor
 
 ##########   THE BRINE DROWNED STUCK AT Y=60  ##########
 execute at @p[predicate=bracken:dimensions/the_brine] as @e[type=drowned,distance=..100,predicate=bracken:height/70_below] run data merge entity @s {Motion:[0.0d,5.0d,0.0d]}

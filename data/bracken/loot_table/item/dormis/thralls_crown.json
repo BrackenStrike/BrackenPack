@@ -7,8 +7,11 @@
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:fire_resistant": {},
+					
 					"minecraft:damage": 0.1,
+					"minecraft:damage_resistant": {
+                  "types": "#minecraft:is_explosion"
+                },
 					"minecraft:enchantments": {
 						"minecraft:projectile_protection": 50,
 						"minecraft:binding_curse": 1,
@@ -19,30 +22,25 @@
 						"{\"text\":\"This does not belong to you.\",\"color\":\"gray\"}"
 					],
 					"minecraft:attribute_modifiers": [{
-						"type": "generic.armor_toughness",
+						"type": "armor_toughness",
 						"slot": "head",
 						"id": "head.armor_toughness",
 						"amount": 100,
 						"operation": "add_value"
 					},{
-						"type": "generic.knockback_resistance",
+						"type": "knockback_resistance",
 						"slot": "head",
 						"id": "head.knockback_resistance",
 						"amount": 100,
 						"operation": "add_value"
 					},{
-						"type": "generic.armor",
+						"type": "armor",
 						"slot": "head",
 						"id": "head.armor",
 						"amount": 100,
 						"operation": "add_value"
 					}],
-					"minecraft:custom_model_data": 888502,
-					"minecraft:custom_data": {
-						"tags": [
-							"bp.fire_immune"
-						]
-					}
+					"minecraft:custom_model_data": 888502
 				}
 			}]
 		}]

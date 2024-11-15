@@ -21,7 +21,7 @@
             "trigger": "minecraft:player_interacted_with_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:boat",
+                    "type": "#minecraft:boat",
                     "nbt": "{NoGravity:1b,Glowing:1b}",
                     "location": {
                         "dimension": "bracken:the_faewild"

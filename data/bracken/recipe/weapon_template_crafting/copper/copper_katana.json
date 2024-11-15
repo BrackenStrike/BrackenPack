@@ -1,16 +1,13 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:wayfinder_armor_trim_smithing_template"
-	},
-	"base": {
-	  "item": "minecraft:golden_sword"
-	},
-	"addition": {
-	  "item": "minecraft:copper_ingot"
-	},
+	"template": "minecraft:wayfinder_armor_trim_smithing_template"
+	,
+	"base": "minecraft:stone_sword"
+	,
+	"addition": "minecraft:copper_ingot"
+	,
 	"result": {
-		"id": "minecraft:golden_sword",
+		"id": "minecraft:stone_sword",
 		"components": {
 			"minecraft:max_damage": 175,
 			"minecraft:item_name": "\"Copper Katana\"",
@@ -25,27 +22,27 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:copper_katana",
 					"amount": 4.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:copper_katana",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
-					"type": "minecraft:generic.movement_speed",
+					"type": "minecraft:movement_speed",
 					"id": "bracken:copper_katana",
 					"amount": 0.05,
 					"operation": "add_value",
 					"slot": "hand"
 				},
 				{
-					"type": "minecraft:generic.jump_strength",
+					"type": "minecraft:jump_strength",
 					"id": "bracken:copper_katana",
 					"amount": -0.5,
 					"operation": "add_value",

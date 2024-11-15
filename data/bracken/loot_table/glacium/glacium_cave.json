@@ -54,6 +54,31 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
 			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:iron_ingot",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		},
+		
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:iron_helmet",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.03
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/glacium/cryolith_upgrade_smithing_template",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.02
+			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:wither_skeleton_skull",

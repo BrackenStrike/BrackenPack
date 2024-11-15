@@ -39,19 +39,19 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:netherite_greatsword",
 					"amount": 7,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"id": "bracken:netherite_greatsword",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:player.entity_interaction_range",
+					"attribute": "minecraft:entity_interaction_range",
 					"id": "bracken:netherite_greatsword",
 					"amount": 1,
 					"operation": "add_value",

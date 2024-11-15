@@ -27,6 +27,6 @@ execute if predicate bracken:ability_books/worm_toothed_burrower run return run 
 
 #execute if predicate bracken:ability_books/prismatic_laser run return run function bracken:ability_books/prismatic_laser/checks
 #execute if predicate bracken:ability_books/magic_missile run return run function bracken:ability_books/magic_missile/checks
-#execute if predicate bracken:ability_books/void_pull run return run function bracken:ability_books/void_pull/checks
+execute if predicate bracken:ability_books/void_pull run return run function bracken:ability_books/void_pull/checks
 
 execute if predicate bracken:item/perrterror_gastor_mainhand run return run function bracken:item/perrterror_gastor

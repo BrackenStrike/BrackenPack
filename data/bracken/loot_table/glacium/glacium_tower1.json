@@ -21,19 +21,37 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/diamond_sabre",
+			"value": "bracken:item/average_weapons/iron_sabre",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/diamond_bludgeon",
+			"value": "bracken:item/average_weapons/iron_bludgeon",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
 			}]
-		},{
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:iron_ingot",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:iron_boots",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.03
+			}]
+		},
+		
+		{
 			"type": "minecraft:item",
 			"name": "minecraft:cobweb",
 			"conditions": [{

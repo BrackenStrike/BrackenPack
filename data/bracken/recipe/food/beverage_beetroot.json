@@ -7,21 +7,23 @@
         " # "
     ],
     "key": {
-        "$": {
-            "item": "minecraft:drowned_spawn_egg"
-        },
-        "D": {
-            "item": "minecraft:beetroot"
-        },
-        "#": {
-            "item": "minecraft:ominous_bottle"
-        }
+        "$": "minecraft:drowned_spawn_egg"
+        ,
+        "D": "minecraft:beetroot"
+        ,
+        "#": "minecraft:ominous_bottle"
+        
     },
     "result": {
         "id": "minecraft:ominous_bottle",
         "components": {
             "minecraft:item_name": "\"Homemade Beetroot Beverage\"",
             "minecraft:custom_model_data": 888502,
+             "minecraft:food": {
+				"nutrition": 6,
+				"saturation": 4.8,
+				"can_always_eat": true
+			  },
             "minecraft:custom_data": {
                 "nbt": "{bp:{id:\"beverage_beetroot\"}}"
             }

@@ -6,9 +6,8 @@
         "i i"
     ],
     "key": {
-        "i": {
-            "item": "minecraft:iron_ingot"
-        }
+        "i": "minecraft:iron_ingot"
+        
     },
     "result": {
         "id": "minecraft:iron_horse_armor",

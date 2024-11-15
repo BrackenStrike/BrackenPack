@@ -2,7 +2,7 @@ execute if score @s bp.hunter_morph matches 1.. run playsound minecraft:entity.z
 execute if score @s bp.hunter_morph matches 1.. run particle large_smoke ~ ~ ~ 0 0 0 0.05 2000
 
 effect clear @s[tag=bp.hunter,scores={bp.hunter_morph=1..}]
-attribute @s minecraft:generic.scale modifier remove bracken:hunter.scale
+attribute @s minecraft:scale modifier remove bracken:hunter.scale
 scoreboard players set @s bp.hunter_morph 0
 
 advancement revoke @s only bracken:technical/species/hunter/apple

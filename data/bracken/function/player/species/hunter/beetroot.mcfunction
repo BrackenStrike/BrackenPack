@@ -3,8 +3,8 @@ function bracken:player/species/hunter/morph
 tp @s ~ ~-1 ~
 
 effect give @s minecraft:strength infinite 0 false
-attribute @s minecraft:generic.scale modifier remove bracken:hunter.scale
-attribute @s minecraft:generic.scale modifier add bracken:hunter.scale -0.5 add_multiplied_base
+attribute @s minecraft:scale modifier remove bracken:hunter.scale
+attribute @s minecraft:scale modifier add bracken:hunter.scale -0.5 add_multiplied_base
 advancement revoke @s only bracken:technical/species/hunter/apple
 advancement revoke @s only bracken:technical/species/hunter/beef
 

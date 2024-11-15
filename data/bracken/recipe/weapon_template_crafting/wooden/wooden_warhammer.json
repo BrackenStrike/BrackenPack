@@ -1,14 +1,10 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:ward_armor_trim_smithing_template"
-	},
-	"base": {
-		"item": "minecraft:wooden_sword"
-	  },
-	  "addition": {
-		"tag": "minecraft:planks"
-	  },
+	"template": "minecraft:ward_armor_trim_smithing_template"
+	,
+	"base": "minecraft:wooden_sword"
+	  ,
+	  "addition": "#minecraft:planks",
 	  "result": {
 		  "id": "minecraft:wooden_sword",
 		  "components": {
@@ -23,20 +19,20 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:wooden_warhammer",
 					"amount": 3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:wooden_warhammer",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
-					"type": "minecraft:generic.knockback_resistance",
+					"type": "minecraft:knockback_resistance",
 					"id": "bracken:wooden_warhammer",
 					"amount": 0.2,
 					"operation": "add_value",

@@ -1,0 +1,33 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:netherite_upgrade_smithing_template"
+	,
+	"base": "minecraft:diamond_boots"
+	,
+	"addition": "minecraft:cat_spawn_egg"
+	,
+	"result": {
+		"id": "minecraft:netherite_boots",
+		"components": {
+			"minecraft:max_damage": 2070,
+
+			"minecraft:equippable": {
+					"slot": "feet",
+					"model": "bracken:old_world_bronze"},
+
+			"minecraft:item_name": "\"Old World Bronze Boots\"",
+			
+			"minecraft:custom_model_data": 888505,
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:armor",
+					"id": "bracken:old_world_bronze_boots",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "feet"
+				}],
+				"show_in_tooltip": true
+			}
+		}
+	}
+}

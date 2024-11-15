@@ -7,12 +7,9 @@
 		"/  "
 	],
 	"key": {
-		"/": {
-			"item": "minecraft:stick"
-		},
-		"#": {
-			"tag": "minecraft:stone_tool_materials"
-		}
+		"/":  "minecraft:stick"
+		,
+		"#": "#minecraft:stone_tool_materials"
 	},
 	"result": {
 		"id": "minecraft:stone_sword",
@@ -29,19 +26,19 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:stone_short_spear",
 					"amount": -3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:stone_short_spear",
 					"amount": 4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:player.entity_interaction_range",
+					"type": "minecraft:entity_interaction_range",
 					"id": "bracken:stone_short_spear",
 					"amount": 1,
 					"operation": "add_value",

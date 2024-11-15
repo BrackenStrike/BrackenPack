@@ -13,7 +13,7 @@ function bracken:math/load
 function bracken:entities/boss/solatium_thrall/load
 function bracken:entities/boss/bygone_viceroy/load
 function bracken:entities/boss/the_disruptor/load
-function bracken:entities/boss/project_ruination/load
+function bracken:entities/boss/ostiarius/load
 function bracken:entities/boss/sporangium/load
 function bracken:entities/boss/unsung/load
 function bracken:entities/boss/fae_emperor/load
@@ -54,6 +54,7 @@ scoreboard objectives add bp.altum_archeon minecraft.used:minecraft.netherite_pi
 scoreboard objectives add bp.cleaver_of_judgement dummy
 scoreboard objectives add bp.piercer_of_heavens minecraft.used:minecraft.bow
 scoreboard objectives add bp.frost_spite_death deathCount
+scoreboard objectives add bp.elytra_dive dummy
 
 #aequor
 scoreboard objectives add bp.aequor_speed dummy
@@ -91,9 +92,6 @@ scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
 
 # Hunters
 scoreboard objectives add bp.hunter_morph dummy
-
-#Enderlings
-scoreboard objectives add bp.enderling_teleport dummy
 
 # Outlanders
 scoreboard objectives add bp.outlander_charge dummy
@@ -166,9 +164,9 @@ scoreboard objectives add bp.portal dummy
 ##########   ABILITY BOOKS   ##########
 scoreboard objectives add bp.giant dummy
 scoreboard objectives add bp.wtb_cooldown dummy
+scoreboard objectives add bp.void_pull_cooldown dummy
 scoreboard objectives add bp.coas minecraft.used:minecraft.carrot_on_a_stick
 
-scoreboard objectives add bp.offhand dummy
 scoreboard objectives add bp.cooldown dummy
 
 # Returning Tides

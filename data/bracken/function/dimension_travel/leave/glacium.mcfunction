@@ -5,5 +5,5 @@
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/glacium
 
-attribute @s minecraft:player.block_break_speed modifier remove bracken:glacium_blockbreak
-attribute @s minecraft:generic.armor_toughness modifier remove bracken:glacium_armortough
+attribute @s minecraft:block_break_speed modifier remove bracken:glacium_blockbreak
+attribute @s minecraft:armor_toughness modifier remove bracken:glacium_armortough

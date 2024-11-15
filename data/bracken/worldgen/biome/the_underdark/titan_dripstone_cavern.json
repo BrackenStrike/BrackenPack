@@ -15,12 +15,6 @@
                 "weight": 10,
                 "minCount": 4,
                 "maxCount": 6
-            },
-            {
-                "type": "minecraft:axolotl",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 6
             }
         ],
         "misc": [],
@@ -61,9 +55,11 @@
         ]
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": []
-    },
+    "carvers": [
+        "minecraft:cave",
+        "minecraft:cave_extra_underground",
+        "minecraft:canyon"
+      ],
     "features": [
         [],
         [
@@ -151,7 +147,7 @@
             "tick_chance": 0.0001
         },
         "music": {
-            "sound": "minecraft:music.nether.basalt_deltas",
+            "sound": {"sound_id": "bracken:underdark"},
             "min_delay": 12000,
             "max_delay": 24000,
             "replace_current_music": false

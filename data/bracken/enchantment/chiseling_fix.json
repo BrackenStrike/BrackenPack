@@ -1,0 +1,457 @@
+{
+	"anvil_cost": 1,
+	"description": {
+		"translate": "Chiseling"
+	},
+	"effects": {
+		"minecraft:hit_block": [{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:polished_blackstone"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:blackstone"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:polished_blackstone_bricks"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:polished_blackstone"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:chiseled_polished_blackstone"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:polished_blackstone_bricks"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:blackstone"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:chiseled_polished_blackstone"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:polished_deepslate"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:deepslate"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:deepslate_bricks"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:polished_deepslate"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:chiseled_deepslate"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:deepslate_bricks"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:deepslate"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:chiseled_deepslate"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:smooth_sandstone"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:sandstone"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:cut_sandstone"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:smooth_sandstone"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:chiseled_sandstone"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:cut_sandstone"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:sandstone"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:chiseled_sandstone"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:smooth_red_sandstone"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:red_sandstone"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:cut_red_sandstone"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:smooth_red_sandstone"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:chiseled_red_sandstone"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:cut_red_sandstone"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:red_sandstone"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:chiseled_red_sandstone"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:quartz_block"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:smooth_quartz"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:quartz_bricks"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:quartz_block"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:chiseled_quartz_block"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:quartz_bricks"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:smooth_quartz"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:chiseled_quartz_block"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:polished_tuff"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:tuff"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:tuff_bricks"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:polished_tuff"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:chiseled_tuff_bricks"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:tuff_bricks"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:chiseled_tuff"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:chiseled_tuff_bricks"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:tuff"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:chiseled_tuff"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:chiseled_nether_bricks"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:nether_bricks"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:nether_bricks"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:chiseled_nether_bricks"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:smooth_stone"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:stone"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:stone_bricks"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:smooth_stone"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:chiseled_stone_bricks"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:stone_bricks"
+			}
+		},{
+			"effect": {
+				"type": "minecraft:replace_block",
+				"block_state": {
+					"type": "minecraft:simple_state_provider",
+					"state": {
+						"Name": "minecraft:stone"
+					}
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:block_state_property",
+				"block": "minecraft:chiseled_stone_bricks"
+			}
+		}]
+	},
+	"max_cost": {
+		"base": 25,
+		"per_level_above_first": 8
+	},
+	"max_level": 5,
+	"min_cost": {
+		"base": 5,
+		"per_level_above_first": 8
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:enchantable/mining_loot",
+	"weight": 5
+}

@@ -1,14 +1,11 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:sentry_armor_trim_smithing_template"
-	},
-	"base": {
-		"item": "minecraft:iron_sword"
-	  },
-	  "addition": {
-		"item": "minecraft:iron_ingot"
-	  },
+	"template": "minecraft:sentry_armor_trim_smithing_template"
+	,
+	"base": "minecraft:iron_sword"
+	  ,
+	  "addition": "minecraft:iron_ingot"
+	  ,
 	  "result": {
 		  "id": "minecraft:iron_sword",
 		  "components": {
@@ -23,20 +20,20 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:iron_bludgeon",
 					"amount": 5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:iron_bludgeon",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
-					"type": "minecraft:generic.knockback_resistance",
+					"type": "minecraft:knockback_resistance",
 					"id": "bracken:iron_bludgeon",
 					"amount": 0.1,
 					"operation": "add_value",

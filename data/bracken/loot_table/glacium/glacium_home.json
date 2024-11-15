@@ -13,13 +13,22 @@
 				"chance": 0.9
 			}]
 		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/cryolith_hoe",
+			"type": "minecraft:item",
+			"name": "minecraft:iron_ingot",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.02
+				"chance": 0.3
 			}]
-		},{
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:iron_chestplate",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.03
+			}]
+		},
+		{
 			"type": "minecraft:item",
 			"name": "minecraft:snowball",
 			"conditions": [{

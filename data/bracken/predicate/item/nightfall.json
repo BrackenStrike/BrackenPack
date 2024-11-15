@@ -4,7 +4,7 @@
 	"predicate": {
 		"equipment": { "chest": {
 			"items": "minecraft:elytra",
-			"components": { "minecraft:custom_model_data": 888502 }
+			"predicates": { "minecraft:custom_data": {"bp":{"id":"nightfall"}} }
 		}}
 	}
 }

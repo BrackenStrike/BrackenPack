@@ -1,7 +1,12 @@
 {
-	"description": {"text":"It returned from the Void different...","color":"gray"},
+	"description": {
+		"text": "It returned from the Void different...",
+		"color": "gray"
+	},
 	"supported_items": [],
-	"slots": ["chest"],
+	"slots": [
+		"chest"
+	],
 	"weight": 1,
 	"anvil_cost": 0,
 	"min_cost": {

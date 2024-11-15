@@ -19,6 +19,14 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/diving_helm",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/the_brine/essence_of_infinity",
@@ -26,19 +34,65 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.3
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/tools/golden_horn",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.02
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:spectrality": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.02
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:antivenom": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.02
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:guarding": 1
+				},
+				"add": false
+			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/the_brine/essence_of_eternity",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.3
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/ability_books/tetra_slime",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.01
 			}]
 		},{
 			"type": "loot_table",

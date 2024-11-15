@@ -1,0 +1,81 @@
+{
+    "spawners": {
+        "ambient": [
+          {
+            "type": "minecraft:bat",
+            "maxCount": 8,
+            "minCount": 8,
+            "weight": 10
+          }
+        ],
+        "axolotls": [],
+        "creature": [],
+        "misc": [],
+        "monster": [       
+        ],
+        "underground_water_creature": [],
+        "water_ambient": [
+          {
+            "type": "minecraft:tropical_fish",
+            "maxCount": 8,
+            "minCount": 8,
+            "weight": 25
+          }
+        ],
+        "water_creature": []
+      },
+    "spawn_costs": {},
+    "carvers": [],
+    "features": [
+        [],
+        [
+            "minecraft:lake_lava_surface",
+            "minecraft:lake_lava_underground"
+        ],
+        ["bracken:brine/lava_platform","bracken:brine/lava"],
+        [],
+        ["bracken:dormis/fire","bracken:brine/spec"],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "fog_color": 14745599,
+        "water_color": 5095618,
+        "water_fog_color": 3093076,
+        "grass_color": 2320701,
+        "sky_color": 9633746,
+        "foliage_color": 2320701,
+        "particle": {
+            "options": {
+                "type": "minecraft:smoke"
+            },
+            "probability": 0.004428
+        },
+        "additions_sound": {
+            "sound": "minecraft:block.beacon.ambient",
+            "tick_chance": 0.0002
+        },
+        "music": {
+            "sound": "minecraft:music.under_water",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        },
+        "ambient_sound": "minecraft:ambient.nether_wastes.loop"
+    },
+    "has_precipitation": true
+}

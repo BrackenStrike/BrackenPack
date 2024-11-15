@@ -1,14 +1,10 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:raiser_armor_trim_smithing_template"
-	},
-	"base": {
-		"item": "minecraft:stone_sword"
-	  },
-	  "addition": {
-		"tag": "minecraft:stone_tool_materials"
-	  },
+	"template": "minecraft:raiser_armor_trim_smithing_template"
+	,
+	"base": "minecraft:stone_sword"
+	  ,
+	  "addition": "#minecraft:stone_tool_materials",
 	  "result": {
 		  "id": "minecraft:stone_sword",
 		  "components": {
@@ -23,13 +19,13 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:stone_rapier",
 					"amount": 4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:stone_rapier",
 					"amount": -2,
 					"operation": "add_value",

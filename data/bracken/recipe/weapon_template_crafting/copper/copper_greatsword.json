@@ -1,16 +1,13 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:dune_armor_trim_smithing_template"
-	},
-	"base": {
-	  "item": "minecraft:golden_sword"
-	},
-	"addition": {
-	  "item": "minecraft:copper_ingot"
-	},
+	"template": "minecraft:dune_armor_trim_smithing_template"
+	,
+	"base": "minecraft:stone_sword"
+	,
+	"addition": "minecraft:copper_ingot"
+	,
 	"result": {
-		"id": "minecraft:golden_sword",
+		"id": "minecraft:stone_sword",
 		"components": {
 			"minecraft:max_damage": 175,
 			"minecraft:item_name": "\"Copper Greatsword\"",
@@ -24,20 +21,20 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:copper_greatsword",
 					"amount": 4.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:copper_greatsword",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
-					"type": "minecraft:player.entity_interaction_range",
+					"type": "minecraft:entity_interaction_range",
 					"id": "bracken:copper_greatsword",
 					"amount": 1,
 					"operation": "add_value",

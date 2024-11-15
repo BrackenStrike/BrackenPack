@@ -1,0 +1,26 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:spider_eye",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Hypocrite Mask"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:custom/articles/hypocrite_mask",
+					"minecraft:equippable": {
+						"slot": "head",
+						"model": "bracken:hypocrite_mask"
+					},
+					"minecraft:custom_data": {
+						"bp": { "id": "hypocrite_mask" }
+					}
+				}
+			}]
+		}]
+	}]
+}

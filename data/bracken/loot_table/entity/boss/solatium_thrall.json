@@ -25,16 +25,6 @@
 			"type": "minecraft:item",
 			"name": "minecraft:netherite_chestplate",
 			"functions": [{
-				"function": "minecraft:set_components",
-				"components": {
-					"minecraft:custom_data": {
-						"tags": [
-							"bp.fire_immune"
-						]
-					},
-					"minecraft:fire_resistant": {}
-				}
-			},{
 				"function": "minecraft:set_damage",
 				"damage": {
 					"type": "minecraft:uniform",
@@ -53,13 +43,7 @@
 				"components": {
 					"minecraft:enchantments": {
 						"bracken:searing_surface":3
-					},
-					"minecraft:custom_data": {
-						"tags": [
-							"bp.fire_immune"
-						]
-					},
-					"minecraft:fire_resistant": {}
+					}
 				}
 			},{
 				"function": "minecraft:set_damage",

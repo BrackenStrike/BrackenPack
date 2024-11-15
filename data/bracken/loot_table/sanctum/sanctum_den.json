@@ -26,6 +26,14 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/diving_helm",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/netherite_warhammer",
@@ -59,7 +67,7 @@
 			"value": "bracken:item/potions/beverage_chorus_fruit",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.1
 			}]
 		},{
 			"type": "minecraft:item",
@@ -99,13 +107,6 @@
 					"max": 5
 				}
 			}],
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/ability_books/lightning_bolt",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
@@ -246,6 +247,38 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:protection": 4,
+					"bracken:maiming_curse": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:dentine_touch": 1,
+					"bracken:flame_walker": 1
+				},
+				"add": false
 			}]
 		},{
 			"type": "loot_table",

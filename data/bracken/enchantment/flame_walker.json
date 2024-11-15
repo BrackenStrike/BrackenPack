@@ -64,7 +64,8 @@
 				"entity": "this",
 				"predicate": {
 					"flags": {
-						"is_on_ground": true
+						"is_on_ground": true,
+						"is_sprinting": true
 					}
 				}
 			}

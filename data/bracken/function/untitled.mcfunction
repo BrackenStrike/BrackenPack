@@ -9,3 +9,6 @@
 #Maybe change it to /tellraw? You'll have to manually put in the name of the entity saying it
 #to achieve the same effect, and I'm not sure what that name would be.
 # - Conure
+
+#All good. This text is just an easter egg.
+# - Bracken

@@ -41,7 +41,7 @@
 				"function": "set_enchantments",
 				"enchantments": {
 					
-					"bracken:freezing_curse": 1,
+					"bracken:freezing_fix": 1,
 					"bracken:fragility_curse": 1,
 					"minecraft:vanishing_curse": 1
 				}
@@ -49,13 +49,13 @@
 			{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"id": "bracken:cryolith_sword",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:cryolith_sword",
 					"amount": 9,
 					"operation": "add_value",

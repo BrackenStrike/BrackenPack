@@ -19,6 +19,14 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/night_vision_goggles",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/netherite_bludgeon",
@@ -173,6 +181,38 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:guarding": 1,
+					"bracken:pugnacity": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:trampling": 1,
+					"bracken:reverse_thorns": 1
+				},
+				"add": false
 			}]
 		},{
 			"type": "minecraft:item",

@@ -1,36 +1,14 @@
 {
     "spawners": {
-        "water_ambient": [
-            {
-                "type": "minecraft:squid",
-                "weight": 20,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:tropical_fish",
-                "weight": 10,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:drowned",
-                "weight": 4,
-                "minCount": 2,
-                "maxCount": 5
-            }
-        ],
         "ambient": [
-            {
-                "type": "minecraft:fox",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            }
+          {
+            "type": "minecraft:bat",
+            "maxCount": 8,
+            "minCount": 8,
+            "weight": 10
+          }
         ],
-        "misc": [],
-        "water_creature": [],
-        "axolotls": [
+        "axolotls":[
             {
                 "type": "minecraft:axolotl",
                 "weight": 10,
@@ -45,6 +23,13 @@
                 "minCount": 1,
                 "maxCount": 1
             },
+            {
+                "type": "minecraft:turtle",
+                "maxCount": 5,
+                "minCount": 2,
+                "weight": 5
+              },
+             
             {
                 "type": "minecraft:chicken",
                 "weight": 1,
@@ -62,14 +47,62 @@
                 "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
-            }
+            }],
+        "misc": [],
+        "monster": [
+          {
+            "type": "minecraft:drowned",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 5
+          }
+          
         ],
-        "monster": []
-    },
+        "underground_water_creature": [
+          {
+            "type": "minecraft:glow_squid",
+            "maxCount": 6,
+            "minCount": 4,
+            "weight": 10
+          }
+        ],
+        "water_ambient": [
+          {
+            "type": "minecraft:pufferfish",
+            "maxCount": 3,
+            "minCount": 1,
+            "weight": 15
+          },
+          {
+            "type": "minecraft:cod",
+            "maxCount": 8,
+            "minCount": 8,
+            "weight": 25
+          },
+          {
+            "type": "minecraft:tropical_fish",
+            "maxCount": 8,
+            "minCount": 8,
+            "weight": 25
+          }
+        ],
+        "water_creature": [
+          {
+            "type": "minecraft:squid",
+            "maxCount": 4,
+            "minCount": 4,
+            "weight": 10
+          },
+          {
+            "type": "minecraft:dolphin",
+            "maxCount": 2,
+            "minCount": 1,
+            "weight": 2
+          }
+        ]
+      },
     "spawn_costs": {},
-    "carvers": {
-        "air": []
-    },
+    "carvers": [],
     "features": [
         [],
         [
@@ -96,7 +129,6 @@
             "minecraft:patch_grass_jungle",
             "minecraft:patch_sugar_cane",
             "minecraft:seagrass_warm",
-            "minecraft:seagrass_simple",
             "bracken:brine/prismarine_blobs",
             "bracken:brine/sea_tree",
             "bracken:brine/megakelp",
@@ -130,7 +162,7 @@
             "offset": 2
         },
         "music": {
-            "sound": "minecraft:music.nether.basalt_deltas",
+            "sound": {"sound_id": "bracken:brine"},
             "min_delay": 1200,
             "max_delay": 2400,
             "replace_current_music": true

@@ -8,7 +8,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:attribute_modifiers": [{
-						"type": "generic.attack_damage",
+						"type": "attack_damage",
 						"slot": "mainhand",
 						"id": "bracken:sai",
 						"amount": 30,

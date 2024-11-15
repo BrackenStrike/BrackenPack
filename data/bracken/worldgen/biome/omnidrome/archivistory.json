@@ -29,9 +29,8 @@
         ]
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": []
-    },
+    "carvers": [],
+    
     "features": [
         [
             "minecraft:lake_lava_surface",

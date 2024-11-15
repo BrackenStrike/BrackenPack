@@ -4,7 +4,7 @@
 	"predicate": {
 		"equipment": { "chest": {
 			"items": "minecraft:elytra",
-			"components": { "minecraft:custom_model_data": 888501 }
+			"predicates": { "minecraft:custom_data": {"bp":{"id":"glacium_glider"}} }
 		}}
 	}
 }

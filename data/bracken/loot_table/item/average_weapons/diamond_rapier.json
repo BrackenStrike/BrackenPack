@@ -35,13 +35,13 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"id": "bracken:diamond_rapier",
 					"amount": -2,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:diamond_rapier",
 					"amount": 6,
 					"operation": "add_value",

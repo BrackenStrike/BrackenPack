@@ -6,10 +6,9 @@
         "# #"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:diamond"
+        "#": "minecraft:diamond"
         }
-    },
+    ,
     "result": {
         "id": "minecraft:diamond_horse_armor",
         "count": 1

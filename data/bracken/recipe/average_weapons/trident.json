@@ -7,12 +7,10 @@
         "#  "
     ],
     "key": {
-        "$": {
-            "item": "minecraft:vex_spawn_egg"
-        },
-        "#": {
-            "item": "minecraft:allay_spawn_egg"
-        }
+        "$": "minecraft:vex_spawn_egg"
+        ,
+        "#": "minecraft:allay_spawn_egg"
+        
     },
     "result": {
         "id": "minecraft:trident",

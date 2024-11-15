@@ -10,9 +10,11 @@
 			"target": "item_name",
 			"name": "Lustra Pearl"
 		},
+		
 		{
 			"function": "minecraft:set_components",
 			"components": {
+				"minecraft:enchantment_glint_override": true,
 				
 				
 				"minecraft:entity_data": {

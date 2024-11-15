@@ -14,6 +14,7 @@ scoreboard players set @s[scores={bp.sprint=1..}] bp.sprint 0
 scoreboard players remove @s bp.obsidian 1
 
 scoreboard players remove @s[scores={bp.pull=1..}] bp.pull 1
+scoreboard players remove @s[scores={bp.elytra_dive=1..}] bp.elytra_dive 1
 
 
 scoreboard players add @s[predicate=bracken:sneak] bp.sneakcharge 4
@@ -29,6 +30,7 @@ scoreboard players set @s[scores={bp.armor=..10}] bp.gold 0
 scoreboard players remove @s[scores={bp.wtb_cooldown=1..}] bp.wtb_cooldown 2
 execute if entity @s[tag=bp.recall_wait] run function bracken:ability_books/recall/wait
 execute if score @s bp.giant matches 1.. run function bracken:ability_books/swordfall/effects
+execute if score @s bp.void_pull_cooldown matches 1.. run function bracken:ability_books/void_pull/effects
 
 # Potions
 execute if score @s bp.astral_time matches 1.. run function bracken:player/potion/astral_projection/tick

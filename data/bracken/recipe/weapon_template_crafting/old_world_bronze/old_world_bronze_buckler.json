@@ -1,0 +1,47 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template":"minecraft:vex_armor_trim_smithing_template"
+	,
+	"base": "minecraft:netherite_sword"
+	  ,
+	  "addition": "minecraft:cat_spawn_egg"
+	  ,
+	  "result": {
+		  "id": "minecraft:netherite_sword",
+		  "components": {
+
+			"minecraft:item_name": "\"Old World Bronze Buckler\"",
+			"minecraft:custom_model_data": 888553,
+			"minecraft:lore": [
+				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
+				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
+				"{\"translate\":\" 6.5 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" 1.6 Attack Speed\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" +4 Armor\",\"color\":dark_green,\"italic\":false}"
+			],
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:attack_damage",
+					"id": "bracken:netherite_buckler",
+					"amount": 5.5,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:attack_speed",
+					"id": "bracken:netherite_buckler",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:armor",
+					"id": "bracken:netherite_buckler",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"show_in_tooltip": false
+			}
+		}
+	}
+}

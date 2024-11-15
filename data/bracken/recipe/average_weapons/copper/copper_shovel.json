@@ -7,15 +7,13 @@
 		"/"
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:copper_ingot"
-		},
-		"/": {
-			"item": "minecraft:stick"
-		}
+		"#":  "minecraft:copper_ingot"
+		,
+		"/":  "minecraft:stick"
+		
 	},
 	"result": {
-		"id": "minecraft:golden_shovel",
+		"id": "minecraft:stone_shovel",
 		"components": {
 			"minecraft:max_damage": 175,
 			"minecraft:item_name": "\"Copper Shovel\"",
@@ -28,13 +26,13 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:copper_shovel",
 					"amount": 3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:copper_shovel",
 					"amount": -3,
 					"operation": "add_value",

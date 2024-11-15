@@ -5,8 +5,8 @@ HandItems:[{id:"minecraft:bamboo",Count:1b,components:{"minecraft:custom_name":'
 ArmorItems:[{},{},{},{id:"minecraft:small_amethyst_bud",Count:1b,components:{"minecraft:enchantment_glint_override":1b}}],\
 active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:speed",amplifier:1b,duration:5b,show_particles:0b}],\
 attributes:[\
-{id:generic.max_health,base:70},\
-{id:generic.knockback_resistance,base:1},\
-{id:generic.follow_range,base:60},\
-{id:generic.movement_speed,base:0.45},\
-{id:generic.attack_damage,base:15}]}
+{id:max_health,base:70},\
+{id:knockback_resistance,base:1},\
+{id:follow_range,base:60},\
+{id:movement_speed,base:0.45},\
+{id:attack_damage,base:15}]}

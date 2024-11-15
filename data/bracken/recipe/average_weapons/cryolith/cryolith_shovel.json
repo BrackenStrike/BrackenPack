@@ -1,19 +1,11 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"pattern": [
-		"#",
-		"/",
-		"/"
-	],
-	"key": {
-		"#": {
-			"item": "minecraft:polar_bear_spawn_egg"
-		},
-		"/": {
-			"item": "minecraft:stick"
-		}
-	},
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:panda_spawn_egg"
+	,
+	"base": "minecraft:iron_shovel"
+	,
+	"addition": "minecraft:polar_bear_spawn_egg"
+	,
 	"result": {
 		"id": "minecraft:iron_shovel",
 		"components": {
@@ -21,7 +13,7 @@
 			"minecraft:item_name": "\"Cryolith Shovel\"",
 			"minecraft:enchantments": {
         "minecraft:vanishing_curse": 1,
-        "bracken:freezing_curse": 1,
+        "bracken:freezing_fix": 1,
 		"bracken:fragility_curse": 1
       },
 			"minecraft:custom_model_data": 888501,
@@ -33,13 +25,13 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:cryolith_shovel",
 					"amount": 7.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:cryolith_shovel",
 					"amount": -3,
 					"operation": "add_value",

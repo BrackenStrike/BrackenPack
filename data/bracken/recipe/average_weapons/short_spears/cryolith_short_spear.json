@@ -7,12 +7,10 @@
 		"/  "
 	],
 	"key": {
-		"/": {
-			"item": "minecraft:stick"
-		},
-		"#": {
-			"item": "minecraft:polar_bear_spawn_egg"
-		}
+		"/":  "minecraft:stick"
+		,
+		"#":  "minecraft:polar_bear_spawn_egg"
+		
 	},
 	"result": {
 		"id": "minecraft:iron_sword",
@@ -21,7 +19,7 @@
 			"minecraft:item_name": "\"Cryolith Short Spear\"",
 			"minecraft:enchantments": {
         "minecraft:vanishing_curse": 1,
-        "bracken:freezing_curse": 1,
+        "bracken:freezing_fix": 1,
 		"bracken:fragility_curse": 1
       },
 			"minecraft:custom_model_data": 888531,
@@ -34,19 +32,19 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:lustra_short_spear",
 					"amount": -3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:lustra_short_spear",
 					"amount": 9,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:player.entity_interaction_range",
+					"type": "minecraft:entity_interaction_range",
 					"id": "bracken:lustra_short_spear",
 					"amount": 1,
 					"operation": "add_value",

@@ -6,6 +6,4 @@
 effect give @a[distance=..3,predicate=bracken:survival_like] poison 5 0 false
 effect give @a[distance=..3,predicate=bracken:survival_like] nausea 10 2 false
 
-data merge entity @s[predicate=bracken:random/1_in_4] {Motion:[0.0d,1.0d,0.0d]}
-
-return 1
+execute if predicate {condition:random_chance,chance:0.12} positioned ~ ~2 ~ if predicate bracken:in_water run data merge entity @s {Motion:[0.0d,1.0d,0.0d]}

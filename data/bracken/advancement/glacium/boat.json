@@ -24,7 +24,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type": "minecraft:boat",
+						"type": "#minecraft:boat",
 						"location": {
 							"biomes": "bracken:glacium/glacial_mass"
 						}

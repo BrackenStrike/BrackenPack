@@ -3,7 +3,7 @@
 	"pools": [{
 		"rolls": {
 			"min": 10,
-			"max": 25
+			"max": 15
 		},
 		"entries": [{
 			"type": "minecraft:item",

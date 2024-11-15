@@ -1,0 +1,36 @@
+{
+	"anvil_cost": 1,
+	"description": {
+		"translate": "Decaying",
+		"color": "dark_purple"
+	},
+	"effects": {
+		"minecraft:tick": [{
+			"effect": {
+				"type": "minecraft:change_item_damage",
+				"amount": 1
+			},
+			"requirements": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"periodic_tick": 1000
+				}
+			}
+		}]
+	},
+	"max_cost": {
+		"base": 21,
+		"per_level_above_first": 11
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 2,
+		"per_level_above_first": 11
+	},
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:enchantable/durability",
+	"weight": 10
+}

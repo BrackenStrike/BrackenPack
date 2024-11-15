@@ -5,7 +5,7 @@
             "Name": "minecraft:obsidian"
         },
         "state": {
-            "Name": "minecraft:redstone_block"
+            "Name": "minecraft:crying_obsidian"
         },
         "radius": 0
     }

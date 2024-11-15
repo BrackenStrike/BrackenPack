@@ -6,18 +6,14 @@
         "SOS"
     ],
     "key": {
-        "/": {
-            "item": "minecraft:stick"
-        },
-        "S": {
-            "item": "minecraft:stone"
-        },
-        "G": {
-            "item": "minecraft:gold_block"
-        },
-        "O": {
-            "item": "minecraft:gold_nugget"
-        }
+        "/": "minecraft:stick"
+        ,
+        "S": "minecraft:stone"
+        ,
+        "G": "minecraft:gold_block"
+        ,
+        "O": "minecraft:gold_nugget"
+        
     },
     "result": {
         "id": "minecraft:bell",

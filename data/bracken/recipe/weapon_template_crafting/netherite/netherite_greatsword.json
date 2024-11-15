@@ -1,14 +1,11 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:dune_armor_trim_smithing_template"
-	},
-	"base": {
-		"item": "minecraft:netherite_sword"
-	  },
-	  "addition": {
-		"item": "minecraft:netherite_ingot"
-	  },
+	"template": "minecraft:dune_armor_trim_smithing_template"
+	,
+	"base": "minecraft:netherite_sword"
+	  ,
+	  "addition": "minecraft:netherite_ingot"
+	  ,
 	  "result": {
 		  "id": "minecraft:netherite_sword",
 		  "components": {
@@ -23,20 +20,20 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:netherite_greatsword",
 					"amount": 7,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:netherite_greatsword",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
-					"type": "minecraft:player.entity_interaction_range",
+					"type": "minecraft:entity_interaction_range",
 					"id": "bracken:netherite_greatsword",
 					"amount": 1,
 					"operation": "add_value",

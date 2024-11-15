@@ -1,14 +1,11 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": {
-	  "item": "minecraft:raiser_armor_trim_smithing_template"
-	},
-	"base": {
-		"item": "minecraft:iron_sword"
-	  },
-	  "addition": {
-		"item": "minecraft:iron_ingot"
-	  },
+	"template": "minecraft:raiser_armor_trim_smithing_template"
+	,
+	"base": "minecraft:iron_sword"
+	  ,
+	  "addition": "minecraft:iron_ingot"
+	  ,
 	  "result": {
 		  "id": "minecraft:iron_sword",
 		  "components": {
@@ -23,13 +20,13 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:iron_rapier",
 					"amount": 5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:iron_rapier",
 					"amount": -2,
 					"operation": "add_value",

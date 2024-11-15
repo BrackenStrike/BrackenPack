@@ -7,12 +7,10 @@
 		" / "
 	],
 	"key": {
-		"#": {
-			"item": "minecraft:netherite_scrap"
-		},
-		"/": {
-			"item": "minecraft:stick"
-		}
+		"#":  "minecraft:netherite_scrap"
+		,
+		"/":  "minecraft:stick"
+		
 	},
 	"result": {
 		"id": "minecraft:netherite_pickaxe",
@@ -28,13 +26,13 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:meteoric_pickaxe",
 					"amount": -3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:meteoric_pickaxe",
 					"amount": 5,
 					"operation": "add_value",

@@ -8,9 +8,7 @@
         "monster": []
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": []
-    },
+    "carvers": [],
     "features": [
         [],
         [],
@@ -58,7 +56,7 @@
             "tick_chance": 0.0005
         },
         "music": {
-            "sound": "minecraft:ambient.basalt_deltas.mood",
+            "sound": {"sound_id": "bracken:varskspace"},
             "min_delay": 120000,
             "max_delay": 240000,
             "replace_current_music": false

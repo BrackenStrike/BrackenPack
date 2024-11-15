@@ -19,6 +19,14 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.3
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/power_arms",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/netherite_warhammer",

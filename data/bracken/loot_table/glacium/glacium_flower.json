@@ -12,6 +12,14 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/wolf_hood",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:snowball",

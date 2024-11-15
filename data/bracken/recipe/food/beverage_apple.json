@@ -7,21 +7,24 @@
         " # "
     ],
     "key": {
-        "$": {
-            "item": "minecraft:drowned_spawn_egg"
-        },
-        "D": {
-            "item": "minecraft:apple"
-        },
-        "#": {
-            "item": "minecraft:ominous_bottle"
-        }
+        "$": "minecraft:drowned_spawn_egg"
+        ,
+        "D": "minecraft:apple"
+        ,
+        "#": "minecraft:ominous_bottle"
+        
     },
     "result": {
         "id": "minecraft:ominous_bottle",
         "components": {
             "minecraft:item_name": "\"Homemade Apple Beverage\"",
+            "minecraft:food": {
+				"nutrition": 6,
+				"saturation": 4.8,
+				"can_always_eat": true
+			  },
             "minecraft:custom_model_data": 888501,
+
             "minecraft:custom_data": {
                 "nbt": "{bp:{id:\"beverage_apple\"}}"
             }

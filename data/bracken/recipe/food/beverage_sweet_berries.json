@@ -7,21 +7,23 @@
         " # "
     ],
     "key": {
-        "$": {
-            "item": "minecraft:drowned_spawn_egg"
-        },
-        "D": {
-            "item": "minecraft:sweet_berries"
-        },
-        "#": {
-            "item": "minecraft:ominous_bottle"
-        }
+        "$": "minecraft:drowned_spawn_egg"
+        ,
+        "D": "minecraft:sweet_berries"
+        ,
+        "#": "minecraft:ominous_bottle"
+        
     },
     "result": {
         "id": "minecraft:ominous_bottle",
         "components": {
             "minecraft:item_name": "\"Homemade Sweet Berry Beverage\"",
             "minecraft:custom_model_data": 888511,
+            "minecraft:food": {
+				"nutrition": 6,
+				"saturation": 4.8,
+				"can_always_eat": true
+			  },
             "minecraft:custom_data": {
                 "nbt": "{bp:{id:\"beverage_sweet_berries\"}}"
             }

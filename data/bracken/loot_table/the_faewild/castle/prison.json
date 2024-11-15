@@ -33,6 +33,22 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.3
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/weighted_cuffs",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/bandana",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:potato",

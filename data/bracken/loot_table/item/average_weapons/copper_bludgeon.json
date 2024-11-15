@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "item",
-			"name": "minecraft:golden_sword",
+			"name": "minecraft:stone_sword",
 			"functions": [{
 				"function": "minecraft:set_name",
 				"target": "item_name",
@@ -44,19 +44,19 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:generic.knockback_resistance",
+					"attribute": "minecraft:knockback_resistance",
 					"id": "bracken:copper_bludgeon",
 					"amount": 0.1,
 					"operation": "add_value",
 					"slot": "hand"
 				},{
-					"attribute": "minecraft:generic.attack_speed",
+					"attribute": "minecraft:attack_speed",
 					"id": "bracken:copper_bludgeon",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:generic.attack_damage",
+					"attribute": "minecraft:attack_damage",
 					"id": "bracken:copper_bludgeon",
 					"amount": 4.5,
 					"operation": "add_value",

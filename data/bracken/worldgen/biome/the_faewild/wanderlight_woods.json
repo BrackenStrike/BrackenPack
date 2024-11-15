@@ -77,9 +77,7 @@
         ]
     },
     "spawn_costs": {},
-    "carvers": {
-        "air": []
-    },
+    "carvers": [],
     "features": [
         ["minecraft:ore_copper","minecraft:ore_lapis"],
         [],
@@ -137,7 +135,7 @@
             "offset": 2
         },
         "additions_sound": {
-            "sound": "minecraft:ambient.crimson_forest.additions",
+            "sound": {"sound_id": "bracken:faewild"},
             "tick_chance": 0.005
         },
         "music": {

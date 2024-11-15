@@ -4,10 +4,10 @@
 ##########################################################
 
 ## DORMIS SPAWN PLATFORM
-execute if entity @s[tag=bp.dormis_platform_remove] if function bracken:entities/dormis_spawn_platform_drill/main run return 1
+execute if entity @s[tag=bp.dormis_platform_remove] run return run function bracken:entities/dormis_spawn_platform_drill/main
 
 ## LIGHTNING PARTICLES
-execute if entity @s[tag=bp.varsk_lightning] if function bracken:entities/varskspace/varsk_lightning run return 1
+execute if entity @s[tag=bp.varsk_lightning] run return run function bracken:entities/varskspace/varsk_lightning
 
 ## CONSTRUCTS
 execute if entity @s[tag=bp.construct] run particle minecraft:sneeze ~ ~ ~ 0.5 0.5 0.5 0.01 5

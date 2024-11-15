@@ -7,8 +7,5 @@ tag @s remove bp.species
 tag @s remove bp.enderling
 team leave @s[team=Enderling]
 
-scoreboard players reset @s bp.enderling_teleport
-attribute @s minecraft:player.entity_interaction_range modifier remove bracken:enderling.range
-attribute @s minecraft:generic.scale modifier remove bracken:enderling.scale
-
-return 1
+attribute @s minecraft:entity_interaction_range modifier remove bracken:enderling.range
+attribute @s minecraft:scale modifier remove bracken:enderling.scale

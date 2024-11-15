@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "item",
-			"name": "minecraft:diamond_helmet",
+			"name": "minecraft:iron_helmet",
 			"functions": [{
 				"function": "minecraft:set_name",
 				"target": "item_name",
@@ -14,14 +14,30 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:max_damage": 200
+					"minecraft:max_damage": 200,
+					"minecraft:equippable": {
+						"slot": "head",
+						"camera_overlay": "bracken:misc/cryolith",
+						"model": "bracken:cryolith",
+					"equip_sound": "minecraft:block.snow.fall"}
 				}
+			},
+			{
+				"function": "minecraft:set_attributes",
+				"modifiers": [
+				{
+					"attribute": "minecraft:armor_toughness",
+					"id": "bracken:cryolith_helmet_armor_tough",
+					"amount": -3,
+					"operation": "add_value",
+					"slot": "head"
+				}]
 			},{
 				"function": "set_enchantments",
 				"enchantments": {
 					
 					"bracken:fragility_curse": 1,
-					"bracken:quenching_curse": 1,
+					"bracken:quenching_fix": 1,
 					"minecraft:vanishing_curse": 1
 				}
 			},

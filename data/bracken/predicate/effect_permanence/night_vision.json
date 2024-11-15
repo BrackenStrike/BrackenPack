@@ -12,5 +12,8 @@
 		"condition": "entity_properties",
 		"entity": "this",
 		"predicate": { "nbt": "{Tags:[\"bp.netherkin\"]}" }
+	},{
+		"condition": "reference",
+		"name": "bracken:item/night_vision_goggles"
 	}]
 }

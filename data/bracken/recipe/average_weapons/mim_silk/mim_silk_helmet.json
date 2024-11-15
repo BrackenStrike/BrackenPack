@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"# #",
+		"   "
+	],
+	"key": {
+		"#":  "minecraft:shulker_spawn_egg"
+		
+	},
+	"result": {
+		"id": "minecraft:chainmail_helmet",
+		"components": {
+			"minecraft:max_damage": 32,
+			"minecraft:item_name": "\"Mim Silk Helmet\"",
+			"minecraft:equippable": {
+					"slot": "head",
+					"equip_sound": "minecraft:block.wool.step",
+					"model": "bracken:silk"},
+			"minecraft:custom_model_data": 888509,
+			"minecraft:enchantments": {
+        "bracken:astuteness_fix": 1
+      }
+		}
+	}
+}

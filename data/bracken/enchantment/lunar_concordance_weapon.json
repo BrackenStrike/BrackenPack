@@ -1,0 +1,152 @@
+{
+	"description": {
+		"text": "Lunar Concordance",
+		"color": "dark_aqua"
+	},
+	"exclusive_set": "#bracken:exclusive_set/lunarite_weapons",
+	"supported_items": [],
+	"weight": 1,
+	"max_level": 1,
+	"min_cost": {
+		"base": 1,
+		"per_level_above_first": 11
+	},
+	"max_cost": {
+		"base": 12,
+		"per_level_above_first": 11
+	},
+	"anvil_cost": 1,
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:damage": [{
+			"effect": {
+				"type": "minecraft:add",
+				"value": 4
+			},
+			"requirements": {
+				"condition": "minecraft:time_check",
+				"value": { "min": 96000, "max": 119999 },
+				"period": 192000
+			}
+		},{
+			"effect": {
+				"type": "minecraft:add",
+				"value": 3
+			},
+			"requirements": {
+				"condition": "minecraft:any_of",
+				"terms": [{
+					"condition": "minecraft:time_check",
+					"value": { "min": 72000, "max": 95999 },
+					"period": 192000
+				},{
+					"condition": "minecraft:time_check",
+					"value": { "min": 120000, "max": 143999 },
+					"period": 192000
+				}]
+			}
+		},{
+			"effect": {
+				"type": "minecraft:add",
+				"value": 2
+			},
+			"requirements": {
+				"condition": "minecraft:any_of",
+				"terms": [{
+					"condition": "minecraft:time_check",
+					"value": { "min": 48000, "max": 71999 },
+					"period": 192000
+				},{
+					"condition": "minecraft:time_check",
+					"value": { "min": 144000, "max": 167999 },
+					"period": 192000
+				}]
+			}
+		},{
+			"effect": {
+				"type": "minecraft:add",
+				"value": 1
+			},
+			"requirements": {
+				"condition": "minecraft:any_of",
+				"terms": [{
+					"condition": "minecraft:time_check",
+					"value": { "min": 24000, "max": 47999 },
+					"period": 192000
+				},{
+					"condition": "minecraft:time_check",
+					"value": { "min": 168000, "max": 191999 },
+					"period": 192000
+				}]
+			}
+		}],
+		"minecraft:item_damage": [{
+			"effect": {
+				"type": "minecraft:remove_binomial",
+				"chance": 0.8
+			},
+			"requirements": {
+				"condition": "minecraft:time_check",
+				"value": { "min": 0, "max": 23999 },
+				"period": 192000
+			}
+		},{
+			"effect": {
+				"type": "minecraft:remove_binomial",
+				"chance": 0.75
+			},
+			"requirements": {
+				"condition": "minecraft:any_of",
+				"terms": [{
+					"condition": "minecraft:time_check",
+					"value": { "min": 24000, "max": 47999 },
+					"period": 192000
+				},{
+					"condition": "minecraft:time_check",
+					"value": { "min": 168000, "max": 191999 },
+					"period": 192000
+				}]
+			}
+		},{
+			"effect": {
+				"type": "minecraft:remove_binomial",
+				"chance": {
+					"type": "minecraft:fraction",
+					"numerator": 2,
+					"denominator": 3
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:any_of",
+				"terms": [{
+					"condition": "minecraft:time_check",
+					"value": { "min": 48000, "max": 71999 },
+					"period": 192000
+				},{
+					"condition": "minecraft:time_check",
+					"value": { "min": 144000, "max": 167999 },
+					"period": 192000
+				}]
+			}
+		},{
+			"effect": {
+				"type": "minecraft:remove_binomial",
+				"chance": 0.5
+			},
+			"requirements": {
+				"condition": "minecraft:any_of",
+				"terms": [{
+					"condition": "minecraft:time_check",
+					"value": { "min": 72000, "max": 95999 },
+					"period": 192000
+				},{
+					"condition": "minecraft:time_check",
+					"value": { "min": 120000, "max": 143999 },
+					"period": 192000
+				}]
+			}
+		}]
+	}
+}

@@ -6,12 +6,10 @@
         "###"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:coal_block"
-        },
-        "R": {
-            "item": "minecraft:rose_bush"
-        }
+        "#": "minecraft:coal_block"
+        ,
+        "R": "minecraft:rose_bush"
+        
     },
     "result": {
         "id": "minecraft:wither_rose",

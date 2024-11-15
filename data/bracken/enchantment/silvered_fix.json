@@ -1,0 +1,47 @@
+{
+	"description": {
+		"translate": "Silvered",
+		"color": "dark_purple"
+	},
+	"anvil_cost": 1000,
+	"effects": {
+		"minecraft:damage_immunity": [{
+			"effect": {
+				"type": "minecraft:add",
+				"value": {
+					"type": "minecraft:linear",
+					"base": 8.0,
+					"per_level_above_first": 2.0
+				}
+			},
+			"requirements": {
+				"condition": "minecraft:damage_source_properties",
+				"predicate": {
+					"tags": [{
+						"expected": true,
+						"id": "bracken:grounding"
+					},{
+						"expected": false,
+						"id": "minecraft:bypasses_invulnerability"
+					}]
+				}
+			}
+		}]
+	},
+	"max_cost": {
+		"base": 1000,
+		"per_level_above_first": 8
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 900,
+		"per_level_above_first": 8
+	},
+
+	"exclusive_set": "#bracken:exclusive_set/all",
+	"slots": [
+		"armor"
+	],
+	"supported_items": "#minecraft:enchantable/durability",
+	"weight": 5
+}

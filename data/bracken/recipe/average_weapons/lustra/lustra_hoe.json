@@ -1,23 +1,16 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"pattern": [
-		"##",
-		" /",
-		" /"
-	],
-	"key": {
-		"#": {
-			"item": "minecraft:sheep_spawn_egg"
-		},
-		"/": {
-			"item": "minecraft:stick"
-		}
-	},
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:elder_guardian_spawn_egg"
+	,
+	"base": "minecraft:golden_hoe"
+	,
+	"addition": "minecraft:sheep_spawn_egg"
+	,
 	"result": {
-		"id": "minecraft:stone_hoe",
+		"id": "minecraft:golden_hoe",
 		"components": {
 			"minecraft:max_damage": 3000,
+			"minecraft:enchantment_glint_override": true,
 			"minecraft:item_name": "\"Lustra Hoe\"",
 			"minecraft:custom_model_data": 888502,
 			"minecraft:lore": [
@@ -28,13 +21,13 @@
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
-					"type": "minecraft:generic.attack_speed",
+					"type": "minecraft:attack_speed",
 					"id": "bracken:lustra_hoe",
 					"amount": -0.3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:generic.attack_damage",
+					"type": "minecraft:attack_damage",
 					"id": "bracken:lustra_hoe",
 					"amount": 0,
 					"operation": "add_value",

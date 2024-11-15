@@ -5,11 +5,14 @@
             "translate": "Hunt a Legend"
         },
         "description": {
-            "translate": "Damage the Sporangium until it enters its final form",
+            "translate": "Destroy the ancient Sporangium",
             "color": "green"
         },
         "icon": {
-            "id": "minecraft:slime_block"
+            "id": "minecraft:netherite_axe",
+            "components": {
+                "minecraft:custom_model_data": 888501
+            }
         },
         "frame": "challenge",
         "show_toast": true,

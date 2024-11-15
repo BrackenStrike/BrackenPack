@@ -7,12 +7,10 @@
         "###"
     ],
     "key": {
-        "#": {
-            "item": "minecraft:coal"
-        },
-        "/": {
-            "item": "minecraft:apple"
-        }
+        "#": "minecraft:coal"
+        ,
+        "/": "minecraft:apple"
+        
     },
     "result": {
         "id": "minecraft:apple",

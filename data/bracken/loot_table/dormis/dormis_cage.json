@@ -17,7 +17,15 @@
 			"name": "minecraft:crafting_table",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.3
+				"chance": 0.2
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/weighted_cuffs",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
 			}]
 		},{
 			"type": "loot_table",

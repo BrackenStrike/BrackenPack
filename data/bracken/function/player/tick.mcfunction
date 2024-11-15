@@ -25,8 +25,8 @@ execute if entity @s[scores={bp.verylongtick=600..}] run function bracken:player
 scoreboard players add @s bp.verylongtick 1
 
 # every 5 minutes (6000 ticks)
-#execute if entity @s[scores={bp.5_min_tick=6000..}] run function bracken:player/periodic_commands/5_min
-#scoreboard players add @s bp.5_min_tick 1
+execute if entity @s[scores={bp.5_min_tick=6000..}] run function bracken:player/periodic_commands/5_min
+scoreboard players add @s bp.5_min_tick 1
 
 # Player species
 #execute if score #bp.species_dummy bp.config matches 2 if entity @s[tag=bp.species] run function #bracken:player/species/tick

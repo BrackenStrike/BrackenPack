@@ -84,9 +84,6 @@ scoreboard objectives remove bp.death
 # Hunters
 scoreboard objectives remove bp.hunter_morph
 
-#Enderlings
-scoreboard objectives remove bp.enderling_teleport
-
 # Outlanders
 scoreboard objectives remove bp.outlander_charge
 
@@ -145,7 +142,6 @@ scoreboard objectives remove bp.giant
 scoreboard objectives remove bp.wtb_cooldown
 scoreboard objectives remove bp.coas
 
-scoreboard objectives remove bp.offhand
 scoreboard objectives remove bp.cooldown
 
 # Returning Tides

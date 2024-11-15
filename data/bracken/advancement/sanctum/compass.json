@@ -9,9 +9,9 @@
 			"color": "green"
 		},
 		"icon": {
-			"id": "minecraft:apple",
+			"id": "minecraft:spider_eye",
 			"components": {
-				"minecraft:custom_model_data": 888519
+				"minecraft:custom_model_data": 888502
 			}
 		},
 		"frame": "task",
@@ -28,7 +28,7 @@
 						"minecraft:apple"
 					],
 					"components": {
-						"minecraft:custom_model_data": 888519
+						"minecraft:custom_model_data": 888502
 					}
 				}
 			}
