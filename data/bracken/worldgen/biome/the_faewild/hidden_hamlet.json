@@ -117,7 +117,7 @@
                   "max_delay": 24000,
                   "min_delay": 12000,
                   "replace_current_music": false,
-                  "sound": "minecraft:music.blocks"
+                  "sound": "minecraft:music_disc.blocks"
                 },
                 "weight": 1
               },
