@@ -102,12 +102,8 @@
             "block_search_extent": 8,
             "offset": 2
         },
-        "music": {
-            "sound": "minecraft:music.nether.basalt_deltas",
-            "min_delay": 1200,
-            "max_delay": 2400,
-            "replace_current_music": true
-        }
+        "music": [],
+          "music_volume": 0.0
     },
     "has_precipitation": true
 }

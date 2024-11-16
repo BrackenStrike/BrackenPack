@@ -57,13 +57,9 @@
             "sound": "minecraft:ambient.crimson_forest.loop",
             "tick_chance": 0.02
         },
-        "music": {
-            "sound": {"sound_id": "bracken:glacium"},
-            "min_delay": 12000,
-            "max_delay": 24000,
-            "replace_current_music": false
-        },
-        "ambient_sound": "minecraft:ambient.soul_sand_valley.loop"
+       "music": [],
+    "music_volume": 0.0,
+        "ambient_sound": "minecraft:music.nether.soul_sand_valley"
     },
     "has_precipitation": true
 }

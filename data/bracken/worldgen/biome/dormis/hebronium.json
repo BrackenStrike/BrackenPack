@@ -55,12 +55,21 @@
             "sound": "minecraft:ambient.basalt_deltas.mood",
             "tick_chance": 0.02
         },
-        "music": {
-            "sound": "minecraft:music.nether.basalt_deltas",
-            "min_delay": 12000,
-            "max_delay": 24000,
-            "replace_current_music": false
-        },
+       
+        "music": [
+            {
+              "data": {
+                "max_delay": 24000,
+                "min_delay": 12000,
+                "replace_current_music": false,
+                "sound": "minecraft:music.nether.basalt_deltas"
+              },
+              "weight": 1
+            }
+          ],
+          "music_volume": 1.0,
+
+        
         "ambient_sound": "minecraft:ambient.nether_wastes.loop"
     },
     "has_precipitation": false
