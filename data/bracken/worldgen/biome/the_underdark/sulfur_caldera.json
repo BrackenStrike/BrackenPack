@@ -138,7 +138,7 @@
                     "max_delay": 24000,
                     "min_delay": 12000,
                     "replace_current_music": false,
-                    "sound": "minecraft:music.nether.wastes"
+                    "sound": "minecraft:music.nether.nether_wastes"
                   },
                   "weight": 1
                 },

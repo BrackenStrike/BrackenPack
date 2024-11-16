@@ -153,7 +153,7 @@
               "max_delay": 24000,
               "min_delay": 12000,
               "replace_current_music": false,
-              "sound": "minecraft:music_disc.menu"
+              "sound": "minecraft:music.menu"
             },
             "weight": 1
           },
