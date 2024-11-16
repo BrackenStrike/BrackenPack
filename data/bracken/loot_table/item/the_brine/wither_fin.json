@@ -10,8 +10,10 @@
 			"target": "item_name",
 			"name": "Wither Fin"
 		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888508
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:custom/the_brine/wither_fin"
+			}
 		},{
 			"function": "minecraft:set_custom_data",
 			"tag": "{bp.potion:9b,bp:{id:\"potion_recipe\"}}"

@@ -9,20 +9,18 @@
 			"function": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Lustra Upgrade Smithing Template"
-		},
-		{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888501
-		},
-		{
+		},{
 			"function": "minecraft:set_components",
 			"components": {
-				
-				
+				"minecraft:item_model": "bracken:custom/weapon_templates/lustra_upgrade_smithing_template"
+			}
+		},{
+			"function": "minecraft:set_components",
+			"components": {
 				"minecraft:entity_data": {
-					"id": "minecraft:player"}}}
-					
-					
-					]
+					"id": "minecraft:player"
+				}
+			}
+		}]
 	}]
 }

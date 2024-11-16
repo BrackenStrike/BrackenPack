@@ -10,8 +10,10 @@
 			"target": "item_name",
 			"name": "Jellyfish Stinger"
 		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888507
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:custom/the_brine/jellyfish_stinger"
+			}
 		},{
 			"function": "minecraft:set_custom_data",
 			"tag": "{bp.potion:7b,bp:{id:\"potion_recipe\"}}"

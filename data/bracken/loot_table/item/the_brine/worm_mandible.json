@@ -10,8 +10,10 @@
 			"target": "item_name",
 			"name": "Worm Mandible"
 		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888505
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:custom/the_brine/worm_mandible"
+			}
 		},{
 			"function": "minecraft:set_custom_data",
 			"tag": "{bp.potion:5b,bp:{id:\"potion_recipe\"}}"
