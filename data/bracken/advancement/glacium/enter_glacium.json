@@ -11,7 +11,7 @@
 			"id": "minecraft:iron_sword",
 			"components": {
 				"minecraft:enchantment_glint_override": true,
-				"minecraft:custom_model_data": 888521
+				"minecraft:item_model": "bracken:average_weapons/cryolith/sickle"
 			}
 		},
 		"frame": "task",

@@ -10,8 +10,7 @@
 		"icon": {
 			"id": "minecraft:netherite_sword",
 			"components": {
-				
-				"minecraft:custom_model_data": 888537
+				"minecraft:item_model": "bracken:average_weapons/meteoric/sabre"
 			}
 		},
 		"frame": "task",

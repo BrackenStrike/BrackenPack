@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:polar_bear_spawn_egg",
 			"components": {
-				"minecraft:custom_model_data": 888503
+				"minecraft:item_model": "bracken:cryolith"
 			}
         },
         "frame": "task",

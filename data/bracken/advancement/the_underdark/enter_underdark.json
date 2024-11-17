@@ -10,8 +10,7 @@
 		"icon": {
 			"id": "minecraft:apple",
 			"components": {
-				
-				"minecraft:custom_model_data": 888517
+				"minecraft:item_model": "bracken:metal_apples/iron_apple"
 			}
 		},
 		"frame": "task",

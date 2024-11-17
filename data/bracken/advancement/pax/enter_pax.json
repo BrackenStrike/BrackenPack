@@ -10,7 +10,7 @@
         "icon": {
             "id": "minecraft:netherite_sword",
             "components": {
-                "minecraft:custom_model_data": 888501
+				"minecraft:item_model": "bracken:paxmaker_sword"
             }
         },
         "frame": "task",

@@ -35,28 +35,28 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron_short_spear",
+			"value": "bracken:item/average_weapons/iron/short_spear",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron_rapier",
+			"value": "bracken:item/average_weapons/iron/rapier",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron_buckler",
+			"value": "bracken:item/average_weapons/iron/buckler",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron_dagger",
+			"value": "bracken:item/average_weapons/iron/dagger",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1

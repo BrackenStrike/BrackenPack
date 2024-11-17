@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:iron_sword",
             "components": {
-                "minecraft:custom_model_data": 888501
+				"minecraft:item_model": "bracken:gothrum_fang"
             }
         },
         "frame": "task",
@@ -34,7 +34,7 @@
                                         "minecraft:iron_sword"
                                     ],
                                     "components": {
-                                        "minecraft:custom_model_data": 888501
+					"minecraft:item_model": "bracken:gothrum_fang"
                                     }
                                 }
                             }

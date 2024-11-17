@@ -14,7 +14,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/copper_axe",
+			"value": "bracken:item/average_weapons/copper/axe",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
@@ -28,7 +28,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/copper_pickaxe",
+			"value": "bracken:item/average_weapons/copper/pickaxe",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.3

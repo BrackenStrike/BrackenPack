@@ -35,7 +35,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/copper_hoe",
+			"value": "bracken:item/average_weapons/copper/hoe",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.2

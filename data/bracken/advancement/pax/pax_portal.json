@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:structure_block",
             "components": {
-                "minecraft:custom_model_data": 888510
+				"minecraft:item_model": "bracken:portal_keys/pax_key"
             }
         },
         "frame": "task",

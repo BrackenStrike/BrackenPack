@@ -14,14 +14,14 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/wooden_buckler",
+			"value": "bracken:item/average_weapons/wooden/buckler",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/wooden_cutlass",
+			"value": "bracken:item/average_weapons/wooden/cutlass",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
@@ -36,63 +36,63 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/wooden_dagger",
+			"value": "bracken:item/average_weapons/wooden/dagger",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/wooden_greatsword",
+			"value": "bracken:item/average_weapons/wooden/greatsword",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/wooden_katana",
+			"value": "bracken:item/average_weapons/wooden/katana",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/wooden_bludgeon",
+			"value": "bracken:item/average_weapons/wooden/bludgeon",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/wooden_rapier",
+			"value": "bracken:item/average_weapons/wooden/rapier",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/wooden_sabre",
+			"value": "bracken:item/average_weapons/wooden/sabre",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/wooden_sickle",
+			"value": "bracken:item/average_weapons/wooden/sickle",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/wooden_staff",
+			"value": "bracken:item/average_weapons/wooden/staff",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/wooden_warhammer",
+			"value": "bracken:item/average_weapons/wooden/warhammer",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1

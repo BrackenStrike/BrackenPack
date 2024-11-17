@@ -43,21 +43,21 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_warhammer",
+			"value": "bracken:item/average_weapons/netherite/warhammer",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_bludgeon",
+			"value": "bracken:item/average_weapons/netherite/bludgeon",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_buckler",
+			"value": "bracken:item/average_weapons/netherite/buckler",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02

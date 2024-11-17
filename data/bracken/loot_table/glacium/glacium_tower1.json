@@ -21,14 +21,14 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron_sabre",
+			"value": "bracken:item/average_weapons/iron/sabre",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron_bludgeon",
+			"value": "bracken:item/average_weapons/iron/bludgeon",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02

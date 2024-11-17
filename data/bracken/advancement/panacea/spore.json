@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:melon_seeds",
             "components": {
-                "minecraft:custom_model_data": 888502
+				"minecraft:item_model": "bracken:panaspore"
             }
         },
         "frame": "task",

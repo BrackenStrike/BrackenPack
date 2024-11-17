@@ -12,7 +12,7 @@
 			"id": "minecraft:leather_chestplate",
 			"components": {
 				"minecraft:enchantment_glint_override": true,
-				"minecraft:custom_model_data": 888503
+				"minecraft:item_model": "bracken:shepherdess_cloak"
 			}
 		},
 		"frame": "challenge",

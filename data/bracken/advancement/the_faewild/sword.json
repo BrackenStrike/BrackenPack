@@ -11,7 +11,7 @@
 		"icon": {
 			"id": "minecraft:golden_sword",
 			"components": {
-				"minecraft:custom_model_data": 888532
+				"minecraft:item_model": "bracken:average_weapons/copper/sword"
 			}
 		},
 		"frame": "task",
@@ -35,7 +35,7 @@
 				"items": [{
 					"items": "minecraft:golden_sword",
 					"components": {
-					  "minecraft:custom_model_data": 888532
+						"minecraft:item_model": "bracken:average_weapons/copper/sword"
 					}
 				  }]
 			}

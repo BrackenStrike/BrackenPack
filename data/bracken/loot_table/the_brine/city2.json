@@ -86,14 +86,14 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_shovel",
+			"value": "bracken:item/average_weapons/lustra/shovel",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.01
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_sabre",
+			"value": "bracken:item/average_weapons/lustra/sabre",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.01

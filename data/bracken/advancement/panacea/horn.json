@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:goat_horn",
             "components": {
-                "minecraft:custom_model_data": 888501
+				"minecraft:item_model": "bracken:creeper_horn"
             }
         },
         "frame": "task",

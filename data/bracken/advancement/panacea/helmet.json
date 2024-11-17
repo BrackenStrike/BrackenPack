@@ -11,7 +11,7 @@
 		"icon": {
 			"id": "minecraft:leather_helmet",
 			"components": {
-				"minecraft:custom_model_data": 888502
+				"minecraft:item_model": "bracken:average_weapons/verdant/helmet"
 			}
 		},
 		"frame": "task",

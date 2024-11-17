@@ -10,7 +10,7 @@
         "icon": {
             "id": "minecraft:wooden_sword",
             "components": {
-                "minecraft:custom_model_data": 888526
+				"minecraft:item_model": "bracken:average_weapons/verdant/greatsword"
             }
         },
         "frame": "task",

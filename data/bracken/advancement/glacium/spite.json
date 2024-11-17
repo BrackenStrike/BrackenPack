@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:warped_fungus_on_a_stick",
 			"components": {
-				"minecraft:custom_model_data": 888501
+				"minecraft:item_model": "bracken:frost_spite"
 			}
         },
         "frame": "task",

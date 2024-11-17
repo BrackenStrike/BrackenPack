@@ -28,14 +28,14 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/cryolith_sabre",
+			"value": "bracken:item/average_weapons/cryolith/sabre",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/cryolith_short_spear",
+			"value": "bracken:item/average_weapons/cryolith/short_spear",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1

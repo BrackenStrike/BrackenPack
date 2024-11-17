@@ -29,7 +29,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_bludgeon",
+			"value": "bracken:item/average_weapons/netherite/bludgeon",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1

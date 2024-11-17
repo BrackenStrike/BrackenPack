@@ -7,7 +7,7 @@
 		},
 		"entries": [{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/cryolith_hoe",
+			"value": "bracken:item/average_weapons/cryolith/hoe",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02

@@ -11,7 +11,7 @@
         "icon": {
 			"id": "minecraft:elytra",
 			"components": {
-				"minecraft:custom_model_data": 888502
+				"minecraft:item_model": "bracken:nightfall"
 			}
 		},
         "frame": "task",
@@ -32,7 +32,7 @@
               {
                 "items": "minecraft:elytra",
                 "components": {
-                  "minecraft:custom_model_data": 888502
+				"minecraft:item_model": "bracken:nightfall"
                 }
               }
             ]

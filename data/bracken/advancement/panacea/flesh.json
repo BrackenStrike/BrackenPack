@@ -11,7 +11,7 @@
         "icon": {
             "id": "minecraft:apple",
             "components": {
-                "minecraft:custom_model_data": 888502
+				"minecraft:item_model": "bracken:yakitubba_hide"
             }
         },
         "frame": "task",
@@ -28,7 +28,7 @@
                         "minecraft:apple"
                     ],
                     "components": {
-                        "minecraft:custom_model_data": 888502
+				"minecraft:item_model": "bracken:yakitubba_hide"
                     }
                 }
             }

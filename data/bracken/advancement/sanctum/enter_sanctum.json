@@ -10,7 +10,7 @@
 		"icon": {
 			"id": "minecraft:netherite_sword",
 			"components": {
-				"minecraft:custom_model_data": 888519
+				"minecraft:item_model": "bracken:average_weapons/netherite/warhammer"
 			}
 		},
 		"frame": "task",

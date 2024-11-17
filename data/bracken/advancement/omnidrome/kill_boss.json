@@ -8,7 +8,9 @@
 		},
 		"icon": {
 			"id": "minecraft:fishing_rod",
-			"components": { "minecraft:custom_model_data": 888501 }
+			"components": {
+				"minecraft:item_model": "bracken:null"
+			}
 		},
 		"frame": "challenge",
 		"show_toast": true,
