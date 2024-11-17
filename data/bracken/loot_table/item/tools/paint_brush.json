@@ -9,15 +9,12 @@
 				"target": "item_name",
 				"name": "Paint Brush"
 			},{
-				"function": "minecraft:set_custom_model_data",
-				"value": 888502
-			},{
 				"function": "minecraft:set_components",
 				"components": {
+					"minecraft:item_model": "bracken:tools/paint_brush",
 					"minecraft:max_damage": 200
 				}
-			},
-			{
+			},{
 				"function": "set_damage",
 				"damage": {
 					"min": 0.48,

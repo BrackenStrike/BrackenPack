@@ -1,0 +1,74 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:iron_axe",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Cryolith Axe"
+			},{
+				"function": "minecraft:set_lore",
+				"entity": "this",
+				"lore": [{
+					"translate": "",
+					"color": "blue",
+					"italic": false
+				},{
+					"translate": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "13 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "1 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				}],
+				"mode": "insert"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:average_weapons/cryolith/axe",
+					"minecraft:max_damage": 200
+				}
+			},{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:attack_damage",
+					"id": "bracken:cryolith_axe",
+					"amount": 12,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"attribute": "minecraft:attack_speed",
+					"id": "bracken:cryolith_axe",
+					"amount": -3,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}]
+			},{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:freezing_fix": 1,
+					"bracken:fragility_curse": 1,
+					"minecraft:vanishing_curse": 1
+				}
+			},{
+				"function": "minecraft:toggle_tooltips",
+				"toggles": {
+					"attribute_modifiers": false
+				}
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.48,
+					"max": 0.93
+				}
+			}]
+		}]
+	}]
+}

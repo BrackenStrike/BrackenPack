@@ -12,7 +12,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/metal_apples/bejeweled_apple",
+				"minecraft:item_model": "bracken:metal_apples/bejeweled_apple",
 				"minecraft:food": {
 					"nutrition": 4,
 					"saturation": 9.6,

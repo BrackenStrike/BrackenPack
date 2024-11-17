@@ -30,8 +30,10 @@
 				}],
 				"mode": "insert"
 			},{
-				"function": "minecraft:set_custom_model_data",
-				"value": 888509
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:average_weapons/toothed_sword"
+				}
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{

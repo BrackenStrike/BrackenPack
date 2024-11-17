@@ -12,7 +12,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/the_brine/voidfish_venom"
+				"minecraft:item_model": "bracken:the_brine/voidfish_venom"
 			}
 		},{
 			"function": "minecraft:set_custom_data",

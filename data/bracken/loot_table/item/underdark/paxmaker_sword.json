@@ -7,6 +7,7 @@
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {
+					"minecraft:item_model": "bracken:paxmaker_sword",
 					"minecraft:enchantments": {
 						"minecraft:smite": 7,
 						"minecraft:knockback": 3,
@@ -26,8 +27,7 @@
 						"id": "bracken:paxmaker_sword",
 						"amount": 12,
 						"operation": "add_value"
-					}],
-					"minecraft:custom_model_data": 888501
+					}]
 				}
 			},{
 				"function": "set_name",

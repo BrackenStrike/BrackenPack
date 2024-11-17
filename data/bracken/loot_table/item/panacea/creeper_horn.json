@@ -21,7 +21,7 @@
 		},{
 			"function": "set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/creeper_horn",
+				"minecraft:item_model": "bracken:creeper_horn",
 				"minecraft:instrument": "minecraft:ponder_goat_horn"
 			}
 		},{

@@ -24,7 +24,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/species_fruit/villain",
+				"minecraft:item_model": "bracken:species_fruit/villain",
 				"minecraft:food": {
 					"nutrition": 4,
 					"saturation": 2.4,

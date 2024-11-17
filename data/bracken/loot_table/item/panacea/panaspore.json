@@ -12,7 +12,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/panaspore",
+				"minecraft:item_model": "bracken:panaspore",
 			}
 		}]
 	}]

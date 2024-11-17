@@ -15,7 +15,7 @@
 		},{
 			"function": "set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/the_brine/essence_of_eternity",
+				"minecraft:item_model": "bracken:the_brine/essence_of_eternity",
 				"minecraft:rarity": "uncommon"
 			}
 		}]

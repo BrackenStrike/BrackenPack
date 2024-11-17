@@ -8,9 +8,8 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:repair_cost": 1000,
-					"minecraft:unbreakable": {
-						"show_in_tooltip": false
-					},
+					"!minecraft:max_damage": {},
+					"!minecraft:damage": {},
 					"minecraft:enchantments": {
 						"levels": {
 							"minecraft:efficiency": 5,
@@ -18,7 +17,6 @@
 						},
 						"show_in_tooltip": false
 					},
-					"minecraft:custom_model_data": 888501,
 					"minecraft:rarity": "epic"
 				}
 			},{
@@ -33,12 +31,6 @@
 					"italic": false
 				}],
 				"mode": "insert"
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.58,
-					"max": 0.63
-				}
 			}]
 		}]
 	}]

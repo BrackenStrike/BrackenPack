@@ -24,7 +24,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/ability_books/returning_tides",
+				"minecraft:item_model": "bracken:ability_books/returning_tides",
 				"minecraft:enchantment_glint_override": true,
 				"minecraft:rarity": "uncommon"
 			}

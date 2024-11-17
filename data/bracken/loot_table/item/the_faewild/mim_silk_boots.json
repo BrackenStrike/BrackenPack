@@ -9,20 +9,15 @@
 				"target": "item_name",
 				"name": "Mim Silk Boots"
 			},{
-				"function": "minecraft:set_custom_model_data",
-				"value": 888509
-			},
-			{
 				"function": "set_enchantments",
 				"enchantments": {
-					
 					"bracken:astuteness_fix": 1
 				}
 			},{
 				"function": "minecraft:set_components",
 				"components": {
+					"minecraft:item_model": "bracken:the_faewild/mim_silk_boots",
 					"minecraft:max_damage": 32,
-					
 					"minecraft:equippable": {
 						"slot": "feet",
 						"equip_sound": "minecraft:block.wool.step",

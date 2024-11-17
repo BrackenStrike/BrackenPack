@@ -11,7 +11,7 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:custom/articles/wolf_hood",
+					"minecraft:item_model": "bracken:articles/wolf_hood",
 					"minecraft:max_damage": 32,
 					"minecraft:equippable": {
 						"slot": "head",

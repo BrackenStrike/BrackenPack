@@ -11,7 +11,7 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:custom/articles/hypocrite_mask",
+					"minecraft:item_model": "bracken:articles/hypocrite_mask",
 					"minecraft:equippable": {
 						"slot": "head",
 						"model": "bracken:hypocrite_mask"

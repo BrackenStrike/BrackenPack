@@ -12,7 +12,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/the_brine/wither_fin"
+				"minecraft:item_model": "bracken:the_brine/wither_fin"
 			}
 		},{
 			"function": "minecraft:set_custom_data",

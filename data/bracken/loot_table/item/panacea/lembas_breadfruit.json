@@ -21,7 +21,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/lembas_breadfruit",
+				"minecraft:item_model": "bracken:lembas_breadfruit",
 			}
 		},{
 			"function": "minecraft:set_custom_data",

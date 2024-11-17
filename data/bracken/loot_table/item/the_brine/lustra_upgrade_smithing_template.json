@@ -12,11 +12,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/weapon_templates/lustra_upgrade_smithing_template"
-			}
-		},{
-			"function": "minecraft:set_components",
-			"components": {
+				"minecraft:item_model": "bracken:weapon_templates/lustra_upgrade_smithing_template",
 				"minecraft:entity_data": {
 					"id": "minecraft:player"
 				}

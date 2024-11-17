@@ -21,7 +21,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/gothrum_fang",
+				"minecraft:item_model": "bracken:gothrum_fang",
 			}
 		},{
 			"function": "minecraft:set_custom_data",

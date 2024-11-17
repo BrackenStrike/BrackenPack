@@ -11,7 +11,7 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:custom/articles/night_vision_goggles",
+					"minecraft:item_model": "bracken:articles/night_vision_goggles",
 					"minecraft:max_damage": 175,
 					"minecraft:equippable": {
 						"slot": "head",

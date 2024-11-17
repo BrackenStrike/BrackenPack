@@ -39,8 +39,7 @@
 						"id": "head.armor",
 						"amount": 100,
 						"operation": "add_value"
-					}],
-					"minecraft:custom_model_data": 888502
+					}]
 				}
 			}]
 		}]

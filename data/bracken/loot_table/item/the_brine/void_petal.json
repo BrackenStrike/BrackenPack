@@ -12,7 +12,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/the_brine/void_petal"
+				"minecraft:item_model": "bracken:the_brine/void_petal"
 			}
 		},{
 			"function": "minecraft:set_custom_data",

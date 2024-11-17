@@ -20,7 +20,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/ability_books/mass_heal",
+				"minecraft:item_model": "bracken:ability_books/mass_heal",
 				"minecraft:enchantment_glint_override": true,
 				"minecraft:rarity": "uncommon"
 			}

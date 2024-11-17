@@ -11,7 +11,7 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:custom/articles/power_arms",
+					"minecraft:item_model": "bracken:articles/power_arms",
 					"minecraft:max_damage": 175,
 					"minecraft:equippable": {
 						"slot": "chest",

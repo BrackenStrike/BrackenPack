@@ -19,7 +19,7 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:custom/frost_spite",
+					"minecraft:item_model": "bracken:frost_spite",
 					"minecraft:custom_data": {
 						"bp": { "id": "frost_spite" }
 					},

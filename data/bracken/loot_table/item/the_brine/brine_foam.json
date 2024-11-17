@@ -12,11 +12,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/the_brine/brine_foam"
-			}
-		},{
-			"function": "minecraft:set_components",
-			"components": {
+				"minecraft:item_model": "bracken:the_brine/brine_foam",
 				"minecraft:entity_data": {
 					"id": "minecraft:player"
 				}

@@ -12,7 +12,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/the_brine/sentinel_rings"
+				"minecraft:item_model": "bracken:the_brine/sentinel_rings"
 			}
 		},{
 			"function": "minecraft:set_custom_data",

@@ -12,7 +12,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/the_brine/shark_tooth"
+				"minecraft:item_model": "bracken:the_brine/shark_tooth"
 			}
 		},{
 			"function": "minecraft:set_components",

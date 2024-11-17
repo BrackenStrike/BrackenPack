@@ -15,7 +15,7 @@
 						"amount": 0.04,
 						"operation": "add_value"
 					}],
-					"minecraft:item_model": "bracken:custom/glacium_glider",
+					"minecraft:item_model": "bracken:glacium_glider",
 					"minecraft:equippable": {
 						"slot": "chest",
 						"model": "bracken:glacium_glider",

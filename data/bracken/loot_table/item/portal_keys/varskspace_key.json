@@ -27,7 +27,7 @@
 			"mode": "insert"
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/portal_keys/varskspace_key",
+				"minecraft:item_model": "bracken:portal_keys/varskspace_key",
 			}
 		}]
 	}]
