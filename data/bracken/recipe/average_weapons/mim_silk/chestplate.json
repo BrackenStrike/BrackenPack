@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"# #",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:shulker_spawn_egg"
+	},
+	"result": {
+		"id": "minecraft:chainmail_chestplate",
+		"components": {
+			"minecraft:max_damage": 32,
+			"minecraft:enchantments": {
+				"bracken:astuteness_fix": 1
+			},
+			"minecraft:equippable": {
+				"slot": "chest",
+				"model": "bracken:silk",
+				"equip_sound": "minecraft:block.wool.step"
+			},
+			"minecraft:item_name": "\"Mim Silk Chestplate\"",
+			"minecraft:item_model": "bracken:average_weapons/mim_silk/chestplate"
+		}
+	}
+}

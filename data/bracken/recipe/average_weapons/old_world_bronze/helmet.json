@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:netherite_upgrade_smithing_template",
+	"base": "minecraft:diamond_helmet",
+	"addition": "minecraft:cat_spawn_egg",
+	"result": {
+		"id": "minecraft:netherite_helmet",
+		"components": {
+			"minecraft:max_damage": 2070,
+			"minecraft:item_name": "\"Old World Bronze Helmet\"",
+			"minecraft:item_model": "bracken:average_weapons/old_world_bronze/helmet",
+			"minecraft:equippable": {
+				"slot": "head",
+				"model": "bracken:old_world_bronze"
+			},
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:armor",
+					"id": "bracken:old_world_bronze_helmet",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "head"
+				}],
+				"show_in_tooltip": true
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:panda_spawn_egg",
+	"base": "minecraft:iron_chestplate",
+	"addition": "minecraft:polar_bear_spawn_egg",
+	"result": {
+		"id": "minecraft:iron_chestplate",
+		"components": {
+			"minecraft:max_damage": 200,
+			"minecraft:equippable": {
+				"slot": "chest",
+				"model": "bracken:cryolith",
+				"equip_sound": "minecraft:block.snow.fall"
+			},
+			"minecraft:item_name": "\"Cryolith Chestplate\"",
+			"minecraft:enchantments": {
+				"minecraft:vanishing_curse": 1,
+				"bracken:quenching_fix": 1,
+				"bracken:fragility_curse": 1
+			},
+			"minecraft:item_model": "bracken:average_weapons/cryolith/chestplate"
+		}
+	}
+}

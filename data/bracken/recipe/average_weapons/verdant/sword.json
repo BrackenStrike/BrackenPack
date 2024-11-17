@@ -2,37 +2,42 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"pattern": [
-		"$#$",
-		"$#$",
-		" / "
+		"#%#",
+		"#%#",
+		"#/#"
 	],
 	"key": {
-		"#": "#minecraft:planks",
+		"#": "minecraft:creeper_spawn_egg",
 		"/": "minecraft:stick",
-		"$": "minecraft:vex_spawn_egg"
+		"%": "#minecraft:planks"
 	},
 	"result": {
 		"id": "minecraft:wooden_sword",
 		"components": {
-			"minecraft:max_damage": 59,
-			"minecraft:item_name": "\"Toothed Sword\"",
-			"minecraft:item_model": "bracken:average_weapons/toothed_sword",
+			"minecraft:max_damage": 500,
+			"minecraft:item_name": "\"Verdant Sword\"",
+			"minecraft:enchantments": {
+				"bracken:infused_mending_fix": 1,
+				"bracken:poisoning_fix": 1
+			},
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:item_model": "bracken:average_weapons/verdant/sword",
 			"minecraft:lore": [
 				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
 				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 7 Attack Damage\",\"color\":dark_green,\"italic\":false}",
+				"{\"translate\":\" 5.5 Attack Damage\",\"color\":dark_green,\"italic\":false}",
 				"{\"translate\":\" 1.6 Attack Speed\",\"color\":dark_green,\"italic\":false}"
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
 					"type": "minecraft:attack_damage",
-					"id": "bracken:copper_sword",
-					"amount": 6,
+					"id": "bracken:verdant_sword",
+					"amount": 4.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"type": "minecraft:attack_speed",
-					"id": "bracken:copper_sword",
+					"id": "bracken:verdant_sword",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
