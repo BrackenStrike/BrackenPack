@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"//",
+		"//"
+	],
+	"key": {
+		"/": "minecraft:stick"
+	},
+	"result": {
+		"id": "minecraft:oak_planks",
+		"count": 2
+	}
+}

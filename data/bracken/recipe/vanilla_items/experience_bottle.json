@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#",
+		"H"
+	],
+	"key": {
+		"#": "minecraft:emerald",
+		"H": "minecraft:honey_bottle"
+	},
+	"result": {
+		"id": "minecraft:experience_bottle",
+		"count": 1
+	}
+}

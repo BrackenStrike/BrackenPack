@@ -1,38 +1,33 @@
 {
-    "type": "minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
-    "pattern": [
-        " $ ",
-        " D ",
-        " # "
-    ],
-    "key": {
-        "$": "minecraft:drowned_spawn_egg"
-        ,
-        "D": "minecraft:glow_berries"
-        ,
-        "#": "minecraft:ominous_bottle"
-        
-    },
-    "result": {
-        "id": "minecraft:ominous_bottle",
-        "components": {
-            "minecraft:item_name": "\"Homemade Glow Berry Beverage\"",
-            "minecraft:custom_model_data": 888504,
-            "minecraft:food": {
+	"pattern": [
+		" $ ",
+		" D ",
+		" # "
+	],
+	"key": {
+		"$": "minecraft:drowned_spawn_egg",
+		"D": "minecraft:glow_berries",
+		"#": "minecraft:ominous_bottle"
+	},
+	"result": {
+		"id": "minecraft:ominous_bottle",
+		"components": {
+			"minecraft:item_name": "\"Homemade Glow Berry Beverage\"",
+			"minecraft:item_model": "bracken:potions/beverage_glow_berries",
+			"minecraft:food": {
 				"nutrition": 6,
 				"saturation": 4.8,
 				"can_always_eat": true
-			  },
-			  "minecraft:suspicious_stew_effects": [
-				{
-				  "id": "minecraft:glowing",
-				  "duration": 120000
-				}
-			  ],
-            "minecraft:custom_data": {
-                "nbt": "{bp:{id:\"beverage_glow_berries\"}}"
-            }
-        }
-    }
+			},
+			"minecraft:suspicious_stew_effects": [{
+				"id": "minecraft:glowing",
+				"duration": 120000
+			}],
+			"minecraft:custom_data": {
+				"nbt": "{bp:{id:\"beverage_glow_berries\"}}"
+			}
+		}
+	}
 }

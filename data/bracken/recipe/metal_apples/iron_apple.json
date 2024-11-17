@@ -1,31 +1,29 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "equipment",
-    "pattern": [
-        "###",
-        "#/#",
-        "###"
-    ],
-    "key": {
-        "#": "minecraft:iron_ingot"
-        ,
-        "/": "minecraft:apple"
-        
-    },
-    "result": {
-        "id": "minecraft:apple",
-        "components": {
-            "minecraft:item_name": "\"Iron Apple\"",
-	    "minecraft:rarity": "rare",
-            "minecraft:custom_model_data": 888517,
-            "minecraft:food": {
-                "nutrition": 4,
-                "saturation": 9.6,
-                "can_always_eat": true
-            },
-            "minecraft:custom_data": {
-                "nbt": "{bp:{id:\"iron_apple\"}}"
-            }
-        }
-    }
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"#/#",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:iron_ingot",
+		"/": "minecraft:apple"
+	},
+	"result": {
+		"id": "minecraft:apple",
+		"components": {
+			"minecraft:item_name": "\"Iron Apple\"",
+			"minecraft:rarity": "rare",
+			"minecraft:item_model": "bracken:metal_apples/iron_apple",
+			"minecraft:food": {
+				"nutrition": 4,
+				"saturation": 9.6,
+				"can_always_eat": true
+			},
+			"minecraft:custom_data": {
+				"nbt": "{bp:{id:\"iron_apple\"}}"
+			}
+		}
+	}
 }

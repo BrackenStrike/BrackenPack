@@ -1,34 +1,34 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "equipment",
-    "pattern": [
-        "#",
-        "/"
-    ],
-    "key": {
-        "#": "minecraft:netherite_sword"
-        ,
-        "/":"minecraft:blaze_rod"
-        
-    },
-    "result": {
-        "id": "minecraft:netherite_sword",
-        "count": 1,
-        "components": {
-            "minecraft:item_name": "\"Sai\"",
-            "minecraft:custom_model_data": 888502,
-            "minecraft:attribute_modifiers": {
-                "modifiers": [
-                    {
-                        "type": "minecraft:attack_damage",
-                        "id": "bracken:sai",
-                        "amount": 30,
-                        "operation": "add_value",
-                        "slot": "mainhand"
-                    }
-                ]
-            },
-		"minecraft:custom_data": { "bp": { "id": "sai" } }
-        }
-    }
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"#",
+		"/"
+	],
+	"key": {
+		"#": "minecraft:netherite_sword",
+		"/": "minecraft:blaze_rod"
+	},
+	"result": {
+		"id": "minecraft:netherite_sword",
+		"count": 1,
+		"components": {
+			"minecraft:item_name": "\"Sai\"",
+			"minecraft:item_model": "bracken:sai",
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:attack_damage",
+					"id": "bracken:sai",
+					"amount": 30,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}]
+			},
+			"minecraft:custom_data": {
+				"bp": {
+					"id": "sai"
+				}
+			}
+		}
+	}
 }

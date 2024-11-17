@@ -1,26 +1,23 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "equipment",
-    "pattern": [
-        "///",
-        "///",
-        "///"
-    ],
-    "key": {
-        "/": "minecraft:vindicator_spawn_egg"
-        
-    },
-    "result": {
-        "id": "minecraft:shulker_spawn_egg",
-        "components": {
-            "minecraft:item_name": "\"Mim Silk Patch\"",
-            "minecraft:custom_model_data": 888501,
-            
-				
-				
-				"minecraft:entity_data": {
-					"id": "minecraft:player"},
-            "minecraft:enchantment_glint_override": true
-        }
-    }
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"///",
+		"///",
+		"///"
+	],
+	"key": {
+		"/": "minecraft:vindicator_spawn_egg"
+	},
+	"result": {
+		"id": "minecraft:shulker_spawn_egg",
+		"components": {
+			"minecraft:item_name": "\"Mim Silk Patch\"",
+			"minecraft:item_model": "bracken:the_faewild/mim_silk_patch",
+			"minecraft:entity_data": {
+				"id": "minecraft:player"
+			},
+			"minecraft:enchantment_glint_override": true
+		}
+	}
 }

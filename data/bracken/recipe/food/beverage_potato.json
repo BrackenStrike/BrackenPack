@@ -1,32 +1,29 @@
 {
-    "type": "minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
-    "pattern": [
-        " $ ",
-        " D ",
-        " # "
-    ],
-    "key": {
-        "$": "minecraft:drowned_spawn_egg"
-        ,
-        "D": "minecraft:potato"
-        ,
-        "#": "minecraft:ominous_bottle"
-        
-    },
-    "result": {
-        "id": "minecraft:ominous_bottle",
-        "components": {
-            "minecraft:item_name": "\"Homemade Potato Beverage\"",
-            "minecraft:custom_model_data": 888508,
-            "minecraft:food": {
+	"pattern": [
+		" $ ",
+		" D ",
+		" # "
+	],
+	"key": {
+		"$": "minecraft:drowned_spawn_egg",
+		"D": "minecraft:potato",
+		"#": "minecraft:ominous_bottle"
+	},
+	"result": {
+		"id": "minecraft:ominous_bottle",
+		"components": {
+			"minecraft:item_name": "\"Homemade Potato Beverage\"",
+			"minecraft:item_model": "bracken:potions/beverage_potato",
+			"minecraft:food": {
 				"nutrition": 6,
 				"saturation": 4.8,
 				"can_always_eat": true
-			  },
-            "minecraft:custom_data": {
-                "nbt": "{bp:{id:\"beverage_potato\"}}"
-            }
-        }
-    }
+			},
+			"minecraft:custom_data": {
+				"nbt": "{bp:{id:\"beverage_potato\"}}"
+			}
+		}
+	}
 }
