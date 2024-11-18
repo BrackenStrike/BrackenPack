@@ -11,7 +11,6 @@
 			"id": "minecraft:iron_chestplate",
 			"components": {
 				"minecraft:enchantment_glint_override": true,
-				"minecraft:custom_model_data": 888501,
 				"minecraft:trim": {
 					"material": "minecraft:lapis",
 					"pattern": "minecraft:eye"
