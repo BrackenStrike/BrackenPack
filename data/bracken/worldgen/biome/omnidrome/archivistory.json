@@ -194,81 +194,12 @@
             "sound": "minecraft:block.bell.resonate",
             "tick_chance": 1e-05
         },
-        "music": [
-            {
-                "data": {
-                  "max_delay": 24000,
-                  "min_delay": 12000,
-                  "replace_current_music": false,
-                  "sound": {"sound_id": "bracken:dormis"}
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "max_delay": 24000,
-                  "min_delay": 12000,
-                  "replace_current_music": false,
-                  "sound": {"sound_id": "bracken:brine"}
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "max_delay": 24000,
-                  "min_delay": 12000,
-                  "replace_current_music": false,
-                  "sound": {"sound_id": "bracken:faewild"}
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "max_delay": 24000,
-                  "min_delay": 12000,
-                  "replace_current_music": false,
-                  "sound": {"sound_id": "bracken:varskspace"}
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "max_delay": 24000,
-                  "min_delay": 12000,
-                  "replace_current_music": false,
-                  "sound": {"sound_id": "bracken:pax"}
-                },
-                "weight": 1
-              },
-            {
-                "data": {
-                  "max_delay": 24000,
-                  "min_delay": 12000,
-                  "replace_current_music": false,
-                  "sound": {"sound_id": "bracken:underdark"}
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "max_delay": 24000,
-                  "min_delay": 12000,
-                  "replace_current_music": false,
-                  "sound": {"sound_id": "bracken:glacium"}
-                },
-                "weight": 1
-              },
-              {
-                "data": {
-                  "max_delay": 24000,
-                  "min_delay": 12000,
-                  "replace_current_music": false,
-                  "sound": {"sound_id": "bracken:omnidrome"}
-                },
-                "weight": 1
-              }
-          ],
-          "music_volume": 1.0
+        "music": {
+            "sound": "minecraft:music.dragon",
+            "min_delay": 120000,
+            "max_delay": 240000,
+            "replace_current_music": true
+        }
     },
     "has_precipitation": false
 }

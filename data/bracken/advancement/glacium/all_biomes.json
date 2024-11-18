@@ -115,21 +115,6 @@
 			"trigger": "minecraft:location"
 		}
 	},
-	"requirements": [[
-		"bracken:glacium/arctic_knolls"
-	],[
-		"bracken:glacium/boreal_frontier"
-	],[
-		"bracken:glacium/destitute_garrison"
-	],[
-		"bracken:glacium/fractured_wastes"
-	],[
-		"bracken:glacium/gathheim"
-	],[
-		"bracken:glacium/glacial_mass"
-	],[
-		"bracken:glacium/invasive_forest"
-	]],
 	"rewards": {
 		"experience": 700
 	},

@@ -66,27 +66,12 @@
             "sound": "minecraft:ambient.crimson_forest.loop",
             "tick_chance": 0.02
         },
-        "music": [
-            {
-              "data": {
-                "max_delay": 24000,
-                "min_delay": 12000,
-                "replace_current_music": false,
-                "sound": {"sound_id": "bracken:glacium"}
-              },
-              "weight": 1
-            },
-            {
-                "data": {
-                  "max_delay": 24000,
-                  "min_delay": 12000,
-                  "replace_current_music": false,
-                  "sound": "minecraft:music.overworld.frozen_peaks"
-                },
-                "weight": 1
-              }
-          ],
-          "music_volume": 1.0,
+        "music": {
+            "sound": {"sound_id": "bracken:glacium"},
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+        },
         "ambient_sound": "minecraft:ambient.soul_sand_valley.loop"
     },
     "has_precipitation": true
