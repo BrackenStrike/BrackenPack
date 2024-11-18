@@ -8,7 +8,7 @@
 						"minecraft:apple"
 					],
 					"components": {
-						"minecraft:custom_model_data": 888512
+						"minecraft:item_model": "bracken:species_fruit/outlander"
 					}
 				}
 			}

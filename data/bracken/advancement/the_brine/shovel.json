@@ -33,17 +33,17 @@
 					}
 				}],
 				"items": [{
-					"items": "minecraft:stone_shovel",
+					"items": "minecraft:golden_shovel",
 					"components": {
-					  "minecraft:custom_model_data": 888502
+						"minecraft:item_model": "bracken:average_weapons/lustra/shovel"
 					}
-				  }]
+				}]
 			}
 		}
 	},
 	"rewards": {
 		"experience": 2
-	  },
+	},
 	"requirements": [[
 		"bracken:the_brine/shovel1"
 	]]

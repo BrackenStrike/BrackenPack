@@ -11,7 +11,7 @@
 		"icon": {
 			"id": "minecraft:spider_eye",
 			"components": {
-				"minecraft:custom_model_data": 888502
+				"minecraft:item_model": "bracken:tools/unruly_compass"
 			}
 		},
 		"frame": "task",
@@ -24,17 +24,11 @@
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
-					"items": [
-						"minecraft:apple"
-					],
 					"components": {
-						"minecraft:custom_model_data": 888502
+						"minecraft:item_model": "bracken:tools/unruly_compass"
 					}
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:sanctum/compass1"
-	]]
+	}
 }

@@ -18,7 +18,8 @@
 						"generation": 3
 					},
 					"minecraft:custom_data": {
-						"bp.species_book": 10
+						"bp.species_book": 10,
+						"bp": { "id": "species_beginner_book" }
 					}
 				}
 			},{

@@ -1,39 +1,37 @@
 {
-    "parent": "bracken:pax/cloud_biome",
-    "display": {
-        "title": {
-            "translate": "Separate Ways"
-        },
-        "description": {
-            "translate": "Find the Pax gateway",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:structure_block",
-            "components": {
+	"parent": "bracken:pax/cloud_biome",
+	"display": {
+		"title": {
+			"translate": "Separate Ways"
+		},
+		"description": {
+			"translate": "Find the Pax gateway",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:structure_block",
+			"components": {
 				"minecraft:item_model": "bracken:portal_keys/pax_key"
-            }
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "bracken:pax/pax_portal1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "structures": "bracken:pax_gateway"
-                    }
-                }
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:pax/pax_portal1"
-        ]
-    ]
+			}
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:pax/pax_portal1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structures": "bracken:pax_gateway"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:pax/pax_portal1"
+	]]
 }

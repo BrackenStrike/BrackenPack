@@ -34,17 +34,12 @@
 					}
 				}],
 				"items": [{
-					"items": [
-						"minecraft:netherite_sword"
-					],
+					"items": "minecraft:netherite_sword",
 					"components": {
-						"minecraft:custom_model_data": 888501
+						"minecraft:item_model": "bracken:paxmaker_sword"
 					}
 				}]
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:the_underdark/paxmaker1"
-	]]
+	}
 }

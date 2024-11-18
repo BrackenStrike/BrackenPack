@@ -11,8 +11,7 @@
 		"icon": {
 			"id": "minecraft:netherite_pickaxe",
 			"components": {
-				"minecraft:enchantment_glint_override": true
-				"minecraft:item_model": "bracken:feilfri"
+				"minecraft:enchantment_glint_override": true"minecraft:item_model": "bracken:feilfri"
 			}
 		},
 		"frame": "task",

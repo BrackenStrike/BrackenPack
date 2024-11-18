@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": "minecraft:gold_ingot",
+		"C": "minecraft:prismarine_bricks",
+		"S": "minecraft:phantom_spawn_egg"
+	},
+	"pattern": [
+		"#S#",
+		"#C#",
+		"###"
+	],
+	"result": {
+		"id": "minecraft:phantom_spawn_egg",
+		"count": 2,
+		"components": {
+			"minecraft:item_name": "\"Lustra Upgrade Smithing Template\"",
+			"minecraft:entity_data": {
+				"id": "minecraft:player"
+			},
+			"minecraft:item_model": "bracken:weapon_templates/lustra_upgrade_smithing_template"
+		}
+	}
+}

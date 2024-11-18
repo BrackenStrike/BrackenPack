@@ -8,7 +8,7 @@
 						"minecraft:apple"
 					],
 					"components": {
-						"minecraft:custom_model_data": 888514
+						"minecraft:item_model": "bracken:species_fruit/villain"
 					}
 				}
 			}

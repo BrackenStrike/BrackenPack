@@ -1,20 +1,18 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:consume_item",
-            "conditions": {
-                "item": {
-                    "items": [
-                        "minecraft:apple"
-                    ],
-                    "components": {
-                        "minecraft:custom_model_data": 888501
-                    }
-                }
-            }
-        }
-    },
-    "rewards": {
-        "function": "bracken:item/food/lembas_breadfruit"
-    }
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:apple",
+					"components": {
+						"minecraft:item_model": "bracken:lembas_breadfruit"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:item/food/lembas_breadfruit"
+	}
 }

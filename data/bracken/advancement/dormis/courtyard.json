@@ -1,43 +1,39 @@
 {
-    "parent": "bracken:dormis/yellow",
-    "display": {
-        "title": {
-            "translate": "An Awful Lot of an Alloted Lot"
-        },
-        "description": {
-            "translate": "Find the Thrall's courtyard",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:smooth_red_sandstone"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "bracken:dormis/courtyard1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "dimension": "bracken:dormis",
-                                "structures": "bracken:dormis_thrall_courtyard"
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:dormis/courtyard1"
-        ]
-    ]
+	"parent": "bracken:dormis/yellow",
+	"display": {
+		"title": {
+			"translate": "An Awful Lot of an Alloted Lot"
+		},
+		"description": {
+			"translate": "Find the Thrall's courtyard",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:smooth_red_sandstone"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:dormis/courtyard1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "bracken:dormis",
+							"structures": "bracken:dormis_thrall_courtyard"
+						}
+					}
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:dormis/courtyard1"
+	]]
 }

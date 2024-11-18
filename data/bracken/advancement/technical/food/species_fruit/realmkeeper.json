@@ -8,7 +8,7 @@
 						"minecraft:apple"
 					],
 					"components": {
-						"minecraft:custom_model_data": 888513
+						"minecraft:item_model": "bracken:species_fruit/realmkeeper"
 					}
 				}
 			}

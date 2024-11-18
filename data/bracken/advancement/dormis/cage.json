@@ -1,43 +1,39 @@
 {
-    "parent": "bracken:dormis/enter_dormis",
-    "display": {
-        "title": {
-            "translate": "Another Inmate"
-        },
-        "description": {
-            "translate": "Find another suspended cage. Free the prisoner inside if you want.",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:chain"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "bracken:dormis/cage1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "dimension": "bracken:dormis",
-                                "structures": "bracken:dormis_cage"
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:dormis/cage1"
-        ]
-    ]
+	"parent": "bracken:dormis/enter_dormis",
+	"display": {
+		"title": {
+			"translate": "Another Inmate"
+		},
+		"description": {
+			"translate": "Find another suspended cage. Free the prisoner inside if you want.",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:chain"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:dormis/cage1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "bracken:dormis",
+							"structures": "bracken:dormis_cage"
+						}
+					}
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:dormis/cage1"
+	]]
 }

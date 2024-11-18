@@ -22,27 +22,25 @@
 	},
 	"criteria": {
 		"requirement": {
-		  "trigger": "minecraft:inventory_changed",
-		  "conditions": {
-			"player": {
-			  "location": {
-				"dimension": "bracken:glacium"
-			  }
-			},
-			"items": [
-			  {
-				"items": [
-				  "minecraft:iron_sword",
-				  "minecraft:iron_axe"
-				],
-				"components": {
-				  "minecraft:enchantments": {
-					"bracken:freezing_fix": 1
-				  }
-				}
-			  }
-			]
-		  }
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "bracken:glacium"
+					}
+				},
+				"items": [{
+					"items": [
+						"minecraft:iron_sword",
+						"minecraft:iron_axe"
+					],
+					"components": {
+						"minecraft:enchantments": {
+							"bracken:freezing_fix": 1
+						}
+					}
+				}]
+			}
 		}
-	  }
+	}
 }

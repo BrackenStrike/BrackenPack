@@ -1,10 +1,18 @@
 {
-	"criteria": { "kill_ender_dragon": {
-		"trigger": "minecraft:player_killed_entity",
-		"conditions": { "entity": {
-			"type": "minecraft:ender_dragon",
-			"location": { "dimension": "minecraft:the_end" }
-		}}
-	}},
-	"rewards": { "function": "bracken:dimension_commands/other/summon_end_key" }
+	"criteria": {
+		"kill_ender_dragon": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:ender_dragon",
+					"location": {
+						"dimension": "minecraft:the_end"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:dimension_commands/other/summon_end_key"
+	}
 }

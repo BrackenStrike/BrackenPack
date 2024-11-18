@@ -34,17 +34,12 @@
 					}
 				}],
 				"items": [{
-					"items": [
-						"minecraft:nether_wart"
-					],
+					"items": "minecraft:nether_wart",
 					"components": {
-						"minecraft:custom_model_data": 888510
+						"minecraft:item_model": "bracken:the_brine/essence_of_eternity"
 					}
 				}]
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:the_brine/eternity1"
-	]]
+	}
 }

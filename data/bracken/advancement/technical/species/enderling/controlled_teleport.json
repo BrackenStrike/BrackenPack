@@ -3,14 +3,22 @@
 		"use_teleport_item": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
-				"player": { "nbt": "{Tags:[\"bp.enderling\"]}" },
+				"player": {
+					"nbt": "{Tags:[\"bp.enderling\"]}"
+				},
 				"item": {
-					"predicates": { "minecraft:custom_data": {
-						"bracken": { "id": "enderling_controlled_teleport" }
-					}}
+					"predicates": {
+						"minecraft:custom_data": {
+							"bracken": {
+								"id": "enderling_controlled_teleport"
+							}
+						}
+					}
 				}
 			}
 		}
 	},
-	"rewards": { "function": "bracken:player/species/enderling/controlled_teleport" }
+	"rewards": {
+		"function": "bracken:player/species/enderling/controlled_teleport"
+	}
 }

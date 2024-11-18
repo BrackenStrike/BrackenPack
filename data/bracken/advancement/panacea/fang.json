@@ -1,52 +1,48 @@
 {
-    "parent": "bracken:panacea/rain",
-    "display": {
-        "title": {
-            "translate": "The Tooth Hurts!"
-        },
-        "description": {
-            "translate": "Fight with a Gothrum Fang",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:iron_sword",
-            "components": {
+	"parent": "bracken:panacea/rain",
+	"display": {
+		"title": {
+			"translate": "The Tooth Hurts!"
+		},
+		"description": {
+			"translate": "Fight with a Gothrum Fang",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:iron_sword",
+			"components": {
 				"minecraft:item_model": "bracken:gothrum_fang"
-            }
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "bracken:panacea/fang1": {
-            "trigger": "minecraft:player_hurt_entity",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "equipment": {
-                                "mainhand": {
-                                    "items": [
-                                        "minecraft:iron_sword"
-                                    ],
-                                    "components": {
-					"minecraft:item_model": "bracken:gothrum_fang"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/fang1"
-        ]
-    ]
+			}
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:panacea/fang1": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": {
+							"mainhand": {
+								"items": [
+									"minecraft:iron_sword"
+								],
+								"components": {
+									"minecraft:item_model": "bracken:gothrum_fang"
+								}
+							}
+						}
+					}
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:panacea/fang1"
+	]]
 }

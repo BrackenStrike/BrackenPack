@@ -1,28 +1,30 @@
 {
-    "display": {
-        "title": {
-            "translate": "Panacea"
-        },
-        "description": {
-            "translate": "The old world",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:wooden_sword",
-            "components": {
+	"display": {
+		"title": {
+			"translate": "Panacea"
+		},
+		"description": {
+			"translate": "The old world",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:wooden_sword",
+			"components": {
 				"minecraft:item_model": "bracken:average_weapons/verdant/greatsword"
-            }
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true,
-        "background": "bracken:textures/gui/advancements/backgrounds/panacea.png"
-    },
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:changed_dimension",
-            "conditions": { "to": "bracken:panacea" }
-        }
-    }
+			}
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true,
+		"background": "bracken:textures/gui/advancements/backgrounds/panacea.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "bracken:panacea"
+			}
+		}
+	}
 }

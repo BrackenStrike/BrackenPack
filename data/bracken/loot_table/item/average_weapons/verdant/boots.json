@@ -24,12 +24,7 @@
 						"slot": "feet",
 						"model": "bracken:verdant",
 						"equip_sound": "minecraft:item.bone_meal.use"
-					}
-				}
-			},{
-				"function": "minecraft:set_components",
-				"components": {
-					"minecraft:item_model": "bracken:average_weapons/verdant_boots",
+					},
 					"minecraft:dyed_color": {
 						"rgb": 505095
 					}
