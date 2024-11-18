@@ -28,7 +28,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:portal_keys/brine_key",
+				"minecraft:item_model": "bracken:portal_keys/brine_key"
 			}
 		}]
 	}]

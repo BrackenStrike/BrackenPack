@@ -21,7 +21,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:yakitubba_hide",
+				"minecraft:item_model": "bracken:yakitubba_hide"
 			}
 		},{
 			"function": "minecraft:set_custom_data",

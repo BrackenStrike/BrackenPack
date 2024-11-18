@@ -21,7 +21,7 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:perrterror_gaster",
+				"minecraft:item_model": "bracken:perrterror_gaster"
 			}
 		},{
 			"function": "minecraft:set_custom_data",

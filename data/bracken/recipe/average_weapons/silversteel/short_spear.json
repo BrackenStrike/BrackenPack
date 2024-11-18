@@ -2,8 +2,8 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"pattern": [
-		"#",
-		"/ ",
+		"  #",
+		" / ",
 		"/  "
 	],
 	"key": {

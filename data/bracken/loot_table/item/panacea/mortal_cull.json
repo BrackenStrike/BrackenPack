@@ -23,7 +23,7 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:mortal_cull",
+					"minecraft:item_model": "bracken:mortal_cull"
 				}
 			},{
 				"function": "minecraft:set_attributes",
