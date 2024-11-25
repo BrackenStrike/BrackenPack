@@ -1,14 +1,14 @@
 {
     "structures": [
         {
-            "structure": "bracken:dormis_box",
+            "structure": "bracken:dormis_maze",
             "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 13,
-        "separation": 10,
+        "spacing": 10,
+        "separation": 20,
         "salt": 945706203
     }
 }
