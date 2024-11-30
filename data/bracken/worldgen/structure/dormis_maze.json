@@ -3,7 +3,7 @@
     "biomes": "bracken:dormis/kedeshium",
     "spawn_overrides": {},
     "start_pool": "bracken:dormis/maze/mazea",
-    "size": 12,
+    "size": 7,
     "step": "surface_structures",
     "start_height": {
         "absolute": 70

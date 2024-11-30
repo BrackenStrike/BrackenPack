@@ -3,7 +3,7 @@
     "biomes": "bracken:sanctum/dark_soot_dunes",
     "spawn_overrides": {},
     "start_pool": "bracken:sanctum_d_boss",
-    "size": 7,
+    "size": 14,
     "step": "surface_structures",
     "start_height": {
         "absolute": 0
