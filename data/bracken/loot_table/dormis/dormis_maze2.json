@@ -7,24 +7,106 @@
 		},
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:stick",
+			"name": "minecraft:carrot",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.8
+				"chance": 0.5
 			}]
-		},{
+		},
+		{
 			"type": "minecraft:item",
-			"name": "minecraft:tnt",
+			"name": "minecraft:potato",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:kelp",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.6
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:rabbit",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.5
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:rabbit_stew",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
-		},{
+		},
+		{
 			"type": "minecraft:item",
-			"name": "minecraft:stone",
+			"name": "minecraft:ominous_bottle",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:beetroot",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.5
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:beetroot_seeds",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.7
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:red_mushroom",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.7
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:brown_mushroom",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.7
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:nether_wart",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:beetroot_soup",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:mushroom_stew",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
 			}]
 		},{
 			"type": "minecraft:item",
@@ -57,26 +139,6 @@
 				"damage": {
 					"min": 0.28,
 					"max": 0.33
-				}
-			}]
-		},{
-			"type": "item",
-			"name": "minecraft:iron_boots",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
-				"enchantments": {
-					"minecraft:binding_curse": 1
-				},
-				"add": false
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.18,
-					"max": 0.23
 				}
 			}]
 		}]
