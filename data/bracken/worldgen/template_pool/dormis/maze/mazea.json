@@ -437,6 +437,16 @@
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
             }
+        },
+
+        {
+            "weight": 2,
+            "element": {
+                "location": "bracken:dormis/maze/maze25",
+                "processors": "bracken:erode",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
         }
     ]
 }
