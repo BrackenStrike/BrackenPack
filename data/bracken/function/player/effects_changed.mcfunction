@@ -5,7 +5,7 @@
 ##########################################################
 
 #Enforce Permanent Effects
-execute if predicate bracken:effect_permanence/bad_omen_10 run effect give @s minecraft:bad_omen infinite 9 true
+execute if predicate bracken:effect_permanence/bad_omen_10 run effect give @s[team=!Realmkeeper] minecraft:bad_omen infinite 9 true
 execute if predicate bracken:effect_permanence/dolphins_grace run effect give @s minecraft:dolphins_grace infinite 0 true
 execute if predicate bracken:effect_permanence/fire_resistance run effect give @s minecraft:fire_resistance infinite 0 true
 execute if predicate bracken:effect_permanence/hero_of_the_village_5 run effect give @s minecraft:hero_of_the_village infinite 4 true

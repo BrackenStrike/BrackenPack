@@ -440,7 +440,7 @@
         },
 
         {
-            "weight": 2,
+            "weight": 1,
             "element": {
                 "location": "bracken:dormis/maze/maze25",
                 "processors": "bracken:erode",
