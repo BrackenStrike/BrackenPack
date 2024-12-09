@@ -13,8 +13,8 @@
 				{
 				  "type": "minecraft:damage_entity",
 				  "damage_type": "minecraft:thorns",
-				  "max_damage": 20.0,
-				  "min_damage": 5.0
+				  "max_damage": 40.0,
+				  "min_damage": 10.0
 				},
 				{
 				  "type": "minecraft:change_item_damage",
@@ -28,7 +28,7 @@
 				"type": "minecraft:enchantment_level",
 				"amount": {
 				  "type": "minecraft:linear",
-				  "base": 0.15,
+				  "base": 1,
 				  "per_level_above_first": 0.15
 				}
 			  },
