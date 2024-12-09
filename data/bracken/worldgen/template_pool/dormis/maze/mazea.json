@@ -3,7 +3,7 @@
     "fallback": "minecraft:empty",
     "elements": [
         {
-            "weight": 2,
+            "weight": 4,
             "element": {
                 "location": "bracken:dormis/maze/maze1",
                 "processors": "bracken:erode",
@@ -12,7 +12,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze2",
                 "processors": "bracken:erode",
@@ -21,7 +21,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze3",
                 "processors": "bracken:erode",
@@ -30,7 +30,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 4,
             "element": {
                 "location": "bracken:dormis/maze/maze4",
                 "processors": "bracken:erode",
@@ -39,7 +39,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze5",
                 "processors": "bracken:erode",
@@ -48,7 +48,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze6",
                 "processors": "bracken:erode",
@@ -57,7 +57,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze7",
                 "processors": "bracken:erode",
@@ -66,7 +66,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze8",
                 "processors": "bracken:erode",
@@ -75,7 +75,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze9",
                 "processors": "bracken:erode",
@@ -84,7 +84,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze10",
                 "processors": "bracken:erode",
@@ -93,7 +93,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze11",
                 "processors": "bracken:erode",
@@ -102,7 +102,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze12",
                 "processors": "bracken:erode",
@@ -111,7 +111,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze13",
                 "processors": "bracken:erode",
@@ -120,7 +120,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze14",
                 "processors": "bracken:erode",
@@ -129,7 +129,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze15",
                 "processors": "bracken:erode",
@@ -138,7 +138,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze16",
                 "processors": "bracken:erode",
@@ -147,7 +147,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze17",
                 "processors": "bracken:erode",
@@ -156,7 +156,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 4,
             "element": {
                 "location": "bracken:dormis/maze/maze18",
                 "processors": "bracken:erode",
@@ -165,7 +165,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze19",
                 "processors": "bracken:erode",
@@ -174,7 +174,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 4,
             "element": {
                 "location": "bracken:dormis/maze/maze20",
                 "processors": "bracken:erode",
@@ -183,7 +183,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze21",
                 "processors": "bracken:erode",
@@ -192,7 +192,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze22",
                 "processors": "bracken:erode",
@@ -201,7 +201,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze23",
                 "processors": "bracken:erode",
@@ -210,7 +210,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze24",
                 "processors": "bracken:erode",
@@ -222,7 +222,7 @@
 
 
         {
-            "weight": 2,
+            "weight": 4,
             "element": {
                 "location": "bracken:dormis/maze/maze1b",
                 "processors": "bracken:erode",
@@ -232,7 +232,7 @@
         }
         ,
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze2b",
                 "processors": "bracken:erode",
@@ -241,7 +241,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze3b",
                 "processors": "bracken:erode",
@@ -250,7 +250,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze4b",
                 "processors": "bracken:erode",
@@ -259,7 +259,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze5b",
                 "processors": "bracken:erode",
@@ -268,7 +268,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze6b",
                 "processors": "bracken:erode",
@@ -277,7 +277,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze7b",
                 "processors": "bracken:erode",
@@ -286,7 +286,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze8b",
                 "processors": "bracken:erode",
@@ -295,7 +295,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze9b",
                 "processors": "bracken:erode",
@@ -304,7 +304,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze10b",
                 "processors": "bracken:erode",
@@ -313,7 +313,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze11b",
                 "processors": "bracken:erode",
@@ -322,7 +322,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze12b",
                 "processors": "bracken:erode",
@@ -331,7 +331,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze13b",
                 "processors": "bracken:erode",
@@ -340,7 +340,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze14b",
                 "processors": "bracken:erode",
@@ -349,7 +349,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze15b",
                 "processors": "bracken:erode",
@@ -358,7 +358,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze16b",
                 "processors": "bracken:erode",
@@ -367,7 +367,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze17b",
                 "processors": "bracken:erode",
@@ -376,7 +376,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze18b",
                 "processors": "bracken:erode",
@@ -385,7 +385,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze19b",
                 "processors": "bracken:erode",
@@ -394,7 +394,7 @@
             }
         },
         {
-            "weight": 1,
+            "weight": 2,
             "element": {
                 "location": "bracken:dormis/maze/maze20b",
                 "processors": "bracken:erode",
@@ -403,7 +403,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 4,
             "element": {
                 "location": "bracken:dormis/maze/maze21b",
                 "processors": "bracken:erode",
@@ -412,7 +412,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 4,
             "element": {
                 "location": "bracken:dormis/maze/maze22b",
                 "processors": "bracken:erode",
@@ -421,7 +421,7 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 4,
             "element": {
                 "location": "bracken:dormis/maze/maze23b",
                 "processors": "bracken:erode",
@@ -430,9 +430,18 @@
             }
         },
         {
-            "weight": 2,
+            "weight": 4,
             "element": {
                 "location": "bracken:dormis/maze/maze24b",
+                "processors": "bracken:erode",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:dormis/maze/maze26",
                 "processors": "bracken:erode",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
