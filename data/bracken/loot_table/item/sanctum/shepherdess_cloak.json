@@ -24,7 +24,7 @@
 			},{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"minecraft:thorns": 40,
+					"bracken:infused_thorns_fix": 1,
 					"bracken:maiming_curse": 1
 				}
 			},{

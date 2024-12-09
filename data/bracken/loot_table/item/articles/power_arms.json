@@ -9,19 +9,19 @@
 				"target": "item_name",
 				"name": "Power Arms"
 			},{
+				"function": "minecraft:set_custom_model_data",
+				"value": 888501
+			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:custom/articles/power_arms",
 					"minecraft:max_damage": 175,
 					"minecraft:equippable": {
 						"slot": "chest",
 						"model": "bracken:power_arms"
-					},
-					"minecraft:custom_data": {
-						"bp": { "id": "power_arms" }
 					}
 				}
-			},{
+			},
+			{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:block_interaction_range",

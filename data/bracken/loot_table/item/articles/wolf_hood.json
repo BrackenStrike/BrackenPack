@@ -9,16 +9,18 @@
 				"target": "item_name",
 				"name": "Wolf Hood"
 			},{
+				"function": "minecraft:set_custom_model_data",
+				"value": 888508,
+				"minecraft:custom_data": {
+					"bp": { "id": "wolf_hood" }
+				}
+			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:custom/articles/wolf_hood",
 					"minecraft:max_damage": 32,
 					"minecraft:equippable": {
 						"slot": "head",
 						"model": "bracken:wolf_hood"
-					},
-					"minecraft:custom_data": {
-						"bp": { "id": "wolf_hood" }
 					}
 				}
 			},

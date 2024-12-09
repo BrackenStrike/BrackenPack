@@ -12,7 +12,6 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:custom/ability_books/adamantine_will",
 				"minecraft:enchantment_glint_override": true,
 				"minecraft:rarity": "uncommon"
 			}
@@ -24,6 +23,9 @@
 				"italic": false
 			}],
 			"mode": "insert"
+		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888510
 		},{
 			"function": "minecraft:set_custom_data",
 			"tag": "{bp:{id:\"adamantine_will\"}}"
