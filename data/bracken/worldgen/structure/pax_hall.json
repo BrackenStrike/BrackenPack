@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:pax/grad_machair",
+    "biomes": "bracken:pax/grand_machair",
     "spawn_overrides": {},
     "start_pool": "bracken:pax_hall",
     "size": 6,
