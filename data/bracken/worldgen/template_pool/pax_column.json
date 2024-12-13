@@ -7,7 +7,7 @@
             "element": {
                 "location": "bracken:pax/pax_column/v1",
                 "processors": "minecraft:empty",
-                "projection": "rigid",
+                "projection": "terrain_matching",
                 "element_type": "minecraft:single_pool_element"
             }
         },
@@ -16,7 +16,7 @@
             "element": {
                 "location": "bracken:pax/pax_column/v2",
                 "processors": "minecraft:empty",
-                "projection": "rigid",
+                "projection": "terrain_matching",
                 "element_type": "minecraft:single_pool_element"
             }
         },
@@ -25,7 +25,7 @@
             "element": {
                 "location": "bracken:pax/pax_column/v3",
                 "processors": "minecraft:empty",
-                "projection": "rigid",
+                "projection": "terrain_matching",
                 "element_type": "minecraft:single_pool_element"
             }
         }
