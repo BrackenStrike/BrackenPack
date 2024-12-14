@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:pax/cenotaph",
+    "biomes": "bracken:pax/petal_grove",
     "spawn_overrides": {},
     "start_pool": "bracken:pax_hall",
     "size": 6,
