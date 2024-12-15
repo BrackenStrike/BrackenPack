@@ -1,16 +1,16 @@
 {
     "type": "minecraft:jigsaw",
     "biomes": [
-        "bracken:glacium/glacial_mass",
-        "bracken:sanctum/voidship_harbor"
+        "bracken:glacium/destitute_garrison",
+        "bracken:glacium/boreal_frontier"
     ],
     "spawn_overrides": {},
-    "start_pool": "bracken:viperfish",
+    "start_pool": "bracken:glacium_tunnels",
     "size": 6,
     "step": "surface_structures",
     "start_height": {
-        "absolute": 33
+        "absolute": 45
     },
-    "max_distance_from_center": 80,
+    "max_distance_from_center": 128,
     "use_expansion_hack": false
 }
