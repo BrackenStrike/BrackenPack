@@ -7,13 +7,10 @@
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:attribute_modifiers": [{
-						"type": "attack_damage",
-						"slot": "mainhand",
-						"id": "bracken:sai",
-						"amount": 30,
-						"operation": "add_value"
-					}],
+					"minecraft:enchantments": {
+						"bracken:infused_fire_aspect": 1
+					},
+
 					"minecraft:custom_model_data": 888502
 				}
 			},{

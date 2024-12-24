@@ -6,13 +6,13 @@
         "###"
     ],
     "key": {
-        "#": "minecraft:coal_block"
+        "#": "minecraft:coal"
         ,
         "R": "minecraft:rose_bush"
         
     },
     "result": {
         "id": "minecraft:wither_rose",
-        "count": 5
+        "count": 1
     }
 }

@@ -1,0 +1,61 @@
+{
+	"anvil_cost": 4,
+	"description": {
+	  "translate": "Infused Fire Aspect"
+	},
+	"effects": {
+	  "minecraft:post_attack": [{
+		  "affected": "victim",
+		  "effect": {
+			"type": "minecraft:all_of",
+			"effects": [{
+				"type": "minecraft:change_item_damage",
+				"amount": 2.0
+			},
+			{
+				"type": "minecraft:ignite",
+				"duration": 72000
+			  },
+			{
+			"type": "minecraft:explode",
+			"damage_type": "minecraft:explosion",
+			"block_interaction": "trigger",
+			"immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+			"knockback_multiplier": 0,
+			"offset": [
+						0,0.5,0
+					],
+			"large_particle": {
+			  "type": "minecraft:large_smoke"
+			},
+			"radius": 1,
+			"create_fire": true,
+			"small_particle": {
+			  "type": "minecraft:smoke"
+			},
+			"sound": "minecraft:entity.blaze.shoot"
+		  }]
+		},
+		  "enchanted": "attacker",
+		  "requirements": {
+			"condition": "minecraft:entity_properties",
+			"entity": "direct_attacker"
+		  }
+		}]
+	},
+	"max_cost": {
+	  "base": 65,
+	  "per_level_above_first": 9
+	},
+	"max_level": 3,
+	"min_cost": {
+	  "base": 15,
+	  "per_level_above_first": 9
+	},
+	"slots": [
+	  "mainhand"
+	],
+	"exclusive_set": "minecraft:fire_aspect",
+	"supported_items": "#minecraft:enchantable/sharp_weapon",
+	"weight": 2
+  }

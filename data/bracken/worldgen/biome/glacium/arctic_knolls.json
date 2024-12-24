@@ -27,7 +27,10 @@
             "minecraft:blue_ice"
         ],
         [
-            "bracken:glacium/glacium_dec"
+            "bracken:glacium/glacium_dec",
+            "bracken:glacium/blue_surface",
+            "bracken:glacium/shards",
+            "bracken:glacium/shards2"
         ],
         [],
         [
