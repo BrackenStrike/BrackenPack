@@ -26,7 +26,7 @@
             "minecraft:ice_patch",
             "minecraft:blue_ice"
         ],
-        [
+        ["bracken:glacium/wart",
             "bracken:glacium/glacium_dec",
             "bracken:glacium/blue_surface",
             "bracken:glacium/shards3"

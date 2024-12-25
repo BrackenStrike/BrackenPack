@@ -33,7 +33,7 @@
         ],
         "monster": [
             {
-                "type": "minecraft:skeleton",
+                "type": "minecraft:spider",
                 "weight": 1,
                 "minCount": 1,
                 "maxCount": 1

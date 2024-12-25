@@ -2,7 +2,7 @@
     "type": "minecraft:netherrack_replace_blobs",
     "config": {
         "target": {
-            "Name": "minecraft:snow_block"
+            "Name": "minecraft:blue_ice"
         },
         "state": {
             "Name": "minecraft:warped_wart_block"
