@@ -29,6 +29,7 @@
         ["bracken:glacium/wart",
             "bracken:glacium/glacium_dec",
             "bracken:glacium/blue_surface",
+            "bracken:glacium/blue_platform",
             "bracken:glacium/shards3"
         ],
         [],
