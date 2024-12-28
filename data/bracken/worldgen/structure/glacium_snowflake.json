@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:glacium/artic_knolls",
+    "biomes": "bracken:glacium/arctic_knolls",
     "spawn_overrides": {},
     "start_pool": "bracken:snowflake",
     "size": 6,
