@@ -65,12 +65,8 @@
             "sound": "minecraft:entity.parrot.ambient",
             "tick_chance": 0.0002
         },
-        "music": {
-            "sound": "minecraft:music.creative",
-            "min_delay": 12000,
-            "max_delay": 24000,
-            "replace_current_music": false
-        }
+        "music": [],
+    "music_volume": 0.0
     },
     "has_precipitation": false
 }
