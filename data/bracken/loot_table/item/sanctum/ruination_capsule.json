@@ -16,12 +16,12 @@
 						"HandItems": [{
 							"id": "minecraft:ender_eye",
 							"components": {
-								"minecraft:item_model": "bracken:ruination_eye"
+								"minecraft:item_model": "bracken:ruination_capsule"
 							}
 						},{
 							"id": "minecraft:ender_eye",
 							"components": {
-								"minecraft:item_model": "bracken:ruination_eye"
+								"minecraft:item_model": "bracken:ruination_capsule"
 							}
 						}],
 						"active_effects": [{
