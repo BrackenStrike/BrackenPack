@@ -16,7 +16,7 @@
 					"minecraft:equippable": {
 						"slot": "head",
 						"camera_overlay": "bracken:misc/tinted_glasses",
-						"assest_id": "bracken:tinted_glasses"
+						"asset_id": "bracken:tinted_glasses"
 					},
 					"minecraft:custom_data": {
 						"bp": { "id": "tinted_glasses" }

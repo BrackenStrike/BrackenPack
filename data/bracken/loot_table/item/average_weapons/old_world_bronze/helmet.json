@@ -15,7 +15,7 @@
 					"minecraft:max_damage": 2070,
 					"minecraft:equippable": {
 						"slot": "head",
-						"assest_id": "bracken:old_world_bronze"
+						"asset_id": "bracken:old_world_bronze"
 					}
 				}
 			},{

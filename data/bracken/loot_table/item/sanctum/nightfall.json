@@ -23,7 +23,7 @@
 					"minecraft:item_model": "bracken:nightfall",
 					"minecraft:equippable": {
 						"slot": "chest",
-						"assest_id": "bracken:nightfall",
+						"asset_id": "bracken:nightfall",
 						"equip_sound": "minecraft:entity.ender_dragon.flap"
 					},
 					"minecraft:rarity": "rare",

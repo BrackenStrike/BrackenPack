@@ -16,7 +16,7 @@
 					"minecraft:equippable": {
 						"slot": "head",
 						"camera_overlay": "bracken:misc/blindfold",
-						"assest_id": "bracken:blindfold"
+						"asset_id": "bracken:blindfold"
 					},
 					"minecraft:custom_data": {
 						"bp": { "id": "blindfold" }

@@ -16,7 +16,7 @@
 					"minecraft:enchantment_glint_override": false,
 					"minecraft:equippable": {
 						"slot": "legs",
-						"assest_id": "bracken:silversteel"
+						"asset_id": "bracken:silversteel"
 					}
 				}
 			},{

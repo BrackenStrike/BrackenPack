@@ -15,7 +15,7 @@
 					"minecraft:max_damage": 175,
 					"minecraft:equippable": {
 						"slot": "feet",
-						"assest_id": "bracken:copper"
+						"asset_id": "bracken:copper"
 					}
 				}
 			},{

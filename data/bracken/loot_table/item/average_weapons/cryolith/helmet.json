@@ -16,7 +16,7 @@
 					"minecraft:equippable": {
 						"slot": "head",
 						"camera_overlay": "bracken:misc/cryolith",
-						"assest_id": "bracken:cryolith",
+						"asset_id": "bracken:cryolith",
 						"equip_sound": "minecraft:block.snow.fall"
 					}
 				}
