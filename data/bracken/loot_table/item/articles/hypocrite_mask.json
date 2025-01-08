@@ -14,7 +14,7 @@
 					"minecraft:item_model": "bracken:articles/hypocrite_mask",
 					"minecraft:equippable": {
 						"slot": "head",
-						"model": "bracken:hypocrite_mask"
+						"assest_id": "bracken:hypocrite_mask"
 					},
 					"minecraft:custom_data": {
 						"bp": { "id": "hypocrite_mask" }

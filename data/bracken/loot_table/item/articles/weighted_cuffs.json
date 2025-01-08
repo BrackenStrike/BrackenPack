@@ -15,7 +15,7 @@
 					"minecraft:max_damage": 32,
 					"minecraft:equippable": {
 						"slot": "chest",
-						"model": "bracken:weighted_cuffs"
+						"assest_id": "bracken:weighted_cuffs"
 					},
 					"minecraft:custom_data": {
 						"bp": { "id": "weighted_cuffs" }

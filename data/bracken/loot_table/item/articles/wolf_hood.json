@@ -15,7 +15,7 @@
 					"minecraft:max_damage": 32,
 					"minecraft:equippable": {
 						"slot": "head",
-						"model": "bracken:wolf_hood"
+						"assest_id": "bracken:wolf_hood"
 					},
 					"minecraft:custom_data": {
 						"bp": { "id": "wolf_hood" }

@@ -15,7 +15,7 @@
 					"minecraft:max_damage": 1000,
 					"minecraft:equippable": {
 						"slot": "head",
-						"model": "bracken:meteoric"
+						"assest_id": "bracken:meteoric"
 					}
 				}
 			},{

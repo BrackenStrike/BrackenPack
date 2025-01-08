@@ -15,7 +15,7 @@
 					"minecraft:max_damage": 175,
 					"minecraft:equippable": {
 						"slot": "chest",
-						"model": "bracken:power_arms"
+						"assest_id": "bracken:power_arms"
 					},
 					"minecraft:custom_data": {
 						"bp": { "id": "power_arms" }

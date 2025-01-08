@@ -22,7 +22,7 @@
 					"minecraft:enchantment_glint_override": false,
 					"minecraft:equippable": {
 						"slot": "head",
-						"model": "bracken:verdant",
+						"assest_id": "bracken:verdant",
 						"equip_sound": "minecraft:item.bone_meal.use"
 					},
 					"minecraft:dyed_color": {

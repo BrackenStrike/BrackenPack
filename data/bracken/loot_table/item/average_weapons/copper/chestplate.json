@@ -15,7 +15,7 @@
 					"minecraft:max_damage": 175,
 					"minecraft:equippable": {
 						"slot": "chest",
-						"model": "bracken:copper"
+						"assest_id": "bracken:copper"
 					}
 				}
 			},{

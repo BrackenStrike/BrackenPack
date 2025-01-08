@@ -21,7 +21,7 @@
 					"minecraft:equippable": {
 						"slot": "feet",
 						"equip_sound": "minecraft:block.wool.step",
-						"model": "bracken:silk"
+						"assest_id": "bracken:silk"
 					}
 				}
 			},{

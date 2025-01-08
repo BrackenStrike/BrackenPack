@@ -16,7 +16,7 @@
 					"minecraft:enchantment_glint_override": false,
 					"minecraft:equippable": {
 						"slot": "chest",
-						"model": "bracken:silversteel"
+						"assest_id": "bracken:silversteel"
 					}
 				}
 			},{

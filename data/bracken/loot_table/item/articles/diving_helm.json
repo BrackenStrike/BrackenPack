@@ -16,7 +16,7 @@
 					"minecraft:equippable": {
 						"slot": "head",
 						"camera_overlay": "bracken:misc/diving_helm",
-						"model": "bracken:diving_helm"
+						"assest_id": "bracken:diving_helm"
 					},
 					"minecraft:custom_data": {
 						"bp": { "id": "diving_helm" }
