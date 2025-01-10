@@ -21,28 +21,20 @@
             "minecraft:iceberg_packed",
             "minecraft:iceberg_blue"
         ],
-        [],
+        ["bracken:glacium/shards2"],
         [
             "minecraft:ice_patch",
             "minecraft:blue_ice"
         ],
         [
-            "bracken:glacium/glacium_dec"
+            "bracken:glacium/glacium_dec",
+
+            "bracken:glacium/shards3"
         ],
         [],
-        [
-            "minecraft:twisting_vines",
-            "minecraft:nether_sprouts",
-            "minecraft:seagrass_swamp",
-            "minecraft:patch_waterlily",
-            "minecraft:sea_pickle"
-        ],
-        [
-            "bracken:glacium/magma"
-        ],
-        [
-            "bracken:glacium/path"
-        ],
+        [],
+        [],
+        [],
         [
             "minecraft:freeze_top_layer"
         ]

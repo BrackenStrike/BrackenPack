@@ -18,6 +18,9 @@
 			}],
 			"mode": "insert"
 		},{
+			"function": "minecraft:set_custom_model_data",
+			"value": 888512
+		},{
 			"function": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:ability_books/frostlock",

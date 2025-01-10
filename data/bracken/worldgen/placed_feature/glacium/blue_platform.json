@@ -1,0 +1,19 @@
+{
+    "feature": "bracken:glacium/blue_platform",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 6
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

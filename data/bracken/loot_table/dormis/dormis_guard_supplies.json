@@ -1,0 +1,165 @@
+{
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 7,
+			"max": 11
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:golden_carrot",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.9
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:copper_ingot",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_scrap",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:golden_apple",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.4
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:smithing_table",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/tools/golden_horn",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.02
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/old_world_bronze/old_world_bronze_boots",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.18,
+					"max": 0.23
+				}
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/old_world_bronze/old_world_bronze_leggings",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.18,
+					"max": 0.23
+				}
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/old_world_bronze/old_world_bronze_chestplate",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.18,
+					"max": 0.23
+				}
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/old_world_bronze/old_world_bronze_helmet",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.18,
+					"max": 0.23
+				}
+			}]
+		},
+		
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/weighted_cuffs",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:binding_curse": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/blindfold",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"minecraft:binding_curse": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/adamantine_will",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"value": "bracken:item/maps/dormis_courtyard_map",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 1
+			}]
+		}]
+	}]
+}

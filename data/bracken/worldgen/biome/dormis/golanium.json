@@ -67,7 +67,7 @@
         "foliage_color": 16777215,
         "additions_sound": {
             "sound": "minecraft:ambient.basalt_deltas.mood",
-            "tick_chance": 0.001
+            "tick_chance": 0.0001
         },
         "music": [
             {

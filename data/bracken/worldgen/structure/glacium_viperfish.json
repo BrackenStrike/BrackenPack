@@ -2,7 +2,7 @@
     "type": "minecraft:jigsaw",
     "biomes": [
         "bracken:glacium/glacial_mass",
-        "bracken:sanctum/dark_soot_dunes"
+        "bracken:sanctum/voidship_harbor"
     ],
     "spawn_overrides": {},
     "start_pool": "bracken:viperfish",

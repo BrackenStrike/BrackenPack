@@ -12,6 +12,46 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.8
 			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:stone",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:oak_planks",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:bowl",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:torch",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.3
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:leather",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.1
+			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:chain",
@@ -39,7 +79,8 @@
 					"minecraft:potion_contents": "minecraft:weakness"
 				}
 			}]
-		},{
+		},
+		{
 			"type": "item",
 			"name": "minecraft:leather_leggings",
 			"conditions": [{

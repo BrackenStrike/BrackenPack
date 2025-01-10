@@ -58,7 +58,7 @@
         },
         "additions_sound": {
             "sound": "minecraft:ambient.basalt_deltas.mood",
-            "tick_chance": 0.001
+            "tick_chance": 0.00001
         },
         "music": [
             {

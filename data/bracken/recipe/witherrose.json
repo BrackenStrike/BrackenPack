@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#R#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:coal"
+        ,
+        "R": "minecraft:rose_bush"
+        
+    },
+    "result": {
+        "id": "minecraft:wither_rose",
+        "count": 1
+    }
+}

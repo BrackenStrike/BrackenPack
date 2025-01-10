@@ -3,7 +3,7 @@
     "biomes": "bracken:the_brine/indigo_median",
     "spawn_overrides": {},
     "start_pool": "bracken:city/brine_city_center",
-    "size": 7,
+    "size": 15,
     "step": "surface_structures",
     "start_height": {
         "absolute": 0

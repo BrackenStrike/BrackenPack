@@ -6,7 +6,9 @@
 			"name": "minecraft:netherite_sword",
 			"functions": [{
 				"function": "minecraft:set_components",
-				"components": {
+				"components": {"minecraft:enchantments": {
+						"bracken:infused_fire_aspect": 1
+					},
 					"minecraft:item_model": "bracken:sai",
 					"minecraft:attribute_modifiers": [{
 						"type": "attack_damage",
@@ -15,6 +17,7 @@
 						"amount": 30,
 						"operation": "add_value"
 					}]
+					
 				}
 			},{
 				"function": "minecraft:set_name",

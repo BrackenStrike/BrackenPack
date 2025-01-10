@@ -57,7 +57,8 @@
             "minecraft:iceberg_packed",
             "minecraft:iceberg_blue"
         ],
-        [],
+        [
+        ],
         [
             "minecraft:ice_spike",
             "minecraft:ice_patch",

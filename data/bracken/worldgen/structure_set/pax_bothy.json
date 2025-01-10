@@ -1,14 +1,14 @@
 {
     "structures": [
         {
-            "structure": "bracken:dormis_box",
+            "structure": "bracken:pax_bothy",
             "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 13,
-        "separation": 10,
-        "salt": 945706203
+        "spacing": 28,
+        "separation": 26,
+        "salt": 90129427
     }
 }

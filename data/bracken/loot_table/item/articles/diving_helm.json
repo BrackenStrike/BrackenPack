@@ -9,6 +9,12 @@
 				"target": "item_name",
 				"name": "Diving Helm"
 			},{
+				"function": "minecraft:set_custom_model_data",
+				"value": 888504,
+				"minecraft:custom_data": {
+					"bp": { "id": "diving_helm" }
+				}
+			},{
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:articles/diving_helm",

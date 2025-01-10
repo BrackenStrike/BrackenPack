@@ -1,0 +1,24 @@
+{
+    "name": "glacium_tunnels",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:glacium/glacium_tunnels/v1",
+                "processors": "bracken:under_only",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:glacium/glacium_tunnels/v2",
+                "processors": "bracken:under_only",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

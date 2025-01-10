@@ -1,11 +1,11 @@
 {
-    "name": "brine_jelly",
+    "name": "brine_zeppelin",
     "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
-                "location": "bracken:the_brine/brine_jelly",
+                "location": "bracken:the_brine/brine_zeppelin",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"

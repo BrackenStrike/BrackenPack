@@ -10,7 +10,7 @@
 			"name": "minecraft:name_tag",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.7
+				"chance": 0.8
 			}]
 		},{
 			"type": "loot_table",
@@ -157,63 +157,96 @@
 			"name": "minecraft:iron_block",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.4
 			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.4
+				"chance": 0.9
 			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:globe_banner_pattern",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.8
 			}]
-		},{
+		},		
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:field_masoned_banner_pattern",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:bordure_indented_banner_pattern",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:guster_banner_pattern",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:flow_banner_pattern",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.8
+			}]
+		},		
+		{
 			"type": "minecraft:item",
 			"name": "minecraft:creeper_banner_pattern",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.8
 			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:flower_banner_pattern",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.8
 			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:skull_banner_pattern",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.8
 			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:piglin_banner_pattern",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.8
 			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:mojang_banner_pattern",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.8
 			}]
 		},{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -227,7 +260,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -241,7 +274,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -255,7 +288,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -269,7 +302,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -283,7 +316,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -297,7 +330,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -311,7 +344,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -325,7 +358,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -339,7 +372,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -354,7 +387,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -369,7 +402,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -384,7 +417,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -399,7 +432,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -414,7 +447,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -429,7 +462,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -444,7 +477,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -459,7 +492,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -474,7 +507,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -489,7 +522,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -504,7 +537,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -519,7 +552,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -534,7 +567,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -549,7 +582,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -564,7 +597,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -579,7 +612,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -594,7 +627,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -609,7 +642,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -624,7 +657,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -639,7 +672,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -654,7 +687,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -669,7 +702,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -684,7 +717,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -699,7 +732,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -714,7 +747,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -729,7 +762,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -744,7 +777,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -759,7 +792,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -774,7 +807,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -789,7 +822,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -804,7 +837,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -819,7 +852,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -834,7 +867,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -849,7 +882,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -864,7 +897,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -879,7 +912,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -894,7 +927,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -909,7 +942,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -924,7 +957,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -939,7 +972,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -954,7 +987,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -969,7 +1002,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -984,7 +1017,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -999,7 +1032,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1014,7 +1047,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1029,7 +1062,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1044,7 +1077,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1059,7 +1092,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1074,7 +1107,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1089,7 +1122,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1104,7 +1137,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1119,7 +1152,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1134,7 +1167,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1149,7 +1182,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1164,7 +1197,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1179,7 +1212,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1194,7 +1227,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1209,7 +1242,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1224,7 +1257,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1239,7 +1272,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1254,7 +1287,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1269,7 +1302,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1284,7 +1317,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1299,7 +1332,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1314,7 +1347,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1329,7 +1362,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
@@ -1354,7 +1387,7 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.01
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",

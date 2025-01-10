@@ -1,23 +1,23 @@
 {
-	"parent": "bracken:the_underdark/enter_underdark",
-	"display": {
-		"title": {
-			"translate": "Nothing Will Come of Nothing"
-		},
-		"description": {
-			"translate": "Throw gold near Smeglin"
-		},
-		"icon": {
-			"id": "minecraft:golden_hoe"
-		},
-		"frame": "task",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
-	},
-	"criteria": {
-		"discovered": {
-			"trigger": "minecraft:impossible"
-		}
-	}
+    "parent": "bracken:the_underdark/enter_underdark",
+    "display": {
+        "title": {
+            "translate": "Nothing Will Come of Nothing"
+        },
+        "description": {
+            "translate": "Throw an item near Smeglin"
+        },
+        "icon": {
+            "id": "minecraft:golden_hoe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "discovered": {
+            "trigger": "minecraft:impossible"
+        }
+    }
 }

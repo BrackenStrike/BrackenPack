@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:chest",
+	"pools": [{
+		"rolls": {
+			"min": 7,
+			"max": 11
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:dried_kelp",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.6
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:crafting_table",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/articles/weighted_cuffs",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/ability_books/adamantine_will",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
+		},{
+			"type": "minecraft:item",
+			"name": "minecraft:wither_rose",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.4
+			}]
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "loot_table",
+			"value": "bracken:item/maps/dormis_courtyard_map",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 1
+			}]
+		}]
+	}]
+}
