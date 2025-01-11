@@ -2,10 +2,10 @@
     "type": "minecraft:netherrack_replace_blobs",
     "config": {
         "target": {
-            "Name": "minecraft:packed_ice"
+            "Name": "minecraft:blue_ice"
         },
         "state": {
-            "Name": "minecraft:ice"
+            "Name": "minecraft:warped_wart_block"
         },
         "radius": 0
     }

@@ -1,0 +1,29 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:netherite_ingot",
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:enchantments": {
+						"bracken:infused_fire_aspect_fix": 1
+					},
+					"minecraft:item_model": "bracken:scepter"
+					
+					
+				}
+			},{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Scepter"
+			},{
+				"function": "minecraft:set_custom_data",
+				"tag": {
+					"bp": { "id": "scepter" }
+				}
+			}]
+		}]
+	}]
+}

@@ -1,9 +1,9 @@
 {
-    "feature": "bracken:glacium/shards2",
+    "feature": "bracken:glacium/shards4",
     "placement": [
         {
             "type": "count",
-            "count": 4
+            "count": 10
         },
         {
             "type": "minecraft:in_square"

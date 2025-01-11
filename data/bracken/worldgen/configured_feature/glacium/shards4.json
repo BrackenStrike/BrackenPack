@@ -5,11 +5,7 @@
             "Name": "minecraft:air"
         },
         "state": {
-            "Name": "minecraft:dark_oak_leaves",
-            "Properties": {
-                "waterlogged": "false",
-                "persistent": "true"
-            }
+            "Name": "minecraft:ice"
         },
         "radius": 0
     }

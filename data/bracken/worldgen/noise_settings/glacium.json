@@ -2161,7 +2161,11 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:warped_wart_block"
+                                    "Name": "minecraft:dark_oak_leaves",
+                                    "Properties": {
+                                        "waterlogged": "false",
+                                        "persistent": "true"
+                                    }
                                 }
                             }
                         },
@@ -2177,7 +2181,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:packed_ice"
+                                    "Name": "minecraft:warped_wart_block"
                                 }
                             }
                         }
