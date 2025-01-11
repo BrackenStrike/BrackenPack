@@ -10,7 +10,7 @@
 			"minecraft:item_name": "\"Cryolith Leggings\"",
 			"minecraft:equippable": {
 				"slot": "legs",
-				"model": "bracken:cryolith",
+				"asset_id": "bracken:cryolith",
 				"equip_sound": "minecraft:block.snow.fall"
 			},
 			"minecraft:enchantments": {

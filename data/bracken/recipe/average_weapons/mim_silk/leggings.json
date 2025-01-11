@@ -17,7 +17,7 @@
 			"minecraft:equippable": {
 				"slot": "legs",
 				"equip_sound": "minecraft:block.wool.step",
-				"model": "bracken:silk"
+				"asset_id": "bracken:silk"
 			},
 			"minecraft:item_model": "bracken:average_weapons/mim_silk/leggings",
 			"minecraft:enchantments": {

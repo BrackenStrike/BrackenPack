@@ -15,7 +15,7 @@
 			"minecraft:item_name": "\"Meteoric Helmet\"",
 			"minecraft:equippable": {
 				"slot": "head",
-				"model": "bracken:meteoric"
+				"asset_id": "bracken:meteoric"
 			},
 			"minecraft:item_model": "bracken:average_weapons/meteoric/helmet"
 		}

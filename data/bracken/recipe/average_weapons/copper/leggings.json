@@ -16,7 +16,7 @@
 			"minecraft:item_name": "\"Copper Leggings\"",
 			"minecraft:equippable": {
 				"slot": "legs",
-				"model": "bracken:copper"
+				"asset_id": "bracken:copper"
 			},
 			"minecraft:item_model": "bracken:average_weapons/copper/leggings"
 		}

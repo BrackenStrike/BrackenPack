@@ -23,8 +23,8 @@ execute if entity @s[type=minecraft:slime,tag=bp.sporangium,tag=bp.boss] run ret
 execute if entity @s[type=minecraft:zombie,tag=bp.unsung] run return run function bracken:entities/boss/unsung/tick 
 execute if entity @s[type=minecraft:marker,tag=bp.unsung] if entity @p[distance=..25] run return run function bracken:entities/boss/unsung/misc/closing_comment 
 
-#kracken
-execute if entity @s[type=minecraft:squid,tag=bp.kracken,tag=bp.boss] run return run function bracken:entities/boss/kracken/tick 
+#kraken
+execute if entity @s[type=minecraft:squid,tag=bp.kraken,tag=bp.boss] run return run function bracken:entities/boss/kraken/tick 
 
 #fae_emperor
 execute if entity @s[type=minecraft:skeleton,tag=bp.fae_emperor] run return run function bracken:entities/boss/fae_emperor/tick 

@@ -9,7 +9,7 @@
 			"minecraft:max_damage": 2070,
 			"minecraft:equippable": {
 				"slot": "feet",
-				"model": "bracken:old_world_bronze"
+				"asset_id": "bracken:old_world_bronze"
 			},
 			"minecraft:item_name": "\"Old World Bronze Boots\"",
 			"minecraft:item_model": "bracken:average_weapons/old_world_bronze/boots",

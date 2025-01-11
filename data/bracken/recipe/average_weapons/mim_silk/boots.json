@@ -15,7 +15,7 @@
 			"minecraft:equippable": {
 				"slot": "feet",
 				"equip_sound": "minecraft:block.wool.step",
-				"model": "bracken:silk"
+				"asset_id": "bracken:silk"
 			},
 			"minecraft:item_name": "\"Mim Silk Boots\"",
 			"minecraft:item_model": "bracken:average_weapons/mim_silk/boots",

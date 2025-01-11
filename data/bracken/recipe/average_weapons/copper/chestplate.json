@@ -15,7 +15,7 @@
 			"minecraft:max_damage": 175,
 			"minecraft:equippable": {
 				"slot": "chest",
-				"model": "bracken:copper"
+				"asset_id": "bracken:copper"
 			},
 			"minecraft:item_name": "\"Copper Chestplate\"",
 			"minecraft:item_model": "bracken:average_weapons/copper/chestplate"

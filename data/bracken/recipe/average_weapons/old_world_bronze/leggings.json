@@ -11,7 +11,7 @@
 			"minecraft:item_model": "bracken:average_weapons/old_world_bronze/leggings",
 			"minecraft:equippable": {
 				"slot": "legs",
-				"model": "bracken:old_world_bronze"
+				"asset_id": "bracken:old_world_bronze"
 			},
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{

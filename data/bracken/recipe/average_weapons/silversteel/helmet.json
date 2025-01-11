@@ -15,7 +15,7 @@
 			"minecraft:item_model": "bracken:average_weapons/silversteel/helmet",
 			"minecraft:equippable": {
 				"slot": "head",
-				"model": "bracken:silversteel"
+				"asset_id": "bracken:silversteel"
 			},
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{

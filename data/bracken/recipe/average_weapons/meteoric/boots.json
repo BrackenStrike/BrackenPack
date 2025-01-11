@@ -14,7 +14,7 @@
 			"minecraft:max_damage": 1000,
 			"minecraft:equippable": {
 				"slot": "feet",
-				"model": "bracken:meteoric"
+				"asset_id": "bracken:meteoric"
 			},
 			"minecraft:item_name": "\"Meteoric Boots\"",
 			"minecraft:item_model": "bracken:average_weapons/meteoric/boots"

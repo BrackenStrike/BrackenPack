@@ -10,7 +10,7 @@
 			"minecraft:enchantment_glint_override": false,
 			"minecraft:equippable": {
 				"slot": "feet",
-				"model": "bracken:silversteel"
+				"asset_id": "bracken:silversteel"
 			},
 			"minecraft:item_name": "\"Silversteel Boots\"",
 			"minecraft:enchantments": {

@@ -9,7 +9,7 @@
 			"minecraft:max_damage": 200,
 			"minecraft:equippable": {
 				"slot": "chest",
-				"model": "bracken:cryolith",
+				"asset_id": "bracken:cryolith",
 				"equip_sound": "minecraft:block.snow.fall"
 			},
 			"minecraft:item_name": "\"Cryolith Chestplate\"",

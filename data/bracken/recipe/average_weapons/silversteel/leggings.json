@@ -15,7 +15,7 @@
 			"minecraft:item_model": "bracken:average_weapons/silversteel/leggings",
 			"minecraft:equippable": {
 				"slot": "legs",
-				"model": "bracken:silversteel"
+				"asset_id": "bracken:silversteel"
 			},
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{

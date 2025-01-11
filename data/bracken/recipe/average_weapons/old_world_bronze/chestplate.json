@@ -9,7 +9,7 @@
 			"minecraft:max_damage": 2070,
 			"minecraft:equippable": {
 				"slot": "chest",
-				"model": "bracken:old_world_bronze"
+				"asset_id": "bracken:old_world_bronze"
 			},
 			"minecraft:item_name": "\"Old World Bronze Chestplate\"",
 			"minecraft:item_model": "bracken:average_weapons/old_world_bronze/chestplate",

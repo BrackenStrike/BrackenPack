@@ -10,7 +10,7 @@
 			"minecraft:item_name": "\"Cryolith Helmet\"",
 			"minecraft:equippable": {
 				"slot": "head",
-				"model": "bracken:cryolith",
+				"asset_id": "bracken:cryolith",
 				"equip_sound": "minecraft:block.snow.fall"
 			},
 			"minecraft:enchantments": {

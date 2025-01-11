@@ -1,3 +1,3 @@
 
-effect give @s invisibility 1 10 false
+effect give @s invisibility 5 10 false
 

@@ -17,7 +17,7 @@
 			"minecraft:item_name": "\"Verdant Helmet\"",
 			"minecraft:equippable": {
 				"slot": "head",
-				"model": "bracken:verdant",
+				"asset_id": "bracken:verdant",
 				"equip_sound": "minecraft:item.bone_meal.use"
 			},
 			"minecraft:enchantments": {

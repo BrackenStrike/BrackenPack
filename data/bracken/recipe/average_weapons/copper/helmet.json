@@ -15,7 +15,7 @@
 			"minecraft:item_name": "\"Copper Helmet\"",
 			"minecraft:equippable": {
 				"slot": "head",
-				"model": "bracken:copper"
+				"asset_id": "bracken:copper"
 			},
 			"minecraft:item_model": "bracken:average_weapons/copper/helmet"
 		}

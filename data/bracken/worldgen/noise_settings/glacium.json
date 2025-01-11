@@ -2163,7 +2163,7 @@
                                 "result_state": {
                                     "Name": "minecraft:dark_oak_leaves",
                                     "Properties": {
-                                        "waterlogged": "false",
+                                        "waterlogged": "true",
                                         "persistent": "true"
                                     }
                                 }
