@@ -13,7 +13,7 @@ execute at @s[scores={bp.spin=1..}] run particle minecraft:bubble ^ ^1 ^-1 15 5 
 execute if entity @s[scores={bp.spin=1..}] run execute at @a[distance=..50] run tp @a[limit=1,distance=..1] ^ ^ ^0.2 facing entity @s
 
 #follow player
-tp @s ^ ^ ^0.15 facing entity @p[distance=..50]
+tp @s ^ ^ ^0.15
 rotate @s facing entity @p[distance=..50]
 
 #grapple player

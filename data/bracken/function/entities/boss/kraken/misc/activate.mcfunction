@@ -8,8 +8,8 @@ tag @s add bp.active
 playsound minecraft:entity.allay.hurt hostile @a[distance=..25] ~ ~ ~ 10 0
 playsound minecraft:entity.ravager.attack hostile @a[distance=..25] ~ ~ ~ 100 0
 
-bossbar add bracken:kraken {"translate":"kraken","color":"gray","bold":true}
-bossbar set bracken:kraken color red
+bossbar add bracken:kraken {"translate":"Kraken","color":"dark_blue","bold":true}
+bossbar set bracken:kraken color blue
 bossbar set bracken:kraken style notched_6
 bossbar set bracken:kraken max 200
 

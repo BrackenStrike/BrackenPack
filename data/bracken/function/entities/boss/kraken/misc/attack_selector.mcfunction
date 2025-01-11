@@ -1,8 +1,8 @@
 execute store result score #1 bp.math.out run random value 0..3
 
-execute if score #1 bp.math.out matches 0 run function bracken:entities/boss/unsung/attacks/ink/ink_raycast
-execute if score #1 bp.math.out matches 1 run function bracken:entities/boss/unsung/attacks/invis
-execute if score #1 bp.math.out matches 2 run function bracken:entities/boss/unsung/attacks/jet
-execute if score #1 bp.math.out matches 3 run function bracken:entities/boss/unsung/attacks/pull
+execute if score #1 bp.math.out matches 0 run function bracken:entities/boss/kraken/attacks/ink/ink_raycast
+execute if score #1 bp.math.out matches 1 run function bracken:entities/boss/kraken/attacks/invis
+execute if score #1 bp.math.out matches 2 run function bracken:entities/boss/kraken/attacks/jet
+execute if score #1 bp.math.out matches 3 run function bracken:entities/boss/kraken/attacks/pull
 
-scoreboard players set @s bp.unsung 160
+scoreboard players set @s bp.kraken 160

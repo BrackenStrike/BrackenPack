@@ -5,10 +5,10 @@
 
 
 
-bossbar add bracken:kraken {"translate":"Kraken","color":"dark_red","bold":true}
+bossbar add bracken:kraken {"translate":"Kraken","color":"dark_blue","bold":true}
 bossbar set bracken:kraken color blue
 bossbar set bracken:kraken style notched_12
-bossbar set bracken:kraken max 600
+bossbar set bracken:kraken max 200
 
 
 
