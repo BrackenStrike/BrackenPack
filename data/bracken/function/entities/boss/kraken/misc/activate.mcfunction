@@ -5,13 +5,13 @@ tag @s add bp.active
 
 
 
-playsound minecraft:entity.allay.hurt hostile @a[distance=..25] ~ ~ ~ 10 0
-playsound minecraft:entity.ravager.attack whostile @a[distance=..25] ~ ~ ~ 100 0
+
+
 
 bossbar add bracken:kraken {"translate":"Kraken","color":"dark_aqua","bold":true}
-bossbar set bracken:kraken color blue
+bossbar set bracken:kraken color white
 bossbar set bracken:kraken style notched_6
-bossbar set bracken:kraken max 200
+bossbar set bracken:kraken max 300
 
 
-advancement grant @a[distance=..50] only bracken:the_brine/awake
+advancement grant @a[distance=..50] only bracken:the_brine/kraken
