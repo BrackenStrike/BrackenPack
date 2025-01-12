@@ -17,6 +17,5 @@ scoreboard objectives add bp.spin dummy
 scoreboard objectives add bp.sploosh dummy
 
 scoreboard objectives add bp.kraken.health dummy
-scoreboard players set @s bp.spin 1
-scoreboard players set @s bp.sploosh 1
+
 scoreboard players set 4 bp.math.final 4
