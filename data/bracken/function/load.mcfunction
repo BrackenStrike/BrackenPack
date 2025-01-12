@@ -16,7 +16,7 @@ function bracken:entities/boss/the_disruptor/load
 function bracken:entities/boss/ostiarius/load
 function bracken:entities/boss/sporangium/load
 function bracken:entities/boss/unsung/load
-function bracken:entities/boss/kracken/load
+function bracken:entities/boss/kraken/load
 function bracken:entities/boss/fae_emperor/load
 function bracken:entities/panacea/load
 

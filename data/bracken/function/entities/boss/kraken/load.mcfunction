@@ -13,6 +13,7 @@ bossbar set bracken:kraken max 200
 
 
 scoreboard objectives add bp.kraken dummy
+scoreboard objectives add bp.spin dummy
 
 scoreboard objectives add bp.kraken.health dummy
 

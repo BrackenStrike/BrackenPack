@@ -1,0 +1,26 @@
+{
+	"parent": "bracken:the_brine/city",
+	"display": {
+		"title": {
+			"translate": "Release the Kraken!"
+		},
+		"description": {
+			"translate": "Free the Kraken at the center of the city"
+		},
+		"icon": {
+			"id": "minecraft:squid_spawn_egg"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 2
+	}
+}
