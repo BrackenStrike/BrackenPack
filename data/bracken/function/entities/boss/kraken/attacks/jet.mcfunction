@@ -1,4 +1,3 @@
-effect give @s speed 3 10 true
-effect give @s dolphins_grace 3 10 true
-
+playsound minecraft:item.trident.riptide_3 neutral @a[distance=..50] ~ ~ ~ 10 0
+scoreboard players set @s bp.sploosh 100
 

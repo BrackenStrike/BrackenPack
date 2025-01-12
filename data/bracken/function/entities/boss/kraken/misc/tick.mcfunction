@@ -10,13 +10,13 @@ scoreboard players remove @s bp.kraken 1
 scoreboard players remove @s[scores={bp.spin=1..}] bp.spin 1
 execute at @s[scores={bp.spin=1..}] run function bracken:entities/boss/kraken/misc/spin
 
-#spoosh
-scoreboard players remove @s[scores={bp.sploosh=1..}] bp.sloosh 1
-tp @s[scores={bp.slosh=1..}] ^ ^ ^1
+#sploosh
+scoreboard players remove @s[scores={bp.sploosh=1..}] bp.sploosh 1
+tp @s[scores={bp.sploosh=1..}] ^ ^ ^1
 
 #follow player
-tp @s[scores={bp.spin=..2}] ^ ^ ^0.15
-rotate @s[scores={bp.spin=..2,bp.sploosh=..2}] facing entity @p[distance=..50]
+tp @s[scores={bp.spin=..2,bp.sploosh=..2}] ^ ^ ^0.15
+rotate @s[scores={bp.spin=..2,bp.sploosh=..2}] facing entity @p[distance=..150]
 
 #grapple player
 execute as @a[distance=..7] at @s run function bracken:entities/boss/kraken/misc/grapple
@@ -27,6 +27,7 @@ execute as @a[distance=..7] at @s run function bracken:entities/boss/kraken/misc
 
 #death
 execute if entity @s[scores={bp.kraken.health=..20}] run function bracken:entities/boss/kraken/misc/death
+
 
 
 

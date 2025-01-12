@@ -1,11 +1,5 @@
 {
 	"pools": [{
-		"rolls": 1,
-		"entries": [{
-			"type": "minecraft:loot_table",
-			"value": "bracken:item/the_faewild/penance_boots"
-		}]
-	},{
 		"rolls": {
 			"min": 20,
 			"max": 60
