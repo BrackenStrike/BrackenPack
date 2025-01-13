@@ -15,7 +15,8 @@ bossbar set bracken:kraken max 300
 scoreboard objectives add bp.kraken dummy
 scoreboard objectives add bp.spin dummy
 scoreboard objectives add bp.sploosh dummy
+scoreboard objectives add bp.sploosh2 dummy
 
 scoreboard objectives add bp.kraken.health dummy
 
-scoreboard players set 5 bp.math.final 5
+scoreboard players set 6 bp.math.final 6

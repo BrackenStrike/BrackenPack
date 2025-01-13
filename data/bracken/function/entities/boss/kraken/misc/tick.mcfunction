@@ -9,20 +9,24 @@ scoreboard players remove @s bp.kraken 1
 #spin
 scoreboard players remove @s[scores={bp.spin=1..}] bp.spin 1
 execute at @s[scores={bp.spin=1..}] run function bracken:entities/boss/kraken/misc/spin
-execute if score @s bp.spin matches 1.. effect give @e[tag=!bp.kraken,type=!player,distance=..22] wither 1 0 true
+
 
 #sploosh
 scoreboard players remove @s[scores={bp.sploosh=1..}] bp.sploosh 1
-execute if block ^ ^5 ^5 water run tp @s[scores={bp.sploosh=1..}] ^ ^0.5 ^1
+scoreboard players remove @s[scores={bp.sploosh2=1..}] bp.sploosh2 1
+execute if block ^ ^4 ^8 water run tp @s[scores={bp.sploosh=1..}] ^ ^1 ^0.5
+execute if block ^ ^-4 ^8 water run tp @s[scores={bp.sploosh2=1..}] ^ ^-0.5 ^1
+execute if entity @s[scores={bp.sploosh=50..}] run summon area_effect_cloud ~ ~-2 ~ {Particle:{type:"squid_ink"},CustomNameVisible:0b,Radius:15f,RadiusPerTick:-0.1f,RadiusOnUse:0.1f,Duration:200,potion_contents:{custom_effects:[{id:"minecraft:wither",amplifier:0,duration:200,show_particles:1b,show_icon:1b},{id:"minecraft:blindness",amplifier:0,duration:200,show_particles:1b,show_icon:1b}]},CustomName:'"Ink Bomb"'}
+
 
 #follow player
-execute if block ^ ^5 ^5 water run function bracken:entities/boss/kraken/misc/follow_player
+execute if block ^ ^4 ^8 water run function bracken:entities/boss/kraken/misc/follow_player
 
 
 #grapple player
-execute positioned ^ ^4 ^ as @e[distance=..7,tag=!kraken] at @s run function bracken:entities/boss/kraken/misc/grapple
+execute positioned ^ ^4 ^-1 as @e[distance=..7,tag=!kraken] at @s run function bracken:entities/boss/kraken/misc/grapple
 effect give @e[distance=..7,tag=!bp.kraken,type=!player] wither 1 1 true
-effect give @e[distance=..7,tag=!bp.kraken,type=!player] poison 1 10 false
+
 
 
 
