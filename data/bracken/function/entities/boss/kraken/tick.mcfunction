@@ -4,8 +4,8 @@
 ##########################################################
 
 
-execute if entity @p[distance=..6] if entity @s[tag=!bp.active] run function bracken:entities/boss/kraken/misc/activate
-execute unless entity @p[distance=..149] if entity @s[tag=bp.active] run function bracken:entities/boss/kraken/misc/deactivate
+execute if entity @p[distance=..16] if entity @s[tag=!bp.active] run function bracken:entities/boss/kraken/misc/activate
+execute unless entity @p[distance=..151] if entity @s[tag=bp.active] run function bracken:entities/boss/kraken/misc/deactivate
 
 execute if entity @s[tag=bp.kraken,tag=bp.active] run function bracken:entities/boss/kraken/misc/tick
 
