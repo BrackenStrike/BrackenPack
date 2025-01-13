@@ -1,4 +1,4 @@
-execute store result score #1 bp.math.out run random value 0..3
+execute store result score #1 bp.math.out run random value 0..4
 
 execute if score #1 bp.math.out matches 0 run function bracken:entities/boss/kraken/attacks/ink_raycast
 execute if score #1 bp.math.out matches 0 run playsound minecraft:entity.squid.squirt neutral @a[distance=..50] ~ ~ ~ 10 0
