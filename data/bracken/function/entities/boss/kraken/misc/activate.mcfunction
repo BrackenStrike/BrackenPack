@@ -14,5 +14,6 @@ bossbar set bracken:kraken style notched_6
 bossbar set bracken:kraken max 300
 scoreboard players set @s bp.spin 1
 scoreboard players set @s bp.sploosh 1
+scoreboard players set @s bp.sploosh2 1
 
 advancement grant @a[distance=..50] only bracken:the_brine/kraken
