@@ -1,0 +1,21 @@
+{
+    "values": [
+        "minecraft:prismarine",
+        "minecraft:water",
+        "minecraft:lava",
+        "minecraft:magma_block",
+        "minecraft:sand",
+        "minecraft:red_sand",
+        "minecraft:sandstone",
+        "minecraft:mycelium",
+        "minecraft:red_sandstone",
+        "minecraft:blackstone",
+        "minecraft:warped_wart_block",
+        "minecraft:grass_block",
+        "minecraft:dirt",
+        "minecraft:rooted_dirt",
+        "minecraft:mud",
+        "minecraft:muddy_mangrove_roots",
+        "minecraft:calcite"
+    ]
+}
