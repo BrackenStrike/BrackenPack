@@ -11,7 +11,7 @@ execute positioned ^ ^4 ^ at @e[distance=..50,tag=!bp.boss] run tp @n[limit=1,di
 playsound minecraft:block.bubble_column.whirlpool_ambient neutral @a[distance=..50] ~ ~ ~ 10 0
 
 #slap
-execute positioned ^ ^4 ^ as @e[distance=..22,tag=!kraken] at @s run function bracken:entities/boss/kraken/misc/slap
-effect give @e[tag=!bp.kraken,type=!player,distance=..22] wither 1 1 true
+execute positioned ^ ^4 ^ as @e[distance=..20,tag=!kraken] at @s run function bracken:entities/boss/kraken/misc/slap
+effect give @e[tag=!bp.kraken,type=!player,distance=..20] wither 1 1 true
 
 rotate @s ~40 ~
