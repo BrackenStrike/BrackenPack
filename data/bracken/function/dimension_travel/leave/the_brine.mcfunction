@@ -4,6 +4,7 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/the_brine
+attribute @s minecraft:block_break_speed modifier remove bracken:brine_blockbreak
 
 tag @s remove bp.brine_brewing_active
 
