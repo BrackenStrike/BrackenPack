@@ -20,3 +20,6 @@ ArmorItems:[
 ],
 ArmorDropChances:[0.085F,0.000F,0.000F,0.000F]
 }
+
+
+#summon minecraft:pillager ~ ~ ~ {PersistenceRequired:1b,Silent:1b,Tags:["bp.thrall.element"],CustomName:'{"color":"gold","text":"Holdscout"}',ArmorItems:[{},{},{},{id:"minecraft:bamboo",count:1,components:{"minecraft:item_model":"bracken:shadows/keeper","minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F]}
