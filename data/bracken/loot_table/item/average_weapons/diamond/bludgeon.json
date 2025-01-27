@@ -36,7 +36,7 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:average_weapons/diamond/"
+					"minecraft:item_model": "bracken:average_weapons/diamond/bludgeon"
 				}
 			},{
 				"function": "minecraft:set_attributes",

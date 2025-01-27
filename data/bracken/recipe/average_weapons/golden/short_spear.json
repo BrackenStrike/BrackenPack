@@ -11,7 +11,7 @@
 		"#": "minecraft:gold_ingot"
 	},
 	"result": {
-		"id": "minecraft:golden_sword",
+		"id": "minecraft:golden_shovel",
 		"components": {
 			"minecraft:max_damage": 59,
 			"minecraft:item_name": "\"Golden Short Spear\"",
@@ -21,7 +21,7 @@
 				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
 				"{\"translate\":\" 4 Attack Damage\",\"color\":dark_green,\"italic\":false}",
 				"{\"translate\":\" 1 Attack Speed\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 2 Attack Range\",\"color\":dark_green,\"italic\":false}"
+				"{\"translate\":\" +1.5 Attack Range\",\"color\":dark_green,\"italic\":false}"
 			],
 			"minecraft:attribute_modifiers": {
 				"modifiers": [{
@@ -39,7 +39,7 @@
 				},{
 					"type": "minecraft:entity_interaction_range",
 					"id": "bracken:golden_short_spear",
-					"amount": 1,
+					"amount": 1.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
