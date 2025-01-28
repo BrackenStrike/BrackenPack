@@ -1,5 +1,5 @@
 {
-	"parent": "bracken:the_brine/slay",
+	"parent": "bracken:the_brine/station",
 	"display": {
 		"title": {
 			"translate": "Ad Infinitum"

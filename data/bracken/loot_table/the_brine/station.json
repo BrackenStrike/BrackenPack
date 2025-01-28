@@ -89,13 +89,6 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/the_brine/essence_of_eternity",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.3
-			}]
-		},{
-			"type": "loot_table",
 			"value": "bracken:item/portal_keys/pax_key",
 			"conditions": [{
 				"condition": "minecraft:random_chance",

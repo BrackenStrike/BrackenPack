@@ -1,5 +1,5 @@
 {
-	"parent": "bracken:the_brine/station",
+	"parent": "bracken:the_brine/slay",
 	"display": {
 		"title": {
 			"translate": "Time in a Bottle"
