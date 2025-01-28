@@ -8,7 +8,7 @@
 			"amount": {
 				"type": "minecraft:linear",
 				"base": -0.5,
-				"per_level_above_first": -0.2
+				"per_level_above_first": -0.25
 			},
 			"attribute": "minecraft:gravity",
 			"id": "minecraft:enchantment.lessgravity",

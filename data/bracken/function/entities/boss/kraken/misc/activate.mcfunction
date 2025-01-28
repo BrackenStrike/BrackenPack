@@ -2,9 +2,9 @@ effect give @s instant_health 15 120 true
 
 data merge entity @s {Invulnerable:0b,NoAI:0b}
 tag @s add bp.active
-
-
-
+playsound minecraft:entity.donkey.death hostile @a[distance=..150] ~ ~ ~ 100 1
+fill ~6 ~15 ~6 ~-6 ~-15 ~-6 air
+summon tnt ~ ~ ~
 
 
 
