@@ -21,7 +21,12 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:shepherdess_cloak"
+					"minecraft:item_model": "bracken:shepherdess_cloak",
+					"minecraft:equippable": {
+						"slot": "chest",
+						"asset_id": "bracken:nightfall",
+						"equip_sound": "minecraft:block.wool.step"
+					}
 				}
 			},{
 				"function": "minecraft:set_enchantments",
