@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+"bracken:the_underdark/crystal_caves",
+"bracken:the_underdark/diorite_sea",
+"bracken:the_underdark/eroded_basin",
+"bracken:the_underdark/petrified_forest",
+"bracken:the_underdark/ruby_fungi_forest",
+"bracken:the_underdark/sulfur_caldera",
+"bracken:the_underdark/titan_dripstone_cavern"
+]
+}

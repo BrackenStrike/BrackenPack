@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+"bracken:sanctum/dark_soot_dunes",
+"bracken:sanctum/no_mans_land",
+"bracken:sanctum/rubblework_city",
+"bracken:sanctum/toxic_playa",
+"bracken:sanctum/voidship_harbor"
+]
+}

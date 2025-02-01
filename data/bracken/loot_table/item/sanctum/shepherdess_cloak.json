@@ -24,7 +24,7 @@
 					"minecraft:item_model": "bracken:shepherdess_cloak",
 					"minecraft:equippable": {
 						"slot": "chest",
-						"asset_id": "bracken:nightfall",
+						"asset_id": "bracken:shepherdess_cloak",
 						"equip_sound": "minecraft:block.wool.step"
 					}
 				}
