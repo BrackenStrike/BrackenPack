@@ -1,6 +1,6 @@
 {
-    "angry_texture": "minecraft:entity/wolf/wolf_ashen_angry",
-    "biomes": "#minecraft:is_glacium",
-    "tame_texture": "minecraft:entity/wolf/wolf_ashen_tame",
-    "wild_texture": "minecraft:entity/wolf/wolf_ashen"
-  }
+  "angry_texture": "bracken:entity/wolf/glacium/wolf_glac_angry",
+  "biomes": "#minecraft:is_glacium",
+  "tame_texture": "bracken:entity/wolf/glacium/wolf_glac_tame",
+  "wild_texture": "bracken:entity/wolf/glacium/wolf_glac"
+}
