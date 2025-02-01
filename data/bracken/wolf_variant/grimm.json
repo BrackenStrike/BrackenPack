@@ -1,6 +1,6 @@
 {
     "angry_texture": "minecraft:entity/wolf/the_faewild/wolf_fae_angry",
-    "biomes": "#bracken:dimension/is_faewild",
+    "biomes": "#bracken:is_faewild",
     "tame_texture": "minecraft:entity/wolf/the_faewild/wolf_fae_tame",
     "wild_texture": "minecraft:entity/wolf/the_faewild/fae_ashen"
   }
