@@ -11,5 +11,7 @@ tp @e[type=skeleton,distance=..100,sort=nearest,limit=1] ~ -512 ~
 
 data merge entity @e[type=vex,distance=..100,limit=1,sort=nearest,tag=!ice_pixie] {PersistenceRequired:0b,Tags:[ice_pixie],LifeTicks:10000,CustomName:'{"translate":"Ice Pixie","color":"blue","italic":false}',HandItems:[{id:"minecraft:end_rod",Count:1b,components:{"minecraft:custom_name":'{"text":"Ice Wand","italic":false}',"minecraft:enchantments":{levels:{"minecraft:knockback":100,"minecraft:vanishing_curse":1}}} },{}],HandDropChances:[0.1000F,0.085F],ArmorItems:[{},{},{},{id:"minecraft:ice",Count:1b}]}
 
+data merge entity @e[type=wolf,distance=..100,limit=1,sort=nearest,tag=!dire_wolf] {CustomNameVisible:0b,Tags:["bp.dire_wolf"],CustomName:'{"color":"dark_aqua","text":"Dire Wolf"}',attributes:[{id:"minecraft:armor",base:30},{id:"minecraft:scale",base:1.5}]}
+
 execute at @e[type=zombie_villager,distance=..100,limit=1,sort=nearest] run summon skeleton_horse ~ ~ ~ {PersistenceRequired:0b,Tame:1b,Passengers:[{id:"minecraft:stray",HandItems:[{id:"minecraft:bow",Count:1b,components:{"minecraft:custom_name":'{"text":"Frozen Recurve","italic":false}',"minecraft:enchantments":{levels:{"minecraft:power":6,"minecraft:punch":3}}} },{}],HandDropChances:[0.1000F,0.085F],ArmorItems:[{},{},{},{id:"minecraft:chainmail_helmet",Count:1b}]}],CustomName:'{"translate":"Stray Steed","color":"blue","italic":false}',attributes:[{id:armor,base:30}]}
 tp @e[type=zombie_villager,distance=..100,sort=nearest,limit=1] ~ -512 ~
