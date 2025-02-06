@@ -19,6 +19,11 @@
 			}],
 			"mode": "insert"
 		},{
+			"function": "set_enchantments",
+			"enchantments": {
+				"bracken:poisoning_fix": 1
+			}
+		},{
 			"function": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:gothrum_fang"

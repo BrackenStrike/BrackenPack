@@ -32,6 +32,12 @@
                 "maxCount": 4
             },
             {
+                "type": "minecraft:wolf",
+                "weight": 2,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
                 "type": "minecraft:rabbit",
                 "weight": 5,
                 "minCount": 4,

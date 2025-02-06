@@ -40,6 +40,13 @@
                 "minCount": 4,
                 "maxCount": 4
             },
+            
+            {
+                "type": "minecraft:wolf",
+                "weight": 2,
+                "minCount": 1,
+                "maxCount": 1
+            },
             {
                 "type": "minecraft:sniffer",
                 "weight": 5,
