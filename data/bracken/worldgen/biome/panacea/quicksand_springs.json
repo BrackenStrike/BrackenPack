@@ -98,12 +98,6 @@
                 "weight": 5,
                 "minCount": 1,
                 "maxCount": 4
-            },
-            {
-                "type": "minecraft:creaking",
-                "weight": 5,
-                "minCount": 1,
-                "maxCount": 4
             }
         ]
     },

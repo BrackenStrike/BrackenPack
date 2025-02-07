@@ -7,18 +7,11 @@
 			"functions": [{
 				"function": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Hypocrite Mask"
+				"name": "Dweller #2"
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:articles/hypocrite_mask",
-					"minecraft:equippable": {
-						"slot": "head",
-						"asset_id": "bracken:hypocrite_mask"
-					},
-					"minecraft:custom_data": {
-						"bp": { "id": "hypocrite_mask" }
-					}
+					"minecraft:item_model": "bracken:shadows/playerdweller2"
 				}
 			}]
 		}]

@@ -9,12 +9,6 @@
 				"target": "item_name",
 				"name": "Tinted Glasses"
 			},{
-				"function": "minecraft:set_custom_model_data",
-				"value": 888507,
-				"minecraft:custom_data": {
-					"bp": { "id": "tinted_glasses" }
-				}
-			},{
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:articles/tinted_glasses",
