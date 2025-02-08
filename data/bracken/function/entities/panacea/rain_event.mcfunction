@@ -20,7 +20,7 @@ execute at @e[type=piglin,distance=..100,limit=1,sort=nearest] run summon piglin
 tp @e[type=piglin,distance=..100,sort=nearest,limit=1] ~ -512 ~
 
 
-data merge entity @e[type=wolf,distance=..100,limit=1,sort=nearest,tag=bp.silurian_wolf] {CustomNameVisible:0b,Health:50f,Tags:["bp.silurian_wolf1"],CustomName:'{"color":"dark_green","text":"Juvenile Silurain Wolf"}',attributes:[{id:"minecraft:attack_damage",base:15},{id:"minecraft:jump_strength",base:0.25},{id:"minecraft:max_health",base:50},{id:"minecraft:scale",base:2},{id:"minecraft:step_height",base:5},{id:"minecraft:oxygen_bonus",base:1000}]}
+data merge entity @e[type=wolf,distance=..100,limit=1,sort=nearest,tag=bp.silurian_wolf] {CustomNameVisible:0b,Health:50f,Tags:["bp.silurian_wolf1","bp.silurian_wolf"],CustomName:'{"color":"dark_green","text":"Juvenile Silurain Wolf"}',attributes:[{id:"minecraft:attack_damage",base:15},{id:"minecraft:jump_strength",base:0.25},{id:"minecraft:max_health",base:50},{id:"minecraft:scale",base:6},{id:"minecraft:step_height",base:5},{id:"minecraft:oxygen_bonus",base:1000}]}
 
 data merge entity @e[type=creeper,distance=..100,limit=1,sort=nearest,tag=!bp.perrterror] {active_effects:[{id:"minecraft:unluck",amplifier:10b,duration:-1,show_particles:0b}],powered:1b,Tags:["bp.entity","bp.perrterror","bp.rain_event"],CustomName:'{"text":"Perrterror Creeper","color":"dark_green"}',CustomNameVisible:0b,DeathLootTable:"bracken:entity/panacea/perrterror",attributes:[{name:follow_range,base:64}]}
 

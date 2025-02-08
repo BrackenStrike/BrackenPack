@@ -12,7 +12,11 @@
         "ground_state": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:moss_block"
+                "Name": "minecraft:dark_oak_leaves",
+                "Properties": {
+                    "waterlogged": "true",
+                    "persistent": "true"
+                }
             }
         },
         "vegetation_feature": {

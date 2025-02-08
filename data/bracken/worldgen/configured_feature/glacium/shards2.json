@@ -2,7 +2,7 @@
     "type": "minecraft:netherrack_replace_blobs",
     "config": {
         "target": {
-            "Name": "minecraft:air"
+            "Name": "minecraft:water"
         },
         "state": {
             "Name": "minecraft:dark_oak_leaves",
