@@ -2161,7 +2161,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:magma_block"
+                                    "Name": "minecraft:diorite"
                                 }
                             }
                         },
@@ -2172,12 +2172,12 @@
                                 "offset": 1,
                                 "surface_type": "floor",
                                 "add_surface_depth": true,
-                                "secondary_depth_range": 6
+                                "secondary_depth_range": 1
                             },
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:dirt"
+                                    "Name": "minecraft:magma_block"
                                 }
                             }
                         }
@@ -2358,3 +2358,4 @@
         }
     ]
 }
+

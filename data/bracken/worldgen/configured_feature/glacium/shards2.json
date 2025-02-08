@@ -5,11 +5,7 @@
             "Name": "minecraft:water"
         },
         "state": {
-            "Name": "minecraft:dark_oak_leaves",
-            "Properties": {
-                "waterlogged": "true",
-                "persistent": "true"
-            }
+            "Name": "minecraft:ice"
         },
         "radius": 0
     }

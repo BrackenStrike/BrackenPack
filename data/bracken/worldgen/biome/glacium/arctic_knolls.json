@@ -26,12 +26,8 @@
             "minecraft:ice_patch",
             "minecraft:blue_ice"
         ],
-        [
-            "bracken:glacium/glacium_dec"
-
-            
-        ],
-        ["bracken:glacium/shards3"],
+        [],
+        ["bracken:glacium/snow_pile"],
         ["bracken:glacium/blue_platform"],
         [],
         [],

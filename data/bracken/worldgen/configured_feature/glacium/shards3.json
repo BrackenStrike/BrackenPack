@@ -2,10 +2,10 @@
     "type": "minecraft:netherrack_replace_blobs",
     "config": {
         "target": {
-            "Name": "minecraft:dark_oak_leaves"
+            "Name": "minecraft:ice"
         },
         "state": {
-            "Name": "minecraft:magma_block"
+            "Name": "minecraft:frosted_ice"
         },
         "radius": 0
     }
