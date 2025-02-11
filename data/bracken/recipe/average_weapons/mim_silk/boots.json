@@ -18,7 +18,7 @@
 				"asset_id": "bracken:silk"
 			},
 			"minecraft:item_name": "\"Mim Silk Boots\"",
-			"minecraft:item_model": "bracken:average_weapons/mim_silk/boots",
+			"minecraft:item_model": "bracken:the_faewild/mim_silk_boots",
 			"minecraft:enchantments": {
 				"bracken:astuteness_fix": 1
 			}

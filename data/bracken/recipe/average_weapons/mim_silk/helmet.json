@@ -18,7 +18,7 @@
 				"equip_sound": "minecraft:block.wool.step",
 				"asset_id": "bracken:silk"
 			},
-			"minecraft:item_model": "bracken:average_weapons/mim_silk/helmet",
+			"minecraft:item_model": "bracken:the_faewild/mim_silk_helmet",
 			"minecraft:enchantments": {
 				"bracken:astuteness_fix": 1
 			}

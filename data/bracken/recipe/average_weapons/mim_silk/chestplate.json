@@ -22,7 +22,7 @@
 				"equip_sound": "minecraft:block.wool.step"
 			},
 			"minecraft:item_name": "\"Mim Silk Chestplate\"",
-			"minecraft:item_model": "bracken:average_weapons/mim_silk/chestplate"
+			"minecraft:item_model": "bracken:the_faewild/mim_silk_chestplate"
 		}
 	}
 }
