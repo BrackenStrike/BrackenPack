@@ -80,11 +80,11 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "effects": {
-        "fog_color": 1781291,
-        "water_color": 2070,
-        "water_fog_color": 1245198,
+        "fog_color": 0,
+        "water_color": 0,
+        "water_fog_color": 0,
         "grass_color": 668950,
-        "sky_color": 4005221,
+        "sky_color": 0,
         "foliage_color": 0,
         "particle": {
             "options": {
