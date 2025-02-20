@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
 "minecraft:creeper_spawn_egg",
-"minecraft:wooden_boots"],
+"minecraft:leather_boots"],
 	
 	"result": {
 		"id": "minecraft:leather_boots",

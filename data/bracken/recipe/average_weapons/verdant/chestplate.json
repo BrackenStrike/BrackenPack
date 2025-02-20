@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
 "minecraft:creeper_spawn_egg",
-"minecraft:wooden_chestplate"],
+"minecraft:leather_chestplate"],
 	
 	"result": {
 		"id": "minecraft:leather_chestplate",

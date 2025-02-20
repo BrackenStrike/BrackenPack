@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
 "minecraft:creeper_spawn_egg",
-"minecraft:wooden_helmet"],
+"minecraft:leather_helmet"],
 	
 	"result": {
 		"id": "minecraft:leather_helmet",

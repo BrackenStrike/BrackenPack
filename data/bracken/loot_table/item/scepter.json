@@ -7,9 +7,9 @@
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {
+					
 					"minecraft:enchantments": {
-						"bracken:infused_fire_aspect_fix": 1,
-						"show_in_tooltip": false
+						"bracken:infused_fire_aspect_fix": 1
 					},
 					"minecraft:item_model": "bracken:scepter",
 					"minecraft:enchantment_glint_override": false

@@ -15,8 +15,7 @@
 		"components": {
 			
             "minecraft:enchantments": {
-				"bracken:infused_fire_aspect_fix": 1,
-				"show_in_tooltip": false
+				"bracken:infused_fire_aspect_fix": 1
 			  },
 			"minecraft:item_name": "\"Scepter\"",
 			"minecraft:item_model": "bracken:scepter",

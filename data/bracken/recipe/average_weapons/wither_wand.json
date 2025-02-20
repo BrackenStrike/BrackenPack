@@ -15,9 +15,7 @@
 		"components": {
 			
             "minecraft:enchantments": {
-				"bracken:withering_fix": 1,
-				
-				"show_in_tooltip": false
+				"bracken:withering_fix": 1
 			  },
 			"minecraft:item_name": "\"Wither Wand\"",
 			"minecraft:item_model": "bracken:wither_wand",
