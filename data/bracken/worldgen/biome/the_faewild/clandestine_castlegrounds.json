@@ -31,14 +31,7 @@
                 "maxCount": 4
             }
         ],
-        "monster": [
-            {
-                "type": "minecraft:spider",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            }
-        ]
+        "monster": []
     },
     "spawn_costs": {},
     "carvers": [],

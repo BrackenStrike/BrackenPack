@@ -1,15 +1,12 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:creeper_spawn_egg"
-        },
-        {
-            "item": "minecraft:wooden_axe"
-        }
-    ],
+"minecraft:creeper_spawn_egg",
+"minecraft:wooden_axe"],
+	
 	"result": {
 		"id": "minecraft:wooden_axe",
+        "count": 1,
 		"components": {
 			"minecraft:max_damage": 500,
 			"minecraft:item_name": "\"Verdant Axe\"",

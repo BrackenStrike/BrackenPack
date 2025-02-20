@@ -1,15 +1,12 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:creeper_spawn_egg"
-        },
-        {
-            "item": "minecraft:wooden_hoe"
-        }
-    ],
+"minecraft:creeper_spawn_egg",
+"minecraft:wooden_hoe"],
+	
 	"result": {
 		"id": "minecraft:wooden_hoe",
+        "count": 1,
 		"components": {
 			"minecraft:max_damage": 500,
 			"minecraft:item_name": "\"Verdant Hoe\"",

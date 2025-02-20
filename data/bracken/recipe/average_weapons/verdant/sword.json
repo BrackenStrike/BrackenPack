@@ -1,15 +1,11 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:creeper_spawn_egg"
-        },
-        {
-            "item": "minecraft:wooden_sword"
-        }
-    ],
+"minecraft:creeper_spawn_egg",
+"minecraft:wooden_sword"],
 	"result": {
 		"id": "minecraft:wooden_sword",
+        "count": 1,
 		"components": {
 			"minecraft:max_damage": 500,
 			"minecraft:item_name": "\"Verdant Sword\"",

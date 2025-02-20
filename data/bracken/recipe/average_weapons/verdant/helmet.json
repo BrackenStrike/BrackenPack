@@ -1,15 +1,12 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:creeper_spawn_egg"
-        },
-        {
-            "item": "minecraft:leather_helmet"
-        }
-    ],
+"minecraft:creeper_spawn_egg",
+"minecraft:wooden_helmet"],
+	
 	"result": {
 		"id": "minecraft:leather_helmet",
+        "count": 1,
 		"components": {
 			"minecraft:max_damage": 500,
 			"minecraft:item_name": "\"Verdant Helmet\"",
