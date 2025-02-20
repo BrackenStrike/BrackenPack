@@ -20,5 +20,13 @@
 	},{
 		"condition": "reference",
 		"name": "bracken:item/glacium_glider"
+	},
+	{
+		"condition": "reference",
+		"name": "bracken:item/wither_rose"
+	},
+	{
+		"condition": "reference",
+		"name": "bracken:item/wither_wand"
 	}]
 }

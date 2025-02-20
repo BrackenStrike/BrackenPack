@@ -11,7 +11,7 @@
 		"icon": {
 			"id": "minecraft:netherite_sword",
 			"components": {
-				"minecraft:item_model": "bracken:sai"
+				"minecraft:item_model": "bracken:scepter"
 			}
 		},
 		"frame": "challenge",

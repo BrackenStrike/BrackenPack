@@ -1,15 +1,13 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"pattern": [
-		"##/",
-		"#/#",
-		"/##"
-	],
-	"key": {
-		"/": "minecraft:stick",
-		"#": "minecraft:creeper_spawn_egg"
-	},
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:creeper_spawn_egg"
+        },
+        {
+            "item": "minecraft:stick"
+        }
+    ],
 	"result": {
 		"id": "minecraft:wooden_shovel",
 		"components": {

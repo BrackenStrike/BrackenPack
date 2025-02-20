@@ -1,16 +1,13 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"pattern": [
-		"#%%",
-		"#/#",
-		"#/#"
-	],
-	"key": {
-		"#": "minecraft:creeper_spawn_egg",
-		"/": "minecraft:stick",
-		"%": "#minecraft:planks"
-	},
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:creeper_spawn_egg"
+        },
+        {
+            "item": "minecraft:wooden_hoe"
+        }
+    ],
 	"result": {
 		"id": "minecraft:wooden_hoe",
 		"components": {
