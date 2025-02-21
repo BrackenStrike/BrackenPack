@@ -9,9 +9,9 @@
 				"components": {
 					
 					"minecraft:enchantments": {
-						"bracken:withering_fix": 1
+						"bracken:weakening_fix": 1
 					},
-					"minecraft:item_model": "bracken:wither_wand",
+					"minecraft:item_model": "bracken:tulip_wand",
 					"minecraft:enchantment_glint_override": false
 					
 					
@@ -19,11 +19,11 @@
 			},{
 				"function": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Wither Wand"
+				"name": "Tulip Wand"
 			},{
 				"function": "minecraft:set_custom_data",
 				"tag": {
-					"bp": { "id": "wither_wand" }
+					"bp": { "id": "tulip_wand" }
 				}
 			}]
 		}]

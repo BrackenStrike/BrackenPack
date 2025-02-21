@@ -6,7 +6,7 @@
 		"/"
 	],
 	"key": {
-		"#": "minecraft:wither_rose",
+		"#": "minecraft:torchflower",
 		"/": "minecraft:stick"
 	},
 	"result": {
@@ -15,16 +15,16 @@
 		"components": {
 			
             "minecraft:enchantments": {
-				"bracken:withering_fix": 1
+				"bracken:spectrality_fix": 1
 			  },
-			"minecraft:item_name": "\"Wither Wand\"",
-			"minecraft:item_model": "bracken:wither_wand",
+			"minecraft:item_name": "\"Torchflower Wand\"",
+			"minecraft:item_model": "bracken:torchflower_wand",
 			"minecraft:enchantment_glint_override": false,
 			
 
 			"minecraft:custom_data": {
 				"bp": {
-					"id": "wither_wand"
+					"id": "torchflower_wand"
 				}
 			}
 		}

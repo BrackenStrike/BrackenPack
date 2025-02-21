@@ -1,14 +1,9 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"pattern": [
-		"#",
-		"/"
-	],
-	"key": {
-		"#": "minecraft:netherite_ingot",
-		"/": "minecraft:blaze_rod"
-	},
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+"minecraft:netherite_ingot",
+"minecraft:blaze_rod"],
+	
 	"result": {
 		"id": "minecraft:netherite_ingot",
 		"count": 1,

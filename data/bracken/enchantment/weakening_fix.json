@@ -1,0 +1,51 @@
+{
+	"description": {
+		"translate": "Weakening",
+		"color": "dark_purple"
+	},
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:post_attack": [{
+			"enchanted": "attacker",
+			"affected": "victim",
+			"effect": {
+				"type": "minecraft:all_of",
+				"effects": [{
+					"type": "minecraft:apply_mob_effect",
+					"to_apply": "minecraft:weakness",
+					"min_duration": 5,
+					"max_duration": 10,
+					"min_amplifier": 0,
+					"max_amplifier": 1
+				}]
+			}
+		}],
+		"minecraft:armor_effectiveness": [
+			{
+			  "effect": {
+				"type": "minecraft:add",
+				"value": {
+				  "type": "minecraft:linear",
+				  "base": -0.6,
+				  "per_level_above_first": -0.15
+				}
+			  }
+			}
+		  ]
+	},
+	"max_level": 1,
+	"exclusive_set": "minecraft:fire_aspect",
+	"supported_items": "#minecraft:enchantable/durability",
+	"weight": 1,
+	"anvil_cost": 0,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	}
+}
