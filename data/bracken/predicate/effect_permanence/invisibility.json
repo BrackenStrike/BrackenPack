@@ -7,8 +7,4 @@
 },{
 	"condition": "reference",
 	"name": "bracken:dimensions/sanctum"
-},
-{
-	"condition": "reference",
-	"name": "bracken:item/hypocrite_mask"
 }]

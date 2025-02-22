@@ -2,9 +2,9 @@
 	"condition": "any_of",
 	"terms": [{
 		"condition": "reference",
-		"name": "bracken:item/open_eyeblossom_wand_mainhand"
+		"name": "bracken:item/open_eyeblossom_mainhand"
 	},{
 		"condition": "reference",
-		"name": "bracken:item/open_eyeblossom_wand_offhand"
+		"name": "bracken:item/open_eyeblossom_offhand"
 	}]
 }

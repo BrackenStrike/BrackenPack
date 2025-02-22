@@ -1,5 +1,8 @@
 {
-	"description": "Spectrality",
+	"description": {
+		"translate": "Spectrality",
+		"color": "dark_purple"
+	},
 	"anvil_cost": 4,
 	"effects": {
 		"minecraft:post_attack": [{

@@ -8,6 +8,10 @@
 	},{
 		"condition": "reference",
 		"name": "bracken:item/open_eyeblossom"
+	},
+	{
+		"condition": "reference",
+		"name": "bracken:item/open_eyeblossom_wand"
 	}]
 }
 

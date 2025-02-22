@@ -1,14 +1,9 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"pattern": [
-		"#",
-		"/"
-	],
-	"key": {
-		"#": "minecraft:torchflower",
-		"/": "minecraft:stick"
-	},
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+"minecraft:torchflower",
+"minecraft:stick"],
+	
 	"result": {
 		"id": "minecraft:stick",
 		"count": 1,
