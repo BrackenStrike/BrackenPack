@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"items": [
+					"minecraft:stick"
+				],
+				"predicates": { "minecraft:custom_data": "{bp:{id:\"open_eyeblossom_wand\"}}" }
+			}
+		}
+	}
+}

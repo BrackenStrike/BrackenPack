@@ -1,13 +1,11 @@
 
-
 {
 	"condition": "any_of",
 	"terms": [{
 		"condition": "reference",
-		"name": "bracken:item/tinted_glasses"
+		"name": "bracken:item/torchflower_wand"
 	},{
 		"condition": "reference",
-		"name": "bracken:item/open_eyeblossom"
+		"name": "bracken:item/torchflower"
 	}]
 }
-
