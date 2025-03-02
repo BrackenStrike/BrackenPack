@@ -6,8 +6,8 @@
 
 ## TP PEARL
 
-execute in bracken:dormis run tp @s ~ ~ ~
-execute in bracken:dormis run fill ~ ~ ~ ~ ~ ~ minecraft:sand
+execute in bracken:omnidrome run tp @s ~ ~ ~
+execute in bracken:omnidrome run fill ~ ~ ~ ~ ~ ~ minecraft:sand
 
 
 
