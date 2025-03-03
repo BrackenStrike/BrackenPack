@@ -4,10 +4,10 @@
 ##########################################################
 
 
-execute in bracken:sanctum run tp @s @e[type=marker,tag=bp.sanctum_arrive,sort=nearest,limi=1]
+function bracken:dimension_crossing/sanctum_to_overworld
 
 
-effect give @s slow_falling 15 9 false
+
 
 
 

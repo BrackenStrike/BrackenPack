@@ -38,7 +38,7 @@
     }
   },
   "start_height": {
-    "absolute": -11
+    "absolute": 101
   },
   "start_jigsaw_name": "minecraft:city_anchor",
   "start_pool": "bracken:sanctum_ancient_city/city_center",
