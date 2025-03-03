@@ -40,7 +40,7 @@
   "start_height": {
     "absolute": -27
   },
-  "start_jigsaw_name": "bracken:city_anchor",
+  "start_jigsaw_name": "minecraft:city_anchor",
   "start_pool": "bracken:sanctum_ancient_city/city_center",
   "step": "underground_decoration",
   "terrain_adaptation": "beard_box",
