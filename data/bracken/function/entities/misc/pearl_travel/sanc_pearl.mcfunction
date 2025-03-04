@@ -6,8 +6,9 @@
 
 ## TP PEARL
 
-execute in bracken:the_brine run tp @s ~ ~ ~
-execute in bracken:the_brine run fill ~ ~ ~ ~ ~ ~ minecraft:sand
+execute in bracken:sanctum run tp @s ~ ~ ~
+tp @s[tag=bp.sanc2over] @e[type=marker,tag=bp.sanctum_leave,sort=nearest,limit=1]
+execute in bracken:sanctum run fill ~ ~ ~ ~ ~ ~ minecraft:sand
 
 
 

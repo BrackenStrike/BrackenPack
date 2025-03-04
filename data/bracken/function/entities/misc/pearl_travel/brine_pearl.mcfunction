@@ -6,8 +6,8 @@
 
 ## TP PEARL
 
-execute in bracken:panacea run tp @s ~ ~ ~
-execute in bracken:panacea run fill ~ ~ ~ ~ ~ ~ minecraft:sand
+execute in bracken:the_brine run tp @s ~ ~ ~
+execute in bracken:the_brine run fill ~ ~ ~ ~ ~ ~ minecraft:sand
 
 
 
