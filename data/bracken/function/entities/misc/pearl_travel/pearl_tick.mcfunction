@@ -25,6 +25,9 @@ execute if entity @s[tag=bp.nether_pearl] run return run function bracken:entiti
 execute if entity @s[tag=bp.end_pearl] run return run function bracken:entities/misc/pearl_travel/end_pearl
 
 
+#pearl portal spec
+tp @s[tag=bp.sanc2over] @e[type=marker,tag=bp.sanctum_leave,sort=nearest,limit=1]
+tp @s[tag=bp.over2sanc] @e[type=marker,tag=bp.sanctum_arrive,sort=nearest,limit=1]
 
 data merge entity @s[tag=!bp.called_pearl] {Tags:["bp.called_pearl"]}
 
