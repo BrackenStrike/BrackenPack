@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "#bracken:is_faewild",
+    "spawn_overrides": {},
+    "start_pool": "bracken:fae_clouds",
+    "size": 6,
+    "step": "surface_structures",
+    "start_height": {
+        "absolute": 280
+    },
+    "max_distance_from_center": 96,
+    "use_expansion_hack": false
+}
