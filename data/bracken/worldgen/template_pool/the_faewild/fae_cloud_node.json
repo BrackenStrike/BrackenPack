@@ -1,16 +1,8 @@
 {
-    "name": "clouds",
+    "name": "cloud_node",
     "fallback": "minecraft:empty",
     "elements": [
-        {
-            "weight": 1,
-            "element": {
-                "location": "bracken:the_faewild/fae_cloud",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
-        },
+        
         {
             "weight": 1,
             "element": {

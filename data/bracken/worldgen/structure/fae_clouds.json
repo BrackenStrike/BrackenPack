@@ -10,7 +10,7 @@
         "bracken:the_faewild/wanderlight_woods"
     ],
     "spawn_overrides": {},
-    "start_pool": "bracken:fae_clouds",
+    "start_pool": "bracken:the_faewild/fae_cloud_node",
     "size": 6,
     "step": "surface_structures",
     "start_height": {
