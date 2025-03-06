@@ -77,18 +77,14 @@
             "minecraft:patch_grass_normal",
             "minecraft:patch_dead_bush",
             "minecraft:patch_waterlily",
-            "minecraft:brown_mushroom_swamp",
-            "minecraft:red_mushroom_swamp",
-            "minecraft:brown_mushroom_normal",
-            "minecraft:red_mushroom_normal",
+           
             "minecraft:patch_sugar_cane_swamp",
             "minecraft:patch_melon",
             "minecraft:spring_water",
             "minecraft:seagrass_swamp",
             "minecraft:patch_large_fern",
             "bracken:faewild/large_fern",
-            "minecraft:brown_mushroom_old_growth",
-            "minecraft:red_mushroom_old_growth",
+            
             "minecraft:vines",
             "minecraft:sea_pickle",
             "bracken:faewild/lapis_ore","bracken:faewild/copper_ore"

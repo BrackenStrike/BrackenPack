@@ -49,9 +49,9 @@
         ],
         [
             "minecraft:patch_grass_normal",
-            "minecraft:brown_mushroom_swamp",
+            
             "minecraft:red_mushroom_swamp",
-            "minecraft:brown_mushroom_normal",
+            
             "minecraft:red_mushroom_normal",
             "minecraft:patch_sugar_cane_swamp",
             "minecraft:sea_pickle"

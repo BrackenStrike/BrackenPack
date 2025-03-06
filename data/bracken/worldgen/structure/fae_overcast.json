@@ -1,8 +1,11 @@
 {
     "type": "minecraft:jigsaw",
     "biomes": [
+        "bracken:the_faewild/clandestine_castlegrounds",
+        
+        "bracken:the_faewild/dreamfall_dells",
 
-        "bracken:the_faewild/dreamfall_dells"
+        "bracken:the_faewild/malmsey_meadow"
     ],
     "spawn_overrides": {},
     "start_pool": "bracken:the_faewild/fae_overcast_node",
