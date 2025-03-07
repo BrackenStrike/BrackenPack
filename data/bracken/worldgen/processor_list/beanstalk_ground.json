@@ -55,7 +55,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:muddy_mangrove_roots"
+              "Name": "minecraft:mangrove_roots"
             }
           },
           {
