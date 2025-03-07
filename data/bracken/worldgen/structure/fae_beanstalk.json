@@ -8,7 +8,7 @@
         "minecraft:meadow"
     ],
     "spawn_overrides": {},
-    "start_pool": "bracken:the_faewild/fae_start",
+    "start_pool": "bracken:the_faewild/fae_beanstalk_start",
     "size": 12,
     "step": "surface_structures",
     "start_height": {
