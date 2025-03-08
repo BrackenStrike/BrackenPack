@@ -77,7 +77,6 @@
         [
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground",
-            "bracken:underdark/rock",
             "bracken:underdark/crimson_spot",
             "bracken:underdark/fungus_roots",
             "bracken:underdark/red_mush_tree",
