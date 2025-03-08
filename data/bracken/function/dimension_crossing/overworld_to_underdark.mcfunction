@@ -4,7 +4,8 @@
 ##########################################################
 
 execute in bracken:the_underdark run forceload add ~ ~
-execute in bracken:the_underdark align xz run tp @s ~0.5 255 ~0.5
+execute in bracken:the_underdark align xz run tp @s ~0.5 249 ~0.5
+effect give @s slow_falling 20 2 true
 execute at @s[gamemode=!spectator] run setblock ~ 242 ~ minecraft:polished_deepslate keep
 execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air
 execute in bracken:the_underdark run function bracken:remove_forceload

@@ -15,12 +15,19 @@ execute if entity @s[scores={bp.pax=2..},gamemode=!spectator] run fill ~3 277 ~3
 execute if score @s bp.1_second matches 2 run function bracken:entities/the_faewild/faewild_mobs
 
 # Dimension Travel
-execute if score @s bp.1_second matches 7 if data storage bracken:config {dimension_travel: true} if block ~ ~ ~ minecraft:powder_snow if entity @s[y=282,dy=100] run function bracken:dimension_crossing/faewild_to_pax
-execute if score @s bp.1_second matches 9 if data storage bracken:config {dimension_travel: true} if entity @s[y=-15,dy=-200] run function bracken:dimension_crossing/faewild_to_overworld
+execute if score @s bp.1_second matches 7 if data storage bracken:config {dimension_travel: true} if block ~ ~ ~ minecraft:powder_snow if entity @s[y=283,dy=100] run function bracken:dimension_crossing/faewild_to_pax
+execute if score @s bp.1_second matches 7 if data storage bracken:config {dimension_travel: true} if entity @s[y=300,dy=100] run function bracken:dimension_crossing/faewild_to_pax
 
-# Let there be no noise made, my gentle friends;
-# Unless some dull and favourable hand
-# Will whisper music to my weary spirit.
+execute if score @s bp.1_second matches 9 if data storage bracken:config {dimension_travel: true} if entity @s[y=-15,dy=-200] run function bracken:dimension_crossing/faewild_to_overworld
+execute if data storage bracken:config {dimension_travel: true} run effect give @s[predicate=!bracken:sneak,y=287,dy=100] levitation 1 2 true
+effect give @s[y=244,dy=100] slow_falling 1 2 true
+effect give @s[y=244,dy=100] jump_boost 1 1 true
+effect give @s[y=260,dy=100] jump_boost 1 7 true
+
+
+
+
+# Fae Sounds
 execute if predicate bracken:periodic/3s if predicate bracken:random/one_in_30 run playsound bracken:faewild_ambient ambient @s ~ ~ ~ 100 1.0 1
 
 
