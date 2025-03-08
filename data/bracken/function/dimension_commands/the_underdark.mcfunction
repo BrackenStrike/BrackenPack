@@ -10,8 +10,9 @@ execute if score @s bp.1_second matches 10 run function bracken:entities/the_und
 execute if predicate bracken:periodic/2t as @e[type=piglin,tag=bp.smeaglin] at @s anchored feet run function bracken:entities/the_underdark/smeaglin
 
 # Dimension Travel
-execute if score @s bp.1_second matches 16 if data storage bracken:config {dimension_travel: true} if entity @s[y=246,dy=100] run function bracken:dimension_crossing/underdark_to_overworld
-execute if score @s bp.1_second matches 6 if data storage bracken:config {dimension_travel: true} if entity @s[y=1,dy=-200] run function bracken:dimension_crossing/underdark_to_nether
+execute if score @s bp.1_second matches 16 if data storage bracken:config {dimension_travel: true} if entity @s[y=288,dy=100] run function bracken:dimension_crossing/underdark_to_overworld
+execute if score @s bp.1_second matches 6 if data storage bracken:config {dimension_travel: true} if entity @s[y=-70,dy=-200] run function bracken:dimension_crossing/underdark_to_nether
+effect give @s[predicate=!bracken:sneak,y=235,dy=100] levitation 1 2 true
 
 execute if predicate bracken:periodic/3s if predicate bracken:random/one_in_30 at @s run function bracken:dimension_commands/other/underdark_sound_selection
 

@@ -1,9 +1,0 @@
-##########################################################
-# Description: Ancient city --> Sanctum portal travel.
-# Creators: Bracken
-##########################################################
-
-execute if entity @e[distance=..3,type=minecraft:item_display,tag=bp.sanctum_entrance] run function bracken:dimension_crossing/spawn_platforms/overworld_to_sanctum
-execute if entity @e[distance=..8,type=minecraft:item_display,tag=bp.sanctum_entrance] run effect give @s minecraft:nausea 7 0 true
-execute if entity @e[distance=..10,type=minecraft:item_display,tag=bp.sanctum_entrance] run playsound bracken:faewild_ambient_07 block @s ~ ~ ~ 1 0
-

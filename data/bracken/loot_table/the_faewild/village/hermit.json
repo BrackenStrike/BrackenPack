@@ -20,6 +20,23 @@
 				"chance": 0.2
 			}]
 		},
+		
+		  
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:dentine_touch": 1
+				},
+				"add": false
+			}]
+		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/the_faewild/mim_silk_strand",
