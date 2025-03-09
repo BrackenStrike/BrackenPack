@@ -9,7 +9,7 @@ experience add @s[scores={bp.longtick=1}] 1 points
 
 
 execute if entity @s[scores={bp.overworld=2..},gamemode=!spectator] run fill ~3 11 ~3 ~-3 0 ~-3 minecraft:azalea_leaves replace minecraft:air
-execute if entity @s[scores={bp.pax=2..},gamemode=!spectator] run fill ~3 277 ~3 ~-3 271 ~-3 minecraft:powder_snow replace minecraft:air
+
 
 # Mobs
 execute if score @s bp.1_second matches 2 run function bracken:entities/the_faewild/faewild_mobs
