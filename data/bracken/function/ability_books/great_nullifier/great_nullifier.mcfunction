@@ -5,7 +5,7 @@
 
 
 playsound bracken:ability_book_tier_2 player @a[distance=..30] ~ ~ ~ 10
-effect clear @e[distance=..10]
+effect clear @e[distance=..10,tag=!bp.boss]
 
 execute as @e[type=#bracken:tame_animal,distance=..10] run data modify entity @s Owner set from entity @p UUID
 tag @e[type=!player,distance=..30,tag=!bp.boss] add bp.tame

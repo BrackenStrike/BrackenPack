@@ -14,4 +14,4 @@ execute as @e[type=!item,tag=bp.entity] at @s run function bracken:entities/brac
 #scoreboard players add #tick bp.1_second 1
 
 ## TAME
-execute if entity @s[tag=bp.tame] run return run function bracken:entities/tame 
+execute as @e[type=!player,tag=bp.tame] at @s run function bracken:entities/tame 
