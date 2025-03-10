@@ -18,9 +18,6 @@ execute if entity @s[tag=bp.glacium] run return run function bracken:entities/gl
 ## PAX
 execute if entity @s[tag=bp.pax] run return run function bracken:entities/pax/main
 
-## TAME
-execute if entity @s[tag=bp.tame] run return run function bracken:entities/tame 
-
 ## RAIN EVENT
 execute if entity @s[tag=bp.rain_event] run return run function bracken:entities/panacea/mob/tick 
 
