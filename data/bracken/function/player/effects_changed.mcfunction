@@ -12,7 +12,7 @@ execute if predicate bracken:effect_permanence/hero_of_the_village_5 run effect 
 execute if predicate bracken:effect_permanence/hunger run effect give @s minecraft:hunger infinite 0 true
 execute if predicate bracken:effect_permanence/invisibility run effect give @s minecraft:invisibility infinite 0 true
 execute if predicate bracken:effect_permanence/night_vision run effect give @s minecraft:night_vision infinite 0 true
-execute if predicate bracken:effect_permanence/glowing run effect give @s minecraft:glowing infinite 0 true
+
 
 #Enforce Effect Immunities
 execute if predicate bracken:effect_immunity/bad_omen run effect clear @s minecraft:bad_omen
