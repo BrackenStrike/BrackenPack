@@ -1,43 +1,39 @@
 {
-    "parent": "bracken:omnidrome/chaos_biome",
-    "display": {
-        "title": {
-            "translate": "Test Tube"
-        },
-        "description": {
-            "translate": "Enter a creature containment tube",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:glass_pane"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "bracken:omnidrome/tube1": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "dimension": "bracken:omnidrome",
-                                "structures": "bracken:omnidrome_container"
-                            }
-                        }
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:omnidrome/tube1"
-        ]
-    ]
+	"parent": "bracken:omnidrome/chaos_biome",
+	"display": {
+		"title": {
+			"translate": "Test Tube"
+		},
+		"description": {
+			"translate": "Enter a creature containment tube",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:glass_pane"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:omnidrome/tube1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "bracken:omnidrome",
+							"structures": "bracken:omnidrome_container"
+						}
+					}
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:omnidrome/tube1"
+	]]
 }

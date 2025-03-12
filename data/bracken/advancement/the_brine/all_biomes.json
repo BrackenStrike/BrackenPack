@@ -13,201 +13,169 @@
 	"parent": "bracken:the_brine/enter_the_brine",
 	"criteria": {
 		"bracken:the_brine/revered_waters": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_brine/revered_waters"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_brine/revered_waters"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_brine/dead_reef": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_brine/dead_reef"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_brine/dead_reef"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_brine/sponge_ranch": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_brine/sponge_ranch"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_brine/sponge_ranch"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_brine/sugar_sand_beach": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_brine/sugar_sand_beach"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_brine/sugar_sand_beach"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_brine/kelp_cove": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_brine/kelp_cove"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_brine/kelp_cove"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_brine/keeper_district": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_brine/keeper_district"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_brine/keeper_district"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_brine/indigo_median": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_brine/indigo_median"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_brine/indigo_median"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_brine/incursive_fungus": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_brine/incursive_fungus"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_brine/incursive_fungus"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_brine/blossom_reef": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_brine/blossom_reef"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_brine/blossom_reef"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_brine/blackwater_depths": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_brine/blackwater_depths"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_brine/blackwater_depths"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		}
-	  },
-	  
-	  "requirements": [
-		[
-		  "bracken:the_brine/revered_waters"
-		],
-		[
-			"bracken:the_brine/sponge_ranch"
-		],
-		[
-			"bracken:the_brine/sugar_sand_beach"
-		],
-		[
-			"bracken:the_brine/dead_reef"
-		],
-		[
-			"bracken:the_brine/kelp_cove"
-		],
-		[
-			"bracken:the_brine/keeper_district"
-		],
-		[
-		  "bracken:the_brine/indigo_median"
-		],
-		[
-		  "bracken:the_brine/incursive_fungus"
-		],
-		[
-		  "bracken:the_brine/blossom_reef"
-		],
-		[
-		  "bracken:the_brine/blackwater_depths"
-		]
-	  ],
-	  "rewards": {
+	},
+	"requirements": [[
+		"bracken:the_brine/revered_waters"
+	],[
+		"bracken:the_brine/sponge_ranch"
+	],[
+		"bracken:the_brine/sugar_sand_beach"
+	],[
+		"bracken:the_brine/dead_reef"
+	],[
+		"bracken:the_brine/kelp_cove"
+	],[
+		"bracken:the_brine/keeper_district"
+	],[
+		"bracken:the_brine/indigo_median"
+	],[
+		"bracken:the_brine/incursive_fungus"
+	],[
+		"bracken:the_brine/blossom_reef"
+	],[
+		"bracken:the_brine/blackwater_depths"
+	]],
+	"rewards": {
 		"experience": 1000
-	  },
-	  "sends_telemetry_event": true
-	}
+	},
+	"sends_telemetry_event": true
+}

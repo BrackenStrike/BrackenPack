@@ -1,5 +1,5 @@
 {
-    "sea_level": 32,
+    "sea_level": 0,
     "disable_mob_generation": false,
     "noise_caves_enabled": true,
     "noodle_caves_enabled": true,
@@ -338,16 +338,74 @@
                     }
                 }
             },
+
             {
                 "type": "minecraft:condition",
                 "if_true": {
                     "type": "minecraft:vertical_gradient",
-                    "random_name": "netherrack",
+                    "random_name": "layer30",
                     "true_at_and_below": {
-                        "above_bottom": 0
+                        "absolute": 0
                     },
                     "false_at_and_above": {
-                        "below_top": 240
+                        "absolute": 5
+                    }
+                },
+                "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                        "Name": "minecraft:bedrock"
+                    }
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:vertical_gradient",
+                    "random_name": "layer1",
+                    "true_at_and_below": {
+                        "absolute": 4
+                    },
+                    "false_at_and_above": {
+                        "absolute": 11
+                    }
+                },
+                "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                        "Name": "minecraft:netherrack"
+                    }
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:vertical_gradient",
+                    "random_name": "layer29",
+                    "true_at_and_below": {
+                        "absolute": 10
+                    },
+                    "false_at_and_above": {
+                        "absolute": 20
+                    }
+                },
+                "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                        "Name": "minecraft:netherrack"
+                    }
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:vertical_gradient",
+                    "random_name": "layer28",
+                    "true_at_and_below": {
+                        "absolute": 19
+                    },
+                    "false_at_and_above": {
+                        "absolute": 21
                     }
                 },
                 "then_run": {
@@ -361,12 +419,12 @@
                 "type": "minecraft:condition",
                 "if_true": {
                     "type": "minecraft:vertical_gradient",
-                    "random_name": "blackstone",
+                    "random_name": "layer27",
                     "true_at_and_below": {
-                        "above_bottom": 1
+                        "absolute": 20
                     },
                     "false_at_and_above": {
-                        "below_top": 200
+                        "absolute": 52
                     }
                 },
                 "then_run": {
@@ -376,19 +434,36 @@
                     }
                 }
             },
+
+
             {
                 "type": "minecraft:condition",
                 "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                        "bracken:underdark/titan_dripstone_cavern"
+                        "bracken:the_underdark/titan_dripstone_cavern"
                     ]
                 },
                 "then_run": {
-                    "type": "minecraft:block",
-                    "result_state": {
-                        "Name": "minecraft:granite"
-                    }
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 0,
+                                "surface_type": "floor",
+                                "add_surface_depth": false,
+                                "secondary_depth_range": 10
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:granite"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             {

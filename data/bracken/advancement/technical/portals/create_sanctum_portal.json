@@ -1,0 +1,40 @@
+
+{
+
+	"criteria": {
+	  "charge_respawn_anchor": {
+		"conditions": {
+		  "location": [
+			{
+			  "condition": "minecraft:location_check",
+			  "predicate": {
+				
+				"block": {
+				  "blocks": "minecraft:reinforced_deepslate"
+				}
+			  }
+			},
+			{
+			  "condition": "minecraft:match_tool",
+			  "predicate": {
+				"items": [
+					"minecraft:fire_charge",
+					"minecraft:flint_and_steel"
+			  ]
+			  }
+			}
+		  ]
+		},
+		"trigger": "minecraft:item_used_on_block"
+	  }
+	},
+	
+	"requirements": [
+	  [
+		"charge_respawn_anchor"
+	  ]
+	],
+	"rewards": {
+		"function": "bracken:item/bagpipe"
+	}
+  }

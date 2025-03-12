@@ -20,7 +20,6 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:enchantment_glint_override": true,
-					"minecraft:custom_model_data": 888502,
 					"minecraft:banner_patterns": [{
 						"color": "white",
 						"pattern": "rhombus"

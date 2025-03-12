@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": [
+
+        "bracken:the_faewild/darkthunder_thicket",
+        "bracken:the_faewild/malmsey_meadow",
+        "bracken:the_faewild/hidden_hamlet",
+        "bracken:the_faewild/wanderlight_woods"
+    ],
+    "spawn_overrides": {},
+    "start_pool": "bracken:the_faewild/fae_cloud_node",
+    "size": 6,
+    "step": "surface_structures",
+    "start_height": {
+        "absolute": 278
+    },
+    "max_distance_from_center": 36,
+    "use_expansion_hack": false
+}

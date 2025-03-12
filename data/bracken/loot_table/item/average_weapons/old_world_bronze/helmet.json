@@ -1,0 +1,45 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:netherite_helmet",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Old World Bronze Helmet"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:average_weapons/old_world_bronze/helmet",
+					"minecraft:max_damage": 2070,
+					"minecraft:equippable": {
+						"slot": "head",
+						"asset_id": "bracken:old_world_bronze"
+					}
+				}
+			},{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:armor",
+					"id": "bracken:old_world_bronze_helmet_armor",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "head"
+				},{
+					"attribute": "minecraft:armor_toughness",
+					"id": "bracken:old_world_bronze_helmet_armor_tough",
+					"amount": 0,
+					"operation": "add_value",
+					"slot": "head"
+				}]
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.48,
+					"max": 0.93
+				}
+			}]
+		}]
+	}]
+}

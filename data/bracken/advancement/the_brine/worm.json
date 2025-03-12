@@ -11,7 +11,7 @@
 		"icon": {
 			"id": "minecraft:bamboo",
 			"components": {
-				"minecraft:custom_model_data": 888520
+				"minecraft:item_model": "bracken:shadows/bobbit_worm"
 			}
 		},
 		"frame": "task",

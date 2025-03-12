@@ -10,7 +10,7 @@
 		"icon": {
 			"id": "minecraft:nether_wart",
 			"components": {
-				"minecraft:custom_model_data": 888506
+				"minecraft:item_model": "bracken:the_brine/nautilus_chamber"
 			}
 		},
 		"frame": "task",

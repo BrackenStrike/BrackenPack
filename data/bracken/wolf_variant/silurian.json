@@ -1,0 +1,6 @@
+{
+  "angry_texture": "bracken:entity/wolf/panacea/wolf_pana_angry",
+  "biomes": "#minecraft:is_panacea",
+  "tame_texture": "bracken:entity/wolf/panacea/wolf_pana_tame",
+  "wild_texture": "bracken:entity/wolf/panacea/wolf_pana"
+}

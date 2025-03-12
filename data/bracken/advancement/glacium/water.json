@@ -20,11 +20,17 @@
 		"bracken:glacium/water1": {
 			"trigger": "minecraft:effects_changed",
 			"conditions": {
-				"effects": { "minecraft:wither": {} },
-				"player": { "location": {
-					"dimension": "bracken:glacium",
-					"block": { "blocks": "minecraft:water" }
-				}}
+				"effects": {
+					"minecraft:wither": {}
+				},
+				"player": {
+					"location": {
+						"dimension": "bracken:glacium",
+						"block": {
+							"blocks": "minecraft:water"
+						}
+					}
+				}
 			}
 		}
 	},

@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:netherite_upgrade_smithing_template",
+	"base": "minecraft:diamond_helmet",
+	"addition": "minecraft:wolf_spawn_egg",
+	"result": {
+		"id": "minecraft:netherite_helmet",
+		"components": {
+			"minecraft:max_damage": 2150,
+			"minecraft:enchantment_glint_override": false,
+			"minecraft:item_name": "\"Silversteel Helmet\"",
+			"minecraft:enchantments": {
+				"bracken:silvered_fix": 1
+			},
+			"minecraft:item_model": "bracken:average_weapons/silversteel/helmet",
+			"minecraft:equippable": {
+				"slot": "head",
+				"asset_id": "bracken:silversteel"
+			},
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:armor",
+					"id": "bracken:silversteel_helmet",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "head"
+				}],
+				"show_in_tooltip": true
+			}
+		}
+	}
+}

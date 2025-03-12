@@ -7,7 +7,7 @@
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:custom_model_data": 888501,
+					"minecraft:item_model": "bracken:species_beginner_book",
 					"minecraft:written_book_content": {
 						"pages": [
 							"[[\"CLICK A SPECIES\n\n\",{\"text\":\"Automech\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Are greatly resiliant to damage and knockback\n+ Have saturation while standing on a redstone block\n+ Have saturation and increased speed while in Omnidrome\n- Are slower than other species, especially when wet\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.automech\"},\"color\":\"green\"},\"\n\n\",{\"text\":\"Dweller\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Have increased mining speed\n+ Have permanent night vision\n- Are sensitive to bright light\n- Are always hungry and are never satisfied with food\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.dweller\"},\"color\":\"dark_gray\"},\"\n\n\",{\"text\":\"Enderling\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Can teleport by holding sneak and right-clicking with nothing in the offhand\n+ Teleport range is greatly increased in The End\n+ Chorus fruit will teleport you over a much larger spread distance than normal\n+ Have slightly increased block interaction range\n- Will take damage from sources of water\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.enderling\"},\"color\":\"light_purple\"},\"\n\n\",{\"text\":\"Faefolk\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Can jump two blocks high\n+ Have increased movement speed\n+ Have increased jump height and movement speed in the Faewild\n+ Will passively gain small amounts of experience points over time \n- Have decreased attack damage\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.faefolk\"},\"color\":\"blue\"},\"\n\n\",{\"text\":\"Frostkin\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Are more resilient to damage\n+ Have immunity to Slowness, Poison, Wither, Mining Fatigue and Hunger\n+ Are unaffected by the frigid colds of Glacium\n+ Can survive without food \n+ Are empowered by standing in powdered snow\n- Become weak and hungry while in hot climates\n- Take increased damage from fire and lava\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.frostkin\"},\"color\":\"aqua\"},\"\n\n\",{\"text\":\"Human\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"+ Have Luck x5 and Hero of the Village x5 when in the Overworld\n+ Have no downsides\"}},\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger bp.human\"},\"color\":\"red\"}]]",
@@ -18,7 +18,8 @@
 						"generation": 3
 					},
 					"minecraft:custom_data": {
-						"bp.species_book": 10
+						"bp.species_book": 10,
+						"bp": { "id": "species_beginner_book" }
 					}
 				}
 			},{

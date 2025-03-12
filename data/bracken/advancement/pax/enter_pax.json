@@ -1,28 +1,30 @@
 {
-    "display": {
-        "title": {
-            "translate": "Pax"
-        },
-        "description": {
-            "translate": "Realm of peace",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:netherite_sword",
-            "components": {
-                "minecraft:custom_model_data": 888501
-            }
-        },
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true,
-        "background": "bracken:textures/gui/advancements/backgrounds/pax.png"
-    },
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:changed_dimension",
-            "conditions": { "to": "bracken:pax" }
-        }
-    }
+	"display": {
+		"title": {
+			"translate": "Pax"
+		},
+		"description": {
+			"translate": "Realm of peace",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:netherite_sword",
+			"components": {
+				"minecraft:item_model": "bracken:paxmaker_sword"
+			}
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true,
+		"background": "bracken:textures/gui/advancements/backgrounds/pax.png"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "bracken:pax"
+			}
+		}
+	}
 }

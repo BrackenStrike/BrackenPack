@@ -1,10 +1,16 @@
 {
-	"criteria": { "equipment_tracking": {
-		"trigger": "minecraft:inventory_changed",
-		"conditions": { "player": [{
-			"condition": "reference",
-			"name": "bracken:item/tinted_glasses"
-		}]}
-	}},
-	"rewards": { "function": "bracken:equipment/tinted_glasses/on" }
+	"criteria": {
+		"equipment_tracking": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [{
+					"condition": "reference",
+					"name": "bracken:item/tinted_glasses"
+				}]
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:equipment/tinted_glasses/on"
+	}
 }

@@ -12,7 +12,7 @@
 			"id": "minecraft:diamond_leggings",
 			"components": {
 				"minecraft:enchantment_glint_override": true,
-				"minecraft:custom_model_data": 888502
+				"minecraft:item_model": "bracken:average_weapons/cryolith/leggings"
 			}
 		},
 		"frame": "task",
@@ -36,16 +36,15 @@
 				"items": [{
 					"items": "minecraft:diamond_leggings",
 					"components": {
-					"minecraft:enchantment_glint_override": true,
-					"minecraft:custom_model_data": 888502
+						"minecraft:item_model": "bracken:average_weapons/cryolith/leggings"
 					}
-				  }]
+				}]
 			}
 		}
 	},
 	"rewards": {
 		"experience": 2
-	  },
+	},
 	"requirements": [[
 		"bracken:glacium/leggings1"
 	]]

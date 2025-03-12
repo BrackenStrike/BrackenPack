@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"# #"
+	],
+	"key": {
+		"#": "minecraft:copper_ingot"
+	},
+	"result": {
+		"id": "minecraft:chainmail_helmet",
+		"components": {
+			"minecraft:max_damage": 175,
+			"minecraft:item_name": "\"Copper Helmet\"",
+			"minecraft:equippable": {
+				"slot": "head",
+				"asset_id": "bracken:copper"
+			},
+			"minecraft:item_model": "bracken:average_weapons/copper/helmet"
+		}
+	}
+}

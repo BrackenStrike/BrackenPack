@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:fae_clouds",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 8,
+        "separation": 4,
+        "salt": 625772379
+    }
+}

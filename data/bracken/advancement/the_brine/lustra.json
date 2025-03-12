@@ -11,7 +11,7 @@
 		"icon": {
 			"id": "minecraft:sheep_spawn_egg",
 			"components": {
-				"minecraft:custom_model_data": 888501
+				"minecraft:item_model": "bracken:the_brine/lustra_pearl"
 			}
 		},
 		"frame": "task",

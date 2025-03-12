@@ -95,77 +95,77 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_warhammer",
+			"value": "bracken:item/average_weapons/netherite/warhammer",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_bludgeon",
+			"value": "bracken:item/average_weapons/netherite/bludgeon",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_buckler",
+			"value": "bracken:item/average_weapons/netherite/buckler",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_cutlass",
+			"value": "bracken:item/average_weapons/netherite/cutlass",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_dagger",
+			"value": "bracken:item/average_weapons/netherite/dagger",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_greatsword",
+			"value": "bracken:item/average_weapons/netherite/greatsword",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_katana",
+			"value": "bracken:item/average_weapons/netherite/katana",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_rapier",
+			"value": "bracken:item/average_weapons/netherite/rapier",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_sabre",
+			"value": "bracken:item/average_weapons/netherite/sabre",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_short_spear",
+			"value": "bracken:item/average_weapons/netherite/short_spear",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite_sickle",
+			"value": "bracken:item/average_weapons/netherite/sickle",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1

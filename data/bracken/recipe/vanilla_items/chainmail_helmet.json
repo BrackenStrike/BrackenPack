@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"# #"
+	],
+	"key": {
+		"#": "minecraft:chain"
+	},
+	"result": {
+		"id": "minecraft:chainmail_helmet",
+		"count": 1
+	}
+}

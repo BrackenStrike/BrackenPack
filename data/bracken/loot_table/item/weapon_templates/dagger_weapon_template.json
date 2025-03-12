@@ -10,8 +10,10 @@
 			"target": "item_name",
 			"name": "Dagger Weapon Template"
 		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888504
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:weapon_templates/dagger"
+			}
 		}]
 	}]
 }

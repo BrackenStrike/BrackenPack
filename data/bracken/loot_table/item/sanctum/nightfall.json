@@ -20,10 +20,10 @@
 						"amount": 2,
 						"operation": "add_value"
 					}],
-					"minecraft:item_model": "bracken:custom/nightfall",
+					"minecraft:item_model": "bracken:nightfall",
 					"minecraft:equippable": {
 						"slot": "chest",
-						"model": "bracken:nightfall",
+						"asset_id": "bracken:nightfall",
 						"equip_sound": "minecraft:entity.ender_dragon.flap"
 					},
 					"minecraft:rarity": "rare",

@@ -10,8 +10,10 @@
 			"target": "item_name",
 			"name": "Voidfish Venom"
 		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888511
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:the_brine/voidfish_venom"
+			}
 		},{
 			"function": "minecraft:set_custom_data",
 			"tag": "{bp.potion:8b,bp:{id:\"potion_recipe\"}}"

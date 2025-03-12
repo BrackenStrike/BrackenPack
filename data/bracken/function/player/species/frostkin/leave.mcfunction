@@ -10,6 +10,7 @@ team leave @s[team=Frostkin]
 attribute @s minecraft:armor modifier remove bracken:frostkin.armor
 attribute @s minecraft:armor_toughness modifier remove bracken:frostkin.armor_toughness
 attribute @s minecraft:scale modifier remove bracken:frostkin.scale
+attribute @s minecraft:burning_time modifier remove bracken:frostkin.burning_time
 
 attribute @s minecraft:step_height modifier remove bracken:frostkin.step_height
 attribute @s minecraft:max_health modifier remove bracken:frostkin.max_health

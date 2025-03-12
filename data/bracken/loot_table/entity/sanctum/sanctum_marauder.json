@@ -13,7 +13,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
-			"value": "bracken:item/average_weapons/netherite_dagger"
+			"value": "bracken:item/average_weapons/netherite/dagger"
 		}],
 		"conditions": [{
 			"condition": "minecraft:random_chance",

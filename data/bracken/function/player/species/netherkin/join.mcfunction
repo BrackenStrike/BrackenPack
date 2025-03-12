@@ -5,7 +5,7 @@
 
 advancement revoke @s only bracken:technical/food/species_fruit/netherkin
 execute if entity @s[tag=bp.species] run function bracken:player/species/leave
-clear @s written_book[minecraft:custom_model_data=888501] 1
+clear @s written_book[minecraft:custom_data~{bp:{id:"species_beginner_book"}}]
 
 tag @s add bp.species
 tag @s add bp.netherkin

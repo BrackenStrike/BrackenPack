@@ -5,25 +5,35 @@
 			"conditions": {
 				"item": {
 					"items": "minecraft:name_tag",
-					"components": { "minecraft:custom_name": "\"_Alphie_\"" }
+					"components": {
+						"minecraft:custom_name": "\"_Alphie_\""
+					}
 				},
-				"entity": { "type": "minecraft:wolf" }
+				"entity": {
+					"type": "minecraft:wolf"
+				}
 			}
 		},
 		"use_egg": {
 			"trigger": "minecraft:item_used_on_block",
-			"conditions": { "location": [{
-				"condition": "match_tool",
-				"predicate": {
-					"items": "minecraft:wolf_spawn_egg",
-					"predicates": { "minecraft:custom_data": "{bp:{id:\"alphie_egg\"}}" }
-				}
-			}]}
+			"conditions": {
+				"location": [{
+					"condition": "match_tool",
+					"predicate": {
+						"items": "minecraft:wolf_spawn_egg",
+						"predicates": {
+							"minecraft:custom_data": "{bp:{id:\"alphie_egg\"}}"
+						}
+					}
+				}]
+			}
 		}
 	},
 	"requirements": [[
 		"name_wolf",
 		"use_egg"
 	]],
-	"rewards": { "function": "bracken:entities/alphie" }
+	"rewards": {
+		"function": "bracken:entities/alphie"
+	}
 }

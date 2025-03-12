@@ -11,7 +11,7 @@ effect give @s[scores={bp.food=..18}] minecraft:saturation 1 0 true
 execute if predicate bracken:in_water run function bracken:dimension_commands/other/pax_waters
 
 # Dimension Travel
-execute if score @s bp.1_second matches 8 if data storage bracken:config {dimension_travel: true} if entity @s[y=-15,dy=-300] run function bracken:dimension_crossing/pax_to_faewild
+execute if score @s bp.1_second matches 8 if data storage bracken:config {dimension_travel: true} if entity @s[y=15,dy=-300] run function bracken:dimension_crossing/pax_to_faewild
 
 # PAX CONDITIONAL SLOWFALL
 #execute if predicate bracken:periodic/2t if blocks ~1 ~1 ~1 ~-1 ~-10 ~-1 ~ 500 ~ masked unless entity @s[predicate=bracken:item/wearing_elytra] run effect give @s[gamemode=!creative] minecraft:slow_falling 3 0 true

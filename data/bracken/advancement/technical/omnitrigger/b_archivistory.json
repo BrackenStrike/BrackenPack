@@ -5,7 +5,9 @@
 			"conditions": {
 				"player": [{
 					"condition": "minecraft:location_check",
-					"predicate": { "biomes": "bracken:omnidrome/archivistory" }
+					"predicate": {
+						"biomes": "bracken:omnidrome/archivistory"
+					}
 				}]
 			}
 		}

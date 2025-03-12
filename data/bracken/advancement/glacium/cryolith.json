@@ -1,52 +1,46 @@
 {
-    "parent": "bracken:glacium/enter_glacium",
-    "display": {
-        "title": {
-            "translate": "Frozen Tears"
-        },
-        "description": {
-            "translate": "Obtain cryolith in Glacium",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:polar_bear_spawn_egg",
+	"parent": "bracken:glacium/enter_glacium",
+	"display": {
+		"title": {
+			"translate": "Frozen Tears"
+		},
+		"description": {
+			"translate": "Obtain cryolith in Glacium",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:polar_bear_spawn_egg",
 			"components": {
-				"minecraft:custom_model_data": 888503
+				"minecraft:item_model": "bracken:cryolith"
 			}
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "bracken:glacium/cryolith1": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "dimension": "bracken:glacium"
-                            }
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:polar_bear_spawn_egg"
-                        ]
-                    }
-                ]
-            }
-        }
-    },
-    "requirements": [
-        [
-            "bracken:glacium/cryolith1"
-        ]
-    ]
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:glacium/cryolith1": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"dimension": "bracken:glacium"
+						}
+					}
+				}],
+				"items": [{
+					"items": [
+						"minecraft:polar_bear_spawn_egg"
+					]
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:glacium/cryolith1"
+	]]
 }

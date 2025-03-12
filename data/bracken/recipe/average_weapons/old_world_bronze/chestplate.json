@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:smithing_transform",
+	"template": "minecraft:netherite_upgrade_smithing_template",
+	"base": "minecraft:diamond_chestplate",
+	"addition": "minecraft:cat_spawn_egg",
+	"result": {
+		"id": "minecraft:netherite_chestplate",
+		"components": {
+			"minecraft:max_damage": 2070,
+			"minecraft:equippable": {
+				"slot": "chest",
+				"asset_id": "bracken:old_world_bronze"
+			},
+			"minecraft:item_name": "\"Old World Bronze Chestplate\"",
+			"minecraft:item_model": "bracken:average_weapons/old_world_bronze/chestplate",
+			"minecraft:attribute_modifiers": {
+				"modifiers": [{
+					"type": "minecraft:armor",
+					"id": "bracken:old_world_bronze_chestplate",
+					"amount": 9,
+					"operation": "add_value",
+					"slot": "chest"
+				}],
+				"show_in_tooltip": true
+			}
+		}
+	}
+}

@@ -13,144 +13,121 @@
 	"parent": "bracken:the_underdark/enter_underdark",
 	"criteria": {
 		"bracken:the_underdark/crystal_caves": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_underdark/crystal_caves"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_underdark/crystal_caves"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_underdark/diorite_sea": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_underdark/diorite_sea"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_underdark/diorite_sea"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_underdark/eroded_basin": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_underdark/eroded_basin"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_underdark/eroded_basin"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_underdark/petrified_forest": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_underdark/petrified_forest"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_underdark/petrified_forest"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_underdark/sulfur_caldera": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_underdark/sulfur_caldera"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_underdark/sulfur_caldera"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_underdark/titan_dripstone_cavern": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_underdark/titan_dripstone_cavern"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_underdark/titan_dripstone_cavern"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:the_underdark/ruby_fungi_forest": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:the_underdark/ruby_fungi_forest"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:the_underdark/ruby_fungi_forest"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		}
-	  },
-	  
-	  "requirements": [
-		[
-		  "bracken:the_underdark/crystal_caves"
-		],
-		[
-			"bracken:the_underdark/sulfur_caldera"
-		  ],
-		  [
-			"bracken:the_underdark/diorite_sea"
-		  ],
-		[
-		  "bracken:the_underdark/ruby_fungi_forest"
-		],
-		[
-		  "bracken:the_underdark/eroded_basin"
-		],
-		[
-		  "bracken:the_underdark/petrified_forest"
-		],
-		[
-		  "bracken:the_underdark/titan_dripstone_cavern"
-		]
-	  ],
-	  "rewards": {
+	},
+	"requirements": [[
+		"bracken:the_underdark/crystal_caves"
+	],[
+		"bracken:the_underdark/sulfur_caldera"
+	],[
+		"bracken:the_underdark/diorite_sea"
+	],[
+		"bracken:the_underdark/ruby_fungi_forest"
+	],[
+		"bracken:the_underdark/eroded_basin"
+	],[
+		"bracken:the_underdark/petrified_forest"
+	],[
+		"bracken:the_underdark/titan_dripstone_cavern"
+	]],
+	"rewards": {
 		"experience": 500
-	  },
-	  "sends_telemetry_event": true
-	}
+	},
+	"sends_telemetry_event": true
+}

@@ -1322,7 +1322,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:spectrality": 1
+					"bracken:spectrality_fix": 1
 				},
 				"add": false
 			}]

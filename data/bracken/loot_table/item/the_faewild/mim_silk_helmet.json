@@ -9,10 +9,6 @@
 				"target": "item_name",
 				"name": "Mim Silk Helmet"
 			},{
-				"function": "minecraft:set_custom_model_data",
-				"value": 888509
-			},
-			{
 				"function": "set_enchantments",
 				"enchantments": {
 					"bracken:astuteness_fix": 1
@@ -20,10 +16,11 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
+					"minecraft:item_model": "bracken:the_faewild/mim_silk_helmet",
 					"minecraft:equippable": {
 						"slot": "head",
 						"equip_sound": "minecraft:block.wool.step",
-						"model": "bracken:silk"
+						"asset_id": "bracken:silk"
 					}
 				}
 			},{

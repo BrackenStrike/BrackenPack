@@ -174,7 +174,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/diamond_cutlass",
+			"value": "bracken:item/average_weapons/diamond/cutlass",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1

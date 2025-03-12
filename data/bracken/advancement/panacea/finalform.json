@@ -1,27 +1,27 @@
 {
-    "parent": "bracken:panacea/sporangium",
-    "display": {
-        "title": {
-            "translate": "Hunt a Legend"
-        },
-        "description": {
-            "translate": "Destroy the ancient Sporangium",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:netherite_axe",
-            "components": {
-                "minecraft:custom_model_data": 888501
-            }
-        },
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "discovered": {
-            "trigger": "minecraft:impossible"
-        }
-    }
+	"parent": "bracken:panacea/sporangium",
+	"display": {
+		"title": {
+			"translate": "Hunt a Legend"
+		},
+		"description": {
+			"translate": "Destroy the ancient Sporangium",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:netherite_axe",
+			"components": {
+				"minecraft:item_model": "bracken:mortal_cull"
+			}
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	}
 }

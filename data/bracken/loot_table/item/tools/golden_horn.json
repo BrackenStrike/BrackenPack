@@ -19,11 +19,14 @@
 			}],
 			"mode": "insert"
 		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888503
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:tools/golden_horn",
+				"minecraft:instrument": "minecraft:ponder_goat_horn"
+			}
 		},{
 			"function": "minecraft:set_custom_data",
-			"tag": "{instrument:\"minecraft:ponder_goat_horn\",bp:{id:\"golden_horn\"}}"
+			"tag": "{bp:{id:\"golden_horn\"}}"
 		}]
 	}]
 }

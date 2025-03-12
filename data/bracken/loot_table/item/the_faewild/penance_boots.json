@@ -15,7 +15,6 @@
 						"minecraft:mending": 1,
 						"bracken:pushback": 2
 					},
-					"minecraft:custom_model_data": 888501,
 					"minecraft:trim": {
 						"material": "minecraft:lapis",
 						"pattern": "minecraft:eye"

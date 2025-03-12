@@ -26,8 +26,10 @@
 			}],
 			"mode": "insert"
 		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888501
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:portal_keys/brine_key"
+			}
 		}]
 	}]
 }

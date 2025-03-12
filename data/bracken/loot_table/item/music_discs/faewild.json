@@ -7,12 +7,10 @@
 		}],
 		"functions": [{
 			"function": "minecraft:set_components",
-			"components": { "minecraft:jukebox_playable": {
-				"song": "bracken:faewild"
-			}}
-		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888502
+			"components": {
+				"minecraft:item_model": "bracken:music_discs/faewild",
+				"minecraft:jukebox_playable": { "song": "bracken:faewild" }
+			}
 		},{
 			"function": "minecraft:set_custom_data",
 			"tag": "{bracken:{custom_music_disc:1b,custom_music:\"faewild\"}}"

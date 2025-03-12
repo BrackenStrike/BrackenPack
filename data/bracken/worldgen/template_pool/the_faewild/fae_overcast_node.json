@@ -1,0 +1,16 @@
+{
+    "name": "overcast_node",
+    "fallback": "minecraft:empty",
+    "elements": [
+        
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:the_faewild/fae_overcast_node",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "overcast",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:the_faewild/fae_beanstalk_d",
+                "processors": "bracken:beanstalk_ground",
+                "projection": "rigid",
+                "element_type": "minecraft:legacy_single_pool_element"
+            }
+        }
+    ]
+}

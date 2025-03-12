@@ -1,0 +1,31 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:stick",
+			"functions": [{
+				"function": "minecraft:set_components",
+				"components": {
+					
+					"minecraft:enchantments": {
+						"bracken:blinding_fix": 1
+					},
+					"minecraft:item_model": "bracken:average_weapons/wands/eye_blossom_wand",
+					"minecraft:enchantment_glint_override": false
+					
+					
+				}
+			},{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Eye Blossom Wand"
+			},{
+				"function": "minecraft:set_custom_data",
+				"tag": {
+					"bp": { "id": "eye_blossom_wand" }
+				}
+			}]
+		}]
+	}]
+}

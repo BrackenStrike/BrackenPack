@@ -1,0 +1,19 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:dune_armor_trim_smithing_template"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Greatsword Weapon Template"
+		},{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:weapon_templates/greatsword"
+			}
+		}]
+	}]
+}

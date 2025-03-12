@@ -1,25 +1,22 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "category": "equipment",
-    "pattern": [
-        "$#$",
-        "$#$",
-        " / "
-    ],
-    "key": {
-        "#": "#minecraft:planks"
-	  ,
-        "/": "minecraft:stick"
-        ,
-        "$": "minecraft:vex_spawn_egg"
-        
-    },
-    "result": {
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"$#$",
+		"$#$",
+		" / "
+	],
+	"key": {
+		"#": "#minecraft:planks",
+		"/": "minecraft:stick",
+		"$": "minecraft:vex_spawn_egg"
+	},
+	"result": {
 		"id": "minecraft:wooden_sword",
 		"components": {
 			"minecraft:max_damage": 59,
 			"minecraft:item_name": "\"Toothed Sword\"",
-			"minecraft:custom_model_data": 888509,
+			"minecraft:item_model": "bracken:average_weapons/toothed_sword",
 			"minecraft:lore": [
 				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
 				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",

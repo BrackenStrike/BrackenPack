@@ -14,7 +14,7 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:custom_model_data": 888501,
+					"minecraft:item_model": "bracken:tools/broken_compass",
 					"minecraft:custom_data": {
 						"bp": { "id": "unruly_compass" }
 					}

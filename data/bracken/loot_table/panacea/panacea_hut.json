@@ -77,7 +77,7 @@
 		},
 		{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/copper_short_spear",
+			"value": "bracken:item/average_weapons/copper/short_spear",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.05
@@ -85,7 +85,7 @@
 		},
 		{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron_cutlass",
+			"value": "bracken:item/average_weapons/iron/cutlass",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.05

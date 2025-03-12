@@ -1,0 +1,35 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:golden_helmet",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Lustra Helmet"
+			},{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:integrity_fix": 1
+				}
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:average_weapons/lustra/helmet",
+					"minecraft:max_damage": 3000,
+					"minecraft:equippable": {
+						"slot": "head",
+						"asset_id": "bracken:lustra"
+					}
+				}
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.48,
+					"max": 0.93
+				}
+			}]
+		}]
+	}]
+}

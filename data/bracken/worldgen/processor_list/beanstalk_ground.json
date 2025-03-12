@@ -1,0 +1,214 @@
+{
+    "processors": [
+      {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          
+          
+          {
+            "input_predicate": {
+              "block": "minecraft:moss_block",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:stone",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:mangrove_roots"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:vine",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:stone",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:stone"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:azalea_leaves",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:stone",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:stone"
+            }
+          },
+
+          {
+            "input_predicate": {
+              "block": "minecraft:moss_block",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:dirt",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:mangrove_roots"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:vine",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:dirt",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:dirt"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:azalea_leaves",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:dirt",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:mangrove_roots"
+            }
+          },
+
+          {
+            "input_predicate": {
+              "block": "minecraft:moss_block",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:grass_block",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:mangrove_roots"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:vine",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:grass_block",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:grass_block"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:azalea_leaves",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:grass_block",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:mangrove_roots"
+            }
+          },
+
+
+          {
+            "input_predicate": {
+              "block": "minecraft:moss_block",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:cave_air",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:cave_air"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:vine",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:cave_air",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:cave_air"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:azalea_leaves",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:cave_air",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:cave_air"
+            }
+          },
+
+
+          {
+            "input_predicate": {
+              "block": "minecraft:moss_block",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:water",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:muddy_mangrove_roots"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:vine",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:water",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:water"
+            }
+          },
+          {
+            "input_predicate": {
+              "block": "minecraft:azalea_leaves",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "block": "minecraft:water",
+              "predicate_type": "minecraft:block_match"
+            },
+            "output_state": {
+              "Name": "minecraft:muddy_mangrove_roots"
+            }
+          }
+          
+          
+        ]
+      }
+    ]
+  }

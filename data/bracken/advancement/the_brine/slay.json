@@ -1,0 +1,37 @@
+{
+	"parent": "bracken:the_brine/kraken",
+	"display": {
+		"title": {
+			"translate": "Kraken-Lackin'"
+		},
+		"description": {
+			"translate": "Slay the Kraken",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:ink_sac"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:the_brine/slay21": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"type": "minecraft:squid",
+						"nbt": "{Tags:[\"bp.kraken\"]}"
+					}
+				}]
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:the_brine/slay21"
+	]]
+}

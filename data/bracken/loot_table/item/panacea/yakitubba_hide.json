@@ -19,8 +19,10 @@
 			}],
 			"mode": "insert"
 		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888502
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:yakitubba_hide"
+			}
 		},{
 			"function": "minecraft:set_custom_data",
 			"tag": "{bp:{id:\"yakitubba_hide\"}}"

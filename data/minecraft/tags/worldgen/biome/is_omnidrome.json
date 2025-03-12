@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+"bracken:omnidrome/archivistory",
+"bracken:omnidrome/fabricylum",
+"bracken:omnidrome/infrapolis",
+"bracken:omnidrome/malvergent_zone",
+"bracken:omnidrome/stanterion"
+]
+}

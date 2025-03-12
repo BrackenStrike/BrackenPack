@@ -21,7 +21,9 @@
 			"trigger": "minecraft:changed_dimension",
 			"conditions": {
 				"to": "bracken:sanctum",
-				"player": { "nbt": "{Tags:[\"bp.outlander\"]}" }
+				"player": {
+					"nbt": "{Tags:[\"bp.outlander\"]}"
+				}
 			}
 		}
 	}

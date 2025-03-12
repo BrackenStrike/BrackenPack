@@ -17,109 +17,90 @@
 	},
 	"parent": "bracken:sanctum/enter_sanctum",
 	"criteria": {
-	
 		"bracken:sanctum/dark_soot_dunes": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:sanctum/dark_soot_dunes"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:sanctum/dark_soot_dunes"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:sanctum/rubblework_city": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:sanctum/rubblework_city"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:sanctum/rubblework_city"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:sanctum/no_mans_land": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:sanctum/no_mans_land"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:sanctum/no_mans_land"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:sanctum/toxic_playa": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:sanctum/toxic_playa"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:sanctum/toxic_playa"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:sanctum/voidship_harbor": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:sanctum/voidship_harbor"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:sanctum/voidship_harbor"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		}
-	  },
-	  
-	  "requirements": [
-		
-		  [
-			"bracken:sanctum/dark_soot_dunes"
-		  ],
-		[
-		  "bracken:sanctum/no_mans_land"
-		],
-		[
-		  "bracken:sanctum/rubblework_city"
-		],
-		[
-		  "bracken:sanctum/toxic_playa"
-		],
-		[
-		  "bracken:sanctum/voidship_harbor"
-		]
-	  ],
-	  "rewards": {
+	},
+	"requirements": [[
+		"bracken:sanctum/dark_soot_dunes"
+	],[
+		"bracken:sanctum/no_mans_land"
+	],[
+		"bracken:sanctum/rubblework_city"
+	],[
+		"bracken:sanctum/toxic_playa"
+	],[
+		"bracken:sanctum/voidship_harbor"
+	]],
+	"rewards": {
 		"experience": 500
-	  },
-	  "sends_telemetry_event": true
-	}
+	},
+	"sends_telemetry_event": true
+}

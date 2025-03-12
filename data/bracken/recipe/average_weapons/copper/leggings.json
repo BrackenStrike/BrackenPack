@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"# #",
+		"# #"
+	],
+	"key": {
+		"#": "minecraft:copper_ingot"
+	},
+	"result": {
+		"id": "minecraft:chainmail_leggings",
+		"components": {
+			"minecraft:max_damage": 175,
+			"minecraft:item_name": "\"Copper Leggings\"",
+			"minecraft:equippable": {
+				"slot": "legs",
+				"asset_id": "bracken:copper"
+			},
+			"minecraft:item_model": "bracken:average_weapons/copper/leggings"
+		}
+	}
+}

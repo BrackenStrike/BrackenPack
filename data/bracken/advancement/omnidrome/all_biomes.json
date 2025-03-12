@@ -12,110 +12,90 @@
 	},
 	"parent": "bracken:omnidrome/enter_omnidrome",
 	"criteria": {
-		
-		
 		"bracken:omnidrome/stanterion": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:omnidrome/stanterion"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:omnidrome/stanterion"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:omnidrome/malvergent_zone": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:omnidrome/malvergent_zone"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:omnidrome/malvergent_zone"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:omnidrome/infrapolis": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:omnidrome/infrapolis"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:omnidrome/infrapolis"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:omnidrome/fabricylum": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:omnidrome/fabricylum"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:omnidrome/fabricylum"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		},
 		"bracken:omnidrome/archivistory": {
-		  "conditions": {
-			"player": [
-			  {
-				"condition": "minecraft:entity_properties",
-				"entity": "this",
-				"predicate": {
-				  "location": {
-					"biomes": "bracken:omnidrome/archivistory"
-				  }
-				}
-			  }
-			]
-		  },
-		  "trigger": "minecraft:location"
+			"conditions": {
+				"player": [{
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"location": {
+							"biomes": "bracken:omnidrome/archivistory"
+						}
+					}
+				}]
+			},
+			"trigger": "minecraft:location"
 		}
-	  },
-	  
-	  "requirements": [
-		
-		  [
-			"bracken:omnidrome/stanterion"
-		  ],
-		[
-		  "bracken:omnidrome/malvergent_zone"
-		],
-		[
-		  "bracken:omnidrome/infrapolis"
-		],
-		[
-		  "bracken:omnidrome/fabricylum"
-		],
-		[
-		  "bracken:omnidrome/archivistory"
-		]
-	  ],
-	  "rewards": {
+	},
+	"requirements": [[
+		"bracken:omnidrome/stanterion"
+	],[
+		"bracken:omnidrome/malvergent_zone"
+	],[
+		"bracken:omnidrome/infrapolis"
+	],[
+		"bracken:omnidrome/fabricylum"
+	],[
+		"bracken:omnidrome/archivistory"
+	]],
+	"rewards": {
 		"experience": 500
-	  },
-	  "sends_telemetry_event": true
-	}
+	},
+	"sends_telemetry_event": true
+}

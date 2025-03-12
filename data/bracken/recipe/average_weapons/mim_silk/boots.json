@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"# #",
+		"# #"
+	],
+	"key": {
+		"#": "minecraft:shulker_spawn_egg"
+	},
+	"result": {
+		"id": "minecraft:chainmail_boots",
+		"components": {
+			"minecraft:max_damage": 32,
+			"minecraft:equippable": {
+				"slot": "feet",
+				"equip_sound": "minecraft:block.wool.step",
+				"asset_id": "bracken:silk"
+			},
+			"minecraft:item_name": "\"Mim Silk Boots\"",
+			"minecraft:item_model": "bracken:the_faewild/mim_silk_boots",
+			"minecraft:enchantments": {
+				"bracken:astuteness_fix": 1
+			}
+		}
+	}
+}

@@ -11,5 +11,5 @@ attribute @s minecraft:scale modifier add bracken:enderling.scale 0.25 add_multi
 tag @s add bp.species
 tag @s add bp.enderling
 execute if data storage bracken:config {teams_on:true} run team join Enderling
-clear @s written_book[minecraft:custom_model_data=888501] 1
+clear @s written_book[minecraft:custom_data~{bp:{id:"species_beginner_book"}}]
 

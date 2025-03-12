@@ -20,11 +20,15 @@
 		"bracken:the_brine/weakness1": {
 			"trigger": "minecraft:effects_changed",
 			"conditions": {
-				"effects": { "minecraft:weakness": {} },
-				"player": { "location": {
-					"dimension": "bracken:the_brine",
-					"structure": "bracken:brine_station"
-				}}
+				"effects": {
+					"minecraft:weakness": {}
+				},
+				"player": {
+					"location": {
+						"dimension": "bracken:the_brine",
+						"structure": "bracken:brine_station"
+					}
+				}
 			}
 		}
 	},

@@ -1,0 +1,45 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:netherite_chestplate",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Old World Bronze Chestplate"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:average_weapons/old_world_bronze/chestplate",
+					"minecraft:max_damage": 2070,
+					"minecraft:equippable": {
+						"slot": "chest",
+						"asset_id": "bracken:old_world_bronze"
+					}
+				}
+			},{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:armor",
+					"id": "bracken:old_world_bronze_chestplate_armor",
+					"amount": 9,
+					"operation": "add_value",
+					"slot": "chest"
+				},{
+					"attribute": "minecraft:armor_toughness",
+					"id": "bracken:old_world_bronze_chestplate_armor_tough",
+					"amount": 0,
+					"operation": "add_value",
+					"slot": "chest"
+				}]
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.48,
+					"max": 0.93
+				}
+			}]
+		}]
+	}]
+}

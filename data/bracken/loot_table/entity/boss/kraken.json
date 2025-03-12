@@ -1,0 +1,22 @@
+{
+	"pools": [{
+		"rolls": {
+			"min": 20,
+			"max": 60
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:ink_sac"
+		}]
+	},
+	{
+		"rolls": {
+			"min": 5,
+			"max": 10
+		},
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/the_brine/essence_of_eternity"
+		}]
+	}]
+}

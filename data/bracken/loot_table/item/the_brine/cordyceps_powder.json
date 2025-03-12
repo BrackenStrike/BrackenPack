@@ -10,8 +10,10 @@
 			"target": "item_name",
 			"name": "Cordyceps Powder"
 		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888504
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:the_brine/cordyceps_powder"
+			}
 		},{
 			"function": "minecraft:set_custom_data",
 			"tag": "{bp.potion:4b,bp:{id:\"potion_recipe\"}}"

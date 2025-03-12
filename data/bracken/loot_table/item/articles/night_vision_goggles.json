@@ -9,19 +9,17 @@
 				"target": "item_name",
 				"name": "Night Vision Goggles"
 			},{
-				"function": "minecraft:set_custom_model_data",
-				"value": 888505,
-				"minecraft:custom_data": {
-					"bp": { "id": "goggles" }
-				}
-			},{
 				"function": "minecraft:set_components",
 				"components": {
+					"minecraft:item_model": "bracken:articles/night_vision_goggles",
 					"minecraft:max_damage": 175,
 					"minecraft:equippable": {
 						"slot": "head",
 						"camera_overlay": "bracken:misc/goggles",
-						"model": "bracken:goggles"
+						"asset_id": "bracken:goggles"
+					},
+					"minecraft:custom_data": {
+						"bp": { "id": "night_vision_goggles" }
 					}
 				}
 			},

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": [
+
+        "minecraft:plains",
+        "minecraft:flower_forest",
+        "minecraft:forest",
+        "minecraft:meadow"
+    ],
+    "spawn_overrides": {},
+    "start_pool": "bracken:the_faewild/fae_beanstalk_start",
+    "size": 18,
+    "step": "surface_structures",
+    "start_height": {
+        "absolute": 182
+    },
+    "max_distance_from_center": 128,
+    "use_expansion_hack": false
+}

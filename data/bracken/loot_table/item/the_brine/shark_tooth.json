@@ -9,17 +9,18 @@
 			"function": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Shark Tooth"
-		},
-		{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888501
-		},
-		{
+		},{
 			"function": "minecraft:set_components",
 			"components": {
-				
-				
+				"minecraft:item_model": "bracken:the_brine/shark_tooth"
+			}
+		},{
+			"function": "minecraft:set_components",
+			"components": {
 				"minecraft:entity_data": {
-					"id": "minecraft:player"}}}]
+					"id": "minecraft:player"
+				}
+			}
+		}]
 	}]
 }

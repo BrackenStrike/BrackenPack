@@ -2,10 +2,10 @@
     "type": "minecraft:netherrack_replace_blobs",
     "config": {
         "target": {
-            "Name": "minecraft:air"
+            "Name": "minecraft:water"
         },
         "state": {
-            "Name": "minecraft:packed_ice"
+            "Name": "minecraft:ice"
         },
         "radius": 0
     }

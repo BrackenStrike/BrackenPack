@@ -12,7 +12,7 @@
         "ground_state": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:moss_block"
+                "Name": "minecraft:packed_ice"
             }
         },
         "vegetation_feature": {

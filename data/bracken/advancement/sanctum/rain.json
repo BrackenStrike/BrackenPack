@@ -1,24 +1,24 @@
 {
-    "parent": "bracken:sanctum/enter_sanctum",
-    "display": {
-        "title": {
-            "translate": "Dust Bowl"
-        },
-        "description": {
-            "translate": "Expereince a dust storm in Sanctum",
-            "color": "green"
-        },
-        "icon": {
-            "id": "minecraft:wind_charge"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria": {
-        "discovered": {
-            "trigger": "minecraft:impossible"
-        }
-    }
+	"parent": "bracken:sanctum/enter_sanctum",
+	"display": {
+		"title": {
+			"translate": "Dust Bowl"
+		},
+		"description": {
+			"translate": "Expereince a dust storm in Sanctum",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:wind_charge"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	}
 }

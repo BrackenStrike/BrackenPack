@@ -1,4 +1,17 @@
+
+
 {
-	"condition": "reference",
-	"name": "bracken:item/tinted_glasses"
+	"condition": "any_of",
+	"terms": [{
+		"condition": "reference",
+		"name": "bracken:item/tinted_glasses"
+	},{
+		"condition": "reference",
+		"name": "bracken:item/open_eyeblossom"
+	},
+	{
+		"condition": "reference",
+		"name": "bracken:item/open_eyeblossom_wand"
+	}]
 }
+

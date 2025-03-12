@@ -19,8 +19,15 @@
 			}],
 			"mode": "insert"
 		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888501
+			"function": "set_enchantments",
+			"enchantments": {
+				"bracken:poisoning_fix": 1
+			}
+		},{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:gothrum_fang"
+			}
 		},{
 			"function": "minecraft:set_custom_data",
 			"tag": "{bp:{id:\"gothrum_fang\"}}"

@@ -21,8 +21,10 @@
 				}],
 				"mode": "insert"
 			},{
-				"function": "minecraft:set_custom_model_data",
-				"value": 888501
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:mortal_cull"
+				}
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{

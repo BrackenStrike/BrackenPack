@@ -93,8 +93,7 @@
             "minecraft:spring_water",
             "minecraft:seagrass_swamp",
             "minecraft:patch_large_fern",
-            "minecraft:brown_mushroom_old_growth",
-            "minecraft:red_mushroom_old_growth",
+           
             "minecraft:vines"
         ],
         [
@@ -106,10 +105,8 @@
             "minecraft:patch_grass_normal",
             "minecraft:patch_dead_bush",
             "minecraft:patch_waterlily",
-            "minecraft:brown_mushroom_swamp",
-            "minecraft:red_mushroom_swamp",
-            "minecraft:brown_mushroom_normal",
-            "minecraft:red_mushroom_normal",
+           
+           
             "minecraft:patch_sugar_cane_swamp",
             "minecraft:sea_pickle",
             "bracken:faewild/thin_tree",
@@ -135,15 +132,39 @@
             "offset": 2
         },
         "additions_sound": {
-            "sound": {"sound_id": "bracken:faewild"},
+            "sound": "minecraft:ambient.crimson_forest.additions",
             "tick_chance": 0.005
         },
-        "music": {
-            "sound": "minecraft:music.nether.basalt_deltas",
-            "min_delay": 12000,
-            "max_delay": 24000,
-            "replace_current_music": false
-        }
+       "music": [
+        {
+            "data": {
+              "max_delay": 24000,
+              "min_delay": 12000,
+              "replace_current_music": false,
+              "sound": {"sound_id": "bracken:faewild"}
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "max_delay": 24000,
+              "min_delay": 12000,
+              "replace_current_music": false,
+              "sound": "minecraft:music.menu"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "max_delay": 24000,
+              "min_delay": 12000,
+              "replace_current_music": false,
+              "sound": "minecraft:music_disc.far"
+            },
+            "weight": 1
+          }
+        ],
+        "music_volume": 1.0
     },
     "has_precipitation": true
 }

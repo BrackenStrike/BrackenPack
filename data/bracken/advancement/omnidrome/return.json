@@ -21,7 +21,9 @@
 			"trigger": "minecraft:changed_dimension",
 			"conditions": {
 				"to": "bracken:omnidrome",
-				"player": { "nbt": "{Tags:[\"bp.automech\"]}" }
+				"player": {
+					"nbt": "{Tags:[\"bp.automech\"]}"
+				}
 			}
 		}
 	}

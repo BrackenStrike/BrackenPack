@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+"bracken:dormis/bezerium",
+"bracken:dormis/golanium",
+"bracken:dormis/hebronium",
+"bracken:dormis/kedeshium",
+"bracken:dormis/ramothium",
+"bracken:dormis/shechemium"
+]
+}

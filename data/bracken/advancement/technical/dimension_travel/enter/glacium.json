@@ -1,7 +1,13 @@
 {
-	"criteria": { "changed_dimension": {
-		"trigger": "minecraft:changed_dimension",
-		"conditions": { "to": "bracken:glacium" }
-	}},
-	"rewards": { "function": "bracken:dimension_travel/enter/glacium" }
+	"criteria": {
+		"changed_dimension": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "bracken:glacium"
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:dimension_travel/enter/glacium"
+	}
 }

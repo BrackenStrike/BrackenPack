@@ -1,0 +1,30 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:chainmail_leggings",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Copper Leggings"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:average_weapons/copper/leggings",
+					"minecraft:max_damage": 175,
+					"minecraft:equippable": {
+						"slot": "legs",
+						"asset_id": "bracken:copper"
+					}
+				}
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.48,
+					"max": 0.93
+				}
+			}]
+		}]
+	}]
+}

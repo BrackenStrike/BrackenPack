@@ -19,8 +19,10 @@
 			}],
 			"mode": "insert"
 		},{
-			"function": "minecraft:set_custom_model_data",
-			"value": 888501
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:lembas_breadfruit"
+			}
 		},{
 			"function": "minecraft:set_custom_data",
 			"tag": "{bp:{id:\"lembas_breadfruit\"}}"

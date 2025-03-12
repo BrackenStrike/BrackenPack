@@ -1,0 +1,67 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:netherite_hoe",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Old World Bronze Hoe"
+			},{
+				"function": "minecraft:set_lore",
+				"entity": "this",
+				"lore": [{
+					"translate": "",
+					"color": "blue",
+					"italic": false
+				},{
+					"translate": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "1 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "4 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				}],
+				"mode": "insert"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:average_weapons/old_world_bronze/hoe",
+					"minecraft:max_damage": 2070
+				}
+			},{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:attack_speed",
+					"id": "bracken:old_world_bronze_hoe",
+					"amount": -0.12,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"attribute": "minecraft:attack_damage",
+					"id": "bracken:old_world_bronze_hoe",
+					"amount": 0,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}]
+			},{
+				"function": "minecraft:toggle_tooltips",
+				"toggles": {
+					"attribute_modifiers": false
+				}
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.48,
+					"max": 0.93
+				}
+			}]
+		}]
+	}]
+}

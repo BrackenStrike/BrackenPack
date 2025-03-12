@@ -9,7 +9,7 @@ execute if entity @s[tag=bp.species] run function bracken:player/species/leave
 tag @s add bp.species
 tag @s add bp.faefolk
 execute if data storage bracken:config {teams_on:true} run team join Faefolk
-clear @s written_book[minecraft:custom_model_data=888501] 1
+clear @s written_book[minecraft:custom_data~{bp:{id:"species_beginner_book"}}]
 
 attribute @s minecraft:attack_damage modifier add bracken:faefolk.attack_damage -0.15 add_multiplied_base
 attribute @s minecraft:movement_speed modifier add bracken:faefolk.movement_speed 0.03 add_value

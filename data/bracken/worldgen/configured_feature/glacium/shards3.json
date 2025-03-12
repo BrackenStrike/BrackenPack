@@ -2,10 +2,10 @@
     "type": "minecraft:netherrack_replace_blobs",
     "config": {
         "target": {
-            "Name": "minecraft:packed_ice"
+            "Name": "minecraft:ice"
         },
         "state": {
-            "Name": "minecraft:ice"
+            "Name": "minecraft:frosted_ice"
         },
         "radius": 0
     }

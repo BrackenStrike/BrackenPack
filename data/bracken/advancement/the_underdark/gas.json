@@ -20,10 +20,14 @@
 		"bracken:the_underdark/gas1": {
 			"trigger": "minecraft:effects_changed",
 			"conditions": {
-				"effects": { "minecraft:nausea": {} },
-				"player": { "location": {
-					"dimension": "bracken:the_underdark"
-				}}
+				"effects": {
+					"minecraft:nausea": {}
+				},
+				"player": {
+					"location": {
+						"dimension": "bracken:the_underdark"
+					}
+				}
 			}
 		}
 	},

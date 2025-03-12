@@ -66,14 +66,14 @@
 			"name": "minecraft:trident",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.02
+				"chance": 0.04
 			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/the_brine/lustra_pearl",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.02
+				"chance": 0.04
 			}]
 		},
 		
@@ -82,21 +82,7 @@
 			"value": "bracken:item/the_brine/lustra_upgrade_smithing_template",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.02
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_shovel",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.01
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_sabre",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.01
+				"chance": 0.04
 			}]
 		},{
 			"type": "minecraft:item",

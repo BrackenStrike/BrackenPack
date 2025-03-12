@@ -21,7 +21,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/copper_rapier",
+			"value": "bracken:item/average_weapons/copper/rapier",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1

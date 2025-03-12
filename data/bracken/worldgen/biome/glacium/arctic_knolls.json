@@ -26,13 +26,9 @@
             "minecraft:ice_patch",
             "minecraft:blue_ice"
         ],
-        [
-            "bracken:glacium/glacium_dec",
-
-            "bracken:glacium/shards3"
-        ],
         [],
-        [],
+        ["bracken:glacium/snow_pile"],
+        ["bracken:glacium/blue_platform"],
         [],
         [],
         [
@@ -52,18 +48,33 @@
         "fog_color": 5924999,
         "water_color": 4014691,
         "water_fog_color": 7897757,
-        "grass_color": 5074010,
-        "foliage_color": 5074010,
+        "grass_color": 42148,
+        "foliage_color": 42148,
         "additions_sound": {
             "sound": "minecraft:ambient.crimson_forest.loop",
             "tick_chance": 0.02
         },
-        "music": {
-            "sound": {"sound_id": "bracken:glacium"},
-            "min_delay": 12000,
-            "max_delay": 24000,
-            "replace_current_music": false
-        },
+        "music": [
+            {
+              "data": {
+                "max_delay": 24000,
+                "min_delay": 12000,
+                "replace_current_music": false,
+                "sound": {"sound_id": "bracken:glacium"}
+              },
+              "weight": 1
+            },
+            {
+                "data": {
+                  "max_delay": 24000,
+                  "min_delay": 12000,
+                  "replace_current_music": false,
+                  "sound": "minecraft:music.overworld.frozen_peaks"
+                },
+                "weight": 1
+              }
+          ],
+          "music_volume": 1.0,
         "ambient_sound": "minecraft:ambient.soul_sand_valley.loop"
     },
     "has_precipitation": true

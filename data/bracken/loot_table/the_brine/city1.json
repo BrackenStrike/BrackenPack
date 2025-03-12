@@ -93,7 +93,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_sickle",
+			"value": "bracken:item/average_weapons/lustra/sickle",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.01
@@ -107,7 +107,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra_sabre",
+			"value": "bracken:item/average_weapons/lustra/sabre",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.01

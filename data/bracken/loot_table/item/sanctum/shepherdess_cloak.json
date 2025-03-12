@@ -19,22 +19,16 @@
 				}],
 				"mode": "insert"
 			},{
-				"function": "minecraft:set_custom_model_data",
-				"value": 888503
-			},
-			{
-				"function": "minecraft:set_attributes",
-				"modifiers": [{
-					"attribute": "minecraft:entity_interaction_range",
-					"id": "bracken:cloak_harm",
-					"amount": -0.75,
-					"operation": "add_multiplied_base",
-					"slot": "chest"
-				}]
-			},
-
-
-			{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:shepherdess_cloak",
+					"minecraft:equippable": {
+						"slot": "chest",
+						"asset_id": "bracken:shepherdess_cloak",
+						"equip_sound": "minecraft:block.wool.step"
+					}
+				}
+			},{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:infused_thorns_fix": 1

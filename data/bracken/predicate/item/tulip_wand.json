@@ -1,0 +1,10 @@
+{
+	"condition": "any_of",
+	"terms": [{
+		"condition": "reference",
+		"name": "bracken:item/tulip_wand_mainhand"
+	},{
+		"condition": "reference",
+		"name": "bracken:item/tulip_wand_offhand"
+	}]
+}

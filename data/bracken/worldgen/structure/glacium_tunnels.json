@@ -1,7 +1,7 @@
 {
     "type": "minecraft:jigsaw",
     "biomes": [
-        "bracken:glacium/destitute_garrison",
+
         "bracken:glacium/boreal_frontier"
     ],
     "spawn_overrides": {},

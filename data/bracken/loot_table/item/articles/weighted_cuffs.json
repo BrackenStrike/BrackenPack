@@ -9,15 +9,16 @@
 				"target": "item_name",
 				"name": "Weighted Cuffs"
 			},{
-				"function": "minecraft:set_custom_model_data",
-				"value": 888503
-			},{
 				"function": "minecraft:set_components",
 				"components": {
+					"minecraft:item_model": "bracken:articles/weighted_cuffs",
 					"minecraft:max_damage": 32,
 					"minecraft:equippable": {
 						"slot": "chest",
-						"model": "bracken:weighted_cuffs"
+						"asset_id": "bracken:weighted_cuffs"
+					},
+					"minecraft:custom_data": {
+						"bp": { "id": "weighted_cuffs" }
 					}
 				}
 			},

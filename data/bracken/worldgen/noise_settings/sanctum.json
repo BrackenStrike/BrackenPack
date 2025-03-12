@@ -1,5 +1,5 @@
 {
-    "sea_level": 63,
+    "sea_level": 31,
     "disable_mob_generation": false,
     "noise_caves_enabled": false,
     "noodle_caves_enabled": false,
@@ -16,7 +16,7 @@
         }
     },
     "noise": {
-        "min_y": 0,
+        "min_y": -32,
         "height": 256,
         "size_horizontal": 1,
         "size_vertical": 2
@@ -344,10 +344,10 @@
                     "type": "minecraft:vertical_gradient",
                     "random_name": "layer30",
                     "true_at_and_below": {
-                        "absolute": 0
+                        "absolute": -32
                     },
                     "false_at_and_above": {
-                        "absolute": 4
+                        "absolute": -28
                     }
                 },
                 "then_run": {
@@ -363,10 +363,10 @@
                     "type": "minecraft:vertical_gradient",
                     "random_name": "layer1",
                     "true_at_and_below": {
-                        "absolute": 2
+                        "absolute": -30
                     },
                     "false_at_and_above": {
-                        "absolute": 31
+                        "absolute": -1
                     }
                 },
                 "then_run": {
@@ -382,10 +382,10 @@
                     "type": "minecraft:vertical_gradient",
                     "random_name": "layer29",
                     "true_at_and_below": {
-                        "absolute": 30
+                        "absolute": 1
                     },
                     "false_at_and_above": {
-                        "absolute": 32
+                        "absolute": 3
                     }
                 },
                 "then_run": {
@@ -401,10 +401,10 @@
                     "type": "minecraft:vertical_gradient",
                     "random_name": "layer1",
                     "true_at_and_below": {
-                        "absolute": 31
+                        "absolute": 2
                     },
                     "false_at_and_above": {
-                        "absolute": 60
+                        "absolute": 28
                     }
                 },
                 "then_run": {
@@ -420,10 +420,10 @@
                     "type": "minecraft:vertical_gradient",
                     "random_name": "layer29",
                     "true_at_and_below": {
-                        "absolute": 59
+                        "absolute": 27
                     },
                     "false_at_and_above": {
-                        "absolute": 62
+                        "absolute": 30
                     }
                 },
                 "then_run": {
@@ -439,10 +439,10 @@
                     "type": "minecraft:vertical_gradient",
                     "random_name": "layer28",
                     "true_at_and_below": {
-                        "absolute": 61
+                        "absolute": 29
                     },
                     "false_at_and_above": {
-                        "absolute": 65
+                        "absolute": 33
                     }
                 },
                 "then_run": {
@@ -458,10 +458,10 @@
                     "type": "minecraft:vertical_gradient",
                     "random_name": "layer27",
                     "true_at_and_below": {
-                        "absolute": 64
+                        "absolute": 32
                     },
                     "false_at_and_above": {
-                        "absolute": 65
+                        "absolute": 33
                     }
                 },
                 "then_run": {

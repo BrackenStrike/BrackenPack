@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": "minecraft:netherite_sword",
+							"components": {
+								"minecraft:item_model": "bracken:sai"
+							}
+						}
+					}
+				},
+				"damage": {
+					"blocked": false
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:item/cleaver_of_judgement/deal_damage"
+	}
+}
