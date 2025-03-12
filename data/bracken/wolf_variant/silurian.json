@@ -1,6 +1,17 @@
+
 {
-  "angry_texture": "bracken:entity/wolf/panacea/wolf_pana_angry",
-  "biomes": "#minecraft:is_panacea",
-  "tame_texture": "bracken:entity/wolf/panacea/wolf_pana_tame",
-  "wild_texture": "bracken:entity/wolf/panacea/wolf_pana"
+  "assets": {
+    "angry": "bracken:entity/wolf/panacea/wolf_pana_angry",
+    "tame": "bracken:entity/wolf/panacea/wolf_pana_tame",
+    "wild": "bracken:entity/wolf/panacea/wolf_pana"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_panacea"
+      },
+      "priority": 1
+    }
+  ]
 }
