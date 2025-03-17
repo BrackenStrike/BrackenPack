@@ -13,7 +13,7 @@
 		"id": "minecraft:chainmail_leggings",
 		"components": {
 			"minecraft:max_damage": 175,
-			"minecraft:item_name": "\"Copper Leggings\"",
+			"minecraft:item_name": "Copper Leggings",
 			"minecraft:equippable": {
 				"slot": "legs",
 				"asset_id": "bracken:copper"

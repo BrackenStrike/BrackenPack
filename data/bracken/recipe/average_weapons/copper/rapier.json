@@ -7,16 +7,15 @@
 		"id": "minecraft:stone_sword",
 		"components": {
 			"minecraft:max_damage": 175,
-			"minecraft:item_name": "\"Copper Rapier\"",
+			"minecraft:item_name": "Copper Rapier",
 			"minecraft:item_model": "bracken:average_weapons/copper/rapier",
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 5.5 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 2 Attack Speed\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "5.5 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "2 Attack Speed","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:copper_rapier",
 					"amount": 4.5,
@@ -29,8 +28,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

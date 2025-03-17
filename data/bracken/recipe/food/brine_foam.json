@@ -12,7 +12,7 @@
 	"result": {
 		"id": "minecraft:drowned_spawn_egg",
 		"components": {
-			"minecraft:item_name": "\"Brine Foam\"",
+			"minecraft:item_name": "Brine Foam",
 			"minecraft:entity_data": {
 				"id": "minecraft:player"
 			},

@@ -9,7 +9,7 @@
         "count": 1,
 		"components": {
 			"minecraft:max_damage": 500,
-			"minecraft:item_name": "\"Verdant Helmet\"",
+			"minecraft:item_name": "Verdant Helmet",
 			"minecraft:equippable": {
 				"slot": "head",
 				"asset_id": "bracken:verdant",

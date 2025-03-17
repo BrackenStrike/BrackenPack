@@ -14,16 +14,15 @@
 		"id": "minecraft:netherite_hoe",
 		"components": {
 			"minecraft:max_damage": 1000,
-			"minecraft:item_name": "\"Meteoric Hoe\"",
+			"minecraft:item_name": "Meteoric Hoe",
 			"minecraft:item_model": "bracken:average_weapons/meteoric/hoe",
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 1 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 1 Attack Speed\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "1 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1 Attack Speed","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_speed",
 					"id": "bracken:meteoric_hoe",
 					"amount": -3,
@@ -36,8 +35,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

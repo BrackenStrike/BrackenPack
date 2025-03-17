@@ -7,17 +7,16 @@
 		"id": "minecraft:stone_sword",
 		"components": {
 			"minecraft:max_damage": 175,
-			"minecraft:item_name": "\"Copper Sabre\"",
+			"minecraft:item_name": "Copper Sabre",
 			"minecraft:item_model": "bracken:average_weapons/copper/sabre",
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 5.5 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 1.6 Attack Speed\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" +2.5% Movement Speed\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "5.5 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false},
+				{"translate": "+2.5% Movement Speed","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:copper_sabre",
 					"amount": 4.5,
@@ -36,8 +35,11 @@
 					"operation": "add_value",
 					"slot": "hand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

@@ -14,7 +14,7 @@
 	"result": {
 		"id": "minecraft:ominous_bottle",
 		"components": {
-			"minecraft:item_name": "\"Homemade Apple Beverage\"",
+			"minecraft:item_name": "Homemade Apple Beverage",
 			"minecraft:food": {
 				"nutrition": 6,
 				"saturation": 4.8,

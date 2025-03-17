@@ -7,7 +7,7 @@
 		"id": "minecraft:iron_sword",
 		"components": {
 			"minecraft:max_damage": 200,
-			"minecraft:item_name": "\"Cryolith Greatsword\"",
+			"minecraft:item_name": "Cryolith Greatsword",
 			"minecraft:item_model": "bracken:average_weapons/cryolith/greatsword",
 			"minecraft:enchantments": {
 				"minecraft:vanishing_curse": 1,
@@ -15,14 +15,13 @@
 				"bracken:fragility_curse": 1
 			},
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 10 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 1.6 Attack Speed\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" +1 Attack Range\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "10 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false},
+				{"translate": "+1 Attack Range","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:cryolith_greatsword",
 					"amount": 9,
@@ -41,8 +40,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

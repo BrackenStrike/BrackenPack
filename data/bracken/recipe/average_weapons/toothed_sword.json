@@ -15,7 +15,7 @@
 		"id": "minecraft:wooden_sword",
 		"components": {
 			"minecraft:max_damage": 59,
-			"minecraft:item_name": "\"Toothed Sword\"",
+			"minecraft:item_name": "Toothed Sword",
 			"minecraft:item_model": "bracken:average_weapons/toothed_sword",
 			"minecraft:lore": [
 				"{\"translate\":\"\",\"color\":white,\"italic\":false}",

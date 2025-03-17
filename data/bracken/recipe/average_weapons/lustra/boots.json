@@ -12,7 +12,7 @@
 				"slot": "feet",
 				"asset_id": "bracken:lustra"
 			},
-			"minecraft:item_name": "\"Lustra Boots\"",
+			"minecraft:item_name": "Lustra Boots",
 			"minecraft:enchantments": {
 				"bracken:integrity_fix": 1
 			},

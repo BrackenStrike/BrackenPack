@@ -15,7 +15,7 @@
 		"id": "minecraft:elder_guardian_spawn_egg",
 		"count": 2,
 		"components": {
-			"minecraft:item_name": "\"Lustra Upgrade Smithing Template\"",
+			"minecraft:item_name": "Lustra Upgrade Smithing Template",
 			"minecraft:entity_data": {
 				"id": "minecraft:player"
 			},

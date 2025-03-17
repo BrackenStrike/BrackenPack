@@ -13,7 +13,7 @@
 	"result": {
 		"id": "minecraft:apple",
 		"components": {
-			"minecraft:item_name": "\"Bejeweled Apple\"",
+			"minecraft:item_name": "Bejeweled Apple",
 			"minecraft:rarity": "rare",
 			"minecraft:item_model": "bracken:metal_apples/bejeweled_apple",
 			"minecraft:food": {

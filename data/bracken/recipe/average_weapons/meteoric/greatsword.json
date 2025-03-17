@@ -6,17 +6,16 @@
 	"result": {
 		"id": "minecraft:netherite_sword",
 		"components": {
-			"minecraft:item_name": "\"Meteoric Greatsword\"",
+			"minecraft:item_name": "Meteoric Greatsword",
 			"minecraft:item_model": "bracken:average_weapons/meteoric/greatsword",
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 8 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 1 Attack Speed\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" +1 Attack Range\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "8 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1 Attack Speed","color":"dark_green","italic":false},
+				{"translate": "+1 Attack Range","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:meteoric_greatsword",
 					"amount": 7,
@@ -35,8 +34,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

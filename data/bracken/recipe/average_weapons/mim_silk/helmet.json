@@ -12,7 +12,7 @@
 		"id": "minecraft:chainmail_helmet",
 		"components": {
 			"minecraft:max_damage": 32,
-			"minecraft:item_name": "\"Mim Silk Helmet\"",
+			"minecraft:item_name": "Mim Silk Helmet",
 			"minecraft:equippable": {
 				"slot": "head",
 				"equip_sound": "minecraft:block.wool.step",

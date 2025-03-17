@@ -14,7 +14,7 @@
 	"result": {
 		"id": "minecraft:ominous_bottle",
 		"components": {
-			"minecraft:item_name": "\"Homemade Sweet Berry Beverage\"",
+			"minecraft:item_name": "Homemade Sweet Berry Beverage",
 			"minecraft:item_model": "bracken:potions/beverage_sweet_berries",
 			"minecraft:food": {
 				"nutrition": 6,

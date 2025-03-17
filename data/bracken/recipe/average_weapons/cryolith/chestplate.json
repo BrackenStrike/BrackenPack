@@ -12,7 +12,7 @@
 				"asset_id": "bracken:cryolith",
 				"equip_sound": "minecraft:block.snow.fall"
 			},
-			"minecraft:item_name": "\"Cryolith Chestplate\"",
+			"minecraft:item_name": "Cryolith Chestplate",
 			"minecraft:enchantments": {
 				"minecraft:vanishing_curse": 1,
 				"bracken:quenching_fix": 1,

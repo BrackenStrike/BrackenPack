@@ -12,7 +12,7 @@
 		"id": "minecraft:netherite_helmet",
 		"components": {
 			"minecraft:max_damage": 1000,
-			"minecraft:item_name": "\"Meteoric Helmet\"",
+			"minecraft:item_name": "Meteoric Helmet",
 			"minecraft:equippable": {
 				"slot": "head",
 				"asset_id": "bracken:meteoric"

@@ -13,7 +13,7 @@
 	"result": {
 		"id": "minecraft:spider_eye",
 		"components": {
-			"minecraft:item_name": "\"Unruly Compass\"",
+			"minecraft:item_name": "Unruly Compass",
 			"minecraft:item_model": "bracken:tools/unruly_compass",
 			"minecraft:enchantment_glint_override": true,
 			"minecraft:custom_data": {

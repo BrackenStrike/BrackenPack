@@ -8,7 +8,7 @@
 		"id": "minecraft:shulker_spawn_egg",
 		"count": 2,
 		"components": {
-			"minecraft:item_name": "\"Inscribed Mim Silk Patch\"",
+			"minecraft:item_name": "Inscribed Mim Silk Patch",
 			"minecraft:item_model": "bracken:the_faewild/inscribed_mim_silk_patch",
 			"minecraft:entity_data": {
 				"id": "minecraft:player"

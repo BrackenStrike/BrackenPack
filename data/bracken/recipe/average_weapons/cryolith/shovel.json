@@ -7,7 +7,7 @@
 		"id": "minecraft:iron_shovel",
 		"components": {
 			"minecraft:max_damage": 200,
-			"minecraft:item_name": "\"Cryolith Shovel\"",
+			"minecraft:item_name": "Cryolith Shovel",
 			"minecraft:enchantments": {
 				"minecraft:vanishing_curse": 1,
 				"bracken:freezing_fix": 1,
@@ -15,13 +15,12 @@
 			},
 			"minecraft:item_model": "bracken:average_weapons/cryolith/shovel",
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 8.5 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 1 Attack Speed\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "8.5 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1 Attack Speed","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:cryolith_shovel",
 					"amount": 7.5,
@@ -34,8 +33,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

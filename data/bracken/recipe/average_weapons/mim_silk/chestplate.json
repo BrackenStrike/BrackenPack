@@ -21,7 +21,7 @@
 				"asset_id": "bracken:silk",
 				"equip_sound": "minecraft:block.wool.step"
 			},
-			"minecraft:item_name": "\"Mim Silk Chestplate\"",
+			"minecraft:item_name": "Mim Silk Chestplate",
 			"minecraft:item_model": "bracken:the_faewild/mim_silk_chestplate"
 		}
 	}

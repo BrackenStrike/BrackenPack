@@ -12,21 +12,18 @@
 				"slot": "feet",
 				"asset_id": "bracken:silversteel"
 			},
-			"minecraft:item_name": "\"Silversteel Boots\"",
+			"minecraft:item_name": "Silversteel Boots",
 			"minecraft:enchantments": {
 				"bracken:silvered_fix": 1
 			},
 			"minecraft:item_model": "bracken:average_weapons/silversteel/boots",
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:armor",
 					"id": "bracken:silversteel_boots",
 					"amount": 4,
 					"operation": "add_value",
 					"slot": "feet"
-				}],
-				"show_in_tooltip": true
-			}
+				}]
 		}
 	}
 }
