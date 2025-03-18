@@ -35,8 +35,6 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-				,
 				"minecraft:tooltip_display": {
         "hidden_components": [
           "minecraft:attribute_modifiers"

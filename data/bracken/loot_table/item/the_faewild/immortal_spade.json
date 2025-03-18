@@ -15,7 +15,9 @@
 							"minecraft:efficiency": 5,
 							"minecraft:vanishing_curse": 1
 						},
-						"show_in_tooltip": false
+						"minecraft:tooltip_display": {
+							"hide_tooltip": true
+        }
 					},
 					"minecraft:rarity": "epic"
 				}

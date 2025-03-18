@@ -11,9 +11,6 @@
 				"minecraft:item_model": "bracken:music_discs/brine",
 				"minecraft:jukebox_playable": { "song": "bracken:brine" }
 			}
-		},{
-			"function": "minecraft:set_custom_data",
-			"tag": "{bracken:{custom_music_disc:1b,custom_music:\"brine\"}}"
 		}]
 	}]
 }

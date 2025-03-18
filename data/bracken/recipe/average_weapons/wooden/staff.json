@@ -13,17 +13,16 @@
 		"id": "minecraft:wooden_shovel",
 		"components": {
 			"minecraft:max_damage": 59,
-			"minecraft:item_name": "\"Wooden Staff\"",
+			"minecraft:item_name": "Wooden Staff",
 			"minecraft:item_model": "bracken:average_weapons/wooden/staff",
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 2 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 1 Attack Speed\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" +1.5 Attack Range\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate":" 2 Attack Damage","color":"dark_green","italic":false},
+				{"translate":" 1 Attack Speed","color":"dark_green","italic":false},
+				{"translate":" +1.5 Attack Range","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers": [{
 					"type": "minecraft:attack_speed",
 					"id": "bracken:wooden_staff",
 					"amount": -3,
@@ -42,8 +41,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }
