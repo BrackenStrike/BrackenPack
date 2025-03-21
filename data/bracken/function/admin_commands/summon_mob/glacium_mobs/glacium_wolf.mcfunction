@@ -1,1 +1,1 @@
-summon wolf ~ ~ ~ {variant:"bracken:dire",CustomNameVisible:0b,Tags:["bp.dire_wolf"],CustomName:'{"color":"dark_aqua","text":"Dire Wolf"}',attributes:[{id:"minecraft:armor",base:30},{id:"minecraft:scale",base:1.5}]}
+summon wolf ~ ~ ~ {variant:"bracken:dire",CustomNameVisible:0b,Tags:["bp.dire_wolf"],CustomName:{"color":"dark_aqua","text":"Dire Wolf"},attributes:[{id:"minecraft:armor",base:30},{id:"minecraft:scale",base:1.5}]}

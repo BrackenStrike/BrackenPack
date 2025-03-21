@@ -10,21 +10,20 @@
 					"minecraft:repair_cost": 1000,
 					"!minecraft:max_damage": {},
 					"!minecraft:damage": {},
-					"minecraft:enchantments": {
-						"levels": {
-							"minecraft:efficiency": 5,
-							"minecraft:vanishing_curse": 1
-						},
-						"minecraft:tooltip_display": {
-							"hide_tooltip": true
-        }
-					},
 					"minecraft:rarity": "epic"
 				}
 			},{
 				"function": "set_name",
 				"target": "item_name",
 				"name": "Immortal Spade"
+			},
+			{
+				"function": "set_enchantments",
+				"enchantments": {
+					"minecraft:efficiency": 2,
+				
+					"minecraft:vanishing_curse": 1
+				}
 			},{
 				"function": "set_lore",
 				"lore": [{

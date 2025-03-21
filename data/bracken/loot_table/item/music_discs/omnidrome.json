@@ -9,7 +9,7 @@
 			"function": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:music_discs/omnidrome",
-				"minecraft:jukebox_playable": { "song": "bracken:omnidrome" }
+				"minecraft:jukebox_playable": "bracken:omnidrome" 
 			}
 		},{
 			"function": "minecraft:set_custom_data",
