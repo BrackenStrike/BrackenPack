@@ -8,39 +8,16 @@
           "condition": "minecraft:killed_by_player"
         }
       ],
-      "entries": [{
-        "type": "minecraft:loot_table",
-        "functions": [
-          {
-            "add": false,
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 2.0,
-              "min": 0.0
-            },
-            "function": "minecraft:set_count"
-          },
-          {
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 1.0,
-              "min": 0.0
-            },
-            "enchantment": "minecraft:looting",
-            "function": "minecraft:enchanted_count_increase"
-          }
-        ],
-        "value": "bracken:item/the_brine/brine_foam"
-      },
+      "entries": [
 
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
+                "max": 2.0,
                 "min": 0.0
               },
               "function": "minecraft:set_count"
@@ -55,7 +32,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:ominous_bottle"
+          "value": "bracken:item/tools/golden_horn"
         }
       ],
       "rolls": 1.0

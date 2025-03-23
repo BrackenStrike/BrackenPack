@@ -10,7 +10,7 @@
           "predicate": {
             "type_specific": {
               "type": "minecraft:raider",
-              "is_captain": true
+              "is_captain": false
             }
           }
         }

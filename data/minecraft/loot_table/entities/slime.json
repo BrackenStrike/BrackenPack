@@ -16,7 +16,7 @@
         }
       ],
       "entries": [{
-        "type": "minecraft:loot_table",
+        "type": "minecraft:item",
         "functions": [
           {
             "add": false,
@@ -37,7 +37,7 @@
             "function": "minecraft:enchanted_count_increase"
           }
         ],
-        "value": "bracken:item/ability_books/tetra_slime"
+        "name": "minecraft:experience_bottle"
       },
 
         {
