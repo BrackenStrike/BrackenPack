@@ -3,7 +3,30 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "entries": [
+      "entries": [{
+        "type": "minecraft:item",
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 0.0
+            },
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "name": "minecraft:glowstone_dust"
+      },
         {
           "type": "minecraft:item",
           "functions": [
@@ -27,30 +50,6 @@
             }
           ],
           "name": "minecraft:gunpowder"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
-            }
-          ],
-          "name": "bracken:item/panacea/panaspore"
         }
       ],
       "rolls": 1.0

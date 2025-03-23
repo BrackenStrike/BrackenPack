@@ -27,30 +27,6 @@
             }
           ],
           "name": "minecraft:rotten_flesh"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
-            }
-          ],
-          "name": "bracken:item/the_brine/brine_rod"
         }
       ],
       "rolls": 1.0
@@ -76,10 +52,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:copper_ingot"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "bracken:item/the_brine/shark_tooth"
         }
       ],
       "rolls": 1.0
