@@ -1,0 +1,277 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "bracken:item/ability_books/adamantine_will"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "bracken:item/ability_books/crimson_spark"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "bracken:item/ability_books/fang_attack"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "bracken:item/ability_books/fireball"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "bracken:item/ability_books/flying_boat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "bracken:item/ability_books/frostlock"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "bracken:item/ability_books/great_nullifier"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "bracken:item/ability_books/iron_golem"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "bracken:item/ability_books/kill"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "bracken:item/ability_books/lightning_bolt"
+        }
+        
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/enderman"
+}
