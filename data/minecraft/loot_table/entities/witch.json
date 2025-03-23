@@ -3,7 +3,264 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "entries": [
+      "entries": [{
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 0.0
+            },
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/the_brine/cordyceps_powder"
+      },{
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 0.0
+            },
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/the_brine/essence_of_eternity"
+      },{
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 0.0
+            },
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/the_brine/essence_of_infinity"
+      },{
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 0.0
+            },
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/the_brine/jellyfish_stinger"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 0.0
+            },
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/the_brine/nautilus_chamber"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 0.0
+            },
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/the_brine/sentinel_rings"
+      },{
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 0.0
+            },
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/the_brine/tempest_necter"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 0.0
+            },
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/the_brine/void_petal"
+      },{
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 0.0
+            },
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/the_brine/voidfish_venom"
+      },{
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 0.0
+            },
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/the_brine/wither_fin"
+      },{
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 2.0,
+              "min": 0.0
+            },
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/the_brine/worm_mandible"
+      },
+
         {
           "type": "minecraft:item",
           "functions": [

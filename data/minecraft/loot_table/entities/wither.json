@@ -25,23 +25,11 @@
             "function": "minecraft:enchanted_count_increase"
           }
         ],
-        "value": "bracken:item/ability_books/adamantine_will"
-      },
-
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:saddle"
-        }
+        "value": "bracken:item/ability_books/kill"
+      }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/ravager"
+  "random_sequence": "minecraft:entities/wither"
 }

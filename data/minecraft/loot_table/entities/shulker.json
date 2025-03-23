@@ -5,14 +5,14 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type_specific": {
-              "type": "minecraft:raider",
-              "is_captain": true
-            }
-          }
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.5625,
+            "per_level_above_first": 0.0625
+          },
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.5
         }
       ],
       "entries": [{
@@ -37,31 +37,16 @@
             "function": "minecraft:enchanted_count_increase"
           }
         ],
-        "value": "bracken:item/articles/weighted_cuffs"
+        "value": "bracken:item/ability_books/flying_boat"
       },
 
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "amplifier": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_ominous_bottle_amplifier"
-            }
-          ],
-          "name": "minecraft:ominous_bottle"
+          "name": "minecraft:shulker_shell"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/pillager"
+  "random_sequence": "minecraft:entities/shulker"
 }

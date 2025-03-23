@@ -25,32 +25,9 @@
             "function": "minecraft:enchanted_count_increase"
           }
         ],
-        "value": "bracken:item/the_brine/lustra_pearl"
+        "value": "bracken:item/ability_books/returning_tides"
       },
-      {
-        "type": "minecraft:loot_table",
-        "functions": [
-          {
-            "add": false,
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 2.0,
-              "min": 0.0
-            },
-            "function": "minecraft:set_count"
-          },
-          {
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 1.0,
-              "min": 0.0
-            },
-            "enchantment": "minecraft:looting",
-            "function": "minecraft:enchanted_count_increase"
-          }
-        ],
-        "value": "bracken:item/the_brine/lustra_upgrade_smithing_template"
-      },
+
         {
           "type": "minecraft:item",
           "functions": [
@@ -131,7 +108,7 @@
             }
           ],
           "name": "minecraft:cod",
-          "weight": 2
+          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -151,6 +128,21 @@
         },
         {
           "type": "minecraft:empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wet_sponge"
         }
       ],
       "rolls": 1.0
@@ -217,7 +209,21 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tide_armor_trim_smithing_template"
+        }
+      ],
+      "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/guardian"
+  "random_sequence": "minecraft:entities/elder_guardian"
 }

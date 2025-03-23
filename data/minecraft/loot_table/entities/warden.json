@@ -25,35 +25,16 @@
             "function": "minecraft:enchanted_count_increase"
           }
         ],
-        "value": "bracken:item/ability_books/scatterstorm"
+        "value": "bracken:item/ability_books/worm_tooth_burrower"
       },
+
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "enchantment": "minecraft:looting",
-              "function": "minecraft:enchanted_count_increase"
-            }
-          ],
-          "name": "minecraft:ender_pearl"
+          "name": "minecraft:sculk_catalyst"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:entities/enderman"
+  "random_sequence": "minecraft:entities/warden"
 }
