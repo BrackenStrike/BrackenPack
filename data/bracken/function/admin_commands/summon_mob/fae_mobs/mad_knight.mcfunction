@@ -1,1 +1,10 @@
-summon vindicator ~ ~ ~ {Silent:1b,PersistenceRequired:1b,Johnny:1b,CustomName:{"text":"Mad Knight","color":"blue","bold":false},HandItems:[{id:"minecraft:iron_axe",count:1b,components:{"minecraft:enchantments":{"minecraft:unbreaking":1}}},{}],ArmorItems:[{},{},{},{id:"minecraft:bamboo",count:1b,components:{"minecraft:item_model":"bracken:shadows/fae_mad_knight"}}]}
+summon vindicator ~ ~ ~ {Silent:1b,PersistenceRequired:1b,Johnny:1b,CustomName:{"text":"Mad Knight","color":"blue","bold":false},
+
+equipment:{
+    mainhand:{id:"minecraft:iron_axe",count:1b,components:{"minecraft:enchantments":{"minecraft:unbreaking":1}}},
+    feet:{id:"minecraft:netherite_boots",Count:1b},
+    legs:{id:"minecraft:netherite_leggings",Count:1b},
+    chest:{id:"minecraft:netherite_chestplate",Count:1b},
+    head:{id:"minecraft:bamboo",count:1b,components:{"minecraft:item_model":"bracken:shadows/fae_mad_knight"}}
+}
+}

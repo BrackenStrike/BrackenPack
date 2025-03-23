@@ -1,1 +1,5 @@
-summon husk ~ ~ ~ {Silent:1b,CustomNameVisible:0b,DeathLootTable:"bracken:entity/basic/crofter",Health:100f,Tags:["bp.entity","bp.crofter"],CustomName:"Crofter",HandItems:[{id:"minecraft:bamboo",count:1,components:{"minecraft:item_model":"bracken:shadows/crofter"}},{}],active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b},{id:"minecraft:fire_resistance",amplifier:1,duration:-1,show_particles:0b},{id:"minecraft:slow_falling",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:attack_damage",base:0},{id:"minecraft:follow_range",base:0},{id:"minecraft:max_health",base:100},{id:"minecraft:scale",base:8}]}
+summon husk ~ ~ ~ {Silent:1b,CustomNameVisible:0b,DeathLootTable:"bracken:entity/basic/crofter",Health:100f,Tags:["bp.entity","bp.crofter"],CustomName:"Crofter",
+equipment:{
+    mainhand:{id:"minecraft:bamboo",count:1,components:{"minecraft:item_model":"bracken:shadows/crofter"}}
+},
+active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b},{id:"minecraft:fire_resistance",amplifier:1,duration:-1,show_particles:0b},{id:"minecraft:slow_falling",amplifier:1,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:attack_damage",base:0},{id:"minecraft:follow_range",base:0},{id:"minecraft:max_health",base:100},{id:"minecraft:scale",base:8}]}

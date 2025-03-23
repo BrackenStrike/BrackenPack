@@ -1,1 +1,10 @@
-summon wither_skeleton ~ ~ ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,AbsorptionAmount:100f,Tags:["bp.netherite_golem"],CustomName:{"translate":"Netherite Golem","color":"dark_red"},HandItems:[{id:"minecraft:stone_sword",count:1b},{}],ArmorItems:[{id:"minecraft:netherite_boots",count:1b},{id:"minecraft:netherite_leggings",count:1b},{id:"minecraft:netherite_chestplate",count:1b},{id:"minecraft:bamboo",count:1b,components:{"minecraft:item_model":"bracken:shadows/netherite_golem","minecraft:enchantment_glint_override":false,"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:2000000,show_particles:0b}],attributes:[{id:follow_range,base:70},{id:knockback_resistance,base:1},{id:movement_speed,base:.7},{id:attack_damage,base:10},{id:attack_knockback,base:10}]}
+summon wither_skeleton ~ ~ ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,AbsorptionAmount:100f,Tags:["bp.netherite_golem"],CustomName:{"translate":"Netherite Golem","color":"dark_red"},
+    equipment:{
+    mainhand:{id:"minecraft:stone_sword",count:1b},
+    feet:{id:"minecraft:netherite_boots",Count:1b},
+    legs:{id:"minecraft:netherite_leggings",Count:1b},
+    chest:{id:"minecraft:netherite_chestplate",Count:1b},
+    head:{id:"minecraft:bamboo",count:1b,components:{"minecraft:item_model":"bracken:shadows/netherite_golem","minecraft:enchantment_glint_override":false,"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}}}}
+    
+},
+    ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:2000000,show_particles:0b}],attributes:[{id:follow_range,base:70},{id:knockback_resistance,base:1},{id:movement_speed,base:.7},{id:attack_damage,base:10},{id:attack_knockback,base:10}]}
