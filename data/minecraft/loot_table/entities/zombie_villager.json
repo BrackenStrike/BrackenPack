@@ -163,26 +163,7 @@
         ],
         "value": "bracken:item/weapon_templates/sabre_weapon_template"
       },
-      {
-        "type": "minecraft:loot_table",
-        "functions": [
-          {
-            "add": false,
-            "count": 1,
-            "function": "minecraft:set_count"
-          },
-          {
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 1.0,
-              "min": 0.0
-            },
-            "enchantment": "minecraft:looting",
-            "function": "minecraft:enchanted_count_increase"
-          }
-        ],
-        "value": "bracken:item/weapon_templates/short_spear_weapon_template"
-      },
+      
       {
         "type": "minecraft:loot_table",
         "functions": [
