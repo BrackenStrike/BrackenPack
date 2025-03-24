@@ -20,11 +20,7 @@
         "functions": [
           {
             "add": false,
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 2.0,
-              "min": 0.0
-            },
+            "count": 1,
             "function": "minecraft:set_count"
           },
           {
@@ -37,7 +33,7 @@
             "function": "minecraft:enchanted_count_increase"
           }
         ],
-        "value": "bracken:item/articles/weighted_cuffs"
+        "value": "bracken:item/tools/chisel"
       },
 
         {

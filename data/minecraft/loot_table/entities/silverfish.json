@@ -1,0 +1,258 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
+      "entries": [{
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/potions/beverage_apple"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/potions/beverage_beetroot"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/potions/beverage_chorus_fruit"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/potions/beverage_cocoa_beans"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/potions/beverage_glow_berries"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/potions/beverage_honey"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/potions/beverage_kelp"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/potions/beverage_melon"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/potions/beverage_potato"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/potions/beverage_sugar_cane"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/potions/beverage_sweet_berries"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/potions/beverage_wheat"
+      }
+
+        
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/silverfish"
+}

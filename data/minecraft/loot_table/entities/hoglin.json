@@ -25,7 +25,7 @@
             "function": "minecraft:enchanted_count_increase"
           }
         ],
-        "value": "bracken:item/panacea/lemnas_breadfruit"
+        "value": "bracken:item/panacea/lembas_breadfruit"
       },
 
         {
@@ -74,7 +74,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "value": "item/metal_apples/copper_apple"
+          "value": "item/panacea/lembas_breadfruit"
         }
       ],
       "rolls": 1.0
