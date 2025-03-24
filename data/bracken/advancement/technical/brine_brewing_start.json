@@ -8,8 +8,7 @@
 					"predicate": {
 						"block": {
 							"blocks": "minecraft:brewing_stand"
-						},
-						"dimension": "bracken:the_brine"
+						}
 					}
 				}]
 			}

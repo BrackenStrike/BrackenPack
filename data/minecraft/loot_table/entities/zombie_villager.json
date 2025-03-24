@@ -4,7 +4,7 @@
     {
       "bonus_rolls": 0.0,
       "entries": [{
-        "type": "minecraft:item",
+        "type": "minecraft:loot_table",
         "functions": [
           {
             "add": false,
@@ -25,7 +25,7 @@
             "function": "minecraft:enchanted_count_increase"
           }
         ],
-        "name": "minecraft:emerald"
+        "value": "bracken:item/ability_books/kill"
       },
         {
           "type": "minecraft:item",
