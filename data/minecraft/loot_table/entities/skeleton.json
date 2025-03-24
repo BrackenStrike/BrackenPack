@@ -3,30 +3,7 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "entries": [{
-        "type": "minecraft:loot_table",
-        "functions": [
-          {
-            "add": false,
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 2.0,
-              "min": 0.0
-            },
-            "function": "minecraft:set_count"
-          },
-          {
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 1.0,
-              "min": 0.0
-            },
-            "enchantment": "minecraft:looting",
-            "function": "minecraft:enchanted_count_increase"
-          }
-        ],
-        "value": "bracken:item/glacium/cryolith"
-      },
+      "entries": [
       {
         "type": "minecraft:loot_table",
         "functions": [
@@ -49,7 +26,7 @@
             "function": "minecraft:enchanted_count_increase"
           }
         ],
-        "value": "bracken:item/glacium/cryolith_upgrade_smithing_template"
+        "value": "bracken:item/metal_apples/copper_apple"
       },
         {
           "type": "minecraft:item",

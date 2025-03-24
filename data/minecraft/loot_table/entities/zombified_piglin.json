@@ -25,7 +25,7 @@
             "function": "minecraft:enchanted_count_increase"
           }
         ],
-        "name": "minecraft:netherite_scrap"
+        "name": "minecraft:gold_ingot"
       },
         {
           "type": "minecraft:item",

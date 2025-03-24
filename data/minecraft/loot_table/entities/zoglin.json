@@ -74,7 +74,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "value": "item/metal_apples/copper_apple"
+          "value": "bracken:item/panacea/yakitubba_hide"
         }
       ],
       "rolls": 1.0

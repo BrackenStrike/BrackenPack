@@ -8,11 +8,7 @@
         "functions": [
           {
             "add": false,
-            "count": {
-              "type": "minecraft:uniform",
-              "max": 2.0,
-              "min": 0.0
-            },
+            "count": 1,
             "function": "minecraft:set_count"
           },
           {
@@ -25,7 +21,207 @@
             "function": "minecraft:enchanted_count_increase"
           }
         ],
-        "value": "bracken:item/ability_books/kill"
+        "value": "bracken:item/weapon_templates/bludgeon_weapon_template"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/weapon_templates/buckler_weapon_template"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/weapon_templates/cutlass_weapon_template"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/weapon_templates/dagger_weapon_template"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/weapon_templates/greatsword_weapon_template"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/weapon_templates/katana_weapon_template"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/weapon_templates/rapier_weapon_template"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/weapon_templates/sabre_weapon_template"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/weapon_templates/short_spear_weapon_template"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/weapon_templates/sickle_weapon_template"
+      },
+      {
+        "type": "minecraft:loot_table",
+        "functions": [
+          {
+            "add": false,
+            "count": 1,
+            "function": "minecraft:set_count"
+          },
+          {
+            "count": {
+              "type": "minecraft:uniform",
+              "max": 1.0,
+              "min": 0.0
+            },
+            "enchantment": "minecraft:looting",
+            "function": "minecraft:enchanted_count_increase"
+          }
+        ],
+        "value": "bracken:item/weapon_templates/warhammer_weapon_template"
       },
         {
           "type": "minecraft:item",

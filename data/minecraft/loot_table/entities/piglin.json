@@ -26,7 +26,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:gold_ingot"
+          "name": "minecraft:netherite_scrap"
         }
       ],
       "rolls": 1.0

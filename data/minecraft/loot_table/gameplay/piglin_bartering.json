@@ -48,7 +48,43 @@
               "function": "minecraft:set_count"
             }
           ],
-          "value": "bracken:item/articles/nightg_vision_goggles",
+          "value": "bracken:item/articles/bandana",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "value": "bracken:item/articles/blindfold",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "value": "bracken:item/articles/weighted_cuffs",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "functions": [
+            {
+              "add": false,
+              "count": 1,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "value": "bracken:item/articles/night_vision_goggles",
           "weight": 20
         },
         {
@@ -72,7 +108,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "value": "bracken:item/articles/titned_glasses",
+          "value": "bracken:item/articles/tintned_glasses",
           "weight": 20
         },
 
