@@ -1,6 +1,1 @@
-summon drowned ~ ~ ~ {active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:speed",amplifier:1b,duration:5b,show_particles:0b}],Tags:[bp.aquatic,bp.nautilus],Silent:1b,DeathLootTable:"bracken:entity/the_brine/nautilus",CanPickUpLoot:0b,
-equipment:{
-    mainhand:{id:"minecraft:bamboo",Count:1b,components:{"minecraft:custom_name":{"text":"Giant Nautilus"},"minecraft:item_name":{"text":"giant nautilus"},"minecraft:item_model":"bracken:shadows/nautilus"}},
-
-},
-HandDropChances:[0.000F,0.085F],attributes:[{id:scale,base:2},{id:attack_damage,base:0},{id:max_health,base:10},{id:movement_speed,base:0.2}]}
+summon drowned ~ ~ ~ {active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:speed",amplifier:1b,duration:5b,show_particles:0b}],Tags:[bp.aquatic,bp.nautilus],Silent:1b,DeathLootTable:"bracken:entity/the_brine/nautilus",CanPickUpLoot:0b,equipment:{mainhand:{id:"minecraft:bamboo",Count:1b,components:{"minecraft:custom_name":{"text":"Giant Nautilus"},"minecraft:item_name":{"text":"giant nautilus"},"minecraft:item_model":"bracken:shadows/nautilus"}}},HandDropChances:[0.000F,0.085F],attributes:[{id:scale,base:2},{id:attack_damage,base:0},{id:max_health,base:10},{id:movement_speed,base:0.2}]}
