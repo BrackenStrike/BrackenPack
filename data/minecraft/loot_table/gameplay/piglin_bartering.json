@@ -108,7 +108,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "value": "bracken:item/articles/tintned_glasses",
+          "value": "bracken:item/articles/tinted_glasses",
           "weight": 20
         },
 

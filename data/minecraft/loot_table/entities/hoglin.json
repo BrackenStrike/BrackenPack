@@ -74,7 +74,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "value": "item/panacea/lembas_breadfruit"
+          "value": "bracken:item/panacea/lembas_breadfruit"
         }
       ],
       "rolls": 1.0

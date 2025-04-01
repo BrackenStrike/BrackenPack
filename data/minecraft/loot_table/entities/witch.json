@@ -165,7 +165,7 @@
             "function": "minecraft:enchanted_count_increase"
           }
         ],
-        "value": "bracken:item/the_brine/tempest_necter"
+        "value": "bracken:item/the_brine/tempest_nectar"
       },
       {
         "type": "minecraft:loot_table",
@@ -409,8 +409,8 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 1.0
+        "max": 1.0,
+        "min": 0.0
       }
     },
     {
@@ -423,8 +423,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 4.0
+                "max": 1.0,
+                "min": 0.0
               },
               "function": "minecraft:set_count"
             },
