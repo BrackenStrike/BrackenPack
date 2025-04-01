@@ -43,7 +43,7 @@
 							"bp.construct",
 							"bp.entity"
 						],
-						"CustomName": "{\"text\":\"Construct\",\"bold\":true}"
+						"CustomName": {"translate":"Construct","bold":true}
 					}
 				}
 			},{

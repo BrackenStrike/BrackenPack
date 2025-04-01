@@ -7,10 +7,7 @@
 execute as @e[type=magma_cube,distance=..100,limit=1,sort=nearest] at @s run function bracken:entities/the_brine/summons/gavsakka_setup
 
 #trilobite
-data merge entity @e[type=fox,distance=..100,limit=1,sort=nearest,tag=!bp.trilobite] {active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:speed",amplifier:1b,duration:5b,show_particles:0b}],Tags:[bp.trilobite],Silent:1b,DeathLootTable:"bracken:entity/the_brine/trilobite",CanPickUpLoot:0b,
-HandItems:[{id:"minecraft:bamboo",Count:1b,components:{"minecraft:custom_name":{"text":"Trilobite Carapace","italic":false},"minecraft:item_model":"bracken:shadows/trilobite","minecraft:enchantment_glint_override":false,"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}} }},
-{}],
-ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F],attributes:[{id:max_health,base:10},{id:movement_speed,base:0.2}]}
+data merge entity @e[type=fox,distance=..100,limit=1,sort=nearest,tag=!bp.trilobite] {active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:speed",amplifier:1b,duration:5b,show_particles:0b}],Tags:[bp.trilobite],Silent:1b,DeathLootTable:"bracken:entity/the_brine/trilobite",CanPickUpLoot:0b,equipment:{mainhand:{id:"minecraft:bamboo",Count:1b,components:{"minecraft:custom_name":{"text":"Trilobite Carapace","italic":false},"minecraft:item_model":"bracken:shadows/trilobite","minecraft:enchantment_glint_override":false,"minecraft:enchantments":{levels:{"minecraft:vanishing_curse":1}} }}},ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],HandDropChances:[0.000F,0.000F],attributes:[{id:max_health,base:10},{id:movement_speed,base:0.2}]}
 
 #bobbit worm
 execute as @e[type=marker,tag=bp.worm,sort=nearest,limit=1] at @s run function bracken:entities/the_brine/summons/bobbit_worm_marker
