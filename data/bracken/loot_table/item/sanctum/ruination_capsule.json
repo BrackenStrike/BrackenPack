@@ -13,17 +13,29 @@
 						"id": "minecraft:vex",
 						"CustomNameVisible": 1,
 						"Silent": 1,
-						"HandItems": [{
-							"id": "minecraft:ender_eye",
-							"components": {
-								"minecraft:item_model": "bracken:ruination_capsule"
-							}
-						},{
-							"id": "minecraft:ender_eye",
-							"components": {
-								"minecraft:item_model": "bracken:ruination_capsule"
-							}
-						}],
+
+
+						"equipment": {
+            "mainhand": {
+              "id": "minecraft:ender_eye",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:vanishing_curse": 1
+                }
+              }
+            },
+			"offhand": {
+              "id": "minecraft:ender_eye",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:vanishing_curse": 1
+                }
+              }
+            }
+          },
+
+
+						
 						"active_effects": [{
 							"id": "minecraft:invisibility",
 							"amplifier": 1,
