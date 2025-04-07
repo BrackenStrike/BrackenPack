@@ -9,5 +9,5 @@ tellraw @s ["",{"translate":"------------------------------\nWould you like to b
 - 10% size reduction\n\
 - 1 less heart\n\
 - Takes damage from rain and water sources\n\n"},\
-{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger bp.netherkin_"}},\
+{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","value":"/trigger bp.netherkin_"}},\
 {"translate":"\n------------------------------"}]

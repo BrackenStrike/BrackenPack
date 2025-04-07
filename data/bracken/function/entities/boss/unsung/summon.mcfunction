@@ -14,6 +14,8 @@ summon minecraft:armor_stand ~ ~ ~ {DisabledSlots:4136478,PersistenceRequired:1b
 
 summon minecraft:armor_stand ~ ~ ~ {DisabledSlots:4136478,PersistenceRequired:1b,Pose:{LeftArm:[416f,37f,20f],RightArm:[211f,224f,10f]},ShowArms:1b,Invisible:1b,NoBasePlate:1b,Tags:["bp.3","bp.sword"],equipment:{mainhand:{id:iron_sword,components:{"minecraft:enchantments":{"bracken:lethargy_curse":1}},Count:1},offhand:{id:iron_sword,components:{"minecraft:enchantments":{"bracken:butchering":1}},Count:1}},HandDropChances:[0.00f,0.00f]}
 
-summon minecraft:armor_stand ~ ~ ~ {DisabledSlots:4136478,PersistenceRequired:1b,Pose:{LeftArm:[416f,27f,10f],RightArm:[211f,24f,10f]},ShowArms:1b,Invisible:1b,NoBasePlate:1b,Tags:["bp.4","bp.sword"],equipment:{mainhand:{id:iron_sword,components:{"minecraft:enchantments":{"bracken:defusing":1}},Count:1},offhandt:{id:iron_sword,components:{"minecraft:enchantments":{"bracken:devouring_curse":1}},Count:1}},HandDropChances:[0.00f,0.00f]}
+summon minecraft:armor_stand ~ ~ ~ {DisabledSlots:4136478,PersistenceRequired:1b,Pose:{LeftArm:[416f,27f,10f],RightArm:[211f,24f,10f]},ShowArms:1b,Invisible:1b,NoBasePlate:1b,Tags:["bp.4","bp.sword"],equipment:{mainhand:{id:iron_sword,components:{"minecraft:enchantments":{"bracken:defusing":1}},Count:1},offhand:{id:iron_sword,components:{"minecraft:enchantments":{"bracken:devouring_curse":1}},Count:1}},HandDropChances:[0.00f,0.00f]}
+
+
 
 summon minecraft:armor_stand ~ ~ ~ {equipment:{head:{id:"minecraft:bamboo",Count:1,components:{"minecraft:rarity":"epic","minecraft:repair_cost":100,"minecraft:item_model":"bracken:shadows/unsung","minecraft:enchantments":{"minecraft:protection":4,"minecraft:vanishing_curse":1} } }}, DisabledSlots:4144959,PersistenceRequired:1b,Invisible:1b,NoBasePlate:1b,Tags:["bp.5"]}

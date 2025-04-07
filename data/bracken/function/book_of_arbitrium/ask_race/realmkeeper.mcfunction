@@ -5,5 +5,5 @@ tellraw @s ["",{"translate":"------------------------------\nWould you like to b
 + Spreads the effects of eating a notch or golden apple to nearby players\n\
 - 4 less hearts\n\
 - Loses passive absorption when in dark places or when wearing a helmet\n\n"},\
-{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger bp.realmkeeper_"}},\
+{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","value":"/trigger bp.realmkeeper_"}},\
 {"translate":"\n------------------------------"}]

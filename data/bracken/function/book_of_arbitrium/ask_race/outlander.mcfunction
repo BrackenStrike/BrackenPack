@@ -8,5 +8,5 @@ tellraw @s ["",{"translate":"------------------------------\nWould you like to b
 - 2 less hearts\n\
 - Cannot turn invisible while in sanctum\n\
 - Have Mining Fatigue while in sanctum\n\n"},\
-{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger bp.outlander_"}},\
+{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","value":"/trigger bp.outlander_"}},\
 {"translate":"\n------------------------------"}]

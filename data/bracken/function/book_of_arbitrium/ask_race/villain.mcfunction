@@ -9,5 +9,5 @@ tellraw @s ["",{"translate":"------------------------------\nWould you like to b
 - Villagers grant bad omen effect\n\
 - Cannot get hero of the village effect\n\
 - Constant bad luck effect x10\n\n"},\
-{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger bp.villain_"}},\
+{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","value":"/trigger bp.villain_"}},\
 {"translate":"\n------------------------------"}]
