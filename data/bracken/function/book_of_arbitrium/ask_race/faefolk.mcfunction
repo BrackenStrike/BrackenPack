@@ -7,5 +7,5 @@ tellraw @s ["",{"translate":"------------------------------\nWould you like to b
 + Increased safe fall distance\n\
 - 1 less heart\n\
 - 15% decreased attack damage\n\n"},\
-{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","value":"/trigger bp.faefolk_"}},\
+{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","command":"/trigger bp.faefolk_"}},\
 {"translate":"\n------------------------------"}]

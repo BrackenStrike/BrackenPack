@@ -10,5 +10,5 @@ tellraw @s ["",{"translate":"------------------------------\nWould you like to b
 - Greatly reduced jump strength
 - Weakness and hunger effects in hot biomes and hot dimensions\n\
 - Reduced movement speed outside of water\n\n"},\
-{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","value":"/trigger bp.nereid_"}},\
+{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","command":"/trigger bp.nereid_"}},\
 {"translate":"\n------------------------------"}]

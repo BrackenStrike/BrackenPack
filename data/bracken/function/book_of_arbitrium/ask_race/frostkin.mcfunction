@@ -11,5 +11,5 @@ tellraw @s ["",{"translate":"------------------------------\nWould you like to b
 + Become empowered whilst in powdered snow\n\
 - Weakness effect in hot biomes and hot dimensions\n\
 - Instant damage effect from contact with magma, fire and lava\n\n"},\
-{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","value":"/trigger bp.frostkin_"}},\
+{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","command":"/trigger bp.frostkin_"}},\
 {"translate":"\n------------------------------"}]

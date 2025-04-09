@@ -6,5 +6,5 @@ tellraw @s ["",{"translate":"------------------------------\nWould you like to b
 + Increased entity interaction range\n\
 + Eating chorus fruit grants massive saturation\n\
 - Takes damage from rain and water sources\n\n"},\
-{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","value":"/trigger bp.enderling_"}},\
+{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","command":"/trigger bp.enderling_"}},\
 {"translate":"\n------------------------------"}]

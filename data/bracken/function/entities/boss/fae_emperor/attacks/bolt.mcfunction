@@ -1,4 +1,4 @@
-/summon tnt ~ ~1 ~ {Glowing:1,fuse:200,block_state:{Name:"minecraft:warped_fungus",Properties:{charges:"4"}},explosion_power:8,Tags:["bp.fae.blast"],CustomName:{"translate":"Warped Bomb","color":"blue"}}
+summon tnt ~ ~1 ~ {Glowing:1,fuse:100,block_state:{Name:"minecraft:warped_fungus",Properties:{charges:"4"}},explosion_power:8,Tags:["bp.fae.blast"],CustomName:{"translate":"Warped Bomb","color":"blue"}}
 
 
 scoreboard players set @s bp.speed 30

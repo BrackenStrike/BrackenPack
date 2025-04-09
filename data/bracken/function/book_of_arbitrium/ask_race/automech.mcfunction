@@ -10,5 +10,5 @@ tellraw @s ["",{"translate":"------------------------------\nWould you like to b
 + Saturation while standing on redstone blocks\n\
 - Reduced movement speed\n\
 - Slowness and sinks rapidly in water\n\n"},\
-{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","value":"/trigger bp.automech_"}},\
+{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","command":"/trigger bp.automech_"}},\
 {"translate":"\n------------------------------"}]
