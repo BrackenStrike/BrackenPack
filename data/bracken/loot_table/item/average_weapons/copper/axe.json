@@ -46,7 +46,7 @@
 				},
 				{
 					"attribute": "minecraft:block_break_speed",
-					"id": "bracken:copper_pickaxe",
+					"id": "bracken:copper_axe",
 					"amount": 1,
 					"operation": "add_value",
 					"slot": "mainhand"

@@ -37,30 +37,32 @@
 				}
 			},{
 				"function": "minecraft:set_attributes",
-				"modifiers": [{
+				"modifiers": [
+					{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:copper_hoe",
 					"amount": -0.3,
 					"operation": "add_value",
 					"slot": "mainhand"
-				}]
-			},{
-				"function": "minecraft:set_attributes",
-				"modifiers": [{
-					"attribute": "minecraft:attack_damage",
+				},
+				{
+					"attribute": "minecraft:block_break_speed",
 					"id": "bracken:copper_hoe",
-					"amount": 0,
+					"amount": 1,
 					"operation": "add_value",
 					"slot": "mainhand"
+				},{
+					"function": "minecraft:set_attributes",
+					"modifiers": [{
+						"attribute": "minecraft:attack_damage",
+						"id": "bracken:copper_hoe",
+						"amount": 0,
+						"operation": "add_value",
+						"slot": "mainhand"
+					}]
 				}]
 			},
 			{
-				"attribute": "minecraft:block_break_speed",
-				"id": "bracken:copper_pickaxe",
-				"amount": 1,
-				"operation": "add_value",
-				"slot": "mainhand"
-			},{
 				"function": "minecraft:toggle_tooltips",
 				"toggles": {
 					"attribute_modifiers": false

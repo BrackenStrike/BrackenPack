@@ -137,6 +137,7 @@ scoreboard objectives add bp.pax dummy
 
 # The Brine
 scoreboard objectives add bp.brine_potion dummy
+scoreboard objectives add bp.conduit dummy
 
 # Glacium
 scoreboard objectives add bp.ice dummy
