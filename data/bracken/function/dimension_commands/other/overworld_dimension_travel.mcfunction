@@ -15,4 +15,4 @@ effect give @s[y=260,dy=100] jump_boost 1 1 true
 effect give @s[y=300,dy=100] jump_boost 1 7 true
 
 
-execute if block ~ ~ ~ water if entity @s[nbt={active_effects:[{id:"minecraft:conduit_power"}]}] run function bracken:dimension_commands/other/conduit_raycast
+execute if entity @s[nbt={active_effects:[{id:"minecraft:conduit_power"}]}] run function bracken:dimension_commands/other/conduit_raycast
