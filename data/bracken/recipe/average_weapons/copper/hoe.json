@@ -34,6 +34,13 @@
 					"amount": 0,
 					"operation": "add_value",
 					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:block_break_speed",
+					"id": "bracken:copper_hoe",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "mainhand"
 				}],
 				"minecraft:tooltip_display": {
         "hidden_components": [

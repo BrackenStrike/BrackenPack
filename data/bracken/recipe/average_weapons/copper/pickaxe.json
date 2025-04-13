@@ -34,6 +34,13 @@
 					"amount": -2.7,
 					"operation": "add_value",
 					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:block_break_speed",
+					"id": "bracken:copper_pickaxe",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "mainhand"
 				}],
 				"minecraft:tooltip_display": {
         "hidden_components": [
