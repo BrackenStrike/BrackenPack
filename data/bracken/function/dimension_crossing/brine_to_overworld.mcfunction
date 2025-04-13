@@ -3,10 +3,10 @@
 # Creators: Grandmaster
 ##########################################################
 
-execute in minecraft:overworld run tp @s ~ 120 ~
+execute in minecraft:overworld run tp @s ~ 305 ~
 effect give @s levitation 2 20 false
 execute at @s run forceload add ~ ~
 execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air
-effect give @s slow_falling 5 2 false
+effect give @s slow_falling 10 2 false
 
 execute in minecraft:overworld run function bracken:remove_forceload

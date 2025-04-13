@@ -3,5 +3,6 @@
 # Creators: Bracken
 ##########################################################
 
-execute in bracken:the_brine run tp @s ~ ~ ~
+execute in bracken:the_brine run tp @s ~ 520 ~
 execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air
+effect give @s slow_falling 10 2 false
