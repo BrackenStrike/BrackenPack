@@ -1,5 +1,5 @@
 {
-  "asset_id": "minecraft:entity/cat/tiger",
+  "asset_id": "bracken:entity/cat/tiger",
   "spawn_conditions": [
     {
       "condition": {
