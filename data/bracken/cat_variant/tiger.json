@@ -1,0 +1,13 @@
+{
+  "asset_id": "minecraft:entity/cat/tiger",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_panacea"
+      },
+      "priority": 1
+    }
+    
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "minecraft:entity/chicken/duck",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_faewild"
+      },
+      "priority": 1
+    }
+  ]
+}

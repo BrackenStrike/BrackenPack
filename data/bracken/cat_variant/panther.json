@@ -1,0 +1,13 @@
+{
+  "asset_id": "minecraft:entity/cat/panther",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "#minecraft:cats_spawn_as_black"
+      },
+      "priority": 1
+    }
+    
+  ]
+}

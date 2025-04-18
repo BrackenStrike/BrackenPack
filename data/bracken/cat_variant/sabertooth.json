@@ -1,0 +1,12 @@
+{
+  "asset_id": "minecraft:entity/cat/sabertooth",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_glacium"
+      },
+      "priority": 1
+    }
+  ]
+}

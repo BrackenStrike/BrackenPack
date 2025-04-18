@@ -1,0 +1,13 @@
+{
+  "asset_id": "minecraft:entity/pig/stool",
+  "model": "cold",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "bracken:fae_castle"
+      },
+      "priority": 1
+    }
+  ]
+}

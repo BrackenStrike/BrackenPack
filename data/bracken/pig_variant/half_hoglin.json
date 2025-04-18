@@ -1,0 +1,13 @@
+{
+  "asset_id": "minecraft:entity/pig/half_hoglin",
+  "model": "cold",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_underdark"
+      },
+      "priority": 1
+    }
+  ]
+}
