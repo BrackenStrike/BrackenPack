@@ -3,8 +3,8 @@
   "spawn_conditions": [
     {
       "condition": {
-        "type": "minecraft:structure",
-        "structures": "#minecraft:cats_spawn_as_black"
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_panacea"
       },
       "priority": 1
     }
