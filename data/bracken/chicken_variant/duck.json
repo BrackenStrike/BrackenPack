@@ -4,7 +4,7 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#minecraft:is_faewild"
+        "biomes": "#minecraft:is_brine"
       },
       "priority": 1
     }
