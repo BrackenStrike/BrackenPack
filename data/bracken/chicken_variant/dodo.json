@@ -4,7 +4,7 @@
     {
       "condition": {
         "type": "minecraft:biome",
-        "biomes": "#minecraft:is_brine"
+        "biomes": "#minecraft:is_underdark"
       },
       "priority": 1
     }

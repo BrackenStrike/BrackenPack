@@ -3,7 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-summon birch_boat ~ ~ ~ {NoGravity:1b,Glowing:1b,CustomName:{"translate":"Flying Boat","color":"yellow","bold":true}}
+summon :pale_oak_boat ~ ~ ~ {NoGravity:1b,Glowing:1b,CustomName:{"translate":"Flying Boat","color":"yellow","bold":true}}
 
 tellraw @s ["",{"selector":"@s "},{"translate":" generated [FLYING BOAT]"}]
 

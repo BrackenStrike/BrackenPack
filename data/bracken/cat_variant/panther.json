@@ -7,6 +7,13 @@
         "biomes": "#minecraft:is_panacea"
       },
       "priority": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_end"
+      },
+      "priority": 1
     }
     
   ]

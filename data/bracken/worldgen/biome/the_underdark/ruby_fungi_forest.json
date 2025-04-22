@@ -25,6 +25,12 @@
                 "weight": 8,
                 "minCount": 4,
                 "maxCount": 8
+            },
+            {
+                "type": "minecraft:pig",
+                "weight": 12,
+                "minCount": 4,
+                "maxCount": 4
             }
         ],
         "monster": [
