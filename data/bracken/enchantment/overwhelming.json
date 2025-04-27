@@ -1,0 +1,32 @@
+{
+	"anvil_cost": 4,
+	"description": {
+		"translate": "Overwhelming"
+	},
+	"effects": {
+		"minecraft:post_attack": [{
+			"enchanted": "attacker",
+			"affected": "victim",
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "bracken:item/enchantment/overwhelming"
+			}
+		}]
+	},
+	"exclusive_set": "#minecraft:exclusive_set/damage",
+	"max_cost": {
+		"base": 25,
+		"per_level_above_first": 8
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 5,
+		"per_level_above_first": 8
+	},
+	"primary_items": "#minecraft:enchantable/sword",
+	"slots": [
+		"mainhand"
+	],
+	"supported_items": "#minecraft:enchantable/sharp_weapon",
+	"weight": 5
+}

@@ -1,0 +1,1 @@
+damage @s 1 minecraft:cramming

@@ -31,6 +31,11 @@
 					"translate": "+2.5% Movement Speed",
 					"color": "dark_green",
 					"italic": false
+				},
+				{
+					"translate": "Bonus Sweeping Attack",
+					"color": "dark_green",
+					"italic": false
 				}],
 				"mode": "insert"
 			},{
@@ -38,7 +43,19 @@
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/lustra/sabre",
 					"minecraft:max_damage": 3000,
-					"minecraft:enchantment_glint_override": true
+					"minecraft:enchantment_glint_override": true,
+					"minecraft:blocks_attacks": {
+          "block_delay_seconds": 0.25,
+          "disable_cooldown_scale": 0.1,
+          "item_damage": {
+            "threshold": 0,
+            "base": 1,
+            "factor": 1
+          },
+          "block_sound": "minecraft:block.anvil.place",
+          "disabled_sound": "minecraft:item.axe.scrape",
+          "bypassed_by": "#bracken:bypasses_sword"
+        }
 				}
 			},{
 				"function": "minecraft:set_attributes",
@@ -58,6 +75,13 @@
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:lustra_sabre",
 					"amount": 3,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"attribute": "minecraft:sweeping_damage_ratio",
+					"id": "bracken:lustra_sabre",
+					"amount": 2,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}]

@@ -33,7 +33,20 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/cryolith/sickle",
-					"minecraft:max_damage": 200
+					"minecraft:max_damage": 200,
+					"minecraft:blocks_attacks": {
+          "block_delay_seconds": 0.25,
+		  "horizontal_blocking_angle":180,
+          "disable_cooldown_scale": 0.1,
+          "item_damage": {
+            "threshold": 0,
+            "base": 1,
+            "factor": 1
+          },
+          "block_sound": "minecraft:block.anvil.place",
+          "disabled_sound": "minecraft:item.axe.scrape",
+          "bypassed_by": "#bracken:bypasses_sword"
+        }
 				}
 			},{
 				"function": "set_enchantments",

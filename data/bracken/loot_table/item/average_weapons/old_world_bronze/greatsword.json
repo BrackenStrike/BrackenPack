@@ -20,7 +20,7 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "8.5 Attack Damage",
+					"translate": "9.5 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -37,14 +37,26 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/old_world_bronze/greatsword",
-					"minecraft:max_damage": 2070
+					"minecraft:max_damage": 2070,
+					"minecraft:blocks_attacks": {
+          "block_delay_seconds": 1,
+          "disable_cooldown_scale": 0.25,
+          "item_damage": {
+            "threshold": 0,
+            "base": 1,
+            "factor": 1
+          },
+          "block_sound": "minecraft:block.anvil.place",
+          "disabled_sound": "minecraft:item.axe.scrape",
+          "bypassed_by": "#bracken:bypasses_sword"
+        }
 				}
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:old_world_bronze_greatsword",
-					"amount": 7.5,
+					"amount": 8.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

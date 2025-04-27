@@ -27,17 +27,25 @@
 					"translate": "1.6 Attack Speed",
 					"color": "dark_green",
 					"italic": false
-				},{
-					"translate": "3 Armor",
-					"color": "dark_green",
-					"italic": false
 				}],
 				"mode": "insert"
 			},{
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/cryolith/buckler",
-					"minecraft:max_damage": 200
+					"minecraft:max_damage": 200,
+					"minecraft:blocks_attacks": {
+          "block_delay_seconds": 0.25,
+          "disable_cooldown_scale": 0.1,
+          "item_damage": {
+            "threshold": 0,
+            "base": 1,
+            "factor": 1
+          },
+          "block_sound": "minecraft:block.anvil.place",
+          "disabled_sound": "minecraft:item.axe.scrape",
+          "bypassed_by": "#minecraft:bypasses_shield"
+        }
 				}
 			},{
 				"function": "set_enchantments",
@@ -49,12 +57,6 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:armor",
-					"id": "bracken:cryolith_buckler",
-					"amount": 3,
-					"operation": "add_value",
-					"slot": "hand"
-				},{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:cryolith_buckler",
 					"amount": -2.4,

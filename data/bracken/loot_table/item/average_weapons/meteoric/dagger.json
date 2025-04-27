@@ -24,7 +24,12 @@
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "2 Attack Speed",
+					"translate": "1.2 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				},
+				{
+					"translate": "Bonus Sneaking Speed",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -44,7 +49,14 @@
 				"modifiers": [{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:meteoric_dagger",
-					"amount": -2,
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"attribute": "minecraft:sneaking_speed",
+					"id": "bracken:meteoric_dagger",
+					"amount": 0.15,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

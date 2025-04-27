@@ -28,7 +28,7 @@
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "10% Knockback Resistance",
+					"translate": "Bonus Knockback",
 					"color": "dark_green",
 					"italic": false
 				}],
@@ -36,14 +36,26 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:average_weapons/iron/bludgeon"
+					"minecraft:item_model": "bracken:average_weapons/iron/bludgeon",
+					"minecraft:blocks_attacks": {
+          "block_delay_seconds": 0.25,
+          "disable_cooldown_scale": 0.1,
+          "item_damage": {
+            "threshold": 0,
+            "base": 1,
+            "factor": 1
+          },
+          "block_sound": "minecraft:block.anvil.place",
+          "disabled_sound": "minecraft:item.axe.scrape",
+          "bypassed_by": "#bracken:bypasses_sword"
+        }
 				}
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:knockback_resistance",
+					"attribute": "minecraft:attack_knockback",
 					"id": "bracken:iron_bludgeon",
-					"amount": 0.1,
+					"amount": 1,
 					"operation": "add_value",
 					"slot": "hand"
 				},{
