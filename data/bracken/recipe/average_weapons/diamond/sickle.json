@@ -11,13 +11,13 @@
 			"minecraft:lore": [
 				{"translate":"","color":"white","italic":false},
 				{"translate":"When in Main Hand:","color":"gray","italic":false},
-				{"translate": "8 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "9 Attack Damage","color":"dark_green","italic":false},
 				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false}
 			],
 			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:diamond_sickle",
-					"amount": 7,
+					"amount": 8,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

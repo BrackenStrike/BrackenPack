@@ -14,7 +14,7 @@
 				{"translate":"When in Main Hand:","color":"gray","italic":false},
 				{"translate": "5.5 Attack Damage","color":"dark_green","italic":false},
 				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false},
-				{"translate": "10% Knockback Resistance","color":"dark_green","italic":false}
+				{"translate": "Bonus Knockback","color": "aqua","italic": false}
 			],
 			"minecraft:attribute_modifiers": [
 				{
@@ -30,11 +30,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:knockback_resistance",
+					"attribute": "minecraft:attack_knockback",
 					"id": "bracken:copper_bludgeon",
-					"amount": 0.1,
+					"amount": 1,
 					"operation": "add_value",
-					"slot": "mainhand"
+					"slot": "hand"
 				}],
 				"minecraft:tooltip_display": {
         "hidden_components": [

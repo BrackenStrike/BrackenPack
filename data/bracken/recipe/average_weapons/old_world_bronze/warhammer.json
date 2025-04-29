@@ -8,6 +8,9 @@
 		"components": {
 			"minecraft:item_name": "Old World Bronze Warhammer",
 			"minecraft:item_model": "bracken:average_weapons/old_world_bronze/warhammer",
+			"minecraft:weapon": {
+				"disable_blocking_for_seconds": 3
+			  },
 			"minecraft:lore": [
 				{"translate":"","color":"white","italic":false},
 				{"translate":"When in Main Hand:","color":"gray","italic":false},

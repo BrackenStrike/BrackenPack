@@ -8,6 +8,9 @@
 		"components": {
 			"minecraft:item_name": "Diamond Warhammer",
 			"minecraft:item_model": "bracken:average_weapons/diamond/warhammer",
+			"minecraft:weapon": {
+				"disable_blocking_for_seconds": 3
+			  },
 			"minecraft:lore": [
 				{"translate":"","color":"white","italic":false},
 				{"translate":"When in Main Hand:","color":"gray","italic":false},

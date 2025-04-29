@@ -9,6 +9,9 @@
 			"minecraft:max_damage": 175,
 			"minecraft:item_name": "Copper Warhammer",
 			"minecraft:item_model": "bracken:average_weapons/copper/warhammer",
+			"minecraft:weapon": {
+				"disable_blocking_for_seconds": 3
+			  },
 			"minecraft:lore": [
 				{"translate":"","color":"white","italic":false},
 				{"translate":"When in Main Hand:","color":"gray","italic":false},

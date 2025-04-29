@@ -8,6 +8,18 @@
 		"components": {
 			"minecraft:item_name": "Diamond Rapier",
 			"minecraft:item_model": "bracken:average_weapons/diamond/rapier",
+			"minecraft:blocks_attacks": {
+  "block_delay_seconds": 0,
+  "disable_cooldown_scale": 0.1,
+  "item_damage": {
+	"threshold": 0,
+	"base": 3,
+	"factor": 3
+  },
+  "block_sound": "minecraft:block.anvil.place",
+  "disabled_sound": "minecraft:item.axe.scrape",
+  "bypassed_by": "#bracken:bypasses_sword"
+},
 			"minecraft:lore": [
 				{"translate":"","color":"white","italic":false},
 				{"translate":"When in Main Hand:","color":"gray","italic":false},

@@ -8,12 +8,24 @@
 		"components": {
 			"minecraft:item_name": "Stone Buckler",
 			"minecraft:item_model": "bracken:average_weapons/stone/buckler",
+			"minecraft:blocks_attacks": {
+  "block_delay_seconds": 0.25,
+  "disable_cooldown_scale": 0.1,
+  "item_damage": {
+	"threshold": 0,
+	"base": 1,
+	"factor": 1
+  },
+  "block_sound": "minecraft:block.anvil.place",
+  "disabled_sound": "minecraft:item.axe.scrape",
+  "bypassed_by": "#minecraft:bypasses_shield"
+},
 			"minecraft:lore": [
 				{"translate":"","color":"white","italic":false},
 				{"translate":"When in Main Hand:","color":"gray","italic":false},
 				{"translate": "3 Attack Damage","color":"dark_green","italic":false},
 				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false},
-				{"translate": "+2 Armor","color":"dark_green","italic":false}
+				{"translate": "Shield Blocking","color": "aqua","italic": false}
 			],
 			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
@@ -25,12 +37,6 @@
 					"type": "minecraft:attack_speed",
 					"id": "bracken:stone_buckler",
 					"amount": -2.4,
-					"operation": "add_value",
-					"slot": "mainhand"
-				},{
-					"type": "minecraft:armor",
-					"id": "bracken:stone_buckler",
-					"amount": 2,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],

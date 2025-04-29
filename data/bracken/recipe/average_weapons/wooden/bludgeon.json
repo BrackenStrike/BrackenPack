@@ -13,7 +13,7 @@
 				{"translate":"When in Main Hand:","color":"gray","italic":false},
 				{"translate":" 4 Attack Damage","color":"dark_green","italic":false},
 				{"translate":" 1.6 Attack Speed","color":"dark_green","italic":false},
-				{"translate":" 10% Knockback Resistance","color":"dark_green","italic":false}
+				{"translate": "Bonus Knockback","color": "aqua","italic": false}
 			],
 			"minecraft:attribute_modifiers": [{
 					"type": "minecraft:attack_damage",
@@ -28,9 +28,9 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"type": "minecraft:knockback_resistance",
+					"type": "minecraft:attack_knockback",
 					"id": "bracken:wooden_bludgeon",
-					"amount": 0.1,
+					"amount": 1,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],

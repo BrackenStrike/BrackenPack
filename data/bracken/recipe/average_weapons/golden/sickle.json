@@ -11,13 +11,13 @@
 			"minecraft:lore": [
 				{"translate":"","color":"white","italic":false},
 				{"translate":"When in Main Hand:","color":"gray","italic":false},
-				{"translate": "5 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "6 Attack Damage","color":"dark_green","italic":false},
 				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false}
 			],
 			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:golden_sickle",
-					"amount": 4,
+					"amount": 5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
