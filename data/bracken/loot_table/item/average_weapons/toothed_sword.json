@@ -32,20 +32,7 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:average_weapons/toothed_sword",
-					"minecraft:enchantment_glint_override": false,
-					"minecraft:blocks_attacks": {
-          "block_delay_seconds": 0.25,
-          "disable_cooldown_scale": 0.1,
-          "item_damage": {
-            "threshold": 0,
-            "base": 1,
-            "factor": 1
-          },
-          "block_sound": "minecraft:block.anvil.place",
-          "disabled_sound": "minecraft:item.axe.scrape",
-          "bypassed_by": "#bracken:bypasses_sword"
-        }
+					"minecraft:item_model": "bracken:average_weapons/toothed_sword"
 				}
 			},{
 				"function": "minecraft:set_attributes",

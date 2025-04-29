@@ -30,7 +30,7 @@
 				},
 				{
 					"translate": "Bonus Sneaking Speed",
-					"color": "dark_green",
+					"color": "aqua",
 					"italic": false
 				},{
 					"translate": "-1 Attack Range",
@@ -56,7 +56,7 @@
 				{
 					"attribute": "minecraft:sneaking_speed",
 					"id": "bracken:meteoric_dagger",
-					"amount": 0.15,
+					"amount": 0.3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

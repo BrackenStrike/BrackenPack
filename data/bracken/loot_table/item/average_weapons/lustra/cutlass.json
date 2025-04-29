@@ -28,11 +28,16 @@
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "4 Armor",
-					"color": "dark_green",
+					"translate": "Anti-Disable",
+					"color": "aqua",
 					"italic": false
 				}],
 				"mode": "insert"
+			},{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:integrity_fix": 1
+				}
 			},{
 				"function": "minecraft:set_components",
 				"components": {
@@ -55,12 +60,6 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:armor",
-					"id": "bracken:lustra_cutlass",
-					"amount": 4,
-					"operation": "add_value",
-					"slot": "hand"
-				},{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:lustra_cutlass",
 					"amount": -2.4,

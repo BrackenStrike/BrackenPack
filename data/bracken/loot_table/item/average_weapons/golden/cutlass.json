@@ -28,8 +28,8 @@
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "2 Armor",
-					"color": "dark_green",
+					"translate": "Anti-Disable",
+					"color": "aqua",
 					"italic": false
 				}],
 				"mode": "insert"
@@ -58,12 +58,6 @@
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:armor",
-					"id": "bracken:golden_cutlass",
-					"amount": 2,
-					"operation": "add_value",
-					"slot": "hand"
 				},{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:golden_cutlass",

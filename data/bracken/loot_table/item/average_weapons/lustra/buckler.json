@@ -27,8 +27,17 @@
 					"translate": "1.6 Attack Speed",
 					"color": "dark_green",
 					"italic": false
+				},{
+					"translate": "Shield Blocking",
+					"color": "aqua",
+					"italic": false
 				}],
 				"mode": "insert"
+			},{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:integrity_fix": 1
+				}
 			},{
 				"function": "minecraft:set_components",
 				"components": {

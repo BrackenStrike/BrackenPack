@@ -20,7 +20,7 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "11 Attack Damage",
+					"translate": "12 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -33,20 +33,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/cryolith/sickle",
-					"minecraft:max_damage": 200,
-					"minecraft:blocks_attacks": {
-          "block_delay_seconds": 0.25,
-		  "horizontal_blocking_angle":180,
-          "disable_cooldown_scale": 0.1,
-          "item_damage": {
-            "threshold": 0,
-            "base": 1,
-            "factor": 1
-          },
-          "block_sound": "minecraft:block.anvil.place",
-          "disabled_sound": "minecraft:item.axe.scrape",
-          "bypassed_by": "#bracken:bypasses_sword"
-        }
+					"minecraft:max_damage": 200
 				}
 			},{
 				"function": "set_enchantments",
@@ -60,7 +47,7 @@
 				"modifiers": [{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:cryolith_sickle",
-					"amount": 10,
+					"amount": 11,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

@@ -29,7 +29,7 @@
 					"italic": false
 				},{
 					"translate": "Bonus Knockback",
-					"color": "dark_green",
+					"color": "aqua",
 					"italic": false
 				}],
 				"mode": "insert"
@@ -37,19 +37,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/meteoric/bludgeon",
-					"minecraft:max_damage": 1000,
-					"minecraft:blocks_attacks": {
-          "block_delay_seconds": 0.25,
-          "disable_cooldown_scale": 0.1,
-          "item_damage": {
-            "threshold": 0,
-            "base": 1,
-            "factor": 1
-          },
-          "block_sound": "minecraft:block.anvil.place",
-          "disabled_sound": "minecraft:item.axe.scrape",
-          "bypassed_by": "#bracken:bypasses_sword"
-        }
+					"minecraft:max_damage": 1000
 				}
 			},{
 				"function": "minecraft:set_attributes",

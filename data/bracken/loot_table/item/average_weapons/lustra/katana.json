@@ -31,8 +31,17 @@
 					"translate": "+2.5% Movement Speed",
 					"color": "dark_green",
 					"italic": false
+				},{
+					"translate": "Projectile Deflection",
+					"color": "aqua",
+					"italic": false
 				}],
 				"mode": "insert"
+			},{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:integrity_fix": 1
+				}
 			},{
 				"function": "minecraft:set_components",
 				"components": {

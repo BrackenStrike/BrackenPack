@@ -28,8 +28,8 @@
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "2 Armor",
-					"color": "dark_green",
+					"translate": "Anti-Disable",
+					"color": "aqua",
 					"italic": false
 				}],
 				"mode": "insert"
@@ -53,12 +53,6 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:armor",
-					"id": "bracken:iron_cutlass",
-					"amount": 2,
-					"operation": "add_value",
-					"slot": "hand"
-				},{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:iron_cutlass",
 					"amount": -2.4,
