@@ -40,8 +40,8 @@
           "disable_cooldown_scale": 0.1,
           "item_damage": {
             "threshold": 0,
-            "base": 1,
-            "factor": 1
+            "base": 3,
+            "factor": 3
           },
           "block_sound": "minecraft:block.anvil.place",
           "disabled_sound": "minecraft:item.axe.scrape",
