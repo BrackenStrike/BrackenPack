@@ -28,5 +28,9 @@ execute if predicate bracken:sanctum_rain run function bracken:dimension_command
 # The desolation speaks.
 execute if predicate bracken:periodic/3s if predicate bracken:random/one_in_30 run playsound bracken:sanctum_ambient ambient @s ~ ~ ~ 100 1.0 1
 
+# travel omnidrome
+execute if score @s bp.1_second matches 17 if data storage bracken:config {dimension_travel: true} if predicate bracken:sprint if entity @e[type=minecraft:end_crystal,distance=..2,predicate=bracken:dimensions/sanctum] run function bracken:dimension_crossing/sanctum_to_omnidrome
+
+
 #return
 return 1

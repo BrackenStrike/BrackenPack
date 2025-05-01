@@ -3,8 +3,6 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-# travel omnidrome
-execute if score @s bp.1_second matches 17 if data storage bracken:config {dimension_travel: true} if predicate bracken:sprint if entity @e[type=minecraft:end_crystal,distance=..2,predicate=bracken:dimensions/the_nether] run function bracken:dimension_crossing/nether_to_omnidrome
 
 
 
