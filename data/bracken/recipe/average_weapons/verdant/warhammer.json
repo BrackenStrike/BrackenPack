@@ -21,7 +21,7 @@
 				{"translate":"","color":"white","italic":false},
 				{"translate":"When in Main Hand:","color":"gray","italic":false},
 				{"translate": "5.5 Attack Damage","color":"dark_green","italic":false},
-				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false},
+				{"translate": "1 Attack Speed","color":"dark_green","italic":false},
 				{"translate": "20% Knockback Resistance","color":"dark_green","italic":false}
 			],
 			"minecraft:attribute_modifiers":[{
@@ -33,7 +33,7 @@
 				},{
 					"type": "minecraft:attack_speed",
 					"id": "bracken:verdant_warhammer",
-					"amount": -2.4,
+					"amount": -3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

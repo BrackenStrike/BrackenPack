@@ -15,7 +15,7 @@
 				{"translate":"","color":"white","italic":false},
 				{"translate":"When in Main Hand:","color":"gray","italic":false},
 				{"translate": "8.5 Attack Damage","color":"dark_green","italic":false},
-				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false},
+				{"translate": "1 Attack Speed","color":"dark_green","italic":false},
 				{"translate": "25% Knockback Resistance","color":"dark_green","italic":false}
 			],
 			"minecraft:attribute_modifiers":[{
@@ -27,7 +27,7 @@
 				},{
 					"type": "minecraft:attack_speed",
 					"id": "bracken:netherite_warhammer",
-					"amount": -2.4,
+					"amount": -3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
