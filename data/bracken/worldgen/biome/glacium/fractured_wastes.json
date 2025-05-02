@@ -20,11 +20,12 @@
         ],
         "monster": [
             {
-                "type": "minecraft:zombie_villager",
+                "type": "minecraft:breeze",
                 "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
             },
+            
             {
                 "type": "minecraft:skeleton",
                 "weight": 1,

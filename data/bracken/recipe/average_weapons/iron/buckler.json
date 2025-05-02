@@ -4,7 +4,7 @@
 	"pattern": [
 		" # ",
 		"###",
-		" /  "
+		" / "
 	],
 	"key": {
 		"#": "minecraft:iron_ingot",

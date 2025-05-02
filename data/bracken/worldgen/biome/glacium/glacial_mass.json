@@ -24,7 +24,12 @@
                 "maxCount": 4
             }
         ],
-        "monster": []
+        "monster": [{
+            "type": "minecraft:breeze",
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 1
+        }]
     },
     "spawn_costs": {},
     "carvers": [
