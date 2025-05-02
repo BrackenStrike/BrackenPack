@@ -1,8 +1,15 @@
 {
-	"type": "minecraft:smithing_transform",
-	"template": "minecraft:dune_armor_trim_smithing_template",
-	"base": "minecraft:iron_sword",
-	"addition": "minecraft:iron_ingot",
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"  #",
+		"## ",
+		"/#  "
+	],
+	"key": {
+		"#": "minecraft:iron_ingot",
+		"/": "minecraft:stick"
+	},
 	"result": {
 		"id": "minecraft:iron_sword",
 		"components": {

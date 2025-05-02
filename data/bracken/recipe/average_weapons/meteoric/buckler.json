@@ -1,8 +1,15 @@
 {
-	"type": "minecraft:smithing_transform",
-	"template": "minecraft:vex_armor_trim_smithing_template",
-	"base": "minecraft:netherite_sword",
-	"addition": "minecraft:netherite_scrap",
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		" # ",
+		"###",
+		" /  "
+	],
+	"key": {
+		"#": "minecraft:netherite_scrap",
+		"/": "minecraft:stick"
+	},
 	"result": {
 		"id": "minecraft:netherite_sword",
 		"components": {

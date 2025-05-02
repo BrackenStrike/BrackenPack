@@ -1,8 +1,15 @@
 {
-	"type": "minecraft:smithing_transform",
-	"template": "minecraft:dune_armor_trim_smithing_template",
-	"base": "minecraft:diamond_sword",
-	"addition": "minecraft:diamond",
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"  #",
+		"## ",
+		"/#  "
+	],
+	"key": {
+		"#": "minecraft:diamond",
+		"/": "minecraft:stick"
+	},
 	"result": {
 		"id": "minecraft:diamond_sword",
 		"components": {

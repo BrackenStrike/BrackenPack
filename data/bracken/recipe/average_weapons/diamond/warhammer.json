@@ -1,9 +1,15 @@
 {
-	"type": "minecraft:smithing_transform",
-	"template": "minecraft:ward_armor_trim_smithing_template",
-	"base": "minecraft:diamond_sword",
-	"addition": "minecraft:diamond",
-	"result": {
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		" ##",
+		" ##",
+		"/  "
+	],
+	"key": {
+		"#": "minecraft:diamond",
+		"/": "minecraft:stick"
+	},"result": {
 		"id": "minecraft:diamond_sword",
 		"components": {
 			"minecraft:item_name": "Diamond Warhammer",

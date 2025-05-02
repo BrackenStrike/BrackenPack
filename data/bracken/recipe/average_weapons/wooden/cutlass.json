@@ -1,8 +1,15 @@
 {
-	"type": "minecraft:smithing_transform",
-	"template": "minecraft:wild_armor_trim_smithing_template",
-	"base": "minecraft:wooden_sword",
-	"addition": "#minecraft:planks",
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		" # ",
+		" # ",
+		"#/  "
+	],
+	"key": {
+		"#": "#minecraft:planks",
+		"/": "minecraft:stick"
+	},
 	"result": {
 		"id": "minecraft:wooden_sword",
 		"components": {

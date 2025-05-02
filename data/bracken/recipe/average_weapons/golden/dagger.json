@@ -1,8 +1,15 @@
 {
-	"type": "minecraft:smithing_transform",
-	"template": "minecraft:coast_armor_trim_smithing_template",
-	"base": "minecraft:golden_sword",
-	"addition": "minecraft:gold_ingot",
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"   ",
+		" # ",
+		" /  "
+	],
+	"key": {
+		"#": "minecraft:gold_ingot",
+		"/": "minecraft:stick"
+	},
 	"result": {
 		"id": "minecraft:golden_sword",
 		"components": {
