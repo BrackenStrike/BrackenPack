@@ -17,7 +17,7 @@
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true,
-		"background": "bracken:textures/gui/advancements/backgrounds/underdark.png"
+		"background": "minecraft:block/deepslate"
 	},
 	"criteria": {
 		"requirement": {

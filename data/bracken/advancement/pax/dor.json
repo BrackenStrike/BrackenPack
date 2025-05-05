@@ -1,5 +1,5 @@
 {
-	"parent": "bracken:pax",
+	"parent": "bracken:pax/pax_portal",
 	"display": {
 		"title": {
 			"translate": "Interdimensional Criminal"

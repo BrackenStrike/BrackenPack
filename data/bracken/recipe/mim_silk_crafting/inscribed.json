@@ -3,7 +3,7 @@
 	"category": "equipment",
 	"template": "minecraft:shulker_spawn_egg",
 	"base": "minecraft:enchanted_book",
-	"addition": "minecraft:diamond",
+	"addition": "minecraft:lapis_lazuli",
 	"result": {
 		"id": "minecraft:shulker_spawn_egg",
 		"count": 2,

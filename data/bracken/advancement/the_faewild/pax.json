@@ -1,11 +1,11 @@
 {
-	"parent": "bracken:fae",
+	"parent": "bracken:the_faewild/enter_the_faewild",
 	"display": {
 		"title": {
 			"translate": "Pax Aeterna"
 		},
 		"description": {
-			"translate": "Ascend further to the Pax dimesion",
+			"translate": "Ascend within the Faewild's clouds to enter Pax. Bring leather boots",
 			"color": "green"
 		},
 		"icon": {

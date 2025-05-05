@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:end_crystal"
+		},
+		"title": {
+			"translate": "Round Trip"
+		},
+		"description": {
+			"translate": "Sprint inside an end crystal to travel between Omnidrome and Sanctum",
+			"color": "green"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "bracken:omnidrome/enter_omnidrome",
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

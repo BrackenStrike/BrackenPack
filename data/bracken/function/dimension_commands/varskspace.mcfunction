@@ -16,6 +16,7 @@ effect give @s[scores={bp.sprintcharge=40..}] minecraft:speed 1 29 true
 effect give @s[scores={bp.sprintcharge=40..}] minecraft:night_vision 2 24 true
 effect give @s[scores={bp.sprintcharge=60..}] minecraft:speed 1 39 true
 execute if entity @s[scores={bp.sprintcharge=60..}] run summon minecraft:lightning_bolt ^ ^ ^-7
+execute if entity @s[scores={bp.sprintcharge=60..}] run advancement grant @s only bracken:varskspace/electric
 effect give @s[scores={bp.sprintcharge=80..}] minecraft:speed 1 79 true
 effect give @s[scores={bp.sprintcharge=100..}] minecraft:resistance 3 4 true
 execute if entity @s[scores={bp.sprintcharge=100..}] in minecraft:overworld run tp @s ~ 100 ~

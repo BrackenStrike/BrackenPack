@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"dimension": "bracken:omnidrome"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:dimension_crossing/first_time_text/omniportal"
+	}
+}

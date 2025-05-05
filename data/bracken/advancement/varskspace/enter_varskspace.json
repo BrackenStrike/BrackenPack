@@ -1,29 +1,26 @@
 {
 	"display": {
 		"title": {
-			"translate": "Pax"
+			"translate": "Varskspace"
 		},
 		"description": {
-			"translate": "Realm of peace",
+			"translate": "Travelers' realm",
 			"color": "green"
 		},
 		"icon": {
-			"id": "minecraft:netherite_sword",
-			"components": {
-				"minecraft:item_model": "bracken:paxmaker_sword"
-			}
+			"id": "minecraft:soul_fire"
 		},
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true,
-		"background": "minecraft:block/quartz_block"
+		"background": "minecraft:block/amethyst_block"
 	},
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:changed_dimension",
 			"conditions": {
-				"to": "bracken:pax"
+				"to": "bracken:varskspace"
 			}
 		}
 	}

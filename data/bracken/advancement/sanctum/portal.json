@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"id": "minecraft:diamond",
+			"components": {
+				"minecraft:item_model": "bracken:portals/omnidrome_portal"
+			}
+		},
+		"title": {
+			"translate": "One Way Portal"
+		},
+		"description": {
+			"translate": "Jump in the omni-portal and forever shatter the barrier between Sanctum and Omnidrome",
+			"color": "green"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "bracken:sanctum/kill_boss",
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
