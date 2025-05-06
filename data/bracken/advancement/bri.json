@@ -17,14 +17,11 @@
 		"hidden": false
 	},
 	"criteria": {
-		"bracken:bri1": {
-			"trigger": "minecraft:changed_dimension",
-			"conditions": {
-				"to": "bracken:the_brine"
-			}
+		"discovered": {
+			"trigger": "minecraft:impossible"
 		}
 	},
-	"requirements": [[
-		"bracken:bri1"
-	]]
+	"rewards": {
+		"experience": 2
+	}
 }

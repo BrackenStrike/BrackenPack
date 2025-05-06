@@ -23,7 +23,7 @@ execute positioned over world_surface if entity @s[predicate=bracken:sanctum_rai
 execute if predicate bracken:sanctum_rain run function bracken:dimension_commands/sanctum_dust_storm/dust_storm2
 
 # travel omniportal
-execute if score @s bp.1_second matches 17 if data storage bracken:config {dimension_travel: true} if entity @e[type=minecraft:item_display,tag=bp.omnidrome_entrance,distance=..2,predicate=bracken:dimensions/sanctum] run function bracken:dimension_crossing/other/omniportal
+execute if score @s bp.1_second matches 17 if data storage bracken:config {dimension_travel: true} if entity @e[type=minecraft:item_display,tag=bp.omnidrome_entrance,distance=..4,predicate=bracken:dimensions/sanctum] run function bracken:dimension_commands/other/omniportal
 
 # The desolation speaks.
 execute if predicate bracken:periodic/3s if predicate bracken:random/one_in_30 run playsound bracken:sanctum_ambient ambient @s ~ ~ ~ 100 1.0 1

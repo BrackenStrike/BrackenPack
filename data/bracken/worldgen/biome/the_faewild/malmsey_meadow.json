@@ -70,9 +70,7 @@
         [
             "minecraft:flower_plains"
         ],
-        ["bracken:faewild/firefly"
-          
-        ],
+        [],
         [
             "minecraft:spring_water",
             "minecraft:seagrass_swamp",

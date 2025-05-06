@@ -57,9 +57,7 @@
     "features": [
         [],
         [],
-        [
-            "minecraft:forest_rock"
-        ],
+        [],
         [],
         [],
         [],
@@ -72,7 +70,8 @@
             "minecraft:patch_tall_grass_2",
             "minecraft:patch_large_fern",
             "bracken:panacea/creeper_dec",
-            "bracken:panacea/meat",
+            "bracken:panacea/meat_rock",
+            
             "minecraft:patch_grass_jungle"
         ],
         [

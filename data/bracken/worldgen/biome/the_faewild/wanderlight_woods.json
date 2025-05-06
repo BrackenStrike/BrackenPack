@@ -84,7 +84,9 @@
         [
             "minecraft:forest_rock"
         ],
-        [],
+        ["bracken:faewild/firefly"
+          
+        ],
         [],
         [],
         ["bracken:faewild/lapis_ore","bracken:faewild/copper_ore"],

@@ -5,7 +5,7 @@
 			"translate": "Interdimensional Criminal"
 		},
 		"description": {
-			"translate": "Get stuck in Dormis. Not really the wisest thing to do. ",
+			"translate": "Get sent to Dormis. You monster.",
 			"color": "green"
 		},
 		"icon": {
@@ -17,14 +17,11 @@
 		"hidden": false
 	},
 	"criteria": {
-		"bracken:dor1": {
-			"trigger": "minecraft:changed_dimension",
-			"conditions": {
-				"to": "bracken:dormis"
-			}
+		"discovered": {
+			"trigger": "minecraft:impossible"
 		}
 	},
-	"requirements": [[
-		"bracken:dor1"
-	]]
+	"rewards": {
+		"experience": 2
+	}
 }

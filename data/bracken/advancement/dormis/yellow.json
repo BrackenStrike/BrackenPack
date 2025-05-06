@@ -1,5 +1,5 @@
 {
-	"parent": "bracken:dormis/enter_dormis",
+	"parent": "bracken:dormis/white",
 	"display": {
 		"title": {
 			"translate": "Flare Warning"

@@ -1,11 +1,11 @@
 {
-	"parent": "minecraft:nether/return_to_sender",
+	"parent": "bracken:sanctum/portal",
 	"display": {
 		"title": {
-			"translate": "Synthwave Symphony"
+			"translate": "Again? Alright, I guess."
 		},
 		"description": {
-			"translate": "Place an end crystal in the Sanctum and sprint nearby to enter the Omnidrome",
+			"translate": "Place an end crystal in the Sanctum and sprint nearby to enter the Omnidrome (again)",
 			"color": "green"
 		},
 		"icon": {
@@ -17,14 +17,11 @@
 		"hidden": false
 	},
 	"criteria": {
-		"bracken:omn1": {
-			"trigger": "minecraft:changed_dimension",
-			"conditions": {
-				"to": "bracken:omnidrome"
-			}
+		"discovered": {
+			"trigger": "minecraft:impossible"
 		}
 	},
-	"requirements": [[
-		"bracken:omn1"
-	]]
+	"rewards": {
+		"experience": 2
+	}
 }

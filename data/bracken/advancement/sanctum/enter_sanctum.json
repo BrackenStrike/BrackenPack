@@ -17,7 +17,7 @@
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true,
-		"background": "minecraft:block/clay"
+		"background": "minecraft:block/white_concrete_powder"
 	},
 	"criteria": {
 		"requirement": {

@@ -17,14 +17,11 @@
 		"hidden": false
 	},
 	"criteria": {
-		"bracken:san1": {
-			"trigger": "minecraft:changed_dimension",
-			"conditions": {
-				"to": "bracken:sanctum"
-			}
+		"discovered": {
+			"trigger": "minecraft:impossible"
 		}
 	},
-	"requirements": [[
-		"bracken:san1"
-	]]
+	"rewards": {
+		"experience": 2
+	}
 }

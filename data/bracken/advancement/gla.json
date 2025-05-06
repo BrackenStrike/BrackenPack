@@ -17,14 +17,11 @@
 		"hidden": false
 	},
 	"criteria": {
-		"bracken:gla1": {
-			"trigger": "minecraft:changed_dimension",
-			"conditions": {
-				"to": "bracken:glacium"
-			}
+		"discovered": {
+			"trigger": "minecraft:impossible"
 		}
 	},
-	"requirements": [[
-		"bracken:gla1"
-	]]
+	"rewards": {
+		"experience": 2
+	}
 }

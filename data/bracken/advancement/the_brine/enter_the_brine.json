@@ -17,7 +17,7 @@
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true,
-		"background": "minecraft:block/prismarine"
+		"background": "bracken:gui/advancements/backgrounds/the_brine"
 	},
 	"criteria": {
 		"requirement": {
