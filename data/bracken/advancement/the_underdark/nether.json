@@ -1,0 +1,27 @@
+{
+	"parent": "bracken:the_underdark/enter_underdark",
+	"display": {
+		"title": {
+			"translate": "Wait a minute?"
+		},
+		"description": {
+			"translate": "Dig deeper still. See if anything looks familiar",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:netherrack"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 2
+	}
+}
