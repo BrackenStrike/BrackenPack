@@ -9,7 +9,7 @@
 			"color": "green"
 		},
 		"icon": {
-			"id": "minecraft:lime_stained_glass"
+			"id": "minecraft:end_crystal"
 		},
 		"frame": "task",
 		"show_toast": true,

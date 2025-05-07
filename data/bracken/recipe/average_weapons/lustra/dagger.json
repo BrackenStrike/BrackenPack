@@ -26,7 +26,7 @@
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:sneaking_speed",
-					"id": "bracken:wooden_dagger",
+					"id": "bracken:lustra_dagger",
 					"amount": 0.3,
 					"operation": "add_value",
 					"slot": "hand"

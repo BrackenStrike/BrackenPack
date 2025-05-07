@@ -8,7 +8,7 @@
 			"color": "green"
 		},
 		"icon": {
-			"id": "minecraft:soul_fire"
+			"id": "minecraft:echo_shard"
 		},
 		"frame": "task",
 		"show_toast": false,
@@ -25,3 +25,4 @@
 		}
 	}
 }
+

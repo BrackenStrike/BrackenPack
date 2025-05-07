@@ -2,7 +2,6 @@
 	"type": "minecraft:crafting_shaped",
 	"category": "equipment",
 	"pattern": [
-		"   ",
 		" # ",
 		" / "
 	],
@@ -32,7 +31,7 @@
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:sneaking_speed",
-					"id": "bracken:wooden_dagger",
+					"id": "bracken:copper_dagger",
 					"amount": 0.3,
 					"operation": "add_value",
 					"slot": "hand"

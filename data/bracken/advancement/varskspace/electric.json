@@ -15,7 +15,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "bracken:void/enter_varskspace",
+	"parent": "bracken:varskspace/enter_varskspace",
 	"criteria": {
 		"discovered": {
 			"trigger": "minecraft:impossible"

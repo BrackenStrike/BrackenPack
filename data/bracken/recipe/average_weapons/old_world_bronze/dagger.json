@@ -18,25 +18,25 @@
 			],
 			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
-					"id": "bracken:netherite_dagger",
+					"id": "bracken:old_world_bronze_dagger",
 					"amount": 7.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:sneaking_speed",
-					"id": "bracken:wooden_dagger",
+					"id": "bracken:old_world_bronze_dagger",
 					"amount": 0.3,
 					"operation": "add_value",
 					"slot": "hand"
 				},{
 					"type": "minecraft:attack_speed",
-					"id": "bracken:netherite_dagger",
+					"id": "bracken:old_world_bronze_dagger",
 					"amount": -0.12,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"type": "minecraft:entity_interaction_range",
-					"id": "bracken:netherite_dagger",
+					"id": "bracken:old_world_bronze_dagger",
 					"amount": -1,
 					"operation": "add_value",
 					"slot": "mainhand"
