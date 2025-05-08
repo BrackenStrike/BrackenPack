@@ -23,14 +23,14 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:sneaking_speed",
+					"type": "minecraft:sneaking_speed",
 					"id": "bracken:old_world_bronze_dagger",
 					"amount": 0.3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},
 				{
-					"attribute": "minecraft:sneaking_speed",
+					"type": "minecraft:sneaking_speed",
 					"id": "bracken:old_world_bronze_dagger",
 					"amount": 0.3,
 					"operation": "add_value",
