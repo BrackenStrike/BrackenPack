@@ -29,7 +29,14 @@
 					"id": "bracken:lustra_dagger",
 					"amount": 0.3,
 					"operation": "add_value",
-					"slot": "hand"
+					"slot": "mainhand"
+				},
+				{
+					"attribute": "minecraft:sneaking_speed",
+					"id": "bracken:lustra_dagger",
+					"amount": 0.3,
+					"operation": "add_value",
+					"slot": "offhand"
 				},{
 					"type": "minecraft:attack_speed",
 					"id": "bracken:lustra_dagger",

@@ -41,7 +41,7 @@
 					"id": "bracken:copper_bludgeon",
 					"amount": 1,
 					"operation": "add_value",
-					"slot": "hand"
+					"slot": "mainhand"
 				}],
 				"minecraft:tooltip_display": {
         "hidden_components": [

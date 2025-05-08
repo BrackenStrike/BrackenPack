@@ -17,11 +17,14 @@
 		"hidden": false
 	},
 	"criteria": {
-		"discovered": {
-			"trigger": "minecraft:impossible"
+		"bracken:pax/dor1": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "bracken:dormis"
+			}
 		}
 	},
-	"rewards": {
-		"experience": 2
-	}
+	"requirements": [[
+		"bracken:pax/dor1"
+	]]
 }

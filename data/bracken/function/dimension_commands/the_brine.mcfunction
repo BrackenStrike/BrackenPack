@@ -13,7 +13,7 @@ execute if score @s bp.1_second matches 2 run function bracken:entities/the_brin
 execute if score @s bp.3_second matches 2 run function bracken:dimension_commands/other/no_fire_fill_commands
 
 # Rain Event
-execute if predicate bracken:rain positioned over motion_blocking if entity @s[dy=999] run run function bracken:dimension_commands/brine_rain/haste
+execute if predicate bracken:rain positioned over motion_blocking if entity @s[dy=999] run function bracken:dimension_commands/brine_rain/haste
 
 # Dimension Travel
 #execute if data storage bracken:config {dimension_travel: true} if score @s bp.1_second matches 5 if entity @e[distance=..76,type=minecraft:item_display,tag=bp.brine_portal_exit] run function bracken:dimension_commands/other/brine_exit_portal

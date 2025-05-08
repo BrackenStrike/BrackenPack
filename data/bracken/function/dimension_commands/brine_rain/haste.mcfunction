@@ -3,5 +3,5 @@
 # Creators: Bracken
 ##########################################################
 
-effect give @s minecraft:haste 2 3 false
+effect give @s minecraft:haste 3 3 false
 advancement grant @s only bracken:the_brine/rain
