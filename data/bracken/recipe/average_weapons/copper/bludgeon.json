@@ -37,7 +37,7 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:attack_knockback",
+					"type": "minecraft:attack_knockback",
 					"id": "bracken:copper_bludgeon",
 					"amount": 1,
 					"operation": "add_value",

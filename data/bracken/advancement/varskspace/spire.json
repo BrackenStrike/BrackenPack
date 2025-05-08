@@ -17,7 +17,7 @@
 	},
 	"parent": "bracken:varskspace/enter_varskspace",
 	"criteria": {
-		"bracken:the_underdark/spire1": {
+		"bracken:varskspace/spire1": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [{
