@@ -3,15 +3,15 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:wooden_shovel",
+			"name": "minecraft:netherite_shovel",
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {
 					
 					"minecraft:enchantments": {
-						"bracken:withering_fix": 1
+						"bracken:banishment_fix": 1
 					},
-					"minecraft:item_model": "bracken:average_weapons/wands/wither_wand",
+					"minecraft:item_model": "bracken:average_weapons/wands/scepter",
 					"minecraft:enchantment_glint_override": false
 					
 					
@@ -19,12 +19,7 @@
 			},{
 				"function": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Wither Rose Wand"
-			},{
-				"function": "minecraft:set_custom_data",
-				"tag": {
-					"bp": { "id": "wither_wand" }
-				}
+				"name": "Wanderlight Wand"
 			}]
 		}]
 	}]

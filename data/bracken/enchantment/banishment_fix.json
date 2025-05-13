@@ -1,5 +1,6 @@
 {
 	"description": "Banishment",
+	"color": "dark_purple",
 	"effects": {
 		"minecraft:knockback": [
       {
@@ -20,6 +21,7 @@
 			"effect": {
 			  "type": "minecraft:all_of",
 			  "effects": [
+				
 				{
 					"type": "minecraft:run_function",
 					"function": "bracken:item/enchantment/banishment"
@@ -40,25 +42,7 @@
 				}
 			  ]
 			},
-			"enchanted": "attacker",
-			"requirements": {
-			  "condition": "minecraft:all_of",
-			  "terms": [
-				{
-				  "condition": "minecraft:weather_check",
-				  "thundering": true
-				},
-				{
-				  "condition": "minecraft:entity_properties",
-				  "entity": "this",
-				  "predicate": {
-					"location": {
-					  "can_see_sky": true
-					}
-				  }
-				}
-			  ]
-			}
+			"enchanted": "attacker"
 		  }
 		]
 	  },

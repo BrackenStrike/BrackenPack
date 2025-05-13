@@ -61,18 +61,6 @@
                 "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
-            },
-            {
-                "type": "minecraft:drowned",
-                "weight": 6,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:creeper",
-                "weight": 5,
-                "minCount": 1,
-                "maxCount": 1
             }
         ]
     },

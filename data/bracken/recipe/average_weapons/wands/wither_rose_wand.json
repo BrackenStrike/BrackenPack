@@ -5,7 +5,7 @@
 "minecraft:stick"],
 	
 	"result": {
-		"id": "minecraft:stick",
+		"id": "minecraft:wooden_shovel",
 		"count": 1,
 		"components": {
 			

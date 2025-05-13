@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:netherite_ingot",
+			"name": "minecraft:netherite_shovel",
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {

@@ -4,7 +4,7 @@
         "bracken:abstraction",
         "bracken:antivenom",
         "bracken:astuteness_fix",
-        "bracken:banishment",
+        "bracken:banishment_fix",
         "bracken:boldness",
         "bracken:butchering",
         "bracken:chiseling_fix",
@@ -34,7 +34,6 @@
 
         "bracken:maiming_curse",
         "bracken:mortality",
-        "bracken:overwhelming",
         "bracken:poisoning_fix",
         "bracken:pugnacity",
         "bracken:pushback",

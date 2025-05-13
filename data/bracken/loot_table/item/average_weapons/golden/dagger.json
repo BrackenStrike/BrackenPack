@@ -56,7 +56,7 @@
 					"id": "bracken:golden_dagger",
 					"amount": 0.3,
 					"operation": "add_value",
-					"slot": "hand"
+					"slot": "offhand"
 				},{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:golden_dagger",

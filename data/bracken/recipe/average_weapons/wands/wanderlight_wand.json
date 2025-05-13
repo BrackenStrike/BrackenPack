@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-"minecraft:netherite_ingot",
-"minecraft:blaze_rod"],
+"minecraft:end_rod",
+"minecraft:nether_star"],
 	
 	"result": {
 		"id": "minecraft:netherite_shovel",
@@ -10,18 +10,14 @@
 		"components": {
 			
             "minecraft:enchantments": {
-				"bracken:infused_fire_aspect_fix": 1
+				"bracken:banishment_fix": 1
 			  },
-			"minecraft:item_name": "Scepter",
+			"minecraft:item_name": "Wanderlight Wand",
 			"minecraft:item_model": "bracken:average_weapons/wands/scepter",
-			"minecraft:enchantment_glint_override": false,
+			"minecraft:enchantment_glint_override": true
 			
 			
-			"minecraft:custom_data": {
-				"bp": {
-					"id": "scepter"
-				}
-			}
-		}
+}
+		
 	}
 }
