@@ -4,12 +4,13 @@
         "bracken:abstraction",
         "bracken:antivenom",
         "bracken:astuteness_fix",
+        "bracken:banishment",
         "bracken:boldness",
         "bracken:butchering",
         "bracken:chiseling_fix",
         "bracken:decaying_fix",
         "bracken:defusing",
-        "bracken:dentine_touch",
+
         "bracken:devouring_curse",
         "bracken:dullness_curse",
         "bracken:famine_walker",
@@ -33,6 +34,7 @@
 
         "bracken:maiming_curse",
         "bracken:mortality",
+        "bracken:overwhelming",
         "bracken:poisoning_fix",
         "bracken:pugnacity",
         "bracken:pushback",
@@ -50,6 +52,7 @@
         "bracken:shrewdness",
 
         "bracken:spectrality_fix",
+        "bracken:obliteration",
         "bracken:trampling",
         "bracken:vitality_fix",
         "bracken:wisdom",

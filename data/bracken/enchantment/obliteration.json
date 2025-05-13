@@ -1,0 +1,61 @@
+{
+	"description": "Obliteration",
+	"effects": {
+		
+		"minecraft:post_attack": [
+		  {
+			"affected": "victim",
+			"effect": {
+			  "type": "minecraft:all_of",
+			  "effects": [
+				{
+				  "type": "minecraft:summon_entity",
+				  "entity": "minecraft:lightning_bolt"
+				},
+				{
+				  "type": "minecraft:play_sound",
+				  "pitch": 0.5,
+				  "sound": "minecraft:block.amethyst_block.step",
+				  "volume": 5.0
+				}
+			  ]
+			},
+			"enchanted": "attacker",
+			"requirements": {
+			  "condition": "minecraft:all_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:weather_check",
+				  "thundering": true
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"location": {
+					  "can_see_sky": true
+					}
+				  }
+				}
+			  ]
+			}
+		  }
+		]
+	  },
+	  "max_cost": {
+		"base": 50,
+		"per_level_above_first": 0
+	  },
+	  "anvil_cost": 8,
+	  "max_level": 1,
+	  "min_cost": {
+		"base": 25,
+		"per_level_above_first": 0
+	  },
+	  "slots": [
+		"mainhand"
+	  ],
+	  "primary_items": "#minecraft:shovels",
+	"supported_items": "#minecraft:shovels",
+	"weight": 1
+}

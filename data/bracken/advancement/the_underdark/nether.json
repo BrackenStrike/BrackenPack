@@ -2,7 +2,7 @@
 	"parent": "bracken:the_underdark/enter_underdark",
 	"display": {
 		"title": {
-			"translate": "Wait a minute?"
+			"translate": "Way Down We Go"
 		},
 		"description": {
 			"translate": "Dig even deeper. See if anything looks familiar",

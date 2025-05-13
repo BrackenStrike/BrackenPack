@@ -1,0 +1,81 @@
+{
+	"description": "Banishment",
+	"effects": {
+		"minecraft:knockback": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 100.0,
+            "per_level_above_first": 1.0
+          }
+        }
+      }
+    ],
+		
+		"minecraft:post_attack": [
+		  {
+			"affected": "victim",
+			"effect": {
+			  "type": "minecraft:all_of",
+			  "effects": [
+				{
+					"type": "minecraft:run_function",
+					"function": "bracken:item/enchantment/banishment"
+				},
+				{
+					"type": "minecraft:apply_mob_effect",
+					"to_apply": "minecraft:slow_falling",
+					"min_duration": 5,
+					"max_duration": 6,
+					"min_amplifier": 0,
+					"max_amplifier": 1
+				},
+				{
+				  "type": "minecraft:play_sound",
+				  "pitch": 0.5,
+				  "sound": "minecraft:block.amethyst_block.step",
+				  "volume": 5.0
+				}
+			  ]
+			},
+			"enchanted": "attacker",
+			"requirements": {
+			  "condition": "minecraft:all_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:weather_check",
+				  "thundering": true
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"location": {
+					  "can_see_sky": true
+					}
+				  }
+				}
+			  ]
+			}
+		  }
+		]
+	  },
+	  "max_cost": {
+		"base": 50,
+		"per_level_above_first": 0
+	  },
+	  "anvil_cost": 8,
+	  "max_level": 1,
+	  "min_cost": {
+		"base": 25,
+		"per_level_above_first": 0
+	  },
+	  "slots": [
+		"mainhand"
+	  ],
+	  "primary_items": "#minecraft:shovels",
+	"supported_items": "#minecraft:shovels",
+	"weight": 1
+}
