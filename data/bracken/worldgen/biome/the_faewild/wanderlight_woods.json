@@ -46,13 +46,13 @@
         "monster": [
             {
                 "type": "minecraft:stray",
-                "weight": 5,
-                "minCount": 3,
-                "maxCount": 3
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
             },
             {
                 "type": "minecraft:slime",
-                "weight": 1,
+                "weight": 5,
                 "minCount": 4,
                 "maxCount": 4
             },

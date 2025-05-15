@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:netherite_shovel",
+			"name": "minecraft:iron_shovel",
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {
@@ -11,7 +11,7 @@
 					"minecraft:enchantments": {
 						"bracken:banishment_fix": 1
 					},
-					"minecraft:item_model": "bracken:average_weapons/wands/scepter",
+					"minecraft:item_model": "bracken:average_weapons/wands/wanderlight_wand",
 					"minecraft:enchantment_glint_override": false
 					
 					

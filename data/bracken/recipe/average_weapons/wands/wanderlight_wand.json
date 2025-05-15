@@ -5,13 +5,12 @@
 "minecraft:nether_star"],
 	
 	"result": {
-		"id": "minecraft:netherite_shovel",
+		"id": "minecraft:iron_shovel",
 		"count": 1,
 		"components": {
 			
             "minecraft:enchantments": {
-				"bracken:banishment_fix": 1,
-				"minecraft:vanishing_curse": 1
+				"bracken:banishment_fix": 1
 			  },
 			"minecraft:item_name": "Wanderlight Wand",
 			"minecraft:item_model": "bracken:average_weapons/wands/wanderlight_wand",
