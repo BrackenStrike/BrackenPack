@@ -12,7 +12,12 @@
                 "maxCount": 6
             }
         ],
-        "monster": []
+        "monster": [{
+            "type": "minecraft:stray",
+            "weight": 5,
+            "minCount": 1,
+            "maxCount": 1
+        }]
     },
     "spawn_costs": {},
     "carvers": [],

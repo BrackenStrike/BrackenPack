@@ -25,6 +25,18 @@
                 "maxCount": 4
             },
             {
+                "type": "minecraft:llama",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:chicken",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
                 "type": "minecraft:rabbit",
                 "weight": 50,
                 "minCount": 4,
@@ -33,7 +45,7 @@
         ],
         "monster": [
             {
-                "type": "minecraft:spider",
+                "type": "minecraft:stray",
                 "weight": 5,
                 "minCount": 3,
                 "maxCount": 3

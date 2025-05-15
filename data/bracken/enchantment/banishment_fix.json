@@ -8,7 +8,7 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 100.0,
+            "base": 10.0,
             "per_level_above_first": 1.0
           }
         }
@@ -28,11 +28,11 @@
 				},
 				{
 					"type": "minecraft:apply_mob_effect",
-					"to_apply": "minecraft:slow_falling",
+					"to_apply": "minecraft:regeneration",
 					"min_duration": 5,
 					"max_duration": 6,
-					"min_amplifier": 0,
-					"max_amplifier": 1
+					"min_amplifier": 2,
+					"max_amplifier": 3
 				},
 				{
 				  "type": "minecraft:play_sound",

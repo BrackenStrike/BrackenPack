@@ -12,6 +12,7 @@
         "misc": [],
         "water_creature": [],
         "creature": [
+            
             {
                 "type": "minecraft:pig",
                 "weight": 52,
@@ -20,13 +21,25 @@
             },
             {
                 "type": "minecraft:chicken",
-                "weight": 12,
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:rabbit",
+                "weight": 5,
                 "minCount": 4,
                 "maxCount": 4
             },
             {
                 "type": "minecraft:fox",
                 "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:llama",
+                "weight": 10,
                 "minCount": 4,
                 "maxCount": 4
             },

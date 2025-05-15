@@ -19,11 +19,30 @@
                 "maxCount": 4
             },
             {
-                "type": "minecraft:fox",
-                "weight": 1,
-                "minCount": 4,
-                "maxCount": 4
-            }
+              "type": "minecraft:chicken",
+              "weight": 52,
+              "minCount": 4,
+              "maxCount": 4
+          },
+          {
+            "type": "minecraft:llama",
+            "weight": 10,
+            "minCount": 4,
+            "maxCount": 4
+        },
+          {
+              "type": "minecraft:fox",
+              "weight": 1,
+              "minCount": 1,
+              "maxCount": 2
+          },
+          
+          {
+              "type": "minecraft:frog",
+              "weight": 10,
+              "minCount": 4,
+              "maxCount": 4
+          }
         ],
         "monster": []
     },
