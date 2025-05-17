@@ -1,1 +1,1 @@
-function bracken:entities/summon/mimic_summon
+function bracken:entities/golem/mimic_summon

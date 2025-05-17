@@ -14,7 +14,10 @@
 		"id": "minecraft:goat_horn",
 		"components": {
 			"minecraft:item_name": "Mimic Spawn",
-			"minecraft:item_model": "bracken:shadows/mimic3"
+			"minecraft:item_model": "bracken:shadows/mimic3",
+			"minecraft:custom_data": {
+				"nbt": "{bp:{id:\"mimic\"}}"
+			}
 		}
 	}
 }
