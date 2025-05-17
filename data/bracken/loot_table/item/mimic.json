@@ -1,0 +1,23 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:goat_horn"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Mimic Spawn"
+		},{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:mimic",
+				"minecraft:rarity": "uncommon"
+			}
+		},{
+			"function": "minecraft:set_custom_data",
+			"tag": "{bp:{id:\"mimic\"}}"
+		}]
+	}]
+}

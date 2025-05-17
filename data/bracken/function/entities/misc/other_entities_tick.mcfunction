@@ -13,7 +13,10 @@ execute if entity @s[tag=bp.varsk_lightning] run return run function bracken:ent
 execute if entity @s[tag=bp.construct] run particle minecraft:sneeze ~ ~ ~ 0.5 0.5 0.5 0.01 5
 
 ## UNDERDARK GIANT BAT 
-execute if entity @s[tag=bp.giant_bat] run function bracken:entities/the_underdark/giant_bat 
+execute if entity @s[tag=bp.giant_bat] run function bracken:entities/the_underdark/giant_bat
+
+## MIMIC WAKE
+execute if entity @s[tag=bp.mimic_wake] if entity @p[distance=..3,predicate=bracken:survival_like] run function bracken:entities/golem/mimic_wake
 
 ## TP PEARL
 #execute if entity @s[type=minecraft:ender_pearl,tag=bp.pearl] run data modify entity @s Owner set from entity @p UUID
