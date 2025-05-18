@@ -11,13 +11,46 @@
 		"/": "minecraft:creaking_heart"
 	},
 	"result": {
-		"id": "minecraft:goat_horn",
-		"components": {
-			"minecraft:item_name": "Mimic Spawn",
-			"minecraft:item_model": "bracken:shadows/mimic3",
-			"minecraft:custom_data": {
-				"nbt": "{bp:{id:\"mimic\"}}"
-			}
-		}
-	}
+    "id": "minecraft:creaking_spawn_egg",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:zombie",
+        "Silent": true,
+        "Tags": [
+          "bp.entity",
+          "bp.mimic_settle"
+        ],
+        "attributes": [
+          {
+            "id": "minecraft:scale",
+            "base": 2
+          }
+        ],
+        "active_effects": [
+          {
+            "id": "minecraft:invisibility",
+            "amplifier": 1,
+            "duration": -1,
+            "show_particles": false
+          }
+        ],
+        "NoAI": true,
+        "equipment": {
+          "head": {
+            "id": "minecraft:chest",
+            "components": {
+              "minecraft:enchantment_glint_override": false,
+              "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 1
+              }
+            }
+          }
+        },
+        "DeathLootTable": "bracken:entity/basic/mimic",
+        "CanPickUpLoot": false,
+        "PersistenceRequired": true,
+        "IsBaby": true
+      },"minecraft:item_model": "bracken:shadows/mimic3"
+    }
+  }
 }
