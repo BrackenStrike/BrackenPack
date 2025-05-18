@@ -3,17 +3,17 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
-			"value": "bracken:item/portal_keys/dormis_key"
+			"value": "minecraft:creaking_heart"
 		}],
 		"conditions": [{
 			"condition": "minecraft:random_chance",
-			"chance": 0.9
+			"chance": 0.2
 		}]
 	},{
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:pink_tulip"
+			"name": "minecraft:resin_clump"
 		}]
 	}]
 }

@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:black_bed"
+			"name": "minecraft:book"
 		}],
 		"conditions": [{
 			"condition": "minecraft:random_chance",
@@ -13,7 +13,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:obsidian"
+			"name": "minecraft:map"
 		}]
 	}]
 }

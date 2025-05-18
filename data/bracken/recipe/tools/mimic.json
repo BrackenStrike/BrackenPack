@@ -13,11 +13,13 @@
 	"result": {
     "id": "minecraft:creaking_spawn_egg",
     "components": {
+		"minecraft:item_name": "Mimic Chest",
       "minecraft:entity_data": {
-        "id": "minecraft:zombified_piglin",
+        "id": "minecraft:husk",
         "Silent": true,
         "Tags": [
           "bp.entity",
+		  "bp.safe",
           "bp.mimic_settle"
         ],
         "attributes": [
