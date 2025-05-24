@@ -3,17 +3,11 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:golden_carrot"
+			"value": "bracken:item/the_faewild/mim_silk_strand"
 		}],
 		"conditions": [{
 			"condition": "minecraft:random_chance",
-			"chance": 0.2
-		}]
-	},{
-		"rolls": 1,
-		"entries": [{
-			"type": "minecraft:item",
-			"name": "minecraft:apple"
+			"chance": 0.8
 		}]
 	}]
 }

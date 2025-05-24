@@ -46,6 +46,12 @@
                 "maxCount": 3
             },
             {
+                "type": "minecraft:husk",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
                 "type": "minecraft:slime",
                 "weight": 1,
                 "minCount": 4,

@@ -57,16 +57,28 @@
         ],
         "monster": [
             {
-                "type": "minecraft:slime",
+                "type": "minecraft:husk",
                 "weight": 1,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "minecraft:slime",
+                "weight": 15,
                 "minCount": 4,
                 "maxCount": 4
             },
             {
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
                 "type": "minecraft:spider",
                 "weight": 5,
-                "minCount": 3,
-                "maxCount": 3
+                "minCount": 1,
+                "maxCount": 1
             }
         ]
     },
