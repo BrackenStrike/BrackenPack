@@ -7,6 +7,9 @@
 ##########   THRALL WITHER SKELETONS   ##########
 execute at @a unless entity @e[type=minecraft:zombie,tag=bp.solatium_thrall,distance=..100] run kill @e[type=wither_skeleton,tag=bp.solatium_thrall,distance=..100]
 
+##########   NETHERITE GOLEM   ##########
+execute at @a as @e[tag=bp.netherite_golem,type=minecraft:wither_skeleton,distance=..30] run function bracken:entities/sanctum/netherite_golem
+
 ##########   MISCELANEOUS MARKERS   ##########
 execute as @e[type=marker] at @s run function bracken:entities/misc/markers_3_second
 

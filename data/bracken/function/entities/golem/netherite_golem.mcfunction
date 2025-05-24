@@ -1,4 +1,7 @@
 
 
-execute if entity @s[distance=..10] unless block ^ ^ ^0.1 minecraft:air run function bracken:entities/golem/netherite_golem_check
-execute if entity @s[distance=..10] if block ^ ^ ^0.1 minecraft:air positioned ^ ^ ^0.1 run function bracken:entities/golem/netherite_golem
+
+
+execute positioned ^ ^0.01 ^0.1 if block ~ ~ ~ #bracken:raycast run function bracken:entities/golem/netherite_golem
+execute positioned ^ ^0.01 ^0.1 unless block ~ ~ ~ #bracken:raycast run function bracken:entities/golem/netherite_golem_check
+

@@ -5,7 +5,7 @@
 
 # Mobs
 execute if score @s bp.sneakcharge matches ..1 if predicate bracken:periodic/2t run function bracken:entities/sanctum/sanctum_entities
-execute at @e[tag=bp.netherite_golem,type=minecraft:wither_skeleton,distance=..30] run function bracken:entities/sanctum/netherite_golem
+#execute at @e[tag=bp.netherite_golem,type=minecraft:wither_skeleton,distance=..30] run function bracken:entities/sanctum/netherite_golem
 
 # Mansion Spell Book
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup

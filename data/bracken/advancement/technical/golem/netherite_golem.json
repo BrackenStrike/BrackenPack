@@ -35,6 +35,6 @@
 	
 	
 	"rewards": {
-		"function": "bracken:entities/golem/netherite_golem"
+		"function": "bracken:entities/golem/netherite_golem_start"
 	}
   }

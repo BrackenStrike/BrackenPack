@@ -1,20 +1,20 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"category": "equipment",
-	"pattern": [
-		"###",
-		"#/#",
-		"###"
-	],
-	"key": {
-		"#": "#minecraft:planks",
-		"/": "minecraft:creaking_heart"
-	},
-	"result": {
-    "id": "minecraft:creaking_spawn_egg",
-    "components": {
-		"minecraft:item_name": "Mimic Chest",
-      "minecraft:entity_data": {
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:creaking_spawn_egg"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Mimic Chest"
+		},{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:shadows/mimic3",
+				"minecraft:rarity": "uncommon",
+				"minecraft:entity_data": {
         "id": "minecraft:husk",
         "Silent": true,
         "Tags": [
@@ -52,8 +52,8 @@
         "CanPickUpLoot": false,
         "PersistenceRequired": true,
         "IsBaby": true
-      },"minecraft:item_model": "bracken:shadows/mimic3",
-      "minecraft:rarity": "uncommon"
-    }
-  }
+      }
+			}
+		}]
+	}]
 }
