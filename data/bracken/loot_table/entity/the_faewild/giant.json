@@ -1,13 +1,116 @@
+
+
 {
-	"pools": [{
-		"rolls": 1,
-		"entries": [{
-			"type": "minecraft:item",
-			"value": "bracken:item/the_faewild/mim_silk_strand"
-		}],
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+			"type": "item",
+			"name": "minecraft:stone_sword",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Stone Bludgeon"
+			},{
+				"function": "minecraft:set_lore",
+				"entity": "this",
+				"lore": [{
+					"translate": "",
+					"color": "blue",
+					"italic": false
+				},{
+					"translate": "When in Main Hand:",
+					"color": "gray",
+					"italic": false
+				},{
+					"translate": "5 Attack Damage",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "1.6 Attack Speed",
+					"color": "dark_green",
+					"italic": false
+				},{
+					"translate": "Bonus Knockback",
+					"color": "aqua",
+					"italic": false
+				}],
+				"mode": "insert"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:average_weapons/stone/bludgeon"
+				}
+			},{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:abstraction": 1
+				}
+			},{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:attack_speed",
+					"id": "bracken:stone_bludgeon",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"attribute": "minecraft:attack_knockback",
+					"id": "bracken:stone_bludgeon",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "hand"
+				},{
+					"attribute": "minecraft:attack_damage",
+					"id": "bracken:stone_bludgeon",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}]
+			},{
+				"function": "minecraft:toggle_tooltips",
+				"toggles": {
+					"attribute_modifiers": false
+				}
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0.48,
+					"max": 0.93
+				}
+			}]
+		}
+      ],
+      "rolls": 1.0,
 		"conditions": [{
 			"condition": "minecraft:random_chance",
-			"chance": 0.8
+			"chance": 0.18
 		}]
-	}]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "value": "bracken:item/the_faewild/mim_silk_strand"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+
+
 }

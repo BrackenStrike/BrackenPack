@@ -8,7 +8,9 @@
 execute at @a unless entity @e[type=minecraft:zombie,tag=bp.solatium_thrall,distance=..100] run kill @e[type=wither_skeleton,tag=bp.solatium_thrall,distance=..100]
 
 ##########   NETHERITE GOLEM   ##########
-execute at @a as @e[tag=bp.netherite_golem,type=minecraft:wither_skeleton,distance=..30] run function bracken:entities/sanctum/netherite_golem
+
+execute at @a[predicate=bracken:nonsneak] as @e[type=minecraft:wither_skeleton,distance=..4,tag=bp.netherite_golem,tag=!bp.sgolem] run data merge entity @s {Tags:["bp.sgolem","bp.netherite_golem"],NoAI:0,Invulnerable:0,DeathLootTable:"bracken:entity/sanctum/netherite_golem"}
+
 
 ##########   MISCELANEOUS MARKERS   ##########
 execute as @e[type=marker] at @s run function bracken:entities/misc/markers_3_second

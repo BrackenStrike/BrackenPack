@@ -5,12 +5,7 @@
         "misc": [],
         "water_creature": [],
         "creature": [
-            {
-                "type": "minecraft:zombie",
-                "weight": 2,
-                "minCount": 4,
-                "maxCount": 4
-            }
+           
         ],
         "monster": [
             {
@@ -19,12 +14,7 @@
                 "minCount": 1,
                 "maxCount": 1
             },
-            {
-                "type": "minecraft:husk",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
+            
             {
                 "type": "minecraft:skeleton",
                 "weight": 8,
