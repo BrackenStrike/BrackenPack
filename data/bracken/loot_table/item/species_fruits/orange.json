@@ -8,11 +8,11 @@
 		"functions": [{
 			"function": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Pale Pepper"
+			"name": "Orange"
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:species_fruit/pepper"
+				"minecraft:item_model": "bracken:species_fruit/orange"
 			}
 		}]
 	}]

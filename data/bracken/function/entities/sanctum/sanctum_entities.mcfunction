@@ -3,9 +3,7 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-##########   SANCTUM NETHERITE GOLEMS ATTACK  ##########
-#data merge entity @e[type=wither_skeleton,tag=bp.netherite_golem,distance=..4,limit=1,nbt={NoAI:1b,Invulnerable:1b}] {NoAI:0,Invulnerable:0,DeathLootTable:"bracken:entity/sanctum/netherite_golem"}
-execute at @e[type=minecraft:wither_skeleton,distance=..30,tag=bp.netherite_golem] run function bracken:entities/sanctum/netherite_golem_burst
+
 
 ##########   INVIS WARDEN   ##########
 data merge entity @e[type=warden,distance=..100,limit=1,sort=nearest,tag=!bp.invis] {active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:speed",amplifier:1b,duration:5b,show_particles:0b}],Tags:[bp.invis]}

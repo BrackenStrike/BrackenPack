@@ -3,17 +3,17 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
-			"name": "minecraft:dandelion"
+			"name": "minecraft:iron_nugget"
 		}],
 		"conditions": [{
 			"condition": "minecraft:random_chance",
-			"chance": 0.9
+			"chance": 0.5
 		}]
 	},{
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:map"
+			"name": "minecraft:stick"
 		}]
 	}]
 }

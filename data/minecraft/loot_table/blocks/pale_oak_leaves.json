@@ -165,8 +165,10 @@
         }
       ],
       "entries": [
+        
+        
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "conditions": [
             {
               "condition": "minecraft:survives_explosion"
@@ -183,7 +185,7 @@
               "enchantment": "minecraft:fortune"
             }
           ],
-          "value": "bracken:item/species_fruits/pepper"
+          "value": "bracken:item/species_fruits/pear"
         }
       ],
       "rolls": 1.0

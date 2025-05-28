@@ -8,7 +8,7 @@
 		"functions": [{
 			"function": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Frostkin Fruit"
+			"name": "Warped Fig"
 		},{
 			"function": "minecraft:set_lore",
 			"entity": "this",
@@ -29,8 +29,7 @@
 					"nutrition": 4,
 					"saturation": 2.4,
 					"can_always_eat": true
-				},
-				"minecraft:rarity": "epic"
+				}
 			}
 		}]
 	}]

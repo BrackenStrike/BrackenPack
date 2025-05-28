@@ -1,5 +1,19 @@
 {
-    "spawners": {},
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [
+            {
+                "type": "minecraft:allay",
+                "weight": 5,
+                "minCount": 2,
+                "maxCount": 6
+            }
+        ],
+        "monster": []
+    },
     "spawn_costs": {},
     "carvers": [],
     "features": [],

@@ -17,6 +17,18 @@
             "weight": 5,
             "minCount": 1,
             "maxCount": 1
+        },
+        {
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+    {
+            "type": "minecraft:husk",
+            "weight": 5,
+            "minCount": 1,
+            "maxCount": 1
         }]
     },
     "spawn_costs": {},

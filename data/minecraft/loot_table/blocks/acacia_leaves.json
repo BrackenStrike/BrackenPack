@@ -165,8 +165,10 @@
         }
       ],
       "entries": [
+        
+        
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
           "conditions": [
             {
               "condition": "minecraft:survives_explosion"

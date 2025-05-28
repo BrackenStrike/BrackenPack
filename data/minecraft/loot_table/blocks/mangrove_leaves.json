@@ -37,7 +37,7 @@
                   ]
                 }
               ],
-              "name": "minecraft:cherry_leaves"
+              "name": "minecraft:mangrove_leaves"
             },
             {
               "type": "minecraft:item",
@@ -56,7 +56,7 @@
                   "enchantment": "minecraft:fortune"
                 }
               ],
-              "name": "minecraft:cherry_sapling"
+              "name": "minecraft:mangrove_propagule"
             }
           ]
         }
@@ -185,11 +185,11 @@
               "enchantment": "minecraft:fortune"
             }
           ],
-          "value": "bracken:item/species_fruits/cherry"
+          "value": "bracken:item/species_fruits/banana"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cherry_leaves"
+  "random_sequence": "minecraft:blocks/mangrove_leaves"
 }

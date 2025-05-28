@@ -37,7 +37,7 @@
                   ]
                 }
               ],
-              "name": "minecraft:cherry_leaves"
+              "name": "minecraft:oak_leaves"
             },
             {
               "type": "minecraft:item",
@@ -56,7 +56,7 @@
                   "enchantment": "minecraft:fortune"
                 }
               ],
-              "name": "minecraft:cherry_sapling"
+              "name": "minecraft:oak_sapling"
             }
           ]
         }
@@ -185,11 +185,11 @@
               "enchantment": "minecraft:fortune"
             }
           ],
-          "value": "bracken:item/species_fruits/cherry"
+          "value": "bracken:item/species_fruits/human"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/cherry_leaves"
+  "random_sequence": "minecraft:blocks/oak_leaves"
 }
