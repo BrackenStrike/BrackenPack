@@ -22,16 +22,16 @@
                 "maxCount": 4
             },
             {
-                "type": "minecraft:stray",
-                "weight": 5,
+                "type": "minecraft:wither_skeleton",
+                "weight": 2,
                 "minCount": 4,
                 "maxCount": 4
             },
             {
-                "type": "minecraft:enderman",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
+                "type": "minecraft:stray",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
             }
         ]
     },
