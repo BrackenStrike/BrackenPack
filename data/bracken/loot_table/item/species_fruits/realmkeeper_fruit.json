@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:apple"
+			"name": "minecraft:beetroot"
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",

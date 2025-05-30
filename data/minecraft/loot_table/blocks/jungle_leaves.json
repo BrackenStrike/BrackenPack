@@ -37,7 +37,7 @@
                   ]
                 }
               ],
-              "name": "minecraft:dark_oak_leaves"
+              "name": "minecraft:jungle_leaves"
             },
             {
               "type": "minecraft:item",
@@ -56,7 +56,7 @@
                   "enchantment": "minecraft:fortune"
                 }
               ],
-              "name": "minecraft:dark_oak_sapling"
+              "name": "minecraft:jungle_sapling"
             }
           ]
         }
@@ -185,11 +185,11 @@
               "enchantment": "minecraft:fortune"
             }
           ],
-          "value": "bracken:item/species_fruits/human_fruit"
+          "value": "bracken:item/species_fruits/coconut"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "minecraft:blocks/dark_oak_leaves"
+  "random_sequence": "minecraft:blocks/jungle_leaves"
 }

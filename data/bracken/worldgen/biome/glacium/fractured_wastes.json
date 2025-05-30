@@ -120,7 +120,7 @@
             }
           ],
           "music_volume": 1.0,
-        "ambient_sound": "minecraft:item.elytra.flying"
+        "ambient_sound": "minecraft:ambient.soul_sand_valley.loop"
     },
     "has_precipitation": true
 }

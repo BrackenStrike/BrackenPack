@@ -5,7 +5,7 @@
 			"conditions": {
 				"item": {
 					"items": [
-						"minecraft:apple"
+						"minecraft:beetroot"
 					],
 					"components": {
 						"minecraft:item_model": "bracken:species_fruit/lemon"

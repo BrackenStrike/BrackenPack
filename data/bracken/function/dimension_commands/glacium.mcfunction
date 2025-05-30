@@ -15,5 +15,9 @@ execute if score @s bp.1_second matches 2 run function bracken:entities/glacium/
 execute if entity @s[scores={bp.ice=7..}] if block ~ ~-1 ~ minecraft:beacon run function bracken:dimension_crossing/glacium_to_overworld
 execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel: true} if entity @s[y=-35,dy=-300] in bracken:void run tp @s ~ 240 ~
 
+# Wind Sounds
+execute if predicate bracken:periodic/3s positioned over motion_blocking if entity @s[dy=999] run playsound minecraft:item.elytra.flying ambient @s ~ ~ ~ 100 1.0 1
+execute if predicate bracken:periodic/1s positioned over motion_blocking unless entity @s[dy=999] run stopsound @s ambient minecraft:item.elytra.flying
+
 #return
 return 1

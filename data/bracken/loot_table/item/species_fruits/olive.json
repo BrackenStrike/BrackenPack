@@ -8,11 +8,11 @@
 		"functions": [{
 			"function": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Lemon"
+			"name": "Olive"
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:species_fruit/lemon"
+				"minecraft:item_model": "bracken:species_fruit/olive"
 			}
 		}]
 	}]
