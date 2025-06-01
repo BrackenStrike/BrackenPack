@@ -1,8 +1,15 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-"minecraft:creeper_spawn_egg",
-"minecraft:wooden_sword"],
+    "type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"#/#",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:creeper_spawn_egg",
+		"/": "minecraft:wooden_sword"
+	},
 	"result": {
 		"id": "minecraft:wooden_sword",
         "count": 1,

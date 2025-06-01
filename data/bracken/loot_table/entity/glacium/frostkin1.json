@@ -2,8 +2,8 @@
 	"pools": [{
 		"rolls": 1,
 		"entries": [{
-			"type": "minecraft:loot_table",
-			"name": "minecraft:coal"
+			"type": "minecraft:item",
+			"name": "minecraft:iron_nugget"
 		}]
 	},{
 		"rolls": {

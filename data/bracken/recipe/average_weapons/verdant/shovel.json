@@ -1,9 +1,15 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-"minecraft:creeper_spawn_egg",
-"minecraft:wooden_shovel"],
-	
+    "type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"#/#",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:creeper_spawn_egg",
+		"/": "minecraft:wooden_shovel"
+	},
 	"result": {
 		"id": "minecraft:wooden_shovel",
         "count": 1,

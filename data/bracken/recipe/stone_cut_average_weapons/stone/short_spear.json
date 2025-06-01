@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"  #",
+		" / ",
+		"/  "
+	],
+	"key": {
+		"/": "minecraft:stick",
+		"#": "#minecraft:stone_tool_materials"
+	},
+	"result": {
+		"id": "minecraft:stone_shovel",
+		"components": {
+			"minecraft:max_damage": 59,
+			"minecraft:item_name": "Stone Short Spear",
+			"minecraft:item_model": "bracken:average_weapons/stone/short_spear",
+			"minecraft:lore": [
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "5 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1 Attack Speed","color":"dark_green","italic":false},
+				{"translate": "+2 Attack Range","color":"dark_green","italic":false}
+			],
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:attack_speed",
+					"id": "bracken:stone_short_spear",
+					"amount": -3,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:attack_damage",
+					"id": "bracken:stone_short_spear",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:entity_interaction_range",
+					"id": "bracken:stone_short_spear",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+		}
+	}
+}

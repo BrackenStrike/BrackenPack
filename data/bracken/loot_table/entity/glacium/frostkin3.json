@@ -2,7 +2,7 @@
 	"pools": [{
 		"rolls": 1,
 		"entries": [{
-			"type": "minecraft:loot_table",
+			"type": "minecraft:item",
 			"name": "minecraft:iron_nugget"
 		}]
 	},{
@@ -12,7 +12,7 @@
 		},
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:iron_nugget"
+			"name": "minecraft:iron_ingot"
 		}],
 		"conditions": [{
 			"condition": "minecraft:random_chance",

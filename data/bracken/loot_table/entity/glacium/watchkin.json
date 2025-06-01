@@ -7,12 +7,12 @@
 		}]
 	},{
 		"rolls": {
-			"min": 1,
+			"min": 0,
 			"max": 2
 		},
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:rabbit_hide"
+			"name": "minecraft:cooked_cod"
 		}],
 		"conditions": [{
 			"condition": "minecraft:random_chance",
