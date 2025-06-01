@@ -3,17 +3,20 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
-			"name": "minecraft:iron_ingot"
-		}],
-		"conditions": [{
-			"condition": "minecraft:random_chance",
-			"chance": 0.3
+			"name": "minecraft:iron_nugget"
 		}]
 	},{
-		"rolls": 1,
+		"rolls": {
+			"min": 3,
+			"max": 8
+		},
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:iron_nugget"
+		}],
+		"conditions": [{
+			"condition": "minecraft:random_chance",
+			"chance": 0.25
 		}]
 	}]
 }

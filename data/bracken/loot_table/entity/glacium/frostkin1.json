@@ -3,17 +3,20 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
-			"name": "minecraft:iron_nugget"
+			"name": "minecraft:coal"
+		}]
+	},{
+		"rolls": {
+			"min": 1,
+			"max": 4
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:rabbit_hide"
 		}],
 		"conditions": [{
 			"condition": "minecraft:random_chance",
-			"chance": 0.5
-		}]
-	},{
-		"rolls": 1,
-		"entries": [{
-			"type": "minecraft:item",
-			"name": "minecraft:string"
+			"chance": 0.75
 		}]
 	}]
 }

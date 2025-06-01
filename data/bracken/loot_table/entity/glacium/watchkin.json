@@ -3,11 +3,11 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
-			"name": "minecraft:iron_nugget"
+			"name": "minecraft:iron_ingot"
 		}]
 	},{
 		"rolls": {
-			"min": 0,
+			"min": 1,
 			"max": 2
 		},
 		"entries": [{
