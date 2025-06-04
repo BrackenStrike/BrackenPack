@@ -50,6 +50,13 @@
         "water_fog_color": 0,
         "grass_color": 16777215,
         "foliage_color": 16777215,
+        "particle": {
+            "options": {
+        "type": "minecraft:falling_dust",
+        "block_state": "minecraft:sand"
+      },
+            "probability": 0.118093334
+        },
         "mood_sound": {
             "sound": "minecraft:ambient.cave",
             "tick_delay": 1000,
