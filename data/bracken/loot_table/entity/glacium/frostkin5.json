@@ -1,22 +1,30 @@
 {
-	"pools": [{
-		"rolls": 1,
-		"entries": [{
-			"type": "minecraft:item",
-			"name": "minecraft:iron_nugget"
-		}]
-	},{
-		"rolls": {
-			"min": 2,
-			"max": 6
-		},
-		"entries": [{
-			"type": "minecraft:item",
-			"name": "minecraft:rose_bush"
-		}],
-		"conditions": [{
-			"condition": "minecraft:random_chance",
-			"chance": 0.25
-		}]
-	}]
+    "pools": [
+        
+        {
+            "rolls": {
+                "min": 4,
+                "max": 9
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_nugget"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.85
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                    "name": "minecraft:wither_rose"
+            }]
+        }
+    ]
 }
