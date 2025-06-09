@@ -10,6 +10,12 @@
                 "weight": 120,
                 "minCount": 4,
                 "maxCount": 4
+            },
+            {
+                "type": "minecraft:happy_gast",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 3
             }
         ],
         "monster": []

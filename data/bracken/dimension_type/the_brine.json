@@ -10,6 +10,7 @@
     "coordinate_scale": 1,
     "fixed_time": 1000,
     "ambient_light": 0,
+    "cloud_height": 560,
     "logical_height": 100,
     "infiniburn": "#minecraft:infiniburn_brine",
     "min_y": 0,

@@ -11,6 +11,7 @@
     "ambient_light": 0,
     "fixed_time": 11300,
     "logical_height": 100,
+    "cloud_height": 5,
     "infiniburn": "#minecraft:infiniburn_sanctum",
     "min_y": -64,
     "height": 368,

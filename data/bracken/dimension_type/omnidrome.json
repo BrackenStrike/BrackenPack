@@ -8,6 +8,7 @@
     "has_skylight": true,
     "has_ceiling": false,
     "coordinate_scale": 8,
+    "cloud_height": 33,
     "ambient_light": -20,
     "fixed_time": 18000,
     "logical_height": 100,
