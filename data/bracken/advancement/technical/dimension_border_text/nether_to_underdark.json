@@ -8,8 +8,8 @@
 						"dimension": "the_nether",
 						"position": {
 							"y": {
-								"min": 240,
-								"max": 265
+								"min": 265,
+								"max": 295
 							}
 						}
 					}

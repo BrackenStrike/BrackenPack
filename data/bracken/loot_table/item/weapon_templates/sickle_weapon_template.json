@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:host_armor_trim_smithing_template"
+			"name": "minecraft:vindicator_spawn_egg"
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",

@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:shaper_armor_trim_smithing_template"
+			"name": "minecraft:wandering_trader_spawn_egg"
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",

@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:sentry_armor_trim_smithing_template"
+			"name": "minecraft:zombified_piglin_spawn_egg"
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
