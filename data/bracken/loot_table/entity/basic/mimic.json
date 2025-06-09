@@ -1,19 +1,13 @@
 {
-	"pools": [{
-		"rolls": 1,
-		"entries": [{
-			"type": "minecraft:loot_table",
-			"value": "minecraft:resin_clump"
-		}],
-		"conditions": [{
-			"condition": "minecraft:random_chance",
-			"chance": 0.2
-		}]
-	},{
-		"rolls": 1,
-		"entries": [{
-			"type": "minecraft:item",
-			"name": "minecraft:resin_clump"
-		}]
-	}]
+    "pools": [
+        
+        
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                    "name": "minecraft:resin_clump"
+            }]
+        }
+    ]
 }
