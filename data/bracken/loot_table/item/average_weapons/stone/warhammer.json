@@ -36,7 +36,10 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:average_weapons/stone/warhammer"
+					"minecraft:item_model": "bracken:average_weapons/stone/warhammer",
+					"minecraft:weapon": {
+						"disable_blocking_for_seconds": 3
+					  }
 				}
 			},{
 				"function": "minecraft:set_attributes",

@@ -1,0 +1,16 @@
+{
+    "feature": "bracken:panacea/meat_rock",
+    "placement": [
+        {
+            "type": "count",
+            "count": 1
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        }
+    ]
+}

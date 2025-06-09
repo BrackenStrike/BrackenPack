@@ -12,6 +12,7 @@
         "misc": [],
         "water_creature": [],
         "creature": [
+            
             {
                 "type": "minecraft:pig",
                 "weight": 52,
@@ -20,7 +21,13 @@
             },
             {
                 "type": "minecraft:chicken",
-                "weight": 12,
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:rabbit",
+                "weight": 5,
                 "minCount": 4,
                 "maxCount": 4
             },
@@ -31,11 +38,12 @@
                 "maxCount": 4
             },
             {
-                "type": "minecraft:rabbit",
-                "weight": 50,
+                "type": "minecraft:llama",
+                "weight": 10,
                 "minCount": 4,
                 "maxCount": 4
             },
+            
             {
                 "type": "minecraft:frog",
                 "weight": 10,
@@ -49,6 +57,13 @@
                 "weight": 1,
                 "minCount": 4,
                 "maxCount": 4
+            },
+            
+            {
+                "type": "minecraft:stray",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 2
             }
         ]
     },
@@ -70,9 +85,7 @@
         [
             "minecraft:flower_plains"
         ],
-        [
-          
-        ],
+        [],
         [
             "minecraft:spring_water",
             "minecraft:seagrass_swamp",

@@ -1,14 +1,21 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-"minecraft:creeper_spawn_egg",
-"minecraft:wooden_sword"],
+    "type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"#/#",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:creeper_spawn_egg",
+		"/": "minecraft:wooden_sword"
+	},
 	"result": {
 		"id": "minecraft:wooden_sword",
         "count": 1,
 		"components": {
 			"minecraft:max_damage": 500,
-			"minecraft:item_name": "\"Verdant Sword\"",
+			"minecraft:item_name": "Verdant Sword",
 			"minecraft:enchantments": {
 				"bracken:infused_mending_fix": 1,
 				"bracken:poisoning_fix": 1
@@ -16,13 +23,12 @@
 			"minecraft:enchantment_glint_override": false,
 			"minecraft:item_model": "bracken:average_weapons/verdant/sword",
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 5.5 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 1.6 Attack Speed\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "5.5 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:verdant_sword",
 					"amount": 4.5,
@@ -35,8 +41,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

@@ -12,7 +12,7 @@
 	"result": {
 		"id": "minecraft:shulker_spawn_egg",
 		"components": {
-			"minecraft:item_name": "\"Mim Silk Patch\"",
+			"minecraft:item_name": "Mim Silk Patch",
 			"minecraft:item_model": "bracken:the_faewild/mim_silk_patch",
 			"minecraft:entity_data": {
 				"id": "minecraft:player"

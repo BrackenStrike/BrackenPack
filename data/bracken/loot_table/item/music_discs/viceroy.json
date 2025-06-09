@@ -9,7 +9,7 @@
 			"function": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:music_discs/viceroy",
-				"minecraft:jukebox_playable": { "song": "bracken:viceroy" }
+				"minecraft:jukebox_playable": "bracken:viceroy" 
 			}
 		},{
 			"function": "minecraft:set_custom_data",

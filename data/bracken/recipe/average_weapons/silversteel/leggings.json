@@ -8,7 +8,7 @@
 		"components": {
 			"minecraft:max_damage": 2150,
 			"minecraft:enchantment_glint_override": false,
-			"minecraft:item_name": "\"Silversteel Leggings\"",
+			"minecraft:item_name": "Silversteel Leggings",
 			"minecraft:enchantments": {
 				"bracken:silvered_fix": 1
 			},
@@ -17,16 +17,14 @@
 				"slot": "legs",
 				"asset_id": "bracken:silversteel"
 			},
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:armor",
 					"id": "bracken:silversteel_leggings",
 					"amount": 7,
 					"operation": "add_value",
 					"slot": "legs"
-				}],
-				"show_in_tooltip": true
-			}
+				}]
+				
 		}
 	}
 }

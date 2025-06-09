@@ -20,7 +20,7 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "10 Attack Damage",
+					"translate": "11 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -51,7 +51,7 @@
 				"modifiers": [{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:cryolith_greatsword",
-					"amount": 9,
+					"amount": 10,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

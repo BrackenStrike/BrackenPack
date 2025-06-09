@@ -20,7 +20,7 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "4 Attack Damage",
+					"translate": "5 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -43,7 +43,7 @@
 				"modifiers": [{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:golden_greatsword",
-					"amount": 3,
+					"amount": 4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

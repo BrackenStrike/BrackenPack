@@ -32,6 +32,13 @@
 					"amount": 4,
 					"operation": "add_value",
 					"slot": "feet"
+				},
+			{
+					"attribute": "minecraft:armor_toughness",
+					"id": "bracken:silversteel_boots_armor_tough",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "feet"
 				}]
 			},{
 				"function": "set_damage",

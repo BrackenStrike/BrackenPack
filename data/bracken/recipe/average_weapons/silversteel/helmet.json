@@ -8,7 +8,7 @@
 		"components": {
 			"minecraft:max_damage": 2150,
 			"minecraft:enchantment_glint_override": false,
-			"minecraft:item_name": "\"Silversteel Helmet\"",
+			"minecraft:item_name": "Silversteel Helmet",
 			"minecraft:enchantments": {
 				"bracken:silvered_fix": 1
 			},
@@ -17,16 +17,13 @@
 				"slot": "head",
 				"asset_id": "bracken:silversteel"
 			},
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:armor",
 					"id": "bracken:silversteel_helmet",
 					"amount": 4,
 					"operation": "add_value",
 					"slot": "head"
-				}],
-				"show_in_tooltip": true
-			}
+				}]
 		}
 	}
 }

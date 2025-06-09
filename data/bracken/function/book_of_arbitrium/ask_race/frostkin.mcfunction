@@ -1,12 +1,15 @@
 scoreboard players enable @s bp.frostkin_
 scoreboard players set @s bp.arb_book 0
 tellraw @s ["",{"translate":"------------------------------\nWould you like to be a "},{"translate":"Frostkin","color":"aqua"},{"translate":"?\n\
-+ Are more resilient to damage\n\
-+ Have immunity to Slowness, Poison, Wither, Mining Fatigue, and Hunger effects\n\
-+ Are unaffected by the frigid colds of Glacium \n\
-+ Can survive without food\n\
++ 4 additional armor\n\ 
++ 2 additional hearts\n\
++ 32% size increase\n\
++ Increased step height\n\
++ Bonus sweeping damage with melee attacks\n\
++ Immunity to slowness, poison, wither, mining fatigue, and hunger effects\n\
++ Cannot starve\n\
 + Become empowered whilst in powdered snow\n\
-- Become weak in hot climates\n\
-- Take increased damage from Fire and lava\n\n"},\
-{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger bp.frostkin_"}},\
+- Weakness effect in hot biomes and hot dimensions\n\
+- Instant damage effect from contact with magma, fire and lava\n\n"},\
+{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","command":"/trigger bp.frostkin_"}},\
 {"translate":"\n------------------------------"}]

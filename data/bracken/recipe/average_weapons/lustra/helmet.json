@@ -8,7 +8,7 @@
 		"components": {
 			"minecraft:max_damage": 3000,
 			"minecraft:enchantment_glint_override": true,
-			"minecraft:item_name": "\"Lustra Helmet\"",
+			"minecraft:item_name": "Lustra Helmet",
 			"minecraft:enchantments": {
 				"bracken:integrity_fix": 1
 			},

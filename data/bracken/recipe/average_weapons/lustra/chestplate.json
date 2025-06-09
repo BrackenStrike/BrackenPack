@@ -12,7 +12,7 @@
 				"slot": "chest",
 				"asset_id": "bracken:lustra"
 			},
-			"minecraft:item_name": "\"Lustra Chestplate\"",
+			"minecraft:item_name": "Lustra Chestplate",
 			"minecraft:enchantments": {
 				"bracken:integrity_fix": 1
 			},

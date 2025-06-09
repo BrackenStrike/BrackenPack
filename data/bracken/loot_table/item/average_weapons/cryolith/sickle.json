@@ -20,7 +20,7 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "11 Attack Damage",
+					"translate": "12 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -47,7 +47,7 @@
 				"modifiers": [{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:cryolith_sickle",
-					"amount": 10,
+					"amount": 11,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

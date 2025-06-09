@@ -16,9 +16,11 @@ effect give @s[scores={bp.sprintcharge=40..}] minecraft:speed 1 29 true
 effect give @s[scores={bp.sprintcharge=40..}] minecraft:night_vision 2 24 true
 effect give @s[scores={bp.sprintcharge=60..}] minecraft:speed 1 39 true
 execute if entity @s[scores={bp.sprintcharge=60..}] run summon minecraft:lightning_bolt ^ ^ ^-7
+advancement grant @s[scores={bp.sprintcharge=60..}] only bracken:varskspace/electric
 effect give @s[scores={bp.sprintcharge=80..}] minecraft:speed 1 79 true
 effect give @s[scores={bp.sprintcharge=100..}] minecraft:resistance 3 4 true
 execute if entity @s[scores={bp.sprintcharge=100..}] in minecraft:overworld run tp @s ~ 100 ~
+advancement grant @s[scores={bp.sprintcharge=100..}] only bracken:var
 effect give @s[scores={bp.longtick=7},predicate=!bracken:sprint] minecraft:saturation 1 0 true
 
 # Mansion Spell Book

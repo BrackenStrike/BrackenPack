@@ -1,0 +1,16 @@
+{
+  "assets": {
+    "angry": "bracken:entity/wolf/sanctum/wolf_sanctum_angry",
+    "tame": "bracken:entity/wolf/sanctum/wolf_sanctum_tame",
+    "wild": "bracken:entity/wolf/sanctum/wolf_sanctum"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_sanctum"
+      },
+      "priority": 1
+    }
+  ]
+}

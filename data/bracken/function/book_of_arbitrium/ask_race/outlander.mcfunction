@@ -1,10 +1,12 @@
 scoreboard players enable @s bp.outlander_
 scoreboard players set @s bp.arb_book 0
 tellraw @s ["",{"translate":"------------------------------\nWould you like to be an "},{"translate":"Outlander","color":"gray"},{"translate":"?\n\
-+ Can turn invisible after not moving for a short while\n\
-+ Can backstab entities, inflicting three times the damage when striking an entity from behind\n\
-+ Possess increased block interaction range\n\
-- Cannot turn invisible while in Sanctum\n\
-- Have Mining Fatigue while in Sanctum\n\n"},\
-{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger bp.outlander_"}},\
++ Can turn invisible when sneaking\n\
++ Can backstab entities, inflicting 3x damage when striking an entity from behind\n\
++ Increased block interaction range\n\
+- 35% size reduction\n\
+- 2 less hearts\n\
+- Cannot turn invisible while in sanctum\n\
+- Have Mining Fatigue while in sanctum\n\n"},\
+{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","command":"/trigger bp.outlander_"}},\
 {"translate":"\n------------------------------"}]

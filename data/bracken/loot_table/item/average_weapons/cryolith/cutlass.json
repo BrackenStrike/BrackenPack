@@ -28,8 +28,8 @@
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "2 Armor",
-					"color": "dark_green",
+					"translate": "Anti-Disable",
+					"color": "aqua",
 					"italic": false
 				}],
 				"mode": "insert"
@@ -37,7 +37,19 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/cryolith/cutlass",
-					"minecraft:max_damage": 200
+					"minecraft:max_damage": 200,
+					"minecraft:blocks_attacks": {
+          "block_delay_seconds": 0.25,
+          "disable_cooldown_scale": 0,
+          "item_damage": {
+            "threshold": 0,
+            "base": 2,
+            "factor": 2
+          },
+          "block_sound": "minecraft:block.anvil.place",
+          "disabled_sound": "minecraft:item.axe.scrape",
+          "bypassed_by": "#bracken:bypasses_sword"
+        }
 				}
 			},{
 				"function": "set_enchantments",
@@ -49,12 +61,6 @@
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
-					"attribute": "minecraft:armor",
-					"id": "bracken:cryolith_cutlass",
-					"amount": 2,
-					"operation": "add_value",
-					"slot": "hand"
-				},{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:cryolith_cutlass",
 					"amount": -2.4,

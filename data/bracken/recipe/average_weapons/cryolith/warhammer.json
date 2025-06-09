@@ -7,22 +7,24 @@
 		"id": "minecraft:iron_sword",
 		"components": {
 			"minecraft:max_damage": 200,
-			"minecraft:item_name": "\"Cryolith Warhammer\"",
+			"minecraft:item_name": "Cryolith Warhammer",
 			"minecraft:enchantments": {
 				"minecraft:vanishing_curse": 1,
 				"bracken:freezing_fix": 1,
 				"bracken:fragility_curse": 1
 			},
 			"minecraft:item_model": "bracken:average_weapons/cryolith/warhammer",
+			"minecraft:weapon": {
+				"disable_blocking_for_seconds": 3
+			  },
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 10 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 1.6 Attack Speed\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 20% Knockback Resistance\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "10 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false},
+				{"translate": "20% Knockback Resistance","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:cryolith_warhammer",
 					"amount": 9,
@@ -41,8 +43,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

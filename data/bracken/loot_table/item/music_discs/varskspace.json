@@ -9,7 +9,7 @@
 			"function": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:music_discs/varskspace",
-				"minecraft:jukebox_playable": { "song": "bracken:varskspace" }
+				"minecraft:jukebox_playable": "bracken:varskspace" 
 			}
 		},{
 			"function": "minecraft:set_custom_data",

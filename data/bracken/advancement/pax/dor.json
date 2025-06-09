@@ -1,0 +1,30 @@
+{
+	"parent": "bracken:pax/pax_portal",
+	"display": {
+		"title": {
+			"translate": "Interdimensional Criminal"
+		},
+		"description": {
+			"translate": "Get sent to Dormis. You monster.",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:magma_block"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bracken:pax/dor1": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "bracken:dormis"
+			}
+		}
+	},
+	"requirements": [[
+		"bracken:pax/dor1"
+	]]
+}

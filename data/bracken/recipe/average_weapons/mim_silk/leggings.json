@@ -13,7 +13,7 @@
 		"id": "minecraft:chainmail_leggings",
 		"components": {
 			"minecraft:max_damage": 32,
-			"minecraft:item_name": "\"Mim Silk Leggings\"",
+			"minecraft:item_name": "Mim Silk Leggings",
 			"minecraft:equippable": {
 				"slot": "legs",
 				"equip_sound": "minecraft:block.wool.step",

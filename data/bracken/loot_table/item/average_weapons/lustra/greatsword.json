@@ -20,7 +20,7 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "4 Attack Damage",
+					"translate": "5 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -41,11 +41,16 @@
 					"minecraft:enchantment_glint_override": true
 				}
 			},{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:integrity_fix": 1
+				}
+			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:lustra_greatsword",
-					"amount": 3,
+					"amount": 4,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

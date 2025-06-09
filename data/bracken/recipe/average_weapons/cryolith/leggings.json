@@ -7,7 +7,7 @@
 		"id": "minecraft:iron_leggings",
 		"components": {
 			"minecraft:max_damage": 200,
-			"minecraft:item_name": "\"Cryolith Leggings\"",
+			"minecraft:item_name": "Cryolith Leggings",
 			"minecraft:equippable": {
 				"slot": "legs",
 				"asset_id": "bracken:cryolith",

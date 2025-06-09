@@ -28,15 +28,27 @@
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "2 Armor",
-					"color": "dark_green",
+					"translate": "Anti-Disable",
+					"color": "aqua",
 					"italic": false
 				}],
 				"mode": "insert"
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:average_weapons/golden/cutlass"
+					"minecraft:item_model": "bracken:average_weapons/golden/cutlass",
+					"minecraft:blocks_attacks": {
+          "block_delay_seconds": 0.25,
+          "disable_cooldown_scale": 0,
+          "item_damage": {
+            "threshold": 0,
+            "base": 2,
+            "factor": 2
+          },
+          "block_sound": "minecraft:block.anvil.place",
+          "disabled_sound": "minecraft:item.axe.scrape",
+          "bypassed_by": "#bracken:bypasses_sword"
+        }
 				}
 			},{
 				"function": "minecraft:set_attributes",
@@ -46,12 +58,6 @@
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"
-				},{
-					"attribute": "minecraft:armor",
-					"id": "bracken:golden_cutlass",
-					"amount": 2,
-					"operation": "add_value",
-					"slot": "hand"
 				},{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:golden_cutlass",

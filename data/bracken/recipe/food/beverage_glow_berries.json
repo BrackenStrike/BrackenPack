@@ -14,7 +14,7 @@
 	"result": {
 		"id": "minecraft:ominous_bottle",
 		"components": {
-			"minecraft:item_name": "\"Homemade Glow Berry Beverage\"",
+			"minecraft:item_name": "Homemade Glow Berry Beverage",
 			"minecraft:item_model": "bracken:potions/beverage_glow_berries",
 			"minecraft:food": {
 				"nutrition": 6,

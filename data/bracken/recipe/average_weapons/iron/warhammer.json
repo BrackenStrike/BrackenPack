@@ -1,22 +1,30 @@
 {
-	"type": "minecraft:smithing_transform",
-	"template": "minecraft:ward_armor_trim_smithing_template",
-	"base": "minecraft:iron_sword",
-	"addition": "minecraft:iron_ingot",
-	"result": {
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		" ##",
+		" ##",
+		"/  "
+	],
+	"key": {
+		"#": "minecraft:iron_ingot",
+		"/": "minecraft:stick"
+	},"result": {
 		"id": "minecraft:iron_sword",
 		"components": {
-			"minecraft:item_name": "\"Iron Warhammer\"",
+			"minecraft:item_name": "Iron Warhammer",
 			"minecraft:item_model": "bracken:average_weapons/iron/warhammer",
+			"minecraft:weapon": {
+				"disable_blocking_for_seconds": 3
+			  },
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 6 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 1.6 Attack Speed\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 20% Knockback Resistance\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "6 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1 Attack Speed","color":"dark_green","italic":false},
+				{"translate": "20% Knockback Resistance","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:iron_warhammer",
 					"amount": 5,
@@ -25,7 +33,7 @@
 				},{
 					"type": "minecraft:attack_speed",
 					"id": "bracken:iron_warhammer",
-					"amount": -2.4,
+					"amount": -3,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
@@ -35,8 +43,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

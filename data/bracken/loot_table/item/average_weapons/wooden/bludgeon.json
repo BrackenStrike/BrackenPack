@@ -28,8 +28,8 @@
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "10% Knockback Resistance",
-					"color": "dark_green",
+					"translate": "Bonus Knockback",
+					"color": "aqua",
 					"italic": false
 				}],
 				"mode": "insert"
@@ -47,9 +47,9 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:knockback_resistance",
+					"attribute": "minecraft:attack_knockback",
 					"id": "bracken:wooden_bludgeon",
-					"amount": 0.1,
+					"amount": 1,
 					"operation": "add_value",
 					"slot": "hand"
 				},{

@@ -3,12 +3,12 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:apple"
+			"name": "minecraft:beetroot"
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Netherkin Fruit"
+			"name": "Nether Pepper"
 		},{
 			"function": "minecraft:set_lore",
 			"entity": "this",
@@ -29,8 +29,7 @@
 					"nutrition": 4,
 					"saturation": 2.4,
 					"can_always_eat": true
-				},
-				"minecraft:rarity": "epic"
+				}
 			}
 		}]
 	}]

@@ -16,7 +16,7 @@
 				"slot": "feet",
 				"asset_id": "bracken:copper"
 			},
-			"minecraft:item_name": "\"Copper Boots\"",
+			"minecraft:item_name": "Copper Boots",
 			"minecraft:item_model": "bracken:average_weapons/copper/boots"
 		}
 	}

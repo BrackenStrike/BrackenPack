@@ -31,6 +31,11 @@
 					"translate": "+2.5% Movement Speed",
 					"color": "dark_green",
 					"italic": false
+				},
+				{
+					"translate": "Bonus Sweeping Attack",
+					"color": "aqua",
+					"italic": false
 				}],
 				"mode": "insert"
 			},{
@@ -39,6 +44,11 @@
 					"minecraft:item_model": "bracken:average_weapons/lustra/sabre",
 					"minecraft:max_damage": 3000,
 					"minecraft:enchantment_glint_override": true
+				}
+			},{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:integrity_fix": 1
 				}
 			},{
 				"function": "minecraft:set_attributes",
@@ -58,6 +68,13 @@
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:lustra_sabre",
 					"amount": 3,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"attribute": "minecraft:sweeping_damage_ratio",
+					"id": "bracken:lustra_sabre",
+					"amount": 2,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}]

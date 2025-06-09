@@ -9,8 +9,8 @@
 				"components": {
 					"minecraft:item_model": "bracken:void_bomb",
 					"minecraft:enchantment_glint_override": true,
-					"minecraft:attribute_modifiers": {
-						"modifiers": [{
+					
+					"minecraft:attribute_modifiers":[{
 							"type": "attack_speed",
 							"id": "bracken:void_bomb",
 							"amount": -10,
@@ -26,8 +26,16 @@
 							"amount": -10,
 							"operation": "add_value"
 						}],
-						"show_in_tooltip": false
-					},
+						
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]}
+						
+						
+						
+						
+						,
 					"minecraft:entity_data": {
 						"id": "minecraft:area_effect_cloud",
 						"Particle": {
@@ -39,13 +47,6 @@
 						"potion_contents": {
 							"custom_effects": [{
 								"id": "minecraft:slowness",
-								"amplifier": 1,
-								"duration": 40,
-								"show_particles": false,
-								"show_icon": true,
-								"ambient": false
-							},{
-								"id": "minecraft:instant_damage",
 								"amplifier": 1,
 								"duration": 40,
 								"show_particles": false,
@@ -67,22 +68,25 @@
 								"ambient": false
 							},{
 								"id": "minecraft:wither",
-								"amplifier": 0,
+								"amplifier": 1,
 								"duration": 100,
 								"show_particles": false,
 								"show_icon": true,
 								"ambient": false
 							}]
 						},
-						"CustomName": "{\"translate\":\"DROP OF VOID\",\"bold\":true}"
+						"CustomName": {"translate":"DROP OF VOID","bold":true}
 					},
-					"minecraft:rarity": "common"
+					"minecraft:rarity": "rare"
 				}
 			},{
-				"function": "set_name",
-				"target": "item_name",
-				"name": "Void Bomb"
-			},{
+				"function": "minecraft:set_name",
+				"name": {
+				  "translate": "Void Bomb",
+				  "italic": false,
+				  "obfuscated": true
+				}
+			  },{
 				"function": "set_lore",
 				"lore": [{
 					"translate": "A vague feeling tells you not to use this.",

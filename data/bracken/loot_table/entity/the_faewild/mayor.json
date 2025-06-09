@@ -1,0 +1,19 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:dandelion"
+		}],
+		"conditions": [{
+			"condition": "minecraft:random_chance",
+			"chance": 0.9
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:map"
+		}]
+	}]
+}

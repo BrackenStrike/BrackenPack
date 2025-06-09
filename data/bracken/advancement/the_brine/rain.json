@@ -1,0 +1,29 @@
+{
+	"parent": "bracken:the_brine/enter_the_brine",
+	"display": {
+		"title": {
+			"translate": "Effective Rainfall"
+		},
+		"description": {
+			"translate": "Expereince potion rain in the Brine",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:splash_potion",
+			"components": {
+				"minecraft:potion_contents": {
+					"custom_color": 14270531
+				}
+			}
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

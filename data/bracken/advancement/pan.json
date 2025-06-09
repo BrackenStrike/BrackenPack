@@ -5,7 +5,7 @@
 			"translate": "Primordial Paradise"
 		},
 		"description": {
-			"translate": "Get close to a creeper whilst wearing a creeper head",
+			"translate": "Get close to a creeper whilst wearing a creeper head. Arrive in Panacea",
 			"color": "green"
 		},
 		"icon": {
@@ -17,14 +17,11 @@
 		"hidden": false
 	},
 	"criteria": {
-		"bracken:pan1": {
-			"trigger": "minecraft:changed_dimension",
-			"conditions": {
-				"to": "bracken:panacea"
-			}
+		"discovered": {
+			"trigger": "minecraft:impossible"
 		}
 	},
-	"requirements": [[
-		"bracken:pan1"
-	]]
+	"rewards": {
+		"experience": 2
+	}
 }

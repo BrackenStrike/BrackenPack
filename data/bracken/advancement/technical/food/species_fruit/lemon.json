@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"join": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:beetroot"
+					],
+					"components": {
+						"minecraft:item_model": "bracken:species_fruit/lemon"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:item/food/lemon"
+	}
+}

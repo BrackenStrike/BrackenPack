@@ -28,7 +28,7 @@
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "+1.5 Attack Range",
+					"translate": "+2 Attack Range",
 					"color": "dark_green",
 					"italic": false
 				}],
@@ -56,7 +56,7 @@
 				},{
 					"attribute": "minecraft:entity_interaction_range",
 					"id": "bracken:iron_short_spear",
-					"amount": 1.5,
+					"amount": 2,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}]

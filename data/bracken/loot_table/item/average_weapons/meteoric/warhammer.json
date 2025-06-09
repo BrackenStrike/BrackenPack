@@ -37,7 +37,10 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/meteoric/warhammer",
-					"minecraft:max_damage": 1000
+					"minecraft:max_damage": 1000,
+					"minecraft:weapon": {
+						"disable_blocking_for_seconds": 3
+					  }
 				}
 			},{
 				"function": "minecraft:set_attributes",

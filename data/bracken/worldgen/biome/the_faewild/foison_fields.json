@@ -30,12 +30,7 @@
                 "minCount": 1,
                 "maxCount": 2
             },
-            {
-                "type": "minecraft:rabbit",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            },
+            
             {
                 "type": "minecraft:frog",
                 "weight": 10,
@@ -50,6 +45,7 @@
                 "minCount": 3,
                 "maxCount": 3
             },
+            
             {
                 "type": "minecraft:slime",
                 "weight": 1,
@@ -84,6 +80,8 @@
             "minecraft:seagrass_swamp",
             "minecraft:patch_large_fern",
             "bracken:faewild/large_fern",
+            "bracken:faewild/firefly",
+
             
             "minecraft:vines",
             "minecraft:sea_pickle",

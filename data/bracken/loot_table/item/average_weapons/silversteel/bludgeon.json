@@ -28,8 +28,8 @@
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "15% Knockback Resistance",
-					"color": "dark_green",
+					"translate": "Bonus Knockback",
+					"color": "aqua",
 					"italic": false
 				}],
 				"mode": "insert"
@@ -42,8 +42,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/silversteel/bludgeon",
-					"minecraft:max_damage": 2150,
-					"minecraft:enchantment_glint_override": false
+					"minecraft:max_damage": 2150
 				}
 			},{
 				"function": "minecraft:set_attributes",
@@ -54,9 +53,9 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
-					"attribute": "minecraft:knockback_resistance",
+					"attribute": "minecraft:attack_knockback",
 					"id": "bracken:silversteel_bludgeon",
-					"amount": 0.1,
+					"amount": 1,
 					"operation": "add_value",
 					"slot": "hand"
 				},{

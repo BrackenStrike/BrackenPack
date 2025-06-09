@@ -1,0 +1,19 @@
+{
+    "feature": "bracken:faewild/firefly",
+    "placement": [
+        {
+            "type": "count",
+            "count": 17
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "WORLD_SURFACE"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

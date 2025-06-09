@@ -17,7 +17,7 @@
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true,
-		"background": "bracken:textures/gui/advancements/backgrounds/pax.png"
+		"background": "minecraft:block/chiseled_quartz_block_top"
 	},
 	"criteria": {
 		"requirement": {

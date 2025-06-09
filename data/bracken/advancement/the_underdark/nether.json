@@ -1,0 +1,27 @@
+{
+	"parent": "bracken:the_underdark/enter_underdark",
+	"display": {
+		"title": {
+			"translate": "Way Down We Go"
+		},
+		"description": {
+			"translate": "Dig even deeper. See if anything looks familiar",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:netherrack"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 2
+	}
+}

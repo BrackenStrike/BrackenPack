@@ -1,0 +1,20 @@
+{
+  "asset_id": "bracken:entity/cat/tiger",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_panacea"
+      },
+      "priority": 1
+    },
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_brine"
+      },
+      "priority": 0
+    }
+    
+  ]
+}

@@ -1,15 +1,21 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-"minecraft:creeper_spawn_egg",
-"minecraft:leather_leggings"],
-	
+    "type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"#/#",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:creeper_spawn_egg",
+		"/": "minecraft:leather_leggings"
+	},
 	"result": {
 		"id": "minecraft:leather_leggings",
         "count": 1,
 		"components": {
 			"minecraft:max_damage": 500,
-			"minecraft:item_name": "\"Verdant Leggings\"",
+			"minecraft:item_name": "Verdant Leggings",
 			"minecraft:equippable": {
 				"slot": "legs",
 				"asset_id": "bracken:verdant",

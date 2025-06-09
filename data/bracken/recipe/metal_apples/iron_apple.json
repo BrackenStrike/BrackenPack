@@ -13,7 +13,7 @@
 	"result": {
 		"id": "minecraft:apple",
 		"components": {
-			"minecraft:item_name": "\"Iron Apple\"",
+			"minecraft:item_name": "Iron Apple",
 			"minecraft:rarity": "rare",
 			"minecraft:item_model": "bracken:metal_apples/iron_apple",
 			"minecraft:food": {

@@ -8,19 +8,18 @@
 		"components": {
 			"minecraft:max_damage": 2150,
 			"minecraft:enchantment_glint_override": false,
-			"minecraft:item_name": "\"Silversteel Hoe\"",
+			"minecraft:item_name": "Silversteel Hoe",
 			"minecraft:item_model": "bracken:average_weapons/silversteel/hoe",
 			"minecraft:enchantments": {
 				"bracken:silvered_fix": 1
 			},
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 1 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 4 Attack Speed\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "1 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "4 Attack Speed","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_speed",
 					"id": "bracken:silversteel_hoe",
 					"amount": -0.12,
@@ -33,8 +32,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

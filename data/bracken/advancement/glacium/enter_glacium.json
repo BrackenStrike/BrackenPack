@@ -18,7 +18,7 @@
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true,
-		"background": "bracken:textures/gui/advancements/backgrounds/glacium.png"
+		"background": "minecraft:block/blue_ice"
 	},
 	"criteria": {
 		"requirement": {

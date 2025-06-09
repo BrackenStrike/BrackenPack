@@ -32,6 +32,13 @@
 					"amount": 7,
 					"operation": "add_value",
 					"slot": "legs"
+				},
+			{
+					"attribute": "minecraft:armor_toughness",
+					"id": "bracken:silversteel_leggings_armor_tough",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "legs"
 				}]
 			},{
 				"function": "set_damage",

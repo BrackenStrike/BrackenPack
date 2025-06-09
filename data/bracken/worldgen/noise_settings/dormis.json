@@ -413,7 +413,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:granite"
+                                    "Name": "minecraft:smooth_sandstone"
                                 }
                             }
                         },
@@ -429,7 +429,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:magma_block"
+                                    "Name": "minecraft:sandstone"
                                 }
                             }
                         }

@@ -17,7 +17,7 @@
 				"slot": "chest",
 				"asset_id": "bracken:meteoric"
 			},
-			"minecraft:item_name": "\"Meteoric Chestplate\"",
+			"minecraft:item_name": "Meteoric Chestplate",
 			"minecraft:item_model": "bracken:average_weapons/meteoric/chestplate"
 		}
 	}

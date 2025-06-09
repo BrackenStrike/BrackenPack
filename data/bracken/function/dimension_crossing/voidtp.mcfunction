@@ -17,7 +17,8 @@ execute if score @s bp.voidtp matches 4 in bracken:omnidrome run tp @s ~ 100 ~
 
 execute if score @s bp.voidtp matches 5 in bracken:panacea run tp @s ~ 80 ~
 
-execute if score @s bp.voidtp matches 6 in bracken:pax run tp @s ~ 65 ~
+execute if score @s bp.voidtp matches 6 in bracken:void run tp @s ~ 265 ~
+execute if score @s bp.voidtp matches 6 run advancement grant @s only bracken:void/reroll
 
 execute if score @s bp.voidtp matches 7 in bracken:sanctum run tp @s ~ 130 ~
 

@@ -1,15 +1,21 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-"minecraft:creeper_spawn_egg",
-"minecraft:wooden_shovel"],
-	
+    "type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"#/#",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:creeper_spawn_egg",
+		"/": "minecraft:wooden_shovel"
+	},
 	"result": {
 		"id": "minecraft:wooden_shovel",
         "count": 1,
 		"components": {
 			"minecraft:max_damage": 500,
-			"minecraft:item_name": "\"Verdant Shovel\"",
+			"minecraft:item_name": "Verdant Shovel",
 			"minecraft:enchantments": {
 				"bracken:infused_mending_fix": 1,
 				"bracken:poisoning_fix": 1
@@ -17,13 +23,12 @@
 			"minecraft:enchantment_glint_override": false,
 			"minecraft:item_model": "bracken:average_weapons/verdant/shovel",
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 4 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 1 Attack Speed\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "4 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1 Attack Speed","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:verdant_shovel",
 					"amount": 3,
@@ -36,8 +41,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

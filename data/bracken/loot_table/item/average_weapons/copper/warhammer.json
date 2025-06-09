@@ -37,7 +37,10 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/copper/warhammer",
-					"minecraft:max_damage": 175
+					"minecraft:max_damage": 175,
+					"minecraft:weapon": {
+						"disable_blocking_for_seconds": 3
+					  }
 				}
 			},{
 				"function": "minecraft:set_attributes",

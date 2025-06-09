@@ -25,30 +25,36 @@
                 "maxCount": 4
             },
             {
+                "type": "minecraft:llama",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:chicken",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
                 "type": "minecraft:rabbit",
                 "weight": 50,
                 "minCount": 4,
                 "maxCount": 4
-            },
-            {
-                "type": "minecraft:creeper",
-                "weight": 10,
-                "minCount": 1,
-                "maxCount": 3
             }
         ],
         "monster": [
             {
-                "type": "minecraft:spider",
-                "weight": 5,
-                "minCount": 3,
-                "maxCount": 3
+                "type": "minecraft:stray",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
             },
             {
-                "type": "minecraft:slime",
+                "type": "minecraft:spider",
                 "weight": 1,
-                "minCount": 4,
-                "maxCount": 4
+                "minCount": 1,
+                "maxCount": 1
             },
             {
                 "type": "minecraft:enderman",
@@ -57,20 +63,14 @@
                 "maxCount": 1
             },
             {
+                "type": "minecraft:slime",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
                 "type": "minecraft:phantom",
                 "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:drowned",
-                "weight": 6,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:creeper",
-                "weight": 5,
                 "minCount": 1,
                 "maxCount": 1
             }

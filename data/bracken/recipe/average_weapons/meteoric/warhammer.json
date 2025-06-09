@@ -1,22 +1,30 @@
 {
-	"type": "minecraft:smithing_transform",
-	"template": "minecraft:ward_armor_trim_smithing_template",
-	"base": "minecraft:netherite_sword",
-	"addition": "minecraft:netherite_scrap",
-	"result": {
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		" ##",
+		" ##",
+		"/  "
+	],
+	"key": {
+		"#": "minecraft:netherite_scrap",
+		"/": "minecraft:stick"
+	},"result": {
 		"id": "minecraft:netherite_sword",
 		"components": {
-			"minecraft:item_name": "\"Meteoric Warhammer\"",
+			"minecraft:item_name": "Meteoric Warhammer",
 			"minecraft:item_model": "bracken:average_weapons/meteoric/warhammer",
+			"minecraft:weapon": {
+				"disable_blocking_for_seconds": 3
+			  },
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 8 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 0.5 Attack Speed\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 20% Knockback Resistance\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "8 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "0.5 Attack Speed","color":"dark_green","italic":false},
+				{"translate": "20% Knockback Resistance","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:meteoric_warhammer",
 					"amount": 7,
@@ -35,8 +43,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

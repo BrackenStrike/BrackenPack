@@ -28,11 +28,16 @@
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "+1.5 Attack Range",
+					"translate": "+2 Attack Range",
 					"color": "dark_green",
 					"italic": false
 				}],
 				"mode": "insert"
+			},{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:integrity_fix": 1
+				}
 			},{
 				"function": "minecraft:set_components",
 				"components": {
@@ -57,7 +62,7 @@
 				},{
 					"attribute": "minecraft:entity_interaction_range",
 					"id": "bracken:lustra_short_spear",
-					"amount": 1.5,
+					"amount": 2,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}]

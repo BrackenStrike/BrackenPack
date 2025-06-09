@@ -1,0 +1,27 @@
+{
+	"parent": "bracken:sanctum/portal",
+	"display": {
+		"title": {
+			"translate": "Again? Alright, I guess."
+		},
+		"description": {
+			"translate": "Place an end crystal in the Sanctum and sprint nearby to enter the Omnidrome (again)",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:end_crystal"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 2
+	}
+}

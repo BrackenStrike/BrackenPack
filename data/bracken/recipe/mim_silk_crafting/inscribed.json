@@ -3,12 +3,12 @@
 	"category": "equipment",
 	"template": "minecraft:shulker_spawn_egg",
 	"base": "minecraft:enchanted_book",
-	"addition": "minecraft:diamond",
+	"addition": "minecraft:lapis_lazuli",
 	"result": {
 		"id": "minecraft:shulker_spawn_egg",
 		"count": 2,
 		"components": {
-			"minecraft:item_name": "\"Inscribed Mim Silk Patch\"",
+			"minecraft:item_name": "Inscribed Mim Silk Patch",
 			"minecraft:item_model": "bracken:the_faewild/inscribed_mim_silk_patch",
 			"minecraft:entity_data": {
 				"id": "minecraft:player"

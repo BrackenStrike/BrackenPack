@@ -18,7 +18,7 @@
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true,
-		"background": "bracken:textures/gui/advancements/backgrounds/omnidrome.png"
+		"background": "bracken:gui/advancements/backgrounds/omnidrome"
 	},
 	"criteria": {
 		"requirement": {

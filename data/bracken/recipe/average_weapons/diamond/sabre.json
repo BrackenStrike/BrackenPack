@@ -1,22 +1,30 @@
 {
-	"type": "minecraft:smithing_transform",
-	"template": "minecraft:shaper_armor_trim_smithing_template",
-	"base": "minecraft:diamond_sword",
-	"addition": "minecraft:diamond",
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"## ",
+		" # ",
+		" / "
+	],
+	"key": {
+		"#": "minecraft:diamond",
+		"/": "minecraft:stick"
+	},
 	"result": {
 		"id": "minecraft:diamond_sword",
 		"components": {
-			"minecraft:item_name": "\"Diamond Sabre\"",
+			"minecraft:item_name": "Diamond Sabre",
 			"minecraft:item_model": "bracken:average_weapons/diamond/sabre",
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 7 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 1.6 Attack Speed\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" +2.5% Movement Speed\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "7 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false},
+				{"translate": "+2.5% Movement Speed","color":"dark_green","italic":false},
+				{"translate": "Bonus Sweeping Attack","color": "aqua","italic": false
+				}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:diamond_sabre",
 					"amount": 6,
@@ -35,8 +43,11 @@
 					"operation": "add_value",
 					"slot": "hand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

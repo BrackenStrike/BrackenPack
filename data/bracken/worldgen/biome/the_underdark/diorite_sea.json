@@ -21,10 +21,28 @@
         ],
         "creature": [
             {
+                "type": "minecraft:pig",
+                "weight": 52,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
                 "type": "minecraft:donkey",
-                "weight": 5,
+                "weight": 50,
                 "minCount": 1,
                 "maxCount": 3
+            },
+            {
+                "type": "minecraft:frog",
+                "weight": 32,
+                "minCount": 1,
+                "maxCount": 2
+            },
+            {
+                "type": "minecraft:chicken",
+                "weight": 32,
+                "minCount": 1,
+                "maxCount": 2
             }
         ],
         "monster": []

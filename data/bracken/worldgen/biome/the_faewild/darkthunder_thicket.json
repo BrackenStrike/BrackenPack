@@ -57,8 +57,8 @@
                 "maxCount": 1
             },
             {
-                "type": "minecraft:creeper",
-                "weight": 5,
+                "type": "minecraft:phantom",
+                "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
             }

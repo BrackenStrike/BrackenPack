@@ -5,7 +5,7 @@
 			"translate": "Snowfall"
 		},
 		"description": {
-			"translate": "Survive standing on an activated beacon. Crash through to Glacium.",
+			"translate": "Survive standing on an activated beacon. Crash through to Glacium",
 			"color": "green"
 		},
 		"icon": {
@@ -17,14 +17,11 @@
 		"hidden": false
 	},
 	"criteria": {
-		"bracken:gla1": {
-			"trigger": "minecraft:changed_dimension",
-			"conditions": {
-				"to": "bracken:glacium"
-			}
+		"discovered": {
+			"trigger": "minecraft:impossible"
 		}
 	},
-	"requirements": [[
-		"bracken:gla1"
-	]]
+	"rewards": {
+		"experience": 2
+	}
 }

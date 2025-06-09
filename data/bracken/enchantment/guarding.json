@@ -37,6 +37,6 @@
 	"slots": [
 		"hand"
 	],
-	"supported_items": "#minecraft:enchantable/sharp_weapon",
+	"supported_items": "#minecraft:shovels",
 	"weight": 2
 }

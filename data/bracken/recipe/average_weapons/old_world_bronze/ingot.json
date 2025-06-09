@@ -16,7 +16,7 @@
 		"id": "minecraft:cat_spawn_egg",
 		"count": 1,
 		"components": {
-			"minecraft:item_name": "\"Old World Bronze Ingot\"",
+			"minecraft:item_name": "Old World Bronze Ingot",
 			"minecraft:entity_data": {
 				"id": "minecraft:player"
 			},

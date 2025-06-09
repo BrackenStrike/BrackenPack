@@ -26,6 +26,14 @@
 					"amount": 4,
 					"operation": "add_value",
 					"slot": "head"
+				},
+			
+			{
+					"attribute": "minecraft:armor_toughness",
+					"id": "bracken:silversteel_helmet_armor_tough",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "head"
 				}]
 			},{
 				"function": "set_damage",

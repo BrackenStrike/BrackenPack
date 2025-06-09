@@ -17,7 +17,7 @@
 				"slot": "chest",
 				"asset_id": "bracken:copper"
 			},
-			"minecraft:item_name": "\"Copper Chestplate\"",
+			"minecraft:item_name": "Copper Chestplate",
 			"minecraft:item_model": "bracken:average_weapons/copper/chestplate"
 		}
 	}

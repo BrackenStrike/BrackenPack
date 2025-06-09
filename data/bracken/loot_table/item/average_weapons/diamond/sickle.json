@@ -20,7 +20,7 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "8 Attack Damage",
+					"translate": "9 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -45,7 +45,7 @@
 				},{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:diamond_sickle",
-					"amount": 7,
+					"amount": 8,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}]

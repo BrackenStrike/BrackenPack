@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed by players leaving the villains
-# Creators: Sulfenir and Grandmaster
+# Creators: Sulfenir, Bracken and Grandmaster
 ##########################################################
 
 tag @s remove bp.species
@@ -9,7 +9,7 @@ team leave @s[team=Villain]
 
 attribute @s minecraft:scale modifier remove bracken:villain.scale
 attribute @s minecraft:attack_damage modifier remove bracken:villain.attack_damage
-attribute @s minecraft:attack_speed modifier remove bracken:villain.attack_speed
+
 attribute @s minecraft:armor modifier remove bracken:villain.armor
 attribute @s minecraft:luck modifier remove bracken:villain.luck
 

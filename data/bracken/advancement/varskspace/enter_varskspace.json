@@ -1,0 +1,28 @@
+{
+	"display": {
+		"title": {
+			"translate": "Varskspace"
+		},
+		"description": {
+			"translate": "Travelers' realm",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:echo_shard"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true,
+		"background": "minecraft:block/amethyst_block"
+	},
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:changed_dimension",
+			"conditions": {
+				"to": "bracken:varskspace"
+			}
+		}
+	}
+}
+

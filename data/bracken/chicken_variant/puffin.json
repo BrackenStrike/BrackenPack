@@ -1,0 +1,12 @@
+{
+  "asset_id": "bracken:entity/chicken/puffin",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_glacium"
+      },
+      "priority": 1
+    }
+  ]
+}

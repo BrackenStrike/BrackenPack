@@ -28,32 +28,38 @@
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "+5% Movement Speed",
+					"translate": "+2.5% Movement Speed",
 					"color": "dark_green",
 					"italic": false
 				},{
-					"translate": "Limited Jump Strength",
-					"color": "red",
+					"translate": "Projectile Deflection",
+					"color": "aqua",
 					"italic": false
 				}],
 				"mode": "insert"
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:average_weapons/diamond/katana"
+					"minecraft:item_model": "bracken:average_weapons/diamond/katana",
+					"minecraft:blocks_attacks": {
+          "block_delay_seconds": 0.25,
+          "disable_cooldown_scale": 0.1,
+          "item_damage": {
+            "threshold": 0,
+            "base": 4,
+            "factor": 4
+          },
+          "block_sound": "minecraft:block.anvil.place",
+          "disabled_sound": "minecraft:item.axe.scrape",
+          "bypassed_by": "#bracken:bypasses_katana"
+        }
 				}
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:movement_speed",
 					"id": "bracken:diamond_katana",
-					"amount": 0.05,
-					"operation": "add_value",
-					"slot": "hand"
-				},{
-					"attribute": "minecraft:jump_strength",
-					"id": "bracken:diamond_katana",
-					"amount": -0.5,
+					"amount": 0.025,
 					"operation": "add_value",
 					"slot": "hand"
 				},{

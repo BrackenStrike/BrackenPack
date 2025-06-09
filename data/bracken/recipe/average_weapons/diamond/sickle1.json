@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		" ##",
+		" # ",
+		"/  "
+	],
+	"key": {
+		"#": "minecraft:diamond",
+		"/": "minecraft:stick"
+	},
+	"result": {
+		"id": "minecraft:diamond_sword",
+		"components": {
+			"minecraft:item_name": "Diamond Sickle",
+			"minecraft:item_model": "bracken:average_weapons/diamond/sickle",
+			"minecraft:lore": [
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "9 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1.6 Attack Speed","color":"dark_green","italic":false}
+			],
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:attack_damage",
+					"id": "bracken:diamond_sickle",
+					"amount": 8,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},{
+					"type": "minecraft:attack_speed",
+					"id": "bracken:diamond_sickle",
+					"amount": -2.4,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}],
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+		}
+	}
+}

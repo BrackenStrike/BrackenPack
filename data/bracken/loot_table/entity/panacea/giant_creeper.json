@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/panacea/panaspore"
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 5,
+                "max": 12
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:gunpowder"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.85
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:loot_table",
+                "value": "bracken:item/panacea/creeper_horn"
+            }]
+        }
+    ]
+}

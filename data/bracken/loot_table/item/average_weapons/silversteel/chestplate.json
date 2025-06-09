@@ -32,6 +32,13 @@
 					"amount": 9,
 					"operation": "add_value",
 					"slot": "chest"
+				},
+			{
+					"attribute": "minecraft:armor_toughness",
+					"id": "bracken:silversteel_chestplate_armor_tough",
+					"amount": 4,
+					"operation": "add_value",
+					"slot": "chest"
 				}]
 			},{
 				"function": "set_damage",

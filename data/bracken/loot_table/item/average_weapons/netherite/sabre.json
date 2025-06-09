@@ -31,6 +31,11 @@
 					"translate": "+2.5% Movement Speed",
 					"color": "dark_green",
 					"italic": false
+				},
+				{
+					"translate": "Bonus Sweeping Attack",
+					"color": "aqua",
+					"italic": false
 				}],
 				"mode": "insert"
 			},{
@@ -56,6 +61,13 @@
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:netherite_sabre",
 					"amount": 7,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"attribute": "minecraft:sweeping_damage_ratio",
+					"id": "bracken:netherite_sabre",
+					"amount": 2,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}]

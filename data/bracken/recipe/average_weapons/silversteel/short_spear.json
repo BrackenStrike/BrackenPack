@@ -18,17 +18,16 @@
 				"bracken:silvered_fix": 1
 			},
 			"minecraft:enchantment_glint_override": false,
-			"minecraft:item_name": "\"Silversteel Short Spear\"",
+			"minecraft:item_name": "Silversteel Short Spear",
 			"minecraft:item_model": "bracken:average_weapons/silversteel/short_spear",
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 9 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 1 Attack Speed\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" +1.5 Attack Range\",\"color\":dark_green,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "9 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "1 Attack Speed","color":"dark_green","italic":false},
+				{"translate": "+2 Attack Range","color":"dark_green","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_speed",
 					"id": "bracken:silversteel_short_spear",
 					"amount": -3,
@@ -43,12 +42,15 @@
 				},{
 					"type": "minecraft:entity_interaction_range",
 					"id": "bracken:silversteel_short_spear",
-					"amount": 1.5,
+					"amount": 2,
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

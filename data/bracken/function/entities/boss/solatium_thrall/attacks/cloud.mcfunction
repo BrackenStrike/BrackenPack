@@ -1,6 +1,6 @@
 playsound minecraft:entity.glow_squid.squirt hostile @a[distance=..100] ~ ~ ~ 10 0
 
-summon area_effect_cloud ~ ~ ~ {Particle:{type:"large_smoke"},Radius:20f,RadiusPerTick:-.3f,Duration:2000,Color:16774912,potion_contents:{custom_effects:[{id:"minecraft:levitation",amplifier:115,duration:5,show_particles:0b,show_icon:0b,ambient:0b}]},CustomName:'{"translate":"Solatium_Field"}'}
+summon area_effect_cloud ~ ~ ~ {Particle:{type:"large_smoke"},Radius:20f,RadiusPerTick:-.3f,Duration:2000,Color:16774912,potion_contents:{custom_effects:[{id:"minecraft:levitation",amplifier:115,duration:5,show_particles:0b,show_icon:0b,ambient:0b}]},CustomName:{"translate":"Solatium_Field"}}
 
 
 

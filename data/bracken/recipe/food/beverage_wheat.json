@@ -14,7 +14,7 @@
 	"result": {
 		"id": "minecraft:ominous_bottle",
 		"components": {
-			"minecraft:item_name": "\"Homemade Wheat Beverage\"",
+			"minecraft:item_name": "Homemade Wheat Beverage",
 			"minecraft:item_model": "bracken:potions/beverage_wheat",
 			"minecraft:food": {
 				"nutrition": 6,

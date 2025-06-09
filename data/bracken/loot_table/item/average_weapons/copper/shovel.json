@@ -43,6 +43,13 @@
 					"amount": 3,
 					"operation": "add_value",
 					"slot": "mainhand"
+				},
+				{
+					"attribute": "minecraft:block_break_speed",
+					"id": "bracken:copper_shovel",
+					"amount": 1,
+					"operation": "add_value",
+					"slot": "mainhand"
 				},{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:copper_shovel",

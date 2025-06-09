@@ -1,0 +1,12 @@
+{
+  "asset_id": "bracken:entity/frog/poison_dart_frog3",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_panacea"
+      },
+      "priority": 1
+    }
+  ]
+}

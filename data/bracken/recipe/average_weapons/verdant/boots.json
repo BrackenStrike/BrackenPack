@@ -1,15 +1,21 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-"minecraft:creeper_spawn_egg",
-"minecraft:leather_boots"],
-	
+    "type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"###",
+		"#/#",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:creeper_spawn_egg",
+		"/": "minecraft:leather_boots"
+	},
 	"result": {
 		"id": "minecraft:leather_boots",
         "count": 1,
 		"components": {
 			"minecraft:max_damage": 500,
-			"minecraft:item_name": "\"Verdant Boots\"",
+			"minecraft:item_name": "Verdant Boots",
 			"minecraft:equippable": {
 				"slot": "feet",
 				"asset_id": "bracken:verdant",

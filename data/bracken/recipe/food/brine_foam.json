@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"   ",
+		" / ",
+		"   "
+	],
+	"key": {
+		"/": "minecraft:allay_spawn_egg"
+	},
+	"result": {
+		"id": "minecraft:drowned_spawn_egg",
+		"components": {
+			"minecraft:item_name": "Brine Foam",
+			"minecraft:entity_data": {
+				"id": "minecraft:player"
+			},
+			"minecraft:item_model": "bracken:the_brine/brine_foam"
+		}
+	}
+}

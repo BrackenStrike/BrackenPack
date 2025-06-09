@@ -1,12 +1,1 @@
-summon wither_skeleton ~ ~ ~ {Tags:[bp.gavsakka],Silent:1b,CustomNameVisible:0b,\
-DeathLootTable:"bracken:entity/the_brine/gavsakka",\
-LeftHanded:1b,CanPickUpLoot:0b,Health:70f,CustomName:'{"text":"Gavsakka"}',\
-HandItems:[{id:"minecraft:bamboo",Count:1b,components:{"minecraft:custom_name":'{"text":"Power Sheen"}',"minecraft:item_model":"bracken:shadows/gavsakka","minecraft:enchantments":{levels:{"minecraft:thorns":3,"minecraft:knockback":10,"minecraft:vanishing_curse":1}}}},{}],HandDropChances:[0.000F,0.000F],\
-ArmorItems:[{},{},{},{id:"minecraft:small_amethyst_bud",Count:1b,components:{"minecraft:enchantment_glint_override":1b}}],\
-active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:speed",amplifier:1b,duration:5b,show_particles:0b}],\
-attributes:[\
-{id:max_health,base:70},\
-{id:knockback_resistance,base:1},\
-{id:follow_range,base:60},\
-{id:movement_speed,base:0.45},\
-{id:attack_damage,base:15}]}
+summon wither_skeleton ~ ~ ~ {Tags:[bp.gavsakka],Silent:1b,CustomNameVisible:0b,DeathLootTable:"bracken:entity/the_brine/gavsakka",LeftHanded:1b,CanPickUpLoot:0b,Health:70f,CustomName:{"text":"Gavsakka"},equipment:{mainhand:{id:"minecraft:bamboo",Count:1b,components:{"minecraft:custom_name":{"text":"Power Sheen","italic":false},"minecraft:item_model":"bracken:shadows/gavsakka","minecraft:enchantments":{"minecraft:thorns":3,"minecraft:knockback":10,"minecraft:vanishing_curse":1} },feet:{id:"minecraft:netherite_boots",Count:1b},legs:{id:"minecraft:netherite_leggings",Count:1b},chest:{id:"minecraft:netherite_chestplate",Count:1b},head:{id:"minecraft:small_amethyst_bud",Count:1b,components:{"minecraft:enchantment_glint_override":1b}} }},active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:speed",amplifier:1b,duration:5b,show_particles:0b}],attributes:[{id:max_health,base:70},{id:knockback_resistance,base:1},{id:follow_range,base:60},{id:movement_speed,base:0.45},{id:attack_damage,base:15}]}

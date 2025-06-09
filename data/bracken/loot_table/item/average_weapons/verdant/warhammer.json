@@ -38,7 +38,10 @@
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/verdant/warhammer",
 					"minecraft:max_damage": 500,
-					"minecraft:enchantment_glint_override": false
+					"minecraft:enchantment_glint_override": false,
+					"minecraft:weapon": {
+						"disable_blocking_for_seconds": 3
+					  }
 				}
 			},{
 				"function": "set_enchantments",

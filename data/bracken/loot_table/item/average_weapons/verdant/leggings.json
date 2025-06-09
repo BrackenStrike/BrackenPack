@@ -24,9 +24,6 @@
 						"slot": "legs",
 						"asset_id": "bracken:verdant",
 						"equip_sound": "minecraft:item.bone_meal.use"
-					},
-					"minecraft:dyed_color": {
-						"rgb": 505095
 					}
 				}
 			},{

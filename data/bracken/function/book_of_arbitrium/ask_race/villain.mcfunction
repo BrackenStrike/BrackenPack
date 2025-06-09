@@ -1,12 +1,13 @@
 scoreboard players enable @s bp.villain_
 scoreboard players set @s bp.arb_book 0
 tellraw @s ["",{"translate":"------------------------------\nWould you like to be a "},{"translate":"Villain","color":"dark_red"},{"translate":"?\n\
-+ Are more resilient to damage\n\
-+ Possess increased attack damage\n\
-+ Possess slightly increased attack speed \n\
-- Iron golems will always be hostile\n\
-- Villagers will give you Bad Omen\n\
-- Cannot be given Hero of the Village\n\
-- Permanently have Bad Luck x10\n\n"},\
-{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","clickEvent":{"action":"run_command","value":"/trigger bp.villain_"}},\
++ 4 additional armor\n\ 
++ 1 additional heart\n\
++ 10% size increase\n\
++ Increased attack damage\n\
+- Iron golems, bees, zombie piglin, and polar bears will always be hostile\n\
+- Villagers grant bad omen effect\n\
+- Cannot get hero of the village effect\n\
+- Constant bad luck effect x10\n\n"},\
+{"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","command":"/trigger bp.villain_"}},\
 {"translate":"\n------------------------------"}]

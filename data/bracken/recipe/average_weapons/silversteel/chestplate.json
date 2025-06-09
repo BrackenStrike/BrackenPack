@@ -12,21 +12,19 @@
 				"slot": "chest",
 				"asset_id": "bracken:silversteel"
 			},
-			"minecraft:item_name": "\"Silversteel Chestplate\"",
+			"minecraft:item_name": "Silversteel Chestplate",
 			"minecraft:enchantments": {
 				"bracken:silvered_fix": 1
 			},
 			"minecraft:item_model": "bracken:average_weapons/silversteel/chestplate",
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:armor",
 					"id": "bracken:silversteel_chestplate",
 					"amount": 9,
 					"operation": "add_value",
 					"slot": "chest"
-				}],
-				"show_in_tooltip": true
-			}
+				}]
+				
 		}
 	}
 }

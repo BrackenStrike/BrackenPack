@@ -1,0 +1,32 @@
+{
+	"parent": "bracken:the_faewild/enter_the_faewild",
+	"display": {
+		"title": {
+			"translate": "Pax Aeterna"
+		},
+		"description": {
+			"translate": "Ascend within the Faewild's clouds to enter Pax. Bring leather boots",
+			"color": "green"
+		},
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": {
+				"minecraft:profile": {
+					"name": "MHF_Sheep"
+				}
+			}
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"experience": 2
+	}
+}

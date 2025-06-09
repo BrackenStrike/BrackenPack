@@ -31,6 +31,11 @@
 					"translate": "+2.5% Movement Speed",
 					"color": "dark_green",
 					"italic": false
+				},
+				{
+					"translate": "Bonus Sweeping Attack",
+					"color": "aqua",
+					"italic": false
 				}],
 				"mode": "insert"
 			},{
@@ -59,6 +64,13 @@
 					"amount": 0.025,
 					"operation": "add_value",
 					"slot": "hand"
+				},
+				{
+					"attribute": "minecraft:sweeping_damage_ratio",
+					"id": "bracken:meteoric_sabre",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "mainhand"
 				}]
 			},{
 				"function": "minecraft:toggle_tooltips",

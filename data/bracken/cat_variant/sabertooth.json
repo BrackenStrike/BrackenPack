@@ -1,0 +1,12 @@
+{
+  "asset_id": "bracken:entity/cat/sabertooth",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_underdark"
+      },
+      "priority": 1
+    }
+  ]
+}

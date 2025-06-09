@@ -1,27 +1,46 @@
 {
-	"type": "minecraft:smithing_transform",
-	"template": "minecraft:coast_armor_trim_smithing_template",
-	"base": "minecraft:stone_sword",
-	"addition": "#minecraft:stone_tool_materials",
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		" # ",
+		" / "
+	],
+	"key": {
+		"#": "#minecraft:stone_tool_materials",
+		"/": "minecraft:stick"
+	},
 	"result": {
 		"id": "minecraft:stone_sword",
 		"components": {
-			"minecraft:item_name": "\"Stone Dagger\"",
+			"minecraft:item_name": "Stone Dagger",
 			"minecraft:item_model": "bracken:average_weapons/stone/dagger",
 			"minecraft:lore": [
-				"{\"translate\":\"\",\"color\":white,\"italic\":false}",
-				"{\"translate\":\"When in Main Hand:\",\"color\":gray,\"italic\":false}",
-				"{\"translate\":\" 5 Attack Damage\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" 4 Attack Speed\",\"color\":dark_green,\"italic\":false}",
-				"{\"translate\":\" -1 Attack Range\",\"color\":red,\"italic\":false}"
+				{"translate":"","color":"white","italic":false},
+				{"translate":"When in Main Hand:","color":"gray","italic":false},
+				{"translate": "5 Attack Damage","color":"dark_green","italic":false},
+				{"translate": "2 Attack Speed","color": "dark_green","italic": false},
+				{"translate": "Bonus Sneaking Speed","color": "aqua","italic": false},
+				{"translate": "-1 Attack Range","color":"red","italic":false}
 			],
-			"minecraft:attribute_modifiers": {
-				"modifiers": [{
+			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
 					"id": "bracken:stone_dagger",
 					"amount": 4,
 					"operation": "add_value",
 					"slot": "mainhand"
+				},{
+					"type": "minecraft:sneaking_speed",
+					"id": "bracken:stone_dagger",
+					"amount": 0.3,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:sneaking_speed",
+					"id": "bracken:stone_dagger",
+					"amount": 0.3,
+					"operation": "add_value",
+					"slot": "offhand"
 				},{
 					"type": "minecraft:attack_speed",
 					"id": "bracken:stone_dagger",
@@ -35,8 +54,11 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}],
-				"show_in_tooltip": false
-			}
+				"minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
 		}
 	}
 }

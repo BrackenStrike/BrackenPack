@@ -20,7 +20,7 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "8.5 Attack Damage",
+					"translate": "9.5 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -44,7 +44,7 @@
 				"modifiers": [{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:old_world_bronze_greatsword",
-					"amount": 7.5,
+					"amount": 8.5,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

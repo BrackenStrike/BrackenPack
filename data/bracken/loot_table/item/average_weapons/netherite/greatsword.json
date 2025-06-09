@@ -20,7 +20,7 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "8 Attack Damage",
+					"translate": "9 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -43,7 +43,7 @@
 				"modifiers": [{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:netherite_greatsword",
-					"amount": 7,
+					"amount": 8,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

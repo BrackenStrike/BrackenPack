@@ -20,7 +20,7 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "9 Attack Damage",
+					"translate": "10 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -50,7 +50,7 @@
 				"modifiers": [{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:silversteel_greatsword",
-					"amount": 8,
+					"amount": 9,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{

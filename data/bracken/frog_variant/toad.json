@@ -1,0 +1,12 @@
+{
+  "asset_id": "bracken:entity/frog/toad",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#minecraft:is_underdark"
+      },
+      "priority": 1
+    }
+  ]
+}

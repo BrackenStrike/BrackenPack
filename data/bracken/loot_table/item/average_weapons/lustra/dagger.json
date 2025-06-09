@@ -20,7 +20,7 @@
 					"color": "gray",
 					"italic": false
 				},{
-					"translate": "4 Attack Damage",
+					"translate": "2 Attack Damage",
 					"color": "dark_green",
 					"italic": false
 				},{
@@ -28,11 +28,20 @@
 					"color": "dark_green",
 					"italic": false
 				},{
+					"translate": "Bonus Sneaking Speed",
+					"color": "aqua",
+					"italic": false
+				},{
 					"translate": "-1 Attack Range",
 					"color": "red",
 					"italic": false
 				}],
 				"mode": "insert"
+			},{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:integrity_fix": 1
+				}
 			},{
 				"function": "minecraft:set_components",
 				"components": {
@@ -45,9 +54,16 @@
 				"modifiers": [{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:lustra_dagger",
-					"amount": -0.12,
+					"amount": -2,
 					"operation": "add_value",
 					"slot": "mainhand"
+				},
+				{
+					"attribute": "minecraft:sneaking_speed",
+					"id": "bracken:lustra_dagger",
+					"amount": 0.3,
+					"operation": "add_value",
+					"slot": "hand"
 				},{
 					"attribute": "minecraft:attack_damage",
 					"id": "bracken:lustra_dagger",
