@@ -6,17 +6,6 @@
 		"biome_source": {
 			"type": "minecraft:multi_noise",
 			"biomes": [{
-				"biome": "bracken:dormis/shechemium",
-				"parameters": {
-					"temperature": 0,
-					"humidity": 0,
-					"continentalness": 0,
-					"erosion": 0,
-					"weirdness": 0,
-					"depth": [-2,-1.0],
-					"offset": 0
-				}
-			},{
 				"biome": "bracken:dormis/golanium",
 				"parameters": {
 					"temperature": 0,
@@ -24,7 +13,18 @@
 					"continentalness": 0,
 					"erosion": 0,
 					"weirdness": 0,
-					"depth": [-0.99,-0.7],
+					"depth": [-2,-1.5],
+					"offset": 0
+				}
+			},{
+				"biome": "bracken:dormis/shechemium",
+				"parameters": {
+					"temperature": 0,
+					"humidity": 0,
+					"continentalness": 0,
+					"erosion": 0,
+					"weirdness": 0,
+					"depth": [-1.49,-0.7],
 					"offset": 0
 				}
 			},{
