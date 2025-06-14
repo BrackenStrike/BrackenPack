@@ -5,12 +5,7 @@
         "misc": [],
         "water_creature": [],
         "creature": [],
-        "monster": [ {
-            "type": "minecraft:happy_gast",
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 3
-        }]
+        "monster": [ ]
     },
     "spawn_costs": {},
     "carvers": [

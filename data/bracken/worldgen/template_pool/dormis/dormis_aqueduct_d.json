@@ -1,0 +1,15 @@
+{
+    "name": "dormis_aqueduct_d",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "location": "bracken:dormis/dormis_aqueduct_d",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}
