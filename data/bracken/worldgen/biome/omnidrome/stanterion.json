@@ -6,7 +6,7 @@
         "water_creature": [],
         "creature": [],
         "monster": [{
-            "type": "minecraft:stray",
+            "type": "minecraft:husk",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5
