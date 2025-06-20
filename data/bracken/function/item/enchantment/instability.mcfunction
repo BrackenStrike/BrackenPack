@@ -1,0 +1,1 @@
+summon firework_rocket ~ ~2 ~ {FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",has_twinkle:true,colors:[I;3997440],fade_colors:[I;1078528]}]}}}}
