@@ -14,7 +14,14 @@
 			  },
 			"minecraft:item_name": "Wanderlight Wand",
 			"minecraft:item_model": "bracken:average_weapons/wands/wanderlight_wand",
-			"minecraft:enchantment_glint_override": true
+			"minecraft:enchantment_glint_override": true,
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:attack_speed",
+					"id": "bracken:wanderlight_wand",
+					"amount": -3.2,
+					"operation": "add_value",
+					"slot": "hand"
+				}]
 			
 			
 }

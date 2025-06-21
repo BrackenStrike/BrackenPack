@@ -21,6 +21,15 @@
 				"target": "item_name",
 				"name": "Eye Blossom Wand"
 			},{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:attack_speed",
+					"id": "bracken:eye_blossum_wand",
+					"amount": -3.2,
+					"operation": "add_value",
+					"slot": "hand"
+				}]
+			},{
 				"function": "minecraft:set_custom_data",
 				"tag": {
 					"bp": { "id": "eye_blossom_wand" }

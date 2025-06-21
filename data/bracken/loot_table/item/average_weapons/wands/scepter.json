@@ -21,6 +21,15 @@
 				"target": "item_name",
 				"name": "Scepter"
 			},{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:attack_speed",
+					"id": "bracken:fire_wand",
+					"amount": -3.2,
+					"operation": "add_value",
+					"slot": "hand"
+				}]
+			},{
 				"function": "minecraft:set_custom_data",
 				"tag": {
 					"bp": { "id": "scepter" }
