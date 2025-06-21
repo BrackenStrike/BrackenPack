@@ -5,7 +5,7 @@
 	},
 	"effects": {
 		"minecraft:post_attack": [{
-			"affected": "attacker",
+			"affected": "victim",
 			"effect": {
 				"type": "minecraft:run_function",
 				"function": "bracken:item/enchantment/instability"
