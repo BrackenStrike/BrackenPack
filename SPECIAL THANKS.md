@@ -15,19 +15,17 @@ Sulfenir
 Tuxxic
 YoannBB
 
-CURRENT CONTRIBUTORS
+CONTRIBUTORS
 Accelerator
-Jakerson
-SixLuckyBlocks
-
-LEGACY CONTRIBUTORS
 AileeNyx
 Cardboard_Box
 Catcocomics
 Hawaiian_flower
+Jakerson
 Jerry_From_Squidward
 Jorick_Sephis
 NecromancerT-Rav
+SixLuckyBlocks
 Trog
 TytoninaeArt
 
