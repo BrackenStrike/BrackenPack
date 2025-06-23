@@ -21,7 +21,3 @@ tellraw @s ["",{"text":"[Varskspace]","color":"dark_purple","click_event":{"acti
 tellraw @s ["",{"text":"[Void]","color":"black","click_event":{"action":"run_command","command":"/execute in bracken:void run tp @s ~ 200 ~"}}]
 
 tellraw @s ["",{"text":"___________________","bold":true,"color":"yellow"}]
-
-
-"click_event":{"action":"run_command","command":"/trigger bp.automech"},"hover_event":{"action":"show_text","value":"Cyberforged Giant (Tank Class)"}},{"text":"\n\n      "},
-"click_event":{"action":"run_command","value":"/execute in bracken:omnidrome run tp @s ~ 200 ~"}}]							

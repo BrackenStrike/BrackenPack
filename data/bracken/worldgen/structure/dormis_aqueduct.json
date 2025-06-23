@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:dormis/ramothium",
+    "biomes": "bracken:dormis/shechemium",
     "spawn_overrides": {},
     "start_pool": "bracken:dormis/dormis_aqueduct_start",
     "size": 11,
