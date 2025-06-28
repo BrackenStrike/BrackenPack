@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Pick a Species",
+  "can_close_with_escape": true,
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Choose Wisely this action cannot be undone easily!"
+    }
+  ],
+  "columns":1,
+  "actions": [
+    {
+      "label": "Human",
+      "toottip":"Typical Main Character (Utility Class)",
+      "on_click": {
+        "action": "run_command",
+        "command": "trigger bp.human {message:\"Human Selected\"}"
+      }
+    },
+    {
+      "label": "Faefolk",
+      "toottip":"Typical Main Character (Utility Class)",
+      "on_click": {
+        "action": "run_command",
+        "command": "trigger bp.faefolk {message:\"Faefolk Selected\"}"
+      }
+    },
+    {
+      "label": "Dweller",
+      "toottip":"Typical Main Character (Utility Class)",
+      "on_click": {
+        "action": "run_command",
+        "command": "trigger bp.dweller {message:\"Dweller Selected\"}"
+      }
+    },
+    {
+      "label": "Outlander",
+      "toottip":"Typical Main Character (Utility Class)",
+      "on_click": {
+        "action": "run_command",
+        "command": "trigger bp.outlander {message:\"Outlander Selected\"}"
+      }
+    }
+  ]
+}
