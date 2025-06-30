@@ -18,7 +18,7 @@
       "tooltip":"Newest soul to the realms. Feels familiar.",
       "action": {
         "type": "show_dialog",
-        "dialog": "bracken:human"
+        "dialog": "bracken:dialog/human"
     }
     },
     {
@@ -26,7 +26,7 @@
 "tooltip":"Elegant and wise. Born from stars, wrapped in silk, and baptized by moonlight.",
       "action": {
         "type": "show_dialog",
-        "dialog": "bracken:faefolk"
+        "dialog": "bracken:dialog/faefolk"
     }
     },
     {
@@ -34,7 +34,7 @@
 "tooltip":"Deep beneath the mountains, the roar of forges and songs of ages past echo still.",
       "action": {
         "type": "show_dialog",
-        "dialog": "bracken:dweller"
+        "dialog": "bracken:dialog/dweller"
     }
     },
     {
@@ -42,7 +42,7 @@
 "tooltip":"Survivors of an ancient Armageddon. Nomads in every realm but belonging to none.",
       "action": {
         "type": "show_dialog",
-        "dialog": "bracken:outlander"
+        "dialog": "bracken:dialog/outlander"
     }
     },
     {
@@ -50,7 +50,7 @@
 "tooltip":"Queens and kings of the ocean, wearing crowns of kelp and coral.",
       "action": {
         "type": "show_dialog",
-        "dialog": "bracken:nereid"
+        "dialog": "bracken:dialog/nereid"
     }
     },
      {
@@ -58,7 +58,7 @@
 "tooltip":"Becoming what they eat. By claws, by beak, by teeth.",
       "action": {
         "type": "show_dialog",
-        "dialog": "bracken:hunter"
+        "dialog": "bracken:dialog/hunter"
     }
     },
     {
@@ -66,7 +66,7 @@
 "tooltip":"Body of iron. Heart of gold.",
       "action": {
         "type": "show_dialog",
-        "dialog": "bracken:automech"
+        "dialog": "bracken:dialog/automech"
     }
     },
     {
@@ -74,7 +74,7 @@
 "tooltip":"Flesh in flame, passion and pain.",
       "action": {
         "type": "show_dialog",
-        "dialog": "bracken:netherkin"
+        "dialog": "bracken:dialog/netherkin"
     }
     },
     {
@@ -82,7 +82,7 @@
 "tooltip":"Snow upon footprints. Soldiers of a fallen empire frozen in time.",
       "action": {
         "type": "show_dialog",
-        "dialog": "bracken:frostkin"
+        "dialog": "bracken:dialog/frostkin"
     }
     },
     {
@@ -90,7 +90,7 @@
 "tooltip":"Ageless guardians of peace from the realm of everlasting light.",
       "action": {
         "type": "show_dialog",
-        "dialog": "bracken:realmkeeper"
+        "dialog": "bracken:dialog/realmkeeper"
     }
     },    
     {
@@ -98,7 +98,7 @@
 "tooltip":"Counted missing from the great cosmic prison. Ruthlessly hunted. Freer than most.",
       "action": {
         "type": "show_dialog",
-        "dialog": "bracken:villain"
+        "dialog": "bracken:dialog/villain"
     }
     },    
     {
@@ -106,7 +106,7 @@
 "tooltip":"Judge a book by its ending.",
       "action": {
         "type": "show_dialog",
-        "dialog": "bracken:enderling"
+        "dialog": "bracken:dialog/enderling"
     }
     }
   ]
