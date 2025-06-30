@@ -55,7 +55,8 @@
         [
             "bracken:glacium/post"
         ],
-        [],
+        ["bracken:glacium/topsnow",
+    "bracken:glacium/topice"],
         [],
         [],
         ["minecraft:ore_tuff",

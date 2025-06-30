@@ -5,42 +5,109 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "Choose Wisely this action cannot be undone easily!"
+      "contents": "Choose wisely as this decision cannot be changed without traveling to far away dimensions!"
     }
   ],
-  "columns":1,
+  "columns":3,
+  "exit_action":{
+      "label": "Cancel"
+    },
   "actions": [
     {
       "label": "Human",
-      "toottip":"Typical Main Character (Utility Class)",
-      "on_click": {
-        "action": "run_command",
-        "command": "trigger bp.human {message:\"Human Selected\"}"
-      }
+      "tooltip":"Newest soul to the realms. Feels familiar.",
+      "action": {
+        "type": "run_command",
+        "command": "trigger bp.human"
+    }
     },
     {
       "label": "Faefolk",
-      "toottip":"Typical Main Character (Utility Class)",
-      "on_click": {
-        "action": "run_command",
-        "command": "trigger bp.faefolk {message:\"Faefolk Selected\"}"
-      }
+"tooltip":"Elegant and wise. Born from stars, wrapped in silk, and baptized by moonlight.",
+      "action": {
+        "type": "run_command",
+        "command": "trigger bp.faefolk"
+    }
     },
     {
       "label": "Dweller",
-      "toottip":"Typical Main Character (Utility Class)",
-      "on_click": {
-        "action": "run_command",
-        "command": "trigger bp.dweller {message:\"Dweller Selected\"}"
-      }
+"tooltip":"Deep beneath the mountains, the roar of forges and songs of ages past echo still.",
+      "action": {
+        "type": "run_command",
+        "command": "trigger bp.dweller"
+    }
     },
     {
       "label": "Outlander",
-      "toottip":"Typical Main Character (Utility Class)",
-      "on_click": {
-        "action": "run_command",
-        "command": "trigger bp.outlander {message:\"Outlander Selected\"}"
-      }
+"tooltip":"Survivors of an ancient Armageddon. Nomads in every realm but belonging to none.",
+      "action": {
+        "type": "run_command",
+        "command": "trigger bp.outlander"
+    }
+    },
+    {
+      "label": "Nereid",
+"tooltip":"Queens and kings of the ocean, wearing crowns of kelp and coral.",
+      "action": {
+        "type": "run_command",
+        "command": "trigger bp.nereid"
+    }
+    },
+     {
+      "label": "Hunter",
+"tooltip":"Becoming what they eat. By claws, by beak, by teeth.",
+      "action": {
+        "type": "run_command",
+        "command": "trigger bp.hunter"
+    }
+    },
+    {
+      "label": "Automech",
+"tooltip":"Body of iron. Heart of gold.",
+      "action": {
+        "type": "run_command",
+        "command": "trigger bp.automech"
+    }
+    },
+    {
+      "label": "Netherkin",
+"tooltip":"Flesh in flame, passion and pain.",
+      "action": {
+        "type": "run_command",
+        "command": "trigger bp.netherkin"
+    }
+    },
+    {
+      "label": "Frostkin",
+"tooltip":"Snow upon footprints. Soldiers of a fallen empire frozen in time.",
+      "action": {
+        "type": "run_command",
+        "command": "trigger bp.frostkin"
+    }
+    },
+    {
+      "label": "Realmkeeper",
+"tooltip":"Ageless guardians of peace from the realm of everlasting light.",
+      "action": {
+        "type": "run_command",
+        "command": "trigger bp.realmkeeper"
+    }
+    },    
+    {
+      "label": "Villain",
+"tooltip":"Counted missing from the great cosmic prison. Ruthlessly hunted. Freer than most.",
+      "action": {
+        "type": "run_command",
+        "command": "trigger bp.villain"
+    }
+    },    
+    {
+      "label": "Enderling",
+"tooltip":"Judge a book by its ending.",
+      "action": {
+        "type": "run_command",
+        "command": "trigger bp.enderling"
+    }
     }
   ]
 }
