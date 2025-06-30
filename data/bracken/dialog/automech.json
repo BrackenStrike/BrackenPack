@@ -5,7 +5,14 @@
   "body": [
     {
       "type": "minecraft:item",
-      "id": "minecraft:golden_sword"
+      "item":{
+        "id":"minecraft:carved_pumpkin",
+        "count":1,
+        "components":{
+          "minecraft:enchantment_glint_override":false,
+          "minecraft:item_model": "bracken:shadows/playerautomech"
+        }
+      }
     },
     {
       "type": "minecraft:plain_message",

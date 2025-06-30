@@ -5,7 +5,13 @@
   "body": [
     {
       "type": "minecraft:item",
-      "id": "minecraft:golden_sword"
+      "item":{
+        "id":"minecraft:player_head",
+        "count":1,
+        "components":{
+          "minecraft:enchantment_glint_override":false
+        }
+      }
     },
     {
       "type": "minecraft:plain_message",
