@@ -5,7 +5,7 @@
   "body": [
     {
       "type": "minecraft:item",
-      "id": "minecraft:player_head"
+      "id": "minecraft:golden_sword"
     },
     {
       "type": "minecraft:plain_message",
@@ -29,7 +29,7 @@
     "tooltip":"Newest soul to the realms. Feels familiar.",
       "action": {
         "type": "show_dialog",
-        "dialog": "bracken:dialog/species"
+        "dialog": "bracken:species"
     }
   }
 }
