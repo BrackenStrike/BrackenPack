@@ -29,7 +29,7 @@
     "tooltip":"Newest soul to the realms. Feels familiar.",
       "action": {
         "type": "show_dialog",
-        "command": "bracken:species"
+        "dialog": "bracken:species"
     }
   }
 }

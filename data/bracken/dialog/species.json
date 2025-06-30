@@ -18,95 +18,95 @@
       "tooltip":"Newest soul to the realms. Feels familiar.",
       "action": {
         "type": "show_dialog",
-        "command": "bracken:human"
+        "dialog": "bracken:human"
     }
     },
     {
       "label": "Faefolk",
 "tooltip":"Elegant and wise. Born from stars, wrapped in silk, and baptized by moonlight.",
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.faefolk"
+        "type": "show_dialog",
+        "dialog": "bracken:faefolk"
     }
     },
     {
       "label": "Dweller",
 "tooltip":"Deep beneath the mountains, the roar of forges and songs of ages past echo still.",
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.dweller"
+        "type": "show_dialog",
+        "dialog": "bracken:dweller"
     }
     },
     {
       "label": "Outlander",
 "tooltip":"Survivors of an ancient Armageddon. Nomads in every realm but belonging to none.",
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.outlander"
+        "type": "show_dialog",
+        "dialog": "bracken:outlander"
     }
     },
     {
       "label": "Nereid",
 "tooltip":"Queens and kings of the ocean, wearing crowns of kelp and coral.",
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.nereid"
+        "type": "show_dialog",
+        "dialog": "bracken:nereid"
     }
     },
      {
       "label": "Hunter",
 "tooltip":"Becoming what they eat. By claws, by beak, by teeth.",
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.hunter"
+        "type": "show_dialog",
+        "dialog": "bracken:hunter"
     }
     },
     {
       "label": "Automech",
 "tooltip":"Body of iron. Heart of gold.",
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.automech"
+        "type": "show_dialog",
+        "dialog": "bracken:automech"
     }
     },
     {
       "label": "Netherkin",
 "tooltip":"Flesh in flame, passion and pain.",
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.netherkin"
+        "type": "show_dialog",
+        "dialog": "bracken:netherkin"
     }
     },
     {
       "label": "Frostkin",
 "tooltip":"Snow upon footprints. Soldiers of a fallen empire frozen in time.",
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.frostkin"
+        "type": "show_dialog",
+        "dialog": "bracken:frostkin"
     }
     },
     {
       "label": "Realmkeeper",
 "tooltip":"Ageless guardians of peace from the realm of everlasting light.",
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.realmkeeper"
+        "type": "show_dialog",
+        "dialog": "bracken:realmkeeper"
     }
     },    
     {
       "label": "Villain",
 "tooltip":"Counted missing from the great cosmic prison. Ruthlessly hunted. Freer than most.",
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.villain"
+        "type": "show_dialog",
+        "dialog": "bracken:villain"
     }
     },    
     {
       "label": "Enderling",
 "tooltip":"Judge a book by its ending.",
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.enderling"
+        "type": "show_dialog",
+        "dialog": "bracken:enderling"
     }
     }
   ]
