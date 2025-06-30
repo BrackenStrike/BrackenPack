@@ -80,7 +80,9 @@
         [
             "minecraft:blue_ice"
         ],
-        ["bracken:glacium/topsnow"],
+        ["bracken:glacium/topsnow",
+    "bracken:glacium/topice",
+"bracken:glacium/toppice"],
         [],
         [],
         [],

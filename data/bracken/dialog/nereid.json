@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Are you sure you want to be nereid?",
+  "can_close_with_escape": true,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "id": "minecraft:player_head"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+ Constant luck effect x5"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+ Constant hero of the village effect x5 when in the overworlds"
+    }
+  ],
+  "yes": {
+    "label": "Yes",
+    "tooltip":"Newest soul to the realms. Feels familiar.",
+      "action": {
+        "type": "run_command",
+        "command": "trigger bp.nereid"
+    }
+  },
+  "no": {
+    "label": "No, take me back",
+    "tooltip":"Newest soul to the realms. Feels familiar.",
+      "action": {
+        "type": "show_dialog",
+        "command": "bracken:species"
+    }
+  }
+}

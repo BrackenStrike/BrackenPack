@@ -48,7 +48,9 @@
   ],
     
     "features": [
-        [],
+        ["bracken:glacium/topsnow",
+    "bracken:glacium/topice",
+"bracken:glacium/toppice"],
         [
             "minecraft:spring_lava_frozen",
             "bracken:glacium/snow_pile",

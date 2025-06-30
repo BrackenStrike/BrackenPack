@@ -1,6 +1,11 @@
 {
     "spawners": {
-        "water_ambient": [],
+        "water_ambient": [{
+                "type": "minecraft:happy_ghast",
+                "weight": 120,
+                "minCount": 4,
+                "maxCount": 4
+            }],
         "ambient": [],
         "misc": [],
         "water_creature": [],

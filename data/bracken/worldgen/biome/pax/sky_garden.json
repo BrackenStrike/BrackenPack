@@ -18,6 +18,12 @@
                 "maxCount": 4
             },
             {
+                "type": "minecraft:happy_ghast",
+                "weight": 120,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
                 "type": "minecraft:parrot",
                 "weight": 10,
                 "minCount": 4,

@@ -17,8 +17,8 @@
       "label": "Human",
       "tooltip":"Newest soul to the realms. Feels familiar.",
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.human"
+        "type": "show_dialog",
+        "command": "bracken:human"
     }
     },
     {

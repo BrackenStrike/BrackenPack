@@ -15,7 +15,7 @@
                     "above_bottom": 63
                 },
                 "max_inclusive": {
-                    "below_top": 2
+                    "below_top": 0
                 },
                 "type": "minecraft:uniform"
             }
