@@ -2,11 +2,11 @@
     "type": "minecraft:netherrack_replace_blobs",
     "config": {
         "target": {
-            "Name": "minecraft:water"
+            "Name": "minecraft:ice"
         },
         "state": {
             "Name": "minecraft:powder_snow"
         },
-        "radius": 2
+        "radius": 0
     }
 }

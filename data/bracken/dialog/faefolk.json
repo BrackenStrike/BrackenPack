@@ -1,6 +1,6 @@
 {
   "type": "minecraft:confirmation",
-  "title": "Are you sure you want to be faefolk?",
+  "title": "Warning: This decision cannot be changed without traveling to far away dimensions!",
   "can_close_with_escape": true,
   "body": [
     {
@@ -16,11 +16,31 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+ Constant luck effect x5"
+      "contents": "Faefolk Features"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+ Constant hero of the village effect x5 when in the overworlds"
+      "contents": "2 blocks tall"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "9 hearts"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Increased movement speed"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Bonus jump height and safe fall distance"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Passively gains expereince points"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "-15% melee attack damage"
     }
   ],
   "yes": {

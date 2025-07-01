@@ -12,12 +12,7 @@
                 "maxCount": 4
             }
         ],
-        "monster": [{
-                "type": "minecraft:happy_ghast",
-                "weight": 120,
-                "minCount": 4,
-                "maxCount": 4
-            }]
+        "monster": []
     },
     "spawn_costs": {},
     "carvers": [],

@@ -35,6 +35,3 @@ execute if score @s bp.void_pull_cooldown matches 1.. run function bracken:abili
 # Potions
 execute if score @s bp.astral_time matches 1.. run function bracken:player/potion/astral_projection/tick
 execute if score @s bp.greed_duration matches 1.. run function bracken:player/potion/greed/tick
-
-# Outlander backstab logic
-execute if entity @s[tag=bp.outlander] run function bracken:player/species/outlander/backstab/2t

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:confirmation",
-  "title": "Are you sure you want to be realmkeeper?",
+  "title": "Warning: This decision cannot be changed without traveling to far away dimensions!",
   "can_close_with_escape": true,
   "body": [
     {
@@ -16,11 +16,31 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+ Constant luck effect x5"
+      "contents": "Realmkeeper Features"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+ Constant hero of the village effect x5 when in the overworlds"
+      "contents": "2 blocks tall"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "6 hearts"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Normal movement speed"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Passively granted 9 seconds of absorption x2 once every 10 seconds"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Spreads the effects of eating a notch or golden apple to nearby players"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "-Loses passive absorption when in dark places or when wearing a helmet"
     }
   ],
   "yes": {

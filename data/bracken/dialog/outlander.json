@@ -1,6 +1,6 @@
 {
   "type": "minecraft:confirmation",
-  "title": "Are you sure you want to be outlander?",
+  "title": "Warning: This decision cannot be changed without traveling to far away dimensions!",
   "can_close_with_escape": true,
   "body": [
     {
@@ -16,11 +16,39 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+ Constant luck effect x5"
+      "contents": "Outlander Features"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+ Constant hero of the village effect x5 when in the overworlds"
+      "contents": "1.3 blocks tall"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "8 hearts"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Normal movement speed"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Bonus block interaction range"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Bonus sneak speed"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Granted invisiblity effect when sneaking"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "-Blinded by daylight if not wearing a helmet"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "-Weakened and unable to turn invisible in Sanctum dimension"
     }
   ],
   "yes": {

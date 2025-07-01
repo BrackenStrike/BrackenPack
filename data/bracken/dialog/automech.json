@@ -1,6 +1,6 @@
 {
   "type": "minecraft:confirmation",
-  "title": "Are you sure you want to be automech?",
+  "title": "Warning: This decision cannot be changed without traveling to far away dimensions!",
   "can_close_with_escape": true,
   "body": [
     {
@@ -16,12 +16,49 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+ Constant luck effect x5"
+      "contents": "Automech Features"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+ Constant hero of the village effect x5 when in the overworlds"
+      "contents": "3 blocks tall"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "14 hearts"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Reduced movement speed"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+8 natural armor"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Bonus knockback resistance"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Bonus knockback melee attacks"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Bonus step height"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Gains saturation by standing on redstone blocks"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "-Greatly reduced movement in water or rain"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "-Sinks rapidly in water"
     }
+
   ],
   "yes": {
     "label": "Yes",

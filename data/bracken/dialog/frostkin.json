@@ -1,6 +1,6 @@
 {
   "type": "minecraft:confirmation",
-  "title": "Are you sure you want to be frostkin?",
+  "title": "Warning: This decision cannot be changed without traveling to far away dimensions!",
   "can_close_with_escape": true,
   "body": [
     {
@@ -16,11 +16,47 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+ Constant luck effect x5"
+      "contents": "Frostkin Features"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+ Constant hero of the village effect x5 when in the overworlds"
+      "contents": "2.64 blocks tall"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "12 hearts"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+4 natural armor"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Bonus knockback resistance"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Bonus sweeping melee attacks"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Bonus step height"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Immunity to slowness, poison, wither, hunger, and mining fatigue effects"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Cannot starve"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "-Granted weakness effect in hot biomes or dimensions"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "-Granted instant damage effect from fire, magma, and lava"
     }
   ],
   "yes": {

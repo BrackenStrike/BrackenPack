@@ -1,6 +1,6 @@
 {
   "type": "minecraft:confirmation",
-  "title": "Are you sure you want to be netherkin?",
+  "title": "Warning: This decision cannot be changed without traveling to far away dimensions!",
   "can_close_with_escape": true,
   "body": [
     {
@@ -16,11 +16,39 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+ Constant luck effect x5"
+      "contents": "Netherkin Features"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+ Constant hero of the village effect x5 when in the overworlds"
+      "contents": "1.8 blocks tall"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "9 hearts"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Normal movement speed"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+20% bonus attack speed"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Permanent fire resistance"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Permanent night vision"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Increased attack damage when on fire or in warm biomes or dimensions"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "-Damaged by rain and water sources"
     }
   ],
   "yes": {

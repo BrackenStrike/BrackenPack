@@ -3,12 +3,7 @@
         "water_ambient": [],
         "ambient": [],
         "misc": [],
-        "water_creature": [{
-                "type": "minecraft:happy_ghast",
-                "weight": 120,
-                "minCount": 4,
-                "maxCount": 4
-            }],
+        "water_creature": [],
         "creature": [
             {
                 "type": "minecraft:sheep",
@@ -19,6 +14,12 @@
             {
                 "type": "minecraft:cow",
                 "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:happy_ghast",
+                "weight": 120,
                 "minCount": 4,
                 "maxCount": 4
             },
