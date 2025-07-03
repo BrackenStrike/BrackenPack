@@ -1,6 +1,6 @@
 {
   "type": "minecraft:confirmation",
-  "title": "Warning: This decision cannot be changed without traveling to far away dimensions!",
+  "title": "Enderling Details",
   "can_close_with_escape": true,
   "body": [
     {
@@ -13,10 +13,6 @@
           "minecraft:item_model": "bracken:shadows/playerdweller"
         }
       }
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "Enderling Features"
     },
     {
       "type": "minecraft:plain_message",
@@ -49,15 +45,15 @@
   ],
   "yes": {
     "label": "Yes",
-    "tooltip":"Newest soul to the realms. Feels familiar.",
+  
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.enderling"
+        "type": "show_dialog",
+        "dialog": "bracken:end"
     }
   },
   "no": {
     "label": "No, take me back",
-    "tooltip":"Newest soul to the realms. Feels familiar.",
+  
       "action": {
         "type": "show_dialog",
         "dialog": "bracken:species"

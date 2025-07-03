@@ -1,6 +1,6 @@
 {
   "type": "minecraft:confirmation",
-  "title": "Warning: This decision cannot be changed without traveling to far away dimensions!",
+  "title": "Frostkin Details",
   "can_close_with_escape": true,
   "body": [
     {
@@ -16,10 +16,6 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Frostkin Features"
-    },
-    {
-      "type": "minecraft:plain_message",
       "contents": "2.64 blocks tall"
     },
     {
@@ -29,10 +25,6 @@
     {
       "type": "minecraft:plain_message",
       "contents": "+4 natural armor"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "+Bonus knockback resistance"
     },
     {
       "type": "minecraft:plain_message",
@@ -61,15 +53,15 @@
   ],
   "yes": {
     "label": "Yes",
-    "tooltip":"Newest soul to the realms. Feels familiar.",
+  
       "action": {
-        "type": "run_command",
-        "command": "trigger bp.frostkin"
+        "type": "show_dialog",
+        "dialog": "bracken:glacium"
     }
   },
   "no": {
     "label": "No, take me back",
-    "tooltip":"Newest soul to the realms. Feels familiar.",
+  
       "action": {
         "type": "show_dialog",
         "dialog": "bracken:species"

@@ -230,6 +230,18 @@ scoreboard objectives add bp.outlander_ trigger
 scoreboard objectives add bp.realmkeeper_ trigger
 scoreboard objectives add bp.villain_ trigger
 
+scoreboard objectives add bp.omnidrome trigger
+scoreboard objectives add bp.glacium trigger
+scoreboard objectives add bp.faewild trigger
+scoreboard objectives add bp.panacea trigger
+scoreboard objectives add bp.underdark trigger
+scoreboard objectives add bp.end trigger
+scoreboard objectives add bp.brine trigger
+scoreboard objectives add bp.nether trigger
+scoreboard objectives add bp.sanctum trigger
+scoreboard objectives add bp.pax trigger
+scoreboard objectives add bp.dormis trigger
+
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule commandBlockOutput false
 
