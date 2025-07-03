@@ -15,3 +15,16 @@ scoreboard players reset @s bp.netherkin_
 scoreboard players reset @s bp.outlander_
 scoreboard players reset @s bp.realmkeeper_
 scoreboard players reset @s bp.villain_
+
+scoreboard players reset @s bp.omnidrome
+scoreboard players reset @s bp.faewild
+scoreboard players reset @s bp.underdark
+scoreboard players reset @s bp.glacium
+scoreboard players reset @s bp.end
+
+scoreboard players reset @s bp.panacea
+scoreboard players reset @s bp.brine
+scoreboard players reset @s bp.nether
+scoreboard players reset @s bp.sanctum
+scoreboard players reset @s bp.pax
+scoreboard players reset @s bp.dormis

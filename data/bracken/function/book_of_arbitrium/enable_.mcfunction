@@ -16,15 +16,15 @@ scoreboard players enable @s bp.outlander_
 scoreboard players enable @s bp.realmkeeper_
 scoreboard players enable @s bp.villain_
 
-scoreboard players enable @s bp.omnidrome_
-scoreboard players enable @s bp.faewild_
-scoreboard players enable @s bp.underdark_
-scoreboard players enable @s bp.glacium_
-scoreboard players enable @s bp.end_
+scoreboard players enable @s bp.omnidrome
+scoreboard players enable @s bp.faewild
+scoreboard players enable @s bp.underdark
+scoreboard players enable @s bp.glacium
+scoreboard players enable @s bp.end
 
-scoreboard players enable @s bp.panacea_
-scoreboard players enable @s bp.brine_
-scoreboard players enable @s bp.nether_
-scoreboard players enable @s bp.sanctum_
-scoreboard players enable @s bp.pax_
-scoreboard players enable @s bp.dormis_
+scoreboard players enable @s bp.panacea
+scoreboard players enable @s bp.brine
+scoreboard players enable @s bp.nether
+scoreboard players enable @s bp.sanctum
+scoreboard players enable @s bp.pax
+scoreboard players enable @s bp.dormis
