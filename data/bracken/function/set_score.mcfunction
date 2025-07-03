@@ -11,8 +11,8 @@ scoreboard players set @s bp.cooldown 0
 
 #Species Pick
 #execute if data storage bracken:config {species_on: true} if data storage bracken:config {bsb_on: true} run loot give @s loot bracken:item/species_beginner_book
-gamemode spectator @s
-execute in bracken:void run tp @s ~ ~ ~
+#gamemode spectator @s
+#execute in bracken:void run tp @s ~ ~ ~
 dialog show @s bracken:species
 function bracken:book_of_arbitrium/enable_
 
