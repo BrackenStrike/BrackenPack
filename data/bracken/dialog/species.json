@@ -1,7 +1,7 @@
 {
   "type": "minecraft:multi_action",
   "title": "Pick a Species",
-  "can_close_with_escape": true,
+  "can_close_with_escape":false,
   "body": [
     {
       "type": "minecraft:plain_message",
@@ -9,9 +9,7 @@
     }
   ],
   "columns":3,
-  "exit_action":{
-      "label": "Cancel"
-    },
+
   "actions": [
     {
       "label": "Human",

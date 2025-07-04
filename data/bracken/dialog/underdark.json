@@ -1,7 +1,7 @@
 {
   "type": "minecraft:confirmation",
   "title": "Where do you want to go?",
-  "can_close_with_escape": true,
+  "can_close_with_escape": false,
   "body": [
     {
       "type": "minecraft:item",
@@ -17,19 +17,24 @@
     {
       "type": "minecraft:plain_message",
       "contents": "Do you wish to spawn in the Overworld dimension or the Underdark dimension?"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Heads up! Wood is scarce in the Underdark!"
     }
+    
   ],
   "yes": {
-    "label": "Overworld",
-    "tooltip":"The usual Minecraft experience",
+    "label": "Overworld (Challenge Level 1)",
+    "tooltip":"The usual Minecraft beginning",
       "action": {
         "type": "run_command",
         "command": "trigger bp.dweller_"
     }
   },
   "no": {
-    "label": "The Underdark",
-    "tooltip":"A more unusual Minecraft experience",
+    "label": "The Underdark (Challenge Level 2)",
+    "tooltip":"A more \"rugged\" beginning",
       "action": {
         "type": "run_command",
         "command": "trigger bp.underdark"

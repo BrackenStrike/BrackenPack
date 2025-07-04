@@ -1,7 +1,7 @@
 {
   "type": "minecraft:confirmation",
   "title": "Where do you want to go?",
-  "can_close_with_escape": true,
+  "can_close_with_escape": false,
   "body": [
     {
       "type": "minecraft:item",
@@ -17,19 +17,23 @@
     {
       "type": "minecraft:plain_message",
       "contents": "Do you wish to spawn in the Overworld dimension or the Pax dimension?"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Heads up. Pax has no hostile mobs or ores."
     }
   ],
   "yes": {
-    "label": "Overworld",
-    "tooltip":"The usual Minecraft experience",
+    "label": "Overworld (Challenge Level 1)",
+    "tooltip":"The usual Minecraft beginning",
       "action": {
         "type": "run_command",
         "command": "trigger bp.realmkeeper_"
     }
   },
   "no": {
-    "label": "Pax",
-    "tooltip":"A more unusual Minecraft experience",
+    "label": "Pax (Challenge Level 0)",
+    "tooltip":"A more \"peaceful\" beginning",
       "action": {
         "type": "run_command",
         "command": "trigger bp.pax"

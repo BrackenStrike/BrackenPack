@@ -1,7 +1,7 @@
 {
   "type": "minecraft:confirmation",
   "title": "Where do you want to go?",
-  "can_close_with_escape": true,
+  "can_close_with_escape": false,
   "body": [
     {
       "type": "minecraft:item",
@@ -17,19 +17,23 @@
     {
       "type": "minecraft:plain_message",
       "contents": "Do you wish to spawn in the Overworld dimension or the Brine dimension?"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Heads up! Ore types are limited in the Brine."
     }
   ],
   "yes": {
-    "label": "Overworld",
-    "tooltip":"The usual Minecraft experience",
+    "label": "Overworld (Challenge Level 1)",
+    "tooltip":"The usual Minecraft beginning",
       "action": {
         "type": "run_command",
         "command": "trigger bp.nereid_"
     }
   },
   "no": {
-    "label": "The Brine",
-    "tooltip":"A more unusual Minecraft experience",
+    "label": "The Brine (Challenge Level 2)",
+    "tooltip":"A more \"fathomless\" beginning",
       "action": {
         "type": "run_command",
         "command": "trigger bp.brine"
