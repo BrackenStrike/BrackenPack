@@ -1,0 +1,23 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:pufferfish"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Bread"
+		},{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "minecraft:bread",
+				"minecraft:food": {
+					"nutrition": 4,
+					"saturation": 2.4
+				}
+			}
+		}]
+	}]
+}

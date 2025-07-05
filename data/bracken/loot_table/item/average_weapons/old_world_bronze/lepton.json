@@ -1,0 +1,19 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:pufferfish_spawn_egg"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Bronze Lepton"
+		},{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:average_weapons/old_world_bronze/lepton"
+			}
+		}]
+	}]
+}

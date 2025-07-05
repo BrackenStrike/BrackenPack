@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"##"
+	],
+	"key": {
+		"#": "minecraft:pufferfish_spawn_egg"
+	},
+	"result": {
+		"id": "minecraft:salmon_spawn_egg",
+		"count": 1,
+		"components": {
+			"minecraft:item_name": "Old World Bronze Quadran",
+			"minecraft:entity_data": {
+				"id": "minecraft:player"
+			},
+			"minecraft:item_model": "bracken:average_weapons/old_world_bronze/quadran"
+		}
+	}
+}
