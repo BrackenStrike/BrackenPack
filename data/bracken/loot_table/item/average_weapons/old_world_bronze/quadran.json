@@ -11,7 +11,9 @@
 			"name": "Bronze Quadran"
 		},{
 			"function": "minecraft:set_components",
-			"components": {
+			"components": {"minecraft:entity_data": {
+					"id": "minecraft:player"
+				},
 				"minecraft:item_model": "bracken:average_weapons/old_world_bronze/quadran"
 			}
 		}]

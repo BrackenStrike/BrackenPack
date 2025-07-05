@@ -14,10 +14,10 @@
         "creature": [],
         "monster": [
             {
-                "type": "minecraft:piglin_brute",
+                "type": "minecraft:husk",
                 "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
+                "minCount": 4,
+                "maxCount": 4
             }
         ]
     },

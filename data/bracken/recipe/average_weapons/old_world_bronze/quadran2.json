@@ -1,12 +1,13 @@
 {
-	"type": "minecraft:crafting_shaped",
-	"pattern": [
-		"##",
-		"##"
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "netherite_ingot",
+	"ingredients": [
+		"minecraft:salmon_spawn_egg",
+		"minecraft:salmon_spawn_egg",
+		"minecraft:salmon_spawn_egg",
+		"minecraft:salmon_spawn_egg"
 	],
-	"key": {
-		"#": "minecraft:salmon_spawn_egg"
-	},
 	"result": {
 		"id": "minecraft:tropical_fish_spawn_egg",
 		"count": 1,
