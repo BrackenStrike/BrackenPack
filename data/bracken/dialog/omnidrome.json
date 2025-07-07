@@ -16,7 +16,7 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Do you wish to spawn in the Overworld dimension or Omnidrome dimension?"
+      "contents": "Do you wish to stay in the Overworld dimension or try out the Omnidrome dimension?"
     },
     {
       "type": "minecraft:plain_message",
@@ -24,7 +24,7 @@
     }
   ],
   "yes": {
-    "label": "Overworld (Challenge Level 1)",
+    "label": "Overworld (Challenge Lvl 1)",
     "tooltip":"The usual Minecraft beginning",
       "action": {
         "type": "run_command",
@@ -32,7 +32,7 @@
     }
   },
   "no": {
-    "label": "Omnidrome (Challenge Level 3)",
+    "label": "Omnidrome (Challenge Lvl 3)",
     "tooltip":"A more \"unfamiliar\" beginning",
       "action": {
         "type": "run_command",

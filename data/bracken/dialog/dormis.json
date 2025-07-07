@@ -16,15 +16,15 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Do you wish to spawn in the Overworld dimension or Dormis dimension?"
+      "contents": "Do you wish to stay in the Overworld dimension or try out the Dormis dimension?"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Be very much warned! Dormis is a difficult dimension to survive in and even more difficult to leave."
+      "contents": "Be warned! Dormis is a very difficult dimension to survive in!"
     }
   ],
   "yes": {
-    "label": "Overworld (Challenge Level 1)",
+    "label": "Overworld (Challenge Lvl 1)",
     "tooltip":"The usual Minecraft beginning",
       "action": {
         "type": "run_command",
@@ -32,7 +32,7 @@
     }
   },
   "no": {
-    "label": "Dormis (Challenge Level 5)",
+    "label": "Dormis (Challenge Lvl 5)",
     "tooltip":"A more \"punishing\" beginning",
       "action": {
         "type": "run_command",

@@ -16,7 +16,7 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Do you wish to spawn in the Overworld dimension or the Nether dimension?"
+      "contents": "Do you wish to stay in the Overworld dimension or try out the Nether dimension?"
     },
     {
       "type": "minecraft:plain_message",
@@ -24,7 +24,7 @@
     }
   ],
   "yes": {
-    "label": "Overworld (Challenge Level 1)",
+    "label": "Overworld (Challenge Lvl 1)",
     "tooltip":"The usual Minecraft beginning",
       "action": {
         "type": "run_command",
@@ -32,7 +32,7 @@
     }
   },
   "no": {
-    "label": "The Nether (Challenge Level 2)",
+    "label": "The Nether (Challenge Lvl 2)",
     "tooltip":"A more \"daunting\" beginning",
       "action": {
         "type": "run_command",
