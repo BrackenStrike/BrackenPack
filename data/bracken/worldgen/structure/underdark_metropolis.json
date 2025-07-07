@@ -2,7 +2,7 @@
     "type": "minecraft:jigsaw",
     "biomes": "bracken:the_underdark/titan_dripstone_cavern",
     "spawn_overrides": {},
-    "start_pool": "bracken:metropolis/underdark_metropolis",
+    "start_pool": "bracken:metropolis/underdark_metropolis121",
     "size": 7,
     "step": "surface_structures",
     "start_height": {
