@@ -1,9 +1,9 @@
 {
-	"anvil_cost": 2,
-	"description": {
-		"translate": "Cleaving"
-	},
-	"effects": {
+  "anvil_cost": 4,
+  "description": {
+    "translate": "Cleaving"
+  },
+  "effects": {
     "minecraft:armor_effectiveness": [
       {
         "effect": {
@@ -27,10 +27,9 @@
     "base": 15,
     "per_level_above_first": 9
   },
-	"primary_items": "#minecraft:enchantable/axes",
-	"slots": [
-		"mainhand"
-	],
-	"supported_items": "#minecraft:enchantable/axes",
-	"weight": 5
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/axes",
+  "weight": 2
 }
