@@ -14,7 +14,7 @@
         "creature": [],
         "monster": [
             {
-                "type": "minecraft:vindicator",
+                "type": "minecraft:skeleton",
                 "weight": 10,
                 "minCount": 1,
                 "maxCount": 1

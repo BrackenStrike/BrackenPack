@@ -20,10 +20,10 @@
                 "maxCount": 1
             },
             {
-                "type": "minecraft:pillager",
+                "type": "minecraft:zombified_piglin",
                 "weight": 2,
                 "minCount": 1,
-                "maxCount": 1
+                "maxCount": 4
             }
         ]
     },

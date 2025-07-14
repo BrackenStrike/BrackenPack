@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"pattern": [
+		"#/#",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:pale_oak_planks",
+		"/": "minecraft:ghast_tear"
+	},
+	"result": {
+    "id": "minecraft:creaking_spawn_egg",
+    "components": {
+		"minecraft:item_name": "Flying Boat",
+      "minecraft:entity_data": {
+        "id": "minecraft:pale_oak_boat",        
+       "NoGravity":true,
+        "Glowing":true,
+        "CustomName":"Flying Boat"
+      },"minecraft:item_model": "bracken:shadows/mimic3",
+      "minecraft:rarity": "uncommon"
+    }
+  }
+}

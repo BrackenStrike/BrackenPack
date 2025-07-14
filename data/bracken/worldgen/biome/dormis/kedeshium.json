@@ -7,7 +7,7 @@
         "creature": [],
         "monster": [
             {
-                "type": "minecraft:wither_skeleton",
+                "type": "minecraft:piglin_brute",
                 "weight": 10,
                 "minCount": 1,
                 "maxCount": 1
