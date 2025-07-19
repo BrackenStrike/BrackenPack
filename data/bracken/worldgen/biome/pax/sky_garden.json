@@ -59,7 +59,7 @@
             "minecraft:disk_clay",
             "minecraft:disk_gravel"
         ],
-        [],
+        ["minecraft:wildflowers_meadow"],
         [],
         [
             "minecraft:flower_forest_flowers",

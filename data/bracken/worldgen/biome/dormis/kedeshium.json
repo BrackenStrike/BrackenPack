@@ -7,7 +7,7 @@
         "creature": [],
         "monster": [
             {
-                "type": "minecraft:piglin_brute",
+                "type": "minecraft:piglin",
                 "weight": 10,
                 "minCount": 1,
                 "maxCount": 1

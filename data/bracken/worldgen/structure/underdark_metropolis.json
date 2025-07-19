@@ -1,12 +1,12 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:the_underdark/titan_dripstone_cavern",
+    "biomes": "bracken:the_underdark/diorite_sea",
     "spawn_overrides": {},
     "start_pool": "bracken:metropolis/underdark_metropolis121",
     "size": 7,
     "step": "surface_structures",
     "start_height": {
-        "absolute": 125
+        "absolute": 160
     },
     "max_distance_from_center": 128,
     "use_expansion_hack": false

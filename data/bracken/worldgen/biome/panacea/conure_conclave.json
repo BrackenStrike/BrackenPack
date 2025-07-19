@@ -3,7 +3,7 @@
         "water_ambient": [],
         "ambient": [
             {
-                "type": "minecraft:bat",
+                "type": "minecraft:parrot",
                 "weight": 10,
                 "minCount": 8,
                 "maxCount": 8
@@ -50,7 +50,7 @@
                 "maxCount": 4
             },
             {
-                "type": "minecraft:hoglin",
+                "type": "minecraft:chicken",
                 "weight": 3,
                 "minCount": 4,
                 "maxCount": 4
@@ -63,7 +63,7 @@
             },
             {
                 "type": "minecraft:parrot",
-                "weight": 1,
+                "weight": 100,
                 "minCount": 4,
                 "maxCount": 4
             },
@@ -72,12 +72,6 @@
                 "weight": 2,
                 "minCount": 4,
                 "maxCount": 4
-            },
-            {
-                "type": "minecraft:creeper",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 3
             }
         ],
         "monster": [
@@ -93,12 +87,7 @@
                 "minCount": 1,
                 "maxCount": 1
             },
-            {
-                "type": "minecraft:zombie",
-                "weight": 5,
-                "minCount": 3,
-                "maxCount": 6
-            },
+            
             {
                 "type": "minecraft:spider",
                 "weight": 5,
@@ -121,15 +110,15 @@
             "minecraft:patch_berry_common"
         ],
         [
-            "minecraft:forest_rock"
+            "minecraft:forest_rock","minecraft:flower_forest_flowers","minecraft:wildflowers_meadow"
         ],
         [
-            "bracken:panacea/coal_blobs","minecraft:patch_leaf_litter"
+            "bracken:panacea/coal_blobs"
         ],
         [
             "bracken:panacea/berry"
         ],
-        [],
+        ["bracken:panacea/float","bracken:faewild/birch_tree"],
         [],
         [],
         [],
