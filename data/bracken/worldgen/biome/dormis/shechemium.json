@@ -14,7 +14,13 @@
         "creature": [],
         "monster": [
             {
-                "type": "minecraft:husk",
+                "type": "minecraft:zombie",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:ravager",
                 "weight": 1,
                 "minCount": 4,
                 "maxCount": 4

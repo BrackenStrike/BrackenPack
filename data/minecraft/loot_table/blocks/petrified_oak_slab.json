@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+			"value": "bracken:item/the_brine/lustra_peal"
+        }
+      ],
+      "rolls": 9.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/petrified_oak_slab"
+}

@@ -8,13 +8,13 @@
 			"biomes": [{
 				"biome": "bracken:panacea/honeybee_biome",
 				"parameters": {
-					"temperature": -0.5,
+					"temperature": -0.4,
 					"humidity": 1,
 					"continentalness": 0,
 					"erosion": 0,
-					"weirdness": 0.8,
+					"weirdness": 0.6,
 					"depth": 0,
-					"offset": 0
+					"offset": 0.4
 				}
 			},{
 				"biome": "bracken:panacea/horsetail_tropics",
@@ -32,11 +32,11 @@
 				"parameters": {
 					"temperature": 0.6,
 					"humidity": 1,
-					"continentalness": 0,
+					"continentalness": 0.5,
 					"erosion": 0,
-					"weirdness": 0.55,
+					"weirdness": 0.5,
 					"depth": 0,
-					"offset": 0.4
+					"offset": 0
 				}
 			},{
 				"biome": "bracken:panacea/condemned_taiga",
@@ -55,7 +55,7 @@
 					"temperature": 0.9,
 					"humidity": 1,
 					"continentalness": 0,
-					"erosion": 0.7,
+					"erosion": 0.5,
 					"weirdness": 0,
 					"depth": 0,
 					"offset": 0
@@ -76,7 +76,7 @@
 				"parameters": {
 					"temperature": -1,
 					"humidity": -0.9,
-					"continentalness": 0,
+					"continentalness": 0.5,
 					"erosion": 0,
 					"weirdness": 0,
 					"depth": 0,
@@ -129,7 +129,7 @@
 			},{
 				"biome": "bracken:panacea/hungering_jungle",
 				"parameters": {
-					"temperature": 0.9,
+					"temperature": 1,
 					"humidity": 1,
 					"continentalness": 0,
 					"erosion": 0.3,
@@ -141,10 +141,10 @@
 		{
 				"biome": "bracken:panacea/conure_conclave",
 				"parameters": {
-					"temperature": 0.9,
-					"humidity": 1,
-					"continentalness": 0,
-					"erosion": 0.3,
+					"temperature": -1,
+					"humidity": 0.9,
+					"continentalness": 0.5,
+					"erosion": 0,
 					"weirdness": 0,
 					"depth": 0,
 					"offset": 0.3
