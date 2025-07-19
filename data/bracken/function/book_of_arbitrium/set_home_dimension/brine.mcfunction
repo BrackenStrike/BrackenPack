@@ -1,3 +1,4 @@
-execute in bracken:the_brine run spreadplayers ~ ~ 20 30 under 500 false @s
+execute in bracken:the_brine run tp @s ~ 530 ~
+effect give @s minecraft:slow_falling 10 1 false
 function bracken:book_of_arbitrium/change_race/nereid_
 
