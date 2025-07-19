@@ -2,10 +2,24 @@
     "name": "mazea",
     "fallback": "minecraft:empty",
     "elements": [
+        
+
+
+
         {
             "weight": 4,
             "element": {
-                "location": "bracken:dormis/maze/maze1",
+                "location": "bracken:dormis/maze/maze1b",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+        ,
+        {
+            "weight": 2,
+            "element": {
+                "location": "bracken:dormis/maze/maze2b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -14,7 +28,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze2",
+                "location": "bracken:dormis/maze/maze3b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -23,16 +37,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze3",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
-        },
-        {
-            "weight": 4,
-            "element": {
-                "location": "bracken:dormis/maze/maze4",
+                "location": "bracken:dormis/maze/maze4b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -41,7 +46,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze5",
+                "location": "bracken:dormis/maze/maze5b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -50,7 +55,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze6",
+                "location": "bracken:dormis/maze/maze6b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -59,7 +64,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze7",
+                "location": "bracken:dormis/maze/maze7b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -68,7 +73,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze8",
+                "location": "bracken:dormis/maze/maze8b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -77,7 +82,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze9",
+                "location": "bracken:dormis/maze/maze9b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -86,7 +91,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze10",
+                "location": "bracken:dormis/maze/maze10b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -95,7 +100,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze11",
+                "location": "bracken:dormis/maze/maze11b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -104,7 +109,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze12",
+                "location": "bracken:dormis/maze/maze12b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -113,7 +118,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze13",
+                "location": "bracken:dormis/maze/maze13b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -122,7 +127,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze14",
+                "location": "bracken:dormis/maze/maze14b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -131,7 +136,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze15",
+                "location": "bracken:dormis/maze/maze15b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -140,7 +145,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze16",
+                "location": "bracken:dormis/maze/maze16b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -149,16 +154,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze17",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
-        },
-        {
-            "weight": 4,
-            "element": {
-                "location": "bracken:dormis/maze/maze18",
+                "location": "bracken:dormis/maze/maze17b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -167,16 +163,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze19",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
-        },
-        {
-            "weight": 4,
-            "element": {
-                "location": "bracken:dormis/maze/maze20",
+                "location": "bracken:dormis/maze/maze18b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -185,7 +172,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze21",
+                "location": "bracken:dormis/maze/maze19b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -194,25 +181,7 @@
         {
             "weight": 2,
             "element": {
-                "location": "bracken:dormis/maze/maze22",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
-        },
-        {
-            "weight": 2,
-            "element": {
-                "location": "bracken:dormis/maze/maze23",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
-        },
-        {
-            "weight": 2,
-            "element": {
-                "location": "bracken:dormis/maze/maze24",
+                "location": "bracken:dormis/maze/maze20b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
@@ -221,12 +190,40 @@
         {
             "weight": 4,
             "element": {
-                "location": "bracken:dormis/maze/maze26",
+                "location": "bracken:dormis/maze/maze21b",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
             }
         },
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:dormis/maze/maze22b",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:dormis/maze/maze23b",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "location": "bracken:dormis/maze/maze24b",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        },
+        
 
         {
             "weight": 1,
