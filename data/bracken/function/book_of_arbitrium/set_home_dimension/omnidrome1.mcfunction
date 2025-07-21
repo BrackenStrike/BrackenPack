@@ -1,4 +1,4 @@
 tellraw @s ["",{"translate":"Chunks Loading... Teleportation to "},{"translate":"Omnidrome","color":"green"},{"translate":" will occur in a moment."}]
-spawnpoint @s ~ ~2 ~
-function bracken:book_of_arbitrium/set_home_dimension/omnidrome
+
+advancement grant @s only bracken:technical/dimension_travel/spawn/omnidrome
 

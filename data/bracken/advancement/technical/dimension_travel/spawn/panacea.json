@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"discovered": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function": "bracken:book_of_arbitrium/set_home_dimension/panacea"
+	}
+}

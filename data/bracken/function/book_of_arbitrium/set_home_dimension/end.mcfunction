@@ -1,3 +1,4 @@
-execute in minecraft:the_end run spreadplayers ~ ~ 20 30 under 200 false @s
+execute in minecraft:the_end run spreadplayers 2000 2000 20 30 under 200 false @s
 function bracken:book_of_arbitrium/change_race/enderling_
+spawnpoint @s ~ ~2 ~
 
