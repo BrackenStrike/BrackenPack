@@ -5,43 +5,59 @@
             "alternate_inner_layer_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:cobblestone"
+                    "Name": "minecraft:stone"
                 }
             },
             "cannot_replace": "#minecraft:features_cannot_replace",
             "filling_provider": {
                 "type": "minecraft:weighted_state_provider",
                 "entries": [
-                    
+                    {
+                        "data": {
+                            "Name": "minecraft:lapis_ore"
+                        },
+                        "weight": 1
+                    },
                     {
                         "data": {
                             "Name": "minecraft:copper_ore"
                         },
                         "weight": 2
-                    },
+                    },                    
                     {
                         "data": {
-                            "Name": "minecraft:coal_ore"
-                        },
-                        "weight": 20
-                    },
-                    {
-                        "data": {
-                            "Name": "minecraft:cobblestone"
+                            "Name": "minecraft:stone"
                         },
                         "weight": 12000
                     }
                 ]
             },
             "inner_layer_provider": {
-                "type": "minecraft:simple_state_provider",
-                "state": {
-                    "Name": "minecraft:mossy_cobblestone"
-                }
+                "type": "minecraft:weighted_state_provider",
+                "entries": [                   
+                   {
+                        "data": {
+                            "Name": "minecraft:lapis_ore"
+                        },
+                        "weight": 1
+                    },
+                    {
+                        "data": {
+                            "Name": "minecraft:copper_ore"
+                        },
+                        "weight": 2
+                    },                    
+                    {
+                        "data": {
+                            "Name": "minecraft:stone"
+                        },
+                        "weight": 12000
+                    }
+                ]
             },
             "inner_placements": [
                 {
-                    "Name": "minecraft:mossy_cobblestone",
+                    "Name": "minecraft:stone",
                     "Properties": {}
                 }
             ],
@@ -49,13 +65,13 @@
             "middle_layer_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:mossy_cobblestone"
+                    "Name": "minecraft:water"
                 }
             },
             "outer_layer_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:moss_block"
+                    "Name": "minecraft:warped_nylium"
                 }
             }
         },
@@ -76,8 +92,8 @@
             "middle_layer": 7,
             "outer_layer": 9
         },
-        "max_gen_offset": 15,
-        "min_gen_offset": -15,
+        "max_gen_offset": 30,
+        "min_gen_offset": -30,
         "noise_multiplier": 0.035,
         "placements_require_layer0_alternate": true,
         "point_offset": {

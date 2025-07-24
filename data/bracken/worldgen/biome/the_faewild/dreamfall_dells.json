@@ -39,7 +39,7 @@
         [
             "bracken:faewild/lapis_ore","bracken:faewild/copper_ore"
         ],
-        [],
+        ["bracken:faewild/float"],
         [],
         [
             "minecraft:seagrass_swamp",
