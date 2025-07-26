@@ -3,18 +3,18 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:wolf_spawn_egg"
+			"name": "minecraft:cat_spawn_egg"
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Silversteel Ingot"
+			"name": "Bronze Ingot"
 		},{
 			"function": "minecraft:set_components",
 			"components": {"minecraft:entity_data": {
 					"id": "minecraft:player"
 				},
-				"minecraft:item_model": "bracken:average_weapons/silversteel/ingot"
+				"minecraft:item_model": "bracken:average_weapons/old_world_bronze/ingot"
 			}
 		}]
 	}]

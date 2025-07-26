@@ -3,8 +3,8 @@
         
         {
             "rolls": {
-                "min": 2,
-                "max": 5
+                "min": 3,
+                "max": 4
             },
             "entries": [
                 {
@@ -18,13 +18,6 @@
                     "chance": 0.85
                 }
             ]
-        },
-        {
-            "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
-                    "name": "minecraft:arrow"
-            }]
         }
     ]
 }

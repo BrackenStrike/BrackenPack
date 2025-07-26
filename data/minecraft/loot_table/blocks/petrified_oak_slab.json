@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-			"value": "bracken:item/the_brine/lustra_peal"
+			"value": "bracken:item/the_brine/lustra_pearl"
         }
       ],
       "rolls": 9.0

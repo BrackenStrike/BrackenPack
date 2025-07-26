@@ -12,8 +12,10 @@
                 "minCount": 1,
                 "maxCount": 1
             },
-            {
-            "type": "minecraft:husk",
+            
+        
+        {
+            "type": "minecraft:vindicator",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5
