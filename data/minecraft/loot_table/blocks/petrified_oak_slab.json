@@ -1,4 +1,3 @@
-
 {
   "type": "minecraft:block",
   "pools": [
@@ -47,7 +46,7 @@
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 9.0
     }
   ],
   "random_sequence": "minecraft:blocks/petrified_oak_slab"

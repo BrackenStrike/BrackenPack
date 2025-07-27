@@ -1,0 +1,20 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "item",
+			"name": "minecraft:petrified_oak_slab",
+			"functions": [{
+				"function": "minecraft:set_name",
+				"target": "item_name",
+				"name": "Block of Lustra"
+			},{
+				"function": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:average_weapons/lustra/block",
+					"minecraft:block_state": {"type":"double"}
+				}
+			}]
+		}]
+	}]
+}

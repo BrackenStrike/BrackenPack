@@ -28,7 +28,7 @@
             },
             
         {
-            "type": "minecraft:evoker",
+            "type": "minecraft:zombie",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5
