@@ -10,13 +10,7 @@
 				"type": "minecraft:run_function",
 				"function": "bracken:item/enchantment/instability"
 			},
-			"enchanted": "victim",
-			"requirements": {
-				"condition": "minecraft:damage_source_properties",
-				"predicate": {
-					"is_direct": true
-				}
-			}
+			"enchanted": "victim"
 		}]
 	},
 	"max_cost": {
