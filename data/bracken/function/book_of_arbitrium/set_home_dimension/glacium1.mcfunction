@@ -1,4 +1,3 @@
-tellraw @s[scores={bp.dimension_check=..0}] ["",{"translate":"Chunks Loading... Teleportation to "},{"translate":"Glacium","color":"aqua"},{"translate":" will occur in a moment."}]
-
+scoreboard players set @s[scores={bp.dimension_check=1..}] bp.glacium1 0
 advancement grant @s only bracken:technical/dimension_travel/spawn/glacium
 

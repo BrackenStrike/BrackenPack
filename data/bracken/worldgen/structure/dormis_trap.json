@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:dormis/golanium",
+    "biomes": "bracken:dormis/shechemium",
     "spawn_overrides": {},
     "start_pool": "bracken:dormis/trap/trap1",
     "size": 6,

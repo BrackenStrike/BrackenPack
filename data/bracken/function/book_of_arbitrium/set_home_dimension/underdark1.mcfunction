@@ -1,3 +1,2 @@
-tellraw @s[scores={bp.dimension_check=..0}] ["",{"translate":"Chunks Loading... Teleportation to "},{"translate":"the Underdark","color":"dark_gray"},{"translate":" will occur in a moment."}]
-
+scoreboard players set @s[scores={bp.dimension_check=1..}] bp.underdark1 0
 advancement grant @s only bracken:technical/dimension_travel/spawn/the_underdark
