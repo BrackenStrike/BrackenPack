@@ -16,17 +16,13 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "SIZE: 2.2 blocks          HEARTS: 11"
+      "contents": "BLOCK HEIGHT          HEALTH          BASE ARMOR          SPEED          DAMAGE          REACH"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "BASE ARMOR: 4.0          SPEED: 30"
+      "contents": "    2.2                 11               4.0               30             1.15            5.0"
     },
     
-    {
-      "type": "minecraft:plain_message",
-      "contents": "DAMAGE: 1.15          REACH: 5.0"
-    },
     {
       "type": "minecraft:plain_message",
       "contents": "-Permanent bad luck effects"

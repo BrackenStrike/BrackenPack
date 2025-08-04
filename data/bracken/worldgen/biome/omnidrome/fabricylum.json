@@ -7,7 +7,7 @@
         "creature": [],
         "monster": [
         {
-            "type": "minecraft:husk",
+            "type": "minecraft:evoker",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5

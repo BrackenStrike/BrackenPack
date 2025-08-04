@@ -6,13 +6,13 @@
         "water_creature": [],
         "creature": [],
         "monster": [{
-            "type": "minecraft:zombie",
+            "type": "minecraft:zombified_piglin",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5
           },
         {
-            "type": "minecraft:husk",
+            "type": "minecraft:evoker",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5
