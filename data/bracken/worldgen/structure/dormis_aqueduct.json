@@ -6,7 +6,7 @@
     "size": 11,
     "step": "surface_structures",
     "start_height": {
-        "absolute": 400
+        "absolute": 454
     },
     "max_distance_from_center": 128,
     "use_expansion_hack": false

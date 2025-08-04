@@ -6,7 +6,7 @@
 		"biome_source": {
 			"type": "minecraft:multi_noise",
 			"biomes": [{
-				"biome": "bracken:dormis/golanium",
+				"biome": "bracken:dormis/shechemium",
 				"parameters": {
 					"temperature": 0,
 					"humidity": 0,
@@ -17,7 +17,7 @@
 					"offset": 0
 				}
 			},{
-				"biome": "bracken:dormis/shechemium",
+				"biome": "bracken:dormis/golanium",
 				"parameters": {
 					"temperature": 0,
 					"humidity": 0,
