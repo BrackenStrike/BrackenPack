@@ -33,7 +33,7 @@
     }
   },
   "no": {
-    "label": "The Underdark (Challenge Lvl 2)",
+    "label": "Underdark (Challenge Lvl 2)",
     "tooltip":"A more \"rugged\" beginning",
       "action": {
         "type": "run_command",

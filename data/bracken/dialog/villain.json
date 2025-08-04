@@ -16,23 +16,16 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "2.2 blocks tall"
+      "contents": "SIZE: 2.2 blocks          HEARTS: 11"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "11 hearts"
+      "contents": "BASE ARMOR: 4.0          SPEED: 30"
     },
+    
     {
       "type": "minecraft:plain_message",
-      "contents": "+4 natural armor"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "Normal movement speed"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "+Attack damage"
+      "contents": "DAMAGE: 1.15          REACH: 5.0"
     },
     {
       "type": "minecraft:plain_message",

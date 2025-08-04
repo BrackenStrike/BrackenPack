@@ -32,7 +32,7 @@
     }
   },
   "no": {
-    "label": "The Brine (Challenge Lvl 2)",
+    "label": "Brine (Challenge Lvl 2)",
     "tooltip":"A more \"fathomless\" beginning",
       "action": {
         "type": "run_command",

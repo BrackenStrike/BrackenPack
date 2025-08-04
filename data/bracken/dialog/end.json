@@ -32,7 +32,7 @@
     }
   },
   "no": {
-    "label": "The End (Challenge Lvl 3)",
+    "label": "End (Challenge Lvl 3)",
     "tooltip":"A more \"conclusive\" beginning",
       "action": {
         "type": "run_command",

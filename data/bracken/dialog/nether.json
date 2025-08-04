@@ -32,7 +32,7 @@
     }
   },
   "no": {
-    "label": "The Nether (Challenge Lvl 2)",
+    "label": "Nether (Challenge Lvl 2)",
     "tooltip":"A more \"daunting\" beginning",
       "action": {
         "type": "run_command",

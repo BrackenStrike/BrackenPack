@@ -32,7 +32,7 @@
     }
   },
   "no": {
-    "label": "The Faewild (Challenge Lvl 2)",
+    "label": "Faewild (Challenge Lvl 2)",
     "tooltip":"A more \"bewildering\" beginning",
       "action": {
         "type": "run_command",
