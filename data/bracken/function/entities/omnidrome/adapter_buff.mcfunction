@@ -9,4 +9,3 @@ effect give @e[type=husk,distance=..10] minecraft:speed 7 5 false
 effect give @e[type=zombified_piglin,distance=..10] minecraft:strength 7 5 true
 effect give @e[type=pillager,distance=..10] minecraft:regeneration 7 3 true
 
-effect give @e[type=!vex,distance=..10] minecraft:glowing 7 3 true

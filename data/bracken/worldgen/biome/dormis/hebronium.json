@@ -19,11 +19,17 @@
                 "maxCount": 1
             },
             {
-                "type": "minecraft:zombie",
-                "weight": 1,
-                "minCount": 4,
-                "maxCount": 4
+                "type": "minecraft:skeleton",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            },{
+                "type": "minecraft:stray",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
             }
+            
         ],
         "monster": []
     },

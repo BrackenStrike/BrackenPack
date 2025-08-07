@@ -16,19 +16,19 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "BLOCK HEIGHT          MAX HEALTH"
+      "contents": "BLOCK HEIGHT              MAX HEALTH"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "   2.2                    11"
+      "contents": "   2.2                   11.0"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "BASE ARMOR           MOVEMENT SPEED"
+      "contents": "BASE ARMOR              MOVEMENT SPEED"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "  4.0                    30"
+      "contents": "  4.0                    4.0"
     },
     {
       "type": "minecraft:plain_message",

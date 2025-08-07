@@ -20,6 +20,12 @@
                 "maxCount": 1
             },
             {
+                "type": "minecraft:bogged",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
                 "type": "minecraft:vindicator",
                 "weight": 10,
                 "minCount": 1,

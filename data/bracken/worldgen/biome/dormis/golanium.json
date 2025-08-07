@@ -13,12 +13,7 @@
         "water_creature": [],
         "creature": [],
         "monster": [
-            {
-                "type": "minecraft:enderman",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
+            
             
             {
                 "type": "minecraft:bogged",
@@ -26,12 +21,21 @@
                 "minCount": 1,
                 "maxCount": 1
             },
+            
             {
-                "type": "minecraft:ravager",
-                "weight": 2,
-                "minCount": 1,
+                "type": "minecraft:zombie",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            
+            {
+                "type": "minecraft:pillager",
+                "weight": 1,
+                "minCount": 4,
                 "maxCount": 4
             }
+            
         ]
     },
     "spawn_costs": {},

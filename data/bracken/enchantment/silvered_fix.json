@@ -4,7 +4,8 @@
 		"color": "dark_purple"
 	},
 	"anvil_cost": 1000,
-	"effects": { "minecraft:damage": [
+	"effects": { 
+		"minecraft:damage": [
 		{
 		  "effect": {
 			"type": "minecraft:add",
@@ -23,6 +24,15 @@
 		  }
 		}
 	  ],
+	  "minecraft:post_attack": [{
+			"enchanted": "attacker",
+			"affected": "victim",
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "bracken:item/enchantment/silvered"
+			}
+		}],
+
 		 "minecraft:damage_protection": [
       {
         "effect": {

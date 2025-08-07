@@ -6,15 +6,22 @@
         "water_creature": [],
         "creature": [],
         "monster": [
+           
             {
-                "type": "minecraft:wither_skeleton",
+                "type": "minecraft:stray",
                 "weight": 10,
                 "minCount": 1,
                 "maxCount": 1
             },
             {
-                "type": "minecraft:villager",
-                "weight": 10,
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:endermite",
+                "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
             }
