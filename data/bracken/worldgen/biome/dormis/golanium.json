@@ -21,13 +21,14 @@
                 "minCount": 1,
                 "maxCount": 1
             },
-            
             {
-                "type": "minecraft:zombie",
+                "type": "minecraft:ravager",
                 "weight": 1,
                 "minCount": 4,
                 "maxCount": 4
             },
+            
+           
             
             {
                 "type": "minecraft:pillager",

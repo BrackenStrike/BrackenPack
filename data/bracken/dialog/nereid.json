@@ -6,11 +6,11 @@
     {
       "type": "minecraft:item",
       "item":{
-        "id":"minecraft:carved_pumpkin",
+        "id":"minecraft:sheep_spawn_egg",
         "count":1,
         "components":{
           "minecraft:enchantment_glint_override":false,
-          "minecraft:item_model": "bracken:shadows/playernereid"
+          "minecraft:item_model": "bracken:the_brine/lustra_pearl"
         }
       }
     },

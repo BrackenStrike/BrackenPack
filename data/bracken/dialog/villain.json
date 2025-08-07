@@ -6,37 +6,37 @@
     {
       "type": "minecraft:item",
       "item":{
-        "id":"minecraft:carved_pumpkin",
+        "id":"minecraft:chainmail_chestplate",
         "count":1,
         "components":{
           "minecraft:enchantment_glint_override":false,
-          "minecraft:item_model": "bracken:shadows/playerdweller"
+          "minecraft:item_model": "bracken:articles/weighted_cuffs"
         }
       }
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "BLOCK HEIGHT              MAX HEALTH"
+      "contents": "BLOCK HEIGHT                MAX HEALTH"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "   2.2                   11.0"
+      "contents": "     2.2                      11"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "BASE ARMOR              MOVEMENT SPEED"
+      "contents": "NATURAL ARMOR              MOVE SPEED"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "  4.0                    4.0"
+      "contents": "    4.0                      4.0"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "ATTACK DAMAGE       MELEE REACH"
+      "contents": "ATTACK DAMAGE             MELEE REACH"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "  1.2                   5.0"
+      "contents": "    1.2                     5.0"
     },
     
     {

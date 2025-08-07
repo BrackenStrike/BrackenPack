@@ -6,11 +6,10 @@
     {
       "type": "minecraft:item",
       "item":{
-        "id":"minecraft:carved_pumpkin",
+        "id":"minecraft:blaze_powder",
         "count":1,
         "components":{
-          "minecraft:enchantment_glint_override":false,
-          "minecraft:item_model": "bracken:shadows/playerdweller"
+          "minecraft:enchantment_glint_override":false
         }
       }
     },
