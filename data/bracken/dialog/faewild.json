@@ -6,11 +6,11 @@
     {
       "type": "minecraft:item",
       "item":{
-        "id":"minecraft:carrot_on_a_stick",
+        "id":"minecraft:carved_pumpkin",
         "count":1,
         "components":{
           "minecraft:enchantment_glint_override":false,
-          "minecraft:item_model": "bracken:ability_books/world_soar"
+          "minecraft:item_model": "bracken:shadows/playernereid"
         }
       }
     },

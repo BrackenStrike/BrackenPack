@@ -14,12 +14,7 @@
             },
             
         
-        {
-            "type": "minecraft:husk",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 5
-          },
+        
           {
             "type": "minecraft:endermite",
             "maxCount": 4,
