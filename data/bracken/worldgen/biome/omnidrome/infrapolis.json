@@ -18,12 +18,7 @@
             "minCount": 1,
             "weight": 5
           },
-        {
-            "type": "minecraft:villager",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 5
-          },
+        
         {
             "type": "minecraft:pillager",
             "maxCount": 2,

@@ -20,7 +20,7 @@
                 "maxCount": 4
             },
             {
-                "type": "minecraft:ravager",
+                "type": "minecraft:pillager",
                 "weight": 1,
                 "minCount": 4,
                 "maxCount": 4

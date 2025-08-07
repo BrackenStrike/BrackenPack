@@ -12,7 +12,7 @@ execute if data storage bracken:config {teams_on:true} run team join Villain
 clear @s written_book[minecraft:custom_data~{bp:{id:"species_beginner_book"}}]
 
 attribute @s minecraft:scale modifier add bracken:villain.scale 0.1 add_multiplied_base
-attribute @s minecraft:attack_damage modifier add bracken:villain.attack_damage 0.15 add_multiplied_total
+attribute @s minecraft:attack_damage modifier add bracken:villain.attack_damage 0.2 add_multiplied_total
 
 attribute @s minecraft:armor modifier add bracken:villain.armor 4 add_value
 attribute @s minecraft:luck modifier add bracken:villain.luck -10 add_value

@@ -7,7 +7,13 @@
         "creature": [],
         "monster": [
             {
-                "type": "minecraft:piglin",
+                "type": "minecraft:wither_skeleton",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:villager",
                 "weight": 10,
                 "minCount": 1,
                 "maxCount": 1

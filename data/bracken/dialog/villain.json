@@ -16,27 +16,27 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "BLOCK HEIGHT          HEALTH"
+      "contents": "BLOCK HEIGHT          MAX HEALTH"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "    2.2                 11"
+      "contents": "   2.2                    11"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "BASE ARMOR          SPEED"
+      "contents": "BASE ARMOR           MOVEMENT SPEED"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "  4.0                30"
+      "contents": "  4.0                    30"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "DAMAGE          REACH"
+      "contents": "ATTACK DAMAGE       MELEE REACH"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "1.15            5.0"
+      "contents": "  1.2                   5.0"
     },
     
     {

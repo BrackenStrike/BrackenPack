@@ -20,6 +20,12 @@
                 "maxCount": 4
             },
             {
+                "type": "minecraft:piglin",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
                 "type": "minecraft:enderman",
                 "weight": 1,
                 "minCount": 1,
