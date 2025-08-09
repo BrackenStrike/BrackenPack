@@ -16,6 +16,10 @@
     },
     {
       "type": "minecraft:plain_message",
+      "contents": "STATS AND FEATURES"
+    },
+    {
+      "type": "minecraft:plain_message",
       "contents": "BLOCK HEIGHT                MAX HEALTH"
     },
     {
@@ -38,18 +42,9 @@
       "type": "minecraft:plain_message",
       "contents": "    1.2                     5.0"
     },
-    
     {
       "type": "minecraft:plain_message",
-      "contents": "-Permanent bad luck effects"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "-Granted bad omen when in villages"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "-Immunity to hero of the village effect"
+      "contents": "-Permanent bad luck effect, bad omen effect, and immunity to hero of the village effect"
     },
     {
       "type": "minecraft:plain_message",

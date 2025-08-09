@@ -28,6 +28,35 @@
     },
     {
       "type": "minecraft:plain_message",
+      "contents": "STATS AND FEATURES"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "BLOCK HEIGHT                MAX HEALTH"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "     2.0                      13"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "NATURAL ARMOR              MOVE SPEED"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "    0.0                      3.92"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "ATTACK DAMAGE             MELEE REACH"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "    1.0                     5.0"
+    },
+
+    {
+      "type": "minecraft:plain_message",
       "contents": "+Can hold breath underwater for 25 minutes"
     },
     {

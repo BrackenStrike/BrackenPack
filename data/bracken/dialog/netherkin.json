@@ -13,17 +13,34 @@
         }
       }
     },
+   
     {
       "type": "minecraft:plain_message",
-      "contents": "1.8 blocks tall"
+      "contents": "STATS AND FEATURES"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "9 hearts"
+      "contents": "BLOCK HEIGHT                MAX HEALTH"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Normal movement speed"
+      "contents": "     1.8                      9"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "NATURAL ARMOR              MOVE SPEED"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "    0.0                      4.0"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "ATTACK DAMAGE             MELEE REACH"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "    1.0                     5.0"
     },
     {
       "type": "minecraft:plain_message",
@@ -31,11 +48,7 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+Permanent fire resistance"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "+Permanent night vision"
+      "contents": "+Permanent fire resistance and night vision effects"
     },
     {
       "type": "minecraft:plain_message",
