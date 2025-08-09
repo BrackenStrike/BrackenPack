@@ -15,15 +15,31 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "2 blocks tall"
+      "contents": "STATS AND FEATURES"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "10 hearts"
+      "contents": "BLOCK HEIGHT                MAX HEALTH"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Average movement speed"
+      "contents": "     2.0                      10"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "NATURAL ARMOR              MOVE SPEED"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "    0.0                      4.0"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "ATTACK DAMAGE             MELEE REACH"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "    1.0                     5.0"
     }
   ],
   "yes": {

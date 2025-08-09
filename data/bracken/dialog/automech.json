@@ -16,19 +16,31 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "3 blocks tall"
+      "contents": "STATS AND FEATURES"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "14 hearts"
+      "contents": "BLOCK HEIGHT                MAX HEALTH"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Reduced movement speed, greatly so when in rain or water sources"
+      "contents": "     3.0                      14"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+8 natural armor"
+      "contents": "NATURAL ARMOR              MOVE SPEED"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "    8.0                      3.912"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "ATTACK DAMAGE             MELEE REACH"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "    1.0                     5.0"
     },
     {
       "type": "minecraft:plain_message",
