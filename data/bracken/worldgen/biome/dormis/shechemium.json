@@ -19,16 +19,12 @@
                 "minCount": 4,
                 "maxCount": 4
             },
-<<<<<<< Updated upstream
             {
                 "type": "minecraft:stray",
                 "weight": 5,
                 "minCount": 1,
                 "maxCount": 1
             },
-=======
-           
->>>>>>> Stashed changes
             {
                 "type": "minecraft:ravager",
                 "weight": 1,

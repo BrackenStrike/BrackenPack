@@ -9,11 +9,7 @@
            
             {
                 "type": "minecraft:stray",
-<<<<<<< Updated upstream
                 "weight": 1,
-=======
-                "weight": 5,
->>>>>>> Stashed changes
                 "minCount": 1,
                 "maxCount": 1
             },

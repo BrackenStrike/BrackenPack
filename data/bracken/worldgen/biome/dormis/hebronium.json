@@ -12,10 +12,7 @@
         "misc": [],
         "water_creature": [],
         "creature": [
-            
-            
-        ],
-        "monster": [{
+            {
                 "type": "minecraft:enderman",
                 "weight": 10,
                 "minCount": 1,
@@ -31,7 +28,10 @@
                 "weight": 5,
                 "minCount": 1,
                 "maxCount": 1
-            }]
+            }
+            
+        ],
+        "monster": []
     },
     "spawn_costs": {},
     "carvers": "minecraft:nether_cave",

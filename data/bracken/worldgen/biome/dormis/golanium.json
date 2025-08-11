@@ -17,11 +17,7 @@
             
             {
                 "type": "minecraft:bogged",
-<<<<<<< Updated upstream
                 "weight": 5,
-=======
-                "weight": 2,
->>>>>>> Stashed changes
                 "minCount": 1,
                 "maxCount": 1
             },
