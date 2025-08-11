@@ -15,19 +15,19 @@
         "monster": [
             {
                 "type": "minecraft:zombie_villager",
-                "weight": 1,
+                "weight": 10,
                 "minCount": 4,
                 "maxCount": 4
             },
             {
-                "type": "minecraft:wither_skeleton",
-                "weight": 1,
+                "type": "minecraft:stray",
+                "weight": 5,
                 "minCount": 1,
                 "maxCount": 1
             },
             {
                 "type": "minecraft:ravager",
-                "weight": 2,
+                "weight": 1,
                 "minCount": 1,
                 "maxCount": 4
             }

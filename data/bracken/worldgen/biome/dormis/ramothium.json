@@ -27,7 +27,7 @@
             },
             {
                 "type": "minecraft:vindicator",
-                "weight": 10,
+                "weight": 5,
                 "minCount": 1,
                 "maxCount": 1
             }

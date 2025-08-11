@@ -20,12 +20,6 @@
                 "maxCount": 4
             },
             {
-                "type": "minecraft:pillager",
-                "weight": 1,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
                 "type": "minecraft:bogged",
                 "weight": 1,
                 "minCount": 1,
@@ -33,15 +27,7 @@
             },
              {
                 "type": "minecraft:zombie_villager",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
-           
-             
-            {
-                "type": "minecraft:enderman",
-                "weight": 1,
+                "weight": 5,
                 "minCount": 1,
                 "maxCount": 1
             }

@@ -14,18 +14,18 @@
         "creature": [
             {
                 "type": "minecraft:enderman",
-                "weight": 1,
+                "weight": 10,
                 "minCount": 1,
                 "maxCount": 1
             },
             {
                 "type": "minecraft:skeleton",
-                "weight": 10,
+                "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
             },{
-                "type": "minecraft:stray",
-                "weight": 10,
+                "type": "minecraft:wither_skeleton",
+                "weight": 5,
                 "minCount": 1,
                 "maxCount": 1
             }

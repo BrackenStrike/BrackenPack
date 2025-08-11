@@ -9,19 +9,19 @@
            
             {
                 "type": "minecraft:stray",
-                "weight": 10,
+                "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
             },
             {
                 "type": "minecraft:enderman",
-                "weight": 1,
+                "weight": 5,
                 "minCount": 1,
                 "maxCount": 1
             },
             {
                 "type": "minecraft:zombie",
-                "weight": 1,
+                "weight": 10,
                 "minCount": 1,
                 "maxCount": 1
             }
