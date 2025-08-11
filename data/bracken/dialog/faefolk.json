@@ -24,31 +24,7 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "STATS AND FEATURES"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "BLOCK HEIGHT                MAX HEALTH"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "     2.0                      9"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "NATURAL ARMOR              MOVE SPEED"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "    0.0                      4.0"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "ATTACK DAMAGE             MELEE REACH"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "    0.85                     5.0"
+      "contents": "Increased movement speed"
     },
     {
       "type": "minecraft:plain_message",
@@ -57,6 +33,10 @@
     {
       "type": "minecraft:plain_message",
       "contents": "+Passively gains expereince points"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "-15% melee attack damage"
     }
   ],
   "yes": {

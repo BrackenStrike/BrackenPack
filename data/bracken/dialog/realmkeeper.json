@@ -16,39 +16,27 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "STATS AND FEATURES"
+      "contents": "2 blocks tall"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "BLOCK HEIGHT                MAX HEALTH"
+      "contents": "6 hearts"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "     2.0                      6"
+      "contents": "Normal movement speed"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "NATURAL ARMOR              MOVE SPEED"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "    0.0                      4.0"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "ATTACK DAMAGE             MELEE REACH"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "    1.0                     5.0"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "+Passively granted 9 seconds of absorption x2 once every 10 seconds. Loses passive absorption when in dark places or when wearing a helmet"
+      "contents": "+Passively granted 9 seconds of absorption x2 once every 10 seconds"
     },
     {
       "type": "minecraft:plain_message",
       "contents": "+Spreads the effects of eating a notch or golden apple to nearby players"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "-Loses passive absorption when in dark places or when wearing a helmet"
     }
   ],
   "yes": {
