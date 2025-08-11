@@ -7,24 +7,12 @@
         "creature": [],
         "monster": [
           {
-            "type": "minecraft:zombified_piglin",
+            "type": "minecraft:iron_golem",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5
-          },
-        {
-            "type": "minecraft:husk",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 5
-          },
-        
-        {
-            "type": "minecraft:pillager",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 5
-          }]
+          }
+        ]
     },
     "spawn_costs": {},
     "carvers": [],

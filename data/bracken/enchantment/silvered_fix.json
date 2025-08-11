@@ -24,15 +24,28 @@
 		  }
 		}
 	  ],
-	  "minecraft:post_attack": [{
-			"enchanted": "attacker",
+	  "minecraft:post_attack": [
+		  {
 			"affected": "victim",
 			"effect": {
-				"type": "minecraft:run_function",
-				"function": "bracken:item/enchantment/silvered"
-			}
-		}],
-
+			  "type": "minecraft:all_of",
+			  "effects": [
+				
+				{
+					"type": "minecraft:run_function",
+					"function": "bracken:item/enchantment/silvered"
+				},
+				{
+				  "type": "minecraft:play_sound",
+				  "pitch": 0.25,
+				  "sound": "minecraft:block.grindstone.use",
+				  "volume": 5.0
+				}
+			  ]
+			},
+			"enchanted": "attacker"
+		  }
+		],
 		 "minecraft:damage_protection": [
       {
         "effect": {

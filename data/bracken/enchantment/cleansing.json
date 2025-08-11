@@ -1,0 +1,50 @@
+{
+	"description": {
+		"translate": "Poisoning",
+		"color": "dark_purple"
+	},
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:damage": [
+		{
+		  "effect": {
+			"type": "minecraft:add",
+			"value": {
+			  "type": "minecraft:linear",
+			  "base": 2.5,
+			  "per_level_above_first": 2.5
+			}
+		  },
+		  "requirements": {
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "type": "#minecraft:sensitive_to_smite"
+			}
+		  }
+		}
+	  ],"minecraft:post_attack": [{
+			"enchanted": "attacker",
+			"affected": "victim",
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "bracken:item/enchantment/silvered"
+			}
+		}]
+	},
+	"max_level": 1,
+	"exclusive_set": "minecraft:fire_aspect",
+	"supported_items": "#minecraft:enchantable/durability",
+	"weight": 1,
+	"anvil_cost": 0,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	}
+}
