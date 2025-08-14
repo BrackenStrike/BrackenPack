@@ -1,5 +1,5 @@
 advancement revoke @s only bracken:technical/dimension_travel/spawn/the_brine
-execute unless entity @s[scores={bp.dimension_check=1..}] run tellraw @s ["",{"translate":"Chunks Loading... Teleportation to "},{"translate":"the Brine","color":"dark_blue"},{"translate":" will occur in a moment."}]
+execute unless entity @s[scores={bp.dimension_check=1..}] run tellraw @s ["",{"translate":"Chunks Loading... Teleportation to "},{"translate":"the Brine","color":"dark_blue"},{"translate":" will occur in a moment. If you die before setting a spawnpoint, you will return to the overworld!"}]
 
 execute in bracken:the_brine run tp @s[scores={bp.dimension_check=1}] ~ 530 ~
 effect give @s[scores={bp.dimension_check=1}] minecraft:slow_falling 10 1 false

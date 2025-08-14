@@ -24,10 +24,6 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Normal movement speed"
-    },
-    {
-      "type": "minecraft:plain_message",
       "contents": "+Bonus block interaction range"
     },
     {
@@ -37,10 +33,6 @@
     {
       "type": "minecraft:plain_message",
       "contents": "+Granted invisiblity effect when sneaking"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "-Blinded by daylight if not wearing a helmet"
     },
     {
       "type": "minecraft:plain_message",

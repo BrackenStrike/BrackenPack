@@ -14,42 +14,30 @@
         }
       }
     },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "BLOCK HEIGHT                MAX HEALTH"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "     2.2                      11"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "NATURAL ARMOR              MOVE SPEED"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "    4.0                      4.0"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "ATTACK DAMAGE             MELEE REACH"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "    1.2                     5.0"
-    },
     
+    {
+      "type": "minecraft:plain_message",
+      "contents": "2.2 blocks tall"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "11 hearts"
+    },
+   {
+      "type": "minecraft:plain_message",
+      "contents": "+4 natural armor"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Bonus attack damage"
+    },    
     {
       "type": "minecraft:plain_message",
       "contents": "-Permanent bad luck effects"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "-Granted bad omen when in villages"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "-Immunity to hero of the village effect"
+      "contents": "-Granted bad omen when in villages and cannot get hero of the village effect"
     },
     {
       "type": "minecraft:plain_message",

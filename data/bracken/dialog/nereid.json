@@ -16,7 +16,7 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "2 blocks tall"
+      "contents": "2 blocks tall, bonus step height"
     },
     {
       "type": "minecraft:plain_message",
@@ -24,31 +24,20 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Reduced movement speed"
+      "contents": "+Can hold breath underwater for 25 minutes, increased block breaking speed in water"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+Can hold breath underwater for 25 minutes"
+      "contents": "+Permanent night vision and dolphin's grace effects"
     },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "+Permanent night vision"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "+Bonus movement speed and block breaking speed in rain or water sources"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "+Bonus step height"
-    },
+        
     {
       "type": "minecraft:plain_message",
       "contents": "Granted regeneration effect from activated conduits"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "-Increased gravity on land"
+      "contents": "-Reduced movement speed and increased gravity on land"
     },
     {
       "type": "minecraft:plain_message",

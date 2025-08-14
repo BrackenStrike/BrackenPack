@@ -23,19 +23,11 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "Normal movement speed"
-    },
-    {
-      "type": "minecraft:plain_message",
       "contents": "+20% bonus attack speed"
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "+Permanent fire resistance"
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": "+Permanent night vision"
+      "contents": "+Permanent fire resistance and night vision"
     },
     {
       "type": "minecraft:plain_message",

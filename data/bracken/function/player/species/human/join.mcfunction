@@ -11,7 +11,7 @@ tag @s add bp.species
 tag @s add bp.human
 execute if data storage bracken:config {teams_on:true} run team join Human
 
-execute if predicate bracken:dimensions/overworld run attribute @s minecraft:luck modifier add bracken:human.luck 2 add_value
+attribute @s minecraft:luck modifier add bracken:human.luck 2 add_value
 
 function bracken:player/effects_changed
 
