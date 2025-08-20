@@ -130,11 +130,11 @@
             "block_search_extent": 8,
             "offset": 2
         },
-        "fog_color": 13359780,
-        "water_color": 11509077,
-        "water_fog_color": 11503445,
+        "fog_color": 16777215,
+        "water_color": 8947848,
+        "water_fog_color": 8947848,
         "grass_color": 6514751,
-        "sky_color": 11919559,
+        "sky_color": 12632256,
         "foliage_color": 4931584,
         "additions_sound": {
             "sound": "minecraft:entity.parrot.ambient",
