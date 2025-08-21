@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:varskspace/expanse",
+    "biomes": "bracken:varskspace/ahimaaz_reach",
     "spawn_overrides": {},
     "start_pool": "bracken:spire",
     "size": 6,
