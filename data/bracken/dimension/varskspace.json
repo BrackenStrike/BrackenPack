@@ -6,15 +6,51 @@
 		"biome_source": {
 			"type": "minecraft:multi_noise",
 			"biomes": [{
-				"biome": "bracken:varskspace/expanse",
+				"biome": "bracken:varskspace/ahimaaz_reach",
 				"parameters": {
-					"temperature": 0,
+					"temperature": 0.5,
 					"humidity": 0,
 					"continentalness": 0,
 					"erosion": 0,
 					"weirdness": 0,
 					"depth": 0,
-					"offset": 0
+					"offset": 0.6
+				}
+			},
+			{
+				"biome": "bracken:varskspace/non_maxwellian_sector",
+				"parameters": {
+					"temperature": 0,
+					"humidity": 0.5,
+					"continentalness": 0,
+					"erosion": 0,
+					"weirdness": 0,
+					"depth": 0,
+					"offset": 0.6
+				}
+			},
+			{
+				"biome": "bracken:varskspace/chrysoprase_belt",
+				"parameters": {
+					"temperature": 0,
+					"humidity": -0.5,
+					"continentalness": 0,
+					"erosion": 0,
+					"weirdness": 0,
+					"depth": 0,
+					"offset": 0.6
+				}
+			},
+		{
+				"biome": "bracken:varskspace/vonstein_expanse",
+				"parameters": {
+					"temperature": -0.5,
+					"humidity": 0,
+					"continentalness": 0,
+					"erosion": 0,
+					"weirdness": 0,
+					"depth": 0,
+					"offset": 0.6
 				}
 			}]
 		}

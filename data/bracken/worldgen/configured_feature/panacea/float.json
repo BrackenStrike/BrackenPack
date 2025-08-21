@@ -21,7 +21,7 @@
                     },
                     {
                         "data": {
-                            "Name": "minecraft:coal_ore"
+                            "Name": "minecraft:water"
                         },
                         "weight": 20
                     },
@@ -41,8 +41,7 @@
             },
             "inner_placements": [
                 {
-                    "Name": "minecraft:mossy_cobblestone",
-                    "Properties": {}
+                    "Name": "minecraft:water"
                 }
             ],
             "invalid_blocks": "#minecraft:features_cannot_replace",

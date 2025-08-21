@@ -4,7 +4,7 @@
 ##########################################################
 
 # Mobs
-execute if score @s bp.sneakcharge matches ..1 if predicate bracken:periodic/2t run function bracken:entities/sanctum/sanctum_entities
+execute if score @s bp.1_second matches 2 run function bracken:entities/sanctum/sanctum_entities
 #execute at @e[tag=bp.netherite_golem,type=minecraft:wither_skeleton,distance=..30] run function bracken:entities/sanctum/netherite_golem
 
 # Mansion Spell Book

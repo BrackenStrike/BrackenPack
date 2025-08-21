@@ -64,12 +64,7 @@
                 "minCount": 1,
                 "maxCount": 1
             },
-            {
-                "type": "minecraft:parrot",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
+            
             {
                 "type": "minecraft:creeper",
                 "weight": 3,
@@ -99,7 +94,7 @@
             "minecraft:patch_berry_common"
         ],
         [
-            "minecraft:forest_rock","minecraft:flower_forest_flowers","minecraft:wildflowers_meadow"
+            "minecraft:forest_rock","minecraft:flower_forest_flowers","minecraft:wildflowers_meadow","minecraft:trees_jungle","minecraft:trees_birch_and_oak_leaf_litter"
         ],
         [
             "bracken:panacea/coal_blobs"
@@ -108,7 +103,9 @@
             "bracken:panacea/berry"
         ],
         ["bracken:panacea/float","bracken:faewild/birch_tree"],
-        [],
+        ["minecraft:lush_caves_vegetation",
+    "minecraft:wildflowers_birch_forest",
+      "minecraft:trees_birch"],
         [],
         [],
         [

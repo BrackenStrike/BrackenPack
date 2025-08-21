@@ -7,7 +7,7 @@
         "creature": [],
         "monster": [
         {
-            "type": "minecraft:zombified_piglin",
+            "type": "minecraft:husk",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5

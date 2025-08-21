@@ -7,7 +7,7 @@
         "creature": [],
         "monster": [
           {
-            "type": "minecraft:iron_golem",
+            "type": "minecraft:zombie_villager",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5

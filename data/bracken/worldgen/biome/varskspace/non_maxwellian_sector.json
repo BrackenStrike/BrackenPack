@@ -1,0 +1,91 @@
+{
+    "spawners": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [],
+        "monster": []
+    },
+    "spawn_costs": {},
+    "carvers": [],
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "bracken:varskspace/glass",
+            "bracken:varskspace/bfire",
+            "bracken:varskspace/spikes",
+            "bracken:varskspace/lanterns",
+            "bracken:varskspace/glass_ground"
+        ],
+        [],
+        [],
+        [],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:block.beacon.power_select",
+            "tick_delay": 80,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "fog_color": 11959551,
+        "water_color": 9344428,
+        "water_fog_color": 14606591,
+        "grass_color": 11317746,
+        "sky_color": 11041992,
+        "foliage_color": 11317746,
+        "particle": {
+            "options": {
+                "type": "minecraft:dripping_obsidian_tear"
+            },
+            "probability": 0.00118093334
+        },
+        "additions_sound": {
+            "sound": "minecraft:entity.lightning_bolt.thunder",
+            "tick_chance": 0.0005
+        },
+        "music": [
+          {
+            "data": {
+              "max_delay": 24000,
+              "min_delay": 12000,
+              "replace_current_music": false,
+              "sound": {"sound_id": "bracken:varskspace"}
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "max_delay": 24000,
+              "min_delay": 12000,
+              "replace_current_music": false,
+              "sound": "minecraft:music.dragon"
+            },
+            "weight": 1
+          },
+          {
+            "data": {
+              "max_delay": 24000,
+              "min_delay": 12000,
+              "replace_current_music": false,
+              "sound": "minecraft:music_disc.far"
+            },
+            "weight": 1
+          }
+        ],
+        "music_volume": 1.0,
+        "ambient_sound": "minecraft:music.nether.basalt_deltas"
+    },
+    "has_precipitation": false
+}
