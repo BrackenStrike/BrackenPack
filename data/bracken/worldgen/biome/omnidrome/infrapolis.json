@@ -7,7 +7,7 @@
         "creature": [],
         "monster": [
           {
-            "type": "minecraft:zombie_villager",
+            "type": "minecraft:creeper",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5

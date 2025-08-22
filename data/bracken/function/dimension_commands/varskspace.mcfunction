@@ -8,6 +8,10 @@ scoreboard players remove @s[predicate=!bracken:sprint,scores={bp.sprintcharge=1
 scoreboard players add @s[predicate=bracken:sprint] bp.sprintcharge 2
 scoreboard players set @s[scores={bp.sprintcharge=1001..}] bp.sprintcharge 100
 
+# Mobs
+execute if score @s bp.1_second matches 10 run function bracken:entities/varskspace/varsk_entities
+
+
 
 
 # Speed Effects (travel to Overworld)

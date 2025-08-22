@@ -5,7 +5,12 @@
         "misc": [],
         "water_creature": [],
         "creature": [],
-        "monster": []
+        "monster": [{
+            "type": "minecraft:silverfish",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 5
+          }]
     },
     "spawn_costs": {},
     "carvers": [],

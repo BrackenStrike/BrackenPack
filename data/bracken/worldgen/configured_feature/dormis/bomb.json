@@ -26,7 +26,7 @@
             "state": {
                 "Name": "minecraft:calibrated_sculk_sensor",
                     "Properties": {
-        "power": "1"}
+        "power": "7"}
             }
         },
         "trunk_placer": {

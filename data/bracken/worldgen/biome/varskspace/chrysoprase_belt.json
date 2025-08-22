@@ -5,7 +5,12 @@
         "misc": [],
         "water_creature": [],
         "creature": [],
-        "monster": []
+        "monster": [{
+            "type": "minecraft:endermite",
+            "maxCount": 4,
+            "minCount": 4,
+            "weight": 5
+          }]
     },
     "spawn_costs": {},
     "carvers": [],

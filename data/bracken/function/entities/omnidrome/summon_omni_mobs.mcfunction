@@ -11,7 +11,7 @@ data merge entity @e[type=husk,distance=..100,limit=1,sort=nearest,tag=!bp.macro
 
 ## ADAPTER-T
 execute at @e[type=silverfish,distance=..100,limit=1,sort=nearest] run summon vex ~ ~ ~ {Silent:1b,active_effects:[{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b},{id:"minecraft:speed",amplifier:1,duration:1,show_particles:0b}],CustomNameVisible:0b,DeathLootTable:"bracken:entity/omnidrome/adapter",Health:40f,Tags:["bp.adapter","bp.omnidrome","bp.entity"],CustomName:"Adapter-T",equipment:{mainhand:{id:"minecraft:bamboo",count:1,components:{"minecraft:item_model":"bracken:shadows/adapter-t","minecraft:enchantments":{"minecraft:vanishing_curse":1,"minecraft:blast_protection":3},"minecraft:enchantment_glint_override":false}}},attributes:[{id:"minecraft:follow_range",base:80},{id:"minecraft:movement_speed",base:0.4},{id:"minecraft:scale",base:4}]}
-tp @e[type=silverfish,distance=..100,limit=1,sort=nearest] ~ -4712 ~
+tp @e[type=silverfish,distance=..100,limit=1,sort=nearest] ~ -255 ~
 
 ## PARSER-B
 data merge entity @e[type=pillager,distance=..100,limit=1,sort=nearest,tag=!bp.parser,tag=!bp.safe] {Silent:1b,active_effects:[{id:"minecraft:speed",amplifier:1,duration:1,show_particles:0b},{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],CustomNameVisible:0b,DeathLootTable:"bracken:entity/omnidrome/parser",Health:10f,Tags:["bp.parser","bp.entity"],CustomName:"Parser-B",equipment:{mainhand:{id:"minecraft:crossbow",count:1,components:{"minecraft:enchantments":{"minecraft:multishot":9,"minecraft:quick_shot":3,"minecraft:vanishing_curse":1}}},offhand:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:enchantment_glint_override":false,"minecraft:enchantments":{"minecraft:vanishing_curse":1},"minecraft:potion_contents":{custom_effects:[{id:"minecraft:weaving",amplifier:4,duration:600,show_particles:1b},{id:"minecraft:oozing",amplifier:0,duration:600,show_particles:1b}]}}}, head:{id:"minecraft:bamboo",count:1,components:{"minecraft:item_model":"bracken:shadows/parser-b","minecraft:enchantments":{"minecraft:vanishing_curse":1,"minecraft:projectile_protection":3},"minecraft:enchantment_glint_override":false}}},attributes:[{id:"minecraft:follow_range",base:12},{id:"minecraft:movement_speed",base:0.6},{id:"minecraft:scale",base:2}]}
@@ -19,10 +19,13 @@ data merge entity @e[type=pillager,distance=..100,limit=1,sort=nearest,tag=!bp.p
 
 ## NUTRI-BLAST
 execute at @e[type=slime,distance=..100,limit=1,sort=nearest] run summon area_effect_cloud ~ ~ ~ {Particle:{type:"firework"},Radius:8f,RadiusPerTick:-0.05f,Duration:200,potion_contents:{custom_effects:[{id:"minecraft:poison",amplifier:9,duration:60,show_particles:1b,show_icon:1b},{id:"minecraft:hunger",amplifier:9,duration:60,show_particles:1b,show_icon:1b}]},CustomName:{"translate":"nutriblast","color":"blue","bold":true}}
-tp @e[type=slime,distance=..100,limit=1,sort=nearest] ~ -4712 ~
+tp @e[type=slime,distance=..100,limit=1,sort=nearest] ~ -255 ~
 
 ## NUTRI-BLAST
-execute at @e[type=zombie_villager,distance=..100,limit=1,sort=nearest] run summon iron_golem ~ ~ ~
-tp @e[type=zombie_villager,distance=..100,limit=1,sort=nearest] ~ -4712 ~
+execute at @e[type=creeper,distance=..100,limit=1,sort=nearest] run summon iron_golem ~ ~ ~
+tp @e[type=creeper,distance=..100,limit=1,sort=nearest] ~ -255 ~
+
+
+data merge entity @e[type=shulker,distance=..100,limit=1,sort=nearest,tag=!bp.capaciphite,tag=!bp.safe] {Team:"Automech",Tags:["bp.capaciphite","bp.safe"],Health:50f,AttachFace:0b,Color:5b,attributes:[{id:"minecraft:attack_damage",base:5},{id:"minecraft:follow_range",base:100},{id:"minecraft:max_health",base:50},{id:"minecraft:scale",base:4}]}
 
 
