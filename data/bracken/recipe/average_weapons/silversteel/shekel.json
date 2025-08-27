@@ -11,6 +11,9 @@
 		"count": 9,
 		"components": {
 			"minecraft:item_name": "Silversteel Shekel",
+			"minecraft:enchantments": {
+				"bracken:silvered_fix": 1,"bracken:cleansing_fix": 1
+				},
 			"minecraft:entity_data": {
 				"id": "minecraft:player"
 			},

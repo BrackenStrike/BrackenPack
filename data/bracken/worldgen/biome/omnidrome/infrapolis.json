@@ -6,8 +6,9 @@
         "water_creature": [],
         "creature": [],
         "monster": [
+          
           {
-            "type": "minecraft:creeper",
+            "type": "minecraft:shulker",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5

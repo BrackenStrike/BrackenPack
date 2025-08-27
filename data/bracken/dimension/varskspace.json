@@ -8,8 +8,8 @@
 			"biomes": [{
 				"biome": "bracken:varskspace/ahimaaz_reach",
 				"parameters": {
-					"temperature": 0.5,
-					"humidity": 0.5,
+					"temperature": -0.8,
+					"humidity": 0,
 					"continentalness": 0,
 					"erosion": 0,
 					"weirdness": 0,
@@ -20,8 +20,8 @@
 			{
 				"biome": "bracken:varskspace/non_maxwellian_sector",
 				"parameters": {
-					"temperature": -0.5,
-					"humidity": 0.5,
+					"temperature": 0.1,
+					"humidity": 0,
 					"continentalness": 0,
 					"erosion": 0,
 					"weirdness": 0,
@@ -32,8 +32,8 @@
 			{
 				"biome": "bracken:varskspace/chrysoprase_belt",
 				"parameters": {
-					"temperature": -0.5,
-					"humidity": -0.5,
+					"temperature": 0.3,
+					"humidity": 0,
 					"continentalness": 0,
 					"erosion": 0,
 					"weirdness": 0,
@@ -45,7 +45,7 @@
 				"biome": "bracken:varskspace/vonstein_expanse",
 				"parameters": {
 					"temperature": 0.5,
-					"humidity": -0.5,
+					"humidity": 0,
 					"continentalness": 0,
 					"erosion": 0,
 					"weirdness": 0,

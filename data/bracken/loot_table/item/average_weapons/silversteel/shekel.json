@@ -9,7 +9,13 @@
 			"function": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Silversteel Shekel"
-		},{
+		},
+		{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:silvered_fix": 1,"bracken:cleansing_fix": 1
+				}
+			},{
 			"function": "minecraft:set_components",
 			"components": {"minecraft:entity_data": {
 					"id": "minecraft:player"
