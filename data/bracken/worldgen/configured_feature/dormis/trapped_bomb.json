@@ -18,7 +18,7 @@
                     "hanging": "true",
                     "waterlogged": "false"
                 },
-                "Name": "minecraft:stone_pressure_plate"
+                "Name": "minecraft:redstone_lamp"
             }
         },
         "foliage_provider": {
@@ -28,7 +28,7 @@
             }
         },
         "trunk_placer": {
-            "type": "minecraft:straight_trunk_placer",
+            "type": "minecraft:trapped_chest",
             "base_height": 1,
             "height_rand_a": 0,
             "height_rand_b": 0

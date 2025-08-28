@@ -50,7 +50,7 @@
             "bracken:dormis/fire",
             "bracken:dormis/tree"
         ],
-        [],
+        ["bracken:dormis/trapped_bomb","bracken:dormis/tracker"],
         [],
         [],
         [],

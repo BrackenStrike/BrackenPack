@@ -35,7 +35,7 @@
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"
         ],
-        [],
+        ["bracken:dormis/double_sculk_bomb"],
         [],
         [],
         [],

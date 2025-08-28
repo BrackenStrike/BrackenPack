@@ -1,6 +1,16 @@
 {
     "type": "minecraft:tree",
-    "config": {
+    "config": {"decorators": [
+            {
+                "provider": {
+                    "state": {
+                        "Name": "minecraft:lava"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                },
+                "type": "minecraft:alter_ground"
+            }
+        ],
         "force_dirt": false,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
@@ -8,7 +18,7 @@
         "dirt_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:tnt"
+                "Name": "minecraft:lava"
             }
         },
         "trunk_provider": {
@@ -24,21 +34,20 @@
         "foliage_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:air"
+                "Name": "minecraft:lava"
             }
         },
         "trunk_placer": {
             "type": "minecraft:straight_trunk_placer",
-            "base_height": 1,
-            "height_rand_a": 0,
-            "height_rand_b": 0
+            "base_height": 3,
+            "height_rand_a": 1,
+            "height_rand_b": 2
         },
         "foliage_placer": {
             "type": "minecraft:fancy_foliage_placer",
             "radius": 1,
             "offset": 0,
             "height": 0
-        },
-        "decorators": []
+        }
     }
 }

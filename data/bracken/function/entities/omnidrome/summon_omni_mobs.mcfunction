@@ -21,11 +21,11 @@ data merge entity @e[type=pillager,distance=..100,limit=1,sort=nearest,tag=!bp.p
 execute at @e[type=slime,distance=..100,limit=1,sort=nearest] run summon area_effect_cloud ~ ~ ~ {Particle:{type:"firework"},Radius:8f,RadiusPerTick:-0.05f,Duration:200,potion_contents:{custom_effects:[{id:"minecraft:poison",amplifier:9,duration:60,show_particles:1b,show_icon:1b},{id:"minecraft:hunger",amplifier:9,duration:60,show_particles:1b,show_icon:1b}]},CustomName:{"translate":"nutriblast","color":"blue","bold":true}}
 tp @e[type=slime,distance=..100,limit=1,sort=nearest] ~ -255 ~
 
-## NUTRI-BLAST
-execute at @e[type=creeper,distance=..100,limit=1,sort=nearest] run summon iron_golem ~ ~ ~
+## IRON GOLEM
+execute at @e[type=creeper,distance=..100,limit=1,sort=nearest] run summon iron_golem ~ ~ ~ {Team:"Automech"}
 tp @e[type=creeper,distance=..100,limit=1,sort=nearest] ~ -255 ~
 
-
-data merge entity @e[type=shulker,distance=..100,limit=1,sort=nearest,tag=!bp.capaciphite,tag=!bp.safe] {Team:"Automech",Tags:["bp.capaciphite","bp.safe"],Health:50f,AttachFace:0b,Color:5b,attributes:[{id:"minecraft:attack_damage",base:5},{id:"minecraft:follow_range",base:100},{id:"minecraft:max_health",base:50},{id:"minecraft:scale",base:4}]}
+## SHULKER
+data merge entity @e[type=shulker,distance=..100,limit=1,sort=nearest,tag=!bp.capaciphite,tag=!bp.safe] {DeathLootTable:"bracken:entity/omnidrome/parser",Team:"Automech",Tags:["bp.capaciphite","bp.safe"],Health:50f,AttachFace:0b,Color:5b,attributes:[{id:"minecraft:attack_damage",base:5},{id:"minecraft:follow_range",base:100},{id:"minecraft:max_health",base:50},{id:"minecraft:scale",base:4}]}
 
 
