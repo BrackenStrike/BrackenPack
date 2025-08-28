@@ -18,23 +18,20 @@
         "dirt_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:lava"
+                "Name": "minecraft:yellow_concrete_powder"
             }
         },
         "trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Properties": {
-                    "hanging": "true",
-                    "waterlogged": "false"
-                },
-                "Name": "minecraft:stone_pressure_plate"
+                
+                "Name": "minecraft:soul_fire"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:lava"
+                "Name": "minecraft:air"
             }
         },
         "trunk_placer": {

@@ -7,14 +7,9 @@
         "creature": [],
         "monster": [
           
+          
           {
-            "type": "minecraft:shulker",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 5
-          },
-          {
-            "type": "minecraft:creeper",
+            "type": "minecraft:phantom",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5

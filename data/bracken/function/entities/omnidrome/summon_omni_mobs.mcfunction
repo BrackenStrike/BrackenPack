@@ -22,8 +22,8 @@ execute at @e[type=slime,distance=..100,limit=1,sort=nearest] run summon area_ef
 tp @e[type=slime,distance=..100,limit=1,sort=nearest] ~ -255 ~
 
 ## IRON GOLEM
-execute at @e[type=creeper,distance=..100,limit=1,sort=nearest] run summon iron_golem ~ ~ ~ {Team:"Automech"}
-tp @e[type=creeper,distance=..100,limit=1,sort=nearest] ~ -255 ~
+execute at @e[type=phantom,distance=..100,limit=1,sort=nearest] run summon iron_golem ~ ~ ~ {Team:"Automech"}
+tp @e[type=phantom,distance=..100,limit=1,sort=nearest] ~ -255 ~
 
 ## SHULKER
 data merge entity @e[type=shulker,distance=..100,limit=1,sort=nearest,tag=!bp.capaciphite,tag=!bp.safe] {DeathLootTable:"bracken:entity/omnidrome/parser",Team:"Automech",Tags:["bp.capaciphite","bp.safe"],Health:50f,AttachFace:0b,Color:5b,attributes:[{id:"minecraft:attack_damage",base:5},{id:"minecraft:follow_range",base:100},{id:"minecraft:max_health",base:50},{id:"minecraft:scale",base:4}]}

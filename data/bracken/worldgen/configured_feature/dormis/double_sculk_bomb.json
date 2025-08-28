@@ -18,13 +18,13 @@
                     "hanging": "true",
                     "waterlogged": "false"
                 },
-                "Name": "minecraft:sculk_sensor"
+                "Name": "minecraft:tnt"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:tnt"
+                "Name": "minecraft:calibrated_sculk_sensor"
             }
         },
         "trunk_placer": {

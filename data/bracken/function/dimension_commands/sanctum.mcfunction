@@ -25,7 +25,7 @@ execute positioned over world_surface if entity @s[predicate=bracken:sanctum_rai
 execute if predicate bracken:sanctum_rain run function bracken:dimension_commands/sanctum_dust_storm/dust_storm2
 
 ## SANCTUM WHIRLWINDS 
-execute at @e[type=minecraft:hoglin,distance=..100,tag=bp.invis] run function bracken:entities/sanctum/whirlwind
+execute at @e[type=minecraft:breeze,distance=..100,tag=bp.invis] run function bracken:entities/sanctum/whirlwind
 
 # travel omniportal
 execute if score @s bp.1_second matches 17 if data storage bracken:config {dimension_travel: true} if entity @e[type=minecraft:item_display,tag=bp.omnidrome_entrance,distance=..4,predicate=bracken:dimensions/sanctum] run function bracken:dimension_commands/other/omniportal
