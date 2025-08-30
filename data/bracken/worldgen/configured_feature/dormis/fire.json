@@ -1,56 +1,50 @@
 {
-    "type": "minecraft:random_patch",
-    "config": {
-        "tries": 64,
-        "xz_spread": 7,
-        "y_spread": 3,
-        "feature": {
-            "feature": {
-                "type": "minecraft:simple_block",
-                "config": {
-                    "to_place": {
-                        "state": {
-                            "Properties": {
-                                "west": "false",
-                                "up": "false",
-                                "south": "false",
-                                "north": "false",
-                                "east": "false",
-                                "age": "0"
-                            },
-                            "Name": "minecraft:fire"
-                        },
-                        "type": "minecraft:simple_state_provider"
-                    }
-                }
-            },
-            "placement": [
-                {
-                    "type": "minecraft:block_predicate_filter",
-                    "predicate": {
-                        "type": "minecraft:all_of",
-                        "predicates": [
-                            {
-                                "type": "minecraft:matching_blocks",
-                                "blocks": [
-                                    "minecraft:air"
-                                ]
-                            },
-                            {
-                                "type": "minecraft:matching_blocks",
-                                "offset": [
-                                    0,
-                                    -1,
-                                    0
-                                ],
-                                "blocks": [
-                                    "minecraft:magma_block"
-                                ]
-                            }
-                        ]
-                    }
-                }
-            ]
+    "type": "minecraft:tree",
+    "config": {"decorators": [
+            {
+                "provider": {
+                    "state": {
+                        "Name": "minecraft:lava"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                },
+                "type": "minecraft:alter_ground"
+            }
+        ],
+        "force_dirt": false,
+        "minimum_size": {
+            "type": "minecraft:two_layers_feature_size"
+        },
+        "dirt_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:yellow_concrete_powder"
+            }
+        },
+        "trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                
+                "Name": "minecraft:fire"
+            }
+        },
+        "foliage_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:air"
+            }
+        },
+        "trunk_placer": {
+            "type": "minecraft:straight_trunk_placer",
+            "base_height": 3,
+            "height_rand_a": 1,
+            "height_rand_b": 2
+        },
+        "foliage_placer": {
+            "type": "minecraft:fancy_foliage_placer",
+            "radius": 1,
+            "offset": 0,
+            "height": 0
         }
     }
 }
