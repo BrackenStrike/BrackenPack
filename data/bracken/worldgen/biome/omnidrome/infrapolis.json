@@ -9,7 +9,7 @@
           
           
           {
-            "type": "minecraft:phantom",
+            "type": "minecraft:shulker",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5

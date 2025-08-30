@@ -8,7 +8,7 @@
         "dirt_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:tnt"
+                "Name": "minecraft:snow_block"
             }
         },
         "trunk_provider": {
@@ -18,13 +18,13 @@
                     "hanging": "true",
                     "waterlogged": "false"
                 },
-                "Name": "minecraft:tnt"
+                "Name": "minecraft:snow_block"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:calibrated_sculk_sensor"
+                "Name": "minecraft:carved_pumpkin"
             }
         },
         "trunk_placer": {

@@ -1,9 +1,9 @@
 {
-    "feature": "bracken:dormis/lava_pillar",
+    "feature": "bracken:dormis/lava_pool",
     "placement": [
         {
             "type": "minecraft:count_on_every_layer",
-            "count": 10
+            "count": 1
         },
         
         {

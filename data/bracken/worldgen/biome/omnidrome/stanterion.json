@@ -6,13 +6,20 @@
         "water_creature": [],
         "creature": [],
         "monster": [
-        
           {
-            "type": "minecraft:shulker",
+            "type": "minecraft:pillager",
             "maxCount": 2,
             "minCount": 1,
-            "weight": 5
+            "weight": 15
+          },
+          {
+            "type": "minecraft:husk",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 1
           }
+        
+          
         
           
         
