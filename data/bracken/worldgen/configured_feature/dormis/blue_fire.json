@@ -4,7 +4,7 @@
             {
                 "provider": {
                     "state": {
-                        "Name": "minecraft:lava"
+                        "Name": "minecraft:yellow_concrete_powder"
                     },
                     "type": "minecraft:simple_state_provider"
                 },

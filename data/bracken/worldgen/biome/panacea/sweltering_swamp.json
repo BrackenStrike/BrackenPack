@@ -53,7 +53,7 @@
                 "maxCount": 4
             },
             {
-                "type": "minecraft:hoglin",
+                "type": "minecraft:mule",
                 "weight": 5,
                 "minCount": 4,
                 "maxCount": 4
@@ -87,6 +87,12 @@
             {
                 "type": "minecraft:slime",
                 "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:hoglin",
+                "weight": 3,
                 "minCount": 4,
                 "maxCount": 4
             },

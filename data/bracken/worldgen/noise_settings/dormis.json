@@ -459,7 +459,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:yellow_concrete_powder"
+                                    "Name": "minecraft:red_sandstone"
                                 }
                             }
                         },

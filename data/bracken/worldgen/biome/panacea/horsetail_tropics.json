@@ -2,8 +2,14 @@
     "spawners": {
         "water_ambient": [
             {
-                "type": "minecraft:cod",
-                "weight": 5,
+                "type": "minecraft:salmon",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+        {
+                "type": "minecraft:tropical_fish",
+                "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
             }
@@ -19,8 +25,14 @@
         "misc": [],
         "water_creature": [
             {
-                "type": "minecraft:squid",
+                "type": "minecraft:glow_squid",
                 "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:dolphin",
+                "weight": 2,
                 "minCount": 1,
                 "maxCount": 1
             }
@@ -36,6 +48,12 @@
         "creature": [
             {
                 "type": "minecraft:pig",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:llama",
                 "weight": 5,
                 "minCount": 4,
                 "maxCount": 4
@@ -56,6 +74,18 @@
             
             {
                 "type": "minecraft:bee",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:ocelot",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:horse",
                 "weight": 5,
                 "minCount": 4,
                 "maxCount": 4

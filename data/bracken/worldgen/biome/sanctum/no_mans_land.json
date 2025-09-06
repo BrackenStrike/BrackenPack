@@ -10,6 +10,12 @@
                 "weight": 2,
                 "minCount": 1,
                 "maxCount": 1
+            },
+            {
+                "type": "minecraft:breeze",
+                "weight": 2,
+                "minCount": 1,
+                "maxCount": 1
             }
         ],
         "monster": []

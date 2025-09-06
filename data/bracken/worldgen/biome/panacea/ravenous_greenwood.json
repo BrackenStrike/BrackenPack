@@ -1,6 +1,17 @@
 {
     "spawners": {
-        "water_ambient": [],
+        "water_ambient": [{
+                "type": "minecraft:salmon",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+        {
+                "type": "minecraft:cod",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }],
         "ambient": [
             {
                 "type": "minecraft:bat",
@@ -23,10 +34,28 @@
                 "maxCount": 4
             }
         ],
-        "water_creature": [],
+        "water_creature": [{
+                "type": "minecraft:dolphin",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+
+        {
+                "type": "minecraft:squid",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }],
         "creature": [
             {
                 "type": "minecraft:pig",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:llama",
                 "weight": 5,
                 "minCount": 4,
                 "maxCount": 4
@@ -74,10 +103,28 @@
                 "maxCount": 4
             },
             {
-                "type": "minecraft:creeper",
+                "type": "minecraft:horse",
                 "weight": 1,
-                "minCount": 1,
-                "maxCount": 3
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:armadillo",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:mule",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:fox",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
             }
         ],
         "monster": [

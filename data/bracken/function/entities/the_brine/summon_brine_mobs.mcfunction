@@ -23,3 +23,8 @@ execute as @e[type=drowned,tag=!bp.aquatic,distance=..100,limit=1,sort=nearest] 
 
 #hammerhead
 data merge entity @e[type=stray,distance=..100,limit=1,sort=nearest,tag=!bp.hammerhead] {Silent:1b,CustomNameVisible:0b,DeathLootTable:"bracken:entity/the_brine/hammerhead",Health:25f,Tags:["bp.hammerhead"],CustomName:"Sphyrna",equipment:{head:{id:"minecraft:bamboo",count:1,components:{"minecraft:item_model":"bracken:shadows/hammerhead","minecraft:enchantments":{"minecraft:vanishing_curse":1},"minecraft:enchantment_glint_override":false}},feet:{id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":355946,"minecraft:enchantments":{"minecraft:vanishing_curse":1,"bracken:flood_walker":1},"minecraft:enchantment_glint_override":false}},mainhand:{id:"minecraft:wooden_sword",count:1,components:{"minecraft:item_model":"bracken:average_weapons/toothed_sword","minecraft:attribute_modifiers":[{id:"attack_damage",type:"attack_damage",amount:6,operation:"add_value",slot:"mainhand"}],"minecraft:enchantments":{"minecraft:vanishing_curse":1},"minecraft:enchantment_glint_override":false}}},attributes:[{id:"minecraft:oxygen_bonus",base:1024},{id:"minecraft:water_movement_efficiency",base:1}]}
+
+#giant fish
+data merge entity @e[type=tropical_fish,distance=..100,limit=1,sort=nearest,tag=!bp.big_fish] {Tags:[bp.big_fish],attributes:[{id:scale,base:3}]}
+data merge entity @e[type=pufferfish,distance=..100,limit=1,sort=nearest,tag=!bp.big_fish] {Tags:[bp.big_fish],attributes:[{id:scale,base:3}]}
+

@@ -1,6 +1,11 @@
 {
     "spawners": {
-        "water_ambient": [],
+        "water_ambient": [{
+                "type": "minecraft:salmon",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }],
         "ambient": [
             {
                 "type": "minecraft:bat",
@@ -16,11 +21,30 @@
                 "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
+            },
+            
+        {
+                "type": "minecraft:dolphin",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
             }
         ],
         "creature": [
             {
                 "type": "minecraft:pig",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:ocelot",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:armadillo",
                 "weight": 5,
                 "minCount": 4,
                 "maxCount": 4
@@ -50,7 +74,7 @@
                 "maxCount": 4
             },
             {
-                "type": "minecraft:ocelot",
+                "type": "minecraft:horse",
                 "weight": 2,
                 "minCount": 4,
                 "maxCount": 4
@@ -62,13 +86,7 @@
                 "maxCount": 3
             },
             {
-                "type": "minecraft:creeper",
-                "weight": 10,
-                "minCount": 1,
-                "maxCount": 3
-            },
-            {
-                "type": "minecraft:zombie_horse",
+                "type": "minecraft:mule",
                 "weight": 10,
                 "minCount": 1,
                 "maxCount": 3

@@ -6,8 +6,38 @@
         "water_creature": [],
         "creature": [
             {
+                "type": "minecraft:fox",
+                "weight": 2,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
                 "type": "minecraft:polar_bear",
                 "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:llama",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:rabbit",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:goat",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:sheep",
+                "weight": 5,
                 "minCount": 4,
                 "maxCount": 4
             },
