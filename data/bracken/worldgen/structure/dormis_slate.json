@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:dormis/hebronium",
+    "biomes": "bracken:dormis/kedeshium",
     "spawn_overrides": {},
     "start_pool": "bracken:dormis_slate",
     "size": 6,

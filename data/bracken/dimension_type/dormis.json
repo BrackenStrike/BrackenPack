@@ -17,7 +17,6 @@
     "infiniburn": "#minecraft:infiniburn_dormis",
     "min_y": 0,
     "height": 512,
-    "monster_spawn_block_light_limit": 0,
+    "monster_spawn_block_light_limit": 15,
     "monster_spawn_light_level": 7
-  
 }

@@ -43,7 +43,7 @@
             "bracken:dormis/coral_blob",
             "bracken:dormis/basalt_pillar"
         ],
-        ["bracken:dormis/bomb"],
+        ["bracken:dormis/bomb","bracken:dormis/false_bomb"],
         [],
         [],
         [],

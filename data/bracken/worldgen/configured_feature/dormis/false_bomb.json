@@ -8,7 +8,7 @@
         "dirt_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:tnt"
+                "Name": "minecraft:diorite"
             }
         },
         "trunk_provider": {
@@ -18,13 +18,13 @@
                     "hanging": "true",
                     "waterlogged": "false"
                 },
-                "Name": "minecraft:granite"
+                "Name": "minecraft:stone_pressure_plate"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:trapped_chest"
+                "Name": "minecraft:air"
             }
         },
         "trunk_placer": {
