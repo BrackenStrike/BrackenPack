@@ -8,7 +8,7 @@
         "dirt_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:tnt"
+                "Name": "minecraft:lava"
             }
         },
         "trunk_provider": {
@@ -18,7 +18,7 @@
                     "hanging": "true",
                     "waterlogged": "false"
                 },
-                "Name": "minecraft:trapped_chest"
+                "Name": "minecraft:cobweb"
             }
         },
         "foliage_provider": {
@@ -28,10 +28,10 @@
             }
         },
         "trunk_placer": {
-            "type": "minecraft:straight_trunk_placer",
             "base_height": 1,
             "height_rand_a": 0,
-            "height_rand_b": 0
+            "height_rand_b": 0,
+            "type": "minecraft:mega_jungle_trunk_placer"
         },
         "foliage_placer": {
             "type": "minecraft:fancy_foliage_placer",

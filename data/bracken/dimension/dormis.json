@@ -28,7 +28,7 @@
 					"offset": 0
 				}
 			},{
-				"biome": "bracken:dormis/hebronium",
+				"biome": "bracken:dormis/kedeshium",
 				"parameters": {
 					"temperature": 0,
 					"humidity": 0,
@@ -61,14 +61,14 @@
 					"offset": 0
 				}
 			},{
-				"biome": "bracken:dormis/kedeshium",
+				"biome": "bracken:dormis/hebronium",
 				"parameters": {
 					"temperature": 0,
 					"humidity": 0,
 					"continentalness": 0,
 					"erosion": 0,
 					"weirdness": 0,
-					"depth": [0.51,1],
+					"depth": [0.56,1],
 					"offset": 0.0
 				}
 			}]
