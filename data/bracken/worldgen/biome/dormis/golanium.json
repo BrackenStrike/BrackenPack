@@ -47,7 +47,7 @@
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground",
             "bracken:dormis/rock",
-            "bracken:dormis/fire",
+            
             "bracken:dormis/tree"
         ],
         ["bracken:dormis/trapped_bomb"],

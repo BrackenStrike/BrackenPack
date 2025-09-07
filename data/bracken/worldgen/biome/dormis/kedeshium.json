@@ -46,7 +46,7 @@
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"
         ],
-        ["bracken:dormis/tracker"],
+        ["bracken:dormis/tracker","bracken:dormis/fire"],
         [],
         [],
         [],

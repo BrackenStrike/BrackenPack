@@ -92,7 +92,7 @@
             },
             {
                 "type": "minecraft:hoglin",
-                "weight": 3,
+                "weight": 1,
                 "minCount": 4,
                 "maxCount": 4
             },

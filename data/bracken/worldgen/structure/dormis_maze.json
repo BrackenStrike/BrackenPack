@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:dormis/kedeshium",
+    "biomes": "bracken:dormis/ramothium",
     "spawn_overrides": {},
     "start_pool": "bracken:dormis/maze/mazea",
     "size": 6,

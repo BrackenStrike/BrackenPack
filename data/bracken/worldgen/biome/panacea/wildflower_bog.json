@@ -5,6 +5,12 @@
                 "type": "minecraft:tropical_fish",
                 "weight": 1,
                 "minCount": 1,
+                "maxCount": 4
+            },
+        {
+                "type": "minecraft:tadpole",
+                "weight": 1,
+                "minCount": 1,
                 "maxCount": 1
             }],
         "ambient": [

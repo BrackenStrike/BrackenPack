@@ -349,7 +349,7 @@
                 "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                        "bracken:dormis/kedeshium"
+                        "bracken:dormis/hebronium"
                     ]
                 },
                 "then_run": {
@@ -459,7 +459,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:red_sandstone"
+                                    "Name": "minecraft:red_sand"
                                 }
                             }
                         },
@@ -475,7 +475,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:magma_block"
+                                    "Name": "minecraft:red_sandstone"
                                 }
                             }
                         }
@@ -533,7 +533,7 @@
                 "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                        "bracken:dormis/hebronium"
+                        "bracken:dormis/kedeshium"
                     ]
                 },
                 "then_run": {
@@ -551,7 +551,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:tuff"
+                                    "Name": "minecraft:granite"
                                 }
                             }
                         },
