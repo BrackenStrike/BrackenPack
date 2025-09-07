@@ -57,7 +57,7 @@
                                                     "argument1": {
                                                         "max_exclusive": 1.5625,
                                                         "when_in_range": {
-                                                            "argument1": "bracken:the_underdark/sloped_cheese",
+                                                            "argument1": "bracken:varskspace/sloped_cheese",
                                                             "argument2": {
                                                                 "argument1": 5,
                                                                 "argument2": "minecraft:overworld/caves/entrances",
@@ -103,7 +103,7 @@
                                                                                     "argument1": 1.5,
                                                                                     "argument2": {
                                                                                         "argument1": -0.64,
-                                                                                        "argument2": "bracken:the_underdark/sloped_cheese",
+                                                                                        "argument2": "bracken:varskspace/sloped_cheese",
                                                                                         "type": "minecraft:mul"
                                                                                     },
                                                                                     "type": "minecraft:add"

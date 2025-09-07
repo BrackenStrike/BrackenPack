@@ -17,9 +17,9 @@
             
             {
                 "type": "minecraft:bogged",
-                "weight": 5,
-                "minCount": 1,
-                "maxCount": 1
+                "weight": 2,
+                "minCount": 4,
+                "maxCount": 4
             },
             {
                 "type": "minecraft:ravager",
@@ -32,7 +32,7 @@
             
             {
                 "type": "minecraft:pillager",
-                "weight": 10,
+                "weight": 2,
                 "minCount": 4,
                 "maxCount": 4
             }

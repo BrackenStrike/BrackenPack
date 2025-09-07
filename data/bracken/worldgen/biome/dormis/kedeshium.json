@@ -5,37 +5,41 @@
         "misc": [],
         "water_creature": [],
         "creature": [],
-        "monster": [
-           
-            {
-                "type": "minecraft:stray",
-                "weight": 1,
+        "monster": [{
+                "type": "minecraft:bogged",
+                "weight": 50,
                 "minCount": 1,
                 "maxCount": 1
             },
             {
-                "type": "minecraft:enderman",
-                "weight": 10,
-                "minCount": 1,
-                "maxCount": 1
+                "type": "minecraft:ravager",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
             },
             {
                 "type": "minecraft:skeleton",
                 "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
-            },{
-                "type": "minecraft:wither_skeleton",
-                "weight": 5,
+            },
+            {
+                "type": "minecraft:stray",
+                "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
             },
+            
+           
+            
             {
-                "type": "minecraft:zombie",
+                "type": "minecraft:pillager",
                 "weight": 10,
-                "minCount": 1,
-                "maxCount": 1
+                "minCount": 4,
+                "maxCount": 4
             }
+           
+            
         ]
     },
     "spawn_costs": {},
