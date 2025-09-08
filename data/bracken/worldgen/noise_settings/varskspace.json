@@ -212,6 +212,380 @@
             "type": "minecraft:noise"
         }
     },
+    "surface_rule": {
+        "type": "minecraft:sequence",
+        "sequence": [
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:y_above",
+                    "anchor": {
+                        "absolute": 0
+                    },
+                    "surface_depth_multiplier": 0,
+                    "add_stone_depth": false
+                },
+                "then_run": {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                        "type": "minecraft:y_above",
+                        "anchor": {
+                            "absolute": 254
+                        },
+                        "surface_depth_multiplier": 0,
+                        "add_stone_depth": false
+                    },
+                    "then_run": {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                            "type": "minecraft:vertical_gradient",
+                            "random_name": "s4",
+                            "true_at_and_below": {
+                                "absolute": 256
+                            },
+                            "false_at_and_above": {
+                                "absolute": 256
+                            }
+                        },
+                        "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                                "Name": "minecraft:bedrock"
+                            }
+                        }
+                    }
+                }
+            },
+
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:vertical_gradient",
+                    "random_name": "layer30",
+                    "true_at_and_below": {
+                        "absolute": 0
+                    },
+                    "false_at_and_above": {
+                        "absolute": 5
+                    }
+                },
+                "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                        "Name": "minecraft:bedrock"
+                    }
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:vertical_gradient",
+                    "random_name": "layer1",
+                    "true_at_and_below": {
+                        "absolute": 4
+                    },
+                    "false_at_and_above": {
+                        "absolute": 11
+                    }
+                },
+                "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                        "Name": "minecraft:netherrack"
+                    }
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:vertical_gradient",
+                    "random_name": "layer29",
+                    "true_at_and_below": {
+                        "absolute": 10
+                    },
+                    "false_at_and_above": {
+                        "absolute": 20
+                    }
+                },
+                "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                        "Name": "minecraft:netherrack"
+                    }
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:vertical_gradient",
+                    "random_name": "layer28",
+                    "true_at_and_below": {
+                        "absolute": 19
+                    },
+                    "false_at_and_above": {
+                        "absolute": 21
+                    }
+                },
+                "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                        "Name": "minecraft:blackstone"
+                    }
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:vertical_gradient",
+                    "random_name": "layer27",
+                    "true_at_and_below": {
+                        "absolute": 20
+                    },
+                    "false_at_and_above": {
+                        "absolute": 52
+                    }
+                },
+                "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                        "Name": "minecraft:blackstone"
+                    }
+                }
+            },
+
+
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                        "bracken:the_underdark/titan_dripstone_cavern"
+                    ]
+                },
+                "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 0,
+                                "surface_type": "floor",
+                                "add_surface_depth": false,
+                                "secondary_depth_range": 10
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:granite"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                        "bracken:the_underdark/petrified_forest"
+                    ]
+                },
+                "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 0,
+                                "surface_type": "floor",
+                                "add_surface_depth": false,
+                                "secondary_depth_range": 0
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:grass_block"
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 1,
+                                "surface_type": "floor",
+                                "add_surface_depth": true,
+                                "secondary_depth_range": 0
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:dirt"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                        "bracken:the_underdark/sulfur_caldera"
+                    ]
+                },
+                "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 0,
+                                "surface_type": "floor",
+                                "add_surface_depth": false,
+                                "secondary_depth_range": 0
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:yellow_concrete_powder"
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 1,
+                                "surface_type": "floor",
+                                "add_surface_depth": true,
+                                "secondary_depth_range": 0
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:yellow_concrete"
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 2,
+                                "surface_type": "floor",
+                                "add_surface_depth": true,
+                                "secondary_depth_range": 0
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:yellow_terracotta"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                        "bracken:the_underdark/diorite_sea"
+                    ]
+                },
+                "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 0,
+                                "surface_type": "floor",
+                                "add_surface_depth": false,
+                                "secondary_depth_range": 0
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:moss_block"
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 1,
+                                "surface_type": "floor",
+                                "add_surface_depth": true,
+                                "secondary_depth_range": 0
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:diorite"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "minecraft:condition",
+                "if_true": {
+                    "type": "minecraft:biome",
+                    "biome_is": [
+                        "bracken:the_underdark/ruby_fungi_forest"
+                    ]
+                },
+                "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 0,
+                                "surface_type": "floor",
+                                "add_surface_depth": false,
+                                "secondary_depth_range": 0
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:mycelium"
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 1,
+                                "surface_type": "floor",
+                                "add_surface_depth": true,
+                                "secondary_depth_range": 0
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:dirt"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
     "structures": {
         "stronghold": {
             "distance": 32,
