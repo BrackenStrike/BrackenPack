@@ -4,7 +4,7 @@
 ##########################################################
 
 
-effect give @e[distance=..4,type=!minecraft:breeze] minecraft:levitation 1 40 true
+effect give @e[distance=..3,type=!minecraft:breeze] minecraft:levitation 1 40 true
 #particle minecraft:sweep_attack ~ ~15 ~ 0.2 10 0.2 0.01 100
 
 #particle minecraft:block{block_state:"minecraft:white_concrete_powder"} ~ ~ ~ 2 1.5 2 0.01 50

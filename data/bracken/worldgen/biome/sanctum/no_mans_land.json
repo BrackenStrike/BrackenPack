@@ -6,7 +6,7 @@
         "water_creature": [],
         "creature": [
             {
-                "type": "minecraft:hoglin",
+                "type": "minecraft:endermite",
                 "weight": 2,
                 "minCount": 1,
                 "maxCount": 1
