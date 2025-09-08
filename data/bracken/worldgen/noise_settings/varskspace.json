@@ -7,7 +7,7 @@
     "ore_veins_enabled": true,
     "legacy_random_source": false,
     "default_block": {
-        "Name": "minecraft:deepslate"
+        "Name": "minecraft:purple_stained_glass"
     },
     "default_fluid": {
         "Name": "minecraft:water",
@@ -18,8 +18,8 @@
     "noise": {
         "min_y": 0,
         "height": 256,
-        "size_horizontal": 1,
-        "size_vertical": 2
+        "size_horizontal": 4,
+        "size_vertical": 4
     },
     "noise_router": {
         "final_density": {
@@ -300,178 +300,9 @@
             {
                 "type": "minecraft:condition",
                 "if_true": {
-                    "type": "minecraft:y_above",
-                    "anchor": {
-                        "absolute": 0
-                    },
-                    "surface_depth_multiplier": 0,
-                    "add_stone_depth": false
-                },
-                "then_run": {
-                    "type": "minecraft:condition",
-                    "if_true": {
-                        "type": "minecraft:y_above",
-                        "anchor": {
-                            "absolute": 254
-                        },
-                        "surface_depth_multiplier": 0,
-                        "add_stone_depth": false
-                    },
-                    "then_run": {
-                        "type": "minecraft:condition",
-                        "if_true": {
-                            "type": "minecraft:vertical_gradient",
-                            "random_name": "s4",
-                            "true_at_and_below": {
-                                "absolute": 256
-                            },
-                            "false_at_and_above": {
-                                "absolute": 256
-                            }
-                        },
-                        "then_run": {
-                            "type": "minecraft:block",
-                            "result_state": {
-                                "Name": "minecraft:bedrock"
-                            }
-                        }
-                    }
-                }
-            },
-
-            {
-                "type": "minecraft:condition",
-                "if_true": {
-                    "type": "minecraft:vertical_gradient",
-                    "random_name": "layer30",
-                    "true_at_and_below": {
-                        "absolute": 0
-                    },
-                    "false_at_and_above": {
-                        "absolute": 5
-                    }
-                },
-                "then_run": {
-                    "type": "minecraft:block",
-                    "result_state": {
-                        "Name": "minecraft:bedrock"
-                    }
-                }
-            },
-            {
-                "type": "minecraft:condition",
-                "if_true": {
-                    "type": "minecraft:vertical_gradient",
-                    "random_name": "layer1",
-                    "true_at_and_below": {
-                        "absolute": 4
-                    },
-                    "false_at_and_above": {
-                        "absolute": 11
-                    }
-                },
-                "then_run": {
-                    "type": "minecraft:block",
-                    "result_state": {
-                        "Name": "minecraft:netherrack"
-                    }
-                }
-            },
-            {
-                "type": "minecraft:condition",
-                "if_true": {
-                    "type": "minecraft:vertical_gradient",
-                    "random_name": "layer29",
-                    "true_at_and_below": {
-                        "absolute": 10
-                    },
-                    "false_at_and_above": {
-                        "absolute": 20
-                    }
-                },
-                "then_run": {
-                    "type": "minecraft:block",
-                    "result_state": {
-                        "Name": "minecraft:netherrack"
-                    }
-                }
-            },
-            {
-                "type": "minecraft:condition",
-                "if_true": {
-                    "type": "minecraft:vertical_gradient",
-                    "random_name": "layer28",
-                    "true_at_and_below": {
-                        "absolute": 19
-                    },
-                    "false_at_and_above": {
-                        "absolute": 21
-                    }
-                },
-                "then_run": {
-                    "type": "minecraft:block",
-                    "result_state": {
-                        "Name": "minecraft:blackstone"
-                    }
-                }
-            },
-            {
-                "type": "minecraft:condition",
-                "if_true": {
-                    "type": "minecraft:vertical_gradient",
-                    "random_name": "layer27",
-                    "true_at_and_below": {
-                        "absolute": 20
-                    },
-                    "false_at_and_above": {
-                        "absolute": 52
-                    }
-                },
-                "then_run": {
-                    "type": "minecraft:block",
-                    "result_state": {
-                        "Name": "minecraft:blackstone"
-                    }
-                }
-            },
-
-
-            {
-                "type": "minecraft:condition",
-                "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                        "bracken:the_underdark/titan_dripstone_cavern"
-                    ]
-                },
-                "then_run": {
-                    "type": "minecraft:sequence",
-                    "sequence": [
-                        {
-                            "type": "minecraft:condition",
-                            "if_true": {
-                                "type": "minecraft:stone_depth",
-                                "offset": 0,
-                                "surface_type": "floor",
-                                "add_surface_depth": false,
-                                "secondary_depth_range": 10
-                            },
-                            "then_run": {
-                                "type": "minecraft:block",
-                                "result_state": {
-                                    "Name": "minecraft:granite"
-                                }
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "type": "minecraft:condition",
-                "if_true": {
-                    "type": "minecraft:biome",
-                    "biome_is": [
-                        "bracken:the_underdark/petrified_forest"
+                        "bracken:varskspace/ahimaaz_reach"
                     ]
                 },
                 "then_run": {
@@ -489,7 +320,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:grass_block"
+                                    "Name": "minecraft:light_blue_stained_glass"
                                 }
                             }
                         },
@@ -497,7 +328,23 @@
                             "type": "minecraft:condition",
                             "if_true": {
                                 "type": "minecraft:stone_depth",
-                                "offset": 1,
+                                "offset": 3,
+                                "surface_type": "floor",
+                                "add_surface_depth": false,
+                                "secondary_depth_range": 0
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:ice"
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 4,
                                 "surface_type": "floor",
                                 "add_surface_depth": true,
                                 "secondary_depth_range": 0
@@ -505,7 +352,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:dirt"
+                                    "Name": "minecraft:crying_obsidian"
                                 }
                             }
                         }
@@ -517,7 +364,7 @@
                 "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                        "bracken:the_underdark/sulfur_caldera"
+                        "bracken:varskspace/chrysoprase_belt"
                     ]
                 },
                 "then_run": {
@@ -535,7 +382,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:yellow_concrete_powder"
+                                    "Name": "minecraft:amethyst_block"
                                 }
                             }
                         },
@@ -543,15 +390,15 @@
                             "type": "minecraft:condition",
                             "if_true": {
                                 "type": "minecraft:stone_depth",
-                                "offset": 1,
+                                "offset": 3,
                                 "surface_type": "floor",
-                                "add_surface_depth": true,
+                                "add_surface_depth": false,
                                 "secondary_depth_range": 0
                             },
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:yellow_concrete"
+                                    "Name": "minecraft:crying_obsidian"
                                 }
                             }
                         },
@@ -559,15 +406,15 @@
                             "type": "minecraft:condition",
                             "if_true": {
                                 "type": "minecraft:stone_depth",
-                                "offset": 2,
+                                "offset": 4,
                                 "surface_type": "floor",
                                 "add_surface_depth": true,
-                                "secondary_depth_range": 0
+                                "secondary_depth_range": 6
                             },
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:yellow_terracotta"
+                                    "Name": "minecraft:blue_stained_glass"
                                 }
                             }
                         }
@@ -579,7 +426,7 @@
                 "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                        "bracken:the_underdark/diorite_sea"
+                        "bracken:varskspace/non_maxwellian_sector"
                     ]
                 },
                 "then_run": {
@@ -597,7 +444,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:moss_block"
+                                    "Name": "minecraft:cyan_stained_glass"
                                 }
                             }
                         },
@@ -605,15 +452,34 @@
                             "type": "minecraft:condition",
                             "if_true": {
                                 "type": "minecraft:stone_depth",
-                                "offset": 1,
+                                "offset": 3,
                                 "surface_type": "floor",
-                                "add_surface_depth": true,
+                                "add_surface_depth": false,
                                 "secondary_depth_range": 0
                             },
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:diorite"
+                                    "Name": "minecraft:waxed_copper_grate",
+        "Properties": {
+            "waterlogged": "true"
+        }
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 4,
+                                "surface_type": "floor",
+                                "add_surface_depth": true,
+                                "secondary_depth_range": 6
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:ice"
                                 }
                             }
                         }
@@ -625,7 +491,7 @@
                 "if_true": {
                     "type": "minecraft:biome",
                     "biome_is": [
-                        "bracken:the_underdark/ruby_fungi_forest"
+                        "bracken:varskspace/vonstein_expanse"
                     ]
                 },
                 "then_run": {
@@ -643,7 +509,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:mycelium"
+                                    "Name": "minecraft:light_blue_stained_glass"
                                 }
                             }
                         },
@@ -651,15 +517,31 @@
                             "type": "minecraft:condition",
                             "if_true": {
                                 "type": "minecraft:stone_depth",
-                                "offset": 1,
+                                "offset": 3,
                                 "surface_type": "floor",
-                                "add_surface_depth": true,
+                                "add_surface_depth": false,
                                 "secondary_depth_range": 0
                             },
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:dirt"
+                                    "Name": "minecraft:ice"
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                                "type": "minecraft:stone_depth",
+                                "offset": 4,
+                                "surface_type": "floor",
+                                "add_surface_depth": true,
+                                "secondary_depth_range": 1
+                            },
+                            "then_run": {
+                                "type": "minecraft:block",
+                                "result_state": {
+                                    "Name": "minecraft:blue_stained_glass"
                                 }
                             }
                         }

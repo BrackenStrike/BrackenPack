@@ -1,7 +1,6 @@
 {
     "type": "minecraft:tree",
     "config": {
-        "ignore_vines": true,
         "force_dirt": false,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
@@ -9,32 +8,39 @@
         "dirt_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:sea_lantern"
+                "Name": "minecraft:cyan_stained_glass"
             }
         },
         "trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:sea_lantern"
+                "Properties": {
+                    
+                    "half": "lower"
+                },
+                "Name": "minecraft:waxed_copper_door"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:waxed_copper_block"
+                "Name": "minecraft:waxed_copper_door",
+        "Properties": {
+            "half": "upper"
+        }
             }
         },
         "trunk_placer": {
-            "type": "minecraft:giant_trunk_placer",
-            "base_height": 32,
-            "height_rand_a": 20,
-            "height_rand_b": 24
+            "type": "minecraft:straight_trunk_placer",
+            "base_height": 1,
+            "height_rand_a": 0,
+            "height_rand_b": 0
         },
         "foliage_placer": {
-            "type": "minecraft:spruce_foliage_placer",
+            "type": "minecraft:fancy_foliage_placer",
             "radius": 1,
             "offset": 0,
-            "trunk_height": 0
+            "height": 0
         },
         "decorators": []
     }

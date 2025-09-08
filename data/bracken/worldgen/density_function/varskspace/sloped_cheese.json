@@ -12,7 +12,7 @@
                     "argument1": "bracken:varskspace/depth",
                     "argument2": {
                         "type": "minecraft:mul",
-                        "argument1": "minecraft:overworld/jaggedness",
+                        "argument1": "bracken:varskspace/jaggedness",
                         "argument2": {
                             "type": "minecraft:half_negative",
                             "argument": {

@@ -32,7 +32,8 @@
         [
             "bracken:varskspace/glass",
             "bracken:varskspace/bfire",
-            "bracken:varskspace/spikes",
+            "bracken:varskspace/path2",
+            
             "bracken:varskspace/lanterns",
             "bracken:varskspace/glass_ground"
         ],
