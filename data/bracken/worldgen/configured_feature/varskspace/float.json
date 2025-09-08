@@ -59,7 +59,7 @@
         },
         "max_gen_offset": 15,
         "min_gen_offset": -15,
-        "noise_multiplier": 0.0,
+        "noise_multiplier": 0.035,
         "placements_require_layer0_alternate": true,
         "point_offset": {
             "type": "minecraft:uniform",
