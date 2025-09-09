@@ -27,7 +27,7 @@
             
             {
                 "type": "minecraft:pillager",
-                "weight": 2,
+                "weight": 10,
                 "minCount": 4,
                 "maxCount": 4
             }

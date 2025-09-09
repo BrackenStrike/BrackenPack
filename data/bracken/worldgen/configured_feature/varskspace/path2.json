@@ -12,7 +12,7 @@
         "ground_state": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:ice"
+                "Name": "minecraft:light_blue_stained_glass"
             }
         },
         "vegetation_feature": {
