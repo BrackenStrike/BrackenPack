@@ -17,7 +17,8 @@
 			"minecraft:entity_data": {
 				"id": "minecraft:player"
 			},
-			"minecraft:item_model": "bracken:average_weapons/silversteel/shekel"
+			"minecraft:item_model": "bracken:average_weapons/silversteel/shekel",
+					"minecraft:enchantment_glint_override": false
 		}
 	}
 }

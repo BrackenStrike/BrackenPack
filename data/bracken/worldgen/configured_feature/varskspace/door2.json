@@ -16,7 +16,7 @@
             "state": {
                 "Properties": {
                     
-                    "half": "lower","facing": "south"
+                    "half": "lower","facing": "east"
                 },
                 "Name": "minecraft:waxed_copper_door"
             }
@@ -26,7 +26,7 @@
             "state": {
                 "Name": "minecraft:waxed_copper_door",
         "Properties": {
-            "half": "upper","facing": "south"
+            "half": "upper","facing": "east"
         }
             }
         },
