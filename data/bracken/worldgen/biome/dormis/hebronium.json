@@ -2,24 +2,43 @@
     "spawners": {
         "water_ambient": [],
         "ambient": [
-            {
-                "type": "minecraft:bat",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            }
+            
         ],
         "misc": [],
         "water_creature": [],
         "creature": [
-            {
-                "type": "minecraft:enderman",
+            
+            
+        ],
+        "monster": [{
+                "type": "minecraft:stray",
                 "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
-            }
-        ],
-        "monster": []
+            },
+            {
+                "type": "minecraft:enderman",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:skeleton",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },{
+                "type": "minecraft:wither_skeleton",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:zombie",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            }]
     },
     "spawn_costs": {},
     "carvers": "minecraft:nether_cave",

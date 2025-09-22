@@ -1,0 +1,154 @@
+{
+    "spawners": {
+        "water_ambient": [{
+                "type": "minecraft:tropical_fish",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+        {
+                "type": "minecraft:pufferfish",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }],
+        "ambient": [
+            
+        ],
+        "misc": [
+        ],
+        "water_creature": [{
+                "type": "minecraft:dolphin",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+        {
+                "type": "minecraft:glow_squid",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }],
+        "creature": [
+            
+            {
+                "type": "minecraft:chicken",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:llama",
+                "weight": 5,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            
+            {
+                "type": "minecraft:parrot",
+                "weight": 100,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:ocelot",
+                "weight": 2,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "monster": [
+            {
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            
+            {
+                "type": "minecraft:creeper",
+                "weight": 3,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            
+            {
+                "type": "minecraft:spider",
+                "weight": 5,
+                "minCount": 3,
+                "maxCount": 6
+            }
+        ]
+    },
+    "spawn_costs": {},
+    "carvers": [
+        "minecraft:cave",
+        "minecraft:cave_extra_underground",
+        "minecraft:canyon"
+      ],
+    
+    "features": [
+        [],
+        [
+            "bracken:panacea/big_tree",
+            "minecraft:patch_berry_common"
+        ],
+        [
+            "minecraft:forest_rock","minecraft:flower_forest_flowers","minecraft:wildflowers_meadow","minecraft:trees_jungle","minecraft:trees_birch_and_oak_leaf_litter"
+        ],
+        [
+            "bracken:panacea/coal_blobs"
+        ],
+        [
+            "bracken:panacea/berry"
+        ],
+        ["bracken:panacea/float","bracken:faewild/birch_tree"],
+        ["minecraft:lush_caves_vegetation",
+    "minecraft:wildflowers_birch_forest",
+      "minecraft:trees_birch"],
+        [],
+        [],
+        [
+            "minecraft:trees_old_growth_spruce_taiga",
+            "minecraft:patch_tall_grass_2",
+            "minecraft:patch_large_fern",
+            "minecraft:patch_grass_jungle"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "effects": {
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "fog_color": 16777215,
+        "water_color": 8947848,
+        "water_fog_color": 8947848,
+        "grass_color": 6514751,
+        "sky_color": 12632256,
+        "foliage_color": 4931584,
+        "additions_sound": {
+            "sound": "minecraft:entity.parrot.ambient",
+            "tick_chance": 0.0002
+        },
+       "music": [
+            {
+              "data": {
+                "max_delay": 24000,
+                "min_delay": 12000,
+                "replace_current_music": false,
+                "sound": "minecraft:music.creative"
+              },
+              "weight": 1
+            }
+          ],
+          "music_volume": 1.0
+    },
+    "has_precipitation": true
+}

@@ -11,6 +11,7 @@
     "ambient_light": 0,
     "fixed_time": 20000,
     "logical_height": 128,
+    "cloud_height": 275,
     "infiniburn": "#minecraft:infiniburn_overworld",
     "min_y": 0,
     "height": 288,

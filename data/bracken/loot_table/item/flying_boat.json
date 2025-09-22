@@ -1,0 +1,27 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:creaking_spawn_egg"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Flying Boat"
+		},{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:tools/flying_boat",
+				"minecraft:rarity": "uncommon",
+				"minecraft:entity_data": {
+        "id": "minecraft:pale_oak_boat",
+        "NoGravity":true,
+        "Glowing":true,
+        "CustomName":"Flying Boat"
+       
+      }
+			}
+		}]
+	}]
+}

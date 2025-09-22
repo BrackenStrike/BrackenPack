@@ -1,35 +1,31 @@
 ###########################################################
 
 Hey! I'm Bracken.
-This pack is made awesome by the following awesome people...
+This pack was made awesome by the following awesome people...
 
-DEVELOPMENT TEAM
+LEGACY DEVELOPMENT AND CONTRIBUTORS
+Accelerator
+AileeNyx
 Arnold_Rynux
+Cardboard_Box
+Catcocomics
 Conure
 Dr. C
 Freddy64merpro
 Grandmaster
-Remote
-ReNemesic/Crimdev
-Sulfenir
-Tuxxic
-YoannBB
-
-CURRENT CONTRIBUTORS
-Accelerator
-Jakerson
-SixLuckyBlocks
-
-LEGACY CONTRIBUTORS
-AileeNyx
-Cardboard_Box
-Catcocomics
 Hawaiian_flower
+Jakerson
 Jerry_From_Squidward
 Jorick_Sephis
 NecromancerT-Rav
+Remote
+ReNemesic/Crimdev
+Sulfenir
+SixLuckyBlocks
 Trog
+Tuxxic
 TytoninaeArt
+YoannBB
 
 AND BY USERS LIKE YOU
 Thank you.

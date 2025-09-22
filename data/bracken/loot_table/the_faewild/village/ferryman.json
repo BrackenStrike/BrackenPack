@@ -14,7 +14,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/ability_books/flying_boat",
+			"value": "bracken:item/flying_boat",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.05
@@ -70,28 +70,28 @@
 			}]
 		},{
 			"type": "minecraft:item",
-			"name": "minecraft:birch_sapling",
+			"name": "minecraft:pale_oak_sapling",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.9
 			}]
 		},{
 			"type": "minecraft:item",
-			"name": "minecraft:birch_log",
+			"name": "minecraft:pale_oak_log",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.7
 			}]
 		},{
 			"type": "minecraft:item",
-			"name": "minecraft:birch_slab",
+			"name": "minecraft:pale_oak_planks",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.5
 			}]
 		},{
 			"type": "minecraft:item",
-			"name": "minecraft:birch_boat",
+			"name": "minecraft:ghast_tear",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.4

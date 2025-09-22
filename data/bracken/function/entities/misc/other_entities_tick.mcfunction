@@ -15,6 +15,8 @@ execute if entity @s[tag=bp.construct] run particle minecraft:sneeze ~ ~ ~ 0.5 0
 ## UNDERDARK GIANT BAT 
 execute if entity @s[tag=bp.giant_bat] run function bracken:entities/the_underdark/giant_bat
 
+
+
 ## MIMIC WAKE/SETTLE
 execute if entity @s[tag=bp.mimic_wake] if entity @p[distance=..3,predicate=bracken:survival_like] run function bracken:entities/golem/mimic_wake
 execute if entity @s[tag=bp.mimic_settle] run function bracken:entities/golem/mimic_settle

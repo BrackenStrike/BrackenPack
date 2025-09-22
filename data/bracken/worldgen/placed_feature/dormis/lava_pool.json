@@ -1,0 +1,13 @@
+{
+    "feature": "bracken:dormis/lava_pool",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 1
+        },
+        
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

@@ -10,10 +10,15 @@
     "coordinate_scale": 1,
     "fixed_time": 1000,
     "ambient_light": 0,
+    "cloud_height": 560,
     "logical_height": 100,
     "infiniburn": "#minecraft:infiniburn_brine",
     "min_y": 0,
     "height": 576,
     "monster_spawn_block_light_limit": 0,
-    "monster_spawn_light_level": 7
+    "monster_spawn_light_level": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 14,
+    "min_inclusive": 0
+  }
 }

@@ -11,6 +11,7 @@
     "coordinate_scale": 1,
     "ambient_light": 0,
     "logical_height": 100,
+    "cloud_height": 128,
     "infiniburn": "#minecraft:infiniburn_panacea",
     "min_y": 0,
     "height": 384,

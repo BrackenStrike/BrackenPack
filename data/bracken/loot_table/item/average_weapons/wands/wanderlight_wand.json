@@ -16,6 +16,16 @@
 					
 					
 				}
+			},
+			{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:attack_speed",
+					"id": "bracken:wanderlight_wand",
+					"amount": -3.2,
+					"operation": "add_value",
+					"slot": "hand"
+				}]
 			},{
 				"function": "minecraft:set_name",
 				"target": "item_name",

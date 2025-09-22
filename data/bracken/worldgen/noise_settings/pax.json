@@ -10,7 +10,10 @@
         "Name": "minecraft:smooth_quartz"
     },
     "default_fluid": {
-        "Name": "minecraft:powder_snow"
+        "Name": "minecraft:water",
+        "Properties": {
+            "level": "0"
+        }
     },
     "noise": {
         "min_y": 0,

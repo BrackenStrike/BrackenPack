@@ -57,25 +57,7 @@ scoreboard objectives add bp.piercer_of_heavens minecraft.used:minecraft.bow
 scoreboard objectives add bp.frost_spite_death deathCount
 scoreboard objectives add bp.elytra_dive dummy
 
-#aequor
-scoreboard objectives add bp.aequor_speed dummy
-scoreboard objectives add bp.aequor_haste dummy
-scoreboard objectives add bp.aequor_strength dummy
-scoreboard objectives add bp.aequor_jump_boost dummy
-scoreboard objectives add bp.aequor_regeneration dummy
-scoreboard objectives add bp.aequor_resistance dummy
-scoreboard objectives add bp.aequor_fire_resistance dummy
-scoreboard objectives add bp.aequor_water_breathing dummy
-scoreboard objectives add bp.aequor_invisibility dummy
-scoreboard objectives add bp.aequor_night_vision dummy
-scoreboard objectives add bp.aequor_health_boost dummy
-scoreboard objectives add bp.aequor_absorption dummy
-scoreboard objectives add bp.aequor_saturation dummy
-scoreboard objectives add bp.aequor_luck dummy
-scoreboard objectives add bp.aequor_slow_falling dummy
-scoreboard objectives add bp.aequor_conduit_power dummy
-scoreboard objectives add bp.aequor_dolphins_grace dummy
-scoreboard objectives add bp.aequor_hero_of_the_village dummy
+
 
 #astral potion
 scoreboard objectives add bp.astral_time dummy
@@ -90,6 +72,7 @@ scoreboard objectives add bp.greed_death deathCount
 
 ##########   SPECIES  ##########
 scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
+scoreboard objectives add bp.dimension_check dummy
 
 # Hunters
 scoreboard objectives add bp.hunter_morph dummy
@@ -229,6 +212,18 @@ scoreboard objectives add bp.netherkin_ trigger
 scoreboard objectives add bp.outlander_ trigger
 scoreboard objectives add bp.realmkeeper_ trigger
 scoreboard objectives add bp.villain_ trigger
+
+scoreboard objectives add bp.omnidrome trigger
+scoreboard objectives add bp.glacium trigger
+scoreboard objectives add bp.faewild trigger
+scoreboard objectives add bp.panacea trigger
+scoreboard objectives add bp.underdark trigger
+scoreboard objectives add bp.end trigger
+scoreboard objectives add bp.brine trigger
+scoreboard objectives add bp.nether trigger
+scoreboard objectives add bp.sanctum trigger
+scoreboard objectives add bp.pax trigger
+scoreboard objectives add bp.dormis trigger
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule commandBlockOutput false

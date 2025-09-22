@@ -2,6 +2,7 @@
     "ultrawarm": false,
     "effects": "minecraft:the_nether",
     "natural": false,
+    "cloud_height": 310,
     "piglin_safe": true,
     "respawn_anchor_works": true,
     "bed_works": true,

@@ -1,0 +1,28 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:silverfish_spawn_egg"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Silversteel Shekel"
+		},
+		{
+				"function": "set_enchantments",
+				"enchantments": {
+					"bracken:silvered_fix": 1,"bracken:cleansing_fix": 1
+				}
+			},{
+			"function": "minecraft:set_components",
+			"components": {"minecraft:entity_data": {
+					"id": "minecraft:player"
+				},
+				"minecraft:item_model": "bracken:average_weapons/silversteel/shekel",
+					"minecraft:enchantment_glint_override": false
+			}
+		}]
+	}]
+}

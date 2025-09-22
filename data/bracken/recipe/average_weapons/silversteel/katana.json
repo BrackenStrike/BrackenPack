@@ -8,8 +8,8 @@
 		"components": {
 			"minecraft:item_name": "Silversteel Katana",
 			"minecraft:enchantments": {
-				"bracken:silvered_fix": 1
-			},
+				"bracken:silvered_fix": 1,"bracken:cleansing_fix": 1
+				},
 			"minecraft:enchantment_glint_override": false,
 			"minecraft:item_model": "bracken:average_weapons/silversteel/katana",
 			"minecraft:blocks_attacks": {

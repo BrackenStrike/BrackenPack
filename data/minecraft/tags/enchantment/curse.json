@@ -12,6 +12,7 @@
 	"bracken:quenching_fix",
 	"bracken:chiseling_fix",
 	"bracken:poisoning_fix",
+	"bracken:cleansing_fix",
 	"bracken:freezing_fix",
 	"bracken:sentience_curse_1",
 	"bracken:sentience_curse_2",
@@ -28,6 +29,7 @@
 	"bracken:vitality_fix",
 	"bracken:lethargy_curse",
 	"bracken:dullness_curse",
+	"bracken:instability_curse",
 	"bracken:banishment_fix",
 	"bracken:technical/nightfall"
 ]}

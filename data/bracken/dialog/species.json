@@ -1,0 +1,111 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Pick a Species",
+  "can_close_with_escape":false,
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Choose Wisely! This decision cannot be changed without traveling to far away dimensions!"
+    }
+  ],
+  "columns":3,
+
+  "actions": [
+    {
+      "label": "Human",
+      "tooltip":"Newest soul to the realms. Feels familiar.",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:human"
+    }
+    },
+    {
+      "label": "Faefolk",
+"tooltip":"Elegant and wise. Born from stars, wrapped in silk, and baptized by moonlight.",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:faefolk"
+    }
+    },
+    {
+      "label": "Dweller",
+"tooltip":"Deep beneath the mountains, the roar of forges and songs of ages past echo still.",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:dweller"
+    }
+    },
+    {
+      "label": "Outlander",
+"tooltip":"Survivors of an ancient Armageddon. Nomads in every realm but belonging to none.",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:outlander"
+    }
+    },
+    {
+      "label": "Nereid",
+"tooltip":"Queens and kings of the ocean, wearing crowns of kelp and coral.",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:nereid"
+    }
+    },
+     {
+      "label": "Hunter",
+"tooltip":"Becoming what they eat. By claws, by beak, by teeth.",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:hunter"
+    }
+    },
+    {
+      "label": "Automech",
+"tooltip":"Body of iron. Heart of gold.",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:automech"
+    }
+    },
+    {
+      "label": "Netherkin",
+"tooltip":"Flesh in flame, passion and pain.",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:netherkin"
+    }
+    },
+    {
+      "label": "Frostkin",
+"tooltip":"Snow upon footprints. Soldiers of a fallen empire frozen in time.",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:frostkin"
+    }
+    },
+    {
+      "label": "Realmkeeper",
+"tooltip":"Ageless guardians of peace from the realm of everlasting light.",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:realmkeeper"
+    }
+    },    
+    {
+      "label": "Villain",
+"tooltip":"Counted missing from the great cosmic prison. Ruthlessly hunted. Freer than most.",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:villain"
+    }
+    },    
+    {
+      "label": "Enderling",
+"tooltip":"Judge a book by its ending.",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:enderling"
+    }
+    }
+  ]
+}

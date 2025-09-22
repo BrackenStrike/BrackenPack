@@ -21,6 +21,15 @@
 				"target": "item_name",
 				"name": "Torchflower Wand"
 			},{
+				"function": "minecraft:set_attributes",
+				"modifiers": [{
+					"attribute": "minecraft:attack_speed",
+					"id": "bracken:torchflower_wand",
+					"amount": -3.2,
+					"operation": "add_value",
+					"slot": "hand"
+				}]
+			},{
 				"function": "minecraft:set_custom_data",
 				"tag": {
 					"bp": { "id": "torchflower_wand" }

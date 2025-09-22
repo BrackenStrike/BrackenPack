@@ -14,10 +14,28 @@
         "creature": [],
         "monster": [
             {
-                "type": "minecraft:piglin_brute",
+                "type": "minecraft:zombie_villager",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:stray",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:skeleton",
                 "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
+            },
+            {
+                "type": "minecraft:ravager",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 4
             }
         ]
     },
@@ -78,7 +96,8 @@
               "weight": 1
             }
           ],
-          "music_volume": 1.0
+          "music_volume": 1.0,
+        "ambient_sound": "minecraft:item.elytra.flying"
     },
     "has_precipitation": false
 }

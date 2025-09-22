@@ -80,7 +80,7 @@
             "bracken:faewild/dark_mush"
         ],
         [
-            "bracken:faewild/dark_shrubs"
+            "bracken:faewild/dark_shrubs","minecraft:patch_leaf_litter"
         ],
         [
             "minecraft:spring_water",

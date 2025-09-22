@@ -1,5 +1,5 @@
 execute align xz run tp @s ~0.5 ~0.5 ~0.5
-setblock ~ ~-2 ~ minecraft:structure_block{posY:-9,posX:-22,posZ:-4,powered:0b,mode:"LOAD",name:"bracken:void/cambrian_house"}
+setblock ~ ~-2 ~ minecraft:structure_block{posY:-9,posX:-22,posZ:-4,ignoreEntities:0b,powered:0b,mode:"LOAD",name:"bracken:void/cambrian_house"}
 setblock ~ ~-1 ~ minecraft:redstone_block
 function bracken:remove_forceload
 tag @s add bp.mansion_back

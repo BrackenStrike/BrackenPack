@@ -1,6 +1,17 @@
 {
     "spawners": {
-        "water_ambient": [],
+        "water_ambient": [{
+                "type": "minecraft:salmon",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+        {
+                "type": "minecraft:cod",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            }],
         "ambient": [
             {
                 "type": "minecraft:bat",
@@ -10,20 +21,14 @@
             }
         ],
         "misc": [
-            {
-                "type": "minecraft:pig",
-                "weight": 5,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:hoglin",
-                "weight": 3,
-                "minCount": 4,
-                "maxCount": 4
-            }
+            
         ],
-        "water_creature": [],
+        "water_creature": [{
+                "type": "minecraft:dolphin",
+                "weight": 2,
+                "minCount": 1,
+                "maxCount": 1
+            }],
         "axolotls": [
             {
                 "type": "minecraft:axolotl",
@@ -40,22 +45,29 @@
                 "maxCount": 4
             },
             {
-                "type": "minecraft:hoglin",
-                "weight": 3,
+                "type": "minecraft:llama",
+                "weight": 5,
                 "minCount": 4,
                 "maxCount": 4
             },
+            {
+                "type": "minecraft:ocelot",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:armadillo",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            
             {
                 "type": "minecraft:panda",
                 "weight": 3,
                 "minCount": 1,
                 "maxCount": 1
-            },
-            {
-                "type": "minecraft:creeper",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 3
             }
         ],
         "monster": [
@@ -64,6 +76,12 @@
                 "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
+            },
+            {
+                "type": "minecraft:hoglin",
+                "weight": 3,
+                "minCount": 4,
+                "maxCount": 4
             },
             {
                 "type": "minecraft:skeleton",

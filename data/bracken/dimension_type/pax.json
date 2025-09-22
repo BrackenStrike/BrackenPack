@@ -2,6 +2,7 @@
     "ultrawarm": false,
     "natural": true,
     "piglin_safe": true,
+    "cloud_height": 63,
     "respawn_anchor_works": false,
     "bed_works": true,
     "has_raids": false,

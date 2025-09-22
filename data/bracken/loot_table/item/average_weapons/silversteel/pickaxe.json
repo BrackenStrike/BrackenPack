@@ -32,7 +32,8 @@
 			},{
 				"function": "set_enchantments",
 				"enchantments": {
-					"bracken:silvered_fix": 1
+					"bracken:silvered_fix": 1,"bracken:dentine_touch": 1,"bracken:cleansing_fix": 1
+				
 				}
 			},{
 				"function": "minecraft:set_components",

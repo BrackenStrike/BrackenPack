@@ -2,29 +2,36 @@
     "spawners": {
         "water_ambient": [],
         "ambient": [
-            {
-                "type": "minecraft:bat",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            }
+            
         ],
         "misc": [],
         "water_creature": [],
         "creature": [],
         "monster": [
+            
+            
             {
-                "type": "minecraft:enderman",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
+                "type": "minecraft:bogged",
+                "weight": 2,
+                "minCount": 4,
+                "maxCount": 4
             },
             {
+                "type": "minecraft:ravager",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            
+           
+            
+            {
                 "type": "minecraft:pillager",
-                "weight": 2,
-                "minCount": 1,
-                "maxCount": 1
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
             }
+            
         ]
     },
     "spawn_costs": {},
@@ -35,10 +42,10 @@
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground",
             "bracken:dormis/rock",
-            "bracken:dormis/fire",
+            
             "bracken:dormis/tree"
         ],
-        [],
+        ["bracken:dormis/tracker"],
         [],
         [],
         [],

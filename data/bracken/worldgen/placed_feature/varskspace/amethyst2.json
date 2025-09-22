@@ -1,0 +1,12 @@
+{
+    "feature": "bracken:varskspace/amethyst2",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 12
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

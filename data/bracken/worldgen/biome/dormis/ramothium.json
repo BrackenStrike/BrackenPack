@@ -14,8 +14,32 @@
         "creature": [],
         "monster": [
             {
-                "type": "minecraft:vindicator",
+                "type": "minecraft:skeleton",
                 "weight": 10,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:bogged",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:wither_skeleton",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:vindicator",
+                "weight": 5,
+                "minCount": 1,
+                "maxCount": 1
+            },
+            {
+                "type": "minecraft:stray",
+                "weight": 5,
                 "minCount": 1,
                 "maxCount": 1
             }
@@ -31,7 +55,7 @@
             "bracken:dormis/coral_blob",
             "bracken:dormis/basalt_pillar"
         ],
-        [],
+        ["bracken:dormis/bomb","bracken:dormis/false_bomb"],
         [],
         [],
         [],

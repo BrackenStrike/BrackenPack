@@ -4,8 +4,10 @@
 ##########################################################
 
 # Mobs
-execute if score @s bp.sneakcharge matches ..1 if predicate bracken:periodic/2t run function bracken:entities/sanctum/sanctum_entities
+execute if score @s bp.1_second matches 2 run function bracken:entities/sanctum/sanctum_entities
 #execute at @e[tag=bp.netherite_golem,type=minecraft:wither_skeleton,distance=..30] run function bracken:entities/sanctum/netherite_golem
+
+
 
 # Mansion Spell Book
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:ability_books/mansion/tp_from_mansion/tp_back_setup
@@ -21,6 +23,10 @@ effect give @s[y=230,dy=100] jump_boost 1 7 true
 # Dust Storm
 execute positioned over world_surface if entity @s[predicate=bracken:sanctum_rain,dy=999] run function bracken:dimension_commands/sanctum_dust_storm/dust_storm
 execute if predicate bracken:sanctum_rain run function bracken:dimension_commands/sanctum_dust_storm/dust_storm2
+
+## SANCTUM WHIRLWINDS 
+execute at @e[type=minecraft:breeze,distance=..100,tag=bp.invis] run function bracken:entities/sanctum/whirlwind
+
 
 # travel omniportal
 execute if score @s bp.1_second matches 17 if data storage bracken:config {dimension_travel: true} if entity @e[type=minecraft:item_display,tag=bp.omnidrome_entrance,distance=..4,predicate=bracken:dimensions/sanctum] run function bracken:dimension_commands/other/omniportal

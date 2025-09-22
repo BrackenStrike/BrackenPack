@@ -1,0 +1,32 @@
+{
+	"description": {
+		"translate": "Cleansing",
+		"color": "dark_purple"
+	},
+	"slots": [
+		"mainhand"
+	],
+	"effects": {
+		"minecraft:post_attack": [{
+			"enchanted": "attacker",
+			"affected": "victim",
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "bracken:item/enchantment/silvered"
+			}
+		}]
+	},
+	"max_level": 1,
+"exclusive_set": "#bracken:exclusive_set/all",
+	"supported_items": "#minecraft:enchantable/durability",
+	"weight": 1,
+	"anvil_cost": 0,
+	"min_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	},
+	"max_cost": {
+		"base": 0,
+		"per_level_above_first": 0
+	}
+}

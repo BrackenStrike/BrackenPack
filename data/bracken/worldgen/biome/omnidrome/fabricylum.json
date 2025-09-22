@@ -5,7 +5,17 @@
         "misc": [],
         "water_creature": [],
         "creature": [],
-        "monster": []
+        "monster": [
+          
+          {
+            "type": "minecraft:zombified_piglin",
+            "maxCount": 2,
+            "minCount": 1,
+            "weight": 5
+          }
+        
+        
+           ]
     },
     "spawn_costs": {},
     "carvers": [],

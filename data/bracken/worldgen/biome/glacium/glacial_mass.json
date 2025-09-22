@@ -23,6 +23,7 @@
                 "minCount": 4,
                 "maxCount": 4
             }
+           
         ],
         "monster": [{
             "type": "minecraft:breeze",
@@ -39,7 +40,7 @@
   ],
     
     "features": [
-        [],
+        ["bracken:glacium/topsnow"],
         [
         ],
         [

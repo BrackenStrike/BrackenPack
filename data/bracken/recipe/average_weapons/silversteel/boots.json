@@ -14,8 +14,8 @@
 			},
 			"minecraft:item_name": "Silversteel Boots",
 			"minecraft:enchantments": {
-				"bracken:silvered_fix": 1
-			},
+				"bracken:silvered_fix": 1,"bracken:cleansing_fix": 1
+				},
 			"minecraft:item_model": "bracken:average_weapons/silversteel/boots",
 			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:armor",

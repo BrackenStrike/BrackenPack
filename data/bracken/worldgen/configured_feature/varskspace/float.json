@@ -1,0 +1,72 @@
+{
+    "type": "minecraft:geode",
+    "config": {
+        "blocks": {
+            "alternate_inner_layer_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:crying_obsidian"
+                }
+            },
+            "cannot_replace": "#minecraft:features_cannot_replace",
+            "filling_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:crying_obsidian"
+                }
+            },
+            "inner_layer_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:purple_stained_glass"
+                }
+            },
+            "inner_placements": [
+                {
+                    "Name": "minecraft:blue_stained_glass"
+                }
+            ],
+            "invalid_blocks": "#minecraft:features_cannot_replace",
+            "middle_layer_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:ice"
+                }
+            },
+            "outer_layer_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:light_blue_stained_glass"
+                }
+            }
+        },
+        "crack": {
+            "base_crack_size": 3,
+            "crack_point_offset": 2,
+            "generate_crack_chance": 0
+        },
+        "distribution_points": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 1,
+            "max_inclusive": 3
+        },
+        "invalid_blocks_threshold": 255,
+        "layers": {
+            "filling": 3,
+            "inner_layer": 5,
+            "middle_layer": 7,
+            "outer_layer": 9
+        },
+        "max_gen_offset": 15,
+        "min_gen_offset": -15,
+        "noise_multiplier": 0.0,
+        "placements_require_layer0_alternate": true,
+        "point_offset": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 5,
+            "max_inclusive": 8
+        },
+        "use_alternate_layer0_chance": 0.085,
+        "use_potential_placements_chance": 0.35
+    }
+}

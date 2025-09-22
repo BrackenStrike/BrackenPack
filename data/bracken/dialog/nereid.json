@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "Nereid Details",
+  "can_close_with_escape": true,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item":{
+        "id":"minecraft:sheep_spawn_egg",
+        "count":1,
+        "components":{
+          "minecraft:enchantment_glint_override":false,
+          "minecraft:item_model": "bracken:the_brine/lustra_pearl"
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "2 blocks tall, bonus step height"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "13 hearts"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Can hold breath underwater for 25 minutes, increased block breaking speed in water"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "+Permanent night vision and dolphin's grace effects"
+    },
+        
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Granted regeneration effect from activated conduits"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "-Reduced movement speed and increased gravity on land"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "-Granted weakness effect in hot biomes or dimensions"
+    }
+  ],
+  "yes": {
+    "label": "Yes",
+  
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:brine"
+    }
+  },
+  "no": {
+    "label": "No, take me back",
+  
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:species"
+    }
+  }
+}

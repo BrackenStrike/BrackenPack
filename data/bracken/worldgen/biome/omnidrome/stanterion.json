@@ -5,7 +5,25 @@
         "misc": [],
         "water_creature": [],
         "creature": [],
-        "monster": []
+        "monster": [
+          {
+            "type": "minecraft:pillager",
+            "maxCount": 2,
+            "minCount": 1,
+            "weight": 15
+          },
+          {
+            "type": "minecraft:husk",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 1
+          }
+        
+          
+        
+          
+        
+        ]
     },
     "spawn_costs": {},
     "carvers": [],

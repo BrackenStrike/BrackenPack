@@ -8,7 +8,7 @@
 	],
 	"key": {
 		"#": "minecraft:creeper_spawn_egg",
-		"/": "minecraft:leather_chestplate"
+		"/": "minecraft:leather_helmet"
 	},
 	"result": {
 		"id": "minecraft:leather_helmet",

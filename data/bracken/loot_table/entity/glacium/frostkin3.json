@@ -3,13 +3,13 @@
         
         {
             "rolls": {
-                "min": 3,
-                "max": 7
+                "min": 2,
+                "max": 3
             },
             "entries": [
                 {
-                    "type": "minecraft:item",
-                    "name": "minecraft:iron_nugget"
+                    "type": "minecraft:loot_table",
+			"value": "bracken:item/average_weapons/diamond/shard"
                 }
             ],
             "conditions": [

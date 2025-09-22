@@ -76,7 +76,7 @@
 				"parameters": {
 					"temperature": -1,
 					"humidity": -0.9,
-					"continentalness": 0,
+					"continentalness": 0.5,
 					"erosion": 0,
 					"weirdness": 0,
 					"depth": 0,
@@ -133,6 +133,18 @@
 					"humidity": 1,
 					"continentalness": 0,
 					"erosion": 0.3,
+					"weirdness": 0,
+					"depth": 0,
+					"offset": 0.3
+				}
+			},
+		{
+				"biome": "bracken:panacea/conure_conclave",
+				"parameters": {
+					"temperature": -1,
+					"humidity": 0.9,
+					"continentalness": 0.5,
+					"erosion": 0,
 					"weirdness": 0,
 					"depth": 0,
 					"offset": 0.3

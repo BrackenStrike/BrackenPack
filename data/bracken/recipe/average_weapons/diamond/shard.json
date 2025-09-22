@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"#"
+	],
+	"key": {
+		"#": "minecraft:diamond"
+	},
+	"result": {
+		"id": "minecraft:cod_spawn_egg",
+		"count": 9,
+		"components": {
+			"minecraft:item_name": "Diamond Shard",
+			"minecraft:entity_data": {
+				"id": "minecraft:player"
+			},
+			"minecraft:item_model": "bracken:average_weapons/diamond/shard"
+		}
+	}
+}
+

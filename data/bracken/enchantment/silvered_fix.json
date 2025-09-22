@@ -4,7 +4,8 @@
 		"color": "dark_purple"
 	},
 	"anvil_cost": 1000,
-	"effects": { "minecraft:damage": [
+	"effects": {
+		"minecraft:damage": [
 		{
 		  "effect": {
 			"type": "minecraft:add",
@@ -23,6 +24,8 @@
 		  }
 		}
 	  ],
+	  
+	
 		 "minecraft:damage_protection": [
       {
         "effect": {

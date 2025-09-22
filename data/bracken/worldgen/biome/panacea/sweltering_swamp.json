@@ -53,7 +53,7 @@
                 "maxCount": 4
             },
             {
-                "type": "minecraft:hoglin",
+                "type": "minecraft:mule",
                 "weight": 5,
                 "minCount": 4,
                 "maxCount": 4
@@ -86,6 +86,12 @@
         "monster": [
             {
                 "type": "minecraft:slime",
+                "weight": 1,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:hoglin",
                 "weight": 1,
                 "minCount": 4,
                 "maxCount": 4
@@ -139,7 +145,7 @@
             "minecraft:red_mushroom_taiga",
             "minecraft:trees_swamp",
             "minecraft:trees_old_growth_spruce_taiga",
-            "minecraft:patch_tall_grass_2"
+            "minecraft:patch_tall_grass_2","minecraft:patch_leaf_litter"
         ],
         [
             "minecraft:flower_swamp",

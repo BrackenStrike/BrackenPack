@@ -5,9 +5,11 @@
         "bracken:antivenom",
         "bracken:astuteness_fix",
         "bracken:banishment_fix",
+        "bracken:blinding_fix",
         "bracken:boldness",
         "bracken:butchering",
         "bracken:chiseling_fix",
+        "bracken:cleaving",
         "bracken:decaying_fix",
         "bracken:defusing",
 
@@ -22,8 +24,10 @@
         "bracken:freezing_fix",
         "bracken:guarding",
         "bracken:huskiness",
+        "bracken:infused_fire_aspect_fix",
         "bracken:infused_frost_walker_fix",
         "bracken:infused_mending_fix",
+        "bracken:infused_thorns_fix",
         "bracken:integrity_fix",
         "bracken:lethargy_curse",
         "bracken:lifesteal",
@@ -54,7 +58,9 @@
         "bracken:obliteration",
         "bracken:trampling",
         "bracken:vitality_fix",
+        "bracken:weakening_fix",
         "bracken:wisdom",
+        "bracken:withering_fix",
 
 
 

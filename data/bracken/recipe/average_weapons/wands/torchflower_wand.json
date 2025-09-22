@@ -15,6 +15,13 @@
 			"minecraft:item_name": "Torchflower Wand",
 			"minecraft:item_model": "bracken:average_weapons/wands/torchflower_wand",
 			"minecraft:enchantment_glint_override": false,
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:attack_speed",
+					"id": "bracken:torchflower_wand",
+					"amount": -3.2,
+					"operation": "add_value",
+					"slot": "hand"
+				}],
 			
 
 			"minecraft:custom_data": {

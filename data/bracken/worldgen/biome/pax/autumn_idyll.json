@@ -12,6 +12,12 @@
                 "maxCount": 4
             },
             {
+                "type": "minecraft:happy_ghast",
+                "weight": 120,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
                 "type": "minecraft:cow",
                 "weight": 10,
                 "minCount": 4,
@@ -52,7 +58,7 @@
             "minecraft:disk_gravel"
         ],
         [
-            "minecraft:trees_flower_forest"
+            "minecraft:trees_flower_forest","minecraft:patch_leaf_litter"
         ],
         [],
         [

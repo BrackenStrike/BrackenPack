@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": "minecraft:sheep_spawn_egg"
+	},"result": {
+		"id": "minecraft:petrified_oak_slab",
+		"components": {
+			
+			"minecraft:item_name": "Block of Lustra",
+			"minecraft:item_model": "bracken:average_weapons/lustra/block",
+			"minecraft:block_state": {"type":"double"}
+		}
+	}
+}

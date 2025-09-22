@@ -1,0 +1,30 @@
+{
+    "pools": [
+        
+        {
+            "rolls": {
+                "min": 0,
+                "max": 20
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bone"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.85
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:loot_table",
+			"value": "bracken:item/panacea/yakitubba_hide"
+            }]
+        }
+    ]
+}
