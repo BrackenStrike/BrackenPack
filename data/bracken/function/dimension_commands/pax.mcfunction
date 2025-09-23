@@ -3,8 +3,6 @@
 # Creators: Bracken
 ##########################################################
 
-scoreboard players set @s bp.pax 10
-
 # Effects
 effect give @s[scores={bp.food=..18}] minecraft:saturation 1 0 true
 
