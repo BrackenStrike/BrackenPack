@@ -2,7 +2,7 @@
     "type": "minecraft:jigsaw",
     "biomes": "bracken:glacium/destitute_garrison",
     "spawn_overrides": {},
-    "start_pool": "bracken:glacium_foxes",
+    "start_pool": "bracken:custom_mobs/glacium_foxes",
     "size": 6,
     "step": "surface_structures",
     "start_height": {

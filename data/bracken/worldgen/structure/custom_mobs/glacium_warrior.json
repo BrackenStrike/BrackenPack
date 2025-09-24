@@ -2,7 +2,7 @@
     "type": "minecraft:jigsaw",
     "biomes": "bracken:glacium/invasive_forest",
     "spawn_overrides": {},
-    "start_pool": "bracken:glacium_warrior",
+    "start_pool": "bracken:custom_mobs/glacium_warrior",
     "size": 6,
     "step": "surface_structures",
     "start_height": {
