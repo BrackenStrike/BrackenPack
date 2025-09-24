@@ -1,14 +1,14 @@
 {
     "structures": [
         {
-            "structure": "bracken:pax_crofter",
+            "structure": "bracken:custom_mobs/glacium_warrior",
             "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 18,
-        "separation": 17,
-        "salt": 90129427
+        "spacing": 30,
+        "separation": 16,
+        "salt": 989084
     }
 }

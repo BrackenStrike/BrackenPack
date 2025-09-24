@@ -1,6 +1,11 @@
 {
     "spawners": {
-        "water_ambient": [],
+        "water_ambient": [ {
+            "type": "minecraft:cod",
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 3
+        }],
         "ambient": [],
         "misc": [],
         "water_creature": [],
