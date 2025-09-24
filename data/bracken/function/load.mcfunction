@@ -115,8 +115,8 @@ scoreboard objectives add bp.overworld dummy
 # Faewild
 scoreboard objectives add bp.fae dummy
 
-# Pax
-scoreboard objectives add bp.pax dummy
+# Remove old "bp.pax" dummy objective to allow "bp.pax" trigger (below) to instantiate properly in older worlds
+scoreboard objectives remove bp.pax
 
 # The Brine
 scoreboard objectives add bp.brine_potion dummy

@@ -108,9 +108,6 @@ scoreboard objectives remove bp.overworld
 # Faewild
 scoreboard objectives remove bp.fae
 
-# Pax
-scoreboard objectives remove bp.pax
-
 # The Brine
 scoreboard objectives remove bp.brine_potion
 
@@ -196,3 +193,15 @@ scoreboard objectives remove bp.netherkin_
 scoreboard objectives remove bp.outlander_
 scoreboard objectives remove bp.realmkeeper_
 scoreboard objectives remove bp.villain_
+
+scoreboard objectives remove bp.omnidrome
+scoreboard objectives remove bp.glacium
+scoreboard objectives remove bp.faewild
+scoreboard objectives remove bp.panacea
+scoreboard objectives remove bp.underdark
+scoreboard objectives remove bp.end
+scoreboard objectives remove bp.brine
+scoreboard objectives remove bp.nether
+scoreboard objectives remove bp.sanctum
+scoreboard objectives remove bp.pax
+scoreboard objectives remove bp.dormis
