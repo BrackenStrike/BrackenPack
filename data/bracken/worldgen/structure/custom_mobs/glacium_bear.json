@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:glacium/boreal_frontier",
+    "biomes": ["bracken:glacium/boreal_frontier","bracken:glacium/invasive_forest"],
     "spawn_overrides": {},
     "start_pool": "bracken:custom_mobs/glacium_bear",
     "size": 6,

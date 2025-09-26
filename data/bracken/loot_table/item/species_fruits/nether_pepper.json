@@ -1,0 +1,25 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:beetroot"
+		}],
+		"functions": [{
+			"function": "minecraft:set_name",
+			"target": "item_name",
+			"name": "Netherkin Fruit"
+		},
+		{
+			"function": "minecraft:set_components",
+			"components": {
+				"minecraft:item_model": "bracken:species_fruit/nether_pepper",
+				"minecraft:food": {
+					"nutrition": 4,
+					"saturation": 2.4,
+					"can_always_eat": true
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    "minecraft:chorus_fruit"
+  ],
+  "result": {
+    "id": "minecraft:popped_chorus_fruit",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 1.6,
+        "animation": "eat",
+        "has_consume_particles": true
+      },
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 9.6,
+        "can_always_eat": true
+      }
+    }
+  },
+  "cookingtime": 200
+}

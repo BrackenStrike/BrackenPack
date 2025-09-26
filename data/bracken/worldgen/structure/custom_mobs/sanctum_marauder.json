@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:sanctum/rubblework_city",
+    "biomes": ["bracken:sanctum/rubblework_city","bracken:sanctm/toxic_playa"],
     "spawn_overrides": {},
     "start_pool": "bracken:sanctum_marauder",
     "size": 6,
