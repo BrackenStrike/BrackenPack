@@ -14,7 +14,7 @@
         {
             "weight": 1,
             "element": {
-                "location": "bracken:sanctum/sanctum_post",
+                "location": "bracken:custom_mobs/sanctum_post",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:legacy_single_pool_element"
