@@ -2,6 +2,11 @@
   "values": [
     "minecraft:cobblestone",
     "minecraft:blackstone",
-    "minecraft:cobbled_deepslate"
+    "minecraft:cobbled_deepslate",
+    "minecraft:end_stone",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:smooth_quartz"
   ]
 }

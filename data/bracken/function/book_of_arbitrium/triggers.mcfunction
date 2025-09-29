@@ -40,6 +40,6 @@ execute if entity @s[scores={bp.panacea=1..}] run function bracken:book_of_arbit
 execute if entity @s[scores={bp.brine=1..}] run function bracken:book_of_arbitrium/set_home_dimension/brine1
 execute if entity @s[scores={bp.nether=1..}] run function bracken:book_of_arbitrium/set_home_dimension/nether1
 execute if entity @s[scores={bp.sanctum=1..}] run function bracken:book_of_arbitrium/set_home_dimension/sanctum1
-execute if entity @s[scores={bp.pax=1..}] run function bracken:book_of_arbitrium/set_home_dimension/pax1
+execute if entity @s[scores={bp.paxtravel=1..}] run function bracken:book_of_arbitrium/set_home_dimension/pax1
 execute if entity @s[scores={bp.dormis=1..}] run function bracken:book_of_arbitrium/set_home_dimension/dormis1
 

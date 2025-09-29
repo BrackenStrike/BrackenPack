@@ -115,8 +115,8 @@ scoreboard objectives add bp.overworld dummy
 # Faewild
 scoreboard objectives add bp.fae dummy
 
-# Remove old "bp.pax" dummy objective to allow "bp.pax" trigger (below) to instantiate properly in older worlds
-scoreboard objectives remove bp.pax
+# scoreboard used for Pax entites like launchpad and crofter singing
+scoreboard objectives add bp.pax
 
 # The Brine
 scoreboard objectives add bp.brine_potion dummy
@@ -222,7 +222,7 @@ scoreboard objectives add bp.end trigger
 scoreboard objectives add bp.brine trigger
 scoreboard objectives add bp.nether trigger
 scoreboard objectives add bp.sanctum trigger
-scoreboard objectives add bp.pax trigger
+scoreboard objectives add bp.paxtravel trigger
 scoreboard objectives add bp.dormis trigger
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
