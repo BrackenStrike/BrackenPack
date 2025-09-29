@@ -116,7 +116,7 @@ scoreboard objectives add bp.overworld dummy
 scoreboard objectives add bp.fae dummy
 
 # scoreboard used for Pax entites like launchpad and crofter singing
-scoreboard objectives add bp.pax
+scoreboard objectives add bp.pax dummy
 
 # The Brine
 scoreboard objectives add bp.brine_potion dummy
