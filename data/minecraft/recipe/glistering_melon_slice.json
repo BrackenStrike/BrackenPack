@@ -14,31 +14,31 @@
     "count": 1,
     "id": "minecraft:glistering_melon_slice",
     "components": {
-      "minecraft:consumable": {
-        "consume_seconds": 1.6,
-        "animation": "eat",
-        "has_consume_particles": true
-      },
       "minecraft:food": {
-        "nutrition": 3,
-        "saturation": 7.6,
-        "can_always_eat": true,
+        "nutrition": 6,
+        "saturation": 7.2,
+        "can_always_eat": true
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 0.5,
+        "animation": "eat",
         "on_consume_effects": [
           {
             "type": "minecraft:apply_effects",
             "effects": [
               {
-                "id": "minecraft:instant_health",
-                "amplifier": 1,
-                "duration": 2
+                "id": "minecraft:regeneration",
+                "amplifier": 0,
+                "duration": 40,
+                "ambient": true,
+                "show_particles": true,
+                "show_icon": true
               }
-            ]
+            ],
+            "probability": 1
           }
         ]
-
-
       }
     }
   }
 }
-  
