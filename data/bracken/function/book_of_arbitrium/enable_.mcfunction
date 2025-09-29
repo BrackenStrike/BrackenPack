@@ -26,5 +26,5 @@ scoreboard players enable @s bp.panacea
 scoreboard players enable @s bp.brine
 scoreboard players enable @s bp.nether
 scoreboard players enable @s bp.sanctum
-scoreboard players enable @s bp.pax
+scoreboard players enable @s bp.paxtravel
 scoreboard players enable @s bp.dormis
