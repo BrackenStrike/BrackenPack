@@ -1,0 +1,72 @@
+{
+    "type": "minecraft:geode",
+    "config": {
+        "blocks": {
+            "alternate_inner_layer_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:mud"
+                }
+            },
+            "cannot_replace": "#minecraft:features_cannot_replace",
+            "filling_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:mud"
+                }
+            },
+            "inner_layer_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:mud"
+                }
+            },
+            "inner_placements": [
+                {
+                    "Name": "minecraft:mud"
+                }
+            ],
+            "invalid_blocks": "#minecraft:features_cannot_replace",
+            "middle_layer_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:mud"
+                }
+            },
+            "outer_layer_provider": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                    "Name": "minecraft:muddy_mangrove_roots"
+                }
+            }
+        },
+        "crack": {
+            "base_crack_size": 3,
+            "crack_point_offset": 2,
+            "generate_crack_chance": 0
+        },
+        "distribution_points": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 3,
+            "max_inclusive": 3
+        },
+        "invalid_blocks_threshold": 255,
+        "layers": {
+            "filling": 1,
+            "inner_layer": 3,
+            "middle_layer": 5,
+            "outer_layer": 7
+        },
+        "max_gen_offset": 15,
+        "min_gen_offset": -15,
+        "noise_multiplier": 0.035,
+        "placements_require_layer0_alternate": true,
+        "point_offset": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 5,
+            "max_inclusive": 8
+        },
+        "use_alternate_layer0_chance": 0.085,
+        "use_potential_placements_chance": 0.35
+    }
+}

@@ -12,5 +12,6 @@ function bracken:player/reset_bossbars
 execute if block ~ ~-1 ~ minecraft:beacon run function bracken:dimension_commands/other/beacon_portal
 
 # Rain elytra
-execute if predicate bracken:rain positioned over motion_blocking if entity @s[dy=999,predicate=bracken:item/wearing_elytra] run scoreboard players set @s bp.elytra_dive 10
+#execute if predicate bracken:rain positioned over motion_blocking if entity @s[dy=999,predicate=bracken:item/flying_elytra] run scoreboard players set @s bp.elytra_dive 50
+scoreboard players set @s[predicate=bracken:item/flying_elytra] bp.elytra_dive 50
 

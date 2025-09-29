@@ -1,5 +1,5 @@
 {
-    "feature": "bracken:brine/float",
+    "feature": "bracken:brine/float2",
     "placement": [
         
         {
@@ -10,8 +10,8 @@
             "type": "minecraft:random_offset",
             "xz_spread": {
                 "type": "minecraft:uniform",
-                "min_inclusive": 10,
-                "max_inclusive": 36
+                "min_inclusive": 4,
+                "max_inclusive": 26
             },
             "y_spread": 0
         },
