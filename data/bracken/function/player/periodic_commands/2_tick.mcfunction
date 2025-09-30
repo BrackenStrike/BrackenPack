@@ -15,6 +15,7 @@ scoreboard players remove @s bp.obsidian 1
 
 scoreboard players remove @s[scores={bp.pull=1..}] bp.pull 1
 scoreboard players remove @s[scores={bp.elytra_dive=1..}] bp.elytra_dive 1
+scoreboard players set @s[predicate=bracken:item/no_flying_elytra,scores={bp.elytra_dive=1..}] bp.elytra_dive 0
 
 
 scoreboard players add @s[predicate=bracken:sneak] bp.sneakcharge 4

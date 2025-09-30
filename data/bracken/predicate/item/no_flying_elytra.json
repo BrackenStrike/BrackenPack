@@ -1,0 +1,22 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:weather_check",
+      "raining": false
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "location": {
+          "can_see_sky": false
+        },
+        "flags": {
+          "is_on_ground": true,
+          "is_flying": false
+        }
+      }
+    }
+  ]
+}
