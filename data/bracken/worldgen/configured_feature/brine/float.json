@@ -5,7 +5,7 @@
             "alternate_inner_layer_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:magma_block"
+                    "Name": "minecraft:blackstone"
                 }
             },
             "cannot_replace": "#minecraft:features_cannot_replace",
@@ -18,7 +18,7 @@
             "inner_layer_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:magma_block"
+                    "Name": "minecraft:lava"
                 }
             },
             "inner_placements": [
@@ -36,7 +36,7 @@
             "outer_layer_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:magma_block"
+                    "Name": "minecraft:blackstone"
                 }
             }
         },
