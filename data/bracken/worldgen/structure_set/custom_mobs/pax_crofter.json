@@ -1,14 +1,14 @@
 {
     "structures": [
         {
-            "structure": "bracken:sanctum_wolf",
+            "structure": "bracken:custom_mobs/pax_crofter",
             "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 20,
-        "separation": 6,
-        "salt": 9189842
+        "spacing": 18,
+        "separation": 17,
+        "salt": 90129427
     }
 }

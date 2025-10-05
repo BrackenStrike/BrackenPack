@@ -26,5 +26,5 @@ scoreboard players reset @s bp.panacea
 scoreboard players reset @s bp.brine
 scoreboard players reset @s bp.nether
 scoreboard players reset @s bp.sanctum
-scoreboard players reset @s bp.pax
+scoreboard players reset @s bp.paxtravel
 scoreboard players reset @s bp.dormis

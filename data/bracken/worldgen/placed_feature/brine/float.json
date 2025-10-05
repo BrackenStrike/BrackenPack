@@ -1,0 +1,38 @@
+{
+    "feature": "bracken:brine/float",
+    "placement": [
+        
+        {
+            "type": "minecraft:count",
+            "count": 1
+        },
+        {
+            "type": "minecraft:count",
+            "count": 1
+        },
+        {
+            "type": "minecraft:random_offset",
+            "xz_spread": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 8,
+                "max_inclusive": 16
+            },
+            "y_spread": 0
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "absolute": 200
+                },
+                "max_inclusive": {
+                    "absolute": 447
+                }
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

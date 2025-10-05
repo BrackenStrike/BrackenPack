@@ -127,7 +127,7 @@
             "bracken:panacea/mega_mangrove"
         ],
         [
-            "bracken:brine/moss"
+            "bracken:brine/moss","bracken:brine/float2"
         ],
         [
             "minecraft:patch_tall_grass_2",

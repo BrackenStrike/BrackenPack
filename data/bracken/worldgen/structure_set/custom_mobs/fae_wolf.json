@@ -1,7 +1,7 @@
 {
     "structures": [
         {
-            "structure": "bracken:fae_wolf",
+            "structure": "bracken:custom_mobs/fae_wolf",
             "weight": 1
         }
     ],

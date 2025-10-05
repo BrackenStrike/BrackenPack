@@ -1,14 +1,14 @@
 {
     "structures": [
         {
-            "structure": "bracken:sanctum_marauder",
+            "structure": "bracken:custom_mobs/glacium_foxes",
             "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 4,
-        "separation": 1,
-        "salt": 918908482
+        "spacing": 20,
+        "separation": 6,
+        "salt": 91890842
     }
 }

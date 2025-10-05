@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": ["bracken:glacium/fractured_wastes","bracken:glacium/invasive_forest"],
+    "spawn_overrides": {},
+    "start_pool": "bracken:custom_mobs/glacium_puffins",
+    "size": 6,
+    "step": "surface_structures",
+    "start_height": {
+        "absolute": 12
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 80,
+    "use_expansion_hack": false
+}

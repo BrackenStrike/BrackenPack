@@ -36,7 +36,7 @@
     "tooltip":"A more \"peaceful\" beginning",
       "action": {
         "type": "run_command",
-        "command": "trigger bp.pax"
+        "command": "trigger bp.paxtravel"
     }
   }
 }

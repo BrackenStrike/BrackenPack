@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:omnidrome/stanterion",
+    "biomes": "bracken:omnidrome/malvergent_zone",
     "spawn_overrides": {},
     "start_pool": "bracken:omnidrome_observatory",
     "size": 6,
