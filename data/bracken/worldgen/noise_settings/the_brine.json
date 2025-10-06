@@ -179,7 +179,7 @@
             "xz_scale": 1.0,
             "y_scale": 0.7142857142857143
         },
-        "initial_density_without_jaggedness": {
+        "preliminary_surface_level": {
             "type": "minecraft:add",
             "argument1": 4.0,
             "argument2": {
