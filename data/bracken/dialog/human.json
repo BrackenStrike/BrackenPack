@@ -31,7 +31,7 @@
   
       "action": {
         "type": "run_command",
-        "command": "trigger bp.human"
+        "command": "trigger bp.human_"
     }
   },
   "no": {
