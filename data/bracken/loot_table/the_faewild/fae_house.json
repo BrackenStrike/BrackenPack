@@ -46,11 +46,11 @@
 				"chance": 0.1
 			}]
 		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/copper/axe",
+			"type": "minecraft:item",
+			"name": "minecraft:copper_axe",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.8
 			}]
 		},{
 			"type": "minecraft:item",
