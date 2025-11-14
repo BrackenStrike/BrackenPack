@@ -3,10 +3,5 @@
 		"description": "By BrackenStrike!",
 		"min_format": [88,0],
 		"max_format": [88,0]
-	},
-	"overlays": { "entries": [{
-		"directory": "example_overlay",
-		"min_format": [88,0],
-		"max_format": [88,0]
-	}]}
+	}
 }
