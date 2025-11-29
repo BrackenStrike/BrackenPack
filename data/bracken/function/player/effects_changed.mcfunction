@@ -8,7 +8,7 @@
 
 
 execute if predicate bracken:effect_permanence/fire_resistance run effect give @s minecraft:fire_resistance infinite 0 true
-execute if predicate bracken:effect_permanence/hero_of_the_village_5 run effect give @s minecraft:hero_of_the_village infinite 4 true
+
 
 execute if predicate bracken:effect_permanence/invisibility run effect give @s minecraft:invisibility infinite 0 true
 execute if predicate bracken:effect_permanence/night_vision run effect give @s minecraft:night_vision infinite 0 true

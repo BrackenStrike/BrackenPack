@@ -13,6 +13,6 @@ execute if data storage bracken:config {teams_on:true} run team join Human
 
 attribute @s minecraft:luck modifier add bracken:human.luck 2 add_value
 
-function bracken:player/effects_changed
+#function bracken:player/effects_changed
 
 return 1
