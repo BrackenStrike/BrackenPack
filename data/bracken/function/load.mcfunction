@@ -10,15 +10,9 @@ scoreboard objectives add bp.5_min_tick dummy
 function bracken:math/load
 
 #Boss Init
-function bracken:entities/boss/solatium_thrall/load
-function bracken:entities/boss/bygone_viceroy/load
-function bracken:entities/boss/the_disruptor/load
+
 function bracken:entities/boss/ostiarius/load
-function bracken:entities/boss/sporangium/load
-function bracken:entities/boss/unsung/load
-function bracken:entities/boss/kraken/load
-function bracken:entities/boss/fae_emperor/load
-function bracken:entities/panacea/load
+
 
 ##########   ADD SCOREBOARD OBJECTIVES   ##########
 scoreboard objectives add bp.food food
@@ -74,16 +68,12 @@ scoreboard objectives add bp.greed_death deathCount
 scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
 scoreboard objectives add bp.dimension_check dummy
 
-# Hunters
-scoreboard objectives add bp.hunter_morph dummy
+
 
 # Outlanders
 scoreboard objectives add bp.outlander_charge dummy
 
-# Realmkeepers
-scoreboard objectives add bp.gold dummy
-scoreboard objectives add bp.armor armor
-scoreboard objectives add bp.absorption dummy
+
 
 ##########   CONFIG MENU  ##########
 execute unless data storage bracken:config {nether_height: incendium} run data merge storage bracken:config {nether_height: normal}
@@ -112,39 +102,18 @@ scoreboard objectives add bp.zz_rotation dummy
 # Overworld
 scoreboard objectives add bp.overworld dummy
 
-# Faewild
-scoreboard objectives add bp.fae dummy
 
-# scoreboard used for Pax entites like launchpad and crofter singing
-scoreboard objectives add bp.pax dummy
 
-# The Brine
-scoreboard objectives add bp.brine_potion dummy
-scoreboard objectives add bp.conduit dummy
 
-# Glacium
-scoreboard objectives add bp.ice dummy
 
-scoreboard objectives add bp.spawn_loading dummy
-scoreboard players set #1 bp.spawn_loading 1
-scoreboard objectives add bp.omni_flight dummy
-scoreboard objectives add bp.omni_sprint dummy
 
-# Void
-scoreboard objectives add bp.voidtp dummy
 
-# Varskspace
-data merge storage bracken:var {varskstorm:{stage:0}}
-scoreboard objectives add bp.varskstorm dummy
-scoreboard players set #cooldown bp.varskstorm 0
-scoreboard players set #repeat bp.varskstorm 0
 
-##########   PAX PORTAL   ##########
-scoreboard objectives add bp.portal_R dummy
-scoreboard objectives add bp.portal_G dummy
-scoreboard objectives add bp.portal_B dummy
-scoreboard objectives add bp.portal_W dummy
-scoreboard objectives add bp.portal dummy
+
+
+
+
+
 
 ##########   ABILITY BOOKS   ##########
 scoreboard objectives add bp.giant dummy
@@ -187,43 +156,30 @@ function bracken:dimension_commands/omni_powers/trigger_commands/add_other_comma
 
 ##########   SPECIES BOOKS   ##########
 scoreboard objectives add bp.arb_book dummy
-scoreboard objectives add bp.automech trigger
-scoreboard objectives add bp.frostkin trigger
-scoreboard objectives add bp.faefolk trigger
+
 scoreboard objectives add bp.human trigger
-scoreboard objectives add bp.hunter trigger
-scoreboard objectives add bp.dweller trigger
+
 scoreboard objectives add bp.enderling trigger
-scoreboard objectives add bp.nereid trigger
+
 scoreboard objectives add bp.netherkin trigger
 scoreboard objectives add bp.outlander trigger
-scoreboard objectives add bp.realmkeeper trigger
-scoreboard objectives add bp.villain trigger
 
-scoreboard objectives add bp.automech_ trigger
-scoreboard objectives add bp.frostkin_ trigger
-scoreboard objectives add bp.faefolk_ trigger
+
+
 scoreboard objectives add bp.human_ trigger
-scoreboard objectives add bp.hunter_ trigger
-scoreboard objectives add bp.dweller_ trigger
+
 scoreboard objectives add bp.enderling_ trigger
-scoreboard objectives add bp.nereid_ trigger
+
 scoreboard objectives add bp.netherkin_ trigger
 scoreboard objectives add bp.outlander_ trigger
-scoreboard objectives add bp.realmkeeper_ trigger
-scoreboard objectives add bp.villain_ trigger
 
-scoreboard objectives add bp.omnidrome trigger
-scoreboard objectives add bp.glacium trigger
-scoreboard objectives add bp.faewild trigger
-scoreboard objectives add bp.panacea trigger
-scoreboard objectives add bp.underdark trigger
+
+
 scoreboard objectives add bp.end trigger
-scoreboard objectives add bp.brine trigger
+
 scoreboard objectives add bp.nether trigger
 scoreboard objectives add bp.sanctum trigger
-scoreboard objectives add bp.paxtravel trigger
-scoreboard objectives add bp.dormis trigger
+
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule commandBlockOutput false
