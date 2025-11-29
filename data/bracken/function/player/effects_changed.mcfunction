@@ -16,7 +16,7 @@ execute if predicate bracken:effect_permanence/night_vision run effect give @s m
 
 #Enforce Effect Immunities
 
-execute if predicate bracken:effect_immunity/hero_of_the_village run effect clear @s minecraft:hero_of_the_village
+
 
 execute if predicate bracken:effect_immunity/invisibility run effect clear @s minecraft:invisibility
 
