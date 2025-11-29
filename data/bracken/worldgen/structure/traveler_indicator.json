@@ -4,16 +4,9 @@
         "minecraft:savanna_plateau",
         "minecraft:warped_forest",
         "minecraft:end_midlands",
-        "bracken:glacium/boreal_frontier",
-        "bracken:omnidrome/stanterion",
-        "bracken:panacea/hungering_jungle",
-        "bracken:pax/cenotaph",
-        "bracken:sanctum/dark_soot_dunes",
-        "bracken:the_brine/sponge_ranch",
-        "bracken:the_faewild/dreamfall_dells",
-        "bracken:the_faewild/wanderlight_woods",
-        "bracken:the_underdark/crystal_caves",
-        "bracken:void/void"
+
+        "bracken:sanctum/dark_soot_dunes"
+
     ],
     "spawn_overrides": {},
     "start_pool": "bracken:spire",

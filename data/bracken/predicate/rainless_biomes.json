@@ -43,27 +43,7 @@
 	},{
 		"condition": "minecraft:location_check",
 		"predicate": {
-			"dimension": "bracken:dormis"
-		}
-	},{
-		"condition": "minecraft:location_check",
-		"predicate": {
 			"dimension": "bracken:sanctum"
-		}
-	},{
-		"condition": "minecraft:location_check",
-		"predicate": {
-			"dimension": "bracken:omnidrome"
-		}
-	},{
-		"condition": "minecraft:location_check",
-		"predicate": {
-			"dimension": "bracken:varskspace"
-		}
-	},{
-		"condition": "minecraft:location_check",
-		"predicate": {
-			"dimension": "bracken:pax"
 		}
 	}]
 }

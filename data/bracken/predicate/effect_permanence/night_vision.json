@@ -3,14 +3,6 @@
 	"terms": [{
 		"condition": "entity_properties",
 		"entity": "this",
-		"predicate": { "nbt": "{Tags:[\"bp.dweller\"]}" }
-	},{
-		"condition": "entity_properties",
-		"entity": "this",
-		"predicate": { "nbt": "{Tags:[\"bp.nereid\"]}" }
-	},{
-		"condition": "entity_properties",
-		"entity": "this",
 		"predicate": { "nbt": "{Tags:[\"bp.netherkin\"]}" }
 	},{
 		"condition": "reference",

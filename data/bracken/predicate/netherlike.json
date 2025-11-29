@@ -3,11 +3,6 @@
 	"terms": [{
 		"condition": "minecraft:location_check",
 		"predicate": {
-			"dimension": "bracken:dormis"
-		}
-	},{
-		"condition": "minecraft:location_check",
-		"predicate": {
 			"dimension": "minecraft:the_nether"
 		}
 	}]
