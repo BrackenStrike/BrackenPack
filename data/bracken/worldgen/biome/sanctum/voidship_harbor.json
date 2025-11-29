@@ -25,13 +25,14 @@
             "minecraft:sculk_patch_deep_dark"
         ],
         [
-            "bracken:sanctum/coal",
-            "bracken:brine/redstone_blobs"
+            "bracken:sanctum/coal"
+
         ],
         [
             "minecraft:warm_ocean_vegetation",
             "minecraft:sea_pickle",
-            "bracken:brine/supercoral"
+            "minecraft:warm_ocean_vegetation"
+
         ],
         [
             "bracken:sanctum/city_tree2"

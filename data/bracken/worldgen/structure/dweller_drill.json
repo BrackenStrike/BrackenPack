@@ -1,8 +1,6 @@
 {
     "type": "minecraft:jigsaw",
     "biomes": [
-        "bracken:the_underdark/eroded_basin",
-        "bracken:panacea/condemned_taiga",
         "minecraft:basalt_deltas",
         "minecraft:crimson_forest",
         "minecraft:nether_wastes",
