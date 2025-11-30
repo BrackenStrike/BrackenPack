@@ -12,19 +12,21 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:tools/unruly_compass",
-					"minecraft:enchantment_glint_override": true
+					"minecraft:enchantment_glint_override": true,
+					"minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 4,
+        "animation": "block",
+        "sound": "minecraft:entity.splash_potion.break",
+        "has_consume_particles": true
+      }
 				}
-			},
-		{
-				"function": "minecraft:set_attributes",
-				"modifiers": [{
-					"attribute": "minecraft:movement_speed",
-					"id": "bracken:copper_compass",
-					"amount": 0.05,
-					"operation": "add_value",
-					"slot": "hand"
-				}]
-			}]
+			}
+		]
 		}]
 	}]
 }

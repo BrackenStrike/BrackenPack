@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": "minecraft:spider_eye",
+					"components": {
+						"minecraft:item_model": "bracken:tools/unruly_compass"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:item/unruly_compass"
+	}
+}

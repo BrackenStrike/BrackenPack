@@ -1,0 +1,14 @@
+##########################################################
+# Description: Teleports up
+# Creators: Bracken
+##########################################################
+
+advancement revoke @s only bracken:technical/unruly_compass
+
+summon item ~ ~ ~ {Item:{id:"minecraft:feather",Count:1b,components:{"minecraft:custom_name":{"text":"Broken Compass","color":"red","italic":false},"minecraft:item_model":"bracken:tools/broken_compass"}}}
+
+summon firework_rocket ~ ~ ~ {CustomNameVisible:0b,LifeTime:2,Tags:["bp.unbound_compass"],CustomName:{"text":"Unbound Varskforce ","color":"white","italic":false},FireworksItem:{id:"firework_rocket",Count:1,components:{"minecraft:fireworks":{explosions:[{shape:"large_ball",colors:[I;257791],fade_colors:[I;16711935],has_trail:1b,has_twinkle:1b}]}}}}
+
+spreadplayers ~ ~ 0 1 under 600 false @s
+summon lightning_bolt ~ ~ ~
+
