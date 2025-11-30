@@ -1,7 +1,7 @@
 ###########################################################
 
-Hey! I'm Bracken.
-This pack was made awesome by the following awesome people...
+Hey! I'm Bracken. This is the SANCTUM ONLY edition.
+This data pack was made awesome by the following awesome people...
 
 LEGACY DEVELOPMENT AND CONTRIBUTORS
 Accelerator
