@@ -2,7 +2,8 @@
 # Description: Teleports up
 # Creators: Bracken
 ##########################################################
-spreadplayers ~ ~ 0 1 under 600 false @sspreadplayers ~ ~ 0 1 under 600 false @s
+spreadplayers ~ ~ 0 1 under 600 false @s
+
 advancement revoke @s only bracken:technical/unruly_compass
 
 summon item ~ ~ ~ {Item:{id:"minecraft:feather",Count:1b,components:{"minecraft:custom_name":{"text":"Broken Compass","color":"red","italic":false},"minecraft:item_model":"bracken:tools/broken_compass"}}}
