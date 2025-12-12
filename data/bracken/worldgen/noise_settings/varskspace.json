@@ -231,7 +231,7 @@
         "erosion": "minecraft:overworld/erosion",
         "depth": "bracken:varskspace/depth",
         "ridges": "minecraft:overworld/ridges",
-        "initial_density_without_jaggedness": {
+        "preliminary_surface_level": {
             "argument1": 4,
             "argument2": {
                 "argument": {

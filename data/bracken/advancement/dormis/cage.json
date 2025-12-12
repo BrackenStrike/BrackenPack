@@ -9,7 +9,7 @@
 			"color": "green"
 		},
 		"icon": {
-			"id": "minecraft:chain"
+			"id": "minecraft:iron_chain"
 		},
 		"frame": "task",
 		"show_toast": true,

@@ -25,13 +25,13 @@
 			],
 			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:attack_damage",
-					"id": "bracken:copper_sword",
+					"id": "bracken:toothed_sword",
 					"amount": 6,
 					"operation": "add_value",
 					"slot": "mainhand"
 				},{
 					"type": "minecraft:attack_speed",
-					"id": "bracken:copper_sword",
+					"id": "bracken:toothed_sword",
 					"amount": -2.4,
 					"operation": "add_value",
 					"slot": "mainhand"

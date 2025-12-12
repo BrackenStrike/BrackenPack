@@ -150,7 +150,7 @@
         "erosion": 0,
         "depth": "bracken:dormis/depth",
         "ridges": 0,
-        "initial_density_without_jaggedness": {
+        "preliminary_surface_level": {
             "argument1": 4,
             "argument2": {
                 "argument": {
@@ -169,6 +169,12 @@
             },
             "type": "minecraft:mul"
         },
+
+
+
+
+
+        
         "lava": {
             "noise": "minecraft:aquifer_lava",
             "xz_scale": 1,
