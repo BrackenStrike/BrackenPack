@@ -1,20 +1,43 @@
+
 {
-    "ultrawarm": false,
-    "effects": "minecraft:the_nether",
-    "natural": false,
-    "piglin_safe": true,
-    "respawn_anchor_works": false,
-    "bed_works": true,
-    "has_raids": true,
-    "has_skylight": false,
-    "has_ceiling": false,
-    "coordinate_scale": 1,
-    "ambient_light": 0,
-    "fixed_time": 6000,
-    "logical_height": 100,
-    "infiniburn": "#minecraft:infiniburn_end",
-    "min_y": 0,
-    "height": 256,
-    "monster_spawn_block_light_limit": 0,
-    "monster_spawn_light_level": 0
+  "ambient_light": 0.0,
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2.0,
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000
+      }
+    },
+    
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "never",
+      "can_sleep": "always",
+      "error_message": {
+        "translate": "block.minecraft.bed.no_sleep"
+      }
+    },
+    "minecraft:gameplay/nether_portal_spawns_piglin": false,
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:visual/fog_color": "#000000",
+    "minecraft:visual/sky_color": "#000000"
+  },
+  "coordinate_scale": 100.0,
+  "has_ceiling": false,
+  "has_skylight": false,
+  "has_fixed_time": true,
+  "height": 256,
+"minecraft:gameplay/piglins_zombify": false,
+"minecraft:gameplay/can_start_raid": false,
+"minecraft:gameplay/snow_golem_melts": false,
+"minecraft:visual/fog_end_distance": 10.0,
+"minecraft:visual/fog_start_distance": 1.0,
+
+  "infiniburn": "#minecraft:infiniburn_end",
+  "logical_height": 100,
+  "min_y": 0,
+  "monster_spawn_block_light_limit": 0,
+  "monster_spawn_light_level": 0,
+  "timelines": "#minecraft:in_end"
 }
