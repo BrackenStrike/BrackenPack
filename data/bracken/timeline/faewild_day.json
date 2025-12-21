@@ -1,0 +1,83 @@
+{
+  "period_ticks": 24000,
+  "tracks": {
+    "minecraft:audio/firefly_bush_sounds": {
+      "keyframes": [
+        {
+          "ticks": 12600,
+          "value": true
+        },
+        {
+          "ticks": 23401,
+          "value": true
+        }
+      ],
+      "modifier": "or"
+    },
+    
+    
+    "minecraft:gameplay/creaking_active": {
+      "keyframes": [
+        {
+          "ticks": 12600,
+          "value": true
+        },
+        {
+          "ticks": 23401,
+          "value": true
+        }
+      ],
+      "modifier": "or"
+    },
+   
+    "minecraft:gameplay/monsters_burn": {
+      "keyframes": [
+        {
+          "ticks": 12542,
+          "value": false
+        },
+        {
+          "ticks": 23460,
+          "value": false
+        }
+      ],
+      "modifier": "or"
+    },
+   
+    
+    "minecraft:visual/cloud_color": {
+      "keyframes": [
+        {
+          "ticks": 133,
+          "value": -1
+        },
+        {
+          "ticks": 11867,
+          "value": -1
+        },
+        {
+          "ticks": 13670,
+          "value": -15132378
+        },
+        {
+          "ticks": 22330,
+          "value": -15132378
+        }
+      ],
+      "modifier": "multiply"
+    },   
+    "minecraft:visual/star_brightness": {
+      "keyframes": [
+        {
+          "ticks": 92,
+          "value": 0.5
+        },
+        {
+          "ticks": 23758,
+          "value": 0.5
+        }
+      ],
+      "modifier": "maximum"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "period_ticks": 240,
+  "tracks": {
+    
+   
+   
+    
+    "minecraft:gameplay/eyeblossom_open": {
+      "keyframes": [
+        {
+          "ticks": 126,
+          "value": true
+        },
+        {
+          "ticks": 234,
+          "value": false
+        }
+      ]
+    },
+    
+    
+    
+    "minecraft:visual/cloud_color": {
+      "keyframes": [
+        {
+          "ticks": 1,
+          "value": -1
+        },
+        {
+          "ticks": 118,
+          "value": -1
+        },
+        {
+          "ticks": 136,
+          "value": -1513237
+        },
+        {
+          "ticks": 223,
+          "value": -15132378
+        }
+      ],
+      "modifier": "multiply"
+    },
+    
+   
+    
+   
+   
+    
+    "minecraft:visual/star_brightness": {
+      "keyframes": [
+        {
+          "ticks": 92,
+          "value": 0.0
+        },
+        
+        {
+          "ticks": 23758,
+          "value": 0.0
+        }
+      ],
+      "modifier": "maximum"
+    }
+  }
+}
