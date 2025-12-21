@@ -35,5 +35,5 @@
   "min_y": 0,
   "monster_spawn_block_light_limit": 15,
   "monster_spawn_light_level": 2,
-  "timelines": "#minecraft:in_nether"
+  "timelines": "#bracken:in_dormis"
 }

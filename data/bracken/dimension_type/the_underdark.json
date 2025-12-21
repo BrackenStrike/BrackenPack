@@ -23,9 +23,13 @@
     "minecraft:visual/cloud_color": "#cc5b4752",
     "minecraft:visual/cloud_height": 228.33,
     "minecraft:visual/fog_color": "#584c4d",
-    "minecraft:visual/sky_color": "#833d3f"
+    "minecraft:visual/sky_color": "#833d3f",
+    
+"minecraft:visual/fog_end_distance": 96.0,
+"minecraft:visual/fog_start_distance": 20.0
   },
   "coordinate_scale": 1.0,
+  "cardinal_light": "nether",
   "has_ceiling": true,
   "has_skylight": false,
   "has_fixed_time": true,
@@ -33,13 +37,11 @@
 "minecraft:gameplay/piglins_zombify": false,
 "minecraft:gameplay/can_start_raid": false,
 "minecraft:gameplay/snow_golem_melts": true,
-"minecraft:visual/fog_end_distance": 96.0,
-"minecraft:visual/fog_start_distance": 10.0,
 
   "infiniburn": "#minecraft:infiniburn_overworld",
   "logical_height": 100,
   "min_y": 0,
   "monster_spawn_block_light_limit": 0,
   "monster_spawn_light_level": 7,
-  "timelines": "#minecraft:in_overworld"
+  "timelines": "#bracken:in_underdark"
 }

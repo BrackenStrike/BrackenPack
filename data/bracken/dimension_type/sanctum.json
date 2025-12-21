@@ -38,5 +38,5 @@
   "min_y": -64,
   "monster_spawn_block_light_limit": 14,
   "monster_spawn_light_level": 6,
-  "timelines": "#minecraft:in_overworld"
+  "timelines": "#bracken:in_sanctum"
 }
