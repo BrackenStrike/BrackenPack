@@ -17,7 +17,7 @@
       "explodes": true
     },
     "minecraft:gameplay/nether_portal_spawns_piglin": false,
-    "minecraft:gameplay/respawn_anchor_works": true,
+    "minecraft:gameplay/respawn_anchor_works": false,
     "minecraft:visual/fog_color": "#b67cff",
     "minecraft:visual/sky_color": "#a87cc8"
   },
@@ -28,6 +28,7 @@
 "minecraft:gameplay/piglins_zombify": false,
 "minecraft:gameplay/can_start_raid": false,
 "minecraft:gameplay/snow_golem_melts": false,
+"minecraft:gameplay/water_evaporates": true,
 
   "infiniburn": "#minecraft:infiniburn_varskspace",
   "logical_height": 100,

@@ -1,65 +1,123 @@
 {
-  "period_ticks": 240,
+  "period_ticks": 2400,
   "tracks": {
     
-   
-   
     
-    "minecraft:gameplay/eyeblossom_open": {
+    
+    "minecraft:gameplay/creaking_active": {
       "keyframes": [
         {
-          "ticks": 126,
+          "ticks": 1260,
           "value": true
         },
         {
-          "ticks": 234,
+          "ticks": 2341,
           "value": false
+        }
+      ],
+      "modifier": "or"
+    },
+    "minecraft:gameplay/eyeblossom_open": {
+      "keyframes": [
+        {
+          "ticks": 1260,
+          "value": true
+        },
+        {
+          "ticks": 2341,
+          "value": false
+        }
+      ]
+    },
+    "minecraft:gameplay/monsters_burn": {
+      "keyframes": [
+        {
+          "ticks": 1252,
+          "value": false
+        },
+        {
+          "ticks": 2340,
+          "value": false
+        }
+      ],
+      "modifier": "or"
+    },
+   
+    
+    
+    
+    "minecraft:visual/moon_angle": {
+      "ease": {
+        "cubic_bezier": [
+          0.362,
+          0.241,
+          0.638,
+          0.759
+        ]
+      },
+      "keyframes": [
+        {
+          "ticks": 300,
+          "value": 540.0
+        },
+        {
+          "ticks": 300,
+          "value": 180.0
         }
       ]
     },
     
     
     
-    "minecraft:visual/cloud_color": {
+    "minecraft:visual/star_angle": {
+      "ease": {
+        "cubic_bezier": [
+          0.362,
+          0.241,
+          0.638,
+          0.759
+        ]
+      },
       "keyframes": [
         {
-          "ticks": 1,
-          "value": -1
-        },
-        {
-          "ticks": 118,
-          "value": -1
-        },
-        {
-          "ticks": 136,
-          "value": -1513237
-        },
-        {
-          "ticks": 223,
-          "value": -15132378
+          "ticks": 600,
+          "value": 540.0
         }
-      ],
-      "modifier": "multiply"
+      ]
     },
-    
-   
-    
-   
-   
-    
     "minecraft:visual/star_brightness": {
       "keyframes": [
         {
           "ticks": 92,
-          "value": 0.0
+          "value": 0.5
         },
         
         {
-          "ticks": 237,
-          "value": 0.0
+          "ticks": 23758,
+          "value": 0.5
         }
       ],
       "modifier": "maximum"
+    },
+    "minecraft:visual/sun_angle": {
+      "ease": {
+        "cubic_bezier": [
+          0.362,
+          0.241,
+          0.638,
+          0.759
+        ]
+      },
+      "keyframes": [
+        {
+          "ticks": 600,
+          "value": 360.0
+        },
+        {
+          "ticks": 600,
+          "value": 0.0
+        }
+      ]
     }
   }
 }

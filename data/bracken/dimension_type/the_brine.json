@@ -32,6 +32,7 @@
 "minecraft:gameplay/piglins_zombify": false,
 "minecraft:gameplay/can_start_raid": true,
 "minecraft:gameplay/snow_golem_melts": true,
+"gameplay/increased_fire_burnout":true,
 
 
   "infiniburn": "#minecraft:infiniburn_brine",

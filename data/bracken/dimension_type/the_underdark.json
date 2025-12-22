@@ -37,6 +37,7 @@
 "minecraft:gameplay/piglins_zombify": false,
 "minecraft:gameplay/can_start_raid": false,
 "minecraft:gameplay/snow_golem_melts": true,
+"minecraft:gameplay/fast_lava": false,
 
   "infiniburn": "#minecraft:infiniburn_overworld",
   "logical_height": 100,

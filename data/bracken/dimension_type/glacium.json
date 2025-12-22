@@ -22,6 +22,11 @@
     "minecraft:gameplay/respawn_anchor_works": true,
     "minecraft:visual/cloud_color": "#cca0bfc5",
     "minecraft:visual/cloud_height": 310.33,
+    "minecraft:visual/fog_end_distance": 96.0,
+"minecraft:visual/fog_start_distance": 16.0,
+"minecraft:visual/water_fog_end_distance":96.0,
+"minecraft:visual/water_fog_start_distance":1.0,
+"minecraft:visual/water_fog_color":"#ffffff",
     "minecraft:visual/fog_color": "#5a6887",
     "minecraft:visual/sky_color": "#151132"
   },
@@ -31,14 +36,11 @@
   "has_fixed_time": true,
   "height": 384,
 "minecraft:gameplay/piglins_zombify": false,
-"minecraft:gameplay/can_start_raid": true,
-"minecraft:gameplay/snow_golem_melts": true,
-"minecraft:visual/fog_end_distance": 96.0,
-"minecraft:visual/fog_start_distance": 10.0,
-"minecraft:gameplay/fast_lava": true,
-"minecraft:visual/default_dripstone_particle": {
-      "type": "minecraft:dripping_dripstone_lava"
-    },
+"minecraft:gameplay/can_start_raid": false,
+"minecraft:gameplay/snow_golem_melts": false,
+"minecraft:gameplay/fast_lava": false,
+"gameplay/increased_fire_burnout":true,
+
   "infiniburn": "#minecraft:infiniburn_brine",
   "logical_height": 100,
   "min_y": 0,

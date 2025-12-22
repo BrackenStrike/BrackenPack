@@ -1,5 +1,5 @@
 {
-  "ambient_light": 0.0,
+  "ambient_light": 0.5,
   "attributes": {
     "minecraft:audio/ambient_sounds": {
       "mood": {
@@ -28,7 +28,7 @@
   "coordinate_scale": 8,
   "has_ceiling": false,
   "has_skylight": true,
-  "has_fixed_time": true,
+
   "height": 128,
 "minecraft:gameplay/piglins_zombify": false,
 "minecraft:gameplay/can_start_raid": true,

@@ -28,49 +28,9 @@
       ]
     },
     
-    "minecraft:gameplay/sky_light_level": {
-      "keyframes": [
-        {
-          "ticks": 1,
-          "value": 1.0
-        },
-        {
-          "ticks": 118,
-          "value": 1.0
-        },
-        {
-          "ticks": 136,
-          "value": 0.26666668
-        },
-        {
-          "ticks": 223,
-          "value": 0.26666668
-        }
-      ],
-      "modifier": "multiply"
-    },
+   
     
-    "minecraft:visual/cloud_color": {
-      "keyframes": [
-        {
-          "ticks": 1,
-          "value": -1
-        },
-        {
-          "ticks": 118,
-          "value": -1
-        },
-        {
-          "ticks": 136,
-          "value": -15132378
-        },
-        {
-          "ticks": 223,
-          "value": -15132378
-        }
-      ],
-      "modifier": "multiply"
-    },
+    
     
     "minecraft:visual/moon_angle": {
       "ease": {
@@ -113,48 +73,8 @@
       ],
       "modifier": "multiply"
     },
-    "minecraft:visual/sky_light_color": {
-      "keyframes": [
-        {
-          "ticks": 7,
-          "value": "#ffffff"
-        },
-        {
-          "ticks": 112,
-          "value": "#ffffff"
-        },
-        {
-          "ticks": 131,
-          "value": "#7a7aff"
-        },
-        {
-          "ticks": 228,
-          "value": "#7a7aff"
-        }
-      ],
-      "modifier": "multiply"
-    },
-    "minecraft:visual/sky_light_factor": {
-      "keyframes": [
-        {
-          "ticks": 7,
-          "value": 1.0
-        },
-        {
-          "ticks": 112,
-          "value": 1.0
-        },
-        {
-          "ticks": 131,
-          "value": 0.24
-        },
-        {
-          "ticks": 228,
-          "value": 0.24
-        }
-      ],
-      "modifier": "multiply"
-    },
+    
+    
     "minecraft:visual/star_angle": {
       "ease": {
         "cubic_bezier": [
@@ -179,51 +99,13 @@
       "keyframes": [
         {
           "ticks": 2,
-          "value": 0.037
+          "value": 1.0
         },
-        {
-          "ticks": 6,
-          "value": 0.0
-        },
-        {
-          "ticks": 113,
-          "value": 0.0
-        },
-        {
-          "ticks": 117,
-          "value": 0.016
-        },
-        {
-          "ticks": 119,
-          "value": 0.044
-        },
-        {
-          "ticks": 123,
-          "value": 0.143
-        },
-        {
-          "ticks": 127,
-          "value": 0.258
-        },
-        {
-          "ticks": 132,
-          "value": 0.5
-        },
-        {
-          "ticks": 227,
-          "value": 0.5
-        },
-        {
-          "ticks": 230,
-          "value": 0.364
-        },
-        {
-          "ticks": 233,
-          "value": 0.225
-        },
+        
+        
         {
           "ticks": 237,
-          "value": 0.101
+          "value": 1.0
         }
       ],
       "modifier": "maximum"
