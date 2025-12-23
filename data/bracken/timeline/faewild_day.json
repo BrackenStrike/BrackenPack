@@ -139,10 +139,7 @@
         ]
       },
       "keyframes": [
-        {
-          "ticks": 6000,
-          "value": 360.0
-        },
+        
         {
           "ticks": 6000,
           "value": 0.0
@@ -211,13 +208,10 @@
         ]
       },
       "keyframes": [
+        
         {
           "ticks": 6000,
-          "value": 360.0
-        },
-        {
-          "ticks": 6000,
-          "value": 0.0
+          "value": 180.0
         }
       ]
     }

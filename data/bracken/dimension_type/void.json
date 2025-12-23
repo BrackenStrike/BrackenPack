@@ -24,7 +24,7 @@
     "minecraft:visual/sky_color": "#000000",
     
 "minecraft:visual/fog_end_distance": 96.0,
-"minecraft:visual/fog_start_distance": 1.0
+"minecraft:visual/fog_start_distance": 2.0
   },
   "coordinate_scale": 1.0,
   "cardinal_light": "nether",

@@ -66,48 +66,8 @@
       ],
       "modifier": "maximum"
     },
-    "minecraft:visual/cloud_color": {
-      "keyframes": [
-        {
-          "ticks": 266,
-          "value": -1
-        },
-        {
-          "ticks": 23734,
-          "value": -1
-        },
-        {
-          "ticks": 27340,
-          "value": -15132378
-        },
-        {
-          "ticks": 44660,
-          "value": -15132378
-        }
-      ],
-      "modifier": "multiply"
-    },
-    "minecraft:visual/fog_color": {
-      "keyframes": [
-        {
-          "ticks": 266,
-          "value": "#ffffff"
-        },
-        {
-          "ticks": 23734,
-          "value": "#ffffff"
-        },
-        {
-          "ticks": 27340,
-          "value": "#0f0f16"
-        },
-        {
-          "ticks": 44660,
-          "value": "#0f0f16"
-        }
-      ],
-      "modifier": "multiply"
-    },
+    
+    
     "minecraft:visual/moon_angle": {
       "ease": {
         "cubic_bezier": [
@@ -120,12 +80,9 @@
       "keyframes": [
         {
           "ticks": 12000,
-          "value": 540.0
-        },
-        {
-          "ticks": 12000,
-          "value": 180.0
+          "value": 30.0
         }
+        
       ]
     },
     "minecraft:visual/sky_color": {
@@ -215,51 +172,11 @@
       "keyframes": [
         {
           "ticks": 184,
-          "value": 0.037
-        },
-        {
-          "ticks": 1254,
-          "value": 0.0
-        },
-        {
-          "ticks": 22746,
-          "value": 0.0
-        },
-        {
-          "ticks": 23464,
-          "value": 0.016
-        },
-        {
-          "ticks": 23918,
-          "value": 0.044
-        },
-        {
-          "ticks": 24798,
-          "value": 0.143
-        },
-        {
-          "ticks": 25458,
-          "value": 0.258
-        },
-        {
-          "ticks": 26456,
           "value": 0.5
-        },
-        {
-          "ticks": 45544,
-          "value": 0.5
-        },
-        {
-          "ticks": 46064,
-          "value": 0.364
-        },
-        {
-          "ticks": 46712,
-          "value": 0.225
         },
         {
           "ticks": 47516,
-          "value": 0.101
+          "value": 0.5
         }
       ],
       "modifier": "maximum"
@@ -274,10 +191,7 @@
         ]
       },
       "keyframes": [
-        {
-          "ticks": 12000,
-          "value": 360.0
-        },
+        
         {
           "ticks": 12000,
           "value": 0.0

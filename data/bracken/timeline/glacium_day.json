@@ -93,10 +93,7 @@
         ]
       },
       "keyframes": [
-        {
-          "ticks": 6000,
-          "value": 540.0
-        },
+        
         {
           "ticks": 6000,
           "value": 180.0
@@ -107,11 +104,11 @@
       "keyframes": [
         {
           "ticks": 133,
-          "value": "#ffffff"
+          "value": "#000000"
         },
         {
           "ticks": 11867,
-          "value": "#ffffff"
+          "value": "#000000"
         },
         {
           "ticks": 13670,
@@ -157,11 +154,11 @@
         },
         {
           "ticks": 13140,
-          "value": 0.24
+          "value": 1.0
         },
         {
           "ticks": 22860,
-          "value": 0.24
+          "value": 1.0
         }
       ],
       "modifier": "multiply"
@@ -216,7 +213,7 @@
         },
         {
           "ticks": 6000,
-          "value": 0.0
+          "value": 180.0
         }
       ]
     },

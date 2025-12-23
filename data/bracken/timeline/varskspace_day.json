@@ -1,15 +1,15 @@
 {
-  "period_ticks": 240,
+  "period_ticks": 24,
   "tracks": {
     
     "minecraft:gameplay/creaking_active": {
       "keyframes": [
         {
-          "ticks": 120,
+          "ticks": 12,
           "value": true
         },
         {
-          "ticks": 231,
+          "ticks": 21,
           "value": false
         }
       ],
@@ -18,11 +18,11 @@
     "minecraft:gameplay/eyeblossom_open": {
       "keyframes": [
         {
-          "ticks": 120,
+          "ticks": 12,
           "value": true
         },
         {
-          "ticks": 231,
+          "ticks": 21,
           "value": false
         }
       ]
@@ -42,32 +42,22 @@
         ]
       },
       "keyframes": [
+        
         {
-          "ticks": 60,
-          "value": 540.0
-        },
-        {
-          "ticks": 60,
+          "ticks": 6,
           "value": 180.0
         }
       ]
     },
     "minecraft:visual/sky_color": {
       "keyframes": [
+       
         {
           "ticks": 1,
-          "value": "#ffffff"
-        },
-        {
-          "ticks": 118,
-          "value": "#ffffff"
-        },
-        {
-          "ticks": 136,
           "value": "#000000"
         },
         {
-          "ticks": 223,
+          "ticks": 22,
           "value": "#000000"
         }
       ],
@@ -86,11 +76,11 @@
       },
       "keyframes": [
         {
-          "ticks": 60,
+          "ticks": 6,
           "value": 360.0
         },
         {
-          "ticks": 60,
+          "ticks": 6,
           "value": 0.0
         }
       ]
@@ -104,7 +94,7 @@
         
         
         {
-          "ticks": 237,
+          "ticks": 23,
           "value": 1.0
         }
       ],
@@ -120,145 +110,10 @@
         ]
       },
       "keyframes": [
+        
         {
-          "ticks": 60,
-          "value": 360.0
-        },
-        {
-          "ticks": 60,
-          "value": 0.0
-        }
-      ]
-    },
-    "minecraft:visual/sunrise_sunset_color": {
-      "keyframes": [
-        {
-          "ticks": 1,
-          "value": "#5fefa333"
-        },
-        {
-          "ticks": 3,
-          "value": "#29f5ba33"
-        },
-        {
-          "ticks": 5,
-          "value": "#06fbd433"
-        },
-        {
-          "ticks": 7,
-          "value": "#00ffe533"
-        },
-        {
-          "ticks": 112,
-          "value": "#00ffe533"
-        },
-        {
-          "ticks": 113,
-          "value": "#04fcd833"
-        },
-        {
-          "ticks": 115,
-          "value": "#0ff9cb33"
-        },
-        {
-          "ticks": 116,
-          "value": "#29f5ba33"
-        },
-        {
-          "ticks": 119,
-          "value": "#5fefa333"
-        },
-        {
-          "ticks": 122,
-          "value": "#b1e78733"
-        },
-        {
-          "ticks": 123,
-          "value": "#cce47e33"
-        },
-        {
-          "ticks": 125,
-          "value": "#e9e07233"
-        },
-        {
-          "ticks": 126,
-          "value": "#f6dd6b33"
-        },
-        {
-          "ticks": 127,
-          "value": "#feda6333"
-        },
-        {
-          "ticks": 128,
-          "value": "#fed75c33"
-        },
-        {
-          "ticks": 130,
-          "value": "#ecd25133"
-        },
-        {
-          "ticks": 132,
-          "value": "#c1cc4733"
-        },
-        {
-          "ticks": 137,
-          "value": "#36be3733"
-        },
-        {
-          "ticks": 138,
-          "value": "#1fbb3533"
-        },
-        {
-          "ticks": 140,
-          "value": "#09b73333"
-        },
-        {
-          "ticks": 141,
-          "value": "#00b33333"
-        },
-        {
-          "ticks": 218,
-          "value": "#00b23333"
-        },
-        {
-          "ticks": 219,
-          "value": "#09b73333"
-        },
-        {
-          "ticks": 221,
-          "value": "#1fbb3533"
-        },
-        {
-          "ticks": 222,
-          "value": "#36be3733"
-        },
-        {
-          "ticks": 227,
-          "value": "#c1cc4733"
-        },
-        {
-          "ticks": 229,
-          "value": "#ecd25133"
-        },
-        {
-          "ticks": 231,
-          "value": "#fed75c33"
-        },
-        {
-          "ticks": 232,
-          "value": "#feda6333"
-        },
-        {
-          "ticks": 234,
-          "value": "#e9e07233"
-        },
-        {
-          "ticks": 236,
-          "value": "#cce47e33"
-        },
-        {
-          "ticks": 237,
-          "value": "#b1e78733"
+          "ticks": 6,
+          "value": 180.0
         }
       ]
     }

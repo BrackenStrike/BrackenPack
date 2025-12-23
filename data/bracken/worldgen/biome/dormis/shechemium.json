@@ -1,5 +1,7 @@
 {
     "attributes": {
+        "minecraft:visual/fog_end_distance": 96.0,
+"minecraft:visual/fog_start_distance": 10.0,
     "minecraft:audio/ambient_sounds": {
       "additions": {
         "sound": "minecraft:ambient.basalt_deltas.mood",
@@ -27,7 +29,7 @@
         "block_state": "minecraft:sand"
 
         },
-        "probability": 0.025
+        "probability": 0.00025
       }
     ]
   },

@@ -99,6 +99,33 @@
       ],
       "modifier": "maximum"
     },
+    "minecraft:gameplay/sky_light_level": {
+      "keyframes": [
+        {
+          "ticks": 2,
+          "value": 0.26666668
+        },
+        {
+          "ticks": 237,
+          "value": 0.26666668
+        }
+      ],
+      "modifier": "multiply"
+    },
+    "minecraft:visual/sky_color": {
+      "keyframes": [
+        
+        {
+          "ticks": 2,
+          "value": "#000000"
+        },
+        {
+          "ticks": 237,
+          "value": "#000000"
+        }
+      ],
+      "modifier": "multiply"
+    },
     "minecraft:visual/sun_angle": {
       "ease": {
         "cubic_bezier": [
@@ -112,7 +139,7 @@
        
         {
           "ticks": 60,
-          "value": 0.0
+          "value": 180.0
         }
       ]
     }

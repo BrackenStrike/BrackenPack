@@ -257,13 +257,10 @@
         ]
       },
       "keyframes": [
+        
         {
           "ticks": 18000,
-          "value": 360.0
-        },
-        {
-          "ticks": 18000,
-          "value": 0.0
+          "value": 60.0
         }
       ]
     }
