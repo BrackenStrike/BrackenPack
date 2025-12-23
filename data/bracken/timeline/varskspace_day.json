@@ -18,7 +18,7 @@
     "minecraft:gameplay/eyeblossom_open": {
       "keyframes": [
         {
-          "ticks": 120,
+          "ticks": 60,
           "value": true
         },
         {
