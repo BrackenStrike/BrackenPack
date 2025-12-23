@@ -107,6 +107,27 @@
       ],
       "modifier": "maximum"
     },
+    "minecraft:visual/sky_light_color": {
+      "keyframes": [
+        {
+          "ticks": 730,
+          "value": "#7a7aff"
+        },
+        {
+          "ticks": 11270,
+          "value": "#7a7aff"
+        },
+        {
+          "ticks": 13140,
+          "value": "#7a7aff"
+        },
+        {
+          "ticks": 22860,
+          "value": "#7a7aff"
+        }
+      ],
+      "modifier": "multiply"
+    },
     "minecraft:visual/cloud_color": {
       "keyframes": [
         {

@@ -34,10 +34,6 @@
         {
           "ticks": 122,
           "value": false
-        },
-        {
-          "ticks": 234,
-          "value": false
         }
       ],
       "modifier": "or"
@@ -49,9 +45,9 @@
     "minecraft:visual/moon_angle": {
       "ease": {
         "cubic_bezier": [
-          0.362,
+          0.638,0.362,
           0.241,
-          0.638,
+          
           0.759
         ]
       },
@@ -89,12 +85,12 @@
       "keyframes": [
         {
           "ticks": 92,
-          "value": 0.5
+          "value": 0.0
         },
         
         {
           "ticks": 237,
-          "value": 0.5
+          "value": 1.0
         }
       ],
       "modifier": "maximum"
@@ -104,10 +100,15 @@
         {
           "ticks": 2,
           "value": 0.26666668
-        },
+        }
+      ],
+      "modifier": "multiply"
+    },
+     "minecraft:visual/fog_color": {
+      "keyframes": [
         {
-          "ticks": 237,
-          "value": 0.26666668
+          "ticks": 2,
+          "value": "#0f0f16"
         }
       ],
       "modifier": "multiply"
@@ -117,10 +118,6 @@
         
         {
           "ticks": 2,
-          "value": "#000000"
-        },
-        {
-          "ticks": 237,
           "value": "#000000"
         }
       ],

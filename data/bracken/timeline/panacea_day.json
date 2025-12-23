@@ -89,27 +89,7 @@
       ],
       "modifier": "maximum"
     },
-    "minecraft:visual/cloud_color": {
-      "keyframes": [
-        {
-          "ticks": 399,
-          "value": 1.0
-        },
-        {
-          "ticks": 35601,
-          "value": 1.0
-        },
-        {
-          "ticks": 41010,
-          "value": 0.26666668
-        },
-        {
-          "ticks": 66990,
-          "value": 0.26666668
-        }
-      ],
-      "modifier": "multiply"
-    },
+    
     
     "minecraft:visual/moon_angle": {
       "ease": {
