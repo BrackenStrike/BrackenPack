@@ -184,18 +184,6 @@
     "minecraft:visual/star_brightness": {
       "keyframes": [
         
-        {
-          "ticks": 63500,
-          "value":  0.0
-        },
-        {
-          "ticks": 64250,
-          "value": 1.0
-        },
-        {
-          "ticks": 65000,
-          "value": 0.0
-        },
 
         {
           "ticks": 10250,
@@ -208,6 +196,18 @@
         {
           "ticks": 46250,
           "value": 0.20
+        },
+        {
+          "ticks": 63500,
+          "value":  0.0
+        },
+        {
+          "ticks": 64250,
+          "value": 1.0
+        },
+        {
+          "ticks": 65000,
+          "value": 0.0
         }
         
       ],
