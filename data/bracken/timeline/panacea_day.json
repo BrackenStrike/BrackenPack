@@ -249,23 +249,23 @@
        
         {
           "ticks": 10,
-          "value": "#aee0b9"
+          "value": "#36aee0b9"
         },
         {
           "ticks": 63800,
-          "value": "#aee0b9"
+          "value": "#36aee0b9"
         },
         {
           "ticks": 64000,
-          "value": "#920b27"
+          "value": "#36920b27"
         },
         {
           "ticks": 64200,
-          "value": "#aee0b9"
+          "value": "#36aee0b9"
         },
         {
           "ticks": 72990,
-          "value": "#aee0b9"
+          "value": "#36aee0b9"
         }
       ]
     }

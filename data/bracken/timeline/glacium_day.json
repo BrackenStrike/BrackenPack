@@ -29,11 +29,11 @@
       "keyframes": [
         {
           "ticks": 10,
-          "value": "##5a6887"
+          "value": "#365a6887"
         },
         {
           "ticks": 11900,
-          "value": "##5a6887"
+          "value": "#365a6887"
         },
         {
           "ticks": 12000,
@@ -41,11 +41,11 @@
         },
         {
           "ticks": 12100,
-          "value": "##5a6887"
+          "value": "#365a6887"
         },
         {
           "ticks": 23990,
-          "value": "##5a6887"
+          "value": "#365a6887"
         }
       ],
       "modifier": "multiply"
@@ -148,23 +148,23 @@
         
         {
           "ticks": 10,
-          "value": "#5a6887"
+          "value": "#365a6887"
         },
         {
           "ticks": 11900,
-          "value": "#5a6887"
+          "value": "#365a6887"
         },
         {
           "ticks": 12000,
-          "value": "#1cd572"
+          "value": "#361cd572"
         },
         {
           "ticks": 12100,
-          "value": "#5a6887"
+          "value": "#365a6887"
         },
         {
           "ticks": 23990,
-          "value": "#5a6887"
+          "value": "#365a6887"
         }
       ]
     }
