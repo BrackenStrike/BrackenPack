@@ -29,23 +29,23 @@
       "keyframes": [
         {
           "ticks": 10,
-          "value": "#365a6887"
+          "value": "#a8c2f389"
         },
         {
           "ticks": 11900,
-          "value": "#365a6887"
+          "value": "#a8c2f389"
         },
         {
           "ticks": 12000,
-          "value": "#e9e07233"
+          "value": "#e151ffff"
         },
         {
           "ticks": 12100,
-          "value": "#365a6887"
+          "value": "#a8c2f389"
         },
         {
           "ticks": 23990,
-          "value": "#365a6887"
+          "value": "#a8c2f389"
         }
       ],
       "modifier": "multiply"
@@ -79,8 +79,25 @@
     },
     "minecraft:visual/sky_light_color": {
       "keyframes": [
+        
         {
-          "ticks": 73,
+          "ticks": 10,
+          "value": "#7a7aff"
+        },
+        {
+          "ticks": 11900,
+          "value": "#7a7aff"
+        },
+        {
+          "ticks": 12000,
+          "value": "#a3ffb5"
+        },
+        {
+          "ticks": 12100,
+          "value": "#7a7aff"
+        },
+        {
+          "ticks": 23990,
           "value": "#7a7aff"
         }
       ],

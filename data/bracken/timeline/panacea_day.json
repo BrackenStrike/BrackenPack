@@ -6,10 +6,6 @@
         {
           "ticks": 37800,
           "value": true
-        },
-        {
-          "ticks": 70201,
-          "value": false
         }
       ],
       "modifier": "or"
@@ -18,11 +14,11 @@
       "keyframes": [
         {
           "ticks": 37626,
-          "value": true
+          "value": false
         },
         {
           "ticks": 70380,
-          "value": false
+          "value": true
         }
       ],
       "modifier": "or"
@@ -33,10 +29,6 @@
         {
           "ticks": 37800,
           "value": true
-        },
-        {
-          "ticks": 70201,
-          "value": false
         }
       ],
       "modifier": "or"
@@ -46,10 +38,6 @@
         {
           "ticks": 37800,
           "value": true
-        },
-        {
-          "ticks": 70201,
-          "value": false
         }
       ]
     },
@@ -57,20 +45,29 @@
     "minecraft:gameplay/sky_light_level": {
       "keyframes": [
         {
-          "ticks": 399,
+          "ticks": 63500,
+          "value":  1.0
+        },
+        {
+          "ticks": 64250,
+          "value": 0.0
+        },
+        {
+          "ticks": 65000,
           "value": 1.0
         },
+
         {
-          "ticks": 35601,
-          "value": 1.0
+          "ticks": 10250,
+          "value":  0.5
         },
         {
-          "ticks": 41010,
-          "value": 0.26666668
+          "ticks": 28250,
+          "value": 0.2
         },
         {
-          "ticks": 66990,
-          "value": 0.26666668
+          "ticks": 46250,
+          "value": 0.5
         }
       ],
       "modifier": "multiply"
@@ -116,19 +113,19 @@
       "keyframes": [
         {
           "ticks": 219,
-          "value": "#ffffff"
+          "value": "#b7d993"
         },
         {
-          "ticks": 3381,
-          "value": "#ffffff"
+          "ticks": 63500,
+          "value":  "#b7d993"
         },
         {
-          "ticks": 3942,
-          "value": "#ffffff"
+          "ticks": 64250,
+          "value": "#000000"
         },
         {
-          "ticks": 6858,
-          "value": "#ffffff"
+          "ticks": 65000,
+          "value": "#b7d993"
         }
       ],
       "modifier": "multiply"
@@ -136,20 +133,29 @@
     "minecraft:visual/sky_light_factor": {
       "keyframes": [
         {
-          "ticks": 219,
+          "ticks": 63500,
+          "value":  1.0
+        },
+        {
+          "ticks": 64250,
+          "value": 0.0
+        },
+        {
+          "ticks": 65000,
           "value": 1.0
         },
+
         {
-          "ticks": 3381,
-          "value": 1.0
+          "ticks": 10250,
+          "value":  0.5
         },
         {
-          "ticks": 3942,
-          "value": 0.24
+          "ticks": 28250,
+          "value": 0.2
         },
         {
-          "ticks": 6858,
-          "value": 0.24
+          "ticks": 46250,
+          "value": 0.5
         }
       ],
       "modifier": "multiply"
@@ -176,54 +182,33 @@
     },
     "minecraft:visual/star_brightness": {
       "keyframes": [
+        
         {
-          "ticks": 276,
-          "value": 0.037
+          "ticks": 63500,
+          "value":  0.0
         },
         {
-          "ticks": 1881,
+          "ticks": 64250,
+          "value": 1.0
+        },
+        {
+          "ticks": 65000,
           "value": 0.0
         },
+
         {
-          "ticks": 34119,
-          "value": 0.0
+          "ticks": 10250,
+          "value":  0.20
         },
         {
-          "ticks": 35196,
-          "value": 0.016
-        },
-        {
-          "ticks": 35877,
-          "value": 0.044
-        },
-        {
-          "ticks": 37197,
-          "value": 0.143
-        },
-        {
-          "ticks": 38187,
-          "value": 0.258
-        },
-        {
-          "ticks": 39684,
+          "ticks": 28250,
           "value": 0.5
         },
         {
-          "ticks": 68316,
-          "value": 0.5
-        },
-        {
-          "ticks": 69096,
-          "value": 0.364
-        },
-        {
-          "ticks": 70068,
-          "value": 0.225
-        },
-        {
-          "ticks": 71274,
-          "value": 0.101
+          "ticks": 46250,
+          "value": 0.20
         }
+        
       ],
       "modifier": "maximum"
     },
@@ -252,15 +237,15 @@
           "value": "#36aee0b9"
         },
         {
-          "ticks": 63800,
+          "ticks": 63500,
           "value": "#36aee0b9"
         },
         {
-          "ticks": 64000,
+          "ticks": 64250,
           "value": "#36920b27"
         },
         {
-          "ticks": 64200,
+          "ticks": 65000,
           "value": "#36aee0b9"
         },
         {

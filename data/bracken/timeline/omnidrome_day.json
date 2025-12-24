@@ -52,12 +52,9 @@
         ]
       },
       "keyframes": [
+        
         {
-          "ticks": 3,
-          "value": 540.0
-        },
-        {
-          "ticks": 3,
+          "ticks": 6,
           "value": 180.0
         }
       ]
@@ -104,11 +101,13 @@
       ],
       "modifier": "multiply"
     },
-     "minecraft:visual/fog_color": {
+     
+    
+    "minecraft:visual/sky_light_color": {
       "keyframes": [
         {
-          "ticks": 2,
-          "value": "#0f0f16"
+          "ticks": 730,
+          "value": "#00ff00"
         }
       ],
       "modifier": "multiply"
