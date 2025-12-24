@@ -1,5 +1,5 @@
 {
-  "period_ticks": 240,
+  "period_ticks": 24,
   "tracks": {
     
     
@@ -7,11 +7,11 @@
     "minecraft:gameplay/creaking_active": {
       "keyframes": [
         {
-          "ticks": 126,
+          "ticks": 12,
           "value": true
         },
         {
-          "ticks": 231,
+          "ticks": 23,
           "value": false
         }
       ],
@@ -20,11 +20,11 @@
     "minecraft:gameplay/eyeblossom_open": {
       "keyframes": [
         {
-          "ticks": 126,
+          "ticks": 12,
           "value": true
         },
         {
-          "ticks": 231,
+          "ticks": 23,
           "value": false
         }
       ]
@@ -32,7 +32,7 @@
     "minecraft:gameplay/monsters_burn": {
       "keyframes": [
         {
-          "ticks": 122,
+          "ticks": 12,
           "value": false
         }
       ],
@@ -53,11 +53,11 @@
       },
       "keyframes": [
         {
-          "ticks": 30,
+          "ticks": 3,
           "value": 540.0
         },
         {
-          "ticks": 30,
+          "ticks": 3,
           "value": 180.0
         }
       ]
@@ -76,7 +76,7 @@
       },
       "keyframes": [
         {
-          "ticks": 60,
+          "ticks": 6,
           "value": 540.0
         }
       ]
@@ -84,12 +84,12 @@
     "minecraft:visual/star_brightness": {
       "keyframes": [
         {
-          "ticks": 92,
+          "ticks": 9,
           "value": 0.0
         },
         
         {
-          "ticks": 237,
+          "ticks": 23,
           "value": 1.0
         }
       ],
@@ -135,7 +135,7 @@
       "keyframes": [
        
         {
-          "ticks": 60,
+          "ticks": 6,
           "value": 180.0
         }
       ]

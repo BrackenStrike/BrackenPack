@@ -6,10 +6,6 @@
         {
           "ticks": 12600,
           "value": true
-        },
-        {
-          "ticks": 23401,
-          "value": true
         }
       ],
       "modifier": "or"
@@ -46,10 +42,6 @@
         {
           "ticks": 12600,
           "value": true
-        },
-        {
-          "ticks": 23401,
-          "value": true
         }
       ],
       "modifier": "or"
@@ -59,10 +51,6 @@
         {
           "ticks": 12600,
           "value": true
-        },
-        {
-          "ticks": 23401,
-          "value": true
         }
       ]
     },
@@ -70,10 +58,6 @@
       "keyframes": [
         {
           "ticks": 12542,
-          "value": false
-        },
-        {
-          "ticks": 23460,
           "value": false
         }
       ],
@@ -83,11 +67,6 @@
       "keyframes": [
         {
           "ticks": 133,
-          "value": 0.26666668
-        },
-        
-        {
-          "ticks": 22330,
           "value": 0.26666668
         }
       ],
@@ -107,48 +86,25 @@
       ],
       "modifier": "maximum"
     },
+     "minecraft:visual/sky_color": {
+      "keyframes": [
+        {
+          "ticks": 13,
+          "value": "#000000"
+        }
+      ],
+      "modifier": "multiply"
+    },
     "minecraft:visual/sky_light_color": {
       "keyframes": [
         {
           "ticks": 730,
-          "value": "#7a7aff"
-        },
-        {
-          "ticks": 11270,
-          "value": "#7a7aff"
-        },
-        {
-          "ticks": 13140,
-          "value": "#7a7aff"
-        },
-        {
-          "ticks": 22860,
-          "value": "#7a7aff"
+          "value": "#27c4df"
         }
       ],
       "modifier": "multiply"
     },
-    "minecraft:visual/cloud_color": {
-      "keyframes": [
-        {
-          "ticks": 133,
-          "value": -1
-        },
-        {
-          "ticks": 11867,
-          "value": -1
-        },
-        {
-          "ticks": 13670,
-          "value": -15132378
-        },
-        {
-          "ticks": 22330,
-          "value": -15132378
-        }
-      ],
-      "modifier": "multiply"
-    },
+    
     
     "minecraft:visual/moon_angle": {
       "ease": {
@@ -171,10 +127,7 @@
    
     "minecraft:visual/sky_light_factor": {
       "keyframes": [
-        {
-          "ticks": 730,
-          "value": 0.24
-        },
+        
         
         
         {

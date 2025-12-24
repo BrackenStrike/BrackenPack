@@ -243,6 +243,31 @@
           "value": 60.0
         }
       ]
+    },
+     "minecraft:visual/sunrise_sunset_color": {
+      "keyframes": [
+       
+        {
+          "ticks": 10,
+          "value": "#aee0b9"
+        },
+        {
+          "ticks": 63800,
+          "value": "#aee0b9"
+        },
+        {
+          "ticks": 64000,
+          "value": "#920b27"
+        },
+        {
+          "ticks": 64200,
+          "value": "#aee0b9"
+        },
+        {
+          "ticks": 13775,
+          "value": "#aee0b9"
+        }
+      ]
     }
   }
 }

@@ -37,7 +37,7 @@
         
         {
           "ticks": 6000,
-          "value": 0.0
+          "value": 80.0
         }
       ]
     },
@@ -47,7 +47,7 @@
       "keyframes": [
         {
           "ticks": 730,
-          "value": 1.0
+          "value": 0.75
         }
       ],
       "modifier": "multiply"
@@ -72,11 +72,20 @@
         }
       ]
     },
+    "minecraft:visual/sky_light_color": {
+      "keyframes": [
+        {
+          "ticks": 730,
+          "value": "#ffffff"
+        }
+      ],
+      "modifier": "multiply"
+    },
     "minecraft:visual/star_brightness": {
       "keyframes": [
         {
           "ticks": 92,
-          "value": 0.0
+          "value": 0.3
         }
       ],
       "modifier": "maximum"

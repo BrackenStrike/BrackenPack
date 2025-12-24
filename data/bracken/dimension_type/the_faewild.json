@@ -1,6 +1,6 @@
 
 {
-  "ambient_light": 0.3,
+  "ambient_light": 0.1,
   "attributes": {
     "minecraft:audio/ambient_sounds": {
       "mood": {
