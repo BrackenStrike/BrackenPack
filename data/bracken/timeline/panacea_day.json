@@ -45,19 +45,6 @@
     "minecraft:gameplay/sky_light_level": {
       "keyframes": [
         {
-          "ticks": 63500,
-          "value":  1.0
-        },
-        {
-          "ticks": 64250,
-          "value": 0.0
-        },
-        {
-          "ticks": 65000,
-          "value": 1.0
-        },
-
-        {
           "ticks": 10250,
           "value":  0.5
         },
@@ -68,7 +55,21 @@
         {
           "ticks": 46250,
           "value": 0.5
+        },
+        {
+          "ticks": 63500,
+          "value":  1.0
+        },
+        {
+          "ticks": 64250,
+          "value": 0.0
+        },
+        {
+          "ticks": 65000,
+          "value": 1.0
         }
+
+        
       ],
       "modifier": "multiply"
     },
