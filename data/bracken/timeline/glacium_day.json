@@ -1,5 +1,5 @@
 {
-  "period_ticks": 24000,
+  "period_ticks": 240000,
   "tracks": {
     
     
@@ -28,23 +28,23 @@
     "minecraft:visual/cloud_color": {
       "keyframes": [
         {
-          "ticks": 10,
+          "ticks": 100,
           "value": "#a8c2f389"
         },
         {
-          "ticks": 11900,
+          "ticks": 119000,
           "value": "#a8c2f389"
         },
         {
-          "ticks": 12000,
+          "ticks": 120000,
           "value": "#e151ffff"
         },
         {
-          "ticks": 12100,
+          "ticks": 121000,
           "value": "#a8c2f389"
         },
         {
-          "ticks": 23990,
+          "ticks": 239900,
           "value": "#a8c2f389"
         }
       ],
@@ -63,7 +63,7 @@
       "keyframes": [
         
         {
-          "ticks": 6000,
+          "ticks": 60000,
           "value": 40.0
         }
       ]
@@ -81,24 +81,24 @@
       "keyframes": [
         
         {
-          "ticks": 10,
-          "value": "#7a7aff"
+          "ticks": 100,
+          "value": "#27c4df"
         },
         {
-          "ticks": 11900,
-          "value": "#7a7aff"
+          "ticks": 119000,
+          "value": "#27c4df"
         },
         {
-          "ticks": 12000,
+          "ticks": 120000,
           "value": "#a3ffb5"
         },
         {
-          "ticks": 12100,
-          "value": "#7a7aff"
+          "ticks": 121000,
+          "value": "#27c4df"
         },
         {
-          "ticks": 23990,
-          "value": "#7a7aff"
+          "ticks": 239900,
+          "value": "#27c4df"
         }
       ],
       "modifier": "multiply"
@@ -123,11 +123,11 @@
       },
       "keyframes": [
         {
-          "ticks": 6000,
+          "ticks": 60000,
           "value": 360.0
         },
         {
-          "ticks": 6000,
+          "ticks": 60000,
           "value": 0.0
         }
       ]
@@ -154,7 +154,7 @@
       },
       "keyframes": [
         {
-          "ticks": 6000,
+          "ticks": 60000,
           "value": 40.0
         }
       ]
@@ -164,23 +164,23 @@
         
         
         {
-          "ticks": 10,
+          "ticks": 100,
           "value": "#365a6887"
         },
         {
-          "ticks": 11900,
+          "ticks": 119000,
           "value": "#365a6887"
         },
         {
-          "ticks": 12000,
+          "ticks": 120000,
           "value": "#361cd572"
         },
         {
-          "ticks": 12100,
+          "ticks": 121000,
           "value": "#365a6887"
         },
         {
-          "ticks": 23990,
+          "ticks": 239900,
           "value": "#365a6887"
         }
       ]
