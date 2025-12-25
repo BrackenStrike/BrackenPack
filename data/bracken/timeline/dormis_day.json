@@ -17,15 +17,7 @@
       ],
       "modifier": "or"
     },
-    "minecraft:visual/sky_light_color": {
-      "keyframes": [
-        {
-          "ticks": 730,
-          "value": "#ffe667"
-        }
-      ],
-      "modifier": "multiply"
-    },
+    
     
     "minecraft:gameplay/monsters_burn": {
       "keyframes": [

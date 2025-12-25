@@ -105,19 +105,19 @@
       "keyframes": [
         {
           "ticks": 133,
-          "value": -1
+          "value": "#89FFBADF"
         },
         {
           "ticks": 11867,
-          "value": -1
+          "value": "#89FFBADF"
         },
         {
           "ticks": 13670,
-          "value": -15132378
+          "value": "#893BD1B4"
         },
         {
           "ticks": 22330,
-          "value": -15132378
+          "value": "#893BD1B4"
         }
       ],
       "modifier": "multiply"
@@ -175,11 +175,11 @@
         },
         {
           "ticks": 13140,
-          "value": "#7a7aff"
+          "value": "#8C8787"
         },
         {
           "ticks": 22860,
-          "value": "#7a7aff"
+          "value": "#8C8787"
         }
       ],
       "modifier": "multiply"

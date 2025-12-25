@@ -1,4 +1,5 @@
 
+
 {
   "ambient_light": 0.1,
   "attributes": {
@@ -20,12 +21,12 @@
     },
     "minecraft:gameplay/nether_portal_spawns_piglin": true,
     "minecraft:gameplay/respawn_anchor_works": true,
-    "minecraft:visual/cloud_color": "#896c5859",
-    "minecraft:visual/cloud_height": 228.33,
+    "minecraft:visual/cloud_color": "#89D3C1C3",
+    "minecraft:visual/cloud_height": 208.33,
     "minecraft:visual/fog_color": "#584c4d",
     "minecraft:visual/sky_color": "#833d3f",
     "minecraft:visual/sky_fog_end_distance":96,
-    "minecraft:visual/cloud_fog_end_distance":96,
+    "minecraft:visual/cloud_fog_end_distance":128,
     
 "minecraft:visual/fog_end_distance": 96.0,
 "minecraft:visual/fog_start_distance": 20.0

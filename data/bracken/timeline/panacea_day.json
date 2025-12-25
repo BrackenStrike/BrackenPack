@@ -33,6 +33,67 @@
       ],
       "modifier": "or"
     },
+    "minecraft:gameplay/piglins_zombify": {
+      "keyframes": [
+        {
+          "ticks": 10250,
+          "value":  false
+        },
+        {
+          "ticks": 28250,
+          "value": false
+        },
+        {
+          "ticks": 46250,
+          "value": false
+        },
+        {
+          "ticks": 63500,
+          "value":  false
+        },
+        {
+          "ticks": 64250,
+          "value": true
+        },
+        {
+          "ticks": 65000,
+          "value": false
+        }
+      ]
+    },
+    
+
+"minecraft:visual/cloud_color": {
+      "keyframes": [
+        {
+          "ticks": 10250,
+          "value":  "#ccd7ffdd"
+        },
+        {
+          "ticks": 28250,
+          "value": "#cc596a59"
+        },
+        {
+          "ticks": 46250,
+          "value": "#ccd7ffdd"
+        },
+
+        {
+          "ticks": 63500,
+          "value":  "#ccd7ffdd"
+        },
+        {
+          "ticks": 64250,
+          "value": "#ff000000"
+        },
+        {
+          "ticks": 65000,
+          "value": "#ccd7ffdd"
+        }
+      ],
+      "modifier": "multiply"
+    },
+
     "minecraft:gameplay/eyeblossom_open": {
       "keyframes": [
         {
@@ -41,6 +102,7 @@
         }
       ]
     },
+    
     
     "minecraft:gameplay/sky_light_level": {
       "keyframes": [
@@ -122,7 +184,7 @@
         },
         {
           "ticks": 64250,
-          "value": "#ff7668"
+          "value": "#ff0000"
         },
         {
           "ticks": 65000,
@@ -156,6 +218,36 @@
         {
           "ticks": 65000,
           "value": 1.0
+        }
+        
+      ],
+      "modifier": "multiply"
+    },
+    "minecraft:visual/sky_color": {
+      "keyframes": [
+        {
+          "ticks": 10250,
+          "value":  "#aee0b9"
+        },
+        {
+          "ticks": 28250,
+          "value": "#aee0b9"
+        },
+        {
+          "ticks": 46250,
+          "value": "#aee0b9"
+        },
+        {
+          "ticks": 63500,
+          "value":  "#aee0b9"
+        },
+        {
+          "ticks": 64250,
+          "value": "#ff0000"
+        },
+        {
+          "ticks": 65000,
+          "value": "#aee0b9"
         }
         
       ],

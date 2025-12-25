@@ -1,6 +1,6 @@
 
 {
-  "ambient_light": 0.1,
+  "ambient_light": 0.05,
   "attributes": {
     "minecraft:audio/ambient_sounds": {
       "mood": {
@@ -20,9 +20,9 @@
     },
     "minecraft:gameplay/nether_portal_spawns_piglin": false,
     "minecraft:gameplay/respawn_anchor_works": false,
-    "minecraft:visual/cloud_color": "#89d8d4fe",
+    "minecraft:visual/cloud_color": "#899165D9",
     "minecraft:visual/cloud_height": 275.33,
-    "minecraft:visual/fog_color": "#5d4759",
+    "minecraft:visual/fog_color": "#9c6da1",
     "minecraft:visual/sky_color": "#26305f"
   },
   "coordinate_scale": 1.0,

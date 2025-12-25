@@ -29,23 +29,23 @@
       "keyframes": [
         {
           "ticks": 100,
-          "value": "#a8c2f389"
+          "value": "#89a8c2f3"
         },
         {
           "ticks": 119000,
-          "value": "#a8c2f389"
+          "value": "#89a8c2f3"
         },
         {
           "ticks": 120000,
-          "value": "#e151ffff"
+          "value": "#ff78ea8d"
         },
         {
           "ticks": 121000,
-          "value": "#a8c2f389"
+          "value": "#89a8c2f3"
         },
         {
           "ticks": 239900,
-          "value": "#a8c2f389"
+          "value": "#89a8c2f3"
         }
       ],
       "modifier": "multiply"
@@ -71,7 +71,23 @@
     "minecraft:visual/sky_color": {
       "keyframes": [
         {
-          "ticks": 13,
+          "ticks": 100,
+          "value": "#000000"
+        },
+        {
+          "ticks": 119000,
+          "value": "#000000"
+        },
+        {
+          "ticks": 120000,
+          "value": "#a3ffb5"
+        },
+        {
+          "ticks": 121000,
+          "value": "#000000"
+        },
+        {
+          "ticks": 239900,
           "value": "#000000"
         }
       ],
@@ -82,11 +98,11 @@
         
         {
           "ticks": 100,
-          "value": "#27c4df"
+          "value": "#272897"
         },
         {
           "ticks": 119000,
-          "value": "#27c4df"
+          "value": "#272897"
         },
         {
           "ticks": 120000,
@@ -94,11 +110,11 @@
         },
         {
           "ticks": 121000,
-          "value": "#27c4df"
+          "value": "#272897"
         },
         {
           "ticks": 239900,
-          "value": "#27c4df"
+          "value": "#272897"
         }
       ],
       "modifier": "multiply"
@@ -106,8 +122,24 @@
     "minecraft:visual/sky_light_factor": {
       "keyframes": [
         {
-          "ticks": 73,
+          "ticks": 100,
+          "value": 0.1
+        },
+        {
+          "ticks": 119000,
+          "value": 0.1
+        },
+        {
+          "ticks": 120000,
           "value": 1.0
+        },
+        {
+          "ticks": 121000,
+          "value": 0.1
+        },
+        {
+          "ticks": 239900,
+          "value": 0.1
         }
       ],
       "modifier": "multiply"
@@ -135,7 +167,23 @@
     "minecraft:visual/star_brightness": {
       "keyframes": [
         {
-          "ticks": 9,
+          "ticks": 100,
+          "value": 0.5
+        },
+        {
+          "ticks": 119000,
+          "value": 0.5
+        },
+        {
+          "ticks": 120000,
+          "value": 0.0
+        },
+        {
+          "ticks": 121000,
+          "value": 0.5
+        },
+        {
+          "ticks": 239900,
           "value": 0.5
         }
         

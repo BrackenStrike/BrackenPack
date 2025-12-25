@@ -63,7 +63,7 @@
       "keyframes": [
         {
           "ticks": 5,
-          "value": 0.2
+          "value": 0.3
         }
       ],
       "modifier": "multiply"
@@ -112,7 +112,7 @@
       "keyframes": [
         {
           "ticks": 35,
-          "value": "#a9b0ff"
+          "value": "#6c83fe"
         }
       ],
       "modifier": "multiply"
