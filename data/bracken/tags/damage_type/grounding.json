@@ -1,7 +1,8 @@
 {
 	"values": [
-		"minecraft:mace_smash",
 		"minecraft:ender_pearl",
+		"minecraft:magic",
+		"minecraft:indirect_magic",
 		"minecraft:lightning_bolt"
 	]
 }

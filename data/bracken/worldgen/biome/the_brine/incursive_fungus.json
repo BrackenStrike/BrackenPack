@@ -17,18 +17,19 @@
           }],
         "misc": [],
         "monster": [
-          {
-            "type": "minecraft:drowned",
-            "maxCount": 1,
-            "minCount": 1,
-            "weight": 5
-          }
+          
           
         ],
         "underground_water_creature": [
           
         ],
         "water_ambient": [
+          {
+        "type": "minecraft:nautilus",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      }
           
         ],
         "water_creature": [
