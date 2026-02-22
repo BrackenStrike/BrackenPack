@@ -1,88 +1,16 @@
 {
-  "period_ticks": 24000,
+  "period_ticks": 72000,
   "tracks": {
-    "minecraft:audio/firefly_bush_sounds": {
-      "keyframes": [
-        {
-          "ticks": 12600,
-          "value": true
-        },
-        {
-          "ticks": 23401,
-          "value": false
-        }
-      ],
-      "modifier": "or"
-    },
-    "minecraft:gameplay/bees_stay_in_hive": {
-      "keyframes": [
-        {
-          "ticks": 12542,
-          "value": true
-        },
-        {
-          "ticks": 23460,
-          "value": false
-        }
-      ],
-      "modifier": "or"
-    },
-    "minecraft:gameplay/cat_waking_up_gift_chance": {
-      "ease": "constant",
-      "keyframes": [
-        {
-          "ticks": 362,
-          "value": 0.0
-        },
-        {
-          "ticks": 23667,
-          "value": 0.7
-        }
-      ],
-      "modifier": "maximum"
-    },
-    "minecraft:gameplay/creaking_active": {
-      "keyframes": [
-        {
-          "ticks": 12600,
-          "value": true
-        },
-        {
-          "ticks": 23401,
-          "value": false
-        }
-      ],
-      "modifier": "or"
-    },
-    "minecraft:gameplay/eyeblossom_open": {
-      "keyframes": [
-        {
-          "ticks": 12600,
-          "value": true
-        },
-        {
-          "ticks": 23401,
-          "value": false
-        }
-      ]
-    },
+    
+   
+    
+   
+    
     "minecraft:gameplay/sky_light_level": {
       "keyframes": [
         {
           "ticks": 133,
           "value": 1.0
-        },
-        {
-          "ticks": 11867,
-          "value": 1.0
-        },
-        {
-          "ticks": 13670,
-          "value": 0.26666668
-        },
-        {
-          "ticks": 22330,
-          "value": 0.26666668
         }
       ],
       "modifier": "multiply"
@@ -93,10 +21,6 @@
         {
           "ticks": 21062,
           "value": 1.0
-        },
-        {
-          "ticks": 21905,
-          "value": 0.002
         }
       ],
       "modifier": "maximum"
@@ -106,18 +30,6 @@
         {
           "ticks": 133,
           "value": "#89FFBADF"
-        },
-        {
-          "ticks": 11867,
-          "value": "#89FFBADF"
-        },
-        {
-          "ticks": 13670,
-          "value": "#893BD1B4"
-        },
-        {
-          "ticks": 22330,
-          "value": "#893BD1B4"
         }
       ],
       "modifier": "multiply"
@@ -133,12 +45,8 @@
       },
       "keyframes": [
         {
-          "ticks": 6000,
-          "value": 360.0
-        },
-        {
-          "ticks": 6000,
-          "value": 0.0
+          "ticks": 18000,
+          "value": 80.0
         }
       ]
     },
@@ -147,18 +55,6 @@
         {
           "ticks": 133,
           "value": "#ffffff"
-        },
-        {
-          "ticks": 11867,
-          "value": "#ffffff"
-        },
-        {
-          "ticks": 13670,
-          "value": "#000000"
-        },
-        {
-          "ticks": 22330,
-          "value": "#000000"
         }
       ],
       "modifier": "multiply"
@@ -172,14 +68,6 @@
         {
           "ticks": 11270,
           "value": "#ffffff"
-        },
-        {
-          "ticks": 13140,
-          "value": "#8C8787"
-        },
-        {
-          "ticks": 22860,
-          "value": "#8C8787"
         }
       ],
       "modifier": "multiply"
@@ -189,18 +77,6 @@
         {
           "ticks": 730,
           "value": 1.0
-        },
-        {
-          "ticks": 11270,
-          "value": 1.0
-        },
-        {
-          "ticks": 13140,
-          "value": 0.24
-        },
-        {
-          "ticks": 22860,
-          "value": 0.24
         }
       ],
       "modifier": "multiply"
@@ -216,64 +92,21 @@
       },
       "keyframes": [
         {
-          "ticks": 6000,
+          "ticks": 18000,
           "value": 360.0
         },
         {
-          "ticks": 6000,
+          "ticks": 18000,
           "value": 0.0
         }
       ]
     },
     "minecraft:visual/star_brightness": {
       "keyframes": [
-        {
-          "ticks": 92,
-          "value": 0.037
-        },
-        {
-          "ticks": 627,
-          "value": 0.0
-        },
-        {
-          "ticks": 11373,
-          "value": 0.0
-        },
+        
         {
           "ticks": 11732,
-          "value": 0.016
-        },
-        {
-          "ticks": 11959,
-          "value": 0.044
-        },
-        {
-          "ticks": 12399,
-          "value": 0.143
-        },
-        {
-          "ticks": 12729,
-          "value": 0.258
-        },
-        {
-          "ticks": 13228,
-          "value": 0.5
-        },
-        {
-          "ticks": 22772,
-          "value": 0.5
-        },
-        {
-          "ticks": 23032,
-          "value": 0.364
-        },
-        {
-          "ticks": 23356,
-          "value": 0.225
-        },
-        {
-          "ticks": 23758,
-          "value": 0.101
+          "value": 0.26
         }
       ],
       "modifier": "maximum"
@@ -290,11 +123,7 @@
       "keyframes": [
         {
           "ticks": 6000,
-          "value": 360.0
-        },
-        {
-          "ticks": 6000,
-          "value": 0.0
+          "value": 80.0
         }
       ]
     }

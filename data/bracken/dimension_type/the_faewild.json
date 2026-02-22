@@ -22,7 +22,7 @@
     "minecraft:gameplay/respawn_anchor_works": false,
     "minecraft:visual/cloud_color": "#899165D9",
     "minecraft:visual/cloud_height": 275.33,
-    "minecraft:visual/fog_color": "#9c6da1",
+    "minecraft:visual/fog_color": "#000025",
     "minecraft:visual/sky_color": "#26305f"
   },
   "coordinate_scale": 1.0,

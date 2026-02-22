@@ -161,14 +161,11 @@
       "keyframes": [
         {
           "ticks": 92,
-          "value": 1.0
-        },
-        
-        
-        {
-          "ticks": 23758,
-          "value": 1.0
+          "value": 0.50
         }
+        
+        
+        
       ],
       "modifier": "maximum"
     },

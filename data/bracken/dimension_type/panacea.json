@@ -21,7 +21,7 @@
     "minecraft:gameplay/respawn_anchor_works": false,
     "minecraft:visual/cloud_color": "#ccd7ffdd",
     "minecraft:visual/cloud_height": 128.33,
-    "minecraft:visual/fog_color": "#cde78b",
+    "minecraft:visual/fog_color": "#aee0b9",
     "minecraft:visual/sky_color": "#aee0b9",
     
 "minecraft:visual/fog_end_distance": 96.0,
