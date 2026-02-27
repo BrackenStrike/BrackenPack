@@ -101,16 +101,19 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "attributes": {
-   
-    "minecraft:visual/ambient_particles": [
-      {
+
+    "minecraft:visual/ambient_particles": [{
         "particle": {
           "type": "minecraft:ash"
         },
         "probability": 0.00625
-      }
-    ],
+      }],
+    
     "minecraft:visual/fog_color": "#a8802e"
+  },
+  "effects": {
+    
+    "water_color": "#a8802e"
   },
     "has_precipitation": false
 }
