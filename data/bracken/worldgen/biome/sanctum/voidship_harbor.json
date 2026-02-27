@@ -51,10 +51,12 @@
     ],
     "temperature": 0.95,
     "downfall": 0.1,
+    "effects": {
+    "water_color": "#702c3d"},
     "attributes": {
 
     
-    "minecraft:visual/water_color": "#702c3d",
+    
     "minecraft:visual/water_fog_color": "#5a0f2d"
   },
     "has_precipitation": false

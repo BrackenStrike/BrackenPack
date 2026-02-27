@@ -72,6 +72,8 @@
     ],
     "temperature": 0.95,
     "downfall": 0.1,
+    "effects": {
+    "water_color": "#000000"},
     "attributes": {
 
     "minecraft:visual/ambient_particles": [{
@@ -81,11 +83,9 @@
         "probability": 0.00625
       }],
     "minecraft:visual/fog_color": "#000000",
-        "minecraft:visual/water_color": "#000000",
-        "minecraft:visual/water_fog_color": "#000000",
-        "minecraft:visual/grass_color": "#000000",
-        "minecraft:visual/sky_color": "#000000",
-        "minecraft:visual/foliage_color": "#000000"
+        
+        "minecraft:visual/water_fog_color": "#000000",        
+        "minecraft:visual/sky_color": "#000000"
   },
     "has_precipitation": true
 }
