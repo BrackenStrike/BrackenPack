@@ -3,10 +3,7 @@
         "minecraft:visual/fog_end_distance": 96.0,
 "minecraft:visual/fog_start_distance": 10.0,
     "minecraft:audio/ambient_sounds": {
-      "additions": {
-        "sound": "minecraft:ambient.basalt_deltas.mood",
-        "tick_chance": 0.0111
-      },
+      
       "loop": "minecraft:ambient.nether_wastes.loop",
       "mood": {
         "block_search_extent": 8,

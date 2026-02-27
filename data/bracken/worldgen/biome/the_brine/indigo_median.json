@@ -61,12 +61,8 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "effects": {
-        "fog_color": 10799560,
-        "water_color": 3149898,
-        "water_fog_color": 1835840,
-        "grass_color": 668950,
-        "sky_color": 4030565,
-        "foliage_color": 0,
+        "water_color": "#30104a",
+        "water_fog_color": "#1c0340",
         "particle": {
             "options": {
                 "type": "minecraft:ash"

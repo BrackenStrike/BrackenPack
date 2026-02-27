@@ -1,18 +1,6 @@
 {
     "attributes": {
-    "minecraft:audio/ambient_sounds": {
-      "additions": {
-        "sound": "minecraft:ambient.cave",
-        "tick_chance": 0.0111
-      },
-      "loop": "minecraft:ambient.crimson_forest.loop",
-      "mood": {
-        "block_search_extent": 8,
-        "offset": 2.0,
-        "sound": "minecraft:ambient.crimson_forest.mood",
-        "tick_delay": 6000
-      }
-    },
+    
     "minecraft:audio/background_music": {
       "default": {
         "max_delay": 24000,

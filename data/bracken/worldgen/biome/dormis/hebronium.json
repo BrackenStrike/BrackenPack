@@ -1,10 +1,7 @@
 {
     "attributes": {
     "minecraft:audio/ambient_sounds": {
-      "additions": {
-        "sound": "minecraft:ambient.basalt_deltas.mood",
-        "tick_chance": 0.0111
-      },
+      
       "loop": "minecraft:ambient.nether_wastes.loop",
       "mood": {
         "block_search_extent": 8,

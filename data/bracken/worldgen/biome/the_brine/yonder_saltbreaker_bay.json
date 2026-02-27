@@ -42,12 +42,8 @@
             "block_search_extent": 8,
             "offset": 2
         },
-        "fog_color": 13500385,
-        "water_color": 5095618,
-        "water_fog_color": 3093076,
-        "grass_color": 2320701,
-        "sky_color": 13500385,
-        "foliage_color": 2320701,
+        "water_color": "#81c0c2",
+        "water_fog_color": "#2f6a8a",
         "particle": {
             "options": {
                 "type": "minecraft:warped_spore"
