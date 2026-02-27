@@ -10,6 +10,14 @@
         "tick_delay": 6000
       }
     },
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 6000,
+        "replace_current_music": true,
+        "sound": {"sound_id": "bracken:dormis"}
+      }
+    },
     "minecraft:gameplay/bed_rule": {
       "can_set_spawn": "always",
       "can_sleep": "always",

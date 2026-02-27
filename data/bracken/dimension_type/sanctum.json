@@ -23,6 +23,8 @@
     "minecraft:visual/cloud_height": -55.33,
     "minecraft:visual/sky_fog_end_distance":96,
     "minecraft:visual/cloud_fog_end_distance":128,
+    "water_color": "#f6612e",
+    "water_fog_color": "#ae2d18",
     "minecraft:visual/fog_color": "#933530",
     "minecraft:visual/sky_color": "#793530"
   },

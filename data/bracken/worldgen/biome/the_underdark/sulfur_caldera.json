@@ -100,17 +100,8 @@
     ],
     "temperature": 0.95,
     "downfall": 0.1,
-    "effects": {
-        
-        "fog_color": "#a8802E2",
-        
-        "particle": {
-            "options": {
-                "type": "minecraft:smoke"
-            },
-            "probability": 0.001193334
-        },
-        "mood_sound": {
+    "attributes": {
+   "mood_sound": {
             "sound": "minecraft:ambient.cave",
             "tick_delay": 6000,
             "block_search_extent": 8,
@@ -120,45 +111,22 @@
             "sound": "minecraft:ambient.basalt_deltas.mood",
             "tick_chance": 0.0001
         },
-        "music": [
-            {
-                "data": {
-                  "max_delay": 24000,
-                  "min_delay": 12000,
-                  "replace_current_music": false,
-                  "sound": "minecraft:music_disc.otherside"
-                },
-                "weight": 1
-              },
-              {
-                  "data": {
-                    "max_delay": 24000,
-                    "min_delay": 12000,
-                    "replace_current_music": false,
-                    "sound": "minecraft:music.nether.nether_wastes"
-                  },
-                  "weight": 1
-                },
-                {
-                    "data": {
-                      "max_delay": 24000,
-                      "min_delay": 12000,
-                      "replace_current_music": false,
-                      "sound": "minecraft:music.nether.basalt_deltas"
-                    },
-                    "weight": 1
-                  },
-              {
-                  "data": {
-                    "max_delay": 24000,
-                    "min_delay": 12000,
-                    "replace_current_music": false,
-                    "sound": {"sound_id": "bracken:underdark"}
-                  },
-                  "weight": 1
-                }
-          ],
-          "music_volume": 1.0
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "sound": {"sound_id": "bracken:underdark"}
+      }
     },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:ash"
+        },
+        "probability": 0.00625
+      }
+    ],
+    "minecraft:visual/fog_color": "#a8802e"
+  },
     "has_precipitation": false
 }
