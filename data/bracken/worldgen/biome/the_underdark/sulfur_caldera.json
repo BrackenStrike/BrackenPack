@@ -101,23 +101,7 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "attributes": {
-   "mood_sound": {
-            "sound": "minecraft:ambient.cave",
-            "tick_delay": 6000,
-            "block_search_extent": 8,
-            "offset": 2
-        },
-        "additions_sound": {
-            "sound": "minecraft:ambient.basalt_deltas.mood",
-            "tick_chance": 0.0001
-        },
-    "minecraft:audio/background_music": {
-      "default": {
-        "max_delay": 24000,
-        "min_delay": 12000,
-        "sound": {"sound_id": "bracken:underdark"}
-      }
-    },
+   
     "minecraft:visual/ambient_particles": [
       {
         "particle": {

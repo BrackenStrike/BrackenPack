@@ -63,8 +63,8 @@
     "attributes": {
 
     
-    "water_color": "#30104a",
-        "water_fog_color": "#1c0340"
+    "minecraft:visual/water_color": "#30104a",
+        "minecraft:visual/water_fog_color": "#1c0340"
   },
     "has_precipitation": true
 }

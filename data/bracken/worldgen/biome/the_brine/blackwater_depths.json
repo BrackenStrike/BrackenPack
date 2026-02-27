@@ -80,12 +80,12 @@
         },
         "probability": 0.00625
       }],
-    "fog_color": "#000000",
-        "water_color": "#000000",
-        "water_fog_color": "#000000",
-        "grass_color": "#000000",
-        "sky_color": "#000000",
-        "foliage_color": "#000000"
+    "minecraft:visual/fog_color": "#000000",
+        "minecraft:visual/water_color": "#000000",
+        "minecraft:visual/water_fog_color": "#000000",
+        "minecraft:visual/grass_color": "#000000",
+        "minecraft:visual/sky_color": "#000000",
+        "minecraft:visual/foliage_color": "#000000"
   },
     "has_precipitation": true
 }
