@@ -27,6 +27,12 @@
                 "maxCount": 1
             },
             {
+                "type": "minecraft:magma_cube",
+                "weight": 5,
+                "minCount": 2,
+                "maxCount": 6
+            },
+            {
                 "type": "minecraft:blaze",
                 "weight": 25,
                 "minCount": 1,

@@ -45,6 +45,12 @@
                 "minCount": 3,
                 "maxCount": 3
             },
+            {
+                "type": "minecraft:enderman",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 1
+            },
             
             {
                 "type": "minecraft:slime",

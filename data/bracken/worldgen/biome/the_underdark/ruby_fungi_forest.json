@@ -47,25 +47,14 @@
                 "maxCount": 1
             },
             {
-                "type": "minecraft:creeper",
-                "weight": 5,
+                "type": "minecraft:slime",
+                "weight": 15,
                 "minCount": 1,
                 "maxCount": 1
             },
+            
             {
-                "type": "minecraft:silverfish",
-                "weight": 25,
-                "minCount": 1,
-                "maxCount": 3
-            },
-            {
-                "type": "minecraft:cave_spider",
-                "weight": 5,
-                "minCount": 2,
-                "maxCount": 6
-            },
-            {
-                "type": "minecraft:spider",
+                "type": "minecraft:magma_cube",
                 "weight": 15,
                 "minCount": 2,
                 "maxCount": 6
