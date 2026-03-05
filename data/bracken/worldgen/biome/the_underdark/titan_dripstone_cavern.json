@@ -118,7 +118,13 @@
         [
             "minecraft:ore_infested"
         ],
-        [],
+        ["bracken:underdark/ore_mega_coal",
+        "bracken:underdark/ore_mega_copper",
+        "bracken:underdark/ore_mega_diamond",
+        "bracken:underdark/ore_mega_emerald",
+        "bracken:underdark/ore_mega_gold",
+        "bracken:underdark/ore_mega_iron",
+        "bracken:underdark/ore_mega_redstone"],
         [
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal",

@@ -2,12 +2,7 @@
     "spawners": {
         "water_ambient": [],
         "ambient": [
-            {
-                "type": "minecraft:bat",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            }
+            
         ],
         "misc": [],
         "water_creature": [],
@@ -97,7 +92,13 @@
             "minecraft:patch_tall_grass_2",
             "bracken:underdark/smooth_basalt"
         ],
-        [],
+        ["bracken:underdark/ore_mega_coal",
+        "bracken:underdark/ore_mega_copper",
+        "bracken:underdark/ore_mega_diamond",
+        "bracken:underdark/ore_mega_emerald",
+        "bracken:underdark/ore_mega_gold",
+        "bracken:underdark/ore_mega_iron",
+        "bracken:underdark/ore_mega_redstone"],
         [],
         [],
         [

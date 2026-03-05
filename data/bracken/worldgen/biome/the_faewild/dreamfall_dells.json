@@ -26,7 +26,13 @@
                 "maxCount": 4
             },
             {
-                "type": "minecraft:stray",
+                "type": "minecraft:husk",
+                "weight": 2,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:phantom",
                 "weight": 2,
                 "minCount": 4,
                 "maxCount": 4
