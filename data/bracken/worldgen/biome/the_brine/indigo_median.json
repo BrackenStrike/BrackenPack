@@ -61,49 +61,12 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "effects": {
-        "fog_color": 10799560,
-        "water_color": 3149898,
-        "water_fog_color": 1835840,
-        "grass_color": 668950,
-        "sky_color": 4030565,
-        "foliage_color": 0,
-        "particle": {
-            "options": {
-                "type": "minecraft:ash"
-            },
-            "probability": 0.0001428
-        },
-        "mood_sound": {
-            "sound": "minecraft:ambient.cave",
-            "tick_delay": 6000,
-            "block_search_extent": 8,
-            "offset": 2
-        },
-        "additions_sound": {
-            "sound": "minecraft:ambient.underwater.loop.additions.ultra_rare",
-            "tick_chance": 0.001
-        },
-        "music": [
-          {
-            "data": {
-              "max_delay": 24000,
-              "min_delay": 12000,
-              "replace_current_music": false,
-              "sound": {"sound_id": "bracken:brine"}
-            },
-            "weight": 1
-          },
-          {
-            "data": {
-              "max_delay": 24000,
-              "min_delay": 12000,
-              "replace_current_music": false,
-              "sound": "minecraft:music.under_water"
-            },
-            "weight": 1
-          }
-          ],
-          "music_volume": 1.0
-    },
+    "water_color": "#30104a"},
+    "attributes": {
+
+    
+    
+        "minecraft:visual/water_fog_color": "#1c0340"
+  },
     "has_precipitation": true
 }

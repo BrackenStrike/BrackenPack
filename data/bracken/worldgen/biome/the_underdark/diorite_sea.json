@@ -2,12 +2,7 @@
     "spawners": {
         "water_ambient": [],
         "ambient": [
-            {
-                "type": "minecraft:bat",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            }
+            
         ],
         "misc": [],
         "water_creature": [],

@@ -29,7 +29,7 @@
 # Note: All options are enabled by default.
 ##########################################################
 
-gamerule sendCommandFeedback false
+gamerule send_command_feedback false
 scoreboard players set @s bp.verylongtick 2
 tag @s add bp.config_gamerule
 

@@ -16,8 +16,26 @@
         {
                 "type": "minecraft:enderman",
                 "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:slime",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:husk",
+                "weight": 2,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:phantom",
+                "weight": 2,
+                "minCount": 4,
+                "maxCount": 4
             }
     ]
     },

@@ -4,5 +4,5 @@
 ##########################################################
 
 scoreboard players set @s bp.verylongtick 0
-execute if entity @s[tag=bp.config_gamerule] run gamerule sendCommandFeedback true
+execute if entity @s[tag=bp.config_gamerule] run gamerule command_block_output true
 tag @s[tag=bp.config_gamerule] remove bp.config_gamerule
