@@ -1,20 +1,52 @@
 {
-    "ultrawarm": false,
-    "effects": "minecraft:the_nether",
-    "natural": true,
-    "piglin_safe": true,
-    "respawn_anchor_works": false,
-    "bed_works": true,
-    "has_raids": true,
-    "has_skylight": true,
-    "has_ceiling": false,
-    "coordinate_scale": 1,
-    "ambient_light": 0,
-    "logical_height": 100,
-    "cloud_height": 128,
-    "infiniburn": "#minecraft:infiniburn_panacea",
-    "min_y": 0,
-    "height": 384,
-    "monster_spawn_block_light_limit": 14,
-    "monster_spawn_light_level": 6
+  "ambient_light": 0.0,
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2.0,
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000
+      }
+    },
+
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "always",
+      "can_sleep": "when_dark",
+      "error_message": {
+        "translate": "block.minecraft.bed.no_sleep"
+      }
+    },
+    "minecraft:gameplay/nether_portal_spawns_piglin": true,
+    "minecraft:gameplay/respawn_anchor_works": false,
+    "minecraft:visual/cloud_color": "#ccd7ffdd",
+    "minecraft:visual/cloud_height": 128.33,
+    "minecraft:visual/fog_color": "#aee0b9",
+    "minecraft:visual/sky_color": "#aee0b9",
+    
+"minecraft:visual/fog_end_distance": 96.0,
+"minecraft:visual/cloud_fog_end_distance":512,
+"minecraft:visual/fog_start_distance": 20.0
+  },
+  "coordinate_scale": 1.0,
+  "has_ceiling": false,
+  "has_skylight": true,
+  "height": 384,
+"minecraft:gameplay/piglins_zombify": false,
+"minecraft:gameplay/can_start_raid": false,
+"minecraft:gameplay/snow_golem_melts": true,
+"minecraft:gameplay/fast_lava": true,
+"minecraft:visual/default_dripstone_particle": {
+      "type": "minecraft:dripping_dripstone_lava"
+    },
+  "infiniburn": "#minecraft:infiniburn_panacea",
+  "logical_height": 100,
+  "min_y": 0,
+  "monster_spawn_block_light_limit": 0,
+  "monster_spawn_light_level": {
+    "type": "minecraft:uniform",
+    "max_inclusive": 7,
+    "min_inclusive": 0
+  },
+  "timelines": "#bracken:in_panacea"
 }

@@ -57,7 +57,7 @@
         ],
         "monster": [
             {
-                "type": "minecraft:husk",
+                "type": "minecraft:stray",
                 "weight": 1,
                 "minCount": 1,
                 "maxCount": 2
@@ -71,12 +71,6 @@
             {
                 "type": "minecraft:enderman",
                 "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:spider",
-                "weight": 5,
                 "minCount": 1,
                 "maxCount": 1
             }

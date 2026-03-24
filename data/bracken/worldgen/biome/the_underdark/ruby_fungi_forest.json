@@ -2,12 +2,7 @@
     "spawners": {
         "water_ambient": [],
         "ambient": [
-            {
-                "type": "minecraft:bat",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            }
+           
         ],
         "misc": [],
         "water_creature": [],
@@ -47,25 +42,20 @@
                 "maxCount": 1
             },
             {
-                "type": "minecraft:creeper",
-                "weight": 5,
+                "type": "minecraft:slime",
+                "weight": 15,
                 "minCount": 1,
                 "maxCount": 1
             },
             {
-                "type": "minecraft:silverfish",
-                "weight": 25,
-                "minCount": 1,
-                "maxCount": 3
-            },
-            {
-                "type": "minecraft:cave_spider",
-                "weight": 5,
+                "type": "minecraft:hoglin",
+                "weight": 15,
                 "minCount": 2,
                 "maxCount": 6
             },
+            
             {
-                "type": "minecraft:spider",
+                "type": "minecraft:magma_cube",
                 "weight": 15,
                 "minCount": 2,
                 "maxCount": 6
@@ -130,7 +120,13 @@
         [
             "minecraft:ore_infested"
         ],
-        [],
+        ["bracken:underdark/ore_mega_coal",
+        "bracken:underdark/ore_mega_copper",
+        "bracken:underdark/ore_mega_diamond",
+        "bracken:underdark/ore_mega_emerald",
+        "bracken:underdark/ore_mega_gold",
+        "bracken:underdark/ore_mega_iron",
+        "bracken:underdark/ore_mega_redstone"],
         [
             "minecraft:mushroom_island_vegetation"
         ],
