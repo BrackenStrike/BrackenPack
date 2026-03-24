@@ -1,47 +1,20 @@
 {
-  "ambient_light": 1.0,
-  "attributes": {
-    "minecraft:audio/ambient_sounds": {
-      "mood": {
-        "block_search_extent": 8,
-        "offset": 2.0,
-        "sound": "minecraft:ambient.cave",
-        "tick_delay": 6000
-      }
-    },
-
-    "minecraft:gameplay/bed_rule": {
-      "can_set_spawn": "always",
-      "can_sleep": "always",
-      "error_message": {
-        "translate": "block.minecraft.bed.no_sleep"
-      }
-    },
-    "minecraft:gameplay/nether_portal_spawns_piglin": false,
-    "minecraft:gameplay/respawn_anchor_works": true,
-    "minecraft:visual/cloud_color": "#ccffffff",
-    "minecraft:visual/cloud_height": 63.33,
-    "minecraft:visual/fog_color": "#d7dcd8",
-    "minecraft:visual/sky_color": "#cbdfe6",
-    "minecraft:visual/cloud_fog_end_distance":1024,
-    "minecraft:visual/sky_fog_end_distance":256,
-    "minecraft:visual/fog_start_distance": 80.0
-    
-  },
-  "coordinate_scale": 1.0,
-  "has_ceiling": false,
-  "has_skylight": true,
-  "height": 512,
-"minecraft:gameplay/piglins_zombify": false,
-"minecraft:gameplay/can_start_raid": false,
-"minecraft:gameplay/snow_golem_melts": false,
-"minecraft:visual/fog_end_distance": 96.0,
-"minecraft:visual/fog_start_distance": 10.0,
-
-  "infiniburn": "#minecraft:infiniburn_pax",
-  "logical_height": 100,
-  "min_y": 0,
-  "monster_spawn_block_light_limit": 0,
-  "monster_spawn_light_level": 7,
-  "timelines": "#bracken:in_pax"
+    "ultrawarm": false,
+    "natural": true,
+    "piglin_safe": true,
+    "cloud_height": 63,
+    "respawn_anchor_works": false,
+    "bed_works": true,
+    "has_raids": false,
+    "has_skylight": true,
+    "has_ceiling": false,
+    "coordinate_scale": 1,
+    "ambient_light": 2,
+    "fixed_time": 6000,
+    "logical_height": 100,
+    "infiniburn": "#minecraft:infiniburn_pax",
+    "min_y": 0,
+    "height": 512,
+    "monster_spawn_block_light_limit": 0,
+    "monster_spawn_light_level": 7
 }

@@ -40,12 +40,11 @@
         ],
         "monster": [
             {
-                "type": "minecraft:cave_spider",
+                "type": "minecraft:spider",
                 "weight": 2,
                 "minCount": 3,
                 "maxCount": 3
             },
-            
             
             {
                 "type": "minecraft:slime",

@@ -27,6 +27,6 @@
 	"slots": [
 		"mainhand"
 	],
-	"supported_items": "#minecraft:enchantable/sweeping",
+	"supported_items": "#minecraft:enchantable/sword",
 	"weight": 2
 }

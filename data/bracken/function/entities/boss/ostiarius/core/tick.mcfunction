@@ -31,7 +31,7 @@ execute if entity @s[scores={bp.doomsday=499..}] run function bracken:entities/b
 
 effect give @e[distance=..2,type=!giant] poison 2 2 false
 effect give @e[distance=..4,type=!giant] hunger 2 2 false
-data modify entity @e[type=creeper,limit=1,distance=..50,tag=bp.ostiarius.wave] angry_at set from entity @p UUID
+data modify entity @e[type=creeper,limit=1,distance=..50,tag=bp.ostiarius.wave] AngryAt set from entity @p UUID
 execute at @e[type=armor_stand,distance=..50] run tp @e[type=armor_stand,distance=..0] ^ ^ ^0.2 facing entity @s
 execute at @a[scores={bp.pull=1..},distance=..50,level=1..] run tp @a[scores={bp.pull=1..},distance=..1] ^ ^ ^0.1 facing entity @s
 

@@ -17,7 +17,12 @@
           }],
         "misc": [],
         "monster": [
-         
+          {
+            "type": "minecraft:drowned",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 5
+          },
           {
             "type": "minecraft:stray",
             "maxCount": 2,
@@ -85,17 +90,26 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "effects": {
-    "water_color": "#4dc0c2"},
-    "attributes": {
-
-    "minecraft:visual/ambient_particles": [{
+        "fog_color": 13500385,
+        "water_color": 5095618,
+        "water_fog_color": 3093076,
+        "grass_color": 2320701,
+        "sky_color": 13500385,
+        "foliage_color": 2320701,
         "particle": {
-          "type": "minecraft:warped_spore"
+            "options": {
+                "type": "minecraft:warped_spore"
+            },
+            "probability": 0.02428
         },
-        "probability": 0.00625
-      }],
-    
-    "minecraft:visual/water_fog_color": "#2f3254"
-  },
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "music": [],
+          "music_volume": 0.0
+    },
     "has_precipitation": true
 }

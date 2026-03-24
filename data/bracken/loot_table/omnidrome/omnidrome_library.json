@@ -862,7 +862,21 @@
 				"add": false
 			}]
 		},
-		
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:antivenom": 1
+				},
+				"add": false
+			}]
+		},
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",

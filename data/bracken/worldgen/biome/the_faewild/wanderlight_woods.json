@@ -51,12 +51,11 @@
                 "maxCount": 1
             },
             {
-                "type": "minecraft:cave_spider",
+                "type": "minecraft:spider",
                 "weight": 1,
                 "minCount": 1,
                 "maxCount": 1
             },
-            
             {
                 "type": "minecraft:enderman",
                 "weight": 1,

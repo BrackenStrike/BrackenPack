@@ -25,7 +25,7 @@
 		"per_level_above_first": 11
 	},
 	"exclusive_set": "minecraft:sharpness",
-	"primary_items": "#minecraft:enchantable/melee_weapon",
+	"primary_items": "#minecraft:enchantable/sword",
 	"slots": [
 		"mainhand"
 	],

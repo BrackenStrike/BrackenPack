@@ -21,13 +21,6 @@
 			}]
 		},{
 			"type": "minecraft:item",
-			"name": "minecraft:copper_hoe",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}]
-		},{
-			"type": "minecraft:item",
 			"name": "minecraft:torch",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
@@ -39,6 +32,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.6
+			}]
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/copper/hoe",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.2
 			}]
 		},{
 			"type": "minecraft:item",

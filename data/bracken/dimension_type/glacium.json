@@ -1,59 +1,21 @@
-
-
 {
-  "ambient_light": -0.01,
-  "attributes": {
-    "minecraft:audio/ambient_sounds": {
-      "mood": {
-        "block_search_extent": 8,
-        "offset": 2.0,
-        "sound": "minecraft:ambient.cave",
-        "tick_delay": 6000
-      }
-    },
-    "minecraft:audio/background_music": {
-      "default": {
-        "max_delay": 24000,
-        "min_delay": 6000,
-        "replace_current_music": true,
-        "sound": {"sound_id": "bracken:glacium"}
-      }
-    },
-
-    "minecraft:gameplay/bed_rule": {
-      "can_set_spawn": "always",
-      "can_sleep": "always",
-      "error_message": {
-        "translate": "block.minecraft.bed.no_sleep"
-      }
-    },
-    "minecraft:gameplay/nether_portal_spawns_piglin": false,
-    "minecraft:gameplay/respawn_anchor_works": true,
-    "minecraft:visual/cloud_color": "#89a8c2f3",
-    "minecraft:visual/cloud_height": 310.33,
-    "minecraft:visual/fog_end_distance": 96.0,
-"minecraft:visual/fog_start_distance": 16.0,
-"minecraft:visual/water_fog_end_distance":96.0,
-"minecraft:visual/water_fog_start_distance":1.0,
-"minecraft:visual/water_fog_color":"#ffffff",
-    "minecraft:visual/fog_color": "#5a6887",
-    "minecraft:visual/sky_color": "#151132"
-  },
-  "coordinate_scale": 1,
-  "has_ceiling": true,
-  "has_skylight": true,
-  "has_fixed_time": true,
-  "height": 384,
-"minecraft:gameplay/piglins_zombify": false,
-"minecraft:gameplay/can_start_raid": false,
-"minecraft:gameplay/snow_golem_melts": false,
-"minecraft:gameplay/fast_lava": false,
-"gameplay/increased_fire_burnout":true,
-
-  "infiniburn": "#minecraft:infiniburn_brine",
-  "logical_height": 100,
-  "min_y": 0,
-  "monster_spawn_block_light_limit": 0,
-  "monster_spawn_light_level": 7,
-  "timelines": "#bracken:in_glacium"
+    "ultrawarm": false,
+    "effects": "minecraft:the_nether",
+    "natural": false,
+    "cloud_height": 310,
+    "piglin_safe": true,
+    "respawn_anchor_works": true,
+    "bed_works": true,
+    "has_raids": true,
+    "has_skylight": true,
+    "has_ceiling": true,
+    "coordinate_scale": 1,
+    "ambient_light": -0.01,
+    "fixed_time": 16500,
+    "logical_height": 100,
+    "infiniburn": "#minecraft:infiniburn_brine",
+    "min_y": 0,
+    "height": 384,
+    "monster_spawn_block_light_limit": 0,
+    "monster_spawn_light_level": 7
 }

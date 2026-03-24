@@ -2,7 +2,12 @@
     "spawners": {
         "water_ambient": [],
         "ambient": [
-            
+            {
+                "type": "minecraft:bat",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            }
         ],
         "misc": [],
         "water_creature": [],
@@ -60,7 +65,7 @@
                 "maxCount": 1
             },
             {
-                "type": "minecraft:slime",
+                "type": "minecraft:creeper",
                 "weight": 5,
                 "minCount": 1,
                 "maxCount": 1
@@ -143,13 +148,7 @@
             "minecraft:ore_infested"
         ],
         [],
-        ["bracken:underdark/ore_mega_coal",
-        "bracken:underdark/ore_mega_copper",
-        "bracken:underdark/ore_mega_diamond",
-        "bracken:underdark/ore_mega_emerald",
-        "bracken:underdark/ore_mega_gold",
-        "bracken:underdark/ore_mega_iron",
-        "bracken:underdark/ore_mega_redstone"],
+        [],
         [
             "minecraft:freeze_top_layer"
         ]

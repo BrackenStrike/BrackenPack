@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "bracken:glacium/boreal_frontier",
+    "bracken:glacium/boreal_frontier",
+    "bracken:glacium/fractured_wastes",
+    "bracken:glacium/invasive_forest",
+
+    "bracken:sanctum/dark_soot_dunes",
+    "bracken:sanctum/no_mans_land",
+    "bracken:sanctum/rubblework_city",
+    "bracken:sanctum/voidship_harbor",
+
+    "bracken:the_brine/blossom_reef",
+    "bracken:the_brine/dead_reef",
+    "bracken:the_brine/incursive_fungus",
+    "bracken:the_brine/keeper_district",
+    "bracken:the_brine/kelp_cove",
+    "bracken:the_brine/revered_waters",
+    "bracken:the_brine/sponge_ranch",
+    "bracken:the_brine/sugar_sand_beach",
+    "bracken:the_brine/indigo_median",
+    "bracken:the_brine/blackwater_depths"
+
+  ]
+}

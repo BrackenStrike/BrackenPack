@@ -2,7 +2,12 @@
     "spawners": {
         "water_ambient": [],
         "ambient": [
-            
+            {
+                "type": "minecraft:bat",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            }
         ],
         "misc": [],
         "water_creature": [],
@@ -20,12 +25,6 @@
                 "weight": 5,
                 "minCount": 1,
                 "maxCount": 1
-            },
-            {
-                "type": "minecraft:magma_cube",
-                "weight": 5,
-                "minCount": 2,
-                "maxCount": 6
             },
             {
                 "type": "minecraft:blaze",
@@ -92,13 +91,7 @@
             "minecraft:patch_tall_grass_2",
             "bracken:underdark/smooth_basalt"
         ],
-        ["bracken:underdark/ore_mega_coal",
-        "bracken:underdark/ore_mega_copper",
-        "bracken:underdark/ore_mega_diamond",
-        "bracken:underdark/ore_mega_emerald",
-        "bracken:underdark/ore_mega_gold",
-        "bracken:underdark/ore_mega_iron",
-        "bracken:underdark/ore_mega_redstone"],
+        [],
         [],
         [],
         [
@@ -107,20 +100,68 @@
     ],
     "temperature": 0.95,
     "downfall": 0.1,
-    "attributes": {
-
-    "minecraft:visual/ambient_particles": [{
+    "effects": {
+        "sky_color": 8600895,
+        "fog_color": 11042862,
+        "water_color": 8166054,
+        "water_fog_color": 6383526,
+        "grass_color": 16770224,
+        "foliage_color": 14078891,
         "particle": {
-          "type": "minecraft:ash"
+            "options": {
+                "type": "minecraft:smoke"
+            },
+            "probability": 0.001193334
         },
-        "probability": 0.00625
-      }],
-    
-    "minecraft:visual/fog_color": "#a8802e"
-  },
-  "effects": {
-    
-    "water_color": "#a8802e"
-  },
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "additions_sound": {
+            "sound": "minecraft:ambient.basalt_deltas.mood",
+            "tick_chance": 0.0001
+        },
+        "music": [
+            {
+                "data": {
+                  "max_delay": 24000,
+                  "min_delay": 12000,
+                  "replace_current_music": false,
+                  "sound": "minecraft:music_disc.otherside"
+                },
+                "weight": 1
+              },
+              {
+                  "data": {
+                    "max_delay": 24000,
+                    "min_delay": 12000,
+                    "replace_current_music": false,
+                    "sound": "minecraft:music.nether.nether_wastes"
+                  },
+                  "weight": 1
+                },
+                {
+                    "data": {
+                      "max_delay": 24000,
+                      "min_delay": 12000,
+                      "replace_current_music": false,
+                      "sound": "minecraft:music.nether.basalt_deltas"
+                    },
+                    "weight": 1
+                  },
+              {
+                  "data": {
+                    "max_delay": 24000,
+                    "min_delay": 12000,
+                    "replace_current_music": false,
+                    "sound": {"sound_id": "bracken:underdark"}
+                  },
+                  "weight": 1
+                }
+          ],
+          "music_volume": 1.0
+    },
     "has_precipitation": false
 }
