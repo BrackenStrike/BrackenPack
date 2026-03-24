@@ -226,7 +226,7 @@ scoreboard objectives add bp.paxtravel trigger
 scoreboard objectives add bp.dormis trigger
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
-gamerule commandBlockOutput false
+gamerule command_block_output false
 
 ##########   RESET SCOREBOARD PLAYER VALUES   ##########
 scoreboard players set @a bp.sprintcharge 0
