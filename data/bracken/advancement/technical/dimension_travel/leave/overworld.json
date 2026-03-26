@@ -8,6 +8,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_travel/leave/overworld"
+		"function": "bracken:dimension/travel/leave/overworld"
 	}
 }

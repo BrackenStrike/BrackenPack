@@ -8,6 +8,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_travel/enter/the_underdark"
+		"function": "bracken:dimension/travel/enter/the_underdark"
 	}
 }

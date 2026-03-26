@@ -14,7 +14,7 @@ scoreboard players set @s bp.cooldown 0
 #gamemode spectator @s
 #execute in bracken:void run tp @s ~ ~ ~
 dialog show @s bracken:species
-function bracken:book_of_arbitrium/enable_
+function bracken:player/arbitrium/enable_
 
 function bracken:player/set_player_id
 

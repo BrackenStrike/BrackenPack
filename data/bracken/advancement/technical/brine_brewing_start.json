@@ -16,6 +16,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_commands/brine_brewing/start"
+		"function": "bracken:dimension/commands/brine_brewing/start"
 	}
 }

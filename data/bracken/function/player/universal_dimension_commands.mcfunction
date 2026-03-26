@@ -21,4 +21,4 @@ tag @s[scores={bp.portal=0}] remove bp.portal_teleport
 scoreboard players remove @s[scores={bp.wither_skull=1..}] bp.wither_skull 1
 
 #Tinted cube
-execute if entity @s[scores={bp.obsidian=1..2}] unless predicate bracken:dimensions/void run function bracken:dimension_crossing/voidcube
+execute if entity @s[scores={bp.obsidian=1..2}] unless predicate bracken:dimensions/void run function bracken:dimension/crossing/voidcube

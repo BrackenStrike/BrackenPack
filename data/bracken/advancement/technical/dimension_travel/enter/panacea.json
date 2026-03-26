@@ -8,6 +8,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_travel/enter/panacea"
+		"function": "bracken:dimension/travel/enter/panacea"
 	}
 }

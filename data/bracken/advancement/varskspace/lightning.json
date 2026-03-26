@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_crossing/varskspace_travel"
+		"function": "bracken:dimension/crossing/varskspace_travel"
 	}
 }

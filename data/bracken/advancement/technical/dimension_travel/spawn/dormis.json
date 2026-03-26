@@ -5,6 +5,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:book_of_arbitrium/set_home_dimension/dormis"
+		"function": "bracken:player/arbitrium/set_home_dimension/dormis"
 	}
 }

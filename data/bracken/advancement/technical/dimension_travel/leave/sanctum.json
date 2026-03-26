@@ -8,6 +8,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_travel/leave/sanctum"
+		"function": "bracken:dimension/travel/leave/sanctum"
 	}
 }

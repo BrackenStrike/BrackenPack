@@ -10,15 +10,15 @@ scoreboard objectives add bp.5_min_tick dummy
 function bracken:math/load
 
 #Boss Init
-function bracken:entities/boss/solatium_thrall/load
-function bracken:entities/boss/bygone_viceroy/load
-function bracken:entities/boss/the_disruptor/load
-function bracken:entities/boss/ostiarius/load
-function bracken:entities/boss/sporangium/load
-function bracken:entities/boss/unsung/load
-function bracken:entities/boss/kraken/load
-function bracken:entities/boss/fae_emperor/load
-function bracken:entities/panacea/load
+function bracken:entity/boss/solatium_thrall/load
+function bracken:entity/boss/bygone_viceroy/load
+function bracken:entity/boss/the_disruptor/load
+function bracken:entity/boss/ostiarius/load
+function bracken:entity/boss/sporangium/load
+function bracken:entity/boss/unsung/load
+function bracken:entity/boss/kraken/load
+function bracken:entity/boss/fae_emperor/load
+function bracken:entity/panacea/load
 
 ##########   ADD SCOREBOARD OBJECTIVES   ##########
 scoreboard objectives add bp.food food
@@ -178,9 +178,9 @@ scoreboard objectives add bp.dimension dummy
 scoreboard players set #70 bp.ymansion 70
 
 ##########   OMNI BOOK TRIGGERS   ###########
-function bracken:dimension_commands/omni_powers/trigger_commands/add_book_commands
+function bracken:dimension/commands/omni_powers/trigger_commands/add_book_commands
 ##########   OMNI OTHER TRIGGERS   ###########
-function bracken:dimension_commands/omni_powers/trigger_commands/add_other_commands
+function bracken:dimension/commands/omni_powers/trigger_commands/add_other_commands
 
 ##########   SPECIES BOOKS   ##########
 scoreboard objectives add bp.arb_book dummy

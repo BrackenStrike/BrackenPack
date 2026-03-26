@@ -18,6 +18,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_crossing/first_time_text/overworld_to_faewild"
+		"function": "bracken:dimension/crossing/first_time_text/overworld_to_faewild"
 	}
 }

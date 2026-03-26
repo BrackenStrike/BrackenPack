@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_commands/other/summon_brine_portal_map"
+		"function": "bracken:dimension/commands/other/summon_brine_portal_map"
 	}
 }

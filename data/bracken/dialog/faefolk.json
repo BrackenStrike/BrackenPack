@@ -10,7 +10,7 @@
         "count":1,
         "components":{
           "minecraft:enchantment_glint_override":false,
-          "minecraft:item_model": "bracken:ability_books/world_soar"
+          "minecraft:item_model": "bracken:item/ability_books/world_soar"
         }
       }
     },

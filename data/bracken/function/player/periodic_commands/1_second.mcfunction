@@ -15,7 +15,7 @@ scoreboard players remove @s[scores={bp.ice=1..}] bp.ice 1
 scoreboard players remove @s[scores={bp.conduit=1..}] bp.conduit 1
 
 # Book Of Arbitrium
-function bracken:book_of_arbitrium/boa_start
+function bracken:player/arbitrium/boa_start
 
 # the_nether
 scoreboard players set @s[predicate=bracken:item/wearing_wither_skull] bp.wither_skull 22

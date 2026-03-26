@@ -8,6 +8,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_travel/leave/pax"
+		"function": "bracken:dimension/travel/leave/pax"
 	}
 }

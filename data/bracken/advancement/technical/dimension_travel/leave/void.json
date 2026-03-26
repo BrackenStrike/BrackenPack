@@ -8,6 +8,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_travel/leave/void"
+		"function": "bracken:dimension/travel/leave/void"
 	}
 }

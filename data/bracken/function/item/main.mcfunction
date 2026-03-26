@@ -10,7 +10,7 @@ clear @s[tag=!bp.enderling] minecraft:ender_eye[minecraft:custom_data={bracken:{
 execute unless score @s bp.creeper_horn matches 600.. run scoreboard players add @s bp.creeper_horn 1
 
 # coas
-execute if score @s bp.coas matches 1.. run function bracken:player/coas/route
+execute if score @s bp.coas matches 1.. run function bracken:item/coas/route
 
 # Ability book cooldown
 scoreboard players remove @s[scores={bp.cooldown=-6..}] bp.cooldown 1

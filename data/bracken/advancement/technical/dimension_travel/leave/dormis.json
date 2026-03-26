@@ -8,6 +8,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_travel/leave/dormis"
+		"function": "bracken:dimension/travel/leave/dormis"
 	}
 }

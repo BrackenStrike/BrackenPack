@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_commands/other/summon_end_key"
+		"function": "bracken:dimension/commands/other/summon_end_key"
 	}
 }

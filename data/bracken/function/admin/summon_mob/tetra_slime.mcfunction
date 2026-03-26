@@ -1,0 +1,1 @@
+function bracken:item/ability_books/tetra_slime/summon

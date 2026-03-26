@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:equipment/night_vision_goggles/on"
+		"function": "bracken:item/equipment/night_vision_goggles/on"
 	}
 }

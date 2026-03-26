@@ -13,13 +13,13 @@ execute at @a[predicate=bracken:nonsneak] as @e[type=minecraft:wither_skeleton,d
 
 
 ##########   MISCELANEOUS MARKERS   ##########
-execute as @e[type=marker] at @s run function bracken:entities/misc/markers_3_second
+execute as @e[type=marker] at @s run function bracken:entity/misc/markers_3_second
 
 ##########   POLYFOLUS MINIBOSS  ##########
-execute at @a as @e[distance=..50,limit=5,type=minecraft:item,nbt={Item:{id:"minecraft:red_mushroom_block",components:{"minecraft:custom_data":{bp:{id:"polyfolus_head"}}}}}] at @s run function bracken:entities/the_underdark/polyfolus
+execute at @a as @e[distance=..50,limit=5,type=minecraft:item,nbt={Item:{id:"minecraft:red_mushroom_block",components:{"minecraft:custom_data":{bp:{id:"polyfolus_head"}}}}}] at @s run function bracken:entity/the_underdark/polyfolus
 
 ##########   VARSKSTORM  ##########
-execute if entity @a[tag=bp.sparked,predicate=bracken:dimensions/overworld,predicate=bracken:rain] run function bracken:dimension_commands/varskstorm/process
+execute if entity @a[tag=bp.sparked,predicate=bracken:dimensions/overworld,predicate=bracken:rain] run function bracken:dimension/commands/varskstorm/process
 execute if data storage bracken:var {varskstorm:{stage:3}} in overworld unless predicate bracken:rain run data merge storage bracken:var {varskstorm:{stage:0}}
 
 ##########   IRON APPLE ARMOR BOOST EFFECT END  ##########
