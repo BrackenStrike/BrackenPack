@@ -8,9 +8,10 @@ execute if entity @s[tag=!bp.recall_wait] run function bracken:ability_books/rec
 
 scoreboard players add @s bp.recall_wait 2
 
-execute unless entity @s[scores={bp.recall_walk=0}] run function bracken:ability_books/recall/teleport_canceled
-execute unless entity @s[scores={bp.recall_sprint=0}] run function bracken:ability_books/recall/teleport_canceled
-execute unless entity @s[scores={bp.recall_jump=0}] run function bracken:ability_books/recall/teleport_canceled
+# Optional : move this to bracken:immobile
+execute unless predicate \
+    {condition:"minecraft:entity_properties",entity:"this",predicate:{movement:{speed:0,horizontal_speed:0,vertical_speed:0,fall_distance:0}}} \
+        run function bracken:ability_books/recall/teleport_canceled
 
 execute if entity @s[scores={bp.recall_wait=60..}] run function bracken:ability_books/recall/tp_to_home
 

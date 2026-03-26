@@ -147,9 +147,6 @@ scoreboard objectives remove bp.recall_world
 scoreboard objectives remove bp.recall_void
 scoreboard objectives remove bp.recall_use
 scoreboard objectives remove bp.recall_wait
-scoreboard objectives remove bp.recall_walk
-scoreboard objectives remove bp.recall_sprint
-scoreboard objectives remove bp.recall_jump
 
 # Mansion
 scoreboard objectives remove bp.mansion_id

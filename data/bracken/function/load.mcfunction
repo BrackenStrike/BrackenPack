@@ -160,9 +160,6 @@ scoreboard objectives add bp.recall_world dummy
 scoreboard objectives add bp.recall_void dummy
 scoreboard objectives add bp.recall_use dummy
 scoreboard objectives add bp.recall_wait dummy
-scoreboard objectives add bp.recall_walk minecraft.custom:minecraft.walk_one_cm
-scoreboard objectives add bp.recall_sprint minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add bp.recall_jump minecraft.custom:minecraft.jump
 
 # Mansion
 scoreboard objectives add bp.mansion_id dummy
