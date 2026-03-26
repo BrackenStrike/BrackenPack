@@ -8,7 +8,7 @@ execute as @e[type=marker,tag=bp.mm_setup,limit=1,sort=nearest] at @s run functi
 tag @s remove bp.target3
 
 scoreboard players set @s bp.mansion_use 2
-tellraw @s ["",{"selector":"@s "},{"translate":" generated [Magnificent Mansion]"}]
+tellraw @s ["",{"selector":"@s"},{"translate":" generated [Magnificent Mansion]"}]
 execute if entity @s[level=2..,tag=bp.set_mansion] run experience add @s -2 levels
 execute if entity @s[level=20..,tag=!bp.set_mansion] run experience add @s -20 levels
 

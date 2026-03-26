@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Raycast for Frostlock.
+# Description: Raycast for Flying Boat.
 # Creators: Grandmaster
 ##########################################################
 

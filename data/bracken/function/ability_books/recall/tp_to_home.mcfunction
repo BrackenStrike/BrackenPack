@@ -5,7 +5,7 @@
 
 tag @s remove bp.recall_wait
 
-tellraw @s ["",{"selector":"@s "},{"translate":" generated [RECALL]"}]
+tellraw @s ["",{"selector":"@s"},{"translate":" generated [RECALL]"}]
 tag @s add bp.target
 execute as @e[type=marker,tag=bp.recall] at @s if score @p[tag=bp.target] bp.recall_marker = @s bp.recall_marker run tp @p[tag=bp.target] @s
 execute as @e[type=marker,tag=bp.recall] at @s if score @p[tag=bp.target] bp.recall_marker = @s bp.recall_marker run scoreboard players set @p[tag=bp.target] bp.recall_void 1

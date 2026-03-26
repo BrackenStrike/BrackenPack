@@ -5,8 +5,6 @@
 
 scoreboard players set @s OMNI.POWER.scatterstorm 0
 scoreboard players set @s _OMNI.POWER.scatterstorm 1
-execute if data storage bracken:config {ability_books_on:true} if entity @s[level=3..] run return run function bracken:ability_books/scatterstorm/scatterstorm
+execute if entity @s[level=3..] run return run function bracken:ability_books/scatterstorm/scatterstorm
 
-playsound minecraft:block.comparator.click player @a[distance=..30] ~ ~ ~ 10
-execute if data storage bracken:config {ability_books_on:false} run return run tellraw @s {"translate":"An ability is attempted but nothing happens..."}
 tellraw @s {"translate":"You do not have enough levels to use this book."}

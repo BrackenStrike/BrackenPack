@@ -1,10 +1,10 @@
 ##########################################################
-# Description: Summon Iron Golem.
+# Description: Summon Flying Boat.
 # Creators: Bracken
 ##########################################################
 
 summon minecraft:pale_oak_boat ~ ~ ~ {NoGravity:1b,Glowing:1b,CustomName:{"translate":"Flying Boat","color":"yellow","bold":true}}
 
-tellraw @s ["",{"selector":"@s "},{"translate":" generated [FLYING BOAT]"}]
+tellraw @s ["",{"selector":"@s"},{"translate":" generated [FLYING BOAT]"}]
 
 experience add @s -2 levels
