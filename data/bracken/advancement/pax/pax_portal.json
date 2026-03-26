@@ -25,7 +25,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"structures": "bracken:dimension/commands/gateway"
+						"structures": "bracken:pax_gateway"
 					}
 				}
 			}
