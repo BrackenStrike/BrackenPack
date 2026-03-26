@@ -12,7 +12,7 @@
         "misc": [],
         "water_creature": [],
         "creature": [
-            
+           
             {
                 "type": "minecraft:pig",
                 "weight": 52,
@@ -43,7 +43,7 @@
                 "minCount": 4,
                 "maxCount": 4
             },
-            
+           
             {
                 "type": "minecraft:frog",
                 "weight": 10,
@@ -58,7 +58,7 @@
                 "minCount": 4,
                 "maxCount": 4
             },
-            
+           
             {
                 "type": "minecraft:stray",
                 "weight": 1,
@@ -90,7 +90,7 @@
             "minecraft:spring_water",
             "minecraft:seagrass_swamp",
             "minecraft:patch_large_fern",
-            
+           
             "minecraft:vines","bracken:faewild/lapis_ore","bracken:faewild/copper_ore"
         ],
         [
@@ -101,7 +101,7 @@
             "minecraft:patch_grass_normal",
             "minecraft:patch_dead_bush",
             "minecraft:patch_waterlily",
-            
+           
             "minecraft:patch_sugar_cane_swamp",
             "minecraft:sea_pickle"
         ],

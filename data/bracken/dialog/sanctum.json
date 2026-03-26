@@ -21,7 +21,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": "Be warned: Sanctum is a difficult dimension to survive in with no starting items!"
-    } 
+    }
   ],
   "yes": {
     "label": "Overworld (Challenge Lvl 1)",

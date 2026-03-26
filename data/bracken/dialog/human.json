@@ -28,7 +28,7 @@
   ],
   "yes": {
     "label": "Yes",
-  
+ 
       "action": {
         "type": "run_command",
         "command": "trigger bp.human_"
@@ -36,7 +36,7 @@
   },
   "no": {
     "label": "No, take me back",
-  
+ 
       "action": {
         "type": "show_dialog",
         "dialog": "bracken:species"

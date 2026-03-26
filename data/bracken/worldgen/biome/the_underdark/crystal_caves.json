@@ -1,10 +1,10 @@
 {
     "spawners": {
         "water_ambient": [
-            
+           
         ],
         "ambient": [
-            
+           
         ],
         "misc": [],
         "water_creature": [],
@@ -17,7 +17,7 @@
             }
         ],
         "creature": [
-            
+           
             {
                 "type": "minecraft:donkey",
                 "weight": 5,
@@ -146,7 +146,7 @@
               },
               "weight": 1
             },
-            
+           
               {
                   "data": {
                     "max_delay": 24000,

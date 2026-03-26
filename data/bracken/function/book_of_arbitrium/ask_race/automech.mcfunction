@@ -1,9 +1,9 @@
 scoreboard players enable @s bp.automech_
 scoreboard players set @s bp.arb_book 0
 tellraw @s ["",{"translate":"------------------------------\nWould you like to be an "},{"translate":"Automech","color":"green"},{"translate":"?\n\
-+ 8 additional armor\n\ 
++ 8 additional armor\n\
 + 4 additional hearts\n\
-+ 50% size increase\n\ 
++ 50% size increase\n\
 + Bonus knockback resistance\n\
 + Bonus knockback with melee attacks\n\
 + Increased step height\n\

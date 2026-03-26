@@ -43,14 +43,14 @@
             ],
         "misc": [],
         "monster": [
-          
+         
           {
             "type": "minecraft:stray",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5
           }
-          
+         
         ],
         "underground_water_creature": [
           {
@@ -61,7 +61,7 @@
           }
         ],
         "water_ambient": [
-          
+         
           {
             "type": "minecraft:cod",
             "maxCount": 8,
@@ -138,7 +138,7 @@
         },
         "probability": 0.00625
       }],
-    
+   
     "minecraft:visual/water_fog_color": "#2f3254"
   },
     "has_precipitation": true

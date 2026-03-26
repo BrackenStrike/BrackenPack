@@ -3,7 +3,7 @@
         "minecraft:visual/fog_end_distance": 96.0,
 "minecraft:visual/fog_start_distance": 10.0,
     "minecraft:audio/ambient_sounds": {
-      
+     
       "loop": "minecraft:ambient.nether_wastes.loop",
       "mood": {
         "block_search_extent": 8,
@@ -92,7 +92,7 @@
     ],
     "temperature": 0.95,
     "downfall": 0.1,
-    "effects": {        
+    "effects": {       
         "water_color": "#000000",
         "water_fog_color": "#000000",
         "grass_color": "#dcc589",

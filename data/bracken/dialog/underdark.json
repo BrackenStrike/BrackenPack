@@ -22,7 +22,7 @@
       "type": "minecraft:plain_message",
       "contents": "Heads up! Wood is scarce in the Underdark!"
     }
-    
+   
   ],
   "yes": {
     "label": "Overworld (Challenge Lvl 1)",

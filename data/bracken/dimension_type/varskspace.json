@@ -18,7 +18,7 @@
         "sound": {"sound_id": "bracken:varskspace"}
       }
     },
-    
+   
     "minecraft:gameplay/bed_rule": {
       "can_set_spawn": "never",
       "can_sleep": "never",

@@ -10,7 +10,7 @@
         "tick_delay": 6000
       }
     },
-    
+   
     "minecraft:gameplay/bed_rule": {
       "can_set_spawn": "never",
       "can_sleep": "always",
@@ -23,7 +23,7 @@
     "minecraft:visual/fog_color": "#000000",
     "minecraft:visual/sky_color": "#000000",
     "minecraft:visual/sky_light_color":"#7d7d7d",
-    
+   
 "minecraft:visual/fog_end_distance": 96.0,
 "minecraft:visual/fog_start_distance": 2.0
   },

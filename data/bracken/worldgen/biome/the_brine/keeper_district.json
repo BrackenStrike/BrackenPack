@@ -27,7 +27,7 @@
             "minCount": 1,
             "maxCount": 4
         },
-       
+      
         {
             "type": "minecraft:turtle",
             "maxCount": 5,
@@ -130,7 +130,7 @@
         },
         "probability": 0.00625
       }],
-    
+   
     "minecraft:visual/water_fog_color": "#2f3254"
   },
     "has_precipitation": true

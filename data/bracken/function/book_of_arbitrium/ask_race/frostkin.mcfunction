@@ -1,7 +1,7 @@
 scoreboard players enable @s bp.frostkin_
 scoreboard players set @s bp.arb_book 0
 tellraw @s ["",{"translate":"------------------------------\nWould you like to be a "},{"translate":"Frostkin","color":"aqua"},{"translate":"?\n\
-+ 4 additional armor\n\ 
++ 4 additional armor\n\
 + 2 additional hearts\n\
 + 32% size increase\n\
 + Increased step height\n\

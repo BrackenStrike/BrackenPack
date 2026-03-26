@@ -13,7 +13,7 @@
                 "maxCount": 1
             }],
         "ambient": [
-            
+           
         ],
         "misc": [
         ],
@@ -30,7 +30,7 @@
                 "maxCount": 1
             }],
         "creature": [
-            
+           
             {
                 "type": "minecraft:chicken",
                 "weight": 1,
@@ -43,7 +43,7 @@
                 "minCount": 4,
                 "maxCount": 4
             },
-            
+           
             {
                 "type": "minecraft:parrot",
                 "weight": 100,
@@ -64,14 +64,14 @@
                 "minCount": 1,
                 "maxCount": 1
             },
-            
+           
             {
                 "type": "minecraft:creeper",
                 "weight": 3,
                 "minCount": 1,
                 "maxCount": 1
             },
-            
+           
             {
                 "type": "minecraft:spider",
                 "weight": 5,
@@ -86,7 +86,7 @@
         "minecraft:cave_extra_underground",
         "minecraft:canyon"
       ],
-    
+   
     "features": [
         [],
         [

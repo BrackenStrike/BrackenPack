@@ -15,7 +15,7 @@
             "type": "minecraft:simple_state_provider",
             "state": {
                 "Properties": {
-                    
+                   
                     "half": "lower"
                 },
                 "Name": "minecraft:amethyst_cluster"

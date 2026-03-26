@@ -15,7 +15,7 @@
         "ambient": [],
         "misc": [],
         "water_creature": [
-            
+           
             {
                 "type": "minecraft:squid",
                 "weight": 1,
@@ -148,7 +148,7 @@
         "minecraft:cave_extra_underground",
         "minecraft:canyon"
       ],
-    
+   
     "features": [
         [
             "bracken:panacea/bog_tree"

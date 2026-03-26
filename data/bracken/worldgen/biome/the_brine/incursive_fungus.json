@@ -17,11 +17,11 @@
           }],
         "misc": [],
         "monster": [
-          
-          
+         
+         
         ],
         "underground_water_creature": [
-          
+         
         ],
         "water_ambient": [
           {
@@ -30,7 +30,7 @@
         "minCount": 1,
         "weight": 5
       }
-          
+         
         ],
         "water_creature": [
           {
@@ -86,7 +86,7 @@
         },
         "probability": 0.00625
       }],
-    
+   
     "minecraft:visual/water_fog_color": "#2f3254"
   },
     "has_precipitation": true

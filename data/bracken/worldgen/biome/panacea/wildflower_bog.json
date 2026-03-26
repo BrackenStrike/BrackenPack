@@ -51,7 +51,7 @@
                 "minCount": 4,
                 "maxCount": 4
             },
-            
+           
             {
                 "type": "minecraft:sniffer",
                 "weight": 15,
@@ -82,7 +82,7 @@
                 "minCount": 4,
                 "maxCount": 4
             },
-            
+           
             {
                 "type": "minecraft:parrot",
                 "weight": 10,
@@ -135,7 +135,7 @@
         "minecraft:cave_extra_underground",
         "minecraft:canyon"
       ],
-    
+   
     "features": [
         [
             "minecraft:rooted_azalea_tree",

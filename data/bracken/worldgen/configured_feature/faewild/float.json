@@ -23,7 +23,7 @@
                             "Name": "minecraft:copper_ore"
                         },
                         "weight": 2
-                    },                    
+                    },                   
                     {
                         "data": {
                             "Name": "minecraft:stone"
@@ -34,7 +34,7 @@
             },
             "inner_layer_provider": {
                 "type": "minecraft:weighted_state_provider",
-                "entries": [                   
+                "entries": [                  
                    {
                         "data": {
                             "Name": "minecraft:lapis_ore"
@@ -46,7 +46,7 @@
                             "Name": "minecraft:copper_ore"
                         },
                         "weight": 2
-                    },                    
+                    },                   
                     {
                         "data": {
                             "Name": "minecraft:stone"

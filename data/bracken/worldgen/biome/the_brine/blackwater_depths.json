@@ -12,9 +12,9 @@
         "creature": [],
         "misc": [],
         "monster": [
-          
-          
-          
+         
+         
+         
           {
             "type": "minecraft:enderman",
             "maxCount": 4,
@@ -83,8 +83,8 @@
         "probability": 0.00625
       }],
     "minecraft:visual/fog_color": "#000000",
-        
-        "minecraft:visual/water_fog_color": "#000000",        
+       
+        "minecraft:visual/water_fog_color": "#000000",       
         "minecraft:visual/sky_color": "#000000"
   },
     "has_precipitation": true

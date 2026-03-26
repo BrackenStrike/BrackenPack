@@ -4,7 +4,7 @@
     "discard_chance_on_air_exposure": 0.0,
     "size": 35,
     "targets": [
-      
+     
       {
         "state": {
           "Name": "minecraft:deepslate_coal_ore"

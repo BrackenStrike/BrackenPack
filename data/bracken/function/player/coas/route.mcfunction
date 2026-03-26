@@ -3,8 +3,8 @@
 # Creators: Sulfenir and Grandmaster
 ##########################################################
 
-execute if data storage bracken:config {ability_books_on:false} run return run function bracken:player/coas/ability_book_disabled
 scoreboard players set @s bp.coas 0
+execute if data storage bracken:config {ability_books_on:false} run return run function bracken:player/coas/ability_book_disabled
 
 execute if predicate bracken:ability_books/adamantine_will run return run function bracken:ability_books/adamantine_will/checks
 execute if predicate bracken:ability_books/crimson_spark run return run function bracken:ability_books/crimson_spark/checks

@@ -3,8 +3,8 @@
       {
         "processor_type": "minecraft:rule",
         "rules": [
-          
-          
+         
+         
           {
             "input_predicate": {
               "block": "minecraft:cracked_stone_bricks",
@@ -70,8 +70,8 @@
               "Name": "minecraft:air"
             }
           }
-          
-          
+         
+         
         ]
       }
     ]

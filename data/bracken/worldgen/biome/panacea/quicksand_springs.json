@@ -22,7 +22,7 @@
                 "minCount": 1,
                 "maxCount": 1
             },
-            
+           
         {
                 "type": "minecraft:dolphin",
                 "weight": 1,
@@ -125,7 +125,7 @@
         "minecraft:cave_extra_underground",
         "minecraft:canyon"
       ],
-    
+   
     "features": [
         [
             "minecraft:rooted_azalea_tree"

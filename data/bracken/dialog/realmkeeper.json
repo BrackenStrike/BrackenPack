@@ -41,7 +41,7 @@
   ],
   "yes": {
     "label": "Yes",
-  
+ 
       "action": {
         "type": "show_dialog",
         "dialog": "bracken:pax"
@@ -49,7 +49,7 @@
   },
   "no": {
     "label": "No, take me back",
-  
+ 
       "action": {
         "type": "show_dialog",
         "dialog": "bracken:species"

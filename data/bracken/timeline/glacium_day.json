@@ -1,11 +1,11 @@
 {
   "period_ticks": 240000,
   "tracks": {
-    
-    
-    
-    
-    
+   
+   
+   
+   
+   
     "minecraft:gameplay/monsters_burn": {
       "keyframes": [
         {
@@ -24,7 +24,7 @@
       ],
       "modifier": "multiply"
     },
-    
+   
     "minecraft:visual/cloud_color": {
       "keyframes": [
         {
@@ -50,7 +50,7 @@
       ],
       "modifier": "multiply"
     },
-    
+   
     "minecraft:visual/moon_angle": {
       "ease": {
         "cubic_bezier": [
@@ -61,7 +61,7 @@
         ]
       },
       "keyframes": [
-        
+       
         {
           "ticks": 60000,
           "value": 270.0
@@ -95,7 +95,7 @@
     },
     "minecraft:visual/sky_light_color": {
       "keyframes": [
-        
+       
         {
           "ticks": 100,
           "value": "#272897"
@@ -186,8 +186,8 @@
           "ticks": 239900,
           "value": 0.5
         }
-        
-        
+       
+       
       ],
       "modifier": "maximum"
     },
@@ -209,8 +209,8 @@
     },
     "minecraft:visual/sunrise_sunset_color": {
       "keyframes": [
-        
-        
+       
+       
         {
           "ticks": 100,
           "value": "#365a6887"

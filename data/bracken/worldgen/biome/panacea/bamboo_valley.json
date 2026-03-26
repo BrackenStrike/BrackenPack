@@ -21,7 +21,7 @@
             }
         ],
         "misc": [
-            
+           
         ],
         "water_creature": [{
                 "type": "minecraft:dolphin",
@@ -62,7 +62,7 @@
                 "minCount": 4,
                 "maxCount": 4
             },
-            
+           
             {
                 "type": "minecraft:panda",
                 "weight": 3,
@@ -103,7 +103,7 @@
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
   ],
-    
+   
     "features": [
         [],
         [],

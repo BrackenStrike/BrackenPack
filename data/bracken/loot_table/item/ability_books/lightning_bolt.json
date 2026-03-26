@@ -19,7 +19,12 @@
 			"mode": "insert"
 		},{
 			"function": "minecraft:set_custom_model_data",
-			"value": 888502
+			"strings": {
+				"values": [
+				"888502"
+				],
+				"mode": "replace_all"
+			}
 		},{
 			"function": "minecraft:set_components",
 			"components": {

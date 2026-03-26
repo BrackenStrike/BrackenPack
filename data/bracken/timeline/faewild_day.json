@@ -104,8 +104,8 @@
       ],
       "modifier": "multiply"
     },
-    
-    
+   
+   
     "minecraft:visual/moon_angle": {
       "ease": {
         "cubic_bezier": [
@@ -116,20 +116,20 @@
         ]
       },
       "keyframes": [
-        
+       
         {
           "ticks": 6000,
           "value": 0.0
         }
       ]
     },
-    
    
+  
     "minecraft:visual/sky_light_factor": {
       "keyframes": [
-        
-        
-        
+       
+       
+       
         {
           "ticks": 22860,
           "value": 0.24
@@ -163,9 +163,9 @@
           "ticks": 92,
           "value": 0.50
         }
-        
-        
-        
+       
+       
+       
       ],
       "modifier": "maximum"
     },
@@ -179,7 +179,7 @@
         ]
       },
       "keyframes": [
-        
+       
         {
           "ticks": 6000,
           "value": 180.0

@@ -1,9 +1,9 @@
 {
   "period_ticks": 24,
   "tracks": {
-    
-    
-    
+   
+   
+   
     "minecraft:gameplay/creaking_active": {
       "keyframes": [
         {
@@ -38,30 +38,30 @@
       ],
       "modifier": "or"
     },
+  
    
-    
-    
-    
+   
+   
     "minecraft:visual/moon_angle": {
       "ease": {
         "cubic_bezier": [
           0.638,0.362,
           0.241,
-          
+         
           0.759
         ]
       },
       "keyframes": [
-        
+       
         {
           "ticks": 6,
           "value": 180.0
         }
       ]
     },
-    
-    
-    
+   
+   
+   
     "minecraft:visual/star_angle": {
       "ease": {
         "cubic_bezier": [
@@ -84,7 +84,7 @@
           "ticks": 9,
           "value": 0.0
         },
-        
+       
         {
           "ticks": 23,
           "value": 1.0
@@ -101,9 +101,9 @@
       ],
       "modifier": "multiply"
     },
-   
-     
+  
     
+   
     "minecraft:visual/sky_light_color": {
       "keyframes": [
         {
@@ -115,7 +115,7 @@
     },
     "minecraft:visual/sky_color": {
       "keyframes": [
-        
+       
         {
           "ticks": 2,
           "value": "#000000"
@@ -133,7 +133,7 @@
         ]
       },
       "keyframes": [
-       
+      
         {
           "ticks": 6,
           "value": 70.0

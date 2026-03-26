@@ -1,6 +1,6 @@
 {
     "attributes": {
-    
+   
     "minecraft:audio/background_music": {
       "default": {
         "max_delay": 24000,
@@ -53,7 +53,7 @@
     },
     "spawn_costs": {},
     "carvers": "minecraft:nether_cave",
-   
+  
     "features": [
         [],
         [
@@ -74,7 +74,7 @@
     ],
     "temperature": 0.95,
     "downfall": 0.1,
-    "effects": {        
+    "effects": {       
         "water_color": "#000000",
         "water_fog_color": "#000000",
         "grass_color": "#dcc589",
@@ -90,5 +90,5 @@
 
 
 
-        
-    
+       
+   

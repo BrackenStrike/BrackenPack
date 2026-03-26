@@ -6,8 +6,8 @@
         "water_creature": [],
         "creature": [],
         "monster": [
-          
-          
+         
+         
           {
             "type": "minecraft:shulker",
             "maxCount": 2,
@@ -18,7 +18,7 @@
     },
     "spawn_costs": {},
     "carvers": [],
-    
+   
     "features": [
         [
             "bracken:omnidrome/red_blobs"

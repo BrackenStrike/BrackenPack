@@ -2,7 +2,7 @@
     "name": "mazea",
     "fallback": "minecraft:empty",
     "elements": [
-        
+       
 
 
 
@@ -223,7 +223,7 @@
                 "element_type": "minecraft:single_pool_element"
             }
         },
-        
+       
 
         {
             "weight": 1,

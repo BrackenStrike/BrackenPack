@@ -1,7 +1,7 @@
 {
   "period_ticks": 48000,
   "tracks": {
-    
+   
     "minecraft:gameplay/bees_stay_in_hive": {
       "keyframes": [
         {
@@ -15,9 +15,9 @@
       ],
       "modifier": "or"
     },
+  
    
-    
-   
+  
     "minecraft:gameplay/monsters_burn": {
       "keyframes": [
         {
@@ -66,8 +66,8 @@
       ],
       "modifier": "maximum"
     },
-    
-    
+   
+   
     "minecraft:visual/moon_angle": {
       "ease": {
         "cubic_bezier": [
@@ -82,7 +82,7 @@
           "ticks": 12000,
           "value": 15.0
         }
-        
+       
       ]
     },
     "minecraft:visual/sky_color": {
@@ -191,7 +191,7 @@
         ]
       },
       "keyframes": [
-        
+       
         {
           "ticks": 12000,
           "value": 350.0

@@ -22,8 +22,8 @@
     "minecraft:visual/cloud_color": "#00ff3000",
     "minecraft:visual/cloud_height": 90.33,
     "minecraft:visual/fog_color": "#00ff90",
-    "minecraft:visual/sky_color": "#00ff90" 
-    
+    "minecraft:visual/sky_color": "#00ff90"
+   
   },
   "coordinate_scale": 8,
   "has_ceiling": true,

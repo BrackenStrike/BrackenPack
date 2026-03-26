@@ -41,20 +41,20 @@
         }],
         "misc": [],
         "monster": [
-          
+         
           {
             "type": "minecraft:slime",
             "maxCount": 4,
             "minCount": 4,
             "weight": 100
           }
-          
+         
         ],
         "underground_water_creature": [
-          
+         
         ],
         "water_ambient": [
-          
+         
           {
             "type": "minecraft:tropical_fish",
             "maxCount": 12,
@@ -110,7 +110,7 @@
             "minecraft:patch_grass_jungle",
             "minecraft:patch_sugar_cane",
             "minecraft:seagrass_warm",
-            
+           
             "bracken:brine/prismarine_blobs",
             "minecraft:warm_ocean_vegetation",
             "bracken:brine/sea_tree",

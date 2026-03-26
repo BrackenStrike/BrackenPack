@@ -9,7 +9,7 @@ execute at @a unless entity @e[type=minecraft:zombie,tag=bp.solatium_thrall,dist
 
 ##########   NETHERITE GOLEM   ##########
 
-execute at @a[predicate=bracken:nonsneak] as @e[type=minecraft:wither_skeleton,distance=..4,tag=bp.netherite_golem,tag=!bp.sgolem] run data merge entity @s {Tags:["bp.sgolem","bp.netherite_golem"],NoAI:0,Invulnerable:0,DeathLootTable:"bracken:entity/sanctum/netherite_golem"}
+execute at @a[predicate=bracken:nonsneak] as @e[type=minecraft:wither_skeleton,distance=..4,tag=bp.netherite_golem,tag=!bp.sgolem] run data merge entity @s {Tags:["bp.sgolem","bp.netherite_golem"],NoAI:0b,Invulnerable:0b,DeathLootTable:"bracken:entity/sanctum/netherite_golem"}
 
 
 ##########   MISCELANEOUS MARKERS   ##########

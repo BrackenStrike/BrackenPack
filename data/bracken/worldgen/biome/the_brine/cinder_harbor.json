@@ -11,7 +11,7 @@
         "axolotls": [],
         "creature": [],
         "misc": [],
-        "monster": [       
+        "monster": [      
         ],
         "underground_water_creature": [],
         "water_ambient": [
@@ -56,7 +56,7 @@
         },
         "probability": 0.00625
       }],
-    
+   
     "minecraft:visual/water_fog_color": "#2f3254"
   },
     "has_precipitation": true

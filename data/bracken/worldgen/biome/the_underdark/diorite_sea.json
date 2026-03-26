@@ -2,7 +2,7 @@
     "spawners": {
         "water_ambient": [],
         "ambient": [
-            
+           
         ],
         "misc": [],
         "water_creature": [],
@@ -91,8 +91,8 @@
             "bracken:underdark/diamond_ore",
             "bracken:underdark/magma_lower",
             "bracken:underdark/bedrock",
-            
-            
+           
+           
             "bracken:underdark/lichen",
             "bracken:underdark/blackstone_small",
             "bracken:underdark/blackstone_big",

@@ -47,13 +47,13 @@
             }
         ]
     },
-    "spawn_costs": {}, 
+    "spawn_costs": {},
     "carvers": [
         "minecraft:cave",
         "minecraft:cave_extra_underground",
         "minecraft:canyon"
       ],
-    
+   
     "features": [
         [],
         [],
@@ -71,7 +71,7 @@
             "minecraft:patch_large_fern",
             "bracken:panacea/creeper_dec",
             "bracken:panacea/meat_rock",
-            
+           
             "minecraft:patch_grass_jungle"
         ],
         [

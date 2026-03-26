@@ -5,7 +5,7 @@ tellraw @s ["",{"translate":"------------------------------\nWould you like to b
 + Increased mining speed\n\
 + Constant night vision effect\n\
 - Blindness effect in bright light\n\
-- 25% size reduction\n\ 
+- 25% size reduction\n\
 - Hunger effect when hunger bar is full\n\n"},\
 {"translate":"Click here to change species.","bold":true,"underlined":true,"color":"white","click_event":{"action":"run_command","command":"/trigger bp.dweller_"}},\
 {"translate":"\n------------------------------"}]

@@ -3,6 +3,5 @@
 # Creators: Grandmaster, Conure
 ##########################################################
 
-
 function bracken:ability_books/recall/recall
 

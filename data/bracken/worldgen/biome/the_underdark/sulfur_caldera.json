@@ -2,7 +2,7 @@
     "spawners": {
         "water_ambient": [],
         "ambient": [
-            
+           
         ],
         "misc": [],
         "water_creature": [],
@@ -115,11 +115,11 @@
         },
         "probability": 0.00625
       }],
-    
+   
     "minecraft:visual/fog_color": "#a8802e"
   },
   "effects": {
-    
+   
     "water_color": "#a8802e"
   },
     "has_precipitation": false

@@ -5,7 +5,7 @@
         "misc": [],
         "water_creature": [],
         "creature": [
-           
+          
         ],
         "monster": [
             {
@@ -14,7 +14,7 @@
                 "minCount": 1,
                 "maxCount": 1
             },
-            
+           
             {
                 "type": "minecraft:skeleton",
                 "weight": 8,
@@ -41,7 +41,7 @@
     "minecraft:cave_extra_underground",
     "minecraft:canyon"
   ],
-    
+   
     "features": [
         [
             "minecraft:spring_lava_frozen"
@@ -49,7 +49,7 @@
         [],
         [],
         [
-            
+           
             "bracken:glacium/column"
         ],
         [

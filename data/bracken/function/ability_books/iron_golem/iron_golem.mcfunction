@@ -5,7 +5,7 @@
 
 
 playsound bracken:ability_book_tier_1 player @a[distance=..30] ~ ~ ~ 10
-summon minecraft:iron_golem ~ ~100 ~ {PlayerCreated:1}
+summon minecraft:iron_golem ~ ~100 ~ {PlayerCreated:true}
 tellraw @s ["",{"selector":"@s"},{"translate":" generated [IRON GOLEM]"}]
 
 experience add @s -5 levels

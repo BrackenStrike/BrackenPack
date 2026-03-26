@@ -2,7 +2,7 @@
     "spawners": {
         "water_ambient": [],
         "ambient": [
-           
+          
         ],
         "misc": [],
         "water_creature": [],
@@ -53,7 +53,7 @@
                 "minCount": 2,
                 "maxCount": 6
             },
-            
+           
             {
                 "type": "minecraft:magma_cube",
                 "weight": 15,
@@ -160,7 +160,7 @@
             "tick_chance": 0.0001
         },
         "music": [
-            
+           
               {
                   "data": {
                     "max_delay": 24000,

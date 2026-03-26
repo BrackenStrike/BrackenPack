@@ -3,16 +3,16 @@
       {
         "processor_type": "minecraft:rule",
         "rules": [
-          
-          
-          
-          
+         
+         
+         
+         
 
 
 
 
 
-          
+         
 
 
           {
@@ -54,9 +54,9 @@
               "Name": "minecraft:air"
             }
           }
-          
-          
-          
+         
+         
+         
         ]
       }
     ]

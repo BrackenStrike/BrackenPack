@@ -90,7 +90,7 @@
         "type": "show_dialog",
         "dialog": "bracken:realmkeeper"
     }
-    },    
+    },   
     {
       "label": "Villain",
 "tooltip":"Counted missing from the great cosmic prison. Ruthlessly hunted. Freer than most.",
@@ -98,7 +98,7 @@
         "type": "show_dialog",
         "dialog": "bracken:villain"
     }
-    },    
+    },   
     {
       "label": "Enderling",
 "tooltip":"Judge a book by its ending.",

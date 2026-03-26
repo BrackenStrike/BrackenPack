@@ -1,9 +1,9 @@
 {
   "period_ticks": 24000,
   "tracks": {
-    
-    
-    
+   
+   
+   
     "minecraft:gameplay/creaking_active": {
       "keyframes": [
         {
@@ -17,8 +17,8 @@
       ],
       "modifier": "or"
     },
-    
-    
+   
+   
     "minecraft:gameplay/monsters_burn": {
       "keyframes": [
         {
@@ -32,6 +32,6 @@
       ],
       "modifier": "or"
     }
-    
+   
   }
 }

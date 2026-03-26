@@ -28,7 +28,7 @@
     ],
     "temperature": 0.95,
     "downfall": 0.1,
-    
+   
     "effects": {
         "fog_color": 0,
         "water_color": 0,

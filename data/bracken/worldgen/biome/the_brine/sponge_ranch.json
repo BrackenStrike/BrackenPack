@@ -17,9 +17,9 @@
             }
         ],
         "creature": [
-            
-            
            
+           
+          
             {
                 "type": "minecraft:frog",
                 "weight": 10,
@@ -34,11 +34,11 @@
             }],
         "misc": [],
         "monster": [
-          
-          
+         
+         
         ],
         "underground_water_creature": [
-          
+         
         ],
         "water_ambient": [
           {
@@ -61,7 +61,7 @@
           }
         ],
         "water_creature": [
-          
+         
         ]
       },
     "spawn_costs": {},
@@ -100,7 +100,7 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "effects": {
-    "water_color": "#4dc0c2"}, 
+    "water_color": "#4dc0c2"},
    "attributes": {
 
     "minecraft:visual/ambient_particles": [{
@@ -109,7 +109,7 @@
         },
         "probability": 0.00625
       }],
-    
+   
     "minecraft:visual/water_fog_color": "#2f3254"
   },
     "has_precipitation": true

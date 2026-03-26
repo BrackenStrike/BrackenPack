@@ -1,7 +1,7 @@
 {
   "period_ticks": 1200,
   "tracks": {
-    
+   
     "minecraft:gameplay/creaking_active": {
       "keyframes": [
         {
@@ -27,11 +27,11 @@
         }
       ]
     },
-    
    
-    
-    
-    
+  
+   
+   
+   
     "minecraft:visual/moon_angle": {
       "ease": {
         "cubic_bezier": [
@@ -42,7 +42,7 @@
         ]
       },
       "keyframes": [
-        
+       
         {
           "ticks": 300,
           "value": 180.0
@@ -51,7 +51,7 @@
     },
     "minecraft:visual/sky_color": {
       "keyframes": [
-       
+      
         {
           "ticks": 50,
           "value": "#000000"
@@ -77,8 +77,8 @@
       ],
       "modifier": "multiply"
     },
-    
-    
+   
+   
     "minecraft:visual/star_angle": {
       "ease": {
         "cubic_bezier": [
@@ -127,7 +127,7 @@
         ]
       },
       "keyframes": [
-        
+       
         {
           "ticks": 30,
           "value": 180.0

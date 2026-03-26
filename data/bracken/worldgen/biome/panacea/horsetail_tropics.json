@@ -58,7 +58,7 @@
                 "minCount": 4,
                 "maxCount": 4
             },
-            
+           
             {
                 "type": "minecraft:wolf",
                 "weight": 2,
@@ -71,7 +71,7 @@
                 "minCount": 1,
                 "maxCount": 1
             },
-            
+           
             {
                 "type": "minecraft:bee",
                 "weight": 5,
@@ -154,7 +154,7 @@
         "minecraft:cave_extra_underground",
         "minecraft:canyon"
       ],
-    
+   
     "features": [
         [
             "minecraft:rooted_azalea_tree",

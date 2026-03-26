@@ -15,7 +15,7 @@
             "type": "minecraft:simple_state_provider",
             "state": {
                 "Properties": {
-                    
+                   
                     "half": "lower","facing": "east"
                 },
                 "Name": "minecraft:waxed_copper_door"

@@ -1,7 +1,7 @@
 scoreboard players enable @s bp.villain_
 scoreboard players set @s bp.arb_book 0
 tellraw @s ["",{"translate":"------------------------------\nWould you like to be a "},{"translate":"Villain","color":"dark_red"},{"translate":"?\n\
-+ 4 additional armor\n\ 
++ 4 additional armor\n\
 + 1 additional heart\n\
 + 10% size increase\n\
 + Increased attack damage\n\

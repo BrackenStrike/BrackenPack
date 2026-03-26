@@ -18,7 +18,7 @@
         "sound": {"sound_id": "bracken:faewild"}
       }
     },
-    
+   
     "minecraft:gameplay/bed_rule": {
       "can_set_spawn": "always",
       "can_sleep": "always",

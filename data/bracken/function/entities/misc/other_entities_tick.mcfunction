@@ -12,7 +12,7 @@ execute if entity @s[tag=bp.varsk_lightning] run return run function bracken:ent
 ## CONSTRUCTS
 execute if entity @s[tag=bp.construct] run particle minecraft:sneeze ~ ~ ~ 0.5 0.5 0.5 0.01 5
 
-## UNDERDARK GIANT BAT 
+## UNDERDARK GIANT BAT
 execute if entity @s[tag=bp.giant_bat] run function bracken:entities/the_underdark/giant_bat
 
 

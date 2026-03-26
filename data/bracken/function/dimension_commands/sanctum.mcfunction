@@ -24,7 +24,7 @@ effect give @s[y=230,dy=100] jump_boost 1 7 true
 execute positioned over world_surface if entity @s[predicate=bracken:sanctum_rain,dy=999] run function bracken:dimension_commands/sanctum_dust_storm/dust_storm
 execute if predicate bracken:sanctum_rain run function bracken:dimension_commands/sanctum_dust_storm/dust_storm2
 
-## SANCTUM WHIRLWINDS 
+## SANCTUM WHIRLWINDS
 execute at @e[type=minecraft:breeze,distance=..100,tag=bp.invis] run function bracken:entities/sanctum/whirlwind
 
 

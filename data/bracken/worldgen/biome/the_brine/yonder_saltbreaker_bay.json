@@ -8,7 +8,7 @@
         "underground_water_creature": [],
         "water_ambient": [],
         "water_creature": [
-          
+         
         ]
       },
     "spawn_costs": {},
@@ -45,7 +45,7 @@
         },
         "probability": 0.00625
       }],
-    
+   
     "minecraft:visual/water_fog_color": "#2f6a8a"
   },
     "has_precipitation": true

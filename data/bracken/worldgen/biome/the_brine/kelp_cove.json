@@ -29,7 +29,7 @@
                 "minCount": 2,
                 "weight": 5
               },
-             
+            
             {
                 "type": "minecraft:chicken",
                 "weight": 1,
@@ -50,15 +50,15 @@
             }],
         "misc": [],
         "monster": [
-          
-          
+         
+         
           {
             "type": "minecraft:stray",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5
           }
-          
+         
         ],
         "underground_water_creature": [
           {
@@ -160,7 +160,7 @@
         },
         "probability": 0.00625
       }],
-    
+   
     "minecraft:visual/water_fog_color": "#2f3254"
   },
     "has_precipitation": true

@@ -1,11 +1,11 @@
 {
   "period_ticks": 72000,
   "tracks": {
-    
    
-    
+  
    
-    
+  
+   
     "minecraft:gameplay/sky_light_level": {
       "keyframes": [
         {
@@ -103,7 +103,7 @@
     },
     "minecraft:visual/star_brightness": {
       "keyframes": [
-        
+       
         {
           "ticks": 11732,
           "value": 0.26
