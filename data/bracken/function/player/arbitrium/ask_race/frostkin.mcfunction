@@ -1,5 +1,5 @@
 scoreboard players enable @s bp.frostkin_
-scoreboard players set @s bp.arb_book 0
+tag @s remove bp.arb_book
 tellraw @s ["",{"translate":"------------------------------\nWould you like to be a "},{"translate":"Frostkin","color":"aqua"},{"translate":"?\n\
 + 4 additional armor\n\
 + 2 additional hearts\n\

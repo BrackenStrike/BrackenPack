@@ -1,5 +1,5 @@
 scoreboard players enable @s bp.automech_
-scoreboard players set @s bp.arb_book 0
+tag @s remove bp.arb_book
 tellraw @s ["",{"translate":"------------------------------\nWould you like to be an "},{"translate":"Automech","color":"green"},{"translate":"?\n\
 + 8 additional armor\n\
 + 4 additional hearts\n\

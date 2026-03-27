@@ -1,5 +1,5 @@
 scoreboard players enable @s bp.faefolk_
-scoreboard players set @s bp.arb_book 0
+tag @s remove bp.arb_book
 tellraw @s ["",{"translate":"------------------------------\nWould you like to be a "},{"translate":"Faefolk","color":"blue"},{"translate":"?\n\
 + Can jump two blocks high\n\
 + Increased movement speed\n\

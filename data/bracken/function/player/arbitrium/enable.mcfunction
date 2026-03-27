@@ -16,4 +16,4 @@ scoreboard players enable @s bp.outlander
 scoreboard players enable @s bp.realmkeeper
 scoreboard players enable @s bp.villain
 
-scoreboard players set @s bp.arb_book 1
+tag @s add bp.arb_book

@@ -5,7 +5,7 @@
 
 
 tag @s add bp.target
-execute as @e[type=marker,tag=bp.mm_portal] at @s if score @p[tag=bp.target] bp.mansion_id = @s bp.mansion_id run function bracken:item/ability_books/mansion/portal_search
+execute as @e[type=marker,tag=bp.mm_portal] at @s if score @p[tag=bp.target] bp.world_player_id = @s bp.world_player_id run function bracken:item/ability_books/mansion/portal_search
 scoreboard players remove @s[scores={bp.mansion_use=2..}] bp.mansion_use 1
 tag @s remove bp.target
 

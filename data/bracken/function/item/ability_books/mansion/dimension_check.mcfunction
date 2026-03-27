@@ -1,6 +1,5 @@
-#Set unique player id
-execute unless entity @s[scores={bp.mansion_use=1}] run scoreboard players add #1 bp.mansion_world 1
-execute unless entity @s[scores={bp.mansion_use=1}] run scoreboard players operation @s bp.mansion_id = #1 bp.mansion_world
+# Make sure player has id
+execute unless score @s bp.world_player_id matches 1.. run function bracken:player/set_player_id
 
 #Check for a valid dimension and also score dimension book is used in
 scoreboard players set @s bp.dimension 0

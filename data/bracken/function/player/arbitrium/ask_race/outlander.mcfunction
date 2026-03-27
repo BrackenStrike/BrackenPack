@@ -1,5 +1,5 @@
 scoreboard players enable @s bp.outlander_
-scoreboard players set @s bp.arb_book 0
+tag @s remove bp.arb_book
 tellraw @s ["",{"translate":"------------------------------\nWould you like to be an "},{"translate":"Outlander","color":"gray"},{"translate":"?\n\
 + Can turn invisible when sneaking\n\
 + Can backstab entities, inflicting 3x damage when striking an entity from behind\n\

@@ -1,5 +1,5 @@
 scoreboard players enable @s bp.dweller_
-scoreboard players set @s bp.arb_book 0
+tag @s remove bp.arb_book
 tellraw @s ["",{"translate":"------------------------------\nWould you like to be a "},{"translate":"Dweller","color":"dark_gray"},{"translate":"?\n\
 + 2 hearts\n\
 + Increased mining speed\n\

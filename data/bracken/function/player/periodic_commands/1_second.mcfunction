@@ -17,11 +17,6 @@ scoreboard players remove @s[scores={bp.conduit=1..}] bp.conduit 1
 # Book Of Arbitrium
 function bracken:player/arbitrium/boa_start
 
-# the_nether
-scoreboard players set @s[predicate=bracken:item/wearing_wither_skull] bp.wither_skull 22
-
-
-
 # varsk effect
 execute at @s[tag=bp.sparked] run particle entity_effect{color:[0.5,1.0,1.0,1.0]} ~ ~1 ~ 0 0.5 0 1 2 normal
 

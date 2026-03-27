@@ -1,5 +1,5 @@
 scoreboard players enable @s bp.nereid_
-scoreboard players set @s bp.arb_book 0
+tag @s remove bp.arb_book
 tellraw @s ["",{"translate":"------------------------------\nWould you like to be a "},{"translate":"Nereid","color":"dark_blue"},{"translate":"?\n\
 + Can hold breath underwater for 30 minutes\n\
 + 3 hearts\n\

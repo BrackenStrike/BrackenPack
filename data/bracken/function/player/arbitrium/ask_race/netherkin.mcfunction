@@ -1,5 +1,5 @@
 scoreboard players enable @s bp.netherkin_
-scoreboard players set @s bp.arb_book 0
+tag @s remove bp.arb_book
 tellraw @s ["",{"translate":"------------------------------\nWould you like to be a "},{"translate":"Netherkin","color":"gold"},{"translate":"?\n\
 + Constant fire resistance effect\n\
 + Constant night vision effect \n\

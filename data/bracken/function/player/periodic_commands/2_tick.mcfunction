@@ -4,8 +4,6 @@
 ##########################################################
 
 #scoreboard players set @s bp.hurting 0
-scoreboard players set @s bp.walk 0
-scoreboard players set @s bp.swim 0
 scoreboard players set @s[scores={bp.fly=1..}] bp.fly 0
 scoreboard players set @s[scores={bp.jump=2..}] bp.jump 1
 execute if score #cooldown bp.varskstorm matches 1.. run scoreboard players remove #cooldown bp.varskstorm 1
@@ -21,8 +19,6 @@ scoreboard players set @s[predicate=bracken:item/no_flying_elytra,scores={bp.ely
 scoreboard players add @s[predicate=bracken:sneak] bp.sneakcharge 4
 scoreboard players set @s[scores={bp.sneakcharge=31..}] bp.sneakcharge 30
 scoreboard players remove @s[scores={bp.sneakcharge=1..},predicate=!bracken:sneak] bp.sneakcharge 1
-
-scoreboard players set @s[scores={bp.armor=..10}] bp.gold 0
 
 # VARSKSPACE TRAVEL - moved to an advancement
 #execute if entity @e[type=lightning_bolt,tag=bp.varsk_lightning,distance=..3] run function bracken:dimension/crossing/varskspace_travel

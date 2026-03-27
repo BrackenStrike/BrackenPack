@@ -3,7 +3,6 @@
 # Creators: Grandmaster, Bracken
 ##########################################################
 
-scoreboard players set @s bp.wither_skull 0
 scoreboard players set @s bp.mansion_use 0
 scoreboard players set @s bp.giant 0
 scoreboard players set @s bp.wtb_cooldown 0

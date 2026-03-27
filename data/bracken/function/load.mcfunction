@@ -22,9 +22,7 @@ function bracken:entity/panacea/load
 
 ##########   ADD SCOREBOARD OBJECTIVES   ##########
 scoreboard objectives add bp.food food
-scoreboard objectives add bp.walk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add bp.sprint minecraft.custom:minecraft.sprint_one_cm
-scoreboard objectives add bp.swim minecraft.custom:minecraft.swim_one_cm
 scoreboard objectives add bp.hurting minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add bp.jump minecraft.custom:minecraft.jump
 scoreboard objectives add bp.health health
@@ -41,23 +39,10 @@ scoreboard objectives add bp.trample_cd dummy
 
 ##########   ITEMS AND EQUIPMENT   ##########
 scoreboard objectives add bp.creeper dummy
-scoreboard objectives add bp.wither_skull dummy
 scoreboard objectives add bp.gothrum_fang dummy
 scoreboard objectives add bp.creeper_horn dummy
-scoreboard objectives add bp.poison dummy
-scoreboard objectives add bp.perpetual_aegis dummy
-scoreboard objectives add bp.breach_factor_jump dummy
-scoreboard objectives add bp.breach_factor_float dummy
-scoreboard objectives add bp.breach_factor_cd dummy
-scoreboard objectives add bp.varsktracers dummy
-scoreboard objectives add bp.permafrost_howl dummy
-scoreboard objectives add bp.altum_archeon minecraft.used:minecraft.netherite_pickaxe
-scoreboard objectives add bp.cleaver_of_judgement dummy
-scoreboard objectives add bp.piercer_of_heavens minecraft.used:minecraft.bow
 scoreboard objectives add bp.frost_spite_death deathCount
 scoreboard objectives add bp.elytra_dive dummy
-
-
 
 #astral potion
 scoreboard objectives add bp.astral_time dummy
@@ -81,8 +66,6 @@ scoreboard objectives add bp.hunter_morph dummy
 scoreboard objectives add bp.outlander_charge dummy
 
 # Realmkeepers
-scoreboard objectives add bp.gold dummy
-scoreboard objectives add bp.armor armor
 scoreboard objectives add bp.absorption dummy
 
 ##########   CONFIG MENU  ##########
@@ -103,11 +86,6 @@ scoreboard players set #1 bp.xchunk 16
 scoreboard players set #1 bp.zchunk 16
 
 ##########   DIMENSIONS  ##########
-
-scoreboard objectives add bp.x_rotation dummy
-scoreboard objectives add bp.z_rotation dummy
-scoreboard objectives add bp.xx_rotation dummy
-scoreboard objectives add bp.zz_rotation dummy
 
 # Overworld
 scoreboard objectives add bp.overworld dummy
@@ -155,15 +133,9 @@ scoreboard objectives add bp.coas minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add bp.cooldown dummy
 
 # Returning Tides
-scoreboard objectives add bp.recall_marker dummy
-scoreboard objectives add bp.recall_world dummy
-scoreboard objectives add bp.recall_void dummy
-scoreboard objectives add bp.recall_use dummy
 scoreboard objectives add bp.recall_wait dummy
 
 # Mansion
-scoreboard objectives add bp.mansion_id dummy
-scoreboard objectives add bp.mansion_world dummy
 scoreboard objectives add bp.mansion_use dummy
 scoreboard objectives add bp.xmansion dummy
 scoreboard objectives add bp.ymansion dummy
@@ -183,7 +155,6 @@ function bracken:dimension/commands/omni_powers/trigger_commands/add_book_comman
 function bracken:dimension/commands/omni_powers/trigger_commands/add_other_commands
 
 ##########   SPECIES BOOKS   ##########
-scoreboard objectives add bp.arb_book dummy
 scoreboard objectives add bp.automech trigger
 scoreboard objectives add bp.frostkin trigger
 scoreboard objectives add bp.faefolk trigger
@@ -231,14 +202,10 @@ scoreboard players set @a bp.tick 0
 scoreboard players set @a bp.longtick 0
 scoreboard players set @a bp.verylongtick 0
 scoreboard players set @a bp.hurting 0
-scoreboard players set @a bp.gold 0
 scoreboard players set @a bp.portal 0
 scoreboard players set @a bp.cooldown -6
 scoreboard players set #2 bp.var 2
 scoreboard players set #20 bp.var 20
-
-##########   DISPLAY HEARTS   ##########
-#scoreboard objectives setdisplay list bp.health
 
 ##########   ADD TEAMS   ##########
 execute if data storage bracken:config {teams_on: true} run function bracken:player/add_teams

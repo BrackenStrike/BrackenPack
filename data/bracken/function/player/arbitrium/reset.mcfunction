@@ -16,4 +16,4 @@ scoreboard players reset @s bp.outlander
 scoreboard players reset @s bp.realmkeeper
 scoreboard players reset @s bp.villain
 
-scoreboard players set @s bp.arb_book 0
+tag @s remove bp.arb_book
