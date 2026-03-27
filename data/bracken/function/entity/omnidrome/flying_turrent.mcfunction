@@ -3,7 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-effect give @e[type=vex,tag=bp.turret,distance=..1] minecraft:instant_health 1 3 true
+effect give @e[tag=bp.turret,distance=..1,type=vex] minecraft:instant_health 1 3 true
 particle minecraft:end_rod ~ ~ ~ .2 .2 .2 0.01 1
 effect give @a[distance=..4] minecraft:poison 2 3 true
 effect give @a[distance=..4] minecraft:hunger 2 30 true
