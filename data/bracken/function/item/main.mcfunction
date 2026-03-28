@@ -26,30 +26,3 @@ execute if score @s bp.elytra_dive matches 1.. run function bracken:item/golden_
 
 # Cleaver of Judgement
 execute if predicate bracken:item/cleaver_of_judgement run function bracken:item/cleaver_of_judgement/tick
-
-
-
-
-# ---- Unimplemented ----
-
-# Poison Sword
-#execute if score @s bp.poison matches 1..22 run function bracken:item/poison_sword
-#scoreboard players remove @s[scores={bp.hurting=1..}] bp.hurting 1
-
-# Altum Archeon
-#scoreboard players set @s bp.altum_archeon 0
-
-# Piercer of Heavens
-#scoreboard players set @s bp.piercer_of_heavens 0
-
-# Permafrost
-#execute if score @s bp.permafrost_howl matches 1.. run function bracken:player/permafrost
-
-# Sulf Items
-#execute if predicate bracken:item/perpetual_aegis run function bracken:item/perpetual_aegis/tick
-#execute if predicate bracken:item/breach_factor run function bracken:item/breach_factor/tick
-#execute if predicate bracken:item/varsktracers run function bracken:item/varsktracers/tick
-#execute if predicate bracken:item/permafrost_howl run function bracken:item/permafrost_howl/tick
-#execute if predicate bracken:item/aequor run function bracken:item/aequor/tick
-#execute if predicate bracken:item/altum_archeon run function bracken:item/altum_archeon/tick
-#execute if predicate bracken:item/piercer_of_heavens run function bracken:item/piercer_of_heavens/tick

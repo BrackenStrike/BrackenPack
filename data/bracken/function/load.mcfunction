@@ -69,9 +69,6 @@ scoreboard objectives add bp.outlander_charge dummy
 scoreboard objectives add bp.absorption dummy
 
 ##########   CONFIG MENU  ##########
-execute unless data storage bracken:config {nether_height: incendium} run data merge storage bracken:config {nether_height: normal}
-#execute unless data storage bracken:config {end_height: nullscape} run data merge storage bracken:config {end_height:  normal}
-
 execute unless data storage bracken:config {teams_on: false} run data merge storage bracken:config {teams_on: true}
 execute unless data storage bracken:config {dimension_travel: false} run data merge storage bracken:config {dimension_travel: true}
 execute unless data storage bracken:config {species_on: false} run data merge storage bracken:config {species_on: true}
@@ -195,6 +192,7 @@ scoreboard objectives add bp.dormis trigger
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule command_block_output false
+gamerule command_blocks_work true
 
 ##########   RESET SCOREBOARD PLAYER VALUES   ##########
 scoreboard players set @a bp.sprintcharge 0
