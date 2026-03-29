@@ -13,9 +13,7 @@ scoreboard objectives remove bp.5_min_tick
 
 ##########   ADD SCOREBOARD OBJECTIVES   ##########
 scoreboard objectives remove bp.food
-scoreboard objectives remove bp.walk
 scoreboard objectives remove bp.sprint
-scoreboard objectives remove bp.swim
 scoreboard objectives remove bp.hurting
 scoreboard objectives remove bp.jump
 scoreboard objectives remove bp.health
@@ -32,40 +30,9 @@ scoreboard objectives remove bp.iron_apple
 
 ##########   ITEMS AND EQUIPMENT   ##########
 scoreboard objectives remove bp.creeper
-scoreboard objectives remove bp.wither_skull
 scoreboard objectives remove bp.gothrum_fang
 scoreboard objectives remove bp.creeper_horn
-scoreboard objectives remove bp.poison
-scoreboard objectives remove bp.perpetual_aegis
-scoreboard objectives remove bp.breach_factor_jump
-scoreboard objectives remove bp.breach_factor_float
-scoreboard objectives remove bp.breach_factor_cd
-scoreboard objectives remove bp.varsktracers
-scoreboard objectives remove bp.permafrost_howl
-scoreboard objectives remove bp.altum_archeon
-scoreboard objectives remove bp.cleaver_of_judgement
-scoreboard objectives remove bp.piercer_of_heavens
 scoreboard objectives remove bp.frost_spite_death
-
-#aequor
-scoreboard objectives remove bp.aequor_speed
-scoreboard objectives remove bp.aequor_haste
-scoreboard objectives remove bp.aequor_strength
-scoreboard objectives remove bp.aequor_jump_boost
-scoreboard objectives remove bp.aequor_regeneration
-scoreboard objectives remove bp.aequor_resistance
-scoreboard objectives remove bp.aequor_fire_resistance
-scoreboard objectives remove bp.aequor_water_breathing
-scoreboard objectives remove bp.aequor_invisibility
-scoreboard objectives remove bp.aequor_night_vision
-scoreboard objectives remove bp.aequor_health_boost
-scoreboard objectives remove bp.aequor_absorption
-scoreboard objectives remove bp.aequor_saturation
-scoreboard objectives remove bp.aequor_luck
-scoreboard objectives remove bp.aequor_slow_falling
-scoreboard objectives remove bp.aequor_conduit_power
-scoreboard objectives remove bp.aequor_dolphins_grace
-scoreboard objectives remove bp.aequor_hero_of_the_village
 
 #astral potion
 scoreboard objectives remove bp.astral_time
@@ -88,19 +55,12 @@ scoreboard objectives remove bp.hunter_morph
 scoreboard objectives remove bp.outlander_charge
 
 # Realmkeepers
-scoreboard objectives remove bp.gold
-scoreboard objectives remove bp.armor
 scoreboard objectives remove bp.absorption
 
 ##########   REMOVE FORCELOAD  ##########
 scoreboard objectives remove bp.xchunk
 scoreboard objectives remove bp.zchunk
 ##########   DIMENSIONS  ##########
-
-scoreboard objectives remove bp.x_rotation
-scoreboard objectives remove bp.z_rotation
-scoreboard objectives remove bp.xx_rotation
-scoreboard objectives remove bp.zz_rotation
 
 # Overworld
 scoreboard objectives remove bp.overworld
@@ -142,15 +102,9 @@ scoreboard objectives remove bp.coas
 scoreboard objectives remove bp.cooldown
 
 # Returning Tides
-scoreboard objectives remove bp.recall_marker
-scoreboard objectives remove bp.recall_world
-scoreboard objectives remove bp.recall_void
-scoreboard objectives remove bp.recall_use
 scoreboard objectives remove bp.recall_wait
 
 # Mansion
-scoreboard objectives remove bp.mansion_id
-scoreboard objectives remove bp.mansion_world
 scoreboard objectives remove bp.mansion_use
 scoreboard objectives remove bp.xmansion
 scoreboard objectives remove bp.ymansion
@@ -164,7 +118,6 @@ scoreboard objectives remove bp.zmansion2
 scoreboard objectives remove bp.dimension
 
 ##########   SPECIES BOOKS   ##########
-scoreboard objectives remove bp.arb_book
 scoreboard objectives remove bp.automech
 scoreboard objectives remove bp.frostkin
 scoreboard objectives remove bp.faefolk
