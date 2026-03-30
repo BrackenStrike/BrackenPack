@@ -10,7 +10,7 @@ execute if score @s bp.1_second matches 2 if predicate bracken:rain run function
 execute if score @s bp.1_second matches 9 run function bracken:entity/panacea/panacea_mobs
 
 # Effects
-effect give @s[scores={bp.longtick=3}] minecraft:regeneration 2 0 true
+effect give @s[scores={bp.10_second=3}] minecraft:regeneration 2 0 true
 
 
 

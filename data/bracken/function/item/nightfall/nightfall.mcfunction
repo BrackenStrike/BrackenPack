@@ -3,8 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-execute if entity @s[scores={bp.fly=1..}] run effect give @e[distance=1..3] minecraft:levitation 1 4 false
-execute if entity @s[scores={bp.fly=1..}] run particle minecraft:large_smoke ^ ^ ^-1 0 0 0 0.1 1
+execute if entity @s[predicate=!bracken:item/no_flying_elytra] run function bracken:item/nightfall/nightfall_effects
 execute if predicate bracken:sneak run effect give @s minecraft:jump_boost 1 25 true
 execute if entity @s[predicate=bracken:sneak,nbt={OnGround:1b}] run particle minecraft:block{block_state:clay} ~ ~-0.25 ~ 1 0 1 0.1 10
 execute if entity @s[predicate=bracken:sneak,nbt={OnGround:1b}] run playsound minecraft:entity.iron_golem.step player @a[distance=..10] ~ ~ ~ 10 0

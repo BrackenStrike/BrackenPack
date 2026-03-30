@@ -25,7 +25,7 @@ effect give @s[scores={bp.sprintcharge=80..}] minecraft:speed 1 79 true
 effect give @s[scores={bp.sprintcharge=100..}] minecraft:resistance 3 4 true
 execute if entity @s[scores={bp.sprintcharge=100..}] in minecraft:overworld run tp @s ~ 100 ~
 advancement grant @s[scores={bp.sprintcharge=100..}] only bracken:var
-effect give @s[scores={bp.longtick=7},predicate=!bracken:sprint] minecraft:saturation 1 0 true
+effect give @s[scores={bp.10_second=7},predicate=!bracken:sprint] minecraft:saturation 1 0 true
 
 # Mansion Spell Book
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_books/mansion/tp_from_mansion/tp_back_setup

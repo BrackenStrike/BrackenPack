@@ -5,14 +5,14 @@
 
 ##move
 #x = state 0
-execute if score @s bp.dis.move_state matches 0 run function bracken:entity/boss/the_disruptor/move/x
+execute if score @s bp.boss_move_state matches 0 run function bracken:entity/boss/the_disruptor/move/x
 
 #y = state 1
-execute if score @s bp.dis.move_state matches 1 run function bracken:entity/boss/the_disruptor/move/y
+execute if score @s bp.boss_move_state matches 1 run function bracken:entity/boss/the_disruptor/move/y
 
 #z = state 2
-execute if score @s bp.dis.move_state matches 2 run function bracken:entity/boss/the_disruptor/move/z
+execute if score @s bp.boss_move_state matches 2 run function bracken:entity/boss/the_disruptor/move/z
 
 ##move.state
-execute if score @s bp.dis.distance matches 0 run scoreboard players add @s bp.dis.move_state 1
-execute if score @s bp.dis.move_state matches 3 run scoreboard players set @s bp.dis.move_state 0
+execute if score #dis bp.var matches 0 run scoreboard players add @s bp.boss_move_state 1
+execute if score @s bp.boss_move_state matches 3 run scoreboard players set @s bp.boss_move_state 0

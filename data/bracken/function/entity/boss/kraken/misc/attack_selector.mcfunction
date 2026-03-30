@@ -10,4 +10,4 @@ execute if score #1 bp.math.out matches 4 run function bracken:entity/boss/krake
 
 
 
-scoreboard players set @s bp.kraken 160
+scoreboard players set @s bp.boss_state_cd 160

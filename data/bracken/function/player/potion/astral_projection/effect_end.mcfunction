@@ -17,5 +17,4 @@ execute as @e[type=marker,tag=bp.astral_marker] at @s if score @p[tag=bp.target1
 tag @p[tag=bp.target10] remove bp.target10
 
 effect clear @s glowing
-scoreboard players set @s bp.astral_death 0
 scoreboard players set @s bp.astral_time 0

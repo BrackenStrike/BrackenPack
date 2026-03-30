@@ -7,3 +7,6 @@ advancement revoke @s only bracken:technical/dimension_travel/leave/omnidrome
 
 attribute @s minecraft:safe_fall_distance modifier add bracken:omni_safefall 1000 add_multiplied_base
 attribute @s minecraft:block_interaction_range modifier add bracken:omni_blockrange 10 add_multiplied_base
+
+function bracken:dimension/travel/remove_dim_tags
+tag @s add bp.dim_omnidrome

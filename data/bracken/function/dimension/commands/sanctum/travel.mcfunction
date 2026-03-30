@@ -1,0 +1,17 @@
+##########################################################
+# Description: Commands that handle dimension traveling triggers for Sanctum.
+# Creators: Grandmaster
+##########################################################
+
+
+execute if entity @s[y=310,dy=100] run function bracken:dimension/crossing/sanctum_to_nether
+execute if entity @s[y=-70,dy=-300] in bracken:void run tp @s ~ 240 ~
+effect give @s[predicate=!bracken:sneak,y=250,dy=100] levitation 1 2 true
+effect give @s[y=214,dy=100] slow_falling 1 2 true
+effect give @s[y=214,dy=100] jump_boost 1 1 true
+effect give @s[y=230,dy=100] jump_boost 1 7 true
+
+# travel omniportal
+execute if entity @e[type=minecraft:item_display,tag=bp.omnidrome_entrance,distance=..4,predicate=bracken:dimensions/sanctum] run function bracken:dimension/commands/other/omniportal
+# travel omnidrome
+execute if predicate bracken:sprint if entity @e[type=minecraft:end_crystal,distance=..2,predicate=bracken:dimensions/sanctum] run function bracken:dimension/crossing/sanctum_to_omnidrome

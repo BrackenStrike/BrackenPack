@@ -20,3 +20,7 @@ function bracken:player/arbitrium/boa_start
 # varsk effect
 execute at @s[tag=bp.sparked] run particle entity_effect{color:[0.5,1.0,1.0,1.0]} ~ ~1 ~ 0 0.5 0 1 2 normal
 
+# Potions
+execute if score @s bp.astral_time matches 1.. run function bracken:player/potion/astral_projection/tick
+execute if score @s bp.greed_duration matches 1.. run function bracken:player/potion/greed/tick
+

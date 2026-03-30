@@ -8,7 +8,5 @@ bossbar set bracken:solatium_thrall color yellow
 bossbar set bracken:solatium_thrall style progress
 bossbar set bracken:solatium_thrall max 300
 
-scoreboard objectives add bp.thrall.health dummy
-scoreboard objectives add bp.thrall dummy
 scoreboard players set 4 bp.math.final 4
 

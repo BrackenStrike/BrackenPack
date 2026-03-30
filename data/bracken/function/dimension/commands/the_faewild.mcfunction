@@ -5,7 +5,7 @@
 
 # Effects
 #effect give @s[predicate=bracken:sneak] minecraft:slow_falling 1 0 true
-experience add @s[scores={bp.longtick=1}] 1 points
+experience add @s[scores={bp.10_second=1}] 1 points
 
 
 execute if entity @s[scores={bp.overworld=2..},gamemode=!spectator] run fill ~3 11 ~3 ~-3 0 ~-3 minecraft:azalea_leaves replace minecraft:air

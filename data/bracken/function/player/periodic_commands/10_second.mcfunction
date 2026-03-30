@@ -3,7 +3,7 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-scoreboard players set @s bp.longtick 0
+scoreboard players set @s bp.10_second 0
 
 # /team join race change
 #execute if score #bp.teams_dummy bp.config matches 2 run function arb:player/species/team_check

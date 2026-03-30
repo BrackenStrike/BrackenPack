@@ -8,12 +8,6 @@ tag @s add bp.active
 playsound minecraft:entity.wandering_trader.no hostile @a[distance=..50] ~ ~ ~ 100 1
 tellraw @a[distance=..50] {"translate":"Emperor Lotophage: \"Oh? Do you remember me?\"","color":"gray","bold":false}
 
-bossbar add bracken:fae_emperor {"translate":"Fae Emperor","color":"gray","bold":true}
-bossbar set bracken:fae_emperor color white
-bossbar set bracken:fae_emperor style notched_10
-bossbar set bracken:fae_emperor max 150
-
-
 #summon minecraft:armor_stand ~ ~ ~ {DisabledSlots:4144959,PersistenceRequired:1b,Invisible:1b,NoBasePlate:1b,Tags:["bp.5b"]}
 #summon minecraft:armor_stand ~-1 ~ ~ {DisabledSlots:3096320,ShowArms:1b,Pose:{LeftArm:[0f,90f,90f]},PersistenceRequired:1b,Invisible:1b,NoBasePlate:1b,Tags:["bp.1b","bp.banner"],equipment:{offhand:{id:"minecraft:shield",count:1b,components:{"minecraft:enchantment_glint_override":1b,"minecraft:base_color":"purple","minecraft:banner_patterns":[{color:"black",pattern:"half_horizontal"},{color:"black",pattern:"half_horizontal_bottom"},{color:"purple",pattern:"straight_cross"},{color:"purple",pattern:"square_top_left"},{color:"purple",pattern:"square_bottom_right"},{color:"purple",pattern:"border"}]}}}}
 

@@ -8,4 +8,4 @@ execute if score #1 bp.math.out matches 4 run function bracken:entity/boss/fae_e
 execute if score #1 bp.math.out matches 5 run function bracken:entity/boss/fae_emperor/attacks/bolt
 execute if score #1 bp.math.out matches 6 run function bracken:entity/boss/fae_emperor/attacks/worldsoar
 
-scoreboard players set @s bp.fae_emperor 160
+scoreboard players set @s bp.boss_state_cd 160

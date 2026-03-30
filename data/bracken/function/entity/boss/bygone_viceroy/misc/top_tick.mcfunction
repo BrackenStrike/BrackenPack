@@ -3,6 +3,6 @@ execute store result bossbar bracken:bygone_viceroy.top value run data get entit
 
 particle minecraft:soul_fire_flame ~ ~.75 ~ 0.07 0.4 0.07 0.01 5
 
-execute if score @s bp.bygn_vcroy.t matches ..0 run function bracken:entity/boss/bygone_viceroy/misc/attack_top
+execute if score @s bp.boss_state_cd matches ..0 run function bracken:entity/boss/bygone_viceroy/misc/attack_top
 
-scoreboard players remove @s bp.bygn_vcroy.t 1
+scoreboard players remove @s bp.boss_state_cd 1

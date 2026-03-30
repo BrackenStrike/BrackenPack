@@ -3,4 +3,4 @@
 
 
 
-scoreboard players set @s bp.slime 30
+scoreboard players set @s bp.boss_1 30

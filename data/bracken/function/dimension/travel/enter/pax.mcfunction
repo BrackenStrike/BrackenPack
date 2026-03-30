@@ -13,3 +13,6 @@ attribute @s minecraft:attack_damage modifier add bracken:pax_ad -1000 add_multi
 effect clear @s minecraft:poison
 effect clear @s minecraft:bad_omen
 effect clear @s[predicate=bracken:in_water] minecraft:wither
+
+function bracken:dimension/travel/remove_dim_tags
+tag @s add bp.dim_pax

@@ -5,4 +5,4 @@ execute if score #1 bp.math.out matches 1 run function bracken:entity/boss/unsun
 execute if score #1 bp.math.out matches 2 run function bracken:entity/boss/unsung/attacks/float
 execute if score #1 bp.math.out matches 3 run function bracken:entity/boss/unsung/attacks/speed
 
-scoreboard players set @s bp.unsung 160
+scoreboard players set @s bp.boss_state_cd 160

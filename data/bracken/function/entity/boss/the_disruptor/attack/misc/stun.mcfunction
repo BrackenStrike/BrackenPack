@@ -1,2 +1,2 @@
 #commands
-scoreboard players remove @s bp.dis.attack_cd 1
+scoreboard players remove @s bp.boss_state_cd 1

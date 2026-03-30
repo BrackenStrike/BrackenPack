@@ -1,5 +1,4 @@
 fill ~ ~ ~ ~ ~ ~ air destroy
-bossbar remove bracken:ostiarius
 
 playsound minecraft:block.portal.trigger ambient @a[distance=..50] ~ ~ ~ 100 0
 

@@ -12,8 +12,6 @@ execute if entity @s[scores={bp.ice=1..}] run particle minecraft:item_snowball ~
 execute if entity @s[scores={bp.ice=5..}] run particle minecraft:cloud ~ ~ ~ 2 2 2 0.01 10
 
 #pax
-scoreboard players remove @s[scores={bp.pax=1..}] bp.pax 1
-
 scoreboard players remove @s[scores={bp.portal=1..}] bp.portal 1
 tag @s[scores={bp.portal=0}] remove bp.portal_teleport
 

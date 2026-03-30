@@ -5,5 +5,5 @@
 
 advancement revoke @s only bracken:potion/astral_projection/3_astral
 
-scoreboard players set @s bp.astral_time 800
+scoreboard players set @s bp.astral_time 80
 function bracken:player/potion/astral_projection/effect_start

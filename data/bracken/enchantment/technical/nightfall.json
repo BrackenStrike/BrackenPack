@@ -22,7 +22,7 @@
 		"minecraft:tick": [{
 			"effect": {
 				"type": "minecraft:run_function",
-				"function": "bracken:item/nightfall"
+				"function": "bracken:item/nightfall/nightfall"
 			}
 		}]
 	}

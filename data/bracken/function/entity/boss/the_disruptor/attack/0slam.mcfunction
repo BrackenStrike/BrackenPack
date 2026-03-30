@@ -1,8 +1,9 @@
 #init
-execute if score @s bp.dis.attack_cd matches ..0 run scoreboard players set @s bp.dis.attack_cd 6000
+execute if score @s bp.boss_state_cd matches ..0 run scoreboard players set @s bp.boss_state_cd 6000
+
 
 #commands
-scoreboard players set @s bp.dis.boss_speed 50
+scoreboard players set @s bp.boss_speed 50
 execute store result score @s bp.xmansion run data get entity @p Pos[0]
 execute store result score @s bp.ymansion run data get entity @p Pos[1]
 execute store result score @s bp.zmansion run data get entity @p Pos[2]

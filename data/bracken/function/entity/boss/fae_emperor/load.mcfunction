@@ -3,16 +3,9 @@
 # Creators: Bracken
 ##########################################################
 
-
-
-
-
-
-
-scoreboard objectives add bp.fae_emperor dummy
-scoreboard objectives add bp.fae_emperor.health dummy
-scoreboard objectives add bp.speed dummy
-scoreboard objectives add bp.arrowrain dummy
-
+bossbar add bracken:fae_emperor {"translate":"Fae Emperor","color":"gray","bold":true}
+bossbar set bracken:fae_emperor color white
+bossbar set bracken:fae_emperor style notched_10
+bossbar set bracken:fae_emperor max 150
 
 scoreboard players set 7 bp.math.final 7

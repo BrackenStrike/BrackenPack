@@ -17,12 +17,8 @@ execute if entity @s[scores={bp.3_second=60..}] run function bracken:player/peri
 scoreboard players add @s bp.3_second 1
 
 # every 10 seconds (200 ticks)
-execute if entity @s[scores={bp.longtick=200..}] run function bracken:player/periodic_commands/10_second
-scoreboard players add @s bp.longtick 1
-
-# every 30 seconds (600 ticks)
-execute if entity @s[scores={bp.verylongtick=600..}] run function bracken:player/periodic_commands/30_second
-scoreboard players add @s bp.verylongtick 1
+execute if entity @s[scores={bp.10_second=200..}] run function bracken:player/periodic_commands/10_second
+scoreboard players add @s bp.10_second 1
 
 # every 5 minutes (6000 ticks)
 execute if entity @s[scores={bp.5_min_tick=6000..}] run function bracken:player/periodic_commands/5_min
@@ -30,8 +26,8 @@ scoreboard players add @s bp.5_min_tick 1
 
 # Player species
 #execute if score #bp.species_dummy bp.config matches 2 if entity @s[tag=bp.species] run function #bracken:player/species/tick
-execute if data storage bracken:config {species_on: true} if entity @s[tag=bp.species] run function bracken:player/species/tick
-execute if data storage bracken:config {species_on: false} if entity @s[scores={bp.longtick=2}] run function bracken:player/species/leave
+execute if entity @s[tag=bp.species] if data storage bracken:config {species_on: true} run function bracken:player/species/tick
+execute if entity @s[scores={bp.10_second=2}] if data storage bracken:config {species_on: false} run function bracken:player/species/leave
 
 # Dimension Commands
 function bracken:player/dimension_check

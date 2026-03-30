@@ -1,9 +1,7 @@
 # time
-scoreboard objectives add bp.tick dummy
 scoreboard objectives add bp.1_second dummy
 scoreboard objectives add bp.3_second dummy
-scoreboard objectives add bp.longtick dummy
-scoreboard objectives add bp.verylongtick dummy
+scoreboard objectives add bp.10_second dummy
 scoreboard objectives add bp.5_min_tick dummy
 
 #Math Init
@@ -20,17 +18,32 @@ function bracken:entity/boss/kraken/load
 function bracken:entity/boss/fae_emperor/load
 function bracken:entity/panacea/load
 
+########## BOSS SCORES ###########
+
+# the health of the boss
+scoreboard objectives add bp.boss_health dummy
+# state selection cooldown
+scoreboard objectives add bp.boss_state_cd dummy
+# misc boss scores
+scoreboard objectives add bp.boss_1 dummy
+scoreboard objectives add bp.boss_2 dummy
+scoreboard objectives add bp.boss_3 dummy
+# movement state selection
+scoreboard objectives add bp.boss_move_state dummy
+# misc for boss speed
+scoreboard objectives add bp.boss_speed dummy
+# boss ending handling
+scoreboard objectives add bp.boss_end dummy
+
 ##########   ADD SCOREBOARD OBJECTIVES   ##########
 scoreboard objectives add bp.food food
 scoreboard objectives add bp.sprint minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add bp.hurting minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add bp.jump minecraft.custom:minecraft.jump
 scoreboard objectives add bp.health health
-scoreboard objectives add bp.fly minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add bp.sprintcharge dummy
 scoreboard objectives add bp.sneakcharge dummy
 scoreboard objectives add bp.var dummy
-scoreboard objectives add bp.brinetravel dummy
 scoreboard objectives add bp.obsidian dummy
 scoreboard objectives add bp.world_player_id dummy
 scoreboard objectives add bp.dust_storm dummy
@@ -41,19 +54,17 @@ scoreboard objectives add bp.trample_cd dummy
 scoreboard objectives add bp.creeper dummy
 scoreboard objectives add bp.gothrum_fang dummy
 scoreboard objectives add bp.creeper_horn dummy
-scoreboard objectives add bp.frost_spite_death deathCount
 scoreboard objectives add bp.elytra_dive dummy
+scoreboard objectives add bp.frost_spite_death deathCount
 
 #astral potion
 scoreboard objectives add bp.astral_time dummy
 scoreboard objectives add bp.pre_astral_gamemode dummy
-scoreboard objectives add bp.astral_death deathCount
 
 #greed potion
 scoreboard objectives add bp.greed_duration dummy
 scoreboard objectives add bp.greed_amplifier dummy
 scoreboard objectives add bp.greed_kills totalKillCount
-scoreboard objectives add bp.greed_death deathCount
 
 ##########   SPECIES  ##########
 scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
@@ -86,12 +97,6 @@ scoreboard players set #1 bp.zchunk 16
 
 # Overworld
 scoreboard objectives add bp.overworld dummy
-
-# Faewild
-scoreboard objectives add bp.fae dummy
-
-# scoreboard used for Pax entites like launchpad and crofter singing
-scoreboard objectives add bp.pax dummy
 
 # The Brine
 scoreboard objectives add bp.brine_potion dummy
@@ -196,14 +201,14 @@ gamerule command_blocks_work true
 
 ##########   RESET SCOREBOARD PLAYER VALUES   ##########
 scoreboard players set @a bp.sprintcharge 0
-scoreboard players set @a bp.tick 0
-scoreboard players set @a bp.longtick 0
-scoreboard players set @a bp.verylongtick 0
+scoreboard players set @a bp.10_second 0
 scoreboard players set @a bp.hurting 0
 scoreboard players set @a bp.portal 0
 scoreboard players set @a bp.cooldown -6
 scoreboard players set #2 bp.var 2
 scoreboard players set #20 bp.var 20
+scoreboard players set #-1 bp.var -1
+scoreboard players set #6 bp.var 6
 
 ##########   ADD TEAMS   ##########
 execute if data storage bracken:config {teams_on: true} run function bracken:player/add_teams

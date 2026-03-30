@@ -3,6 +3,6 @@ execute store result bossbar bracken:bygone_viceroy.bottom value run data get en
 
 
 
-execute if score @s bp.bygn_vcroy.t matches ..0 run function bracken:entity/boss/bygone_viceroy/misc/attack_bottom
+execute if score @s bp.boss_state_cd matches ..0 run function bracken:entity/boss/bygone_viceroy/misc/attack_bottom
 
-scoreboard players remove @s bp.bygn_vcroy.t 1
+scoreboard players remove @s bp.boss_state_cd 1

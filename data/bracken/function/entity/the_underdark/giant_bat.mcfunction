@@ -3,7 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-effect give @p[scores={bp.longtick=..175},distance=..2,gamemode=survival] levitation 1 0 true
+effect give @p[scores={bp.10_second=..175},distance=..2,gamemode=survival] levitation 1 0 true
 execute if entity @s[tag=bp.tame] run effect give @p[distance=..2,gamemode=survival] levitation 1 0 true
 execute if entity @s[tag=bp.tame] run effect give @p[distance=..2,gamemode=survival] slow_falling 1 0 true
 damage @p[scores={bp.1_second=1},distance=..2,gamemode=survival] 1 minecraft:mob_attack by @s[tag=!bp.tame]

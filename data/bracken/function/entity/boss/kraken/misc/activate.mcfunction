@@ -7,13 +7,8 @@ fill ~6 ~15 ~6 ~-6 ~-15 ~-6 air
 summon tnt ~ ~ ~
 
 
-
-bossbar add bracken:kraken {"translate":"Kraken","color":"dark_aqua","bold":true}
-bossbar set bracken:kraken color white
-bossbar set bracken:kraken style notched_6
-bossbar set bracken:kraken max 300
-scoreboard players set @s bp.spin 1
-scoreboard players set @s bp.sploosh 1
-scoreboard players set @s bp.sploosh2 1
+scoreboard players set @s bp.boss_1 1
+scoreboard players set @s bp.boss_2 1
+scoreboard players set @s bp.boss_3 1
 
 advancement grant @a[distance=..50] only bracken:the_brine/kraken

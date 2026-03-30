@@ -14,9 +14,4 @@ bossbar set bracken:bygone_viceroy.bottom color blue
 bossbar set bracken:bygone_viceroy.bottom style notched_12
 bossbar set bracken:bygone_viceroy.bottom max 180
 
-
-
-scoreboard objectives add bp.bygn_vcroy.s dummy
-scoreboard objectives add bp.bygn_vcroy.t dummy
-
 scoreboard players set 4 bp.math.final 4

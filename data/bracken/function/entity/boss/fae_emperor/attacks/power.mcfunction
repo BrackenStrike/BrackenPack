@@ -1,6 +1,6 @@
 
-scoreboard players set @s bp.speed 100
-scoreboard players set @s bp.arrowrain 80
+scoreboard players set @s bp.boss_speed 100
+scoreboard players set @s bp.boss_1 80
 
 playsound bracken:faewild_ambient_07 hostile @a[distance=..50] ~ ~ ~ 100 1
 
