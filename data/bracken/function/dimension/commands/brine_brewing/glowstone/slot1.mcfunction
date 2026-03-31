@@ -9,7 +9,7 @@ execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Sl
 # 101
 # 102
 # 103
-execute if score @s bp.brine_potion matches 104 run data modify block ~ ~ ~ Items[{Slot:1b}] merge value {components:{"minecraft:potion_contents":{custom_effects:[{duration:900,id:"luck",amplifier:1}]},"minecraft:custom_data":{bp:[{id:"potion_modified1"},{id:"check"},{greed_duration:0b},{greed_amplifier:1b}]}}}
+execute if score @s bp.brine_potion matches 104 run data modify block ~ ~ ~ Items[{Slot:1b}] merge value {components:{"minecraft:potion_contents":{custom_effects:[{duration:900,id:"strength",amplifier:1}]},"minecraft:custom_data":{bp:[{id:"potion_modified1"},{id:"check"},{greed_duration:0b},{greed_amplifier:1b}]}}}
 execute if score @s bp.brine_potion matches 105 run data modify block ~ ~ ~ Items[{Slot:1b}] merge value {components:{"minecraft:potion_contents":{custom_effects:[{duration:900,id:"haste",amplifier:1}]},"minecraft:custom_data":{bp:[{id:"potion_modified1"},{id:"check"}]}}}
 execute if score @s bp.brine_potion matches 106 run data modify block ~ ~ ~ Items[{Slot:1b}] merge value {components:{"minecraft:potion_contents":{custom_effects:[{duration:200,id:"levitation",amplifier:1}]},"minecraft:custom_data":{bp:[{id:"potion_modified1"},{id:"check"}]}}}
 # 107

@@ -4,12 +4,11 @@
 ##########################################################
 
 scoreboard players set @s[scores={bp.jump=2..}] bp.jump 1
-execute if score #cooldown bp.varskstorm matches 1.. run scoreboard players remove #cooldown bp.varskstorm 1
 
 scoreboard players set @s[scores={bp.sprint=1..}] bp.sprint 0
 
 scoreboard players remove @s[scores={bp.elytra_dive=1..}] bp.elytra_dive 1
-scoreboard players set @s[predicate=bracken:item/no_flying_elytra,scores={bp.elytra_dive=5..}] bp.elytra_dive 5
+scoreboard players set @s[scores={bp.elytra_dive=5..},predicate=bracken:item/no_flying_elytra] bp.elytra_dive 5
 
 
 scoreboard players add @s[predicate=bracken:sneak] bp.sneakcharge 4

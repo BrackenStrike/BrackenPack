@@ -1,6 +1,6 @@
 ##########################################################
 # Description: Executed every tick by species members
-# Creators: Sulfenir
+# Creators: Sulfenir and Grandmaster
 ##########################################################
 
 execute if entity @s[tag=bp.automech] run return run function bracken:player/species/automech/tick
@@ -16,3 +16,7 @@ execute if entity @s[tag=bp.outlander] run return run function bracken:player/sp
 execute if entity @s[tag=bp.realmkeeper] run return run function bracken:player/species/realmkeeper/tick
 execute if entity @s[tag=bp.villain] run return run function bracken:player/species/villain/tick
 execute if entity @s[tag=bp.watcher] run return run function bracken:player/species/watcher/tick
+
+
+# Clear Enderling Tp Item
+clear @s[tag=!bp.enderling] minecraft:ender_eye[minecraft:custom_data={bracken:{id:"enderling_controlled_teleport"}}]

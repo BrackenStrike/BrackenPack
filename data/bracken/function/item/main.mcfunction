@@ -1,10 +1,8 @@
 ##########################################################
 # Description: Directory for player used items for commands that run every tick
-# Creators: Bracken, Grandmaster, Conure
+# Creators: Bracken, Grandmaster, Conure, Grandmaster
 ##########################################################
 
-# Clear Enderling Tp Item
-clear @s[tag=!bp.enderling] minecraft:ender_eye[minecraft:custom_data={bracken:{id:"enderling_controlled_teleport"}}]
 
 # Count up creeper horn cd
 execute unless score @s bp.creeper_horn matches 600.. run scoreboard players add @s bp.creeper_horn 1

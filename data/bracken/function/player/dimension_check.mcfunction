@@ -4,6 +4,7 @@
 ##########################################################
 
 
+# this is ordered by dimensions I considered the player likely to be in as an optimization
 execute if entity @s[tag=bp.dim_overworld] run return run function bracken:dimension/commands/overworld
 execute if entity @s[tag=bp.dim_nether] run return run function bracken:dimension/commands/the_nether
 execute if entity @s[tag=bp.dim_faewild] run return run function bracken:dimension/commands/the_faewild

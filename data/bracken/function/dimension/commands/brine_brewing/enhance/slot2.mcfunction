@@ -38,4 +38,4 @@ data modify block ~ ~ ~ Items[{Slot:2b}].components."minecraft:custom_data".bp a
 data modify block ~ ~ ~ Items[{Slot:2b}].components."minecraft:custom_data".bp append value {id:"potion_modified1"}
 
 # Unique Potions
-execute if data block ~ ~ ~ Items[{Slot:2b,components:{"minecraft:custom_data":{bp.potion:104b}}}] store result block ~ ~ ~ Items[{Slot:2b}].components."minecraft:custom_data".bp[2].greed_amplifier byte 1 run data get block ~ ~ ~ Items[{Slot:2b}].components."minecraft:potion_contents".custom_effects[{id:"luck"}].amplifier
+execute if data block ~ ~ ~ Items[{Slot:2b,components:{"minecraft:custom_data":{bp.potion:104b}}}] store result block ~ ~ ~ Items[{Slot:2b}].components."minecraft:custom_data".bp[2].greed_amplifier byte 1 run data get block ~ ~ ~ Items[{Slot:2b}].components."minecraft:potion_contents".custom_effects[{id:"strength"}].amplifier

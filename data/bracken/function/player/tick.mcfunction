@@ -1,6 +1,6 @@
 ##########################################################
 # Description: All player related commands including from spell books, dimensions, and player races.
-# Creators: Bracken, Grandmaster and Sulfenir
+# Creators: Bracken, Grandmaster, and Sulfenir
 ##########################################################
 
 ####### Scoreboard Commands #######
@@ -25,9 +25,7 @@ execute if entity @s[scores={bp.5_min_tick=6000..}] run function bracken:player/
 scoreboard players add @s bp.5_min_tick 1
 
 # Player species
-#execute if score #bp.species_dummy bp.config matches 2 if entity @s[tag=bp.species] run function #bracken:player/species/tick
 execute if entity @s[tag=bp.species] if data storage bracken:config {species_on: true} run function bracken:player/species/tick
-execute if entity @s[scores={bp.10_second=2}] if data storage bracken:config {species_on: false} run function bracken:player/species/leave
 
 # Dimension Commands
 function bracken:player/dimension_check

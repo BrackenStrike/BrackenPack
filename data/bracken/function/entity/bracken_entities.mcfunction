@@ -7,4 +7,4 @@
 execute if entity @s[tag=!bp.boss] run return run function bracken:entity/main
 
 ## BOSSES
-execute if entity @s[tag=bp.boss] run function bracken:entity/boss_setup
+execute if entity @s[tag=bp.boss] run return run function bracken:entity/boss_setup
