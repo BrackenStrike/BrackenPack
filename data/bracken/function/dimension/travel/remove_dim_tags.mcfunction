@@ -12,7 +12,7 @@ tag @s remove bp.dim_pax
 tag @s remove bp.dim_sanctum
 tag @s remove bp.dim_void
 tag @s remove bp.dim_glacium
-tag @s remove bp.dim_omndidrome
+tag @s remove bp.dim_omnidrome
 tag @s remove bp.dim_brine
 tag @s remove bp.dim_panacea
 tag @s remove bp.dim_varskspace
