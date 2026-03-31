@@ -20,7 +20,6 @@ execute if score @s bp.boss_state_cd matches ..100 if score @s bp.boss_1 = @s bp
 execute if score @s bp.boss_1 = @s bp.boss_3 run scoreboard players set @s bp.boss_1 0
 
 execute rotated as @e[type=minecraft:area_effect_cloud,tag=bp.ray,nbt={Age:4}] run function bracken:entity/boss/the_disruptor/attack/lazer/lazer_raycast
-execute rotated as @e[type=minecraft:area_effect_cloud,tag=bp.ray,nbt={Age:4}] run playsound minecraft:block.beacon.deactivate master @a[distance=..50] ~ ~ ~ 1 1 0
 
 scoreboard players remove @s bp.boss_state_cd 1
 execute if score @s bp.boss_state_cd matches 0 run scoreboard players set @s bp.boss_2 5

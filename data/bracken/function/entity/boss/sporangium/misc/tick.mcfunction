@@ -38,5 +38,5 @@ execute if entity @s[scores={bp.boss_health=..60},tag=!bp.death,tag=bp.ready,tag
 
 
 #tree jump
-execute if entity @e[type=marker,tag=bp.slimezone,distance=40..200,sort=nearest,limit=1] run tellraw @a[distance=..100] {"translate":"The prey flees! The hunt begins..."}
-execute if entity @e[type=marker,tag=bp.slimezone,distance=40..200,sort=nearest,limit=1] run kill @e[type=marker,tag=bp.slimezone,sort=nearest,distance=..50]
+execute if entity @n[type=marker,tag=bp.slimezone,distance=40..200] run tellraw @a[distance=..100] {"translate":"The prey flees! The hunt begins..."}
+execute if entity @n[type=marker,tag=bp.slimezone,distance=40..200] run kill @e[type=marker,tag=bp.slimezone,sort=nearest,distance=..50]

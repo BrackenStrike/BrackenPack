@@ -44,7 +44,6 @@ scoreboard objectives add bp.health health
 scoreboard objectives add bp.sprintcharge dummy
 scoreboard objectives add bp.sneakcharge dummy
 scoreboard objectives add bp.var dummy
-scoreboard objectives add bp.obsidian dummy
 scoreboard objectives add bp.world_player_id dummy
 scoreboard objectives add bp.dust_storm dummy
 scoreboard objectives add bp.iron_apple dummy
@@ -95,8 +94,6 @@ scoreboard players set #1 bp.zchunk 16
 
 ##########   DIMENSIONS  ##########
 
-# Overworld
-scoreboard objectives add bp.overworld dummy
 
 # The Brine
 scoreboard objectives add bp.brine_potion dummy
@@ -109,9 +106,6 @@ scoreboard objectives add bp.spawn_loading dummy
 scoreboard players set #1 bp.spawn_loading 1
 scoreboard objectives add bp.omni_flight dummy
 scoreboard objectives add bp.omni_sprint dummy
-
-# Void
-scoreboard objectives add bp.voidtp dummy
 
 # Varskspace
 data merge storage bracken:var {varskstorm:{stage:0}}
@@ -205,6 +199,7 @@ scoreboard players set @a bp.10_second 0
 scoreboard players set @a bp.hurting 0
 scoreboard players set @a bp.portal 0
 scoreboard players set @a bp.cooldown -6
+scoreboard players set @a bp.wtb_cooldown 0
 scoreboard players set #2 bp.var 2
 scoreboard players set #20 bp.var 20
 scoreboard players set #-1 bp.var -1

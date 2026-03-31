@@ -14,7 +14,6 @@ execute if score @s bp.coas matches 1.. run function bracken:item/coas/route
 
 # Ability book cooldown
 scoreboard players remove @s[scores={bp.cooldown=-6..}] bp.cooldown 1
-scoreboard players set @s[scores={bp.death=0}] bp.cooldown 0
 
 # frost spite
 execute if score @s bp.frost_spite_death matches 1.. run function bracken:item/frost_spite/search

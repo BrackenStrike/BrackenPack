@@ -5,7 +5,7 @@
 
 scoreboard players set @s OMNI.POWER.worm_toothed_burrower 0
 scoreboard players set @s _OMNI.POWER.worm_toothed_burrower 1
-execute if entity @s[level=25..,scores={bp.wtb_cooldown=..4}] run return run function bracken:item/ability_books/worm_toothed_burrower/worm_toothed_burrower
+execute if entity @s[level=25..,scores={bp.wtb_cooldown=..0}] run return run function bracken:item/ability_books/worm_toothed_burrower/worm_toothed_burrower
 
 
 execute if entity @s[level=25..] run return run tellraw @s "Ability is already in use!"

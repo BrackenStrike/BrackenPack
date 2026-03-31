@@ -1,7 +1,7 @@
-scoreboard players operation @s bp.xmansion2 = @e[type=marker,tag=bp.mm_portal2,distance=..1,sort=nearest,limit=1] bp.xmansion2
-scoreboard players operation @s bp.ymansion2 = @e[type=marker,tag=bp.mm_portal2,distance=..1,sort=nearest,limit=1] bp.ymansion2
-scoreboard players operation @s bp.zmansion2 = @e[type=marker,tag=bp.mm_portal2,distance=..1,sort=nearest,limit=1] bp.zmansion2
-scoreboard players operation @s bp.dimension = @e[type=marker,tag=bp.mm_portal2,distance=..1,sort=nearest,limit=1] bp.dimension
+scoreboard players operation @s bp.xmansion2 = @n[type=marker,tag=bp.mm_portal2,distance=..1] bp.xmansion2
+scoreboard players operation @s bp.ymansion2 = @n[type=marker,tag=bp.mm_portal2,distance=..1] bp.ymansion2
+scoreboard players operation @s bp.zmansion2 = @n[type=marker,tag=bp.mm_portal2,distance=..1] bp.zmansion2
+scoreboard players operation @s bp.dimension = @n[type=marker,tag=bp.mm_portal2,distance=..1] bp.dimension
 
 tag @s add bp.from_mansion_1
 

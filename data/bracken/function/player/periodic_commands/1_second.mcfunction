@@ -24,3 +24,6 @@ execute at @s[tag=bp.sparked] run particle entity_effect{color:[0.5,1.0,1.0,1.0]
 execute if score @s bp.astral_time matches 1.. run function bracken:player/potion/astral_projection/tick
 execute if score @s bp.greed_duration matches 1.. run function bracken:player/potion/greed/tick
 
+# WTB
+scoreboard players remove @s[scores={bp.wtb_cooldown=0..}] bp.wtb_cooldown 1
+

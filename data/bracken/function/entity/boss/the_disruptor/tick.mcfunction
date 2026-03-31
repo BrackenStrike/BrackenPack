@@ -5,9 +5,9 @@
 
 execute if entity @s[tag=bp.the_disruptor.inactive] if entity @p[distance=..5] run function bracken:entity/boss/the_disruptor/state/change/active
 
-execute if entity @s[tag=bp.the_disruptor.active] unless entity @e[type=minecraft:area_effect_cloud,tag=bp.center,sort=nearest,limit=1,distance=..25] run function bracken:entity/boss/the_disruptor/state/change/return
+execute if entity @s[tag=bp.the_disruptor.active] unless entity @n[type=minecraft:area_effect_cloud,tag=bp.center,distance=..25] run function bracken:entity/boss/the_disruptor/state/change/return
 
-execute if entity @s[tag=bp.the_disruptor.return] if entity @e[type=minecraft:area_effect_cloud,tag=bp.center,sort=nearest,limit=1,distance=..1] run function bracken:entity/boss/the_disruptor/state/change/inactive
+execute if entity @s[tag=bp.the_disruptor.return] if entity @n[type=minecraft:area_effect_cloud,tag=bp.center,distance=..1] run function bracken:entity/boss/the_disruptor/state/change/inactive
 
 ##if return
 execute if entity @s[tag=bp.the_disruptor.return] run function bracken:entity/boss/the_disruptor/state/return

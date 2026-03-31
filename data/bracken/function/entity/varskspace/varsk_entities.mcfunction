@@ -4,6 +4,6 @@
 ##########################################################
 
 
-execute at @e[type=silverfish,distance=..200,limit=1,sort=nearest] run summon lightning_bolt
-tp @e[type=silverfish,distance=..200,sort=nearest,limit=1] ~ -512 ~
+execute at @n[type=silverfish,distance=..200] run summon lightning_bolt
+tp @n[type=silverfish,distance=..200] ~ -512 ~
 

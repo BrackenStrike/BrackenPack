@@ -8,7 +8,7 @@ summon tnt
 playsound minecraft:block.glass.break player @a[distance=..10] ~ ~ ~ 10 0
 playsound minecraft:entity.dolphin.death player @a[distance=..10] ~ ~ ~ 1 0
 
-damage @a[distance=0.5..6,sort=nearest,limit=1] 100 minecraft:fireworks
+damage @p[distance=0.5..6] 100 minecraft:fireworks
 execute if entity @p[distance=0.5..6] run tellraw @a ["",{"selector":"@p[nbt={Health:0f}]"},{"text":" had the last laugh"}]
 
 particle minecraft:damage_indicator ~ ~1 ~ 1 1 1 0 100

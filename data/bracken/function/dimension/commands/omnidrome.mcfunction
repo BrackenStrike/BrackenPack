@@ -10,8 +10,8 @@ kill @e[type=experience_orb,distance=..5]
 execute if score @s bp.1_second matches 2 run function bracken:entity/omnidrome/summon_omni_mobs
 
 # Dimension Travel
-execute if data storage bracken:config {dimension_travel: true} if predicate bracken:sprint if entity @e[type=minecraft:end_crystal,distance=..2,predicate=bracken:dimensions/omnidrome] run function bracken:dimension/crossing/omnidrome_to_sanctum
-execute if entity @s[scores={bp.3_second=5}] as @e[type=marker,tag=bp.dimension_marker] at @s if block ~ ~-1 ~ air in bracken:omnidrome run function bracken:dimension/crossing/spawn_platforms/remove_spawn_platform
+execute if data storage bracken:config {dimension_travel: true} if predicate bracken:sprint if entity @n[type=minecraft:end_crystal,distance=..2] run function bracken:dimension/crossing/omnidrome_to_sanctum
+execute if entity @s[scores={bp.3_second=5}] as @n[type=marker,tag=bp.dimension_marker,distance=..200] at @s if block ~ ~-1 ~ air in bracken:omnidrome run function bracken:dimension/crossing/spawn_platforms/remove_spawn_platform
 
 # Movement and Effects
 effect give @s[scores={bp.omni_flight=2..,bp.sneakcharge=10..}] minecraft:levitation 1 15 true
@@ -35,8 +35,6 @@ execute if score @s bp.10_second matches 6 run function bracken:dimension/comman
 function bracken:dimension/commands/omni_powers/trigger_commands/trigger_book_commands
 ##########   TRIGGER OTHER COMMANDS   ##########
 function bracken:dimension/commands/omni_powers/trigger_commands/trigger_other_commands
-
-
 
 
 #return
