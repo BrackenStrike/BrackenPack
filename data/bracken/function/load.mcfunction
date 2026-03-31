@@ -145,7 +145,13 @@ scoreboard objectives add bp.zmansion2 dummy
 scoreboard objectives add bp.dimension dummy
 scoreboard players set #70 bp.ymansion 70
 
+
+
+scoreboard objectives add OMNI.COMMAND trigger
+scoreboard objectives add OMNI.PERMISSIONS_BOOK dummy
+scoreboard objectives add OMNI.PERMISSIONS_OTHER dummy
 ##########   OMNI BOOK TRIGGERS   ###########
+
 function bracken:dimension/commands/omni_powers/trigger_commands/add_book_commands
 ##########   OMNI OTHER TRIGGERS   ###########
 function bracken:dimension/commands/omni_powers/trigger_commands/add_other_commands

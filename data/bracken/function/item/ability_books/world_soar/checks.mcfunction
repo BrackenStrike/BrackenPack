@@ -3,7 +3,6 @@
 # Creators: Grandmaster, Conure
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.world_soar 0
 scoreboard players set @s _OMNI.POWER.world_soar 1
 execute if entity @s[level=2..] run return run function bracken:item/ability_books/world_soar/world_soar
 

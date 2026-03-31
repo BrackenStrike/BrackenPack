@@ -3,7 +3,6 @@
 # Creators: Grandmaster, Conure
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.kill 0
 scoreboard players set @s _OMNI.POWER.kill 1
 execute if entity @s[level=10..] run return run function bracken:item/ability_books/kill/kill
 

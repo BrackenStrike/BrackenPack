@@ -3,7 +3,6 @@
 # Creators: Grandmaster, Conure
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.flying_boat 0
 scoreboard players set @s _OMNI.POWER.flying_boat 1
 execute if entity @s[level=2..] run return run function bracken:item/ability_books/flying_boat/flying_boat
 

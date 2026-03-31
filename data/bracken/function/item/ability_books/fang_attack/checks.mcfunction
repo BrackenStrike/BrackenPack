@@ -3,7 +3,6 @@
 # Creators: Grandmaster, Conure
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.fang_attack 0
 scoreboard players set @s _OMNI.POWER.fang_attack 1
 execute if entity @s[level=2..] run return run function bracken:item/ability_books/fang_attack/fang_attack
 

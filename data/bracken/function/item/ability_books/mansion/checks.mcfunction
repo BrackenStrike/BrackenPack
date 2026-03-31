@@ -3,7 +3,6 @@
 # Creators: Grandmaster, Conure
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.mansion 0
 scoreboard players set @s _OMNI.POWER.mansion 1
 function bracken:item/ability_books/mansion/mansion
 

@@ -3,45 +3,6 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-scoreboard objectives add OMNI.BUILD.cube trigger
-scoreboard objectives add OMNI.BUILD.road_north trigger
-scoreboard objectives add OMNI.BUILD.road_south trigger
-scoreboard objectives add OMNI.BUILD.road_east trigger
-scoreboard objectives add OMNI.BUILD.road_west trigger
-scoreboard objectives add OMNI.BUILD.pillar trigger
-scoreboard objectives add OMNI.BUILD.cyber_tree trigger
-scoreboard objectives add OMNI.BUILD.pyramid trigger
-scoreboard objectives add OMNI.BUILD.end_island trigger
-scoreboard objectives add OMNI.BUILD.sculk_patch trigger
-scoreboard objectives add OMNI.BUILD.single_block trigger
-
-scoreboard objectives add OMNI.CLEAR.debris trigger
-scoreboard objectives add OMNI.CLEAR.material trigger
-
-scoreboard objectives add OMNI.SUMMON.lightning trigger
-scoreboard objectives add OMNI.SUMMON.construct trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_blaze trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_creeper trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_mount trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_ravager trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_tnt trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_pirate trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_snowman trigger
-scoreboard objectives add OMNI.SUMMON.theoretical_warden trigger
-scoreboard objectives add OMNI.SUMMON.pulse trigger
-scoreboard objectives add OMNI.SUMMON.disruptor_beam trigger
-
-scoreboard objectives add OMNI.ENABLE.flight trigger
-scoreboard objectives add OMNI.ENABLE.sprint trigger
-scoreboard objectives add OMNI.DISABLE.flight trigger
-scoreboard objectives add OMNI.DISABLE.sprint trigger
-
-scoreboard objectives add OMNI.TELEPORT.to_nearest_nearby_player trigger
-
-scoreboard objectives add OMNI.ASK.help trigger
-
-################################################################################
-
 scoreboard objectives add _OMNI.BUILD.cube dummy
 scoreboard objectives add _OMNI.BUILD.road_north dummy
 scoreboard objectives add _OMNI.BUILD.road_south dummy

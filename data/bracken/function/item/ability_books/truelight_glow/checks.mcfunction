@@ -3,7 +3,6 @@
 # Creators: Grandmaster, Conure
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.truelight_glow 0
 scoreboard players set @s _OMNI.POWER.truelight_glow 1
 execute if entity @s[level=3..] run return run function bracken:item/ability_books/truelight_glow/truelight_glow
 

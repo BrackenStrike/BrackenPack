@@ -3,7 +3,6 @@
 # Creators: Grandmaster, Conure
 ##########################################################
 
-scoreboard players set @s OMNI.POWER.frostlock 0
 scoreboard players set @s _OMNI.POWER.frostlock 1
 execute if entity @s[level=5..] run return run function bracken:item/ability_books/frostlock/frostlock
 

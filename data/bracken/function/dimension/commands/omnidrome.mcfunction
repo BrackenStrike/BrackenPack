@@ -25,16 +25,7 @@ execute if entity @s[y=280,dy=100] run tp @s ~ -38 ~
 # Mansion Spell Book
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_books/mansion/tp_from_mansion/tp_back_setup
 
-##########   ENABLE BOOK COMMANDS   ##########
-execute if score @s bp.10_second matches 7 run function bracken:dimension/commands/omni_powers/trigger_commands/enable_omni-book_commands
-##########   ENABLE OTHER COMMANDS   ##########
-execute if score @s bp.10_second matches 6 run function bracken:dimension/commands/omni_powers/trigger_commands/enable_other_commands
-
-##########   TRIGGER BOOK COMMANDS   ##########
-function bracken:dimension/commands/omni_powers/trigger_commands/trigger_book_commands
-##########   TRIGGER OTHER COMMANDS   ##########
-function bracken:dimension/commands/omni_powers/trigger_commands/trigger_other_commands
-
+execute if score @s OMNI.COMMAND matches 1..51 run function bracken:dimension/commands/omni_powers/route
 
 #return
 return 1
