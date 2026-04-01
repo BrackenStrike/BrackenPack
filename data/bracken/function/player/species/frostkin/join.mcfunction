@@ -8,7 +8,7 @@ execute if entity @s[tag=bp.species] run function bracken:player/species/leave
 
 tag @s add bp.species
 tag @s add bp.frostkin
-execute if data storage bracken:config {teams_on:true} run team join Frostkin
+execute if data storage bracken:config {teams_on:true} run team join bp.Frostkin
 clear @s written_book[minecraft:custom_data~{bp:{id:"species_beginner_book"}}]
 
 attribute @s minecraft:armor modifier add bracken:frostkin.armor 4 add_value

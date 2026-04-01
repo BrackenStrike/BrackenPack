@@ -9,7 +9,7 @@ execute if entity @s[tag=bp.species] run function bracken:player/species/leave
 clear @s written_book[minecraft:custom_data~{bp:{id:"species_beginner_book"}}]
 tag @s add bp.species
 tag @s add bp.nereid
-execute if data storage bracken:config {teams_on:true} run team join Nereid
+execute if data storage bracken:config {teams_on:true} run team join bp.Nereid
 
 # so sad had to remove water movement efficiency because it combines with dolphins_grace to make the most broken thing
 #attribute @s minecraft:water_movement_efficiency modifier add bracken:nereid.water_movement_efficiency 1 add_value

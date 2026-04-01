@@ -11,7 +11,6 @@ execute if score @s bp.1_second matches 2 run function bracken:entity/omnidrome/
 
 # Dimension Travel
 execute if data storage bracken:config {dimension_travel: true} if predicate bracken:sprint if entity @n[type=minecraft:end_crystal,distance=..2] run function bracken:dimension/crossing/omnidrome_to_sanctum
-execute if entity @s[scores={bp.3_second=5}] as @n[type=marker,tag=bp.dimension_marker,distance=..200] at @s if block ~ ~-1 ~ air in bracken:omnidrome run function bracken:dimension/crossing/spawn_platforms/remove_spawn_platform
 
 # Movement and Effects
 effect give @s[scores={bp.omni_flight=2..,bp.sneakcharge=10..}] minecraft:levitation 1 15 true

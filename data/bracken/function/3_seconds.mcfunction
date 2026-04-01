@@ -3,20 +3,17 @@
 # Creators: Grandmaster and Bracken
 ##########################################################
 
-
-##########   THRALL WITHER SKELETONS   ##########
-execute at @a unless entity @e[tag=bp.solatium_thrall,distance=..100,type=minecraft:zombie] run kill @e[tag=bp.solatium_thrall,distance=..100,type=wither_skeleton]
+##########   FAE EMPEROR SUMMON   ##########
+execute as @e[type=armor_stand,tag=bp.fae_boss_trigger] at @s if entity @p[distance=..10] run function bracken:entity/boss/fae_emperor/summon
 
 ##########   NETHERITE GOLEM   ##########
-
 execute at @a[predicate=bracken:nonsneak] as @e[distance=..4,tag=bp.netherite_golem,tag=!bp.sgolem,type=minecraft:wither_skeleton] run data merge entity @s {Tags:["bp.sgolem","bp.netherite_golem"],NoAI:0b,Invulnerable:0b,DeathLootTable:"bracken:entity/sanctum/netherite_golem"}
-
 
 ##########   MISCELANEOUS MARKERS   ##########
 execute as @e[type=marker] at @s run function bracken:entity/misc/markers_3_second
 
 ##########   POLYFOLUS MINIBOSS  ##########
-execute at @a as @e[distance=..50,limit=5,nbt={Item:{id:"minecraft:red_mushroom_block",components:{"minecraft:custom_data":{bp:{id:"polyfolus_head"}}}}},type=minecraft:item] at @s run function bracken:entity/the_underdark/polyfolus
+execute at @a as @e[distance=..50,limit=5,nbt={Item:{id:"minecraft:red_mushroom_block",components:{"minecraft:custom_data":{bp:{id:"polyfolus_head"}}}}},type=minecraft:item] at @s run function bracken:entity/the_underdark/summons/polyfolus_setup
 
 ##########   VARSKSTORM  ##########
 execute if entity @a[tag=bp.sparked,predicate=bracken:dimensions/overworld,predicate=bracken:rain] run function bracken:dimension/commands/varskstorm/process

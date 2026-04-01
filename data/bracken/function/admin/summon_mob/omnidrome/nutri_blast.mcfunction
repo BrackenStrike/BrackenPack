@@ -1,0 +1,1 @@
+function bracken:entity/omnidrome/summons/nutri_blast

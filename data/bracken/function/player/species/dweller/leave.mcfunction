@@ -5,7 +5,7 @@
 
 tag @s remove bp.species
 tag @s remove bp.dweller
-team leave @s[team=Dweller]
+team leave @s[team=bp.Dweller]
 
 attribute @s minecraft:scale modifier remove bracken:dweller.scale
 attribute @s minecraft:block_break_speed modifier remove bracken:dweller.break

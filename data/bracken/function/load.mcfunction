@@ -131,7 +131,7 @@ scoreboard objectives add bp.cooldown dummy
 # Returning Tides
 scoreboard objectives add bp.recall_wait dummy
 
-# Mansion
+# Mansion (some are also being used for the Disrupter boss to reduce adding more scoreboard variables)
 scoreboard objectives add bp.mansion_use dummy
 scoreboard objectives add bp.xmansion dummy
 scoreboard objectives add bp.ymansion dummy
@@ -200,6 +200,7 @@ scoreboard players set @a bp.hurting 0
 scoreboard players set @a bp.portal 0
 scoreboard players set @a bp.cooldown -6
 scoreboard players set @a bp.wtb_cooldown 0
+scoreboard players set @a bp.greed_duration 0
 scoreboard players set #2 bp.var 2
 scoreboard players set #20 bp.var 20
 scoreboard players set #-1 bp.var -1

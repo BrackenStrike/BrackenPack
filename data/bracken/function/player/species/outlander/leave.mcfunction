@@ -5,7 +5,7 @@
 
 tag @s remove bp.species
 tag @s remove bp.outlander
-team leave @s[team=Outlander]
+team leave @s[team=bp.Outlander]
 
 attribute @s minecraft:scale modifier remove bracken:outlander.scale
 attribute @s minecraft:block_interaction_range modifier remove bracken:outlander.block_range

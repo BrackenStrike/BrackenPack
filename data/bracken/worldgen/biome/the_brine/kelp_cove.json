@@ -86,13 +86,7 @@
             "maxCount": 8,
             "minCount": 8,
             "weight": 25
-          },
-          {
-        "type": "minecraft:nautilus",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
-      }
+          }
         ],
         "water_creature": [
           {
@@ -106,6 +100,12 @@
             "maxCount": 2,
             "minCount": 1,
             "weight": 2
+          },
+          {
+            "type": "minecraft:nautilus",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 5
           }
         ]
       },

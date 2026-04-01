@@ -5,7 +5,7 @@
 
 tag @s remove bp.species
 tag @s remove bp.frostkin
-team leave @s[team=Frostkin]
+team leave @s[team=bp.Frostkin]
 
 attribute @s minecraft:armor modifier remove bracken:frostkin.armor
 attribute @s minecraft:armor_toughness modifier remove bracken:frostkin.armor_toughness

@@ -76,11 +76,11 @@
             "weight": 2
           },
           {
-        "type": "minecraft:nautilus",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
-      }
+            "type": "minecraft:nautilus",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 5
+          }
         ]
       },
     "spawn_costs": {},

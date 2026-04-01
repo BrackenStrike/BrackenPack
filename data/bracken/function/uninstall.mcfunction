@@ -16,8 +16,11 @@ bossbar remove bracken:bygone_viceroy.top
 bossbar remove bracken:bygone_viceroy.bottom
 bossbar remove bracken:the_disruptor
 bossbar remove bracken:project_ruination
+bossbar remove bracken:ostiarius
 bossbar remove bracken:sporangium
 bossbar remove bracken:unsung
+bossbar remove bracken:fae_emperor
+bossbar remove bracken:kraken
 
 ##########   SCOREBOARDS    ###########
 function bracken:config/uninstall/remove_all_scoreboards
@@ -31,16 +34,16 @@ schedule clear bracken:10_seconds
 
 ##########   TEAMS   ##########
 execute as @a run function bracken:player/species/leave
-team remove Automech
-team remove Realmkeeper
-team remove Faefolk
-team remove Human
-team remove Dweller
-team remove Netherkin
-team remove Frostkin
-team remove Outlander
-team remove Enderling
-team remove Nereid
-team remove Villain
-team remove Hunter
+team remove bp.Automech
+team remove bp.Realmkeeper
+team remove bp.Faefolk
+team remove bp.Human
+team remove bp.Dweller
+team remove bp.Netherkin
+team remove bp.Frostkin
+team remove bp.Outlander
+team remove bp.Enderling
+team remove bp.Nereid
+team remove bp.Villain
+team remove bp.Hunter
 

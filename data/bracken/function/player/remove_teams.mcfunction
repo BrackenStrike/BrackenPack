@@ -3,15 +3,15 @@
 # Creators: Grandmaster
 ##########################################################
 
-team remove Automech
-team remove Realmkeeper
-team remove Faefolk
-team remove Human
-team remove Dweller
-team remove Netherkin
-team remove Frostkin
-team remove Outlander
-team remove Enderling
-team remove Nereid
-team remove Villain
-team remove Hunter
+team remove bp.Automech
+team remove bp.Realmkeeper
+team remove bp.Faefolk
+team remove bp.Human
+team remove bp.Dweller
+team remove bp.Netherkin
+team remove bp.Frostkin
+team remove bp.Outlander
+team remove bp.Enderling
+team remove bp.Nereid
+team remove bp.Villain
+team remove bp.Hunter

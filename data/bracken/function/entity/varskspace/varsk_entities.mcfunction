@@ -4,6 +4,7 @@
 ##########################################################
 
 
-execute at @n[type=silverfish,distance=..200] run summon lightning_bolt
-tp @n[type=silverfish,distance=..200] ~ -512 ~
+## Summon lightning
+execute as @n[type=silverfish,distance=..200] at @s run function bracken:entity/varskspace/summons/lightning
+
 

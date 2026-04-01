@@ -11,6 +11,8 @@ execute if entity @s[scores={bp.dimension=9}] at @s in bracken:the_underdark run
 
 execute if entity @s[scores={bp.dimension=..0}] at @s run tp @s ~0.5 ~1 ~0.5
 
+effect clear @s minecraft:slow_falling
+
 tag @s remove bp.execute
 tag @s remove bp.from_mansion_1
 tag @s remove bp.from_mansion_2

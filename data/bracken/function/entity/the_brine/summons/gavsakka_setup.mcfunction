@@ -1,2 +1,2 @@
 function bracken:entity/the_brine/summons/summon_gavsakka
-tp @s ~ -5120 ~
+tp @s ~ -512 ~

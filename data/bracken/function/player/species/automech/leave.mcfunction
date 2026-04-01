@@ -5,7 +5,7 @@
 
 tag @s remove bp.species
 tag @s remove bp.automech
-team leave @s[team=Automech]
+team leave @s[team=bp.Automech]
 
 attribute @s minecraft:scale modifier remove bracken:automech.scale
 attribute @s minecraft:armor modifier remove bracken:automech.armor

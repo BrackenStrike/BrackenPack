@@ -19,7 +19,7 @@ effect give @s[scores={bp.10_second=3}] minecraft:regeneration 2 0 true
 execute if entity @s[predicate=bracken:quicksand] run function bracken:dimension/commands/other/quicksand
 
 # Dimension Travel
-execute if data storage bracken:config {dimension_travel:true} if score @s bp.creeper matches 1 if entity @e[type=minecraft:creeper,distance=..1] run function bracken:dimension/crossing/panacea_to_overworld
+execute if score @s bp.creeper matches 1 if data storage bracken:config {dimension_travel:true} if entity @e[type=minecraft:creeper,distance=..1] run function bracken:dimension/crossing/panacea_to_overworld
 execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel:true} if entity @s[y=-35,dy=-300] in bracken:void run tp @s ~ 240 ~
 
 #return

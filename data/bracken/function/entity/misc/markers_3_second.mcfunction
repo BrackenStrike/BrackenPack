@@ -3,18 +3,21 @@
 # Creators: Grandmaster and Bracken
 ##########################################################
 
-##########   DORMIS THRALL BASE CLEAR DEBRIS   ##########
-execute if entity @s[tag=bp.thrall] run function bracken:entity/misc/clear_debris
-
-##########   DISRUPTOR BOSS SUMMON   ##########
-execute if entity @s[tag=bp.disruptor_boss] run function bracken:entity/misc/disruptor_summon
-
-##########   GLACIUM VICEROY THAW AND SUMMON  ##########
-execute if entity @s[tag=bp.viceroy] if entity @p[distance=..7] run function bracken:entity/glacium/glacium_viceroy_base_thaw
+##########   OMNIDROME SPAWN PLATFORM   ###########
+execute if entity @s[tag=bp.dimension_marker] if block ~ ~-1 ~ air run return run function bracken:dimension/crossing/spawn_platforms/remove_spawn_platform
 
 ##########   DORMIS SPAWN PLATFORM   ##########
-execute if entity @s[tag=bp.dormis_platform_remove] if block ~ ~ ~ air run kill @s
-execute if entity @s[tag=bp.dormis_spawn_platform] if block ~ ~-1 ~ air run function bracken:dimension/crossing/spawn_platforms/remove_spawn_platform
+execute if entity @s[tag=bp.dormis_spawn_platform] if block ~ ~-1 ~ air run return run function bracken:dimension/crossing/spawn_platforms/remove_spawn_platform
+
+##########   DISRUPTOR BOSS SUMMON   ##########
+execute if entity @s[tag=bp.disruptor_boss] run return run function bracken:entity/misc/disruptor_summon
+
+##########   GLACIUM VICEROY THAW AND SUMMON  ##########
+execute if entity @s[tag=bp.viceroy] if entity @p[distance=..7] run return run function bracken:entity/glacium/glacium_viceroy_base_thaw
+
+##########   DORMIS THRALL BASE CLEAR DEBRIS   ##########
+execute if entity @s[tag=bp.thrall] run return run function bracken:entity/misc/clear_debris
 
 ##########   PAX PORTAL SETUP   ##########
-execute if entity @s[tag=bp.pax_portal_redstone_block] run function bracken:entity/misc/portal_setup
+execute if entity @s[tag=bp.pax_portal_redstone_block] run return run function bracken:entity/misc/portal_setup
+
