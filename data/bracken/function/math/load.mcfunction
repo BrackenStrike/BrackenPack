@@ -17,6 +17,10 @@ scoreboard players set #9 bp.math.final 9
 scoreboard players set #10 bp.math.final 10
 
 # powers of 2, used for omnidrome permissions system
+scoreboard players set #1 bp.math.var 1
+scoreboard players set #2 bp.math.var 2
+scoreboard players set #4 bp.math.var 4
+scoreboard players set #8 bp.math.var 8
 scoreboard players set #16 bp.math.var 16
 scoreboard players set #32 bp.math.var 32
 scoreboard players set #64 bp.math.var 64

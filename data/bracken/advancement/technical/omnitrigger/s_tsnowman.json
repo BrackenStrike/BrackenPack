@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:player/omnitrigger/s_tsnowman"
+		"function": "bracken:player/omni_powers/trigger_commands/unlock/s_tsnowman"
 	}
 }

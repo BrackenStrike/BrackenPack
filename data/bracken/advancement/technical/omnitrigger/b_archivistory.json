@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:player/omnitrigger/b_archivistory"
+		"function": "bracken:player/omni_powers/trigger_commands/unlock/b_archivistory"
 	}
 }

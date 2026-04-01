@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:player/omnitrigger/s_tmount"
+		"function": "bracken:player/omni_powers/trigger_commands/unlock/s_tmount"
 	}
 }

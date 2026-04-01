@@ -3,7 +3,6 @@
 # Creators: Grandmaster, Conure
 ##########################################################
 
-scoreboard players set @s _OMNI.POWER.tetra_slime 1
 execute if entity @s[level=12..] run return run function bracken:item/ability_books/tetra_slime/tetra_slime
 
 tellraw @s {"translate":"You do not have enough levels to use this book."}

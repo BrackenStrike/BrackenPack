@@ -25,7 +25,7 @@ execute if entity @s[y=280,dy=100] run tp @s ~ -38 ~
 # Mansion Spell Book
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_books/mansion/tp_from_mansion/tp_back_setup
 
-execute if score @s OMNI.COMMAND matches 1..51 run function bracken:dimension/commands/omni_powers/route
+execute if score @s OMNI.COMMAND matches 1..51 run function bracken:player/omni_powers/route
 
 #return
 return 1

@@ -3,7 +3,6 @@
 # Creators: Grandmaster, Conure
 ##########################################################
 
-scoreboard players set @s _OMNI.POWER.fang_attack 1
 execute if entity @s[level=2..] run return run function bracken:item/ability_books/fang_attack/fang_attack
 
 tellraw @s {"translate":"You do not have enough levels to use this book."}

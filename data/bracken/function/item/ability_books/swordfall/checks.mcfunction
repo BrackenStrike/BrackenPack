@@ -3,7 +3,6 @@
 # Creators: Grandmaster, Conure
 ##########################################################
 
-scoreboard players set @s _OMNI.POWER.swordfall 1
 execute if data storage bracken:config {ability_books_on: true} if entity @s[level=12..,scores={bp.giant=..4}] run return run function bracken:item/ability_books/swordfall/swordfall
 
 

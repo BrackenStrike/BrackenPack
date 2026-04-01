@@ -27,10 +27,6 @@ execute unless data storage bracken:config {portal_keys_on: false} run data merg
 ##########   VARSKSTORM   ##########
 data merge storage bracken:var {varskstorm:{stage:0}}
 
-##########   OMNI TRIGGERS   ###########
-function bracken:dimension/commands/omni_powers/trigger_commands/add_book_commands
-function bracken:dimension/commands/omni_powers/trigger_commands/add_other_commands
-
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule command_block_output false
 gamerule command_blocks_work true
