@@ -4,6 +4,6 @@
 ##########################################################
 
 
-function bracken:player/omni_powers/perms/set/construct
-function bracken:player/omni_powers/perms/set/lightning
-function bracken:player/omni_powers/perms/set/pulse
+function bracken:player/omni_powers/perms/set/summon_construct
+function bracken:player/omni_powers/perms/set/summon_lightning
+function bracken:player/omni_powers/perms/set/summon_pulse
