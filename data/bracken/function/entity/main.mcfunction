@@ -43,6 +43,6 @@ execute if entity @s[tag=bp.mimic_settle] run return run function bracken:entity
 ##########   TRAMPLED ENTITIES
 execute if score @s bp.trample_cd matches ..0 run tag @s[tag=bp.trampled] remove bp.entity
 execute if score @s bp.trample_cd matches ..0 run return run tag @s[tag=bp.trampled] remove bp.trampled
-execute if score @s bp.trample_cd matches 1.. unless entity @e[distance=..2,type=horse] run scoreboard players remove @s bp.trample_cd 1
+execute if score @s bp.trample_cd matches 1.. unless entity @e[distance=..2,type=horse] run return run scoreboard players remove @s bp.trample_cd 1
 
 say This entity should not have the bp.entity tag

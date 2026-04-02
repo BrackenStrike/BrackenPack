@@ -67,7 +67,6 @@ scoreboard objectives add bp.greed_kills totalKillCount
 
 ##########   SPECIES  ##########
 scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
-scoreboard objectives add bp.dimension_check dummy
 
 # Hunters
 scoreboard objectives add bp.hunter_morph dummy
@@ -83,6 +82,7 @@ execute unless data storage bracken:config {teams_on: false} run data merge stor
 execute unless data storage bracken:config {dimension_travel: false} run data merge storage bracken:config {dimension_travel: true}
 execute unless data storage bracken:config {species_on: false} run data merge storage bracken:config {species_on: true}
 execute unless data storage bracken:config {bsb_on: false} run data merge storage bracken:config {bsb_on: true}
+execute unless data storage bracken:config {dialog_dim_selection: false} run data merge storage bracken:config {dialog_dim_selection: true}
 execute unless data storage bracken:config {ability_books_on: false} run data merge storage bracken:config {ability_books_on: true}
 execute unless data storage bracken:config {portal_keys_on: false} run data merge storage bracken:config {portal_keys_on: true}
 
@@ -151,43 +151,34 @@ function bracken:dimension/commands/omni_powers/trigger_commands/add_book_comman
 function bracken:dimension/commands/omni_powers/trigger_commands/add_other_commands
 
 ##########   SPECIES BOOKS   ##########
-scoreboard objectives add bp.automech trigger
-scoreboard objectives add bp.frostkin trigger
-scoreboard objectives add bp.faefolk trigger
-scoreboard objectives add bp.human trigger
-scoreboard objectives add bp.hunter trigger
-scoreboard objectives add bp.dweller trigger
-scoreboard objectives add bp.enderling trigger
-scoreboard objectives add bp.nereid trigger
-scoreboard objectives add bp.netherkin trigger
-scoreboard objectives add bp.outlander trigger
-scoreboard objectives add bp.realmkeeper trigger
-scoreboard objectives add bp.villain trigger
+scoreboard objectives add bp.species_selected trigger
+scoreboard objectives add bp.dimension_selected trigger
 
-scoreboard objectives add bp.automech_ trigger
-scoreboard objectives add bp.frostkin_ trigger
-scoreboard objectives add bp.faefolk_ trigger
-scoreboard objectives add bp.human_ trigger
-scoreboard objectives add bp.hunter_ trigger
-scoreboard objectives add bp.dweller_ trigger
-scoreboard objectives add bp.enderling_ trigger
-scoreboard objectives add bp.nereid_ trigger
-scoreboard objectives add bp.netherkin_ trigger
-scoreboard objectives add bp.outlander_ trigger
-scoreboard objectives add bp.realmkeeper_ trigger
-scoreboard objectives add bp.villain_ trigger
+# 1 / 101 - Automech
+# 2 / 102 - Frostkin
+# 3 / 103 - Faefolk
+# 4 / 104 - Human
+# 5 / 105 - Hunter
+# 6 / 106 - Dweller
+# 7 / 107 - Enderling
+# 8 / 108 - Nereid
+# 9 / 109 - Netherkin
+# 10 / 110 - Outlander
+# 11 / 111 - Realmkeeper
+# 12 / 112 - Villain
 
-scoreboard objectives add bp.omnidrome trigger
-scoreboard objectives add bp.glacium trigger
-scoreboard objectives add bp.faewild trigger
-scoreboard objectives add bp.panacea trigger
-scoreboard objectives add bp.underdark trigger
-scoreboard objectives add bp.end trigger
-scoreboard objectives add bp.brine trigger
-scoreboard objectives add bp.nether trigger
-scoreboard objectives add bp.sanctum trigger
-scoreboard objectives add bp.paxtravel trigger
-scoreboard objectives add bp.dormis trigger
+# 1 - Omnidrome
+# 2 - Glacium
+# 3 - Faewild
+# 4 - Panacea
+# 5 - Underdark
+# 6 - End
+# 7 - Brine
+# 8 - Nether
+# 9 - Sanctum
+# 10 - Pax
+# 11 - Dormis
+
 
 ##########   GAMERULE COMMANDBLOCK OUTPUT FALSE   ##########
 gamerule command_block_output false

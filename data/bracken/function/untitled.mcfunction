@@ -12,3 +12,6 @@
 
 #All good. This text is just an easter egg.
 # - Bracken
+
+# If we aren't using this function for anything can we remove it then?
+# - Grandmaster

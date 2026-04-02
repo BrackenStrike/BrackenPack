@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Where do you want to go?",
+  "can_close_with_escape": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item":{
+        "id":"minecraft:carved_pumpkin",
+        "count":1,
+        "components":{
+          "minecraft:enchantment_glint_override":false,
+          "minecraft:item_model": "bracken:shadows/playernereid"
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Do you wish to stay in the Overworld dimension or try out the Pax dimension?"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Heads up. Pax has no hostile mobs or ores."
+    }
+  ],
+  "actions": [
+    {
+      "label": "Overworld (Challenge Lvl 1)",
+      "tooltip":"The usual Minecraft beginning",
+        "action": {
+          "type": "run_command",
+          "command": "trigger bp.species_selected set 111"
+      }
+    },
+    {
+      "label": "Pax (Challenge Lvl 0)",
+      "tooltip":"A more \"peaceful\" beginning",
+        "action": {
+          "type": "run_command",
+          "command": "trigger bp.dimension_selected set 10"
+      }
+    },
+    {
+      "label": "No, take me back",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:with_dim/species"
+      }
+    }
+  ]
+  
+}

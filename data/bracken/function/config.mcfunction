@@ -12,6 +12,8 @@
 #
 # - Enable/Disable Beginner Dialog Selection: If disabled the dialog selection that shows for new players will no longer activate.
 #
+# - Enable/Disable Dialog Dimension Selection: If disabled the dialog selection that shows for new players will no longer allow starting in other dimensions.
+#
 # - Enable/Disable Ability Books: If disabled all Ability Books will no longer activate their effects and a unique message will be
 #       displayed if an attempt is made to use them. This does not affect the Beginner Species Book nor the Book of Arbitrium. It will
 #       still be possible to obtain Ability Books from loot tables.
@@ -35,6 +37,9 @@ tellraw @s ["",{"text":"[Enable]","color":"green","click_event":{"action":"run_c
 
 tellraw @s ["",{"text":"* Beginner Dialog Selection","hover_event":{"action":"show_text", "value":[{"text":"Enable/Disable Beginner Dialog Selection: \nIf disabled the dialog selection that shows for new players will no longer activate."}]}}]
 tellraw @s ["",{"text":"[Enable]","color":"green","click_event":{"action":"run_command","command":"/function bracken:config/enable_bsb"}},{"text":" "},{"text":"[Disable]","color":"red","click_event":{"action":"run_command","command":"/function bracken:config/disable_bsb"}}]
+
+tellraw @s ["",{"text":"* Dialog Dimension Selection","hover_event":{"action":"show_text", "value":[{"text":"Enable/Disable Dialog Dimension Selection: \nIf disabled the dialog selection that shows for new players will no longer allow starting in other dimensions."}]}}]
+tellraw @s ["",{"text":"[Enable]","color":"green","click_event":{"action":"run_command","command":"/function bracken:config/enable_dds"}},{"text":" "},{"text":"[Disable]","color":"red","click_event":{"action":"run_command","command":"/function bracken:config/disable_dds"}}]
 
 tellraw @s ["",{"text":"* Ability Books","hover_event":{"action":"show_text", "value":[{"text":"Enable/Disable Ability Books: \nIf disabled all Ability Books will no longer activate their effects and a unique message will be displayed if an attempt is made to use them. This does not affect the Beginner Species Book nor the Book of Arbitrium. It will still be possible to obtain Ability Books from loot tables."}]}}]
 tellraw @s ["",{"text":"[Enable]","color":"green","click_event":{"action":"run_command","command":"/function bracken:config/enable_ability_books"}},{"text":" "},{"text":"[Disable]","color":"red","click_event":{"action":"run_command","command":"/function bracken:config/disable_ability_books"}}]
