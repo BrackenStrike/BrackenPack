@@ -63,7 +63,7 @@
 				"enchantments": {
 					"bracken:mortality": 1,
 					"minecraft:mending": 1,
-					"bracken:decaying_fix": 1
+					"bracken:decaying": 1
 				},
 				"add": false
 			}]

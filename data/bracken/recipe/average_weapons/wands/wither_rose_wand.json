@@ -10,7 +10,7 @@
 		"components": {
 			
             "minecraft:enchantments": {
-				"bracken:withering_fix": 1
+				"bracken:withering": 1
 			  },
 			"minecraft:item_name": "Wither Rose Wand",
 			"minecraft:item_model": "bracken:average_weapons/wands/wither_wand",

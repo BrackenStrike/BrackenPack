@@ -137,7 +137,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					
-					"bracken:decaying_fix": 1
+					"bracken:decaying": 1
 				},
 				"add": false
 			}]

@@ -14,7 +14,7 @@
 		"components": {
 			"minecraft:item_name": "Silversteel Ingot",
 			"minecraft:enchantments": {
-				"bracken:silvered_fix": 1,"bracken:cleansing_fix": 1
+				"bracken:silvered": 1,"bracken:cleansing": 1
 				},
 			"minecraft:entity_data": {
 				"id": "minecraft:player"

@@ -10,7 +10,7 @@
 		"components": {
 			
             "minecraft:enchantments": {
-				"bracken:banishment_fix": 1
+				"bracken:banishment": 1
 			  },
 			"minecraft:item_name": "Wanderlight Wand",
 			"minecraft:item_model": "bracken:average_weapons/wands/wanderlight_wand",

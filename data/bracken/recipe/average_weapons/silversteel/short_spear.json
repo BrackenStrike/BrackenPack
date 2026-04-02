@@ -15,7 +15,7 @@
 		"components": {
 			"minecraft:max_damage": 59,
 			"minecraft:enchantments": {
-				"bracken:silvered_fix": 1,"bracken:cleansing_fix": 1
+				"bracken:silvered": 1,"bracken:cleansing": 1
 				},
 			"minecraft:enchantment_glint_override": false,
 			"minecraft:item_name": "Silversteel Short Spear",
