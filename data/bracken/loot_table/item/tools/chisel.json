@@ -17,7 +17,7 @@
 			},{
 				"function": "set_enchantments",
 				"enchantments": {
-					"bracken:chiseling_fix": 1
+					"bracken:chiseling": 1
 				}
 			},{
 				"function": "set_damage",

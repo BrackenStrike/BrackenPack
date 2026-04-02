@@ -11,7 +11,7 @@
 			"minecraft:item_name": "Silversteel Hoe",
 			"minecraft:item_model": "bracken:average_weapons/silversteel/hoe",
 			"minecraft:enchantments": {
-				"bracken:silvered_fix": 1,"bracken:cleansing_fix": 1
+				"bracken:silvered": 1,"bracken:cleansing": 1
 				},
 			"minecraft:lore": [
 				{"translate":"","color":"white","italic":false},

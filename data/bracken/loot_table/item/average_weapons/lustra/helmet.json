@@ -11,7 +11,7 @@
 			},{
 				"function": "set_enchantments",
 				"enchantments": {
-					"bracken:integrity_fix": 1
+					"bracken:integrity": 1
 				}
 			},{
 				"function": "minecraft:set_attributes",

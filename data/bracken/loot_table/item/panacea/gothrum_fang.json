@@ -21,7 +21,7 @@
 		},{
 			"function": "set_enchantments",
 			"enchantments": {
-				"bracken:poisoning_fix": 1
+				"bracken:poisoning": 1
 			}
 		},{
 			"function": "minecraft:set_components",
