@@ -21,7 +21,7 @@
 			},
 			"minecraft:item_model": "bracken:the_faewild/mim_silk_leggings",
 			"minecraft:enchantments": {
-				"bracken:astuteness_fix": 1
+				"bracken:astuteness": 1
 			}
 		}
 	}
