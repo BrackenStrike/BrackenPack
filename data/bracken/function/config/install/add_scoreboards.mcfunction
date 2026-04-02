@@ -66,7 +66,7 @@ scoreboard objectives add OMNI.PERMISSIONS_OTHER dummy {text: "DO NOT CHANGE THI
 
 # Varskstorm
 scoreboard objectives add bp.varskstorm dummy
-scoreboard players set #cooldown bp.varskstorm 0
+scoreboard players set #lightning_cd bp.varskstorm 0
 scoreboard players set #repeat bp.varskstorm 0
 
 # Pax Portal
