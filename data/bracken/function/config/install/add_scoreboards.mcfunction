@@ -125,18 +125,6 @@ scoreboard objectives add bp.dimension_selected trigger
 # 10 - Pax
 # 11 - Dormis
 
-# Dimensions
-scoreboard objectives add bp.omnidrome trigger
-scoreboard objectives add bp.glacium trigger
-scoreboard objectives add bp.faewild trigger
-scoreboard objectives add bp.panacea trigger
-scoreboard objectives add bp.underdark trigger
-scoreboard objectives add bp.end trigger
-scoreboard objectives add bp.brine trigger
-scoreboard objectives add bp.nether trigger
-scoreboard objectives add bp.sanctum trigger
-scoreboard objectives add bp.paxtravel trigger
-scoreboard objectives add bp.dormis trigger
 
 # Player values
 scoreboard players set @a bp.sprintcharge 0
