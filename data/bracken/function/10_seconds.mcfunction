@@ -13,8 +13,4 @@ execute in bracken:void run forceload add 0 0
 # leave player species if species config option is disabled
 execute as @a if data storage bracken:config {species_on: false} run function bracken:player/species/leave
 
-# varskstorm cooldown
-execute if score #cooldown bp.varskstorm matches 1.. run scoreboard players remove #cooldown bp.varskstorm 1
-
-
 schedule function bracken:10_seconds 10s
