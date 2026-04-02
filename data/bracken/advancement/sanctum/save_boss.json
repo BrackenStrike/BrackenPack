@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:player/omni_powers/trigger_commands/unlock/k_ruination"
+		"function": "bracken:player/omni_powers/trigger_commands/unlock/k_ostiarius"
 	}
 }

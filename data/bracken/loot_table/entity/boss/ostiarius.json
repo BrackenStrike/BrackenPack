@@ -15,7 +15,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
-			"value": "bracken:item/sanctum/ruination_capsule"
+			"value": "bracken:item/sanctum/ostiarius_capsule"
 		}]
 	},{
 		"rolls": 1,
