@@ -7,7 +7,7 @@
 execute as @e[type=armor_stand,tag=bp.fae_boss_trigger] at @s if entity @p[distance=..10] run function bracken:entity/boss/fae_emperor/summon
 
 ##########   NETHERITE GOLEM   ##########
-execute at @a[predicate=bracken:nonsneak] as @e[distance=..4,tag=bp.netherite_golem,tag=!bp.sgolem,type=minecraft:wither_skeleton] run data merge entity @s {Tags:["bp.sgolem","bp.netherite_golem"],NoAI:0b,Invulnerable:0b,DeathLootTable:"bracken:entity/sanctum/netherite_golem"}
+execute at @a[predicate=bracken:nonsneak] as @e[type=minecraft:wither_skeleton,distance=..4,tag=bp.netherite_golem,tag=!bp.sgolem] run data merge entity @s {Tags:["bp.sgolem","bp.netherite_golem"],NoAI:0b,Invulnerable:0b,DeathLootTable:"bracken:entity/sanctum/netherite_golem"}
 
 ##########   MISCELANEOUS MARKERS   ##########
 execute as @e[type=marker] at @s run function bracken:entity/misc/markers_3_second

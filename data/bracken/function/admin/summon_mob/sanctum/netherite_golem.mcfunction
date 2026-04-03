@@ -1,0 +1,1 @@
+function bracken:entity/sanctum/summons/netherite_golem

@@ -53,7 +53,8 @@
 						}],
 						"Tags": [
 							"bp.construct",
-							"bp.entity"
+							"bp.entity",
+							"bp.sanctum"
 						],
 						"CustomName": {"translate":"Construct","bold":true}
 					}
