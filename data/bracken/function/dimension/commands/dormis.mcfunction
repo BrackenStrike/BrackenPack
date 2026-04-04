@@ -13,7 +13,7 @@ execute if score @s bp.1_second matches 13 run function bracken:entity/dormis/do
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_books/mansion/tp_from_mansion/tp_back_setup
 
 #VOID TP
-execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel: true} if entity @s[y=-35,dy=-300] in bracken:void run tp @s ~ 240 ~
-execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel: true} if entity @s[y=-35,dy=-300] run advancement grant @s only bracken:dormis/void
+execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel: true} if entity @s[y=-35,dy=-300] run function bracken:dimension/crossing/dormis_to_void
+
 #return
 return 1
