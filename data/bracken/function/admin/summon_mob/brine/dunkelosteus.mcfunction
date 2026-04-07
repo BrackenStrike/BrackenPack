@@ -1,2 +1,2 @@
 function bracken:entity/the_brine/summons/summon_dunkleosteus
-execute as @e[type=drowned,tag=bp.dunkelosteus,distance=..20] run data modify entity @s NoAI set value 0
+execute as @e[tag=bp.dunkelosteus,distance=..20,type=drowned] run data modify entity @s NoAI set value 0b
