@@ -34,6 +34,9 @@ gamerule command_blocks_work true
 ##########   ADD TEAMS   ##########
 execute if data storage bracken:config {teams_on: true} run function bracken:player/add_teams
 
+##########   WELCOME TEXT   ##########
+execute unless data storage bracken:var {welcome: true} run data merge storage bracken:var {welcome: false}
+
 ##########   START TICK FUNCTIONS   ###########
 function bracken:3_seconds
 function bracken:10_seconds

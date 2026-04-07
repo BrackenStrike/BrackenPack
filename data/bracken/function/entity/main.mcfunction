@@ -34,7 +34,7 @@ execute if entity @s[type=minecraft:armor_stand,tag=bp.stand] run return run fun
 execute if entity @s[tag=bp.varsk_lightning] run return run function bracken:entity/varskspace/varsk_lightning
 
 ## MIMIC WAKE/SETTLE
-execute if entity @s[tag=bp.mimic_wake] if entity @p[distance=..3,predicate=bracken:survival_like] run return run function bracken:entity/misc/mimic/mimic_wake
+execute if entity @s[tag=bp.mimic_wake] run return run execute if entity @p[distance=..3,predicate=bracken:survival_like] run function bracken:entity/misc/mimic/mimic_wake
 execute if entity @s[tag=bp.mimic_settle] run return run function bracken:entity/misc/mimic/mimic_settle
 
 ##########   TRAMPLED ENTITIES

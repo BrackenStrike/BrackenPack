@@ -16,5 +16,3 @@ execute if data storage bracken:config {species_on: true} if data storage bracke
 function bracken:player/set_player_id
 
 advancement grant @s only bracken:technical/dimension_travel/enter/overworld
-
-#tellraw @s [{"translate":"Use \"/function bracken:config\" to configure settings for the Bracken Pack","color":"yellow"}]
