@@ -3,7 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-execute in bracken:the_brine run tp @s ~ 520 ~
-#execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air
-effect give @s slow_falling 10 2 false
+execute in bracken:the_brine unless entity @n[type=marker,tag=bp.brine_spawn_portal,distance=..1000] at @s run function bracken:dimension/crossing/spawn_platforms/find_brine_portal
+execute in bracken:the_brine run tp @s @n[type=marker,tag=bp.brine_spawn_portal,distance=..1000]
+scoreboard players set @s bp.conduit 0
 advancement grant @s only bracken:bri

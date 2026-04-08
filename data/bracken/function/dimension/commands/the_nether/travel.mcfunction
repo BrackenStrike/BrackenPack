@@ -1,3 +1,7 @@
+##########################################################
+# Description: Handling for travel and traveling effects for the nether
+# Creators: Grandmaster and Bracken
+##########################################################
 
 # Travel to underdark
 execute if entity @s[y=285,dy=100] run function bracken:dimension/crossing/nether_to_underdark

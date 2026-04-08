@@ -9,6 +9,9 @@ execute if entity @s[tag=bp.dimension_marker] if block ~ ~-1 ~ air run return ru
 ##########   DORMIS SPAWN PLATFORM   ##########
 execute if entity @s[tag=bp.dormis_spawn_platform] if block ~ ~-1 ~ air run return run function bracken:dimension/crossing/spawn_platforms/remove_spawn_platform
 
+##########   DORMIS SPAWN PLATFORM   ##########
+execute if entity @s[tag=bp.brine_spawn_portal] unless block ~ ~ ~ conduit run return run function bracken:dimension/crossing/spawn_platforms/remove_spawn_platform
+
 ##########   DISRUPTOR BOSS SUMMON   ##########
 execute if entity @s[tag=bp.disruptor_boss] run return run function bracken:entity/misc/disruptor_summon
 
