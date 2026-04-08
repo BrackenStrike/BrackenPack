@@ -1,0 +1,13 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:potion"
+		}],
+		"functions": [{
+			"function": "minecraft:set_components",
+			"components": {"minecraft:custom_name":"Potion of Nausea","minecraft:potion_contents":{"custom_color":6758078,"custom_effects":[{"duration":400,"id":"nausea"}]},"minecraft:custom_data":{"bp.potion":107,"bp":[{"id":"custom_potion"},{"closed_path":"enhance"}]}}
+		}]
+	}]
+}

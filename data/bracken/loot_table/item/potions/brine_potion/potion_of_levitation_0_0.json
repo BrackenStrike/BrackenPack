@@ -1,0 +1,13 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:potion"
+		}],
+		"functions": [{
+			"function": "minecraft:set_components",
+			"components": {"minecraft:custom_name":"Potion of Levitation","minecraft:potion_contents":{"custom_color":13758447,"custom_effects":[{"duration":200,"id":"levitation","amplifier":0}]},"minecraft:custom_data":{"bp.potion":106,"bp":[{"id":"custom_potion"}]}}
+		}]
+	}]
+}
