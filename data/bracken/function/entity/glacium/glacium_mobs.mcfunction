@@ -4,6 +4,7 @@
 ##########################################################
 
 ## Frostmount
+execute as @n[type=camel_husk,distance=..100] run tp @s ~ -512 ~
 execute as @n[type=husk,distance=..100] at @s run function bracken:entity/glacium/summons/frostmount_setup
 
 ## Snowman

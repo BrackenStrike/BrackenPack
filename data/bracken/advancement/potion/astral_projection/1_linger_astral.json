@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"lingering": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "source": {
+                    "type": "minecraft:area_effect_cloud",
+                    "predicates": {
+						"minecraft:custom_data": "{bp.potion:102b, bp:[{astral:1b}]}"
+					}
+                }
+            }
+        }
+	},
+	"rewards": {
+		"function": "bracken:player/potion/astral_projection/1_linger_astral"
+	}
+}

@@ -4,7 +4,8 @@
 ##########################################################
 
 # Effects
-effect give @s[scores={bp.food=..18}] minecraft:saturation 1 0 true
+effect give @s[scores={bp.1_second=15,bp.food=..18}] minecraft:saturation 2 0 true
+effect give @s[scores={bp.1_second=8}] minecraft:resistance 2 20 false
 
 execute if predicate bracken:in_water run function bracken:dimension/commands/other/pax_waters
 

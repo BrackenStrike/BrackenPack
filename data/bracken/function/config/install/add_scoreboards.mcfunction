@@ -32,6 +32,10 @@ scoreboard objectives add bp.gothrum_fang dummy
 scoreboard objectives add bp.creeper_horn dummy
 scoreboard objectives add bp.elytra_dive dummy
 scoreboard objectives add bp.frost_spite_death deathCount
+scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
+scoreboard objectives add bp.hunter_morph dummy
+scoreboard objectives add bp.outlander_charge dummy
+scoreboard objectives add bp.absorption dummy
 
 # Custom potion effects
 scoreboard objectives add bp.astral_time dummy
@@ -39,11 +43,7 @@ scoreboard objectives add bp.pre_astral_gamemode dummy
 scoreboard objectives add bp.greed_duration dummy
 scoreboard objectives add bp.greed_amplifier dummy
 scoreboard objectives add bp.greed_kills totalKillCount
-scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
-scoreboard objectives add bp.dimension_check dummy
-scoreboard objectives add bp.hunter_morph dummy
-scoreboard objectives add bp.outlander_charge dummy
-scoreboard objectives add bp.absorption dummy
+
 
 # Technical
 scoreboard objectives add bp.xchunk dummy

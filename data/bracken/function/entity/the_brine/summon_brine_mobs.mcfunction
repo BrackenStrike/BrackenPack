@@ -15,7 +15,6 @@ execute as @n[type=marker,tag=bp.worm] at @s run function bracken:entity/the_bri
 #dunkleosteus
 execute as @n[type=marker,tag=bp.dunkleosteus] at @s run function bracken:entity/the_brine/summons/dunkleosteus_marker
 
-
 #jellyfish
 data merge entity @n[type=drowned,tag=!bp.aquatic,distance=..100] {active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:speed",amplifier:1b,duration:5b,show_particles:0b}],Tags:[bp.aquatic,bp.jellyfish,bp.entity,bp.the_brine],Silent:1b,DeathLootTable:"bracken:entity/the_brine/jellyfish",CanPickUpLoot:0b,equipment:{mainhand:{id:"minecraft:air"},offhand:{id:"minecraft:air"},head:{id:"minecraft:bamboo",count:1b,components:{"minecraft:item_model":"bracken:shadows/jellyfish","minecraft:enchantments":{"minecraft:thorns":3,"minecraft:knockback":10,"minecraft:vanishing_curse":1}}}},drop_chances:{head:0f,chest:0f,legs:0f,feet:0f},attributes:[{id:max_health,base:10},{id:movement_speed,base:0.1}]}
 

@@ -3,9 +3,9 @@
 # Creators: Grandmaster
 ##########################################################
 
-advancement revoke @s only bracken:potion/astral_projection/1_astral
+advancement revoke @s only bracken:potion/astral_projection/1_linger_astral
 
 execute if entity @s[tag=bp.astral_cooldown] run return 1
 
-scoreboard players set @s bp.astral_time 20
+scoreboard players set @s bp.astral_time 5
 function bracken:player/potion/astral_projection/effect_start
