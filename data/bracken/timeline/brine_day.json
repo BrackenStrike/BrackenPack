@@ -54,7 +54,8 @@
       "keyframes": [
         {
           "ticks": 1050,
-          "value}
+          "value": false
+        }
       ]
     },
     
