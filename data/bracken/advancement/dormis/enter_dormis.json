@@ -26,5 +26,8 @@
 				"to": "bracken:dormis"
 			}
 		}
+	},
+	"rewards": {
+		"function": "bracken:dimension/travel/enter/dormis"
 	}
 }

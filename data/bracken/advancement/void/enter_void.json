@@ -23,5 +23,8 @@
 				"to": "bracken:void"
 			}
 		}
+	},
+	"rewards": {
+		"function": "bracken:dimension/travel/enter/void"
 	}
 }

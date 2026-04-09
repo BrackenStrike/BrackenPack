@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"experience": 2
+		"function": "bracken:dimension/travel/enter/sanctum"
 	}
 }

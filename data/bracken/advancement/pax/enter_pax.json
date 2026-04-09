@@ -26,5 +26,8 @@
 				"to": "bracken:pax"
 			}
 		}
+	},
+	"rewards": {
+		"function": "bracken:dimension/travel/enter/pax"
 	}
 }

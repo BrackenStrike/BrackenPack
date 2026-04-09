@@ -27,5 +27,8 @@
 				"to": "bracken:omnidrome"
 			}
 		}
+	},
+	"rewards": {
+		"function": "bracken:dimension/travel/enter/omnidrome"
 	}
 }

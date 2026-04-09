@@ -27,5 +27,8 @@
 				"to": "bracken:glacium"
 			}
 		}
+	},
+	"rewards": {
+		"function": "bracken:dimension/travel/enter/glacium"
 	}
 }
