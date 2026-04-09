@@ -50,6 +50,14 @@
         }
       ]
     },
+    "minecraft:gameplay/piglins_zombify": {
+      "keyframes": [
+        {
+          "ticks": 1050,
+          "value}
+      ]
+    },
+    
     "minecraft:visual/sky_color": {
       "keyframes": [
         {
