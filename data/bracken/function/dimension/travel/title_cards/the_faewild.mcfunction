@@ -4,3 +4,4 @@
 ##########################################################
 
 title @s title ["~ ",{"text":"The Faewild","bold":true,"color":"dark_aqua"}," ~"]
+title @s subtitle [{"text":"the enchanting forests","bold":true,"color":"gray"}]

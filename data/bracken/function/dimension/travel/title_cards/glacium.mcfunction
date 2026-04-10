@@ -4,3 +4,4 @@
 ##########################################################
 
 title @s title ["~ ",{"text":"Glacium","bold":true,"color":"aqua"}," ~"]
+title @s subtitle [{"text":"the frozen realm","bold":true,"color":"gray"}]

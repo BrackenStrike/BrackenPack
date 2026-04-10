@@ -4,3 +4,4 @@
 ##########################################################
 
 title @s title ["~ ",{"text":"Pax","bold":true,"color":"white"}," ~"]
+title @s subtitle [{"text":"the heavenly summit","bold":true,"color":"gray"}]

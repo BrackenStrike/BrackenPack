@@ -4,3 +4,4 @@
 ##########################################################
 
 title @s title ["~ ",{"text":"The Brine","bold":true,"color":"dark_blue"}," ~"]
+title @s subtitle [{"text":"the endless tide","bold":true,"color":"gray"}]

@@ -4,3 +4,4 @@
 ##########################################################
 
 title @s title ["~ ",{"text":"Panacea","bold":true,"color":"dark_green"}," ~"]
+title @s subtitle [{"text":"the encroaching overgrowth","bold":true,"color":"gray"}]
