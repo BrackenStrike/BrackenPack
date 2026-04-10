@@ -5,7 +5,7 @@
 			"translate": "Middle-Era Watchtower"
 		},
 		"description": {
-			"translate": "Get slowness from a frozen watchtower",
+			"translate": "Visit a frozen watchtower",
 			"color": "green"
 		},
 		"icon": {
@@ -17,21 +17,18 @@
 		"hidden": false
 	},
 	"criteria": {
-		"bracken:glacium/fatigue1": {
-			"trigger": "minecraft:effects_changed",
+		"bracken:glacium/watchtower": {
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
 					"location": {
-						"dimension": "bracken:glacium"
+						"structures": "bracken:glacium_watchtower"
 					}
-				},
-				"effects": {
-					"minecraft:slowness": {}
 				}
 			}
 		}
 	},
 	"requirements": [[
-		"bracken:glacium/fatigue1"
+		"bracken:glacium/watchtower"
 	]]
 }
