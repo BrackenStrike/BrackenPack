@@ -16,3 +16,5 @@ effect clear @s[predicate=bracken:in_water] minecraft:wither
 
 function bracken:dimension/travel/remove_dim_tags
 tag @s add bp.dim_pax
+
+execute if entity @s[tag=bp.dim_title_queue] unless score @s bp.dim_title_queue matches 10 run tag @s remove bp.dim_title_queue

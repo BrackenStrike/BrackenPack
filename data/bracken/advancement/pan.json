@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension/travel/enter/panacea"
+		"experience": 2
 	}
 }

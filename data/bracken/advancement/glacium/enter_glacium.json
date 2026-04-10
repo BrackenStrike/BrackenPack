@@ -29,6 +29,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension/travel/enter/glacium"
+		"function": "bracken:dimension/travel/queue_title_cards/glacium"
 	}
 }

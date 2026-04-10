@@ -102,6 +102,7 @@ scoreboard objectives remove bp.dimension_check
 scoreboard objectives remove bp.elytra_dive
 scoreboard objectives remove bp.paxtravel
 scoreboard objectives remove bp.trample_cd
+scoreboard objectives remove bp.dim_title_queue
 
 
 ##########   ITEMS AND EQUIPMENT   ##########

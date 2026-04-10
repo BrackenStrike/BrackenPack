@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension/travel/enter/pax"
+		"function": "bracken:dimension/travel/queue_title_cards/pax"
 	}
 }

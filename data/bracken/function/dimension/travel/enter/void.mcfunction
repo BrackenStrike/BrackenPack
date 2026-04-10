@@ -11,3 +11,5 @@ attribute @s minecraft:jump_strength modifier add bracken:void_jump 1 add_multip
 
 function bracken:dimension/travel/remove_dim_tags
 tag @s add bp.dim_void
+
+execute if entity @s[tag=bp.dim_title_queue] unless score @s bp.dim_title_queue matches 13 run tag @s remove bp.dim_title_queue

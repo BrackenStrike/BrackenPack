@@ -36,6 +36,7 @@ scoreboard objectives add bp.death minecraft.custom:minecraft.time_since_death
 scoreboard objectives add bp.hunter_morph dummy
 scoreboard objectives add bp.outlander_charge dummy
 scoreboard objectives add bp.absorption dummy
+scoreboard objectives add bp.dim_title_queue dummy
 
 # Custom potion effects
 scoreboard objectives add bp.astral_time dummy
@@ -125,6 +126,9 @@ scoreboard objectives add bp.dimension_selected trigger
 # 10 - Pax
 # 11 - Dormis
 
+# Unused
+# 12 - Varskspace
+# 13 - Void
 
 # Player values
 scoreboard players set @a bp.sprintcharge 0

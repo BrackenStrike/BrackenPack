@@ -29,6 +29,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension/travel/enter/omnidrome"
+		"function": "bracken:dimension/travel/queue_title_cards/omnidrome"
 	}
 }

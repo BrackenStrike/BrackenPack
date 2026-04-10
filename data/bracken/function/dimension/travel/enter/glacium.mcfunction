@@ -10,3 +10,5 @@ attribute @s minecraft:armor_toughness modifier add bracken:glacium_armortough -
 
 function bracken:dimension/travel/remove_dim_tags
 tag @s add bp.dim_glacium
+
+execute if entity @s[tag=bp.dim_title_queue] unless score @s bp.dim_title_queue matches 2 run tag @s remove bp.dim_title_queue

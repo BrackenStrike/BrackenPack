@@ -9,3 +9,5 @@ attribute @s minecraft:submerged_mining_speed modifier add bracken:brine_waterbr
 
 function bracken:dimension/travel/remove_dim_tags
 tag @s add bp.dim_brine
+
+execute if entity @s[tag=bp.dim_title_queue] unless score @s bp.dim_title_queue matches 7 run tag @s remove bp.dim_title_queue

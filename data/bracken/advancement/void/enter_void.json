@@ -25,6 +25,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension/travel/enter/void"
+		"function": "bracken:dimension/travel/queue_title_cards/void"
 	}
 }

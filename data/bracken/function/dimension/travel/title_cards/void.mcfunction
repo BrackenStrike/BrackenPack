@@ -3,5 +3,5 @@
 # Creators: Grandmaster
 ##########################################################
 
-title @s title ["~ ",{"text":"Void","bold":true,"color":"black"}," ~"]
+title @s title ["~ ",{"text":"Void","bold":true,"color":"dark_gray"}," ~"]
 title @s subtitle [{"text":"the abyss between worlds","bold":true,"color":"gray"}]

@@ -9,3 +9,5 @@ attribute @s[tag=bp.netherkin] minecraft:attack_damage modifier add bracken:neth
 
 function bracken:dimension/travel/remove_dim_tags
 tag @s add bp.dim_nether
+
+execute if entity @s[tag=bp.dim_title_queue] run tag @s remove bp.dim_title_queue

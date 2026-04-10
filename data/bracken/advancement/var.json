@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension/travel/enter/varskspace"
+		"experience": 2
 	}
 }

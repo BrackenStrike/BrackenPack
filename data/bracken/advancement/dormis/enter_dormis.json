@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension/travel/enter/dormis"
+		"function": "bracken:dimension/travel/queue_title_cards/dormis"
 	}
 }

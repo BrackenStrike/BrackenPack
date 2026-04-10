@@ -13,3 +13,5 @@ attribute @s minecraft:safe_fall_distance modifier add bracken:fae_safefall 5 ad
 
 function bracken:dimension/travel/remove_dim_tags
 tag @s add bp.dim_faewild
+
+execute if entity @s[tag=bp.dim_title_queue] unless score @s bp.dim_title_queue matches 3 run tag @s remove bp.dim_title_queue
