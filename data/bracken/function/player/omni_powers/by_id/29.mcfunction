@@ -1,1 +1,1 @@
-execute if function bracken:player/omni_powers/perms/has/flight run function bracken:player/omni_powers/flight/enable
+execute if function bracken:player/omni_powers/perms/has/sprint run function bracken:player/omni_powers/sprint

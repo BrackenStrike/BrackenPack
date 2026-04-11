@@ -1,1 +1,1 @@
-execute if function bracken:player/omni_powers/perms/has/swordfall run function bracken:item/ability_books/swordfall/checks
+execute if function bracken:player/omni_powers/perms/has/world_soar run function bracken:item/ability_books/world_soar/checks

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Omnipowers",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "With great powers comes great stupidity.",
+        "font": "minecraft:alt",
+        "italic": true
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "These dialogs will do /trigger OMNI.COMMAND set (ID) for you.",
+        "font": "minecraft:default",
+        "italic": false
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "after_action": "none",
+  "pause": false,
+  "columns": 1,
+  "dialogs": [
+    "bracken:omnipowers/build",
+    "bracken:omnipowers/summon",
+    "bracken:omnipowers/toggles"
+  ]
+}

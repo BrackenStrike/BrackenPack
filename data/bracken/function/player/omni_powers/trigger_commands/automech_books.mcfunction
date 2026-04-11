@@ -1,8 +1,4 @@
 ##########################################################
-# Description: Omni disable command.
-# Creators: Bracken
+# Description: Allow automechs to run every single book
+# Creators: Bracken and Grandmaster
 ##########################################################
-
-scoreboard players set @s bp.omni_flight 1
-
-return 1

@@ -1,0 +1,107 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Summons ",
+    "inputs": [],
+    "can_close_with_escape": true,
+    "after_action": "close",
+    "pause": true,
+    "columns": 1,
+    "actions": [
+        {
+            "label": "Summon construct",
+            "tooltip": "ID = 15",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 15"
+            }
+        },
+        {
+            "label": "Summon theoretical snowman",
+            "tooltip": "ID = 16",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 16"
+            }
+        },
+        {
+            "label": "Summon theoretical blaze",
+            "tooltip": "ID = 17",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 17"
+            }
+        },
+        {
+            "label": "Summon theoretical creeper",
+            "tooltip": "ID = 18",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 18"
+            }
+        },
+        {
+            "label": "Summon theoretical mount",
+            "tooltip": "ID = 19",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 19"
+            }
+        },
+        {
+            "label": "Summon theoretical pirate",
+            "tooltip": "ID = 20",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 20"
+            }
+        },
+        {
+            "label": "Summon theoretical ravager",
+            "tooltip": "ID = 21",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 21"
+            }
+        },
+        {
+            "label": "Summon theoretical tnt",
+            "tooltip": "ID = 22",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 22"
+            }
+        },
+        {
+            "label": "Summon theoretical warden",
+            "tooltip": "ID = 23",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 23"
+            }
+        },
+        {
+            "label": "Summon lightning",
+            "tooltip": "ID = 24",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 24"
+            }
+        },
+        {
+            "label": "Summon pulse",
+            "tooltip": "ID = 25",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 25"
+            }
+        },
+        {
+            "label": "Summon disruptor beam",
+            "tooltip": "ID = 26",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 26"
+            }
+        }
+    ]
+}

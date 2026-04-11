@@ -3,10 +3,6 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-# automech ability
-# All 19 books activated (19 bits = 0x7FFFF = 524287)
-# Here we don't care if permissions are set to something else; this is not applicable to the other species
-execute if entity @s[tag=bp.automech] run scoreboard players set @s OMNI.PERMISSIONS_BOOK 524287 
 
 #others ability
 

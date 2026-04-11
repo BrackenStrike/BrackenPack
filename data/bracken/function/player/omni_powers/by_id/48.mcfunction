@@ -1,1 +1,1 @@
-execute if function bracken:player/omni_powers/perms/has/tetra_slime run function bracken:item/ability_books/tetra_slime/checks
+execute if function bracken:player/omni_powers/perms/has/worm_toothed_burrower run function bracken:item/ability_books/worm_toothed_burrower/checks
