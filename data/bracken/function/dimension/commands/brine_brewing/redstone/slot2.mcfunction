@@ -15,3 +15,8 @@ execute if score @s bp.brine_potion matches 106 run data modify block ~ ~ ~ Item
 execute if score @s bp.brine_potion matches 107 run data modify block ~ ~ ~ Items[{Slot:2b}] merge value {components:{"minecraft:potion_contents":{custom_effects:[{duration:600,id:"nausea"}]},"minecraft:custom_data":{bp:[{id:"potion_modified1"},{id:"check"},{closed_path:"enhance"}]}}}
 execute if score @s bp.brine_potion matches 108 run data modify block ~ ~ ~ Items[{Slot:2b}] merge value {components:{"minecraft:potion_contents":{custom_effects:[{id:"slowness",duration:60,amplifier:1},{id:"nausea",duration:300},{id:"blindness",duration:300},{id:"poison",duration:1000,amplifier:0},{id:"wither",duration:400,amplifier:0}]},"minecraft:custom_data":{bp:[{id:"potion_modified1"},{id:"check"}]}}}
 execute if score @s bp.brine_potion matches 109 run data modify block ~ ~ ~ Items[{Slot:2b}] merge value {components:{"minecraft:potion_contents":{custom_effects:[{id:"wither",duration:800,amplifier:0}]},"minecraft:custom_data":{bp:[{id:"potion_modified1"},{id:"check"}]}}}
+
+# greed
+execute if data block ~ ~ ~ {Items:[{Slot:2b,id:"minecraft:splash_potion",components:{"minecraft:custom_data":{bp.potion:104b}}}]} run function bracken:dimension/commands/brine_brewing/gunpowder/greed_slot2
+# astral 
+execute if data block ~ ~ ~ {Items:[{Slot:2b,id:"minecraft:splash_potion",components:{"minecraft:custom_data":{bp.potion:102b}}}]} run function bracken:dimension/commands/brine_brewing/gunpowder/astral_slot2

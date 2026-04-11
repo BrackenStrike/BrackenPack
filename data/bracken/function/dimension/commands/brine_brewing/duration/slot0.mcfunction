@@ -49,3 +49,9 @@ scoreboard players set @s bp.brine_potion 0
 execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Slot:0b}].components."minecraft:custom_data".bp[1].greed_duration
 scoreboard players add @s bp.brine_potion 1
 execute if data block ~ ~ ~ Items[{Slot:0b,components:{"minecraft:custom_data":{bp.potion:104b}}}] store result block ~ ~ ~ Items[{Slot:0b}].components."minecraft:custom_data".bp[1].greed_duration byte 1 run scoreboard players get @s bp.brine_potion
+
+
+# greed
+execute if data block ~ ~ ~ {Items:[{Slot:0b,id:"minecraft:splash_potion",components:{"minecraft:custom_data":{bp.potion:104b}}}]} run function bracken:dimension/commands/brine_brewing/gunpowder/greed_slot0
+# astral 
+execute if data block ~ ~ ~ {Items:[{Slot:0b,id:"minecraft:splash_potion",components:{"minecraft:custom_data":{bp.potion:102b}}}]} run function bracken:dimension/commands/brine_brewing/gunpowder/astral_slot0

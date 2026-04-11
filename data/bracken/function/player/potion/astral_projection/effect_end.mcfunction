@@ -20,4 +20,3 @@ effect clear @s glowing
 scoreboard players set @s bp.astral_time 10
 tag @s add bp.astral_cooldown
 effect give @s slowness 10 3 true
-effect give @s weakness 10 3 true

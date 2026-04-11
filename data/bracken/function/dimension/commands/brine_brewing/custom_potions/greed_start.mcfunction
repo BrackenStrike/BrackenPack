@@ -17,3 +17,9 @@ data remove block ~ ~ ~ Items[{Slot:1b,components:{"minecraft:potion_contents":{
 
 execute if block ~ ~ ~ brewing_stand{Items:[{Slot:2b,components:{"minecraft:potion_contents":{potion:"minecraft:awkward"}}}]} run data modify block ~ ~ ~ Items[{Slot:2b,components:{"minecraft:potion_contents":{potion:"minecraft:awkward"}}}] merge value {components:{"minecraft:custom_name":"Potion of Greed","minecraft:potion_contents":{custom_color:15775744,custom_effects:[{duration:1800,id:"strength",amplifier:0}]},"minecraft:custom_data":{bp.potion:104b,bp:[{id:"custom_potion"},{greed_duration:0b},{greed_amplifier:0b}]}}}
 data remove block ~ ~ ~ Items[{Slot:2b,components:{"minecraft:potion_contents":{potion:"minecraft:awkward"}}}].components."minecraft:potion_contents".potion
+
+
+# greed splash potion
+execute if data block ~ ~ ~ {Items:[{Slot:0b,id:"minecraft:splash_potion",components:{"minecraft:custom_data":{bp.potion:104b}}}]} run function bracken:dimension/commands/brine_brewing/gunpowder/greed_slot0
+execute if data block ~ ~ ~ {Items:[{Slot:1b,id:"minecraft:splash_potion",components:{"minecraft:custom_data":{bp.potion:104b}}}]} run function bracken:dimension/commands/brine_brewing/gunpowder/greed_slot1
+execute if data block ~ ~ ~ {Items:[{Slot:2b,id:"minecraft:splash_potion",components:{"minecraft:custom_data":{bp.potion:104b}}}]} run function bracken:dimension/commands/brine_brewing/gunpowder/greed_slot2

@@ -16,3 +16,5 @@ execute if score @s bp.brine_potion matches 106 run data modify block ~ ~ ~ Item
 execute if score @s bp.brine_potion matches 108 run data modify block ~ ~ ~ Items[{Slot:1b}] merge value {components:{"minecraft:potion_contents":{custom_effects:[{id:"slowness",duration:60,amplifier:2},{id:"nausea",duration:150},{id:"blindness",duration:150},{id:"poison",duration:300,amplifier:1},{id:"wither",duration:150,amplifier:1}]},"minecraft:custom_data":{bp:[{id:"potion_modified1"},{id:"check"}]}}}
 execute if score @s bp.brine_potion matches 109 run data modify block ~ ~ ~ Items[{Slot:1b}] merge value {components:{"minecraft:potion_contents":{custom_effects:[{id:"wither",duration:300,amplifier:1}]},"minecraft:custom_data":{bp:[{id:"potion_modified1"},{id:"check"}]}}}
 
+# greed 
+execute if data block ~ ~ ~ {Items:[{Slot:1b,id:"minecraft:splash_potion",components:{"minecraft:custom_data":{bp.potion:104b}}}]} run function bracken:dimension/commands/brine_brewing/gunpowder/greed_slot1
