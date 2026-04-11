@@ -27,6 +27,9 @@
   "dialogs": [
     "bracken:omnipowers/build",
     "bracken:omnipowers/summon",
-    "bracken:omnipowers/toggles"
+    "bracken:omnipowers/abilities",
+    "bracken:omnipowers/toggles",
+    "bracken:omnipowers/tp",
+    "bracken:omnipowers/perms"
   ]
 }

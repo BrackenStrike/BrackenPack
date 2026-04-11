@@ -1,0 +1,171 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Abilities",
+  "inputs": [],
+  "can_close_with_escape": true,
+  "after action": "close",
+  "pause": true,
+  "exit_action": {
+    "label": "Go back",
+    "width": 100,
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bracken:omnipowers/main"
+    }
+  },
+  "columns": 4,
+  "actions": [
+    {
+      "label": "Adamantine will",
+      "tooltip": "ID = 30",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 30"
+      }
+    },
+    {
+      "label": "Crimson spark",
+      "tooltip": "ID = 31",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 31"
+      }
+    },
+    {
+      "label": "Fang attack",
+      "tooltip": "ID = 32",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 32"
+      }
+    },
+    {
+      "label": "Fireball",
+      "tooltip": "ID = 33",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 33"
+      }
+    },
+    {
+      "label": "Frostlock",
+      "tooltip": "ID = 34",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 34"
+      }
+    },
+    {
+      "label": "Great nullifier",
+      "tooltip": "ID = 35",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 35"
+      }
+    },
+    {
+      "label": "Flying boat",
+      "tooltip": "ID = 36",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 36"
+      }
+    },
+    {
+      "label": "Iron golem",
+      "tooltip": "ID = 37",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 37"
+      }
+    },
+    {
+      "label": "Kill",
+      "tooltip": "ID = 38",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 38"
+      }
+    },
+    {
+      "label": "Lightning bolt",
+      "tooltip": "ID = 39",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 39"
+      }
+    },
+    {
+      "label": "Mansion",
+      "tooltip": "ID = 40",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 40"
+      }
+    },
+    {
+      "label": "Mass heal",
+      "tooltip": "ID = 41",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 41"
+      }
+    },
+    {
+      "label": "Recall",
+      "tooltip": "ID = 42",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 42"
+      }
+    },
+    {
+      "label": "Scatterstorm",
+      "tooltip": "ID = 43",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 43"
+      }
+    },
+    {
+      "label": "Swordfall",
+      "tooltip": "ID = 44",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 44"
+      }
+    },
+    {
+      "label": "Tetra slime",
+      "tooltip": "ID = 45",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 45"
+      }
+    },
+    {
+      "label": "Truelight glow",
+      "tooltip": "ID = 46",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 46"
+      }
+    },
+    {
+      "label": "World soar",
+      "tooltip": "ID = 47",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 47"
+      }
+    },
+    {
+      "label": "Worm-toothed burrower",
+      "tooltip": "ID = 48",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 48"
+      }
+    }
+  ]
+}

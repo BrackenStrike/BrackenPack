@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Your Permissions",
+    "inputs": [],
+    "can_close_with_escape": true,
+    "after_action": "close",
+    "pause": true,
+    "columns": 1,
+    "exit_action": {
+        "label": "Go back",
+        "width": 100,
+        "action": {
+            "type": "minecraft:show_dialog",
+            "dialog": "bracken:omnipowers/main"
+        }
+    },
+    "actions": [
+        {
+            "label": "Show other permissions",
+            "tooltip": "ID = 49",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger OMNI.COMMAND set 49"
+            }
+        },
+        {
+            "label": "Show ability book permissions",
+            "tooltip": "ID = 50",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger OMNI.COMMAND set 50"
+            }
+        }
+    ]
+}

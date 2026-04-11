@@ -1,14 +1,22 @@
 {
     "type": "minecraft:multi_action",
-    "title": "Summons ",
+    "title": "Summons",
     "inputs": [],
     "can_close_with_escape": true,
     "after_action": "close",
     "pause": true,
     "columns": 1,
+    "exit_action": {
+        "label": "Go back",
+        "width": 100,
+        "action": {
+            "type": "minecraft:show_dialog",
+            "dialog": "bracken:omnipowers/main"
+        }
+    },
     "actions": [
         {
-            "label": "Summon construct",
+            "label": "Construct",
             "tooltip": "ID = 15",
             "action": {
                 "type": "minecraft:run_command",
@@ -16,7 +24,7 @@
             }
         },
         {
-            "label": "Summon theoretical snowman",
+            "label": "Theoretical snowman",
             "tooltip": "ID = 16",
             "action": {
                 "type": "minecraft:run_command",
@@ -24,7 +32,7 @@
             }
         },
         {
-            "label": "Summon theoretical blaze",
+            "label": "Theoretical blaze",
             "tooltip": "ID = 17",
             "action": {
                 "type": "minecraft:run_command",
@@ -32,7 +40,7 @@
             }
         },
         {
-            "label": "Summon theoretical creeper",
+            "label": "Theoretical creeper",
             "tooltip": "ID = 18",
             "action": {
                 "type": "minecraft:run_command",
@@ -40,7 +48,7 @@
             }
         },
         {
-            "label": "Summon theoretical mount",
+            "label": "Theoretical mount",
             "tooltip": "ID = 19",
             "action": {
                 "type": "minecraft:run_command",
@@ -48,7 +56,7 @@
             }
         },
         {
-            "label": "Summon theoretical pirate",
+            "label": "Theoretical pirate",
             "tooltip": "ID = 20",
             "action": {
                 "type": "minecraft:run_command",
@@ -56,7 +64,7 @@
             }
         },
         {
-            "label": "Summon theoretical ravager",
+            "label": "Theoretical ravager",
             "tooltip": "ID = 21",
             "action": {
                 "type": "minecraft:run_command",
@@ -64,7 +72,7 @@
             }
         },
         {
-            "label": "Summon theoretical tnt",
+            "label": "Theoretical tnt",
             "tooltip": "ID = 22",
             "action": {
                 "type": "minecraft:run_command",
@@ -72,7 +80,7 @@
             }
         },
         {
-            "label": "Summon theoretical warden",
+            "label": "Theoretical warden",
             "tooltip": "ID = 23",
             "action": {
                 "type": "minecraft:run_command",
@@ -80,7 +88,7 @@
             }
         },
         {
-            "label": "Summon lightning",
+            "label": "Lightning",
             "tooltip": "ID = 24",
             "action": {
                 "type": "minecraft:run_command",
@@ -88,7 +96,7 @@
             }
         },
         {
-            "label": "Summon pulse",
+            "label": "Pulse",
             "tooltip": "ID = 25",
             "action": {
                 "type": "minecraft:run_command",
@@ -96,7 +104,7 @@
             }
         },
         {
-            "label": "Summon disruptor beam",
+            "label": "Disruptor beam",
             "tooltip": "ID = 26",
             "action": {
                 "type": "minecraft:run_command",

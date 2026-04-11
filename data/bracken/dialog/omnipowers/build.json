@@ -6,6 +6,14 @@
     "after_action": "close",
     "pause": true,
     "columns": 3,
+    "exit_action": {
+        "label": "Go back",
+        "width": 100,
+        "action": {
+            "type": "minecraft:show_dialog",
+            "dialog": "bracken:omnipowers/main"
+        }
+    },
     "actions": [
         {
             "label": "Place cube",
