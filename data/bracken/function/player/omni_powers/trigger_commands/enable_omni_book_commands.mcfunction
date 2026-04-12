@@ -3,8 +3,7 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-
-#others ability
+execute if entity @s[tag=bp.automech] run function bracken:player/omni_powers/trigger_commands/automech_books
 
 execute if entity @s[tag=bp.villain] run function bracken:player/omni_powers/perms/set/adamantine_will
 execute if entity @s[tag=bp.villain] run function bracken:player/omni_powers/perms/set/fang_attack

@@ -1,1 +1,1 @@
-function bracken:player/omni_powers/perms/show_other
+execute if function bracken:player/omni_powers/perms/has/void_pull run function bracken:item/ability_books/void_pull/checks

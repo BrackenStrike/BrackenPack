@@ -166,6 +166,14 @@
         "type": "minecraft:run_command",
         "command": "/trigger OMNI.COMMAND set 48"
       }
+    },
+    {
+      "label": "Void pull",
+      "tooltip": "ID = 49",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 49"
+      }
     }
   ]
 }

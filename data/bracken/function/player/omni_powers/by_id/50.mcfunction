@@ -1,1 +1,1 @@
-function bracken:player/omni_powers/perms/show_book
+function bracken:player/omni_powers/perms/show_other

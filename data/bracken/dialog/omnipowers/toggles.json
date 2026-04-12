@@ -16,19 +16,19 @@
   },
   "actions": [
     {
-      "label": "Toggle sprinting",
-      "tooltip": "ID = 28",
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "trigger OMNI.COMMAND set 27"
-      }
-    },
-    {
       "label": "Toggle flight",
       "tooltip": "ID = 28",
       "action": {
         "type": "minecraft:run_command",
         "command": "trigger OMNI.COMMAND set 28"
+      }
+    },
+    {
+      "label": "Toggle sprinting",
+      "tooltip": "ID = 29",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger OMNI.COMMAND set 29"
       }
     }
   ]
