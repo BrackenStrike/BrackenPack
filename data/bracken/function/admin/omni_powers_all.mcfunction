@@ -3,8 +3,6 @@
 # Creator : crimdev
 #######################################################
 
-tellraw @s {"text":"Warning : This may cause a lag spike, because the server will be recompiling dialog boxes for each permission that you don't have.","color":"red"}
-
 function bracken:player/omni_powers/perms/set/cube
 function bracken:player/omni_powers/perms/set/road_north
 function bracken:player/omni_powers/perms/set/road_south
@@ -56,3 +54,4 @@ function bracken:player/omni_powers/perms/set/tetra_slime
 function bracken:player/omni_powers/perms/set/truelight_glow
 function bracken:player/omni_powers/perms/set/world_soar
 function bracken:player/omni_powers/perms/set/worm_toothed_burrower
+function bracken:player/omni_powers/perms/set/void_pull
