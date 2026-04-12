@@ -4,6 +4,9 @@
 ##########################################################
 
 scoreboard players set @s bp.coas 0
+
+execute if predicate bracken:item/perrterror_gastor_mainhand run return run function bracken:item/perrterror_gastor
+
 execute if data storage bracken:config {ability_books_on:false} run return run function bracken:item/coas/ability_book_disabled
 
 execute if predicate bracken:item/ability_books/adamantine_will run return run function bracken:item/ability_books/adamantine_will/checks
@@ -29,5 +32,3 @@ execute if predicate bracken:item/ability_books/worm_toothed_burrower run return
 #execute if predicate bracken:item/ability_books/prismatic_laser run return run function bracken:item/ability_books/prismatic_laser/checks
 #execute if predicate bracken:item/ability_books/magic_missile run return run function bracken:item/ability_books/magic_missile/checks
 execute if predicate bracken:item/ability_books/void_pull run return run function bracken:item/ability_books/void_pull/checks
-
-execute if predicate bracken:item/perrterror_gastor_mainhand run return run function bracken:item/perrterror_gastor
