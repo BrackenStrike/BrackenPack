@@ -17,18 +17,18 @@
     "actions": [
         {
             "label": "Show other permissions",
-            "tooltip": "ID = 49",
-            "action": {
-                "type": "minecraft:run_command",
-                "command": "trigger OMNI.COMMAND set 49"
-            }
-        },
-        {
-            "label": "Show ability book permissions",
             "tooltip": "ID = 50",
             "action": {
                 "type": "minecraft:run_command",
                 "command": "trigger OMNI.COMMAND set 50"
+            }
+        },
+        {
+            "label": "Show ability book permissions",
+            "tooltip": "ID = 51",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger OMNI.COMMAND set 51"
             }
         }
     ]
