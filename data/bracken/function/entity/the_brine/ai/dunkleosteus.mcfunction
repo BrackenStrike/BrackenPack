@@ -5,7 +5,7 @@
 
 effect clear @s[predicate=!bracken:in_water] speed
 
-execute unless predicate bracken:periodic/1s run return 0
+execute unless predicate bracken:periodic/3s run return 0
 
 execute if entity @p[distance=..20] run data modify entity @s NoAI set value 0b
 execute if entity @p[distance=20..] run data modify entity @s NoAI set value 1b

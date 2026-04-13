@@ -1,3 +1,3 @@
 playsound minecraft:entity.evoker.prepare_summon hostile @a[distance=..30] ~ ~ ~ 1 1
-summon area_effect_cloud ~ ~-1.5 ~ {Particle:{type:"snowflake"},Radius:15f,RadiusPerTick:-0.05f,Duration:1000,potion_contents:{custom_effects:[{id:"minecraft:slowness",amplifier:9,duration:60,show_particles:1b,show_icon:1b}]},CustomName:{"translate":"frostlock","color":"blue","bold":true}}
+summon area_effect_cloud ~ ~-1.5 ~ {custom_particle:{type:"snowflake"},Radius:15f,RadiusPerTick:-0.05f,Duration:1000,potion_contents:{custom_effects:[{id:"minecraft:slowness",amplifier:9,duration:60,show_particles:1b,show_icon:1b}]},CustomName:{"translate":"frostlock","color":"blue","bold":true}}
 tellraw @a[distance=..100] ["",{"translate":"Bygone Viceroy","color":"blue","bold":true},{"translate":" generated [FROSTLOCK]"}]

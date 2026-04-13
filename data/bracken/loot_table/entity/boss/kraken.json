@@ -18,5 +18,19 @@
 			"type": "minecraft:loot_table",
 			"value": "bracken:item/the_brine/essence_of_eternity"
 		}]
+	},
+	{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/portal_keys/brine_key"
+		}]
+	},
+	{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/ability_books/void_pull"
+		}]
 	}]
 }

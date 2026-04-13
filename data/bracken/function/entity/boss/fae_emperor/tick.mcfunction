@@ -13,7 +13,7 @@ execute unless entity @p[distance=..100] if entity @s[tag=bp.active] run functio
 
 
 
-execute if entity @s[tag=bp.fae_emperor,tag=bp.active] run function bracken:entity/boss/fae_emperor/misc/tick
+execute if entity @s[tag=bp.active] run function bracken:entity/boss/fae_emperor/misc/tick
 
 
 return 1

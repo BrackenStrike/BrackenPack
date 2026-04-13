@@ -142,3 +142,4 @@ scoreboard players set #2 bp.var 2
 scoreboard players set #20 bp.var 20
 scoreboard players set #-1 bp.var -1
 scoreboard players set #6 bp.var 6
+scoreboard players set #0 bp.var 0

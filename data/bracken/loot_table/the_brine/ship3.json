@@ -208,11 +208,5 @@
 				"chance": 0.2
 			}]
 		}]
-	},{
-		"rolls": 1,
-		"entries": [{
-			"type": "minecraft:loot_table",
-			"value": "bracken:item/portal_keys/brine_key"
-		}]
 	}]
 }

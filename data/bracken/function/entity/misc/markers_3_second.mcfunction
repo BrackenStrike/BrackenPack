@@ -24,3 +24,6 @@ execute if entity @s[tag=bp.thrall] run return run function bracken:entity/misc/
 ##########   PAX PORTAL SETUP   ##########
 execute if entity @s[tag=bp.pax_portal_redstone_block] run return run function bracken:entity/misc/portal_setup
 
+##########   SUMMON KRAKEN   ##########
+execute if entity @s[tag=bp.kraken_summon_marker] if entity @p[distance=..50] run return run function bracken:entity/boss/kraken/misc/structure_summon
+

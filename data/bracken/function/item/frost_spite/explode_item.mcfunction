@@ -3,7 +3,7 @@
 # Creators: Bracken, Conure
 ##########################################################
 
-summon area_effect_cloud ~ ~ ~ {Particle:"snowflake",Radius:0f,RadiusPerTick:2f,Duration:10,effects:[{id:"minecraft:slowness",amplifier:10b,duration:20}]}
+summon area_effect_cloud ~ ~ ~ {custom_particle:{type:"snowflake"},Radius:0f,RadiusPerTick:2f,Duration:10,potion_contents:{custom_effects:[{id:"minecraft:slowness",amplifier:10b,duration:20}]}}
 summon tnt
 playsound minecraft:block.glass.break player @a[distance=..10] ~ ~ ~ 10 0
 playsound minecraft:entity.dolphin.death player @a[distance=..10] ~ ~ ~ 1 0

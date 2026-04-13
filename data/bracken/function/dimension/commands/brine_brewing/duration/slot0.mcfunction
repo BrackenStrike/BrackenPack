@@ -33,7 +33,7 @@ execute store result score @s bp.brine_potion run data get block ~ ~ ~ Items[{Sl
 scoreboard players operation @s bp.brine_potion *= #2 bp.var
 execute unless score @s bp.brine_potion matches 0 store result block ~ ~ ~ Items[{Slot:0b}].components."minecraft:potion_contents".custom_effects[5].duration short 1 run scoreboard players get @s bp.brine_potion
 
-execute if data block ~ ~ ~ Items[{Slot:0b}].components."minecraft:potion_contents".custom_effects[{id:"invisibility"}] run data modify block ~ ~ ~ Items[{Slot:0b}].components."minecraft:potion_contents".custom_effects[{id:"invisibility"}].ShowParticles set value 0b
+execute if data block ~ ~ ~ Items[{Slot:0b}].components."minecraft:potion_contents".custom_effects[{id:"invisibility"}] run data modify block ~ ~ ~ Items[{Slot:0b}].components."minecraft:potion_contents".custom_effects[{id:"invisibility"}].show_particles set value 0b
 data modify block ~ ~ ~ Items[{Slot:0b}].components."minecraft:custom_data".bp append value {id:"potion_modified2"}
 data modify block ~ ~ ~ Items[{Slot:0b}].components."minecraft:custom_data".bp append value {id:"potion_modified1"}
 

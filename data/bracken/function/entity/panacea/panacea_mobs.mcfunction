@@ -23,7 +23,7 @@ data merge entity @n[type=zombie_villager,distance=..100,tag=!bp.yakitubba1] {Cu
 
 
 kill @e[tag=bp.rain_event_marker,type=minecraft:armor_stand,predicate=bracken:on_ground]
-execute at @e[type=minecraft:area_effect_cloud,nbt={effects:[{id:"minecraft:bad_luck",amplifier:10b}]}] run function bracken:entity/panacea/leaf_cube
+execute at @e[type=minecraft:area_effect_cloud,nbt={potion_contents:{custom_effects:[{id:"minecraft:unluck",amplifier:10b}]}}] run function bracken:entity/panacea/leaf_cube
 
 
 
