@@ -1,1 +1,2 @@
-execute if function bracken:player/omni_powers/perms/has/mansion run function bracken:item/ability_books/mansion/checks
+execute unless function bracken:player/omni_powers/perms/has/mansion run return fail
+function bracken:item/ability_books/mansion/checks
