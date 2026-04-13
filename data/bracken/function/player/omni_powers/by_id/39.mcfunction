@@ -1,1 +1,1 @@
-execute if function bracken:player/omni_powers/perms/has/flying_boat run function bracken:item/ability_books/flying_boat/checks
+execute if function bracken:player/omni_powers/perms/has/lightning_bolt run function bracken:item/ability_books/lightning_bolt/checks

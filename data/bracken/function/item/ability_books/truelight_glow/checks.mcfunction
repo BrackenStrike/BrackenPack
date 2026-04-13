@@ -6,3 +6,4 @@
 execute if entity @s[level=3..] run return run function bracken:item/ability_books/truelight_glow/truelight_glow
 
 tellraw @s {"translate":"You do not have enough levels to use this book."}
+function bracken:player/omni_powers/perms/set/truelight_glow

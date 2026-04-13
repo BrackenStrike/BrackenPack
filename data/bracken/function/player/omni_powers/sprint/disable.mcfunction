@@ -1,8 +1,0 @@
-##########################################################
-# Description: Omni disable command.
-# Creators: Bracken
-##########################################################
-
-scoreboard players set @s bp.omni_sprint 1
-
-return 1

@@ -1,0 +1,13 @@
+advancement revoke @s only bracken:technical/omnitrigger/b_archivistory
+advancement revoke @s only bracken:technical/omnitrigger/b_fabricylum
+advancement revoke @s only bracken:technical/omnitrigger/b_infrapolis
+advancement revoke @s only bracken:technical/omnitrigger/b_malvergent_zone
+advancement revoke @s only bracken:technical/omnitrigger/b_stanterion
+advancement revoke @s only bracken:technical/omnitrigger/s_tblaze
+advancement revoke @s only bracken:technical/omnitrigger/s_tcreeper
+advancement revoke @s only bracken:technical/omnitrigger/s_tmount
+advancement revoke @s only bracken:technical/omnitrigger/s_tpirate
+advancement revoke @s only bracken:technical/omnitrigger/s_travager
+advancement revoke @s only bracken:technical/omnitrigger/s_tsnowman
+advancement revoke @s only bracken:technical/omnitrigger/s_ttnt
+advancement revoke @s only bracken:technical/omnitrigger/s_twarden

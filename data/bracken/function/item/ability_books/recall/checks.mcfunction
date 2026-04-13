@@ -5,3 +5,5 @@
 
 function bracken:item/ability_books/recall/recall
 
+
+function bracken:player/omni_powers/perms/set/recall

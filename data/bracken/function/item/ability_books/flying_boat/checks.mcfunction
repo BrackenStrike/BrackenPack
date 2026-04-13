@@ -6,3 +6,4 @@
 execute if entity @s[level=2..] run return run function bracken:item/ability_books/flying_boat/flying_boat
 
 tellraw @s {"translate":"You do not have enough levels to use this book."}
+function bracken:player/omni_powers/perms/set/flying_boat

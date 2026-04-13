@@ -6,3 +6,4 @@
 execute if entity @s[level=7..] run return run function bracken:item/ability_books/adamantine_will/adamantine_will
 
 tellraw @s {"translate":"You do not have enough levels to use this book."}
+function bracken:player/omni_powers/perms/set/adamantine_will

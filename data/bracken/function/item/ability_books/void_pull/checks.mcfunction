@@ -6,3 +6,4 @@
 execute if entity @s[level=1..] run return run function bracken:item/ability_books/void_pull/void_pull
 
 tellraw @s {"translate":"You do not have enough levels to use this book."}
+function bracken:player/omni_powers/perms/set/void_pull

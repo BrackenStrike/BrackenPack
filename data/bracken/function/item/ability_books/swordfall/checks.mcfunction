@@ -9,3 +9,4 @@ execute if data storage bracken:config {ability_books_on: true} if entity @s[lev
 execute if entity @s[level=12..] run return run tellraw @s {"translate":"Ability is already in use!"}
 
 tellraw @s {"translate":"You do not have enough levels to use this book."}
+function bracken:player/omni_powers/perms/set/swordfall

@@ -5,3 +5,5 @@
 
 function bracken:item/ability_books/mansion/mansion
 
+
+function bracken:player/omni_powers/perms/set/mansion

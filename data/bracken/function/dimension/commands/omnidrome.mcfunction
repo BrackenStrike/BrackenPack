@@ -27,5 +27,10 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_bo
 
 execute if score @s OMNI.COMMAND matches 1..51 run function bracken:player/omni_powers/route
 
+# TODO(?) : Increase cooldown
+execute if score @s bp.1_second matches 18 run scoreboard players enable @s OMNI.COMMAND
+
+execute if score @s bp.1_second matches 3 run function bracken:player/omni_powers/trigger_commands/enable_omni_book_commands
+
 #return
 return 1

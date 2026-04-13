@@ -1,1 +1,1 @@
-execute if function bracken:player/omni_powers/perms/has/mass_heal run function bracken:item/ability_books/mass_heal/checks
+execute if function bracken:player/omni_powers/perms/has/swordfall run function bracken:item/ability_books/swordfall/checks

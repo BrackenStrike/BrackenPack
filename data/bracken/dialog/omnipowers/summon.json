@@ -1,0 +1,115 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Summons",
+    "inputs": [],
+    "can_close_with_escape": true,
+    "after_action": "close",
+    "pause": true,
+    "columns": 1,
+    "exit_action": {
+        "label": "Go back",
+        "width": 100,
+        "action": {
+            "type": "minecraft:show_dialog",
+            "dialog": "bracken:omnipowers/main"
+        }
+    },
+    "actions": [
+        {
+            "label": "Construct",
+            "tooltip": "ID = 15",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 15"
+            }
+        },
+        {
+            "label": "Theoretical snowman",
+            "tooltip": "ID = 16",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 16"
+            }
+        },
+        {
+            "label": "Theoretical blaze",
+            "tooltip": "ID = 17",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 17"
+            }
+        },
+        {
+            "label": "Theoretical creeper",
+            "tooltip": "ID = 18",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 18"
+            }
+        },
+        {
+            "label": "Theoretical mount",
+            "tooltip": "ID = 19",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 19"
+            }
+        },
+        {
+            "label": "Theoretical pirate",
+            "tooltip": "ID = 20",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 20"
+            }
+        },
+        {
+            "label": "Theoretical ravager",
+            "tooltip": "ID = 21",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 21"
+            }
+        },
+        {
+            "label": "Theoretical tnt",
+            "tooltip": "ID = 22",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 22"
+            }
+        },
+        {
+            "label": "Theoretical warden",
+            "tooltip": "ID = 23",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 23"
+            }
+        },
+        {
+            "label": "Lightning",
+            "tooltip": "ID = 24",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 24"
+            }
+        },
+        {
+            "label": "Pulse",
+            "tooltip": "ID = 25",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 25"
+            }
+        },
+        {
+            "label": "Disruptor beam",
+            "tooltip": "ID = 26",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 26"
+            }
+        }
+    ]
+}

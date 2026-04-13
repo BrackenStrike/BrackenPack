@@ -6,3 +6,4 @@
 execute if entity @s[level=3..] run return run function bracken:item/ability_books/scatterstorm/scatterstorm
 
 tellraw @s {"translate":"You do not have enough levels to use this book."}
+function bracken:player/omni_powers/perms/set/scatterstorm
