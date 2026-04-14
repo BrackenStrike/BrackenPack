@@ -11,7 +11,6 @@ team leave @s[team=bp.Nereid]
 attribute @s minecraft:submerged_mining_speed modifier remove bracken:nereid.submerged_mining_speed
 attribute @s minecraft:movement_speed modifier remove bracken:nereid.on_land.movement_speed
 
-
 attribute @s minecraft:max_health modifier remove bracken:nereid.max_health
 attribute @s minecraft:oxygen_bonus modifier remove bracken:nereid.oxygen_bonus
 attribute @s minecraft:gravity modifier remove bracken:nereid.gravity

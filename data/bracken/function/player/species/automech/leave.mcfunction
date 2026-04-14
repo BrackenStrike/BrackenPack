@@ -16,4 +16,7 @@ attribute @s minecraft:step_height modifier remove bracken:automech.step_height
 attribute @s minecraft:max_health modifier remove bracken:automech.max_health
 attribute @s minecraft:attack_knockback modifier remove bracken:automech.knockback
 
+attribute @s minecraft:movement_speed modifier remove bracken:automech.on_land.movement_speed
+attribute @s minecraft:gravity modifier remove bracken:automech.on_land.gravity
+
 return 1

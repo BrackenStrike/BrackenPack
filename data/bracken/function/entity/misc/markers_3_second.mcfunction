@@ -19,7 +19,7 @@ execute if entity @s[tag=bp.disruptor_boss] run return run function bracken:enti
 execute if entity @s[tag=bp.viceroy] if entity @p[distance=..7] run return run function bracken:entity/glacium/glacium_viceroy_base_thaw
 
 ##########   DORMIS THRALL BASE CLEAR DEBRIS   ##########
-execute if entity @s[tag=bp.thrall] run return run function bracken:entity/misc/clear_debris
+execute if entity @s[tag=bp.thrall] run return run function bracken:entity/misc/solatium_thrall_summon
 
 ##########   PAX PORTAL SETUP   ##########
 execute if entity @s[tag=bp.pax_portal_redstone_block] run return run function bracken:entity/misc/portal_setup
@@ -27,3 +27,5 @@ execute if entity @s[tag=bp.pax_portal_redstone_block] run return run function b
 ##########   SUMMON KRAKEN   ##########
 execute if entity @s[tag=bp.kraken_summon_marker] if entity @p[distance=..50] run return run function bracken:entity/boss/kraken/misc/structure_summon
 
+##########   SUMMON SORANGIUM   ##########
+execute if entity @s[tag=bp.sporangium_spawn_marker] if entity @p[distance=..50] run return run function bracken:entity/boss/sporangium/misc/structure_summon

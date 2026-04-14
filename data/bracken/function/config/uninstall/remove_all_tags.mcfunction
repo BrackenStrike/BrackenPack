@@ -28,8 +28,6 @@ tag @s remove bp.active
 tag @s remove bp.project_ruination.started
 tag @s remove bp.named
 tag @s remove bp.set_wtb
-tag @s remove bp.ready2
-tag @s remove bp.ready
 tag @s remove bp.death
 tag @s remove bp.slam
 tag @s remove bp.the_disruptor

@@ -4,11 +4,14 @@ fill ~10 ~6 ~10 ~-10 ~13 ~-10 air replace #bracken:ostiarius_clean
 fill ~5 ~14 ~5 ~-5 ~17 ~-5 air replace #bracken:ostiarius_clean
 
 tag @s add bp.ostiarius.started
-summon giant ~0.5 ~0.5 ~0.5 {CustomName:{"text":"Dinnerbone","color":"green","obfuscated":true},Silent:1b,DeathLootTable:"bracken:entity/boss/ostiarius",Health:400f,PersistenceRequired:1b,NoAI:1b,equipment:{mainhand:{id:"minecraft:ender_eye",count:1b,components:{"minecraft:enchantments": {"minecraft:vanishing_curse": 1},"minecraft:item_model":"bracken:ruination_eye"}},offhand:{id:"minecraft:ender_eye",count:1b,components:{"minecraft:enchantments": {"minecraft:vanishing_curse": 1},"minecraft:item_model":"bracken:ruination_eye"}}},drop_chances:{mainhand:0f,offhand:0f},Tags:["bp.ostiarius.core"],attributes:[{id:max_health,base:400}],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b}]}
+summon giant ~0.5 ~0.5 ~0.5 {CustomName:{"text":"Dinnerbone","color":"green","obfuscated":true},Silent:1b,DeathLootTable:"bracken:entity/boss/ostiarius",Health:400f,PersistenceRequired:1b,NoAI:1b,equipment:{mainhand:{id:"minecraft:ender_eye",count:1b,components:{"minecraft:enchantments": {"minecraft:vanishing_curse": 1},"minecraft:item_model":"bracken:ruination_eye"}},offhand:{id:"minecraft:ender_eye",count:1b,components:{"minecraft:enchantments": {"minecraft:vanishing_curse": 1},"minecraft:item_model":"bracken:ruination_eye"}}},drop_chances:{mainhand:0f,offhand:0f},Tags:[bp.ostiarius.core,bp.entity,bp.boss],attributes:[{id:max_health,base:400}],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b}]}
+
+summon marker ~ ~ ~ {Tags:[bp.boss_death_detector,bp.entity,bp.boss,bp.ostiarius_death_marker]}
+ride @n[type=marker,tag=bp.ostiarius_death_marker,distance=..1] mount @n[type=giant,tag=bp.ostiarius.core,distance=..2]
 
 
-scoreboard players set @e[type=minecraft:giant,tag=bp.ostiarius.core,distance=..1,limit=1] bp.boss_1 1
-scoreboard players set @e[type=minecraft:giant,tag=bp.ostiarius.core,distance=..1,limit=1] bp.boss_state_cd 0
+scoreboard players set @n[type=minecraft:giant,tag=bp.ostiarius.core,distance=..1] bp.boss_1 1
+scoreboard players set @n[type=minecraft:giant,tag=bp.ostiarius.core,distance=..1] bp.boss_state_cd 0
 tellraw @a[distance=..100] {"translate":"SYSTEM RESTART: STAND BY FOR EXTRACTION PROCESS - 01001001 00100000 01101110 01100101 01100101 01100100 00100000 01111001 01101111 01110101 01110010 00100000 01110000 01101111 01110111 01100101 01110010"}
 
 playsound minecraft:block.portal.trigger ambient @a[distance=..50] ~ ~ ~ 100 2

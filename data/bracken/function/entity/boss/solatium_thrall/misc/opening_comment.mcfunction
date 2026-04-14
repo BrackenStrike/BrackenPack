@@ -1,0 +1,13 @@
+tellraw @s[tag=bp.realmkeeper] {"translate":"The Thrall speaks: \"You know that I have the strictest orders not allow anyone near the prisoners...\"","color":"gold","bold":true}
+tellraw @s[tag=bp.villain] {"translate":"The Thrall speaks: \"This villain, in this very hour!\"","color":"gold","bold":true}
+tellraw @s[tag=bp.human] {"translate":"The Thrall speaks: \"This villain, in this very hour!\"","color":"gold","bold":true}
+tellraw @s[tag=bp.automech] {"translate":"The Thrall speaks: \"And this is?\"","color":"gold","bold":true}
+tellraw @s[tag=bp.bereid] {"translate":"The Thrall speaks: \"I always act in duty bound, But also hate all cruelty.\"","color":"gold","bold":true}
+tellraw @s[tag=bp.faefolk] {"translate":"The Thrall speaks: \"I always act in duty bound, But also hate all cruelty.\"","color":"gold","bold":true}
+tellraw @s[tag=bp.dweller] {"translate":"The Thrall speaks: \"I always act in duty bound, But also hate all cruelty.\"","color":"gold","bold":true}
+tellraw @s[tag=bp.outlander] {"translate":"The Thrall speaks: \"I always act in duty bound, But also hate all cruelty.\"","color":"gold","bold":true}
+tellraw @s[tag=bp.hunter] {"translate":"The Thrall speaks: \"The hour of vengeance has come.\"","color":"gold","bold":true}
+tellraw @s[tag=bp.netherkin] {"translate":"The Thrall speaks: \"The hour of vengeance has come.\"","color":"gold","bold":true}
+tellraw @s[tag=bp.frostkin] {"translate":"The Thrall speaks: \"The hour of vengeance has come.\"","color":"gold","bold":true}
+tellraw @s[tag=bp.enderling] {"translate":"The Thrall speaks: \"Who hardly lives, And like a shadow looks?\"","color":"gold","bold":true}
+tellraw @s[tag=bp.watcher] {"translate":"The Thrall speaks: \"This cannot be, this cannot be.\"","color":"gold","bold":true}

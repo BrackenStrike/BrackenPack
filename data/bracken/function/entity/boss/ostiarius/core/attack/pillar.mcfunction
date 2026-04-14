@@ -1,8 +1,5 @@
 
-execute if score @s bp.boss_state_cd matches ..0 run playsound minecraft:block.composter.fill_success hostile @a[distance=..50] ~ ~ ~ 100 0
-execute if score @s bp.boss_state_cd matches ..0 at @a[distance=..50] run fill ~1 ~5 ~0 ~1 ~7 ~0 minecraft:black_concrete_powder replace air
-execute if score @s bp.boss_state_cd matches ..0 at @a[distance=..50] run fill ~-1 ~5 ~0 ~-1 ~7 ~0 minecraft:black_concrete_powder replace air
-execute if score @s bp.boss_state_cd matches ..0 at @a[distance=..50] run fill ~ ~5 ~1 ~ ~7 ~1 minecraft:black_concrete_powder replace air
-execute if score @s bp.boss_state_cd matches ..0 at @a[distance=..50] run fill ~ ~5 ~-1 ~ ~7 ~-1 minecraft:black_concrete_powder replace air
+playsound minecraft:block.composter.fill_success hostile @a[distance=..50] ~ ~ ~ 100 0
+execute at @a[distance=..50] run function bracken:entity/boss/ostiarius/core/attack/pillar2
 
-execute if score @s bp.boss_state_cd matches ..0 run scoreboard players set @s bp.boss_state_cd 40
+scoreboard players set @s bp.boss_state_cd 40

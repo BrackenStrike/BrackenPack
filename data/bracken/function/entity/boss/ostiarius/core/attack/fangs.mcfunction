@@ -1,15 +1,14 @@
-execute if score @s bp.boss_state_cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^3
-execute if score @s bp.boss_state_cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^4
-execute if score @s bp.boss_state_cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^5
-execute if score @s bp.boss_state_cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^6
-execute if score @s bp.boss_state_cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^7
-execute if score @s bp.boss_state_cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^8
-execute if score @s bp.boss_state_cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^9
-execute if score @s bp.boss_state_cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^10
-execute if score @s bp.boss_state_cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^11
-execute if score @s bp.boss_state_cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^12
-execute if score @s bp.boss_state_cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^13
-execute if score @s bp.boss_state_cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^14
-execute if score @s bp.boss_state_cd matches ..0 run summon minecraft:evoker_fangs ^ ^ ^15
-
-execute if score @s bp.boss_state_cd matches ..0 run scoreboard players set @s bp.boss_state_cd 40
+summon minecraft:evoker_fangs ^ ^ ^3
+summon minecraft:evoker_fangs ^ ^ ^4
+summon minecraft:evoker_fangs ^ ^ ^5
+summon minecraft:evoker_fangs ^ ^ ^6
+summon minecraft:evoker_fangs ^ ^ ^7
+summon minecraft:evoker_fangs ^ ^ ^8
+summon minecraft:evoker_fangs ^ ^ ^9
+summon minecraft:evoker_fangs ^ ^ ^10
+summon minecraft:evoker_fangs ^ ^ ^11
+summon minecraft:evoker_fangs ^ ^ ^12
+summon minecraft:evoker_fangs ^ ^ ^13
+summon minecraft:evoker_fangs ^ ^ ^14
+summon minecraft:evoker_fangs ^ ^ ^15
+scoreboard players set @s bp.boss_state_cd 40

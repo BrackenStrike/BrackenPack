@@ -7,3 +7,10 @@ execute store result bossbar bracken:bygone_viceroy.bottom value run data get en
 execute if score @s bp.boss_state_cd matches ..0 run function bracken:entity/boss/bygone_viceroy/misc/attack_bottom
 
 scoreboard players remove @s bp.boss_state_cd 1
+
+
+########## 1 second counter
+execute unless predicate bracken:periodic/1s run return 1
+
+execute on vehicle run kill @s
+kill @e[type=#minecraft:boat,distance=..2] 

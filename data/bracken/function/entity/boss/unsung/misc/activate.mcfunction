@@ -13,3 +13,6 @@ playsound minecraft:entity.ravager.attack hostile @a[distance=..25] ~ ~ ~ 100 0
 fill ~10 ~10 ~10 ~-10 ~0 ~-10 air
 advancement grant @a[distance=..50] only bracken:the_underdark/cube
 data modify entity @s angry_at set from entity @r[distance=..50] UUID
+
+scoreboard players set @s bp.boss_1 0
+scoreboard players set @s bp.boss_speed 0

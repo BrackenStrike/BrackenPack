@@ -1,0 +1,1 @@
+execute at @n[type=marker,tag=bp.ostiarius.started,distance=..30] run function bracken:entity/boss/ostiarius/misc/end

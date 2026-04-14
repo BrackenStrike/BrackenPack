@@ -1,0 +1,2 @@
+summon slime ^ ^7 ^ {Tags:[bp.spore],Motion:[0.0,100.0,0.0],Size:1,DeathLootTable:"bracken:nothing",active_effects:[{id:"minecraft:slow_falling",amplifier:1b,duration:240,show_particles:0b},{id:"minecraft:levitation",amplifier:10b,duration:20,show_particles:0b},{id:"minecraft:speed",amplifier:7,duration:-1,show_particles:0b}]}
+playsound minecraft:block.bubble_column.bubble_pop hostile @a[distance=..50] ~ ~ ~ 100 0

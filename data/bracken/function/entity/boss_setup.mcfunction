@@ -19,6 +19,7 @@ execute if entity @s[type=minecraft:marker,tag=bp.unsung] if entity @p[distance=
 
 #ostiarius
 execute if entity @s[type=minecraft:marker,tag=bp.ostiarius] if entity @p[distance=..200] run return run function bracken:entity/boss/ostiarius/tick
+execute if entity @s[type=minecraft:giant,tag=bp.ostiarius.core] if entity @p[distance=..200] run return run function bracken:entity/boss/ostiarius/core/tick
 
 #the disruptor
 execute if entity @s[type=minecraft:elder_guardian,tag=bp.the_disruptor] if entity @p[distance=..200] run return run function bracken:entity/boss/the_disruptor/tick

@@ -18,12 +18,17 @@ execute if score @s bp.boss_speed matches 1.. at @n[type=minecraft:armor_stand,t
 execute if entity @s[scores={bp.boss_health=..12}] run function bracken:entity/boss/fae_emperor/misc/neardeath
 
 #arrow rain
-execute if score @s bp.boss_1 matches 1.. run return run function bracken:entity/boss/fae_emperor/attacks/arrow_rain
+execute if score @s bp.boss_1 matches 1.. run function bracken:entity/boss/fae_emperor/attacks/arrow_rain
 
 #bomb fuse
-execute if score @s bp.boss_2 matches 1.. run return run function bracken:entity/boss/fae_emperor/attacks/bomb_fuse
+execute if score @s bp.boss_2 matches 1.. run function bracken:entity/boss/fae_emperor/attacks/bomb_fuse
 
 
+########## 1 second counter
+execute unless predicate bracken:periodic/1s run return 1
+
+execute on vehicle run kill @s[type=!llama]
+kill @e[type=#minecraft:boat,distance=..2] 
 
 
 
