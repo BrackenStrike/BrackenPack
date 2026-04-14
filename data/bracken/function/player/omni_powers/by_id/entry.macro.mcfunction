@@ -3,4 +3,4 @@
 # Creators: crimdev
 ##########################################################
 
-$function bracken:player/omni_powers/by_id/$(omni_function_idx)
+$return run function bracken:player/omni_powers/by_id/$(omni_function_idx)

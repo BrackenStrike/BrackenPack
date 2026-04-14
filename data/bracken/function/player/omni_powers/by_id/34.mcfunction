@@ -1,1 +1,3 @@
-execute if function bracken:player/omni_powers/perms/has/frostlock run function bracken:item/ability_books/frostlock/checks
+execute unless function bracken:player/omni_powers/perms/has/frostlock run return fail
+function bracken:item/ability_books/frostlock/checks
+return 1
