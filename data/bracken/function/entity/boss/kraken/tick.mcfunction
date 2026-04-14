@@ -9,5 +9,3 @@ execute unless entity @p[distance=..151] if entity @s[tag=bp.active] run functio
 
 execute if entity @s[tag=bp.kraken,tag=bp.active] run function bracken:entity/boss/kraken/misc/tick
 
-
-return 1

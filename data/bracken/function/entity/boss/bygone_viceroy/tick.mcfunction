@@ -14,5 +14,3 @@ effect clear @s minecraft:slowness
 
 execute if entity @s[tag=bp.bygone_viceroy.top,tag=bp.active] run function bracken:entity/boss/bygone_viceroy/misc/top_tick
 execute if entity @s[tag=bp.bygone_viceroy.bottom,tag=bp.active] run function bracken:entity/boss/bygone_viceroy/misc/bottom_tick
-
-return 1
