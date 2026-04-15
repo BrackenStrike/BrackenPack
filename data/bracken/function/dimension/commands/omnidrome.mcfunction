@@ -20,7 +20,7 @@ effect give @s[predicate=bracken:sprint,scores={bp.omni_sprint=2..}] minecraft:s
 execute if entity @s[predicate=bracken:sprint,scores={bp.omni_sprint=2..}] run particle minecraft:block_marker{block_state:"minecraft:tinted_glass"} ~ ~1 ~
 
 execute if entity @s[y=-42,dy=-100] run function bracken:dimension/commands/other/omnidrome_loop_bottom
-execute if entity @s[y=280,dy=100] run tp @s ~ -38 ~
+tp @s[y=280,dy=100] ~ -38 ~
 
 # Mansion Spell Book
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_books/mansion/tp_from_mansion/tp_back_setup
@@ -28,7 +28,7 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_bo
 execute if score @s OMNI.COMMAND matches 1..51 run function bracken:player/omni_powers/route
 
 # TODO(?) : Increase cooldown
-execute if score @s bp.1_second matches 18 run scoreboard players enable @s OMNI.COMMAND
+scoreboard players enable @s[scores={bp.1_second=18}] OMNI.COMMAND
 
 execute if score @s bp.1_second matches 3 run function bracken:player/omni_powers/trigger_commands/enable_omni_book_commands
 

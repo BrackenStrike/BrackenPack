@@ -5,7 +5,7 @@ effect give @s slowness 2 10 true
 effect give @s poison 2 1 false
 
 #I can't seem to find which one gives you a score of 15
-execute if score @s bp.hunter_morph matches 15 run effect give @s minecraft:slow_falling infinite 0 false
+effect give @s[scores={bp.hunter_morph=15}] minecraft:slow_falling infinite 0 false
 
 
 #Index Guide

@@ -15,7 +15,7 @@ execute if entity @s[tag=bp.mansion_1] run function bracken:item/ability_books/m
 execute if data storage bracken:config {dimension_travel: true} if entity @s[y=-32,dy=-200] run function bracken:dimension/crossing/voidtp
 
 # Beware the sounds of unknowable creatures as you descend.
-execute if score @s bp.3_second matches 1 if predicate bracken:random/one_in_30 run playsound bracken:void_ambient ambient @s ~ ~ ~ 100 1.0 1
+playsound bracken:void_ambient ambient @s[scores={bp.3_second=1},predicate=bracken:random/one_in_30] ~ ~ ~ 100 1.0 1
 
 #return
 return 1

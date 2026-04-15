@@ -15,4 +15,4 @@ execute if score @s bp.boss_move_state matches 2 run function bracken:entity/bos
 
 ##move.state
 execute if score #dis bp.var matches 0 run scoreboard players add @s bp.boss_move_state 1
-execute if score @s bp.boss_move_state matches 3 run scoreboard players set @s bp.boss_move_state 0
+scoreboard players set @s[scores={bp.boss_move_state=3}] bp.boss_move_state 0

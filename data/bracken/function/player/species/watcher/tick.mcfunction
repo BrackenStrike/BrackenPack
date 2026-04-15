@@ -3,7 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-execute if entity @s[predicate=bracken:survival_like] if score @s bp.sneakcharge matches 20.. run gamemode spectator @s
-execute if entity @s[gamemode=spectator] unless block ~ ~ ~ air run gamemode survival @s
+gamemode spectator @s[scores={bp.sneakcharge=20..},predicate=bracken:survival_like]
+execute unless block ~ ~ ~ air run gamemode survival @s[gamemode=spectator]
 
 return 1

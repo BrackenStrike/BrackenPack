@@ -8,5 +8,5 @@
 
 execute store result score @s bp.absorption run data get entity @s AbsorptionAmount 1
 
-execute if score @s bp.absorption matches ..12 run effect clear @s minecraft:absorption
-execute if score @s bp.absorption matches ..12 run tag @s remove bp.absorption_check
+effect clear @s[scores={bp.absorption=..12}] minecraft:absorption
+tag @s[scores={bp.absorption=..12}] remove bp.absorption_check

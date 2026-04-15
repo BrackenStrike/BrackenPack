@@ -4,9 +4,9 @@
 ##########################################################
 
 #DAMAGE NULLIFY
-execute if entity @s[type=#minecraft:arrows] run data modify entity @s damage set value 0
-execute if entity @s[type=#minecraft:arrows] run data modify entity @s crit set value 0
-execute if entity @s[type=minecraft:trident] run data modify entity @s DealtDamage set value 1b
+data modify entity @s[type=#minecraft:arrows] damage set value 0
+data modify entity @s[type=#minecraft:arrows] crit set value false
+data modify entity @s[type=minecraft:trident] DealtDamage set value 1b
 kill @s[type=#bracken:pax_entities_explosives]
 
 execute if entity @s[type=minecraft:wither] run function bracken:entity/pax/wither_banish

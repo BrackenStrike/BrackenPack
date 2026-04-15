@@ -1,5 +1,5 @@
 #init
-execute if score @s bp.boss_state_cd matches ..0 run scoreboard players set @s bp.boss_state_cd 6000
+scoreboard players set @s[scores={bp.boss_state_cd=..0}] bp.boss_state_cd 6000
 
 
 #commands
@@ -10,7 +10,7 @@ execute store result score @s bp.zmansion run data get entity @p Pos[2]
 scoreboard players add @s bp.ymansion 10
 
 execute positioned ~ ~-10 ~ if entity @e[type=player,distance=..1] run tag @s add bp.slam
-execute if entity @s[tag=bp.slam] run teleport @s ~ ~-0.75 ~
+teleport @s[tag=bp.slam] ~ ~-0.75 ~
 
 execute if entity @s[tag=bp.slam] unless block ~ ~-0.5 ~ air run function bracken:entity/boss/the_disruptor/attack/slam/in_slam
 

@@ -4,22 +4,22 @@ execute unless score @s bp.world_player_id matches 1.. run function bracken:play
 #Check for a valid dimension and also score dimension book is used in
 scoreboard players set @s bp.dimension 0
 
-#execute if entity @s[predicate=bracken:dormis] run scoreboard players set @s bp.dimension -3
-execute if entity @s[predicate=bracken:dimensions/overworld] run scoreboard players set @s bp.dimension 1
-execute if entity @s[predicate=bracken:dimensions/the_end] run scoreboard players set @s bp.dimension 2
-execute if entity @s[predicate=bracken:dimensions/void] run scoreboard players set @s bp.dimension 3
-execute if entity @s[predicate=bracken:dimensions/glacium] run scoreboard players set @s bp.dimension 4
-execute if entity @s[predicate=bracken:dimensions/panacea] run scoreboard players set @s bp.dimension 5
-execute if entity @s[predicate=bracken:dimensions/the_brine] run scoreboard players set @s bp.dimension 6
-execute if entity @s[predicate=bracken:dimensions/pax] run scoreboard players set @s bp.dimension 7
-execute if entity @s[predicate=bracken:dimensions/the_faewild] run scoreboard players set @s bp.dimension 8
-execute if entity @s[predicate=bracken:dimensions/the_underdark] run scoreboard players set @s bp.dimension 9
+#scoreboard players set @s[predicate=bracken:dormis] bp.dimension -3
+scoreboard players set @s[predicate=bracken:dimensions/overworld] bp.dimension 1
+scoreboard players set @s[predicate=bracken:dimensions/the_end] bp.dimension 2
+scoreboard players set @s[predicate=bracken:dimensions/void] bp.dimension 3
+scoreboard players set @s[predicate=bracken:dimensions/glacium] bp.dimension 4
+scoreboard players set @s[predicate=bracken:dimensions/panacea] bp.dimension 5
+scoreboard players set @s[predicate=bracken:dimensions/the_brine] bp.dimension 6
+scoreboard players set @s[predicate=bracken:dimensions/pax] bp.dimension 7
+scoreboard players set @s[predicate=bracken:dimensions/the_faewild] bp.dimension 8
+scoreboard players set @s[predicate=bracken:dimensions/the_underdark] bp.dimension 9
 
-execute if entity @s[predicate=bracken:dimensions/varskspace] run scoreboard players set @s bp.dimension -1
-execute if entity @s[predicate=bracken:dimensions/the_nether] run scoreboard players set @s bp.dimension -2
-execute if entity @s[predicate=bracken:dimensions/sanctum] run scoreboard players set @s bp.dimension -6
-execute if entity @s[predicate=bracken:dimensions/omnidrome] run scoreboard players set @s bp.dimension -7
+scoreboard players set @s[predicate=bracken:dimensions/varskspace] bp.dimension -1
+scoreboard players set @s[predicate=bracken:dimensions/the_nether] bp.dimension -2
+scoreboard players set @s[predicate=bracken:dimensions/sanctum] bp.dimension -6
+scoreboard players set @s[predicate=bracken:dimensions/omnidrome] bp.dimension -7
 
-execute if entity @s[scores={bp.dimension=0}] run tellraw @s {"translate":"§cThis dimension is incompatible to use Magnificent Mansion."}
+tellraw @s[scores={bp.dimension=0}] {"translate":"§cThis dimension is incompatible to use Magnificent Mansion."}
 
 execute unless entity @s[scores={bp.dimension=0}] run function bracken:item/ability_books/mansion/create_portal

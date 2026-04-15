@@ -6,7 +6,7 @@ execute if entity @s[scores={bp.boss_end=125}] run function bracken:entity/boss/
 
 execute if entity @s[scores={bp.boss_end=250}] run function bracken:entity/boss/ostiarius/core/doomsday/doom_event
 
-execute if entity @s[scores={bp.boss_end=375..}] run scoreboard players set @s bp.boss_3 10
+scoreboard players set @s[scores={bp.boss_end=375..}] bp.boss_3 10
 execute if entity @s[scores={bp.boss_end=375}] run function bracken:entity/boss/ostiarius/core/doomsday/doom_event
 
 execute if entity @s[scores={bp.boss_end=499..}] run function bracken:entity/boss/ostiarius/core/doomsday/doomsday

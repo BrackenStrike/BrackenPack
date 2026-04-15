@@ -5,7 +5,7 @@
 
 advancement revoke @s only bracken:potion/greed/2_0_greed
 
-execute if score @s bp.greed_duration matches ..480 run scoreboard players set @s bp.greed_duration 480
+scoreboard players set @s[scores={bp.greed_duration=..480}] bp.greed_duration 480
 scoreboard players set @s bp.greed_amplifier 0
 scoreboard players set @s bp.greed_kills 0
 
