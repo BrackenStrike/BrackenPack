@@ -20,4 +20,4 @@ execute if entity @s[tag=bp.the_disruptor.inactive] run function bracken:entity/
 
 
 #dmg
-execute as @e[type=minecraft:firework_rocket,tag=bp.the_disruptor] if entity @a[distance=..5] run function bracken:entity/boss/the_disruptor/attack/explode/explode_dmg
+execute as @e[type=minecraft:firework_rocket,tag=bp.the_disruptor,distance=..50] if entity @a[distance=..5] run function bracken:entity/boss/the_disruptor/attack/explode/explode_dmg

@@ -1,5 +1,5 @@
 
-execute at @p run playsound minecraft:entity.blaze.death hostile @a[distance=..30] ~ ~ ~ 1 0.3
+playsound minecraft:entity.blaze.death hostile @a[distance=..30] ~ ~ ~ 1 0.3
 
 
 effect give @s instant_damage 3 100 true

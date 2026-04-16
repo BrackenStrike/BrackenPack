@@ -20,7 +20,7 @@ summon minecraft:marker ~7 ~-0.5 ~-15 {Tags:[bp.floating_text]}
 summon minecraft:marker ~15 ~-0.5 ~7 {Tags:[bp.floating_text]}
 
 # RWGB Scores
-execute as @p run function bracken:dimension/commands/gateway/reset_pax_scores_marker1
+execute as @p[distance=..50] run function bracken:dimension/commands/gateway/reset_pax_scores_marker1
 
 # Disables Portal Keys
 execute if data storage bracken:config {portal_keys_on: false} as @e[type=minecraft:marker,tag=bp.pax_scores,distance=..25,limit=1] run function bracken:dimension/commands/gateway/add_key_tags

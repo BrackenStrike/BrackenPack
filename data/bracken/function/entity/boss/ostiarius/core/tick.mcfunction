@@ -24,5 +24,5 @@ effect clear @s glowing
 effect give @s fire_resistance 10 1 true
 effect give @e[distance=..2,type=!giant] poison 2 2 false
 effect give @e[distance=..4,type=!giant] hunger 2 2 false
-data modify entity @n[type=creeper,distance=..50,tag=bp.ostiarius.wave] angry_at set from entity @p UUID
+data modify entity @n[type=creeper,distance=..50,tag=bp.ostiarius.wave] angry_at set from entity @p[distance=..15] UUID
 
