@@ -1,4 +1,4 @@
-effect give @s instant_damage 15 120 true
+
 effect give @s levitation 1 10 true
 effect give @s glowing 1 10 true
 effect give @s slow_falling 3 0 true
