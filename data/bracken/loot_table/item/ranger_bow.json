@@ -12,7 +12,7 @@
 					"minecraft:enchantments": {
 						"minecraft:punch": 10,
 						"minecraft:vanishing_curse": 1,
-						"bracken:sentience_curse_4": 1
+						"bracken:curse/sentience_4": 1
 					},
 					"minecraft:item_name": "\"Dreambow\"",
 					"minecraft:rarity": "epic"

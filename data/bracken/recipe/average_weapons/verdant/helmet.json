@@ -22,7 +22,7 @@
 				"equip_sound": "minecraft:item.bone_meal.use"
 			},
 			"minecraft:enchantments": {
-				"bracken:infused_mending": 1,
+				"bracken:infused/mending": 1,
 				"bracken:vitality": 1
 			},
 			"minecraft:enchantment_glint_override": false,

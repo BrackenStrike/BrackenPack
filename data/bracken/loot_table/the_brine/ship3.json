@@ -47,7 +47,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:boldness": 1,
-					"bracken:maiming_curse": 1
+					"bracken:curse/maiming": 1
 				},
 				"add": false
 			}]
@@ -62,7 +62,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:fragility_curse": 1,
+					"bracken:curse/fragility": 1,
 					"bracken:ferocity": 1
 				},
 				"add": false

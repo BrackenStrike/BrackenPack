@@ -31,7 +31,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:mortality": 1,
-					"bracken:devouring_curse": 1,
+					"bracken:curse/devouring": 1,
 					"bracken:rending": 1
 				},
 				"add": false

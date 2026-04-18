@@ -44,7 +44,7 @@
 					"minecraft:luck_of_the_sea": 11,
 					"minecraft:lure": 3,
 					"minecraft:looting": 5,
-					"bracken:sentience_curse_5": 1
+					"bracken:curse/sentience_5": 1
 				}
 			},{
 				"function": "set_damage",

@@ -16,8 +16,8 @@
 			"minecraft:enchantments": {
 				"minecraft:vanishing_curse": 1,
 				"bracken:quenching": 1,
-				"bracken:infused_frost_walker": 1,
-				"bracken:fragility_curse": 1
+				"bracken:infused/frost_walker": 1,
+				"bracken:curse/fragility": 1
 			},
 			"minecraft:item_model": "bracken:average_weapons/cryolith/boots"
 		}

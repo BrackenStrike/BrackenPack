@@ -16,7 +16,7 @@
 			"operation": "add_value"
 		}]
 	},
-	"exclusive_set": "bracken:maiming_curse",
+	"exclusive_set": "bracken:curse/maiming",
 	"max_cost": {
 		"base": 75,
 		"per_level_above_first": 25

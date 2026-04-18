@@ -260,7 +260,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"minecraft:protection": 4,
-					"bracken:maiming_curse": 1
+					"bracken:curse/maiming": 1
 				},
 				"add": false
 			}]

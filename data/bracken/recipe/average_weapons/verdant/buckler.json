@@ -21,7 +21,7 @@
   "bypassed_by": "#minecraft:bypasses_shield"
 },
 			"minecraft:enchantments": {
-				"bracken:infused_mending": 1,
+				"bracken:infused/mending": 1,
 				"bracken:poisoning": 1
 			},
 			"minecraft:enchantment_glint_override": false,

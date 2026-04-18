@@ -60,7 +60,7 @@
 				"function": "set_enchantments",
 				"enchantments": {
 					"bracken:poisoning": 1,
-					"bracken:infused_mending": 1
+					"bracken:infused/mending": 1
 				}
 			},{
 				"function": "minecraft:set_attributes",
