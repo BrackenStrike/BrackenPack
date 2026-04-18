@@ -1,4 +1,4 @@
-effect give @e[distance=..3] instant_health 2 0 false
+effect give @e[type=slime,distance=..3] instant_health 2 0 false
 effect give @s levitation 1 7 true
 effect give @s slow_falling 3 4 true
 

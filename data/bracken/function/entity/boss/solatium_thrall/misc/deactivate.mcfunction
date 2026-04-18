@@ -1,8 +1,6 @@
 playsound minecraft:entity.cat.hiss hostile @a[distance=..30] ~ ~ ~ 1 0
 
-data merge entity @s {Invulnerable:1b,NoAI:1b}
-effect give @s instant_health 3 100 true
-effect give @e[type=blaze,tag=bp.thrall.element] blindness 1000000 1 false
+data merge entity @s {Invulnerable:1b,NoAI:1b,Health:300}
 
 tellraw @a[distance=..150,scores={bp.10_second=..100}] {"translate":"The Thrall speaks: \"Are you afraid?\"","color":"gold","bold":true}
 
