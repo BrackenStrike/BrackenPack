@@ -5,8 +5,6 @@
 
 advancement revoke @s only bracken:technical/dimension_travel/leave/overworld
 
-attribute @s[tag=bp.human] minecraft:luck modifier add bracken:human.luck 2 add_value
-
 function bracken:dimension/travel/remove_dim_tags
 tag @s add bp.dim_overworld
 function bracken:player/effects_changed
