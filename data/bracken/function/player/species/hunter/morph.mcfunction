@@ -15,6 +15,7 @@ effect give @s[scores={bp.hunter_morph=15}] minecraft:slow_falling infinite 0 fa
 #  4: Tropical Fish
 #  5: Pufferfish
 #  6: Spider Eye
+
 #  7: Potato
 #  8: Melon
 #  9: Apple
@@ -23,6 +24,7 @@ effect give @s[scores={bp.hunter_morph=15}] minecraft:slow_falling infinite 0 fa
 # 12: Sweet Berries
 # 13: Glow Berries
 # 14: Poisonous Potato
+
 # 16: Beef
 # 17: Mutton
 # 18: Porkchop
