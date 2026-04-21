@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "[REDACTED] Details",
+    "font": "alt"
+  },
+  "can_close_with_escape": true,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item":{
+        "id":"minecraft:structure_block",
+        "count":1,
+        "components":{
+          "minecraft:enchantment_glint_override":false,
+          "minecraft:item_model": "bracken:portal_keys/void_key",
+          "minecraft:item_name": "Void Portal Key" 
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "??? blocks tall",
+        "obfuscated": true,
+        "font": "alt"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "??? hearts",
+        "obfuscated": true,
+        "font": "alt"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "you should be thankful they're not canon",
+        "obfuscated": true,
+        "font": "alt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:notice",
+  "title": "Human Details",
+  "can_close_with_escape": true,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item":{
+        "id":"minecraft:player_head",
+        "count":1,
+        "components":{
+          "minecraft:enchantment_glint_override":false
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "2 blocks tall"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "10 hearts"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Average movement speed"
+    }
+  ]
+}

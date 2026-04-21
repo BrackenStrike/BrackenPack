@@ -4,5 +4,5 @@
 # Creators: Grandmaster
 ##########################################################
 
-fill ~3 11 ~3 ~-3 0 ~-3 minecraft:azalea_leaves replace minecraft:air
+fill ~3 11 ~3 ~-3 11 ~-3 minecraft:azalea_leaves replace minecraft:air
 tag @s remove bp.fae_leaves_queue
