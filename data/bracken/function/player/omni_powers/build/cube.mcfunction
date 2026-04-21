@@ -20,3 +20,4 @@ fill ~-7 ~14 ~-7 ~7 ~14 ~-7 minecraft:end_stone_bricks
 fill ~7 ~14 ~-7 ~7 ~14 ~7 minecraft:end_stone_bricks
 fill ~-7 ~14 ~-7 ~-7 ~14 ~7 minecraft:end_stone_bricks
 
+return 1

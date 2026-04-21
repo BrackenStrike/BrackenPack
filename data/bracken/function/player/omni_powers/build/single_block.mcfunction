@@ -5,3 +5,4 @@
 
 place feature bracken:omnidrome/glass
 
+return 1

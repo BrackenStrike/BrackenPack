@@ -12,3 +12,4 @@ scoreboard players enable @s OMNI.COMMAND
 dialog show @s bracken:omnipowers/main
 
 advancement grant @s only bracken:omnidrome/trigger
+return 1
