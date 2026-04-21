@@ -58,6 +58,9 @@ scoreboard objectives add bp.ice dummy
 scoreboard objectives add bp.spawn_loading dummy
 scoreboard players set #1 bp.spawn_loading 1
 
+# Player info menu
+scoreboard objectives add bracken.species_info trigger
+
 # Omnidrome
 scoreboard objectives add bp.omni_flight dummy
 scoreboard objectives add bp.omni_sprint dummy

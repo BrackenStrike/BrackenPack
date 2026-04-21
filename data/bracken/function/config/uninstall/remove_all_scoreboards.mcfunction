@@ -393,3 +393,5 @@ scoreboard objectives remove _OMNI.POWER.tetra_slime
 scoreboard objectives remove _OMNI.POWER.truelight_glow 
 scoreboard objectives remove _OMNI.POWER.world_soar 
 scoreboard objectives remove _OMNI.POWER.worm_toothed_burrower 
+
+scoreboard objectives remove bracken.species_info

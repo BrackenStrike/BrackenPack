@@ -19,3 +19,5 @@ scoreboard players remove @s[scores={bp.sneakcharge=1..},predicate=!bracken:snea
 execute if entity @s[tag=bp.recall_wait] run function bracken:item/ability_books/recall/wait
 execute if score @s bp.giant matches 1.. run function bracken:item/ability_books/swordfall/effects
 execute if score @s bp.void_pull_cooldown matches 1.. run function bracken:item/ability_books/void_pull/effects
+
+execute if score @s bracken.species_info matches 1.. run function bracken:player/species/show_info_dialog

@@ -27,3 +27,4 @@ execute if score @s bp.greed_duration matches 1.. run function bracken:player/po
 # WTB
 scoreboard players remove @s[scores={bp.wtb_cooldown=0..}] bp.wtb_cooldown 1
 
+scoreboard players enable @s bracken.species_info
