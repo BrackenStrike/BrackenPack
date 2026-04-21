@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "hit_interaction": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"bp.pax_interactor\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bracken:entity/pax/deletable"
+  }
+}
