@@ -5,5 +5,3 @@
 
 gamemode spectator @s[scores={bp.sneakcharge=20..},predicate=bracken:survival_like]
 execute unless block ~ ~ ~ air run gamemode survival @s[gamemode=spectator]
-
-return 1

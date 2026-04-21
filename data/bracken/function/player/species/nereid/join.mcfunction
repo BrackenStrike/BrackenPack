@@ -23,5 +23,3 @@ attribute @s minecraft:gravity modifier add bracken:nereid.gravity 0.5 add_multi
 attribute @s minecraft:step_height modifier add bracken:nereid.step_height 1 add_value
 
 function bracken:player/effects_changed
-
-return 1

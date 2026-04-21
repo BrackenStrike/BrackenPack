@@ -9,5 +9,3 @@ team leave @s[team=bp.Realmkeeper]
 
 
 attribute @s minecraft:max_health modifier remove bracken:realmkeeper.max_health
-
-return 1

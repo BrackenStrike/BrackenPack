@@ -12,5 +12,3 @@ execute if block ~ ~ ~ lava run effect give @s minecraft:instant_damage 1 1 true
 effect give @s[scores={bp.food=..15}] minecraft:saturation 1 0 true
 
 #execute if block ~ ~ ~ minecraft:powder_snow run function bracken:player/species/frostkin/powder_snow
-
-return 1

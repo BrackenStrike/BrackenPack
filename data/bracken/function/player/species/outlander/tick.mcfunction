@@ -9,5 +9,3 @@
 
 effect give @s[scores={bp.sneakcharge=30..},predicate=!bracken:effect_immunity/invisibility] minecraft:invisibility 1 0 true
 effect give @s[scores={bp.sneakcharge=30..},predicate=!bracken:effect_immunity/wither] minecraft:wither 1 0 true
-
-return 1

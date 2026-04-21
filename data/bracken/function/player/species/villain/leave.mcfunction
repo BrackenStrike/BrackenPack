@@ -14,5 +14,3 @@ attribute @s minecraft:armor modifier remove bracken:villain.armor
 attribute @s minecraft:luck modifier remove bracken:villain.luck
 
 attribute @s minecraft:max_health modifier remove bracken:villain.max_health
-
-return 1

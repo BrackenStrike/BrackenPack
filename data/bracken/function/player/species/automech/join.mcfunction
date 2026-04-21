@@ -22,5 +22,3 @@ attribute @s minecraft:attack_knockback modifier add bracken:automech.knockback 
 
 
 execute if predicate bracken:dimensions/omnidrome run advancement grant @s only bracken:omnidrome/return
-
-return 1

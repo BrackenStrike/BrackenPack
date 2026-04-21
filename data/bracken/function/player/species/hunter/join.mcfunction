@@ -12,5 +12,3 @@ tag @s add bp.hunter
 execute if data storage bracken:config {teams_on:true} run team join bp.Hunter
 
 function bracken:player/effects_changed
-
-return 1

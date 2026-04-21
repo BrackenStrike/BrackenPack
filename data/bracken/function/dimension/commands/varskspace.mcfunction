@@ -29,5 +29,3 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_bo
 execute if entity @s[scores={bp.sprintcharge=100..}] run function bracken:dimension/crossing/varskspace_to_overworld
 execute if score @s bp.1_second matches 14 if data storage bracken:config {dimension_travel: true} run function bracken:dimension/commands/varskstorm/travel
 
-
-return 1

@@ -9,5 +9,3 @@ team leave @s[team=bp.Human]
 
 attribute @s minecraft:luck modifier remove bracken:human.luck
 execute if predicate bracken:dimensions/overworld run effect clear @s minecraft:hero_of_the_village
-
-return 1

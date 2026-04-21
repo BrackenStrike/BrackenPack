@@ -11,6 +11,3 @@ execute if score @s bp.1_second matches 16 if data storage bracken:config {dimen
 
 # sounds
 execute if predicate bracken:periodic/3s if predicate bracken:random/one_in_30 at @s run function bracken:dimension/commands/the_underdark/underdark_sound_selection
-
-#return
-return 1

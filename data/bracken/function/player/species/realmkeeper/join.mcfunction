@@ -13,5 +13,3 @@ clear @s written_book[minecraft:custom_data~{bp:{id:"species_beginner_book"}}]
 tag @s add bp.species
 tag @s add bp.realmkeeper
 execute if data storage bracken:config {teams_on:true} run team join bp.Realmkeeper
-
-return 1

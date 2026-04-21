@@ -9,6 +9,3 @@ execute if score @s bp.creeper matches 1 if data storage bracken:config {dimensi
 
 # Varskstorm
 execute if entity @s[tag=bp.sparked] unless data storage bracken:var {varskstorm:{stage:0}} run function bracken:dimension/commands/varskstorm/case_check
-
-#return
-return 1

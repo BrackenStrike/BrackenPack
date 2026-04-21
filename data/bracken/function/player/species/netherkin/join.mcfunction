@@ -19,5 +19,3 @@ execute if predicate bracken:dimensions/the_nether run attribute @s minecraft:at
 attribute @s minecraft:max_health modifier add bracken:netherkin.max_health -0.1 add_multiplied_base
 
 function bracken:player/effects_changed
-
-return 1

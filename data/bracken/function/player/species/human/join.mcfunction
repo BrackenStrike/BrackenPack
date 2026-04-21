@@ -15,4 +15,3 @@ attribute @s minecraft:luck modifier add bracken:human.luck 2 add_value
 
 function bracken:player/effects_changed
 
-return 1

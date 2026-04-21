@@ -10,4 +10,3 @@ execute if predicate bracken:rain positioned over motion_blocking run effect giv
 
 execute unless predicate bracken:in_water run function bracken:player/species/automech/on_land
 execute if predicate bracken:in_water run function bracken:player/species/automech/in_water
-return 1

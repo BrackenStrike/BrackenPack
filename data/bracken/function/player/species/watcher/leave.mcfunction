@@ -6,5 +6,3 @@
 tag @s remove bp.species
 tag @s remove bp.watcher
 #team leave @s[team=bp.Watcher]
-
-return 1

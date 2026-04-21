@@ -5,4 +5,3 @@
 
 tp @s @p[distance=1..,predicate=bracken:dimensions/omnidrome]
 
-return 1

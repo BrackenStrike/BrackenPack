@@ -18,6 +18,3 @@ execute if score @s bp.1_second matches 12 if data storage bracken:config {dimen
 # Wind Sounds
 #execute if predicate bracken:periodic/3s positioned over motion_blocking if entity @s[dy=999] run playsound minecraft:item.elytra.flying ambient @s ~ ~ ~ 100 1.0 1
 #execute if predicate bracken:periodic/1s positioned over motion_blocking unless entity @s[dy=999] run stopsound @s ambient minecraft:item.elytra.flying
-
-#return
-return 1

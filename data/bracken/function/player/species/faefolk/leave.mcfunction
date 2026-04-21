@@ -14,5 +14,3 @@ attribute @s minecraft:safe_fall_distance modifier remove bracken:faefolk.safefa
 
 
 attribute @s minecraft:max_health modifier remove bracken:faefolk.max_health
-
-return 1

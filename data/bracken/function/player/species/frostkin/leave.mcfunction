@@ -16,5 +16,3 @@ attribute @s minecraft:step_height modifier remove bracken:frostkin.step_height
 attribute @s minecraft:max_health modifier remove bracken:frostkin.max_health
 attribute @s minecraft:sweeping_damage_ratio modifier remove bracken:frostkin.sweeping
 attribute @s minecraft:movement_efficiency modifier remove bracken:frostkin.movement_efficiency
-
-return 1

@@ -22,5 +22,3 @@ attribute @s minecraft:sweeping_damage_ratio modifier add bracken:frostkin.sweep
 attribute @s minecraft:movement_efficiency modifier add bracken:frostkin.movement_efficiency 1 add_value
 
 function bracken:player/effects_changed
-
-return 1

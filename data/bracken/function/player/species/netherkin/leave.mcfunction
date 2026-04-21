@@ -17,5 +17,3 @@ attribute @s minecraft:max_health modifier remove bracken:netherkin.max_health
 
 effect clear @s minecraft:night_vision
 effect clear @s minecraft:fire_resistance
-
-return 1

@@ -18,8 +18,3 @@ execute if score @s bp.1_second matches 7 if data storage bracken:config {dimens
 
 # Fae Sounds
 execute if predicate bracken:periodic/3s if predicate bracken:random/one_in_30 run playsound bracken:faewild_ambient ambient @s ~ ~ ~ 100 1.0 1
-
-
-
-#return
-return 1

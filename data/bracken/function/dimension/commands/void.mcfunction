@@ -16,6 +16,3 @@ execute if data storage bracken:config {dimension_travel: true} if entity @s[y=-
 
 # Beware the sounds of unknowable creatures as you descend.
 playsound bracken:void_ambient ambient @s[scores={bp.3_second=1},predicate=bracken:random/one_in_30] ~ ~ ~ 100 1.0 1
-
-#return
-return 1

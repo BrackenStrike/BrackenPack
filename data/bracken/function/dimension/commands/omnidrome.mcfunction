@@ -31,6 +31,3 @@ execute if score @s OMNI.COMMAND matches 1..51 run function bracken:player/omni_
 scoreboard players enable @s[scores={bp.1_second=18}] OMNI.COMMAND
 
 execute if score @s bp.1_second matches 3 run function bracken:player/omni_powers/trigger_commands/enable_omni_book_commands
-
-#return
-return 1
