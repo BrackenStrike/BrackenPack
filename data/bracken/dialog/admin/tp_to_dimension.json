@@ -1,0 +1,108 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Dimension Travel Menu",
+  "inputs": [],
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "pause": true,
+  "actions": [
+    {
+      "label": "Teleport to Dormis",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in bracken:dormis run tp @s ~ ~ ~"
+      }
+    },
+    {
+      "label": "Teleport to Glacium",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in bracken:glacium run tp @s ~ ~ ~"
+      }
+    },
+    {
+      "label": "Teleport to Omnidrome",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in bracken:omnidrome run tp @s ~ ~ ~"
+      }
+    },
+    {
+      "label": "Teleport to the Overworld",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in minecraft:overworld run tp @s ~ ~ ~"
+      }
+    },
+    {
+      "label": "Teleport to Panacea",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in bracken:panacea run tp @s ~ ~ ~"
+      }
+    },
+    {
+      "label": "Teleport to Pax",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in bracken:pax run tp @s ~ ~ ~"
+      }
+    },
+    {
+      "label": "Teleport to Sanctum",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in bracken:sanctum run tp @s ~ ~ ~"
+      }
+    },
+    {
+      "label": "Teleport to the Brine",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in bracken:the_brine run tp @s ~ ~ ~"
+      }
+    },
+    {
+      "label": "Teleport to the End",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in minecraft:the_end run tp @s ~ ~ ~"
+      }
+    },
+    {
+      "label": "Teleport to the Faewilds",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in bracken:the_faewild run tp @s ~ ~ ~"
+      }
+    },
+    {
+      "label": "Teleport to the Nether",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in minecraft:the_nether run tp @s ~ ~ ~"
+      }
+    },
+    {
+      "label": "Teleport to the Underdark",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in bracken:the_underdark run tp @s ~ ~ ~"
+      }
+    },
+    {
+      "label": "Teleport to Varskspace",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in bracken:varskspace run tp @s ~ ~ ~"
+      }
+    },
+    {
+      "label": "Teleport to the Void",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "execute in bracken:void run tp @s ~ ~ ~"
+      }
+    }
+  ]
+}
