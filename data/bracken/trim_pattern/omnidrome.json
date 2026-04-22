@@ -1,7 +1,6 @@
 {
-    "asset_id": "bracken:omnidrome/omnidrome",
+    "asset_id": "bracken:omnidrome",
     "description": {
         "translate": "trim_pattern.bracken.omnidrome"
-    },
-    "template_item": "minecraft:barrier"
+    }
 }

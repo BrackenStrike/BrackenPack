@@ -1,7 +1,6 @@
 {
-    "asset_id": "bracken:void/void",
+    "asset_id": "bracken:void",
     "description": {
         "translate": "trim_pattern.bracken.void"
-    },
-    "template_item": "minecraft:barrier"
+    }
 }
