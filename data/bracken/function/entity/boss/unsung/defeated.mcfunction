@@ -1,4 +1,4 @@
-playsound minecraft:block.rabbit.attack hostile @a[distance=..50] ~ ~ ~ 10 0
+playsound minecraft:entity.rabbit.attack hostile @a[distance=..50] ~ ~ ~ 10 0
 
 advancement grant @a[distance=..50] only bracken:the_underdark/unsung
 kill @e[type=armor_stand,tag=bp.sword,distance=..60]

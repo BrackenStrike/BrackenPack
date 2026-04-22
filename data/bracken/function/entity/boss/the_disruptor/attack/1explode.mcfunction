@@ -18,7 +18,7 @@ playsound minecraft:entity.enderman.teleport ambient @a[distance=..30] ~ ~ ~ 1 1
 
 
 scoreboard players add @s bp.boss_1 1
-execute if score @s bp.boss_1 matches 5.. run summon firework_rocket ~ ~ ~ {Tags:["bp.the_disruptor"],ShotAtAngle:1b,Life:0,LifeTime:20,Motion:[0.0,-1.0,0.0],FireworksItem:{id:ender_eye,count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[I;48934],fade_colors:[I;0]}]}}}}
+execute if score @s bp.boss_1 matches 5.. run summon firework_rocket ~ ~ ~ {Tags:["bp.the_disruptor"],ShotAtAngle:1b,Life:0,LifeTime:20,Motion:[0.0,-1.0,0.0],FireworksItem:{id:ender_eye,count:1,components:{"minecraft:fireworks":{explosions:[{shape:"small_ball",colors:[48934],fade_colors:[0]}]}}}}
 scoreboard players set @s[scores={bp.boss_1=5..}] bp.boss_1 0
 
 
