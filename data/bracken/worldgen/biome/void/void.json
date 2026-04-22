@@ -1,4 +1,9 @@
 {
+    "attributes": {
+        "visual/sky_color": 0,
+        "visual/fog_color": 0,
+        "visual/water_fog_color": 0
+    },
     "spawners": {
         "water_ambient": [],
         "ambient": [],
@@ -28,16 +33,10 @@
     ],
     "temperature": 0.95,
     "downfall": 0.1,
-   
     "effects": {
-        "fog_color": 0,
         "water_color": 0,
-        "water_fog_color": 0,
         "grass_color": 0,
-        "sky_color": 0,
-        "foliage_color": 0,
-        "music": [],
-    "music_volume": 0.0
+        "foliage_color": 0
     },
     "has_precipitation": false
 }

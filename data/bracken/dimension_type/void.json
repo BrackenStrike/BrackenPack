@@ -23,9 +23,12 @@
     "minecraft:visual/fog_color": "#000000",
     "minecraft:visual/sky_color": "#000000",
     "minecraft:visual/sky_light_color":"#7d7d7d",
-   
-"minecraft:visual/fog_end_distance": 96.0,
-"minecraft:visual/fog_start_distance": 2.0
+    "minecraft:visual/fog_end_distance": 96.0,
+    "minecraft:visual/fog_start_distance": 2.0,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/snow_golem_melts": false,
+    "minecraft:gameplay/water_evaporates": true
   },
   "coordinate_scale": 1.0,
   "cardinal_light": "nether",
@@ -33,10 +36,6 @@
   "has_skylight": false,
   "has_fixed_time": true,
   "height": 256,
-"minecraft:gameplay/piglins_zombify": false,
-"minecraft:gameplay/can_start_raid": false,
-"minecraft:gameplay/snow_golem_melts": false,
-"minecraft:gameplay/water_evaporates": true,
 
   "infiniburn": "#minecraft:infiniburn_end",
   "logical_height": 100,

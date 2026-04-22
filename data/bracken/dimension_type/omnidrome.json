@@ -22,22 +22,22 @@
     "minecraft:visual/cloud_color": "#00ff3000",
     "minecraft:visual/cloud_height": 90.33,
     "minecraft:visual/fog_color": "#00ff90",
-    "minecraft:visual/sky_color": "#00ff90"
-   
+    "minecraft:visual/sky_color": "#00ff90",
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/can_start_raid": true,
+    "minecraft:gameplay/snow_golem_melts": false,
+
+    "minecraft:gameplay/fast_lava": true,
+    "minecraft:visual/default_dripstone_particle": {
+      "type": "minecraft:dripping_dripstone_lava"
+    }
   },
   "coordinate_scale": 8,
   "has_ceiling": true,
   "has_skylight": true,
 
   "height": 128,
-"minecraft:gameplay/piglins_zombify": false,
-"minecraft:gameplay/can_start_raid": true,
-"minecraft:gameplay/snow_golem_melts": false,
 
-"minecraft:gameplay/fast_lava": true,
-"minecraft:visual/default_dripstone_particle": {
-      "type": "minecraft:dripping_dripstone_lava"
-    },
   "infiniburn": "#minecraft:infiniburn_end",
   "logical_height": 100,
   "min_y": 0,

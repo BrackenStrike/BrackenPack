@@ -1,6 +1,9 @@
 {
-	"description": "Banishment",
-	"color": "dark_purple",
+	"description": 
+	{
+		"translate": "Banishment",
+		"color": "dark_purple"
+	},
 	"effects": {
 		"minecraft:knockback": [
       {

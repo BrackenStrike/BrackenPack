@@ -1,4 +1,30 @@
 {
+    "attributes": {
+        "minecraft:audio/ambient_sounds": 
+        {
+            "mood": {
+                "sound": "minecraft:ambient.cave",
+                "tick_delay": 6000,
+                "block_search_extent": 8,
+                "offset": 2
+            },
+            "additions": {
+                "sound": "minecraft:entity.parrot.ambient",
+                "tick_chance": 0.0002
+            }
+        },
+        "visual/ambient_particles": [
+            {
+                "particle": {
+                    "type": "minecraft:large_smoke"
+                },
+                "probability": 0.004428
+            }
+        ],
+        "visual/sky_color": 7254527,
+        "visual/fog_color": 0,
+        "visual/water_fog_color": 1179648
+    },
     "spawners": {
         "water_ambient": [],
         "ambient": [],
@@ -43,30 +69,9 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "effects": {
-        "mood_sound": {
-            "sound": "minecraft:ambient.cave",
-            "tick_delay": 6000,
-            "block_search_extent": 8,
-            "offset": 2
-        },
-        "fog_color": 0,
         "water_color": 0,
-        "water_fog_color": 1179648,
         "grass_color": 3080192,
-        "sky_color": 7254527,
-        "foliage_color": 4351774,
-        "particle": {
-            "options": {
-                "type": "minecraft:large_smoke"
-            },
-            "probability": 0.004428
-        },
-        "additions_sound": {
-            "sound": "minecraft:entity.parrot.ambient",
-            "tick_chance": 0.0002
-        },
-        "music": [],
-    "music_volume": 0.0
+        "foliage_color": 4351774
     },
     "has_precipitation": false
 }

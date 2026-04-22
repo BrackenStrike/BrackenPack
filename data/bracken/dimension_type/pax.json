@@ -25,18 +25,16 @@
     "minecraft:visual/sky_color": "#cbdfe6",
     "minecraft:visual/cloud_fog_end_distance":1024,
     "minecraft:visual/sky_fog_end_distance":256,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/snow_golem_melts": false,
+    "minecraft:visual/fog_end_distance": 96.0,
     "minecraft:visual/fog_start_distance": 80.0
-   
   },
   "coordinate_scale": 1.0,
   "has_ceiling": false,
   "has_skylight": true,
   "height": 512,
-"minecraft:gameplay/piglins_zombify": false,
-"minecraft:gameplay/can_start_raid": false,
-"minecraft:gameplay/snow_golem_melts": false,
-"minecraft:visual/fog_end_distance": 96.0,
-"minecraft:visual/fog_start_distance": 10.0,
 
   "infiniburn": "#minecraft:infiniburn_pax",
   "logical_height": 100,

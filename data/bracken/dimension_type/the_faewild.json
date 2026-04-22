@@ -31,17 +31,16 @@
     "minecraft:visual/cloud_color": "#899165D9",
     "minecraft:visual/cloud_height": 275.33,
     "minecraft:visual/fog_color": "#000025",
-    "minecraft:visual/sky_color": "#26305f"
+    "minecraft:visual/sky_color": "#26305f",
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/snow_golem_melts": false
   },
   "coordinate_scale": 1.0,
   "has_ceiling": false,
   "has_skylight": true,
   "has_fixed_time": true,
   "height": 288,
-"minecraft:gameplay/piglins_zombify": false,
-"minecraft:gameplay/can_start_raid": false,
-"minecraft:gameplay/snow_golem_melts": false,
-
 
   "infiniburn": "#minecraft:infiniburn_overworld",
   "logical_height": 128,

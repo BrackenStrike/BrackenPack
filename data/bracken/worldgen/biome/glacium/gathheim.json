@@ -1,4 +1,31 @@
 {
+    "attributes": {
+        "minecraft:audio/ambient_sounds": 
+        {
+            "mood": {
+                "sound": "minecraft:ambient.cave",
+                "tick_delay": 6000,
+                "block_search_extent": 8,
+                "offset": 2
+            },
+            "additions": {
+                "sound": "minecraft:ambient.crimson_forest.loop",
+                "tick_chance": 0.02
+            },
+            "loop": "minecraft:item.elytra.flying"
+        },
+        "visual/sky_color": 0,
+        "visual/fog_color": 5924999,
+        "visual/water_fog_color": 7897757,
+        "visual/ambient_particles": [
+            {
+                "particle": {
+                    "type": "minecraft:snowflake"
+                },
+                "probability": 0.0428
+            }
+        ]
+    },
     "spawners": {
         "water_ambient": [],
         "ambient": [],
@@ -44,31 +71,9 @@
     "temperature": 0,
     "downfall": 0.1,
     "effects": {
-        "mood_sound": {
-            "sound": "minecraft:ambient.cave",
-            "tick_delay": 6000,
-            "block_search_extent": 8,
-            "offset": 2
-        },
-        "sky_color": 0,
-        "fog_color": 5924999,
         "water_color": 4014691,
-        "water_fog_color": 7897757,
         "grass_color": 5074010,
-        "foliage_color": 5074010,
-        "particle": {
-            "options": {
-                "type": "minecraft:snowflake"
-            },
-            "probability": 0.0428
-        },
-        "additions_sound": {
-            "sound": "minecraft:ambient.crimson_forest.loop",
-            "tick_chance": 0.02
-        },
-       "music": [],
-    "music_volume": 0.0,
-        "ambient_sound": "minecraft:item.elytra.flying"
+        "foliage_color": 5074010
     },
     "has_precipitation": true
 }

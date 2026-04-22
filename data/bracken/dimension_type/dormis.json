@@ -32,22 +32,22 @@
     "minecraft:visual/fog_color": "#9b8067",
     "minecraft:visual/sky_fog_end_distance":96,
     "minecraft:visual/cloud_fog_end_distance":256,
-    "minecraft:visual/sky_color": "#9b8067"
+    "minecraft:visual/sky_color": "#9b8067",
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/can_start_raid": true,
+    "minecraft:gameplay/snow_golem_melts": true,
+    "minecraft:visual/fog_end_distance": 96.0,
+    "minecraft:visual/fog_start_distance": 10.0,
+    "minecraft:gameplay/fast_lava": true,
+    "minecraft:visual/default_dripstone_particle": {
+      "type": "minecraft:dripping_dripstone_lava"
+    }
   },
   "coordinate_scale": 0.01,
   "has_ceiling": true,
   "has_skylight": false,
   "has_fixed_time": true,
   "height": 512,
-"minecraft:gameplay/piglins_zombify": false,
-"minecraft:gameplay/can_start_raid": true,
-"minecraft:gameplay/snow_golem_melts": true,
-"minecraft:visual/fog_end_distance": 96.0,
-"minecraft:visual/fog_start_distance": 10.0,
-"minecraft:gameplay/fast_lava": true,
-"minecraft:visual/default_dripstone_particle": {
-      "type": "minecraft:dripping_dripstone_lava"
-    },
   "infiniburn": "#minecraft:infiniburn_dormis",
   "logical_height": 256,
   "min_y": 0,

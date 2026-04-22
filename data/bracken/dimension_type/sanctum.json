@@ -23,18 +23,17 @@
     "minecraft:visual/cloud_height": -55.33,
     "minecraft:visual/sky_fog_end_distance":96,
     "minecraft:visual/cloud_fog_end_distance":128,
-   
     "minecraft:visual/fog_color": "#933530",
-    "minecraft:visual/sky_color": "#793530"
+    "minecraft:visual/sky_color": "#793530",
+    "minecraft:gameplay/piglins_zombify": true,
+    "minecraft:gameplay/can_start_raid": true,
+    "minecraft:gameplay/snow_golem_melts": true
   },
   "coordinate_scale": 8.0,
   "has_ceiling": true,
   "has_skylight": true,
   "height": 368,
-"minecraft:gameplay/piglins_zombify": true,
-"minecraft:gameplay/can_start_raid": true,
-"minecraft:gameplay/snow_golem_melts": true,
-"has_fixed_time": true,
+  "has_fixed_time": true,
 
 
   "infiniburn": "#minecraft:infiniburn_sanctum",

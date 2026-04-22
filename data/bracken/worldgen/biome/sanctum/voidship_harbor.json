@@ -19,7 +19,7 @@
         "minecraft:cave",
         "minecraft:cave_extra_underground",
         "minecraft:canyon"
-      ],
+    ],
     "features": [
         [
             "minecraft:sculk_patch_deep_dark"
@@ -54,10 +54,7 @@
     "effects": {
     "water_color": "#702c3d"},
     "attributes": {
-
-   
-   
-    "minecraft:visual/water_fog_color": "#5a0f2d"
-  },
+        "minecraft:visual/water_fog_color": "#5a0f2d"
+    },
     "has_precipitation": false
 }

@@ -28,7 +28,8 @@
         },
         "probability": 0.00025
       }
-    ]
+    ],
+    "visual/water_fog_color": "#000000"
   },
   "spawners": {
         "water_ambient": [],
@@ -94,7 +95,6 @@
     "downfall": 0.1,
     "effects": {       
         "water_color": "#000000",
-        "water_fog_color": "#000000",
         "grass_color": "#dcc589",
         "foliage_color": "#dcc589"},
     "has_precipitation": false

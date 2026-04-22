@@ -1,4 +1,30 @@
 {
+    "attributes": {
+        "minecraft:audio/background_music": {
+            "default": {
+                "max_delay": 24000,
+                "min_delay": 12000,
+                "replace_current_music": false,
+                "sound": {"sound_id": "bracken:underdark"}
+            }
+        },
+        "minecraft:audio/ambient_sounds": 
+        {
+            "mood": {
+                "sound": "minecraft:ambient.cave",
+                "tick_delay": 2000,
+                "block_search_extent": 8,
+                "offset": 2
+            },
+            "additions": {
+                "sound": "minecraft:ambient.basalt_deltas.mood",
+                "tick_chance": 0.0005
+            }
+        },
+        "visual/sky_color": 8600895,
+        "visual/fog_color": 5786701,
+        "visual/water_fog_color": 6383526
+    },
     "spawners": {
         "water_ambient": [],
         "ambient": [
@@ -143,53 +169,9 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "effects": {
-        "fog_color": 5786701,
         "water_color": 8166054,
-        "water_fog_color": 6383526,
         "grass_color": 12162409,
-        "sky_color": 8600895,
-        "foliage_color": 12162409,
-        "mood_sound": {
-            "sound": "minecraft:ambient.cave",
-            "tick_delay": 2000,
-            "block_search_extent": 8,
-            "offset": 2
-        },
-        "additions_sound": {
-            "sound": "minecraft:ambient.basalt_deltas.mood",
-            "tick_chance": 0.0005
-        },
-        "music": [
-           
-              {
-                  "data": {
-                    "max_delay": 24000,
-                    "min_delay": 12000,
-                    "replace_current_music": false,
-                    "sound": "minecraft:music.overworld.dripstone_caves"
-                  },
-                  "weight": 1
-                },
-                {
-                    "data": {
-                      "max_delay": 24000,
-                      "min_delay": 12000,
-                      "replace_current_music": false,
-                      "sound": "minecraft:music.nether.basalt_deltas"
-                    },
-                    "weight": 1
-                  },
-              {
-                  "data": {
-                    "max_delay": 24000,
-                    "min_delay": 12000,
-                    "replace_current_music": false,
-                    "sound": {"sound_id": "bracken:underdark"}
-                  },
-                  "weight": 1
-                }
-        ],
-        "music_volume": 1.0
+        "foliage_color": 12162409
     },
     "has_precipitation": false
 }
