@@ -7,19 +7,23 @@
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {
-					
+					"minecraft:item_model": "bracken:articles/golden_crown",
 					"minecraft:damage": 0.1,
+					"minecraft:equippable": {
+						"slot": "head",
+						"asset_id": "bracken:golden_crown"
+					},
 					"minecraft:damage_resistant": {
-                  "types": "#minecraft:is_explosion"
-                },
+                  	"types": "#minecraft:is_explosion"
+                	},
 					"minecraft:enchantments": {
 						"minecraft:projectile_protection": 50,
 						"minecraft:binding_curse": 1,
 						"bracken:searing_surface":5
 					},
-					"minecraft:item_name": "{\"text\":\"Thrall's Crown\",\"color\":\"gold\",\"bold\":true}",
+					"minecraft:item_name": {"text":"Thrall's Crown","color":"gold","bold":true},
 					"minecraft:lore": [
-						"{\"text\":\"This does not belong to you.\",\"color\":\"gray\"}"
+						{"text":"This does not belong to you.","color":"gray"}
 					],
 					"minecraft:attribute_modifiers": [{
 						"type": "armor_toughness",
