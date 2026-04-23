@@ -3,7 +3,7 @@
 # Creators: Grandmaster and Bracken
 ##########################################################
 
-execute if block ~ ~ ~ minecraft:powder_snow if entity @s[y=283,dy=100] run function bracken:dimension/crossing/faewild_to_pax
+#execute if block ~ ~ ~ minecraft:powder_snow if entity @s[y=283,dy=100] run function bracken:dimension/crossing/faewild_to_pax
 execute if entity @s[y=300,dy=100] run function bracken:dimension/crossing/faewild_to_pax
 execute if entity @s[y=-15,dy=-200] run function bracken:dimension/crossing/faewild_to_overworld
 
