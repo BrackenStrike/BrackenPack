@@ -28,7 +28,6 @@
     "minecraft:gameplay/piglins_zombify": false,
     "minecraft:gameplay/can_start_raid": false,
     "minecraft:gameplay/snow_golem_melts": false,
-    "minecraft:visual/fog_end_distance": 96.0,
     "minecraft:visual/fog_start_distance": 80.0
   },
   "coordinate_scale": 1.0,

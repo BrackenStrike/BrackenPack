@@ -1,8 +1,6 @@
 {
     "sea_level": 0,
     "disable_mob_generation": false,
-    "noise_caves_enabled": true,
-    "noodle_caves_enabled": true,
     "aquifers_enabled": false,
     "ore_veins_enabled": true,
     "legacy_random_source": false,
@@ -667,30 +665,6 @@
                 }
             }
         ]
-    },
-    "structures": {
-        "stronghold": {
-            "distance": 32,
-            "spread": 3,
-            "count": 128
-        },
-        "structures": {
-            "minecraft:mineshaft": {
-                "spacing": 2,
-                "separation": 1,
-                "salt": 14357921
-            },
-            "minecraft:bastion_remnant": {
-                "spacing": 9,
-                "separation": 5,
-                "salt": 0
-            },
-            "minecraft:stronghold": {
-                "spacing": 32,
-                "separation": 8,
-                "salt": 14357619
-            }
-        }
     },
     "spawn_target": [
         {

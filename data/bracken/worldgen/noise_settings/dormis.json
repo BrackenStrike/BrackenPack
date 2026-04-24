@@ -1,8 +1,6 @@
 {
     "sea_level": 5,
     "disable_mob_generation": false,
-    "noise_caves_enabled": true,
-    "noodle_caves_enabled": true,
     "aquifers_enabled": false,
     "ore_veins_enabled": false,
     "legacy_random_source": false,
@@ -19,8 +17,7 @@
         "min_y": 0,
         "height": 512,
         "size_horizontal": 4,
-        "size_vertical": 1,
-        "amplified": true
+        "size_vertical": 1
     },
     "noise_router": {
         "final_density": {
@@ -581,20 +578,6 @@
                 }
             }
         ]
-    },
-    "structures": {
-        "structures": {
-            "minecraft:ruined_portal": {
-                "spacing": 5,
-                "separation": 4,
-                "salt": 30084232
-            },
-            "minecraft:bastion_remnant": {
-                "spacing": 13,
-                "separation": 10,
-                "salt": 30084232
-            }
-        }
     },
     "spawn_target": [
         {

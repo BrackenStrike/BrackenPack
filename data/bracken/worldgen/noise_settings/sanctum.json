@@ -1,8 +1,6 @@
 {
     "sea_level": 31,
     "disable_mob_generation": false,
-    "noise_caves_enabled": false,
-    "noodle_caves_enabled": false,
     "aquifers_enabled": false,
     "ore_veins_enabled": false,
     "legacy_random_source": false,
@@ -656,30 +654,6 @@
                 }
             }
         ]
-    },
-    "structures": {
-        "structures": {
-            "minecraft:nether_fossil": {
-                "spacing": 18,
-                "separation": 14,
-                "salt": 14357921
-            },
-            "minecraft:village": {
-                "spacing": 34,
-                "separation": 18,
-                "salt": 14357921
-            },
-            "minecraft:pillager_outpost": {
-                "spacing": 26,
-                "separation": 16,
-                "salt": 14357921
-            },
-            "minecraft:bastion_remnant": {
-                "spacing": 32,
-                "separation": 20,
-                "salt": 14357921
-            }
-        }
     },
     "spawn_target": [
         {
