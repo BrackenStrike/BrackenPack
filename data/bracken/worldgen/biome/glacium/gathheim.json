@@ -14,9 +14,6 @@
             },
             "loop": "minecraft:item.elytra.flying"
         },
-        "visual/sky_color": 0,
-        "visual/fog_color": 5924999,
-        "visual/water_fog_color": 7897757,
         "visual/ambient_particles": [
             {
                 "particle": {

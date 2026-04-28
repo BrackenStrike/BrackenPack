@@ -10,7 +10,6 @@
         "tick_delay": 6000
       }
     },
-   
     "minecraft:gameplay/bed_rule": {
       "can_set_spawn": "never",
       "can_sleep": "always",
@@ -20,8 +19,9 @@
     },
     "minecraft:gameplay/nether_portal_spawns_piglin": false,
     "minecraft:gameplay/respawn_anchor_works": false,
-    "minecraft:visual/fog_color": "#000000",
-    "minecraft:visual/sky_color": "#000000",
+    "visual/sky_color": 0,
+    "visual/fog_color": 0,
+    "visual/water_fog_color": 0,
     "minecraft:visual/sky_light_color":"#7d7d7d",
     "minecraft:visual/fog_end_distance": 96.0,
     "minecraft:visual/fog_start_distance": 2.0,

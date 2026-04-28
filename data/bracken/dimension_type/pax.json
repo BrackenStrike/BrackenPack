@@ -23,6 +23,7 @@
     "minecraft:visual/cloud_height": 63.33,
     "minecraft:visual/fog_color": "#d7dcd8",
     "minecraft:visual/sky_color": "#cbdfe6",
+    "minecraft:visual/water_fog_color": 2173534,
     "minecraft:visual/cloud_fog_end_distance":1024,
     "minecraft:visual/sky_fog_end_distance":256,
     "minecraft:gameplay/piglins_zombify": false,

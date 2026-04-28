@@ -26,10 +26,7 @@
                 "type": "minecraft:mycelium"
             },
             "probability": 0.118093334
-        }],
-        "visual/sky_color": 8600895,
-        "visual/fog_color": 5786701,
-        "visual/water_fog_color": 6383526
+        }]
     },
     "spawners": {
         "water_ambient": [],

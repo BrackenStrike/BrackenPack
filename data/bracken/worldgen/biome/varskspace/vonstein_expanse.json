@@ -27,10 +27,7 @@
                 "type": "minecraft:dripping_obsidian_tear"
             },
             "probability": 0.00118093334
-        }],
-        "visual/sky_color": 11041992,
-        "visual/fog_color": 11959551,
-        "visual/water_fog_color": 14606591
+        }]
     },
     "spawners": {
         "water_ambient": [],

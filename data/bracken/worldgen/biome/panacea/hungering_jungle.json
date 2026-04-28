@@ -20,10 +20,7 @@
                 "sound": "minecraft:entity.parrot.ambient",
                 "tick_chance": 0.0002
             }
-        },
-        "visual/sky_color": 11919559,
-        "visual/fog_color": 14280612,
-        "visual/water_fog_color": 11503445
+        }
     },
     "spawners": {
         "water_ambient": [{

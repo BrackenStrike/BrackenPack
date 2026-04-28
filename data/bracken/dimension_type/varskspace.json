@@ -28,6 +28,7 @@
     "minecraft:gameplay/respawn_anchor_works": false,
     "minecraft:visual/fog_color": "#b67cff",
     "minecraft:visual/sky_color": "#a87cc8",
+    "minecraft:visual/water_fog_color": 14606591,
     "minecraft:gameplay/piglins_zombify": false,
     "minecraft:gameplay/can_start_raid": false,
     "minecraft:gameplay/snow_golem_melts": false,

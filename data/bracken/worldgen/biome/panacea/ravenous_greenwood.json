@@ -21,9 +21,7 @@
                 "tick_chance": 0.0002
             }
         },
-        "visual/sky_color": 11919559,
-        "visual/fog_color": 13359780,
-        "visual/water_fog_color": 11503445
+        "visual/fog_color": 13359780
     },
     "spawners": {
         "water_ambient": [{

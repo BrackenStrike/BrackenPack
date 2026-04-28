@@ -21,10 +21,7 @@
                 "tick_chance": 0.02
             },
             "loop": "minecraft:ambient.soul_sand_valley.loop"
-        },
-        "visual/sky_color": 0,
-        "visual/fog_color": 5924999,
-        "visual/water_fog_color": 7897757
+        }
     },
     "spawners": {
         "water_ambient": [{

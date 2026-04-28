@@ -13,10 +13,7 @@
                 "type": "minecraft:falling_nectar"
             },
             "probability": 1e-05
-        }],
-        "visual/sky_color": 13361126,
-        "visual/fog_color": 14146776,
-        "visual/water_fog_color": 2173534
+        }]
     },
     "spawners": {
         "water_ambient": [],

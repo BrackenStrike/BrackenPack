@@ -1,9 +1,4 @@
 {
-    "attributes": {
-        "visual/sky_color": 0,
-        "visual/fog_color": 0,
-        "visual/water_fog_color": 0
-    },
     "spawners": {
         "water_ambient": [],
         "ambient": [],

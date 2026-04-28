@@ -32,6 +32,7 @@
     "minecraft:visual/cloud_height": 560.33,
     "minecraft:visual/fog_color": "#bef0e1",
     "minecraft:visual/sky_color": "#cdffe1",
+    "minecraft:visual/water_fog_color": "#2f3254",
     "minecraft:gameplay/piglins_zombify": false,
     "minecraft:gameplay/can_start_raid": true,
     "minecraft:gameplay/snow_golem_melts": true,

@@ -28,8 +28,7 @@
             "probability": 0.0001428
         }],
         "visual/sky_color": 14147765,
-        "visual/fog_color": 15132551,
-        "visual/water_fog_color": 11503445
+        "visual/fog_color": 15132551
     },
     "spawners": {
         "water_ambient": [],

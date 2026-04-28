@@ -25,10 +25,7 @@
                 "type": "minecraft:white_ash"
             },
             "probability": 0.118093334
-        }],
-        "visual/sky_color": 7943472,
-        "visual/fog_color": 9647408,
-        "visual/water_fog_color": 11414808
+        }]
     },
     "spawners": {
         "water_ambient": [],

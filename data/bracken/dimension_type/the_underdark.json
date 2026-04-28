@@ -19,7 +19,6 @@
         "sound": {"sound_id": "bracken:underdark"}
       }
     },
-   
     "minecraft:gameplay/bed_rule": {
       "can_set_spawn": "always",
       "can_sleep": "always",
@@ -33,6 +32,7 @@
     "minecraft:visual/cloud_height": 208.33,
     "minecraft:visual/fog_color": "#584c4d",
     "minecraft:visual/sky_color": "#833d3f",
+    "minecraft:visual/water_fog_color": 6383526,
     "minecraft:visual/sky_fog_end_distance":96,
     "minecraft:visual/cloud_fog_end_distance":128,
     "minecraft:visual/fog_end_distance": 96.0,

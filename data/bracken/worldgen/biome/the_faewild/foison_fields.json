@@ -19,10 +19,7 @@
                 "block_search_extent": 8,
                 "offset": 2
             }
-        },
-        "visual/sky_color": 2502751,
-        "visual/fog_color": 6113113,
-        "visual/water_fog_color": 4995962
+        }
     },
     "spawners": {
         "water_ambient": [],

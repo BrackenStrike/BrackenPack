@@ -13,10 +13,7 @@
                 "type": "minecraft:falling_honey"
             },
             "probability": 0.000118093334
-        }],
-        "visual/sky_color": 13361126,
-        "visual/fog_color": 14146776,
-        "visual/water_fog_color": 2173534
+        }]
     },
     "spawners": {
         "water_ambient": [],
