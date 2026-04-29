@@ -3,6 +3,7 @@
 # Creators: Bracken
 ##########################################################
 
-place feature bracken:omnidrome/cyber_tree1
+setblock ~ ~-1 ~ obsidian
+place feature bracken:omnidrome/cyber_tree1 ~ ~ ~
 
 return 1
