@@ -10,7 +10,7 @@ kill @e[type=experience_orb,distance=..5]
 execute if score @s bp.1_second matches 2 run function bracken:entity/omnidrome/summon_omni_mobs
 
 # Dimension Travel
-execute if data storage bracken:config {dimension_travel: true} if predicate bracken:sprint if entity @n[type=minecraft:end_crystal,distance=..2] run function bracken:dimension/crossing/omnidrome_to_sanctum
+execute if data storage bracken:config {dimension_travel: true} if predicate bracken:sprint if entity @n[type=minecraft:end_crystal,distance=..2] run return run function bracken:dimension/crossing/omnidrome_to_sanctum
 
 # Movement and Effects
 effect give @s[scores={bp.omni_flight=2..,bp.sneakcharge=10..}] minecraft:levitation 1 15 true
