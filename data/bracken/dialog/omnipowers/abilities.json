@@ -13,7 +13,7 @@
       "dialog": "bracken:omnipowers/main"
     }
   },
-  "columns": 4,
+  "columns": 3,
   "actions": [
     {
       "label": "Adamantine will",
