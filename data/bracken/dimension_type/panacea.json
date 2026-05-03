@@ -25,7 +25,6 @@
     "minecraft:visual/fog_color": 14280587,
     "minecraft:visual/water_fog_color": 11503445,  
     "minecraft:visual/fog_end_distance": 96.0,
-    "minecraft:visual/cloud_fog_end_distance":512,
     "minecraft:visual/fog_start_distance": 20.0,
     "minecraft:gameplay/piglins_zombify": false,
     "minecraft:gameplay/can_start_raid": false,
@@ -33,7 +32,10 @@
     "minecraft:gameplay/fast_lava": true,
     "minecraft:visual/default_dripstone_particle": {
       "type": "minecraft:dripping_dripstone_lava"
-    }
+    },
+    
+    "minecraft:visual/cloud_fog_end_distance":512.0032
+    
   },
   "coordinate_scale": 1.0,
   "has_ceiling": false,

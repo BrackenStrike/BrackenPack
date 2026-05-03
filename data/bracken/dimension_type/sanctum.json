@@ -22,13 +22,14 @@
     "minecraft:visual/cloud_color": "#898005d9",
     "minecraft:visual/cloud_height": -55.33,
     "minecraft:visual/sky_fog_end_distance":96,
-    "minecraft:visual/cloud_fog_end_distance":128,
     "minecraft:visual/fog_color": "#933530",
     "minecraft:visual/sky_color": "#793530",
     "minecraft:visual/water_fog_color": 11414808,
     "minecraft:gameplay/piglins_zombify": true,
     "minecraft:gameplay/can_start_raid": true,
-    "minecraft:gameplay/snow_golem_melts": true
+    "minecraft:gameplay/snow_golem_melts": true,
+
+    "visual/cloud_fog_end_distance": 128.0034
   },
   "coordinate_scale": 8.0,
   "has_ceiling": true,

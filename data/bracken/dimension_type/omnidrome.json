@@ -27,11 +27,12 @@
     "minecraft:gameplay/piglins_zombify": false,
     "minecraft:gameplay/can_start_raid": true,
     "minecraft:gameplay/snow_golem_melts": false,
-
     "minecraft:gameplay/fast_lava": true,
     "minecraft:visual/default_dripstone_particle": {
       "type": "minecraft:dripping_dripstone_lava"
-    }
+    },
+    
+    "visual/cloud_fog_end_distance": 2040.0033
   },
   "coordinate_scale": 8,
   "has_ceiling": true,

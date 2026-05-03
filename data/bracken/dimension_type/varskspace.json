@@ -32,7 +32,9 @@
     "minecraft:gameplay/piglins_zombify": false,
     "minecraft:gameplay/can_start_raid": false,
     "minecraft:gameplay/snow_golem_melts": false,
-    "minecraft:gameplay/water_evaporates": true
+    "minecraft:gameplay/water_evaporates": true,
+    
+    "visual/cloud_fog_end_distance": 2040.0035
   },
   "coordinate_scale": 100.0,
   "has_ceiling": true,
