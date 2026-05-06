@@ -1,39 +1,67 @@
 {
-	"pools": [{
-		"rolls": 1,
-		"entries": [{
-			"type": "minecraft:loot_table",
-			"value": "bracken:item/ability_books/frostlock"
-		}]
-	},{
-		"rolls": 1,
-		"entries": [{
-			"type": "minecraft:loot_table",
-			"value": "bracken:item/portal_keys/glacium_key"
-		}]
-	},{
-		"rolls": 1,
-		"entries": [{
-			"type": "minecraft:item",
-			"name": "minecraft:beacon"
-		}]
-	},{
-		"rolls": {
-			"min": 2,
-			"max": 5
-		},
-		"entries": [{
-			"type": "minecraft:loot_table",
-			"value": "bracken:item/glacium/cryolith"
-		}]
-	},{
-		"rolls": {
-			"min": 0,
-			"max": 10
-		},
-		"entries": [{
-			"type": "minecraft:item",
-			"name": "minecraft:bone"
-		}]
-	}]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/ability_books/frostlock"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/portal_keys/glacium_key"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beacon"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/glacium/cryolith",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "function": "minecraft:enchanted_count_increase",
+              "count": 1,
+              "limit": 7,
+              "enchantment": "minecraft:looting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone"
+        }
+      ]
+    }
+  ]
 }
