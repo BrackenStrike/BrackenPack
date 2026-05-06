@@ -1,13 +1,13 @@
 {
     "pools": [
-       
-       
         {
             "rolls": 1,
-            "entries": [{
-                "type": "minecraft:item",
+            "entries": [
+                {
+                    "type": "minecraft:item",
                     "name": "minecraft:resin_clump"
-            }]
+                }
+            ]
         }
     ]
 }
