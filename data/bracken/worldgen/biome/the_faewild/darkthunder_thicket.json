@@ -86,7 +86,12 @@
             }
         ]
     },
-    "spawn_costs": {},
+    "spawn_costs": {
+        "minecraft:phantom":{
+            "charge": 1,
+            "energy_budget": 4
+        }
+    },
     "carvers": [],
     "features": [
         [],

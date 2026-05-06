@@ -7,7 +7,7 @@
 		},
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:netherite_ingot",
+			"name": "minecraft:netherite_scrap",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.05
