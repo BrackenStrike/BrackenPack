@@ -14,9 +14,3 @@ execute unless entity @p[distance=..95] if entity @s[tag=bp.active,name=!Rocco] 
 
 # crownblaze
 execute at @e[type=minecraft:blaze,tag=bp.crownblaze,distance=..200] run function bracken:entity/boss/solatium_thrall/misc/crownblaze
-
-
-########## 5 second counter
-execute unless predicate bracken:periodic/5s run return 1
-
-data merge entity @s {InWaterTime:-1}

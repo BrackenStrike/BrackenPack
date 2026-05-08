@@ -25,7 +25,7 @@ execute if entity @s[type=minecraft:giant,tag=bp.ostiarius.core] if entity @p[di
 execute if entity @s[type=minecraft:elder_guardian,tag=bp.the_disruptor] if entity @p[distance=..200] run return run function bracken:entity/boss/the_disruptor/tick
 
 #bygone viceroy
-execute if entity @s[type=minecraft:stray,tag=bp.bygone_viceroy] if entity @p[distance=..200] run return run function bracken:entity/boss/bygone_viceroy/tick
+execute if entity @s[type=minecraft:wither_skeleton,tag=bp.bygone_viceroy] if entity @p[distance=..200] run return run function bracken:entity/boss/bygone_viceroy/tick
 
 #sporangium
 execute if entity @s[type=minecraft:slime,tag=bp.sporangium] if entity @p[distance=..200] run return run function bracken:entity/boss/sporangium/tick
