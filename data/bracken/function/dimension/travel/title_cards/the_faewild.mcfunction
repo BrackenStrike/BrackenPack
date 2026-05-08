@@ -1,7 +1,7 @@
 ##########################################################
 # Description: Sends a title command the first time entering the faewild
-# Creators: Grandmaster
+# Creators: Grandmaster, Bracken
 ##########################################################
 
 title @s title ["~ ",{"text":"The Faewild","bold":true,"color":"dark_aqua"}," ~"]
-title @s subtitle [{"text":"the enchanting forests","bold":true,"color":"gray"}]
+title @s subtitle [{"text":"The Dawn Above","bold":true,"color":"gray"}]

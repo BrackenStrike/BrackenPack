@@ -1,7 +1,7 @@
 ##########################################################
 # Description: Sends a title command the first time entering Omnidrome
-# Creators: Grandmaster
+# Creators: Grandmaster, Bracken
 ##########################################################
 
 title @s title ["~ ",{"text":"Omnidrome","bold":true,"color":"green"}," ~"]
-title @s subtitle [{"text":"the artificial matrix","bold":true,"color":"gray"}]
+title @s subtitle [{"text":"The Forbidden Dimension","bold":true,"color":"gray"}]
