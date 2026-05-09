@@ -3,17 +3,43 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:glow_berries"
-		}],
-		"conditions": [{
-			"condition": "minecraft:random_chance",
-			"chance": 0.2
+			"name": "minecraft:glow_berries",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"max": 2.0,
+					"min": -2.0
+				}
+			},{
+				"function": "enchanted_count_increase",
+				"count": {
+					"max": 2.0,
+					"min": 1.0
+				},
+				"enchantment": "looting",
+				"limit": 4
+			}]
 		}]
 	},{
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:leather"
+			"name": "minecraft:leather",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"max": 2.0,
+					"min": 1.0
+				}
+			},{
+				"function": "enchanted_count_increase",
+				"count": {
+					"max": 2.0,
+					"min": 1.0
+				},
+				"enchantment": "looting",
+				"limit": 4
+			}]
 		}]
 	}]
 }
