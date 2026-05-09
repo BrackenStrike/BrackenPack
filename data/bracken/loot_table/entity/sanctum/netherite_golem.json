@@ -2,46 +2,71 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
+          "name": "minecraft:wither_rose",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {
+              "max": 1.0,
+              "min": 0.0
             }
-          ],
-          "name": "minecraft:wither_rose"
+          },{
+            "function": "enchanted_count_increase",
+            "count": {
+              "max": 2.0,
+              "min": 1.0
+            },
+            "enchantment": "looting",
+            "limit": 10
+          }]
         }
-      ],
-      "rolls": 1.0
+      ]
     },
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1.0,
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
+          "name": "minecraft:netherite_scrap",
+          "functions": [{
+            "function": "minecraft:set_count",
+            "count": {
+              "max": 2.0,
+              "min": 1.0
             }
-          ],
-          "name": "minecraft:netherite_scrap"
+          },{
+            "function": "enchanted_count_increase",
+            "count": {
+              "max": 2.0,
+              "min": 1.0
+            },
+            "enchantment": "looting",
+            "limit": 4
+          }]
         }
-      ],
-      "rolls": 1.0
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot",
+          "conditions": [{
+            "condition": "random_chance_with_enchanted_bonus",
+            "unenchanted_chance": 0.01,
+            "enchanted_chance": {
+              "type": "linear",
+              "base": 0.02,
+              "per_level_above_first": 0.01
+            },
+            "enchantment": "looting"
+          }]
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:entities/iron_golem"
