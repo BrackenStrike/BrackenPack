@@ -3,11 +3,13 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
-			"value": "bracken:item/the_brine/jellyfish_stinger"
-		}],
-		"conditions": [{
-			"condition": "minecraft:random_chance",
-			"chance": 0.8
-		}]
+			"value": "bracken:item/the_brine/jellyfish_stinger",
+			"conditions": [{
+				"condition": "random_chance_with_enchanted_bonus",
+				"unenchanted_chance": 0.8,
+				"enchanted_chance": 1.0,
+				"enchantment": "looting"
+			}]
+		}]	
 	}]
 }
