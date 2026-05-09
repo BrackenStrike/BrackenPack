@@ -22,8 +22,3 @@ data merge entity @n[type=sniffer,distance=..100,tag=!bp.giant_sniffer] {CustomN
 data merge entity @n[type=zombie_villager,distance=..100,tag=!bp.yakitubba1] {CustomName:{"text":"Baby Yakitubba ","color":"dark_green"},CustomNameVisible:0b,Silent:1b,IsBaby:1b,equipment:{head:{id:"minecraft:bamboo",count:1b,components:{"minecraft:custom_name":{"text":"Yakitubba","italic":false},"minecraft:item_model":"bracken:shadows/baby_yakitubba","minecraft:enchantment_glint_override":false,"minecraft:enchantments":{"minecraft:vanishing_curse":1}  }}},attributes:[{id:follow_range,base:64},{id:movement_speed,base:0.1}],active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:speed",amplifier:1b,duration:5b,show_particles:0b}],drop_chances:{head:0f,chest:0f,legs:0f,feet:0f},Tags:["bp.yakitubba1"],DeathLootTable:"bracken:entity/panacea/yakitubba1"}
 
 
-kill @e[tag=bp.rain_event_marker,type=minecraft:armor_stand,predicate=bracken:on_ground]
-execute at @e[type=minecraft:area_effect_cloud,nbt={potion_contents:{custom_effects:[{id:"minecraft:unluck",amplifier:10b}]}}] run function bracken:entity/panacea/leaf_cube
-
-
-
