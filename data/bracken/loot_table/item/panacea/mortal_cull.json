@@ -58,12 +58,6 @@
 					"operation": "add_value",
 					"slot": "mainhand"
 				}]
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
-				}
 			}]
 		}]
 	}]

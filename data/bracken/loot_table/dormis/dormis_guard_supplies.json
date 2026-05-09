@@ -65,6 +65,12 @@
 					"minecraft:binding_curse": 1
 				},
 				"add": false
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},
 		{
@@ -80,6 +86,12 @@
 					"minecraft:binding_curse": 1
 				},
 				"add": false
+			},{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},
 		{

@@ -41,12 +41,6 @@
 					"italic": false
 				}],
 				"mode": "insert"
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.78,
-					"max": 0.83
-				}
 			}]
 		}]
 	}]

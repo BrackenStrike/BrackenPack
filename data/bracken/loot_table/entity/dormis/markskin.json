@@ -2,18 +2,21 @@
     "pools": [
         {
             "rolls": 1,
-            "entries": [
-                {
-                    "type": "minecraft:loot_table",
-			"value": "bracken:item/articles/blindfold"
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:random_chance",
-                    "chance": 0.0525
-                }
-            ]
+            "entries": [{
+                "type": "minecraft:loot_table",
+                "value": "bracken:item/articles/blindfold"
+            }],
+            "conditions": [{
+                "condition": "minecraft:random_chance",
+                "chance": 0.0525
+            }],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
         },
         {
             "rolls": 1,
