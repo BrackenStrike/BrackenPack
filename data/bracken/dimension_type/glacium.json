@@ -44,7 +44,7 @@
     "minecraft:gameplay/fast_lava": false,
     "gameplay/increased_fire_burnout":true,
     
-    "visual/cloud_fog_end_distance": 2040.0036
+    "visual/cloud_fog_end_distance": 2040.0026
   },
   "coordinate_scale": 1,
   "has_ceiling": true,
