@@ -7,8 +7,14 @@
                 "value": "bracken:item/articles/blindfold"
             }],
             "conditions": [{
-                "condition": "minecraft:random_chance",
-                "chance": 0.0525
+                "condition": "minecraft:random_chance_with_enchanted_bonus",
+                "unenchanted_chance": 0.0525,
+                "enchanted_chance": {
+                    "type": "linear",
+                    "base": 0.0625,
+                    "per_level_above_first": 0.01
+                },
+                "enchantment": "looting"
             }],
 			"functions": [{
 				"function": "set_damage",
