@@ -11,7 +11,13 @@
         "axolotls": [],
         "creature": [],
         "misc": [],
-        "monster": [      
+        "monster": [ 
+          {
+            "type": "minecraft:drowned",
+            "maxCount": 4,
+            "minCount": 1,
+            "weight": 7
+          }     
         ],
         "underground_water_creature": [],
         "water_ambient": [
@@ -20,11 +26,24 @@
             "maxCount": 8,
             "minCount": 8,
             "weight": 25
+          },
+          {
+            "type": "minecraft:squid",
+            "maxCount": 4,
+            "minCount": 4,
+            "weight": 10
           }
         ],
-        "water_creature": []
+        "water_creature": [
+          
+        ]
       },
-    "spawn_costs": {},
+    "spawn_costs": {
+      "minecraft:drowned":{
+        "charge": 1,
+        "energy_budget": 10
+      }
+    },
     "carvers": [],
     "features": [
         [],
