@@ -46,12 +46,6 @@
 					"minecraft:looting": 5,
 					"bracken:curse/sentience_5": 1
 				}
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.38,
-					"max": 0.93
-				}
 			}]
 		}]
 	}]

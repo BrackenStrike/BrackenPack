@@ -34,12 +34,6 @@
 				"target": "item_name",
 				"name": "Nightfall"
 			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.88,
-					"max": 0.93
-				}
-			},{
 				"function": "set_enchantments",
 				"enchantments": { "bracken:technical/nightfall": 1 }
 			}]

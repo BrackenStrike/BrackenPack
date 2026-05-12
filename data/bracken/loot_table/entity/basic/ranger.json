@@ -1,19 +1,52 @@
 {
-	"pools": [{
-		"rolls": 1,
-		"entries": [{
-			"type": "minecraft:loot_table",
-			"value": "bracken:item/ranger_bow"
-		}],
-		"conditions": [{
-			"condition": "minecraft:random_chance",
-			"chance": 0.1
-		}]
-	},{
-		"rolls": 1,
-		"entries": [{
-			"type": "minecraft:item",
-			"name": "minecraft:dandelion"
-		}]
-	}]
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/ranger_bow",
+          "functions": [
+            {
+              "function": "set_damage", 
+              "damage": {
+                "max": 0.5,
+                "min": 0.02
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.1,
+          "enchanted_chance": {
+            "type": "linear",
+            "base": 0.2,
+            "per_level_above_first": 0.1
+          },
+          "enchantment": "minecraft:looting"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dandelion",
+          "conditions": []
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchanted_count_increase",
+          "count": 1,
+          "limit": 3,
+          "enchantment": "minecraft:looting"
+        }
+      ]
+    }
+  ]
 }

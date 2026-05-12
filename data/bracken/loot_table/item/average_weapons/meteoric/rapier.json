@@ -67,12 +67,6 @@
           "bypassed_by": "#bracken:bypasses_sword"
         }
 				}
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
-				}
 			}]
 		}]
 	}]

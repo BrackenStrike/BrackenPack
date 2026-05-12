@@ -8,7 +8,6 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:articles/golden_crown",
-					"minecraft:damage": 0.1,
 					"minecraft:equippable": {
 						"slot": "head",
 						"asset_id": "bracken:golden_crown"

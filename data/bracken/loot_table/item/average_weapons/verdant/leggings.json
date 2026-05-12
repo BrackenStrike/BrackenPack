@@ -26,12 +26,6 @@
 						"equip_sound": "minecraft:item.bone_meal.use"
 					}
 				}
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
-				}
 			}]
 		}]
 	}]

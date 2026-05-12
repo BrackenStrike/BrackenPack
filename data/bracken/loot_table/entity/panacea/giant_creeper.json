@@ -1,29 +1,45 @@
 {
     "pools": [
         {
-            "rolls": 3,
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "bracken:item/panacea/panaspore"
+                    "value": "bracken:item/panacea/panaspore",
+                    "functions": [{
+                        "function": "set_count",
+                        "count": 3
+                    },{
+                        "function": "enchanted_count_increase",
+                        "count": {
+                            "max": 3,
+                            "min": 1
+                        },
+                        "enchantment": "minecraft:looting"
+                    }]
                 }
             ]
         },
         {
-            "rolls": {
-                "min": 5,
-                "max": 12
-            },
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:gunpowder"
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:random_chance",
-                    "chance": 0.85
+                    "name": "minecraft:gunpowder",
+                    "functions": [{
+                        "function": "set_count",
+                        "count": {
+                            "min": 5,
+                            "max": 12
+                        }
+                    },{
+                        "function": "enchanted_count_increase",
+                        "count": {
+                            "max": 5,
+                            "min": 1
+                        },
+                        "enchantment": "minecraft:looting"
+                    }]
                 }
             ]
         },

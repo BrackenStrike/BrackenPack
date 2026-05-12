@@ -20,11 +20,27 @@
             ]
         },
         {
-            "rolls": 1,
-            "entries": [{
+            "rolls": 1, 
+            "entries": [
+                {
                     "type": "minecraft:loot_table",
-			        "value": "bracken:item/average_weapons/diamond/shard"
-            }]
+                    "value": "bracken:item/average_weapons/diamond/shard",
+                    "functions": [{
+                        "function": "set_count",
+                        "count": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    },{
+                        "function": "enchanted_count_increase",
+                        "count": {
+                            "max": 3,
+                            "min": 0
+                        },
+                        "enchantment": "minecraft:looting"
+                    }]
+                }
+            ]
         }
     ]
 }
