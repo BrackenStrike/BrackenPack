@@ -3,11 +3,19 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
-			"value": "bracken:item/the_brine/worm_mandible"
-		}],
-		"conditions": [{
-			"condition": "minecraft:random_chance",
-			"chance": 0.8
+			"value": "bracken:item/the_brine/worm_mandible",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"max": 1.0,
+					"min": 0.0
+				}
+			},{
+				"function": "enchanted_count_increase",
+				"count": 1,
+				"enchantment": "looting",
+				"limit": 4
+			}]
 		}]
 	}]
 }

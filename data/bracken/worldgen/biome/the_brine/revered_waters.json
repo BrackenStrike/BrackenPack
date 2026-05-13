@@ -21,13 +21,16 @@
             "maxCount": 1,
             "minCount": 1,
             "weight": 25
+          },
+          {
+            "type": "minecraft:drowned",
+            "maxCount": 4,
+            "minCount": 1,
+            "weight": 7
           }
-         
-         
         ],
         "underground_water_creature": [],
         "water_ambient": [
-         
           {
             "type": "minecraft:salmon",
             "maxCount": 8,
@@ -36,10 +39,20 @@
           }
         ],
         "water_creature": [
-         
+          {
+            "type": "minecraft:squid",
+            "maxCount": 4,
+            "minCount": 4,
+            "weight": 10
+          }
         ]
       },
-    "spawn_costs": {},
+    "spawn_costs": {
+      "minecraft:drowned":{
+        "charge": 1,
+        "energy_budget": 5
+      }
+    },
     "carvers": [],
     "features": [
         [],

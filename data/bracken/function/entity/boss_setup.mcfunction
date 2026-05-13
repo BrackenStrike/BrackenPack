@@ -11,7 +11,7 @@ execute if entity @s[type=marker,tag=bp.boss_death_detector] run return run func
 #### Bosses - ordered by most likely to least likely to encounter
 
 #fae_emperor
-execute if entity @s[type=minecraft:skeleton,tag=bp.fae_emperor] if entity @p[distance=..200] run return run function bracken:entity/boss/fae_emperor/tick
+execute if entity @s[type=minecraft:stray,tag=bp.fae_emperor] if entity @p[distance=..200] run return run function bracken:entity/boss/fae_emperor/tick
 
 #unsung
 execute if entity @s[type=minecraft:stray,tag=bp.unsung] if entity @p[distance=..200] run return run function bracken:entity/boss/unsung/tick

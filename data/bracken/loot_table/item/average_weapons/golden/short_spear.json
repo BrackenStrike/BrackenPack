@@ -39,12 +39,6 @@
 					"minecraft:item_model": "bracken:average_weapons/golden/short_spear"
 				}
 			},{
-				"function": "minecraft:set_components",
-				"components": {
-					"minecraft:item_model": "bracken:average_weapons/golden_short_spear",
-					"minecraft:max_damage": 59
-				}
-			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:attack_speed",
@@ -69,12 +63,6 @@
 				"function": "minecraft:toggle_tooltips",
 				"toggles": {
 					"attribute_modifiers": false
-				}
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
 				}
 			}]
 		}]

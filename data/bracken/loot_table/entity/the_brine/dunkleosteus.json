@@ -1,12 +1,24 @@
 {
 	"pools": [{
-		"rolls": {
-			"min": 0,
-			"max": 25
-		},
+		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:salmon"
+			"name": "minecraft:salmon",
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"max": 25.0,
+					"min": 1.0
+				}
+			},{
+				"function": "enchanted_count_increase",
+				"count": {
+					"max": 10.0,
+					"min": 0.0
+				},
+				"enchantment": "looting",
+				"limit": 4
+			}]
 		}]
 	}]
 }

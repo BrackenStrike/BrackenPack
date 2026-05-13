@@ -6,8 +6,14 @@
 			"name": "minecraft:flint_and_steel"
 		}],
 		"conditions": [{
-			"condition": "minecraft:random_chance",
-			"chance": 0.02
+			"condition": "minecraft:random_chance_with_enchanted_bonus",
+			"unenchanted_chance": 0.02,
+			"enchanted_chance": {
+				"type": "linear",
+				"base": 0.05,
+				"per_level_above_first": 0.03
+			},
+			"enchantment": "looting"
 		}]
 	}]
 }

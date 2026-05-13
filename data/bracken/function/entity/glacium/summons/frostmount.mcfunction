@@ -2,7 +2,7 @@
 summon skeleton_horse ~ ~ ~ \
 {CustomNameVisible:0b,CustomName:{"translate":"Frostmount","color":"blue","italic":false},PersistenceRequired:0b,Tame:1b,\
 Passengers:[{id:"minecraft:stray",CustomNameVisible:0b,CustomName:{"translate":"Riderkin","color":"blue","italic":false},\
-DeathLootTable:"bracken:entity/glacium/frostkin3",attributes:[{id:armor,base:20}],Silent:1b,Tags:[bp.frostkin1],\
+DeathLootTable:"bracken:entity/glacium/riderkin",attributes:[{id:armor,base:20}],Silent:1b,Tags:[bp.frostkin1],\
 equipment:{chest:{id:"minecraft:iron_chestplate",count:1b,\
 components:{"minecraft:item_model":"bracken:average_weapons/cryolith/chestplate",\
 "minecraft:equippable":{asset_id:'bracken:cryolith',slot:'chest'},\

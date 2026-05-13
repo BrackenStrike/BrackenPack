@@ -8,12 +8,23 @@
 		"functions": [{
 			"function": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Netherkin Fruit"
-		},
-		{
+			"name": "Nether Pepper"
+		},{
+			"function": "minecraft:set_lore",
+			"entity": "this",
+			"lore": [{
+				"translate": "Become Netherkin",
+				"color": "blue",
+				"italic": false
+			}],
+			"mode": "insert"
+		},{
+			"function": "minecraft:set_custom_data",
+			"tag": "{bp:{species_fruit:1b,id:\"netherkin_fruit\"}}"
+		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:species_fruit/nether_pepper",
+				"minecraft:item_model": "bracken:species_fruit/netherkin",
 				"minecraft:food": {
 					"nutrition": 4,
 					"saturation": 2.4,

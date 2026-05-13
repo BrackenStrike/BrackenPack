@@ -49,6 +49,12 @@
             "maxCount": 2,
             "minCount": 1,
             "weight": 5
+          },
+          {
+            "type": "minecraft:drowned",
+            "maxCount": 4,
+            "minCount": 1,
+            "weight": 7
           }
          
         ],
@@ -96,7 +102,12 @@
           }
         ]
       },
-    "spawn_costs": {},
+    "spawn_costs": {
+      "minecraft:drowned":{
+        "charge": 1,
+        "energy_budget": 10
+      }
+    },
     "carvers": [],
     "features": [
         [],

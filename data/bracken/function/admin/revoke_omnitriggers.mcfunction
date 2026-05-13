@@ -11,3 +11,4 @@ advancement revoke @s only bracken:technical/omnitrigger/s_travager
 advancement revoke @s only bracken:technical/omnitrigger/s_tsnowman
 advancement revoke @s only bracken:technical/omnitrigger/s_ttnt
 advancement revoke @s only bracken:technical/omnitrigger/s_twarden
+advancement revoke @s only bracken:omnidrome/kill_boss

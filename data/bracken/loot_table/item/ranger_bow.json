@@ -7,7 +7,6 @@
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:damage": 200,
 					"minecraft:repair_cost": 100,
 					"minecraft:enchantments": {
 						"minecraft:punch": 10,

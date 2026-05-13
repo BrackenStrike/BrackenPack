@@ -11,7 +11,7 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:shadows/playerfrostkin2"
+					"minecraft:item_model": "bracken:shadows/frostkin2"
 				}
 			}]
 		}]

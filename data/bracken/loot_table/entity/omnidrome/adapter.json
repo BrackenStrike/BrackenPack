@@ -1,21 +1,25 @@
 {
     "pools": [
-       
         {
-            "rolls": {
-                "min": 0,
-                "max": 2
-            },
+            "rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_nugget"
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:random_chance",
-                    "chance": 0.85
+                    "name": "minecraft:iron_nugget",
+                    "functions": [{
+                        "function": "set_count",
+                        "count": {
+                            "min": 0,
+                            "max": 3
+                        }
+                    },{
+                        "function": "enchanted_count_increase",
+                        "count": {
+                            "max": 6,
+                            "min": 1
+                        },
+                        "enchantment": "minecraft:looting"
+                    }]
                 }
             ]
         }
