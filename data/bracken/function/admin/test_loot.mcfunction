@@ -589,9 +589,8 @@ loot replace block ~-13 ~ ~ container.20 loot bracken:item/species_fruits/hunter
 loot replace block ~-13 ~ ~ container.21 loot bracken:item/species_fruits/lemon
 loot replace block ~-13 ~ ~ container.22 loot bracken:item/species_fruits/nereid_fruit
 loot replace block ~-13 ~ ~ container.23 loot bracken:item/species_fruits/nether_pepper
-loot replace block ~-13 ~ ~ container.24 loot bracken:item/species_fruits/netherkin_fruit
-loot replace block ~-13 ~ ~ container.25 loot bracken:item/species_fruits/olive
-loot replace block ~-13 ~ ~ container.26 loot bracken:item/species_fruits/orange
+loot replace block ~-13 ~ ~ container.24 loot bracken:item/species_fruits/olive
+loot replace block ~-13 ~ ~ container.25 loot bracken:item/species_fruits/orange
 loot replace block ~-14 ~ ~ container.0 loot bracken:item/species_fruits/outlander_fruit
 loot replace block ~-14 ~ ~ container.1 loot bracken:item/species_fruits/pear
 loot replace block ~-14 ~ ~ container.2 loot bracken:item/species_fruits/realmkeeper_fruit
