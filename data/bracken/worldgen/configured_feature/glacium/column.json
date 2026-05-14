@@ -21,7 +21,7 @@
                 "provider": {
                     "type": "minecraft:simple_state_provider",
                     "state": {
-                        "Name": "minecraft:soul_campfire",
+                        "Name": "minecraft:sea_lantern",
                         "Properties": {
                             "facing": "north",
                             "lit": "true",
