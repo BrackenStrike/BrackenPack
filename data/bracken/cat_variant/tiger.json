@@ -1,5 +1,6 @@
 {
   "asset_id": "bracken:entity/cat/tiger",
+  "baby_asset_id": "bracken:entity/cat/tiger",
   "spawn_conditions": [
     {
       "condition": {
@@ -15,6 +16,5 @@
       },
       "priority": 0
     }
-   
   ]
 }

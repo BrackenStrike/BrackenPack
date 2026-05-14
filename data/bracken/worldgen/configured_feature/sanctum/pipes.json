@@ -1,25 +1,13 @@
 {
     "type": "minecraft:tree",
     "config": {
-        "force_dirt": false,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
-        },
-        "dirt_provider": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-                "Name": "minecraft:tuff"
-            }
         },
         "trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Name": "minecraft:oxidized_cut_copper",
-                "Properties": {
-                    "note": "0",
-                    "instrument": "harp",
-                    "powered": "false"
-                }
+                "Name": "minecraft:oxidized_cut_copper"
             }
         },
         "foliage_provider": {

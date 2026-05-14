@@ -1,11 +1,7 @@
 {
+  "clock": "minecraft:overworld",
   "period_ticks": 240000,
   "tracks": {
-   
-   
-   
-   
-   
     "minecraft:gameplay/monsters_burn": {
       "keyframes": [
         {

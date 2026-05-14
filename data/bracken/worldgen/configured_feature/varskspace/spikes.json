@@ -2,15 +2,8 @@
     "type": "minecraft:tree",
     "config": {
         "ignore_vines": true,
-        "force_dirt": false,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
-        },
-        "dirt_provider": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-                "Name": "minecraft:waxed_copper_block"
-            }
         },
         "trunk_provider": {
             "type": "minecraft:simple_state_provider",

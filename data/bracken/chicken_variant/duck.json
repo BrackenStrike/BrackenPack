@@ -1,5 +1,6 @@
 {
   "asset_id": "bracken:entity/chicken/duck",
+  "baby_asset_id": "bracken:entity/chicken/duck",
   "spawn_conditions": [
     {
       "condition": {

@@ -1,5 +1,6 @@
 {
   "asset_id": "bracken:entity/cat/white_tiger",
+  "baby_asset_id": "bracken:entity/cat/white_tiger",
   "spawn_conditions": [
     {
       "condition": {

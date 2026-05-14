@@ -1,9 +1,7 @@
 {
+  "clock": "minecraft:overworld",
   "period_ticks": 24,
   "tracks": {
-   
-   
-   
     "minecraft:gameplay/creaking_active": {
       "keyframes": [
         {

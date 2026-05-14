@@ -1,23 +1,12 @@
 {
     "type": "minecraft:tree",
     "config": {
-        "force_dirt": false,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
-        },
-        "dirt_provider": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-                "Name": "minecraft:budding_amethyst"
-            }
         },
         "trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Properties": {
-                   
-                    "half": "lower"
-                },
                 "Name": "minecraft:amethyst_cluster"
             }
         },
@@ -25,9 +14,9 @@
             "type": "minecraft:simple_state_provider",
             "state": {
                 "Name": "minecraft:light",
-        "Properties": {
-            "level": 10
-        }
+                "Properties": {
+                    "level": "10"
+                }
             }
         },
         "trunk_placer": {

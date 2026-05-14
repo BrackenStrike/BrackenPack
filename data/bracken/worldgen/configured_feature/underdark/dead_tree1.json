@@ -13,13 +13,6 @@
             }
         ],
         "ignore_vines": false,
-        "force_dirt": false,
-        "dirt_provider": {
-            "state": {
-                "Name": "minecraft:dirt"
-            },
-            "type": "minecraft:simple_state_provider"
-        },
         "minimum_size": {
             "limit": 1,
             "lower_size": 1,
@@ -28,20 +21,7 @@
         },
         "foliage_provider": {
             "state": {
-                "Properties": {
-                    "persistent": "false",
-                    "distance": "7"
-                },
                 "Name": "minecraft:tuff"
-            },
-            "type": "minecraft:simple_state_provider"
-        },
-        "sapling_provider": {
-            "state": {
-                "Properties": {
-                    "stage": "0"
-                },
-                "Name": "minecraft:spruce_sapling"
             },
             "type": "minecraft:simple_state_provider"
         },

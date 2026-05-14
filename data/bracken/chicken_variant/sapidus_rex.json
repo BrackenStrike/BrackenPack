@@ -1,5 +1,6 @@
 {
   "asset_id": "bracken:entity/chicken/sapidus_rex",
+  "baby_asset_id": "bracken:entity/chicken/sapidus_rex",
   "spawn_conditions": [
     {
       "condition": {

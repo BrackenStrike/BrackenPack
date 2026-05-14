@@ -1,6 +1,9 @@
 {
-    "type": "minecraft:forest_rock",
+    "type": "minecraft:block_blob",
     "config": {
+        "can_place_on": {
+            "type": "true"
+        },
         "state": {
             "Name": "minecraft:dried_kelp_block"
         }

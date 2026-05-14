@@ -1,5 +1,6 @@
 {
   "asset_id": "bracken:entity/chicken/puffin",
+  "baby_asset_id": "bracken:entity/chicken/puffin",
   "spawn_conditions": [
     {
       "condition": {

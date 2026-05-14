@@ -4,6 +4,11 @@
       "tame": "bracken:entity/wolf/the_faewild/wolf_fae_tame",
       "wild": "bracken:entity/wolf/the_faewild/wolf_fae"
     },
+    "baby_assets": {
+      "angry": "bracken:entity/wolf/the_faewild/wolf_fae_angry",
+      "tame": "bracken:entity/wolf/the_faewild/wolf_fae_tame",
+      "wild": "bracken:entity/wolf/the_faewild/wolf_fae"
+    },
     "spawn_conditions": [
       {
         "condition": {

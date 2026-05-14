@@ -1,13 +1,6 @@
 {
     "type": "minecraft:tree",
     "config": {
-        "force_dirt": false,
-        "dirt_provider": {
-            "state": {
-                "Name": "minecraft:dirt"
-            },
-            "type": "minecraft:simple_state_provider"
-        },
         "ignore_vines": false,
         "minimum_size": {
             "limit": 1,
@@ -35,10 +28,6 @@
         },
         "foliage_provider": {
             "state": {
-                "Properties": {
-                    "persistent": "false",
-                    "distance": "7"
-                },
                 "Name": "minecraft:air"
             },
             "type": "minecraft:simple_state_provider"
@@ -54,12 +43,6 @@
             "height_rand_a": 6,
             "height_rand_b": 8,
             "type": "minecraft:fancy_trunk_placer"
-        },
-        "sapling_provider": {
-            "state": {
-                "Name": "minecraft:dirt"
-            },
-            "type": "minecraft:simple_state_provider"
         }
     }
 }

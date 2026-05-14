@@ -1,4 +1,6 @@
 {
+  "default_clock": "minecraft:overworld",
+  "has_ender_dragon_fight": false,
   "ambient_light": 0.0,
   "attributes": {
     "minecraft:audio/ambient_sounds": {

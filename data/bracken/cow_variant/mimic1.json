@@ -1,5 +1,6 @@
 {
   "asset_id": "bracken:entity/cow/mimic1",
+  "baby_asset_id": "bracken:entity/cow/mimic1",
   "spawn_conditions": [
     {
       "condition": {
