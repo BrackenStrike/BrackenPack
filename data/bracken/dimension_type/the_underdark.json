@@ -32,6 +32,7 @@
     "minecraft:gameplay/respawn_anchor_works": true,
     
     "minecraft:visual/fog_color": "#584c4d",
+    "minecraft:visual/ambient_light_color": "#584c4d",
     "minecraft:visual/sky_color": "#833d3f",
     "minecraft:visual/water_fog_color": 6383526,
     "minecraft:visual/sky_fog_end_distance":96,

@@ -2,7 +2,8 @@
     "type": "minecraft:block_blob",
     "config": {
         "can_place_on": {
-            "type": "true"
+            "type": "matching_blocks",
+            "blocks": "rooted_dirt"
         },
         "state": {
             "Name": "minecraft:nether_gold_ore"

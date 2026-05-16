@@ -9,8 +9,8 @@
             "type": "random_offset",
             "xz_spread": {
                 "type": "minecraft:trapezoid",
-                "min": -15,
-                "max": 15,
+                "min": -10,
+                "max": 10,
                 "plateau": 0
             },
             "y_spread": {

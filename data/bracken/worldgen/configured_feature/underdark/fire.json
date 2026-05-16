@@ -1,11 +1,39 @@
 {
-    "type": "minecraft:simple_block",
+    "type": "minecraft:tree",
     "config": {
-        "to_place": {
+        "minimum_size": {
+            "type": "minecraft:two_layers_feature_size"
+        },
+        "trunk_provider": {
+            "type": "minecraft:simple_state_provider",
             "state": {
                 "Name": "minecraft:soul_fire"
-            },
-            "type": "minecraft:simple_state_provider"
-        }
+            }
+        },
+        "foliage_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:air"
+            }
+        },
+        "trunk_placer": {
+            "type": "minecraft:straight_trunk_placer",
+            "base_height": 1,
+            "height_rand_a": 0,
+            "height_rand_b": 0
+        },
+        "foliage_placer": {
+            "type": "minecraft:fancy_foliage_placer",
+            "radius": 1,
+            "offset": 0,
+            "height": 0
+        },
+        "below_trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:yellow_concrete_powder"
+            }
+        },
+        "decorators": []
     }
 }

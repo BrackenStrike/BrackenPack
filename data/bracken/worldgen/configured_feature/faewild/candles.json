@@ -32,6 +32,12 @@
             "offset": 0,
             "height": 0
         },
+        "below_trunk_provider": {
+            "state": {
+                "Name": "minecraft:air"
+            },
+            "type": "minecraft:simple_state_provider"
+        },
         "decorators": []
     }
 }

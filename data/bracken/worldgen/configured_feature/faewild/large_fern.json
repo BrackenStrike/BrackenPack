@@ -3,9 +3,6 @@
     "config": {
         "to_place": {
             "state": {
-                "Properties": {
-                    "half": "lower"
-                },
                 "Name": "minecraft:large_fern"
             },
             "type": "minecraft:simple_state_provider"

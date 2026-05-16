@@ -39,6 +39,12 @@
             "height_rand_a": 4,
             "height_rand_b": 4,
             "type": "minecraft:forking_trunk_placer"
+        },
+        "below_trunk_provider": {
+            "state": {
+                "Name": "minecraft:dirt"
+            },
+            "type": "minecraft:simple_state_provider"
         }
     }
 }

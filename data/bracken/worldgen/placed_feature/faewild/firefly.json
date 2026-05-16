@@ -3,7 +3,7 @@
     "placement": [
         {
             "type": "count",
-            "count": 64
+            "count": 17
         },
         {
             "type": "random_offset",

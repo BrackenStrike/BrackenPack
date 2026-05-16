@@ -29,6 +29,12 @@
             "offset": 0,
             "trunk_height": 0
         },
+        "below_trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:podzol"
+            }
+        },
         "decorators": [
             {
                 "type": "minecraft:trunk_vine"

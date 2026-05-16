@@ -3,13 +3,26 @@
     "config": {
         "decorators": [
             {
+                "type": "minecraft:alter_ground",
                 "provider": {
-                    "state": {
-                        "Name": "minecraft:infested_stone"
-                    },
-                    "type": "minecraft:simple_state_provider"
-                },
-                "type": "minecraft:alter_ground"
+                    "type": "minecraft:rule_based_state_provider",
+                    "rules": [{
+                        "if_true":{
+                            "type": "minecraft:matching_blocks",
+                            "blocks": [
+                                "dirt",
+                                "stone",
+                                "deepslate"
+                            ]
+                        },
+                        "then": {
+                            "type": "minecraft:simple_state_provider",
+                            "state": {
+                                "Name": "minecraft:infested_stone"
+                            }
+                        }
+                    }]
+                }
             }
         ],
         "ignore_vines": false,

@@ -35,6 +35,7 @@
     "minecraft:visual/sky_fog_end_distance":96,
     "minecraft:visual/cloud_fog_end_distance":256,
     "minecraft:visual/sky_color": "#9b8067",
+    "minecraft:visual/ambient_light_color": "#9b8067",
     "minecraft:gameplay/piglins_zombify": false,
     "minecraft:gameplay/can_start_raid": true,
     "minecraft:gameplay/snow_golem_melts": true,

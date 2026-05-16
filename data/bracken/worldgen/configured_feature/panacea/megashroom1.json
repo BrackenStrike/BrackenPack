@@ -28,6 +28,12 @@
             "offset": 0,
             "height": 6
         },
+        "below_trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:mycelium"
+            }
+        },
         "decorators": []
     }
 }

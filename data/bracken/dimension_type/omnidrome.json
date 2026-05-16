@@ -1,7 +1,7 @@
 {
   "default_clock": "minecraft:overworld",
   "has_ender_dragon_fight": false,
-  "ambient_light": 0.0,
+  "ambient_light": 0.1,
   "attributes": {
     "minecraft:audio/ambient_sounds": {
       "mood": {
@@ -26,6 +26,7 @@
     "minecraft:visual/fog_color": 65280,
     "minecraft:visual/sky_color": 65280,
     "minecraft:visual/water_fog_color": 65280,
+    "visual/ambient_light_color": 65280,
     "minecraft:gameplay/piglins_zombify": false,
     "minecraft:gameplay/can_start_raid": true,
     "minecraft:gameplay/snow_golem_melts": false,

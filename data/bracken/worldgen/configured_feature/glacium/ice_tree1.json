@@ -10,16 +10,27 @@
         },
         "decorators": [
             {
+                "type": "minecraft:alter_ground",
                 "provider": {
-                    "state": {
-                        "Properties": {
-                            "snowy": "true"
+                    "type": "minecraft:rule_based_state_provider",
+                    "rules": [{
+                        "if_true":{
+                            "type": "minecraft:matching_blocks",
+                            "blocks": [
+                                "dirt"
+                            ]
                         },
-                        "Name": "minecraft:grass_block"
-                    },
-                    "type": "minecraft:simple_state_provider"
-                },
-                "type": "minecraft:alter_ground"
+                        "then": {
+                            "type": "minecraft:simple_state_provider",
+                            "state": {
+                                "Properties": {
+                                    "snowy": "true"
+                                },
+                                "Name": "minecraft:grass_block"
+                            }
+                        }
+                    }]
+                }
             }
         ],
         "trunk_provider": {
@@ -48,6 +59,12 @@
             "height_rand_a": 2,
             "height_rand_b": 14,
             "type": "minecraft:giant_trunk_placer"
+        },
+        "below_trunk_provider": {
+            "state": {
+                "Name": "minecraft:dirt"
+            },
+            "type": "minecraft:simple_state_provider"
         }
     }
 }

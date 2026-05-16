@@ -2,7 +2,8 @@
     "type": "minecraft:block_blob",
     "config": {
         "can_place_on": {
-            "type": "true"
+            "type": "matching_blocks",
+            "blocks": "minecraft:grass_block"
         },
         "state": {
             "Name": "minecraft:smooth_quartz"

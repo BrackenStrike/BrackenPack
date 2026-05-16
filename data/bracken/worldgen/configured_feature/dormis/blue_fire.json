@@ -1,16 +1,7 @@
 {
     "type": "minecraft:tree",
-    "config": {"decorators": [
-            {
-                "provider": {
-                    "state": {
-                        "Name": "minecraft:yellow_concrete_powder"
-                    },
-                    "type": "minecraft:simple_state_provider"
-                },
-                "type": "minecraft:alter_ground"
-            }
-        ],
+    "config": {
+        "decorators": [],
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
         },
@@ -38,6 +29,12 @@
             "radius": 1,
             "offset": 0,
             "height": 0
+        },
+        "below_trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:yellow_concrete_powder"
+            }
         }
     }
 }
