@@ -1,6 +1,6 @@
 {
   "asset_id": "bracken:entity/chicken/turkey",
-  "baby_asset_id": "bracken:entity/chicken/turkey",
+  "baby_asset_id": "minecraft:entity/chicken/chicken_cold_baby",
   "spawn_conditions": [
     {
       "condition": {

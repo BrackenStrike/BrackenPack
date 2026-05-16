@@ -38,10 +38,22 @@
             {
                 "type": "minecraft:alter_ground",
                 "provider": {
-                    "type": "minecraft:simple_state_provider",
-                    "state": {
-                        "Name": "minecraft:cracked_polished_blackstone_bricks"
-                    }
+                    "type": "minecraft:rule_based_state_provider",
+                    "rules": [{
+                        "if_true":{
+                            "type": "minecraft:matching_blocks",
+                            "blocks": [
+                                "gravel",
+                                "tuff"
+                            ]
+                        },
+                        "then": {
+                            "type": "minecraft:simple_state_provider",
+                            "state": {
+                                "Name": "minecraft:cracked_polished_blackstone_bricks"
+                            }
+                        }
+                    }]
                 }
             }
         ]

@@ -1,6 +1,6 @@
 {
   "asset_id": "bracken:entity/pig/half_hoglin",
-  "baby_asset_id": "bracken:entity/pig/half_hoglin",
+  "baby_asset_id": "minecraft:entity/pig/pig_cold_baby",
   "spawn_conditions": [
     {
       "condition": {

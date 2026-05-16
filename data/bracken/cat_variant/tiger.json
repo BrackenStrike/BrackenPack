@@ -1,6 +1,6 @@
 {
   "asset_id": "bracken:entity/cat/tiger",
-  "baby_asset_id": "bracken:entity/cat/tiger",
+  "baby_asset_id": "minecraft:entity/cat/ocelot_baby",
   "spawn_conditions": [
     {
       "condition": {

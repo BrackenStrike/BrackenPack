@@ -5,9 +5,9 @@
       "wild": "bracken:entity/wolf/the_faewild/wolf_fae"
     },
     "baby_assets": {
-      "angry": "bracken:entity/wolf/the_faewild/wolf_fae_angry",
-      "tame": "bracken:entity/wolf/the_faewild/wolf_fae_tame",
-      "wild": "bracken:entity/wolf/the_faewild/wolf_fae"
+      "angry": "minecraft:entity/wolf/wolf_ashen_angry_baby",
+      "tame": "minecraft:entity/wolf/wolf_ashen_tame_baby",
+      "wild": "minecraft:entity/wolf/wolf_ashen_baby"
     },
     "spawn_conditions": [
       {

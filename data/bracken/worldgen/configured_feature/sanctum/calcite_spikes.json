@@ -39,24 +39,6 @@
             }
         },
         "decorators": [
-            {
-                "type": "minecraft:alter_ground",
-                "provider": {
-                    "type": "minecraft:rule_based_state_provider",
-                    "rules": [{
-                        "if_true":{
-                            "type": "minecraft:matching_block_tag",
-                            "tag": "minecraft:concrete_powder"
-                        },
-                        "then": {
-                            "type": "minecraft:simple_state_provider",
-                            "state": {
-                                "Name": "minecraft:calcite"
-                            }
-                        }
-                    }]
-                }
-            }
         ]
     }
 }
