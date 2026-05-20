@@ -1,5 +1,5 @@
 playsound minecraft:entity.item.pickup ambient @a[distance=..30] ~ ~ ~ 3 0.75
-summon ender_pearl ~ ~ ~ {Motion:[0.0,0.75,0.0],Tags:["bp.new","bp.special"],Passengers:[{id:"minecraft:endermite",Tags:["bp.new","bp.special"]}],Item:{id:"minecraft:ender_pearl",count:1b,components:{"minecraft:enchantment_glint_override":1b}}}
+summon ender_pearl ~ ~ ~ {Motion:[0.0,0.75,0.0],Tags:["bp.new","bp.special"],Passengers:[{id:"minecraft:endermite",Tags:[bp.new,bp.special,bp.safe]}],Item:{id:"minecraft:ender_pearl",count:1b,components:{"minecraft:enchantment_glint_override":1b}}}
 
 execute store result score #1 bp.math.out run random value 0..1
 execute if score #1 bp.math.out matches 0 run data modify entity @n[type=minecraft:ender_pearl,tag=bp.new,distance=..50] Motion[0] set value 0.2

@@ -5,7 +5,7 @@
 
 
 ## Phariserpens
-execute as @n[type=zombie_villager,distance=..100] at @s run function bracken:entity/dormis/summons/setup_phariserpens
+execute as @n[type=zombie_villager,distance=..100,tag=!bp.safe] at @s run function bracken:entity/dormis/summons/setup_phariserpens
 
 # _________________________________________________
 

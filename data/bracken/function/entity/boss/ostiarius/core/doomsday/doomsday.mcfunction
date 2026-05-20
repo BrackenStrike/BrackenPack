@@ -1,4 +1,4 @@
-summon minecraft:lightning_bolt ~ ~10 ~ {Tags:["bp.varsk_lightning","bp.entity"]}
+summon minecraft:lightning_bolt ~ ~10 ~ {Tags:[bp.varsk_lightning,bp.entity,bp.safe]}
 kill @e[type=armor_stand,distance=..50,tag=bp.ostiarius_xp_stand]
 kill @e[type=vex,distance=..100,tag=bp.construct]
 fill ~1 ~ ~1 ~-1 ~ ~-1 obsidian
