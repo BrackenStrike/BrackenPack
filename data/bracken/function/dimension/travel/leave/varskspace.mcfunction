@@ -10,3 +10,4 @@ attribute @s minecraft:movement_speed modifier remove bracken:varskspace_speed
 attribute @s minecraft:jump_strength modifier remove bracken:varskspace_jump
 attribute @s minecraft:safe_fall_distance modifier remove bracken:varskspace_safefall
 attribute @s minecraft:fall_damage_multiplier modifier remove bracken:varskspace_redfall
+attribute @s minecraft:step_height modifier remove bracken:varskspace_step
