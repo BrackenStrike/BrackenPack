@@ -4,7 +4,7 @@
 "minecraft:visual/fog_start_distance": 10.0,
     "minecraft:audio/ambient_sounds": {
      
-      "loop": "minecraft:ambient.nether_wastes.loop",
+      "loop": "minecraft:item.elytra.flying",
       "mood": {
         "block_search_extent": 8,
         "offset": 2.0,
