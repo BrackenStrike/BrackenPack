@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Commands that activate when the player uses the ability book Lightning Bolt.
+# Description: Commands that activate when the player uses the ability book Travel Call.
 # Creators: Bracken and Grandmaster
 ##########################################################
 

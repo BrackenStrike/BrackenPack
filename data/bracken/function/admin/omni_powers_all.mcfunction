@@ -44,7 +44,7 @@ function bracken:player/omni_powers/perms/set/great_nullifier
 function bracken:player/omni_powers/perms/set/flying_boat
 function bracken:player/omni_powers/perms/set/iron_golem
 function bracken:player/omni_powers/perms/set/kill
-function bracken:player/omni_powers/perms/set/lightning_bolt
+function bracken:player/omni_powers/perms/set/travel_call
 function bracken:player/omni_powers/perms/set/mansion
 function bracken:player/omni_powers/perms/set/mass_heal
 function bracken:player/omni_powers/perms/set/recall

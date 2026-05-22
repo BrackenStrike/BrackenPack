@@ -5,7 +5,7 @@ fill ~1 ~ ~1 ~-1 ~ ~-1 obsidian
 fill ~1 ~1 ~1 ~-1 ~1 ~-1 cake
 advancement grant @a[distance=..50] only bracken:sanctum/save_boss
 tellraw @a[distance=..50] "01110100 01101000 01100001 01101110 01101011 00100000 01111001 01101111 01110101"
-loot give @a[distance=..50] loot bracken:item/ability_books/lightning_bolt
+loot give @a[distance=..50] loot bracken:item/ability_books/travel_call
 scoreboard players add @s bp.boss_end 1
 tp @e[type=giant,distance=..1] ~ -512 ~
 kill @s

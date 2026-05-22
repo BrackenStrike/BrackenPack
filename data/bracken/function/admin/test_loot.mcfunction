@@ -223,7 +223,7 @@ loot replace block ~-0 ~ ~ container.5 loot bracken:item/ability_books/frostlock
 loot replace block ~-0 ~ ~ container.6 loot bracken:item/ability_books/great_nullifier
 loot replace block ~-0 ~ ~ container.7 loot bracken:item/ability_books/iron_golem
 loot replace block ~-0 ~ ~ container.8 loot bracken:item/ability_books/kill
-loot replace block ~-0 ~ ~ container.9 loot bracken:item/ability_books/lightning_bolt
+loot replace block ~-0 ~ ~ container.9 loot bracken:item/ability_books/travel_call
 loot replace block ~-0 ~ ~ container.10 loot bracken:item/ability_books/magnificent_mansion
 loot replace block ~-0 ~ ~ container.11 loot bracken:item/ability_books/mass_heal
 loot replace block ~-0 ~ ~ container.12 loot bracken:item/ability_books/returning_tides

@@ -3,7 +3,7 @@
 # Creators: Grandmaster, Conure
 ##########################################################
 
-execute if entity @s[level=12..] run return run function bracken:item/ability_books/lightning_bolt/lightning_bolt
+execute if entity @s[level=12..] run return run function bracken:item/ability_books/travel_call/lightning_bolt
 
 tellraw @s {"translate":"You do not have enough levels to use this book."}
-function bracken:player/omni_powers/perms/set/lightning_bolt
+function bracken:player/omni_powers/perms/set/travel_call

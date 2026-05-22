@@ -50,7 +50,7 @@ execute if score #b bp.math.var matches 1 run data modify storage bracken:var om
 scoreboard players operation #tmp bp.math.var /= #2 bp.math.var 
 scoreboard players operation #b bp.math.var = #tmp bp.math.var
 scoreboard players operation #b bp.math.var %= #2 bp.math.var
-execute if score #b bp.math.var matches 1 run data modify storage bracken:var omnipowers_msg append value {text:"lightning_bolt\n",color:"green"}
+execute if score #b bp.math.var matches 1 run data modify storage bracken:var omnipowers_msg append value {text:"travel_call\n",color:"green"}
 
 scoreboard players operation #tmp bp.math.var /= #2 bp.math.var 
 scoreboard players operation #b bp.math.var = #tmp bp.math.var

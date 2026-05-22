@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
-			"value": "bracken:item/ability_books/lightning_bolt"
+			"value": "bracken:item/ability_books/travel_call"
 		}]
 	},{
 		"rolls": 1,

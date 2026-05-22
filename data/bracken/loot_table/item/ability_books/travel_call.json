@@ -8,7 +8,7 @@
 		"functions": [{
 			"function": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Lightning Bolt"
+			"name": "Travel Call"
 		},{
 			"function": "minecraft:set_lore",
 			"lore": [{
@@ -34,7 +34,7 @@
 			}
 		},{
 			"function": "minecraft:set_custom_data",
-			"tag": "{bp:{id:\"lightning_bolt\"}}"
+			"tag": "{bp:{id:\"travel_call\"}}"
 		}]
 	}]
 }

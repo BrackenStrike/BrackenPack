@@ -1,3 +1,3 @@
-execute unless function bracken:player/omni_powers/perms/has/lightning_bolt run return fail
-function bracken:item/ability_books/lightning_bolt/checks
+execute unless function bracken:player/omni_powers/perms/has/travel_call run return fail
+function bracken:item/ability_books/travel_call/checks
 return 1

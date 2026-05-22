@@ -88,7 +88,7 @@
       }
     },
     {
-      "label": "Lightning bolt",
+      "label": "Travel Call",
       "tooltip": "ID = 39",
       "action": {
         "type": "minecraft:run_command",

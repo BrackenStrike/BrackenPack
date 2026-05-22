@@ -134,7 +134,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/ability_books/lightning_bolt",
+			"value": "bracken:item/ability_books/travel_call",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02

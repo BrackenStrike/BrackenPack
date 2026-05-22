@@ -214,6 +214,7 @@ scoreboard objectives remove bp.giant
 scoreboard objectives remove bp.wtb_cooldown
 scoreboard objectives remove bp.coas
 scoreboard objectives remove bp.void_pull_cooldown
+scoreboard objectives remove bp.summon_lightning_tick
 
 scoreboard objectives remove bp.cooldown
 

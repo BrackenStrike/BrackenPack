@@ -18,7 +18,7 @@ execute if predicate bracken:item/ability_books/frostlock run return run functio
 execute if predicate bracken:item/ability_books/great_nullifier run return run function bracken:item/ability_books/great_nullifier/checks
 execute if predicate bracken:item/ability_books/iron_golem run return run function bracken:item/ability_books/iron_golem/checks
 execute if predicate bracken:item/ability_books/kill run return run function bracken:item/ability_books/kill/checks
-execute if predicate bracken:item/ability_books/lightning_bolt run return run function bracken:item/ability_books/lightning_bolt/checks
+execute if predicate bracken:item/ability_books/travel_call run return run function bracken:item/ability_books/travel_call/checks
 execute if predicate bracken:item/ability_books/magnificent_mansion run return run function bracken:item/ability_books/mansion/checks
 execute if predicate bracken:item/ability_books/mass_heal run return run function bracken:item/ability_books/mass_heal/checks
 execute if predicate bracken:item/ability_books/returning_tides run return run function bracken:item/ability_books/recall/checks
@@ -28,7 +28,6 @@ execute if predicate bracken:item/ability_books/tetra_slime run return run funct
 execute if predicate bracken:item/ability_books/truelight_glow run return run function bracken:item/ability_books/truelight_glow/checks
 execute if predicate bracken:item/ability_books/world_soar run return run function bracken:item/ability_books/world_soar/checks
 execute if predicate bracken:item/ability_books/worm_toothed_burrower run return run function bracken:item/ability_books/worm_toothed_burrower/checks
-
-#execute if predicate bracken:item/ability_books/prismatic_laser run return run function bracken:item/ability_books/prismatic_laser/checks
-#execute if predicate bracken:item/ability_books/magic_missile run return run function bracken:item/ability_books/magic_missile/checks
 execute if predicate bracken:item/ability_books/void_pull run return run function bracken:item/ability_books/void_pull/checks
+
+execute if predicate bracken:item/ability_books/summon_lightning run return run function bracken:item/ability_books/summon_lightning/checks

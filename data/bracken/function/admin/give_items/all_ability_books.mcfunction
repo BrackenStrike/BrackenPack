@@ -7,7 +7,7 @@ loot give @s loot bracken:item/ability_books/frostlock
 loot give @s loot bracken:item/ability_books/great_nullifier
 loot give @s loot bracken:item/ability_books/iron_golem
 loot give @s loot bracken:item/ability_books/kill
-loot give @s loot bracken:item/ability_books/lightning_bolt
+loot give @s loot bracken:item/ability_books/travel_call
 loot give @s loot bracken:item/ability_books/mass_heal
 loot give @s loot bracken:item/ability_books/returning_tides
 loot give @s loot bracken:item/ability_books/swordfall
