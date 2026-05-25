@@ -83,6 +83,27 @@
 					}]
 				}
 			}
+		},{
+			"effect": {
+				"type": "minecraft:add",
+				"value": {
+					"type": "minecraft:linear",
+					"base": 4.0,
+					"per_level_above_first": 1.0
+				}
+			},
+			"requirements": {
+				"condition": "damage_source_properties",
+				"predicate": {
+					"tags": [{
+						"expected": false,
+						"id": "bypasses_invulnerability"
+					},{
+						"expected": true,
+						"id": "is_fire"
+					}]
+				}
+			}
 		}]
 	},
 	"max_cost": {
