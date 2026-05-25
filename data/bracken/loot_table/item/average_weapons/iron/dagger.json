@@ -40,7 +40,10 @@
 			},{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:item_model": "bracken:average_weapons/iron/dagger"
+					"minecraft:item_model": "bracken:average_weapons/iron/dagger",
+					"swing_animation": {
+						"type": "stab" 
+					}
 				}
 			},{
 				"function": "minecraft:set_attributes",
