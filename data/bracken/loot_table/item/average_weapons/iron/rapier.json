@@ -44,7 +44,10 @@
           "block_sound": "minecraft:block.anvil.place",
           "disabled_sound": "minecraft:item.axe.scrape",
           "bypassed_by": "#bracken:bypasses_sword"
-        }
+        },
+				"swing_animation": {
+					"type": "stab" 
+				}
 				}
 			},{
 				"function": "minecraft:set_attributes",

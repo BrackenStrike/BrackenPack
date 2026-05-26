@@ -48,7 +48,7 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "-Granted instant damage effect from fire, magma, and lava"
+      "contents": "-Takes extra damage from fire sources"
     }
   ]
 }

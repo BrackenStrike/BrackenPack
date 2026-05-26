@@ -41,7 +41,10 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/cryolith/dagger",
-					"minecraft:max_damage": 200
+					"minecraft:max_damage": 200,
+					"swing_animation": {
+						"type": "stab" 
+					}
 				}
 			},{
 				"function": "set_enchantments",
