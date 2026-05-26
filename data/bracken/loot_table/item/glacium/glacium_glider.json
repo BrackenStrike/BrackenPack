@@ -19,7 +19,8 @@
 					"minecraft:equippable": {
 						"slot": "chest",
 						"asset_id": "bracken:glacium_glider",
-						"equip_sound": "minecraft:block.snow.fall"
+						"equip_sound": "minecraft:block.snow.fall",
+						"damage_on_hurt": false
 					},
 					"minecraft:rarity": "rare",
 					"minecraft:custom_data": {"bp":{"id":"glacium_glider"}}
