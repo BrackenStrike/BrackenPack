@@ -14,7 +14,7 @@
 		"id": "minecraft:leather_helmet",
         "count": 1,
 		"components": {
-			"minecraft:max_damage": 500,
+			"minecraft:max_damage": 330,
 			"minecraft:item_name": "Verdant Helmet",
 			"minecraft:equippable": {
 				"slot": "head",

@@ -14,7 +14,7 @@
 		"id": "minecraft:leather_chestplate",
         "count": 1,
 		"components": {
-			"minecraft:max_damage": 500,
+			"minecraft:max_damage": 480,
 			"minecraft:item_name": "Verdant Chestplate",
 			"minecraft:equippable": {
 				"slot": "chest",

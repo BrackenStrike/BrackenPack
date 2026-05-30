@@ -6,7 +6,7 @@
 	"result": {
 		"id": "minecraft:netherite_boots",
 		"components": {
-			"minecraft:max_damage": 2070,
+			"minecraft:max_damage": 525,
 			"minecraft:equippable": {
 				"slot": "feet",
 				"asset_id": "bracken:old_world_bronze"
@@ -15,8 +15,15 @@
 			"minecraft:item_model": "bracken:average_weapons/old_world_bronze/boots",
 			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:armor",
-					"id": "bracken:old_world_bronze_boots",
+					"id": "bracken:old_world_bronze_boots_armor",
 					"amount": 4,
+					"operation": "add_value",
+					"slot": "feet"
+				},
+			{
+					"type": "minecraft:armor_toughness",
+					"id": "bracken:old_world_bronze_boots_armor_toughness",
+					"amount": 0,
 					"operation": "add_value",
 					"slot": "feet"
 				}]

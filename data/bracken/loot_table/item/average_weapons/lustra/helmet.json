@@ -32,7 +32,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/lustra/helmet",
-					"minecraft:max_damage": 3000,
+					"minecraft:max_damage": 611,
 					"minecraft:equippable": {
 						"slot": "head",
 						"asset_id": "bracken:lustra"

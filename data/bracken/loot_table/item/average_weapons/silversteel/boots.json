@@ -12,7 +12,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/silversteel/boots",
-					"minecraft:max_damage": 2150,
+					"minecraft:max_damage": 569,
 					"minecraft:enchantment_glint_override": false,
 					"minecraft:equippable": {
 						"slot": "feet",
@@ -29,14 +29,14 @@
 				"modifiers": [{
 					"attribute": "minecraft:armor",
 					"id": "bracken:silversteel_boots",
-					"amount": 4,
+					"amount": 5,
 					"operation": "add_value",
 					"slot": "feet"
 				},
 			{
 					"attribute": "minecraft:armor_toughness",
 					"id": "bracken:silversteel_boots_armor_tough",
-					"amount": 4,
+					"amount": 5,
 					"operation": "add_value",
 					"slot": "feet"
 				}]

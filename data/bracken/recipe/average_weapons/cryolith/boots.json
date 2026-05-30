@@ -6,7 +6,7 @@
 	"result": {
 		"id": "minecraft:iron_boots",
 		"components": {
-			"minecraft:max_damage": 200,
+			"minecraft:max_damage": 145,
 			"minecraft:equippable": {
 				"slot": "feet",
 				"asset_id": "bracken:cryolith",

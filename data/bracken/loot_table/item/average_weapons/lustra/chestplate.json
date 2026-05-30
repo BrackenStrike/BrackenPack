@@ -32,7 +32,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/lustra/chestplate",
-					"minecraft:max_damage": 3000,
+					"minecraft:max_damage": 888,
 					"minecraft:equippable": {
 						"slot": "chest",
 						"asset_id": "bracken:lustra"

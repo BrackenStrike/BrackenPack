@@ -12,7 +12,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/meteoric/boots",
-					"minecraft:max_damage": 1000,
+					"minecraft:max_damage": 404,
 					"minecraft:equippable": {
 						"slot": "feet",
 						"asset_id": "bracken:meteoric"

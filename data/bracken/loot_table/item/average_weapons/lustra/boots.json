@@ -32,7 +32,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/lustra/boots",
-					"minecraft:max_damage": 3000,
+					"minecraft:max_damage": 722,
 					"minecraft:equippable": {
 						"slot": "feet",
 						"asset_id": "bracken:lustra"

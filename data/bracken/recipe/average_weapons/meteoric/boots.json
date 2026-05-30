@@ -11,7 +11,7 @@
 	"result": {
 		"id": "minecraft:netherite_boots",
 		"components": {
-			"minecraft:max_damage": 1000,
+			"minecraft:max_damage": 404,
 			"minecraft:equippable": {
 				"slot": "feet",
 				"asset_id": "bracken:meteoric"

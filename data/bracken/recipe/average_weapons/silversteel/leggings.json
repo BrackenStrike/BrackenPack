@@ -6,7 +6,7 @@
 	"result": {
 		"id": "minecraft:netherite_leggings",
 		"components": {
-			"minecraft:max_damage": 2150,
+			"minecraft:max_damage": 643,
 			"minecraft:enchantment_glint_override": false,
 			"minecraft:item_name": "Silversteel Leggings",
 			"minecraft:enchantments": {
@@ -19,8 +19,15 @@
 			},
 			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:armor",
-					"id": "bracken:silversteel_leggings",
-					"amount": 7,
+					"id": "bracken:silversteel_leggings_armor",
+					"amount": 9,
+					"operation": "add_value",
+					"slot": "legs"
+				},
+				{
+					"type": "minecraft:armor_toughness",
+					"id": "bracken:silversteel_leggings_armor_toughness",
+					"amount": 5,
 					"operation": "add_value",
 					"slot": "legs"
 				}]

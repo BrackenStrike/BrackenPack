@@ -6,7 +6,7 @@
 	"result": {
 		"id": "minecraft:netherite_leggings",
 		"components": {
-			"minecraft:max_damage": 2070,
+			"minecraft:max_damage": 599,
 			"minecraft:item_name": "Old World Bronze Leggings",
 			"minecraft:item_model": "bracken:average_weapons/old_world_bronze/leggings",
 			"minecraft:equippable": {
@@ -15,8 +15,15 @@
 			},
 			"minecraft:attribute_modifiers":[{
 					"type": "minecraft:armor",
-					"id": "bracken:old_world_bronze_leggings",
+					"id": "bracken:old_world_bronze_leggings_armor",
 					"amount": 7,
+					"operation": "add_value",
+					"slot": "legs"
+				},
+			{
+					"type": "minecraft:armor_toughness",
+					"id": "bracken:old_world_bronze_leggings_armor_toughness",
+					"amount": 0,
 					"operation": "add_value",
 					"slot": "legs"
 				}]

@@ -32,7 +32,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/lustra/leggings",
-					"minecraft:max_damage": 3000,
+					"minecraft:max_damage": 833,
 					"minecraft:equippable": {
 						"slot": "legs",
 						"asset_id": "bracken:lustra"
