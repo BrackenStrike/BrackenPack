@@ -6,6 +6,7 @@
 scoreboard players set @s[scores={bp.jump=2..}] bp.jump 1
 
 scoreboard players set @s[scores={bp.sprint=1..}] bp.sprint 0
+scoreboard players set @s[scores={bp.walk=1..}] bp.walk 0
 
 scoreboard players remove @s[scores={bp.elytra_dive=1..}] bp.elytra_dive 1
 scoreboard players set @s[scores={bp.elytra_dive=5..},predicate=bracken:item/no_flying_elytra] bp.elytra_dive 5

@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:obsidian",
+        "minecraft:crying_obsidian",
+        "minecraft:bedrock",
+        "minecraft:ancient_debris",
+        "minecraft:netherite_block",
+        "minecraft:reinforced_deepslate"
+    ]
+}

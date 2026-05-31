@@ -14,9 +14,11 @@ scoreboard objectives add bp.boss_move_state dummy
 scoreboard objectives add bp.boss_speed dummy
 scoreboard objectives add bp.boss_end dummy
 
+
 # Misc scoreboards
 scoreboard objectives add bp.food food
 scoreboard objectives add bp.sprint minecraft.custom:minecraft.sprint_one_cm
+scoreboard objectives add bp.walk minecraft.custom:minecraft.walk_one_cm
 scoreboard objectives add bp.hurting minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add bp.jump minecraft.custom:minecraft.jump
 scoreboard objectives add bp.health health

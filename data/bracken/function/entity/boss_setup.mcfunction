@@ -36,3 +36,5 @@ execute if entity @s[type=minecraft:squid,tag=bp.kraken] if entity @p[distance=.
 #solatium thrall
 execute if entity @s[type=minecraft:stray,tag=bp.solatium_thrall] if entity @p[distance=..200] run return run function bracken:entity/boss/solatium_thrall/tick
 
+#orbiter
+execute if entity @s[type=ghast,tag=bp.orbiter] if entity @p[distance=..400] run return run function bracken:entity/boss/orbiter/functions
