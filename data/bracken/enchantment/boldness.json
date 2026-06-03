@@ -7,8 +7,8 @@
 		"minecraft:attributes": [{
 			"amount": {
 				"type": "minecraft:linear",
-				"base": 0.25,
-				"per_level_above_first": 0.25
+				"base": 0.4,
+				"per_level_above_first": 0.4
 			},
 			"attribute": "minecraft:attack_damage",
 			"id": "minecraft:enchantment.boldness",

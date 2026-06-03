@@ -4,6 +4,21 @@
 		"translate": "Searing Surface"
 	},
 	"effects": {
+		"minecraft:damage_immunity": [{
+			"effect": {},
+			"requirements": {
+				"condition": "minecraft:damage_source_properties",
+				"predicate": {
+					"tags": [{
+						"expected": true,
+						"id": "minecraft:is_freezing"
+					},{
+						"expected": false,
+						"id": "minecraft:bypasses_invulnerability"
+					}]
+				}
+			}
+		}],
 		"minecraft:post_attack": [{
 			"affected": "attacker",
 			"effect": {

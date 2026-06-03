@@ -11,7 +11,7 @@
 				"predicate": {
 					"tags": [{
 						"expected": true,
-						"id": "minecraft:is_freezing"
+						"id": "minecraft:in_fire"
 					},{
 						"expected": false,
 						"id": "minecraft:bypasses_invulnerability"
