@@ -15,7 +15,7 @@
 			"operation": "add_multiplied_base"
 		}]
 	},
-	"exclusive_set": "#minecraft:exclusive_set/boots",
+	"exclusive_set": "#bracken:exclusive_set/boot_frost_walker_like",
 	"max_cost": {
 		"base": 75,
 		"per_level_above_first": 25

@@ -5,47 +5,34 @@
 	},
 	"anvil_cost": 1000,
 	"effects": {
-		"minecraft:damage": [
-		{
-		  "effect": {
-			"type": "minecraft:add",
-			"value": {
-			  "type": "minecraft:linear",
-			  "base": 2.5,
-			  "per_level_above_first": 2.5
-			}
-		  },
-		  "requirements": {
-			"condition": "minecraft:entity_properties",
-			"entity": "this",
-			"predicate": {
-			  "type": "#minecraft:sensitive_to_smite"
-			}
-		  }
-		}
-	  ],
-	  "minecraft:damage_protection": [{
-			"effect": {
-				"type": "minecraft:add",
-				"value": {
-					"type": "minecraft:linear",
-					"base": 25.0,
-					"per_level_above_first": 2.0
-				}
-			},
-			"requirements": {
-				"condition": "minecraft:damage_source_properties",
-				"predicate": {
-					"tags": [{
-						"expected": true,
-						"id": "bracken:grounding"
-					},{
-						"expected": false,
-						"id": "minecraft:bypasses_invulnerability"
-					}]
-				}
-			}
-		}]
+		
+	   "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 15.0,
+            "per_level_above_first": 4.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "bracken:grounding"
+              },
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ]
 	},
 	"max_cost": {
 		"base": 1000,

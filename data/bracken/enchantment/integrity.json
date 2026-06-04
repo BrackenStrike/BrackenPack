@@ -5,28 +5,33 @@
 		"color": "dark_purple"
 	},
 	"effects": {
-		"minecraft:damage_protection": [{
-			"effect": {
-				"type": "minecraft:add",
-				"value": {
-					"type": "minecraft:linear",
-					"base": 9.0,
-					"per_level_above_first": 2.0
-				}
-			},
-			"requirements": {
-				"condition": "minecraft:damage_source_properties",
-				"predicate": {
-					"tags": [{
-						"expected": true,
-						"id": "bracken:physical_attack"
-					},{
-						"expected": false,
-						"id": "minecraft:bypasses_invulnerability"
-					}]
-				}
-			}
-		}]
+		"minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 9.0,
+            "per_level_above_first": 2.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "bracken:physical_attack"
+              },
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ]
 	},
 	"max_cost": {
 		"base": 25,

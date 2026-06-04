@@ -38,6 +38,7 @@
 			}
 		}]
 	},
+	"exclusive_set": "bracken:quenching",
 	"max_cost": {
 		"base": 60,
 		"per_level_above_first": 20

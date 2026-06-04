@@ -11,7 +11,7 @@
 				"predicate": {
 					"tags": [{
 						"expected": true,
-						"id": "minecraft:in_fire"
+						"id": "bracken:just_flames"
 					},{
 						"expected": false,
 						"id": "minecraft:bypasses_invulnerability"
@@ -71,7 +71,7 @@
 			}
 		}]
 	},
-	"exclusive_set": "#minecraft:exclusive_set/boots",
+	"exclusive_set": "#bracken:exclusive_set/boot_frost_walker_like",
 	"max_cost": {
 		"base": 25,
 		"per_level_above_first": 10

@@ -42,7 +42,7 @@
         "bracken:pushback",
         "bracken:quenching",
         "bracken:rending",
-        "bracken:reverse_punch",
+        
         "bracken:reverse_thorns",
         "bracken:searing_surface",
         "bracken:curse/sentience_1",
@@ -106,7 +106,8 @@
         "minecraft:loyalty",
         "minecraft:unbreaking",
         "minecraft:infinity",
-        "minecraft:mending"
+        "minecraft:mending",
+        "minecraft:lunge"
 
     ]
 }

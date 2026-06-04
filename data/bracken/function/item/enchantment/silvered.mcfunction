@@ -34,3 +34,5 @@ effect clear @s minecraft:speed
 effect clear @s minecraft:strength
 effect clear @s minecraft:water_breathing
 effect clear @s minecraft:wind_charged
+
+data merge entity @s[type=zombie_villager] {ConversionTime:40}

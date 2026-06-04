@@ -67,13 +67,14 @@
 				"entity": "this",
 				"predicate": {
 					"flags": {
-						"is_on_ground": true
+						"is_on_ground": true,
+						"is_sneaking": true
 					}
 				}
 			}
 		}]
 	},
-	"exclusive_set": "#minecraft:exclusive_set/boots",
+	"exclusive_set": "#bracken:exclusive_set/boot_frost_walker_like",
 	"max_cost": {
 		"base": 25,
 		"per_level_above_first": 10

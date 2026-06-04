@@ -106,6 +106,7 @@
 			}
 		}]
 	},
+	"exclusive_set": "bracken:searing_surface",
 	"max_cost": {
 		"base": 18,
 		"per_level_above_first": 8
