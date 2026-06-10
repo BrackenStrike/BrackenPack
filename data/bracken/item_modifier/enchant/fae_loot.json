@@ -1,0 +1,27 @@
+[
+  {
+    "function": "enchant_with_levels",
+    "levels": 5,
+    "options": "#bracken:loot/fae"
+  },
+  {
+    "function": "enchant_with_levels",
+    "levels": 5,
+    "options": "#bracken:loot/fae"
+  },
+  {
+    "function": "enchant_with_levels",
+    "levels": 5,
+    "options": "#bracken:loot/fae"
+  },
+  {
+    "function": "enchant_with_levels",
+    "levels": 5,
+    "options": "#bracken:loot/fae"
+  },
+  {
+    "function": "enchant_with_levels",
+    "levels": 5,
+    "options": "#bracken:loot/fae"
+  }
+]

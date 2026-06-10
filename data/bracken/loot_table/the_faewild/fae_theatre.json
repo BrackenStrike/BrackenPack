@@ -25,6 +25,9 @@
 					"min": 0,
 					"max": 0.8
 				}
+			},{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "loot_table",
@@ -39,6 +42,9 @@
 					"min": 0,
 					"max": 0.8
 				}
+			},{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},
 		{
@@ -61,6 +67,9 @@
 					"min": 0,
 					"max": 0.8
 				}
+			},{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "loot_table",
@@ -75,6 +84,9 @@
 					"min": 0,
 					"max": 0.8
 				}
+			},{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "loot_table",
@@ -89,6 +101,9 @@
 					"min": 0,
 					"max": 0.8
 				}
+			},{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "loot_table",
@@ -103,6 +118,9 @@
 					"min": 0,
 					"max": 0.8
 				}
+			},{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "loot_table",
@@ -117,6 +135,9 @@
 					"min": 0,
 					"max": 0.8
 				}
+			},{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "loot_table",
@@ -131,6 +152,9 @@
 					"min": 0,
 					"max": 0.8
 				}
+			},{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "loot_table",
@@ -145,6 +169,9 @@
 					"min": 0,
 					"max": 0.8
 				}
+			},{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "loot_table",
@@ -173,6 +200,9 @@
 					"min": 0,
 					"max": 0.8
 				}
+			},{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "minecraft:item",
@@ -187,6 +217,9 @@
 					"min": 0,
 					"max": 0.8
 				}
+			},{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "minecraft:item",
@@ -243,6 +276,9 @@
 					"min": 0,
 					"max": 0.8
 				}
+			},{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "minecraft:item",
@@ -257,6 +293,9 @@
 					"min": 0,
 					"max": 0.8
 				}
+			},{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "minecraft:item",
@@ -376,6 +415,10 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "minecraft:item",
@@ -383,6 +426,10 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "minecraft:item",
@@ -390,6 +437,10 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		},{
 			"type": "minecraft:item",
@@ -397,6 +448,10 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "reference",
+				"name": "bracken:enchant/fae_loot"
 			}]
 		}]
 	}]

@@ -120,5 +120,5 @@
 		"armor"
 	],
 	"supported_items": "#minecraft:enchantable/armor",
-	"weight": 5
+	"weight": 1
 }

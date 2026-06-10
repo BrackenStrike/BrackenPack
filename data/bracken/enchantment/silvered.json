@@ -49,5 +49,5 @@
 		"armor"
 	],
 	"supported_items": "#minecraft:enchantable/durability",
-	"weight": 5
+	"weight": 1
 }

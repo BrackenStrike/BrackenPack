@@ -26,5 +26,5 @@
 	],
 	"exclusive_set": "minecraft:mending",
 	"supported_items": "#minecraft:enchantable/durability",
-	"weight": 2
+	"weight": 1
 }

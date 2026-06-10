@@ -55,5 +55,5 @@
 	],
 	"exclusive_set": "minecraft:fire_aspect",
 	"supported_items": "#minecraft:enchantable/sharp_weapon",
-	"weight": 2
+	"weight": 1
   }

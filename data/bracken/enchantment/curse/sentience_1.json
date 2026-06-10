@@ -28,5 +28,5 @@
 		"mainhand"
 	],
 	"supported_items": "#minecraft:enchantable/durability",
-	"weight": 10
+	"weight": 1
 }
