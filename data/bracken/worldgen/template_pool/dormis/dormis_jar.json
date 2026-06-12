@@ -1,11 +1,11 @@
 {
-    "name": "sarcophagus",
+    "name": "jar",
     "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
-                "location": "bracken:dormis/shechemium/sarcophagus",
+                "location": "bracken:dormis/golanium/water_jar",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"

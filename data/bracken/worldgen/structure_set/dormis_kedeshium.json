@@ -1,14 +1,18 @@
 {
     "structures": [
         {
+            "structure": "bracken:dormis_obsidian_building",
+            "weight": 5
+        },
+        {
             "structure": "bracken:dormis_slate",
             "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 13,
+        "spacing": 7,
         "separation": 6,
-        "salt": 746025461
+        "salt": 1678869722
     }
 }

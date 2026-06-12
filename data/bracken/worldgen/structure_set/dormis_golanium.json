@@ -1,0 +1,22 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:dormis_mud_house",
+            "weight": 6
+        },
+        {
+            "structure": "bracken:dormis_jar",
+            "weight": 2
+        },
+        {
+            "structure": "bracken:dormis_team",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 4,
+        "separation": 3,
+        "salt": 1678869722
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "bracken:dormis/golanium",
+    "spawn_overrides": {},
+    "start_pool": "bracken:dormis/dormis_jar",
+    "size": 11,
+    "step": "surface_structures",
+    "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {"absolute": 290},
+        "max_inclusive": {"absolute": 430}
+    },
+    "max_distance_from_center": 116,
+    "use_expansion_hack": false,
+    "terrain_adaptation": "beard_thin"
+}

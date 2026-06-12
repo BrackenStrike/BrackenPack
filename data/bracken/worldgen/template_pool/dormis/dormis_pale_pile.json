@@ -1,11 +1,11 @@
 {
-    "name": "sarcophagus",
+    "name": "pale_pile",
     "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
-                "location": "bracken:dormis/shechemium/sarcophagus",
+                "location": "bracken:dormis/ramothium/pale_pile",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
