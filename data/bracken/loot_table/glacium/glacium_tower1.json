@@ -49,6 +49,37 @@
 			}]
 		},
 		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:ferocity": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:splintering": 1,					
+					"bracken:curse/sentience_2": 1
+				},
+				"add": false
+			}]
+		},
+		{
 			"type": "minecraft:item",
 			"name": "minecraft:iron_ingot",
 			"conditions": [{

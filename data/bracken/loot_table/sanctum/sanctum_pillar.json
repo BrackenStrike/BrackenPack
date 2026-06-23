@@ -49,6 +49,21 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:spectrality": 1
+				},
+				"add": false
+			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/metal_apples/copper_apple",
@@ -170,8 +185,26 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:guarding": 1,
-					"bracken:pugnacity": 1
+					"bracken:cleaving": 1,					
+					"bracken:curse/dullness": 1
+
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:obliteration": 1,					
+					"bracken:curse/sentience_3": 1
+
 				},
 				"add": false
 			}]
@@ -186,7 +219,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:trampling": 1,
+					
 					"bracken:reverse_thorns": 1
 				},
 				"add": false

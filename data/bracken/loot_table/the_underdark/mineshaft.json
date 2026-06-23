@@ -68,7 +68,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:defusing": 1,
-					"bracken:rending": 1
+					"bracken:boldness": 1
 				},
 				"add": false
 			}]
@@ -83,8 +83,25 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:reverse_thorns": 1,
-					"bracken:splintering": 1
+					"bracken:butchering": 1,
+					"bracken:trampling": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:searing_surface": 1,					
+					"bracken:curse/maiming": 1
+
 				},
 				"add": false
 			}]

@@ -21,6 +21,24 @@
 			}]
 		},
 		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:famine_walker": 1,
+					"bracken:reverse_thorns": 1,					
+					"bracken:curse/fragility": 1
+
+				},
+				"add": false
+			}]
+		},
+		{
 			"type": "loot_table",
 			"value": "bracken:item/articles/power_arms",
 			"conditions": [{

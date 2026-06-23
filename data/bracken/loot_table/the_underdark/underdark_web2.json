@@ -102,7 +102,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:dentine_touch": 1,
-					"bracken:rending": 1
+					"bracken:searing_surface": 1
 				},
 				"add": false
 			}]
@@ -118,7 +118,9 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:wisdom": 1,
-					"bracken:butchering": 1
+					"bracken:butchering": 1,					
+					"bracken:curse/sentience_6": 1
+
 				},
 				"add": false
 			}]
