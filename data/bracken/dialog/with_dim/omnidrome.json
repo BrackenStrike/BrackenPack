@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Where do you want to go?",
+  "can_close_with_escape": false,
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item":{
+        "id":"minecraft:carved_pumpkin",
+        "count":1,
+        "components":{
+          "minecraft:enchantment_glint_override":false,
+          "minecraft:item_model": "bracken:shadows/playernereid"
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Do you wish to stay in the Overworld dimension or try out the Omnidrome dimension?"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Be warned! Omnidrome has limited resources and difficult mobs!"
+    }
+  ],
+  "actions": [
+    {
+      "label": "Overworld (Challenge Lvl 1)",
+      "tooltip":"The usual Minecraft beginning",
+        "action": {
+          "type": "run_command",
+          "command": "trigger bp.species_selected set 101"
+      }
+    },
+    {
+      "label": "Omnidrome (Challenge Lvl 3)",
+      "tooltip":"A more \"unfamiliar\" beginning",
+        "action": {
+          "type": "run_command",
+          "command": "trigger bp.dimension_selected set 1"
+      }
+    },
+    {
+      "label": "No, take me back",
+      "action": {
+        "type": "show_dialog",
+        "dialog": "bracken:with_dim/species"
+      }
+    }
+  ]
+}

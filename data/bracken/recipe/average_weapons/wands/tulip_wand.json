@@ -13,7 +13,7 @@
 		"components": {
 			
             "minecraft:enchantments": {
-				"bracken:weakening_fix": 1
+				"bracken:weakening": 1
 			  },
 			"minecraft:item_name": "Tulip Wand",
 			"minecraft:item_model": "bracken:average_weapons/wands/tulip_wand",

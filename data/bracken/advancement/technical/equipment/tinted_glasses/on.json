@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:equipment/tinted_glasses/on"
+		"function": "bracken:item/equipment/tinted_glasses/on"
 	}
 }

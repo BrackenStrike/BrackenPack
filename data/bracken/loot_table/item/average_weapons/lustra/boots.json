@@ -11,7 +11,7 @@
 			},{
 				"function": "set_enchantments",
 				"enchantments": {
-					"bracken:integrity_fix": 1
+					"bracken:integrity": 1
 				}
 			},{
 				"function": "minecraft:set_attributes",
@@ -32,17 +32,11 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/lustra/boots",
-					"minecraft:max_damage": 3000,
+					"minecraft:max_damage": 722,
 					"minecraft:equippable": {
 						"slot": "feet",
 						"asset_id": "bracken:lustra"
 					}
-				}
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
 				}
 			}]
 		}]

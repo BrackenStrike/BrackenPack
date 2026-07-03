@@ -23,6 +23,9 @@
 				"to": "bracken:varskspace"
 			}
 		}
+	},
+	"rewards": {
+		"function": "bracken:dimension/travel/queue_title_cards/varskspace"
 	}
 }
 

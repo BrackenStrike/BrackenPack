@@ -98,7 +98,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/ability_books/lightning_bolt",
+			"value": "bracken:item/ability_books/travel_call",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
@@ -947,7 +947,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:devouring_curse": 1
+					"bracken:curse/devouring": 1
 				},
 				"add": false
 			}]
@@ -1007,7 +1007,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:fragility_curse": 1
+					"bracken:curse/fragility": 1
 				},
 				"add": false
 			}]
@@ -1052,7 +1052,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:lethargy_curse": 1
+					"bracken:curse/lethargy": 1
 				},
 				"add": false
 			}]
@@ -1097,7 +1097,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:maiming_curse": 1
+					"bracken:curse/maiming": 1
 				},
 				"add": false
 			}]
@@ -1202,7 +1202,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:sentience_curse_1": 1
+					"bracken:curse/sentience_1": 1
 				},
 				"add": false
 			}]
@@ -1217,7 +1217,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:sentience_curse_2": 1
+					"bracken:curse/sentience_2": 1
 				},
 				"add": false
 			}]
@@ -1232,7 +1232,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:sentience_curse_3": 1
+					"bracken:curse/sentience_3": 1
 				},
 				"add": false
 			}]
@@ -1247,7 +1247,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:sentience_curse_4": 1
+					"bracken:curse/sentience_4": 1
 				},
 				"add": false
 			}]
@@ -1262,7 +1262,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:sentience_curse_5": 1
+					"bracken:curse/sentience_5": 1
 				},
 				"add": false
 			}]
@@ -1277,7 +1277,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:sentience_curse_6": 1
+					"bracken:curse/sentience_6": 1
 				},
 				"add": false
 			}]
@@ -1292,7 +1292,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:sentience_curse_7": 1
+					"bracken:curse/sentience_7": 1
 				},
 				"add": false
 			}]
@@ -1322,7 +1322,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:spectrality_fix": 1
+					"bracken:spectrality": 1
 				},
 				"add": false
 			}]

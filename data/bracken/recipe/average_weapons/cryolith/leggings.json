@@ -6,7 +6,7 @@
 	"result": {
 		"id": "minecraft:iron_leggings",
 		"components": {
-			"minecraft:max_damage": 200,
+			"minecraft:max_damage": 175,
 			"minecraft:item_name": "Cryolith Leggings",
 			"minecraft:equippable": {
 				"slot": "legs",
@@ -15,8 +15,8 @@
 			},
 			"minecraft:enchantments": {
 				"minecraft:vanishing_curse": 1,
-				"bracken:quenching_fix": 1,
-				"bracken:fragility_curse": 1
+				"bracken:quenching": 1,
+				"bracken:curse/fragility": 1
 			},
 			"minecraft:item_model": "bracken:average_weapons/cryolith/leggings"
 		}

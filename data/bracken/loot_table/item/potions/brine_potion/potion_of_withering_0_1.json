@@ -1,0 +1,13 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:potion"
+		}],
+		"functions": [{
+			"function": "minecraft:set_components",
+			"components": {"minecraft:custom_name":"Potion of Withering","minecraft:potion_contents":{"custom_color":4990730,"custom_effects":[{"id":"wither","duration":300,"amplifier":1}]},"minecraft:custom_data":{"bp.potion":109,"bp":[{"id":"potion_modified1"}]}}
+		}]
+	}]
+}

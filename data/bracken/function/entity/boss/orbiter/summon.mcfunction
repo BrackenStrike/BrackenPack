@@ -1,0 +1,1 @@
+summon ghast ~ ~ ~ {Silent:1b,NoAI:1b,Health:500f,DeathLootTable:"bracken:entity/boss/orbiter",PersistenceRequired:1b,AbsorptionAmount:2400f,Health:40f,ExplosionPower:0,Tags:[bp.orbiter,bp.entity,bp.boss,bp.safe,bp.start],CustomName:'{"text":"Orbiter"}',attributes:[{id:"max_health",base:500},{id:follow_range,base:0}]}

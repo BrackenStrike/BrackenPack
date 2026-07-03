@@ -28,46 +28,56 @@
 			}]
 		},
 		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:cleaving": 1,
+					"bracken:spectrality": 1,					
+					"bracken:curse/sentience_1": 1
+
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:famine_walker": 1,
+					"bracken:reverse_thorns": 1
+				},
+				"add": false
+			}]
+		},
+		{
 			"type": "loot_table",
 			"value": "bracken:item/articles/night_vision_goggles",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
-			}]
-		},
-		{
-			"type": "item",
-			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.2
 			}],
 			"functions": [{
-				"function": "minecraft:set_enchantments",
-				"enchantments": {
-					"bracken:shrewdness": 1,
-					"bracken:dullness_curse": 1
-				},
-				"add": false
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},
-		{
-			"type": "item",
-			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.2
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
-				"enchantments": {
-					"bracken:mortality": 1,
-					"minecraft:mending": 1,
-					"bracken:decaying_fix": 1
-				},
-				"add": false
-			}]
-		},
+		
+		
 		{
 			"type": "loot_table",
 			"value": "bracken:item/metal_apples/copper_apple",
@@ -99,6 +109,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -106,6 +123,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -113,6 +137,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -120,6 +151,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -127,6 +165,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -134,6 +179,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -141,6 +193,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -148,6 +207,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -155,6 +221,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -162,6 +235,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -169,6 +249,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "minecraft:item",
@@ -176,6 +263,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "minecraft:item",
@@ -183,6 +277,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "minecraft:item",
@@ -190,6 +291,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "minecraft:item",
@@ -197,6 +305,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "minecraft:item",
@@ -204,6 +319,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "minecraft:item",
@@ -211,6 +333,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "minecraft:item",
@@ -218,6 +347,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "minecraft:item",
@@ -225,6 +361,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "minecraft:item",
@@ -232,6 +375,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "minecraft:item",

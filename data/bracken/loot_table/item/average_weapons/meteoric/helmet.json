@@ -12,17 +12,11 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/meteoric/helmet",
-					"minecraft:max_damage": 1000,
+					"minecraft:max_damage": 330,
 					"minecraft:equippable": {
 						"slot": "head",
 						"asset_id": "bracken:meteoric"
 					}
-				}
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
 				}
 			}]
 		}]

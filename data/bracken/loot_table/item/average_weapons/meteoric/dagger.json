@@ -42,7 +42,10 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/meteoric/dagger",
-					"minecraft:max_damage": 1000
+					"minecraft:max_damage": 1000,
+					"swing_animation": {
+						"type": "stab" 
+					}
 				}
 			},{
 				"function": "minecraft:set_attributes",
@@ -76,12 +79,6 @@
 				"function": "minecraft:toggle_tooltips",
 				"toggles": {
 					"attribute_modifiers": false
-				}
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
 				}
 			}]
 		}]

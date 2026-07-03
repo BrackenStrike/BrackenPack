@@ -11,7 +11,7 @@
 			},{
 				"function": "set_enchantments",
 				"enchantments": {
-					"bracken:astuteness_fix": 1
+					"bracken:astuteness": 1
 				}
 			},{
 				"function": "minecraft:set_components",
@@ -22,12 +22,6 @@
 						"equip_sound": "minecraft:block.wool.step",
 						"asset_id": "bracken:silk"
 					}
-				}
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
 				}
 			}]
 		}]

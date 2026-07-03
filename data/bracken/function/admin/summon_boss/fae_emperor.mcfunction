@@ -1,0 +1,1 @@
+function bracken:entity/boss/fae_emperor/summon

@@ -47,6 +47,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "minecraft:item",
@@ -95,7 +102,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:dentine_touch": 1,
-					"bracken:rending": 1
+					"bracken:searing_surface": 1
 				},
 				"add": false
 			}]
@@ -111,7 +118,9 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:wisdom": 1,
-					"bracken:butchering": 1
+					"bracken:butchering": 1,					
+					"bracken:curse/sentience_6": 1
+
 				},
 				"add": false
 			}]

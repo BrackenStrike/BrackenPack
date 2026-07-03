@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+
+        "bracken:famine_walker",
+        "bracken:flame_walker",
+        "bracken:float_walker",
+        "bracken:flood_walker",        
+        "minecraft:frost_walker"
+        
+        
+
+    ]
+}

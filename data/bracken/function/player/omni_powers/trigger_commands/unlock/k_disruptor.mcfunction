@@ -1,0 +1,8 @@
+##########################################################
+# Description: Enables omnitrigger command
+# Creators: BrackenStrike
+##########################################################
+
+function bracken:player/omni_powers/perms/set/summon_disruptor_beam
+function bracken:player/omni_powers/perms/set/sprint
+function bracken:player/omni_powers/perms/set/flight

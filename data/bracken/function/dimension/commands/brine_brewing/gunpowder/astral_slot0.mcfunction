@@ -1,0 +1,6 @@
+
+data remove block ~ ~ ~ Items[{Slot:0b}].components."minecraft:potion_contents".custom_effects[1]
+
+execute if data block ~ ~ ~ Items[{Slot:0b,components:{"minecraft:custom_data":{bp.potion:102b,bp:[{astral:1b}]}}}] run data modify block ~ ~ ~ Items[{Slot:0b}].components."minecraft:potion_contents".custom_effects[{id:luck}] merge value {id:"luck",duration:16489,amplifier:143,show_icon:false,show_particles:false}
+execute if data block ~ ~ ~ Items[{Slot:0b,components:{"minecraft:custom_data":{bp.potion:102b,bp:[{astral:2b}]}}}] run data modify block ~ ~ ~ Items[{Slot:0b}].components."minecraft:potion_contents".custom_effects[{id:luck}] merge value {id:"luck",duration:16589,amplifier:143,show_icon:false,show_particles:false}
+execute if data block ~ ~ ~ Items[{Slot:0b,components:{"minecraft:custom_data":{bp.potion:102b,bp:[{astral:3b}]}}}] run data modify block ~ ~ ~ Items[{Slot:0b}].components."minecraft:potion_contents".custom_effects[{id:luck}] merge value {id:"luck",duration:16689,amplifier:143,show_icon:false,show_particles:false}

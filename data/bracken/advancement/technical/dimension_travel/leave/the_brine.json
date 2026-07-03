@@ -8,6 +8,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_travel/leave/the_brine"
+		"function": "bracken:dimension/travel/leave/the_brine"
 	}
 }

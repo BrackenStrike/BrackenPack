@@ -1,0 +1,13 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:potion"
+		}],
+		"functions": [{
+			"function": "minecraft:set_components",
+			"components": {"minecraft:custom_name":"Potion of Aquatic Enhancement","minecraft:potion_contents":{"custom_color":4047815,"custom_effects":[{"duration":3600,"id":"dolphins_grace"},{"duration":3600,"id":"conduit_power"}]},"minecraft:custom_data":{"bp.potion":101,"bp":[{"id":"custom_potion"},{"closed_path":"enhance"}]}}
+		}]
+	}]
+}

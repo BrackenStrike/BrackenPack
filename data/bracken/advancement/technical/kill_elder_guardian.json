@@ -6,13 +6,13 @@
 				"entity": {
 					"type": "minecraft:elder_guardian",
 					"location": {
-						"dimension": "minecraft:the_end"
+						"dimension": "minecraft:overworld"
 					}
 				}
 			}
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_commands/other/summon_brine_portal_map"
+		"function": "bracken:dimension/commands/other/summon_brine_portal_map"
 	}
 }

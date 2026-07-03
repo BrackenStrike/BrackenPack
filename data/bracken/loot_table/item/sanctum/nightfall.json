@@ -24,7 +24,8 @@
 					"minecraft:equippable": {
 						"slot": "chest",
 						"asset_id": "bracken:nightfall",
-						"equip_sound": "minecraft:entity.ender_dragon.flap"
+						"equip_sound": "minecraft:entity.ender_dragon.flap",
+						"damage_on_hurt": false
 					},
 					"minecraft:rarity": "rare",
 					"minecraft:custom_data": {"bp":{"id":"nightfall"}}
@@ -33,12 +34,6 @@
 				"function": "set_name",
 				"target": "item_name",
 				"name": "Nightfall"
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.88,
-					"max": 0.93
-				}
 			},{
 				"function": "set_enchantments",
 				"enchantments": { "bracken:technical/nightfall": 1 }

@@ -1,7 +1,6 @@
 {
-    "asset_id": "bracken:panacea/panacea",
+    "asset_id": "bracken:panacea",
     "description": {
         "translate": "trim_pattern.bracken.panacea"
-    },
-    "template_item": "minecraft:barrier"
+    }
 }

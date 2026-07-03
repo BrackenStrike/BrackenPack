@@ -10,7 +10,7 @@
 		"components": {
 			
             "minecraft:enchantments": {
-				"bracken:spectrality_fix": 1
+				"bracken:spectrality": 1
 			  },
 			"minecraft:item_name": "Torchflower Wand",
 			"minecraft:item_model": "bracken:average_weapons/wands/torchflower_wand",

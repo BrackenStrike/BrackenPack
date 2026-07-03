@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"lingering": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "source": {
+                    "type": "minecraft:area_effect_cloud",
+                    "predicates": {
+						"minecraft:custom_data": "{bp.potion:104b,bp:[{greed_duration:0b},{greed_amplifier:1b}]}"
+					}
+                }
+            }
+        }
+	},
+	"rewards": {
+		"function": "bracken:player/potion/greed/0_1_greed_linger"
+	}
+}

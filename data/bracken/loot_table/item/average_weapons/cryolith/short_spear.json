@@ -42,8 +42,8 @@
 			},{
 				"function": "set_enchantments",
 				"enchantments": {
-					"bracken:freezing_fix": 1,
-					"bracken:fragility_curse": 1,
+					"bracken:freezing": 1,
+					"bracken:curse/fragility": 1,
 					"minecraft:vanishing_curse": 1
 				}
 			},{
@@ -71,12 +71,6 @@
 				"function": "minecraft:toggle_tooltips",
 				"toggles": {
 					"attribute_modifiers": false
-				}
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
 				}
 			}]
 		}]

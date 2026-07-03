@@ -14,6 +14,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:equipment/glacium_glider/off"
+		"function": "bracken:item/equipment/glacium_glider/off"
 	}
 }

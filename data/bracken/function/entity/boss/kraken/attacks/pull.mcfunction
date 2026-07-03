@@ -1,0 +1,1 @@
+scoreboard players set @s bp.boss_1 100

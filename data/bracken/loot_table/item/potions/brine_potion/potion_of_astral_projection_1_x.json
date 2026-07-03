@@ -1,0 +1,13 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:potion"
+		}],
+		"functions": [{
+			"function": "minecraft:set_components",
+			"components": {"minecraft:custom_name":"Potion of Astral Projection","minecraft:potion_contents":{"custom_color":55555555,"custom_effects":[{"duration":800,"id":"glowing","amplifier":0}]},"minecraft:custom_data":{"bp.potion":102,"bp":[{"id":"potion_modified1"},{"astral":2},{"closed_path":"enhance"}]}}
+		}]
+	}]
+}

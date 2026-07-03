@@ -26,5 +26,8 @@
 				"to": "bracken:the_underdark"
 			}
 		}
+	},
+	"rewards": {
+		"function": "bracken:dimension/travel/queue_title_cards/the_underdark"
 	}
 }

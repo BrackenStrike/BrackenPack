@@ -3,23 +3,29 @@
     "config": {
         "decorators": [
             {
+                "type": "minecraft:alter_ground",
                 "provider": {
-                    "state": {
-                        "Name": "minecraft:infested_stone"
-                    },
-                    "type": "minecraft:simple_state_provider"
-                },
-                "type": "minecraft:alter_ground"
+                    "type": "minecraft:rule_based_state_provider",
+                    "rules": [{
+                        "if_true":{
+                            "type": "minecraft:matching_blocks",
+                            "blocks": [
+                                "dirt",
+                                "stone",
+                                "deepslate"
+                            ]
+                        },
+                        "then": {
+                            "type": "minecraft:simple_state_provider",
+                            "state": {
+                                "Name": "minecraft:infested_stone"
+                            }
+                        }
+                    }]
+                }
             }
         ],
         "ignore_vines": false,
-        "force_dirt": false,
-        "dirt_provider": {
-            "state": {
-                "Name": "minecraft:dirt"
-            },
-            "type": "minecraft:simple_state_provider"
-        },
         "minimum_size": {
             "limit": 1,
             "lower_size": 1,
@@ -28,20 +34,7 @@
         },
         "foliage_provider": {
             "state": {
-                "Properties": {
-                    "persistent": "false",
-                    "distance": "7"
-                },
                 "Name": "minecraft:tuff"
-            },
-            "type": "minecraft:simple_state_provider"
-        },
-        "sapling_provider": {
-            "state": {
-                "Properties": {
-                    "stage": "0"
-                },
-                "Name": "minecraft:spruce_sapling"
             },
             "type": "minecraft:simple_state_provider"
         },

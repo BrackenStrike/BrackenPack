@@ -1,0 +1,123 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Building",
+    "inputs": [],
+    "can_close_with_escape": true,
+    "after_action": "close",
+    "pause": true,
+    "columns": 3,
+    "exit_action": {
+        "label": "Go back",
+        "width": 100,
+        "action": {
+            "type": "minecraft:show_dialog",
+            "dialog": "bracken:omnipowers/main"
+        }
+    },
+    "actions": [
+        {
+            "label": "Place cube",
+            "tooltip": "ID = 2",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 2"
+            }
+        },
+        {
+            "label": "Place road (north)",
+            "tooltip": "ID = 3",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 3"
+            }
+        },
+        {
+            "label": "Place road (south)",
+            "tooltip": "ID = 4",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 4"
+            }
+        },
+        {
+            "label": "Place road (east)",
+            "tooltip": "ID = 5",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 5"
+            }
+        },
+        {
+            "label": "Place road (west)",
+            "tooltip": "ID = 6",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 6"
+            }
+        },
+        {
+            "label": "Place pillar",
+            "tooltip": "ID = 7",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 7"
+            }
+        },
+        {
+            "label": "Place cyber tree",
+            "tooltip": "ID = 8",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 8"
+            }
+        },
+        {
+            "label": "Place pyramid",
+            "tooltip": "ID = 9",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 9"
+            }
+        },
+        {
+            "label": "Place end island",
+            "tooltip": "ID = 10",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 10"
+            }
+        },
+        {
+            "label": "Place single block",
+            "tooltip": "ID = 11",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 11"
+            }
+        },
+        {
+            "label": "Place sculk patch",
+            "tooltip": "ID = 12",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 12"
+            }
+        },
+        {
+            "label": "Clear debris",
+            "tooltip": "ID = 13",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 13"
+            }
+        },
+        {
+            "label": "Clear material",
+            "tooltip": "ID = 14",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 14"
+            }
+        }
+    ]
+}

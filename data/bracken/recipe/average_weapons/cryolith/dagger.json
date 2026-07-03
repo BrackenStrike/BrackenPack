@@ -10,8 +10,8 @@
 			"minecraft:item_name": "Cryolith Dagger",
 			"minecraft:enchantments": {
 				"minecraft:vanishing_curse": 1,
-				"bracken:freezing_fix": 1,
-				"bracken:fragility_curse": 1
+				"bracken:freezing": 1,
+				"bracken:curse/fragility": 1
 			},
 			"minecraft:item_model": "bracken:average_weapons/cryolith/dagger",
 			"minecraft:lore": [
@@ -57,7 +57,10 @@
         "hidden_components": [
           "minecraft:attribute_modifiers"
         ]
-      }
+      },
+			"swing_animation": {
+				"type": "stab"
+			}
 		}
 	}
 }

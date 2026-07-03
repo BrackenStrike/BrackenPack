@@ -10,7 +10,7 @@
 		"components": {
 			
             "minecraft:enchantments": {
-				"bracken:blinding_fix": 1
+				"bracken:blinding": 1
 			  },
 			"minecraft:item_name": "Eye Blossom Wand",
 			"minecraft:item_model": "bracken:average_weapons/wands/eye_blossom_wand",

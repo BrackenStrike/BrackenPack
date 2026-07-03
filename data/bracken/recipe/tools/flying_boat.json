@@ -14,7 +14,7 @@
     "components": {
 		"minecraft:item_name": "Flying Boat",
       "minecraft:entity_data": {
-        "id": "minecraft:pale_oak_boat",        
+        "id": "minecraft:pale_oak_boat",       
        "NoGravity":true,
         "Glowing":true,
         "CustomName":"Flying Boat"

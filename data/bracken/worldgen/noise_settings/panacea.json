@@ -1,17 +1,13 @@
 {
-    "deepslate_enabled": false,
     "ore_veins_enabled": false,
     "aquifers_enabled": false,
-    "bedrock_roof_position": -2147483648,
-    "bedrock_floor_position": 0,
     "sea_level": 43,
     "disable_mob_generation": false,
     "noise": {
         "min_y": 0,
         "height": 208,
         "size_horizontal": 1,
-        "size_vertical": 2,
-        "amplified": true
+        "size_vertical": 2
     },
     "default_block": {
         "Name": "minecraft:moss_block"
@@ -1064,20 +1060,6 @@
                     "y_scale": 1.5
                 },
                 "when_out_of_range": 0.0
-            }
-        }
-    },
-    "structures": {
-        "structures": {
-            "minecraft:village": {
-                "spacing": 15,
-                "separation": 4,
-                "salt": 14357619
-            },
-            "minecraft:bastion_remnant": {
-                "spacing": 5,
-                "separation": 3,
-                "salt": 14357619
             }
         }
     },

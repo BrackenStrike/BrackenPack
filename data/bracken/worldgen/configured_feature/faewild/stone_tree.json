@@ -12,9 +12,6 @@
             "Name": "minecraft:warped_nylium"
         },
         "stem_state": {
-            "Properties": {
-                "axis": "y"
-            },
             "Name": "minecraft:chiseled_stone_bricks"
         },
         "replaceable_blocks": {

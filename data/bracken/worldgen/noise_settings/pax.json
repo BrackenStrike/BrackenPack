@@ -1,8 +1,6 @@
 {
     "sea_level": 63,
     "disable_mob_generation": false,
-    "noise_caves_enabled": false,
-    "noodle_caves_enabled": false,
     "aquifers_enabled": false,
     "ore_veins_enabled": false,
     "legacy_random_source": false,
@@ -19,9 +17,7 @@
         "min_y": 0,
         "height": 464,
         "size_horizontal": 4,
-        "size_vertical": 2,
-        "island_noise_override": true,
-        "amplified": true
+        "size_vertical": 2
     },
     "noise_router": {
         "final_density": {
@@ -464,15 +460,6 @@
                 }
             }
         ]
-    },
-    "structures": {
-        "structures": {
-            "minecraft:village": {
-                "spacing": 26,
-                "separation": 16,
-                "salt": 14357921
-            }
-        }
     },
     "spawn_target": [
         {

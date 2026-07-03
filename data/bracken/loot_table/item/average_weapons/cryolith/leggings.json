@@ -12,7 +12,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/cryolith/leggings",
-					"minecraft:max_damage": 200,
+					"minecraft:max_damage": 175,
 					"minecraft:equippable": {
 						"slot": "legs",
 						"asset_id": "bracken:cryolith",
@@ -20,26 +20,11 @@
 					}
 				}
 			},{
-				"function": "minecraft:set_attributes",
-				"modifiers": [{
-					"attribute": "minecraft:armor_toughness",
-					"id": "bracken:cryolith_leggings_armor_tough",
-					"amount": -3,
-					"operation": "add_value",
-					"slot": "legs"
-				}]
-			},{
 				"function": "set_enchantments",
 				"enchantments": {
-					"bracken:fragility_curse": 1,
-					"bracken:quenching_fix": 1,
+					"bracken:curse/fragility": 1,
+					"bracken:quenching": 1,
 					"minecraft:vanishing_curse": 1
-				}
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
 				}
 			}]
 		}]

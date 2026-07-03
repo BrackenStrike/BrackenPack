@@ -1,0 +1,11 @@
+##########################################################
+# Description: Setup commands for the fae_emperor
+# Creators: Bracken
+##########################################################
+
+bossbar add bracken:fae_emperor {"translate":"Fae Emperor","color":"gray","bold":true}
+bossbar set bracken:fae_emperor color white
+bossbar set bracken:fae_emperor style notched_10
+bossbar set bracken:fae_emperor max 150
+
+scoreboard players set 7 bp.math.final 7

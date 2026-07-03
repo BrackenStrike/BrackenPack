@@ -22,6 +22,37 @@
 			}]
 		},
 		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:mortality": 1,
+					"bracken:curse/sentience_3": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:pugnacity": 1
+				},
+				"add": false
+			}]
+		},
+		{
 			"type": "minecraft:item",
 			"name": "minecraft:kelp",
 			"conditions": [{

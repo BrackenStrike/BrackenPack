@@ -7,7 +7,7 @@
 		},
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:netherite_ingot",
+			"name": "minecraft:netherite_scrap",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
@@ -33,6 +33,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -40,10 +47,17 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/ability_books/lightning_bolt",
+			"value": "bracken:item/ability_books/travel_call",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
@@ -260,7 +274,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"minecraft:protection": 4,
-					"bracken:maiming_curse": 1
+					"bracken:curse/maiming": 1
 				},
 				"add": false
 			}]

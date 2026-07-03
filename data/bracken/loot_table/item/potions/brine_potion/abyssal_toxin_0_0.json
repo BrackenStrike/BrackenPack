@@ -1,0 +1,13 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:potion"
+		}],
+		"functions": [{
+			"function": "minecraft:set_components",
+			"components": {"minecraft:custom_name":"Abyssal Toxin","minecraft:potion_contents":{"custom_color":0,"custom_effects":[{"id":"slowness","duration":60,"amplifier":1},{"id":"nausea","duration":200},{"id":"blindness","duration":200},{"id":"poison","duration":400,"amplifier":0},{"id":"wither","duration":200,"amplifier":0}]},"minecraft:custom_data":{"bp.potion":108,"bp":[{"id":"custom_potion"}]}}
+		}]
+	}]
+}

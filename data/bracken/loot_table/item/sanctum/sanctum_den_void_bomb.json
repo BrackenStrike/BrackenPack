@@ -38,10 +38,10 @@
 						,
 					"minecraft:entity_data": {
 						"id": "minecraft:area_effect_cloud",
-						"Particle": {
+						"custom_particle": {
 							"type": "squid_ink"
 						},
-						"CustomNameVisible": 1,
+						"CustomNameVisible": true,
 						"RadiusPerTick": 0.1,
 						"Duration": 600,
 						"potion_contents": {

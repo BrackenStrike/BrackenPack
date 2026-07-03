@@ -10,6 +10,6 @@ attribute @s minecraft:entity_interaction_range modifier add bracken:enderling.r
 attribute @s minecraft:scale modifier add bracken:enderling.scale 0.25 add_multiplied_base
 tag @s add bp.species
 tag @s add bp.enderling
-execute if data storage bracken:config {teams_on:true} run team join Enderling
+execute if data storage bracken:config {teams_on:true} run team join bp.Enderling
 clear @s written_book[minecraft:custom_data~{bp:{id:"species_beginner_book"}}]
 

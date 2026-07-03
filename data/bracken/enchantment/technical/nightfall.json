@@ -22,7 +22,17 @@
 		"minecraft:tick": [{
 			"effect": {
 				"type": "minecraft:run_function",
-				"function": "bracken:item/nightfall"
+				"function": "bracken:item/nightfall/nightfall"
+			},
+			"requirements": {
+				"condition": "entity_properties",
+				"entity": "this",
+				"predicate": {
+					"type": "player",
+					"flags": {
+						"is_sneaking": true
+					}
+				}
 			}
 		}]
 	}

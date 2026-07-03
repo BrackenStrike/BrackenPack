@@ -5,7 +5,8 @@
 
 advancement revoke @s only bracken:potion/greed/0_2_greed
 
-scoreboard players set @s bp.greed_duration 900
+scoreboard players set @s[scores={bp.greed_duration=..90}] bp.greed_duration 90
 scoreboard players set @s bp.greed_amplifier 2
 scoreboard players set @s bp.greed_kills 0
-scoreboard players set @s bp.greed_death 0
+
+effect clear @s luck

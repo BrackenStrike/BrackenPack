@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"requirement": {
+		"drink_potion": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"item": {
@@ -9,8 +9,22 @@
 					}
 				}
 			}
+		},
+		"splash_potion": {
+            "trigger": "minecraft:effects_changed",
+			"conditions": {
+				"effects": {
+					"minecraft:luck": {
+						"amplifier": 143,
+						"duration": 16689
+					}
+				}
+			}
 		}
 	},
+	"requirements": [
+		["drink_potion", "splash_potion"]
+	],
 	"rewards": {
 		"function": "bracken:player/potion/astral_projection/3_astral"
 	}

@@ -12,7 +12,7 @@
             "filling_provider": {
                 "type": "minecraft:weighted_state_provider",
                 "entries": [
-                    
+                   
                     {
                         "data": {
                             "Name": "minecraft:copper_ore"

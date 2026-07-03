@@ -11,7 +11,7 @@
 	"result": {
 		"id": "minecraft:netherite_helmet",
 		"components": {
-			"minecraft:max_damage": 1000,
+			"minecraft:max_damage": 330,
 			"minecraft:item_name": "Meteoric Helmet",
 			"minecraft:equippable": {
 				"slot": "head",

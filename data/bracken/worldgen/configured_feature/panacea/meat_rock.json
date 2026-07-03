@@ -1,6 +1,14 @@
 {
-    "type": "minecraft:forest_rock",
+    "type": "minecraft:block_blob",
     "config": {
+        "can_place_on": {
+            "type": "matching_blocks",
+            "blocks": [
+                "grass_block",
+                "crimson_nylium",
+                "moss_block"
+            ]
+        },
         "state": {
             "Name": "minecraft:nether_quartz_ore"
         }

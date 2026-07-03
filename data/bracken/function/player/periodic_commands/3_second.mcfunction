@@ -9,9 +9,8 @@ scoreboard players set @s bp.3_second 0
 function bracken:player/reset_bossbars
 
 # Glacium beacon
-execute if block ~ ~-1 ~ minecraft:beacon run function bracken:dimension_commands/other/beacon_portal
+execute if block ~ ~-1 ~ minecraft:beacon run function bracken:dimension/commands/other/beacon_portal
 
-# Rain elytra
-#execute if predicate bracken:rain positioned over motion_blocking if entity @s[dy=999,predicate=bracken:item/flying_elytra] run scoreboard players set @s bp.elytra_dive 50
-scoreboard players set @s[predicate=bracken:item/flying_elytra] bp.elytra_dive 50
-
+# IRON APPLE ARMOR BOOST EFFECT END
+scoreboard players remove @s[scores={bp.iron_apple=1..}] bp.iron_apple 1
+attribute @s[scores={bp.iron_apple=1..2}] minecraft:armor modifier remove bracken:apple.armor

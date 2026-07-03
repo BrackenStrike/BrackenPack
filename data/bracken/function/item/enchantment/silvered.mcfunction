@@ -2,6 +2,7 @@ effect clear @s minecraft:bad_omen
 effect clear @s minecraft:blindness
 effect clear @s minecraft:darkness
 effect clear @s minecraft:hunger
+effect clear @s minecraft:infested
 effect clear @s minecraft:levitation
 effect clear @s minecraft:mining_fatigue
 effect clear @s minecraft:nausea
@@ -14,3 +15,24 @@ effect clear @s minecraft:unluck
 effect clear @s minecraft:weakness
 effect clear @s minecraft:weaving
 effect clear @s minecraft:wither
+
+effect clear @s minecraft:absorption
+effect clear @s minecraft:dolphins_grace
+effect clear @s minecraft:fire_resistance
+effect clear @s minecraft:glowing
+effect clear @s minecraft:haste
+effect clear @s minecraft:health_boost
+effect clear @s[type=player] minecraft:invisibility
+effect clear @s minecraft:jump_boost
+effect clear @s minecraft:luck
+effect clear @s minecraft:night_vision
+effect clear @s minecraft:regeneration
+effect clear @s minecraft:resistance
+effect clear @s minecraft:saturation
+effect clear @s minecraft:slow_falling
+effect clear @s minecraft:speed
+effect clear @s minecraft:strength
+effect clear @s minecraft:water_breathing
+effect clear @s minecraft:wind_charged
+
+data merge entity @s[type=zombie_villager] {ConversionTime:40}

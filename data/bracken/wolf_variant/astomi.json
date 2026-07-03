@@ -4,6 +4,11 @@
     "tame": "bracken:entity/wolf/sanctum/wolf_sanctum_tame",
     "wild": "bracken:entity/wolf/sanctum/wolf_sanctum"
   },
+  "baby_assets": {
+    "angry": "minecraft:entity/wolf/wolf_black_angry_baby",
+    "tame": "bracken:entity/wolf/sanctum/wolf_sanctum_tame",
+    "wild": "bracken:entity/wolf/sanctum/wolf_sanctum"
+  },
   "spawn_conditions": [
     {
       "condition": {

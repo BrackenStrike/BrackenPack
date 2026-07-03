@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
-			"value": "bracken:item/ability_books/lightning_bolt"
+			"value": "bracken:item/ability_books/travel_call"
 		}]
 	},{
 		"rolls": 1,
@@ -15,7 +15,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
-			"value": "bracken:item/sanctum/ruination_capsule"
+			"value": "bracken:item/sanctum/ostiarius_capsule"
 		}]
 	},{
 		"rolls": 1,
@@ -26,8 +26,8 @@
 		"functions": [{
 			"function": "set_damage",
 			"damage": {
-				"min": 0.48,
-				"max": 0.93
+				"min": 0,
+				"max": 0.8
 			}
 		}]
 	}]

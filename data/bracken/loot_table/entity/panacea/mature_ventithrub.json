@@ -1,0 +1,65 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/panacea/panaspore",
+                    "functions": [{
+                        "function": "set_count",
+                        "count": {
+                            "min": 5,
+                            "max": 6
+                        }
+                    },{
+                        "function": "enchanted_count_increase",
+                        "count": {
+                            "max": 1,
+                            "min": 5
+                        },
+                        "enchantment": "minecraft:looting"
+                    }]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wither_rose"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.15
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "bracken:item/panacea/lembas_breadfruit",
+                    "functions": [{
+                        "function": "set_count",
+                        "count": {
+                            "min": 8,
+                            "max": 10
+                        }
+                    },{
+                        "function": "enchanted_count_increase",
+                        "count": {
+                            "max": 3,
+                            "min": 1
+                        },
+                        "enchantment": "minecraft:looting"
+                    }]
+                }
+            ]
+        }
+    ]
+}

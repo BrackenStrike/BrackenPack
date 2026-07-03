@@ -1,23 +1,12 @@
 {
     "type": "minecraft:tree",
     "config": {
-        "force_dirt": false,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
-        },
-        "dirt_provider": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-                "Name": "minecraft:red_wool"
-            }
         },
         "trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Properties": {
-                    "hanging": "true",
-                    "waterlogged": "false"
-                },
                 "Name": "minecraft:stone_pressure_plate"
             }
         },
@@ -38,6 +27,12 @@
             "radius": 1,
             "offset": 0,
             "height": 0
+        },
+        "below_trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:red_wool"
+            }
         },
         "decorators": []
     }

@@ -10,7 +10,7 @@
         "consume_seconds": 2.4,
         "animation": "eat",
         "has_consume_particles": false
-        
+       
       },
       "minecraft:food": {
         "nutrition": 9,

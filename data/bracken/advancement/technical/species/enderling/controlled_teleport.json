@@ -19,6 +19,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:player/species/enderling/controlled_teleport"
+		"function": "bracken:player/species/enderling/teleport/start"
 	}
 }

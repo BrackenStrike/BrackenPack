@@ -26,5 +26,8 @@
 				"to": "bracken:sanctum"
 			}
 		}
+	},
+	"rewards": {
+		"function": "bracken:dimension/travel/queue_title_cards/sanctum"
 	}
 }

@@ -1,0 +1,8 @@
+
+scoreboard players set @s bp.boss_2 69
+scoreboard players set @s bp.boss_state_cd 60
+summon creeper ~ ~ ~ {ExplosionRadius:-5b,Fuse:0,ignited:1b,Silent:1b,Tags:[bp.safe]}
+
+execute as @a[distance=..3] run function bracken:entity/boss/the_disruptor/attack/slam/slam_dmg
+
+tag @s remove bp.slam

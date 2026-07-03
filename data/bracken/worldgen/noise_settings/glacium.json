@@ -1,8 +1,6 @@
 {
     "sea_level": 63,
     "disable_mob_generation": false,
-    "noise_caves_enabled": false,
-    "noodle_caves_enabled": true,
     "aquifers_enabled": false,
     "ore_veins_enabled": false,
     "legacy_random_source": false,
@@ -19,8 +17,7 @@
         "min_y": 0,
         "height": 288,
         "size_horizontal": 1,
-        "size_vertical": 2,
-        "amplified": false
+        "size_vertical": 2
     },
     "noise_router": {
         "barrier": {
@@ -2277,35 +2274,6 @@
                 }
             }
         ]
-    },
-    "structures": {
-        "structures": {
-            "minecraft:igloo": {
-                "spacing": 15,
-                "separation": 4,
-                "salt": 14357618
-            },
-            "minecraft:village": {
-                "spacing": 15,
-                "separation": 11,
-                "salt": 14357618
-            },
-            "minecraft:ruined_portal": {
-                "spacing": 15,
-                "separation": 7,
-                "salt": 14357618
-            },
-            "minecraft:ocean_ruin": {
-                "spacing": 15,
-                "separation": 11,
-                "salt": 14357618
-            },
-            "minecraft:bastion_remnant": {
-                "spacing": 12,
-                "separation": 7,
-                "salt": 30084232
-            }
-        }
     },
     "spawn_target": [
         {

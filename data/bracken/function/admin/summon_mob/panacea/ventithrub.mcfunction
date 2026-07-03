@@ -1,0 +1,1 @@
+function bracken:entity/panacea/summons/ventithrub

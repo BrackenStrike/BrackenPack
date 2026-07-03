@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:player/omnitrigger/b_malvergent_zone"
+		"function": "bracken:player/omni_powers/trigger_commands/unlock/b_malvergent_zone"
 	}
 }

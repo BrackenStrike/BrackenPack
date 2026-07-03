@@ -5,7 +5,7 @@ effect give @s slowness 2 10 true
 effect give @s poison 2 1 false
 
 #I can't seem to find which one gives you a score of 15
-execute if score @s bp.hunter_morph matches 15 run effect give @s minecraft:slow_falling infinite 0 false
+effect give @s[scores={bp.hunter_morph=15}] minecraft:slow_falling infinite 0 false
 
 
 #Index Guide
@@ -15,6 +15,7 @@ execute if score @s bp.hunter_morph matches 15 run effect give @s minecraft:slow
 #  4: Tropical Fish
 #  5: Pufferfish
 #  6: Spider Eye
+
 #  7: Potato
 #  8: Melon
 #  9: Apple
@@ -23,6 +24,7 @@ execute if score @s bp.hunter_morph matches 15 run effect give @s minecraft:slow
 # 12: Sweet Berries
 # 13: Glow Berries
 # 14: Poisonous Potato
+
 # 16: Beef
 # 17: Mutton
 # 18: Porkchop

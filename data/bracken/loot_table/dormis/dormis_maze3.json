@@ -28,6 +28,7 @@
 				"chance": 0.2
 			}]
 		},
+		
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:gunpowder",

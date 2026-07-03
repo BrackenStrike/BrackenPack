@@ -12,6 +12,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:dimension_crossing/first_time_text/omniportal"
+		"function": "bracken:dimension/crossing/first_time_text/omniportal"
 	}
 }

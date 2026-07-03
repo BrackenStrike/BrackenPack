@@ -6,7 +6,7 @@
 	"result": {
 		"id": "minecraft:golden_boots",
 		"components": {
-			"minecraft:max_damage": 3000,
+			"minecraft:max_damage": 722,
 			"minecraft:enchantment_glint_override": true,
 			"minecraft:equippable": {
 				"slot": "feet",
@@ -14,9 +14,23 @@
 			},
 			"minecraft:item_name": "Lustra Boots",
 			"minecraft:enchantments": {
-				"bracken:integrity_fix": 1
+				"bracken:integrity": 1
 			},
-			"minecraft:item_model": "bracken:average_weapons/lustra/boots"
+			"minecraft:item_model": "bracken:average_weapons/lustra/boots",
+			"minecraft:attribute_modifiers":[{
+					"type": "minecraft:armor",
+					"id": "bracken:lustra_boots_armor",
+					"amount": 2,
+					"operation": "add_value",
+					"slot": "feet"
+				},
+				{
+					"type": "minecraft:armor_toughness",
+					"id": "bracken:lustra_boots_armor_toughness",
+					"amount": 5,
+					"operation": "add_value",
+					"slot": "feet"
+				}]
 		}
 	}
 }

@@ -1,0 +1,2 @@
+execute if score @s bp.boss_2 matches 1 as @n[type=minecraft:tnt,tag=bp.fae.blast,distance=..200] at @s run function bracken:entity/boss/fae_emperor/attacks/explosion
+scoreboard players remove @s[scores={bp.boss_2=1..}] bp.boss_2 1

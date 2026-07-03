@@ -28,6 +28,23 @@
 			}]
 		},
 		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:lifesteal": 1,					
+					"bracken:curse/sentience_7": 1
+
+				},
+				"add": false
+			}]
+		},
+		{
 			"type": "loot_table",
 			"value": "bracken:item/the_faewild/mim_silk_strand",
 			"conditions": [{

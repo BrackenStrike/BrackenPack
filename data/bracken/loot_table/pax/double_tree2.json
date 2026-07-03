@@ -77,7 +77,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/species_fruits/netherkin_fruit",
+			"value": "bracken:item/species_fruits/nether_pepper",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1

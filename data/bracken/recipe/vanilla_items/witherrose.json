@@ -9,7 +9,7 @@
         "#": "minecraft:coal"
         ,
         "R": "minecraft:rose_bush"
-        
+       
     },
     "result": {
         "id": "minecraft:wither_rose",

@@ -28,6 +28,6 @@
 		}
 	},
 	"rewards": {
-		"experience": 2
+		"function": "bracken:dimension/travel/queue_title_cards/the_faewild"
 	}
 }

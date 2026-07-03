@@ -7,6 +7,8 @@
         "minecraft:dragon_fireball",
         "#minecraft:arrows",
         "minecraft:trident",
-        "minecraft:wither"
+        "minecraft:wither",
+        "#bracken:deletable",
+        "minecraft:interaction"
     ]
 }

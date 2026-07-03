@@ -40,6 +40,37 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
 			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:huskiness": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:ferocity": 1,					
+					"bracken:curse/dullness": 1
+				},
+				"add": false
+			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/music_discs/viceroy",

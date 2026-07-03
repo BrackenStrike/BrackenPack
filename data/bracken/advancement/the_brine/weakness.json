@@ -26,7 +26,7 @@
 				"player": {
 					"location": {
 						"dimension": "bracken:the_brine",
-						"structure": "bracken:brine_station"
+						"structures": "bracken:brine_station"
 					}
 				}
 			}

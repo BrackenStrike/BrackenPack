@@ -31,7 +31,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:mortality": 1,
-					"bracken:devouring_curse": 1,
+					"bracken:curse/devouring": 1,
 					"bracken:rending": 1
 				},
 				"add": false
@@ -51,6 +51,22 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:pugnacity": 1,
+					"bracken:lifesteal": 1
+				},
+				"add": false
 			}]
 		},
 		{
@@ -81,6 +97,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},
 		{
@@ -89,6 +112,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.05
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "minecraft:item",

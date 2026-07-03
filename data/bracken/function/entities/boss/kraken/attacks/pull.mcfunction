@@ -1,1 +1,0 @@
-scoreboard players set @s bp.spin 100

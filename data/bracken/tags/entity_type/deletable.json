@@ -1,0 +1,11 @@
+{
+    "values": [
+        "#bracken:vehicle",
+        "armor_stand",
+        "minecraft:tnt_minecart",
+        "minecraft:chest_minecart",
+        "minecraft:hopper_minecart",
+        "minecraft:furnace_minecart",
+        "minecraft:spawner_minecart"
+    ]
+}

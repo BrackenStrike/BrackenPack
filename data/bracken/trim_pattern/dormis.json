@@ -1,7 +1,6 @@
 {
-    "asset_id": "bracken:dormis/dormis",
+    "asset_id": "bracken:dormis",
     "description": {
         "translate": "trim_pattern.bracken.dormis"
-    },
-    "template_item": "minecraft:barrier"
+    }
 }

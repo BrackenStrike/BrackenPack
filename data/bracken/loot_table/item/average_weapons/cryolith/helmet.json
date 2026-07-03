@@ -12,7 +12,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/cryolith/helmet",
-					"minecraft:max_damage": 200,
+					"minecraft:max_damage": 115,
 					"minecraft:equippable": {
 						"slot": "head",
 						"camera_overlay": "bracken:misc/cryolith",
@@ -21,26 +21,11 @@
 					}
 				}
 			},{
-				"function": "minecraft:set_attributes",
-				"modifiers": [{
-					"attribute": "minecraft:armor_toughness",
-					"id": "bracken:cryolith_helmet_armor_tough",
-					"amount": -3,
-					"operation": "add_value",
-					"slot": "head"
-				}]
-			},{
 				"function": "set_enchantments",
 				"enchantments": {
-					"bracken:fragility_curse": 1,
-					"bracken:quenching_fix": 1,
+					"bracken:curse/fragility": 1,
+					"bracken:quenching": 1,
 					"minecraft:vanishing_curse": 1
-				}
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
 				}
 			}]
 		}]

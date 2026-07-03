@@ -55,7 +55,7 @@
 	  "slots": [
 		"mainhand"
 	  ],
-	  "primary_items": "#minecraft:shovels",
-	"supported_items": "#minecraft:shovels",
+	  "primary_items": "#minecraft:enchantable/lunge",
+	"supported_items": "#minecraft:enchantable/lunge",
 	"weight": 1
 }

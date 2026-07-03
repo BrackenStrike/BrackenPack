@@ -7,12 +7,11 @@
 			"functions": [{
 				"function": "minecraft:set_components",
 				"components": {
-					"minecraft:damage": 200,
 					"minecraft:repair_cost": 100,
 					"minecraft:enchantments": {
 						"minecraft:punch": 10,
 						"minecraft:vanishing_curse": 1,
-						"bracken:sentience_curse_4": 1
+						"bracken:curse/sentience_4": 1
 					},
 					"minecraft:item_name": "\"Dreambow\"",
 					"minecraft:rarity": "epic"

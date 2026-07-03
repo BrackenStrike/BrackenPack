@@ -2,6 +2,8 @@
     "replace": false,
     "values": [
         "minecraft:giant",
-        "minecraft:elder_guardian"
+        "minecraft:elder_guardian",
+        "minecraft:wither",
+        "minecraft:ender_dragon"
     ]
 }

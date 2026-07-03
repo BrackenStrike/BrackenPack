@@ -28,7 +28,7 @@
   "disabled_sound": "minecraft:item.axe.scrape",
   "bypassed_by": "#minecraft:bypasses_shield"
 },
-			"minecraft:lore":[ 
+			"minecraft:lore":[
 			{"translate":"","color":"white","italic":false},
 			{"translate":"When in Main Hand:","color":"gray","italic":false},
 			{"translate": "3.5 Attack Damage","color":"dark_green","italic":false},

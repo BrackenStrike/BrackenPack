@@ -7,7 +7,7 @@
 			"translate": "Omni-Powers"
 		},
 		"description": {
-			"translate": "Type /trigger OMNI.ASK.help",
+			"translate": "Type /trigger OMNI.COMMAND",
 			"color": "green"
 		},
 		"frame": "task",

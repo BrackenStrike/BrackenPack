@@ -26,6 +26,13 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -53,7 +60,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:spectrality_fix": 1
+					"bracken:spectrality": 1
 				},
 				"add": false
 			}]

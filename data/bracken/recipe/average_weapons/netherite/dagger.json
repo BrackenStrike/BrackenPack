@@ -52,7 +52,10 @@
         "hidden_components": [
           "minecraft:attribute_modifiers"
         ]
-      }
+      },
+			"swing_animation": {
+				"type": "stab"
+			}
 		}
 	}
 }

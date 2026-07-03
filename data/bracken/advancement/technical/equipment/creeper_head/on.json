@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:equipment/creeper_head/on"
+		"function": "bracken:item/equipment/creeper_head/on"
 	}
 }

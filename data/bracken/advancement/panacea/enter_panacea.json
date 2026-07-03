@@ -26,5 +26,8 @@
 				"to": "bracken:panacea"
 			}
 		}
+	},
+	"rewards": {
+		"function": "bracken:dimension/travel/queue_title_cards/panacea"
 	}
 }

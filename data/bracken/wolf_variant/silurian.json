@@ -5,6 +5,11 @@
     "tame": "bracken:entity/wolf/panacea/wolf_pana_tame",
     "wild": "bracken:entity/wolf/panacea/wolf_pana"
   },
+  "baby_assets": {
+    "angry": "minecraft:entity/wolf/wolf_striped_angry_baby",
+    "tame": "minecraft:entity/wolf/wolf_striped_tame_baby",
+    "wild": "minecraft:entity/wolf/wolf_striped_baby"
+  },
   "spawn_conditions": [
     {
       "condition": {

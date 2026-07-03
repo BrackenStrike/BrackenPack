@@ -5,7 +5,7 @@
 
 tag @s remove bp.species
 tag @s remove bp.automech
-team leave @s[team=Automech]
+team leave @s[team=bp.Automech]
 
 attribute @s minecraft:scale modifier remove bracken:automech.scale
 attribute @s minecraft:armor modifier remove bracken:automech.armor
@@ -16,4 +16,5 @@ attribute @s minecraft:step_height modifier remove bracken:automech.step_height
 attribute @s minecraft:max_health modifier remove bracken:automech.max_health
 attribute @s minecraft:attack_knockback modifier remove bracken:automech.knockback
 
-return 1
+attribute @s minecraft:movement_speed modifier remove bracken:automech.on_land.movement_speed
+attribute @s minecraft:gravity modifier remove bracken:automech.on_land.gravity

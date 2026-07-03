@@ -33,6 +33,21 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
 			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					"bracken:lifesteal": 1
+				},
+				"add": false
+			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:flint",

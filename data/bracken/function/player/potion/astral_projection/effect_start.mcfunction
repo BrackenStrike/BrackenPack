@@ -12,8 +12,7 @@ gamemode spectator @s
 execute unless score @s bp.world_player_id matches 1.. run function bracken:player/set_player_id
 
 forceload add ~ ~
-summon marker ~ ~ ~ {Tags:[bp.entity,bp.astral_marker,bp.astral_setup,bp.forceload]}
-scoreboard players operation @e[type=marker,tag=bp.astral_setup,sort=nearest,limit=1] bp.world_player_id = @s bp.world_player_id
-execute as @e[type=marker,tag=bp.astral_setup,limit=1,sort=nearest] at @s run function bracken:player/potion/astral_projection/setup_marker
+summon marker ~ ~ ~ {Tags:[bp.astral_marker,bp.astral_setup,bp.forceload]}
+scoreboard players operation @n[type=marker,tag=bp.astral_setup] bp.world_player_id = @s bp.world_player_id
+execute as @n[type=marker,tag=bp.astral_setup] at @s run function bracken:player/potion/astral_projection/setup_marker
 
-scoreboard players set @s bp.astral_death 0

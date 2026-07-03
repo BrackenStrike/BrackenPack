@@ -1,6 +1,10 @@
 {
-    "type": "minecraft:forest_rock",
+    "type": "minecraft:block_blob",
     "config": {
+        "can_place_on": {
+            "type": "matching_blocks",
+            "blocks": "rooted_dirt"
+        },
         "state": {
             "Name": "minecraft:nether_gold_ore"
         }

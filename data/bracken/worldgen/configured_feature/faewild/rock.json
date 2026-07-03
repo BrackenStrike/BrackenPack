@@ -1,6 +1,10 @@
 {
-    "type": "minecraft:forest_rock",
+    "type": "minecraft:block_blob",
     "config": {
+        "can_place_on": {
+            "type": "matching_blocks",
+            "blocks": "dirt"
+        },
         "state": {
             "Name": "minecraft:chiseled_stone_bricks"
         }

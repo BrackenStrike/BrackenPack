@@ -12,7 +12,7 @@
 				"function": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/silversteel/chestplate",
-					"minecraft:max_damage": 2150,
+					"minecraft:max_damage": 680,
 					"minecraft:enchantment_glint_override": false,
 					"minecraft:equippable": {
 						"slot": "chest",
@@ -22,30 +22,24 @@
 			},{
 				"function": "set_enchantments",
 				"enchantments": {
-					"bracken:silvered_fix": 1,"bracken:cleansing_fix": 1
+					"bracken:silvered": 1,"bracken:cleansing": 1
 				}
 			},{
 				"function": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:armor",
 					"id": "bracken:silversteel_chestplate",
-					"amount": 9,
+					"amount": 10,
 					"operation": "add_value",
 					"slot": "chest"
 				},
 			{
 					"attribute": "minecraft:armor_toughness",
 					"id": "bracken:silversteel_chestplate_armor_tough",
-					"amount": 4,
+					"amount": 5,
 					"operation": "add_value",
 					"slot": "chest"
 				}]
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
-				}
 			}]
 		}]
 	}]

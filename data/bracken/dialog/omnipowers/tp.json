@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Teleportation",
+    "inputs": [],
+    "can_close_with_escape": true,
+    "after_action": "close",
+    "pause": true,
+    "columns": 1,
+    "exit_action": {
+        "label": "Go back",
+        "width": 100,
+        "action": {
+            "type": "minecraft:show_dialog",
+            "dialog": "bracken:omnipowers/main"
+        }
+    },
+    "actions": [
+        {
+            "label": "Teleport to nearest player",
+            "tooltip": "ID = 27",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger OMNI.COMMAND set 27"
+            }
+        }
+    ]
+}

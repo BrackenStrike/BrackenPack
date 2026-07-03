@@ -1,7 +1,6 @@
 {
-    "asset_id": "bracken:faewild/faewild",
+    "asset_id": "bracken:faewild",
     "description": {
         "translate": "trim_pattern.bracken.faewild"
-    },
-    "template_item": "minecraft:barrier"
+    }
 }

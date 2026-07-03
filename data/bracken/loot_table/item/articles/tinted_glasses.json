@@ -22,13 +22,6 @@
 						"bp": { "id": "tinted_glasses" }
 					}
 				}
-			},
-			{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
-				}
 			}]
 		}]
 	}]

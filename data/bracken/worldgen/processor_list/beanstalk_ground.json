@@ -3,8 +3,8 @@
       {
         "processor_type": "minecraft:rule",
         "rules": [
-          
-          
+         
+         
           {
             "input_predicate": {
               "block": "minecraft:moss_block",
@@ -206,8 +206,8 @@
               "Name": "minecraft:muddy_mangrove_roots"
             }
           }
-          
-          
+         
+         
         ]
       }
     ]

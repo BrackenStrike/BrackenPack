@@ -1,7 +1,8 @@
 {
+	"id": "bracken.pack",
 	"pack": {
 		"description": "By BrackenStrike!",
-		"min_format": [88,0],
-		"max_format": [88,0]
+		"min_format": [101,1],
+		"max_format": [101,1]
 	}
 }

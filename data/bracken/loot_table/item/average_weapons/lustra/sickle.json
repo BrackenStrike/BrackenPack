@@ -54,18 +54,12 @@
 			},{
 				"function": "set_enchantments",
 				"enchantments": {
-					"bracken:integrity_fix": 1
+					"bracken:integrity": 1
 				}
 			},{
 				"function": "minecraft:toggle_tooltips",
 				"toggles": {
 					"attribute_modifiers": false
-				}
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.48,
-					"max": 0.93
 				}
 			}]
 		}]

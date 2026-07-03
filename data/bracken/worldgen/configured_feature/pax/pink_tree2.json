@@ -1,13 +1,6 @@
 {
     "type": "minecraft:tree",
     "config": {
-        "force_dirt": false,
-        "dirt_provider": {
-            "state": {
-                "Name": "minecraft:dirt"
-            },
-            "type": "minecraft:simple_state_provider"
-        },
         "ignore_vines": false,
         "minimum_size": {
             "limit": 1,
@@ -47,7 +40,7 @@
             "height_rand_b": 4,
             "type": "minecraft:forking_trunk_placer"
         },
-        "sapling_provider": {
+        "below_trunk_provider": {
             "state": {
                 "Name": "minecraft:dirt"
             },

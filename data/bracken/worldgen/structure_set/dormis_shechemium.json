@@ -1,0 +1,30 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:dormis_ruins",
+            "weight": 5
+        },
+        {
+            "structure": "bracken:dormis_aqueduct",
+            "weight": 2
+        },
+        {
+            "structure": "bracken:dormis_micro_temple",
+            "weight": 1
+        },
+        {
+            "structure": "bracken:dormis_sarcophagus",
+            "weight": 1
+        },
+        {
+            "structure": "bracken:dormis_hourglass",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 8,
+        "separation": 6,
+        "salt": 1675869782
+    }
+}

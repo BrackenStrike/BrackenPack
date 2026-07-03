@@ -80,7 +80,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:abstraction": 1,
-					"bracken:sentience_curse_1": 1
+					"bracken:curse/sentience_1": 1
 				},
 				"add": false
 			}]
@@ -97,7 +97,7 @@
 				"enchantments": {
 					"bracken:wisdom": 1,
 					"bracken:shrewdness": 1,
-					"bracken:sentience_curse_7": 1
+					"bracken:curse/sentience_7": 1
 				},
 				"add": false
 			}]
@@ -142,7 +142,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:sentience_curse_2": 1,
+					"bracken:curse/sentience_2": 1,
 					"minecraft:mending": 1
 				},
 				"add": false
@@ -159,7 +159,7 @@
 				"enchantments": {
 					"minecraft:knockback": 1,
 					"minecraft:punch": 1,
-					"bracken:sentience_curse_3":1
+					"bracken:curse/sentience_3":1
 				},
 				"add": false
 			}]
@@ -236,7 +236,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:sentience_curse_4": 1,
+					"bracken:curse/sentience_4": 1,
 					"minecraft:infinity": 1
 				},
 				"add": false
@@ -268,7 +268,7 @@
 				"enchantments": {
 					"minecraft:power": 1,
 					"minecraft:sharpness": 1,
-					"bracken:sentience_curse_5": 1
+					"bracken:curse/sentience_5": 1
 				},
 				"add": false
 			}]
@@ -299,7 +299,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:lifesteal": 1,
-					"bracken:sentience_curse_6": 1
+					"bracken:curse/sentience_6": 1
 					
 				},
 				"add": false

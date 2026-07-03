@@ -1,0 +1,49 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "bracken:item/panacea/panaspore",
+					"functions": [
+						{
+							"function": "set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							}
+						},
+						{
+							"function": "enchanted_count_increase",
+							"count": {
+								"max": 3,
+								"min": 1
+							},
+							"enchantment": "minecraft:looting"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "bracken:item/panacea/gothrum_fang"
+				}
+			],
+			"conditions": [{
+				"condition": "random_chance_with_enchanted_bonus",
+				"unenchanted_chance": 0.2,
+				"enchanted_chance": {
+					"type": "linear",
+					"base": 0.3,
+					"per_level_above_first": 0.1
+				},
+				"enchantment": "minecraft:looting"
+			}]
+		}
+	]
+}
