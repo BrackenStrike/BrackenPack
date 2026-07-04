@@ -24,7 +24,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type": "minecraft:husk",
+						"minecraft:entity_type": "minecraft:husk",
 						"nbt": "{Silent:1b}",
 						"location": {
 							"dimension": "bracken:the_underdark"

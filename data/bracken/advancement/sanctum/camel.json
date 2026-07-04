@@ -27,7 +27,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type": "minecraft:camel",
+						"minecraft:entity_type": "minecraft:camel",
 						"location": {
 							"dimension": "bracken:sanctum"
 						}

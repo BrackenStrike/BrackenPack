@@ -28,7 +28,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "direct_attacker",
 				"predicate": {
-					"type": "#minecraft:arrows"
+					"minecraft:entity_type": "#minecraft:arrows"
 				}
 			}
 		},{
@@ -42,7 +42,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "direct_attacker",
 				"predicate": {
-					"type": "#minecraft:arrows"
+					"minecraft:entity_type": "#minecraft:arrows"
 				}
 			},{
 				"condition": "minecraft:inverted",
@@ -50,7 +50,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type": "#bracken:untargettable"
+						"minecraft:entity_type": "#bracken:untargettable"
 					}
 				}
 			}]

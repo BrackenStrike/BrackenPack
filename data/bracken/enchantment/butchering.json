@@ -17,7 +17,7 @@
 				"condition": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
-					"type": "#bracken:food_animal"
+					"minecraft:entity_type": "#bracken:food_animal"
 				}
 			}
 		}]

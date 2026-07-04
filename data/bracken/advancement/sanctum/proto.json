@@ -24,7 +24,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type": "minecraft:wither_skeleton",
+						"minecraft:entity_type": "minecraft:wither_skeleton",
 						"location": {
 							"dimension": "bracken:sanctum"
 						}
