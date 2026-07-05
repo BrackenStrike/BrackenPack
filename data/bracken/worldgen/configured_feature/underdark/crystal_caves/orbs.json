@@ -1,6 +1,7 @@
 {
     "type": "minecraft:geode",
-    "config": {
+
+   
         "blocks": {
             "filling_provider": {
                 "type": "minecraft:weighted_state_provider",
@@ -165,5 +166,5 @@
         "min_gen_offset": -15,
         "max_gen_offset": 15,
         "invalid_blocks_threshold": 255
-    }
+    
 }
