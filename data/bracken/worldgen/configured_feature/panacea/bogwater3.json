@@ -9,7 +9,7 @@
         "extra_edge_column_chance": 1,
         "vegetation_chance": 1.0,
         "xz_radius": 4,
-        "replaceable": "#minecraft:lush_ground_replaceable",
+        "replaceable": "#minecraft:grass_block",
         "ground_state": {
             "type": "minecraft:simple_state_provider",
             "state": {
@@ -19,7 +19,7 @@
         "vegetation_feature": {
             "placement": [],
             "feature": {
-                "type": "minecraft:random_selector",
+                "type": "minecraft:simple_random_selector",
                 "config": {
                     "features": [],
                     "default": {
