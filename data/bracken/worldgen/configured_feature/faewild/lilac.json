@@ -1,56 +1,87 @@
 {
-  "type": "minecraft:simple_random_selector",
-  "features": [
-    
-    {
-      "feature": {
-        "type": "minecraft:simple_block",
-        "to_place": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "minecraft:rose_bush",
-            "Properties": {
-              "half": "lower"
+    "type": "minecraft:waterlogged_vegetation_patch",
+
+        "surface": "floor",
+        "depth": 1,
+        "vertical_range": 3,
+        "extra_bottom_block_chance": 0.5,
+        "extra_edge_column_chance": 0.2,
+        "vegetation_chance": 1.0,
+        "xz_radius": 1,
+        "replaceable": "#minecraft:grass_block",
+        "ground_state": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:grass_block",
+                "Properties": {
+                    "snowy": "false"
+                }
             }
-          }
-        }
-      },
-      "placement": [
-        {
-          "type": "minecraft:count",
-          "count": 96
         },
-        {
-          "type": "minecraft:offset",
-          "x": {
-            "type": "minecraft:trapezoid",
-            "max": 7,
-            "min": -7,
-            "plateau": 0
-          },
-          "y": {
-            "type": "minecraft:trapezoid",
-            "max": 3,
-            "min": -3,
-            "plateau": 0
-          },
-          "z": {
-            "type": "minecraft:trapezoid",
-            "max": 7,
-            "min": -7,
-            "plateau": 0
-          }
-        },
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_block_tag",
-            "tag": "minecraft:air"
-          }
+        "vegetation_feature": {
+            "placement": [],
+            "feature": {
+                "type": "minecraft:random_selector",
+                "config": {
+                    "features": [],
+                    "default": {
+                        "feature": {
+                            "type": "minecraft:block_column",
+                            "config": {
+                                "direction": "up",
+                                "allowed_placement": {
+                                    "type": "minecraft:true"
+                                },
+                                "prioritize_tip": false,
+                                "layers": [
+                                    {
+                                        "height": 1,
+                                        "provider": {
+                                            "type": "minecraft:simple_state_provider",
+                                            "state": {
+                                                "Name": "minecraft:grass_block",
+                                                "Properties": {
+                                                    "snowy": "false"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "height": 1,
+                                        "provider": {
+                                            "type": "minecraft:simple_state_provider",
+                                            "state": {
+                                                "Name": "minecraft:lilac",
+                                                "Properties": {
+                                                    "half": "lower"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "height": 1,
+                                        "provider": {
+                                            "type": "minecraft:weighted_state_provider",
+                                            "entries": [
+                                                {
+                                                    "weight": 3,
+                                                    "data": {
+                                                        "Name": "minecraft:lilac",
+                                                        "Properties": {
+                                                            "half": "upper"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "placement": []
+                    }
+                }
+            }
         }
-      ]
     }
-    
-    
-  ]
-}
+

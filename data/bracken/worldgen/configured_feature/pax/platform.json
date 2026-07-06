@@ -22,7 +22,7 @@
         "vegetation_feature": {
             "placement": [],
             "feature": {
-                "type": "minecraft:simple_random_selector",
+                "type": "minecraft:random_selector",
                 "config": {
                     "features": [],
                     "default": {
