@@ -1,5 +1,6 @@
 {
   "type": "minecraft:simple_random_selector",
+  "config":{
   "features": [
     
     {
@@ -53,4 +54,4 @@
     
     
   ]
-}
+}}
