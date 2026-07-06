@@ -1,7 +1,6 @@
 {
     "type": "minecraft:geode",
-
-    
+    "config": {
         "blocks": {
             "alternate_inner_layer_provider": {
                 "type": "minecraft:simple_state_provider",
@@ -78,5 +77,5 @@
         },
         "use_alternate_layer0_chance": 0.083,
         "use_potential_placements_chance": 0.35
-    
+    }
 }

@@ -3,10 +3,9 @@
   "config": {
     "column_radius": {
       "type": "minecraft:uniform",
-      "max_inclusive": 16,
+      "max_inclusive": 21,
       "min_inclusive": 3
     },
-    "replaceable_blocks": "#minecraft:dripstone_replaceable_blocks",
     "floor_to_ceiling_search_range": 100,
     "height_scale": {
       "type": "minecraft:uniform",
