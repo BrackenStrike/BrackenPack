@@ -1,5 +1,6 @@
 {
   "type": "minecraft:large_dripstone",
+  
   "config": {
     "column_radius": {
       "type": "minecraft:uniform",

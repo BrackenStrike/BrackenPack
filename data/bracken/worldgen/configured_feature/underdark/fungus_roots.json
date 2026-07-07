@@ -69,7 +69,7 @@
                                         },
                                         "surface": "ceiling",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Properties": {
@@ -140,7 +140,7 @@
                                         },
                                         "surface": "floor",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Name": "minecraft:air"
@@ -246,7 +246,7 @@
                                         },
                                         "surface": "ceiling",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Properties": {
@@ -317,7 +317,7 @@
                                         },
                                         "surface": "floor",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Name": "minecraft:air"
@@ -419,7 +419,7 @@
                                         },
                                         "surface": "ceiling",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Properties": {
@@ -490,7 +490,7 @@
                                         },
                                         "surface": "floor",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Name": "minecraft:air"
@@ -580,7 +580,7 @@
                                         },
                                         "surface": "ceiling",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Name": "minecraft:air"
@@ -643,7 +643,7 @@
                                         },
                                         "surface": "floor",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Name": "minecraft:air"

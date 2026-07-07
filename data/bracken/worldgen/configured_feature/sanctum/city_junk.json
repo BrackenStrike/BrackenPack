@@ -57,7 +57,7 @@
                                         },
                                         "surface": "ceiling",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Name": "minecraft:air"
@@ -123,7 +123,7 @@
                                         },
                                         "surface": "floor",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Name": "minecraft:oxidized_copper"
@@ -213,7 +213,7 @@
                                         },
                                         "surface": "ceiling",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Name": "minecraft:air"
@@ -276,7 +276,7 @@
                                         },
                                         "surface": "floor",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Name": "minecraft:cracked_polished_blackstone_bricks"
@@ -366,7 +366,7 @@
                                         },
                                         "surface": "ceiling",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Name": "minecraft:clay"
@@ -429,7 +429,7 @@
                                         },
                                         "surface": "floor",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Name": "minecraft:cracked_polished_blackstone_bricks"
@@ -519,7 +519,7 @@
                                         },
                                         "surface": "ceiling",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Name": "minecraft:cracked_polished_blackstone_bricks"
@@ -582,7 +582,7 @@
                                         },
                                         "surface": "floor",
                                         "depth": 1,
-                                        "replaceable": "#minecraft:nope",
+                                        "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
                                                 "Name": "minecraft:cracked_polished_blackstone_bricks"

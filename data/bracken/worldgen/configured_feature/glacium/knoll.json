@@ -1,5 +1,6 @@
 {
     "type": "minecraft:geode",
+    
     "config": {
         "blocks": {
             "alternate_inner_layer_provider": {
