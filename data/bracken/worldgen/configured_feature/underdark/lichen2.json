@@ -3,6 +3,7 @@
     
     "config": {
         "can_place_on_wall": true,
+        "block": "minecraft:glow_lichen",
         "chance_of_spreading": 0.5,
         "can_be_placed_on": [
             "minecraft:stone",
