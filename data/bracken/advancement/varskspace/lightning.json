@@ -3,13 +3,14 @@
 		"requirement": {
 			"trigger": "minecraft:lightning_strike",
 			"conditions": {
+				"entity":{
 				"lightning": [{
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type_specific": {
-							"minecraft:entity_type": "minecraft:lightning"
-						},
+						
+							"minecraft:entity_type": "minecraft:lightning",
+						
 						"distance": {
 							"absolute": {
 								"max": 3
@@ -17,7 +18,7 @@
 						},
 						"nbt": "{Tags:[\"bp.varsk_lightning\"]}"
 					}
-				}]
+				}]}
 			}
 		}
 	},
