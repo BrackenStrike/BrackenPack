@@ -24,7 +24,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:wither_skeleton",
+					"minecraft:entity_type": "minecraft:wither_skeleton",
 					"nbt": "{DeathLootTable:\"bracken:entity/the_brine/gavsakka\"}",
 					"location": {
 						"dimension": "bracken:the_brine"

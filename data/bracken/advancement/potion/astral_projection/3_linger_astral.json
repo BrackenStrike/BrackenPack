@@ -4,7 +4,7 @@
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "source": {
-                    "type": "minecraft:area_effect_cloud",
+                    "minecraft:entity_type": "minecraft:area_effect_cloud",
                     "predicates": {
 						"minecraft:custom_data": "{bp.potion:102b, bp:[{astral:3b}]}"
 					}
