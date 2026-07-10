@@ -9,7 +9,7 @@
 			"color": "green"
 		},
 		"icon": {
-			"id": "minecraft:yellow_concrete_powder"
+			"id": "minecraft:cinnabar"
 		},
 		"frame": "task",
 		"show_toast": true,

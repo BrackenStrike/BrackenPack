@@ -5,38 +5,38 @@
             "alternate_inner_layer_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:prismarine"
+                    "Name": "minecraft:crying_obsidian"
                 }
             },
             "cannot_replace": "#minecraft:features_cannot_replace",
             "filling_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:mud"
+                    "Name": "minecraft:crying_obsidian"
                 }
             },
             "inner_layer_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:prismarine"
+                    "Name": "minecraft:purple_stained_glass"
                 }
             },
             "inner_placements": [
                 {
-                    "Name": "minecraft:muddy_mangrove_roots"
+                    "Name": "minecraft:blue_stained_glass"
                 }
             ],
             "invalid_blocks": "#minecraft:features_cannot_replace",
             "middle_layer_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:mud"
+                    "Name": "minecraft:sea_lantern"
                 }
             },
             "outer_layer_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:mud"
+                    "Name": "minecraft:blue_stained_glass"
                 }
             }
         },
@@ -47,19 +47,19 @@
         },
         "distribution_points": {
             "type": "minecraft:uniform",
-            "min_inclusive": 3,
+            "min_inclusive": 1,
             "max_inclusive": 3
         },
         "invalid_blocks_threshold": 255,
         "layers": {
-            "filling": 1,
-            "inner_layer": 3,
-            "middle_layer": 5,
-            "outer_layer": 7
+            "filling": 3,
+            "inner_layer": 5,
+            "middle_layer": 7,
+            "outer_layer": 9
         },
         "max_gen_offset": 15,
         "min_gen_offset": -15,
-        "noise_multiplier": 0.035,
+        "noise_multiplier": 0.0,
         "placements_require_layer0_alternate": true,
         "point_offset": {
             "type": "minecraft:uniform",

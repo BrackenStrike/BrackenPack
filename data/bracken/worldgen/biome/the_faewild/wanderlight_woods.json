@@ -90,12 +90,6 @@
                 "weight": 1,
                 "minCount": 4,
                 "maxCount": 4
-            },
-            {
-                "type": "minecraft:phantom",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
             }
         ]
     },

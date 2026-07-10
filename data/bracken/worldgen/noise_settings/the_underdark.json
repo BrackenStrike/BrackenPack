@@ -533,7 +533,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:yellow_concrete_powder"
+                                    "Name": "minecraft:sulfur"
                                 }
                             }
                         },
@@ -549,7 +549,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:yellow_concrete"
+                                    "Name": "minecraft:sulfur"
                                 }
                             }
                         },

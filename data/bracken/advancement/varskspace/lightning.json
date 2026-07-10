@@ -7,15 +7,10 @@
 				"lightning": [{
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
-					"predicate": {
-						
-							"minecraft:entity_type": "minecraft:lightning",
-						
-						"distance": {
-							"absolute": {
-								"max": 3
-							}
-						},
+					"predicate": {    
+						"minecraft:entity_type": "minecraft:lightning_bolt",    
+						"minecraft:distance": {      
+						"absolute": 3},
 						"nbt": "{Tags:[\"bp.varsk_lightning\"]}"
 					}
 				}]}

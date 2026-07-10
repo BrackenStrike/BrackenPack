@@ -47,6 +47,7 @@
             "bracken:varskspace/glass",
             "bracken:varskspace/bfire",
             "bracken:varskspace/path",
+            "bracken:varskspace/float3",
             "bracken:varskspace/amethyst",
             "bracken:varskspace/lanterns",
             "bracken:varskspace/glass_ground"

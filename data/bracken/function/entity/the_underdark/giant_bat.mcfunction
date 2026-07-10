@@ -8,5 +8,6 @@ execute if entity @s[tag=bp.tame] run effect give @p[distance=..2,gamemode=survi
 execute if entity @s[tag=bp.tame] run effect give @p[distance=..2,gamemode=survival] slow_falling 1 0 true
 damage @p[scores={bp.1_second=1},distance=..2,gamemode=survival] 1 minecraft:mob_attack by @s[tag=!bp.tame]
 
+
 tp @s[tag=!bp.tame] ^ ^ ^0.2 facing entity @p[distance=..25,gamemode=survival] eyes
 tp @s[tag=bp.tame] ^ ^ ^0.06 facing entity @p[distance=..25,gamemode=survival] eyes

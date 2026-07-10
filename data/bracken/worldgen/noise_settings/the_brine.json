@@ -868,7 +868,10 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:warped_wart_block"
+                                        "Name": "minecraft:grass_block",
+                                        "Properties": {
+                                            "snowy": "false"
+                                        }
                                     }
                                 }
                             }

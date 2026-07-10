@@ -462,7 +462,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:red_sandstone"
+                                    "Name": "minecraft:cinnabar"
                                 }
                             }
                         },

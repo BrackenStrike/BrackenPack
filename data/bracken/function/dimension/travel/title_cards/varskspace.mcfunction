@@ -4,4 +4,4 @@
 ##########################################################
 
 title @s title ["~ ",{"text":"Varskspace","bold":true,"color":"dark_purple"}," ~"]
-title @s subtitle [{"text":"The Traveler's Path","bold":true,"color":"gray"}]
+title @s subtitle [{"text":"The Traveler's Path","bold":false,"color":"gray"}]

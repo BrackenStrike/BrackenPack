@@ -136,6 +136,7 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "effects": {
+    "grass_color": 13003122,
     "water_color": "#4dc0c2"},
     "attributes": {
 

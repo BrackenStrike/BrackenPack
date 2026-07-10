@@ -6,7 +6,7 @@
 function bracken:player/species/common/aquavulnerability
 
 #if-else: if not sneaking, function returns.
-execute unless predicate bracken:shift run return run clear @s *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}]
+execute unless predicate bracken:sneak run return run clear @s *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}]
 
 execute if items entity @s hotbar.* *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}] run clear @s *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}]
 execute if items entity @s inventory.* *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}] run clear @s *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}]

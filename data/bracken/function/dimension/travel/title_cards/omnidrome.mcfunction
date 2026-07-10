@@ -4,4 +4,4 @@
 ##########################################################
 
 title @s title ["~ ",{"text":"Omnidrome","bold":true,"color":"green"}," ~"]
-title @s subtitle [{"text":"The Forbidden Dimension","bold":true,"color":"gray"}]
+title @s subtitle [{"text":"The Forbidden Dimension","bold":false,"color":"gray"}]
