@@ -43,7 +43,7 @@
                                                                         "east": "true",
                                                                         "down": "true"
                                                                     },
-                                                                    "Name": "minecraft:blue_stained_glass"
+                                                                    "Name": "minecraft:mushroom_stem"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -80,7 +80,7 @@
                                                     "east": "true",
                                                     "down": "true"
                                                 },
-                                                "Name": "minecraft:blue_stained_glass"
+                                                "Name": "minecraft:mushroom_stem"
                                             },
                                             "type": "minecraft:simple_state_provider"
                                         }
@@ -127,7 +127,7 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:orange_stained_glass"
+                                                                    "Name": "minecraft:red_stained_glass"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -143,7 +143,7 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:yellow_stained_glass"
+                                                "Name": "minecraft:air"
                                             },
                                             "type": "minecraft:simple_state_provider"
                                         }
@@ -216,7 +216,7 @@
                                                                         "east": "true",
                                                                         "down": "true"
                                                                     },
-                                                                    "Name": "minecraft:blue_stained_glass"
+                                                                    "Name": "minecraft:mushroom_stem"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -233,7 +233,7 @@
                                                                         "east": "true",
                                                                         "down": "true"
                                                                     },
-                                                                    "Name": "minecraft:blue_stained_glass"
+                                                                    "Name": "minecraft:mushroom_stem"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -257,7 +257,7 @@
                                                     "east": "true",
                                                     "down": "true"
                                                 },
-                                                "Name": "minecraft:blue_stained_glass"
+                                                "Name": "minecraft:mushroom_stem"
                                             },
                                             "type": "minecraft:simple_state_provider"
                                         }
@@ -295,7 +295,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:green_stained_glass"
+                                                                    "Name": "minecraft:orange_stained_glass"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -304,7 +304,7 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:lime_stained_glass"
+                                                                    "Name": "minecraft:orange_stained_glass"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -320,7 +320,7 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:cyan_stained_glass"
+                                                "Name": "minecraft:air"
                                             },
                                             "type": "minecraft:simple_state_provider"
                                         }
@@ -393,7 +393,7 @@
                                                                         "east": "true",
                                                                         "down": "true"
                                                                     },
-                                                                    "Name": "minecraft:blue_stained_glass"
+                                                                    "Name": "minecraft:mushroom_stem"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -430,7 +430,7 @@
                                                     "east": "true",
                                                     "down": "true"
                                                 },
-                                                "Name": "minecraft:blue_stained_glass"
+                                                "Name": "minecraft:mushroom_stem"
                                             },
                                             "type": "minecraft:simple_state_provider"
                                         }
@@ -468,7 +468,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:magenta_stained_glass"
+                                                                    "Name": "minecraft:yellow_stained_glass"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -477,7 +477,7 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:purple_stained_glass"
+                                                                    "Name": "minecraft:yellow_stained_glass"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -493,7 +493,7 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:black_stained_glass"
+                                                "Name": "minecraft:air"
                                             },
                                             "type": "minecraft:simple_state_provider"
                                         }
@@ -558,7 +558,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:light_gray_stained_glass"
+                                                                    "Name": "minecraft:lime_stained_glass"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -567,7 +567,7 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:gray_stained_glass"
+                                                                    "Name": "minecraft:lime_stained_glass"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -583,7 +583,7 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:pink_stained_glass"
+                                                "Name": "minecraft:air"
                                             },
                                             "type": "minecraft:simple_state_provider"
                                         }
@@ -621,7 +621,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:tinted_glass"
+                                                                    "Name": "minecraft:green_stained_glass"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -630,7 +630,7 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:brown_stained_glass"
+                                                                    "Name": "minecraft:green_stained_glass"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -646,7 +646,7 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:white_stained_glass"
+                                                "Name": "minecraft:air"
                                             },
                                             "type": "minecraft:simple_state_provider"
                                         }
