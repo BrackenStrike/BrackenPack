@@ -6,7 +6,7 @@
 
 playsound bracken:ability_book_tier_2 player @a[distance=..30] ~ ~ ~ 10
 effect give @s minecraft:levitation 1 90 false
-effect give @s minecraft:slow_falling 10 255 false
+effect give @s minecraft:slow_falling 18 0 false
 tellraw @s ["",{"selector":"@s"},{"translate":" generated [WORLD SOAR]"}]
 
 experience add @s -2 levels

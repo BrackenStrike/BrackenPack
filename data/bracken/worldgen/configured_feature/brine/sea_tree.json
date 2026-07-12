@@ -2,14 +2,18 @@
     "type": "minecraft:huge_fungus",
     "config": {
         "hat_state": {
-            "Name": "minecraft:slime_block"
+            "Name": "minecraft:jungle_leaves",
+            "Properties": {
+                "waterlogged": "true",
+                "persistent": "true"
+            }
         },
         "decor_state": {
-            "Name": "minecraft:glowstone"
+            "Name": "minecraft:slime_block"
         },
         "planted": false,
         "valid_base_block": {
-            "Name": "minecraft:warped_wart_block"
+            "Name": "minecraft:grass_block"
         },
         "stem_state": {
             "Properties": {

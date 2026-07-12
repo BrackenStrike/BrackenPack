@@ -3,5 +3,5 @@
 # Creators: Grandmaster
 ##########################################################
 
-title @s title ["~ ",{"text":"Varskspace","bold":true,"color":"dark_purple"}," ~"]
+title @s title ["~ ",{"text":"Varskspace","bold":false,"color":"dark_purple"}," ~"]
 title @s subtitle [{"text":"The Traveler's Path","bold":false,"color":"gray"}]

@@ -14,4 +14,4 @@ data merge entity @n[type=pillager,distance=..200,tag=!bp.lost_miner,tag=!bp.saf
 
 ## Jotun Bat
 data merge entity @n[type=bat,distance=..200,tag=!bp.giant_bat,tag=!bp.safe] {CustomNameVisible:0b,CustomName:{"translate":"Jotun Bat"},DeathLootTable:"bracken:entity/the_underdark/giant_bat",NoAI:0b,Tags:[bp.giant_bat,bp.entity,bp.the_underdark],attributes:[{id:"minecraft:scale",base:4}]}
-data merge entity @n[type=bat,distance=..25,tag=bp.giant_bat,nbt={NoAI:0}] {NoAI:1b}
+data merge entity @n[type=bat,distance=..25,tag=bp.giant_bat,nbt={NoAI:0b}] {NoAI:1b}

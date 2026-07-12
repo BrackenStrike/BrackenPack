@@ -14,8 +14,8 @@
     },
     "minecraft:audio/background_music": {
       "default": {
-        "max_delay": 240000,
-        "min_delay": 60000,
+        "max_delay": 24000,
+        "min_delay": 6000,
         "replace_current_music": true,
         "sound": {"sound_id": "bracken:varskspace"}
       }

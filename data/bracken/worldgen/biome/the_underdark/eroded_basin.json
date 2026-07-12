@@ -86,7 +86,7 @@
                 "maxCount": 3
             },
             {
-                "type": "minecraft:spider",
+                "type": "minecraft:cave_spider",
                 "weight": 5,
                 "minCount": 2,
                 "maxCount": 6

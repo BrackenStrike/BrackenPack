@@ -104,12 +104,6 @@
                 "weight": 5,
                 "minCount": 2,
                 "maxCount": 6
-            },
-            {
-                "type": "minecraft:spider",
-                "weight": 15,
-                "minCount": 2,
-                "maxCount": 6
             }
         ]
     },

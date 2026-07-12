@@ -1,5 +1,5 @@
 {
-    "feature": "bracken:dormis/lava_pool",
+    "feature": "bracken:dormis/coal_pillar",
     "placement": [
         {
             "type": "minecraft:count_on_every_layer",
