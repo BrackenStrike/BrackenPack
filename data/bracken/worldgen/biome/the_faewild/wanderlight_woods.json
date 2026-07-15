@@ -87,7 +87,7 @@
             },
             {
                 "type": "minecraft:slime",
-                "weight": 1,
+                "weight": 10,
                 "minCount": 4,
                 "maxCount": 4
             }

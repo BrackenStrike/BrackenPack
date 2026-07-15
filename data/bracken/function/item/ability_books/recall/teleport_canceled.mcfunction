@@ -7,3 +7,4 @@ scoreboard players set @s bp.recall_wait 0
 tag @s remove bp.recall_wait
 tellraw @s {"translate":"§cTELEPORT CANCELED! You must stay still to teleport!"}
 
+playsound minecraft:block.conduit.deactivate player @a[distance=..30] ~ ~ ~ 10 0

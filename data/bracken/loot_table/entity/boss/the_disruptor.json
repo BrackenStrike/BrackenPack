@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
-			"value": "bracken:item/ability_books/great_nullifier"
+			"value": "bracken:item/ability_books/fang_attack"
 		}]
 	},{
 		"rolls": 1,

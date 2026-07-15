@@ -13,4 +13,4 @@ execute if entity @p[distance=..50] if entity @s[tag=!bp.active,name=!Rocco] run
 execute unless entity @p[distance=..95] if entity @s[tag=bp.active,name=!Rocco] run function bracken:entity/boss/solatium_thrall/misc/deactivate
 
 # crownblaze
-execute at @e[type=minecraft:blaze,tag=bp.crownblaze,distance=..200] run function bracken:entity/boss/solatium_thrall/misc/crownblaze
+#execute at @e[type=minecraft:blaze,tag=bp.crownblaze,distance=..200] run function bracken:entity/boss/solatium_thrall/misc/crownblaze

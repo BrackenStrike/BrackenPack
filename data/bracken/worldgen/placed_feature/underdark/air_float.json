@@ -1,5 +1,5 @@
 {
-    "feature": "bracken:varskspace/float3",
+    "feature": "bracken:varskspace/air_float",
     "placement": [
         {
             "type": "minecraft:count",
@@ -23,10 +23,10 @@
             "height": {
                 "type": "minecraft:uniform",
                 "min_inclusive": {
-                    "absolute": 20
+                    "absolute": 250
                 },
                 "max_inclusive": {
-                    "absolute": 45
+                    "absolute": 310
                 }
             }
         },

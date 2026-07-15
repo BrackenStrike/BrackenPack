@@ -11,4 +11,5 @@ summon minecraft:evoker_fangs ^ ^ ^12
 summon minecraft:evoker_fangs ^ ^ ^13
 summon minecraft:evoker_fangs ^ ^ ^14
 summon minecraft:evoker_fangs ^ ^ ^15
+tellraw @a[distance=..50] ["",{"selector":"@s"},{"translate":" used [FANG ATTACK]"}]
 scoreboard players set @s bp.boss_state_cd 40

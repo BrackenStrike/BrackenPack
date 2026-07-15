@@ -462,7 +462,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:cinnabar"
+                                    "Name": "minecraft:red_nether_bricks"
                                 }
                             }
                         },
@@ -478,7 +478,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:magma_block"
+                                    "Name": "minecraft:cinnabar"
                                 }
                             }
                         }

@@ -565,7 +565,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:yellow_terracotta"
+                                    "Name": "minecraft:tuff"
                                 }
                             }
                         }

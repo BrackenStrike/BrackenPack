@@ -29,7 +29,7 @@
                                                                 "distribution": [
                                                                     {
                                                                         "weight": 1,
-                                                                        "data": 2
+                                                                        "data": 8
                                                                     }
                                                                 ]
                                                             },
@@ -52,11 +52,8 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Properties": {
-                                                                        "level": "9",
-                                                                        "waterlogged": "false"
-                                                                    },
-                                                                    "Name": "minecraft:light"
+                                                                    
+                                                                    "Name": "minecraft:mushroom_stem"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -118,7 +115,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:air"
+                                                                    "Name": "minecraft:mushroom_stem"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -127,7 +124,7 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:air"
+                                                                    "Name": "minecraft:mushroom_stem"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -143,7 +140,7 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:air"
+                                                "Name": "minecraft:mushroom_stem"
                                             },
                                             "type": "minecraft:simple_state_provider"
                                         }
@@ -295,7 +292,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:air"
+                                                                    "Name": "minecraft:mushroom_stem"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -304,7 +301,7 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:air"
+                                                                    "Name": "minecraft:red_mushroom_block"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -320,7 +317,7 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:air"
+                                                "Name": "minecraft:mushroom_stem"
                                             },
                                             "type": "minecraft:simple_state_provider"
                                         }
@@ -379,7 +376,7 @@
                                                                 "distribution": [
                                                                     {
                                                                         "weight": 1,
-                                                                        "data": 2
+                                                                        "data": 6
                                                                     }
                                                                 ]
                                                             },
@@ -402,11 +399,8 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Properties": {
-                                                                        "level": "9",
-                                                                        "waterlogged": "false"
-                                                                    },
-                                                                    "Name": "minecraft:light"
+                                                                    
+                                                                    "Name": "minecraft:mushroom_stem"
                                                                 },
                                                                 "type": "minecraft:simple_state_provider"
                                                             }
@@ -493,7 +487,7 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:air"
+                                                "Name": "minecraft:mycelium"
                                             },
                                             "type": "minecraft:simple_state_provider"
                                         }
@@ -583,7 +577,7 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:air"
+                                                "Name": "minecraft:deepslate"
                                             },
                                             "type": "minecraft:simple_state_provider"
                                         }
@@ -646,7 +640,7 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:air"
+                                                "Name": "minecraft:mushroom_stem"
                                             },
                                             "type": "minecraft:simple_state_provider"
                                         }
@@ -681,3 +675,4 @@
         ]
     }
 }
+

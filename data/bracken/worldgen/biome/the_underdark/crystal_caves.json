@@ -89,6 +89,7 @@
         ],
         [
             "bracken:underdark/crystal_caves/crystal",
+            "bracken:underdark/crystal_caves/crystal_ceiling",
             "bracken:underdark/crystal_caves/light"
         ],
         [
