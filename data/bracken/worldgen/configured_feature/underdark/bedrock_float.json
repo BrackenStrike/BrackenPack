@@ -64,7 +64,7 @@
         "point_offset": {
             "type": "minecraft:uniform",
             "min_inclusive": 5,
-            "max_inclusive": 8
+            "max_inclusive": 6
         },
         "use_alternate_layer0_chance": 0.085,
         "use_potential_placements_chance": 0.35

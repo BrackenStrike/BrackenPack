@@ -3,7 +3,7 @@
 # Creators: Grandmaster, Bracken
 ##########################################################
 
-scoreboard players set @s bp.void_pull_cooldown 80
+scoreboard players set @s bp.void_pull_cooldown 70
 
 playsound minecraft:block.portal.trigger player @a[distance=..30] ~ ~ ~ 10 0
 effect give @s minecraft:glowing 8 1 false

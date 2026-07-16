@@ -17,6 +17,9 @@ scoreboard players remove @s bp.boss_1 1
 execute if score @s bp.boss_2 matches 1.. run function bracken:entity/boss/sporangium/misc/poison_arrows
 scoreboard players remove @s bp.boss_2 1
 
+#slime removal
+execute at @n[type=slime,tag=bp.slimedive] run tp @e[type=slime,distance=..200] ~ -512 ~
+
 
 ########## 3 second timer
 execute unless predicate bracken:periodic/3s run return 1
