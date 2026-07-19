@@ -5,11 +5,7 @@
             "weight": 5
         },
         {
-            "structure": "bracken:dormis_aqueduct",
-            "weight": 2
-        },
-        {
-            "structure": "bracken:dormis_micro_temple",
+            "structure": "bracken:dormis_micro_unit",
             "weight": 1
         },
         {

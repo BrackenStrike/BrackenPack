@@ -1,12 +1,12 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:dormis/ramothium",
+    "biomes": "bracken:dormis/hebronium",
     "spawn_overrides": {},
     "start_pool": "bracken:dormis/maze/mazea",
     "size": 6,
     "step": "surface_structures",
     "start_height": {
-        "absolute": 100
+        "absolute": 50
     },
     "max_distance_from_center": 64,
     "use_expansion_hack": false

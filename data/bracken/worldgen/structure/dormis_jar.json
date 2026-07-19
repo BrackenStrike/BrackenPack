@@ -3,14 +3,13 @@
     "biomes": "bracken:dormis/golanium",
     "spawn_overrides": {},
     "start_pool": "bracken:dormis/dormis_jar",
-    "size": 11,
+    "size": 6,
     "step": "surface_structures",
     "start_height": {
         "type": "minecraft:uniform",
-        "min_inclusive": {"absolute": 290},
+        "min_inclusive": {"absolute": 350},
         "max_inclusive": {"absolute": 430}
     },
-    "max_distance_from_center": 116,
-    "use_expansion_hack": false,
-    "terrain_adaptation": "beard_thin"
+    "max_distance_from_center": 64,
+    "use_expansion_hack": false
 }

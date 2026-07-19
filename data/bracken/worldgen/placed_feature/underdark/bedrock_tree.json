@@ -1,5 +1,5 @@
 {
-  "feature": "bracken:underdarkbedrock_tree",
+  "feature": "bracken:underdark/bedrock_tree",
   "placement": [
     {
       "type": "minecraft:count",
