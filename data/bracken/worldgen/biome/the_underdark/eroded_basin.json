@@ -100,8 +100,8 @@
         "minecraft:canyon"
       ],
     "features": [
-        ["bracken:underdark/air_float",
-            "bracken:underdark/bedrock_float"],
+        [
+            "bracken:underdark/bedrock_tree2"],
         [
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"

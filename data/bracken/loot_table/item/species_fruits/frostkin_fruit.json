@@ -8,7 +8,7 @@
 		"functions": [{
 			"function": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Frostkin Fruit"
+			"name": "Warped Fig"
 		},{
 			"function": "minecraft:set_lore",
 			"entity": "this",

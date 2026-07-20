@@ -11,8 +11,7 @@
             "additions": {
                 "sound": "minecraft:entity.lightning_bolt.thunder",
                 "tick_chance": 0.0005
-            },
-            "loop": "minecraft:music.nether.basalt_deltas"
+            }
         },
         "visual/ambient_particles": [{
             "particle": {

@@ -6,18 +6,34 @@
 			"max": 11
 		},
 		"entries": [{
-			"type": "minecraft:item",
-			"name": "minecraft:dried_kelp",
+			"type": "item",
+			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.6
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:curse/sentience_1": 1
+				},
+				"add": false
 			}]
 		},{
-			"type": "minecraft:item",
-			"name": "minecraft:crafting_table",
+			"type": "item",
+			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:curse/sentience_2": 1
+				},
+				"add": false
 			}]
 		},
 		{
@@ -25,16 +41,226 @@
 			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.04
+				"chance": 0.08
 			}],
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:flame_walker": 1,
+					
+					"bracken:curse/sentience_3": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:curse/sentience_4": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:curse/sentience_5": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:curse/sentience_6": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:curse/sentience_7": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
 					"bracken:curse/maiming": 1
 				},
 				"add": false
 			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:decaying": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:curse/devouring": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:curse/fragility": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:curse/lethargy": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:curse/dullness": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"minecraft:binding_curse": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.08
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"minecraft:vanishing_curse": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:rending": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:mortality": 1
+				},
+				"add": false
+			}]
 		},
 		{
 			"type": "item",
@@ -46,49 +272,120 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:mortality": 1,
-					"bracken:curse/devouring": 1
+					
+					"bracken:famine_walker": 1
+				},
+				"add": false
+			}]
+		},
+		
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:flame_walker": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:searing_surface": 1
+				},
+				"add": false
+			}]
+		},{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:abstraction": 1
 				},
 				"add": false
 			}]
 		},
 		{
-			"type": "loot_table",
-			"value": "bracken:item/articles/weighted_cuffs",
+			"type": "item",
+			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.04
 			}],
 			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.8
-				}
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"minecraft:blast_protection": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:boldness": 1
+				},
+				"add": false
+			}]
+		},
+		{
+			"type": "item",
+			"name": "minecraft:enchanted_book",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:splintering": 1
+				},
+				"add": false
 			}]
 		},{
-			"type": "loot_table",
-			"value": "bracken:item/ability_books/adamantine_will",
+			"type": "item",
+			"name": "minecraft:enchanted_book",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
-			}]
-		},{
-			"type": "minecraft:item",
-			"name": "minecraft:wither_rose",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.4
-			}]
-		}]
-	},{
-		"rolls": 1,
-		"entries": [{
-			"type": "loot_table",
-			"value": "bracken:item/maps/dormis_courtyard_map",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 1
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "minecraft:set_enchantments",
+				"enchantments": {
+					
+					"bracken:reverse_thorns": 1
+				},
+				"add": false
 			}]
 		}]
 	}]
