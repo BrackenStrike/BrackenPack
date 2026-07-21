@@ -11,7 +11,7 @@
         },
         "foliage_provider": {
             "state": {
-                "Name": "minecraft:bedrock"
+                "Name": "minecraft:tuff"
             },
             "type": "minecraft:simple_state_provider"
         },
@@ -22,9 +22,11 @@
             "type": "minecraft:spruce_foliage_placer"
         },
         "trunk_provider": {
-            "state": {
+            "state": { "Properties": {
+                    "axis": "y"
+                },
                 
-                "Name": "minecraft:bedrock"
+                "Name": "minecraft:polished_basalt"
             },
             "type": "minecraft:simple_state_provider"
         },
@@ -36,7 +38,7 @@
         },
         "below_trunk_provider": {
             "state": {
-                "Name": "minecraft:bedrock"
+                "Name": "minecraft:infested_stone"
             },
             "type": "minecraft:simple_state_provider"
         }

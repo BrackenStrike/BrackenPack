@@ -72,8 +72,7 @@
         "minecraft:canyon"
       ],
     "features": [
-        ["bracken:underdark/bedrock_tree",
-            "bracken:underdark/bedrock_tree2"],
+        ["bracken:underdark/bedrock_tree","bracken:underdark/bedrock_rock"],
         [
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"
