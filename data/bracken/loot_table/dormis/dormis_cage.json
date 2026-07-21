@@ -68,7 +68,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/ability_books/adamantine_will",
+			"value": "bracken:item/ability_books/fireball",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.05
