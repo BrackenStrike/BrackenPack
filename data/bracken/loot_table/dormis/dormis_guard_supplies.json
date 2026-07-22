@@ -26,7 +26,7 @@
 			"name": "minecraft:netherite_scrap",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.1
 			}]
 		},
 		{
@@ -36,16 +36,13 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
 			}]
-		},
-		
-		
-		
+		},		
 		{
 			"type": "loot_table",
 			"value": "bracken:item/ability_books/adamantine_will",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.05
+				"chance": 0.1
 			}]
 		}]
 	}]
