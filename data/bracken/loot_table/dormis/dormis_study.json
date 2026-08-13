@@ -159,7 +159,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					
-					"bracken:decaying": 1
+					"bracken:curse/decaying": 1
 				},
 				"add": false
 			}]
@@ -295,7 +295,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					
-					"bracken:famine_walker": 1
+					"bracken:curse/famine_walker": 1
 				},
 				"add": false
 			}]

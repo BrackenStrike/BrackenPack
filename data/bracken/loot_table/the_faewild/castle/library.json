@@ -175,7 +175,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"minecraft:respiration": 1,
-					"bracken:famine_walker": 1
+					"bracken:curse/famine_walker": 1
 				},
 				"add": false
 			}]

@@ -55,7 +55,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:famine_walker": 1,
+					"brackencurse/famine_walker": 1,
 					"bracken:reverse_thorns": 1
 				},
 				"add": false
