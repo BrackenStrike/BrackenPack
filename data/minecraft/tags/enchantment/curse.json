@@ -6,6 +6,7 @@
 	"bracken:infused/thorns",
 	"bracken:infused/fire_aspect",
 	"bracken:curse/maiming",
+	"bracken:curse/dishonored",
 	"bracken:decaying",
 	"bracken:astuteness",
 	"bracken:infused/mending",
@@ -22,6 +23,7 @@
 	"bracken:curse/sentience_6",
 	"bracken:curse/sentience_7",
 	"bracken:spectrality",
+	"bracken:curse/decaying",
 	"bracken:withering",
 	"bracken:weakening",
 	"bracken:curse/devouring",
@@ -29,6 +31,7 @@
 	"bracken:vitality",
 	"bracken:curse/lethargy",
 	"bracken:curse/dullness",
+	"bracken:curse/famine_walker",
 	"bracken:curse/instability",
 	"bracken:banishment",
 	"bracken:technical/nightfall"

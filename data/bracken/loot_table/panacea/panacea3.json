@@ -7,7 +7,7 @@
 			"weight": 10
 		},{
 			"type": "item",
-			"name": "minecraft:glistering_melon_slice",
+			"value": "bracken:item/metal_apples/glistering_melon_slice",
 			"weight": 1
 		}]
 	}]

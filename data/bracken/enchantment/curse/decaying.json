@@ -1,8 +1,7 @@
 {
 	"anvil_cost": 1,
 	"description": {
-		"translate": "Decaying",
-		"color": "dark_purple"
+		"translate": "Curse of Decaying"
 	},
 	"effects": {
 		"minecraft:tick": [{

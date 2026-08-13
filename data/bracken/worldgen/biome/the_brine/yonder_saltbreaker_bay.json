@@ -4,14 +4,7 @@
         "axolotls":[],
         "creature": [],
         "misc": [],
-        "monster": [
-          {
-            "type": "minecraft:drowned",
-            "maxCount": 4,
-            "minCount": 1,
-            "weight": 7
-          }
-        ],
+        "monster": [],
         "underground_water_creature": [],
         "water_ambient": [
           

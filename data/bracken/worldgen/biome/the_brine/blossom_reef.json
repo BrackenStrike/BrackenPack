@@ -49,10 +49,10 @@
             "weight": 25
           },
           {
-            "type": "minecraft:drowned",
-            "maxCount": 4,
+            "type": "minecraft:zombie_nautilus",
+            "maxCount": 1,
             "minCount": 1,
-            "weight": 7
+            "weight": 5
           }
          
         ],

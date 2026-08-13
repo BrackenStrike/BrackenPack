@@ -68,7 +68,7 @@
 			}]
 		},{
 			"type": "minecraft:item",
-			"name": "minecraft:glistering_melon_slice",
+			"value": "bracken:item/metal_apples/glistering_melon_slice",
 			"functions": [{
 				"function": "minecraft:set_count",
 				"count": {

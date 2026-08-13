@@ -8,36 +8,20 @@
         "bracken:boldness",
         "bracken:butchering",
         "bracken:chiseling",
-        "bracken:cleaving",
+        "bracken:cleaving",        
         "bracken:defusing",
-
-        "bracken:curse/devouring",
-        "bracken:curse/dishonored",
-        "bracken:curse/decaying",
-        "bracken:curse/glowing",
-        "bracken:curse/dullness",
-        "bracken:curse/famine_walker",
         "bracken:ferocity",
         "bracken:flame_walker",
         "bracken:float_walker",
         "bracken:flood_walker",
-        "bracken:curse/fragility",
         "bracken:freezing",
         "bracken:guarding",
         "bracken:huskiness",
-        "bracken:infused/fire_aspect",
-        "bracken:infused/frost_walker",
-        "bracken:infused/mending",
-        "bracken:infused/thorns",
         "bracken:integrity",
-        "bracken:curse/lethargy",
         "bracken:lifesteal",
         "bracken:litheness",
-
         "bracken:lunar_concordance_armor",
         "bracken:lunar_concordance_weapon",
-
-        "bracken:curse/maiming",
         "bracken:mortality",
         "bracken:poisoning",
         "bracken:pugnacity",
@@ -47,15 +31,7 @@
         
         "bracken:reverse_thorns",
         "bracken:searing_surface",
-        "bracken:curse/sentience_1",
-        "bracken:curse/sentience_2",
-        "bracken:curse/sentience_3",
-        "bracken:curse/sentience_4",
-        "bracken:curse/sentience_5",
-        "bracken:curse/sentience_6",
-        "bracken:curse/sentience_7",
         "bracken:shrewdness",
-
         "bracken:spectrality",
         "bracken:obliteration",
         "bracken:trampling",
@@ -67,8 +43,7 @@
 
 
 
-        "minecraft:binding_curse",
-        "minecraft:vanishing_curse",
+        
         "minecraft:riptide",
         "minecraft:channeling",
         "minecraft:wind_burst",

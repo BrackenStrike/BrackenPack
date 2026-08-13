@@ -29,7 +29,7 @@
               {
                 "id": "minecraft:regeneration",
                 "amplifier": 0,
-                "duration": 40,
+                "duration": 20,
                 "ambient": true,
                 "show_particles": true,
                 "show_icon": true

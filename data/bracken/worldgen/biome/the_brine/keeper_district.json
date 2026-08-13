@@ -47,13 +47,13 @@
             "maxCount": 4
         }],
         "misc": [],
-        "monster": [
-          {
+        "monster": [{
             "type": "minecraft:drowned",
-            "maxCount": 4,
+            "maxCount": 2,
             "minCount": 1,
-            "weight": 7
+            "weight": 5
           }
+          
         ],
         "underground_water_creature": [],
         "water_ambient": [

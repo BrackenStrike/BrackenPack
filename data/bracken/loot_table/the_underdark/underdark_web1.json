@@ -83,22 +83,6 @@
 				"chance": 0.2
 			}]
 		},{
-			"type": "item",
-			"name": "minecraft:diamond_pickaxe",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "enchant_randomly"
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.08,
-					"max": 0.43
-				}
-			}]
-		},{
 			"type": "minecraft:item",
 			"name": "minecraft:redstone",
 			"conditions": [{
