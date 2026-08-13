@@ -27,8 +27,7 @@
         "bracken:pugnacity",
         "bracken:pushback",
         "bracken:quenching",
-        "bracken:rending",
-        
+        "bracken:rending",        
         "bracken:reverse_thorns",
         "bracken:searing_surface",
         "bracken:shrewdness",
@@ -39,11 +38,7 @@
         "bracken:weakening",
         "bracken:wisdom",
         "bracken:withering",
-
-
-
-
-        
+                
         "minecraft:riptide",
         "minecraft:channeling",
         "minecraft:wind_burst",

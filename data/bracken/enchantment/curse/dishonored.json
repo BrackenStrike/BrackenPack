@@ -15,9 +15,9 @@
 		"per_level_above_first": 8
 	},
 
-	"exclusive_set": "#minecraft:exclusive_set/all_but_curse",
+	"exclusive_set": "#bracken:exclusive_set/all_but_curse",
 	"slots": [
-		"armor"
+		"any"
 	],
 	"supported_items": "#minecraft:enchantable/durability",
 	"weight": 5
