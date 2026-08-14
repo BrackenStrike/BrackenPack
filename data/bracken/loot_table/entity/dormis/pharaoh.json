@@ -20,7 +20,7 @@
             "rolls": 1,
             "entries": [{
                 "type": "minecraft:loot_table",
-			    "name": "minecraft:poison_potato",
+			    "name": "minecraft:poisonous_potato",
                 "functions": [{
                     "function": "set_count",
                     "count": {

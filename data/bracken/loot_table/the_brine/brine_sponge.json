@@ -66,14 +66,6 @@
 				"chance": 0.01
 			}]
 		},{
-			"type": "minecraft:item",
-			"value": "bracken:item/metal_apples/melon_slice",
-			
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.5
-			}]
-		},{
 			"type": "loot_table",
 			"value": "bracken:item/the_brine/brine_rod",
 			"conditions": [{
@@ -106,6 +98,22 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:sponge",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.9
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:cod",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.9
+			}]
+		},
+		{
+			"type": "minecraft:item",
+			"name": "minecraft:melon_slice",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.9
