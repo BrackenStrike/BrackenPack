@@ -14,7 +14,7 @@
 			},
 			"minecraft:item_name": "Lustra Chestplate",
 			"minecraft:enchantments": {
-				"bracken:integrity": 1
+				"bracken:boon/integrity": 1
 			},
 			"minecraft:item_model": "bracken:average_weapons/lustra/chestplate",
 			"minecraft:attribute_modifiers":[{

@@ -5,10 +5,6 @@
 			"type": "minecraft:loot_table",
 			"value": "bracken:item/panacea/panaspore",
 			"weight": 10
-		},{
-			"type": "item",
-			"value": "bracken:item/metal_apples/glistering_melon_slice",
-			"weight": 1
 		}]
 	}]
 }

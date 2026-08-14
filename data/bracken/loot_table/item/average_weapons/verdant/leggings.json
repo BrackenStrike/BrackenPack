@@ -11,8 +11,8 @@
 			},{
 				"function": "set_enchantments",
 				"enchantments": {
-					"bracken:vitality": 1,
-					"bracken:infused/mending": 1
+					"bracken:boon/vitality": 1,
+					"bracken:enhanced/mending": 1
 				}
 			},{
 				"function": "minecraft:set_components",

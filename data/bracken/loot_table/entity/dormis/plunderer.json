@@ -20,7 +20,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "bracken:item/average_weapons/old_world_bronze/quadran"
+                    "value": "bracken:item/average_weapons/old_world_bronze/lepton"
                 }
             ]
         }

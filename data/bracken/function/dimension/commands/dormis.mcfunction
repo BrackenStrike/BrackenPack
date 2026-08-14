@@ -9,7 +9,7 @@
 # Mobs
 execute if score @s bp.1_second matches 13 run function bracken:entity/dormis/dormis_mobs
 
-# Mansion Spell Book
+# Mansion Ability Book
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_books/mansion/tp_from_mansion/tp_back_setup
 
 #VOID TP

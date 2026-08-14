@@ -38,7 +38,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:cleaving": 1,
-					"bracken:spectrality": 1,					
+					"bracken:boon/spectrality": 1,					
 					"bracken:curse/sentience_1": 1
 
 				},

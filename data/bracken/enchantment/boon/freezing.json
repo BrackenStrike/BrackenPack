@@ -1,6 +1,6 @@
 {
 	"description": {
-		"translate": "Poisoning",
+		"translate": "Boon of Freezing",
 		"color": "dark_purple"
 	},
 	"slots": [
@@ -14,26 +14,14 @@
 				"type": "minecraft:all_of",
 				"effects": [{
 					"type": "minecraft:apply_mob_effect",
-					"to_apply": "minecraft:poison",
+					"to_apply": "minecraft:slowness",
 					"min_duration": 5,
 					"max_duration": 10,
 					"min_amplifier": 0,
-					"max_amplifier": 1
+					"max_amplifier": 2
 				}]
 			}
-		}],
-		"minecraft:armor_effectiveness": [
-			{
-			  "effect": {
-				"type": "minecraft:add",
-				"value": {
-				  "type": "minecraft:linear",
-				  "base": -0.6,
-				  "per_level_above_first": -0.15
-				}
-			  }
-			}
-		  ]
+		}]
 	},
 	"max_level": 1,
 	"exclusive_set": "minecraft:fire_aspect",

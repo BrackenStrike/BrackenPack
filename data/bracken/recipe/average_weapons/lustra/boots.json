@@ -14,7 +14,7 @@
 			},
 			"minecraft:item_name": "Lustra Boots",
 			"minecraft:enchantments": {
-				"bracken:integrity": 1
+				"bracken:boon/integrity": 1
 			},
 			"minecraft:item_model": "bracken:average_weapons/lustra/boots",
 			"minecraft:attribute_modifiers":[{

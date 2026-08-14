@@ -1,7 +1,7 @@
 scoreboard players operation #tmp bp.math.var = @s OMNI.PERMISSIONS_BOOK
 data merge storage bracken:var {omnipowers_msg:[""]}
 
-data modify storage bracken:var omnipowers_msg append value "-- Spellbooks\n"
+data modify storage bracken:var omnipowers_msg append value "-- Abilitybooks\n"
 
 scoreboard players operation #b bp.math.var = #tmp bp.math.var
 scoreboard players operation #b bp.math.var %= #2 bp.math.var

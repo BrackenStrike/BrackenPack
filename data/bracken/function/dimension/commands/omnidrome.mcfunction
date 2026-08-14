@@ -22,7 +22,7 @@ execute if entity @s[predicate=bracken:sprint,scores={bp.omni_sprint=2..}] run p
 execute if entity @s[y=-42,dy=-100] run function bracken:dimension/commands/other/omnidrome_loop_bottom
 tp @s[y=280,dy=100] ~ -38 ~
 
-# Mansion Spell Book
+# Mansion Ability Book
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_books/mansion/tp_from_mansion/tp_back_setup
 
 execute if score @s OMNI.COMMAND matches 1..51 run function bracken:player/omni_powers/route

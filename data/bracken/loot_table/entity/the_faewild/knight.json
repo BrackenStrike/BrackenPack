@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:black_bed"
+			"name": "minecraft:wither_rose"
 		}],
 		"conditions": [{
 			"condition": "minecraft:random_chance",

@@ -1,6 +1,6 @@
 {
     "type": "minecraft:jigsaw",
-    "biomes": "bracken:the_brine/sugar_sand_beach",
+    "biomes": "bracken:the_brine/sponge_ranch",
     "spawn_overrides": {},
     "start_pool": "bracken:the_brine/brine_tower_root",
     "size": 7,

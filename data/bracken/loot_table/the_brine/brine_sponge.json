@@ -67,7 +67,7 @@
 			}]
 		},{
 			"type": "minecraft:item",
-			"value": "bracken:item/metal_apples/glistering_melon_slice",
+			"value": "bracken:item/metal_apples/melon_slice",
 			
 			"conditions": [{
 				"condition": "minecraft:random_chance",

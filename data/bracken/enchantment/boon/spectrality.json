@@ -1,7 +1,6 @@
 {
 	"description": {
-		"translate": "Spectrality",
-		"color": "dark_purple"
+		"translate": "Boon of Spectrality"
 	},
 	"anvil_cost": 4,
 	"effects": {

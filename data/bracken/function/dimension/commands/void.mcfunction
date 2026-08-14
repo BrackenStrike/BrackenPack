@@ -7,7 +7,7 @@
 effect give @s[predicate=bracken:survival_like] minecraft:slow_falling 13 9 true
 #effect give @s[gamemode=!creative,tag=!bp.watcher,scores={bp.10_second=8}] minecraft:blindness 29 9 true
 
-# Mansion Spell Book
+# Mansion Ability Book
 execute if entity @s[tag=bp.to_mansion_1] run function bracken:item/ability_books/mansion/tp_to_mansion/tp_to_mansion_setup
 execute if entity @s[tag=bp.mansion_1] run function bracken:item/ability_books/mansion/create_mansion/tp_to_mansion_setup
 

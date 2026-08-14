@@ -51,7 +51,7 @@
         "misc": [],
         "monster": [
           {
-            "type": "minecraft:drowned",
+            "type": "minecraft:stray",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5
