@@ -1,8 +1,7 @@
 {
 	"anvil_cost": 8,
 	"description": {
-		"translate": "Dentine Touch",
-		"color": "dark_purple"
+		"translate": "Dentine Touch"
 
 	},
 	"effects": {

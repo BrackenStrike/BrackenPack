@@ -2,7 +2,7 @@
 	"anvil_cost": 4,
 	"description": {
 		"translate": "Enhanced Mending",
-		"color": "dark_purple"
+		"color": "light_purple"
 	},
 	"effects": {
 		"minecraft:repair_with_xp": [{

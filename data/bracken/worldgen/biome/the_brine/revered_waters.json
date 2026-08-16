@@ -42,12 +42,7 @@
           
         ]
       },
-    "spawn_costs": {
-      "minecraft:drowned":{
-        "charge": 1,
-        "energy_budget": 5
-      }
-    },
+    "spawn_costs": {},
     "carvers": [],
     "features": [
         [],

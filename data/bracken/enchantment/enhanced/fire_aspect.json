@@ -1,7 +1,8 @@
 {
 	"anvil_cost": 4,
 	"description": {
-	  "translate": "Enhanced Fire Aspect"
+	  "translate": "Enhanced Fire Aspect",
+		"color": "light_purple"
 	},
 	"effects": {
 	  "minecraft:post_attack": [{

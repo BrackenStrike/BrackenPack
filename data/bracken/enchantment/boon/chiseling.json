@@ -1,7 +1,8 @@
 {
 	"anvil_cost": 1,
 	"description": {
-		"translate": "Boon of Chiseling"
+		"translate": "Boon of Chiseling",
+		"color": "dark_purple"
 	},
 	"effects": {
 		"minecraft:hit_block": [{

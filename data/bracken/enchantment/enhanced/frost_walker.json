@@ -2,7 +2,7 @@
 	"anvil_cost": 4,
 	"description": {
 		"translate": "Enhanced Frost Walker",
-		"color": "dark_purple"
+		"color": "light_purple"
 	},
 	"effects": {
 		"minecraft:damage_immunity": [{

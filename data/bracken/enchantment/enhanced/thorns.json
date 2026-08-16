@@ -1,7 +1,8 @@
 {
 	"anvil_cost": 4,
 	"description": {
-		"translate": "Enhanced Thorns"
+		"translate": "Enhanced Thorns",
+		"color": "light_purple"
 	},
 	"effects": {
 		"minecraft:post_attack": [
