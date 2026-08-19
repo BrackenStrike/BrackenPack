@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_bar",
+                    "functions": [{
+                        "function": "set_count",
+                        "count": {
+                            "min": 0,
+                            "max": 2
+                        }
+                    },{
+                        "function": "enchanted_count_increase",
+                        "count": {
+                            "max": 6,
+                            "min": 1
+                        },
+                        "enchantment": "minecraft:looting"
+                    }]
+                }
+            ]
+        }
+    ]
+}

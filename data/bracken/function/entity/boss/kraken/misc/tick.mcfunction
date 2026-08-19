@@ -11,7 +11,7 @@ scoreboard players remove @s bp.boss_state_cd 1
 #spin
 scoreboard players remove @s[scores={bp.boss_1=1..}] bp.boss_1 1
 execute at @s[scores={bp.boss_1=1..}] run function bracken:entity/boss/kraken/misc/spin
-
+execute at @s[scores={bp.boss_1=1..},nbt={NoAI:1}] run data merge entity @s {NoAI:0}
 
 #sploosh
 execute if score @s bp.boss_3 matches 1.. run function bracken:entity/boss/kraken/attacks/dive_tick
@@ -26,6 +26,6 @@ execute if block ^ ^4 ^18 water run function bracken:entity/boss/kraken/misc/fol
 execute unless predicate bracken:periodic/1s run return 1
 
 #grapple player
-execute positioned ^ ^6 ^-2 as @e[distance=..10,tag=!bp.kraken] at @s run function bracken:entity/boss/kraken/misc/grapple
+execute positioned ^ ^6 ^-2 as @e[distance=..10,tag=!bp.kraken,type=!item] at @s run function bracken:entity/boss/kraken/misc/grapple
 
 

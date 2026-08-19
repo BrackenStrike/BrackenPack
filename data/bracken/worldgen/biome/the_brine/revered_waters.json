@@ -32,7 +32,7 @@
         "underground_water_creature": [],
         "water_ambient": [
           {
-            "type": "minecraft:salmon",
+            "type": "minecraft:cod",
             "maxCount": 8,
             "minCount": 8,
             "weight": 25
@@ -50,7 +50,7 @@
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"
         ],
-        [],
+        ["bracken:brine/glowstone_blobs"],
         [],
         [],
         [],

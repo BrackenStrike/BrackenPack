@@ -36,10 +36,21 @@
         "ambient": [],
         "misc": [],
         "water_creature": [],
-        "creature": [],
+        "creature": [{
+            "type": "minecraft:shulker",
+            "maxCount": 2,
+            "minCount": 1,
+            "weight": 5
+          }],
         "monster": [
           {
             "type": "minecraft:pillager",
+            "maxCount": 2,
+            "minCount": 1,
+            "weight": 15
+          },
+          {
+            "type": "minecraft:zombified_piglin",
             "maxCount": 2,
             "minCount": 1,
             "weight": 15

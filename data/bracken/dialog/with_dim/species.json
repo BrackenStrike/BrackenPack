@@ -5,7 +5,7 @@
   "body": [
     {
       "type": "minecraft:plain_message",
-      "contents": "Choose Wisely! This decision cannot be changed without traveling to far away dimensions!"
+      "contents": "Choose Wisely! Only rare items can change your species to something else!"
     }
   ],
   "columns":3,

@@ -11,6 +11,9 @@ attribute @s minecraft:jump_strength modifier add bracken:varskspace_jump 0.5 ad
 attribute @s minecraft:safe_fall_distance modifier add bracken:varskspace_safefall 5 add_multiplied_base
 attribute @s minecraft:fall_damage_multiplier modifier add bracken:varskspace_redfall -0.5 add_multiplied_base
 attribute @s minecraft:step_height modifier add bracken:varskspace_step 0.5 add_value
+attribute @s minecraft:movement_speed modifier add bracken:varskspace_air_friction -0.75 add_multiplied_base
+attribute @s minecraft:friction_modifier modifier add bracken:varskspace_land_friction -0.5 add_multiplied_base
+attribute @s minecraft:air_drag_modifier modifier add bracken:varskspace_air_friction -1 add_multiplied_base
 
 function bracken:dimension/travel/remove_dim_tags
 tag @s add bp.dim_varskspace
