@@ -11,7 +11,7 @@ scoreboard players remove @s bp.boss_state_cd 1
 #spin
 scoreboard players remove @s[scores={bp.boss_1=1..}] bp.boss_1 1
 execute at @s[scores={bp.boss_1=1..}] run function bracken:entity/boss/kraken/misc/spin
-execute at @s[scores={bp.boss_1=1..},nbt={NoAI:1}] run data merge entity @s {NoAI:0}
+execute at @s[scores={bp.boss_1=..1},nbt={NoAI:1}] run data merge entity @s {NoAI:0}
 
 #sploosh
 execute if score @s bp.boss_3 matches 1.. run function bracken:entity/boss/kraken/attacks/dive_tick

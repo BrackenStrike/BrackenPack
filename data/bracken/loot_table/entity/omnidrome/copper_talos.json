@@ -5,12 +5,12 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:copper_bar",
+                    "name": "minecraft:copper_ingot",
                     "functions": [{
                         "function": "set_count",
                         "count": {
                             "min": 0,
-                            "max": 4
+                            "max": 14
                         }
                     },{
                         "function": "enchanted_count_increase",

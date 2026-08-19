@@ -93,12 +93,6 @@
             "maxCount": 2,
             "minCount": 1,
             "weight": 2
-          },
-          {
-            "type": "minecraft:zombie_nautilus",
-            "maxCount": 1,
-            "minCount": 1,
-            "weight": 5
           }
         ]
       },

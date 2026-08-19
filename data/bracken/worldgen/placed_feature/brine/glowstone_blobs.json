@@ -1,16 +1,18 @@
 {
-    "feature": "bracken:brine/golwstone_blobs",
+    "feature": "bracken:brine/glowstone_blobs",
     "placement": [
         {
-            "type": "count",
+            "type": "minecraft:count_on_every_layer",
             "count": 1
         },
         {
-            "type": "minecraft:in_square"
-        },
-        {
-            "type": "heightmap",
-            "heightmap": "WORLD_SURFACE_WG"
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:would_survive",
+                "state": {
+                    "Name": "minecraft:dead_bush"
+                }
+            }
         },
         {
             "type": "minecraft:biome"

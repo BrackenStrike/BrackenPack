@@ -7,6 +7,6 @@
         "state": {
             "Name": "minecraft:glowstone"
         },
-        "radius": 12
+        "radius": 7
     }
 }

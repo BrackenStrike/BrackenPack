@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:iron_bar",
+                    "name": "minecraft:iron_ingot",
                     "functions": [{
                         "function": "set_count",
                         "count": {
