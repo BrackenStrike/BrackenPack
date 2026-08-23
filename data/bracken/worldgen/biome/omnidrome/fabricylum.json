@@ -40,7 +40,7 @@
         "monster": [
          
           {
-            "type": "minecraft:iron_golem",
+            "type": "minecraft:bogged",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5

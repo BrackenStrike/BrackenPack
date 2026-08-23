@@ -1,24 +1,32 @@
-
 {
 	"pools": [{
 		"rolls": 1,
 		"entries": [{
-			"type": "minecraft:loot_table",
-			"value": "bracken:item/the_brine/brine_rod"
+			"type": "minecraft:item",
+			"name": "minecraft:nautilus_shell"
 		}],
 		"conditions": [{
 			"condition": "minecraft:random_chance",
-			"chance": 0.16
+			"chance": 0.12
+		}]
+	},{
+		"rolls": {
+			"min": 0,
+			"max": 1
+		},
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:prismarine_shard"
 		}]
 	},{
 		"rolls": 1,
 		"entries": [{
-			"type": "minecraft:loot_table",
-			"value": "bracken:item/the_brine/jellyfish_stinger",
+			"type": "minecraft:item",
+			"name": "minecraft:melon_slice",
 			"functions": [{
 				"function": "minecraft:set_count",
 				"count": {
-					"max": 1.0,
+					"max": 2.0,
 					"min": 0.0
 				}
 			},{

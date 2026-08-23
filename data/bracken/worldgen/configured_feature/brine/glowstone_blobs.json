@@ -5,7 +5,7 @@
             "Name": "minecraft:air"
         },
         "state": {
-            "Name": "minecraft:glowstone"
+            "Name": "minecraft:obsidiant"
         },
         "radius": 7
     }

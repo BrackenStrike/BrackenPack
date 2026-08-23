@@ -1,0 +1,2 @@
+summon copper_golem ~ ~ ~ {Team:"bp.Automech",CustomName:{"italic":false,"obfuscated":true,"text":"Copper Talos"},Tags:["bp.copper_talos","bp.safe"],DeathLootTable:"bracken:entity/omnidrome/copper_talos",Health:100f,weather_state:"oxidized",next_weather_age:-2,attributes:[{id:"minecraft:scale",base:10},{id:"minecraft:step_height",base:5},{id:"minecraft:knockback_resistance",base:1},{id:"minecraft:max_health",base:100}]}
+tp @s ~ ~-512 ~

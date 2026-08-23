@@ -9,6 +9,12 @@ execute as @n[type=slime,distance=..100,tag=!bp.safe] at @s run function bracken
 ## ADAPTER-T
 execute as @n[type=silverfish,distance=..100,tag=!bp.safe] at @s run function bracken:entity/omnidrome/summons/adapter_t_setup
 
+## IRON TALOS GOLEM
+execute as @n[type=bogged,distance=..100,tag=!bp.safe] at @s run function bracken:entity/omnidrome/summons/iron_talos_setup
+
+## COPPER TALOS GOLEM
+execute as @n[type=skeleton,distance=..100,tag=!bp.safe] at @s run function bracken:entity/omnidrome/summons/copper_talos_setup
+
 # _________________________________________________
 
 ## NUTRIMONITOR
@@ -23,10 +29,3 @@ data merge entity @n[type=pillager,distance=..100,tag=!bp.parser,tag=!bp.safe] {
 
 ## CAPACIPHITE SHULKER
 data merge entity @n[type=shulker,distance=..100,tag=!bp.capaciphite,tag=!bp.safe] {DeathLootTable:"bracken:entity/omnidrome/parser",Team:"bp.Automech",CustomName:{"translate":"Capaciphite","color":"green","bold":true},Tags:["bp.capaciphite","bp.safe"],Health:50f,AttachFace:0b,Color:5b,attributes:[{id:"minecraft:attack_damage",base:5},{id:"minecraft:follow_range",base:100},{id:"minecraft:max_health",base:50},{id:"minecraft:scale",base:4}]}
-
-## IRON TALOS GOLEM
-data merge entity @n[type=iron_golem,distance=..100,tag=!bp.currupted_golem,tag=!bp.iron_talos,tag=!bp.safe] {Team:"bp.Automech",CustomName:{"italic":false,"obfuscated":true,"text":"Iron Talos"},Tags:["bp.iron_talos","bp.safe"],DeathLootTable:"bracken:entity/omnidrome/iron_talos",attributes:[{id:"minecraft:step_height",base:5}]}
-
-
-## COPPER TALOS GOLEM
-data merge entity @n[type=copper_golem,distance=..100,tag=!bp.copper_talos,tag=!bp.safe] {Team:"bp.Automech",CustomName:{"italic":false,"obfuscated":true,"text":"Copper Talos"},Tags:["bp.copper_talos","bp.safe"],DeathLootTable:"bracken:entity/omnidrome/copper_talos",Health:100f,weather_state:"oxidized",next_weather_age:-2,attributes:[{id:"minecraft:scale",base:10},{id:"minecraft:step_height",base:5},{id:"minecraft:knockback_resistance",base:1},{id:"minecraft:max_health",base:100}]}

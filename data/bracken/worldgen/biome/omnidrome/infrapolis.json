@@ -36,19 +36,14 @@
         "ambient": [],
         "misc": [],
         "water_creature": [],
-        "creature": [{
-            "type": "minecraft:iron_golem",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 5
-          }],
+        "creature": [],
         "monster": [{
             "type": "minecraft:copper_golem",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5
           },{
-            "type": "minecraft:iron_golem",
+            "type": "minecraft:bogged",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5

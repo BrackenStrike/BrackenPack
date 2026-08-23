@@ -1,0 +1,2 @@
+summon iron_golem ~ ~ ~ {Team:"bp.Automech",CustomName:{"italic":false,"obfuscated":true,"text":"Iron Talos"},Tags:["bp.iron_talos","bp.safe"],DeathLootTable:"bracken:entity/omnidrome/iron_talos",attributes:[{id:"minecraft:step_height",base:5}]}
+tp @s ~ ~-512 ~
