@@ -38,18 +38,18 @@
             "weight": 1,
             "minCount": 1,
             "maxCount": 1
-        }],
+        },
+          {
+            "type": "minecraft:drowned",
+            "maxCount": 4,
+            "minCount": 1,
+            "weight": 1
+          }],
         "misc": [],
         "monster": [
          
           {
             "type": "minecraft:slime",
-            "maxCount": 4,
-            "minCount": 4,
-            "weight": 25
-          },
-          {
-            "type": "minecraft:drowned",
             "maxCount": 4,
             "minCount": 4,
             "weight": 25
