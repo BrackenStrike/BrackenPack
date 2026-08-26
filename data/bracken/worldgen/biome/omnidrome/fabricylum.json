@@ -44,12 +44,6 @@
             "maxCount": 2,
             "minCount": 1,
             "weight": 5
-          },
-          {
-            "type": "minecraft:zombified_piglin",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 15
           }
        
        

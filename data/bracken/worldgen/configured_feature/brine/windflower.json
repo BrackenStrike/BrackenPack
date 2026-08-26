@@ -20,7 +20,7 @@
         },
         "foliage_provider": {
             "state": {
-                "Name": "minecraft:light"
+                "Name": "minecraft:glowstone"
             },
             "type": "minecraft:simple_state_provider"
         },
