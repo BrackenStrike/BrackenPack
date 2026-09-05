@@ -10,10 +10,10 @@ execute as @n[type=slime,distance=..100,tag=!bp.safe] at @s run function bracken
 execute as @n[type=silverfish,distance=..100,tag=!bp.safe] at @s run function bracken:entity/omnidrome/summons/adapter_t_setup
 
 ## IRON TALOS GOLEM
-execute as @n[type=skeleton,distance=..100,tag=!bp.safe] at @s run function bracken:entity/omnidrome/summons/iron_talos_setup
+execute as @n[type=llama,distance=..100,tag=!bp.safe] at @s run function bracken:entity/omnidrome/summons/iron_talos_setup
 
-## COPPER TALOS GOLEM
-execute as @n[type=bogged,distance=..100,tag=!bp.safe] at @s run function bracken:entity/omnidrome/summons/copper_talos_setup
+## COPPER GOLEM
+execute as @n[type=cow,distance=..100,tag=!bp.safe] at @s run function bracken:entity/omnidrome/summons/copper_golem_setup
 
 # _________________________________________________
 
@@ -28,4 +28,4 @@ data merge entity @n[type=husk,distance=..100,tag=!bp.macroprocessor,tag=!bp.saf
 data merge entity @n[type=pillager,distance=..100,tag=!bp.parser,tag=!bp.safe] {Team:"bp.Automech",Silent:1b,active_effects:[{id:"minecraft:speed",amplifier:1,duration:1,show_particles:0b},{id:"minecraft:invisibility",amplifier:1,duration:-1,show_particles:0b}],CustomNameVisible:0b,DeathLootTable:"bracken:entity/omnidrome/parser",Health:10f,Tags:["bp.parser"],CustomName:{"color":"green","italic":false,"obfuscated":true,"text":"Parser-B"},equipment:{mainhand:{id:"minecraft:crossbow",count:1,components:{"minecraft:enchantments":{"minecraft:multishot":9,"minecraft:quick_charge":3,"minecraft:vanishing_curse":1}}},head:{id:"minecraft:bamboo",count:1,components:{"minecraft:item_model":"bracken:shadows/parser-b","minecraft:enchantments":{"minecraft:vanishing_curse":1,"minecraft:projectile_protection":3},"minecraft:enchantment_glint_override":false}}},attributes:[{id:"minecraft:follow_range",base:12},{id:"minecraft:movement_speed",base:0.6},{id:"minecraft:scale",base:2}]}
 
 ## CAPACIPHITE SHULKER
-data merge entity @n[type=shulker,distance=..100,tag=!bp.capaciphite,tag=!bp.safe] {DeathLootTable:"bracken:entity/omnidrome/parser",Team:"bp.Automech",CustomName:{"translate":"Capaciphite","color":"green","bold":true},Tags:["bp.capaciphite","bp.safe"],Health:50f,AttachFace:0b,Color:5b,attributes:[{id:"minecraft:attack_damage",base:5},{id:"minecraft:follow_range",base:100},{id:"minecraft:max_health",base:50},{id:"minecraft:scale",base:4}]}
+data merge entity @n[type=shulker,distance=..100,tag=!bp.capaciphite,tag=!bp.safe] {DeathLootTable:"bracken:entity/omnidrome/parser",CustomName:{"translate":"Capaciphite","color":"green","bold":true},Tags:["bp.capaciphite","bp.safe"],Health:50f,AttachFace:0b,Color:5b,attributes:[{id:"minecraft:attack_damage",base:5},{id:"minecraft:follow_range",base:100},{id:"minecraft:max_health",base:50},{id:"minecraft:scale",base:4}]}

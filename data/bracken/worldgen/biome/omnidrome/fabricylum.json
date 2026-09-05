@@ -36,15 +36,15 @@
         "ambient": [],
         "misc": [],
         "water_creature": [],
-        "creature": [],
-        "monster": [
-         
-          {
-            "type": "minecraft:skeleton",
-            "maxCount": 2,
+        "creature": [{
+            "type": "minecraft:llama",
+            "maxCount": 7,
             "minCount": 1,
             "weight": 5
-          }
+          }],
+        "monster": [
+         
+          
        
        
            ]

@@ -31,6 +31,12 @@
             "maxCount": 1,
             "minCount": 1,
             "weight": 5
+          },
+        {
+            "type": "minecraft:hoglin",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 5
           }]
     },
     "spawn_costs": {},
