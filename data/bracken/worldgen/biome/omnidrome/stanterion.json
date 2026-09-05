@@ -36,16 +36,17 @@
         "ambient": [],
         "misc": [],
         "water_creature": [],
-        "creature": [{
-            "type": "minecraft:cow",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 15
-          }],
+        "creature": [],
         "monster": [
           
           {
             "type": "minecraft:pillager",
+            "maxCount": 2,
+            "minCount": 1,
+            "weight": 15
+          },
+          {
+            "type": "minecraft:skeleton",
             "maxCount": 2,
             "minCount": 1,
             "weight": 15

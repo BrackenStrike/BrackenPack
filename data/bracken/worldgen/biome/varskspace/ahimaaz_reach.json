@@ -27,7 +27,7 @@
         "water_creature": [],
         "creature": [],
         "monster": [{
-            "type": "minecraft:creeper",
+            "type": "minecraft:hoglin",
             "maxCount": 10,
             "minCount": 1,
             "weight": 5

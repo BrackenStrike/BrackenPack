@@ -1,1 +1,1 @@
-summon iron_golem ~ ~ ~ {Team:"bp.Automech",CustomName:{"italic":false,"obfuscated":true,"text":"Iron Talos"},Tags:["bp.iron_talos","bp.safe"],DeathLootTable:"bracken:entity/omnidrome/iron_talos",attributes:[{id:"minecraft:movement_speed",base:0.4},{id:"minecraft:step_height",base:5}]}
+summon iron_golem ~ ~ ~ {CustomName:{"italic":false,"obfuscated":true,"text":"Iron Talos"},Tags:["bp.iron_talos","bp.safe"],DeathLootTable:"bracken:entity/omnidrome/iron_talos",attributes:[{id:"minecraft:movement_speed",base:0.4},{id:"minecraft:step_height",base:5}]}

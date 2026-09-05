@@ -37,7 +37,7 @@
         "misc": [],
         "water_creature": [],
         "creature": [{
-            "type": "minecraft:llama",
+            "type": "minecraft:zombie_horse",
             "maxCount": 7,
             "minCount": 1,
             "weight": 5

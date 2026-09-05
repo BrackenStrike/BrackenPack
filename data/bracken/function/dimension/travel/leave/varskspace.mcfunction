@@ -11,5 +11,5 @@ attribute @s minecraft:jump_strength modifier remove bracken:varskspace_jump
 attribute @s minecraft:safe_fall_distance modifier remove bracken:varskspace_safefall
 attribute @s minecraft:fall_damage_multiplier modifier remove bracken:varskspace_redfall
 attribute @s minecraft:step_height modifier remove bracken:varskspace_step
-attribute @s minecraft:air_drag_modifier modifier remove varskspace_air_friction
+attribute @s minecraft:air_drag_modifier modifier remove bracken:varskspace_air_friction
 attribute @s minecraft:friction_modifier modifier remove bracken:varskspace_land_friction
