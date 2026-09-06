@@ -8,12 +8,12 @@
 		"functions": [{
 			"function": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Honey-Flavored Scroll"
+			"name": "Bracken Species Scroll"
 		},
 		{
 				"function": "minecraft:set_lore",
 				"lore": [{
-					"translate": "Eat to select a species.",
+					"translate": "Eat to open species options.",
 					"color": "gray",
 					"italic": false
 				}],
