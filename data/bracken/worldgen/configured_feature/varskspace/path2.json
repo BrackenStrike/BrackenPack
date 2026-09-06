@@ -36,7 +36,7 @@
                                         "provider": {
                                             "type": "minecraft:simple_state_provider",
                                             "state": {
-                                                "Name": "minecraft:waxed_chiseled_copper"
+                                                "Name": "minecraft:oxidized_chiseled_copper"
                                             }
                                         }
                                     }

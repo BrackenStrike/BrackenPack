@@ -46,7 +46,7 @@
             "weight": 15
           },
           {
-            "type": "minecraft:skeleton",
+            "type": "minecraft:cave_spider",
             "maxCount": 2,
             "minCount": 1,
             "weight": 15

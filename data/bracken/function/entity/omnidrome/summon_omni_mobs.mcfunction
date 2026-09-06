@@ -10,10 +10,10 @@ execute as @n[type=slime,distance=..100,tag=!bp.safe] at @s run function bracken
 execute as @n[type=silverfish,distance=..100,tag=!bp.safe] at @s run function bracken:entity/omnidrome/summons/adapter_t_setup
 
 ## IRON TALOS GOLEM
-execute as @n[type=zombie_villager,distance=..100,tag=!bp.safe] at @s run function bracken:entity/omnidrome/summons/iron_talos_setup
+execute as @n[type=parched,distance=..100,tag=!bp.safe] at @s run function bracken:entity/omnidrome/summons/iron_talos_setup
 
 ## COPPER GOLEM
-execute as @n[type=skeleton,distance=..100,tag=!bp.safe] at @s run function bracken:entity/omnidrome/summons/copper_golem_setup
+execute as @n[type=cave_spider,distance=..100,tag=!bp.safe] at @s run function bracken:entity/omnidrome/summons/copper_golem_setup
 
 # _________________________________________________
 
