@@ -36,14 +36,13 @@
         "ambient": [],
         "misc": [],
         "water_creature": [],
-        "creature": [{
-            "type": "minecraft:zombie_horse",
-            "maxCount": 7,
+        "creature": [],
+        "monster": [{
+            "type": "minecraft:zombie_villager",
+            "maxCount": 2,
             "minCount": 1,
             "weight": 5
-          }],
-        "monster": [
-         
+          } 
           
        
        
