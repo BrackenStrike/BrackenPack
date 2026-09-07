@@ -4,7 +4,7 @@
 ##########################################################
 
 
-playsound bracken:ability_book_tier_5 player @a[distance=..30] ~ ~ ~ 10
+playsound minecraft:entity.warden.dig player @a[distance=..30] ~ ~ ~ 10 0
 execute anchored eyes run function bracken:item/ability_books/tetra_slime/raycast
 tellraw @s ["",{"selector":"@s"},{"translate":" generated [TETRA SLIME]"}]
 

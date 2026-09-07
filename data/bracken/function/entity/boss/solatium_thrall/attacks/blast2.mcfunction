@@ -1,4 +1,4 @@
-playsound minecraft:block.bell.use hostile @a[distance=..100] ~ ~ ~ 10 0
+playsound minecraft:entity.tnt.primed hostile @a[distance=..100] ~ ~ ~ 10 0
 
 summon area_effect_cloud ~ ~0.5 ~ {custom_particle:{type:"squid_ink"},Radius:1.5f,RadiusPerTick:-.2f,Duration:2000}
 

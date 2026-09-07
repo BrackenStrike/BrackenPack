@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:block_blob",
+    "config": {
+        "can_place_on": {
+            "type": "matching_blocks",
+            "blocks": "bedrock"
+        },
+        "state": {
+            "Name": "minecraft:deepslate"
+        }
+    }
+}

@@ -104,12 +104,6 @@
                 "weight": 5,
                 "minCount": 2,
                 "maxCount": 6
-            },
-            {
-                "type": "minecraft:spider",
-                "weight": 15,
-                "minCount": 2,
-                "maxCount": 6
             }
         ]
     },
@@ -120,7 +114,8 @@
         "minecraft:canyon"
     ],
     "features": [
-        [],
+        [
+            "bracken:underdark/bedrock_tree"],
         [
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"
@@ -132,7 +127,7 @@
         [
             "bracken:underdark/tree"
         ],
-        [],
+        ["bracken:underdark/bedrock_tree"],
         [],
         [
             "minecraft:ore_dirt",

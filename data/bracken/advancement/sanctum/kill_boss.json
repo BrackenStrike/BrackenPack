@@ -28,7 +28,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type": "minecraft:giant",
+						"minecraft:entity_type": "minecraft:giant",
 						"location": {
 							"dimension": "bracken:sanctum"
 						}

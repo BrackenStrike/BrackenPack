@@ -11,8 +11,7 @@
             "additions": {
                 "sound": "minecraft:entity.lightning_bolt.thunder",
                 "tick_chance": 0.0005
-            },
-            "loop": "minecraft:music.nether.basalt_deltas"
+            }
         },
         "visual/ambient_particles": [{
             "particle": {
@@ -47,6 +46,7 @@
             "bracken:varskspace/glass",
             "bracken:varskspace/bfire",
             "bracken:varskspace/path",
+            "bracken:varskspace/float3",
             "bracken:varskspace/amethyst",
             "bracken:varskspace/lanterns",
             "bracken:varskspace/glass_ground"

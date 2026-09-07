@@ -22,8 +22,8 @@
 				"equip_sound": "minecraft:item.bone_meal.use"
 			},
 			"minecraft:enchantments": {
-				"bracken:infused/mending": 1,
-				"bracken:vitality": 1
+				"bracken:enhanced/mending": 1,
+				"bracken:boon/vitality": 1
 			},
 			"minecraft:enchantment_glint_override": false,
 			"minecraft:item_model": "bracken:average_weapons/verdant/boots"

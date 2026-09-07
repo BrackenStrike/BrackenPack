@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "bracken:dormis_post"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 3,
+        "separation": 2,
+        "salt": 1853869722
+    }
+}

@@ -1,7 +1,7 @@
 {
   "default_clock": "minecraft:overworld",
   "has_ender_dragon_fight": false,
-  "ambient_light": 0.1,
+  "ambient_light": 0.0,
   "attributes": {
     "minecraft:audio/ambient_sounds": {
       "mood": {
@@ -30,7 +30,7 @@
     "minecraft:gameplay/respawn_anchor_works": true,
     
     "minecraft:visual/fog_color": "#584c4d",
-    "minecraft:visual/ambient_light_color": "#584c4d",
+    "minecraft:visual/ambient_light_color": "#0f0f0f",
     "minecraft:visual/sky_color": "#833d3f",
     "minecraft:visual/water_fog_color": 6383526,
     "minecraft:visual/sky_fog_end_distance":96,

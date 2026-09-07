@@ -1,0 +1,24 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
+			"value": "bracken:item/the_brine/shark_tooth",
+			"functions": [{
+				"function": "set_count",
+				"count": {
+					"max": 1,
+					"min": 0
+				}
+			},{
+				"function": "enchanted_count_increase",
+				"count": {
+					"max": 2,
+					"min": 1
+				},
+				"enchantment": "looting",
+				"limit": 5
+			}]
+		}]	
+	}]
+}

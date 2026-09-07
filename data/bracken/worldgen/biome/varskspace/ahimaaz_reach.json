@@ -11,8 +11,7 @@
             "additions": {
                 "sound": "minecraft:entity.lightning_bolt.thunder",
                 "tick_chance": 0.0005
-            },
-            "loop": "minecraft:music.nether.basalt_deltas"
+            }
         },
         "visual/ambient_particles": [{
             "particle": {
@@ -26,7 +25,12 @@
         "ambient": [],
         "misc": [],
         "water_creature": [],
-        "creature": [],
+        "creature": [{
+            "type": "minecraft:hoglin",
+            "maxCount": 2,
+            "minCount": 1,
+            "weight": 5
+          }],
         "monster": []
     },
     "spawn_costs": {},
@@ -41,6 +45,7 @@
         [
             "bracken:varskspace/glass",
             "bracken:varskspace/bfire",
+            "bracken:varskspace/float2",
             "bracken:varskspace/path2",
             "bracken:varskspace/lanterns",
             "bracken:varskspace/glass_ground"

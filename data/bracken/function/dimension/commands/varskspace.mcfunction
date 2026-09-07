@@ -22,7 +22,7 @@ effect give @s[scores={bp.sprintcharge=80..}] minecraft:speed 1 79 true
 # Saturation Effect
 effect give @s[scores={bp.10_second=7},predicate=!bracken:sprint] minecraft:saturation 1 0 true
 
-# Mansion Spell Book
+# Mansion Ability Book
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_books/mansion/tp_from_mansion/tp_back_setup
 
 # Dimension Travel

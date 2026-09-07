@@ -31,7 +31,7 @@
 			},{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:infused/thorns": 1
+					"bracken:enhanced/thorns": 1
 				}
 			}
 		]

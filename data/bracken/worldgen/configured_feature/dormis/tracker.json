@@ -7,17 +7,20 @@
         "trunk_provider": {
             "type": "minecraft:simple_state_provider",
             "state": {
-                "Properties": {
-                    "waterlogged": "false"
-                },
-                "Name": "minecraft:calibrated_sculk_sensor"
-            }
+                                                "Name": "minecraft:rose_bush",
+                                                "Properties": {
+                                                    "half": "upper"
+                                                }
+                                            }
         },
         "foliage_provider": {
             "type": "minecraft:simple_state_provider",
-            "state": {
-                "Name": "minecraft:waxed_copper_bulb"
-            }
+           "state": {
+                                                "Name": "minecraft:rose_bush",
+                                                "Properties": {
+                                                    "half": "lower"
+                                                }
+                                            }
         },
         "trunk_placer": {
             "type": "minecraft:straight_trunk_placer",

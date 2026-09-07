@@ -1,5 +1,5 @@
 ##########################################################
-# Description: All player related commands including from spell books, dimensions, and player races.
+# Description: All player related commands including from ability books, dimensions, and player races.
 # Creators: Bracken, Grandmaster, and Sulfenir
 ##########################################################
 

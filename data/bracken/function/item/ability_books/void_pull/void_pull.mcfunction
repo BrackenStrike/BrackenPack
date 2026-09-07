@@ -3,9 +3,9 @@
 # Creators: Grandmaster, Bracken
 ##########################################################
 
-scoreboard players set @s bp.void_pull_cooldown 80
+scoreboard players set @s bp.void_pull_cooldown 70
 
-playsound bracken:ability_book_tier_3 player @a[distance=..30] ~ ~ ~ 10
+playsound minecraft:block.portal.trigger player @a[distance=..30] ~ ~ ~ 10 0
 effect give @s minecraft:glowing 8 1 false
 tellraw @s ["",{"selector":"@s"},{"translate":" generated [VOID PULL]"}]
 experience add @s -1 levels

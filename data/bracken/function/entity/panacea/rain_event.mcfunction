@@ -19,7 +19,7 @@ execute as @n[type=piglin,distance=..100,tag=!bp.safe] at @s run function bracke
 # _________________________________________________
 
 ## Juvenile Silurain Wolf
-data merge entity @n[type=wolf,distance=..100,tag=bp.silurian_wolf,tag=!bp.safe] {CustomNameVisible:0b,Health:50f,Tags:["bp.silurian_wolf1","bp.silurian_wolf"],CustomName:{"color":"dark_green","text":"Juvenile Silurain Wolf"},attributes:[{id:"minecraft:attack_damage",base:15},{id:"minecraft:jump_strength",base:0.25},{id:"minecraft:max_health",base:50},{id:"minecraft:scale",base:6},{id:"minecraft:step_height",base:5},{id:"minecraft:oxygen_bonus",base:1000}]}
+data merge entity @n[type=wolf,distance=..100,tag=bp.silurian_wolf,tag=!bp.safe] {variant:"bracken:silurian",CustomNameVisible:0b,Health:50f,Tags:["bp.silurian_wolf1","bp.silurian_wolf"],CustomName:{"color":"dark_green","text":"Juvenile Silurain Wolf"},attributes:[{id:"minecraft:attack_damage",base:15},{id:"minecraft:jump_strength",base:0.25},{id:"minecraft:max_health",base:50},{id:"minecraft:scale",base:6},{id:"minecraft:step_height",base:5},{id:"minecraft:oxygen_bonus",base:1000}]}
 
 ## Perrterror Creeper
 data merge entity @n[type=creeper,distance=..100,tag=!bp.perrterror,tag=!bp.safe] {active_effects:[{id:"minecraft:unluck",amplifier:10b,duration:-1,show_particles:0b}],powered:1b,Tags:["bp.entity","bp.perrterror","bp.rain_event"],CustomName:{"text":"Perrterror Creeper","color":"dark_green"},CustomNameVisible:0b,DeathLootTable:"bracken:entity/panacea/perrterror",attributes:[{id:follow_range,base:64}]}

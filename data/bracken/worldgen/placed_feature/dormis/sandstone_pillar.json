@@ -1,0 +1,13 @@
+{
+    "feature": "bracken:dormis/sandstone_pillar",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 10
+        },
+       
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

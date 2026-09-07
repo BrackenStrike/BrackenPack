@@ -38,6 +38,7 @@
         "water_creature": [],
         "creature": [],
         "monster": [
+          
           {
             "type": "minecraft:pillager",
             "maxCount": 2,
@@ -45,12 +46,11 @@
             "weight": 15
           },
           {
-            "type": "minecraft:husk",
-            "maxCount": 1,
+            "type": "minecraft:cave_spider",
+            "maxCount": 2,
             "minCount": 1,
-            "weight": 1
-          }
-       
+            "weight": 15
+          }     
          
        
          

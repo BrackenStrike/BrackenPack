@@ -60,22 +60,6 @@
 				"chance": 0.6
 			}]
 		},{
-			"type": "item",
-			"name": "minecraft:bow",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.2
-			}],
-			"functions": [{
-				"function": "enchant_randomly"
-			},{
-				"function": "set_damage",
-				"damage": {
-					"min": 0.28,
-					"max": 0.53
-				}
-			}]
-		},{
 			"type": "minecraft:item",
 			"name": "minecraft:large_fern",
 			"conditions": [{

@@ -11,8 +11,7 @@
             "additions": {
                 "sound": "minecraft:entity.lightning_bolt.thunder",
                 "tick_chance": 0.0005
-            },
-            "loop": "minecraft:music.nether.basalt_deltas"
+            }
         },
         "visual/ambient_particles": [{
             "particle": {
@@ -33,10 +32,11 @@
                 "minCount": 1,
                 "maxCount": 1
             },
-          {
-            "type": "minecraft:endermite",
-            "maxCount": 4,
-            "minCount": 4,
+          
+        {
+            "type": "minecraft:creeper",
+            "maxCount": 1,
+            "minCount": 1,
             "weight": 5
           }]
     },
@@ -52,7 +52,7 @@
         [
             "bracken:varskspace/glass",
             "bracken:varskspace/bfire",
-            "bracken:varskspace/path2",
+            "bracken:varskspace/path3",
             "bracken:varskspace/float",
             "bracken:varskspace/lanterns",
             "bracken:varskspace/glass_ground"

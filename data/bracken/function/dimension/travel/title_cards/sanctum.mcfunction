@@ -3,5 +3,5 @@
 # Creators: Grandmaster, Bracken
 ##########################################################
 
-title @s title ["~ ",{"text":"Sanctum","bold":true,"color":"yellow"}," ~"]
-title @s subtitle [{"text":"Realm of The Slain Mod","bold":true,"color":"gray"}]
+title @s title ["~ ",{"text":"Sanctum","bold":false,"color":"yellow"}," ~"]
+title @s subtitle [{"text":"Realm of The Slain Mod","bold":false,"color":"gray"}]

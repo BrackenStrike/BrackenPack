@@ -54,8 +54,8 @@
 			},{
 				"function": "set_enchantments",
 				"enchantments": {
-					"bracken:poisoning": 1,
-					"bracken:infused/mending": 1
+					"bracken:boon/poisoning": 1,
+					"bracken:enhanced/mending": 1
 				}
 			},{
 				"function": "minecraft:toggle_tooltips",

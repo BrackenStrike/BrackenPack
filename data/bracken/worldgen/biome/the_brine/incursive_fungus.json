@@ -18,7 +18,7 @@
         "misc": [],
         "monster": [
           {
-            "type": "minecraft:drowned",
+            "type": "minecraft:stray",
             "maxCount": 4,
             "minCount": 1,
             "weight": 7
@@ -27,7 +27,12 @@
         "underground_water_creature": [
 
         ],
-        "water_ambient": [
+        "water_ambient": [{
+            "type": "minecraft:salmon",
+            "maxCount": 8,
+            "minCount": 8,
+            "weight": 25
+          }
           
         ],
         "water_creature": [
@@ -45,12 +50,7 @@
           }
         ]
       },
-    "spawn_costs": {
-      "minecraft:drowned":{
-        "charge": 1,
-        "energy_budget": 3
-      }
-    },
+    "spawn_costs": {},
     "carvers": [],
     "features": [
         [],

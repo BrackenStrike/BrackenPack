@@ -36,7 +36,7 @@
 					],
 					"components": {
 						"minecraft:enchantments": {
-							"bracken:freezing": 1
+							"bracken:boon/freezing": 1
 						}
 					}
 				}]

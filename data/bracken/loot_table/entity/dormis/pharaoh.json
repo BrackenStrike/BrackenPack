@@ -19,8 +19,8 @@
         {
             "rolls": 1,
             "entries": [{
-                "type": "minecraft:loot_table",
-			    "value": "bracken:item/species_fruits/bad_bread",
+                "type": "minecraft:item",
+			    "name": "minecraft:poisonous_potato",
                 "functions": [{
                     "function": "set_count",
                     "count": {

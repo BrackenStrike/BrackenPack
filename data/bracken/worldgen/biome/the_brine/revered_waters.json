@@ -7,12 +7,6 @@
             "maxCount": 5,
             "minCount": 2,
             "weight": 5
-          },
-          {
-            "type": "minecraft:magma_cube",
-            "maxCount": 1,
-            "minCount": 1,
-            "weight": 5
           }
             ],
         "misc": [],
@@ -23,36 +17,32 @@
             "weight": 25
           },
           {
-            "type": "minecraft:drowned",
+            "type": "minecraft:elder_guardian",
             "maxCount": 4,
             "minCount": 1,
-            "weight": 7
+            "weight": 1
+          },
+          {
+            "type": "minecraft:breeze",
+            "maxCount": 1,
+            "minCount": 1,
+            "weight": 5
           }
         ],
         "underground_water_creature": [],
         "water_ambient": [
           {
-            "type": "minecraft:salmon",
+            "type": "minecraft:cod",
             "maxCount": 8,
             "minCount": 8,
             "weight": 25
           }
         ],
         "water_creature": [
-          {
-            "type": "minecraft:squid",
-            "maxCount": 4,
-            "minCount": 4,
-            "weight": 10
-          }
+          
         ]
       },
-    "spawn_costs": {
-      "minecraft:drowned":{
-        "charge": 1,
-        "energy_budget": 5
-      }
-    },
+    "spawn_costs": {},
     "carvers": [],
     "features": [
         [],
@@ -60,7 +50,7 @@
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"
         ],
-        [],
+        ["bracken:brine/windflower"],
         [],
         [],
         [],

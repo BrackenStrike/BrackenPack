@@ -10,21 +10,21 @@
 			"name": "minecraft:leather",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.8
+				"chance": 0.6
 			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:bookshelf",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.7
+				"chance": 0.5
 			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:chiseled_bookshelf",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.7
+				"chance": 0.5
 			}]
 		},
 		{
@@ -39,35 +39,35 @@
 			"name": "minecraft:leather",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.8
+				"chance": 0.6
 			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:experience_bottle",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.6
+				"chance": 0.4
 			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:cobweb",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.9
+				"chance": 0.7
 			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:paper",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.8
+				"chance": 0.6
 			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:map",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.7
+				"chance": 0.5
 			}]
 		},{
 			"type": "item",
@@ -175,7 +175,7 @@
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
 					"minecraft:respiration": 1,
-					"bracken:famine_walker": 1
+					"bracken:curse/famine_walker": 1
 				},
 				"add": false
 			}]
@@ -347,14 +347,14 @@
 			"name": "minecraft:glow_ink_sac",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.6
+				"chance": 0.4
 			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:ink_sac",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.8
+				"chance": 0.6
 			}]
 		}]
 	}]

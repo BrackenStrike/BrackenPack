@@ -6,6 +6,7 @@
 tag @s remove bp.recall_wait
 
 tellraw @s ["",{"selector":"@s"},{"translate":" generated [RECALL]"}]
+playsound minecraft:entity.player.splash.high_speed player @a[distance=..30] ~ ~ ~ 10 0
 tag @s add bp.target
 execute as @e[type=marker,tag=bp.recall] at @s if score @p[tag=bp.target] bp.world_player_id = @s bp.world_player_id run tp @p[tag=bp.target] @s
 execute as @e[type=marker,tag=bp.recall] at @s if score @p[tag=bp.target] bp.world_player_id = @s bp.world_player_id run tag @p[tag=bp.target] add bp.recall_void

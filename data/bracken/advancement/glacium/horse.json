@@ -24,7 +24,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type": "minecraft:skeleton_horse",
+						"minecraft:entity_type": "minecraft:skeleton_horse",
 						"location": {
 							"dimension": "bracken:glacium"
 						}

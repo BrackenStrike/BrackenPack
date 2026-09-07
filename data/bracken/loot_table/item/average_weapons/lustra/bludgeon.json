@@ -42,7 +42,7 @@
 			},{
 				"function": "set_enchantments",
 				"enchantments": {
-					"bracken:integrity": 1
+					"bracken:boon/integrity": 1
 				}
 			},{
 				"function": "minecraft:set_attributes",

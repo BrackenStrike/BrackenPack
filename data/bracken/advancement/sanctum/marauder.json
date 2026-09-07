@@ -22,7 +22,7 @@
 			"conditions": {
 				"damage": {
 					"source_entity": {
-						"type": "minecraft:vindicator",
+						"minecraft:entity_type": "minecraft:vindicator",
 						"location": {
 							"dimension": "bracken:sanctum"
 						}

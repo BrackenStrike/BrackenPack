@@ -8,7 +8,7 @@
         "extra_edge_column_chance": 1,
         "vegetation_chance": 1.0,
         "xz_radius": 1,
-        "replaceable": "#minecraft:light_blue_stained_glass",
+        "replaceable": "#minecraft:lush_ground_replaceable",
         "ground_state": {
             "type": "minecraft:simple_state_provider",
             "state": {
@@ -36,7 +36,7 @@
                                         "provider": {
                                             "type": "minecraft:simple_state_provider",
                                             "state": {
-                                                "Name": "minecraft:ice"
+                                                "Name": "minecraft:oxidized_chiseled_copper"
                                             }
                                         }
                                     }

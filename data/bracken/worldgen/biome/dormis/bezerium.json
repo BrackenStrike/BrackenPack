@@ -61,8 +61,8 @@
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"
         ],
-        ["bracken:dormis/blue_fire","bracken:dormis/fire"],
-        ["bracken:dormis/lava_pool"],
+        ["bracken:dormis/sandstone_pillar","bracken:dormis/fire"],
+        [],
         [],
         [],
         [],

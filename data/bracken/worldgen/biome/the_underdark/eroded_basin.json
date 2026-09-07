@@ -86,7 +86,7 @@
                 "maxCount": 3
             },
             {
-                "type": "minecraft:spider",
+                "type": "minecraft:cave_spider",
                 "weight": 5,
                 "minCount": 2,
                 "maxCount": 6
@@ -100,7 +100,8 @@
         "minecraft:canyon"
       ],
     "features": [
-        [],
+        [
+            "bracken:underdark/bedrock_rock"],
         [
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"

@@ -79,7 +79,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:spectrality": 1
+					"bracken:boon/spectrality": 1
 				},
 				"add": false
 			}]

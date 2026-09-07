@@ -3,5 +3,5 @@
 # Creators: Grandmaster, Bracken
 ##########################################################
 
-title @s title ["~ ",{"text":"Glacium","bold":true,"color":"aqua"}," ~"]
-title @s subtitle [{"text":"Realm of Abandon","bold":true,"color":"gray"}]
+title @s title ["~ ",{"text":"Glacium","bold":false,"color":"aqua"}," ~"]
+title @s subtitle [{"text":"Realm of Abandon","bold":false,"color":"gray"}]

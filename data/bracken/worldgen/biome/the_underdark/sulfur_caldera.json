@@ -42,7 +42,8 @@
         "minecraft:canyon"
       ],
     "features": [
-        [],
+        [
+            "bracken:underdark/bedrock_tree"],
         [
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"
@@ -51,7 +52,7 @@
             "bracken:underdark/fire"
         ],
         [
-            "bracken:underdark/sulfur_blobs"
+            "bracken:underdark/sulfur_blobs","bracken:underdark/sulfurdrip"
         ],
         [
             "bracken:underdark/sulfur_rock"

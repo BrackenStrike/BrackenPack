@@ -2,7 +2,7 @@
     "feature": "bracken:underdark/sulfur_rock",
     "placement": [
         {
-            "count": 30,
+            "count": 20,
             "type": "minecraft:count_on_every_layer"
         },
         {

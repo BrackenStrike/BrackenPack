@@ -1,0 +1,23 @@
+{
+	"description": {
+		"translate": "Curse of Dishonor"
+	},
+	"anvil_cost": 1000,
+	"effects": {},
+	"max_cost": {
+		"base": 1000,
+		"per_level_above_first": 8
+	},
+	"max_level": 1,
+	"min_cost": {
+		"base": 900,
+		"per_level_above_first": 8
+	},
+
+	"exclusive_set": "#bracken:exclusive_set/all_but_curse",
+	"slots": [
+		"any"
+	],
+	"supported_items": "#minecraft:enchantable/durability",
+	"weight": 5
+}

@@ -48,17 +48,12 @@
         }],
         "misc": [],
         "monster": [
-          {
-            "type": "minecraft:drowned",
-            "maxCount": 4,
-            "minCount": 1,
-            "weight": 7
-          }
+          
         ],
         "underground_water_creature": [],
         "water_ambient": [
           {
-            "type": "minecraft:salmon",
+            "type": "minecraft:cod",
             "maxCount": 3,
             "minCount": 1,
             "weight": 15
@@ -85,12 +80,7 @@
           }
         ]
       },
-    "spawn_costs": {
-      "minecraft:drowned":{
-        "charge": 1,
-        "energy_budget": 10
-      }
-    },
+    "spawn_costs": {},
     "carvers": [],
     "features": [
         [],
@@ -131,7 +121,7 @@
     ],
     "temperature": 0.95,
     "downfall": 0.1,
-    "effects": {
+    "effects": {"grass_color": 15722147,
     "water_color": "#4dc0c2"},
     "attributes": {
 

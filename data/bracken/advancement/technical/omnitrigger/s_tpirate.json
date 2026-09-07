@@ -4,7 +4,7 @@
 			"trigger": "minecraft:player_killed_entity",
 			"conditions": {
 				"entity": {
-					"type": "minecraft:vindicator",
+					"minecraft:entity_type": "minecraft:vindicator",
 					"nbt": "{Tags:[\"bp.theoretical\"]}"
 				}
 			}

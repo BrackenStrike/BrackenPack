@@ -1,3 +1,5 @@
+
+
 {
     "type": "minecraft:geode",
     "config": {
@@ -48,37 +50,26 @@
         },
         "distribution_points": {
             "type": "minecraft:uniform",
-            "value": {
-                "max_inclusive": 4,
-                "min_inclusive": 3
-            }
+            "min_inclusive": 3,
+            "max_inclusive": 4
         },
         "invalid_blocks_threshold": 1,
         "layers": {
-            "filling": 6.7,
-            "inner_layer": 7.2,
-            "middle_layer": 8.2,
-            "outer_layer": 9.2
+            "filling": 6,
+            "inner_layer": 7,
+            "middle_layer": 8,
+            "outer_layer": 9
         },
-        "max_gen_offset": 16,
-        "min_gen_offset": -16,
+        "max_gen_offset": 15,
+        "min_gen_offset": -15,
         "noise_multiplier": 0.05,
-        "outer_wall_distance": {
-            "type": "minecraft:uniform",
-            "value": {
-                "max_inclusive": 6,
-                "min_inclusive": 4
-            }
-        },
         "placements_require_layer0_alternate": true,
         "point_offset": {
             "type": "minecraft:uniform",
-            "value": {
-                "max_inclusive": 2,
-                "min_inclusive": 1
-            }
+            "min_inclusive": 1,
+            "max_inclusive": 2
         },
-        "use_alternate_layer0_chance": 0.083,
+        "use_alternate_layer0_chance": 0.085,
         "use_potential_placements_chance": 0.35
     }
 }

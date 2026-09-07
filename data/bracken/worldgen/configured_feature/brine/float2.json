@@ -5,7 +5,7 @@
             "alternate_inner_layer_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:mud"
+                    "Name": "minecraft:prismarine"
                 }
             },
             "cannot_replace": "#minecraft:features_cannot_replace",
@@ -18,12 +18,12 @@
             "inner_layer_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:mud"
+                    "Name": "minecraft:prismarine"
                 }
             },
             "inner_placements": [
                 {
-                    "Name": "minecraft:mud"
+                    "Name": "minecraft:muddy_mangrove_roots"
                 }
             ],
             "invalid_blocks": "#minecraft:features_cannot_replace",
@@ -36,7 +36,7 @@
             "outer_layer_provider": {
                 "type": "minecraft:simple_state_provider",
                 "state": {
-                    "Name": "minecraft:muddy_mangrove_roots"
+                    "Name": "minecraft:mud"
                 }
             }
         },

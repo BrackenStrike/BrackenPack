@@ -1,15 +1,35 @@
+
 {
 	"pools": [{
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
+			"value": "bracken:item/the_brine/brine_rod"
+		}],
+		"conditions": [{
+			"condition": "minecraft:random_chance",
+			"chance": 0.16
+		}]
+	},{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:loot_table",
 			"value": "bracken:item/the_brine/jellyfish_stinger",
-			"conditions": [{
-				"condition": "random_chance_with_enchanted_bonus",
-				"unenchanted_chance": 0.8,
-				"enchanted_chance": 1.0,
-				"enchantment": "looting"
+			"functions": [{
+				"function": "minecraft:set_count",
+				"count": {
+					"max": 1.0,
+					"min": 0.0
+				}
+			},{
+				"function": "enchanted_count_increase",
+				"count": {
+					"max": 3.0,
+					"min": 1.0
+				},
+				"enchantment": "looting",
+				"limit": 10
 			}]
-		}]	
+		}]
 	}]
 }

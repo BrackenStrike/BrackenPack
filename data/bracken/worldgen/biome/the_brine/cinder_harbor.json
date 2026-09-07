@@ -13,7 +13,7 @@
         "misc": [],
         "monster": [ 
           {
-            "type": "minecraft:drowned",
+            "type": "minecraft:magma_cube",
             "maxCount": 4,
             "minCount": 1,
             "weight": 7
@@ -38,12 +38,7 @@
           
         ]
       },
-    "spawn_costs": {
-      "minecraft:drowned":{
-        "charge": 1,
-        "energy_budget": 10
-      }
-    },
+    "spawn_costs": {},
     "carvers": [],
     "features": [
         [],

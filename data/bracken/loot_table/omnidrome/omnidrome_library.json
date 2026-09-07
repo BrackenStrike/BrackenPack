@@ -962,7 +962,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:famine_walker": 1
+					"bracken:curse/famine_walker": 1
 				},
 				"add": false
 			}]
@@ -1322,7 +1322,7 @@
 			"functions": [{
 				"function": "minecraft:set_enchantments",
 				"enchantments": {
-					"bracken:spectrality": 1
+					"bracken:boon/spectrality": 1
 				},
 				"add": false
 			}]

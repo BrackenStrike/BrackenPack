@@ -33,7 +33,7 @@
 					"condition": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"type": "minecraft:pillager"
+						"minecraft:entity_type": "minecraft:pillager"
 					}
 				}]
 			}

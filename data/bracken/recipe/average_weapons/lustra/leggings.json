@@ -10,7 +10,7 @@
 			"minecraft:enchantment_glint_override": true,
 			"minecraft:item_name": "Lustra Leggings",
 			"minecraft:enchantments": {
-				"bracken:integrity": 1
+				"bracken:boon/integrity": 1
 			},
 			"minecraft:equippable": {
 				"slot": "legs",

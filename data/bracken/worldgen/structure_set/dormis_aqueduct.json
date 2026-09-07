@@ -1,0 +1,15 @@
+{
+    "structures": [
+        
+        {
+            "structure": "bracken:dormis_aqueduct",
+            "weight": 2
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 18,
+        "separation": 16,
+        "salt": 167586972
+    }
+}

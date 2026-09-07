@@ -36,14 +36,26 @@
         "ambient": [],
         "misc": [],
         "water_creature": [],
-        "creature": [],
-        "monster": [
-          {
+        "creature": [{
             "type": "minecraft:shulker",
             "maxCount": 2,
             "minCount": 1,
             "weight": 5
+          }],
+        "monster": [{
+            "type": "minecraft:zombified_piglin",
+            "maxCount": 2,
+            "minCount": 1,
+            "weight": 15
+          },
+          {
+            "type": "minecraft:cave_spider",
+            "maxCount": 2,
+            "minCount": 1,
+            "weight": 15
           }
+
+          
         ]
     },
     "spawn_costs": {},
