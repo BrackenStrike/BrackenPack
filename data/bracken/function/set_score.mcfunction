@@ -9,9 +9,7 @@ scoreboard players set @s bp.wtb_cooldown 0
 scoreboard players set @s bp.cooldown 0
 
 #Species Pick
-loot give @s loot bracken:item/species_beginner_scroll
-
-
+execute if data storage bracken:config {species_on: true, bsb_on: true} run loot give @s loot bracken:item/species_beginner_scroll
 execute if data storage bracken:config {species_on: true, bsb_on: true} run function bracken:player/arbitrium/enable_
 
 function bracken:player/set_player_id
