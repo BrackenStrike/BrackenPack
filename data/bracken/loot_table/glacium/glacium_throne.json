@@ -37,7 +37,7 @@
 				"function": "set_damage",
 				"damage": {
 					"min": 0,
-					"max": 0.8
+					"max": 0.48
 				}
 			}]
 		},{
@@ -46,13 +46,6 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
-			}],
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.8
-				}
 			}]
 		},{
 			"type": "minecraft:item",

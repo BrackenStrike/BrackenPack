@@ -21,7 +21,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron/sabre",
+			"value": "bracken:item/average_weapons/cryolith/sabre",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
@@ -30,7 +30,7 @@
 				"function": "set_damage",
 				"damage": {
 					"min": 0,
-					"max": 0.8
+					"max": 0.5
 				}
 			}]
 		},{

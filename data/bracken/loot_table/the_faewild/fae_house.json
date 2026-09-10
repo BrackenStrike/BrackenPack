@@ -15,6 +15,14 @@
 				"condition": "minecraft:random_chance",
 				"chance": 0.8
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/weapon_templates/rapier_weapon_template",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/metal_apples/bejeweled_apple",

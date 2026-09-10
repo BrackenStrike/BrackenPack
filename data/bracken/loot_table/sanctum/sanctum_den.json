@@ -52,22 +52,15 @@
 				"function": "set_damage",
 				"damage": {
 					"min": 0,
-					"max": 0.8
+					"max": 0.5
 				}
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/weapon_templates/sabre_weapon_template",
+			"value": "bracken:item/weapon_templates/dagger_weapon_template",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
-			}],
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.8
-				}
 			}]
 		},{
 			"type": "loot_table",

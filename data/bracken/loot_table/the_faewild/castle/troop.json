@@ -91,6 +91,14 @@
 					"max": 0.93
 				}
 			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/weapon_templates/rapier_weapon_template",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.05
+			}]
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:poppy",

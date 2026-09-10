@@ -73,7 +73,30 @@
 			"value": "bracken:item/the_brine/lustra_pearl",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
+				"chance": 0.06
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/weapon_templates/cutlass_weapon_template",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
 				"chance": 0.04
+			}]
+			
+		},{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/lustra/cutlass",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.04
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.5
+				}
 			}]
 		},
 		

@@ -18,14 +18,7 @@
 			"value": "bracken:item/weapon_templates/rapier_weapon_template",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.02
-			}],
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.8
-				}
+				"chance": 0.05
 			}]
 		},
 {

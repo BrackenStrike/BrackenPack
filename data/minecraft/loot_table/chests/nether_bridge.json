@@ -18,7 +18,7 @@
         },{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/golden/bludgeon",
-			"weight": 1,
+			"weight": 4,
 			"functions": [{
 				"function": "set_damage",
 				"damage": {
@@ -31,14 +31,7 @@
 {
 			"type": "loot_table",
 			"value": "bracken:item/weapon_templates/bludgeon_weapon_template",
-			"weight": 1,
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.8
-				}
-			}]
+			"weight": 4
 		},
         {
           "type": "minecraft:item",
