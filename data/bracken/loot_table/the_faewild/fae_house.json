@@ -54,13 +54,6 @@
 			}]
 		},{
 			"type": "minecraft:item",
-			"name": "minecraft:copper_axe",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.8
-			}]
-		},{
-			"type": "minecraft:item",
 			"name": "minecraft:cookie",
 			"conditions": [{
 				"condition": "minecraft:random_chance",

@@ -35,49 +35,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron/short_spear",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.8
-				}
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron/rapier",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.8
-				}
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron/buckler",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.8
-				}
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron/dagger",
+			"value": "bracken:item/average_weapons/copper/rapier",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1

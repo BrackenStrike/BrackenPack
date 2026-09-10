@@ -93,10 +93,10 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra/sickle",
+			"value": "bracken:item/weapon_templates/cutlass_weapon_template",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.01
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "set_damage",
@@ -114,7 +114,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/lustra/sabre",
+			"value": "bracken:item/average_weapons/lustra/cutlass",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.01

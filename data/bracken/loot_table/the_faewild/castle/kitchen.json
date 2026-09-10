@@ -13,20 +13,6 @@
 				"chance": 0.8
 			}]
 		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/copper/dagger",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.2
-			}],
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.8
-				}
-			}]
-		},{
 			"type": "minecraft:item",
 			"name": "minecraft:copper_axe",
 			"conditions": [{

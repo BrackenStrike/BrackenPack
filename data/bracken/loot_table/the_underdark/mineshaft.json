@@ -42,6 +42,38 @@
 				}
 			}]
 		},
+		
+{
+			"type": "loot_table",
+			"value": "bracken:item/weapon_templates/warhammer_weapon_template",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.02
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
+			}]
+		},
+		{
+			"type": "loot_table",
+			"value": "bracken:item/average_weapons/silversteel/warhammer",
+			"conditions": [{
+				"condition": "minecraft:random_chance",
+				"chance": 0.01
+			}],
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.28
+				}
+			}]
+		},
+
 		{
 			"type": "loot_table",
 			"value": "bracken:item/articles/bandana",

@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:wither_skeleton_spawn_egg"
+			"name": "minecraft:dune_armor_trim_smithing_template"
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",

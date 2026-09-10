@@ -93,7 +93,7 @@
 		},
 		{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/copper/short_spear",
+			"value": "bracken:item/average_weapons/verdant/staff",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.05

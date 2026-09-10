@@ -59,12 +59,13 @@
 				"add": false
 			}]
 		},
-		{
+		
+{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/copper/dagger",
+			"value": "bracken:item/weapon_templates/rapier_weapon_template",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.2
+				"chance": 0.02
 			}],
 			"functions": [{
 				"function": "set_damage",
@@ -73,7 +74,8 @@
 					"max": 0.8
 				}
 			}]
-		},{
+		},
+{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/copper/rapier",
 			"conditions": [{

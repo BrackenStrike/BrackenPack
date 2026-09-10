@@ -35,7 +35,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron/bludgeon",
+			"value": "bracken:item/weapon_templates/sabre_weapon_template",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02

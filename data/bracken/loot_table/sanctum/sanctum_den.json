@@ -43,7 +43,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite/warhammer",
+			"value": "bracken:item/average_weapons/netherite/dagger",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.2
@@ -57,24 +57,17 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/ability_books/travel_call",
+			"value": "bracken:item/weapon_templates/sabre_weapon_template",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
-			}]
-		},{
-			"type": "minecraft:item",
-			"name": "minecraft:wayfinder_armor_trim_smithing_template",
-			"functions": [{
-				"function": "minecraft:set_count",
-				"count": {
-					"min": 1,
-					"max": 5
-				}
 			}],
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
+			"functions": [{
+				"function": "set_damage",
+				"damage": {
+					"min": 0,
+					"max": 0.8
+				}
 			}]
 		},{
 			"type": "loot_table",
@@ -86,20 +79,6 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:raiser_armor_trim_smithing_template",
-			"functions": [{
-				"function": "minecraft:set_count",
-				"count": {
-					"min": 1,
-					"max": 5
-				}
-			}],
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}]
-		},{
-			"type": "minecraft:item",
-			"name": "minecraft:rib_armor_trim_smithing_template",
 			"functions": [{
 				"function": "minecraft:set_count",
 				"count": {
@@ -149,13 +128,6 @@
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
-			}]
-		},{
-			"type": "minecraft:item",
-			"name": "minecraft:netherite_scrap",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.2
 			}]
 		},{
 			"type": "minecraft:item",

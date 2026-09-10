@@ -47,7 +47,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite/warhammer",
+			"value": "bracken:item/average_weapons/netherite/dagger",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1
@@ -61,24 +61,10 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite/bludgeon",
+			"value": "bracken:item/weapon_templates/dagger_weapon_template",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.8
-				}
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite/buckler",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
+				"chance": 0.2
 			}],
 			"functions": [{
 				"function": "set_damage",
@@ -111,20 +97,6 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:netherite_boots",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.8
-				}
-			}]
-		},{
-			"type": "minecraft:item",
-			"name": "minecraft:netherite_sword",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.1

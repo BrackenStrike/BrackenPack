@@ -1,0 +1,14 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"items": [
+					"minecraft:spider_eye"
+				],
+				"predicates": { "minecraft:custom_data": "{bp:{id:\"unruly_compass\"}}" }
+			}
+		}
+	}
+}

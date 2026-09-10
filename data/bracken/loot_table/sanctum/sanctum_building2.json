@@ -42,15 +42,8 @@
 				"chance": 0.1
 			}]
 		},{
-			"type": "minecraft:item",
-			"name": "minecraft:netherite_scrap",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.1
-			}]
-		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite/warhammer",
+			"value": "bracken:item/average_weapons/netherite/dagger",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
@@ -64,21 +57,7 @@
 			}]
 		},{
 			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite/bludgeon",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
-				"chance": 0.02
-			}],
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.8
-				}
-			}]
-		},{
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/netherite/buckler",
+			"value": "bracken:item/weapon_templates/dagger_weapon_template",
 			"conditions": [{
 				"condition": "minecraft:random_chance",
 				"chance": 0.02
