@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:wayfinder_armor_trim_smithing_template",
+	"template": "minecraft:witch_spawn_egg",
 	"base": "minecraft:netherite_sword",
 	"addition": "minecraft:wolf_spawn_egg",
 	"result": {

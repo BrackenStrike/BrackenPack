@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:vex_armor_trim_smithing_template",
+	"template": "minecraft:zombie_villager_spawn_egg",
 	"base": "minecraft:golden_sword",
 	"addition": "minecraft:sheep_spawn_egg",
 	"result": {

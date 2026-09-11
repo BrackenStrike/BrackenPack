@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:sentry_armor_trim_smithing_template",
+	"template": "minecraft:zombified_piglin_spawn_egg",
 	"base": "minecraft:wooden_sword",
 	"addition": "minecraft:creeper_spawn_egg",
 	"result": {

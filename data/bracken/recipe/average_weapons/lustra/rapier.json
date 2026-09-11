@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:raiser_armor_trim_smithing_template",
+	"template": "minecraft:warden_spawn_egg",
 	"base": "minecraft:golden_sword",
 	"addition": "minecraft:sheep_spawn_egg",
 	"result": {

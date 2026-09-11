@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:coast_armor_trim_smithing_template",
+	"template": "minecraft:zoglin_spawn_egg",
 	"base": "minecraft:iron_sword",
 	"addition": "minecraft:polar_bear_spawn_egg",
 	"result": {

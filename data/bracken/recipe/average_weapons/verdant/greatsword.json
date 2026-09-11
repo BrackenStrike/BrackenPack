@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:dune_armor_trim_smithing_template",
+	"template": "minecraft:wither_skeleton_spawn_egg",
 	"base": "minecraft:wooden_sword",
 	"addition": "minecraft:creeper_spawn_egg",
 	"result": {

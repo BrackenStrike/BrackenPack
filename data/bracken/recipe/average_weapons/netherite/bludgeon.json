@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:sentry_armor_trim_smithing_template",
+	"template": "minecraft:zombified_piglin_spawn_egg",
 	"base": "minecraft:netherite_sword",
 	"addition": "minecraft:netherite_ingot",
 	"result": {

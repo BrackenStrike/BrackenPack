@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:smithing_transform",
-	"template": "minecraft:shaper_armor_trim_smithing_template",
+	"template": "minecraft:wandering_trader_spawn_egg",
 	"base": "minecraft:netherite_sword",
 	"addition": "minecraft:netherite_ingot",
 	"result": {

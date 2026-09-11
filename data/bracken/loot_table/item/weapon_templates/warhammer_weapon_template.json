@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:ward_armor_trim_smithing_template"
+			"name": "minecraft:villager_spawn_egg"
 		}],
 		"functions": [{
 			"function": "minecraft:set_name",
@@ -12,7 +12,10 @@
 		},{
 			"function": "minecraft:set_components",
 			"components": {
-				"minecraft:item_model": "bracken:weapon_templates/warhammer"
+				"minecraft:item_model": "bracken:weapon_templates/warhammer",
+				"minecraft:entity_data": {
+					"id": "minecraft:player"
+				}
 			}
 		}]
 	}]
