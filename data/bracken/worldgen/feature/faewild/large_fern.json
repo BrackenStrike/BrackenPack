@@ -5,7 +5,7 @@
             "state": {
                 "Name": "minecraft:large_fern"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         }
     }
 }

@@ -5,7 +5,7 @@
             "type": "minecraft:two_layers_feature_size"
         },
         "trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
                 "Properties": {
                     "half": "lower","facing": "south"
@@ -14,7 +14,7 @@
             }
         },
         "foliage_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
                 "Name": "minecraft:waxed_copper_door",
         "Properties": {
@@ -35,7 +35,7 @@
             "height": 0
         },
         "below_trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
                 "Name": "minecraft:cyan_stained_glass"
             }

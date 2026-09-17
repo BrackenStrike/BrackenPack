@@ -23,7 +23,7 @@
 			"effect": {
 				"type": "minecraft:replace_disk",
 				"block_state": {
-					"type": "minecraft:simple_state_provider",
+					"type": "minecraft:simple",
 					"state": {
 						"Name": "minecraft:fire"
 					}

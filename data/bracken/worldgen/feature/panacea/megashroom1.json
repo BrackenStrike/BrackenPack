@@ -5,13 +5,13 @@
             "type": "minecraft:two_layers_feature_size"
         },
         "trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
                 "Name": "minecraft:mushroom_stem"
             }
         },
         "foliage_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
                 "Name": "minecraft:red_mushroom_block"
             }
@@ -29,7 +29,7 @@
             "height": 6
         },
         "below_trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
                 "Name": "minecraft:mycelium"
             }

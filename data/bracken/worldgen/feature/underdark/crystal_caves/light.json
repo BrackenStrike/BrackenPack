@@ -14,7 +14,7 @@
                                     "level": "15"
                                 }
                             },
-                            "type": "minecraft:simple_state_provider"
+                            "type": "minecraft:simple"
                         }
                     }
                 },
@@ -64,7 +64,7 @@
                                     "level": "15"
                                 }
                             },
-                            "type": "minecraft:simple_state_provider"
+                            "type": "minecraft:simple"
                         }
                     }
                 },

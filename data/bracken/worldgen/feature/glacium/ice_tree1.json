@@ -12,7 +12,7 @@
             {
                 "type": "minecraft:alter_ground",
                 "provider": {
-                    "type": "minecraft:rule_based_state_provider",
+                    "type": "minecraft:rule_based",
                     "rules": [{
                         "if_true":{
                             "type": "minecraft:matching_blocks",
@@ -21,7 +21,7 @@
                             ]
                         },
                         "then": {
-                            "type": "minecraft:simple_state_provider",
+                            "type": "minecraft:simple",
                             "state": {
                                 "Properties": {
                                     "snowy": "true"
@@ -40,13 +40,13 @@
                 },
                 "Name": "minecraft:polished_basalt"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         },
         "foliage_provider": {
             "state": {
                 "Name": "minecraft:warped_wart_block"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         },
         "foliage_placer": {
             "radius": 0,
@@ -64,7 +64,7 @@
             "state": {
                 "Name": "minecraft:dirt"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         }
     }
 }

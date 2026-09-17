@@ -37,7 +37,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:air"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -46,7 +46,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:air"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -62,7 +62,7 @@
                                             "state": {
                                                 "Name": "minecraft:air"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -100,7 +100,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:oxidized_copper"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -112,7 +112,7 @@
                                                                     },
                                                                     "Name": "minecraft:redstone_lamp"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -128,7 +128,7 @@
                                             "state": {
                                                 "Name": "minecraft:oxidized_copper"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -193,7 +193,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:air"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -202,7 +202,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:cracked_polished_blackstone_bricks"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -218,7 +218,7 @@
                                             "state": {
                                                 "Name": "minecraft:air"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -256,7 +256,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:polished_deepslate"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -265,7 +265,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:cracked_polished_blackstone_bricks"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -281,7 +281,7 @@
                                             "state": {
                                                 "Name": "minecraft:cracked_polished_blackstone_bricks"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -346,7 +346,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:clay"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -355,7 +355,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:clay"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -371,7 +371,7 @@
                                             "state": {
                                                 "Name": "minecraft:clay"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -409,7 +409,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:nether_bricks"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -418,7 +418,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:cracked_deepslate_bricks"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -434,7 +434,7 @@
                                             "state": {
                                                 "Name": "minecraft:cracked_polished_blackstone_bricks"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -499,7 +499,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:clay"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -508,7 +508,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:cracked_polished_blackstone_bricks"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -524,7 +524,7 @@
                                             "state": {
                                                 "Name": "minecraft:cracked_polished_blackstone_bricks"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -562,7 +562,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:cracked_deepslate_tiles"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -571,7 +571,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:cracked_polished_blackstone_bricks"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -587,7 +587,7 @@
                                             "state": {
                                                 "Name": "minecraft:cracked_polished_blackstone_bricks"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"

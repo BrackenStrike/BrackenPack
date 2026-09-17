@@ -10,7 +10,7 @@
         "xz_radius": 1,
         "replaceable": "#minecraft:lush_ground_replaceable",
         "ground_state": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
                 "Name": "minecraft:podzol",
                 "Properties": {
@@ -37,7 +37,7 @@
                                     {
                                         "height": 1,
                                         "provider": {
-                                            "type": "minecraft:simple_state_provider",
+                                            "type": "minecraft:simple",
                                             "state": {
                                                 "Name": "minecraft:grass_block",
                                                 "Properties": {
@@ -49,7 +49,7 @@
                                     {
                                         "height": 1,
                                         "provider": {
-                                            "type": "minecraft:weighted_state_provider",
+                                            "type": "minecraft:weighted",
                                             "entries": [
                                                 {
                                                     "weight": 7,

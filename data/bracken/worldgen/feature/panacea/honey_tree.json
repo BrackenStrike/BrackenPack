@@ -16,7 +16,7 @@
             {
                 "type": "minecraft:alter_ground",
                 "provider": {
-                    "type": "minecraft:rule_based_state_provider",
+                    "type": "minecraft:rule_based",
                     "rules": [{
                         "if_true":{
                             "type": "minecraft:matching_blocks",
@@ -28,7 +28,7 @@
                             ]
                         },
                         "then": {
-                            "type": "minecraft:simple_state_provider",
+                            "type": "minecraft:simple",
                             "state": {
                                 "Name": "minecraft:honeycomb_block"
                             }
@@ -44,13 +44,13 @@
                 },
                 "Name": "minecraft:oak_log"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         },
         "foliage_provider": {
             "state": {
                 "Name": "minecraft:honey_block"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         },
         "foliage_placer": {
             "radius": 2,
@@ -68,7 +68,7 @@
             "state": {
                 "Name": "minecraft:dirt"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         }
     }
 }

@@ -10,7 +10,7 @@
                     }
                 }
             ],
-            "type": "minecraft:weighted_state_provider"
+            "type": "minecraft:weighted"
         }
     }
 }

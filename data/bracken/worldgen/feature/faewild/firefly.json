@@ -5,7 +5,7 @@
             "state": {
                 "Name": "minecraft:firefly_bush"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         }
     }
 }

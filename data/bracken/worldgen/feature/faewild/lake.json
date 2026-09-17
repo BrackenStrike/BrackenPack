@@ -18,7 +18,7 @@
 			}
 		},
         "fluid": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
                 "Properties": {
                     "level": "0"
@@ -27,7 +27,7 @@
             }
         },
         "barrier": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
                 "Name": "minecraft:stone"
             }

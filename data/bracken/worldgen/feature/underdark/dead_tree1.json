@@ -2,7 +2,7 @@
   "type": "minecraft:tree",
   "config": {
     "below_trunk_provider": {
-      "type": "minecraft:rule_based_state_provider",
+      "type": "minecraft:rule_based",
       "rules": [
         {
           "if_true": {
@@ -13,7 +13,7 @@
             }
           },
           "then": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
               "Name": "minecraft:dirt"
             }
@@ -25,7 +25,7 @@
       {
         "type": "minecraft:alter_ground",
         "provider": {
-          "type": "minecraft:rule_based_state_provider",
+          "type": "minecraft:rule_based",
           "rules": [
             {
               "if_true": {
@@ -33,7 +33,7 @@
                 "tag": "minecraft:beneath_tree_podzol_replaceable"
               },
               "then": {
-                "type": "minecraft:simple_state_provider",
+                "type": "minecraft:simple",
                 "state": {
                   "Name": "minecraft:infested_stone"
                 }
@@ -54,7 +54,7 @@
       "radius": 0
     },
     "foliage_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
         "Name": "minecraft:tuff"
       }
@@ -72,7 +72,7 @@
       "height_rand_b": 14
     },
     "trunk_provider": {
-      "type": "minecraft:simple_state_provider",
+      "type": "minecraft:simple",
       "state": {
         "Name": "minecraft:polished_basalt",
         "Properties": {

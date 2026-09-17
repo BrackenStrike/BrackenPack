@@ -16,7 +16,7 @@
                 },
                 "Name": "minecraft:oak_log"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         },
         "foliage_provider": {
             "state": {
@@ -26,7 +26,7 @@
                 },
                 "Name": "minecraft:oak_leaves"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         },
         "foliage_placer": {
             "radius": 2,
@@ -44,7 +44,7 @@
             "state": {
                 "Name": "minecraft:dirt"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         }
     }
 }

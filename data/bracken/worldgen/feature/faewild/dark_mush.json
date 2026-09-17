@@ -24,13 +24,13 @@
                 },
                 "Name": "minecraft:dark_oak_log"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         },
         "foliage_provider": {
             "state": {
                 "Name": "minecraft:air"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         },
         "foliage_placer": {
             "radius": 1,
@@ -48,7 +48,7 @@
             "state": {
                 "Name": "minecraft:dirt"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         }
     }
 }

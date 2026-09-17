@@ -4,7 +4,7 @@
             "state": {
                 "Name": "minecraft:melon"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         }
     },
     "type": "minecraft:block_pile"

@@ -20,13 +20,13 @@
             "state": {
                 "Name": "minecraft:powder_snow"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         },
         "barrier": {
             "state": {
                 "Name": "minecraft:powder_snow"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         }
     },
     "type": "minecraft:lake"

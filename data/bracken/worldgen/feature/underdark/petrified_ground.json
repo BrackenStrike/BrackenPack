@@ -9,7 +9,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Name": "minecraft:dead_bush"
                                 }
@@ -63,7 +63,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Properties": {
                                         "waterlogged": "false",
@@ -126,7 +126,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Name": "minecraft:brown_mushroom"
                                 }
@@ -180,7 +180,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Properties": {
                                         "waterlogged": "false"
@@ -237,7 +237,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Properties": {
                                         "waterlogged": "false"
@@ -282,7 +282,7 @@
                 "type": "minecraft:simple_block",
                 "config": {
                     "to_place": {
-                        "type": "minecraft:simple_state_provider",
+                        "type": "minecraft:simple",
                         "state": {
                             "Properties": {
                                 "waterlogged": "false"

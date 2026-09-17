@@ -13,7 +13,7 @@
             "state": {
                 "Name": "minecraft:tuff"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         },
         "foliage_placer": {
             "radius": 2,
@@ -28,7 +28,7 @@
                 
                 "Name": "minecraft:polished_basalt"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         },
         "trunk_placer": {
             "base_height": 5,
@@ -40,7 +40,7 @@
             "state": {
                 "Name": "minecraft:infested_stone"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         }
     }
 }

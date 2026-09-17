@@ -45,7 +45,7 @@
                                                                     },
                                                                     "Name": "minecraft:mushroom_stem"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -55,7 +55,7 @@
                                                                     
                                                                     "Name": "minecraft:mushroom_stem"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -79,7 +79,7 @@
                                                 },
                                                 "Name": "minecraft:mushroom_stem"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -117,7 +117,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:mushroom_stem"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -126,7 +126,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:mushroom_stem"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -142,7 +142,7 @@
                                             "state": {
                                                 "Name": "minecraft:mushroom_stem"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -215,7 +215,7 @@
                                                                     },
                                                                     "Name": "minecraft:mushroom_stem"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -232,7 +232,7 @@
                                                                     },
                                                                     "Name": "minecraft:mushroom_stem"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -256,7 +256,7 @@
                                                 },
                                                 "Name": "minecraft:mushroom_stem"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -294,7 +294,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:mushroom_stem"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -303,7 +303,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:red_mushroom_block"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -319,7 +319,7 @@
                                             "state": {
                                                 "Name": "minecraft:mushroom_stem"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -392,7 +392,7 @@
                                                                     },
                                                                     "Name": "minecraft:mushroom_stem"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -402,7 +402,7 @@
                                                                     
                                                                     "Name": "minecraft:mushroom_stem"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -426,7 +426,7 @@
                                                 },
                                                 "Name": "minecraft:mushroom_stem"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -464,7 +464,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:air"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -473,7 +473,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:air"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -489,7 +489,7 @@
                                             "state": {
                                                 "Name": "minecraft:mycelium"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -554,7 +554,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:air"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -563,7 +563,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:air"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -579,7 +579,7 @@
                                             "state": {
                                                 "Name": "minecraft:deepslate"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"
@@ -617,7 +617,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:air"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         },
                                                         {
@@ -626,7 +626,7 @@
                                                                 "state": {
                                                                     "Name": "minecraft:air"
                                                                 },
-                                                                "type": "minecraft:simple_state_provider"
+                                                                "type": "minecraft:simple"
                                                             }
                                                         }
                                                     ]
@@ -642,7 +642,7 @@
                                             "state": {
                                                 "Name": "minecraft:mushroom_stem"
                                             },
-                                            "type": "minecraft:simple_state_provider"
+                                            "type": "minecraft:simple"
                                         }
                                     },
                                     "type": "minecraft:vegetation_patch"

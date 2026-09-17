@@ -5,13 +5,13 @@
             "type": "minecraft:two_layers_feature_size"
         },
         "trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
                 "Name": "minecraft:oxidized_copper_grate"
             }
         },
         "foliage_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
                 "Name": "minecraft:white_stained_glass"
             }
@@ -37,7 +37,7 @@
             "leaf_placement_attempts": 0
         },
         "below_trunk_provider": {
-            "type": "minecraft:simple_state_provider",
+            "type": "minecraft:simple",
             "state": {
                 "Name": "minecraft:nether_bricks"
             }

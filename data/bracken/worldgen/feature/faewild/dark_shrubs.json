@@ -9,7 +9,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Name": "minecraft:wither_rose"
                                 }
@@ -63,7 +63,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Name": "minecraft:cobweb"
                                 }
@@ -117,7 +117,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Name": "minecraft:mangrove_roots"
                                 }
@@ -170,7 +170,7 @@
                 "type": "minecraft:simple_block",
                 "config": {
                     "to_place": {
-                        "type": "minecraft:simple_state_provider",
+                        "type": "minecraft:simple",
                         "state": {
                             "Properties": {
                                 "waterlogged": "false"

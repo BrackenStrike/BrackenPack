@@ -9,7 +9,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Properties": {
                                         "waterlogged": "false"
@@ -66,7 +66,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Properties": {
                                         "axis": "y"
@@ -123,7 +123,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Properties": {
                                         "waterlogged": "false"
@@ -180,7 +180,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Properties": {
                                         "waterlogged": "false"
@@ -225,7 +225,7 @@
                 "type": "minecraft:simple_block",
                 "config": {
                     "to_place": {
-                        "type": "minecraft:simple_state_provider",
+                        "type": "minecraft:simple",
                         "state": {
                             "Properties": {
                                 "waterlogged": "false"

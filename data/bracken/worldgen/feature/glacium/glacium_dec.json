@@ -9,7 +9,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Name": "minecraft:ice"
                                 }
@@ -63,7 +63,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Name": "minecraft:twisting_vines_plant"
                                 }
@@ -117,7 +117,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Name": "minecraft:warped_roots"
                                 }
@@ -171,7 +171,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Properties": {
                                         "waterlogged": "false",
@@ -229,7 +229,7 @@
                         "type": "minecraft:simple_block",
                         "config": {
                             "to_place": {
-                                "type": "minecraft:simple_state_provider",
+                                "type": "minecraft:simple",
                                 "state": {
                                     "Name": "minecraft:moss_carpet"
                                 }
@@ -271,7 +271,7 @@
                 "type": "minecraft:simple_block",
                 "config": {
                     "to_place": {
-                        "type": "minecraft:simple_state_provider",
+                        "type": "minecraft:simple",
                         "state": {
                             "Name": "minecraft:nether_sprouts"
                         }

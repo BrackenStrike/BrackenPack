@@ -16,13 +16,13 @@
                 },
                 "Name": "minecraft:white_concrete"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         },
         "foliage_provider": {
             "state": {
                 "Name": "minecraft:glowstone"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         },
         "foliage_placer": {
             "radius": 1,
@@ -40,7 +40,7 @@
             "state": {
                 "Name": "minecraft:red_sand"
             },
-            "type": "minecraft:simple_state_provider"
+            "type": "minecraft:simple"
         }
     }
 }
