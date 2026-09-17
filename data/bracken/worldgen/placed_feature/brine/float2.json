@@ -1,7 +1,6 @@
 {
     "feature": "bracken:brine/float2",
     "placement": [
-       
         {
             "type": "minecraft:count",
             "count": 1
@@ -11,13 +10,18 @@
             "count": 1
         },
         {
-            "type": "minecraft:random_offset",
-            "xz_spread": {
+            "type": "minecraft:offset",
+            "x": {
                 "type": "minecraft:uniform",
-                "min_inclusive": 0,
-                "max_inclusive": 16
+                "min": 0,
+                "max": 16
             },
-            "y_spread": 0
+            "y": 0,
+            "z": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 16
+            }
         },
         {
             "type": "minecraft:height_range",

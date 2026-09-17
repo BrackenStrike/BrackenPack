@@ -2,21 +2,27 @@
     "feature": "bracken:faewild/patch_roots",
     "placement": [
         {
-            "type": "count",
+            "type": "minecraft:count",
             "count": 96
         },
         {
-            "type": "random_offset",
-            "xz_spread": {
+            "type": "minecraft:offset",
+            "x": {
                 "type": "minecraft:trapezoid",
                 "min": -7,
                 "max": 7,
                 "plateau": 0
             },
-            "y_spread": {
+            "y": {
                 "type": "minecraft:trapezoid",
                 "min": -3,
                 "max": 3,
+                "plateau": 0
+            },
+            "z": {
+                "type": "minecraft:trapezoid",
+                "min": -7,
+                "max": 7,
                 "plateau": 0
             }
         },
