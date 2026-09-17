@@ -1,32 +1,29 @@
 {
-	"condition": "any_of",
-	"terms": [{
-		"condition": "all_of",
-		"terms": [{
-			"condition": "reference",
-			"name": "bracken:dimensions/pax"
-		},{
-			"condition": "reference",
-			"name": "bracken:in_water"
-		}]
-	},{
-		"condition": "entity_scores",
-		"entity": "this",
-		"scores": { "bp.hunter_morph": 19 }
-	},{
-		"condition": "entity_properties",
-		"entity": "this",
-		"predicate": { "nbt": "{Tags:[\"bp.frostkin\"]}" }
-	},{
-		"condition": "reference",
-		"name": "bracken:item/glacium_glider"
-	},
-	{
-		"condition": "reference",
-		"name": "bracken:item/wither_rose"
-	},
-	{
-		"condition": "reference",
-		"name": "bracken:item/wither_wand"
-	}]
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:all_of",
+      "terms": [
+        "bracken:dimensions/pax",
+        "bracken:in_water"
+      ]
+    },
+    {
+      "type": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "bp.hunter_morph": 19
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"bp.frostkin\"]}"
+      }
+    },
+    "bracken:item/glacium_glider",
+    "bracken:item/wither_rose",
+    "bracken:item/wither_wand"
+  ]
 }

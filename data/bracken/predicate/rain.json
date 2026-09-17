@@ -1,10 +1,13 @@
-[{
-	"condition": "minecraft:inverted",
-	"term": {
-		"condition": "minecraft:reference",
-		"name": "bracken:rainless_biomes"
-	}
-},{
-	"condition": "minecraft:weather_check",
-	"raining": true
-}]
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:inverted",
+      "term": "bracken:rainless_biomes"
+    },
+    {
+      "type": "minecraft:weather_check",
+      "raining": true
+    }
+  ]
+}

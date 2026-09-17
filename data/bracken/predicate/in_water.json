@@ -1,12 +1,17 @@
-[{
-	"condition": "location_check",
-	"predicate": { "fluid": {
-		"fluids": "#minecraft:water"
-	}}
-},{
-	"condition": "minecraft:inverted",
-	"term": {
-		"condition": "minecraft:reference",
-		"name": "bracken:vehicle/any_boat"
-	}
-}]
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:location_check",
+      "predicate": {
+        "fluid": {
+          "fluids": "#minecraft:water"
+        }
+      }
+    },
+    {
+      "type": "minecraft:inverted",
+      "term": "bracken:vehicle/any_boat"
+    }
+  ]
+}

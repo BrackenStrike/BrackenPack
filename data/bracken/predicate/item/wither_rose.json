@@ -1,10 +1,7 @@
 {
-	"condition": "any_of",
-	"terms": [{
-		"condition": "reference",
-		"name": "bracken:item/wither_rose_mainhand"
-	},{
-		"condition": "reference",
-		"name": "bracken:item/wither_rose_offhand"
-	}]
+	"type": "any_of",
+	"terms": [
+		"bracken:item/wither_rose_mainhand",
+		"bracken:item/wither_rose_offhand"
+	]
 }

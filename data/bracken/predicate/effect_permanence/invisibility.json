@@ -1,10 +1,10 @@
-[{
-	"condition": "inverted",
-	"term": {
-		"condition": "reference",
-		"name": "bracken:effect_immunity/invisibility"
-	}
-},{
-	"condition": "reference",
-	"name": "bracken:dimensions/sanctum"
-}]
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:inverted",
+      "term": "bracken:effect_immunity/invisibility"
+    },
+    "bracken:dimensions/sanctum"
+  ]
+}

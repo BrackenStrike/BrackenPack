@@ -1,17 +1,8 @@
-
-
 {
-	"condition": "any_of",
-	"terms": [{
-		"condition": "reference",
-		"name": "bracken:item/tinted_glasses"
-	},{
-		"condition": "reference",
-		"name": "bracken:item/open_eyeblossom"
-	},
-	{
-		"condition": "reference",
-		"name": "bracken:item/open_eyeblossom_wand"
-	}]
+  "type": "minecraft:any_of",
+  "terms": [
+    "bracken:item/tinted_glasses",
+    "bracken:item/open_eyeblossom",
+    "bracken:item/open_eyeblossom_wand"
+  ]
 }
-

@@ -1,10 +1,7 @@
 {
-	"condition": "any_of",
-	"terms": [{
-		"condition": "reference",
-		"name": "bracken:item/torchflower_mainhand"
-	},{
-		"condition": "reference",
-		"name": "bracken:item/torchflower_offhand"
-	}]
+	"type": "any_of",
+	"terms": [
+		"bracken:item/torchflower_mainhand",
+		"bracken:item/torchflower_offhand"
+	]
 }

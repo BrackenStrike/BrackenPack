@@ -1,19 +1,18 @@
 {
-	"condition": "any_of",
+	"type": "any_of",
 	"terms": [{
-		"condition": "entity_properties",
+		"type": "entity_properties",
 		"entity": "this",
 		"predicate": { "nbt": "{Tags:[\"bp.dweller\"]}" }
 	},{
-		"condition": "entity_properties",
+		"type": "entity_properties",
 		"entity": "this",
 		"predicate": { "nbt": "{Tags:[\"bp.nereid\"]}" }
 	},{
-		"condition": "entity_properties",
+		"type": "entity_properties",
 		"entity": "this",
 		"predicate": { "nbt": "{Tags:[\"bp.netherkin\"]}" }
-	},{
-		"condition": "reference",
-		"name": "bracken:item/night_vision_goggles"
-	}]
+	},
+	"bracken:item/night_vision_goggles"
+	]
 }

@@ -1,11 +1,8 @@
 
 {
-	"condition": "any_of",
-	"terms": [{
-		"condition": "reference",
-		"name": "bracken:item/torchflower_wand"
-	},{
-		"condition": "reference",
-		"name": "bracken:item/torchflower"
-	}]
+	"type": "any_of",
+	"terms": [
+		"bracken:item/torchflower_wand",
+		"bracken:item/torchflower"
+	]
 }

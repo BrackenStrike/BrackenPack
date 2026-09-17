@@ -1,14 +1,13 @@
 {
-	"condition": "any_of",
+	"type": "any_of",
 	"terms": [{
-		"condition": "entity_scores",
+		"type": "entity_scores",
 		"entity": "this",
 		"scores": { "bp.hunter_morph": 6 }
-	},{
-		"condition": "reference",
-		"name": "bracken:dimensions/pax"
-	},{
-		"condition": "entity_properties",
+	},
+	"bracken:dimensions/pax",
+	{
+		"type": "entity_properties",
 		"entity": "this",
 		"predicate": { "nbt": "{Tags:[\"bp.frostkin\"]}" }
 	}]

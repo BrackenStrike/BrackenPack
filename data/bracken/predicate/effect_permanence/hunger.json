@@ -1,17 +1,22 @@
-[{
-	"condition": "inverted",
-	"term": {
-		"condition": "reference",
-		"name": "bracken:effect_immunity/hunger"
-	}
-},{
-	"condition": "any_of",
-	"terms": [{
-		"condition": "reference",
-		"name": "bracken:dimensions/panacea"
-	},{
-		"condition": "entity_properties",
-		"entity": "this",
-		"predicate": { "nbt": "{Tags:[\"bp.hunter\"]}" }
-	}]
-}]
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:inverted",
+      "term": "bracken:effect_immunity/hunger"
+    },
+    {
+      "type": "minecraft:any_of",
+      "terms": [
+        "bracken:dimensions/panacea",
+        {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"bp.hunter\"]}"
+          }
+        }
+      ]
+    }
+  ]
+}
