@@ -2,6 +2,7 @@
 	"type": "minecraft:chest",
 	"pools": [{
 		"rolls": {
+			"type": "uniform",
 			"min": 5,
 			"max": 20
 		},
@@ -55,6 +56,7 @@
 			"functions": [{
 				"function": "set_damage",
 				"damage": {
+					"type": "uniform",
 					"min": 0,
 					"max": 0.6
 				}
@@ -83,6 +85,7 @@
 			"functions": [{
 				"function": "set_damage",
 				"damage": {
+					"type": "uniform",
 					"min": 0,
 					"max": 0.8
 				}
@@ -97,6 +100,7 @@
 			"functions": [{
 				"function": "set_damage",
 				"damage": {
+					"type": "uniform",
 					"min": 0,
 					"max": 0.8
 				}
@@ -107,6 +111,7 @@
 			"functions": [{
 				"function": "minecraft:set_count",
 				"count": {
+					"type": "uniform",
 					"min": 1,
 					"max": 5
 				}
@@ -121,6 +126,7 @@
 			"functions": [{
 				"function": "minecraft:set_count",
 				"count": {
+					"type": "uniform",
 					"min": 1,
 					"max": 15
 				}
@@ -135,6 +141,7 @@
 			"functions": [{
 				"function": "minecraft:set_count",
 				"count": {
+					"type": "uniform",
 					"min": 1,
 					"max": 15
 				}
@@ -149,6 +156,7 @@
 			"functions": [{
 				"function": "minecraft:set_count",
 				"count": {
+					"type": "uniform",
 					"min": 1,
 					"max": 15
 				}
@@ -170,6 +178,7 @@
 			"functions": [{
 				"function": "minecraft:set_count",
 				"count": {
+					"type": "uniform",
 					"min": 1,
 					"max": 15
 				}
@@ -191,6 +200,7 @@
 			"functions": [{
 				"function": "minecraft:set_count",
 				"count": {
+					"type": "uniform",
 					"min": 1,
 					"max": 15
 				}
@@ -219,6 +229,7 @@
 			"functions": [{
 				"function": "minecraft:set_count",
 				"count": {
+					"type": "uniform",
 					"min": 1,
 					"max": 15
 				}

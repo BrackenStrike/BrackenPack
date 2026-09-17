@@ -9,14 +9,16 @@
                     "functions": [{
                         "function": "set_count",
                         "count": {
-                            "min": 5,
+                            "type": "uniform",
+				        	"min": 5,
                             "max": 6
                         }
                     },{
                         "function": "enchanted_count_increase",
                         "count": {
                             "max": 1,
-                            "min": 5
+                            "type": "uniform",
+				        	"min": 5
                         },
                         "enchantment": "minecraft:looting"
                     }]
@@ -47,14 +49,16 @@
                     "functions": [{
                         "function": "set_count",
                         "count": {
-                            "min": 5,
+                            "type": "uniform",
+			        		"min": 5,
                             "max": 8
                         }
                     },{
                         "function": "enchanted_count_increase",
                         "count": {
                             "max": 2,
-                            "min": 1
+                            "type": "uniform",
+			        		"min": 1
                         },
                         "enchantment": "minecraft:looting"
                     }]

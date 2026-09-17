@@ -10,6 +10,7 @@
 						{
 							"function": "set_count",
 							"count": {
+								"type": "uniform",
 								"min": 0,
 								"max": 2
 							}
@@ -18,6 +19,7 @@
 							"function": "enchanted_count_increase",
 							"count": {
 								"max": 3,
+								"type": "uniform",
 								"min": 1
 							},
 							"enchantment": "minecraft:looting"

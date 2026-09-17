@@ -19,6 +19,7 @@
 		}]
 	},{
 		"rolls": {
+			"type": "uniform",
 			"min": 20,
 			"max": 30
 		},

@@ -10,8 +10,9 @@
             {
               "function": "set_damage", 
               "damage": {
-                "max": 0.5,
-                "min": 0.02
+                "type": "uniform",
+                "min": 0.02,
+                "max": 0.5
               }
             }
           ]

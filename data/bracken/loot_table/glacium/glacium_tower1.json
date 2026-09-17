@@ -2,6 +2,7 @@
 	"type": "minecraft:chest",
 	"pools": [{
 		"rolls": {
+			"type": "uniform",
 			"min": 7,
 			"max": 10
 		},
@@ -29,6 +30,7 @@
 			"functions": [{
 				"function": "set_damage",
 				"damage": {
+					"type": "uniform",
 					"min": 0,
 					"max": 0.5
 				}
@@ -43,6 +45,7 @@
 			"functions": [{
 				"function": "set_damage",
 				"damage": {
+					"type": "uniform",
 					"min": 0,
 					"max": 0.8
 				}

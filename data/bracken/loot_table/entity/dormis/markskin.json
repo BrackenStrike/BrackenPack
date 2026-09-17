@@ -19,7 +19,8 @@
 			"functions": [{
 				"function": "set_damage",
 				"damage": {
-					"min": 0,
+					"type": "uniform",
+                    "min": 0,
 					"max": 0.8
 				}
 			}]
@@ -38,6 +39,7 @@
                 "function": "set_count",
                 "count": {
                     "max": 3,
+                    "type": "uniform",
                     "min": 1
                 }
             },{

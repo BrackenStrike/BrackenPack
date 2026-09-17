@@ -8,6 +8,7 @@
 				"function": "minecraft:set_count",
 				"count": {
 					"max": 1.0,
+					"type": "uniform",
 					"min": 0.0
 				}
 			},{

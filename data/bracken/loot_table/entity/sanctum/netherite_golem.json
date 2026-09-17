@@ -2,7 +2,7 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -11,13 +11,15 @@
             "function": "minecraft:set_count",
             "count": {
               "max": 1.0,
-              "min": 0.0
+              "type": "uniform",
+			    		"min": 0.0
             }
           },{
             "function": "enchanted_count_increase",
             "count": {
               "max": 2.0,
-              "min": 1.0
+              "type": "uniform",
+				    	"min": 1.0
             },
             "enchantment": "looting",
             "limit": 10
@@ -26,7 +28,7 @@
       ]
     },
     {
-      "rolls": 1.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
@@ -35,7 +37,8 @@
             "function": "minecraft:set_count",
             "count": {
               "max": 2.0,
-              "min": 1.0
+              "type": "uniform",
+		    			"min": 1.0
             }
           },{
             "function": "enchanted_count_increase",
@@ -56,7 +59,7 @@
       ]
     },
     {
-      "rolls": 1.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",

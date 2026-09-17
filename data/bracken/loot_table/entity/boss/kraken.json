@@ -10,6 +10,7 @@
             {
               "function": "set_count",
               "count": {
+                "type": "uniform",
                 "min": 20,
                 "max": 60
               }
@@ -38,6 +39,7 @@
               "function": "set_count",
               "count": {
                 "max": 7,
+                "type": "uniform",
                 "min": 5
               }
             },

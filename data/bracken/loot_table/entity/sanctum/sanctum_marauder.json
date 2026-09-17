@@ -28,12 +28,14 @@
 				"function": "minecraft:set_count",
 				"count": {
 					"max": 1.0,
+					"type": "uniform",
 					"min": 0.0
 				}
 			},{
 				"function": "enchanted_count_increase",
 				"count": {
 					"max": 1.0,
+					"type": "uniform",
 					"min": 0.0
 				},
 				"enchantment": "looting",
@@ -42,6 +44,7 @@
 		}]
 	},{
 		"rolls": {
+			"type": "uniform",
 			"min": 0,
 			"max": 2
 		},
@@ -58,12 +61,14 @@
 				"function": "minecraft:set_count",
 				"count": {
 					"max": 2.0,
+					"type": "uniform",
 					"min": 0.0
 				}
 			},{
 				"function": "enchanted_count_increase",
 				"count": {
 					"max": 3.0,
+					"type": "uniform",
 					"min": 1.0
 				},
 				"enchantment": "looting",
