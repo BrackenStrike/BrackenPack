@@ -1,74 +1,84 @@
 {
-    "attributes": {
-        "minecraft:audio/background_music": {
-            "default": {
-                "max_delay": 24000,
-                "min_delay": 12000,
-                "replace_current_music": false,
-                "sound": {"sound_id": "bracken:glacium"}
-            }
-        },
-        "minecraft:audio/ambient_sounds": 
-        {
-            "mood": {
-                "sound": "minecraft:ambient.cave",
-                "tick_delay": 6000,
-                "block_search_extent": 8,
-                "offset": 2
-            },
-            "additions": {
-                "sound": "minecraft:ambient.crimson_forest.loop",
-                "tick_chance": 0.02
-            },
-            "loop": "minecraft:ambient.soul_sand_valley.loop"
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "replace_current_music": false,
+        "sound": {
+          "sound_id": "bracken:glacium"
         }
+      }
     },
-    "spawners": {
-        "water_ambient": [ {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "minecraft:ambient.crimson_forest.loop",
+        "tick_chance": 0.02
+      },
+      "loop": "minecraft:ambient.soul_sand_valley.loop"
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "spawns_by_category": {
+        "water_ambient": [
+          {
             "type": "minecraft:cod",
             "weight": 1,
-            "minCount": 1,
-            "maxCount": 3
-        }],
-        "ambient": [],
-        "misc": [],
-        "water_creature": [],
-        "creature": [],
-        "monster": [{
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 3
+            }
+          }
+        ],
+        "monster": [
+          {
             "type": "minecraft:breeze",
             "weight": 1,
-            "minCount": 1,
-            "maxCount": 1
-        },
-        {
+            "count": 1
+          },
+          {
             "type": "minecraft:blaze",
             "weight": 1,
-            "minCount": 1,
-            "maxCount": 1
-        }]
-    },
-    "spawn_costs": {},
-    "carvers": [
+            "count": 1
+          }
+        ]
+      },
+      "spawn_costs": {}
+    }
+  },
+  "carvers": [
     "minecraft:canyon"
   ],
-   
-    "features": [
-        [],
-        [],
-        [
-            "minecraft:iceberg_packed",
-            "minecraft:iceberg_blue"
-        ],
-        ["bracken:glacium/shards2"],
-        [
-            "minecraft:ice_patch",
-            "minecraft:blue_ice"
-        ],
-        [],
-        ["bracken:glacium/snow_pile"],
-        ["bracken:glacium/blue_platform"],
-        [],
-        ["minecraft:ore_tuff",
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:iceberg_packed",
+      "minecraft:iceberg_blue"
+    ],
+    [
+      "bracken:glacium/shards2"
+    ],
+    [
+      "minecraft:ice_patch",
+      "minecraft:blue_ice"
+    ],
+    [],
+    [
+      "bracken:glacium/snow_pile"
+    ],
+    [
+      "bracken:glacium/blue_platform"
+    ],
+    [],
+    [
+      "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -79,17 +89,18 @@
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:seagrass_cold",
-      "minecraft:kelp_cold"],
-        [
-            "minecraft:freeze_top_layer"
-        ]
+      "minecraft:kelp_cold"
     ],
-    "temperature": 0,
-    "downfall": 0.1,
-    "effects": {
-        "water_color": 4014691,
-        "grass_color": 42148,
-        "foliage_color": 42148
-    },
-    "has_precipitation": true
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0,
+  "downfall": 0.1,
+  "effects": {
+    "water_color": 4014691,
+    "grass_color": 42148,
+    "foliage_color": 42148
+  },
+  "has_precipitation": true
 }

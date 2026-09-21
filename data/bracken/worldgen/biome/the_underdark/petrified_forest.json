@@ -28,7 +28,7 @@
             "probability": 0.118093334
         }]
     },
-    "spawners": {
+    "spawns_by_category": {
         "water_ambient": [],
         "ambient": [
         ],

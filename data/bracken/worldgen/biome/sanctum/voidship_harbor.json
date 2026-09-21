@@ -1,20 +1,19 @@
 {
-    "spawners": {
-        "water_ambient": [
-            {
-                "type": "minecraft:tropical_fish",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            }
-        ],
-        "ambient": [],
-        "misc": [],
-        "water_creature": [],
-        "creature": [],
-        "monster": []
+    "attributes": {
+        "minecraft:visual/water_fog_color": "#5a0f2d",
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "water_ambient": [
+                    {
+                        "type": "minecraft:tropical_fish",
+                        "weight": 1,
+                        "count": 1
+                    }
+                ]
+            },
+            "spawn_costs": {}
+        }
     },
-    "spawn_costs": {},
     "carvers": [
         "minecraft:canyon"
     ],
@@ -50,9 +49,7 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "effects": {
-    "water_color": "#702c3d"},
-    "attributes": {
-        "minecraft:visual/water_fog_color": "#5a0f2d"
+        "water_color": "#702c3d"
     },
     "has_precipitation": false
 }

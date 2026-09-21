@@ -1,7 +1,6 @@
 {
     "attributes": {
-        "minecraft:audio/ambient_sounds": 
-        {
+        "minecraft:audio/ambient_sounds": {
             "mood": {
                 "sound": "minecraft:ambient.cave",
                 "tick_delay": 6000,
@@ -13,7 +12,7 @@
                 "tick_chance": 0.0002
             }
         },
-        "visual/ambient_particles": [
+        "minecraft:visual/ambient_particles": [
             {
                 "particle": {
                     "type": "minecraft:large_smoke"
@@ -21,23 +20,17 @@
                 "probability": 0.004428
             }
         ],
-        "visual/sky_color": 7254527,
-        "visual/fog_color": 0,
-        "visual/water_fog_color": 1179648
+        "minecraft:visual/sky_color": 7254527,
+        "minecraft:visual/fog_color": 0,
+        "minecraft:visual/water_fog_color": 1179648,
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {},
+            "spawn_costs": {}
+        }
     },
-    "spawners": {
-        "water_ambient": [],
-        "ambient": [],
-        "misc": [],
-        "water_creature": [],
-        "creature": []
-    },
-    "spawn_costs": {},
-   
     "carvers": [
-    "minecraft:canyon"
-  ],
-   
+        "minecraft:canyon"
+    ],
     "features": [
         [
             "minecraft:small_basalt_columns"

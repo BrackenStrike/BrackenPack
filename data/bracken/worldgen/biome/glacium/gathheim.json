@@ -1,55 +1,49 @@
 {
-    "attributes": {
-        "minecraft:audio/ambient_sounds": 
-        {
-            "mood": {
-                "sound": "minecraft:ambient.cave",
-                "tick_delay": 6000,
-                "block_search_extent": 8,
-                "offset": 2
-            },
-            "additions": {
-                "sound": "minecraft:ambient.crimson_forest.loop",
-                "tick_chance": 0.02
-            },
-            "loop": "minecraft:item.elytra.flying"
+  "attributes": {
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "minecraft:ambient.crimson_forest.loop",
+        "tick_chance": 0.02
+      },
+      "loop": "minecraft:item.elytra.flying"
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:snowflake"
         },
-        "visual/ambient_particles": [
-            {
-                "particle": {
-                    "type": "minecraft:snowflake"
-                },
-                "probability": 0.0428
-            }
-        ]
-    },
-    "spawners": {
-        "water_ambient": [],
-        "ambient": [],
-        "misc": [],
-        "water_creature": [],
-        "creature": [],
-        "monster": [ ]
-    },
-    "spawn_costs": {},
-    "carvers": [
+        "probability": 0.0428
+      }
+    ],
+    "minecraft:gameplay/natural_mob_spawns": {
+      "spawns_by_category": {},
+      "spawn_costs": {}
+    }
+  },
+  "carvers": [
     "minecraft:canyon"
   ],
-   
-    "features": [
-        [],
-        [],
-        [
-            "minecraft:iceberg_packed",
-            "minecraft:iceberg_blue"
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        ["minecraft:ore_tuff",
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:iceberg_packed",
+      "minecraft:iceberg_blue"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -58,17 +52,18 @@
       "minecraft:ore_diamond",
       "minecraft:ore_diamond_medium",
       "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried"],
-        [
-            "minecraft:freeze_top_layer"
-        ]
+      "minecraft:ore_diamond_buried"
     ],
-    "temperature": 0,
-    "downfall": 0.1,
-    "effects": {
-        "water_color": 4014691,
-        "grass_color": 5074010,
-        "foliage_color": 5074010
-    },
-    "has_precipitation": true
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0,
+  "downfall": 0.1,
+  "effects": {
+    "water_color": 4014691,
+    "grass_color": 5074010,
+    "foliage_color": 5074010
+  },
+  "has_precipitation": true
 }

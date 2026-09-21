@@ -1,100 +1,100 @@
 {
-    "attributes": {
-        "minecraft:audio/background_music": {
-            "default": {
-                "max_delay": 24000,
-                "min_delay": 12000,
-                "replace_current_music": false,
-                "sound": {"sound_id": "bracken:omnidrome"}
-            }
-        },
-        "minecraft:audio/ambient_sounds": 
-        {
-            "mood": {
-                "sound": "minecraft:block.respawn_anchor.ambient",
-                "tick_delay": 60000,
-                "block_search_extent": 8,
-                "offset": 2
-            },
-            "additions": {
-                "sound": "minecraft:block.beacon.ambient",
-                "tick_chance": 0.001
-            }
-        },
-        "visual/ambient_particles": [
-            {
-                "particle": 
-                {
-                    "type": "minecraft:enchant"
-                },
-                "probability": 0.00918093334
-            }
-        ]
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "replace_current_music": false,
+        "sound": {
+          "sound_id": "bracken:omnidrome"
+        }
+      }
     },
-    "spawners": {
-        "water_ambient": [],
-        "ambient": [],
-        "misc": [],
-        "water_creature": [],
-        "creature": [],
-        "monster": [{
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:block.respawn_anchor.ambient",
+        "tick_delay": 60000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "minecraft:block.beacon.ambient",
+        "tick_chance": 0.001
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:enchant"
+        },
+        "probability": 0.00918093334
+      }
+    ],
+    "minecraft:gameplay/natural_mob_spawns": {
+      "spawns_by_category": {
+        "monster": [
+          {
             "type": "minecraft:parched",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 5
+            "weight": 5,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            }
           },
           {
             "type": "minecraft:husk",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 35
-          } 
-          
-       
-       
-           ]
-    },
-    "spawn_costs": {},
-    "carvers": [],
-   
-    "features": [
-        [],
-        [
-            "bracken:omnidrome/omni_pool"
-        ],
-        [],
-        [],
-        [],
-        [],
-        [
-            "minecraft:ore_iron_upper",
-            "minecraft:ore_iron_middle",
-            "minecraft:ore_iron_small",
-            "minecraft:ore_gold",
-            "minecraft:ore_gold_lower",
-            "minecraft:ore_redstone",
-            "minecraft:ore_redstone_lower",
-            "bracken:omnidrome/obsidian_blobs",
-            "bracken:omnidrome/glass",
-            "bracken:omnidrome/obsidian",
-            "bracken:omnidrome/cyber_tree1"
-        ],
-        [],
-        [],
-        [
-            "minecraft:spring_water",
-            "minecraft:spring_lava"
-        ],
-        [
-            "minecraft:freeze_top_layer"
+            "weight": 35,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            }
+          }
         ]
+      },
+      "spawn_costs": {}
+    }
+  },
+  "carvers": [],
+  "features": [
+    [],
+    [
+      "bracken:omnidrome/omni_pool"
     ],
-    "temperature": 0.95,
-    "downfall": 0.1,
-    "effects": {
-        "water_color": 65280,
-        "grass_color": 65280,
-        "foliage_color": 65280
-    },
-    "has_precipitation": false
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "bracken:omnidrome/obsidian_blobs",
+      "bracken:omnidrome/glass",
+      "bracken:omnidrome/obsidian",
+      "bracken:omnidrome/cyber_tree1"
+    ],
+    [],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0.95,
+  "downfall": 0.1,
+  "effects": {
+    "water_color": 65280,
+    "grass_color": 65280,
+    "foliage_color": 65280
+  },
+  "has_precipitation": false
 }

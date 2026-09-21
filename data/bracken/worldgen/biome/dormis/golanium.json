@@ -1,7 +1,6 @@
 {
-    "attributes": {
+  "attributes": {
     "minecraft:audio/ambient_sounds": {
-     
       "loop": "minecraft:ambient.nether_wastes.loop",
       "mood": {
         "block_search_extent": 8,
@@ -14,7 +13,9 @@
       "default": {
         "max_delay": 24000,
         "min_delay": 12000,
-        "sound": {"sound_id": "bracken:dormis"}
+        "sound": {
+          "sound_id": "bracken:dormis"
+        }
       }
     },
     "minecraft:visual/ambient_particles": [
@@ -25,72 +26,57 @@
         "probability": 0.025
       }
     ],
-    "visual/water_fog_color": "#000000"
-  },
-  "spawners": {
-        "water_ambient": [],
-        "ambient": [
-           
-        ],
-        "misc": [],
-        "water_creature": [],
-        "creature": [],
+    "minecraft:visual/water_fog_color": "#000000",
+    "minecraft:gameplay/natural_mob_spawns": {
+      "spawns_by_category": {
         "monster": [
-           
-           
-            {
-                "type": "minecraft:bogged",
-                "weight": 2,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:ravager",
-                "weight": 1,
-                "minCount": 4,
-                "maxCount": 4
-            },
-           
-          
-           
-            {
-                "type": "minecraft:pillager",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            }
-           
+          {
+            "type": "minecraft:bogged",
+            "weight": 2,
+            "count": 4
+          },
+          {
+            "type": "minecraft:ravager",
+            "weight": 1,
+            "count": 4
+          },
+          {
+            "type": "minecraft:pillager",
+            "weight": 10,
+            "count": 4
+          }
         ]
-    },
-    "spawn_costs": {},
-    "carvers": "minecraft:nether_cave",
-    "features": [
-        [],
-        [
-            "minecraft:lake_lava_surface",
-            "minecraft:lake_lava_underground",
-            "bracken:dormis/rock",
-           
-            "bracken:dormis/tree"
-        ],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-            "minecraft:freeze_top_layer"
-        ]
+      },
+      "spawn_costs": {}
+    }
+  },
+  "carvers": "minecraft:nether_cave",
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground",
+      "bracken:dormis/rock",
+      "bracken:dormis/tree"
     ],
-    "temperature": 0.95,
-    "downfall": 0.1,
-    "effects": {       
-        "water_color": "#000000",
-        "grass_color": "#dcc589",
-        "foliage_color": "#dcc589"},
-    "has_precipitation": false
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0.95,
+  "downfall": 0.1,
+  "effects": {
+    "water_color": "#000000",
+    "grass_color": "#dcc589",
+    "foliage_color": "#dcc589"
+  },
+  "has_precipitation": false
 }
-

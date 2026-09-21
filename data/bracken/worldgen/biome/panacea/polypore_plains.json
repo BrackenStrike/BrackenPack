@@ -5,11 +5,12 @@
                 "max_delay": 24000,
                 "min_delay": 12000,
                 "replace_current_music": false,
-                "sound": "minecraft:music.creative"
+                "sound": {
+                    "sound_id": "minecraft:music.creative"
+                }
             }
         },
-        "minecraft:audio/ambient_sounds": 
-        {
+        "minecraft:audio/ambient_sounds": {
             "mood": {
                 "sound": "minecraft:ambient.cave",
                 "tick_delay": 6000,
@@ -21,58 +22,63 @@
                 "tick_chance": 0.0002
             }
         },
-        "visual/ambient_particles": [{
-            "particle": {
-                "type": "minecraft:sneeze"
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "water_ambient": [
+                    {
+                        "type": "minecraft:salmon",
+                        "weight": 1,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 4
+                        }
+                    },
+                    {
+                        "type": "minecraft:tropical_fish",
+                        "weight": 1,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 4
+                        }
+                    }
+                ],
+                "water_creature": [
+                    {
+                        "type": "minecraft:dolphin",
+                        "weight": 1,
+                        "count": 1
+                    }
+                ],
+                "creature": [
+                    {
+                        "type": "minecraft:mooshroom",
+                        "weight": 8,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 4,
+                            "max_inclusive": 8
+                        }
+                    }
+                ],
+                "monster": [
+                    {
+                        "type": "minecraft:skeleton",
+                        "weight": 1,
+                        "count": 1
+                    }
+                ]
             },
-            "probability": 0.0001428
-        }]
+            "spawn_costs": {}
+        }
     },
-    "spawners": {
-        "water_ambient": [{
-                "type": "minecraft:salmon",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
-        {
-                "type": "minecraft:tropical_fish",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            }],
-        "ambient": [],
-        "misc": [],
-        "water_creature": [{
-                "type": "minecraft:dolphin",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            }],
-        "creature": [
-            {
-                "type": "minecraft:mooshroom",
-                "weight": 8,
-                "minCount": 4,
-                "maxCount": 8
-            }
-        ],
-        "monster": [{
-            "type": "minecraft:skeleton",
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1
-        }]
-    },
-    "spawn_costs": {},
     "carvers": [
         "minecraft:canyon"
-      ],
-   
+    ],
     "features": [
         [],
-        [
-        ],
+        [],
         [
             "minecraft:glow_lichen",
             "minecraft:mushroom_island_vegetation",

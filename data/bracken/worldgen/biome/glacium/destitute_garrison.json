@@ -1,86 +1,76 @@
 {
-    "attributes": {
-        "minecraft:audio/background_music": {
-            "default": {
-                "max_delay": 24000,
-                "min_delay": 12000,
-                "replace_current_music": false,
-                "sound": {"sound_id": "bracken:glacium"}
-            }
-        },
-        "minecraft:audio/ambient_sounds": 
-        {
-            "mood": {
-                "sound": "minecraft:ambient.cave",
-                "tick_delay": 6000,
-                "block_search_extent": 8,
-                "offset": 2
-            },
-            "additions": {
-                "sound": "minecraft:ambient.crimson_forest.loop",
-                "tick_chance": 0.02
-            },
-            "loop": "minecraft:ambient.soul_sand_valley.loop"
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 12000,
+        "replace_current_music": false,
+        "sound": {
+          "sound_id": "bracken:glacium"
         }
+      }
     },
-    "spawners": {
-        "water_ambient": [],
-        "ambient": [],
-        "misc": [],
-        "water_creature": [],
-        "creature": [
-          
-        ],
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "minecraft:ambient.crimson_forest.loop",
+        "tick_chance": 0.02
+      },
+      "loop": "minecraft:ambient.soul_sand_valley.loop"
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "spawns_by_category": {
         "monster": [
-            {
-                "type": "minecraft:zombie_villager",
-                "weight": 2,
-                "minCount": 1,
-                "maxCount": 1
-            },
-           
-            {
-                "type": "minecraft:skeleton",
-                "weight": 8,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:wither_skeleton",
-                "weight": 2,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:stray",
-                "weight": 5,
-                "minCount": 4,
-                "maxCount": 4
-            }
+          {
+            "type": "minecraft:zombie_villager",
+            "weight": 2,
+            "count": 1
+          },
+          {
+            "type": "minecraft:skeleton",
+            "weight": 8,
+            "count": 4
+          },
+          {
+            "type": "minecraft:wither_skeleton",
+            "weight": 2,
+            "count": 4
+          },
+          {
+            "type": "minecraft:stray",
+            "weight": 5,
+            "count": 4
+          }
         ]
-    },
-    "spawn_costs": {},
-    "carvers": [
+      },
+      "spawn_costs": {}
+    }
+  },
+  "carvers": [
     "minecraft:canyon"
   ],
-   
-    "features": [
-        [
-            "minecraft:spring_lava_frozen"
-        ],
-        [],
-        [],
-        [
-           
-            "bracken:glacium/column"
-        ],
-        [
-            "bracken:glacium/post"
-        ],
-        [],
-        [],
-        [],
-        ["minecraft:ore_tuff",
+  "features": [
+    [
+      "minecraft:spring_lava_frozen"
+    ],
+    [],
+    [],
+    [
+      "bracken:glacium/column"
+    ],
+    [
+      "bracken:glacium/post"
+    ],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -91,17 +81,18 @@
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:seagrass_cold",
-      "minecraft:kelp_cold"],
-        [
-            "minecraft:freeze_top_layer"
-        ]
+      "minecraft:kelp_cold"
     ],
-    "temperature": 0,
-    "downfall": 0.1,
-    "effects": {
-        "water_color": 4014691,
-        "grass_color": 5074010,
-        "foliage_color": 5074010
-    },
-    "has_precipitation": true
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "temperature": 0,
+  "downfall": 0.1,
+  "effects": {
+    "water_color": 4014691,
+    "grass_color": 5074010,
+    "foliage_color": 5074010
+  },
+  "has_precipitation": true
 }

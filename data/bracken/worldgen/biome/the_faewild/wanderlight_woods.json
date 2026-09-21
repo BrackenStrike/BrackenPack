@@ -21,7 +21,7 @@
             }
         }
     },
-    "spawners": {
+    "spawns_by_category": {
         "water_ambient": [],
         "ambient": [
             {

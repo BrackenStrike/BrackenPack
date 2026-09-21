@@ -1,1 +1,7 @@
-"bracken:dimensions/pax"
+
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    "bracken:dimensions/pax"
+  ]
+}

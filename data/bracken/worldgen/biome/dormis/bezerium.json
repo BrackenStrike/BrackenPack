@@ -16,45 +16,42 @@
         "probability": 0.025
       }
     ],
-    "visual/water_fog_color": "#000000"
+    "visual/water_fog_color": "#000000",
+    "minecraft:gameplay/natural_mob_spawns": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+                "water_ambient": [],
+                "ambient": [
+                    {
+                        "type": "minecraft:bat",
+                        "weight": 10,
+                        "count": 4
+                    }
+                ],
+                "misc": [],
+                "water_creature": [],
+                "creature": [],
+                "monster": [
+                    {
+                        "type": "minecraft:blaze",
+                        "weight": 10,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:bogged",
+                        "weight": 1,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:zombie_villager",
+                        "weight": 5,
+                        "count": 1
+                    }
+                ]
+            }
+    }
   },
-    "spawners": {
-        "water_ambient": [],
-        "ambient": [
-            {
-                "type": "minecraft:bat",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            }
-        ],
-        "misc": [],
-        "water_creature": [],
-        "creature": [],
-        "monster": [
-            {
-                "type": "minecraft:blaze",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:bogged",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
-             {
-                "type": "minecraft:zombie_villager",
-                "weight": 5,
-                "minCount": 1,
-                "maxCount": 1
-            }
-        ]
-    },
-    "spawn_costs": {},
     "carvers": "minecraft:nether_cave",
-  
     "features": [
         [],
         [

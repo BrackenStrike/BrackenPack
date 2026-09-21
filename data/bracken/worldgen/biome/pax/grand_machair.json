@@ -5,38 +5,37 @@
                 "max_delay": 24000,
                 "min_delay": 12000,
                 "replace_current_music": false,
-                "sound": {"sound_id": "bracken:pax"}
+                "sound": {
+                    "sound_id": "bracken:pax"
+                }
             }
         },
-        "visual/ambient_particles": [{
-            "particle": {
-                "type": "minecraft:falling_nectar"
-            },
-            "probability": 0.000118093334
-        }]
-    },
-    "spawners": {
-        "water_ambient": [],
-        "ambient": [],
-        "misc": [],
-        "water_creature": [],
-        "creature": [
+        "minecraft:visual/ambient_particles": [
             {
-                "type": "minecraft:sheep",
-                "weight": 12,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:happy_ghast",
-                "weight": 120,
-                "minCount": 4,
-                "maxCount": 4
+                "particle": {
+                    "type": "minecraft:falling_nectar"
+                },
+                "probability": 0.000118093334
             }
         ],
-        "monster": []
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "creature": [
+                    {
+                        "type": "minecraft:sheep",
+                        "weight": 12,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:happy_ghast",
+                        "weight": 120,
+                        "count": 4
+                    }
+                ]
+            },
+            "spawn_costs": {}
+        }
     },
-    "spawn_costs": {},
     "carvers": [],
     "features": [
         [],

@@ -5,11 +5,12 @@
                 "max_delay": 24000,
                 "min_delay": 12000,
                 "replace_current_music": false,
-                "sound": "minecraft:music.creative"
+                "sound": {
+                    "sound_id": "minecraft:music.creative"
+                }
             }
         },
-        "minecraft:audio/ambient_sounds": 
-        {
+        "minecraft:audio/ambient_sounds": {
             "mood": {
                 "sound": "minecraft:ambient.cave",
                 "tick_delay": 6000,
@@ -21,113 +22,104 @@
                 "tick_chance": 0.0002
             }
         },
-        "visual/sky_color": 11913912,
-        "visual/fog_color": 14277771,
-        "visual/water_fog_color": 11961433
+        "minecraft:visual/sky_color": 11913912,
+        "minecraft:visual/fog_color": 14277771,
+        "minecraft:visual/water_fog_color": 11961433,
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "water_ambient": [
+                    {
+                        "type": "minecraft:salmon",
+                        "weight": 1,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:cod",
+                        "weight": 1,
+                        "count": 1
+                    }
+                ],
+                "ambient": [
+                    {
+                        "type": "minecraft:bat",
+                        "weight": 10,
+                        "count": 8
+                    }
+                ],
+                "water_creature": [
+                    {
+                        "type": "minecraft:dolphin",
+                        "weight": 2,
+                        "count": 1
+                    }
+                ],
+                "axolotls": [
+                    {
+                        "type": "minecraft:axolotl",
+                        "weight": 10,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 4,
+                            "max_inclusive": 6
+                        }
+                    }
+                ],
+                "creature": [
+                    {
+                        "type": "minecraft:pig",
+                        "weight": 5,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:llama",
+                        "weight": 5,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:ocelot",
+                        "weight": 1,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:armadillo",
+                        "weight": 1,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:panda",
+                        "weight": 3,
+                        "count": 1
+                    }
+                ],
+                "monster": [
+                    {
+                        "type": "minecraft:enderman",
+                        "weight": 1,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:hoglin",
+                        "weight": 3,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:skeleton",
+                        "weight": 5,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:zombie",
+                        "weight": 5,
+                        "count": 1
+                    }
+                ]
+            },
+            "spawn_costs": {}
+        }
     },
-    "spawners": {
-        "water_ambient": [{
-                "type": "minecraft:salmon",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
-        {
-                "type": "minecraft:cod",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            }],
-        "ambient": [
-            {
-                "type": "minecraft:bat",
-                "weight": 10,
-                "minCount": 8,
-                "maxCount": 8
-            }
-        ],
-        "misc": [
-           
-        ],
-        "water_creature": [{
-                "type": "minecraft:dolphin",
-                "weight": 2,
-                "minCount": 1,
-                "maxCount": 1
-            }],
-        "axolotls": [
-            {
-                "type": "minecraft:axolotl",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 6
-            }
-        ],
-        "creature": [
-            {
-                "type": "minecraft:pig",
-                "weight": 5,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:llama",
-                "weight": 5,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:ocelot",
-                "weight": 1,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:armadillo",
-                "weight": 1,
-                "minCount": 4,
-                "maxCount": 4
-            },
-           
-            {
-                "type": "minecraft:panda",
-                "weight": 3,
-                "minCount": 1,
-                "maxCount": 1
-            }
-        ],
-        "monster": [
-            {
-                "type": "minecraft:enderman",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:hoglin",
-                "weight": 3,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:skeleton",
-                "weight": 5,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:zombie",
-                "weight": 5,
-                "minCount": 1,
-                "maxCount": 1
-            }
-        ]
-    },
-    "spawn_costs": {},
     "carvers": [
-    "minecraft:canyon"
-  ],
-   
+        "minecraft:canyon"
+    ],
     "features": [
         [],
         [],

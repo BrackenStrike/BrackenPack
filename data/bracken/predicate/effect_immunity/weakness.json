@@ -1,3 +1,6 @@
-
-"bracken:item/tulip_wand"
-
+{
+	"type": "any_of",
+	"terms": [
+		"bracken:item/tulip_wand"
+	]
+}

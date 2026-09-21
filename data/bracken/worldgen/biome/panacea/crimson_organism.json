@@ -5,11 +5,12 @@
                 "max_delay": 24000,
                 "min_delay": 12000,
                 "replace_current_music": false,
-                "sound": "minecraft:music.creative"
+                "sound": {
+                    "sound_id": "minecraft:music.creative"
+                }
             }
         },
-        "minecraft:audio/ambient_sounds": 
-        {
+        "minecraft:audio/ambient_sounds": {
             "mood": {
                 "sound": "minecraft:ambient.cave",
                 "tick_delay": 6000,
@@ -21,29 +22,25 @@
                 "tick_chance": 0.0002
             }
         },
-        "visual/ambient_particles": [{
-            "particle": {
-                "type": "minecraft:crimson_spore"
-            },
-            "probability": 0.004428
-        }],
-        "visual/sky_color": 14309717,
-        "visual/fog_color": 13473931,
-        "visual/water_fog_color": 10657365
+        "minecraft:visual/ambient_particles": [
+            {
+                "particle": {
+                    "type": "minecraft:crimson_spore"
+                },
+                "probability": 0.004428
+            }
+        ],
+        "minecraft:visual/sky_color": 14309717,
+        "minecraft:visual/fog_color": 13473931,
+        "minecraft:visual/water_fog_color": 10657365,
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {},
+            "spawn_costs": {}
+        }
     },
-    "spawners": {
-        "water_ambient": [],
-        "ambient": [],
-        "misc": [],
-        "water_creature": [],
-        "creature": [],
-        "monster": []
-    },
-    "spawn_costs": {},
     "carvers": [
         "minecraft:canyon"
-      ],
-   
+    ],
     "features": [
         [
             "minecraft:forest_rock",
@@ -55,8 +52,7 @@
         [
             "bracken:panacea/bones"
         ],
-        [
-        ],
+        [],
         [],
         [
             "bracken:panacea/path"
