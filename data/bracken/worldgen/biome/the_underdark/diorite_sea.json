@@ -5,11 +5,12 @@
                 "max_delay": 24000,
                 "min_delay": 12000,
                 "replace_current_music": false,
-                "sound": {"sound_id": "bracken:underdark"}
+                "sound": {
+                    "sound_id": "bracken:underdark"
+                }
             }
         },
-        "minecraft:audio/ambient_sounds": 
-        {
+        "minecraft:audio/ambient_sounds": {
             "mood": {
                 "sound": "minecraft:ambient.cave",
                 "tick_delay": 2000,
@@ -20,59 +21,67 @@
                 "sound": "minecraft:ambient.basalt_deltas.mood",
                 "tick_chance": 0.0001
             }
+        },
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "axolotls": [
+                    {
+                        "type": "minecraft:axolotl",
+                        "weight": 10,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 4,
+                            "max_inclusive": 6
+                        }
+                    }
+                ],
+                "creature": [
+                    {
+                        "type": "minecraft:pig",
+                        "weight": 52,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:donkey",
+                        "weight": 50,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 3
+                        }
+                    },
+                    {
+                        "type": "minecraft:frog",
+                        "weight": 32,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 2
+                        }
+                    },
+                    {
+                        "type": "minecraft:chicken",
+                        "weight": 32,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 2
+                        }
+                    }
+                ]
+            },
+            "spawn_costs": {}
         }
     },
-    "spawns_by_category": {
-        "water_ambient": [],
-        "ambient": [
-           
-        ],
-        "misc": [],
-        "water_creature": [],
-        "axolotls": [
-            {
-                "type": "minecraft:axolotl",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 6
-            }
-        ],
-        "creature": [
-            {
-                "type": "minecraft:pig",
-                "weight": 52,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:donkey",
-                "weight": 50,
-                "minCount": 1,
-                "maxCount": 3
-            },
-            {
-                "type": "minecraft:frog",
-                "weight": 32,
-                "minCount": 1,
-                "maxCount": 2
-            },
-            {
-                "type": "minecraft:chicken",
-                "weight": 32,
-                "minCount": 1,
-                "maxCount": 2
-            }
-        ],
-        "monster": []
-    },
-    "spawn_costs": {},
     "carvers": [
         "minecraft:cave",
         "minecraft:cave_extra_underground",
         "minecraft:canyon"
-      ],
+    ],
     "features": [
-        ["bracken:underdark/bedrock_tree"],
+        [
+            "bracken:underdark/bedrock_tree"
+        ],
         [
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"
@@ -114,8 +123,6 @@
             "bracken:underdark/diamond_ore",
             "bracken:underdark/magma_lower",
             "bracken:underdark/bedrock",
-           
-           
             "bracken:underdark/lichen",
             "bracken:underdark/blackstone_small",
             "bracken:underdark/blackstone_big",

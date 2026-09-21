@@ -1,112 +1,136 @@
 {
-    "spawns_by_category": {
-        "ambient": [
-          {
-            "type": "minecraft:bat",
-            "maxCount": 8,
-            "minCount": 8,
-            "weight": 10
-          }
-        ],
-        "axolotls":[
+    "attributes": {
+        "minecraft:visual/ambient_particles": [
             {
-                "type": "minecraft:axolotl",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 6
+                "particle": {
+                    "type": "minecraft:warped_spore"
+                },
+                "probability": 0.00625
             }
         ],
-        "creature": [
-            {
-                "type": "minecraft:hoglin",
-                "weight": 2,
-                "minCount": 1,
-                "maxCount": 1
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "ambient": [
+                    {
+                        "type": "minecraft:bat",
+                        "weight": 10,
+                        "count": 8
+                    }
+                ],
+                "axolotls": [
+                    {
+                        "type": "minecraft:axolotl",
+                        "weight": 10,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 4,
+                            "max_inclusive": 6
+                        }
+                    }
+                ],
+                "creature": [
+                    {
+                        "type": "minecraft:hoglin",
+                        "weight": 2,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:turtle",
+                        "weight": 5,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 2,
+                            "max_inclusive": 5
+                        }
+                    },
+                    {
+                        "type": "minecraft:chicken",
+                        "weight": 1,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 2
+                        }
+                    },
+                    {
+                        "type": "minecraft:frog",
+                        "weight": 10,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:fox",
+                        "weight": 1,
+                        "count": 1
+                    }
+                ],
+                "monster": [
+                    {
+                        "type": "minecraft:stray",
+                        "weight": 5,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 2
+                        }
+                    }
+                ],
+                "underground_water_creature": [
+                    {
+                        "type": "minecraft:glow_squid",
+                        "weight": 10,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 4,
+                            "max_inclusive": 6
+                        }
+                    }
+                ],
+                "water_ambient": [
+                    {
+                        "type": "minecraft:pufferfish",
+                        "weight": 15,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 3
+                        }
+                    },
+                    {
+                        "type": "minecraft:cod",
+                        "weight": 25,
+                        "count": 8
+                    },
+                    {
+                        "type": "minecraft:tropical_fish",
+                        "weight": 25,
+                        "count": 8
+                    }
+                ],
+                "water_creature": [
+                    {
+                        "type": "minecraft:squid",
+                        "weight": 10,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:dolphin",
+                        "weight": 2,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 2
+                        }
+                    },
+                    {
+                        "type": "minecraft:nautilus",
+                        "weight": 5,
+                        "count": 1
+                    }
+                ]
             },
-            {
-                "type": "minecraft:turtle",
-                "maxCount": 5,
-                "minCount": 2,
-                "weight": 5
-              },
-            
-            {
-                "type": "minecraft:chicken",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 2
-            },
-            {
-                "type": "minecraft:frog",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:fox",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            }],
-        "misc": [],
-        "monster": [
-          {
-            "type": "minecraft:stray",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 5
-          }
-        ],
-        "underground_water_creature": [
-          {
-            "type": "minecraft:glow_squid",
-            "maxCount": 6,
-            "minCount": 4,
-            "weight": 10
-          }
-        ],
-        "water_ambient": [
-          {
-            "type": "minecraft:pufferfish",
-            "maxCount": 3,
-            "minCount": 1,
-            "weight": 15
-          },
-          {
-            "type": "minecraft:cod",
-            "maxCount": 8,
-            "minCount": 8,
-            "weight": 25
-          },
-          {
-            "type": "minecraft:tropical_fish",
-            "maxCount": 8,
-            "minCount": 8,
-            "weight": 25
-          }
-        ],
-        "water_creature": [
-          {
-            "type": "minecraft:squid",
-            "maxCount": 4,
-            "minCount": 4,
-            "weight": 10
-          },
-          {
-            "type": "minecraft:dolphin",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 2
-          },
-          {
-            "type": "minecraft:nautilus",
-            "maxCount": 1,
-            "minCount": 1,
-            "weight": 5
-          }
-        ]
-      },
-    "spawn_costs": {},
+            "spawn_costs": {}
+        }
+    },
     "carvers": [],
     "features": [
         [],
@@ -125,7 +149,8 @@
             "bracken:panacea/mega_mangrove"
         ],
         [
-            "bracken:brine/moss","bracken:brine/float2"
+            "bracken:brine/moss",
+            "bracken:brine/float2"
         ],
         [
             "minecraft:patch_tall_grass_2",
@@ -148,15 +173,7 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "effects": {
-    "water_color": "#4dc0c2"},
-    "attributes": {
-
-    "minecraft:visual/ambient_particles": [{
-        "particle": {
-          "type": "minecraft:warped_spore"
-        },
-        "probability": 0.00625
-      }]
-  },
+        "water_color": "#4dc0c2"
+    },
     "has_precipitation": true
 }

@@ -1,68 +1,87 @@
 {
-    "spawns_by_category": {
-        "ambient": [
-          {
-            "type": "minecraft:bat",
-            "maxCount": 8,
-            "minCount": 8,
-            "weight": 10
-          }
+    "attributes": {
+        "minecraft:visual/ambient_particles": [
+            {
+                "particle": {
+                    "type": "minecraft:warped_spore"
+                },
+                "probability": 0.00625
+            }
         ],
-        "axolotls": [],
-        "creature": [{
-            "type": "minecraft:chicken",
-            "maxCount": 1,
-            "minCount": 1,
-            "weight": 5
-          }],
-        "misc": [],
-        "monster": [
-        
-          {
-            "type": "minecraft:stray",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 5
-          }
-        ],
-        "underground_water_creature": [
-          {
-            "type": "minecraft:glow_squid",
-            "maxCount": 6,
-            "minCount": 4,
-            "weight": 10
-          }
-        ],
-        "water_ambient": [{
-            "type": "minecraft:salmon",
-            "maxCount": 6,
-            "minCount": 3,
-            "weight": 15
-          }
-          
-        ],
-        "water_creature": [{
-            "type": "minecraft:squid",
-            "maxCount": 4,
-            "minCount": 4,
-            "weight": 10
-          },
-          {
-            "type": "minecraft:pufferfish",
-            "maxCount": 3,
-            "minCount": 1,
-            "weight": 15
-          },
-          {
-            "type": "minecraft:nautilus",
-            "maxCount": 1,
-            "minCount": 1,
-            "weight": 15
-          }
-          
-        ]
-      },
-    "spawn_costs": {},
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "ambient": [
+                    {
+                        "type": "minecraft:bat",
+                        "weight": 10,
+                        "count": 8
+                    }
+                ],
+                "creature": [
+                    {
+                        "type": "minecraft:chicken",
+                        "weight": 5,
+                        "count": 1
+                    }
+                ],
+                "monster": [
+                    {
+                        "type": "minecraft:stray",
+                        "weight": 5,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 2
+                        }
+                    }
+                ],
+                "underground_water_creature": [
+                    {
+                        "type": "minecraft:glow_squid",
+                        "weight": 10,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 4,
+                            "max_inclusive": 6
+                        }
+                    }
+                ],
+                "water_ambient": [
+                    {
+                        "type": "minecraft:salmon",
+                        "weight": 15,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 3,
+                            "max_inclusive": 6
+                        }
+                    }
+                ],
+                "water_creature": [
+                    {
+                        "type": "minecraft:squid",
+                        "weight": 10,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:pufferfish",
+                        "weight": 15,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 3
+                        }
+                    },
+                    {
+                        "type": "minecraft:nautilus",
+                        "weight": 15,
+                        "count": 1
+                    }
+                ]
+            },
+            "spawn_costs": {}
+        }
+    },
     "carvers": [],
     "features": [
         [],
@@ -96,15 +115,7 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "effects": {
-    "water_color": "#4dc0c2"},
-    "attributes": {
-
-    "minecraft:visual/ambient_particles": [{
-        "particle": {
-          "type": "minecraft:warped_spore"
-        },
-        "probability": 0.00625
-      }]
-  },
+        "water_color": "#4dc0c2"
+    },
     "has_precipitation": true
 }

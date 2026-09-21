@@ -1,7 +1,6 @@
 {
-  "attributes": {
-        "minecraft:audio/ambient_sounds": 
-        {
+    "attributes": {
+        "minecraft:audio/ambient_sounds": {
             "mood": {
                 "sound": "minecraft:block.beacon.power_select",
                 "tick_delay": 80,
@@ -13,27 +12,27 @@
                 "tick_chance": 0.0005
             }
         },
-        "visual/ambient_particles": [{
-            "particle": {
-                "type": "minecraft:dripping_obsidian_tear"
+        "minecraft:visual/ambient_particles": [
+            {
+                "particle": {
+                    "type": "minecraft:dripping_obsidian_tear"
+                },
+                "probability": 0.00118093334
+            }
+        ],
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "monster": [
+                    {
+                        "type": "minecraft:endermite",
+                        "count": 4,
+                        "weight": 5
+                    }
+                ]
             },
-            "probability": 0.00118093334
-        }]
+            "spawn_costs": {}
+        }
     },
-    "spawns_by_category": {
-        "water_ambient": [],
-        "ambient": [],
-        "misc": [],
-        "water_creature": [],
-        "creature": [],
-        "monster": [{
-            "type": "minecraft:endermite",
-            "maxCount": 4,
-            "minCount": 4,
-            "weight": 5
-          }]
-    },
-    "spawn_costs": {},
     "carvers": [],
     "features": [
         [],

@@ -5,11 +5,12 @@
                 "max_delay": 24000,
                 "min_delay": 12000,
                 "replace_current_music": false,
-                "sound": {"sound_id": "bracken:underdark"}
+                "sound": {
+                    "sound_id": "bracken:underdark"
+                }
             }
         },
-        "minecraft:audio/ambient_sounds": 
-        {
+        "minecraft:audio/ambient_sounds": {
             "mood": {
                 "sound": "minecraft:ambient.cave",
                 "tick_delay": 2000,
@@ -20,88 +21,86 @@
                 "sound": "minecraft:ambient.basalt_deltas.mood",
                 "tick_chance": 0.0005
             }
+        },
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "ambient": [
+                    {
+                        "type": "minecraft:bat",
+                        "weight": 10,
+                        "count": 4
+                    }
+                ],
+                "water_creature": [
+                    {
+                        "type": "minecraft:squid",
+                        "weight": 1,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 3
+                        }
+                    }
+                ],
+                "monster": [
+                    {
+                        "type": "minecraft:pillager",
+                        "weight": 2,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:skeleton",
+                        "weight": 4,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:magma_cube",
+                        "weight": 2,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:zombie_villager",
+                        "weight": 3,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:silverfish",
+                        "weight": 2,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:enderman",
+                        "weight": 4,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:creeper",
+                        "weight": 25,
+                        "count": 3
+                    },
+                    {
+                        "type": "minecraft:cave_spider",
+                        "weight": 5,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 2,
+                            "max_inclusive": 6
+                        }
+                    }
+                ]
+            },
+            "spawn_costs": {}
         }
     },
-    "spawns_by_category": {
-        "water_ambient": [],
-        "ambient": [
-            {
-                "type": "minecraft:bat",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            }
-        ],
-        "misc": [],
-        "water_creature": [
-            {
-                "type": "minecraft:squid",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 3
-            }
-        ],
-        "creature": [],
-        "monster": [
-            {
-                "type": "minecraft:pillager",
-                "weight": 2,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:skeleton",
-                "weight": 4,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:magma_cube",
-                "weight": 2,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:zombie_villager",
-                "weight": 3,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:silverfish",
-                "weight": 2,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:enderman",
-                "weight": 4,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:creeper",
-                "weight": 25,
-                "minCount": 3,
-                "maxCount": 3
-            },
-            {
-                "type": "minecraft:cave_spider",
-                "weight": 5,
-                "minCount": 2,
-                "maxCount": 6
-            }
-        ]
-    },
-    "spawn_costs": {},
     "carvers": [
         "minecraft:cave",
         "minecraft:cave_extra_underground",
         "minecraft:canyon"
-      ],
+    ],
     "features": [
         [
-            "bracken:underdark/bedrock_rock"],
+            "bracken:underdark/bedrock_rock"
+        ],
         [
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"
@@ -144,13 +143,15 @@
             "bracken:underdark/basalt_pillar"
         ],
         [],
-        ["bracken:underdark/ore_mega_coal",
-        "bracken:underdark/ore_mega_copper",
-        "bracken:underdark/ore_mega_diamond",
-        "bracken:underdark/ore_mega_emerald",
-        "bracken:underdark/ore_mega_gold",
-        "bracken:underdark/ore_mega_iron",
-        "bracken:underdark/ore_mega_redstone"],
+        [
+            "bracken:underdark/ore_mega_coal",
+            "bracken:underdark/ore_mega_copper",
+            "bracken:underdark/ore_mega_diamond",
+            "bracken:underdark/ore_mega_emerald",
+            "bracken:underdark/ore_mega_gold",
+            "bracken:underdark/ore_mega_iron",
+            "bracken:underdark/ore_mega_redstone"
+        ],
         [
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal",

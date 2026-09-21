@@ -1,49 +1,59 @@
 {
-    "spawns_by_category": {
-        "water_ambient": [],
-        "ambient": [
-           
-        ],
-        "misc": [],
-        "water_creature": [],
-        "axolotls": [],
-        "creature": [],
-        "monster": [
+    "attributes": {
+        "minecraft:visual/ambient_particles": [
             {
-                "type": "minecraft:zombie_villager",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:creeper",
-                "weight": 5,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:magma_cube",
-                "weight": 5,
-                "minCount": 2,
-                "maxCount": 6
-            },
-            {
-                "type": "minecraft:blaze",
-                "weight": 25,
-                "minCount": 1,
-                "maxCount": 3
+                "particle": {
+                    "type": "minecraft:ash"
+                },
+                "probability": 0.00625
             }
-        ]
+        ],
+        "minecraft:visual/fog_color": "#a8802e",
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "monster": [
+                    {
+                        "type": "minecraft:zombie_villager",
+                        "weight": 1,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:creeper",
+                        "weight": 5,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:magma_cube",
+                        "weight": 5,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 2,
+                            "max_inclusive": 6
+                        }
+                    },
+                    {
+                        "type": "minecraft:blaze",
+                        "weight": 25,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 3
+                        }
+                    }
+                ]
+            },
+            "spawn_costs": {}
+        }
     },
-    "spawn_costs": {},
     "carvers": [
         "minecraft:cave",
         "minecraft:cave_extra_underground",
         "minecraft:canyon"
-      ],
+    ],
     "features": [
         [
-            "bracken:underdark/bedrock_tree"],
+            "bracken:underdark/bedrock_tree"
+        ],
         [
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground"
@@ -52,7 +62,8 @@
             "bracken:underdark/fire"
         ],
         [
-            "bracken:underdark/sulfur_blobs","bracken:underdark/sulfurdrip"
+            "bracken:underdark/sulfur_blobs",
+            "bracken:underdark/sulfurdrip"
         ],
         [
             "bracken:underdark/sulfur_rock"
@@ -93,13 +104,15 @@
             "minecraft:patch_tall_grass_2",
             "bracken:underdark/smooth_basalt"
         ],
-        ["bracken:underdark/ore_mega_coal",
-        "bracken:underdark/ore_mega_copper",
-        "bracken:underdark/ore_mega_diamond",
-        "bracken:underdark/ore_mega_emerald",
-        "bracken:underdark/ore_mega_gold",
-        "bracken:underdark/ore_mega_iron",
-        "bracken:underdark/ore_mega_redstone"],
+        [
+            "bracken:underdark/ore_mega_coal",
+            "bracken:underdark/ore_mega_copper",
+            "bracken:underdark/ore_mega_diamond",
+            "bracken:underdark/ore_mega_emerald",
+            "bracken:underdark/ore_mega_gold",
+            "bracken:underdark/ore_mega_iron",
+            "bracken:underdark/ore_mega_redstone"
+        ],
         [],
         [],
         [
@@ -108,20 +121,8 @@
     ],
     "temperature": 0.95,
     "downfall": 0.1,
-    "attributes": {
-
-    "minecraft:visual/ambient_particles": [{
-        "particle": {
-            "type": "minecraft:ash"
-        },
-        "probability": 0.00625
-    }],
-   
-    "minecraft:visual/fog_color": "#a8802e"
-  },
-  "effects": {
-   
-    "water_color": "#a8802e"
-  },
+    "effects": {
+        "water_color": "#a8802e"
+    },
     "has_precipitation": false
 }

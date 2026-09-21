@@ -5,10 +5,12 @@
                 "max_delay": 24000,
                 "min_delay": 12000,
                 "replace_current_music": false,
-                "sound": {"sound_id": "bracken:faewild"}
+                "sound": {
+                    "sound_id": "bracken:faewild"
+                }
             }
         },
-        "audio/ambient_sounds": {
+        "minecraft:audio/ambient_sounds": {
             "additions": {
                 "sound": "minecraft:ambient.crimson_forest.additions",
                 "tick_chance": 0.005
@@ -19,76 +21,68 @@
                 "block_search_extent": 8,
                 "offset": 2
             }
+        },
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "ambient": [
+                    {
+                        "type": "minecraft:bat",
+                        "weight": 10,
+                        "count": 8
+                    }
+                ],
+                "creature": [
+                    {
+                        "type": "minecraft:pig",
+                        "weight": 52,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:chicken",
+                        "weight": 10,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:rabbit",
+                        "weight": 5,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:fox",
+                        "weight": 1,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:llama",
+                        "weight": 10,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:frog",
+                        "weight": 10,
+                        "count": 4
+                    }
+                ],
+                "monster": [
+                    {
+                        "type": "minecraft:slime",
+                        "weight": 1,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:stray",
+                        "weight": 1,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 2
+                        }
+                    }
+                ]
+            },
+            "spawn_costs": {}
         }
     },
-    "spawns_by_category": {
-        "water_ambient": [],
-        "ambient": [
-            {
-                "type": "minecraft:bat",
-                "weight": 10,
-                "minCount": 8,
-                "maxCount": 8
-            }
-        ],
-        "misc": [],
-        "water_creature": [],
-        "creature": [
-            {
-                "type": "minecraft:pig",
-                "weight": 52,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:chicken",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:rabbit",
-                "weight": 5,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:fox",
-                "weight": 1,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:llama",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            },
-           
-            {
-                "type": "minecraft:frog",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            }
-        ],
-        "monster": [
-            {
-                "type": "minecraft:slime",
-                "weight": 1,
-                "minCount": 4,
-                "maxCount": 4
-            },
-           
-            {
-                "type": "minecraft:stray",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 2
-            }
-        ]
-    },
-    "spawn_costs": {},
     "carvers": [],
     "features": [
         [
@@ -101,8 +95,13 @@
         [
             "bracken:faewild/path"
         ],
-        ["minecraft:ore_copper","minecraft:ore_lapis"],
-        ["bracken:faewild/candles"],
+        [
+            "minecraft:ore_copper",
+            "minecraft:ore_lapis"
+        ],
+        [
+            "bracken:faewild/candles"
+        ],
         [
             "minecraft:flower_plains"
         ],
@@ -111,8 +110,9 @@
             "minecraft:spring_water",
             "minecraft:seagrass_swamp",
             "minecraft:patch_large_fern",
-           
-            "minecraft:vines","bracken:faewild/lapis_ore","bracken:faewild/copper_ore"
+            "minecraft:vines",
+            "bracken:faewild/lapis_ore",
+            "bracken:faewild/copper_ore"
         ],
         [
             "bracken:faewild/birch_tree"
@@ -122,7 +122,6 @@
             "minecraft:patch_grass_normal",
             "minecraft:patch_dead_bush",
             "minecraft:patch_waterlily",
-           
             "minecraft:patch_sugar_cane_swamp",
             "minecraft:sea_pickle"
         ],

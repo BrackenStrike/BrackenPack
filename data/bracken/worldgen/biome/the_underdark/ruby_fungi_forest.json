@@ -5,11 +5,12 @@
                 "max_delay": 24000,
                 "min_delay": 12000,
                 "replace_current_music": false,
-                "sound": {"sound_id": "bracken:underdark"}
+                "sound": {
+                    "sound_id": "bracken:underdark"
+                }
             }
         },
-        "minecraft:audio/ambient_sounds": 
-        {
+        "minecraft:audio/ambient_sounds": {
             "mood": {
                 "sound": "minecraft:ambient.cave",
                 "tick_delay": 6000,
@@ -21,84 +22,91 @@
                 "tick_chance": 0.0001
             }
         },
-        "visual/ambient_particles": [{
-            "particle": {
-                "type": "minecraft:mycelium"
+        "minecraft:visual/ambient_particles": [
+            {
+                "particle": {
+                    "type": "minecraft:mycelium"
+                },
+                "probability": 0.118093334
+            }
+        ],
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "axolotls": [
+                    {
+                        "type": "minecraft:axolotl",
+                        "weight": 10,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 4,
+                            "max_inclusive": 6
+                        }
+                    }
+                ],
+                "creature": [
+                    {
+                        "type": "minecraft:mooshroom",
+                        "weight": 8,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 4,
+                            "max_inclusive": 8
+                        }
+                    },
+                    {
+                        "type": "minecraft:pig",
+                        "weight": 12,
+                        "count": 4
+                    }
+                ],
+                "monster": [
+                    {
+                        "type": "minecraft:zombie_villager",
+                        "weight": 1,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:enderman",
+                        "weight": 1,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:slime",
+                        "weight": 15,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:hoglin",
+                        "weight": 15,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 2,
+                            "max_inclusive": 6
+                        }
+                    },
+                    {
+                        "type": "minecraft:magma_cube",
+                        "weight": 15,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 2,
+                            "max_inclusive": 6
+                        }
+                    }
+                ]
             },
-            "probability": 0.118093334
-        }]
+            "spawn_costs": {}
+        }
     },
-    "spawns_by_category": {
-        "water_ambient": [],
-        "ambient": [
-        ],
-        "misc": [],
-        "water_creature": [],
-        "axolotls": [
-            {
-                "type": "minecraft:axolotl",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 6
-            }
-        ],
-        "creature": [
-            {
-                "type": "minecraft:mooshroom",
-                "weight": 8,
-                "minCount": 4,
-                "maxCount": 8
-            },
-            {
-                "type": "minecraft:pig",
-                "weight": 12,
-                "minCount": 4,
-                "maxCount": 4
-            }
-        ],
-        "monster": [
-            {
-                "type": "minecraft:zombie_villager",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:enderman",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:slime",
-                "weight": 15,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:hoglin",
-                "weight": 15,
-                "minCount": 2,
-                "maxCount": 6
-            },
-           
-            {
-                "type": "minecraft:magma_cube",
-                "weight": 15,
-                "minCount": 2,
-                "maxCount": 6
-            }
-        ]
-    },
-    "spawn_costs": {},
     "carvers": [
         "minecraft:cave",
         "minecraft:cave_extra_underground",
         "minecraft:canyon"
-      ],
+    ],
     "features": [
-        ["bracken:underdark/bedrock_rock"
-            ],
+        [
+            "bracken:underdark/bedrock_rock"
+        ],
         [
             "minecraft:lake_lava_surface",
             "minecraft:lake_lava_underground",
@@ -149,13 +157,15 @@
         [
             "minecraft:ore_infested"
         ],
-        ["bracken:underdark/ore_mega_coal",
-        "bracken:underdark/ore_mega_copper",
-        "bracken:underdark/ore_mega_diamond",
-        "bracken:underdark/ore_mega_emerald",
-        "bracken:underdark/ore_mega_gold",
-        "bracken:underdark/ore_mega_iron",
-        "bracken:underdark/ore_mega_redstone"],
+        [
+            "bracken:underdark/ore_mega_coal",
+            "bracken:underdark/ore_mega_copper",
+            "bracken:underdark/ore_mega_diamond",
+            "bracken:underdark/ore_mega_emerald",
+            "bracken:underdark/ore_mega_gold",
+            "bracken:underdark/ore_mega_iron",
+            "bracken:underdark/ore_mega_redstone"
+        ],
         [
             "minecraft:mushroom_island_vegetation"
         ],

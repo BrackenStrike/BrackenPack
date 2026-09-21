@@ -5,10 +5,12 @@
                 "max_delay": 24000,
                 "min_delay": 12000,
                 "replace_current_music": false,
-                "sound": {"sound_id": "bracken:faewild"}
+                "sound": {
+                    "sound_id": "bracken:faewild"
+                }
             }
         },
-        "audio/ambient_sounds": {
+        "minecraft:audio/ambient_sounds": {
             "additions": {
                 "sound": "minecraft:ambient.crimson_forest.additions",
                 "tick_chance": 0.01
@@ -19,52 +21,44 @@
                 "block_search_extent": 8,
                 "offset": 2
             }
-        }
-    },
-    "spawns_by_category": {
-        "water_ambient": [],
-        "ambient": [],
-        "misc": [],
-        "water_creature": [],
-        "creature": [
-            {
-                "type": "minecraft:allay",
-                "weight": 5,
-                "minCount": 2,
-                "maxCount": 6
-            }
-        ],
-        "monster": [
-        {
-                "type": "minecraft:enderman",
-                "weight": 1,
-                "minCount": 4,
-                "maxCount": 4
+        },
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "creature": [
+                    {
+                        "type": "minecraft:allay",
+                        "weight": 5,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 2,
+                            "max_inclusive": 6
+                        }
+                    }
+                ],
+                "monster": [
+                    {
+                        "type": "minecraft:enderman",
+                        "weight": 1,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:slime",
+                        "weight": 10,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:stray",
+                        "weight": 1,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:parched",
+                        "weight": 2,
+                        "count": 4
+                    }
+                ]
             },
-            {
-                "type": "minecraft:slime",
-                "weight": 10,
-                "minCount": 4,
-                "maxCount": 4
-            },
-            {
-                "type": "minecraft:stray",
-                "weight": 1,
-                "minCount": 1,
-                "maxCount": 1
-            },
-            {
-                "type": "minecraft:parched",
-                "weight": 2,
-                "minCount": 4,
-                "maxCount": 4
-            }
-    ]
-    },
-    "spawn_costs": {
-        "minecraft:phantom":{
-            "charge": 1,
-            "energy_budget": 4
+            "spawn_costs": {}
         }
     },
     "carvers": [],
@@ -75,9 +69,13 @@
         [],
         [],
         [],
-        ["minecraft:ore_copper","minecraft:ore_lapis"],
         [
-            "bracken:faewild/lapis_ore","bracken:faewild/copper_ore"
+            "minecraft:ore_copper",
+            "minecraft:ore_lapis"
+        ],
+        [
+            "bracken:faewild/lapis_ore",
+            "bracken:faewild/copper_ore"
         ],
         [],
         [],

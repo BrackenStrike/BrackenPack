@@ -1,7 +1,6 @@
 {
-  "attributes": {
-        "minecraft:audio/ambient_sounds": 
-        {
+    "attributes": {
+        "minecraft:audio/ambient_sounds": {
             "mood": {
                 "sound": "minecraft:block.beacon.power_select",
                 "tick_delay": 80,
@@ -13,27 +12,31 @@
                 "tick_chance": 0.0005
             }
         },
-        "visual/ambient_particles": [{
-            "particle": {
-                "type": "minecraft:dripping_obsidian_tear"
+        "minecraft:visual/ambient_particles": [
+            {
+                "particle": {
+                    "type": "minecraft:dripping_obsidian_tear"
+                },
+                "probability": 0.00118093334
+            }
+        ],
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "creature": [
+                    {
+                        "type": "minecraft:hoglin",
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 2
+                        },
+                        "weight": 5
+                    }
+                ]
             },
-            "probability": 0.00118093334
-        }]
+            "spawn_costs": {}
+        }
     },
-    "spawns_by_category": {
-        "water_ambient": [],
-        "ambient": [],
-        "misc": [],
-        "water_creature": [],
-        "creature": [{
-            "type": "minecraft:hoglin",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 5
-          }],
-        "monster": []
-    },
-    "spawn_costs": {},
     "carvers": [],
     "features": [
         [],

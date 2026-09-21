@@ -1,56 +1,67 @@
 {
-    "spawns_by_category": {
-        "ambient": [
-          {
-            "type": "minecraft:bat",
-            "maxCount": 8,
-            "minCount": 8,
-            "weight": 10
-          }
+    "attributes": {
+        "minecraft:visual/ambient_particles": [
+            {
+                "particle": {
+                    "type": "minecraft:warped_spore"
+                },
+                "probability": 0.00625
+            }
         ],
-        "axolotls": [],
-        "creature": [{
-            "type": "minecraft:hoglin",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 5
-          }],
-        "misc": [],
-        "monster": [
-          {
-            "type": "minecraft:stray",
-            "maxCount": 4,
-            "minCount": 1,
-            "weight": 7
-          }
-        ],
-        "underground_water_creature": [
-
-        ],
-        "water_ambient": [{
-            "type": "minecraft:salmon",
-            "maxCount": 8,
-            "minCount": 8,
-            "weight": 25
-          }
-          
-        ],
-        "water_creature": [
-          {
-            "type": "minecraft:squid",
-            "maxCount": 4,
-            "minCount": 4,
-            "weight": 10
-          },
-          {
-            "type": "minecraft:nautilus",
-            "maxCount": 1,
-            "minCount": 1,
-            "weight": 5
-          }
-        ]
-      },
-    "spawn_costs": {},
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "ambient": [
+                    {
+                        "type": "minecraft:bat",
+                        "weight": 10,
+                        "count": 8
+                    }
+                ],
+                "creature": [
+                    {
+                        "type": "minecraft:hoglin",
+                        "weight": 5,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 2
+                        }
+                    }
+                ],
+                "monster": [
+                    {
+                        "type": "minecraft:stray",
+                        "weight": 7,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 4
+                        }
+                    }
+                ],
+                "water_ambient": [
+                    {
+                        "type": "minecraft:salmon",
+                        "weight": 25,
+                        "count": 8
+                    }
+                ],
+                "water_creature": [
+                    {
+                        "type": "minecraft:squid",
+                        "weight": 10,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:nautilus",
+                        "weight": 5,
+                        "count": 1
+                    }
+                ]
+            },
+            "spawn_costs": {}
+        }
+    },
     "carvers": [],
     "features": [
         [],
@@ -86,15 +97,7 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "effects": {
-    "water_color": "#4dc0c2"},
-    "attributes": {
-
-    "minecraft:visual/ambient_particles": [{
-        "particle": {
-          "type": "minecraft:warped_spore"
-        },
-        "probability": 0.00625
-      }]
-  },
+        "water_color": "#4dc0c2"
+    },
     "has_precipitation": true
 }

@@ -1,36 +1,41 @@
 {
-    "spawns_by_category": {
-        "ambient": [],
-        "axolotls":[],
-        "creature": [],
-        "misc": [],
-        "monster": [],
-        "underground_water_creature": [],
-        "water_ambient": [
-          
+    "attributes": {
+        "minecraft:visual/ambient_particles": [
+            {
+                "particle": {
+                    "type": "minecraft:warped_spore"
+                },
+                "probability": 0.00625
+            }
         ],
-        "water_creature": [
-          {
-            "type": "minecraft:squid",
-            "maxCount": 4,
-            "minCount": 4,
-            "weight": 10
-          },
-          {
-            "type": "minecraft:nautilus",
-            "maxCount": 1,
-            "minCount": 1,
-            "weight": 5
-          },
-          {
-            "type": "minecraft:dolphin",
-            "maxCount": 2,
-            "minCount": 1,
-            "weight": 2
-          }
-        ]
-      },
-    "spawn_costs": {},
+        "minecraft:visual/water_fog_color": "#2f6a8a",
+        "minecraft:gameplay/natural_mob_spawns": {
+            "spawns_by_category": {
+                "water_creature": [
+                    {
+                        "type": "minecraft:squid",
+                        "weight": 10,
+                        "count": 4
+                    },
+                    {
+                        "type": "minecraft:nautilus",
+                        "weight": 5,
+                        "count": 1
+                    },
+                    {
+                        "type": "minecraft:dolphin",
+                        "weight": 2,
+                        "count": {
+                            "type": "minecraft:uniform",
+                            "min_inclusive": 1,
+                            "max_inclusive": 2
+                        }
+                    }
+                ]
+            },
+            "spawn_costs": {}
+        }
+    },
     "carvers": [],
     "features": [
         [],
@@ -39,9 +44,13 @@
         [],
         [],
         [],
-        ["bracken:brine/calcite"],
+        [
+            "bracken:brine/calcite"
+        ],
         [],
-        ["bracken:brine/calcite_platform"],
+        [
+            "bracken:brine/calcite_platform"
+        ],
         [
             "minecraft:seagrass_warm",
             "bracken:brine/blackstone_blobs",
@@ -55,21 +64,7 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "effects": {
-    "water_color": "#81c0c2"},
-    "attributes": {
-
-    "minecraft:visual/ambient_particles": [{
-        "particle": {
-          "type": "minecraft:warped_spore"
-        },
-        "probability": 0.00625
-      }],
-   
-    "minecraft:visual/water_fog_color": "#2f6a8a"
-  },
+        "water_color": "#81c0c2"
+    },
     "has_precipitation": true
 }
-
-
-
-
