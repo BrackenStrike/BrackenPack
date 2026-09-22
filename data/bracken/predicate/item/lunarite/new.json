@@ -1,1 +1,6 @@
-"bracken:moon/new"
+{
+	"type": "minecraft:any_of",
+	"terms": [
+		"bracken:moon/new"
+	]
+}

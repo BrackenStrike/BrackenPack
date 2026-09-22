@@ -29,8 +29,8 @@
 		"bracken:the_faewild/theatre1": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": [{
-					"condition": "minecraft:entity_properties",
+				"player": {
+					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
 						"location": {
@@ -38,7 +38,7 @@
 							"structures": "bracken:fae_theatre"
 						}
 					}
-				}]
+				}
 			}
 		}
 	},

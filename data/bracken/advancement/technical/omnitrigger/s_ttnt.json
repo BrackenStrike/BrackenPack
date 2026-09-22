@@ -3,13 +3,13 @@
 		"location": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": [{
-					"condition": "minecraft:location_check",
+				"player": {
+					"type": "minecraft:location_check",
 					"predicate": {
 						"dimension": "bracken:omnidrome",
 						"structures": "bracken:omnidrome_container"
 					}
-				}]
+				}
 			}
 		}
 	},

@@ -1,8 +1,15 @@
 {
-	"type": "entity_properties",
-	"entity": "this",
-	"predicate": {
-		"minecraft:entity_type": "minecraft:item",
-		"nbt": "{Age:0s,Item:{components:{\"minecraft:custom_data\":{bp:{id:\"frost_spite\"}}}}}"
-	}
+    "type": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "minecraft:entity_type": "minecraft:item",
+        "nbt": "{Age:0s}",
+        "slots": {
+            "contents": {
+                "predicates": {
+                    "minecraft:custom_data": "{bp:{id:\"frost_spite\"}}"
+                }
+            }
+        }
+    }
 }

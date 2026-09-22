@@ -3,12 +3,12 @@
 		"in_biome": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": [{
-					"condition": "minecraft:location_check",
+				"player": {
+					"type": "minecraft:location_check",
 					"predicate": {
 						"biomes": "bracken:omnidrome/fabricylum"
 					}
-				}]
+				}
 			}
 		}
 	},

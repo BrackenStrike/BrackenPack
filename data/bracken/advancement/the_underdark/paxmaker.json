@@ -24,15 +24,15 @@
 		"bracken:the_underdark/paxmaker1": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"player": [{
-					"condition": "minecraft:entity_properties",
+				"player": {
+					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
 						"location": {
 							"dimension": "bracken:the_underdark"
 						}
 					}
-				}],
+				},
 				"items": [{
 					"items": "minecraft:netherite_sword",
 					"components": {

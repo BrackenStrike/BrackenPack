@@ -4,12 +4,16 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
-					"location": {
-						"dimension": "bracken:the_faewild",
-						"position": {
-							"y": {
-								"min": 235,
-								"max": 260
+					"type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+						"location": {
+							"dimension": "bracken:the_faewild",
+							"position": {
+								"y": {
+									"min": 235,
+									"max": 260
+								}
 							}
 						}
 					}

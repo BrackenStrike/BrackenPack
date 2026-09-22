@@ -23,8 +23,8 @@
 		"bracken:panacea/fang1": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
-				"player": [{
-					"condition": "minecraft:entity_properties",
+				"player": {
+					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
 						"equipment": {
@@ -38,7 +38,7 @@
 							}
 						}
 					}
-				}]
+				}
 			}
 		}
 	},

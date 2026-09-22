@@ -20,8 +20,8 @@
 		"bracken:dormis/courtyard1": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"player": [{
-					"condition": "minecraft:entity_properties",
+				"player": {
+					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
 						"location": {
@@ -29,7 +29,7 @@
 							"structures": "bracken:dormis_thrall_courtyard"
 						}
 					}
-				}]
+				}
 			}
 		}
 	},
