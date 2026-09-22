@@ -1,11 +1,13 @@
 {
     "type": "minecraft:add",
-    "argument1": {
-        "type": "minecraft:y_clamped_gradient",
+    "left": {
+        "type": "minecraft:gradient",
         "from_value": 1.5,
-        "from_y": 0,
+        "from_coordinate": 0,
         "to_value": -1.5,
-        "to_y": 256
+        "to_coordinate": 256,
+        "axis": "y",
+        "tiling": "clamp_to_edge"
     },
-    "argument2": "bracken:omnidrome/offset"
+    "right": "bracken:omnidrome/offset"
 }

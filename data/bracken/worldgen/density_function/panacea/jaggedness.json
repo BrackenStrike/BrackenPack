@@ -1,19 +1,21 @@
 {
-    "type": "minecraft:flat_cache",
-    "argument": {
-        "type": "minecraft:cache_2d",
-        "argument": {
+    "type": "minecraft:slice",
+    "axis": "y",
+    "coordinate": 0,
+    "input": {
+        "type": "minecraft:cache",
+        "input": {
             "type": "minecraft:add",
-            "argument1": 0.0,
-            "argument2": {
+            "left": 0.0,
+            "right": {
                 "type": "minecraft:mul",
-                "argument1": {
+                "left": {
                     "type": "minecraft:blend_alpha"
                 },
-                "argument2": {
+                "right": {
                     "type": "minecraft:add",
-                    "argument1": -0.0,
-                    "argument2": 1
+                    "left": -0.0,
+                    "right": 1
                 }
             }
         }

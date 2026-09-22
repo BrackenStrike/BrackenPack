@@ -1,21 +1,21 @@
 {
     "type": "minecraft:add",
-    "argument1": {
+    "left": {
         "type": "minecraft:mul",
-        "argument1": 4.0,
-        "argument2": {
+        "left": 4.0,
+        "right": {
             "type": "minecraft:quarter_negative",
-            "argument": {
+            "input": {
                 "type": "minecraft:mul",
-                "argument1": {
+                "left": {
                     "type": "minecraft:add",
-                    "argument1": "bracken:panacea/depth",
-                    "argument2": {
+                    "left": "bracken:panacea/depth",
+                    "right": {
                         "type": "minecraft:mul",
-                        "argument1": "bracken:panacea/jaggedness",
-                        "argument2": {
+                        "left": "bracken:panacea/jaggedness",
+                        "right": {
                             "type": "minecraft:half_negative",
-                            "argument": {
+                            "input": {
                                 "type": "minecraft:noise",
                                 "noise": "minecraft:jagged",
                                 "xz_scale": 15.0,
@@ -24,9 +24,9 @@
                         }
                     }
                 },
-                "argument2": 0.15
+                "right": 0.15
             }
         }
     },
-    "argument2": "bracken:panacea/base_3d_noise"
+    "right": "bracken:panacea/base_3d_noise"
 }
