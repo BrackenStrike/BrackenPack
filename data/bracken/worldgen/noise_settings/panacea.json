@@ -1,6 +1,6 @@
 {
-    "ore_veins_enabled": false,
-    "aquifers_enabled": false,
+    
+    
     "sea_level": 43,
     "disable_mob_generation": false,
     "noise": {
@@ -10,16 +10,16 @@
         "size_vertical": 2
     },
     "default_block": {
-        "Name": "minecraft:moss_block"
+        "id": "minecraft:moss_block"
     },
     "default_fluid": {
-        "Name": "minecraft:water",
-        "Properties": {
+        "id": "minecraft:water",
+        "properties": {
             "level": "0"
         }
     },
     "legacy_random_source": false,
-    "surface_rule": {
+    "material_rule": {
         "type": "minecraft:sequence",
         "sequence": [
             {
@@ -37,7 +37,7 @@
                 "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                        "Name": "minecraft:bedrock"
+                        "id": "minecraft:bedrock"
                     }
                 }
             },
@@ -56,7 +56,7 @@
                 "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                        "Name": "minecraft:obsidian"
+                        "id": "minecraft:obsidian"
                     }
                 }
             },
@@ -75,7 +75,7 @@
                 "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                        "Name": "minecraft:obsidian"
+                        "id": "minecraft:obsidian"
                     }
                 }
             },
@@ -94,7 +94,7 @@
                 "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                        "Name": "minecraft:cobblestone"
+                        "id": "minecraft:cobblestone"
                     }
                 }
             },
@@ -113,7 +113,7 @@
                 "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                        "Name": "minecraft:cobblestone"
+                        "id": "minecraft:cobblestone"
                     }
                 }
             },
@@ -132,7 +132,7 @@
                 "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                        "Name": "minecraft:mossy_cobblestone"
+                        "id": "minecraft:mossy_cobblestone"
                     }
                 }
             },
@@ -151,7 +151,7 @@
                 "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                        "Name": "minecraft:mossy_cobblestone"
+                        "id": "minecraft:mossy_cobblestone"
                     }
                 }
             },
@@ -178,7 +178,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:rooted_dirt"
+                                    "id": "minecraft:rooted_dirt"
                                 }
                             }
                         },
@@ -194,7 +194,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:dirt"
+                                    "id": "minecraft:dirt"
                                 }
                             }
                         }
@@ -224,7 +224,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:blackstone"
+                                    "id": "minecraft:blackstone"
                                 }
                             }
                         },
@@ -240,7 +240,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:obsidian"
+                                    "id": "minecraft:obsidian"
                                 }
                             }
                         }
@@ -270,7 +270,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:honeycomb_block"
+                                    "id": "minecraft:honeycomb_block"
                                 }
                             }
                         },
@@ -286,7 +286,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:smooth_red_sandstone"
+                                    "id": "minecraft:smooth_red_sandstone"
                                 }
                             }
                         }
@@ -324,7 +324,7 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:podzol"
+                                        "id": "minecraft:podzol"
                                     }
                                 }
                             }
@@ -349,8 +349,8 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:dirt",
-                                        "Properties": {
+                                        "id": "minecraft:dirt",
+                                        "properties": {
                                             "snowy": "false"
                                         }
                                     }
@@ -391,7 +391,7 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:crimson_nylium"
+                                        "id": "minecraft:crimson_nylium"
                                     }
                                 }
                             }
@@ -416,7 +416,7 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:netherrack"
+                                        "id": "minecraft:netherrack"
                                     }
                                 }
                             }
@@ -447,7 +447,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:mud"
+                                    "id": "minecraft:mud"
                                 }
                             }
                         },
@@ -463,7 +463,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:mud"
+                                    "id": "minecraft:mud"
                                 }
                             }
                         }
@@ -501,8 +501,8 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:mycelium",
-                                        "Properties": {
+                                        "id": "minecraft:mycelium",
+                                        "properties": {
                                             "snowy": "false"
                                         }
                                     }
@@ -529,8 +529,8 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:dirt",
-                                        "Properties": {
+                                        "id": "minecraft:dirt",
+                                        "properties": {
                                             "snowy": "false"
                                         }
                                     }
@@ -571,8 +571,8 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:grass_block",
-                                        "Properties": {
+                                        "id": "minecraft:grass_block",
+                                        "properties": {
                                             "snowy": "false"
                                         }
                                     }
@@ -599,8 +599,8 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:dirt",
-                                        "Properties": {
+                                        "id": "minecraft:dirt",
+                                        "properties": {
                                             "snowy": "false"
                                         }
                                     }
@@ -641,7 +641,7 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:podzol"
+                                        "id": "minecraft:podzol"
                                     }
                                 }
                             }
@@ -666,8 +666,8 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:dirt",
-                                        "Properties": {
+                                        "id": "minecraft:dirt",
+                                        "properties": {
                                             "snowy": "false"
                                         }
                                     }
@@ -708,8 +708,8 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:grass_block",
-                                        "Properties": {
+                                        "id": "minecraft:grass_block",
+                                        "properties": {
                                             "snowy": "false"
                                         }
                                     }
@@ -736,8 +736,8 @@
                                 "then_run": {
                                     "type": "minecraft:block",
                                     "result_state": {
-                                        "Name": "minecraft:dirt",
-                                        "Properties": {
+                                        "id": "minecraft:dirt",
+                                        "properties": {
                                             "snowy": "false"
                                         }
                                     }
@@ -761,73 +761,73 @@
         "erosion": "minecraft:overworld/erosion",
         "final_density": {
             "type": "minecraft:min",
-            "argument1": {
+            "left": {
                 "type": "minecraft:squeeze",
-                "argument": {
+                "input": {
                     "type": "minecraft:mul",
-                    "argument1": 0.64,
-                    "argument2": {
+                    "left": 0.64,
+                    "right": {
                         "type": "minecraft:interpolated",
-                        "argument": {
+                        "input": {
                             "type": "minecraft:blend_density",
-                            "argument": {
+                            "input": {
                                 "type": "minecraft:add",
-                                "argument1": 0.1171875,
-                                "argument2": {
+                                "left": 0.1171875,
+                                "right": {
                                     "type": "minecraft:mul",
-                                    "argument1": {
-                                        "type": "minecraft:y_clamped_gradient",
+                                    "left": {
+                                        "type": "minecraft:gradient",
                                         "from_value": 0.0,
-                                        "from_y": -64,
+                                        "from_coordinate": -64,
                                         "to_value": 1.0,
-                                        "to_y": -40
+                                        "to_coordinate": -40
                                     },
-                                    "argument2": {
+                                    "right": {
                                         "type": "minecraft:add",
-                                        "argument1": -0.1171875,
-                                        "argument2": {
+                                        "left": -0.1171875,
+                                        "right": {
                                             "type": "minecraft:add",
-                                            "argument1": -0.078125,
-                                            "argument2": {
+                                            "left": -0.078125,
+                                            "right": {
                                                 "type": "minecraft:mul",
-                                                "argument1": {
-                                                    "type": "minecraft:y_clamped_gradient",
+                                                "left": {
+                                                    "type": "minecraft:gradient",
                                                     "from_value": 1.0,
-                                                    "from_y": 240,
+                                                    "from_coordinate": 240,
                                                     "to_value": 0.0,
-                                                    "to_y": 256
+                                                    "to_coordinate": 256
                                                 },
-                                                "argument2": {
+                                                "right": {
                                                     "type": "minecraft:add",
-                                                    "argument1": 0.078125,
-                                                    "argument2": {
+                                                    "left": 0.078125,
+                                                    "right": {
                                                         "type": "minecraft:range_choice",
                                                         "input": "minecraft:overworld/sloped_cheese",
                                                         "max_exclusive": 1.5625,
                                                         "min_inclusive": -1000000.0,
                                                         "when_in_range": {
                                                             "type": "minecraft:min",
-                                                            "argument1": "minecraft:overworld/sloped_cheese",
-                                                            "argument2": {
+                                                            "left": "minecraft:overworld/sloped_cheese",
+                                                            "right": {
                                                                 "type": "minecraft:mul",
-                                                                "argument1": 5.0,
-                                                                "argument2": "minecraft:overworld/caves/entrances"
+                                                                "left": 5.0,
+                                                                "right": "minecraft:overworld/caves/entrances"
                                                             }
                                                         },
                                                         "when_out_of_range": {
                                                             "type": "minecraft:max",
-                                                            "argument1": {
+                                                            "left": {
                                                                 "type": "minecraft:min",
-                                                                "argument1": {
+                                                                "left": {
                                                                     "type": "minecraft:min",
-                                                                    "argument1": {
+                                                                    "left": {
                                                                         "type": "minecraft:add",
-                                                                        "argument1": {
+                                                                        "left": {
                                                                             "type": "minecraft:mul",
-                                                                            "argument1": 4.0,
-                                                                            "argument2": {
+                                                                            "left": 4.0,
+                                                                            "right": {
                                                                                 "type": "minecraft:square",
-                                                                                "argument": {
+                                                                                "input": {
                                                                                     "type": "minecraft:noise",
                                                                                     "noise": "minecraft:cave_layer",
                                                                                     "xz_scale": 1.0,
@@ -835,14 +835,14 @@
                                                                                 }
                                                                             }
                                                                         },
-                                                                        "argument2": {
+                                                                        "right": {
                                                                             "type": "minecraft:add",
-                                                                            "argument1": {
+                                                                            "left": {
                                                                                 "type": "minecraft:clamp",
                                                                                 "input": {
                                                                                     "type": "minecraft:add",
-                                                                                    "argument1": 0.27,
-                                                                                    "argument2": {
+                                                                                    "left": 0.27,
+                                                                                    "right": {
                                                                                         "type": "minecraft:noise",
                                                                                         "noise": "minecraft:cave_cheese",
                                                                                         "xz_scale": 1.0,
@@ -852,15 +852,15 @@
                                                                                 "max": 1.0,
                                                                                 "min": -1.0
                                                                             },
-                                                                            "argument2": {
+                                                                            "right": {
                                                                                 "type": "minecraft:clamp",
                                                                                 "input": {
                                                                                     "type": "minecraft:add",
-                                                                                    "argument1": 1.5,
-                                                                                    "argument2": {
+                                                                                    "left": 1.5,
+                                                                                    "right": {
                                                                                         "type": "minecraft:mul",
-                                                                                        "argument1": -0.64,
-                                                                                        "argument2": "bracken:panacea/sloped_cheese"
+                                                                                        "left": -0.64,
+                                                                                        "right": "bracken:panacea/sloped_cheese"
                                                                                     }
                                                                                 },
                                                                                 "max": 0.5,
@@ -868,15 +868,15 @@
                                                                             }
                                                                         }
                                                                     },
-                                                                    "argument2": "minecraft:overworld/caves/entrances"
+                                                                    "right": "minecraft:overworld/caves/entrances"
                                                                 },
-                                                                "argument2": {
+                                                                "right": {
                                                                     "type": "minecraft:add",
-                                                                    "argument1": "minecraft:overworld/caves/spaghetti_2d",
-                                                                    "argument2": "minecraft:overworld/caves/spaghetti_roughness_function"
+                                                                    "left": "minecraft:overworld/caves/spaghetti_2d",
+                                                                    "right": "minecraft:overworld/caves/spaghetti_roughness_function"
                                                                 }
                                                             },
-                                                            "argument2": {
+                                                            "right": {
                                                                 "type": "minecraft:range_choice",
                                                                 "input": "minecraft:overworld/caves/pillars",
                                                                 "max_exclusive": 0.03,
@@ -896,7 +896,7 @@
                     }
                 }
             },
-            "argument2": "minecraft:overworld/caves/noodle"
+            "right": "minecraft:overworld/caves/noodle"
         },
         "fluid_level_floodedness": {
             "type": "minecraft:noise",
@@ -910,59 +910,64 @@
             "xz_scale": 1.0,
             "y_scale": 0.7142857142857143
         },
-        "preliminary_surface_level": {
-            "type": "minecraft:add",
-            "argument1": 0.1171875,
-            "argument2": {
-                "type": "minecraft:mul",
-                "argument1": {
-                    "type": "minecraft:y_clamped_gradient",
-                    "from_value": 0.0,
-                    "from_y": -64,
-                    "to_value": 1.0,
-                    "to_y": -40
-                },
-                "argument2": {
-                    "type": "minecraft:add",
-                    "argument1": -0.1171875,
-                    "argument2": {
+        "chunk_surface_level": {
+            "type": "minecraft:interpolated",
+            "cell_size_xz": 16,
+            "cell_size_y": 1,
+            "input": {
+                "type": "minecraft:add",
+                "left": 0.1171875,
+                "right": {
+                    "type": "minecraft:mul",
+                    "left": {
+                        "type": "minecraft:gradient",
+                        "from_value": 0.0,
+                        "from_coordinate": -64,
+                        "to_value": 1.0,
+                        "to_coordinate": -40
+                    },
+                    "right": {
                         "type": "minecraft:add",
-                        "argument1": -0.078125,
-                        "argument2": {
-                            "type": "minecraft:mul",
-                            "argument1": {
-                                "type": "minecraft:y_clamped_gradient",
-                                "from_value": 1.0,
-                                "from_y": 240,
-                                "to_value": 0.0,
-                                "to_y": 256
-                            },
-                            "argument2": {
-                                "type": "minecraft:add",
-                                "argument1": 0.078125,
-                                "argument2": {
-                                    "type": "minecraft:clamp",
-                                    "input": {
-                                        "type": "minecraft:add",
-                                        "argument1": -0.703125,
-                                        "argument2": {
-                                            "type": "minecraft:mul",
-                                            "argument1": 4.0,
-                                            "argument2": {
-                                                "type": "minecraft:quarter_negative",
-                                                "argument": {
-                                                    "type": "minecraft:mul",
-                                                    "argument1": "bracken:panacea/depth",
-                                                    "argument2": {
-                                                        "type": "minecraft:cache_2d",
-                                                        "argument": "bracken:panacea/factor"
+                        "left": -0.1171875,
+                        "right": {
+                            "type": "minecraft:add",
+                            "left": -0.078125,
+                            "right": {
+                                "type": "minecraft:mul",
+                                "left": {
+                                    "type": "minecraft:gradient",
+                                    "from_value": 1.0,
+                                    "from_coordinate": 240,
+                                    "to_value": 0.0,
+                                    "to_coordinate": 256
+                                },
+                                "right": {
+                                    "type": "minecraft:add",
+                                    "left": 0.078125,
+                                    "right": {
+                                        "type": "minecraft:clamp",
+                                        "input": {
+                                            "type": "minecraft:add",
+                                            "left": -0.703125,
+                                            "right": {
+                                                "type": "minecraft:mul",
+                                                "left": 4.0,
+                                                "right": {
+                                                    "type": "minecraft:quarter_negative",
+                                                    "input": {
+                                                        "type": "minecraft:mul",
+                                                        "left": "bracken:panacea/depth",
+                                                        "right": {
+                                                            "type": "minecraft:cache",
+                                                            "input": "bracken:panacea/factor"
+                                                        }
                                                     }
                                                 }
                                             }
-                                        }
-                                    },
-                                    "max": 64.0,
-                                    "min": -64.0
+                                        },
+                                        "max": 64.0,
+                                        "min": -64.0
+                                    }
                                 }
                             }
                         }
@@ -994,120 +999,51 @@
             "shift_z": "minecraft:shift_z",
             "xz_scale": 0.25,
             "y_scale": 0.0
-        },
-        "vein_gap": {
-            "type": "minecraft:noise",
-            "noise": "minecraft:ore_gap",
-            "xz_scale": 1.0,
-            "y_scale": 1.0
-        },
-        "vein_ridged": {
-            "type": "minecraft:add",
-            "argument1": -0.07999999821186066,
-            "argument2": {
-                "type": "minecraft:max",
-                "argument1": {
-                    "type": "minecraft:abs",
-                    "argument": {
-                        "type": "minecraft:interpolated",
-                        "argument": {
-                            "type": "minecraft:range_choice",
-                            "input": "minecraft:y",
-                            "max_exclusive": 51.0,
-                            "min_inclusive": -60.0,
-                            "when_in_range": {
-                                "type": "minecraft:noise",
-                                "noise": "minecraft:ore_vein_a",
-                                "xz_scale": 4.0,
-                                "y_scale": 4.0
-                            },
-                            "when_out_of_range": 0.0
-                        }
-                    }
-                },
-                "argument2": {
-                    "type": "minecraft:abs",
-                    "argument": {
-                        "type": "minecraft:interpolated",
-                        "argument": {
-                            "type": "minecraft:range_choice",
-                            "input": "minecraft:y",
-                            "max_exclusive": 51.0,
-                            "min_inclusive": -60.0,
-                            "when_in_range": {
-                                "type": "minecraft:noise",
-                                "noise": "minecraft:ore_vein_b",
-                                "xz_scale": 4.0,
-                                "y_scale": 4.0
-                            },
-                            "when_out_of_range": 0.0
-                        }
-                    }
-                }
-            }
-        },
-        "vein_toggle": {
-            "type": "minecraft:interpolated",
-            "argument": {
-                "type": "minecraft:range_choice",
-                "input": "minecraft:y",
-                "max_exclusive": 51.0,
-                "min_inclusive": -60.0,
-                "when_in_range": {
-                    "type": "minecraft:noise",
-                    "noise": "minecraft:ore_veininess",
-                    "xz_scale": 1.5,
-                    "y_scale": 1.5
-                },
-                "when_out_of_range": 0.0
-            }
         }
     },
     "spawn_target": [
         {
-            "erosion": [
+            "minecraft:overworld/erosion": [
                 -1,
                 1
             ],
-            "depth": 0,
-            "weirdness": [
+            
+            "minecraft:overworld/ridges": [
                 -1,
                 -0.16
             ],
-            "offset": 0,
-            "temperature": [
+            "minecraft:overworld/temperature": [
                 -1,
                 1
             ],
-            "humidity": [
+            "minecraft:overworld/vegetation": [
                 -1,
                 1
             ],
-            "continentalness": [
+            "minecraft:overworld/continents": [
                 -0.11,
                 1
             ]
         },
         {
-            "erosion": [
+            "minecraft:overworld/erosion": [
                 -1,
                 1
             ],
-            "depth": 0,
-            "weirdness": [
+            
+            "minecraft:overworld/ridges": [
                 0.16,
                 1
             ],
-            "offset": 0,
-            "temperature": [
+            "minecraft:overworld/temperature": [
                 -1,
                 1
             ],
-            "humidity": [
+            "minecraft:overworld/vegetation": [
                 -1,
                 1
             ],
-            "continentalness": [
+            "minecraft:overworld/continents": [
                 -0.11,
                 1
             ]

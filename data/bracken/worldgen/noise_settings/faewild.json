@@ -1,15 +1,15 @@
 {
     "sea_level": 0,
     "disable_mob_generation": false,
-    "aquifers_enabled": false,
-    "ore_veins_enabled": false,
+    
+    
     "legacy_random_source": false,
     "default_block": {
-        "Name": "minecraft:stone"
+        "id": "minecraft:stone"
     },
     "default_fluid": {
-        "Name": "minecraft:water",
-        "Properties": {
+        "id": "minecraft:water",
+        "properties": {
             "level": "0"
         }
     },
@@ -21,56 +21,56 @@
     },
     "noise_router": {
         "final_density": {
-            "argument1": {
-                "argument": {
-                    "argument1": 0.64,
-                    "argument2": {
-                        "argument": {
-                            "argument": {
+            "left": {
+                "input": {
+                    "left": 0.64,
+                    "right": {
+                        "input": {
+                            "input": {
                                 "type": "minecraft:add",
-                                "argument1": {
+                                "left": {
                                     "type": "minecraft:mul",
-                                    "argument1": {
-                                        "type": "minecraft:y_clamped_gradient",
-                                        "from_y": 20,
-                                        "to_y": 80,
+                                    "left": {
+                                        "type": "minecraft:gradient",
+                                        "from_coordinate": 20,
+                                        "to_coordinate": 80,
                                         "from_value": 0,
                                         "to_value": 1
                                     },
-                                    "argument2": {
+                                    "right": {
                                         "type": "minecraft:add",
-                                        "argument1": {
+                                        "left": {
                                             "type": "minecraft:add",
-                                            "argument1": {
+                                            "left": {
                                                 "type": "minecraft:mul",
-                                                "argument1": {
-                                                    "type": "minecraft:y_clamped_gradient",
-                                                    "from_y": 80,
-                                                    "to_y": 328,
+                                                "left": {
+                                                    "type": "minecraft:gradient",
+                                                    "from_coordinate": 80,
+                                                    "to_coordinate": 328,
                                                     "from_value": 1,
                                                     "to_value": 0
                                                 },
-                                                "argument2": {
+                                                "right": {
                                                     "type": "minecraft:add",
-                                                    "argument1": {
+                                                    "left": {
                                                         "max_exclusive": 1.5625,
                                                         "when_in_range": {
-                                                            "argument1": "bracken:the_faewild/sloped_cheese",
-                                                            "argument2": {
-                                                                "argument1": 5,
-                                                                "argument2": "minecraft:overworld/caves/entrances",
+                                                            "left": "bracken:the_faewild/sloped_cheese",
+                                                            "right": {
+                                                                "left": 5,
+                                                                "right": "minecraft:overworld/caves/entrances",
                                                                 "type": "minecraft:mul"
                                                             },
                                                             "type": "minecraft:min"
                                                         },
                                                         "when_out_of_range": {
-                                                            "argument1": {
-                                                                "argument1": {
-                                                                    "argument1": {
-                                                                        "argument1": {
-                                                                            "argument1": 4,
-                                                                            "argument2": {
-                                                                                "argument": {
+                                                            "left": {
+                                                                "left": {
+                                                                    "left": {
+                                                                        "left": {
+                                                                            "left": 4,
+                                                                            "right": {
+                                                                                "input": {
                                                                                     "noise": "minecraft:cave_layer",
                                                                                     "xz_scale": 1,
                                                                                     "y_scale": 8,
@@ -80,11 +80,11 @@
                                                                             },
                                                                             "type": "minecraft:mul"
                                                                         },
-                                                                        "argument2": {
-                                                                            "argument1": {
+                                                                        "right": {
+                                                                            "left": {
                                                                                 "input": {
-                                                                                    "argument1": 0.27,
-                                                                                    "argument2": {
+                                                                                    "left": 0.27,
+                                                                                    "right": {
                                                                                         "noise": "minecraft:cave_cheese",
                                                                                         "xz_scale": 1,
                                                                                         "y_scale": 0.6666666666666666,
@@ -96,12 +96,12 @@
                                                                                 "max": 1,
                                                                                 "type": "minecraft:clamp"
                                                                             },
-                                                                            "argument2": {
+                                                                            "right": {
                                                                                 "input": {
-                                                                                    "argument1": 1.5,
-                                                                                    "argument2": {
-                                                                                        "argument1": -0.64,
-                                                                                        "argument2": "bracken:the_faewild/sloped_cheese",
+                                                                                    "left": 1.5,
+                                                                                    "right": {
+                                                                                        "left": -0.64,
+                                                                                        "right": "bracken:the_faewild/sloped_cheese",
                                                                                         "type": "minecraft:mul"
                                                                                     },
                                                                                     "type": "minecraft:add"
@@ -114,17 +114,17 @@
                                                                         },
                                                                         "type": "minecraft:add"
                                                                     },
-                                                                    "argument2": "minecraft:overworld/caves/entrances",
+                                                                    "right": "minecraft:overworld/caves/entrances",
                                                                     "type": "minecraft:min"
                                                                 },
-                                                                "argument2": {
-                                                                    "argument1": "minecraft:overworld/caves/spaghetti_2d",
-                                                                    "argument2": "minecraft:overworld/caves/spaghetti_roughness_function",
+                                                                "right": {
+                                                                    "left": "minecraft:overworld/caves/spaghetti_2d",
+                                                                    "right": "minecraft:overworld/caves/spaghetti_roughness_function",
                                                                     "type": "minecraft:add"
                                                                 },
                                                                 "type": "minecraft:min"
                                                             },
-                                                            "argument2": {
+                                                            "right": {
                                                                 "max_exclusive": 0.03,
                                                                 "when_in_range": -1000000,
                                                                 "when_out_of_range": "minecraft:overworld/caves/pillars",
@@ -138,15 +138,15 @@
                                                         "min_inclusive": -1000000,
                                                         "type": "minecraft:range_choice"
                                                     },
-                                                    "argument2": 23.4375
+                                                    "right": 23.4375
                                                 }
                                             },
-                                            "argument2": -23.4375
+                                            "right": -23.4375
                                         },
-                                        "argument2": 0.234375
+                                        "right": 0.234375
                                     }
                                 },
-                                "argument2": -0.234375
+                                "right": -0.234375
                             },
                             "type": "minecraft:blend_density"
                         },
@@ -156,97 +156,35 @@
                 },
                 "type": "minecraft:squeeze"
             },
-            "argument2": "minecraft:overworld/caves/noodle",
+            "right": "minecraft:overworld/caves/noodle",
             "type": "minecraft:min"
-        },
-        "vein_toggle": {
-            "argument": {
-                "max_exclusive": 51,
-                "when_in_range": {
-                    "noise": "minecraft:ore_veininess",
-                    "xz_scale": 1.5,
-                    "y_scale": 1.5,
-                    "type": "minecraft:noise"
-                },
-                "when_out_of_range": 0,
-                "input": "minecraft:y",
-                "min_inclusive": -60,
-                "type": "minecraft:range_choice"
-            },
-            "type": "minecraft:interpolated"
-        },
-        "vein_ridged": {
-            "argument1": -0.07999999821186066,
-            "argument2": {
-                "argument1": {
-                    "argument": {
-                        "argument": {
-                            "max_exclusive": 51,
-                            "when_in_range": {
-                                "noise": "minecraft:ore_vein_a",
-                                "xz_scale": 4,
-                                "y_scale": 4,
-                                "type": "minecraft:noise"
-                            },
-                            "when_out_of_range": 0,
-                            "input": "minecraft:y",
-                            "min_inclusive": -60,
-                            "type": "minecraft:range_choice"
-                        },
-                        "type": "minecraft:interpolated"
-                    },
-                    "type": "minecraft:abs"
-                },
-                "argument2": {
-                    "argument": {
-                        "argument": {
-                            "max_exclusive": 51,
-                            "when_in_range": {
-                                "noise": "minecraft:ore_vein_b",
-                                "xz_scale": 4,
-                                "y_scale": 4,
-                                "type": "minecraft:noise"
-                            },
-                            "when_out_of_range": 0,
-                            "input": "minecraft:y",
-                            "min_inclusive": -60,
-                            "type": "minecraft:range_choice"
-                        },
-                        "type": "minecraft:interpolated"
-                    },
-                    "type": "minecraft:abs"
-                },
-                "type": "minecraft:max"
-            },
-            "type": "minecraft:add"
-        },
-        "vein_gap": {
-            "noise": "minecraft:ore_gap",
-            "xz_scale": 1,
-            "y_scale": 1,
-            "type": "minecraft:noise"
         },
         "erosion": "minecraft:overworld/erosion",
         "depth": "bracken:the_faewild/depth",
         "ridges": "minecraft:overworld/ridges",
-        "preliminary_surface_level": {
-            "argument1": 4,
-            "argument2": {
-                "argument": {
-                    "argument1": {
-                        "argument1": 0,
-                        "argument2": "bracken:the_faewild/depth",
-                        "type": "minecraft:add"
+        "chunk_surface_level": {
+            "type": "minecraft:interpolated",
+            "cell_size_xz": 16,
+            "cell_size_y": 1,
+            "input": {
+                "left": 4,
+                "right": {
+                    "input": {
+                        "left": {
+                            "left": 0,
+                            "right": "bracken:the_faewild/depth",
+                            "type": "minecraft:add"
+                        },
+                        "right": {
+                            "input": "bracken:the_faewild/factor",
+                            "type": "minecraft:cache"
+                        },
+                        "type": "minecraft:mul"
                     },
-                    "argument2": {
-                        "argument": "bracken:the_faewild/factor",
-                        "type": "minecraft:cache_2d"
-                    },
-                    "type": "minecraft:mul"
+                    "type": "minecraft:quarter_negative"
                 },
-                "type": "minecraft:quarter_negative"
-            },
-            "type": "minecraft:mul"
+                "type": "minecraft:mul"
+            }
         },
         "lava": {
             "noise": "minecraft:aquifer_lava",
@@ -292,7 +230,7 @@
             "type": "minecraft:noise"
         }
     },
-    "surface_rule": {
+    "material_rule": {
         "type": "minecraft:sequence",
         "sequence": [
             {
@@ -318,7 +256,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:grass_block"
+                                    "id": "minecraft:grass_block"
                                 }
                             }
                         },
@@ -334,7 +272,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:dirt"
+                                    "id": "minecraft:dirt"
                                 }
                             }
                         }
@@ -364,7 +302,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:grass_block"
+                                    "id": "minecraft:grass_block"
                                 }
                             }
                         },
@@ -380,7 +318,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:dirt"
+                                    "id": "minecraft:dirt"
                                 }
                             }
                         }
@@ -410,7 +348,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:grass_block"
+                                    "id": "minecraft:grass_block"
                                 }
                             }
                         },
@@ -426,7 +364,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:dirt"
+                                    "id": "minecraft:dirt"
                                 }
                             }
                         }
@@ -456,7 +394,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:grass_block"
+                                    "id": "minecraft:grass_block"
                                 }
                             }
                         },
@@ -472,7 +410,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:dirt"
+                                    "id": "minecraft:dirt"
                                 }
                             }
                         }
@@ -502,7 +440,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:grass_block"
+                                    "id": "minecraft:grass_block"
                                 }
                             }
                         },
@@ -518,7 +456,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:dirt"
+                                    "id": "minecraft:dirt"
                                 }
                             }
                         }
@@ -548,7 +486,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:grass_block"
+                                    "id": "minecraft:grass_block"
                                 }
                             }
                         },
@@ -564,7 +502,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:dirt"
+                                    "id": "minecraft:dirt"
                                 }
                             }
                         }
@@ -594,7 +532,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:warped_nylium"
+                                    "id": "minecraft:warped_nylium"
                                 }
                             }
                         },
@@ -610,7 +548,7 @@
                             "then_run": {
                                 "type": "minecraft:block",
                                 "result_state": {
-                                    "Name": "minecraft:netherrack"
+                                    "id": "minecraft:netherrack"
                                 }
                             }
                         }
@@ -621,49 +559,47 @@
     },
     "spawn_target": [
         {
-            "erosion": [
+            "minecraft:overworld/erosion": [
                 -1,
                 1
             ],
-            "depth": 0,
-            "weirdness": [
+            
+            "minecraft:overworld/ridges": [
                 -1,
                 -0.16
             ],
-            "offset": 0,
-            "temperature": [
+            "minecraft:overworld/temperature": [
                 -1,
                 1
             ],
-            "humidity": [
+            "minecraft:overworld/vegetation": [
                 -1,
                 1
             ],
-            "continentalness": [
+            "minecraft:overworld/continents": [
                 -0.11,
                 1
             ]
         },
         {
-            "erosion": [
+            "minecraft:overworld/erosion": [
                 -1,
                 1
             ],
-            "depth": 0,
-            "weirdness": [
+            
+            "minecraft:overworld/ridges": [
                 0.16,
                 1
             ],
-            "offset": 0,
-            "temperature": [
+            "minecraft:overworld/temperature": [
                 -1,
                 1
             ],
-            "humidity": [
+            "minecraft:overworld/vegetation": [
                 -1,
                 1
             ],
-            "continentalness": [
+            "minecraft:overworld/continents": [
                 -0.11,
                 1
             ]

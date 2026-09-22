@@ -1,15 +1,15 @@
 {
     "sea_level": 0,
     "disable_mob_generation": false,
-    "aquifers_enabled": false,
-    "ore_veins_enabled": false,
+    
+    
     "legacy_random_source": false,
     "default_block": {
-        "Name": "minecraft:air"
+        "id": "minecraft:air"
     },
     "default_fluid": {
-        "Name": "minecraft:water",
-        "Properties": {
+        "id": "minecraft:water",
+        "properties": {
             "level": "0"
         }
     },
@@ -26,44 +26,44 @@
         "erosion": 0.0,
         "final_density": {
             "type": "minecraft:squeeze",
-            "argument": {
+            "input": {
                 "type": "minecraft:mul",
-                "argument1": 0.64,
-                "argument2": {
+                "left": 0.64,
+                "right": {
                     "type": "minecraft:interpolated",
-                    "argument": {
+                    "input": {
                         "type": "minecraft:blend_density",
-                        "argument": {
+                        "input": {
                             "type": "minecraft:add",
-                            "argument1": 2.5,
-                            "argument2": {
+                            "left": 2.5,
+                            "right": {
                                 "type": "minecraft:mul",
-                                "argument1": {
-                                    "type": "minecraft:y_clamped_gradient",
+                                "left": {
+                                    "type": "minecraft:gradient",
                                     "from_value": 0.0,
-                                    "from_y": -8,
+                                    "from_coordinate": -8,
                                     "to_value": 1.0,
-                                    "to_y": 24
+                                    "to_coordinate": 24
                                 },
-                                "argument2": {
+                                "right": {
                                     "type": "minecraft:add",
-                                    "argument1": -2.5,
-                                    "argument2": {
+                                    "left": -2.5,
+                                    "right": {
                                         "type": "minecraft:add",
-                                        "argument1": 0.9375,
-                                        "argument2": {
+                                        "left": 0.9375,
+                                        "right": {
                                             "type": "minecraft:mul",
-                                            "argument1": {
-                                                "type": "minecraft:y_clamped_gradient",
+                                            "left": {
+                                                "type": "minecraft:gradient",
                                                 "from_value": 1.0,
-                                                "from_y": 104,
+                                                "from_coordinate": 104,
                                                 "to_value": 0.0,
-                                                "to_y": 128
+                                                "to_coordinate": 128
                                             },
-                                            "argument2": {
+                                            "right": {
                                                 "type": "minecraft:add",
-                                                "argument1": -0.9375,
-                                                "argument2": 0
+                                                "left": -0.9375,
+                                                "right": 0
                                             }
                                         }
                                     }
@@ -76,7 +76,7 @@
         },
         "fluid_level_floodedness": 0.0,
         "fluid_level_spread": 0.0,
-        "preliminary_surface_level": 0.0,
+        "chunk_surface_level": 0.0,
         "lava": 0.0,
         "ridges": 0.0,
         "temperature": {
@@ -96,60 +96,55 @@
             "shift_z": "minecraft:shift_z",
             "xz_scale": 0.25,
             "y_scale": 0.0
-        },
-        "vein_gap": 0.0,
-        "vein_ridged": 0.0,
-        "vein_toggle": 0.0
+        }
     },
-    "surface_rule": {
+    "material_rule": {
         "type": "minecraft:sequence",
         "sequence": []
     },
     "spawn_target": [
         {
-            "erosion": [
+            "minecraft:overworld/erosion": [
                 -1,
                 1
             ],
-            "depth": 0,
-            "weirdness": [
+            
+            "minecraft:overworld/ridges": [
                 -1,
                 -0.16
             ],
-            "offset": 0,
-            "temperature": [
+            "minecraft:overworld/temperature": [
                 -1,
                 1
             ],
-            "humidity": [
+            "minecraft:overworld/vegetation": [
                 -1,
                 1
             ],
-            "continentalness": [
+            "minecraft:overworld/continents": [
                 -0.11,
                 1
             ]
         },
         {
-            "erosion": [
+            "minecraft:overworld/erosion": [
                 -1,
                 1
             ],
-            "depth": 0,
-            "weirdness": [
+            
+            "minecraft:overworld/ridges": [
                 0.16,
                 1
             ],
-            "offset": 0,
-            "temperature": [
+            "minecraft:overworld/temperature": [
                 -1,
                 1
             ],
-            "humidity": [
+            "minecraft:overworld/vegetation": [
                 -1,
                 1
             ],
-            "continentalness": [
+            "minecraft:overworld/continents": [
                 -0.11,
                 1
             ]
