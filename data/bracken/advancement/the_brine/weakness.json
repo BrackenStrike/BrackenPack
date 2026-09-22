@@ -1,38 +1,44 @@
 {
-	"parent": "bracken:the_brine/enter_the_brine",
-	"display": {
-		"title": {
-			"translate": "Keeping the Peace"
-		},
-		"description": {
-			"translate": "Approach a Realmkeeper station",
-			"color": "green"
-		},
-		"icon": {
-			"id": "minecraft:gold_block"
-		},
-		"frame": "task",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
-	},
-	"criteria": {
-		"bracken:the_brine/weakness1": {
-			"trigger": "minecraft:effects_changed",
-			"conditions": {
-				"effects": {
-					"minecraft:weakness": {}
-				},
-				"player": {
-					"location": {
-						"dimension": "bracken:the_brine",
-						"structures": "bracken:brine_station"
-					}
-				}
-			}
-		}
-	},
-	"requirements": [[
-		"bracken:the_brine/weakness1"
-	]]
+    "parent": "bracken:the_brine/enter_the_brine",
+    "display": {
+        "title": {
+            "translate": "Keeping the Peace"
+        },
+        "description": {
+            "translate": "Approach a Realmkeeper station",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:gold_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:the_brine/weakness1": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:weakness": {}
+                },
+                "player": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:location": {
+                            "dimension": "bracken:the_brine",
+                            "structures": "bracken:brine_station"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:the_brine/weakness1"
+        ]
+    ]
 }

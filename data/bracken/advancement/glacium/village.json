@@ -20,8 +20,8 @@
 		"bracken:glacium/village1": {
 			"trigger": "minecraft:player_interacted_with_entity",
 			"conditions": {
-				"entity": [{
-					"condition": "minecraft:entity_properties",
+				"entity": {
+					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
 						"minecraft:entity_type": "minecraft:snow_golem",
@@ -29,7 +29,7 @@
 							"dimension": "bracken:glacium"
 						}
 					}
-				}]
+				}
 			}
 		}
 	},

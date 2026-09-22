@@ -3,15 +3,15 @@
 		"click_brewing_stand": {
 			"trigger": "minecraft:default_block_use",
 			"conditions": {
-				"location": [{
-					"condition": "location_check",
+				"location": {
+					"type": "location_check",
 					"predicate": {
 						"block": {
 							"blocks": "minecraft:brewing_stand"
 						},
 						"dimension": "bracken:the_brine"
 					}
-				}]
+				}
 			}
 		}
 	},

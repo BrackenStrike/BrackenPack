@@ -1,34 +1,40 @@
 {
-	"parent": "bracken:glacium/enter_glacium",
-	"display": {
-		"title": {
-			"translate": "Middle-Era Watchtower"
-		},
-		"description": {
-			"translate": "Visit a frozen watchtower",
-			"color": "green"
-		},
-		"icon": {
-			"id": "minecraft:cracked_stone_bricks"
-		},
-		"frame": "task",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
-	},
-	"criteria": {
-		"bracken:glacium/watchtower": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"location": {
-						"structures": "bracken:glacium_watchtower"
-					}
-				}
-			}
-		}
-	},
-	"requirements": [[
-		"bracken:glacium/watchtower"
-	]]
+    "parent": "bracken:glacium/enter_glacium",
+    "display": {
+        "title": {
+            "translate": "Middle-Era Watchtower"
+        },
+        "description": {
+            "translate": "Visit a frozen watchtower",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:cracked_stone_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:glacium/watchtower": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:location": {
+                            "structures": "bracken:glacium_watchtower"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "bracken:glacium/watchtower"
+        ]
+    ]
 }

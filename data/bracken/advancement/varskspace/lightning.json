@@ -3,8 +3,8 @@
 		"requirement": {
 			"trigger": "minecraft:lightning_strike",
 			"conditions": {
-				"lightning": [{
-					"condition": "minecraft:entity_properties",
+				"lightning": {
+					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
 						
@@ -21,7 +21,7 @@
 					]
               }
 					}
-				}]
+				}
 			}
 		}
 	},

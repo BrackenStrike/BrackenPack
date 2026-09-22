@@ -1,39 +1,43 @@
 {
-	"parent": "bracken:omnidrome/boss",
-	"display": {
-		"title": {
-			"translate": "Induced Apoptosis"
-		},
-		"description": {
-			"translate": "End the Disruptor's rebellion",
-			"color": "green"
-		},
-		"icon": {
-			"id": "minecraft:fishing_rod",
-			"components": {
-				"minecraft:item_model": "bracken:null"
-			}
-		},
-		"frame": "challenge",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
-	},
-	"criteria": {
-		"bracken:omnidrome/kill_boss1": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"entity": {
-					"minecraft:entity_type": "minecraft:elder_guardian",
-					"nbt": "{Tags:[\"bp.the_disruptor\"]}",
-					"location": {
-						"dimension": "bracken:omnidrome"
-					}
-				}
-			}
-		}
-	},
-	"rewards": {
-		"function": "bracken:player/omni_powers/trigger_commands/unlock/k_disruptor"
-	}
+    "parent": "bracken:omnidrome/boss",
+    "display": {
+        "title": {
+            "translate": "Induced Apoptosis"
+        },
+        "description": {
+            "translate": "End the Disruptor's rebellion",
+            "color": "green"
+        },
+        "icon": {
+            "id": "minecraft:fishing_rod",
+            "components": {
+                "minecraft:item_model": "bracken:null"
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bracken:omnidrome/kill_boss1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:entity_type": "minecraft:elder_guardian",
+                        "nbt": "{Tags:[\"bp.the_disruptor\"]}",
+                        "minecraft:location": {
+                            "dimension": "bracken:omnidrome"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/omni_powers/trigger_commands/unlock/k_disruptor"
+    }
 }

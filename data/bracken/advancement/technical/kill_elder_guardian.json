@@ -1,18 +1,22 @@
 {
-	"criteria": {
-		"kill_elder_guardian": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"entity": {
-					"minecraft:entity_type": "minecraft:elder_guardian",
-					"location": {
-						"dimension": "minecraft:overworld"
-					}
-				}
-			}
-		}
-	},
-	"rewards": {
-		"function": "bracken:dimension/commands/other/summon_brine_portal_map"
-	}
+    "criteria": {
+        "kill_elder_guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:entity_type": "minecraft:elder_guardian",
+                        "minecraft:location": {
+                            "dimension": "minecraft:overworld"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:dimension/commands/other/summon_brine_portal_map"
+    }
 }

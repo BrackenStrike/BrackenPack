@@ -1,24 +1,28 @@
 {
-	"criteria": {
-		"use_teleport_item": {
-			"trigger": "minecraft:consume_item",
-			"conditions": {
-				"player": {
-					"nbt": "{Tags:[\"bp.enderling\"]}"
-				},
-				"item": {
-					"predicates": {
-						"minecraft:custom_data": {
-							"bracken": {
-								"id": "enderling_controlled_teleport"
-							}
-						}
-					}
-				}
-			}
-		}
-	},
-	"rewards": {
-		"function": "bracken:player/species/enderling/teleport/start"
-	}
+    "criteria": {
+        "use_teleport_item": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags:[\"bp.enderling\"]}"
+                    }
+                },
+                "item": {
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "bracken": {
+                                "id": "enderling_controlled_teleport"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/species/enderling/teleport/start"
+    }
 }

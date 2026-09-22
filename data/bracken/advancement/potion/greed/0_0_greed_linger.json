@@ -1,18 +1,22 @@
 {
-	"criteria": {
-		"lingering": {
+    "criteria": {
+        "lingering": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "source": {
-                    "minecraft:entity_type": "minecraft:area_effect_cloud",
-                    "predicates": {
-						"minecraft:custom_data": "{bp.potion:104b,bp:[{greed_duration:0b},{greed_amplifier:0b}]}"
-					}
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:entity_type": "minecraft:area_effect_cloud",
+                        "predicates": {
+                            "minecraft:custom_data": "{bp.potion:104b,bp:[{greed_duration:0b},{greed_amplifier:0b}]}"
+                        }
+                    }
                 }
             }
         }
-	},
-	"rewards": {
-		"function": "bracken:player/potion/greed/0_0_greed_linger"
-	}
+    },
+    "rewards": {
+        "function": "bracken:player/potion/greed/0_0_greed_linger"
+    }
 }

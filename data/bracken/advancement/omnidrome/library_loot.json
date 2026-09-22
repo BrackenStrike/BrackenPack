@@ -19,7 +19,7 @@
 		"library_loot1": {
 			"trigger": "minecraft:player_generates_container_loot",
 			"conditions": {
-				"loot_table": "bracken:omnidrome/omnidrome_library"
+				"loot_tables": "bracken:omnidrome/omnidrome_library"
 			}
 		}
 	},
