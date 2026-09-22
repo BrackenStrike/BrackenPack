@@ -1,12 +1,10 @@
 {
     "type": "minecraft:netherrack_replace_blobs",
-    "config": {
         "target": {
-            "Name": "minecraft:sand"
+            "id": "minecraft:sand"
         },
         "state": {
-            "Name": "minecraft:dead_horn_coral_block"
+            "id": "minecraft:dead_horn_coral_block"
         },
         "radius": 0
-    }
 }

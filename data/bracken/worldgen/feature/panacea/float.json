@@ -1,11 +1,10 @@
 {
     "type": "minecraft:geode",
-    "config": {
         "blocks": {
             "alternate_inner_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:cobblestone"
+                    "id": "minecraft:cobblestone"
                 }
             },
             "cannot_replace": "#minecraft:features_cannot_replace",
@@ -15,19 +14,19 @@
                    
                     {
                         "data": {
-                            "Name": "minecraft:copper_ore"
+                            "id": "minecraft:copper_ore"
                         },
                         "weight": 2
                     },
                     {
                         "data": {
-                            "Name": "minecraft:water"
+                            "id": "minecraft:water"
                         },
                         "weight": 2000
                     },
                     {
                         "data": {
-                            "Name": "minecraft:cobblestone"
+                            "id": "minecraft:cobblestone"
                         },
                         "weight": 12000
                     }
@@ -36,25 +35,25 @@
             "inner_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:mossy_cobblestone"
+                    "id": "minecraft:mossy_cobblestone"
                 }
             },
             "inner_placements": [
                 {
-                    "Name": "minecraft:water"
+                    "id": "minecraft:water"
                 }
             ],
             "invalid_blocks": "#minecraft:features_cannot_replace",
             "middle_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:mossy_cobblestone"
+                    "id": "minecraft:mossy_cobblestone"
                 }
             },
             "outer_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:moss_block"
+                    "id": "minecraft:moss_block"
                 }
             }
         },
@@ -86,5 +85,4 @@
         },
         "use_alternate_layer0_chance": 0.085,
         "use_potential_placements_chance": 0.35
-    }
 }

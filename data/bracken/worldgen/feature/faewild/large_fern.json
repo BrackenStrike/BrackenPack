@@ -1,11 +1,9 @@
 {
     "type": "minecraft:simple_block",
-    "config": {
         "to_place": {
             "state": {
-                "Name": "minecraft:large_fern"
+                "id": "minecraft:large_fern"
             },
             "type": "minecraft:simple"
         }
-    }
 }

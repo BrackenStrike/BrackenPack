@@ -1,6 +1,5 @@
 {
     "type": "minecraft:random_selector",
-    "config": {
         "features": [
            
             {
@@ -8,18 +7,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "facing": "up",
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:amethyst_cluster"
+                                    "id": "minecraft:amethyst_cluster"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -66,18 +63,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "facing": "up",
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:large_amethyst_bud"
+                                    "id": "minecraft:large_amethyst_bud"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -124,14 +119,12 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:brown_mushroom"
+                                    "id": "minecraft:brown_mushroom"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -178,18 +171,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "facing": "up",
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:medium_amethyst_bud"
+                                    "id": "minecraft:medium_amethyst_bud"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -236,18 +227,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "facing": "up",
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:small_amethyst_bud"
+                                    "id": "minecraft:small_amethyst_bud"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -282,17 +271,15 @@
         "default": {
             "feature": {
                 "type": "minecraft:simple_block",
-                "config": {
                     "to_place": {
                         "type": "minecraft:simple",
                         "state": {
-                            "Properties": {
+                            "properties": {
                                 "waterlogged": "false"
                             },
-                            "Name": "minecraft:bubble_coral"
+                            "id": "minecraft:bubble_coral"
                         }
                     }
-                }
             },
             "placement": [
                 {
@@ -322,5 +309,4 @@
                 }
             ]
         }
-    }
 }

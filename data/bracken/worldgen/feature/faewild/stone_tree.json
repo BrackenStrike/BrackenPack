@@ -1,18 +1,17 @@
 {
     "type": "minecraft:huge_fungus",
-    "config": {
         "hat_state": {
-            "Name": "minecraft:light_blue_stained_glass"
+            "id": "minecraft:light_blue_stained_glass"
         },
         "decor_state": {
-            "Name": "minecraft:sea_lantern"
+            "id": "minecraft:sea_lantern"
         },
         "planted": false,
         "valid_base_block": {
-            "Name": "minecraft:warped_nylium"
+            "id": "minecraft:warped_nylium"
         },
         "stem_state": {
-            "Name": "minecraft:chiseled_stone_bricks"
+            "id": "minecraft:chiseled_stone_bricks"
         },
         "replaceable_blocks": {
             "type": "minecraft:matching_blocks",
@@ -28,5 +27,4 @@
                 "minecraft:twisting_vines_plant"
             ]
         }
-    }
 }

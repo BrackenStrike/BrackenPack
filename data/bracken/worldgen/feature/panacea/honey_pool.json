@@ -1,13 +1,12 @@
 {
-    "config": {
+    "type": "minecraft:delta_feature",
         "contents": {
-            "Name": "minecraft:honey_block"
+            "id": "minecraft:honey_block"
         },
         "rim": {
-            "Name": "minecraft:smooth_red_sandstone"
+            "id": "minecraft:smooth_red_sandstone"
         },
         "size": 8,
         "rim_size": 2
-    },
-    "type": "minecraft:delta_feature"
+
 }

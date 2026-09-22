@@ -1,12 +1,10 @@
 {
     "type": "minecraft:netherrack_replace_blobs",
-    "config": {
         "target": {
-            "Name": "minecraft:end_stone"
+            "id": "minecraft:end_stone"
         },
         "state": {
-            "Name": "minecraft:prismarine"
+            "id": "minecraft:prismarine"
         },
         "radius": 6
-    }
 }

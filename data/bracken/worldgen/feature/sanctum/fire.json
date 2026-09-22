@@ -1,9 +1,8 @@
 {
     "type": "minecraft:simple_block",
-    "config": {
         "to_place": {
             "state": {
-                "Properties": {
+                "properties": {
                     "west": "false",
                     "up": "false",
                     "south": "false",
@@ -11,9 +10,8 @@
                     "east": "false",
                     "age": "0"
                 },
-                "Name": "minecraft:fire"
+                "id": "minecraft:fire"
             },
             "type": "minecraft:simple"
         }
-    }
 }

@@ -1,12 +1,10 @@
 {
     "type": "minecraft:netherrack_replace_blobs",
-    "config": {
         "target": {
-            "Name": "minecraft:deepslate"
+            "id": "minecraft:deepslate"
         },
         "state": {
-            "Name": "minecraft:magma_block"
+            "id": "minecraft:magma_block"
         },
         "radius": 0
-    }
 }

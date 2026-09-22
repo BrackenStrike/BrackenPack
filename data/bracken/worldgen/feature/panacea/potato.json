@@ -1,6 +1,5 @@
 {
     "type": "minecraft:waterlogged_vegetation_patch",
-    "config": {
         "surface": "floor",
         "depth": 2,
         "vertical_range": 2,
@@ -12,8 +11,8 @@
         "ground_state": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:podzol",
-                "Properties": {
+                "id": "minecraft:podzol",
+                "properties": {
                     "snowy": "false"
                 }
             }
@@ -22,12 +21,10 @@
             "placement": [],
             "feature": {
                 "type": "minecraft:random_selector",
-                "config": {
                     "features": [],
                     "default": {
                         "feature": {
                             "type": "minecraft:block_column",
-                            "config": {
                                 "direction": "up",
                                 "allowed_placement": {
                                     "type": "minecraft:true"
@@ -39,8 +36,8 @@
                                         "provider": {
                                             "type": "minecraft:simple",
                                             "state": {
-                                                "Name": "minecraft:podzol",
-                                                "Properties": {
+                                                "id": "minecraft:podzol",
+                                                "properties": {
                                                     "snowy": "false"
                                                 }
                                             }
@@ -54,8 +51,8 @@
                                                 {
                                                     "weight": 13,
                                                     "data": {
-                                                        "Name": "minecraft:potatoes",
-                                                        "Properties": {
+                                                        "id": "minecraft:potatoes",
+                                                        "properties": {
                                                             "age": "1"
                                                         }
                                                     }
@@ -64,12 +61,9 @@
                                         }
                                     }
                                 ]
-                            }
                         },
                         "placement": []
                     }
-                }
             }
         }
-    }
 }

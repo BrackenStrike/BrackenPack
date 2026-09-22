@@ -1,20 +1,17 @@
 {
     "type": "minecraft:random_selector",
-    "config": {
         "features": [
             {
                 "chance": 0.05,
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:oxidized_copper"
+                                    "id": "minecraft:oxidized_copper"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -61,17 +58,15 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
-                                        "level": 1
+                                    "properties": {
+                                        "level": "1"
                                     },
-                                    "Name": "minecraft:water_cauldron"
+                                    "id": "minecraft:water_cauldron"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -118,17 +113,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "facing": "east"
                                     },
-                                    "Name": "minecraft:damaged_anvil"
+                                    "id": "minecraft:damaged_anvil"
                                 }
                             }
-                        }
+
                     },
                     "placement": [
                         {
@@ -175,17 +169,15 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "facing": "north"
                                     },
-                                    "Name": "minecraft:damaged_anvil"
+                                    "id": "minecraft:damaged_anvil"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -232,19 +224,17 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "waterlogged": "false",
                                         "powered": "false",
                                         "facing": "up"
                                     },
-                                    "Name": "minecraft:lightning_rod"
+                                    "id": "minecraft:lightning_rod"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -291,19 +281,17 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "face": "floor",
                                         "facing": "north"
                                     },
-                                    "Name": "minecraft:lever"
+                                    "id": "minecraft:lever"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -350,19 +338,17 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "face": "floor",
                                         "facing": "west"
                                     },
-                                    "Name": "minecraft:lever"
+                                    "id": "minecraft:lever"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -409,19 +395,17 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "face": "floor",
                                         "facing": "north"
                                     },
-                                    "Name": "minecraft:polished_blackstone_button"
+                                    "id": "minecraft:polished_blackstone_button"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -468,19 +452,17 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "face": "floor",
                                         "facing": "west"
                                     },
-                                    "Name": "minecraft:polished_blackstone_button"
+                                    "id": "minecraft:polished_blackstone_button"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -527,19 +509,17 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "face": "floor",
                                         "facing": "north"
                                     },
-                                    "Name": "minecraft:stone_button"
+                                    "id": "minecraft:stone_button"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -586,19 +566,17 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "face": "floor",
                                         "facing": "west"
                                     },
-                                    "Name": "minecraft:stone_button"
+                                    "id": "minecraft:stone_button"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -645,14 +623,12 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:calcite"
+                                    "id": "minecraft:calcite"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -699,18 +675,15 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
-                                        "powered": "false",
+                                    "properties": {
                                         "inverted": "false"
                                     },
-                                    "Name": "minecraft:daylight_detector"
+                                    "id": "minecraft:daylight_detector"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -757,18 +730,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "enabled": "false",
                                         "facing": "down"
                                     },
-                                    "Name": "minecraft:hopper"
+                                    "id": "minecraft:hopper"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -815,18 +786,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "lit": "false",
                                         "facing": "south"
                                     },
-                                    "Name": "minecraft:furnace"
+                                    "id": "minecraft:furnace"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -873,18 +842,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "lit": "false",
                                         "facing": "north"
                                     },
-                                    "Name": "minecraft:furnace"
+                                    "id": "minecraft:furnace"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -931,18 +898,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "lit": "false",
                                         "facing": "west"
                                     },
-                                    "Name": "minecraft:furnace"
+                                    "id": "minecraft:furnace"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -989,18 +954,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "lit": "false",
                                         "facing": "east"
                                     },
-                                    "Name": "minecraft:furnace"
+                                    "id": "minecraft:furnace"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1047,18 +1010,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "triggered": "false",
                                         "facing": "up"
                                     },
-                                    "Name": "minecraft:dispenser"
+                                    "id": "minecraft:dispenser"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1105,18 +1066,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "facing": "up"
                                     },
-                                    "Name": "minecraft:observer"
+                                    "id": "minecraft:observer"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1163,18 +1122,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "triggered": "false",
                                         "facing": "up"
                                     },
-                                    "Name": "minecraft:dropper"
+                                    "id": "minecraft:dropper"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1221,21 +1178,19 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "open": "false",
                                         "facing": "east",
                                         "half": "bottom",
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:iron_trapdoor"
+                                    "id": "minecraft:iron_trapdoor"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1282,21 +1237,19 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "open": "true",
                                         "facing": "north",
                                         "half": "bottom",
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:iron_trapdoor"
+                                    "id": "minecraft:iron_trapdoor"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1343,21 +1296,19 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "open": "true",
                                         "facing": "south",
                                         "half": "bottom",
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:iron_trapdoor"
+                                    "id": "minecraft:iron_trapdoor"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1404,21 +1355,19 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "open": "true",
                                         "facing": "east",
                                         "half": "bottom",
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:iron_trapdoor"
+                                    "id": "minecraft:iron_trapdoor"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1465,21 +1414,19 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "open": "true",
                                         "facing": "west",
                                         "half": "bottom",
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:iron_trapdoor"
+                                    "id": "minecraft:iron_trapdoor"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1526,19 +1473,17 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "face": "floor",
                                         "facing": "south"
                                     },
-                                    "Name": "minecraft:lever"
+                                    "id": "minecraft:lever"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1585,19 +1530,17 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "powered": "false",
                                         "face": "floor",
                                         "facing": "east"
                                     },
-                                    "Name": "minecraft:lever"
+                                    "id": "minecraft:lever"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1644,17 +1587,15 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
-                                        "power": 0
+                                    "properties": {
+                                        "power": "0"
                                     },
-                                    "Name": "minecraft:heavy_weighted_pressure_plate"
+                                    "id": "minecraft:heavy_weighted_pressure_plate"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1701,18 +1642,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "waterlogged": "false",
                                         "axis": "y"
                                     },
-                                    "Name": "minecraft:iron_chain"
+                                    "id": "minecraft:iron_chain"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1759,14 +1698,12 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:oxidized_cut_copper"
+                                    "id": "minecraft:oxidized_cut_copper"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -1801,18 +1738,16 @@
         "default": {
             "feature": {
                 "type": "minecraft:simple_block",
-                "config": {
                     "to_place": {
                         "type": "minecraft:simple",
                         "state": {
-                            "Properties": {
+                            "properties": {
                                 "waterlogged": "false",
                                 "type": "bottom"
                             },
-                            "Name": "minecraft:oxidized_cut_copper_slab"
+                            "id": "minecraft:oxidized_cut_copper_slab"
                         }
                     }
-                }
             },
             "placement": [
                 {
@@ -1842,5 +1777,4 @@
                 }
             ]
         }
-    }
 }

@@ -1,20 +1,19 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
         },
         "trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:calcite"
+                "id": "minecraft:calcite"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:light",
-                "Properties": {
+                "id": "minecraft:light",
+                "properties": {
                     "waterlogged": "false",
                     "level": "15"
                 }
@@ -35,10 +34,9 @@
         "below_trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:clay"
+                "id": "minecraft:clay"
             }
         },
         "decorators": [
         ]
-    }
 }

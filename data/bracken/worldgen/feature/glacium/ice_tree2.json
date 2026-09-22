@@ -1,6 +1,5 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "ignore_vines": false,
         "minimum_size": {
             "limit": 1,
@@ -11,16 +10,16 @@
         "decorators": [],
         "trunk_provider": {
             "state": {
-                "Properties": {
+                "properties": {
                     "axis": "y"
                 },
-                "Name": "minecraft:polished_basalt"
+                "id": "minecraft:polished_basalt"
             },
             "type": "minecraft:simple"
         },
         "foliage_provider": {
             "state": {
-                "Name": "minecraft:warped_wart_block"
+                "id": "minecraft:warped_wart_block"
             },
             "type": "minecraft:simple"
         },
@@ -38,9 +37,8 @@
         },
         "below_trunk_provider": {
             "state": {
-                "Name": "minecraft:dirt"
+                "id": "minecraft:dirt"
             },
             "type": "minecraft:simple"
         }
-    }
 }

@@ -1,22 +1,21 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
         },
         "trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Properties": {
+                "properties": {
                     "waterlogged": "false"
                 },
-                "Name": "minecraft:sculk_sensor"
+                "id": "minecraft:sculk_sensor"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:air"
+                "id": "minecraft:air"
             }
         },
         "trunk_placer": {
@@ -34,9 +33,8 @@
         "below_trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:tnt"
+                "id": "minecraft:tnt"
             }
         },
         "decorators": []
-    }
 }

@@ -1,15 +1,13 @@
 {
     "type": "minecraft:netherrack_replace_blobs",
-    "config": {
         "target": {
-            "Name": "minecraft:mud"
+            "id": "minecraft:mud"
         },
         "state": {
-            "Properties": {
+            "properties": {
                 "snowy": "false"
             },
-            "Name": "minecraft:grass_block"
+            "id": "minecraft:grass_block"
         },
         "radius": 0
-    }
 }

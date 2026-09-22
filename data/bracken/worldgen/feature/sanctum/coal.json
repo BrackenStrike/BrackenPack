@@ -1,16 +1,14 @@
 {
     "type": "minecraft:block_pile",
-    "config": {
         "state_provider": {
             "entries": [
                 {
                     "weight": 1,
                     "data": {
-                        "Name": "minecraft:coal_block"
+                        "id": "minecraft:coal_block"
                     }
                 }
             ],
             "type": "minecraft:weighted"
         }
-    }
 }

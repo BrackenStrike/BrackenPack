@@ -1,6 +1,5 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "ignore_vines": false,
         "minimum_size": {
             "limit": 1,
@@ -19,20 +18,20 @@
         ],
         "trunk_provider": {
             "state": {
-                "Properties": {
+                "properties": {
                     "axis": "y"
                 },
-                "Name": "minecraft:jungle_log"
+                "id": "minecraft:jungle_log"
             },
             "type": "minecraft:simple"
         },
         "foliage_provider": {
             "state": {
-                "Properties": {
+                "properties": {
                     "persistent": "false",
                     "distance": "7"
                 },
-                "Name": "minecraft:oak_leaves"
+                "id": "minecraft:oak_leaves"
             },
             "type": "minecraft:simple"
         },
@@ -50,9 +49,8 @@
         },
         "below_trunk_provider": {
             "state": {
-                "Name": "minecraft:dirt"
+                "id": "minecraft:dirt"
             },
             "type": "minecraft:simple"
         }
-    }
 }

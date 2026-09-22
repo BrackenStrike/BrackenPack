@@ -1,18 +1,17 @@
 {
     "type": "minecraft:huge_fungus",
-    "config": {
         "hat_state": {
-            "Name": "minecraft:white_stained_glass"
+            "id": "minecraft:white_stained_glass"
         },
         "decor_state": {
-            "Name": "minecraft:red_stained_glass"
+            "id": "minecraft:red_stained_glass"
         },
         "planted": false,
         "valid_base_block": {
-            "Name": "minecraft:obsidian"
+            "id": "minecraft:obsidian"
         },
         "stem_state": {
-            "Name": "minecraft:cyan_stained_glass"
+            "id": "minecraft:cyan_stained_glass"
         },
         "replaceable_blocks": {
             "type": "minecraft:matching_blocks",
@@ -28,5 +27,4 @@
                 "minecraft:twisting_vines_plant"
             ]
         }
-    }
 }

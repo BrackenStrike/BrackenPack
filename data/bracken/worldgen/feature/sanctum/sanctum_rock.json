@@ -1,11 +1,9 @@
 {
     "type": "minecraft:block_pile",
-    "config": {
         "state_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:gravel"
+                "id": "minecraft:gravel"
             }
         }
-    }
 }

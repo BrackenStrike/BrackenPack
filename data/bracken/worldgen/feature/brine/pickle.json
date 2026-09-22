@@ -1,15 +1,13 @@
 {
     "type": "minecraft:block_pile",
-    "config": {
         "state_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:sea_pickle",
-                "Properties": {
+                "id": "minecraft:sea_pickle",
+                "properties": {
                     "pickles": "1",
                     "waterlogged": "false"
                 }
             }
         }
-    }
 }

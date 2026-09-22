@@ -1,7 +1,5 @@
 {
     "type": "minecraft:lake",
-    "config": {
-        
 		"can_place_feature": { "type": "minecraft:true" },
 		"can_replace_with_air_or_fluid": {
 			"type": "minecraft:not",
@@ -20,17 +18,16 @@
         "fluid": {
             "type": "minecraft:simple",
             "state": {
-                "Properties": {
+                "properties": {
                     "level": "0"
                 },
-                "Name": "minecraft:water"
+                "id": "minecraft:water"
             }
         },
         "barrier": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:calcite"
+                "id": "minecraft:calcite"
             }
         }
-    }
 }

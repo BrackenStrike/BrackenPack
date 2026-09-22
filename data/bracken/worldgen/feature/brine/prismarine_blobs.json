@@ -1,12 +1,10 @@
 {
     "type": "minecraft:netherrack_replace_blobs",
-    "config": {
         "target": {
-            "Name": "minecraft:warped_wart_block"
+            "id": "minecraft:warped_wart_block"
         },
         "state": {
-            "Name": "minecraft:prismarine_bricks"
+            "id": "minecraft:prismarine_bricks"
         },
         "radius": 0
-    }
 }

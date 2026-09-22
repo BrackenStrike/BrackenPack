@@ -1,6 +1,5 @@
 {
     "type": "minecraft:block_column",
-    "config": {
         "direction": "up",
         "allowed_placement": {
             "type": "minecraft:true"
@@ -12,7 +11,7 @@
                 "provider": {
                     "type": "minecraft:simple",
                     "state": {
-                        "Name": "minecraft:cracked_stone_bricks"
+                        "id": "minecraft:cracked_stone_bricks"
                     }
                 }
             },
@@ -21,16 +20,9 @@
                 "provider": {
                     "type": "minecraft:simple",
                     "state": {
-                        "Name": "minecraft:sea_lantern",
-                        "Properties": {
-                            "facing": "north",
-                            "lit": "true",
-                            "signal_fire": "false",
-                            "waterlogged": "false"
-                        }
+                        "id": "minecraft:sea_lantern"
                     }
                 }
             }
         ]
-    }
 }

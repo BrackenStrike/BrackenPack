@@ -1,20 +1,19 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
         },
         "trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:light_blue_stained_glass"
+                "id": "minecraft:light_blue_stained_glass"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:light",
-                "Properties": {
+                "id": "minecraft:light",
+                "properties": {
                     "waterlogged": "false",
                     "level": "15"
                 }
@@ -35,7 +34,7 @@
         "below_trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:prismarine"
+                "id": "minecraft:prismarine"
             }
         },
         "decorators": [
@@ -55,12 +54,11 @@
                         "then": {
                             "type": "minecraft:simple",
                             "state": {
-                                "Name": "minecraft:prismarine"
+                                "id": "minecraft:prismarine"
                             }
                         }
                     }]
                 }
             }
         ]
-    }
 }

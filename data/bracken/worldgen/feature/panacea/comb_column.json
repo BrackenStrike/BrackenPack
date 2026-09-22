@@ -1,16 +1,14 @@
 {
     "type": "minecraft:block_pile",
-    "config": {
         "state_provider": {
             "entries": [
                 {
                     "weight": 1,
                     "data": {
-                        "Name": "minecraft:bee_nest"
+                        "id": "minecraft:bee_nest"
                     }
                 }
             ],
             "type": "minecraft:weighted"
         }
-    }
 }

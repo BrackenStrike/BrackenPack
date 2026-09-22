@@ -1,11 +1,9 @@
 {
     "type": "minecraft:simple_block",
-    "config": {
         "to_place": {
             "state": {
-                "Name": "minecraft:firefly_bush"
+                "id": "minecraft:firefly_bush"
             },
             "type": "minecraft:simple"
         }
-    }
 }

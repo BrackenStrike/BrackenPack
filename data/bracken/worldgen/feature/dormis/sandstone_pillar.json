@@ -1,6 +1,5 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "decorators": [],
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
@@ -9,13 +8,13 @@
             "type": "minecraft:simple",
             "state": {
                
-                "Name": "minecraft:coal_block"
+                "id": "minecraft:coal_block"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:smooth_sandstone"
+                "id": "minecraft:smooth_sandstone"
             }
         },
         "trunk_placer": {
@@ -33,8 +32,7 @@
         "below_trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:coal_block"
+                "id": "minecraft:coal_block"
             }
         }
-    }
 }

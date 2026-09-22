@@ -1,18 +1,17 @@
 {
     "type": "minecraft:huge_fungus",
-    "config": {
         "hat_state": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
         },
         "decor_state": {
-            "Name": "minecraft:shroomlight"
+            "id": "minecraft:shroomlight"
         },
         "planted": false,
         "valid_base_block": {
-            "Name": "minecraft:coarse_dirt"
+            "id": "minecraft:coarse_dirt"
         },
         "stem_state": {
-            "Name": "minecraft:obsidian"
+            "id": "minecraft:obsidian"
         },
         "replaceable_blocks": {
             "type": "minecraft:matching_blocks",
@@ -28,5 +27,4 @@
                 "minecraft:twisting_vines_plant"
             ]
         }
-    }
 }

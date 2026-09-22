@@ -1,11 +1,9 @@
 {
-    "config": {
+    "type": "minecraft:block_pile",
         "state_provider": {
             "state": {
-                "Name": "minecraft:melon"
+                "id": "minecraft:melon"
             },
             "type": "minecraft:simple"
         }
-    },
-    "type": "minecraft:block_pile"
 }

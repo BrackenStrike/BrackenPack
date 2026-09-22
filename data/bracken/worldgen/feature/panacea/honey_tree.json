@@ -1,6 +1,5 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "ignore_vines": true,
         "minimum_size": {
             "limit": 1,
@@ -30,7 +29,7 @@
                         "then": {
                             "type": "minecraft:simple",
                             "state": {
-                                "Name": "minecraft:honeycomb_block"
+                                "id": "minecraft:honeycomb_block"
                             }
                         }
                     }]
@@ -39,16 +38,16 @@
         ],
         "trunk_provider": {
             "state": {
-                "Properties": {
+                "properties": {
                     "axis": "y"
                 },
-                "Name": "minecraft:oak_log"
+                "id": "minecraft:oak_log"
             },
             "type": "minecraft:simple"
         },
         "foliage_provider": {
             "state": {
-                "Name": "minecraft:honey_block"
+                "id": "minecraft:honey_block"
             },
             "type": "minecraft:simple"
         },
@@ -66,9 +65,8 @@
         },
         "below_trunk_provider": {
             "state": {
-                "Name": "minecraft:dirt"
+                "id": "minecraft:dirt"
             },
             "type": "minecraft:simple"
         }
-    }
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:tree",
-  "config": {
     "below_trunk_provider": {
       "type": "minecraft:rule_based",
       "rules": [
@@ -15,7 +14,7 @@
           "then": {
             "type": "minecraft:simple",
             "state": {
-              "Name": "minecraft:dirt"
+              "id": "minecraft:dirt"
             }
           }
         }
@@ -35,7 +34,7 @@
               "then": {
                 "type": "minecraft:simple",
                 "state": {
-                  "Name": "minecraft:infested_stone"
+                  "id": "minecraft:infested_stone"
                 }
               }
             }
@@ -56,7 +55,7 @@
     "foliage_provider": {
       "type": "minecraft:simple",
       "state": {
-        "Name": "minecraft:tuff"
+        "id": "minecraft:tuff"
       }
     },
     "ignore_vines": false,
@@ -74,11 +73,10 @@
     "trunk_provider": {
       "type": "minecraft:simple",
       "state": {
-        "Name": "minecraft:polished_basalt",
-        "Properties": {
+        "id": "minecraft:polished_basalt",
+        "properties": {
           "axis": "y"
         }
       }
     }
-  }
 }

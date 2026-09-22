@@ -1,6 +1,5 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "ignore_vines": false,
         "minimum_size": {
             "limit": 1,
@@ -11,16 +10,13 @@
         "decorators": [],
         "trunk_provider": {
             "state": {
-                "Properties": {
-                    "axis": "y"
-                },
-                "Name": "minecraft:white_concrete"
+                "id": "minecraft:white_concrete"
             },
             "type": "minecraft:simple"
         },
         "foliage_provider": {
             "state": {
-                "Name": "minecraft:glowstone"
+                "id": "minecraft:glowstone"
             },
             "type": "minecraft:simple"
         },
@@ -38,9 +34,8 @@
         },
         "below_trunk_provider": {
             "state": {
-                "Name": "minecraft:red_sand"
+                "id": "minecraft:red_sand"
             },
             "type": "minecraft:simple"
         }
-    }
 }

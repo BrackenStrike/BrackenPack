@@ -1,11 +1,10 @@
 {
     "type": "minecraft:geode",
-    "config": {
         "blocks": {
             "alternate_inner_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:stone"
+                    "id": "minecraft:stone"
                 }
             },
             "cannot_replace": "#minecraft:features_cannot_replace",
@@ -14,19 +13,19 @@
                 "entries": [
                     {
                         "data": {
-                            "Name": "minecraft:lapis_ore"
+                            "id": "minecraft:lapis_ore"
                         },
                         "weight": 1
                     },
                     {
                         "data": {
-                            "Name": "minecraft:copper_ore"
+                            "id": "minecraft:copper_ore"
                         },
                         "weight": 2
                     },                   
                     {
                         "data": {
-                            "Name": "minecraft:stone"
+                            "id": "minecraft:stone"
                         },
                         "weight": 12000
                     }
@@ -37,19 +36,19 @@
                 "entries": [                  
                    {
                         "data": {
-                            "Name": "minecraft:lapis_ore"
+                            "id": "minecraft:lapis_ore"
                         },
                         "weight": 1
                     },
                     {
                         "data": {
-                            "Name": "minecraft:copper_ore"
+                            "id": "minecraft:copper_ore"
                         },
                         "weight": 2
                     },                   
                     {
                         "data": {
-                            "Name": "minecraft:stone"
+                            "id": "minecraft:stone"
                         },
                         "weight": 12000
                     }
@@ -57,21 +56,21 @@
             },
             "inner_placements": [
                 {
-                    "Name": "minecraft:stone",
-                    "Properties": {}
+                    "id": "minecraft:stone",
+                    "properties": {}
                 }
             ],
             "invalid_blocks": "#minecraft:features_cannot_replace",
             "middle_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:water"
+                    "id": "minecraft:water"
                 }
             },
             "outer_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:warped_nylium"
+                    "id": "minecraft:warped_nylium"
                 }
             }
         },
@@ -103,5 +102,4 @@
         },
         "use_alternate_layer0_chance": 0.085,
         "use_potential_placements_chance": 0.35
-    }
 }

@@ -1,6 +1,5 @@
 {
-    "config": {
-        
+    "type": "minecraft:lake",
 		"can_place_feature": { "type": "minecraft:true" },
 		"can_replace_with_air_or_fluid": {
 			"type": "minecraft:not",
@@ -18,19 +17,17 @@
 		},
         "fluid": {
             "state": {
-                "Properties": {
+                "properties": {
                     "level": "0"
                 },
-                "Name": "minecraft:water"
+                "id": "minecraft:water"
             },
             "type": "minecraft:simple"
         },
         "barrier": {
             "state": {
-                "Name": "minecraft:moss_block"
+                "id": "minecraft:moss_block"
             },
             "type": "minecraft:simple"
         }
-    },
-    "type": "minecraft:lake"
 }

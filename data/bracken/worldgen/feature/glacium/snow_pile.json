@@ -1,16 +1,14 @@
 {
     "type": "minecraft:block_pile",
-    "config": {
         "state_provider": {
             "entries": [
                 {
                     "weight": 1,
                     "data": {
-                        "Name": "minecraft:ice"
+                        "id": "minecraft:ice"
                     }
                 }
             ],
             "type": "minecraft:weighted"
         }
-    }
 }

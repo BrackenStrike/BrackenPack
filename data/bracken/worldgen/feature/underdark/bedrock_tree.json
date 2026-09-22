@@ -1,6 +1,5 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "decorators": [],
         "ignore_vines": true,
         "minimum_size": {
@@ -11,7 +10,7 @@
         },
         "foliage_provider": {
             "state": {
-                "Name": "minecraft:tuff"
+                "id": "minecraft:tuff"
             },
             "type": "minecraft:simple"
         },
@@ -22,11 +21,11 @@
             "type": "minecraft:spruce_foliage_placer"
         },
         "trunk_provider": {
-            "state": { "Properties": {
+            "state": { "properties": {
                     "axis": "y"
                 },
                 
-                "Name": "minecraft:polished_basalt"
+                "id": "minecraft:polished_basalt"
             },
             "type": "minecraft:simple"
         },
@@ -38,9 +37,8 @@
         },
         "below_trunk_provider": {
             "state": {
-                "Name": "minecraft:infested_stone"
+                "id": "minecraft:infested_stone"
             },
             "type": "minecraft:simple"
         }
-    }
 }

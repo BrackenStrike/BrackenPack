@@ -1,43 +1,42 @@
 {
     "type": "minecraft:geode",
-    "config": {
         "blocks": {
             "alternate_inner_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:ice"
+                    "id": "minecraft:ice"
                 }
             },
             "cannot_replace": "#minecraft:features_cannot_replace",
             "filling_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:ice"
+                    "id": "minecraft:ice"
                 }
             },
             "inner_layer_provider": {
                 "type": "minecraft:simple",
         "state": {
-          "Name": "minecraft:ice"
+          "id": "minecraft:ice"
         }
             },
             "inner_placements": [
                 {
-                    "Name": "minecraft:stone",
-                    "Properties": {}
+                    "id": "minecraft:stone",
+                    "properties": {}
                 }
             ],
             "invalid_blocks": "#minecraft:features_cannot_replace",
             "middle_layer_provider": {
                 "type": "minecraft:simple",
         "state": {
-          "Name": "minecraft:ice"
+          "id": "minecraft:ice"
         }
             },
             "outer_layer_provider": {
                 "type": "minecraft:simple",
         "state": {
-          "Name": "minecraft:ice"
+          "id": "minecraft:ice"
         }
             }
         },
@@ -69,5 +68,4 @@
         },
         "use_alternate_layer0_chance": 0.085,
         "use_potential_placements_chance": 0.35
-    }
 }

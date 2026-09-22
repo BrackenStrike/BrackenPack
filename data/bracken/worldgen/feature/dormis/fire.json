@@ -1,19 +1,18 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
         },
         "trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:fire"
+                "id": "minecraft:fire"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:air"
+                "id": "minecraft:air"
             }
         },
         "trunk_placer": {
@@ -31,9 +30,8 @@
         "below_trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:magma_block"
+                "id": "minecraft:magma_block"
             }
         },
         "decorators": []
-    }
 }

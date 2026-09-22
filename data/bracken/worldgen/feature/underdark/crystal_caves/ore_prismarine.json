@@ -1,6 +1,5 @@
 {
     "type": "minecraft:ore",
-    "config": {
         "targets": [
             {
                 "target": {
@@ -8,11 +7,10 @@
                     "predicate_type": "minecraft:block_match"
                 },
                 "state": {
-                    "Name": "minecraft:sea_lantern"
+                    "id": "minecraft:sea_lantern"
                 }
             }
         ],
         "size": 1,
         "discard_chance_on_air_exposure": 0
-    }
 }

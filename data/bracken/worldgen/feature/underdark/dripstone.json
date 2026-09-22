@@ -1,8 +1,7 @@
 {
   "type": "minecraft:speleothem_cluster",
-  "config": {
     "base_block": {
-      "Name": "minecraft:dripstone_block"
+      "id": "minecraft:dripstone_block"
     },
     "chance_of_speleothem_at_max_distance_from_center": 0.1,
     "density": {
@@ -21,8 +20,8 @@
     "max_distance_from_edge_affecting_chance_of_speleothem": 3,
     "max_stalagmite_stalactite_height_diff": 1,
     "pointed_block": {
-      "Name": "minecraft:pointed_dripstone",
-      "Properties": {
+      "id": "minecraft:pointed_dripstone",
+      "properties": {
         "thickness": "tip",
         "vertical_direction": "up",
         "waterlogged": "false"
@@ -46,5 +45,4 @@
       "mean": 0.1,
       "min": 0.1
     }
-  }
 }

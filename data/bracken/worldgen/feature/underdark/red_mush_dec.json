@@ -1,20 +1,17 @@
 {
     "type": "minecraft:random_selector",
-    "config": {
         "features": [
             {
                 "chance": 0.2,
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:crimson_fungus"
+                                    "id": "minecraft:crimson_fungus"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -61,11 +58,10 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "west": "true",
                                         "up": "true",
                                         "south": "true",
@@ -73,10 +69,9 @@
                                         "east": "true",
                                         "down": "true"
                                     },
-                                    "Name": "minecraft:mushroom_stem"
+                                    "id": "minecraft:mushroom_stem"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -123,14 +118,12 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:red_mushroom"
+                                    "id": "minecraft:red_mushroom"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -165,14 +158,12 @@
         "default": {
             "feature": {
                 "type": "minecraft:simple_block",
-                "config": {
                     "to_place": {
                         "type": "minecraft:simple",
                         "state": {
-                            "Name": "minecraft:crimson_roots"
+                            "id": "minecraft:crimson_roots"
                         }
                     }
-                }
             },
             "placement": [
                 {
@@ -202,5 +193,4 @@
                 }
             ]
         }
-    }
 }

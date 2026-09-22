@@ -1,23 +1,22 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
         },
         "trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Properties": {
+                "properties": {
                     "hanging": "true",
                     "waterlogged": "false"
                 },
-                "Name": "minecraft:lantern"
+                "id": "minecraft:lantern"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:ochre_froglight"
+                "id": "minecraft:ochre_froglight"
             }
         },
         "trunk_placer": {
@@ -34,10 +33,9 @@
         },
         "below_trunk_provider": {
             "state": {
-                "Name": "minecraft:air"
+                "id": "minecraft:air"
             },
             "type": "minecraft:simple"
         },
         "decorators": []
-    }
 }

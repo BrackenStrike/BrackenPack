@@ -1,7 +1,5 @@
 {
   "type": "minecraft:large_dripstone",
-
-  "config": {
     "column_radius": {
       "type": "minecraft:uniform",
       "max_inclusive": 16,
@@ -32,5 +30,4 @@
       "max_exclusive": 0.3,
       "min_inclusive": 0.0
     }
-  }
 }

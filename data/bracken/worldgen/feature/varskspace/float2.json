@@ -1,42 +1,41 @@
 {
     "type": "minecraft:geode",
-    "config": {
         "blocks": {
             "alternate_inner_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:sea_lantern"
+                    "id": "minecraft:sea_lantern"
                 }
             },
             "cannot_replace": "#minecraft:features_cannot_replace",
             "filling_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:sea_lantern"
+                    "id": "minecraft:sea_lantern"
                 }
             },
             "inner_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:cyan_stained_glass"
+                    "id": "minecraft:cyan_stained_glass"
                 }
             },
             "inner_placements": [
                 {
-                    "Name": "minecraft:light_blue_stained_glass"
+                    "id": "minecraft:light_blue_stained_glass"
                 }
             ],
             "invalid_blocks": "#minecraft:features_cannot_replace",
             "middle_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:white_stained_glass"
+                    "id": "minecraft:white_stained_glass"
                 }
             },
             "outer_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:light_blue_stained_glass"
+                    "id": "minecraft:light_blue_stained_glass"
                 }
             }
         },
@@ -68,5 +67,4 @@
         },
         "use_alternate_layer0_chance": 0.085,
         "use_potential_placements_chance": 0.35
-    }
 }

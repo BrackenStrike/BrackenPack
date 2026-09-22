@@ -1,12 +1,10 @@
 {
     "type": "minecraft:netherrack_replace_blobs",
-    "config": {
         "target": {
-            "Name": "minecraft:diorite"
+            "id": "minecraft:diorite"
         },
         "state": {
-            "Name": "minecraft:infested_stone"
+            "id": "minecraft:infested_stone"
         },
         "radius": 2
-    }
 }

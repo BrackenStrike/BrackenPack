@@ -1,12 +1,10 @@
 {
     "type": "minecraft:netherrack_replace_blobs",
-    "config": {
         "target": {
-            "Name": "minecraft:stone"
+            "id": "minecraft:stone"
         },
         "state": {
-            "Name": "minecraft:smooth_basalt"
+            "id": "minecraft:smooth_basalt"
         },
         "radius": 2
-    }
 }

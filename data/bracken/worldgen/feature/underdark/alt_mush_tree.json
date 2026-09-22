@@ -1,8 +1,7 @@
 {
     "type": "minecraft:huge_fungus",
-    "config": {
         "hat_state": {
-            "Properties": {
+            "properties": {
                 "west": "false",
                 "up": "false",
                 "south": "false",
@@ -10,20 +9,20 @@
                 "east": "false",
                 "down": "false"
             },
-            "Name": "minecraft:brown_mushroom_block"
+            "id": "minecraft:brown_mushroom_block"
         },
         "decor_state": {
-            "Name": "minecraft:shroomlight"
+            "id": "minecraft:shroomlight"
         },
         "planted": false,
         "valid_base_block": {
-            "Name": "minecraft:mycelium",
-            "Properties": {
+            "id": "minecraft:mycelium",
+            "properties": {
                 "snowy": "false"
             }
         },
         "stem_state": {
-            "Properties": {
+            "properties": {
                 "west": "true",
                 "up": "true",
                 "south": "true",
@@ -31,7 +30,7 @@
                 "east": "true",
                 "down": "true"
             },
-            "Name": "minecraft:mushroom_stem"
+            "id": "minecraft:mushroom_stem"
         },
         "replaceable_blocks": {
             "type": "minecraft:matching_blocks",
@@ -47,5 +46,4 @@
                 "minecraft:twisting_vines_plant"
             ]
         }
-    }
 }

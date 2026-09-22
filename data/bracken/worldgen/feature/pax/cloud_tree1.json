@@ -1,6 +1,5 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "ignore_vines": false,
         "minimum_size": {
             "limit": 1,
@@ -11,13 +10,13 @@
         "decorators": [],
         "trunk_provider": {
             "state": {
-                "Name": "minecraft:air"
+                "id": "minecraft:air"
             },
             "type": "minecraft:simple"
         },
         "foliage_provider": {
             "state": {
-                "Name": "minecraft:powder_snow"
+                "id": "minecraft:powder_snow"
             },
             "type": "minecraft:simple"
         },
@@ -35,9 +34,8 @@
         },
         "below_trunk_provider": {
             "state": {
-                "Name": "minecraft:dirt"
+                "id": "minecraft:dirt"
             },
             "type": "minecraft:simple"
         }
-    }
 }

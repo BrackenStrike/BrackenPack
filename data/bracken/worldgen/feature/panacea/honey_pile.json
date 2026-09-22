@@ -1,16 +1,14 @@
 {
     "type": "minecraft:block_pile",
-    "config": {
         "state_provider": {
             "entries": [
                 {
                     "weight": 1,
                     "data": {
-                        "Name": "minecraft:honey_block"
+                        "id": "minecraft:honey_block"
                     }
                 }
             ],
             "type": "minecraft:weighted"
         }
-    }
 }

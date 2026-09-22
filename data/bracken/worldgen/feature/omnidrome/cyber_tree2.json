@@ -1,19 +1,18 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
         },
         "trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:oxidized_copper_grate"
+                "id": "minecraft:oxidized_copper_grate"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:white_stained_glass"
+                "id": "minecraft:white_stained_glass"
             }
         },
         "trunk_placer": {
@@ -39,9 +38,8 @@
         "below_trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:nether_bricks"
+                "id": "minecraft:nether_bricks"
             }
         },
         "decorators": []
-    }
 }

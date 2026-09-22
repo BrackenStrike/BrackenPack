@@ -1,12 +1,10 @@
 {
     "type": "minecraft:netherrack_replace_blobs",
-    "config": {
         "target": {
-            "Name": "minecraft:stone"
+            "id": "minecraft:stone"
         },
         "state": {
-            "Name": "minecraft:bedrock"
+            "id": "minecraft:bedrock"
         },
         "radius": 3
-    }
 }

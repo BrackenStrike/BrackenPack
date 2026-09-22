@@ -1,6 +1,5 @@
 {
-     "config": {
-        
+    "type": "minecraft:lake",
 		"can_place_feature": { "type": "minecraft:true" },
 		"can_replace_with_air_or_fluid": {
 			"type": "minecraft:not",
@@ -18,16 +17,14 @@
 		},
         "fluid": {
             "state": {
-                "Name": "minecraft:coal_block"
+                "id": "minecraft:coal_block"
             },
             "type": "minecraft:simple"
         },
         "barrier": {
             "state": {
-                "Name": "minecraft:rooted_dirt"
+                "id": "minecraft:rooted_dirt"
             },
             "type": "minecraft:simple"
         }
-    },
-    "type": "minecraft:lake"
 }

@@ -1,42 +1,41 @@
 {
     "type": "minecraft:geode",
-    "config": {
         "blocks": {
             "alternate_inner_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:crying_obsidian"
+                    "id": "minecraft:crying_obsidian"
                 }
             },
             "cannot_replace": "#minecraft:features_cannot_replace",
             "filling_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:crying_obsidian"
+                    "id": "minecraft:crying_obsidian"
                 }
             },
             "inner_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:purple_stained_glass"
+                    "id": "minecraft:purple_stained_glass"
                 }
             },
             "inner_placements": [
                 {
-                    "Name": "minecraft:blue_stained_glass"
+                    "id": "minecraft:blue_stained_glass"
                 }
             ],
             "invalid_blocks": "#minecraft:features_cannot_replace",
             "middle_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:ice"
+                    "id": "minecraft:ice"
                 }
             },
             "outer_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:cracked_stone_bricks"
+                    "id": "minecraft:cracked_stone_bricks"
                 }
             }
         },
@@ -68,5 +67,4 @@
         },
         "use_alternate_layer0_chance": 0.085,
         "use_potential_placements_chance": 0.35
-    }
 }

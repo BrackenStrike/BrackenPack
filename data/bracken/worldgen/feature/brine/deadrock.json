@@ -1,6 +1,5 @@
 {
     "type": "minecraft:block_column",
-    "config": {
         "direction": "up",
         "allowed_placement": {
             "type": "minecraft:matching_fluids",
@@ -18,10 +17,9 @@
                 "provider": {
                     "type": "minecraft:simple",
                     "state": {
-                        "Name": "minecraft:dead_bubble_coral_block"
+                        "id": "minecraft:dead_bubble_coral_block"
                     }
                 }
             }
         ]
-    }
 }

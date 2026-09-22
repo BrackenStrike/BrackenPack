@@ -1,21 +1,18 @@
 {
     "type": "minecraft:random_selector",
-    "config": {
         "features": [
             {
                 "chance": 0.5,
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
-                            "to_place": {
-                                "type": "minecraft:simple",
-                                "state": {
-                                    "Properties": {
-                                        "waterlogged": "false"
-                                    },
-                                    "Name": "minecraft:dead_tube_coral"
-                                }
+                        "to_place": {
+                            "type": "minecraft:simple",
+                            "state": {
+                                "properties": {
+                                    "waterlogged": "false"
+                                },
+                                "id": "minecraft:dead_tube_coral"
                             }
                         }
                     },
@@ -64,15 +61,13 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
-                            "to_place": {
-                                "type": "minecraft:simple",
-                                "state": {
-                                    "Properties": {
-                                        "waterlogged": "false"
-                                    },
-                                    "Name": "minecraft:dead_tube_coral_fan"
-                                }
+                        "to_place": {
+                            "type": "minecraft:simple",
+                            "state": {
+                                "properties": {
+                                    "waterlogged": "false"
+                                },
+                                "id": "minecraft:dead_tube_coral_fan"
                             }
                         }
                     },
@@ -121,17 +116,15 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:dead_bubble_coral"
+                                    "id": "minecraft:dead_bubble_coral"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -178,17 +171,15 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:dead_bubble_coral_fan"
+                                    "id": "minecraft:dead_bubble_coral_fan"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -234,17 +225,15 @@
         "default": {
             "feature": {
                 "type": "minecraft:simple_block",
-                "config": {
                     "to_place": {
                         "type": "minecraft:simple",
                         "state": {
-                            "Properties": {
+                            "properties": {
                                 "waterlogged": "false"
                             },
-                            "Name": "minecraft:dead_brain_coral"
+                            "id": "minecraft:dead_brain_coral"
                         }
                     }
-                }
             },
             "placement": [
                 {
@@ -274,5 +263,4 @@
                 }
             ]
         }
-    }
 }

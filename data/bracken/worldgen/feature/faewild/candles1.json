@@ -1,25 +1,22 @@
 {
     "type": "minecraft:random_selector",
-    "config": {
         "features": [
             {
                 "chance": 0.2,
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "candles": "2",
                                         "lit": "true",
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:red_candle"
+                                    "id": "minecraft:red_candle"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -66,19 +63,17 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "candles": "1",
                                         "lit": "true",
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:white_candle"
+                                    "id": "minecraft:white_candle"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -113,19 +108,17 @@
         "default": {
             "feature": {
                 "type": "minecraft:simple_block",
-                "config": {
                     "to_place": {
                         "type": "minecraft:simple",
                         "state": {
-                            "Properties": {
+                            "properties": {
                                 "candles": "4",
                                 "lit": "true",
                                 "waterlogged": "false"
                             },
-                            "Name": "minecraft:candle"
+                            "id": "minecraft:candle"
                         }
                     }
-                }
             },
             "placement": [
                 {
@@ -155,5 +148,4 @@
                 }
             ]
         }
-    }
 }

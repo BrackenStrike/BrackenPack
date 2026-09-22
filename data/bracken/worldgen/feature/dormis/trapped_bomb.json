@@ -1,19 +1,18 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
         },
         "trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:granite"
+                "id": "minecraft:granite"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:trapped_chest"
+                "id": "minecraft:trapped_chest"
             }
         },
         "trunk_placer": {
@@ -31,9 +30,8 @@
         "below_trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:tnt"
+                "id": "minecraft:tnt"
             }
         },
         "decorators": []
-    }
 }

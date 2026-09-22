@@ -1,12 +1,10 @@
 {
     "type": "minecraft:netherrack_replace_blobs",
-    "config": {
         "target": {
-            "Name": "minecraft:air"
+            "id": "minecraft:air"
         },
         "state": {
-            "Name": "minecraft:barrier"
+            "id": "minecraft:barrier"
         },
         "radius": 0
-    }
 }

@@ -1,20 +1,19 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
         },
         "trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:blackstone_wall"
+                "id": "minecraft:blackstone_wall"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:redstone_lamp",
-                "Properties": {
+                "id": "minecraft:redstone_lamp",
+                "properties": {
                     "lit": "true"
                 }
             }
@@ -34,9 +33,8 @@
         "below_trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:cracked_polished_blackstone_bricks"
+                "id": "minecraft:cracked_polished_blackstone_bricks"
             }
         },
         "decorators": []
-    }
 }

@@ -1,12 +1,10 @@
 {
     "type": "minecraft:netherrack_replace_blobs",
-    "config": {
         "target": {
-            "Name": "minecraft:stone"
+            "id": "minecraft:stone"
         },
         "state": {
-            "Name": "minecraft:moss_block"
+            "id": "minecraft:moss_block"
         },
         "radius": 6
-    }
 }

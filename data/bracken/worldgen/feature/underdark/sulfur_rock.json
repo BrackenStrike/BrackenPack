@@ -1,6 +1,5 @@
 {
     "type": "minecraft:block_column",
-    "config": {
         "direction": "up",
         "allowed_placement": {
             "type": "minecraft:true"
@@ -12,10 +11,9 @@
                 "provider": {
                     "type": "minecraft:simple",
                     "state": {
-                        "Name": "minecraft:sulfur"
+                        "id": "minecraft:sulfur"
                     }
                 }
             }
         ]
-    }
 }

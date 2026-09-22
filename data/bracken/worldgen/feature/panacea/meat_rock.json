@@ -1,6 +1,5 @@
 {
     "type": "minecraft:block_blob",
-    "config": {
         "can_place_on": {
             "type": "matching_blocks",
             "blocks": [
@@ -10,7 +9,6 @@
             ]
         },
         "state": {
-            "Name": "minecraft:nether_quartz_ore"
+            "id": "minecraft:nether_quartz_ore"
         }
-    }
 }

@@ -1,20 +1,17 @@
 {
     "type": "minecraft:random_selector",
-    "config": {
         "features": [
             {
                 "chance": 0.2,
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:mossy_cobblestone"
+                                    "id": "minecraft:mossy_cobblestone"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -61,22 +58,12 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
-                                        "west": "true",
-                                        "up": "true",
-                                        "south": "true",
-                                        "north": "true",
-                                        "east": "true",
-                                        "down": "true"
-                                    },
-                                    "Name": "minecraft:crimson_fungus"
+                                    "id": "minecraft:crimson_fungus"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -123,14 +110,12 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:crimson_roots"
+                                    "id": "minecraft:crimson_roots"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -165,17 +150,15 @@
         "default": {
             "feature": {
                 "type": "minecraft:simple_block",
-                "config": {
                     "to_place": {
                         "type": "minecraft:simple",
                         "state": {
-                            "Name": "minecraft:bone_block",
-                            "Properties": {
+                            "id": "minecraft:bone_block",
+                            "properties": {
                                 "axis": "y"
                             }
                         }
                     }
-                }
             },
             "placement": [
                 {
@@ -205,5 +188,4 @@
                 }
             ]
         }
-    }
 }

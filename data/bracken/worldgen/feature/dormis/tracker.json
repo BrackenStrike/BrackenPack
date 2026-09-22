@@ -1,14 +1,13 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
         },
         "trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                                                "Name": "minecraft:rose_bush",
-                                                "Properties": {
+                                                "id": "minecraft:rose_bush",
+                                                "properties": {
                                                     "half": "upper"
                                                 }
                                             }
@@ -16,8 +15,8 @@
         "foliage_provider": {
             "type": "minecraft:simple",
            "state": {
-                                                "Name": "minecraft:rose_bush",
-                                                "Properties": {
+                                                "id": "minecraft:rose_bush",
+                                                "properties": {
                                                     "half": "lower"
                                                 }
                                             }
@@ -37,9 +36,8 @@
         "below_trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:air"
+                "id": "minecraft:air"
             }
         },
         "decorators": []
-    }
 }

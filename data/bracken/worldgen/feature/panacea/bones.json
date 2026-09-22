@@ -1,6 +1,5 @@
 {
     "type": "minecraft:block_column",
-    "config": {
         "direction": "up",
         "allowed_placement": {
             "type": "minecraft:true"
@@ -12,13 +11,12 @@
                 "provider": {
                     "type": "minecraft:simple",
                     "state": {
-                        "Name": "minecraft:bone_block",
-                        "Properties": {
+                        "id": "minecraft:bone_block",
+                        "properties": {
                             "axis": "y"
                         }
                     }
                 }
             }
         ]
-    }
 }

@@ -1,14 +1,11 @@
 {
     "type": "minecraft:simple_random_selector",
-    "config": {
         "features": [
             {
                 "feature": {
-                    "config": {
                         "features": [
                             {
                                 "feature": {
-                                    "config": {
                                         "vegetation_chance": 0.15,
                                         "xz_radius": 4,
                                         "extra_edge_column_chance": 0,
@@ -16,7 +13,6 @@
                                         "vertical_range": 15,
                                         "vegetation_feature": {
                                             "feature": {
-                                                "config": {
                                                     "direction": "down",
                                                     "allowed_placement": {
                                                         "type": "minecraft:true"
@@ -35,7 +31,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:air"
+                                                                    "id": "minecraft:air"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
@@ -44,13 +40,12 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:air"
+                                                                    "id": "minecraft:air"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
                                                         }
-                                                    ]
-                                                },
+                                                    ],
                                                 "type": "minecraft:block_column"
                                             },
                                             "placement": []
@@ -60,18 +55,16 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:air"
+                                                "id": "minecraft:air"
                                             },
                                             "type": "minecraft:simple"
-                                        }
-                                    },
+                                        },
                                     "type": "minecraft:vegetation_patch"
                                 },
                                 "placement": []
                             },
                             {
                                 "feature": {
-                                    "config": {
                                         "vegetation_chance": 0.5,
                                         "xz_radius": 0,
                                         "extra_edge_column_chance": 0,
@@ -79,7 +72,6 @@
                                         "vertical_range": 15,
                                         "vegetation_feature": {
                                             "feature": {
-                                                "config": {
                                                     "direction": "up",
                                                     "allowed_placement": {
                                                         "type": "minecraft:true"
@@ -98,7 +90,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:oxidized_copper"
+                                                                    "id": "minecraft:oxidized_copper"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
@@ -107,16 +99,15 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Properties": {
+                                                                    "properties": {
                                                                         "lit": "true"
                                                                     },
-                                                                    "Name": "minecraft:redstone_lamp"
+                                                                    "id": "minecraft:redstone_lamp"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
                                                         }
-                                                    ]
-                                                },
+                                                    ],
                                                 "type": "minecraft:block_column"
                                             },
                                             "placement": []
@@ -126,17 +117,15 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:oxidized_copper"
+                                                "id": "minecraft:oxidized_copper"
                                             },
                                             "type": "minecraft:simple"
-                                        }
-                                    },
+                                        },
                                     "type": "minecraft:vegetation_patch"
                                 },
                                 "placement": []
                             }
-                        ]
-                    },
+                        ],
                     "type": "minecraft:simple_random_selector"
                 },
                 "placement": [
@@ -160,11 +149,9 @@
             },
             {
                 "feature": {
-                    "config": {
                         "features": [
                             {
                                 "feature": {
-                                    "config": {
                                         "vegetation_chance": 0.5,
                                         "xz_radius": 4,
                                         "extra_edge_column_chance": 0,
@@ -172,7 +159,6 @@
                                         "vertical_range": 10,
                                         "vegetation_feature": {
                                             "feature": {
-                                                "config": {
                                                     "direction": "down",
                                                     "allowed_placement": {
                                                         "type": "minecraft:true"
@@ -191,7 +177,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:air"
+                                                                    "id": "minecraft:air"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
@@ -200,13 +186,12 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:cracked_polished_blackstone_bricks"
+                                                                    "id": "minecraft:cracked_polished_blackstone_bricks"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
                                                         }
-                                                    ]
-                                                },
+                                                    ],
                                                 "type": "minecraft:block_column"
                                             },
                                             "placement": []
@@ -216,18 +201,16 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:air"
+                                                "id": "minecraft:air"
                                             },
                                             "type": "minecraft:simple"
-                                        }
-                                    },
+                                        },
                                     "type": "minecraft:vegetation_patch"
                                 },
                                 "placement": []
                             },
                             {
                                 "feature": {
-                                    "config": {
                                         "vegetation_chance": 0.5,
                                         "xz_radius": 4,
                                         "extra_edge_column_chance": 0,
@@ -235,7 +218,6 @@
                                         "vertical_range": 17,
                                         "vegetation_feature": {
                                             "feature": {
-                                                "config": {
                                                     "direction": "up",
                                                     "allowed_placement": {
                                                         "type": "minecraft:true"
@@ -254,7 +236,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:polished_deepslate"
+                                                                    "id": "minecraft:polished_deepslate"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
@@ -263,13 +245,12 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:cracked_polished_blackstone_bricks"
+                                                                    "id": "minecraft:cracked_polished_blackstone_bricks"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
                                                         }
-                                                    ]
-                                                },
+                                                    ],
                                                 "type": "minecraft:block_column"
                                             },
                                             "placement": []
@@ -279,17 +260,15 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:cracked_polished_blackstone_bricks"
+                                                "id": "minecraft:cracked_polished_blackstone_bricks"
                                             },
                                             "type": "minecraft:simple"
-                                        }
-                                    },
+                                        },
                                     "type": "minecraft:vegetation_patch"
                                 },
                                 "placement": []
                             }
-                        ]
-                    },
+                        ],
                     "type": "minecraft:simple_random_selector"
                 },
                 "placement": [
@@ -313,11 +292,9 @@
             },
             {
                 "feature": {
-                    "config": {
                         "features": [
                             {
                                 "feature": {
-                                    "config": {
                                         "vegetation_chance": 0.5,
                                         "xz_radius": 2,
                                         "extra_edge_column_chance": 0,
@@ -325,7 +302,6 @@
                                         "vertical_range": 8,
                                         "vegetation_feature": {
                                             "feature": {
-                                                "config": {
                                                     "direction": "down",
                                                     "allowed_placement": {
                                                         "type": "minecraft:true"
@@ -344,7 +320,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:clay"
+                                                                    "id": "minecraft:clay"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
@@ -353,13 +329,12 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:clay"
+                                                                    "id": "minecraft:clay"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
                                                         }
-                                                    ]
-                                                },
+                                                    ],
                                                 "type": "minecraft:block_column"
                                             },
                                             "placement": []
@@ -369,18 +344,16 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:clay"
+                                                "id": "minecraft:clay"
                                             },
                                             "type": "minecraft:simple"
-                                        }
-                                    },
+                                        },
                                     "type": "minecraft:vegetation_patch"
                                 },
                                 "placement": []
                             },
                             {
                                 "feature": {
-                                    "config": {
                                         "vegetation_chance": 0.5,
                                         "xz_radius": 6,
                                         "extra_edge_column_chance": 0,
@@ -388,7 +361,6 @@
                                         "vertical_range": 31,
                                         "vegetation_feature": {
                                             "feature": {
-                                                "config": {
                                                     "direction": "up",
                                                     "allowed_placement": {
                                                         "type": "minecraft:true"
@@ -407,7 +379,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:nether_bricks"
+                                                                    "id": "minecraft:nether_bricks"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
@@ -416,13 +388,12 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:cracked_deepslate_bricks"
+                                                                    "id": "minecraft:cracked_deepslate_bricks"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
                                                         }
-                                                    ]
-                                                },
+                                                    ],
                                                 "type": "minecraft:block_column"
                                             },
                                             "placement": []
@@ -432,17 +403,15 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:cracked_polished_blackstone_bricks"
+                                                "id": "minecraft:cracked_polished_blackstone_bricks"
                                             },
                                             "type": "minecraft:simple"
-                                        }
-                                    },
+                                        },
                                     "type": "minecraft:vegetation_patch"
                                 },
                                 "placement": []
                             }
-                        ]
-                    },
+                        ],
                     "type": "minecraft:simple_random_selector"
                 },
                 "placement": [
@@ -466,11 +435,9 @@
             },
             {
                 "feature": {
-                    "config": {
                         "features": [
                             {
                                 "feature": {
-                                    "config": {
                                         "vegetation_chance": 0.5,
                                         "xz_radius": 5,
                                         "extra_edge_column_chance": 0,
@@ -478,7 +445,6 @@
                                         "vertical_range": 32,
                                         "vegetation_feature": {
                                             "feature": {
-                                                "config": {
                                                     "direction": "down",
                                                     "allowed_placement": {
                                                         "type": "minecraft:true"
@@ -497,7 +463,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:clay"
+                                                                    "id": "minecraft:clay"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
@@ -506,13 +472,12 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:cracked_polished_blackstone_bricks"
+                                                                    "id": "minecraft:cracked_polished_blackstone_bricks"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
                                                         }
-                                                    ]
-                                                },
+                                                    ],
                                                 "type": "minecraft:block_column"
                                             },
                                             "placement": []
@@ -522,18 +487,16 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:cracked_polished_blackstone_bricks"
+                                                "id": "minecraft:cracked_polished_blackstone_bricks"
                                             },
                                             "type": "minecraft:simple"
-                                        }
-                                    },
+                                        },
                                     "type": "minecraft:vegetation_patch"
                                 },
                                 "placement": []
                             },
                             {
                                 "feature": {
-                                    "config": {
                                         "vegetation_chance": 0.5,
                                         "xz_radius": 5,
                                         "extra_edge_column_chance": 0,
@@ -541,7 +504,6 @@
                                         "vertical_range": 42,
                                         "vegetation_feature": {
                                             "feature": {
-                                                "config": {
                                                     "direction": "up",
                                                     "allowed_placement": {
                                                         "type": "minecraft:true"
@@ -560,7 +522,7 @@
                                                             },
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:cracked_deepslate_tiles"
+                                                                    "id": "minecraft:cracked_deepslate_tiles"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
@@ -569,13 +531,12 @@
                                                             "height": 1,
                                                             "provider": {
                                                                 "state": {
-                                                                    "Name": "minecraft:cracked_polished_blackstone_bricks"
+                                                                    "id": "minecraft:cracked_polished_blackstone_bricks"
                                                                 },
                                                                 "type": "minecraft:simple"
                                                             }
                                                         }
-                                                    ]
-                                                },
+                                                    ],
                                                 "type": "minecraft:block_column"
                                             },
                                             "placement": []
@@ -585,17 +546,15 @@
                                         "replaceable": "#minecraft:lush_ground_replaceable",
                                         "ground_state": {
                                             "state": {
-                                                "Name": "minecraft:cracked_polished_blackstone_bricks"
+                                                "id": "minecraft:cracked_polished_blackstone_bricks"
                                             },
                                             "type": "minecraft:simple"
-                                        }
-                                    },
+                                        },
                                     "type": "minecraft:vegetation_patch"
                                 },
                                 "placement": []
                             }
-                        ]
-                    },
+                        ],
                     "type": "minecraft:simple_random_selector"
                 },
                 "placement": [
@@ -618,5 +577,4 @@
                 ]
             }
         ]
-    }
 }

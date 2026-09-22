@@ -1,20 +1,17 @@
 {
     "type": "minecraft:random_selector",
-    "config": {
         "features": [
             {
                 "chance": 0.1,
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:ice"
+                                    "id": "minecraft:ice"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -61,14 +58,12 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:twisting_vines_plant"
+                                    "id": "minecraft:twisting_vines_plant"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -115,14 +110,12 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:warped_roots"
+                                    "id": "minecraft:warped_roots"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -169,18 +162,16 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "waterlogged": "false",
-                                        "pickles": 4
+                                        "pickles": "4"
                                     },
-                                    "Name": "minecraft:sea_pickle"
+                                    "id": "minecraft:sea_pickle"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -227,14 +218,12 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:moss_carpet"
+                                    "id": "minecraft:moss_carpet"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -269,14 +258,12 @@
         "default": {
             "feature": {
                 "type": "minecraft:simple_block",
-                "config": {
                     "to_place": {
                         "type": "minecraft:simple",
                         "state": {
-                            "Name": "minecraft:nether_sprouts"
+                            "id": "minecraft:nether_sprouts"
                         }
                     }
-                }
             },
             "placement": [
                 {
@@ -306,5 +293,4 @@
                 }
             ]
         }
-    }
 }

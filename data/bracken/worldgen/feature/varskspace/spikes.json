@@ -1,6 +1,5 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "ignore_vines": true,
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
@@ -8,8 +7,8 @@
         "trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:waxed_copper_bulb",
-        "Properties": {
+                "id": "minecraft:waxed_copper_bulb",
+        "properties": {
             "lit": "true"
         }
             }
@@ -17,7 +16,7 @@
         "foliage_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:waxed_copper_block"
+                "id": "minecraft:waxed_copper_block"
             }
         },
         "trunk_placer": {
@@ -35,9 +34,8 @@
         "below_trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:waxed_copper_block"
+                "id": "minecraft:waxed_copper_block"
             }
         },
         "decorators": []
-    }
 }

@@ -1,7 +1,5 @@
 {
     "type": "minecraft:lake",
-    "config": {
-        
 		"can_place_feature": { "type": "minecraft:true" },
 		"can_replace_with_air_or_fluid": {
 			"type": "minecraft:not",
@@ -20,8 +18,8 @@
         "fluid": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:water",
-                "Properties": {
+                "id": "minecraft:water",
+                "properties": {
                     "level": "0"
                 }
             }
@@ -29,8 +27,8 @@
         "barrier": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:mushroom_stem",
-                "Properties": {
+                "id": "minecraft:mushroom_stem",
+                "properties": {
                     "west": "true",
                     "up": "true",
                     "south": "true",
@@ -40,5 +38,4 @@
                 }
             }
         }
-    }
 }

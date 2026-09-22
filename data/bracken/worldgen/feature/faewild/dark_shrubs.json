@@ -1,20 +1,17 @@
 {
     "type": "minecraft:random_selector",
-    "config": {
         "features": [
             {
                 "chance": 0.05,
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:wither_rose"
+                                    "id": "minecraft:wither_rose"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -61,14 +58,12 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:cobweb"
+                                    "id": "minecraft:cobweb"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -115,14 +110,12 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:mangrove_roots"
+                                    "id": "minecraft:mangrove_roots"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -168,17 +161,12 @@
         "default": {
             "feature": {
                 "type": "minecraft:simple_block",
-                "config": {
                     "to_place": {
                         "type": "minecraft:simple",
                         "state": {
-                            "Properties": {
-                                "waterlogged": "false"
-                            },
-                            "Name": "minecraft:dead_bush"
+                            "id": "minecraft:dead_bush"
                         }
                     }
-                }
             },
             "placement": [
                 {
@@ -208,5 +196,4 @@
                 }
             ]
         }
-    }
 }

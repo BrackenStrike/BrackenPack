@@ -1,19 +1,18 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "minimum_size": {
             "type": "minecraft:two_layers_feature_size"
         },
         "trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:cracked_deepslate_bricks"
+                "id": "minecraft:cracked_deepslate_bricks"
             }
         },
         "foliage_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:air"
+                "id": "minecraft:air"
             }
         },
         "trunk_placer": {
@@ -31,7 +30,7 @@
         "below_trunk_provider": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:cracked_polished_blackstone_bricks"
+                "id": "minecraft:cracked_polished_blackstone_bricks"
             }
         },
         "decorators": [
@@ -50,12 +49,11 @@
                         "then": {
                             "type": "minecraft:simple",
                             "state": {
-                                "Name": "minecraft:cracked_polished_blackstone_bricks"
+                                "id": "minecraft:cracked_polished_blackstone_bricks"
                             }
                         }
                     }]
                 }
             }
         ]
-    }
 }

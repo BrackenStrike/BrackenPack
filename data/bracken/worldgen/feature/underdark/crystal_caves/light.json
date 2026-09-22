@@ -1,22 +1,19 @@
 {
     "type": "minecraft:simple_random_selector",
-    "config": {
         "features": [
             {
                 "feature": {
                     "type": "minecraft:simple_block",
-                    "config": {
                         "to_place": {
                             "state": {
-                                "Name": "minecraft:light",
-                                "Properties": {
+                                "id": "minecraft:light",
+                                "properties": {
                                     "waterlogged": "false",
                                     "level": "15"
                                 }
                             },
                             "type": "minecraft:simple"
                         }
-                    }
                 },
                 "placement": [
                     {
@@ -55,18 +52,16 @@
             {
                 "feature": {
                     "type": "minecraft:simple_block",
-                    "config": {
                         "to_place": {
                             "state": {
-                                "Name": "minecraft:light",
-                                "Properties": {
+                                "id": "minecraft:light",
+                                "properties": {
                                     "waterlogged": "false",
                                     "level": "15"
                                 }
                             },
                             "type": "minecraft:simple"
                         }
-                    }
                 },
                 "placement": [
                     {
@@ -103,5 +98,4 @@
                 ]
             }
         ]
-    }
 }

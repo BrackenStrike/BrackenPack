@@ -1,42 +1,41 @@
 {
     "type": "minecraft:geode",
-    "config": {
         "blocks": {
             "alternate_inner_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:blackstone"
+                    "id": "minecraft:blackstone"
                 }
             },
             "cannot_replace": "#minecraft:features_cannot_replace",
             "filling_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:magma_block"
+                    "id": "minecraft:magma_block"
                 }
             },
             "inner_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:lava"
+                    "id": "minecraft:lava"
                 }
             },
             "inner_placements": [
                 {
-                    "Name": "minecraft:magma_block"
+                    "id": "minecraft:magma_block"
                 }
             ],
             "invalid_blocks": "#minecraft:features_cannot_replace",
             "middle_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:magma_block"
+                    "id": "minecraft:magma_block"
                 }
             },
             "outer_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:blackstone"
+                    "id": "minecraft:blackstone"
                 }
             }
         },
@@ -68,5 +67,4 @@
         },
         "use_alternate_layer0_chance": 0.085,
         "use_potential_placements_chance": 0.35
-    }
 }

@@ -1,6 +1,5 @@
 {
     "type": "minecraft:tree",
-    "config": {
         "decorators": [],
         "ignore_vines": true,
         "minimum_size": {
@@ -11,11 +10,11 @@
         },
         "foliage_provider": {
             "state": {
-                "Properties": {
+                "properties": {
                     "level": "9",
                     "waterlogged": "false"
                 },
-                "Name": "minecraft:light"
+                "id": "minecraft:light"
             },
             "type": "minecraft:simple"
         },
@@ -27,7 +26,7 @@
         },
         "trunk_provider": {
             "state": {
-                "Properties": {
+                "properties": {
                     "west": "true",
                     "up": "true",
                     "south": "true",
@@ -35,7 +34,7 @@
                     "east": "true",
                     "down": "true"
                 },
-                "Name": "minecraft:mushroom_stem"
+                "id": "minecraft:mushroom_stem"
             },
             "type": "minecraft:simple"
         },
@@ -47,9 +46,8 @@
         },
         "below_trunk_provider": {
             "state": {
-                "Name": "minecraft:dirt"
+                "id": "minecraft:dirt"
             },
             "type": "minecraft:simple"
         }
-    }
 }

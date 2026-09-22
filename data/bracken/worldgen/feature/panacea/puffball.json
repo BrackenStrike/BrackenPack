@@ -2,44 +2,43 @@
 
 {
     "type": "minecraft:geode",
-    "config": {
         "blocks": {
             "alternate_inner_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:mushroom_stem"
+                    "id": "minecraft:mushroom_stem"
                 }
             },
             "cannot_replace": "#minecraft:features_cannot_replace",
             "filling_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:air"
+                    "id": "minecraft:air"
                 }
             },
             "inner_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:brown_mushroom_block"
+                    "id": "minecraft:brown_mushroom_block"
                 }
             },
             "inner_placements": [
                 {
-                    "Name": "minecraft:mushroom_stem",
-                    "Properties": {}
+                    "id": "minecraft:mushroom_stem",
+                    "properties": {}
                 }
             ],
             "invalid_blocks": "#minecraft:geode_invalid_blocks",
             "middle_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:brown_mushroom_block"
+                    "id": "minecraft:brown_mushroom_block"
                 }
             },
             "outer_layer_provider": {
                 "type": "minecraft:simple",
                 "state": {
-                    "Name": "minecraft:mushroom_stem"
+                    "id": "minecraft:mushroom_stem"
                 }
             }
         },
@@ -71,5 +70,4 @@
         },
         "use_alternate_layer0_chance": 0.085,
         "use_potential_placements_chance": 0.35
-    }
 }

@@ -1,12 +1,10 @@
 {
     "type": "minecraft:netherrack_replace_blobs",
-    "config": {
         "target": {
-            "Name": "minecraft:water"
+            "id": "minecraft:water"
         },
         "state": {
-            "Name": "minecraft:diorite"
+            "id": "minecraft:diorite"
         },
         "radius": 0
-    }
 }

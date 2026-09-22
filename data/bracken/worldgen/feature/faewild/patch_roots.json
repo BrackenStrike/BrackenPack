@@ -1,11 +1,9 @@
 {
     "type": "minecraft:simple_block",
-    "config": {
         "to_place": {
             "type": "minecraft:simple",
             "state": {
-                "Name": "minecraft:cobweb"
+                "id": "minecraft:cobweb"
             }
         }
-    }
 }

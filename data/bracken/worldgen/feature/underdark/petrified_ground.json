@@ -1,20 +1,17 @@
 {
     "type": "minecraft:random_selector",
-    "config": {
         "features": [
             {
                 "chance": 0.2,
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:dead_bush"
+                                    "id": "minecraft:dead_bush"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -61,11 +58,10 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "waterlogged": "false",
                                         "down": "true",
                                         "east": "false",
@@ -74,10 +70,9 @@
                                         "south": "false",
                                         "up": "false"
                                     },
-                                    "Name": "minecraft:glow_lichen"
+                                    "id": "minecraft:glow_lichen"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -124,14 +119,12 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Name": "minecraft:brown_mushroom"
+                                    "id": "minecraft:brown_mushroom"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -178,17 +171,15 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:dead_brain_coral"
+                                    "id": "minecraft:dead_brain_coral"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -235,17 +226,15 @@
                 "feature": {
                     "feature": {
                         "type": "minecraft:simple_block",
-                        "config": {
                             "to_place": {
                                 "type": "minecraft:simple",
                                 "state": {
-                                    "Properties": {
+                                    "properties": {
                                         "waterlogged": "false"
                                     },
-                                    "Name": "minecraft:dead_horn_coral"
+                                    "id": "minecraft:dead_horn_coral"
                                 }
                             }
-                        }
                     },
                     "placement": [
                         {
@@ -280,17 +269,15 @@
         "default": {
             "feature": {
                 "type": "minecraft:simple_block",
-                "config": {
                     "to_place": {
                         "type": "minecraft:simple",
                         "state": {
-                            "Properties": {
+                            "properties": {
                                 "waterlogged": "false"
                             },
-                            "Name": "minecraft:dead_horn_coral_fan"
+                            "id": "minecraft:dead_horn_coral_fan"
                         }
                     }
-                }
             },
             "placement": [
                 {
@@ -320,5 +307,4 @@
                 }
             ]
         }
-    }
 }

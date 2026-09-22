@@ -1,12 +1,10 @@
 {
     "type": "minecraft:netherrack_replace_blobs",
-    "config": {
         "target": {
-            "Name": "minecraft:grass_block"
+            "id": "minecraft:grass_block"
         },
         "state": {
-            "Name": "minecraft:rooted_dirt"
+            "id": "minecraft:rooted_dirt"
         },
         "radius": 0
-    }
 }
