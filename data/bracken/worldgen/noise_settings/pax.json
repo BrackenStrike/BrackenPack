@@ -1,8 +1,6 @@
 {
     "sea_level": 63,
     "disable_mob_generation": false,
-    
-    
     "legacy_random_source": false,
     "default_block": {
         "id": "minecraft:smooth_quartz"
@@ -15,42 +13,48 @@
     },
     "noise": {
         "min_y": 0,
-        "height": 464,
-        "size_horizontal": 4,
-        "size_vertical": 2
+        "height": 464
     },
     "noise_router": {
         "final_density": {
-            "input": {
-                "left": 0.64,
-                "right": {
-                    "input": {
+            "type": "add",
+			"right": { "type": "beardifier" },
+            "left": {
+                "input": {
+                    "left": 0.64,
+                    "right": {
+                        "cell_size_xz": 16,
+                        "cell_size_y": 8,
                         "input": {
-                            "type": "minecraft:add",
-                            "left": {
-                                "type": "minecraft:mul",
+                            "input": {
+                                "type": "minecraft:add",
                                 "left": {
-                                    "type": "minecraft:gradient",
-                                    "from_coordinate": 440,
-                                    "to_coordinate": 464,
-                                    "from_value": 1,
-                                    "to_value": 0
+                                    "type": "minecraft:mul",
+                                    "left": {
+                                        "type": "minecraft:gradient",
+                                        "from_coordinate": 440,
+                                        "to_coordinate": 464,
+                                        "from_value": 1,
+                                        "to_value": 0,
+                                        "axis": "y",
+                                        "tiling": "clamp_to_edge"
+                                    },
+                                    "right": {
+                                        "type": "minecraft:add",
+                                        "left": "minecraft:end/sloped_cheese",
+                                        "right": 0.078125
+                                    }
                                 },
-                                "right": {
-                                    "type": "minecraft:add",
-                                    "left": "minecraft:end/sloped_cheese",
-                                    "right": 0.078125
-                                }
+                                "right": -0.078125
                             },
-                            "right": -0.078125
+                            "type": "minecraft:blend_density"
                         },
-                        "type": "minecraft:blend_density"
+                        "type": "minecraft:interpolated"
                     },
-                    "type": "minecraft:interpolated"
+                    "type": "minecraft:mul"
                 },
-                "type": "minecraft:mul"
-            },
-            "type": "minecraft:squeeze"
+                "type": "minecraft:squeeze"
+            }
         },
         "erosion": 0,
         "depth": 0,
@@ -64,12 +68,6 @@
                 "type": "minecraft:cache"
             }
         },
-        "lava": {
-            "noise": "minecraft:aquifer_lava",
-            "xz_scale": 1,
-            "y_scale": 1,
-            "type": "minecraft:noise"
-        },
         "temperature": {
             "xz_scale": 0.25,
             "y_scale": 0,
@@ -77,7 +75,7 @@
             "shift_x": "minecraft:shift_x",
             "shift_y": 0,
             "shift_z": "minecraft:shift_z",
-            "type": "minecraft:shifted_noise"
+            "type": "minecraft:noise"
         },
         "vegetation": {
             "xz_scale": 0.25,
@@ -86,27 +84,9 @@
             "shift_x": "minecraft:shift_x",
             "shift_y": 0,
             "shift_z": "minecraft:shift_z",
-            "type": "minecraft:shifted_noise"
-        },
-        "continents": "minecraft:overworld/continents",
-        "barrier": {
-            "noise": "minecraft:aquifer_barrier",
-            "xz_scale": 1,
-            "y_scale": 0.5,
             "type": "minecraft:noise"
         },
-        "fluid_level_floodedness": {
-            "noise": "minecraft:aquifer_fluid_level_floodedness",
-            "xz_scale": 1,
-            "y_scale": 0.67,
-            "type": "minecraft:noise"
-        },
-        "fluid_level_spread": {
-            "noise": "minecraft:aquifer_fluid_level_spread",
-            "xz_scale": 1,
-            "y_scale": 0.7142857142857143,
-            "type": "minecraft:noise"
-        }
+        "continents": "minecraft:overworld/continents"
     },
     "material_rule": {
         "type": "minecraft:sequence",
