@@ -14,7 +14,7 @@ execute if entity @s[type=minecraft:wither] run function bracken:entity/pax/with
 # Pax hit detection
 execute \
     if entity @s[type=#bracken:vehicle] \
-    unless predicate {condition:"minecraft:entity_properties",entity:"this",predicate:{passenger:{}}} \
+    unless predicate {type:"minecraft:entity_properties",entity:"this",predicate:{passenger:{}}} \
     unless entity @e[type=interaction,tag=bp.pax_interactor,distance=..1] \
     at @s \
     run summon interaction ~ ~ ~ {Tags:["bp.pax_interactor"],height:1.0,width:2.0}
