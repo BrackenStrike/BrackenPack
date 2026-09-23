@@ -1,57 +1,64 @@
 {
-	"anvil_cost": 8,
-	"description": {
-		"translate": "Searing Surface"
-	},
-	"effects": {
-		"minecraft:damage_immunity": [{
-			"effect": {},
-			"requirements": {
-				"condition": "minecraft:damage_source_properties",
-				"predicate": {
-					"tags": [{
-						"expected": true,
-						"id": "minecraft:is_freezing"
-					},{
-						"expected": false,
-						"id": "minecraft:bypasses_invulnerability"
-					}]
-				}
-			}
-		}],
-		"minecraft:post_attack": [{
-			"affected": "attacker",
-			"effect": {
-				"type": "minecraft:ignite",
-				"duration": {
-					"type": "minecraft:linear",
-					"base": 4.0,
-					"per_level_above_first": 4.0
-				}
-			},
-			"enchanted": "victim",
-			"requirements": {
-				"condition": "minecraft:damage_source_properties",
-				"predicate": {
-					"is_direct": true
-				}
-			}
-		}]
-	},
-	"exclusive_set": "bracken:quenching",
-	"max_cost": {
-		"base": 60,
-		"per_level_above_first": 20
-	},
-	"max_level": 3,
-	"min_cost": {
-		"base": 10,
-		"per_level_above_first": 20
-	},
-	"primary_items": "#minecraft:enchantable/chest_armor",
-	"slots": [
-		"armor"
-	],
-	"supported_items": "#minecraft:enchantable/armor",
-	"weight": 1
+    "anvil_cost": 8,
+    "description": {
+        "translate": "Searing Surface"
+    },
+    "effects": {
+        "minecraft:damage_immunity": [
+            {
+                "effect": {},
+                "requirements": {
+                    "type": "minecraft:damage_source_properties",
+                    "predicate": {
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "#minecraft:is_freezing"
+                            },
+                            {
+                                "expected": false,
+                                "id": "#minecraft:bypasses_invulnerability"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "minecraft:post_attack": [
+            {
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:ignite",
+                    "duration": {
+                        "type": "minecraft:linear",
+                        "base": 4.0,
+                        "per_level_above_first": 4.0
+                    }
+                },
+                "enchanted": "victim",
+                "requirements": {
+                    "type": "minecraft:damage_source_properties",
+                    "predicate": {
+                        "is_direct": true
+                    }
+                }
+            }
+        ]
+    },
+    "exclusive_set": "bracken:quenching",
+    "max_cost": {
+        "base": 60,
+        "per_level_above_first": 20
+    },
+    "max_level": 3,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 20
+    },
+    "primary_items": "#minecraft:enchantable/chest_armor",
+    "slots": [
+        "armor"
+    ],
+    "supported_items": "#minecraft:enchantable/armor",
+    "weight": 1
 }

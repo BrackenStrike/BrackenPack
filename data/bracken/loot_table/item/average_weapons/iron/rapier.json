@@ -45,7 +45,7 @@
           "disabled_sound": "minecraft:item.axe.scrape",
           "bypassed_by": "#bracken:bypasses_sword"
         },
-				"swing_animation": {
+				"attack_animation": {
 					"type": "stab" 
 				}
 				}

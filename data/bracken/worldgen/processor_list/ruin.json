@@ -4,7 +4,7 @@
             "rules": [
                 {
                     "output_state": {
-                        "Name": "minecraft:cut_red_sandstone"
+                        "id": "minecraft:cut_red_sandstone"
                     },
                     "input_predicate": {
                         "block": "minecraft:chiseled_red_sandstone",
@@ -17,7 +17,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:chiseled_red_sandstone"
+                        "id": "minecraft:chiseled_red_sandstone"
                     },
                     "input_predicate": {
                         "block": "minecraft:red_sandstone",
@@ -30,7 +30,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:red_sand"
+                        "id": "minecraft:red_sand"
                     },
                     "input_predicate": {
                         "block": "minecraft:red_sandstone",
@@ -43,7 +43,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:cut_sandstone"
+                        "id": "minecraft:cut_sandstone"
                     },
                     "input_predicate": {
                         "block": "minecraft:chiseled_sandstone",
@@ -56,7 +56,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:chiseled_sandstone"
+                        "id": "minecraft:chiseled_sandstone"
                     },
                     "input_predicate": {
                         "block": "minecraft:sandstone",
@@ -69,7 +69,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:sand"
+                        "id": "minecraft:sand"
                     },
                     "input_predicate": {
                         "block": "minecraft:sandstone",
@@ -82,7 +82,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:quartz_bricks"
+                        "id": "minecraft:quartz_bricks"
                     },
                     "input_predicate": {
                         "block": "minecraft:chiseled_quartz_block",
@@ -95,7 +95,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:quartz_block"
+                        "id": "minecraft:quartz_block"
                     },
                     "input_predicate": {
                         "block": "minecraft:quartz_bricks",
@@ -108,7 +108,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:white_concrete_powder"
+                        "id": "minecraft:white_concrete_powder"
                     },
                     "input_predicate": {
                         "block": "minecraft:quartz_block",
@@ -121,7 +121,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:deepslate_tiles"
+                        "id": "minecraft:deepslate_tiles"
                     },
                     "input_predicate": {
                         "block": "minecraft:chiseled_deepslate",
@@ -134,7 +134,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:cracked_deepslate_tiles"
+                        "id": "minecraft:cracked_deepslate_tiles"
                     },
                     "input_predicate": {
                         "block": "minecraft:deepslate_tiles",
@@ -147,7 +147,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:deepslate"
+                        "id": "minecraft:deepslate"
                     },
                     "input_predicate": {
                         "block": "minecraft:cracked_deepslate_tiles",
@@ -160,7 +160,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:gravel"
+                        "id": "minecraft:gravel"
                     },
                     "input_predicate": {
                         "block": "minecraft:deepslate",
@@ -173,7 +173,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:polished_blackstone_bricks"
+                        "id": "minecraft:polished_blackstone_bricks"
                     },
                     "input_predicate": {
                         "block": "minecraft:chiseled_polished_blackstone",
@@ -186,7 +186,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:cracked_polished_blackstone_bricks"
+                        "id": "minecraft:cracked_polished_blackstone_bricks"
                     },
                     "input_predicate": {
                         "block": "minecraft:polished_blackstone_bricks",
@@ -199,7 +199,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:blackstone"
+                        "id": "minecraft:blackstone"
                     },
                     "input_predicate": {
                         "block": "minecraft:cracked_polished_blackstone_bricks",
@@ -212,7 +212,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:stone_bricks"
+                        "id": "minecraft:stone_bricks"
                     },
                     "input_predicate": {
                         "block": "minecraft:chiseled_stone_bricks",
@@ -225,7 +225,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:cracked_stone_bricks"
+                        "id": "minecraft:cracked_stone_bricks"
                     },
                     "input_predicate": {
                         "block": "minecraft:stone_bricks",
@@ -238,7 +238,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:stone"
+                        "id": "minecraft:stone"
                     },
                     "input_predicate": {
                         "block": "minecraft:cracked_stone_bricks",
@@ -251,7 +251,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:mossy_cobblestone"
+                        "id": "minecraft:mossy_cobblestone"
                     },
                     "input_predicate": {
                         "block": "minecraft:mossy_stone_bricks",
@@ -264,7 +264,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:moss_block"
+                        "id": "minecraft:moss_block"
                     },
                     "input_predicate": {
                         "block": "minecraft:mossy_cobblestone",
@@ -277,7 +277,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:nether_bricks"
+                        "id": "minecraft:nether_bricks"
                     },
                     "input_predicate": {
                         "block": "minecraft:chiseled_nether_bricks",
@@ -290,7 +290,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:cracked_nether_bricks"
+                        "id": "minecraft:cracked_nether_bricks"
                     },
                     "input_predicate": {
                         "block": "minecraft:nether_bricks",
@@ -303,7 +303,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:granite"
+                        "id": "minecraft:granite"
                     },
                     "input_predicate": {
                         "block": "minecraft:polished_granite",
@@ -316,7 +316,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:diorite"
+                        "id": "minecraft:diorite"
                     },
                     "input_predicate": {
                         "block": "minecraft:polished_diorite",
@@ -329,7 +329,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:andesite"
+                        "id": "minecraft:andesite"
                     },
                     "input_predicate": {
                         "block": "minecraft:polished_andesite",
@@ -342,7 +342,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:stone"
+                        "id": "minecraft:stone"
                     },
                     "input_predicate": {
                         "block": "minecraft:smooth_stone",
@@ -355,7 +355,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:blackstone"
+                        "id": "minecraft:blackstone"
                     },
                     "input_predicate": {
                         "block": "minecraft:polished_blackstone",
@@ -368,7 +368,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:deepslate"
+                        "id": "minecraft:deepslate"
                     },
                     "input_predicate": {
                         "block": "minecraft:polished_deepslate",
@@ -381,7 +381,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:smooth_quartz"
+                        "id": "minecraft:smooth_quartz"
                     },
                     "input_predicate": {
                         "block": "minecraft:quartz_block",
@@ -394,7 +394,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:smooth_red_sandstone"
+                        "id": "minecraft:smooth_red_sandstone"
                     },
                     "input_predicate": {
                         "block": "minecraft:cut_red_sandstone",
@@ -407,7 +407,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:smooth_sandstone"
+                        "id": "minecraft:smooth_sandstone"
                     },
                     "input_predicate": {
                         "block": "minecraft:cut_sandstone",
@@ -420,7 +420,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:water"
+                        "id": "minecraft:water"
                     },
                     "input_predicate": {
                         "block": "minecraft:dark_prismarine",
@@ -433,7 +433,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:prismarine"
+                        "id": "minecraft:prismarine"
                     },
                     "input_predicate": {
                         "block": "minecraft:prismarine_bricks",
@@ -446,7 +446,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:white_stained_glass"
+                        "id": "minecraft:white_stained_glass"
                     },
                     "input_predicate": {
                         "block": "minecraft:glass",
@@ -459,7 +459,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:water"
+                        "id": "minecraft:water"
                     },
                     "input_predicate": {
                         "block": "minecraft:sea_lantern",
@@ -472,7 +472,7 @@
                 },
                 {
                     "output_state": {
-                        "Name": "minecraft:water"
+                        "id": "minecraft:water"
                     },
                     "input_predicate": {
                         "block": "minecraft:prismarine",

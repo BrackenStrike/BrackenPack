@@ -15,7 +15,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:mangrove_roots"
+              "id": "minecraft:mangrove_roots"
             }
           },
           {
@@ -28,7 +28,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:stone"
+              "id": "minecraft:stone"
             }
           },
           {
@@ -41,7 +41,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:stone"
+              "id": "minecraft:stone"
             }
           },
 
@@ -55,7 +55,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:mangrove_roots"
+              "id": "minecraft:mangrove_roots"
             }
           },
           {
@@ -68,7 +68,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:dirt"
+              "id": "minecraft:dirt"
             }
           },
           {
@@ -81,7 +81,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:mangrove_roots"
+              "id": "minecraft:mangrove_roots"
             }
           },
 
@@ -95,7 +95,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:mangrove_roots"
+              "id": "minecraft:mangrove_roots"
             }
           },
           {
@@ -108,7 +108,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:grass_block"
+              "id": "minecraft:grass_block"
             }
           },
           {
@@ -121,7 +121,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:mangrove_roots"
+              "id": "minecraft:mangrove_roots"
             }
           },
 
@@ -136,7 +136,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:cave_air"
+              "id": "minecraft:cave_air"
             }
           },
           {
@@ -149,7 +149,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:cave_air"
+              "id": "minecraft:cave_air"
             }
           },
           {
@@ -162,7 +162,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:cave_air"
+              "id": "minecraft:cave_air"
             }
           },
 
@@ -177,7 +177,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:muddy_mangrove_roots"
+              "id": "minecraft:muddy_mangrove_roots"
             }
           },
           {
@@ -190,7 +190,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:water"
+              "id": "minecraft:water"
             }
           },
           {
@@ -203,7 +203,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:muddy_mangrove_roots"
+              "id": "minecraft:muddy_mangrove_roots"
             }
           }
          

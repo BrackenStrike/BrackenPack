@@ -22,14 +22,14 @@
 			},
 			"enchanted": "attacker",
 			"requirements": {
-			  "condition": "minecraft:all_of",
+			  "type": "minecraft:all_of",
 			  "terms": [
 				{
-				  "condition": "minecraft:weather_check",
+				  "type": "minecraft:weather_check",
 				  "thundering": true
 				},
 				{
-				  "condition": "minecraft:entity_properties",
+				  "type": "minecraft:entity_properties",
 				  "entity": "this",
 				  "predicate": {
 					"location": {

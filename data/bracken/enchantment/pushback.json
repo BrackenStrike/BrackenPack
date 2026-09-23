@@ -35,8 +35,9 @@
 			},
 			"enchanted": "victim",
 			"requirements": {
-				"condition": "minecraft:entity_properties",
-				"entity": "direct_attacker"
+				"type": "minecraft:entity_properties",
+				"entity": "direct_attacker",
+				"predicate": {}
 			}
 		}]
 	},

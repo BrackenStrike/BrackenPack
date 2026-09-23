@@ -25,7 +25,7 @@
 				"function": "bracken:item/nightfall/nightfall"
 			},
 			"requirements": {
-				"condition": "entity_properties",
+				"type": "entity_properties",
 				"entity": "this",
 				"predicate": {
 					"minecraft:entity_type": "minecraft:player",

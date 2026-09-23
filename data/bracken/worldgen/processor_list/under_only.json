@@ -15,7 +15,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:air"
+              "id": "minecraft:air"
             }
           },
           {
@@ -28,7 +28,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:air"
+              "id": "minecraft:air"
             }
           },
           {
@@ -41,7 +41,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:air"
+              "id": "minecraft:air"
             }
           },
           {
@@ -54,7 +54,7 @@
               "predicate_type": "minecraft:block_match"
             },
             "output_state": {
-              "Name": "minecraft:air"
+              "id": "minecraft:air"
             }
           },
           {
@@ -67,7 +67,7 @@
               "predicate_type": "minecraft:always_true"
             },
             "output_state": {
-              "Name": "minecraft:air"
+              "id": "minecraft:air"
             }
           }
          

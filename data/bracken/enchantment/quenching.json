@@ -11,7 +11,7 @@
 				"block_state": {
 					"type": "minecraft:simple",
 					"state": {
-						"Name": "minecraft:air"
+						"id": "minecraft:air"
 					}
 				},
 				"height": 1.0,
@@ -46,7 +46,7 @@
 				"trigger_game_event": "minecraft:block_place"
 			},
 			"requirements": {
-				"condition": "minecraft:entity_properties",
+				"type": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
 					"flags": {
@@ -75,11 +75,11 @@
 				}
 			},
 			"requirements": {
-				"condition": "minecraft:damage_source_properties",
+				"type": "minecraft:damage_source_properties",
 				"predicate": {
 					"tags": [{
 						"expected": false,
-						"id": "minecraft:bypasses_invulnerability"
+						"id": "#minecraft:bypasses_invulnerability"
 					}]
 				}
 			}
@@ -93,14 +93,14 @@
 				}
 			},
 			"requirements": {
-				"condition": "damage_source_properties",
+				"type": "damage_source_properties",
 				"predicate": {
 					"tags": [{
 						"expected": false,
-						"id": "bypasses_invulnerability"
+						"id": "#bypasses_invulnerability"
 					},{
 						"expected": true,
-						"id": "is_fire"
+						"id": "#is_fire"
 					}]
 				}
 			}

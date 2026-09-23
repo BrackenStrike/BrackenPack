@@ -12,7 +12,7 @@
 				"function": "bracken:item/enchantment/defuse"
 			},
 			"requirements": {
-				"condition": "minecraft:entity_properties",
+				"type": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
 					"minecraft:entity_type": "minecraft:creeper"

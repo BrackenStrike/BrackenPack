@@ -7,14 +7,14 @@
 		"minecraft:damage_immunity": [{
 			"effect": {},
 			"requirements": {
-				"condition": "minecraft:damage_source_properties",
+				"type": "minecraft:damage_source_properties",
 				"predicate": {
 					"tags": [{
 						"expected": true,
-						"id": "minecraft:burn_from_stepping"
+						"id": "#minecraft:burn_from_stepping"
 					},{
 						"expected": false,
-						"id": "minecraft:bypasses_invulnerability"
+						"id": "#minecraft:bypasses_invulnerability"
 					}]
 				}
 			}
@@ -25,8 +25,8 @@
 				"block_state": {
 					"type": "minecraft:simple",
 					"state": {
-						"Name": "minecraft:water",
-						"Properties": {
+						"id": "minecraft:water",
+						"properties": {
 							"level": "1"
 						}
 					}
@@ -63,7 +63,7 @@
 				"trigger_game_event": "minecraft:block_place"
 			},
 			"requirements": {
-				"condition": "minecraft:entity_properties",
+				"type": "minecraft:entity_properties",
 				"entity": "this",
 				"predicate": {
 					"flags": {

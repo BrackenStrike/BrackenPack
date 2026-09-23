@@ -1,59 +1,68 @@
 {
-	"description": "Splintering",
-	"supported_items": "#minecraft:enchantable/bow",
-	"primary_items": "minecraft:bow",
-	"weight": 1,
-	"max_level": 3,
-	"min_cost": {
-		"base": 0,
-		"per_level_above_first": 0
-	},
-	"max_cost": {
-		"base": 0,
-		"per_level_above_first": 0
-	},
-	"anvil_cost": 0,
-	"slots": [
-		"hand"
-	],
-	"effects": {
-		"minecraft:post_attack": [{
-			"enchanted": "attacker",
-			"affected": "damaging_entity",
-			"effect": {
-				"type": "minecraft:run_function",
-				"function": "bracken:item/enchantment/splintering/store_values"
-			},
-			"requirements": {
-				"condition": "minecraft:entity_properties",
-				"entity": "direct_attacker",
-				"predicate": {
-					"minecraft:entity_type": "#minecraft:arrows"
-				}
-			}
-		},{
-			"enchanted": "attacker",
-			"affected": "victim",
-			"effect": {
-				"type": "minecraft:run_function",
-				"function": "bracken:item/enchantment/splintering/as_target"
-			},
-			"requirements": [{
-				"condition": "minecraft:entity_properties",
-				"entity": "direct_attacker",
-				"predicate": {
-					"minecraft:entity_type": "#minecraft:arrows"
-				}
-			},{
-				"condition": "minecraft:inverted",
-				"term": {
-					"condition": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"minecraft:entity_type": "#bracken:untargettable"
-					}
-				}
-			}]
-		}]
-	}
+    "description": "Splintering",
+    "supported_items": "#minecraft:enchantable/bow",
+    "primary_items": "minecraft:bow",
+    "weight": 1,
+    "max_level": 3,
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "anvil_cost": 0,
+    "slots": [
+        "hand"
+    ],
+    "effects": {
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "damaging_entity",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "bracken:item/enchantment/splintering/store_values"
+                },
+                "requirements": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "direct_attacker",
+                    "predicate": {
+                        "minecraft:entity_type": "#minecraft:arrows"
+                    }
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "bracken:item/enchantment/splintering/as_target"
+                },
+                "requirements": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "direct_attacker",
+                            "predicate": {
+                                "minecraft:entity_type": "#minecraft:arrows"
+                            }
+                        },
+                        {
+                            "type": "minecraft:inverted",
+                            "term": {
+                                "type": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "minecraft:entity_type": "#bracken:untargettable"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
 }

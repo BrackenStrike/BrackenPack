@@ -46,7 +46,7 @@
           "minecraft:attribute_modifiers"
         ]
       },
-			"swing_animation": {
+			"attack_animation": {
 				"type": "stab"
 			}
 		}
