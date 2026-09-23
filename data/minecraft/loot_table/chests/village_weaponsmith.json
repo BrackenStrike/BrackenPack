@@ -17,36 +17,23 @@
           "weight": 3
         },
         {
-          "type": "minecraft:item",
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/average_weapons/iron/greatsword",
+          "weight": 4,
           "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
+            "type": "minecraft:set_damage",
+            "damage": {
               "type": "minecraft:uniform",
-              "max": 5,
-              "min": 1
+              "max": 0.7,
+              "min": 0.0
             }
-          },
-          "name": "minecraft:iron_ingot",
-          "weight": 10
+          }
         },
         {
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron/greatsword",
-			"weight": 4,
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.7
-				}
-			}]
-		},
-    
-{
-			"type": "loot_table",
-			"value": "bracken:item/weapon_templates/greatsword_weapon_template",
-			"weight": 3
-		},
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/weapon_templates/greatsword_weapon_template",
+          "weight": 3
+        },
         {
           "type": "minecraft:item",
           "modifier": {

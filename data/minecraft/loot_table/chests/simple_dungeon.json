@@ -22,23 +22,23 @@
           "weight": 15
         },
         {
-			"type": "loot_table",
-			"value": "bracken:item/average_weapons/iron/greatsword",
-			"weight": 5,
-			"functions": [{
-				"function": "set_damage",
-				"damage": {
-					"min": 0,
-					"max": 0.5
-				}
-			}]
-		},
-    
-{
-			"type": "loot_table",
-			"value": "bracken:item/weapon_templates/greatsword_weapon_template",
-			"weight": 5
-		},
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/average_weapons/iron/greatsword",
+          "weight": 5,
+          "modifier": {
+            "type": "minecraft:set_damage",
+            "damage": {
+              "type": "minecraft:uniform",
+              "max": 0.5,
+              "min": 0.0
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/weapon_templates/greatsword_weapon_template",
+          "weight": 5
+        },
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
