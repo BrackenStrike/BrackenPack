@@ -4,12 +4,12 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:golden_sword",
-			"functions": [{
-				"function": "minecraft:set_name",
+			"modifier": [{
+				"type": "minecraft:set_name",
 				"target": "item_name",
 				"name": "Lustra Cutlass"
 			},{
-				"function": "minecraft:set_lore",
+				"type": "minecraft:set_lore",
 				"entity": "this",
 				"lore": [{
 					"translate": "",
@@ -34,12 +34,12 @@
 				}],
 				"mode": "insert"
 			},{
-				"function": "set_enchantments",
+				"type": "set_enchantments",
 				"enchantments": {
 					"bracken:boon/integrity": 1
 				}
 			},{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/lustra/cutlass",
 					"minecraft:max_damage": 3000,
@@ -58,7 +58,7 @@
         }
 				}
 			},{
-				"function": "minecraft:set_attributes",
+				"type": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:lustra_cutlass",
@@ -73,7 +73,7 @@
 					"slot": "mainhand"
 				}]
 			},{
-				"function": "minecraft:toggle_tooltips",
+				"type": "minecraft:toggle_tooltips",
 				"toggles": {
 					"attribute_modifiers": false
 				}

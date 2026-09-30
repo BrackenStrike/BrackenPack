@@ -4,8 +4,8 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:golden_helmet",
-			"functions": [{
-				"function": "minecraft:set_components",
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:articles/golden_crown",
 					"minecraft:equippable": {

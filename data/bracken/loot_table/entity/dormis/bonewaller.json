@@ -6,12 +6,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-          "functions": []
+          "modifier": []
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_count",
+          "type": "minecraft:set_count",
           "count": {
             "type": "minecraft:uniform",
             "min": 0,
@@ -20,7 +20,7 @@
           "add": false
         },
         {
-          "function": "minecraft:enchanted_count_increase",
+          "type": "minecraft:enchanted_count_increase",
           "count": {
             "type": "minecraft:uniform",
             "min": 1,
@@ -28,8 +28,7 @@
           },
           "enchantment": "minecraft:looting"
         }
-      ],
-      "conditions": []
+      ]
     },
     {
       "rolls": 1,
@@ -37,12 +36,12 @@
         {
           "type": "minecraft:loot_table",
           "value": "bracken:item/panacea/yakitubba_hide",
-          "functions": []
+          "modifier": []
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_count",
+          "type": "minecraft:set_count",
           "count": {
             "type": "uniform",
             "min": 0,
@@ -51,7 +50,7 @@
           "add": false
         },
         {
-          "function": "minecraft:enchanted_count_increase",
+          "type": "minecraft:enchanted_count_increase",
           "count": 1,
           "limit": 5,
           "enchantment": "minecraft:looting"

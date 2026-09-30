@@ -10,8 +10,8 @@
 		"entries": [{
 			"type": "minecraft:loot_table",
 			"value": "bracken:item/glacium/gvenhildirs_trident",
-			"functions": [{
-				"function": "minecraft:set_damage",
+			"modifier": [{
+				"type": "minecraft:set_damage",
 				"damage": {
 					"type": "minecraft:uniform",
 					"min": 0.1,

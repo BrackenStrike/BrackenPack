@@ -6,18 +6,18 @@
 			"type": "minecraft:item",
 			"name": "minecraft:wolf_spawn_egg"
 		}],
-		"functions": [{
-			"function": "minecraft:set_name",
+		"modifier": [{
+			"type": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Silversteel Ingot"
 		},
 		{
-				"function": "set_enchantments",
+				"type": "set_enchantments",
 				"enchantments": {
 					"bracken:boon/silver": 1,"bracken:boon/cleansing": 1
 				}
 			},{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {"minecraft:entity_data": {
 					"id": "minecraft:player"
 				},

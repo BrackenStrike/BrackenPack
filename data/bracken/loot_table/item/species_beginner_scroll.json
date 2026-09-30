@@ -5,13 +5,13 @@
 			"type": "minecraft:item",
 			"name": "minecraft:apple"
 		}],
-		"functions": [{
-			"function": "minecraft:set_name",
+		"modifier": [{
+			"type": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Bracken Species Scroll"
 		},
 		{
-				"function": "minecraft:set_lore",
+				"type": "minecraft:set_lore",
 				"lore": [{
 					"translate": "Eat to open species options.",
 					"color": "gray",
@@ -20,7 +20,7 @@
 				"mode": "insert"
 			},
 			{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:species_beginner_book",
 				"minecraft:food": {
@@ -31,7 +31,7 @@
 				"minecraft:rarity": "rare"
 			}
 		},{
-			"function": "minecraft:set_custom_data",
+			"type": "minecraft:set_custom_data",
 			"tag": "{bp:{id:\"species_scroll_with_dim\"}}"
 		}]
 	}]

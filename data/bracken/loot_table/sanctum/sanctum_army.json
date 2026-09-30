@@ -9,35 +9,35 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:clock",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:moss_block",
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
 					"type": "uniform",
 					"min": 5,
 					"max": 20
 				}
 			}],
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:cleaving": 1,
 					"bracken:boon/spectrality": 1,					
@@ -50,12 +50,12 @@
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:curse/famine_walker": 1,
 					"bracken:reverse_thorns": 1
@@ -66,12 +66,12 @@
 		{
 			"type": "loot_table",
 			"value": "bracken:item/articles/night_vision_goggles",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -84,45 +84,45 @@
 		{
 			"type": "loot_table",
 			"value": "bracken:item/metal_apples/copper_apple",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/tools/unruly_compass",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/potions/saturation_potion",
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": 5
 			}],
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/weapon_templates/dagger_weapon_template",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/netherite/dagger",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -132,12 +132,12 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:netherite_shovel",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -147,12 +147,12 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:netherite_hoe",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0.5,
@@ -162,12 +162,12 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:netherite_helmet",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -177,12 +177,12 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:netherite_chestplate",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -192,12 +192,12 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:netherite_leggings",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -207,12 +207,12 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:netherite_boots",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0.0,
@@ -222,70 +222,70 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:rotten_flesh",
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
 					"type": "uniform",
 					"min": 5,
 					"max": 20
 				}
 			}],
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.4
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:bone",
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
 					"type": "uniform",
 					"min": 5,
 					"max": 20
 				}
 			}],
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.4
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:bone_meal",
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
 					"type": "uniform",
 					"min": 5,
 					"max": 20
 				}
 			}],
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.4
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:smithing_table",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:obsidian",
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
 					"type": "uniform",
 					"min": 5,
 					"max": 20
 				}
 			}],
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		}]
 	}]
 }

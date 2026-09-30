@@ -35,9 +35,9 @@
           "value": "bracken:item/the_faewild/penance_chestplate"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "set_damage",
+          "type": "set_damage",
           "damage": {
             "type": "uniform",
             "min": 0.58,
@@ -52,9 +52,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "bracken:item/the_faewild/penance_leggings",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_damage",
+              "type": "set_damage",
               "damage": {
                 "type": "uniform",
                 "min": 0.58,
@@ -71,9 +71,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "bracken:item/the_faewild/penance_boots",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_damage",
+              "type": "set_damage",
               "damage": {
                 "type": "uniform",
                 "min": 0.58,

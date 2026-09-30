@@ -4,12 +4,12 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:warped_fungus_on_a_stick",
-			"functions": [{
-				"function": "minecraft:set_name",
+			"modifier": [{
+				"type": "minecraft:set_name",
 				"target": "item_name",
 				"name": "Frost Spite"
 			},{
-				"function": "minecraft:set_lore",
+				"type": "minecraft:set_lore",
 				"lore": [{
 					"text": "Combat",
 					"color": "dark_blue",
@@ -17,7 +17,7 @@
 				}],
 				"mode": "insert"
 			},{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:frost_spite",
 					"minecraft:custom_data": {

@@ -5,12 +5,12 @@
 			"type": "minecraft:item",
 			"name": "minecraft:drowned_spawn_egg"
 		}],
-		"functions": [{
-			"function": "minecraft:set_name",
+		"modifier": [{
+			"type": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Brine Foam"
 		},{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:the_brine/brine_foam",
 				"minecraft:entity_data": {

@@ -4,12 +4,12 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:stone_sword",
-			"functions": [{
-				"function": "minecraft:set_name",
+			"modifier": [{
+				"type": "minecraft:set_name",
 				"target": "item_name",
 				"name": "Copper Sabre"
 			},{
-				"function": "minecraft:set_lore",
+				"type": "minecraft:set_lore",
 				"entity": "this",
 				"lore": [{
 					"translate": "",
@@ -39,13 +39,13 @@
 				}],
 				"mode": "insert"
 			},{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/copper/sabre",
 					"minecraft:max_damage": 175
 				}
 			},{
-				"function": "minecraft:set_attributes",
+				"type": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:movement_speed",
 					"id": "bracken:copper_sabre",
@@ -66,7 +66,7 @@
 					"slot": "mainhand"
 				}]
 			},{
-				"function": "minecraft:toggle_tooltips",
+				"type": "minecraft:toggle_tooltips",
 				"toggles": {
 					"attribute_modifiers": false
 				}

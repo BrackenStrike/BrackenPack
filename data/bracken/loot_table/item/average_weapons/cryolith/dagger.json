@@ -4,12 +4,12 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:iron_sword",
-			"functions": [{
-				"function": "minecraft:set_name",
+			"modifier": [{
+				"type": "minecraft:set_name",
 				"target": "item_name",
 				"name": "Cryolith Dagger"
 			},{
-				"function": "minecraft:set_lore",
+				"type": "minecraft:set_lore",
 				"entity": "this",
 				"lore": [{
 					"translate": "",
@@ -38,7 +38,7 @@
 				}],
 				"mode": "insert"
 			},{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/cryolith/dagger",
 					"minecraft:max_damage": 200,
@@ -47,14 +47,14 @@
 					}
 				}
 			},{
-				"function": "set_enchantments",
+				"type": "set_enchantments",
 				"enchantments": {
 					"bracken:boon/freezing": 1,
 					"bracken:curse/fragility": 1,
 					"minecraft:vanishing_curse": 1
 				}
 			},{
-				"function": "minecraft:set_attributes",
+				"type": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:cryolith_dagger",
@@ -82,7 +82,7 @@
 					"slot": "mainhand"
 				}]
 			},{
-				"function": "minecraft:toggle_tooltips",
+				"type": "minecraft:toggle_tooltips",
 				"toggles": {
 					"attribute_modifiers": false
 				}

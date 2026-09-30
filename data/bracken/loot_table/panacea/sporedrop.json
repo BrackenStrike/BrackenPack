@@ -5,10 +5,10 @@
 			"type": "minecraft:loot_table",
 			"value": "bracken:item/panacea/panaspore"
 		}],
-		"conditions": [{
-			"condition": "minecraft:random_chance",
+		"condition": {
+			"type": "minecraft:random_chance",
 			"chance": 0.5
-		}]
+		}
 	},{
 		"rolls": {
 			"type": "uniform",
@@ -35,9 +35,9 @@
 			"type": "minecraft:loot_table",
 			"value": "bracken:item/maps/tetra_tree_map"
 		}],
-		"conditions": [{
-			"condition": "minecraft:random_chance",
+		"condition": {
+			"type": "minecraft:random_chance",
 			"chance": 0.005
-		}]
+		}
 	}]
 }

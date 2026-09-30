@@ -6,8 +6,8 @@
                 "type": "minecraft:loot_table",
                 "value": "bracken:item/articles/blindfold"
             }],
-            "conditions": [{
-                "condition": "minecraft:random_chance_with_enchanted_bonus",
+            "condition": {
+                "type": "minecraft:random_chance_with_enchanted_bonus",
                 "unenchanted_chance": 0.0525,
                 "enchanted_chance": {
                     "type": "linear",
@@ -15,9 +15,9 @@
                     "per_level_above_first": 0.01
                 },
                 "enchantment": "looting"
-            }],
-			"functions": [{
-				"function": "set_damage",
+            },
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
                     "min": 0,
@@ -30,20 +30,20 @@
             "entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:tipped_arrow",
-			"functions": [{
-				"function": "minecraft:set_components",
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:potion_contents": "minecraft:strong_harming"
                 }
 			},{
-                "function": "set_count",
+                "type": "set_count",
                 "count": {
                     "max": 3,
                     "type": "uniform",
                     "min": 1
                 }
             },{
-                "function": "enchanted_count_increase",
+                "type": "enchanted_count_increase",
                 "count": 1,
                 "enchantment": "minecraft:looting",
                 "limit": 10 

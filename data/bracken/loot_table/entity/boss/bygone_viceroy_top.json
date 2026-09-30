@@ -33,9 +33,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "bracken:item/glacium/cryolith",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
                 "type": "uniform",
                 "min": 2,
@@ -43,7 +43,7 @@
               }
             },
             {
-              "function": "minecraft:enchanted_count_increase",
+              "type": "minecraft:enchanted_count_increase",
               "count": 1,
               "limit": 7,
               "enchantment": "minecraft:looting"

@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:ink_sac",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
                 "type": "uniform",
                 "min": 20,
@@ -18,9 +18,9 @@
           ]
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:enchanted_count_increase",
+          "type": "minecraft:enchanted_count_increase",
           "count": 10,
           "limit": 100,
           "enchantment": "minecraft:looting"
@@ -33,10 +33,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "bracken:item/the_brine/essence_of_eternity",
-          "conditions": [],
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": {
                 "max": 7,
                 "type": "uniform",
@@ -44,7 +43,7 @@
               }
             },
             {
-              "function": "minecraft:enchanted_count_increase",
+              "type": "minecraft:enchanted_count_increase",
               "count": 3,
               "limit": 15,
               "enchantment": "minecraft:looting"

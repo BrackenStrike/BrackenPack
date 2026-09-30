@@ -9,26 +9,26 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:bone",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.8
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/metal_apples/carbon_apple",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.08
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/cryolith/sabre",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.02
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -38,12 +38,12 @@
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/weapon_templates/sabre_weapon_template",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.02
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -54,12 +54,12 @@
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:ferocity": 1
 				},
@@ -69,12 +69,12 @@
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:splintering": 1,					
 					"bracken:curse/sentience_2": 1
@@ -85,43 +85,43 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:iron_ingot",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.05
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:iron_boots",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.03
-			}]
+			}
 		},
 		
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:cobweb",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.3
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:snowball",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:tipped_arrow",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.6
-			}],
-			"functions": [{
-				"function": "minecraft:set_components",
+			},
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:potion_contents": "minecraft:slowness"
 				}

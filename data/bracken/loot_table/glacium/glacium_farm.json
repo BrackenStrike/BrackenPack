@@ -9,12 +9,12 @@
 		"entries": [{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/cryolith/hoe",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.02
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -24,20 +24,20 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:pumpkin_pie",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:butchering": 1,					
 					"bracken:curse/lethargy": 1
@@ -48,54 +48,54 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:pumpkin_seeds",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/potions/beverage_wheat",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.01
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:pumpkin",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:wheat_seeds",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.3
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:wheat",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:snowball",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:dirt",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		}]
 	}]
 }

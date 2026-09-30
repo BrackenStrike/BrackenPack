@@ -4,8 +4,8 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:bow",
-			"functions": [{
-				"function": "minecraft:set_components",
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:repair_cost": 100,
 					"minecraft:enchantments": {
@@ -17,7 +17,7 @@
 					"minecraft:rarity": "epic"
 				}
 			},{
-				"function": "set_lore",
+				"type": "set_lore",
 				"mode": "replace_all",
 				"lore": [{
 					"translate": "bracken.common.ranger_bow_message",

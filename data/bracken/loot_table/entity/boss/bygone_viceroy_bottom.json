@@ -16,8 +16,8 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:light_blue_banner",
-			"functions": [{
-				"function": "minecraft:set_components",
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:enchantment_glint_override": true,
 					"minecraft:banner_patterns": [{

@@ -6,11 +6,11 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "bracken:item/panacea/panaspore",
-                    "functions": [{
-                        "function": "set_count",
+                    "modifier": [{
+                        "type": "set_count",
                         "count": 3
                     },{
-                        "function": "enchanted_count_increase",
+                        "type": "enchanted_count_increase",
                         "count": {
                             "max": 3,
                             "type": "uniform",
@@ -27,15 +27,15 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:gunpowder",
-                    "functions": [{
-                        "function": "set_count",
+                    "modifier": [{
+                        "type": "set_count",
                         "count": {
                             "type": "uniform",
 				        	"min": 5,
                             "max": 12
                         }
                     },{
-                        "function": "enchanted_count_increase",
+                        "type": "enchanted_count_increase",
                         "count": {
                             "max": 5,
                             "type": "uniform",

@@ -4,8 +4,8 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:iron_chestplate",
-			"functions": [{
-				"function": "minecraft:set_components",
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:enchantments": {
 						"minecraft:protection": 5,
@@ -21,11 +21,11 @@
 					}
 				}
 			},{
-				"function": "set_name",
+				"type": "set_name",
 				"target": "item_name",
 				"name": "Penance Chestplate"
 			},{
-				"function": "set_lore",
+				"type": "set_lore",
 				"lore": [{
 					"translate": "Far-fetched foirfeacht",
 					"color": "white",

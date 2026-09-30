@@ -9,28 +9,28 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:carrot",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:potato",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:mortality": 1,
 					"bracken:curse/sentience_3": 1
@@ -41,12 +41,12 @@
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:pugnacity": 1
 				},
@@ -56,99 +56,99 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:kelp",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.6
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:rabbit",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:rabbit_stew",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:ominous_bottle",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.01
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:beetroot",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:beetroot_seeds",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.7
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:red_mushroom",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.7
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:brown_mushroom",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.7
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:nether_wart",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:beetroot_soup",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:mushroom_stew",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:tipped_arrow",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}],
-			"functions": [{
-				"function": "minecraft:set_components",
+			},
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:potion_contents": "minecraft:weakness"
 				}
@@ -156,18 +156,18 @@
 		},{
 			"type": "item",
 			"name": "minecraft:leather_chestplate",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"minecraft:binding_curse": 1
 				},
 				"add": false
 			},{
-				"function": "set_damage",
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0.28,

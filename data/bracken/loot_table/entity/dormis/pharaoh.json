@@ -9,27 +9,26 @@
 			        "value": "bracken:item/average_weapons/silversteel/shekel"
                 }
             ],
-            "conditions": [
+            "condition":
                 {
-                    "condition": "minecraft:random_chance",
+                    "type": "minecraft:random_chance",
                     "chance": 0.0425
                 }
-            ]
         },
         {
             "rolls": 1,
             "entries": [{
                 "type": "minecraft:item",
 			    "name": "minecraft:poisonous_potato",
-                "functions": [{
-                    "function": "set_count",
+                "modifier": [{
+                    "type": "set_count",
                     "count": {
                         "max": 2,
                         "type": "uniform",
 					    "min": 1
                     }
                 },{
-                    "function": "enchanted_count_increase",
+                    "type": "enchanted_count_increase",
                     "count": {
                         "max": 1,
                         "type": "uniform",

@@ -8,21 +8,24 @@
           "value": "bracken:item/portal_keys/dormis_key"
         }
       ],
-      "conditions": [
-        {
-          "condition": "killed_by_player"
-        },
-        {
-          "condition": "minecraft:random_chance_with_enchanted_bonus",
-          "unenchanted_chance": 0.9,
-          "enchanted_chance": {
-            "type": "minecraft:linear",
-            "base": 1,
-            "per_level_above_first": 0
+      "condition": {
+        "type": "minecraft:all_of",
+        "terms": [
+          {
+            "type": "minecraft:killed_by_player"
           },
-          "enchantment": "minecraft:looting"
-        }
-      ]
+          {
+            "type": "minecraft:random_chance_with_enchanted_bonus",
+            "unenchanted_chance": 0.9,
+            "enchanted_chance": {
+              "type": "minecraft:linear",
+              "base": 1,
+              "per_level_above_first": 0
+            },
+            "enchantment": "minecraft:looting"
+          }
+        ]
+      }
     },
     {
       "rolls": 1,

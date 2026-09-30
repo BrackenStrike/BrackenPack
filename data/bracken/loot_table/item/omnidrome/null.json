@@ -4,12 +4,12 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:fishing_rod",
-			"functions": [{
-				"function": "minecraft:set_name",
+			"modifier": [{
+				"type": "minecraft:set_name",
 				"target": "item_name",
 				"name": "Null"
 			},{
-				"function": "minecraft:set_lore",
+				"type": "minecraft:set_lore",
 				"entity": "this",
 				"lore": [{
 					"translate": "bracken.binary.null_lore",
@@ -19,12 +19,12 @@
 				}],
 				"mode": "insert"
 			},{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:null"
 				}
 			},{
-				"function": "minecraft:set_attributes",
+				"type": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:null",
@@ -39,7 +39,7 @@
 					"slot": "mainhand"
 				}]
 			},{
-				"function": "minecraft:set_enchantments",
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"minecraft:luck_of_the_sea": 11,
 					"minecraft:lure": 3,

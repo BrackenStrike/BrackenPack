@@ -9,34 +9,34 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:arrow",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.8
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/flying_boat",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.05
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:experience_bottle",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:lifesteal": 1,					
 					"bracken:curse/sentience_7": 1
@@ -48,25 +48,25 @@
 		{
 			"type": "loot_table",
 			"value": "bracken:item/the_faewild/mim_silk_strand",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:cobweb",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.6
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:large_fern",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		}]
 	}]
 }

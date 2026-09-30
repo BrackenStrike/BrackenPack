@@ -4,8 +4,8 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:elytra",
-			"functions": [{
-				"function": "minecraft:set_components",
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:attribute_modifiers": [{
 						"type": "max_health",
@@ -31,11 +31,11 @@
 					"minecraft:custom_data": {"bp":{"id":"nightfall"}}
 				}
 			},{
-				"function": "set_name",
+				"type": "set_name",
 				"target": "item_name",
 				"name": "Nightfall"
 			},{
-				"function": "set_enchantments",
+				"type": "set_enchantments",
 				"enchantments": { "bracken:technical/nightfall": 1 }
 			}]
 		}]

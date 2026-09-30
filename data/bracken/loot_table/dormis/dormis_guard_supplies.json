@@ -9,42 +9,42 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:golden_carrot",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.9
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:copper_ingot",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:netherite_scrap",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:smithing_table",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},		
 		{
 			"type": "loot_table",
 			"value": "bracken:item/ability_books/adamantine_will",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		}]
 	}]
 }

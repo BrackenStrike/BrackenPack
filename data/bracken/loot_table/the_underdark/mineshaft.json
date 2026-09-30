@@ -9,34 +9,34 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:rail",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:diamond",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/ability_books/fireball",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.01
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/articles/tinted_glasses",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.05
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -48,20 +48,20 @@
 {
 			"type": "loot_table",
 			"value": "bracken:item/weapon_templates/warhammer_weapon_template",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.03
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/silversteel/warhammer",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.01
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -73,12 +73,12 @@
 		{
 			"type": "loot_table",
 			"value": "bracken:item/articles/bandana",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.05
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -89,12 +89,12 @@
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:defusing": 1,
 					"bracken:boldness": 1
@@ -105,12 +105,12 @@
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:butchering": 1,
 					"bracken:trampling": 1
@@ -121,12 +121,12 @@
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:searing_surface": 1,					
 					"bracken:curse/maiming": 1
@@ -137,75 +137,75 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:powered_rail",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/potions/beverage_glow_berries",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.01
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/tools/bagpipe",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.05
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:detector_rail",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:redstone_torch",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/metal_apples/iron_apple",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:torch",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:minecart",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:cobweb",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.6
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:furnace_minecart",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		}]
 	}]
 }

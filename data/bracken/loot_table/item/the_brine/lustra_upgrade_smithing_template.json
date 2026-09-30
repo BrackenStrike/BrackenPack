@@ -5,12 +5,12 @@
 			"type": "minecraft:item",
 			"name": "minecraft:elder_guardian_spawn_egg"
 		}],
-		"functions": [{
-			"function": "minecraft:set_name",
+		"modifier": [{
+			"type": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Lustra Upgrade Smithing Template"
 		},{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:weapon_templates/lustra_upgrade_smithing_template",
 				"minecraft:entity_data": {

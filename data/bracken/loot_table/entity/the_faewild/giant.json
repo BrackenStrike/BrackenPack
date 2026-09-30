@@ -4,15 +4,15 @@
 		"entries": [{
 			"type": "minecraft:loot_table",
 			"value": "bracken:item/the_faewild/mim_silk_strand",
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
-					"max": 1.0,
+					"max": 1,
 					"type": "uniform",
-					"min": -1.0
+					"min": -1
 				}
 			},{
-				"function": "enchanted_count_increase",
+				"type": "enchanted_count_increase",
 				"count": {
 					"max": 2.0,
 					"type": "uniform",
@@ -27,15 +27,15 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:string",
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
-					"max": 4.0,
+					"max": 4,
 					"type": "uniform",
-					"min": 0.0
+					"min": 0
 				}
 			},{
-				"function": "enchanted_count_increase",
+				"type": "enchanted_count_increase",
 				"count": {
 					"max": 3.0,
 					"type": "uniform",

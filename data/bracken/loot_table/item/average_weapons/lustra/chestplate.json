@@ -4,17 +4,17 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:golden_chestplate",
-			"functions": [{
-				"function": "minecraft:set_name",
+			"modifier": [{
+				"type": "minecraft:set_name",
 				"target": "item_name",
 				"name": "Lustra Chestplate"
 			},{
-				"function": "set_enchantments",
+				"type": "set_enchantments",
 				"enchantments": {
 					"bracken:boon/integrity": 1
 				}
 			},{
-				"function": "minecraft:set_attributes",
+				"type": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:armor",
 					"id": "bracken:lustra_chestplate_armor",
@@ -29,7 +29,7 @@
 					"slot": "chest"
 				}]
 			},{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/lustra/chestplate",
 					"minecraft:max_damage": 888,

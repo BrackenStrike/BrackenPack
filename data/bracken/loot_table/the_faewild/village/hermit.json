@@ -9,29 +9,29 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:leather",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/metal_apples/bejeweled_apple",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},
 		
 		 
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:dentine_touch": 1
 				},
@@ -41,12 +41,12 @@
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:wisdom": 1,					
 					"bracken:curse/sentience_5": 1
@@ -58,87 +58,87 @@
 		{
 			"type": "loot_table",
 			"value": "bracken:item/the_faewild/mim_silk_strand",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:cobweb",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.3
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:experience_bottle",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:red_mushroom",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.7
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:infested_stone",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.4
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:spider_eye",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.9
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:fermented_spider_eye",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.6
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:respawn_anchor",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.01
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:sculk_catalyst",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.01
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:skeleton_skull",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:rotten_flesh",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.7
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:bone",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		}]
 	}]
 }

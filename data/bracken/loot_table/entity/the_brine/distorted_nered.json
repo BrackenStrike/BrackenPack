@@ -5,10 +5,10 @@
 			"type": "minecraft:item",
 			"name": "minecraft:nautilus_shell"
 		}],
-		"conditions": [{
-			"condition": "minecraft:random_chance",
+		"condition": {
+			"type": "minecraft:random_chance",
 			"chance": 0.12
-		}]
+		}
 	},{
 		"rolls": {
 			"type": "uniform",
@@ -24,15 +24,15 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:melon_slice",
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
-					"max": 2.0,
+					"max": 2,
 					"type": "uniform",
-					"min": 0.0
+					"min": 0
 				}
 			},{
-				"function": "enchanted_count_increase",
+				"type": "enchanted_count_increase",
 				"count": {
 					"max": 3.0,
 					"type": "uniform",

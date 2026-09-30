@@ -4,8 +4,8 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:elytra",
-			"functions": [{
-				"function": "minecraft:set_components",
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:enchantment_glint_override": true,
 					"minecraft:attribute_modifiers": [{
@@ -26,11 +26,11 @@
 					"minecraft:custom_data": {"bp":{"id":"glacium_glider"}}
 				}
 			},{
-				"function": "minecraft:set_name",
+				"type": "minecraft:set_name",
 				"target": "item_name",
 				"name": "Glacium Glider"
 			},{
-				"function": "minecraft:set_lore",
+				"type": "minecraft:set_lore",
 				"lore": [{
 					"translate": "Traveler's largesse",
 					"color": "gray",

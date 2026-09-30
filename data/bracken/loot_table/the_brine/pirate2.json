@@ -5,10 +5,10 @@
 			"type": "minecraft:item",
 			"name": "minecraft:glass_bottle"
 		}],
-		"conditions": [{
-			"condition": "minecraft:random_chance",
+		"condition": {
+			"type": "minecraft:random_chance",
 			"chance": 0.2
-		}]
+		}
 	},{
 		"rolls": {
 			"type": "uniform",

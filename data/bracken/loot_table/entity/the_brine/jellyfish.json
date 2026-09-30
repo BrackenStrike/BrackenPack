@@ -6,24 +6,24 @@
 			"type": "minecraft:loot_table",
 			"value": "bracken:item/the_brine/brine_rod"
 		}],
-		"conditions": [{
-			"condition": "minecraft:random_chance",
+		"condition": {
+			"type": "minecraft:random_chance",
 			"chance": 0.16
-		}]
+		}
 	},{
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:loot_table",
 			"value": "bracken:item/the_brine/jellyfish_stinger",
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
-					"max": 1.0,
+					"max": 1,
 					"type": "uniform",
-					"min": 0.0
+					"min": 0
 				}
 			},{
-				"function": "enchanted_count_increase",
+				"type": "enchanted_count_increase",
 				"count": {
 					"max": 3.0,
 					"type": "uniform",

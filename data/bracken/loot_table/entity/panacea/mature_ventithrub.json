@@ -6,15 +6,15 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "bracken:item/panacea/panaspore",
-                    "functions": [{
-                        "function": "set_count",
+                    "modifier": [{
+                        "type": "set_count",
                         "count": {
                             "type": "uniform",
 				        	"min": 5,
                             "max": 6
                         }
                     },{
-                        "function": "enchanted_count_increase",
+                        "type": "enchanted_count_increase",
                         "count": {
                             "max": 1,
                             "type": "uniform",
@@ -33,12 +33,11 @@
                     "name": "minecraft:wither_rose"
                 }
             ],
-            "conditions": [
+            "condition":
                 {
-                    "condition": "minecraft:random_chance",
+                    "type": "minecraft:random_chance",
                     "chance": 0.15
                 }
-            ]
         },
         {
             "rolls": 1,
@@ -46,15 +45,15 @@
                 {
                     "type": "minecraft:loot_table",
                     "value": "bracken:item/panacea/lembas_breadfruit",
-                    "functions": [{
-                        "function": "set_count",
+                    "modifier": [{
+                        "type": "set_count",
                         "count": {
                             "type": "uniform",
 				        	"min": 8,
                             "max": 10
                         }
                     },{
-                        "function": "enchanted_count_increase",
+                        "type": "enchanted_count_increase",
                         "count": {
                             "max": 3,
                             "type": "uniform",

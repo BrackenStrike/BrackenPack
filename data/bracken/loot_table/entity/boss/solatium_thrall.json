@@ -10,8 +10,8 @@
 		"entries": [{
 			"type": "minecraft:loot_table",
 			"value": "bracken:item/dormis/thralls_crown",
-			"functions": [{
-				"function": "minecraft:set_damage",
+			"modifier": [{
+				"type": "minecraft:set_damage",
 				"damage": {
 					"type": "minecraft:uniform",
 					"min": 0.1,
@@ -24,8 +24,8 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:netherite_chestplate",
-			"functions": [{
-				"function": "minecraft:set_damage",
+			"modifier": [{
+				"type": "minecraft:set_damage",
 				"damage": {
 					"type": "minecraft:uniform",
 					"min": 0.1,
@@ -38,15 +38,15 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:golden_leggings",
-			"functions": [{
-				"function": "minecraft:set_components",
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:enchantments": {
 						"bracken:searing_surface":3
 					}
 				}
 			},{
-				"function": "minecraft:set_damage",
+				"type": "minecraft:set_damage",
 				"damage": {
 					"type": "minecraft:uniform",
 					"min": 0.1,

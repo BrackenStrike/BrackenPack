@@ -4,15 +4,15 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:salmon",
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
-					"max": 25.0,
+					"max": 25,
 					"type": "uniform",
-					"min": 1.0
+					"min": 1
 				}
 			},{
-				"function": "enchanted_count_increase",
+				"type": "enchanted_count_increase",
 				"count": {
 					"max": 10.0,
 					"type": "uniform",

@@ -9,28 +9,28 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:golden_carrot",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.9
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/weapon_templates/buckler_weapon_template",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/old_world_bronze/buckler",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.02
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -41,68 +41,68 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:gold_nugget",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.9
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:bread",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.7
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:wheat",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.9
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/music_discs/pax",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.02
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:golden_apple",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.4
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/portal_keys/dormis_key",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.03
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:gold_ingot",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.02
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:boon/spectrality": 1
 				},
@@ -114,18 +114,18 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:golden_apple",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.4
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/tools/golden_horn",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.02
-			}]
+			}
 		},
 		
 		
@@ -134,10 +134,10 @@
 		{
 			"type": "loot_table",
 			"value": "bracken:item/ability_books/swordfall",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.05
-			}]
+			}
 		}]
 	},
 	{
@@ -145,10 +145,10 @@
 		"entries": [{
 			"type": "loot_table",
 			"value": "bracken:item/maps/pax_portal_map",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 1
-			}]
+			}
 		}]
 	}]
 }

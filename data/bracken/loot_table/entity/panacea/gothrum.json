@@ -6,9 +6,9 @@
 				{
 					"type": "minecraft:loot_table",
 					"value": "bracken:item/panacea/panaspore",
-					"functions": [
+					"modifier": [
 						{
-							"function": "set_count",
+							"type": "set_count",
 							"count": {
 								"type": "uniform",
 								"min": 0,
@@ -16,7 +16,7 @@
 							}
 						},
 						{
-							"function": "enchanted_count_increase",
+							"type": "enchanted_count_increase",
 							"count": {
 								"max": 3,
 								"type": "uniform",
@@ -36,8 +36,8 @@
 					"value": "bracken:item/panacea/gothrum_fang"
 				}
 			],
-			"conditions": [{
-				"condition": "random_chance_with_enchanted_bonus",
+			"condition": {
+				"type": "random_chance_with_enchanted_bonus",
 				"unenchanted_chance": 0.2,
 				"enchanted_chance": {
 					"type": "linear",
@@ -45,7 +45,7 @@
 					"per_level_above_first": 0.1
 				},
 				"enchantment": "minecraft:looting"
-			}]
+			}
 		}
 	]
 }

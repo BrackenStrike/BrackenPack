@@ -4,12 +4,12 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:netherite_sword",
-			"functions": [{
-				"function": "minecraft:set_name",
+			"modifier": [{
+				"type": "minecraft:set_name",
 				"target": "item_name",
 				"name": "Old World Bronze Cutlass"
 			},{
-				"function": "minecraft:set_lore",
+				"type": "minecraft:set_lore",
 				"entity": "this",
 				"lore": [{
 					"translate": "",
@@ -34,7 +34,7 @@
 				}],
 				"mode": "insert"
 			},{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/old_world_bronze/cutlass",
 					"minecraft:max_damage": 2070,
@@ -52,7 +52,7 @@
         }
 				}
 			},{
-				"function": "minecraft:set_attributes",
+				"type": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:old_world_bronze_cutlass",
@@ -67,7 +67,7 @@
 					"slot": "mainhand"
 				}]
 			},{
-				"function": "minecraft:toggle_tooltips",
+				"type": "minecraft:toggle_tooltips",
 				"toggles": {
 					"attribute_modifiers": false
 				}

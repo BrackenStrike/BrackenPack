@@ -9,19 +9,19 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:magma_cream",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/toothed_sword",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.05
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -32,12 +32,12 @@
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:flood_walker": 1
 				},
@@ -47,29 +47,29 @@
 		{
 			"type": "loot_table",
 			"value": "bracken:item/the_brine/lustra_upgrade_smithing_template",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.02
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/weapon_templates/cutlass_weapon_template",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}]
+			}
 		},
 
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:rending": 1,					
 					"bracken:curse/sentience_4": 1
@@ -80,98 +80,98 @@
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/potions/beverage_kelp",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.01
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/the_brine/brine_rod",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/the_brine/shark_tooth",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},
 		{
 			"type": "loot_table",
 			"value": "bracken:item/ability_books/returning_tides",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.02
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/music_discs/brine",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.02
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:sponge",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.9
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:cod",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.9
-			}]
+			}
 		},
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:melon_slice",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.9
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:turtle_egg",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.7
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:sugar",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:ghast_tear",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:nether_wart",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:brewing_stand",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		}]
 	}]
 }

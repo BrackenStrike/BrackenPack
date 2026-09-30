@@ -6,9 +6,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "bracken:item/ranger_bow",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_damage", 
+              "type": "set_damage", 
               "damage": {
                 "type": "uniform",
                 "min": 0.02,
@@ -18,9 +18,9 @@
           ]
         }
       ],
-      "conditions": [
+      "condition":
         {
-          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "type": "minecraft:random_chance_with_enchanted_bonus",
           "unenchanted_chance": 0.1,
           "enchanted_chance": {
             "type": "linear",
@@ -29,20 +29,18 @@
           },
           "enchantment": "minecraft:looting"
         }
-      ]
     },
     {
       "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:dandelion",
-          "conditions": []
+          "name": "minecraft:dandelion"
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:enchanted_count_increase",
+          "type": "minecraft:enchanted_count_increase",
           "count": 1,
           "limit": 3,
           "enchantment": "minecraft:looting"

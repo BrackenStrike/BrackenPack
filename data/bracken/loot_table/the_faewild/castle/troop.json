@@ -9,40 +9,40 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:torch",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.9
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/metal_apples/copper_apple",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:blue_bed",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:cake",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/average_weapons/copper/rapier",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}],
-			"functions": [{
-				"function": "set_damage",
+			},
+			"modifier": [{
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0,
@@ -52,33 +52,33 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:milk_bucket",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:fletching_table",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:anvil",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},{
 			"type": "item",
 			"name": "minecraft:leather_chestplate",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}],
-			"functions": [{
-				"function": "minecraft:set_components",
+			},
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:dyed_color": 487424,
 					"minecraft:trim": {
@@ -87,7 +87,7 @@
 					}
 				}
 			},{
-				"function": "set_damage",
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0.88,
@@ -98,26 +98,26 @@
 		{
 			"type": "loot_table",
 			"value": "bracken:item/weapon_templates/rapier_weapon_template",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.05
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:poppy",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.9
-			}]
+			}
 		},{
 			"type": "item",
 			"name": "minecraft:leather_leggings",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}],
-			"functions": [{
-				"function": "minecraft:set_components",
+			},
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:dyed_color": 487424,
 					"minecraft:trim": {
@@ -126,7 +126,7 @@
 					}
 				}
 			},{
-				"function": "set_damage",
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0.5,
@@ -136,12 +136,12 @@
 		},{
 			"type": "item",
 			"name": "minecraft:leather_boots",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}],
-			"functions": [{
-				"function": "minecraft:set_components",
+			},
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:dyed_color": 487424,
 					"minecraft:trim": {
@@ -150,7 +150,7 @@
 					}
 				}
 			},{
-				"function": "set_damage",
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0.58,
@@ -160,12 +160,12 @@
 		},{
 			"type": "item",
 			"name": "minecraft:leather_helmet",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.2
-			}],
-			"functions": [{
-				"function": "minecraft:set_components",
+			},
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:dyed_color": 487424,
 					"minecraft:trim": {
@@ -174,7 +174,7 @@
 					}
 				}
 			},{
-				"function": "set_damage",
+				"type": "set_damage",
 				"damage": {
 					"type": "uniform",
 					"min": 0.58,
@@ -184,12 +184,12 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:tipped_arrow",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.9
-			}],
-			"functions": [{
-				"function": "minecraft:set_components",
+			},
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:potion_contents": "minecraft:poison"
 				}
@@ -197,31 +197,31 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:bow",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.6
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:experience_bottle",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:arrow",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.9
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:golden_carrot",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.3
-			}]
+			}
 		}]
 	}]
 }

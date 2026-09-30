@@ -3,20 +3,20 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:map",
-			"functions": [{
-				"function": "minecraft:exploration_map",
-				"destination": "bracken:deluge_city",
+			"name": "minecraft:filled_map",
+			"modifier": [{
+				"type": "minecraft:exploration_map",
+				"destination": "bracken:fae_castle",
 				"decoration": "red_x",
 				"search_radius": 100,
 				"zoom": 3,
 				"skip_existing_chunks": false
 			},{
-				"function": "minecraft:set_name",
+				"type": "minecraft:set_name",
 				"target": "item_name",
 				"name": {
-					"translate": "Deluge City Map",
-					"color": "blue"
+					"translate": "Fae Castle",
+					"color": "dark_aqua"
 				}
 			}]
 		}]

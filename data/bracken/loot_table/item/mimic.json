@@ -5,12 +5,12 @@
 			"type": "minecraft:item",
 			"name": "minecraft:creaking_spawn_egg"
 		}],
-		"functions": [{
-			"function": "minecraft:set_name",
+		"modifier": [{
+			"type": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Mimic Chest"
 		},{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:shadows/mimic3",
 				"minecraft:rarity": "uncommon",

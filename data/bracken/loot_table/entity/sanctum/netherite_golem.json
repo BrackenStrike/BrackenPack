@@ -7,15 +7,15 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:wither_rose",
-          "functions": [{
-            "function": "minecraft:set_count",
+          "modifier": [{
+            "type": "minecraft:set_count",
             "count": {
-              "max": 1.0,
+              "max": 1,
               "type": "uniform",
-			    		"min": 0.0
+			    		"min": 0
             }
           },{
-            "function": "enchanted_count_increase",
+            "type": "enchanted_count_increase",
             "count": {
               "max": 2.0,
               "type": "uniform",
@@ -33,20 +33,20 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_scrap",
-          "functions": [{
-            "function": "minecraft:set_count",
+          "modifier": [{
+            "type": "minecraft:set_count",
             "count": {
-              "max": 2.0,
+              "max": 2,
               "type": "uniform",
-		    			"min": 1.0
+		    			"min": 1
             }
           },{
-            "function": "enchanted_count_increase",
+            "type": "enchanted_count_increase",
             "count": 1,
             "enchantment": "looting"
           }],
-          "conditions": [{
-            "condition": "random_chance_with_enchanted_bonus",
+          "condition": {
+            "type": "random_chance_with_enchanted_bonus",
             "unenchanted_chance": 0.5,
             "enchanted_chance": {
               "type": "linear",
@@ -54,7 +54,7 @@
               "per_level_above_first": 0.1
             },
             "enchantment": "looting"
-          }]
+          }
         }
       ]
     },
@@ -64,8 +64,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_ingot",
-          "conditions": [{
-            "condition": "random_chance_with_enchanted_bonus",
+          "condition": {
+            "type": "random_chance_with_enchanted_bonus",
             "unenchanted_chance": 0.01,
             "enchanted_chance": {
               "type": "linear",
@@ -73,7 +73,7 @@
               "per_level_above_first": 0.01
             },
             "enchantment": "looting"
-          }]
+          }
         }
       ]
     }

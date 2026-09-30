@@ -5,12 +5,12 @@
 			"type": "minecraft:item",
 			"name": "minecraft:potion"
 		}],
-		"functions": [{
-			"function": "minecraft:set_name",
+		"modifier": [{
+			"type": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Saturation Potion"
 		},{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:potion_contents": {
 					"custom_color": 16711705,

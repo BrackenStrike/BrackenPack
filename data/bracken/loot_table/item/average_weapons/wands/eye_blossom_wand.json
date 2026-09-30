@@ -4,8 +4,8 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:wooden_shovel",
-			"functions": [{
-				"function": "minecraft:set_components",
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					
 					"minecraft:enchantments": {
@@ -17,11 +17,11 @@
 					
 				}
 			},{
-				"function": "minecraft:set_name",
+				"type": "minecraft:set_name",
 				"target": "item_name",
 				"name": "Eye Blossom Wand"
 			},{
-				"function": "minecraft:set_attributes",
+				"type": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:attack_speed",
 					"id": "bracken:eye_blossum_wand",
@@ -30,7 +30,7 @@
 					"slot": "hand"
 				}]
 			},{
-				"function": "minecraft:set_custom_data",
+				"type": "minecraft:set_custom_data",
 				"tag": {
 					"bp": { "id": "eye_blossom_wand" }
 				}

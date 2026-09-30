@@ -5,12 +5,12 @@
 			"type": "minecraft:item",
 			"name": "minecraft:pillager_spawn_egg"
 		}],
-		"functions": [{
-			"function": "minecraft:set_name",
+		"modifier": [{
+			"type": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Sickle Weapon Template"
 		},{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:weapon_templates/sickle",
 				"minecraft:entity_data": {

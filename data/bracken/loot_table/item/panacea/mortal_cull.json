@@ -4,15 +4,15 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:netherite_axe",
-			"functions": [{
-				"function": "minecraft:set_name",
+			"modifier": [{
+				"type": "minecraft:set_name",
 				"target": "item_name",
 				"name": {
 					"translate": "A Mortal Cull",
 					"color": "dark_green"
 				}
 			},{
-				"function": "minecraft:set_lore",
+				"type": "minecraft:set_lore",
 				"entity": "this",
 				"lore": [{
 					"translate": "Still warm from the great forge",
@@ -21,12 +21,12 @@
 				}],
 				"mode": "insert"
 			},{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:mortal_cull"
 				}
 			},{
-				"function": "minecraft:set_attributes",
+				"type": "minecraft:set_attributes",
 				"modifiers": [{
 					"attribute": "minecraft:knockback_resistance",
 					"id": "bracken:mortal_cull",

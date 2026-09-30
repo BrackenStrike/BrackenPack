@@ -4,15 +4,15 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:glow_berries",
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
-					"max": 2.0,
+					"max": 2,
 					"type": "uniform",
-					"min": -2.0
+					"min": -2
 				}
 			},{
-				"function": "enchanted_count_increase",
+				"type": "enchanted_count_increase",
 				"count": {
 					"max": 2.0,
 					"type": "uniform",
@@ -27,15 +27,15 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:leather",
-			"functions": [{
-				"function": "minecraft:set_count",
+			"modifier": [{
+				"type": "minecraft:set_count",
 				"count": {
-					"max": 2.0,
+					"max": 2,
 					"type": "uniform",
-					"min": 1.0
+					"min": 1
 				}
 			},{
-				"function": "enchanted_count_increase",
+				"type": "enchanted_count_increase",
 				"count": {
 					"max": 2.0,
 					"type": "uniform",

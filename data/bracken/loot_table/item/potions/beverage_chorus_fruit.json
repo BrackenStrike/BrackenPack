@@ -5,12 +5,12 @@
 			"type": "minecraft:item",
 			"name": "minecraft:ominous_bottle"
 		}],
-		"functions": [{
-			"function": "minecraft:set_name",
+		"modifier": [{
+			"type": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Chorus Fruit Beverage"
 		},{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:potions/beverage_chorus_fruit",
 				"minecraft:food": {
@@ -20,7 +20,7 @@
 				}
 			}
 		},{
-			"function": "minecraft:set_custom_data",
+			"type": "minecraft:set_custom_data",
 			"tag": "{bp:{id:\"beverage_chorus_fruit\"}}"
 		}]
 	}]

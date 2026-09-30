@@ -5,12 +5,12 @@
 			"type": "minecraft:item",
 			"name": "minecraft:iron_sword"
 		}],
-		"functions": [{
-			"function": "minecraft:set_name",
+		"modifier": [{
+			"type": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Gothrum Fang"
 		},{
-			"function": "minecraft:set_lore",
+			"type": "minecraft:set_lore",
 			"entity": "this",
 			"lore": [{
 				"text": "A make-do weapon.",
@@ -19,17 +19,17 @@
 			}],
 			"mode": "insert"
 		},{
-			"function": "set_enchantments",
+			"type": "set_enchantments",
 			"enchantments": {
 				"bracken:boon/poisoning": 1
 			}
 		},{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:gothrum_fang"
 			}
 		},{
-			"function": "minecraft:set_custom_data",
+			"type": "minecraft:set_custom_data",
 			"tag": "{bp:{id:\"gothrum_fang\"}}"
 		}]
 	}]

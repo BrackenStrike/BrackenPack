@@ -4,8 +4,8 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:written_book",
-			"functions": [{
-				"function": "minecraft:set_components",
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:species_book",
 					"minecraft:written_book_content": {
@@ -22,7 +22,7 @@
 					}
 				}
 			},{
-				"function": "minecraft:set_name",
+				"type": "minecraft:set_name",
 				"target": "item_name",
 				"name": {
 					"translate": "BOOK OF ARBITRIUM",
@@ -30,7 +30,7 @@
 					"bold": true
 				}
 			},{
-				"function": "minecraft:set_lore",
+				"type": "minecraft:set_lore",
 				"lore": [{
 					"translate": "Use to change species.",
 					"color": "gold"

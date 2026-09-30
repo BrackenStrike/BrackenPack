@@ -9,41 +9,41 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:apple",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.4
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:stick",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.8
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:bow",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:experience_bottle",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:lifesteal": 1
 				},
@@ -52,38 +52,38 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:flint",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.8
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:arrow",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:feather",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.8
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:target",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.1
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:string",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.8
-			}]
+			}
 		}]
 	}]
 }

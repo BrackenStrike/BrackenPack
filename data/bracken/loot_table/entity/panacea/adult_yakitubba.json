@@ -4,15 +4,15 @@
 		"entries": [{
 			"type": "minecraft:loot_table",
 			"value": "bracken:item/panacea/panaspore",
-			"functions": [{
-				"function": "set_count",
+			"modifier": [{
+				"type": "set_count",
 				"count": {
 					"type": "uniform",
 					"min": 4,
 					"max": 5
 				}
 			},{
-				"function": "enchanted_count_increase",
+				"type": "enchanted_count_increase",
 				"count": {
 					"type": "uniform",
 					"min": 1,
@@ -27,15 +27,15 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:leather",
-			"functions": [{
-				"function": "set_count",
+			"modifier": [{
+				"type": "set_count",
 				"count": {
 					"type": "uniform",
 					"min": 0,
 					"max": 5
 				}
 			},{
-				"function": "enchanted_count_increase",
+				"type": "enchanted_count_increase",
 				"count": {
 					"type": "uniform",
 					"min": 1,
@@ -50,15 +50,15 @@
 		"entries": [{
 			"type": "minecraft:loot_table",
 			"value": "bracken:item/panacea/yakitubba_hide",
-			"functions": [{
-				"function": "set_count",
+			"modifier": [{
+				"type": "set_count",
 				"count": {
 					"type": "uniform",
 					"min": 1,
 					"max": 2
 				}
 			},{
-				"function": "enchanted_count_increase",
+				"type": "enchanted_count_increase",
 				"count": {
 					"type": "uniform",
 					"min": 1,

@@ -4,18 +4,18 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:leather_helmet",
-			"functions": [{
-				"function": "minecraft:set_name",
+			"modifier": [{
+				"type": "minecraft:set_name",
 				"target": "item_name",
 				"name": "Verdant Helmet"
 			},{
-				"function": "set_enchantments",
+				"type": "set_enchantments",
 				"enchantments": {
 					"bracken:boon/vitality": 1,
 					"bracken:enhanced/mending": 1
 				}
 			},{
-				"function": "minecraft:set_components",
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/verdant/helmet",
 					"minecraft:max_damage": 330,

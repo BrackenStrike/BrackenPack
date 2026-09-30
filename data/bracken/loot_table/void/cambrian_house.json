@@ -9,20 +9,20 @@
 		"entries": [{
 			"type": "minecraft:item",
 			"name": "minecraft:poisonous_potato",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.25
-			}]
+			}
 		},
 		{
 			"type": "item",
 			"name": "minecraft:enchanted_book",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.04
-			}],
-			"functions": [{
-				"function": "minecraft:set_enchantments",
+			},
+			"modifier": [{
+				"type": "minecraft:set_enchantments",
 				"enchantments": {
 					"bracken:abstraction": 1,					
 					"bracken:curse/lethargy": 1
@@ -35,12 +35,12 @@
 		{
 			"type": "minecraft:item",
 			"name": "minecraft:suspicious_stew",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.15
-			}],
-			"functions": [{
-				"function": "minecraft:set_stew_effect",
+			},
+			"modifier": [{
+				"type": "minecraft:set_stew_effect",
 				"effects": [{
 					"type": "minecraft:slowness",
 					"duration": 160
@@ -64,45 +64,45 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:cobblestone",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:rotten_flesh",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "loot_table",
 			"value": "bracken:item/portal_keys/void_key",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.05
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:potato",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.25
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:mossy_cobblestone",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.5
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:mushroom_stew",
-			"conditions": [{
-				"condition": "minecraft:random_chance",
+			"condition": {
+				"type": "minecraft:random_chance",
 				"chance": 0.15
-			}]
+			}
 		}]
 	}]
 }

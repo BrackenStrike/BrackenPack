@@ -5,11 +5,11 @@
 			"type": "minecraft:item",
 			"name": "minecraft:structure_block"
 		}],
-		"functions": [{
-			"function": "minecraft:set_custom_data",
+		"modifier": [{
+			"type": "minecraft:set_custom_data",
 			"tag": "{bp.portal_key:10b}"
 		},{
-			"function": "minecraft:set_name",
+			"type": "minecraft:set_name",
 			"target": "item_name",
 			"name": {
 				"translate": "Overworld Portal Key",
@@ -18,7 +18,7 @@
 				"bold": true
 			}
 		},{
-			"function": "minecraft:set_lore",
+			"type": "minecraft:set_lore",
 			"entity": "this",
 			"lore": [{
 				"translate": "Unlocks a door to somewhere...",
@@ -26,7 +26,7 @@
 			}],
 			"mode": "insert"
 		},{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:portal_keys/overworld_key"
 			}

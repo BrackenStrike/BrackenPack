@@ -4,8 +4,8 @@
 		"entries": [{
 			"type": "minecraft:loot_table",
 			"value": "bracken:item/the_brine/sentinel_rings",
-			"conditions": [{
-				"condition": "minecraft:random_chance_with_enchanted_bonus",
+			"condition": {
+				"type": "minecraft:random_chance_with_enchanted_bonus",
 				"unenchanted_chance": 0.6,
 				"enchanted_chance": {
 					"type": "linear",
@@ -13,7 +13,7 @@
 					"per_level_above_first": 0.1
 				},
 				"enchantment": "looting"
-			}]
+			}
 		}]
 	}]
 }

@@ -5,12 +5,12 @@
 			"type": "minecraft:item",
 			"name": "minecraft:apple"
 		}],
-		"functions": [{
-			"function": "minecraft:set_name",
+		"modifier": [{
+			"type": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Lembas Breadfruit"
 		},{
-			"function": "minecraft:set_lore",
+			"type": "minecraft:set_lore",
 			"entity": "this",
 			"lore": [{
 				"text": "How many did you eat?",
@@ -19,12 +19,12 @@
 			}],
 			"mode": "insert"
 		},{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:lembas_breadfruit"
 			}
 		},{
-			"function": "minecraft:set_custom_data",
+			"type": "minecraft:set_custom_data",
 			"tag": "{bp:{id:\"lembas_breadfruit\"}}"
 		}]
 	}]

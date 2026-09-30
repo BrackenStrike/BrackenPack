@@ -8,12 +8,11 @@
                     "value": "bracken:item/species_fruits/villain_fruit"
                 }
             ],
-            "conditions": [
+            "condition":
                 {
-                    "condition": "minecraft:random_chance",
+                    "type": "minecraft:random_chance",
                     "chance": 0.0125
                 }
-            ]
         },
         {
             "rolls": 1,

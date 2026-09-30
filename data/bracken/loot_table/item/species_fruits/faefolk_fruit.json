@@ -5,12 +5,12 @@
 			"type": "minecraft:item",
 			"name": "minecraft:beetroot"
 		}],
-		"functions": [{
-			"function": "minecraft:set_name",
+		"modifier": [{
+			"type": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Faefolk Fruit"
 		},{
-			"function": "minecraft:set_lore",
+			"type": "minecraft:set_lore",
 			"entity": "this",
 			"lore": [{
 				"translate": "Become Faefolk",
@@ -19,10 +19,10 @@
 			}],
 			"mode": "insert"
 		},{
-			"function": "minecraft:set_custom_data",
+			"type": "minecraft:set_custom_data",
 			"tag": "{bp:{species_fruit:1b,id:\"faefolk_fruit\"}}"
 		},{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {
 				"minecraft:item_model": "bracken:species_fruit/faefolk",
 				"minecraft:food": {

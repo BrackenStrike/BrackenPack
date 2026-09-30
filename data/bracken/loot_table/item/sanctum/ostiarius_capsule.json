@@ -4,15 +4,15 @@
 		"entries": [{
 			"type": "item",
 			"name": "minecraft:slime_spawn_egg",
-			"functions": [{
-				"function": "minecraft:set_components",
+			"modifier": [{
+				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:enchantment_glint_override": true,
 					"minecraft:item_model": "bracken:ruination_capsule",
 					"minecraft:entity_data": {
 						"id": "minecraft:vex",
-						"CustomNameVisible": 1,
-						"Silent": 1,
+						"CustomNameVisible": true,
+						"Silent": true,
 
 
 						"equipment": {
@@ -42,8 +42,8 @@
 							"duration": -1,
 							"show_particles": false
 						}],
-						"PersistenceRequired": 1,
-						"LifeTicks": 200000,
+						"PersistenceRequired": true,
+						"life_ticks": 200000,
 						"attributes": [{
 							"id": "follow_range",
 							"base": 70
@@ -60,11 +60,11 @@
 					}
 				}
 			},{
-				"function": "set_name",
+				"type": "set_name",
 				"target": "item_name",
 				"name": "Ostiarius Capsule"
 			},{
-				"function": "set_lore",
+				"type": "set_lore",
 				"lore": [{
 					"translate": "A part still lives.",
 					"color": "gray",

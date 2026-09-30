@@ -5,12 +5,12 @@
 			"type": "minecraft:item",
 			"name": "minecraft:tropical_fish_spawn_egg"
 		}],
-		"functions": [{
-			"function": "minecraft:set_name",
+		"modifier": [{
+			"type": "minecraft:set_name",
 			"target": "item_name",
 			"name": "Bronze Assarion"
 		},{
-			"function": "minecraft:set_components",
+			"type": "minecraft:set_components",
 			"components": {"minecraft:entity_data": {
 					"id": "minecraft:player"
 				},
