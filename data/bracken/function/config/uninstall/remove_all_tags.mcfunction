@@ -72,3 +72,4 @@ tag @s remove bp.watcher
 tag @s remove bp.entity
 tag @s remove bp.boss
 tag @s remove bp.brine_brewing_active
+tag @s remove bp.raycast_target
