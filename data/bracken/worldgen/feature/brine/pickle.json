@@ -1,13 +1,48 @@
 {
     "type": "minecraft:block_pile",
-        "state_provider": {
-            "type": "minecraft:simple",
-            "state": {
-                "id": "minecraft:sea_pickle",
-                "properties": {
-                    "pickles": "1",
-                    "waterlogged": "false"
-                }
+    "state_provider": {
+        "type": "minecraft:weighted",
+        "entries": [
+            {
+                "data": {
+                    "id": "minecraft:sea_pickle",
+                    "properties": {
+                        "pickles": "1",
+                        "waterlogged": "false"
+                    }
+                },
+                "weight": 1
+            },
+            {
+                "data": {
+                    "id": "minecraft:sea_pickle",
+                    "properties": {
+                        "pickles": "2",
+                        "waterlogged": "false"
+                    }
+                },
+                "weight": 1
+            },
+            {
+                "data": {
+                    "id": "minecraft:sea_pickle",
+                    "properties": {
+                        "pickles": "3",
+                        "waterlogged": "false"
+                    }
+                },
+                "weight": 1
+            },
+            {
+                "data": {
+                    "id": "minecraft:sea_pickle",
+                    "properties": {
+                        "pickles": "4",
+                        "waterlogged": "false"
+                    }
+                },
+                "weight": 1
             }
-        }
+        ]
+    }
 }
