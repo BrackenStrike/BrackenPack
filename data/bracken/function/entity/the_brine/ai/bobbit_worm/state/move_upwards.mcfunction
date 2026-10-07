@@ -12,10 +12,11 @@ execute unless predicate bracken:periodic/2t run return 1
 
 # move upwards
 tp @s ~ ~1 ~
+playsound minecraft:entity.silverfish.step hostile @a[distance=..50] ~ ~ ~ 1 0.5
 
 ##### STATE CHANGE #####
-# hazard block detected 2 blocks up
-execute if block ~ ~3 ~ #bracken:worm_hazard run return run function bracken:entity/the_brine/ai/bobbit_worm/change_state/change_to_dig
+# hazard block detected 4 blocks up
+execute if block ~ ~4 ~ #bracken:worm_hazard run return run function bracken:entity/the_brine/ai/bobbit_worm/change_state/change_to_dig
 # non-collision block detected 2 blocks up
 execute if block ~ ~4 ~ #bracken:no_collision run return run function bracken:entity/the_brine/ai/bobbit_worm/change_state/change_to_wait
 

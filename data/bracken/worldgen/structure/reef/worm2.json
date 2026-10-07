@@ -1,13 +1,9 @@
 {
     "type": "minecraft:jigsaw",
     "biomes": [
-        "bracken:the_brine/incursive_fungus",
-        "bracken:the_brine/blossom_reef",
-        "bracken:the_brine/keeper_district",
-        "bracken:the_brine/kelp_cove",
-        "bracken:the_brine/sponge_ranch",
-        "bracken:the_brine/yonder_saltbreaker_bay"
-
+        "bracken:the_brine/dead_reef",
+        "bracken:the_brine/revered_waters",
+        "bracken:the_brine/sugar_sand_beach"
     ],
     "spawn_overrides": {},
     "start_pool": "bracken:reef/worm",

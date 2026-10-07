@@ -1,8 +1,9 @@
+##########################################################
+# Description: bobbit worm attack damage
+# Creators: Grandmaster and Bracken
+##########################################################
 
-damage @p[distance=..3] 10 minecraft:mob_attack by @s
-advancement grant @p[distance=..3] only bracken:the_brine/worm
+kill @s[type=item]
+advancement grant @s only bracken:the_brine/worm
+damage @s 2 minecraft:mob_attack by @e[distance=..4,tag=bp.worm_target,sort=nearest,limit=1,type=drowned]
 
-#execute at @s run kill @e[type=block_display,distance=..5]
-tp @s @p[distance=..4]
-data merge entity @s {NoAI:0b,IsBaby:0b,attributes:[{id:movement_speed,base:0.4}]}
-tag @s add bp.worm_attack

@@ -13,6 +13,7 @@ execute unless predicate bracken:periodic/2t run return 1
 # move 15 blocks diagonally
 scoreboard players add @s bp.boss_1 1
 tp @s ^ ^ ^1
+playsound minecraft:entity.silverfish.step hostile @a[distance=..50] ~ ~ ~ 1 0.5
 
 ##### STATE CHANGE #####
 # after 15 blocks

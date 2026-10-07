@@ -17,9 +17,7 @@ execute if score @s bp.boss_state_cd matches 5 run return run function bracken:e
 execute if score @s bp.boss_state_cd matches 6 run return run function bracken:entity/the_brine/ai/bobbit_worm/state/move_diagonally
 execute if score @s bp.boss_state_cd matches 7 run return run function bracken:entity/the_brine/ai/bobbit_worm/state/move_upwards
 
-# TODO: STRUCTURE BOBBIT WORM INITIALIZE
-
-# default state --> change to dig state
-execute unless score @s bp.boss_state_cd matches 1..7 run function bracken:entity/the_brine/ai/bobbit_worm/change_state/change_to_dig
+# default state --> change to wait state
+execute unless score @s bp.boss_state_cd matches 1..7 run function bracken:entity/the_brine/ai/bobbit_worm/change_state/change_to_wait
 
 

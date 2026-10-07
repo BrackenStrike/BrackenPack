@@ -1,14 +1,14 @@
 {
     "structures": [
         {
-            "structure": "bracken:brine_sea_fan",
+            "structure": "bracken:reef/worm2",
             "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 70,
-        "separation": 40,
-        "salt": 431221225
+        "spacing": 2,
+        "separation": 1,
+        "salt": 9012423
     }
 }

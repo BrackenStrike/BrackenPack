@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:inverted",
+      "term": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "entity_type": ["minecraft:player"]
+        }
+      }
+    },
+    "bracken:survival_like"
+  ]
+}
