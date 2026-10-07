@@ -7,7 +7,6 @@ execute unless entity @e[tag=!bp.worm,distance=..7,predicate=bracken:bobbit_worm
 
 scoreboard players set @s bp.boss_state_cd 3
 scoreboard players set @s bp.boss_1 0
-scoreboard players set @s bp.boss_2 0
 
 # change model
 data modify entity @s equipment.head.components.minecraft:item_model set value "bracken:shadows/bobbit_worm_open"
