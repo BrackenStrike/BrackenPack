@@ -15,3 +15,5 @@ scoreboard players set @s bp.boss_2 0
 
 function bracken:entity/the_brine/ai/bobbit_worm/action/zero_dir
 
+# change model
+data modify entity @s equipment.head.components.minecraft:item_model set value "bracken:shadows/bobbit_worm_open"

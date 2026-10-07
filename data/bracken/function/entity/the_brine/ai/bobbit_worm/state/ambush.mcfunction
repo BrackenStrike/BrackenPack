@@ -21,6 +21,9 @@ execute if score @s bp.boss_1 matches ..11 run playsound minecraft:entity.silver
 execute if score @s bp.boss_1 matches 3 as @e[tag=!bp.worm,distance=..2.2,predicate=bracken:bobbit_worm_targets] at @s run function bracken:entity/the_brine/ai/bobbit_worm/action/worm_attack
 tag @s remove bp.worm_target
 
+# change model to close mouth
+execute if score @s bp.boss_1 matches 4 run data modify entity @s equipment.head.components.minecraft:item_model set value "bracken:shadows/bobbit_worm"
+
 # move up to attack
 execute if score @s bp.boss_1 matches ..4 run return run tp @s ~ ~1 ~
 

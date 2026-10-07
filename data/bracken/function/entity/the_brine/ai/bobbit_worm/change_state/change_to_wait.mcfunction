@@ -10,4 +10,4 @@ scoreboard players set @s bp.boss_2 0
 
 # too revealed
 execute if block ~ ~3 ~ #bracken:no_collision run tp @s ~ ~-1 ~
-execute if block ~ ~3 ~ #bracken:no_collision run tp @s ~ ~-1 ~
+
