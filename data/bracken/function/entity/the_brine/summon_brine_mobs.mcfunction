@@ -12,6 +12,9 @@ data merge entity @n[type=fox,distance=..100,tag=!bp.trilobite,tag=!bp.safe] {ac
 #bobbit worm
 execute as @n[type=marker,tag=bp.worm] at @s run function bracken:entity/the_brine/summons/bobbit_worm_marker
 
+#bobbit worm titan
+execute as @n[type=marker,tag=bp.worm_titan] at @s run function bracken:entity/the_brine/summons/bobbit_worm_titan_marker
+
 #dunkleosteus
 execute as @n[type=marker,tag=bp.dunkleosteus] at @s run function bracken:entity/the_brine/summons/dunkleosteus_marker
 
@@ -23,7 +26,6 @@ data merge entity @n[type=stray,distance=..100,tag=!bp.hammerhead,tag=!bp.safe] 
 
 #distorted nereid
 data merge entity @n[type=drowned,tag=!bp.aquatic,distance=..100,tag=!bp.distorted_nereid,tag=!bp.safe] {DeathLootTable:"bracken:entity/the_brine/distorted_nereid",CanBreakDoors:1b,Tags:["bp.distorted_nereid"],CustomName:"Distorted Nereid",equipment:{feet:{id:"minecraft:golden_boots",count:1,components:{"minecraft:trim":{material:"minecraft:amethyst",pattern:"minecraft:tide"},"minecraft:enchantments":{"depth_strider":3,"mending":1}}},legs:{id:"minecraft:diamond_leggings",count:1,components:{"minecraft:trim":{material:"minecraft:amethyst",pattern:"minecraft:tide"},"minecraft:enchantments":{"mending":1}}},chest:{id:"minecraft:golden_chestplate",count:1,components:{"minecraft:trim":{material:"minecraft:amethyst",pattern:"minecraft:tide"},"minecraft:enchantments":{"mending":1}}},head:{id:"minecraft:bamboo",count:1,components:{"minecraft:item_model":"bracken:shadows/nereid","minecraft:enchantment_glint_override":false,"minecraft:enchantments":{"binding_curse":1,"vanishing_curse":1}}},mainhand:{id:"minecraft:trident",count:1,components:{"minecraft:enchantments":{"channeling":1,"impaling":1}}}}}
-
 
 #fathomless
 data merge entity @n[type=skeleton,distance=..100,tag=!bp.fathomless,tag=!bp.safe] {Silent:1b,DeathLootTable:"bracken:entity/the_brine/fathomless",CanBreakDoors:1b,Tags:["bp.fathomless"],CustomName:"Fathomless",equipment:{mainhand:{id:"minecraft:netherite_sword",count:1b,components:{"minecraft:attack_animation":{type:"stab"},"minecraft:custom_name":{"translate":"Netherite Dagger","italic":false},"minecraft:item_model":"bracken:average_weapons/netherite/dagger","minecraft:enchantments":{"minecraft:vanishing_curse":1,"bracken:boon/withering":1,"bracken:boon/blinding":1,"bracken:mortality":5}}},chest:{id:"minecraft:netherite_chestplate",count:1b,components:{"minecraft:item_model":"bracken:average_weapons/old_world_bronze/chestplate","minecraft:equippable":{asset_id:'bracken:old_world_bronze',slot:'chest'},"minecraft:enchantments":{"minecraft:vanishing_curse":1}}},head:{id:"minecraft:chainmail_helmet",count:1,components:{"minecraft:item_model":"bracken:articles/diving_helm","minecraft:equippable":{slot:"head",asset_id:"bracken:diving_helm"},"minecraft:enchantments":{"minecraft:vanishing_curse":1}}},offhand:{id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:water_breathing"}}},feet:{id:"minecraft:netherite_boots",count:1,components:{"minecraft:trim":{material:"minecraft:emerald",pattern:"minecraft:eye"},"minecraft:enchantments":{"depth_strider":3,"vanishing_curse":1}}},legs:{id:"minecraft:netherite_leggings",count:1,components:{"minecraft:trim":{material:"minecraft:emerald",pattern:"minecraft:bolt"},"minecraft:enchantments":{"vanishing_curse":1}}}},attributes:[{id:"minecraft:gravity",base:10},{id:"minecraft:scale",base:0.5}]}
