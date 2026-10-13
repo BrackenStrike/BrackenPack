@@ -7,7 +7,20 @@
         "type": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "entity_type": ["minecraft:player"]
+          "entity_type": [
+            "minecraft:player",
+            "minecraft:marker",
+            "minecraft:area_effect_cloud",
+            "minecraft:block_display",
+            "cushion",
+            "experience_orb",
+            "falling_block",
+            "interaction",
+            "item_frame",
+            "painting",
+            "item_display",
+            "glow_item_frame",
+            "ender_dragon"]
         }
       }
     },
