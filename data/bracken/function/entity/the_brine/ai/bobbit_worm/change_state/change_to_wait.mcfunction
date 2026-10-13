@@ -11,3 +11,5 @@ scoreboard players set @s bp.boss_2 0
 # too revealed
 execute if block ~ ~3 ~ #bracken:no_collision run tp @s ~ ~-1 ~
 
+# in a cave
+execute unless block ~ ~5 ~ #bracken:no_collision run function bracken:entity/the_brine/ai/bobbit_worm_titan/change_state/change_to_dig

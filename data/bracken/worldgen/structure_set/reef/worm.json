@@ -2,6 +2,10 @@
     "structures": [
         {
             "structure": "bracken:reef/worm",
+            "weight": 18
+        },
+        {
+            "structure": "bracken:reef/worm_titan",
             "weight": 1
         }
     ],

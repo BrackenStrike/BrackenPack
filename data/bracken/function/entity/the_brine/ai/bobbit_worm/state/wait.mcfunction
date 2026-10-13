@@ -24,6 +24,5 @@ execute unless block ~ ~3 ~ #bracken:no_collision run tp @s ~ ~1 ~
 execute if entity @s[tag=bp.worm_v] run return run function bracken:entity/the_brine/ai/bobbit_worm/change_state/change_to_dig
 
 # check if entity is in range change to strike
-execute if entity @e[distance=0.1..6,predicate=bracken:bobbit_worm_targets] run scoreboard players add @s bp.boss_2 1
-execute unless entity @e[distance=0.1..6,predicate=bracken:bobbit_worm_targets] run scoreboard players set @s bp.boss_2 0
+function bracken:entity/the_brine/ai/bobbit_worm/action/strike_timer
 execute if score @s bp.boss_2 matches 2.. run function bracken:entity/the_brine/ai/bobbit_worm/change_state/change_to_strike

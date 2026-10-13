@@ -1,0 +1,33 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [
+			{
+				"type": "minecraft:loot_table",
+				"value": "bracken:item/the_brine/worm_mandible",
+				"modifier": [{
+					"type": "minecraft:set_count",
+					"count": {
+						"type": "uniform",
+						"min": 4,
+						"max": 7
+					}
+				}]
+			},
+			{
+				"type": "minecraft:loot_table",
+				"value": "bracken:item/the_brine/essence_of_infinity",
+				"modifier": [
+					{
+						"type": "set_count",
+						"count": {
+							"type": "uniform",
+							"max": 2,
+							"min": 1
+						}
+					}
+				]
+			}
+		]
+	}]
+}

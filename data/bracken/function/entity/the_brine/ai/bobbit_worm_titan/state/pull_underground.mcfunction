@@ -7,27 +7,30 @@
 # Creators: Grandmaster
 ##########################################################
 
+# healing
+execute if predicate bracken:periodic/1s run effect give @s minecraft:instant_damage 1 0 true
 
 # timer
 scoreboard players add @s bp.boss_1 1
 
 # pull and damage entity
 tag @s add bp.worm_target
-execute as @e[tag=!bp.worm,type=!item,distance=..3,sort=nearest,limit=1,predicate=bracken:bobbit_worm_targets] at @s run function bracken:entity/the_brine/ai/bobbit_worm_titan/action/underground_entity
+execute positioned ~ ~7 ~ as @e[tag=!bp.worm_titan,type=!item,distance=..7,sort=nearest,limit=5,predicate=bracken:bobbit_worm_targets] at @s run function bracken:entity/the_brine/ai/bobbit_worm_titan/action/underground_entity
 tag @s remove bp.worm_target
 
 # move sound
-playsound minecraft:entity.silverfish.step hostile @a[distance=..50] ~ ~ ~ 1 0.5
+playsound minecraft:entity.silverfish.step hostile @a[distance=..100] ~ ~ ~ 5 0.3
 
 # move down with closest entity
-execute if score @s bp.boss_1 matches 0..14 run return run tp @s ~ ~-0.3 ~
-execute if score @s bp.boss_1 matches 14 as @e[tag=!bp.worm,type=!item,distance=..3,sort=nearest,limit=1,predicate=bracken:bobbit_worm_targets] run tp @s ~ ~ ~
+execute if score @s bp.boss_1 matches 0..20 run return run tp @s ~ ~-0.5 ~
+
+execute if score @s bp.boss_1 matches 21 run return run function bracken:entity/the_brine/ai/bobbit_worm_titan/action/place_hole
 
 execute unless predicate bracken:periodic/3s run return 1
 
 ##### STATE CHANGE #####
 # no entity
-execute unless entity @e[tag=!bp.worm,type=!item,distance=..3,predicate=bracken:bobbit_worm_targets] run function bracken:entity/the_brine/ai/bobbit_worm_titan/change_state/change_to_dig
+execute positioned ~ ~7 ~ unless entity @e[tag=!bp.worm_titan,type=!item,distance=..7,predicate=bracken:bobbit_worm_targets] run function bracken:entity/the_brine/ai/bobbit_worm_titan/change_state/change_to_dig
 
 # after 30 seconds
 execute if score @s bp.boss_1 matches 600.. run return run function bracken:entity/the_brine/ai/bobbit_worm_titan/change_state/change_to_dig

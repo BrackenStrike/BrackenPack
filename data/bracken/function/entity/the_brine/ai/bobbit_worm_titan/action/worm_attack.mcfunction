@@ -4,6 +4,7 @@
 ##########################################################
 
 kill @s[type=item]
+kill @s[tag=bp.worm]
 advancement grant @s only bracken:the_brine/worm
-damage @s 2 minecraft:mob_attack by @e[distance=..4,tag=bp.worm_target,sort=nearest,limit=1,type=drowned]
+damage @s 6 minecraft:mob_attack by @e[distance=..10,tag=bp.worm_target,sort=nearest,limit=1,type=drowned]
 

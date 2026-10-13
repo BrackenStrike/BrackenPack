@@ -3,7 +3,7 @@
 # Creators: Grandmaster
 ##########################################################
 
-execute unless entity @e[tag=!bp.worm,distance=..7,predicate=bracken:bobbit_worm_targets] run return run function bracken:entity/the_brine/ai/bobbit_worm_titan/change_state/change_to_dig
+execute unless entity @e[tag=!bp.worm_titan,distance=..15,predicate=bracken:bobbit_worm_targets] run return run function bracken:entity/the_brine/ai/bobbit_worm_titan/change_state/change_to_dig
 
 scoreboard players set @s bp.boss_state_cd 3
 scoreboard players set @s bp.boss_1 0

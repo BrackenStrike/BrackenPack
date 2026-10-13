@@ -14,6 +14,7 @@ scoreboard players add @s bp.boss_1 1
 # pull and damage entity
 tag @s add bp.worm_target
 execute as @e[tag=!bp.worm,type=!item,distance=..3,sort=nearest,limit=1,predicate=bracken:bobbit_worm_targets] at @s run function bracken:entity/the_brine/ai/bobbit_worm/action/underground_entity
+execute if score @s bp.boss_1 matches 14 as @e[tag=!bp.worm,type=!item,distance=..3,sort=nearest,limit=1,predicate=bracken:bobbit_worm_targets] run tp @s @e[distance=..3,tag=bp.worm_target,sort=nearest,limit=1,type=drowned]
 tag @s remove bp.worm_target
 
 # move sound
@@ -21,7 +22,8 @@ playsound minecraft:entity.silverfish.step hostile @a[distance=..50] ~ ~ ~ 1 0.5
 
 # move down with closest entity
 execute if score @s bp.boss_1 matches 0..14 run return run tp @s ~ ~-0.3 ~
-execute if score @s bp.boss_1 matches 14 as @e[tag=!bp.worm,type=!item,distance=..3,sort=nearest,limit=1,predicate=bracken:bobbit_worm_targets] run tp @s ~ ~ ~
+
+#execute if score @s bp.boss_1 matches 15 align xyz run return run function bracken:entity/the_brine/ai/bobbit_worm/action/place_hole
 
 execute unless predicate bracken:periodic/3s run return 1
 

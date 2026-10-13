@@ -4,10 +4,6 @@
 ##########################################################
 
 
-
-# bobbit worm vulnerability handler when moving in and out of blocks
-execute if predicate bracken:periodic/1s run function bracken:entity/the_brine/ai/bobbit_worm_titan/vulnerability/handle_vulnerability
-
 # state machine for bobbit worm
 execute if score @s bp.boss_state_cd matches 1 run return run function bracken:entity/the_brine/ai/bobbit_worm_titan/state/wait
 execute if score @s bp.boss_state_cd matches 2 run return run function bracken:entity/the_brine/ai/bobbit_worm_titan/state/ambush
@@ -18,6 +14,6 @@ execute if score @s bp.boss_state_cd matches 6 run return run function bracken:e
 execute if score @s bp.boss_state_cd matches 7 run return run function bracken:entity/the_brine/ai/bobbit_worm_titan/state/move_upwards
 
 # default state --> change to wait state
-execute unless score @s bp.boss_state_cd matches 1..7 run function bracken:entity/the_brine/ai/bobbit_worm_titan/change_state/change_to_wait
+execute unless score @s bp.boss_state_cd matches 1..7 run function bracken:entity/the_brine/ai/bobbit_worm_titan/change_state/initialize
 
 
