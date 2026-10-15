@@ -14,13 +14,12 @@ tp @s ~ ~ ~ facing entity @n[tag=bp.orbiter_target,distance=..300,type=!item] ey
 execute if entity @s[scores={bp.boss_1=0}] if entity @n[distance=..400,type=!item] run function bracken:entity/boss/orbiter/movement/main
 
 #Attacks
-execute if entity @s[scores={bp.boss_1=1}] run function bracken:entity/boss/orbiter/laser_beams/main
-#execute if entity @s[scores={bp.boss_1=0}] run function bracken:entity/boss/orbiter/giant_death_laser/main
-#execute if entity @s[scores={bp.boss_1=0}] run function bracken:entity/boss/orbiter/homing_spheres/main
-#execute if entity @s[scores={bp.boss_1=0}] run function bracken:entity/boss/orbiter/ram_player/main
-#execute if entity @s[scores={bp.boss_1=0}] run function bracken:entity/boss/orbiter/summon_friends/main
-#execute if entity @s[scores={bp.boss_1=0}] run function bracken:entity/boss/orbiter/giant_sword_attack/main
-#execute if entity @s[scores={bp.boss_1=0}] run function bracken:entity/boss/orbiter/summon_minions/main
+execute if entity @s[scores={bp.boss_1=1}] run function bracken:entity/boss/orbiter/giant_death_laser/main
+#execute if entity @s[scores={bp.boss_1=2}] run function bracken:entity/boss/orbiter/laser_beams/main
+#execute if entity @s[scores={bp.boss_1=3}] run function bracken:entity/boss/orbiter/homing_spheres/main
+#execute if entity @s[scores={bp.boss_1=4}] run function bracken:entity/boss/orbiter/meteor_swarm/main
+#execute if entity @s[scores={bp.boss_1=5}] run function bracken:entity/boss/orbiter/ram_player/main
+#execute if entity @s[scores={bp.boss_1=6}] run function bracken:entity/boss/orbiter/giant_sword_attack/main
 
 
 #test
