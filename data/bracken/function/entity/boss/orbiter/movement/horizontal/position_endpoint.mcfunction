@@ -1,4 +1,4 @@
-spreadplayers ~ ~ 30 50 false @n[type=marker,tag=bp.orbiter_movement,distance=..400]
+spreadplayers ~ ~ 20 40 false @n[type=marker,tag=bp.orbiter_movement,distance=..400]
 
 execute store result score @s bp.ymansion run data get entity @n[tag=bp.orbiter_target,distance=..400,type=!item] Pos[1]
 execute store result score @s bp.math.out run random value 0..40
