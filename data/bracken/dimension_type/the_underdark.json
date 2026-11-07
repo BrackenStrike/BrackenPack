@@ -31,7 +31,7 @@
     "minecraft:gameplay/nether_portal_spawns_piglin": true,
     "minecraft:gameplay/respawn_anchor_works": true,
     
-    "minecraft:visual/fog_color": "#584c4d",
+    "minecraft:visual/fog_color": "#626464",
     "minecraft:visual/ambient_light_color": "#0f0f0f",
     "minecraft:visual/sky_color": "#833d3f",
     "minecraft:visual/water_fog_color": 6383526,

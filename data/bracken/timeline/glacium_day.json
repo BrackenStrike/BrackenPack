@@ -68,11 +68,11 @@
       "keyframes": [
         {
           "ticks": 100,
-          "value": "#000000"
+          "value": "#132338"
         },
         {
           "ticks": 119000,
-          "value": "#000000"
+          "value": "#132338"
         },
         {
           "ticks": 120000,
@@ -80,11 +80,11 @@
         },
         {
           "ticks": 121000,
-          "value": "#000000"
+          "value": "#132338"
         },
         {
           "ticks": 239900,
-          "value": "#000000"
+          "value": "#132338"
         }
       ],
       "modifier": "multiply"
