@@ -1,7 +1,7 @@
 {
   "type": "minecraft:multi_action",
   "title": "Pick a Species",
-  "can_close_with_escape":false,
+  "can_close_with_escape":true,
   "body": [
     {
       "type": "minecraft:plain_message",

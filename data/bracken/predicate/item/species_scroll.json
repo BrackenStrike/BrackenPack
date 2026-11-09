@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:any_of",
+	"terms": [{
+		"type": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": { "equipment": {
+			"mainhand": { "predicates": {
+				"minecraft:custom_data": "{bp:{id:\"species_scroll\"}}"
+			}}
+		}}
+	},{
+		"type": "all_of",
+		"terms": [{
+			"type": "inverted",
+			"term": {
+				"type": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": { "equipment": {
+					"mainhand": { "items": "minecraft:carrot_on_a_stick" }
+				}}
+			}
+		},{
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": { "equipment": {
+				"offhand": { "predicates": {
+					"minecraft:custom_data": "{bp:{id:\"species_scroll\"}}"
+				}}
+			}}
+		}]
+	}]
+}
