@@ -22,7 +22,7 @@ execute if entity @s[type=minecraft:marker,tag=bp.ostiarius] if entity @p[distan
 execute if entity @s[type=minecraft:giant,tag=bp.ostiarius.core] if entity @p[distance=..200] run return run function bracken:entity/boss/ostiarius/core/tick
 
 #the disruptor
-execute if entity @s[type=minecraft:elder_guardian,tag=bp.the_disruptor] if entity @p[distance=..200] run return run function bracken:entity/boss/the_disruptor/tick
+execute if entity @s[type=minecraft:piglin,tag=bp.the_disruptor] if entity @p[distance=..200] run return run function bracken:entity/boss/the_disruptor/tick
 
 #bygone viceroy
 execute if entity @s[type=minecraft:wither_skeleton,tag=bp.bygone_viceroy] if entity @p[distance=..200] run return run function bracken:entity/boss/bygone_viceroy/tick
