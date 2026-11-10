@@ -1,7 +1,7 @@
 {
   "type": "minecraft:multi_action",
   "title": "Where do you want to go?",
-  "can_close_with_escape": false,
+  "can_close_with_escape": true,
   "body": [
     {
       "type": "minecraft:item",

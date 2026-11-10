@@ -27,7 +27,7 @@
                     "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "minecraft:entity_type": "minecraft:elder_guardian",
+                        "minecraft:entity_type": "minecraft:piglin",
                         "nbt": "{Tags:[\"bp.the_disruptor\"]}",
                         "minecraft:location": {
                             "dimension": "bracken:omnidrome"

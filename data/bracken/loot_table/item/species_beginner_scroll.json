@@ -3,7 +3,7 @@
 		"rolls": 1,
 		"entries": [{
 			"type": "minecraft:item",
-			"name": "minecraft:apple"
+			"name": "minecraft:carrot_on_a_stick"
 		}],
 		"modifier": [{
 			"type": "minecraft:set_name",
@@ -13,7 +13,7 @@
 		{
 				"type": "minecraft:set_lore",
 				"lore": [{
-					"translate": "Eat to open species options.",
+					"translate": "Right click to open species options.",
 					"color": "gray",
 					"italic": false
 				}],
@@ -32,7 +32,7 @@
 			}
 		},{
 			"type": "minecraft:set_custom_data",
-			"tag": "{bp:{id:\"species_scroll_with_dim\"}}"
+			"tag": "{bp:{id:\"species_scroll\"}}"
 		}]
 	}]
 }

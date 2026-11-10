@@ -5,8 +5,11 @@
 
 scoreboard players set @s bp.coas 0
 
+# misc
 execute if predicate bracken:item/perrterror_gastor_mainhand run return run function bracken:item/perrterror_gastor
+execute if predicate bracken:item/species_scroll run return run function bracken:player/species/dialog_species_start
 
+# ability books
 execute if data storage bracken:config {ability_books_on:false} run return run function bracken:item/coas/ability_book_disabled
 
 execute if predicate bracken:item/ability_books/adamantine_will run return run function bracken:item/ability_books/adamantine_will/checks
