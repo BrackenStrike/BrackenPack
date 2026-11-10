@@ -1,3 +1,8 @@
+# If 8 or more guards are alive change attack to world soar
+execute store result score @s bp.boss_3 if entity @e[distance=..25,tag=bp.guard,type=skeleton]
+execute if score @s bp.boss_3 matches 8.. run return run function bracken:entity/boss/fae_emperor/attacks/worldsoar
+#################S
+
 
 scoreboard players set @s bp.boss_speed 30
 playsound minecraft:entity.ravager.celebrate hostile @a[distance=..50] ~ ~ ~ 100 2

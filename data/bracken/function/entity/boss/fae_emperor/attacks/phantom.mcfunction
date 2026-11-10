@@ -1,3 +1,8 @@
+# If 8 or more phantoms are alive change attack to arrow rain
+execute store result score @s bp.boss_3 if entity @e[distance=..25,type=phantom]
+execute if score @s bp.boss_3 matches 8.. run return run function bracken:entity/boss/fae_emperor/attacks/arrow_rain_select
+#################S
+
 summon phantom ~2 ~3 ~
 summon phantom ~-2 ~3 ~
 summon phantom ~ ~3 ~2
