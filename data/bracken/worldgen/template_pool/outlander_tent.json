@@ -1,11 +1,11 @@
 {
-    "name": "double",
+    "name": "tent",
     "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
-                "location": "bracken:pax_windmill2",
+                "location": "bracken:sanctum/outlander_tent",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"

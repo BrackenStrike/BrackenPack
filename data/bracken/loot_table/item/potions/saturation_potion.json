@@ -6,21 +6,8 @@
 			"name": "minecraft:potion"
 		}],
 		"modifier": [{
-			"type": "minecraft:set_name",
-			"target": "item_name",
-			"name": "Saturation Potion"
-		},{
 			"type": "minecraft:set_components",
-			"components": {
-				"minecraft:potion_contents": {
-					"custom_color": 16711705,
-					"custom_effects": [{
-						"id": "minecraft:saturation",
-						"amplifier": 5,
-						"duration": 400
-					}]
-				}
-			}
+			"components": {"minecraft:custom_name":"Saturation Potion","minecraft:potion_contents":{"custom_color":16711705,"custom_effects":[{"id":"saturation","duration":400,"amplifier":5}]}}
 		}]
 	}]
 }
