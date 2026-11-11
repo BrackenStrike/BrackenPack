@@ -1,0 +1,1 @@
+data merge entity @n[type=wolf,distance=..100,tag=!bp.dire_wolf,tag=!bp.safe] {variant:"bracken:dire",CustomNameVisible:0b,Tags:["bp.dire_wolf"],CustomName:{"color":"blue","text":"Dire Wolf"},attributes:[{id:"minecraft:armor",base:30},{id:"minecraft:scale",base:1.5}]}

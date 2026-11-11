@@ -1,0 +1,1 @@
+data merge entity @n[type=bat,distance=..200,tag=!bp.giant_bat,tag=!bp.safe] {Health:12.0f,CustomNameVisible:0b,NoAI:0b,CustomName:{"translate":"Jotun Bat"},DeathLootTable:"bracken:entity/the_underdark/giant_bat",Tags:[bp.giant_bat,bp.entity,bp.the_underdark,bp.bat_idle],attributes:[{id:"minecraft:scale",base:1.7},{id:"minecraft:max_health",base:12}]}
