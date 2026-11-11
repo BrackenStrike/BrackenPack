@@ -1,0 +1,1 @@
+data merge entity @n[type=hoglin,tag=!bp.daeodon,tag=!bp.safe] {DeathLootTable:"bracken:entity/panacea/daeodon",Health:60f,Age:6000,IsImmuneToZombification:1b,Tags:["bp.daeodon"],CustomName:{"color":"dark_green","italic":false,"translate":"Daeodon"},attributes:[{id:"minecraft:attack_damage",base:8.5},{id:"minecraft:max_health",base:60},{id:"minecraft:scale",base:1.5}]}

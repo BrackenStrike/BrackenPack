@@ -13,7 +13,7 @@ execute positioned ~ ~-10 ~ if entity @e[type=player,distance=..1] run tag @s ad
 execute if score @s bp.boss_state_cd matches ..100 run tag @s add bp.slam
 teleport @s[tag=bp.slam] ~ ~-1.25 ~
 
-execute if entity @s[tag=bp.slam] unless block ~ ~-0.5 ~ air run function bracken:entity/boss/the_disruptor/attack/slam/in_slam
+execute if entity @s[tag=bp.slam] unless block ~ ~-0.5 ~ #air run function bracken:entity/boss/the_disruptor/attack/slam/in_slam
 
 execute if entity @s[tag=!bp.slam] run function bracken:entity/boss/the_disruptor/move
 
