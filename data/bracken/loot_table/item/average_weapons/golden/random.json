@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/golden/bludgeon" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/golden/buckler" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/golden/cutlass" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/golden/dagger" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/golden/greatsword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/golden/katana" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/golden/rapier" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/golden/sabre" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/golden/short_spear" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/golden/sickle" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/golden/warhammer" },
+        { "type": "minecraft:item", "name": "minecraft:golden_helmet"},
+        { "type": "minecraft:item", "name": "minecraft:golden_chestplate"},
+        { "type": "minecraft:item", "name": "minecraft:golden_leggings"},
+        { "type": "minecraft:item", "name": "minecraft:golden_boots"},
+        { "type": "minecraft:item", "name": "minecraft:golden_axe"},
+        { "type": "minecraft:item", "name": "minecraft:golden_hoe"},
+        { "type": "minecraft:item", "name": "minecraft:golden_pickaxe"},
+        { "type": "minecraft:item", "name": "minecraft:golden_spear"},
+        { "type": "minecraft:item", "name": "minecraft:golden_sword"},
+        { "type": "minecraft:item", "name": "minecraft:golden_shovel"}   
+      ]
+    }
+  ]
+}

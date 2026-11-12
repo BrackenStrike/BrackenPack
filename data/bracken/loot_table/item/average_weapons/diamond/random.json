@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/diamond/bludgeon" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/diamond/buckler" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/diamond/cutlass" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/diamond/dagger" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/diamond/greatsword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/diamond/katana" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/diamond/rapier" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/diamond/sabre" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/diamond/short_spear" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/diamond/sickle" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/diamond/warhammer" },
+        { "type": "minecraft:item", "name": "minecraft:diamond_helmet"},
+        { "type": "minecraft:item", "name": "minecraft:diamond_chestplate"},
+        { "type": "minecraft:item", "name": "minecraft:diamond_leggings"},
+        { "type": "minecraft:item", "name": "minecraft:diamond_boots"},
+        { "type": "minecraft:item", "name": "minecraft:diamond_axe"},
+        { "type": "minecraft:item", "name": "minecraft:diamond_hoe"},
+        { "type": "minecraft:item", "name": "minecraft:diamond_pickaxe"},
+        { "type": "minecraft:item", "name": "minecraft:diamond_spear"},
+        { "type": "minecraft:item", "name": "minecraft:diamond_sword"},
+        { "type": "minecraft:item", "name": "minecraft:diamond_shovel"}        
+      ]
+    }
+  ]
+}

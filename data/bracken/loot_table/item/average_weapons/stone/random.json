@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/stone/bludgeon" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/stone/buckler" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/stone/cutlass" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/stone/dagger" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/stone/greatsword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/stone/katana" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/stone/rapier" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/stone/sabre" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/stone/short_spear" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/stone/sickle" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/stone/warhammer" },
+        { "type": "minecraft:item", "name": "minecraft:stone_axe"},
+        { "type": "minecraft:item", "name": "minecraft:stone_hoe"},
+        { "type": "minecraft:item", "name": "minecraft:stone_pickaxe"},
+        { "type": "minecraft:item", "name": "minecraft:stone_spear"},
+        { "type": "minecraft:item", "name": "minecraft:stone_sword"},
+        { "type": "minecraft:item", "name": "minecraft:stone_shovel"}        
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/wooden/bludgeon" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/wooden/buckler" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/wooden/cutlass" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/wooden/dagger" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/wooden/greatsword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/wooden/katana" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/wooden/rapier" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/wooden/sabre" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/wooden/staff" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/wooden/sickle" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/wooden/warhammer" },
+        { "type": "minecraft:item", "name": "minecraft:wooden_axe"},
+        { "type": "minecraft:item", "name": "minecraft:wooden_hoe"},
+        { "type": "minecraft:item", "name": "minecraft:wooden_pickaxe"},
+        { "type": "minecraft:item", "name": "minecraft:wooden_spear"},
+        { "type": "minecraft:item", "name": "minecraft:wooden_sword"},
+        { "type": "minecraft:item", "name": "minecraft:wooden_shovel"}        
+      ]
+    }
+  ]
+}

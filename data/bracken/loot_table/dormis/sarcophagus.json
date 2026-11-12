@@ -1,0 +1,244 @@
+
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sand",
+          "weight": 10,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 12
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 8,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 12
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "weight": 8,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 10
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp",
+          "weight": 8,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 6
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 6,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 8
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "weight": 6,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp_block",
+          "weight": 5,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 3
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 5,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 4
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 3,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 3
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/average_weapons/golden/random",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_rose",
+          "weight": 2,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/ability_books/adamantine_will",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/ability_books/fireball",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_astral_projection_0_x",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_astral_projection_1_x",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_levitation_0_0",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_levitation_0_1",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_levitation_1_0",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dune_armor_trim_smithing_template",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/metal_apples/bejeweled_apple",
+          "weight": 1
+        }
+      ]
+    },
+    {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:item",
+                "name": "minecraft:skeleton_skull"
+            }
+        ]
+    },
+    {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:loot_table",
+                "value": "bracken:item/average_weapons/wands/scepter",
+                "condition": {
+                    "type": "minecraft:random_chance",
+                    "chance": 0.33
+                }
+            }
+        ]
+    }
+  ]
+}

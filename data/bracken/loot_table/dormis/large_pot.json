@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 6,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 6,
+              "max": 9
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 6,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 6,
+              "max": 9
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 3,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:obsidian",
+          "weight": 6,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 6,
+              "max": 9
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_breath",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/abyssal_toxin_0_0",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/abyssal_toxin_1_0",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/abyssal_toxin_0_1",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_withering_0_0",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_withering_1_0",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_withering_0_1",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/metal_apples/carbon_apple",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/average_weapons/meteoric/random",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/maps/dormis_courtyard_map",
+          "weight": 6
+        }
+      ]
+    }
+  ]
+}

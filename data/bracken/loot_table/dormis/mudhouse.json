@@ -1,0 +1,175 @@
+{
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "items": [
+            "minecraft:angler_pottery_sherd",
+            "minecraft:archer_pottery_sherd",
+            "minecraft:arms_up_pottery_sherd",
+            "minecraft:blade_pottery_sherd",
+            "minecraft:brewer_pottery_sherd",
+            "minecraft:burn_pottery_sherd",
+            "minecraft:danger_pottery_sherd",
+            "minecraft:explorer_pottery_sherd",
+            "minecraft:flow_pottery_sherd",
+            "minecraft:friend_pottery_sherd",
+            "minecraft:heart_pottery_sherd",
+            "minecraft:heartbreak_pottery_sherd",
+            "minecraft:howl_pottery_sherd",
+            "minecraft:miner_pottery_sherd",
+            "minecraft:mourner_pottery_sherd",
+            "minecraft:plenty_pottery_sherd",
+            "minecraft:prize_pottery_sherd",
+            "minecraft:scrape_pottery_sherd",
+            "minecraft:sheaf_pottery_sherd",
+            "minecraft:shelter_pottery_sherd",
+            "minecraft:skull_pottery_sherd",
+            "minecraft:snort_pottery_sherd"
+          ],
+          "expand": true,
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:terracotta",
+          "weight": 5,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp",
+          "weight": 5,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:candle",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bowl",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chain",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp_block",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/average_weapons/copper/random",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_haste_0_0",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_haste_1_0",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_haste_0_1",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_greed_0_0",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_greed_0_1",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_greed_1_0",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bracken:copper_apple",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/average_weapons/old_world_bronze/random",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

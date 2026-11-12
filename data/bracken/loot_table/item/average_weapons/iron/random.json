@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/iron/bludgeon" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/iron/buckler" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/iron/cutlass" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/iron/dagger" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/iron/greatsword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/iron/katana" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/iron/rapier" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/iron/sabre" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/iron/short_spear" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/iron/sickle" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/iron/warhammer" },
+        { "type": "minecraft:item", "name": "minecraft:iron_helmet"},
+        { "type": "minecraft:item", "name": "minecraft:iron_chestplate"},
+        { "type": "minecraft:item", "name": "minecraft:iron_leggings"},
+        { "type": "minecraft:item", "name": "minecraft:iron_boots"},
+        { "type": "minecraft:item", "name": "minecraft:iron_axe"},
+        { "type": "minecraft:item", "name": "minecraft:iron_hoe"},
+        { "type": "minecraft:item", "name": "minecraft:iron_pickaxe"},
+        { "type": "minecraft:item", "name": "minecraft:iron_spear"},
+        { "type": "minecraft:item", "name": "minecraft:iron_sword"},
+        { "type": "minecraft:item", "name": "minecraft:iron_shovel"}        
+      ]
+    }
+  ]
+}

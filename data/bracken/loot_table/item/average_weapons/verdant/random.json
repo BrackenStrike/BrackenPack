@@ -1,0 +1,30 @@
+
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/axe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/bludgeon" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/boots" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/buckler" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/chestplate" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/cutlass" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/dagger" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/greatsword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/helmet" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/hoe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/katana" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/leggings" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/pickaxe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/rapier" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/sabre" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/staff" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/shovel" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/sickle" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/sword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/verdant/warhammer" }
+      ]
+    }
+  ]
+}
