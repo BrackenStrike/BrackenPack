@@ -4,17 +4,17 @@
 ##########################################################
 
 
-## Killer Rabbit
+## Killer Rabbit -- Rabbit
 function bracken:entity/the_faewild/summons/killer_rabbit
 
-## Knightmare
+## Knightmare -- Zombie
 function bracken:entity/the_faewild/summons/knightmare
 
-## Fae Ranger
+## Fae Ranger -- Skeleton
 function bracken:entity/the_faewild/summons/fae_ranger
 
-## Mayor
+## Mayor -- Stray
 function bracken:entity/the_faewild/summons/mayor
 
-## Mim Giant
+## Mim Giant -- Parched
 function bracken:entity/the_faewild/summons/mim_giant

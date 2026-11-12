@@ -11,8 +11,8 @@ execute as @n[type=skeleton,distance=..200,tag=!bp.safe] at @s run function brac
 
 #_____________________________________________________________________________
 
-## Lost Miner
+## Lost Miner -- Pillager
 function bracken:entity/the_underdark/summons/lost_miner
 
-## Jotun Bat
+## Jotun Bat -- Bat
 function bracken:entity/the_underdark/summons/jotun_bat

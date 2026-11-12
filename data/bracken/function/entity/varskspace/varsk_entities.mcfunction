@@ -7,7 +7,7 @@
 ## Summon lightning
 execute as @n[type=silverfish,distance=..200,tag=!bp.safe] at @s run function bracken:entity/varskspace/summons/lightning
 
-## Summon Varsk Creeper
+## Summon Varsk Creeper -- Creeper
 function bracken:entity/varskspace/summons/varsk_creeper
 
 ## Summon Copper Talos Golem
