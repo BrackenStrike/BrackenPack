@@ -17,6 +17,14 @@
   "actions": [
     {
       "label": "Adamantine will",
+      "tooltip": "ID = 29",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND set 29"
+      }
+    },
+    {
+      "label": "Crimson spark",
       "tooltip": "ID = 30",
       "action": {
         "type": "minecraft:run_command",
@@ -24,7 +32,7 @@
       }
     },
     {
-      "label": "Crimson spark",
+      "label": "Fang attack",
       "tooltip": "ID = 31",
       "action": {
         "type": "minecraft:run_command",
@@ -32,7 +40,7 @@
       }
     },
     {
-      "label": "Fang attack",
+      "label": "Fireball",
       "tooltip": "ID = 32",
       "action": {
         "type": "minecraft:run_command",
@@ -40,7 +48,7 @@
       }
     },
     {
-      "label": "Fireball",
+      "label": "Frostlock",
       "tooltip": "ID = 33",
       "action": {
         "type": "minecraft:run_command",
@@ -48,7 +56,7 @@
       }
     },
     {
-      "label": "Frostlock",
+      "label": "Great nullifier",
       "tooltip": "ID = 34",
       "action": {
         "type": "minecraft:run_command",
@@ -56,7 +64,7 @@
       }
     },
     {
-      "label": "Great nullifier",
+      "label": "Flying boat",
       "tooltip": "ID = 35",
       "action": {
         "type": "minecraft:run_command",
@@ -64,7 +72,7 @@
       }
     },
     {
-      "label": "Flying boat",
+      "label": "Iron golem",
       "tooltip": "ID = 36",
       "action": {
         "type": "minecraft:run_command",
@@ -72,7 +80,7 @@
       }
     },
     {
-      "label": "Iron golem",
+      "label": "Kill",
       "tooltip": "ID = 37",
       "action": {
         "type": "minecraft:run_command",
@@ -80,7 +88,7 @@
       }
     },
     {
-      "label": "Kill",
+      "label": "Travel Call",
       "tooltip": "ID = 38",
       "action": {
         "type": "minecraft:run_command",
@@ -88,7 +96,7 @@
       }
     },
     {
-      "label": "Travel Call",
+      "label": "Mansion",
       "tooltip": "ID = 39",
       "action": {
         "type": "minecraft:run_command",
@@ -96,7 +104,7 @@
       }
     },
     {
-      "label": "Mansion",
+      "label": "Mass heal",
       "tooltip": "ID = 40",
       "action": {
         "type": "minecraft:run_command",
@@ -104,7 +112,7 @@
       }
     },
     {
-      "label": "Mass heal",
+      "label": "Recall",
       "tooltip": "ID = 41",
       "action": {
         "type": "minecraft:run_command",
@@ -112,7 +120,7 @@
       }
     },
     {
-      "label": "Recall",
+      "label": "Scatterstorm",
       "tooltip": "ID = 42",
       "action": {
         "type": "minecraft:run_command",
@@ -120,7 +128,7 @@
       }
     },
     {
-      "label": "Scatterstorm",
+      "label": "Swordfall",
       "tooltip": "ID = 43",
       "action": {
         "type": "minecraft:run_command",
@@ -128,7 +136,7 @@
       }
     },
     {
-      "label": "Swordfall",
+      "label": "Tetra slime",
       "tooltip": "ID = 44",
       "action": {
         "type": "minecraft:run_command",
@@ -136,7 +144,7 @@
       }
     },
     {
-      "label": "Tetra slime",
+      "label": "Truelight glow",
       "tooltip": "ID = 45",
       "action": {
         "type": "minecraft:run_command",
@@ -144,7 +152,7 @@
       }
     },
     {
-      "label": "Truelight glow",
+      "label": "World soar",
       "tooltip": "ID = 46",
       "action": {
         "type": "minecraft:run_command",
@@ -152,7 +160,7 @@
       }
     },
     {
-      "label": "World soar",
+      "label": "Worm-toothed burrower",
       "tooltip": "ID = 47",
       "action": {
         "type": "minecraft:run_command",
@@ -160,19 +168,11 @@
       }
     },
     {
-      "label": "Worm-toothed burrower",
+      "label": "Void pull",
       "tooltip": "ID = 48",
       "action": {
         "type": "minecraft:run_command",
         "command": "/trigger OMNI.COMMAND set 48"
-      }
-    },
-    {
-      "label": "Void pull",
-      "tooltip": "ID = 49",
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "/trigger OMNI.COMMAND set 49"
       }
     }
   ]

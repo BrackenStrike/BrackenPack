@@ -3,6 +3,7 @@
 # Creators: BrackenStrike
 ##########################################################
 
-
-function bracken:player/omni_powers/perms/set/pyramid
-function bracken:player/omni_powers/perms/set/single_block
+function bracken:player/omni_powers/perms/allow_many.helper {cmds:{\
+    "bracken:player/omni_powers/cmd/build/pyramid":{},\
+    "bracken:player/omni_powers/cmd/build/single_block":{}\
+}}

@@ -3,6 +3,7 @@
 # Creators: Bracken, Sulfenir, Grandmaster, Conure
 ##########################################################
 
+advancement revoke @s only bracken:technical/omnitrigger/enable_books
 advancement revoke @s only bracken:technical/food/species_fruit/human
 execute if entity @s[tag=bp.species] run function bracken:player/species/leave
 clear @s written_book[minecraft:custom_data~{bp:{id:"species_beginner_book"}}]
