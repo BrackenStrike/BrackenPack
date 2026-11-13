@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "bracken:average_weapons/old_world_bronze/boots",
+                "minecraft:trim": {
+                  "material": "minecraft:lapis",
+                  "pattern": "minecraft:flow"
+                },
+                "minecraft:equippable": {
+                  "asset_id": "bracken:old_world_bronze",
+                  "slot": "feet"
+                },
+                "minecraft:item_name": {"text":"Pharaoh's Boots","color":"gold","bold":true}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

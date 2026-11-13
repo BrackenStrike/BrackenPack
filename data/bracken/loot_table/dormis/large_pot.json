@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
@@ -11,8 +11,8 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 8
             }
           }
         },
@@ -24,8 +24,8 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 8
             }
           }
         },
@@ -37,8 +37,8 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 8
             }
           }
         },
@@ -50,8 +50,8 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 8
             }
           }
         },
@@ -63,8 +63,8 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 8
             }
           }
         },
@@ -76,8 +76,47 @@
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 8
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_terracotta",
+          "weight": 9,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 4,
+              "max": 8
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sand",
+          "weight": 9,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 4,
+              "max": 8
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gravel",
+          "weight": 9,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 2,
+              "max": 5
             }
           }
         },
@@ -134,7 +173,7 @@
             "count": {
               "type": "minecraft:uniform",
               "min": 1,
-              "max": 2
+              "max": 3
             }
           }
         },
@@ -147,7 +186,7 @@
             "count": {
               "type": "minecraft:uniform",
               "min": 1,
-              "max": 2
+              "max": 3
             }
           }
         },
@@ -160,7 +199,7 @@
             "count": {
               "type": "minecraft:uniform",
               "min": 1,
-              "max": 2
+              "max": 3
             }
           }
         },
@@ -173,7 +212,7 @@
             "count": {
               "type": "minecraft:uniform",
               "min": 1,
-              "max": 2
+              "max": 3
             }
           }
         },
@@ -199,7 +238,7 @@
             "count": {
               "type": "minecraft:uniform",
               "min": 1,
-              "max": 2
+              "max": 5
             }
           }
         },
@@ -212,7 +251,7 @@
             "count": {
               "type": "minecraft:uniform",
               "min": 1,
-              "max": 2
+              "max": 5
             }
           }
         },

@@ -34,45 +34,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:terracotta",
-          "weight": 5,
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "min": 1,
-              "max": 2
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:dried_kelp",
-          "weight": 5,
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "min": 1,
-              "max": 2
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:beetroot",
-          "weight": 4,
-          "modifier": {
-            "type": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "min": 1,
-              "max": 2
-            }
-          }
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:leather",
           "weight": 4
         },

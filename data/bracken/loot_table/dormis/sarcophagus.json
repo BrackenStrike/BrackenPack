@@ -232,11 +232,34 @@
         "entries": [
             {
                 "type": "minecraft:loot_table",
-                "value": "bracken:item/average_weapons/wands/scepter",
-                "condition": {
-                    "type": "minecraft:random_chance",
-                    "chance": 0.33
-                }
+                "value": "bracken:item/dormis/pharaohs_boots"
+            }
+        ]
+    },
+    {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:loot_table",
+                "value": "bracken:item/dormis/pharaohs_chestplate"
+            }
+        ]
+    },
+    {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:loot_table",
+                "value": "bracken:item/dormis/pharaohs_leggings"
+            }
+        ]
+    },
+    {
+        "rolls": 1,
+        "entries": [
+            {
+                "type": "minecraft:loot_table",
+                "value": "bracken:item/dormis/pharaohs_mask"
             }
         ]
     }

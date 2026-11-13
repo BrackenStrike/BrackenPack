@@ -1,0 +1,19 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+			"type": "minecraft:item",
+			"name": "minecraft:golden_helmet",
+			"modifier": [{
+				"type": "minecraft:set_components",
+				"components": {
+					"minecraft:item_model": "bracken:shadows/pharaoh",
+					"minecraft:equippable": {
+						"slot": "head"
+					},
+					"minecraft:item_name": {"text":"Pharaoh's Mask","color":"gold","bold":true}
+				}
+			}]
+		}]
+	}]
+}
