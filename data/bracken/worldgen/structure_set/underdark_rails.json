@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:underdark_mask",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 19,
+        "separation": 15,
+        "salt": 97786776
+    }
+}

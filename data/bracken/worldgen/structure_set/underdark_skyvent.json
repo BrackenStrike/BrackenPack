@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:underdark_skyvent",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 15,
+        "separation": 14,
+        "salt": 96675776
+    }
+}
