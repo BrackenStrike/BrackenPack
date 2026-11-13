@@ -1,9 +1,9 @@
 {
     "type": "minecraft:jigsaw",
     "biomes": [
+        "bracken:the_brine/dead_reef",
         "bracken:the_brine/revered_waters",
-        "bracken:the_brine/dead_reef"
-
+        "bracken:the_brine/sugar_sand_beach"
     ],
     "spawn_overrides": {},
     "start_pool": "bracken:reef/worm",

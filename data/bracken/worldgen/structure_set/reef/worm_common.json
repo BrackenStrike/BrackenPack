@@ -1,18 +1,18 @@
 {
     "structures": [
         {
-            "structure": "bracken:reef/worm",
+            "structure": "bracken:reef/worm_common",
             "weight": 18
         },
         {
-            "structure": "bracken:reef/worm_titan",
+            "structure": "bracken:reef/worm_titan_common",
             "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 7,
-        "separation": 2,
+        "spacing": 3,
+        "separation": 1,
         "salt": 9012423
     }
 }
