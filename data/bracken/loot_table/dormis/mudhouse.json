@@ -1,7 +1,7 @@
 {
   "pools": [
     {
-      "rolls": 5,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:tag",
@@ -30,7 +30,7 @@
             "minecraft:snort_pottery_sherd"
           ],
           "expand": true,
-          "weight": 4
+          "weight": 1
         },
         {
           "type": "minecraft:item",

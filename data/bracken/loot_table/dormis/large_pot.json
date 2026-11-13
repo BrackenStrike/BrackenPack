@@ -1,48 +1,90 @@
 {
   "pools": [
     {
-      "rolls": 3,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:amethyst_shard",
-          "weight": 6,
+          "name": "minecraft:clay_ball",
+          "weight": 9,
           "modifier": {
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "min": 6,
-              "max": 9
+              "min": 5,
+              "max": 12
             }
           }
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
-          "weight": 6,
+          "name": "minecraft:terracotta",
+          "weight": 9,
           "modifier": {
             "type": "minecraft:set_count",
             "count": {
               "type": "minecraft:uniform",
-              "min": 6,
-              "max": 9
+              "min": 5,
+              "max": 12
             }
           }
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_apple",
-          "weight": 6
+          "name": "minecraft:black_terracotta",
+          "weight": 9,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 5,
+              "max": 12
+            }
+          }
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
-          "weight": 1
+          "name": "minecraft:red_terracotta",
+          "weight": 9,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 5,
+              "max": 12
+            }
+          }
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_scrap",
-          "weight": 3,
+          "name": "minecraft:orange_terracotta",
+          "weight": 9,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 5,
+              "max": 12
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_terracotta",
+          "weight": 9,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 5,
+              "max": 12
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp_block",
+          "weight": 5,
           "modifier": {
             "type": "minecraft:set_count",
             "count": {
@@ -54,8 +96,149 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:shroomlight",
+          "weight": 5,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 12,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 4,
+              "max": 12
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 15,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 10,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 15,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 15,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 5,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 10,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 10,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 13
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 2,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 1
+          }
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:obsidian",
-          "weight": 6,
+          "weight": 15,
           "modifier": {
             "type": "minecraft:set_count",
             "count": {
@@ -68,7 +251,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:dragon_breath",
-          "weight": 4,
+          "weight": 8,
           "modifier": {
             "type": "minecraft:set_count",
             "count": {
@@ -79,49 +262,262 @@
           }
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "bracken:item/potions/brine_potion/abyssal_toxin_0_0",
-          "weight": 2
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "weight": 8,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "bracken:item/potions/brine_potion/abyssal_toxin_1_0",
-          "weight": 2
+          "type": "minecraft:item",
+          "name": "minecraft:tnt",
+          "weight": 9,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 4
+            }
+          }
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "bracken:item/potions/brine_potion/abyssal_toxin_0_1",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "bracken:item/potions/brine_potion/potion_of_withering_0_0",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "bracken:item/potions/brine_potion/potion_of_withering_1_0",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "bracken:item/potions/brine_potion/potion_of_withering_0_1",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "bracken:item/metal_apples/carbon_apple",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "bracken:item/average_weapons/meteoric/random",
-          "weight": 4
+          "type": "minecraft:item",
+          "name": "minecraft:water_bucket",
+          "weight": 12
         },
         {
           "type": "minecraft:loot_table",
           "value": "bracken:item/maps/dormis_courtyard_map",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/abyssal_toxin_0_0",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_item",
+            "item": "minecraft:splash_potion"
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/abyssal_toxin_1_0",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_item",
+            "item": "minecraft:splash_potion"
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/abyssal_toxin_0_1",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_item",
+            "item": "minecraft:splash_potion"
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_withering_0_0",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_item",
+            "item": "minecraft:splash_potion"
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_withering_1_0",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_item",
+            "item": "minecraft:splash_potion"
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_withering_0_1",
+          "weight": 4,
+          "modifier": {
+            "type": "minecraft:set_item",
+            "item": "minecraft:splash_potion"
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/average_weapons/copper/random",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_haste_0_0",
           "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_haste_1_0",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_haste_0_1",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_levitation_0_0",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_levitation_0_1",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/potions/brine_potion/potion_of_levitation_1_0",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "modifier":
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:strong_turtle_master"
+              }
+            }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "modifier":
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:long_turtle_master"
+              }
+            }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "modifier":
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:turtle_master"
+              }
+            }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "modifier":
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:strong_swiftness"
+              }
+            }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "modifier":
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:long_swiftness"
+              }
+            }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "modifier":
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:swiftness"
+              }
+            }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "modifier":
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:strong_leaping"
+              }
+            }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "modifier":
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:long_leaping"
+              }
+            }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 6,
+          "modifier":
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": "minecraft:leaping"
+              }
+            }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/metal_apples/carbon_apple",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/metal_apples/copper_apple",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/metal_apples/iron_apple",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "bracken:item/average_weapons/meteoric/random",
+          "weight": 1
         }
       ]
     }
