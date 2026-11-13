@@ -1,11 +1,11 @@
 {
-    "name": "underdark_rails",
+    "name": "underdark_rails1",
     "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
-                "location": "bracken:the_underdark/underdark_rails",
+                "location": "bracken:the_underdark/underdark_rails1",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
