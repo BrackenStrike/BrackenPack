@@ -5,7 +5,7 @@
         {
             "weight": 1,
             "element": {
-                "location": "bracken:reef/worm_titan",
+                "location": "bracken:custom_mobs/bobbit_worm_titan",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
