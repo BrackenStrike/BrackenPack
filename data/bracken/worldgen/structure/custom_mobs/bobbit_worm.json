@@ -6,7 +6,7 @@
         "bracken:the_brine/dead_reef"
     ],
     "spawn_overrides": {},
-    "start_pool": "bracken:custom_mobs/worm",
+    "start_pool": "bracken:custom_mobs/bobbit_worm",
     "size": 1,
     "step": "surface_structures",
     "terrain_adaptation": "none",
