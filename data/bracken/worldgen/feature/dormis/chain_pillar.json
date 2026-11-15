@@ -6,10 +6,7 @@
 			"block": {
 				"type": "minecraft:simple",
 				"state": {
-					"id": "minecraft:basalt",
-					"properties": {
-						"axis": "y"
-					}
+					"id": "minecraft:tuff_wall"
 				}
 			},
 			"can_replace": {
@@ -36,10 +33,7 @@
 									"then": {
 										"type": "minecraft:simple",
 										"state": {
-											"id": "minecraft:basalt",
-											"properties": {
-												"axis": "y"
-											}
+											"id": "minecraft:tuff_bricks"
 										}
 									}
 								}]
@@ -63,10 +57,8 @@
 							"to_place": {
 								"type": "minecraft:simple",
 								"state": {
-									"id": "minecraft:basalt",
-									"properties": {
-										"axis": "y"
-									}
+									"id": "minecraft:tuff_bricks"
+									
 								}
 							}
 						},
@@ -85,10 +77,7 @@
 							"to_place": {
 								"type": "minecraft:simple",
 								"state": {
-									"id": "minecraft:basalt",
-									"properties": {
-										"axis": "y"
-									}
+									"id": "minecraft:tuff_bricks"
 								}
 							}
 						},
@@ -107,7 +96,7 @@
 							"to_place": {
 								"type": "minecraft:simple",
 								"state": {
-									"id": "minecraft:basalt",
+									"id": "minecraft:tuff_bricks",
 									"properties": {
 										"axis": "y"
 									}
@@ -129,10 +118,7 @@
 							"to_place": {
 								"type": "minecraft:simple",
 								"state": {
-									"id": "minecraft:basalt",
-									"properties": {
-										"axis": "y"
-									}
+									"id": "minecraft:tuff"
 								}
 							}
 						},
@@ -154,27 +140,56 @@
 		"placement": []
 	},{
 		"feature": {
-			"type": "minecraft:single_block_pillar",
-			"block": {
-				"type": "minecraft:simple",
-				"state": {
-					"id": "minecraft:basalt",
-					"properties": {
-						"axis": "y"
-					}
-				}
-			},
-			"can_replace": {
-				"type": "minecraft:matching_block_tag",
-				"tag": "minecraft:air"
-			},
-			"chance_to_continue": 0.9,
-			"direction": "down"
-		},
+							"type": "minecraft:simple_block",
+							"to_place": {
+								"type": "minecraft:simple",
+								"state": {
+									"id": "minecraft:grindstone",
+									"properties": {
+										"facing": "south"
+									}
+								}
+							}
+						},
 		"placement": [{
 			"type": "minecraft:offset",
-			"x": 1,
-			"y": 0,
+			"x": 0,
+			"y": 1,
+			"z": 1
+		}]
+	},{
+		"feature": {
+							"type": "minecraft:simple_block",
+							"to_place": {
+								"type": "minecraft:simple",
+								"state": {
+									"id": "minecraft:grindstone",
+									"properties": {
+										"facing": "north"
+									}
+								}
+							}
+						},
+		"placement": [{
+			"type": "minecraft:offset",
+			"x": 0,
+			"y": 1,
+			"z": -1
+		}]
+	},{
+		"feature": {
+							"type": "minecraft:simple_block",
+							"to_place": {
+								"type": "minecraft:simple",
+								"state": {
+									"id": "minecraft:chiseled_tuff"
+								}
+							}
+						},
+		"placement": [{
+			"type": "minecraft:offset",
+			"x": 0,
+			"y": 1,
 			"z": 0
 		}]
 	},{
@@ -183,32 +198,7 @@
 			"block": {
 				"type": "minecraft:simple",
 				"state": {
-					"id": "minecraft:basalt",
-					"properties": {
-						"axis": "y"
-					}
-				}
-			},
-			"can_replace": {
-				"type": "minecraft:matching_block_tag",
-				"tag": "minecraft:air"
-			},
-			"chance_to_continue": 0.9,
-			"direction": "down"
-		},
-		"placement": [{
-			"type": "minecraft:offset",
-			"x": -1,
-			"y": 0,
-			"z": 0
-		}]
-	},{
-		"feature": {
-			"type": "minecraft:single_block_pillar",
-			"block": {
-				"type": "minecraft:simple",
-				"state": {
-					"id": "minecraft:basalt",
+					"id": "minecraft:iron_chain",
 					"properties": {
 						"axis": "y"
 					}
@@ -233,7 +223,7 @@
 			"block": {
 				"type": "minecraft:simple",
 				"state": {
-					"id": "minecraft:basalt",
+					"id": "minecraft:iron_chain",
 					"properties": {
 						"axis": "y"
 					}
