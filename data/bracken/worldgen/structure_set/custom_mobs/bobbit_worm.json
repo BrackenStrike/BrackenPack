@@ -1,17 +1,13 @@
 {
     "structures": [
         {
-            "structure": "bracken:reef/worm2",
+            "structure": "bracken:custom_mobs/bobbit_worm",
             "weight": 18
-        },
-        {
-            "structure": "bracken:reef/worm_titan2",
-            "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 2,
+        "spacing": 3,
         "separation": 1,
         "salt": 9012423
     }

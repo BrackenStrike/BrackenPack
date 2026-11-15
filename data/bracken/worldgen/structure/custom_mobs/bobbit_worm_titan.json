@@ -1,13 +1,12 @@
 {
     "type": "minecraft:jigsaw",
     "biomes": [
-        "bracken:the_brine/dead_reef",
-        "bracken:the_brine/revered_waters",
-        "bracken:the_brine/sugar_sand_beach"
+        
+        "bracken:the_brine/revered_waters"
 
     ],
     "spawn_overrides": {},
-    "start_pool": "bracken:reef/worm_titan",
+    "start_pool": "bracken:custom_mobs/bobbit_worm_titan",
     "size": 1,
     "step": "surface_structures",
     "terrain_adaptation": "none",

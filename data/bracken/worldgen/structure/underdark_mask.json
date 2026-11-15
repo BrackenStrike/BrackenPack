@@ -2,7 +2,7 @@
     "type": "minecraft:jigsaw",
     "biomes": "bracken:the_underdark/titan_dripstone_cavern",
     "spawn_overrides": {},
-    "start_pool": "bracken:underdark_mask",
+    "start_pool": "bracken:the_underdark/underdark_mask",
     "size": 6,
     "step": "surface_structures",
     "start_height": {
