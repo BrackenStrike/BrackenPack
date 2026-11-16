@@ -11,4 +11,4 @@ execute if block ~ ~-1 ~ minecraft:beacon{Levels:4} run scoreboard players add @
 effect give @s[scores={bp.ice=2..}] minecraft:nausea 10 5 true
 effect give @s[scores={bp.ice=6..}] minecraft:resistance 7 7 false
 
-effect give @s[scores={bp.ice=1..},predicate=!bracken:effect_immunity/wither] minecraft:wither 5 1 true
+effect give @s[scores={bp.ice=1..}] minecraft:wither 5 1 true

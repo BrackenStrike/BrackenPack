@@ -4,7 +4,7 @@
 ##########################################################
 
 # Effects
-execute if predicate bracken:in_water run effect give @s[predicate=!bracken:effect_immunity/wither] minecraft:wither 2 0 true
+execute if predicate bracken:in_water run effect give @s minecraft:wither 2 0 true
 execute if score @s bp.1_second matches 15 run function bracken:dimension/commands/other/no_fire_fill_commands
 
 # Blizzard

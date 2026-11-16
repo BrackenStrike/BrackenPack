@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "effects_changed",
+            "conditions": {
+                "effects": {
+                    "wither": {}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/effects/wither"
+    }
+}
