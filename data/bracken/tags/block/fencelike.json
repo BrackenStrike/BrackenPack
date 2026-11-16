@@ -1,0 +1,8 @@
+{
+    "values": [
+        "#walls",
+        "#fences",
+        "#fence_gates"
+    ],
+    "replace": true
+}
