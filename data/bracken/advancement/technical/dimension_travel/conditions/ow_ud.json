@@ -1,0 +1,39 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type": "all_of",
+                    "terms": [
+                        {
+                            "type": "location_check",
+                            "predicate": {
+                                "dimension": "overworld",
+                                "position": {
+                                    "y": {
+                                        "max": -70
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_tags": {
+                                    "none_of": [
+                                        "exp.inside_vehicle"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:dimension/crossing/overworld_to_underdark"
+    }
+}
