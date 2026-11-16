@@ -4,7 +4,7 @@
 ##########################################################
 
 playsound minecraft:entity.iron_golem.repair player @a[distance=..30] ~ ~ ~ 10 0
-damage @s 18 minecraft:out_of_world
+damage @s 8 minecraft:starve
 effect give @s minecraft:resistance 15 9 false
 tellraw @s ["",{"selector":"@s"},{"translate":" generated [ADAMANTINE WILL]"}]
 experience add @s -7 levels
