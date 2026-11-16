@@ -3,8 +3,8 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-# No XP
-kill @e[type=experience_orb,distance=..5]
+# No XP #transfered to varskspace
+#kill @e[type=experience_orb,distance=..5]
 
 # Mobs
 execute if score @s bp.1_second matches 2 run function bracken:entity/omnidrome/summon_omni_mobs

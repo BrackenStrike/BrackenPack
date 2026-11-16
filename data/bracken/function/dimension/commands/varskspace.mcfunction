@@ -11,13 +11,13 @@ scoreboard players add @s[predicate=bracken:sprint] bp.sprintcharge 2
 execute if score @s bp.1_second matches 10 run function bracken:entity/varskspace/varsk_entities
 
 # Speed Effects
-effect give @s[scores={bp.sprintcharge=20..}] minecraft:speed 1 19 true
-effect give @s[scores={bp.sprintcharge=40..}] minecraft:speed 1 29 true
+effect give @s[scores={bp.sprintcharge=20..}] minecraft:speed 1 9 true
+effect give @s[scores={bp.sprintcharge=40..}] minecraft:speed 1 19 true
 effect give @s[scores={bp.sprintcharge=40..}] minecraft:night_vision 2 24 true
-effect give @s[scores={bp.sprintcharge=60..}] minecraft:speed 1 39 true
+effect give @s[scores={bp.sprintcharge=60..}] minecraft:speed 1 29 true
 execute if entity @s[scores={bp.sprintcharge=60..}] run summon minecraft:lightning_bolt ^ ^ ^-7
 advancement grant @s[scores={bp.sprintcharge=60..}] only bracken:varskspace/electric
-effect give @s[scores={bp.sprintcharge=80..}] minecraft:speed 1 79 true
+effect give @s[scores={bp.sprintcharge=80..}] minecraft:speed 1 59 true
 
 # Saturation Effect
 effect give @s[scores={bp.10_second=7},predicate=!bracken:sprint] minecraft:saturation 1 0 true
