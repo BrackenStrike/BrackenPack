@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Bracken Pack Options",
+  "body": [],
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": true,
+  "exit_action": {
+    "label": "Exit"
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Check species info",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger bracken.species_info"
+      }
+    },
+    {
+      "label": "Open omnipowers dialog",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger OMNI.COMMAND"
+      }
+    }
+  ]
+}
