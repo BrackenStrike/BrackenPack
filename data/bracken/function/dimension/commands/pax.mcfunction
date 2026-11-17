@@ -14,3 +14,5 @@ execute if score @s bp.1_second matches 8 \
     if entity @s[y=15,dy=-300] run return run function bracken:dimension/crossing/pax_to_faewild
 
 execute if predicate bracken:periodic/2t as @e[type=#bracken:pax_entities,distance=..40] at @s run function bracken:entity/pax/pax_entities
+
+advancement revoke @s only bracken:technical/dimension_commands/pax

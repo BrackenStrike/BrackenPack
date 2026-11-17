@@ -12,3 +12,5 @@ execute unless entity @s[predicate=bracken:light/at_least_5] positioned over mot
 
 # Mobs
 execute if score @s bp.1_second matches 2 run function bracken:entity/glacium/glacium_mobs
+
+advancement revoke @s only bracken:technical/dimension_commands/glacium

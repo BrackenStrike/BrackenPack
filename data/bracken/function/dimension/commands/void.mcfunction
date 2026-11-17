@@ -13,3 +13,5 @@ execute if entity @s[tag=bp.mansion_1] run function bracken:item/ability_books/m
 
 # Beware the sounds of unknowable creatures as you descend.
 playsound bracken:void_ambient ambient @s[scores={bp.3_second=1},predicate=bracken:random/one_in_30] ~ ~ ~ 100 1.0 1
+
+advancement revoke @s only bracken:technical/dimension_commands/void

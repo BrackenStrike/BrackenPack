@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "tick",
+            "conditions": {
+                "player": "bracken:dimensions/pax"
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:dimension/commands/pax"
+    }
+}

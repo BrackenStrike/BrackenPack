@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "tick",
+            "conditions": {
+                "player": "bracken:dimensions/glacium"
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:dimension/commands/glacium"
+    }
+}

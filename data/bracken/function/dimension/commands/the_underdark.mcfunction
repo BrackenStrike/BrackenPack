@@ -9,3 +9,4 @@ execute if score @s bp.1_second matches 10 run function bracken:entity/the_under
 # Dimension Travel
 execute if score @s bp.1_second matches 16 if data storage bracken:config {dimension_travel: true} run function bracken:dimension/commands/the_underdark/travel
 
+advancement revoke @s only bracken:technical/dimension_commands/the_underdark

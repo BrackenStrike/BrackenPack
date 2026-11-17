@@ -18,3 +18,5 @@ execute in minecraft:overworld if predicate bracken:sanctum_rain in bracken:sanc
 
 # The desolation speaks.
 execute if predicate bracken:periodic/3s if predicate bracken:random/one_in_30 run playsound bracken:sanctum_ambient ambient @s ~ ~ ~ 100 1.0 1
+
+advancement revoke @s only bracken:technical/dimension_commands/sanctum

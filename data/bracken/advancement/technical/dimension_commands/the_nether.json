@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "tick",
+            "conditions": {
+                "player": "bracken:dimensions/the_nether"
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:dimension/commands/the_nether"
+    }
+}

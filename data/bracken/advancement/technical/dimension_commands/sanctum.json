@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "tick",
+            "conditions": {
+                "player": "bracken:dimensions/sanctum"
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:dimension/commands/sanctum"
+    }
+}

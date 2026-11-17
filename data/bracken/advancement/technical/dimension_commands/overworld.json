@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "tick",
+            "conditions": {
+                "player": "bracken:dimensions/overworld"
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:dimension/commands/overworld"
+    }
+}

@@ -14,8 +14,6 @@ attribute @s minecraft:step_height modifier add bracken:varskspace_step 0.5 add_
 attribute @s minecraft:friction_modifier modifier add bracken:varskspace_land_friction -0.5 add_multiplied_base
 attribute @s minecraft:air_drag_modifier modifier add bracken:varskspace_air_friction -1 add_multiplied_base
 
-function bracken:dimension/travel/remove_dim_tags
-tag @s add bp.dim_varskspace
 scoreboard players set @s bp.sprintcharge 0
 
 execute if entity @s[tag=bp.dim_title_queue] unless score @s bp.dim_title_queue matches 12 run tag @s remove bp.dim_title_queue

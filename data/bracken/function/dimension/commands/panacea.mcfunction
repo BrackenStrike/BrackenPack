@@ -20,3 +20,5 @@ execute if entity @s[predicate=bracken:quicksand] run function bracken:dimension
 
 # Dimension Travel
 execute if score @s bp.creeper matches 1 if data storage bracken:config {dimension_travel:true} if entity @e[type=minecraft:creeper,distance=..1] run return run function bracken:dimension/crossing/panacea_to_overworld
+
+advancement revoke @s only bracken:technical/dimension_commands/panacea
