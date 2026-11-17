@@ -11,8 +11,5 @@ effect give @s[predicate=bracken:survival_like] minecraft:slow_falling 13 9 true
 execute if entity @s[tag=bp.to_mansion_1] run function bracken:item/ability_books/mansion/tp_to_mansion/tp_to_mansion_setup
 execute if entity @s[tag=bp.mansion_1] run function bracken:item/ability_books/mansion/create_mansion/tp_to_mansion_setup
 
-# VOID RANDOM TP
-execute if data storage bracken:config {dimension_travel: true} if entity @s[y=-32,dy=-200] run return run function bracken:dimension/crossing/voidtp
-
 # Beware the sounds of unknowable creatures as you descend.
 playsound bracken:void_ambient ambient @s[scores={bp.3_second=1},predicate=bracken:random/one_in_30] ~ ~ ~ 100 1.0 1

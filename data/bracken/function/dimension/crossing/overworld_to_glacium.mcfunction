@@ -10,6 +10,4 @@ effect give @s slow_falling 20 2 false
 advancement grant @s only bracken:gla
 execute in bracken:glacium run function bracken:remove_forceload
 
-
-
-
+advancement revoke @s only bracken:technical/dimension_travel/conditions/ow_gc

@@ -3,6 +3,8 @@
 # Creators: Grandmaster
 ##########################################################
 
+execute if data storage bracken:config {dimension_travel: false} run return fail
+
 tag @s add bp.fae_leaves_queue
 execute in bracken:the_faewild run forceload add ~ ~
 execute in bracken:the_faewild align xz run tp @s ~0.5 12 ~0.5
@@ -10,3 +12,5 @@ execute at @s[gamemode=!spectator] run setblock ~ 11 ~ minecraft:azalea_leaves[p
 execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air
 advancement grant @s only bracken:fae
 execute in bracken:the_faewild run function bracken:remove_forceload
+
+advancement revoke @s only bracken:technical/dimension_travel/conditions/ow_fw

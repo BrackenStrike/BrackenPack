@@ -3,8 +3,6 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-execute if score @s bp.ice matches 7.. if block ~ ~-1 ~ beacon run function bracken:dimension/crossing/overworld_to_glacium
-
 effect give @s[predicate=!bracken:sneak,tag=!exp.inside_vehicle,y=313,dy=100] levitation 2 2 true
 effect give @s[y=260,dy=100] slow_falling 2 2 true
 effect give @s[y=260,dy=100] jump_boost 2 1 true

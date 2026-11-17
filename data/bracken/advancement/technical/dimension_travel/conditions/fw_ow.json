@@ -1,0 +1,41 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type": "all_of",
+                    "terms": [
+                        {
+                            "type": "location_check",
+                            "predicate": {
+                                "dimension": "bracken:the_faewild",
+                                "position": {
+                                    "y": {
+                                        "max": -15
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_tags": {
+                                    "none_of": [
+                                        "exp.inside_vehicle"
+                                    ]
+                                }
+                            }
+                        },
+                        "bracken:config/dimension_travel_enabled"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "bracken:technical/dimension_travel/conditions/root",
+    "rewards": {
+        "function": "bracken:dimension/crossing/faewild_to_overworld"
+    }
+}

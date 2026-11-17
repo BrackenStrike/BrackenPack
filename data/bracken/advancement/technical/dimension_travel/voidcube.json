@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "type": "all_of",
+                    "terms": [
+                        {
+                            "type": "inverted",
+                            "term": "bracken:dimensions/void"
+                        },
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_tags": {
+                                    "all_of": [ "bp.obsidian" ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:dimension/crossing/voidcube"
+    }
+}

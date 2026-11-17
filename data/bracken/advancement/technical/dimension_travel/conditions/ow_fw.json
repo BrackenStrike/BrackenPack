@@ -27,12 +27,14 @@
                                     ]
                                 }
                             }
-                        }
+                        },
+                        "bracken:config/dimension_travel_enabled"
                     ]
                 }
             }
         }
     },
+    "parent": "bracken:technical/dimension_travel/conditions/root",
     "rewards": {
         "function": "bracken:dimension/crossing/overworld_to_faewild"
     }

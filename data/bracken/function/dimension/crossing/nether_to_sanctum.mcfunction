@@ -10,6 +10,4 @@ execute at @s[gamemode=!spectator] run fill ~ ~1 ~ ~ ~0 ~ air
 advancement grant @s only bracken:san
 execute in bracken:sanctum run function bracken:remove_forceload
 
-
-
-
+advancement revoke @s only bracken:technical/dimension_travel/conditions/nt_st

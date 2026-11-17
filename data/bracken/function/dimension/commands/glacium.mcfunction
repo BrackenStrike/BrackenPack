@@ -12,7 +12,3 @@ execute unless entity @s[predicate=bracken:light/at_least_5] positioned over mot
 
 # Mobs
 execute if score @s bp.1_second matches 2 run function bracken:entity/glacium/glacium_mobs
-
-# Dimension Travel
-execute if entity @s[scores={bp.ice=7..}] if block ~ ~-1 ~ minecraft:beacon run return run function bracken:dimension/crossing/glacium_to_overworld
-execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel: true} if entity @s[y=-35,dy=-300] in bracken:void run return run tp @s ~ 240 ~

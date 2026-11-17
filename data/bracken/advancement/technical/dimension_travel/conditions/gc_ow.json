@@ -1,0 +1,49 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type": "all_of",
+                    "terms": [
+                        {
+                            "type": "location_check",
+                            "offsetY": -1,
+                            "predicate": {
+                                "dimension": "bracken:glacium",
+                                "block": {
+                                    "blocks": "beacon"
+                                }
+                            }
+                        },
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_tags": {
+                                    "none_of": [
+                                        "exp.inside_vehicle"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "type": "entity_scores",
+                            "entity": "this",
+                            "scores": {
+                                "bp.ice": {
+                                    "min": 7
+                                }
+                            }
+                        },
+                        "bracken:config/dimension_travel_enabled"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "bracken:technical/dimension_travel/conditions/root",
+    "rewards": {
+        "function": "bracken:dimension/crossing/glacium_to_overworld"
+    }
+}
