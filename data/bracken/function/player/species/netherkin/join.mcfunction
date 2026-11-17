@@ -3,6 +3,7 @@
 # Creators: Sulfenir and Grandmaster
 ##########################################################
 
+advancement revoke @s only bracken:technical/omnitrigger/enable_books
 advancement revoke @s only bracken:technical/food/species_fruit/netherkin
 execute if entity @s[tag=bp.species] run function bracken:player/species/leave
 clear @s written_book[minecraft:custom_data~{bp:{id:"species_beginner_book"}}]

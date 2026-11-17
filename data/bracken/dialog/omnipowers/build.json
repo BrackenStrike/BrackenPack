@@ -17,6 +17,14 @@
     "actions": [
         {
             "label": "Place cube",
+            "tooltip": "ID = 1",
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger OMNI.COMMAND set 1"
+            }
+        },
+        {
+            "label": "Place road (north)",
             "tooltip": "ID = 2",
             "action": {
                 "type": "minecraft:run_command",
@@ -24,7 +32,7 @@
             }
         },
         {
-            "label": "Place road (north)",
+            "label": "Place road (south)",
             "tooltip": "ID = 3",
             "action": {
                 "type": "minecraft:run_command",
@@ -32,7 +40,7 @@
             }
         },
         {
-            "label": "Place road (south)",
+            "label": "Place road (east)",
             "tooltip": "ID = 4",
             "action": {
                 "type": "minecraft:run_command",
@@ -40,7 +48,7 @@
             }
         },
         {
-            "label": "Place road (east)",
+            "label": "Place road (west)",
             "tooltip": "ID = 5",
             "action": {
                 "type": "minecraft:run_command",
@@ -48,7 +56,7 @@
             }
         },
         {
-            "label": "Place road (west)",
+            "label": "Place pillar",
             "tooltip": "ID = 6",
             "action": {
                 "type": "minecraft:run_command",
@@ -56,7 +64,7 @@
             }
         },
         {
-            "label": "Place pillar",
+            "label": "Place cyber tree",
             "tooltip": "ID = 7",
             "action": {
                 "type": "minecraft:run_command",
@@ -64,7 +72,7 @@
             }
         },
         {
-            "label": "Place cyber tree",
+            "label": "Place pyramid",
             "tooltip": "ID = 8",
             "action": {
                 "type": "minecraft:run_command",
@@ -72,7 +80,7 @@
             }
         },
         {
-            "label": "Place pyramid",
+            "label": "Place end island",
             "tooltip": "ID = 9",
             "action": {
                 "type": "minecraft:run_command",
@@ -80,7 +88,7 @@
             }
         },
         {
-            "label": "Place end island",
+            "label": "Place single block",
             "tooltip": "ID = 10",
             "action": {
                 "type": "minecraft:run_command",
@@ -88,7 +96,7 @@
             }
         },
         {
-            "label": "Place single block",
+            "label": "Place sculk patch",
             "tooltip": "ID = 11",
             "action": {
                 "type": "minecraft:run_command",
@@ -96,7 +104,7 @@
             }
         },
         {
-            "label": "Place sculk patch",
+            "label": "Clear debris",
             "tooltip": "ID = 12",
             "action": {
                 "type": "minecraft:run_command",
@@ -104,19 +112,11 @@
             }
         },
         {
-            "label": "Clear debris",
+            "label": "Clear material",
             "tooltip": "ID = 13",
             "action": {
                 "type": "minecraft:run_command",
                 "command": "/trigger OMNI.COMMAND set 13"
-            }
-        },
-        {
-            "label": "Clear material",
-            "tooltip": "ID = 14",
-            "action": {
-                "type": "minecraft:run_command",
-                "command": "/trigger OMNI.COMMAND set 14"
             }
         }
     ]

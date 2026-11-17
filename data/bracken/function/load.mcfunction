@@ -1,5 +1,6 @@
 ##########   SCOREBOARDS   ###########
 function bracken:config/install/add_scoreboards
+function bracken:config/install/init_omni_powers
 
 ##########   MATH INIT   #########
 function bracken:math/load

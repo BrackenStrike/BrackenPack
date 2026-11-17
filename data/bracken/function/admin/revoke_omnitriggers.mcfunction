@@ -1,3 +1,4 @@
+advancement revoke @s only bracken:technical/omnitrigger/enable_books
 advancement revoke @s only bracken:technical/omnitrigger/b_archivistory
 advancement revoke @s only bracken:technical/omnitrigger/b_fabricylum
 advancement revoke @s only bracken:technical/omnitrigger/b_infrapolis

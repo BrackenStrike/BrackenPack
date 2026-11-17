@@ -29,7 +29,7 @@
       "tooltip":"The usual Minecraft beginning",
         "action": {
           "type": "run_command",
-          "command": "trigger bp.species_selected set 110"
+          "command": "trigger bp.species_selected set 109"
       }
     },
     {
@@ -37,7 +37,7 @@
       "tooltip":"A more \"disquieting\" beginning",
         "action": {
           "type": "run_command",
-          "command": "trigger bp.dimension_selected set 9"
+          "command": "trigger bp.dimension_selected set 8"
       }
     },
     {

@@ -3,6 +3,7 @@
 # Creators: Grandmaster and Sulfenir
 ##########################################################
 
+advancement revoke @s only bracken:technical/omnitrigger/enable_books
 advancement revoke @s only bracken:technical/food/species_fruit/automech
 execute if entity @s[tag=bp.species] run function bracken:player/species/leave
 

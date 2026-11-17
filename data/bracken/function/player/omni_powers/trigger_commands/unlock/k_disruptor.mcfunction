@@ -3,6 +3,8 @@
 # Creators: BrackenStrike
 ##########################################################
 
-function bracken:player/omni_powers/perms/set/summon_disruptor_beam
-function bracken:player/omni_powers/perms/set/sprint
-function bracken:player/omni_powers/perms/set/flight
+function bracken:player/omni_powers/perms/allow_many.helper {cmds:{\
+    "bracken:player/omni_powers/cmd/summon/disruptor_beam":{},\
+    "bracken:player/omni_powers/cmd/sprint":{},\
+    "bracken:player/omni_powers/cmd/flight":{}\
+}}

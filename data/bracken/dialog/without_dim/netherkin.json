@@ -42,7 +42,7 @@
     "label": "Yes",
     "action": {
         "type": "run_command",
-        "command": "trigger bp.species_selected set 111"
+        "command": "trigger bp.species_selected set 110"
     }
   },
   "no": {

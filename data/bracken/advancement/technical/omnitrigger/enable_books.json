@@ -1,0 +1,8 @@
+{
+    "criteria": {
+        "impossible": {"trigger": "impossible"}
+    },
+    "rewards": {
+        "function": "bracken:player/omni_powers/trigger_commands/enable_omni_book_commands"
+    }
+}
