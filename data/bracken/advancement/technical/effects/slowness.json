@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "effects_changed",
+            "conditions": {
+                "effects": {
+                    "slowness": {}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/effects/slowness"
+    }
+}

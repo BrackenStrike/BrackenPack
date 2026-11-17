@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "effects_changed",
+            "conditions": {
+                "effects": {
+                    "weakness": {}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/effects/weakness"
+    }
+}

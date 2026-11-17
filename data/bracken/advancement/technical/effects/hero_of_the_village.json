@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "effects_changed",
+            "conditions": {
+                "effects": {
+                    "hero_of_the_village": {}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/effects/hero_of_the_village"
+    }
+}
