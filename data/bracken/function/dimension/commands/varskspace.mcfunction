@@ -3,6 +3,8 @@
 # Creators: Bracken
 ##########################################################
 
+execute unless function bracken:dimension/commands/revoke_tick/varskspace run return fail
+
 # Sprintcharge handling
 scoreboard players remove @s[predicate=!bracken:sprint,scores={bp.sprintcharge=1..}] bp.sprintcharge 1
 scoreboard players add @s[predicate=bracken:sprint] bp.sprintcharge 2
@@ -28,4 +30,4 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_bo
 # Dimension Travel
 execute if entity @s[scores={bp.sprintcharge=100..}] run return run function bracken:dimension/crossing/varskspace_to_overworld
 execute if score @s bp.1_second matches 14 if data storage bracken:config {dimension_travel: true} run return run function bracken:dimension/commands/varskstorm/travel
-
+say bracken:varskspace

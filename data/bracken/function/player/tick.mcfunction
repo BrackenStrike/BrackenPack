@@ -28,7 +28,7 @@ scoreboard players add @s bp.5_min_tick 1
 execute if entity @s[tag=bp.species] if data storage bracken:config {species_on: true} run function bracken:player/species/tick
 
 # Dimension Commands
-function bracken:player/dimension_check
+# function bracken:player/dimension_check
 function bracken:player/universal_dimension_commands
 
 # Respawning

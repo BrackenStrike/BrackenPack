@@ -3,6 +3,8 @@
 # Creators: Bracken
 ##########################################################
 
+execute unless function bracken:dimension/commands/revoke_tick/the_faewild run return fail
+
 # Effects
 #effect give @s[predicate=bracken:sneak] minecraft:slow_falling 1 0 true
 experience add @s[scores={bp.10_second=1}] 1 points
@@ -18,3 +20,5 @@ execute if score @s bp.1_second matches 7 if data storage bracken:config {dimens
 
 # Fae Sounds
 execute if predicate bracken:periodic/3s if predicate bracken:random/one_in_30 run playsound bracken:faewild_ambient ambient @s ~ ~ ~ 100 1.0 1
+
+say bracken:the_faewild

@@ -4,12 +4,12 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/leave/dormis
+function bracken:dimension/commands/grant_impossible_all
+advancement revoke @s only bracken:technical/dimension_commands/dormis impossible
 
 attribute @s minecraft:movement_speed modifier add bracken:dormis_speed -0.1 add_multiplied_base
 attribute @s minecraft:gravity modifier add bracken:dormis_gravity 0.2 add_multiplied_base
 
-function bracken:dimension/travel/remove_dim_tags
-tag @s add bp.dim_dormis
 function bracken:player/effects_changed
 
 execute if entity @s[tag=bp.dim_title_queue] unless score @s bp.dim_title_queue matches 11 run tag @s remove bp.dim_title_queue

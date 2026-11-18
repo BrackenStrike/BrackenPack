@@ -3,6 +3,8 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
+execute unless function bracken:dimension/commands/revoke_tick/void run return fail
+
 # Effects
 effect give @s[predicate=bracken:survival_like] minecraft:slow_falling 13 9 true
 #effect give @s[gamemode=!creative,tag=!bp.watcher,scores={bp.10_second=8}] minecraft:blindness 29 9 true
@@ -16,3 +18,4 @@ execute if data storage bracken:config {dimension_travel: true} if entity @s[y=-
 
 # Beware the sounds of unknowable creatures as you descend.
 playsound bracken:void_ambient ambient @s[scores={bp.3_second=1},predicate=bracken:random/one_in_30] ~ ~ ~ 100 1.0 1
+say bracken:void

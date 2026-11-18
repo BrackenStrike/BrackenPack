@@ -3,6 +3,8 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
+execute unless function bracken:dimension/commands/revoke_tick/glacium run return fail
+
 # No XP #transfered to varskspace
 #kill @e[type=experience_orb,distance=..5]
 
@@ -31,3 +33,4 @@ execute if score @s OMNI.COMMAND matches 1..51 run function bracken:player/omni_
 scoreboard players enable @s[scores={bp.1_second=18}] OMNI.COMMAND
 
 execute if score @s bp.1_second matches 3 run function bracken:player/omni_powers/trigger_commands/enable_omni_book_commands
+say bracken:omnidrome

@@ -4,10 +4,10 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/leave/the_nether
+function bracken:dimension/commands/grant_impossible_all
+advancement revoke @s only bracken:technical/dimension_commands/the_nether impossible
 
 attribute @s[tag=bp.netherkin] minecraft:attack_damage modifier add bracken:netherkin.nether_damage 0.15 add_multiplied_total
 
-function bracken:dimension/travel/remove_dim_tags
-tag @s add bp.dim_nether
 
 execute if entity @s[tag=bp.dim_title_queue] run tag @s remove bp.dim_title_queue

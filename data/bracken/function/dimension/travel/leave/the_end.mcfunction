@@ -4,3 +4,4 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/the_end
+advancement grant @s only bracken:technical/dimension_commands/the_end impossible

@@ -3,6 +3,8 @@
 # Creators: Bracken
 ##########################################################
 
+execute unless function bracken:dimension/commands/revoke_tick/the_brine run return fail
+
 # Brine Brewing
 execute if score @s bp.1_second matches 8 if entity @s[tag=bp.brine_brewing_active] run function bracken:dimension/commands/brine_brewing/start
 
@@ -32,4 +34,4 @@ execute unless entity @s[y=450,dy=100] run stopsound @s * bracken:brine_waves
 
 
 #execute unless score @s bp.ambience.brine_beach_cd matches -2147483648..2147483647 run scoreboard players set @s bp.ambience.brine_beach_cd 0
-
+say bracken:the_brine

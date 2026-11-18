@@ -4,6 +4,7 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/void
+advancement grant @s only bracken:technical/dimension_commands/void impossible
 
 attribute @s minecraft:gravity modifier remove bracken:void_gravity
 attribute @s minecraft:safe_fall_distance modifier remove bracken:void_safefall

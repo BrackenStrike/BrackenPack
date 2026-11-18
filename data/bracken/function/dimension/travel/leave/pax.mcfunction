@@ -4,6 +4,7 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/pax
+advancement grant @s only bracken:technical/dimension_commands/pax impossible
 
 attribute @s minecraft:max_health modifier remove bracken:pax_health
 attribute @s minecraft:gravity modifier remove bracken:pax_gravity

@@ -4,6 +4,7 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/varskspace
+advancement grant @s only bracken:technical/dimension_commands/varskspace impossible
 
 attribute @s minecraft:gravity modifier remove bracken:varskspace_gravity
 attribute @s minecraft:movement_speed modifier remove bracken:varskspace_speed
