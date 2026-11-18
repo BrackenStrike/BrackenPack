@@ -15,4 +15,4 @@ execute if score @s bp.1_second matches 8 if data storage bracken:config {dimens
 
 execute if predicate bracken:periodic/2t as @e[type=#bracken:pax_entities,distance=..40] at @s run function bracken:entity/pax/pax_entities
 
-say bracken:pax
+
