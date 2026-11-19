@@ -1,0 +1,14 @@
+{
+    "values": [
+        "redstone_torch",
+        "redstone_lamp",
+        "copper_bulb",
+        "exposed_copper_bulb",
+        "oxidized_copper_bulb",
+        "weathered_copper_bulb",
+        "waxed_copper_bulb",
+        "waxed_exposed_copper_bulb",
+        "waxed_weathered_copper_bulb",
+        "waxed_oxidized_copper_bulb"
+    ]
+}

@@ -3,6 +3,12 @@
 # Creators: Bracken
 ##########################################################
 
+## WIRELESS REDSTONE
+execute at @s[type=marker,tag=bp.wr_in] \
+    run return run function bracken:entity/omnidrome/wireless/emitter/tick
+execute at @s[type=marker,tag=bp.wr_out] \
+    run return run function bracken:entity/omnidrome/wireless/receiver/tick
+
 ## CORRUPTED GOLEM
 execute if entity @s[tag=bp.corrupted_golem,type=minecraft:iron_golem] run return run function bracken:entity/omnidrome/corrupted_golem
 

@@ -1,0 +1,9 @@
+{
+    "type": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "entity_tags": {
+            "all_of": [ "bp.enderling" ]
+        }
+    }
+}

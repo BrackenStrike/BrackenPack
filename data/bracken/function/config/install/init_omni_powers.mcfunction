@@ -53,6 +53,8 @@ data merge storage bracken:omni {omni_powers:[\
         "bracken:item/ability_books/world_soar/checks",\
         "bracken:item/ability_books/worm_toothed_burrower/checks",\
         "bracken:item/ability_books/void_pull/checks",\
+        "bracken:player/omni_powers/cmd/wireless/place_emitter",\
+        "bracken:player/omni_powers/cmd/wireless/place_receiver",\
         "bracken:player/omni_powers/perms/list_cmds",\
         "bracken:player/omni_powers/perms/list_book",\
     ]}

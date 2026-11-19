@@ -26,6 +26,7 @@
   "columns": 2,
   "dialogs": [
     "bracken:omnipowers/build",
+    "bracken:omnipowers/wireless",
     "bracken:omnipowers/summon",
     "bracken:omnipowers/abilities",
     "bracken:omnipowers/toggles",

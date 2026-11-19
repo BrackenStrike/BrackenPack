@@ -26,7 +26,6 @@ tp @s[y=280,dy=100] ~ -38 ~
 execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_books/mansion/tp_from_mansion/tp_back_setup
 
 # Convenience to make `/trigger OMNI.COMMAND` always bring dialog up in case the player sets themselves at negative value
-scoreboard players set @s[scores={OMNI.COMMAND=..-2}] OMNI.COMMAND -1
 execute if score @s OMNI.COMMAND matches 0.. run function bracken:player/omni_powers/route
 
 # TODO(?) : Increase cooldown

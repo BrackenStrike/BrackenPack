@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        },
+        "enderling": {
+            "trigger": "tick",
+            "conditions": {
+                "player": "bracken:species/enderling"
+            }
+        }
+    },
+    "requirements": [ [ "enderling", "impossible" ] ],
+    "parent": "bracken:technical/species/tick/root",
+    "rewards": {
+        "function": "bracken:player/species/enderling/tick"
+    }
+}
