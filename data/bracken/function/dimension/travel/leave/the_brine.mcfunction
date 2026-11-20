@@ -4,6 +4,8 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/the_brine
+advancement grant @s only bracken:technical/dimension_commands/the_brine impossible
+
 #attribute @s minecraft:block_break_speed modifier remove bracken:brine_blockbreak
 
 attribute @s minecraft:submerged_mining_speed modifier remove bracken:brine_waterbreak

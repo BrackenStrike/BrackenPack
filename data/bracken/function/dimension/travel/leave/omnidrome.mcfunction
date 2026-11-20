@@ -4,6 +4,7 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/omnidrome
+advancement grant @s only bracken:technical/dimension_commands/omnidrome impossible
 
 attribute @s minecraft:safe_fall_distance modifier remove bracken:omni_safefall
 attribute @s minecraft:block_interaction_range modifier remove bracken:omni_blockrange

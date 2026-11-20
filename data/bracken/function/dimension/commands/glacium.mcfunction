@@ -3,6 +3,8 @@
 # Creators: Bracken
 ##########################################################
 
+execute unless function bracken:dimension/commands/revoke_tick/glacium run return fail
+
 # Effects
 execute if predicate bracken:in_water run effect give @s[predicate=!bracken:effect_immunity/wither] minecraft:wither 2 0 true
 execute if score @s bp.1_second matches 15 run function bracken:dimension/commands/other/no_fire_fill_commands
@@ -16,3 +18,4 @@ execute if score @s bp.1_second matches 2 run function bracken:entity/glacium/gl
 # Dimension Travel
 execute if entity @s[scores={bp.ice=7..}] if block ~ ~-1 ~ minecraft:beacon run return run function bracken:dimension/crossing/glacium_to_overworld
 execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel: true} if entity @s[y=-35,dy=-300] in bracken:void run return run tp @s ~ 240 ~
+say bracken:glacium
