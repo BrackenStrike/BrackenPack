@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:entity_tags": {
+          "all_of": [
+            "bp.obsidian"
+          ]
+        }
+      }
+    },
+    {
+      "type": "minecraft:inverted",
+      "term": "bracken:dimensions/void"
+    }
+  ]
+}

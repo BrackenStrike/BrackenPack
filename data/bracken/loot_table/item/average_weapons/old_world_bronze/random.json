@@ -1,0 +1,30 @@
+
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/axe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/bludgeon" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/boots" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/buckler" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/chestplate" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/cutlass" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/dagger" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/greatsword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/helmet" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/hoe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/katana" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/leggings" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/pickaxe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/rapier" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/sabre" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/short_spear" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/shovel" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/sickle" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/sword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/old_world_bronze/warhammer" }
+      ]
+    }
+  ]
+}

@@ -18,16 +18,16 @@ execute as @n[type=piglin,distance=..100,tag=!bp.safe] at @s run function bracke
 
 # _________________________________________________
 
-## Adult Silurain Wolf
+## Adult Silurain Wolf -- Wolf
 function bracken:entity/panacea/summons/adult_silurain_wolf
 
-## Perrterror Creeper
+## Perrterror Creeper -- Creeper
 function bracken:entity/panacea/summons/perrterror_creeper
 
-## Daeodon
+## Daeodon -- Hoglin
 function bracken:entity/panacea/summons/daeodon
 
-## Yakitubba
+## Yakitubba -- Zombie Villager
 function bracken:entity/panacea/summons/yakitubba
 
 

@@ -9,20 +9,20 @@ execute as @n[type=zombie_villager,distance=..100,tag=!bp.safe] at @s run functi
 
 # _________________________________________________
 
-## Markskin
+## Markskin -- Skeleton
 function bracken:entity/dormis/summons/markskin
 
-## Bonewaller
+## Bonewaller -- Bogged
 function bracken:entity/dormis/summons/bonewaller
 
-## Plunderer
+## Plunderer -- Stray
 function bracken:entity/dormis/summons/plunderer
 
-## Forsaken
+## Forsaken -- Pillager
 function bracken:entity/dormis/summons/forsaken
 
-## Feral Fae
+## Feral Fae -- Zombie
 function bracken:entity/dormis/summons/feral_fae
 
-## Betrayerkin
+## Betrayerkin -- Wither Skeleton
 function bracken:entity/dormis/summons/betrayerkin

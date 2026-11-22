@@ -12,19 +12,19 @@ execute as @n[type=zombie_villager,distance=..100,tag=!bp.safe] at @s run functi
 
 # _________________________________________________
 
-## Spearkin
+## Spearkin -- Skeleton
 function bracken:entity/glacium/summons/spearkin
 
-## Bowkin
+## Bowkin -- Stray
 function bracken:entity/glacium/summons/bowkin
 
-## Slayerkin
+## Slayerkin -- Wither Skeleton
 function bracken:entity/glacium/summons/slayerkin
 
-## Ice Pixie
+## Ice Pixie -- Vex
 function bracken:entity/glacium/summons/ice_pixie
 
-## Dire Wolf
+## Dire Wolf -- Wolf
 function bracken:entity/glacium/summons/dire_wolf
 
 

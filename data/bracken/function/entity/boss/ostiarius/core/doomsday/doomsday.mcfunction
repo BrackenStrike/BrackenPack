@@ -1,3 +1,10 @@
+fill ~ ~ ~ ~ ~ ~ air destroy
+playsound minecraft:block.portal.trigger ambient @a[distance=..50] ~ ~ ~ 100 0
+playsound minecraft:entity.ender_dragon.growl ambient @a[distance=..50] ~ ~ ~ 100 0
+playsound minecraft:block.portal.trigger ambient @a[distance=..50] ~ ~ ~ 100 0
+fill ~ ~ ~ ~ ~50 ~ air
+
+
 summon minecraft:lightning_bolt ~ ~10 ~ {Tags:[bp.varsk_lightning,bp.entity,bp.safe]}
 kill @e[type=armor_stand,distance=..50,tag=bp.ostiarius_xp_stand]
 kill @e[type=vex,distance=..100,tag=bp.construct]

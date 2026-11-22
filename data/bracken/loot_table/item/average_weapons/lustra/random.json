@@ -1,0 +1,30 @@
+
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/axe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/bludgeon" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/boots" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/buckler" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/chestplate" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/cutlass" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/dagger" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/greatsword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/helmet" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/hoe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/katana" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/leggings" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/pickaxe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/rapier" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/sabre" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/short_spear" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/shovel" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/sickle" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/sword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/lustra/warhammer" }
+      ]
+    }
+  ]
+}

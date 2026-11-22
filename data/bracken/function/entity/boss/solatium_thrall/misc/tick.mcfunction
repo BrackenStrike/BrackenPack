@@ -19,4 +19,3 @@ playsound minecraft:entity.blaze.shoot hostile @a[distance=..5,scores={bp.10_sec
 
 #true name
 execute if entity @s[name=Rocco,tag=!bp.named] run function bracken:entity/boss/solatium_thrall/name
-tp @s[name=Rocco] ~ ~-0.1 ~

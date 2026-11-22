@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:lapis",
+                  "pattern": "minecraft:flow"
+                },
+                "minecraft:item_name": {"text":"Pharaoh's Leggings","color":"gold","bold":true}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

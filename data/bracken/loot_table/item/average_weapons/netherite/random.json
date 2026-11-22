@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/netherite/bludgeon" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/netherite/buckler" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/netherite/cutlass" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/netherite/dagger" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/netherite/greatsword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/netherite/katana" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/netherite/rapier" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/netherite/sabre" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/netherite/short_spear" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/netherite/sickle" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/netherite/warhammer" },
+        { "type": "minecraft:item", "name": "minecraft:netherite_helmet"},
+        { "type": "minecraft:item", "name": "minecraft:netherite_chestplate"},
+        { "type": "minecraft:item", "name": "minecraft:netherite_leggings"},
+        { "type": "minecraft:item", "name": "minecraft:netherite_boots"},
+        { "type": "minecraft:item", "name": "minecraft:netherite_axe"},
+        { "type": "minecraft:item", "name": "minecraft:netherite_hoe"},
+        { "type": "minecraft:item", "name": "minecraft:netherite_pickaxe"},
+        { "type": "minecraft:item", "name": "minecraft:netherite_spear"},
+        { "type": "minecraft:item", "name": "minecraft:netherite_sword"},
+        { "type": "minecraft:item", "name": "minecraft:netherite_shovel"}        
+      ]
+    }
+  ]
+}

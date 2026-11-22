@@ -18,11 +18,11 @@ execute as @n[type=husk,distance=..100,tag=!bp.macroprocessor,tag=!bp.safe] at @
 
 # _________________________________________________
 
-## NUTRIMONITOR
+## NUTRIMONITOR -- Zombified Piglin
 function bracken:entity/omnidrome/summons/nutrimonitor
 
-## PARSER-B
+## PARSER-B -- Pillager
 function bracken:entity/omnidrome/summons/parser_b
 
-## CAPACIPHITE SHULKER
+## CAPACIPHITE SHULKER -- Shulker
 function bracken:entity/omnidrome/summons/capaciphite_shulker

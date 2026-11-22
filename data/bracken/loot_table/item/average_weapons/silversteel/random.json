@@ -1,0 +1,30 @@
+
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/axe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/bludgeon" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/boots" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/buckler" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/chestplate" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/cutlass" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/dagger" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/greatsword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/helmet" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/hoe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/katana" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/leggings" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/pickaxe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/rapier" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/sabre" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/short_spear" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/shovel" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/sickle" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/sword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/silversteel/warhammer" }
+      ]
+    }
+  ]
+}

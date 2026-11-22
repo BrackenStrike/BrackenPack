@@ -23,11 +23,11 @@ execute as @n[type=salmon,tag=!bp.aquatic,distance=..100,tag=!bp.safe] at @s run
 
 #__________________________________________________________________________________________________
 
-#hammerhead
+#hammerhead -- Stray
 function bracken:entity/the_brine/summons/hammerhead
 
-#distorted nereid
+#distorted nereid -- Drowned
 function bracken:entity/the_brine/summons/distorted_nereid
 
-#fathomless
+#fathomless -- Skeleton
 function bracken:entity/the_brine/summons/fathomless

@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:lapis",
+                  "pattern": "minecraft:flow"
+                },
+                "minecraft:item_model": "bracken:average_weapons/old_world_bronze/chestplate",
+                "minecraft:equippable": {
+                  "asset_id": "bracken:old_world_bronze",
+                  "slot": "chest"
+                },
+                "minecraft:item_name": {"text":"Pharaoh's Chestplate","color":"gold","bold":true}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

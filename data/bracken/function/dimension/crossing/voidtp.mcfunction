@@ -17,8 +17,7 @@ execute if score @s bp.dimension matches 4 in bracken:omnidrome run tp @s ~ 100 
 
 execute if score @s bp.dimension matches 5 in bracken:panacea run tp @s ~ 80 ~
 
-execute if score @s bp.dimension matches 6 in bracken:void run tp @s ~ 265 ~
-execute if score @s bp.dimension matches 6 run advancement grant @s only bracken:void/reroll
+execute if score @s bp.dimension matches 6 in bracken:void run function bracken:dimension/crossing/void_to_void
 
 execute if score @s bp.dimension matches 7 in bracken:sanctum run tp @s ~ 130 ~
 

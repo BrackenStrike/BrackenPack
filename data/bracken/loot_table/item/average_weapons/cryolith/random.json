@@ -1,0 +1,30 @@
+
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/axe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/bludgeon" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/boots" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/buckler" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/chestplate" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/cutlass" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/dagger" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/greatsword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/helmet" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/hoe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/katana" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/leggings" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/pickaxe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/rapier" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/sabre" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/short_spear" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/shovel" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/sickle" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/sword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/cryolith/warhammer" }
+      ]
+    }
+  ]
+}

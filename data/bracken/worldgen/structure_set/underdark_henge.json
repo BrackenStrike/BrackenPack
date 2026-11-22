@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:underdark_henge",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 19,
+        "separation": 17,
+        "salt": 1111985
+    }
+}

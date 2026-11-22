@@ -1,0 +1,30 @@
+
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/axe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/bludgeon" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/boots" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/buckler" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/chestplate" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/cutlass" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/dagger" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/greatsword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/helmet" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/hoe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/katana" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/leggings" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/pickaxe" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/rapier" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/sabre" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/short_spear" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/shovel" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/sickle" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/sword" },
+        { "type": "minecraft:loot_table", "value": "bracken:item/average_weapons/meteoric/warhammer" }
+      ]
+    }
+  ]
+}

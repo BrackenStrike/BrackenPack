@@ -22,6 +22,6 @@
         }
     },
     "rewards": {
-        "function": "bracken:dimension/crossing/first_time_text/normal_nether_height_check"
+        "function": "bracken:dimension/crossing/first_time_text/nether_to_underdark"
     }
 }

@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "bracken:custom_mobs/bobbit_worm",
+            "weight": 18
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 3,
+        "separation": 1,
+        "salt": 9012423
+    }
+}
