@@ -3,7 +3,7 @@
 # Creators: Bracken, Sulfenir, and Grandmaster
 ##########################################################
 
-function bracken:player/species/common/aquavulnerability
+function bracken:player/species/netherkin/hydrophobia/tick
 
 execute if block ~ ~ ~ lava run effect give @s minecraft:strength 10 2 false
 

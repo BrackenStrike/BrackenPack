@@ -1,0 +1,7 @@
+{
+    "exhaustion": 1.0,
+    "message_id": "hunter_morph",
+    "scaling": "never",
+    "death_message_type": "default",
+    "effects": "hurt"
+}

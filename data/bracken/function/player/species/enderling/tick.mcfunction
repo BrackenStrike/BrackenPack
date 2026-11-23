@@ -3,7 +3,7 @@
 # Creators: Bracken, Sulfenir, and Grandmaster
 ##########################################################
 
-function bracken:player/species/common/aquavulnerability
+function bracken:player/species/enderling/hydrophobia/tick
 
 #if-else: if not sneaking, function returns.
 execute unless predicate bracken:sneak \

@@ -13,7 +13,10 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_bo
 execute if score @s bp.1_second matches 7 if data storage bracken:config {dimension_travel: true} run function bracken:dimension/commands/sanctum/travel
 
 # Dust Storm
-execute if predicate bracken:in_rain run function bracken:dimension/commands/sanctum_dust_storm/dust_storm
+execute anchored eyes positioned ^ ^ ^ \
+    if predicate bracken:in_rain \
+    run function bracken:dimension/commands/sanctum_dust_storm/dust_storm
+
 execute if predicate bracken:is_raining run function bracken:dimension/commands/sanctum_dust_storm/dust_storm2
 
 # The desolation speaks.

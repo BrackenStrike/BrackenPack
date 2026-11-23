@@ -3,7 +3,7 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-function bracken:player/species/common/heat_vulnerability
+function bracken:player/species/common/hot_environment
 
 execute unless predicate bracken:periodic/2t run function bracken:player/species/frostkin/fire_damage
 execute if block ~ ~ ~ lava run damage @s 10.0 lava
