@@ -4,7 +4,7 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/leave/the_faewild
-function bracken:dimension/commands/grant_impossible_all
+function bracken:dimension/commands/lock_dim_tick_advancements
 advancement revoke @s only bracken:technical/dimension_commands/the_faewild impossible
 
 #attribute @s minecraft:max_health modifier add bracken:fae_health -2 add_value

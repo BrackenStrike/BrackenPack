@@ -1,5 +1,5 @@
 ##########################################################
-# Description: Joins current species
+# Description: Joins current species upon respawning
 # Creators: Sulfenir
 ##########################################################
 

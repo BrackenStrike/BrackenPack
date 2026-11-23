@@ -3,9 +3,7 @@
 # Creators: Sulfenir, Bracken and Grandmaster
 ##########################################################
 
-tag @s remove bp.species
-tag @s remove bp.villain
-team leave @s[team=bp.Villain]
+function bracken:player/species/common/leave.macro {species:villain, Species:Villain}
 
 attribute @s minecraft:scale modifier remove bracken:villain.scale
 attribute @s minecraft:attack_damage modifier remove bracken:villain.attack_damage

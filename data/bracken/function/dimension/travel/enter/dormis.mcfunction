@@ -4,7 +4,7 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/leave/dormis
-function bracken:dimension/commands/grant_impossible_all
+function bracken:dimension/commands/lock_dim_tick_advancements
 advancement revoke @s only bracken:technical/dimension_commands/dormis impossible
 
 attribute @s minecraft:movement_speed modifier add bracken:dormis_speed -0.1 add_multiplied_base

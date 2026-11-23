@@ -4,7 +4,7 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/leave/the_underdark
-function bracken:dimension/commands/grant_impossible_all
+function bracken:dimension/commands/lock_dim_tick_advancements
 advancement revoke @s only bracken:technical/dimension_commands/the_underdark impossible
 
 

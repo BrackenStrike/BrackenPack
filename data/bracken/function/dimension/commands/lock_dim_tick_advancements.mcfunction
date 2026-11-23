@@ -1,3 +1,8 @@
+##########################################################
+# Description: Prevent the player from repeatedly triggering commands for dimensions they aren't in
+# Creators: crimdev
+##########################################################
+
 advancement grant @s only bracken:technical/dimension_commands/dormis impossible
 advancement grant @s only bracken:technical/dimension_commands/varskspace impossible
 advancement grant @s only bracken:technical/dimension_commands/omnidrome impossible

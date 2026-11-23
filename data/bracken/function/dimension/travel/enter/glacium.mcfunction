@@ -4,7 +4,7 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/leave/glacium
-function bracken:dimension/commands/grant_impossible_all
+function bracken:dimension/commands/lock_dim_tick_advancements
 advancement revoke @s only bracken:technical/dimension_commands/glacium impossible
 
 attribute @s minecraft:block_break_speed modifier add bracken:glacium_blockbreak -0.85 add_multiplied_base

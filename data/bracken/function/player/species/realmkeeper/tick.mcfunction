@@ -3,6 +3,7 @@
 # Creators: Bracken and DrTrog
 ##########################################################
 
+execute unless function bracken:player/species/revoke_tick/realmkeeper run return fail
 
 effect give @s[predicate=bracken:light/at_least_5,scores={bp.10_second=40},predicate=bracken:item/empty_slot/head] minecraft:absorption 9 2 true
 

@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        },
+        "netherkin": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "type": "all_of",
+                    "terms": [
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_tags": {
+                                    "all_of": [
+                                        "bp.netherkin"
+                                    ]
+                                }
+                            }
+                        },
+                        "bracken:config/species_on"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [ [ "impossible", "netherkin" ] ],
+    "rewards": {
+        "function": "bracken:player/species/netherkin/tick"
+    }
+}

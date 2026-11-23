@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        },
+        "automech": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "type": "all_of",
+                    "terms": [
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_tags": {
+                                    "all_of": [
+                                        "bp.automech"
+                                    ]
+                                }
+                            }
+                        },
+                        "bracken:config/species_on"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [ [ "automech", "impossible" ] ],
+    "rewards": {
+        "function": "bracken:player/species/automech/tick"
+    }
+}

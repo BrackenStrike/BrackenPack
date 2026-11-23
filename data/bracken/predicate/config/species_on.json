@@ -1,0 +1,10 @@
+{
+    "type": "int_value_check",
+    "test": 1,
+    "value": {
+        "type": "storage",
+        "storage": "bracken:config",
+        "path": "species_on",
+        "fallback": 0
+    }
+}

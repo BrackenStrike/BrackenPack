@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        },
+        "watcher": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "type": "all_of",
+                    "terms": [
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_tags": {
+                                    "all_of": [
+                                        "bp.watcher"
+                                    ]
+                                }
+                            }
+                        },
+                        "bracken:config/species_on"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [ [ "impossible", "watcher" ] ],
+    "rewards": {
+        "function": "bracken:player/species/watcher/tick"
+    }
+}

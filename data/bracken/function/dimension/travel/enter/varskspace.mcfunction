@@ -4,7 +4,7 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/leave/varskspace
-function bracken:dimension/commands/grant_impossible_all
+function bracken:dimension/commands/lock_dim_tick_advancements
 advancement revoke @s only bracken:technical/dimension_commands/varskspace impossible
 
 attribute @s minecraft:gravity modifier add bracken:varskspace_gravity -0.8 add_multiplied_base

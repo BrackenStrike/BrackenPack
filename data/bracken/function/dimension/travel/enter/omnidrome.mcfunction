@@ -4,7 +4,7 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/leave/omnidrome
-function bracken:dimension/commands/grant_impossible_all
+function bracken:dimension/commands/lock_dim_tick_advancements
 advancement revoke @s only bracken:technical/dimension_commands/omnidrome impossible
 
 attribute @s minecraft:safe_fall_distance modifier add bracken:omni_safefall 1000 add_multiplied_base

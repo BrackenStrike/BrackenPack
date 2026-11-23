@@ -4,7 +4,7 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/leave/the_nether
-function bracken:dimension/commands/grant_impossible_all
+function bracken:dimension/commands/lock_dim_tick_advancements
 advancement revoke @s only bracken:technical/dimension_commands/the_nether impossible
 
 attribute @s[tag=bp.netherkin] minecraft:attack_damage modifier add bracken:netherkin.nether_damage 0.15 add_multiplied_total

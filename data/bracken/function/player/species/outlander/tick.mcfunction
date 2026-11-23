@@ -3,6 +3,8 @@
 # Creators: Bracken
 ##########################################################
 
+execute unless function bracken:player/species/revoke_tick/outlander run return fail
+
 # Note : backstabbing logic is handled on the 2-tick clock
 
 # Invisibility code

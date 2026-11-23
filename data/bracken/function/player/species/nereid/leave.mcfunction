@@ -3,9 +3,7 @@
 # Creators: Sulfenir and Grandmaster
 ##########################################################
 
-tag @s remove bp.species
-tag @s remove bp.nereid
-team leave @s[team=bp.Nereid]
+function bracken:player/species/common/leave.macro {species:nereid, Species:Nereid}
 
 #attribute @s minecraft:water_movement_efficiency modifier remove bracken:nereid.water_movement_efficiency
 attribute @s minecraft:submerged_mining_speed modifier remove bracken:nereid.submerged_mining_speed

@@ -3,6 +3,8 @@
 # Creators: Bracken, Sulfenir, and Grandmaster
 ##########################################################
 
+execute unless function bracken:player/species/revoke_tick/netherkin run return fail
+
 function bracken:player/species/common/aquavulnerability
 
 execute if block ~ ~ ~ lava run effect give @s minecraft:strength 10 2 false

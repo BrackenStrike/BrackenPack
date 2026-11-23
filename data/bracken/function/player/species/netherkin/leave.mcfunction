@@ -3,9 +3,7 @@
 # Creators: Sulfenir and Grandmaster
 ##########################################################
 
-tag @s remove bp.species
-tag @s remove bp.netherkin
-team leave @s[team=bp.Netherkin]
+function bracken:player/species/common/leave.macro {species:netherkin, Species:Netherkin}
 
 attribute @s minecraft:scale modifier remove bracken:netherkin.scale
 attribute @s minecraft:attack_speed modifier remove bracken:netherkin.attack_speed

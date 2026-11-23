@@ -25,7 +25,7 @@ execute if entity @s[scores={bp.5_min_tick=6000..}] run function bracken:player/
 scoreboard players add @s bp.5_min_tick 1
 
 # Player species
-execute if entity @s[tag=bp.species] if data storage bracken:config {species_on: true} run function bracken:player/species/tick
+# execute if entity @s[tag=bp.species] if data storage bracken:config {species_on: true} run function bracken:player/species/tick
 
 # Dimension Commands
 # function bracken:player/dimension_check
