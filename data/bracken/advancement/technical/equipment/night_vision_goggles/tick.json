@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        },
+        "tick": {
+            "trigger": "tick"
+        }
+    },
+    "requirements": [ [ "impossible", "tick" ] ],
+    "rewards": {
+        "function": "bracken:item/equipment/night_vision_goggles/tick"
+    }
+}

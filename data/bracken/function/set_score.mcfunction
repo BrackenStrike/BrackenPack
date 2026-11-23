@@ -8,6 +8,8 @@ scoreboard players set @s bp.giant 0
 scoreboard players set @s bp.wtb_cooldown 0
 scoreboard players set @s bp.cooldown 0
 
+advancement grant @s only bracken:technical/equipment/night_vision_goggles/tick impossible
+
 #Species Pick
 execute if data storage bracken:config {species_on: true, bsb_on: true} run loot give @s loot bracken:item/species_beginner_scroll
 
