@@ -18,7 +18,6 @@ attribute @s minecraft:sneaking_speed modifier add bracken:outlander.sneaking_sp
 
 attribute @s minecraft:max_health modifier add bracken:outlander.max_health -0.2 add_multiplied_base
 
-function bracken:player/effects_changed
 scoreboard players set @s bp.outlander_charge 0
 
 execute if predicate bracken:dimensions/sanctum run advancement grant @s only bracken:sanctum/outlander

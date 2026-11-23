@@ -1,0 +1,7 @@
+{
+  "type": "all_of",
+  "terms": [
+    "bracken:can_see_sky",
+    "bracken:is_raining"
+  ]
+}

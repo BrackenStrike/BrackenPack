@@ -10,5 +10,3 @@ clear @s written_book[minecraft:custom_data~{bp:{id:"species_beginner_book"}}]
 tag @s add bp.species
 tag @s add bp.hunter
 execute if data storage bracken:config {teams_on:true} run team join bp.Hunter
-
-function bracken:player/effects_changed
