@@ -1,0 +1,21 @@
+{
+    "type": "max",
+    "inputs": [
+        {
+            "type": "mul",
+            "inputs": [
+                {
+                    "type": "from_int",
+                    "input": {
+                        "type": "score",
+                        "score": "bp.death",
+                        "target": "this",
+                        "fallback": 0
+                    }
+                },
+                0.5
+            ]
+        },
+        0.5
+    ]
+}

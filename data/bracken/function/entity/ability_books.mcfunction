@@ -12,3 +12,6 @@ execute if entity @s[type=minecraft:giant,tag=bp.tooth] run return run function 
 ## MANSION PORTALS
 execute if entity @s[type=marker,tag=bp.mm_portal] run return run function bracken:item/ability_books/mansion/portal_commands
 execute if entity @s[type=marker,tag=bp.mm_portal2] run return run function bracken:item/ability_books/mansion/mansion_portal_commands
+
+## KILL BOOK 
+execute at @s[type=marker,tag=bp.kill_marker] run function bracken:item/ability_books/kill/marker_tick
