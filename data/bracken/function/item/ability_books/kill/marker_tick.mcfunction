@@ -3,7 +3,7 @@
 # Creators: crimdev
 ##########################################################
 
-# kill @s[scores={bp.cooldown=..0}]
+kill @s[scores={bp.cooldown=..0}]
 scoreboard players remove @s bp.cooldown 1
 
 execute if predicate bracken:periodic/5t \
