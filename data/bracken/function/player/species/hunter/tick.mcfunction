@@ -1,5 +1,7 @@
-effect give @s[scores={bp.hunter_morph=16..18,bp.food=20}] minecraft:speed 1 1 true
-effect give @s[scores={bp.hunter_morph=16..18,bp.food=9..}] minecraft:speed 1 0 true
+##########################################################
+# Description: Executed every tick by Hunters
+# Creators: crimdev (hunter rework)
+##########################################################
 
 execute if predicate bracken:periodic/10t \
     if predicate bracken:input/shift \
@@ -7,36 +9,39 @@ execute if predicate bracken:periodic/10t \
     at @s anchored eyes \
     run function bracken:player/species/hunter/stalk/raycast
 
-execute if score @s bp.hunter_morph matches 5 \
-    run effect give @e[distance=0.1..2] minecraft:poison 10 0 false
-#execute if score @s[scores={bp.hunter_morph=6}] bp.hurting matches 1.. run effect give @e[distance=0.1..4] poison 10 0 false
-#execute if score @s bp.hunter_morph matches 12 run effect give @e[distance=0.1..1] wither 1 2 true
-#execute if score @s[scores={bp.hunter_morph=13}] bp.hurting matches 1.. run effect give @e[distance=0.1..4,limit=1] glowing 30 0 false
+execute if predicate bracken:item/empty_slot/head \
+    run function bracken:player/species/hunter/reset_helmet
 
+execute if items entity @s hotbar.* *[minecraft:custom_data~{bracken:{id:"hunter_morph_helmet"}}] \
+    run clear @s *[minecraft:custom_data~{bracken:{id:"hunter_morph_helmet"}}]
 
-effect give @s[scores={bp.hunter_morph=1..}] hunger 2 1 true
-execute if score @s[scores={bp.hunter_morph=1..}] bp.food matches ..3 run function bracken:player/species/hunter/demorph
-execute if score @s[scores={bp.hunter_morph=1..}] bp.health matches ..0 run function bracken:player/species/hunter/demorph
+execute if items entity @s inventory.* *[minecraft:custom_data~{bracken:{id:"hunter_morph_helmet"}}] \
+    run clear @s *[minecraft:custom_data~{bracken:{id:"hunter_morph_helmet"}}]
 
-#Index Guide
-#  1: Chicken
-#  2: Rabbit
-#  3: Rotten Flesh
-#  4: Tropical Fish
-#  5: Pufferfish
-#  6: Spider Eye
+execute if items entity @s player.cursor *[minecraft:custom_data~{bracken:{id:"hunter_morph_helmet"}}] \
+    run clear @s *[minecraft:custom_data~{bracken:{id:"hunter_morph_helmet"}}]
+    
+execute if items entity @s player.crafting.* *[minecraft:custom_data~{bracken:{id:"hunter_morph_helmet"}}] \
+    run clear @s *[minecraft:custom_data~{bracken:{id:"hunter_morph_helmet"}}]
 
-#  7: Potato
-#  8: Melon
-#  9: Apple
-# 10: Carrot
-# 11: Beetroot
-# 12: Sweet Berries
-# 13: Glow Berries
-# 14: Poisonous Potato
-
-# 16: Beef
-# 17: Mutton
-# 18: Porkchop
-# 19: Cod
-# 20: Salmon
+# Index guide (see also data/bracken/predicates/species/hunter/...)
+# beetroot        : 1
+# carrot          : 2
+# cod             : 3
+# chicken         : 4
+# beef            : 5
+# glow_berries    : 6
+# dried_kelp      : 7
+# pig             : 8
+# potato          : 9
+# pufferfish      : 10
+# rabbit          : 11
+# mutton          : 12
+# salmon          : 13
+# spider_eye      : 14
+# tropical_fish   : 15
+# sweet_berries   : 16
+# melon           : 17
+# apple           : 18
+# chorus_fruit    : 19
+# mushroom_stew   : 20

@@ -4,15 +4,7 @@
 		"morph": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"entity_tags": {
-							"all_of": [ "bp.hunter" ]
-						}
-					}
-				},
+				"player": "bracken:species/hunter",
 				"item": {
 					"items": [
 						"minecraft:chorus_fruit"
@@ -22,6 +14,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:player/species/hunter/morph/chorus_fruit"
+		"function": "bracken:player/species/hunter/food/chorus_fruit"
 	}
 }

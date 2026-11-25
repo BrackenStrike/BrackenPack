@@ -4,9 +4,9 @@ function morphs
     echo cod
     echo chicken
     echo beef
-    echo glow_berry
+    echo glow_berries
     echo dried_kelp
-    echo pig
+    echo porkchop
     echo potato
     echo pufferfish
     echo rabbit
@@ -14,7 +14,7 @@ function morphs
     echo salmon
     echo spider_eye
     echo tropical_fish
-    echo sweet_berry
+    echo sweet_berries
     echo melon
     echo apple
     echo chorus_fruit

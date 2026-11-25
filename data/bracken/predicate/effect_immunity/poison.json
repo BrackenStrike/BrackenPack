@@ -1,14 +1,16 @@
 {
 	"type": "any_of",
-	"terms": [{
-		"type": "entity_scores",
-		"entity": "this",
-		"scores": { "bp.hunter_morph": 6 }
-	},
-	"bracken:dimensions/pax",
-	{
-		"type": "entity_properties",
-		"entity": "this",
-		"predicate": { "nbt": "{Tags:[\"bp.frostkin\"]}" }
-	}]
+	"terms": [
+		"bracken:dimensions/pax",
+		{
+			"type": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"entity_tags": {
+					"all_of": [ "bp.frostkin" ]
+				}
+			}
+		},
+		"bracken:species/hunter/tropical_fish"
+	]
 }

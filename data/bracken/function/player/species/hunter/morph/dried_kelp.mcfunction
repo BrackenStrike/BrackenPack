@@ -1,0 +1,1 @@
+effect give @a[distance=..3] water_breathing 10 0 false

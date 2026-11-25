@@ -24,6 +24,30 @@ execute unless data storage bracken:config {dialog_dim_selection: false} run dat
 execute unless data storage bracken:config {ability_books_on: false} run data merge storage bracken:config {ability_books_on: true}
 execute unless data storage bracken:config {portal_keys_on: false} run data merge storage bracken:config {portal_keys_on: true}
 
+##########   CONSTS       ##########
+data modify storage bracken:const hunter_morphlist set value [\
+    beetroot,\
+    carrot,\
+    cod,\
+    chicken,\
+    beef,\
+    glow_berries,\
+    dried_kelp,\
+    porkchop,\
+    potato,\
+    pufferfish,\
+    rabbit,\
+    mutton,\
+    salmon,\
+    spider_eye,\
+    tropical_fish,\
+    sweet_berries,\
+    melon,\
+    apple,\
+]
+
+# MISSING : chorus fruit, mushroom_stew
+ 
 ##########   VARSKSTORM   ##########
 data merge storage bracken:var {varskstorm:{stage:0}}
 

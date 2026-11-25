@@ -1,0 +1,62 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "text": "Pufferfish Morph",
+        "color": "#fce530"
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 8
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 8
+    },
+    "slots": [
+        "head"
+    ],
+    "supported_items": "iron_helmet",
+    "weight": 1,
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:water_movement_efficiency",
+                "id": "bracken:hunter.pufferfish",
+                "amount": 0.3333,
+                "operation": "add_value"
+            },
+            {
+                "attribute": "movement_speed",
+                "amount": -0.02,
+                "id": "bracken:hunter.pufferfish",
+                "operation": "add_value"
+            }
+        ],
+        "post_attack": [
+            {
+                "enchanted": "victim",
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:all_of",
+                    "effects": [
+                        {
+                            "type": "minecraft:damage_entity",
+                            "damage_type": "minecraft:thorns",
+                            "max_damage": 5,
+                            "min_damage": 1
+                        },
+                        {
+                            "type": "apply_mob_effect",
+                            "to_apply": "poison",
+                            "max_amplifier": 0,
+                            "min_amplifier": 1,
+                            "max_duration": 3,
+                            "min_duration": 5
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

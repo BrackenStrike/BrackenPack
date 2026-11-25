@@ -1,0 +1,100 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "text": "Melon Morph",
+        "color": "#0f4f02"
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 8
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 8
+    },
+    "slots": [
+        "head"
+    ],
+    "supported_items": "iron_helmet",
+    "weight": 1,
+    "effects": {
+        "minecraft:tick": [
+            {
+                "requirements": {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "periodic_tick": 140
+                    }
+                },
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": "minecraft:regeneration",
+                    "min_duration": 4,
+                    "max_duration": 4,
+                    "min_amplifier": 1,
+                    "max_amplifier": 1
+                }
+            },
+            {
+                "requirements": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "all_of",
+                            "terms": [
+                                {
+                                    "type": "location_check",
+                                    "predicate": {
+                                        "can_see_sky": true
+                                    }
+                                },
+                                {
+                                    "type": "any_of",
+                                    "terms": [
+                                        {
+                                            "type": "float_value_check",
+                                            "value": {
+                                                "type": "environment_attribute",
+                                                "attribute": "visual/sun_angle"
+                                            },
+                                            "test": {
+                                                "max": 90.0
+                                            }
+                                        },
+                                        {
+                                            "type": "float_value_check",
+                                            "value": {
+                                                "type": "environment_attribute",
+                                                "attribute": "visual/sun_angle"
+                                            },
+                                            "test": {
+                                                "min": 270.0
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "periodic_tick": 600
+                            }
+                        }
+                    ]
+                },
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": "minecraft:saturation",
+                    "min_duration": 1,
+                    "max_duration": 1,
+                    "min_amplifier": 0,
+                    "max_amplifier": 0
+                }
+            }
+        ]
+    }
+}
