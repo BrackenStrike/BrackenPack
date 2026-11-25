@@ -1,5 +1,5 @@
 {
-	"parent": "bracken:root",
+	"parent": "bracken:technical/species/hunter/root",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:consume_item",
@@ -8,7 +8,9 @@
 					"type": "minecraft:entity_properties",
 					"entity": "this",
 					"predicate": {
-						"nbt": "{Tags:[\"bp.hunter\"]}"
+						"entity_tags": {
+							"all_of": [ "bp.hunter" ]
+						}
 					}
 				},
 				"item": {

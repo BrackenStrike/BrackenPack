@@ -1,5 +1,4 @@
 {
-	"parent": "bracken:root",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:consume_item",
