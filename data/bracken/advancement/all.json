@@ -77,7 +77,7 @@
             "conditions": {
                 "player": "bracken:dimensions/glacium"
             }
-        },
+        }
     },
     "rewards": {
         "experience": 2000
