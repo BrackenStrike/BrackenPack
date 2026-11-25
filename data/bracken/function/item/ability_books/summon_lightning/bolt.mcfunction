@@ -1,7 +1,9 @@
 summon lightning_bolt ~ ~ ~ {Tags:[bp.summoned_lightning]}
 
 particle flash{color:[0.7,0.0,0.0,1.00]} ~ ~1 ~ 0 0 0 0.01 0 normal
-particle minecraft:electric_spark ~ ~25 ~ 2 15 2 0.01 200
+particle minecraft:electric_spark ~ ~25 ~ 4 15 4 0.01 500
+particle minecraft:dust{color:52479,scale:1} ~ ~25 ~ 4 15 4 0.01 50
+particle minecraft:dust{color:13369599,scale:1} ~ ~25 ~ 4 15 4 0.01 50
 
 tag @s add bp.target
 summon marker ~ ~ ~ {Tags:[bp.bolt_target]}
