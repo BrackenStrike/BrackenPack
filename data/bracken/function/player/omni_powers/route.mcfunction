@@ -1,5 +1,5 @@
 # Safeguard
-scoreboard players set @s[scores={OMNI.COMMAND=53..}] OMNI.COMMAND 0
+scoreboard players set @s[scores={OMNI.COMMAND=51..}] OMNI.COMMAND 0
 # Shortcut
 execute if score @s OMNI.COMMAND matches 0 \
     run return run function bracken:player/omni_powers/cmd/ask_help
