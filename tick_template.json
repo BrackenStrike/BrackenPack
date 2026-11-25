@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible",
+    },
+    "tick": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_tags": {
+              "all_of": [ "bp.hunter" ]
+            }
+          }
+        } 
+      }
+    }
+  }
+}

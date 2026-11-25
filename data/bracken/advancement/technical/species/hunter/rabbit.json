@@ -1,7 +1,7 @@
 {
 	"parent": "bracken:technical/species/hunter/root",
 	"criteria": {
-		"requirement": {
+		"morph": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"player": {
@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:player/species/hunter/rabbit"
+		"function": "bracken:player/species/hunter/morph/rabbit"
 	}
 }

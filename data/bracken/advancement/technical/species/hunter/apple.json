@@ -1,0 +1,27 @@
+{
+	"parent": "bracken:technical/species/hunter/root",
+	"criteria": {
+		"morph": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"entity_tags": {
+							"all_of": [ "bp.hunter" ]
+						}
+					}
+				},
+				"item": {
+					"items": [
+						"minecraft:apple"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:player/species/hunter/morph/apple"
+	}
+}

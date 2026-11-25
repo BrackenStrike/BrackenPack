@@ -1,0 +1,22 @@
+function morphs
+    echo beetroot
+    echo carrot
+    echo cod
+    echo chicken
+    echo beef
+    echo glow_berry
+    echo dried_kelp
+    echo pig
+    echo potato
+    echo pufferfish
+    echo rabbit
+    echo mutton
+    echo salmon
+    echo spider_eye
+    echo tropical_fish
+    echo sweet_berry
+    echo melon
+    echo apple
+    echo chorus_fruit
+    echo mushroom_stew
+end

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "impossible"
+    },
+    "tick": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "all_of", 
+          "terms": [
+            "bracken:species/hunter",
+            "bracken:species/hunter/$MORPH"
+          ]
+        } 
+      }
+    }
+  },
+  "requirements": [ [ "impossible", "tick" ] ],
+  "rewards": {
+    "function": "bracken:player/species/hunter/morph/"
+  }
+}
