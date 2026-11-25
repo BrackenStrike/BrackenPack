@@ -2,8 +2,10 @@
 # bp.boss_2 = boss attack count
 
 #Bossbar
-##########################
-
+# Max Health: 500
+bossbar set bracken:orbiter players @a[distance=..100]
+execute store result bossbar bracken:orbiter value run data get entity @s Health 1
+execute store result score @s bp.boss_health run data get entity @s Health 1
 ##########################
 
 execute unless predicate bracken:periodic/2t run return 1

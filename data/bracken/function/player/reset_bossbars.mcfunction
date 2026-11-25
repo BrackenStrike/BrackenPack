@@ -8,3 +8,4 @@ execute unless entity @e[tag=bp.sporangium,distance=..100] run bossbar set brack
 execute unless entity @e[tag=bp.unsung,tag=bp.boss,distance=..100] run bossbar set bracken:unsung players
 execute unless entity @e[tag=bp.fae_emperor,distance=..100] run bossbar set bracken:fae_emperor players
 execute unless entity @e[tag=bp.kraken,distance=..100] run bossbar set bracken:kraken players
+execute unless entity @e[tag=bp.orbiter,distance=..100] run bossbar set bracken:orbiter players

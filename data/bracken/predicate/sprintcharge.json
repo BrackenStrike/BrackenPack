@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:all_of",
+  "terms": [
+    "bracken:sprint",
+    "bracken:on_ground"
+  ]
+}

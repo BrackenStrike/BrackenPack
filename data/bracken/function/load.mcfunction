@@ -13,6 +13,7 @@ function bracken:entity/boss/sporangium/load
 function bracken:entity/boss/unsung/load
 function bracken:entity/boss/kraken/load
 function bracken:entity/boss/fae_emperor/load
+function bracken:entity/boss/orbiter/load
 function bracken:entity/panacea/load
 
 ##########   CONFIG MENU  ##########
