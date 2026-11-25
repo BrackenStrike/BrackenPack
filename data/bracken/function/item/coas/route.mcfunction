@@ -11,6 +11,7 @@ execute if predicate bracken:item/species_scroll run return run function bracken
 
 # ability books
 execute if data storage bracken:config {ability_books_on:false} run return run function bracken:item/coas/ability_book_disabled
+execute if score @s bp.cooldown matches 1.. run return 1
 
 execute if predicate bracken:item/ability_books/adamantine_will run return run function bracken:item/ability_books/adamantine_will/checks
 execute if predicate bracken:item/ability_books/crimson_spark run return run function bracken:item/ability_books/crimson_spark/checks
@@ -32,5 +33,4 @@ execute if predicate bracken:item/ability_books/truelight_glow run return run fu
 execute if predicate bracken:item/ability_books/world_soar run return run function bracken:item/ability_books/world_soar/checks
 execute if predicate bracken:item/ability_books/worm_toothed_burrower run return run function bracken:item/ability_books/worm_toothed_burrower/checks
 execute if predicate bracken:item/ability_books/void_pull run return run function bracken:item/ability_books/void_pull/checks
-
 execute if predicate bracken:item/ability_books/summon_lightning run return run function bracken:item/ability_books/summon_lightning/checks
