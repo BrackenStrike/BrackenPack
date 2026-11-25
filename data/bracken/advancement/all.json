@@ -1,0 +1,86 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:netherite_boots"
+        },
+        "title": "Bracken Time",
+        "description": "Visit all dimensions of the Bracken Pack",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "bracken:root",
+    "criteria": {
+        "bracken:dormis": {
+            "trigger": "location",
+            "conditions": {
+                "player": "bracken:dimensions/dormis"
+            }
+        },
+        "bracken:glacium": {
+            "trigger": "location",
+            "conditions": {
+                "player": "bracken:dimensions/glacium"
+            }
+        },
+        "bracken:omnidrome": {
+            "trigger": "location",
+            "conditions": {
+                "player": "bracken:dimensions/omnidrome"
+            }
+        },
+        "bracken:panacea": {
+            "trigger": "location",
+            "conditions": {
+                "player": "bracken:dimensions/panacea"
+            }
+        },
+        "bracken:pax": {
+            "trigger": "location",
+            "conditions": {
+                "player": "bracken:dimensions/pax"
+            }
+        },
+        "bracken:glacium": {
+            "trigger": "location",
+            "conditions": {
+                "player": "bracken:dimensions/glacium"
+            }
+        },
+        "bracken:glacium": {
+            "trigger": "location",
+            "conditions": {
+                "player": "bracken:dimensions/glacium"
+            }
+        },
+        "bracken:glacium": {
+            "trigger": "location",
+            "conditions": {
+                "player": "bracken:dimensions/glacium"
+            }
+        },
+        "bracken:glacium": {
+            "trigger": "location",
+            "conditions": {
+                "player": "bracken:dimensions/glacium"
+            }
+        },
+        "bracken:glacium": {
+            "trigger": "location",
+            "conditions": {
+                "player": "bracken:dimensions/glacium"
+            }
+        },
+        "bracken:glacium": {
+            "trigger": "location",
+            "conditions": {
+                "player": "bracken:dimensions/glacium"
+            }
+        },
+    },
+    "rewards": {
+        "experience": 2000
+    },
+    "sends_telemetry_event": true
+}
