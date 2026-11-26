@@ -8,6 +8,8 @@ scoreboard players set @s bp.giant 0
 scoreboard players set @s bp.wtb_cooldown 0
 scoreboard players set @s bp.cooldown 0
 
+advancement grant @s only bracken:technical/equipment/night_vision_goggles/tick impossible
+
 #Species Pick
 advancement grant @s only bracken:technical/species/tick/automech impossible
 advancement grant @s only bracken:technical/species/tick/dweller impossible

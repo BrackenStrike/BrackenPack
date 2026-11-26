@@ -15,7 +15,8 @@ execute if score @s bp.1_second matches 2 run function bracken:entity/the_brine/
 execute if score @s bp.3_second matches 2 run function bracken:dimension/commands/other/no_fire_fill_commands
 
 # Rain Event
-execute if predicate bracken:rain positioned over motion_blocking if entity @s[dy=999] run function bracken:dimension/commands/brine_rain/haste
+execute anchored eyes positioned ^ ^ ^ \
+    if predicate bracken:in_rain run function bracken:dimension/commands/brine_rain/haste
 
 # Dimension Travel
 execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel: true} run function bracken:dimension/commands/the_brine/travel

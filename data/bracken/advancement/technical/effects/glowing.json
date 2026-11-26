@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "effects_changed",
+            "conditions": {
+                "effects": {
+                    "glowing": {}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/effects/glowing"
+    }
+}

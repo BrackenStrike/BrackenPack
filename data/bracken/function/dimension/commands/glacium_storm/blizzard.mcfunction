@@ -3,5 +3,5 @@
 # Creators: Bracken
 ##########################################################
 
-effect give @s[predicate=!bracken:effect_immunity/wither] minecraft:wither 1 1 false
+effect give @s minecraft:wither 1 1 false
 advancement grant @s only bracken:glacium/rain

@@ -14,5 +14,3 @@ attribute @s minecraft:step_height modifier add bracken:frostkin.step_height 0.5
 attribute @s minecraft:max_health modifier add bracken:frostkin.max_health 0.2 add_multiplied_base
 attribute @s minecraft:sweeping_damage_ratio modifier add bracken:frostkin.sweeping 10.0 add_value
 attribute @s minecraft:movement_efficiency modifier add bracken:frostkin.movement_efficiency 1 add_value
-
-function bracken:player/effects_changed

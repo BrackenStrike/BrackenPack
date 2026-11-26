@@ -1,0 +1,36 @@
+{
+    "type": "any_of",
+    "terms": [
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "effects": {
+                    "breath_of_the_nautilus": {}
+                }
+            }
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "effects": {
+                    "conduit_power": {}
+                }
+            }
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "effects": {
+                    "water_breathing": {}
+                }
+            }
+        },
+        {
+            "type": "inverted",
+            "term": "bracken:survival_like"
+        }
+    ]
+}

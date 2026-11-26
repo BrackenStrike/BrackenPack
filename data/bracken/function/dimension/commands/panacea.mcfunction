@@ -6,7 +6,7 @@
 execute unless function bracken:dimension/commands/revoke_tick/panacea run return fail
 
 # Rain Event
-execute if score @s bp.1_second matches 2 if predicate bracken:rain run function bracken:entity/panacea/rain_event
+execute if score @s bp.1_second matches 2 if predicate bracken:is_raining run function bracken:entity/panacea/rain_event
 
 # Mobs
 execute if score @s bp.1_second matches 9 run function bracken:entity/panacea/panacea_mobs

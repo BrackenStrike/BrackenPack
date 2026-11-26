@@ -6,6 +6,3 @@
 function bracken:player/species/common/join.macro {species:human, Species:Human}
 
 attribute @s minecraft:luck modifier add bracken:human.luck 2 add_value
-
-function bracken:player/effects_changed
-

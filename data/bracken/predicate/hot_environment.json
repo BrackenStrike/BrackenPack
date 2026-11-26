@@ -1,0 +1,14 @@
+{
+    "type": "any_of",
+    "terms": [
+        "bracken:netherlike",
+        {
+            "type": "all_of",
+            "terms": [
+                "bracken:desert",
+                "bracken:light/at_least_8",
+                "bracken:item/empty_slot/head"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "location_check",
+  "predicate": {
+    "can_see_sky": true
+  }
+}

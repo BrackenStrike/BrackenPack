@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "effects_changed",
+            "conditions": {
+                "effects": {
+                    "poison": {}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/effects/poison"
+    }
+}

@@ -7,4 +7,4 @@ execute if data storage bracken:var {varskstorm:{stage:3}} run function bracken:
 execute if block ~ ~-1 ~ lightning_rod run particle minecraft:electric_spark ~ ~ ~ 0.1 0.9 0.1 0.4 17 force
 
 #Bracken additions advancement and death reset tag
-advancement grant @a[predicate=bracken:rain,distance=..30] only bracken:sanctum/thunderstruck
+advancement grant @a[predicate=bracken:is_raining,distance=..30] only bracken:sanctum/thunderstruck

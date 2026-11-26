@@ -5,7 +5,7 @@
 
 execute unless function bracken:player/species/revoke_tick/enderling run return fail
 
-function bracken:player/species/common/aquavulnerability
+function bracken:player/species/enderling/hydrophobia/tick
 
 #if-else: if not sneaking, function returns.
 execute unless predicate bracken:input/shift \

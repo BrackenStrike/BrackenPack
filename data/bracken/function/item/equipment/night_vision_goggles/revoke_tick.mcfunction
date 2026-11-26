@@ -1,0 +1,1 @@
+return run advancement revoke @s only bracken:technical/equipment/night_vision_goggles/tick tick

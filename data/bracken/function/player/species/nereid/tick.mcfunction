@@ -5,7 +5,7 @@
 
 execute unless function bracken:player/species/revoke_tick/nereid run return fail
 
-function bracken:player/species/common/heat_vulnerability
+function bracken:player/species/common/hot_environment
 
 execute unless predicate bracken:in_water run function bracken:player/species/nereid/on_land
 execute if predicate bracken:in_water run function bracken:player/species/nereid/in_water

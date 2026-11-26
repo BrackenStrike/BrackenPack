@@ -9,6 +9,7 @@ advancement revoke @s only bracken:technical/dimension_commands/sanctum impossib
 
 attribute @s minecraft:block_break_speed modifier add bracken:sanctum_blockbreak 2.75 add_multiplied_base
 
-function bracken:player/effects_changed
+function bracken:dimension/travel/remove_dim_tags
+tag @s add bp.dim_sanctum
 
 execute if entity @s[tag=bp.dim_title_queue] unless score @s bp.dim_title_queue matches 9 run tag @s remove bp.dim_title_queue

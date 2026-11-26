@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "_": {
+            "trigger": "effects_changed",
+            "conditions": {
+                "effects": {
+                    "bad_omen": {}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "bracken:player/effects/bad_omen"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "effects": "drowning",
+  "exhaustion": 0.5,
+  "message_id": "enderling_hydrophobia",
+  "scaling": "never",
+  "death_message_type": "default"
+}

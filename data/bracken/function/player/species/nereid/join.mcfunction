@@ -14,5 +14,3 @@ attribute @s minecraft:max_health modifier add bracken:nereid.max_health 0.3 add
 attribute @s minecraft:oxygen_bonus modifier add bracken:nereid.oxygen_bonus 89 add_value
 attribute @s minecraft:gravity modifier add bracken:nereid.gravity 0.15 add_multiplied_base
 attribute @s minecraft:step_height modifier add bracken:nereid.step_height 1 add_value
-
-function bracken:player/effects_changed

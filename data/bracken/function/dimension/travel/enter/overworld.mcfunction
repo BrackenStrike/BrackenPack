@@ -7,6 +7,7 @@ advancement revoke @s only bracken:technical/dimension_travel/leave/overworld
 function bracken:dimension/commands/lock_dim_tick_advancements
 advancement revoke @s only bracken:technical/dimension_commands/overworld impossible
 
-function bracken:player/effects_changed
+function bracken:dimension/travel/remove_dim_tags
+tag @s add bp.dim_overworld
 
 execute if entity @s[tag=bp.dim_title_queue] run tag @s remove bp.dim_title_queue
