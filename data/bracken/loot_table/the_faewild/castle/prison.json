@@ -116,7 +116,7 @@
 			"modifier": [{
 				"type": "minecraft:set_name",
 				"name": {
-					"text": "Potion of Weakness",
+					"translate": "Potion of Weakness",
 					"color": "white",
 					"italic": false
 				}

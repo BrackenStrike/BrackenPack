@@ -1,7 +1,7 @@
 {
   "type": "minecraft:notice",
   "title": {
-    "text": "[REDACTED] Details",
+    "translate": "[REDACTED] Details",
     "font": "alt"
   },
   "can_close_with_escape": true,
@@ -21,7 +21,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "??? blocks tall",
+        "translate": "??? blocks tall",
         "obfuscated": true,
         "font": "alt"
       }
@@ -29,7 +29,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "??? hearts",
+        "translate": "??? hearts",
         "obfuscated": true,
         "font": "alt"
       }
@@ -37,7 +37,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "you should be thankful they're not canon",
+        "translate": "you should be thankful they're not canon",
         "obfuscated": true,
         "font": "alt"
       }

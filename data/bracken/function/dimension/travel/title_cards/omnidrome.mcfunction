@@ -3,5 +3,5 @@
 # Creators: Grandmaster, Bracken
 ##########################################################
 
-title @s title ["~ ",{"text":"Omnidrome","bold":false,"color":"green"}," ~"]
-title @s subtitle [{"text":"The Forbidden Dimension","bold":false,"color":"gray"}]
+title @s title ["~ ",{"translate":"Omnidrome","bold":false,"color":"green"}," ~"]
+title @s subtitle [{"translate":"The Forbidden Dimension","bold":false,"color":"gray"}]

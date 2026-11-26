@@ -13,7 +13,7 @@
 			"type": "minecraft:set_lore",
 			"entity": "this",
 			"lore": [{
-				"text": "Calls all nearby creepers.",
+				"translate": "Calls all nearby creepers.",
 				"color": "gray",
 				"italic": false
 			}],

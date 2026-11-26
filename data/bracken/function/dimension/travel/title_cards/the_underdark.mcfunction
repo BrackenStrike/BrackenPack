@@ -3,5 +3,5 @@
 # Creators: Grandmaster
 ##########################################################
 
-title @s title ["~ ",{"text":"The Underdark","bold":false,"color":"gray"}," ~"]
-title @s subtitle [{"text":"The Dusk Beneath","bold":false,"color":"gray"}]
+title @s title ["~ ",{"translate":"The Underdark","bold":false,"color":"gray"}," ~"]
+title @s subtitle [{"translate":"The Dusk Beneath","bold":false,"color":"gray"}]

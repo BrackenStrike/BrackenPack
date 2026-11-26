@@ -7,7 +7,7 @@ $dialog show @s {\
       "type": "minecraft:boolean",\
       "key": "idt",\
       "label": {\
-        "text": "Interdimensional Travel",\
+        "translate": "Interdimensional Travel",\
         "hover_event": {\
           "action": "show_text",\
           "value": "This will affect whether players are allowed to travel between the new dimensions added from the Bracken Pack."\
@@ -19,7 +19,7 @@ $dialog show @s {\
       "type": "minecraft:boolean",\
       "key": "teams",\
       "label": {\
-        "text": "Teams",\
+        "translate": "Teams",\
         "hover_event": {\
           "action": "show_text",\
           "value": "This will not affect gameplay. Use of teams may make the Bracken Pack incompatible with other datapacks."\
@@ -31,7 +31,7 @@ $dialog show @s {\
       "type": "minecraft:boolean",\
       "key": "species",\
       "label": {\
-        "text": "Species",\
+        "translate": "Species",\
         "hover_event": {\
           "action": "show_text",\
           "value": "This will not force players to leave their current species. If disabled all commands for player species will no longer be activated. The Species Beginner Book will no longer be handed out to new players but both the Beginner Species Book and the Book of Arbitrium will still allow players to change species."\
@@ -43,7 +43,7 @@ $dialog show @s {\
       "type": "minecraft:boolean",\
       "key": "bssd",\
       "label": {\
-        "text": "Beginner Species Selection Dialog",\
+        "translate": "Beginner Species Selection Dialog",\
         "hover_event": {\
           "action": "show_text",\
           "value": "If disabled the dialog selection that shows for new players will no longer activate."\
@@ -55,7 +55,7 @@ $dialog show @s {\
       "type": "minecraft:boolean",\
       "key": "bdsd",\
       "label": {\
-        "text": "Beginner Dimension Selection Dialog",\
+        "translate": "Beginner Dimension Selection Dialog",\
         "hover_event": {\
           "action": "show_text",\
           "value": "If disabled the dialog selection that shows for new players will no longer allow starting in other dimensions."\
@@ -67,7 +67,7 @@ $dialog show @s {\
       "type": "minecraft:boolean",\
       "key": "books",\
       "label": {\
-        "text": "Ability Books",\
+        "translate": "Ability Books",\
         "hover_event": {\
           "action": "show_text",\
           "value": "If disabled all Ability Books will no longer activate their effects and a unique message will be displayed if an attempt is made to use them. This does not affect the Beginner Species Book nor the Book of Arbitrium. It will still be possible to obtain Ability Books from loot tables."\
@@ -79,7 +79,7 @@ $dialog show @s {\
       "type": "minecraft:boolean",\
       "key": "keys",\
       "label": {\
-        "text": "Portal Keys",\
+        "translate": "Portal Keys",\
         "hover_event": {\
           "action": "show_text",\
           "value": "If disabled all Pax Portals will no longer need Portal Keys to access dimensions. Portal Keys can still be found in loot tables. Pax Portals may require being turned off before change has taken affect."\

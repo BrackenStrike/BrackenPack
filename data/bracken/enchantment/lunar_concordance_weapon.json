@@ -1,6 +1,6 @@
 {
 	"description": {
-		"text": "Lunar Concordance",
+		"translate": "Lunar Concordance",
 		"color": "dark_aqua"
 	},
 	"exclusive_set": "#bracken:exclusive_set/lunarite_weapons",

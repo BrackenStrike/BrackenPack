@@ -3,5 +3,5 @@
 # Creators: Grandmaster, Bracken
 ##########################################################
 
-title @s title ["~ ",{"text":"Panacea","bold":false,"color":"dark_green"}," ~"]
-title @s subtitle [{"text":"Realm of the Old Mods","bold":false,"color":"gray"}]
+title @s title ["~ ",{"translate":"Panacea","bold":false,"color":"dark_green"}," ~"]
+title @s subtitle [{"translate":"Realm of the Old Mods","bold":false,"color":"gray"}]

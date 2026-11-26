@@ -13,7 +13,7 @@
 			"type": "minecraft:set_lore",
 			"entity": "this",
 			"lore": [{
-				"text": "Flesh of madness.",
+				"translate": "Flesh of madness.",
 				"color": "gray",
 				"italic": false
 			}],

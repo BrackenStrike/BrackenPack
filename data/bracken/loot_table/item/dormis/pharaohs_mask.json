@@ -11,7 +11,7 @@
 					"minecraft:equippable": {
 						"slot": "head"
 					},
-					"minecraft:item_name": {"text":"Pharaoh's Mask","color":"gold","bold":true}
+					"minecraft:item_name": {"translate":"Pharaoh's Mask","color":"gold","bold":true}
 				}
 			}]
 		}]
