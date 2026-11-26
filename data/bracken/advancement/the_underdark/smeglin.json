@@ -2,7 +2,7 @@
     "parent": "bracken:the_underdark/enter_underdark",
     "display": {
         "title": {
-            "translate": "Nothing Will Come of Nothing"
+            "translate": "600 Calories"
         },
         "description": {
             "translate": "Throw an item near Smeglin"
