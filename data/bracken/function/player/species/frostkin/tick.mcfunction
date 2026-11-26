@@ -5,7 +5,8 @@
 
 execute unless function bracken:player/species/revoke_tick/frostkin run return fail
 
-function bracken:player/species/common/hot_environment
+execute at @s[predicate=bracken:survival_like,predicate=bracken:hot_environment] \
+    run function bracken:player/species/common/hot_environment
 
 execute unless predicate bracken:periodic/2t run function bracken:player/species/frostkin/fire_damage
 execute if block ~ ~ ~ lava run damage @s 10.0 lava
