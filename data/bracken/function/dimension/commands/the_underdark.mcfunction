@@ -3,6 +3,8 @@
 # Creators: Bracken, Conure
 ##########################################################
 
+execute unless function bracken:dimension/commands/revoke_tick/the_underdark run return fail
+
 # Mobs
 execute if score @s bp.1_second matches 10 run function bracken:entity/the_underdark/underdark_entities
 

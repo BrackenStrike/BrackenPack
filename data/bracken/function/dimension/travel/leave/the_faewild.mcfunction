@@ -4,6 +4,7 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/enter/the_faewild
+advancement grant @s only bracken:technical/dimension_commands/the_faewild impossible
 
 #attribute @s minecraft:max_health modifier remove bracken:fae_health
 attribute @s minecraft:gravity modifier remove bracken:fae_gravity

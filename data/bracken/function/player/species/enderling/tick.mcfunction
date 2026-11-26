@@ -3,6 +3,8 @@
 # Creators: Bracken, Sulfenir, and Grandmaster
 ##########################################################
 
+execute unless function bracken:player/species/revoke_tick/enderling run return fail
+
 function bracken:player/species/common/aquavulnerability
 
 #if-else: if not sneaking, function returns.

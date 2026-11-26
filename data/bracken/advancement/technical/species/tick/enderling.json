@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "impossible"
+        },
+        "enderling": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "type": "all_of",
+                    "terms": [
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "entity_tags": {
+                                    "all_of": [
+                                        "bp.enderling"
+                                    ]
+                                }
+                            }
+                        },
+                        "bracken:config/species_on"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [ [ "impossible", "enderling" ] ],
+    "rewards": {
+        "function": "bracken:player/species/enderling/tick"
+    }
+}

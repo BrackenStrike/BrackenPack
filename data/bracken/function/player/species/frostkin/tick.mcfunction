@@ -3,6 +3,8 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
+execute unless function bracken:player/species/revoke_tick/frostkin run return fail
+
 function bracken:player/species/common/heat_vulnerability
 
 execute unless predicate bracken:periodic/2t run function bracken:player/species/frostkin/fire_damage

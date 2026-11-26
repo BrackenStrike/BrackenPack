@@ -1,3 +1,5 @@
+execute unless function bracken:player/species/revoke_tick/hunter run return fail
+
 effect give @s[scores={bp.hunter_morph=16..18,bp.food=20}] minecraft:speed 1 1 true
 effect give @s[scores={bp.hunter_morph=16..18,bp.food=9..}] minecraft:speed 1 0 true
 

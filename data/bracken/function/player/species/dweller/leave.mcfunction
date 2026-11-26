@@ -3,9 +3,7 @@
 # Creators: Sulfenir
 ##########################################################
 
-tag @s remove bp.species
-tag @s remove bp.dweller
-team leave @s[team=bp.Dweller]
+function bracken:player/species/common/leave.macro {species:dweller, Species:Dweller}
 
 attribute @s minecraft:scale modifier remove bracken:dweller.scale
 attribute @s minecraft:block_break_speed modifier remove bracken:dweller.break

@@ -3,6 +3,8 @@
 # Creators: Bracken
 ##########################################################
 
+execute unless function bracken:dimension/commands/revoke_tick/the_brine run return fail
+
 # Brine Brewing
 execute if score @s bp.1_second matches 8 if entity @s[tag=bp.brine_brewing_active] run function bracken:dimension/commands/brine_brewing/start
 

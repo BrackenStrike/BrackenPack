@@ -3,9 +3,7 @@
 # Creators: Sulfenir
 ##########################################################
 
-tag @s remove bp.species
-tag @s remove bp.realmkeeper
-team leave @s[team=bp.Realmkeeper]
+function bracken:player/species/common/leave.macro {species:realmkeeper, Species:Realmkeeper}
 
 
 attribute @s minecraft:max_health modifier remove bracken:realmkeeper.max_health

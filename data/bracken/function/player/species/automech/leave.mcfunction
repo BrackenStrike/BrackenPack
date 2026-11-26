@@ -3,9 +3,8 @@
 # Creators: Grandmaster and Sulfenir
 ##########################################################
 
-tag @s remove bp.species
-tag @s remove bp.automech
-team leave @s[team=bp.Automech]
+say leaving automech
+function bracken:player/species/common/leave.macro {species:automech, Species:Automech}
 
 attribute @s minecraft:scale modifier remove bracken:automech.scale
 attribute @s minecraft:armor modifier remove bracken:automech.armor

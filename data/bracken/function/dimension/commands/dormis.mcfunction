@@ -3,6 +3,8 @@
 # Creators: Bracken
 ##########################################################
 
+execute unless function bracken:dimension/commands/revoke_tick/dormis run return fail
+
 # Effects
 #effect give @s[scores={bp.10_second=10}] minecraft:resistance 3 9 false
 
@@ -14,4 +16,5 @@ execute if entity @s[tag=bp.from_mansion_1] run function bracken:item/ability_bo
 
 #VOID TP
 execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel: true} if entity @s[y=-35,dy=-300] run return run function bracken:dimension/crossing/dormis_to_void
+
 

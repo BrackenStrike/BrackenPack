@@ -4,6 +4,8 @@
 ##############################################################
 
 advancement revoke @s only bracken:technical/dimension_travel/leave/pax
+function bracken:dimension/commands/lock_dim_tick_advancements
+advancement revoke @s only bracken:technical/dimension_commands/pax impossible
 
 attribute @s minecraft:max_health modifier add bracken:pax_health 20 add_value
 attribute @s minecraft:gravity modifier add bracken:pax_gravity -0.5 add_multiplied_base
@@ -14,7 +16,5 @@ effect clear @s minecraft:poison
 effect clear @s minecraft:bad_omen
 effect clear @s[predicate=bracken:in_water] minecraft:wither
 
-function bracken:dimension/travel/remove_dim_tags
-tag @s add bp.dim_pax
 
 execute if entity @s[tag=bp.dim_title_queue] unless score @s bp.dim_title_queue matches 10 run tag @s remove bp.dim_title_queue

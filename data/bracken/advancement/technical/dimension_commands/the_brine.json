@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "impossible": { 
+            "trigger": "impossible" 
+        },
+        "tick": {
+            "trigger": "tick",
+            "conditions": {
+                "player": "bracken:dimensions/the_brine"
+            }
+        }
+    },
+    "requirements": [ [ "impossible", "tick" ] ],
+    "parent": "bracken:technical/dimension_commands/root",
+    "rewards": {
+        "function": "bracken:dimension/commands/the_brine"
+    }
+}

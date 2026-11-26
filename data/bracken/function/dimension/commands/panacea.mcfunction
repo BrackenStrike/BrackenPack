@@ -3,6 +3,8 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
+execute unless function bracken:dimension/commands/revoke_tick/panacea run return fail
+
 # Rain Event
 execute if score @s bp.1_second matches 2 if predicate bracken:rain run function bracken:entity/panacea/rain_event
 
@@ -21,3 +23,4 @@ execute if entity @s[predicate=bracken:quicksand] run function bracken:dimension
 # Dimension Travel
 execute if score @s bp.creeper matches 1 if data storage bracken:config {dimension_travel:true} if entity @e[type=minecraft:creeper,distance=..1] run return run function bracken:dimension/crossing/panacea_to_overworld
 execute if score @s bp.1_second matches 12 if data storage bracken:config {dimension_travel:true} if entity @s[y=-35,dy=-300] in bracken:void run return run tp @s ~ 240 ~
+

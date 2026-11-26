@@ -3,6 +3,8 @@
 # Creators: Bracken
 ##########################################################
 
+execute unless function bracken:dimension/commands/revoke_tick/sanctum run return fail
+
 # Mobs
 execute if score @s bp.1_second matches 2 run function bracken:entity/sanctum/sanctum_entities
 
@@ -18,3 +20,4 @@ execute in minecraft:overworld if predicate bracken:sanctum_rain in bracken:sanc
 
 # The desolation speaks.
 execute if predicate bracken:periodic/3s if predicate bracken:random/one_in_30 run playsound bracken:sanctum_ambient ambient @s ~ ~ ~ 100 1.0 1
+
