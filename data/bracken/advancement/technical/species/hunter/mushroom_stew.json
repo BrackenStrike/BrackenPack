@@ -1,0 +1,19 @@
+{
+	"parent": "bracken:technical/species/hunter/root",
+	"criteria": {
+		"morph": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"player": "bracken:species/hunter",
+				"item": {
+					"items": [
+						"minecraft:mushroom_stew"
+					]
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "bracken:player/species/hunter/food/mushroom_stew"
+	}
+}

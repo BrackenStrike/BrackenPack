@@ -1,0 +1,37 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "text": "Hare Morph",
+        "color": "#ab9366"
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 8
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 8
+    },
+    "slots": [
+        "head"
+    ],
+    "supported_items": "iron_helmet",
+    "weight": 1,
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:movement_speed",
+                "id": "bracken:hunter.rabbit",
+                "amount": 0.01,
+                "operation": "add_value"
+            },
+            {
+                "attribute": "minecraft:jump_strength",
+                "id": "bracken:hunter.rabbit",
+                "amount": 0.19,
+                "operation": "add_value"
+            }
+        ]
+    }
+}

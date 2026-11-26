@@ -1,0 +1,172 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "text": "Kelp Morph",
+        "color": "#22ec0f"
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 8
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 8
+    },
+    "slots": [
+        "head"
+    ],
+    "supported_items": "iron_helmet",
+    "weight": 1,
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": "minecraft:water_breathing",
+                    "min_duration": 1,
+                    "max_duration": 1,
+                    "min_amplifier": 0,
+                    "max_amplifier": 0
+                }
+            },
+            {
+                "requirements": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "all_of",
+                            "terms": [
+                                {
+                                    "type": "any_of",
+                                    "terms": [
+                                        {
+                                            "type": "float_value_check",
+                                            "value": {
+                                                "type": "environment_attribute",
+                                                "attribute": "visual/sun_angle"
+                                            },
+                                            "test": {
+                                                "max": 90.0
+                                            }
+                                        },
+                                        {
+                                            "type": "float_value_check",
+                                            "value": {
+                                                "type": "environment_attribute",
+                                                "attribute": "visual/sun_angle"
+                                            },
+                                            "test": {
+                                                "min": 270.0
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "location_check",
+                                    "predicate": {
+                                        "fluid": {
+                                            "fluids": [
+                                                "flowing_water",
+                                                "water"
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "periodic_tick": 200
+                            }
+                        }
+                    ]
+                },
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": "minecraft:saturation",
+                    "min_duration": 1,
+                    "max_duration": 1,
+                    "min_amplifier": 0,
+                    "max_amplifier": 0
+                }
+            },
+            {
+                "requirements": {
+                    "type": "all_of",
+                    "terms": [
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "periodic_tick": 300
+                            }
+                        },
+                        {
+                            "type": "any_of",
+                            "terms": [
+                                {
+                                    "type": "entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "flags": {
+                                            "is_swimming": true
+                                        },
+                                        "location": {
+                                            "fluid": {
+                                                "fluids": [
+                                                    "water",
+                                                    "flowing_water"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "all_of",
+                                    "terms": [
+                                        {
+                                            "type": "entity_properties",
+                                            "entity": "this",
+                                            "predicate": {
+                                                "flags": {
+                                                    "is_swimming": false
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "location_check",
+                                            "offsetY": 1,
+                                            "predicate": {
+                                                "fluid": {
+                                                    "fluids": [
+                                                        "water",
+                                                        "flowing_water"
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "effect": {
+                    "type": "run_function",
+                    "function": "bracken:player/species/hunter/morph/dried_kelp"
+                }
+            }
+        ],
+        "minecraft:attributes": [
+            {
+                "attribute": "movement_speed",
+                "amount": -0.025,
+                "id": "bracken:hunter.dried_kelp",
+                "operation": "add_value"
+            }
+        ]
+    }
+}

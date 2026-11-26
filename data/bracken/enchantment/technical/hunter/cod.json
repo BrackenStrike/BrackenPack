@@ -1,0 +1,51 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "text": "Cod Morph",
+        "color": "#b8ab8e"
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 8
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 8
+    },
+    "slots": [
+        "head"
+    ],
+    "supported_items": "iron_helmet",
+    "weight": 1,
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:water_movement_efficiency",
+                "id": "bracken:hunter.cod",
+                "amount": 0.66666,
+                "operation": "add_value"
+            },
+            {
+                "attribute": "movement_speed",
+                "amount": -0.02,
+                "id": "bracken:hunter.cod",
+                "operation": "add_value"
+            },
+            {
+                "attribute": "submerged_mining_speed",
+                "amount": 4,
+                "id": "bracken:hunter.cod",
+                "operation": "add_multiplied_total"
+            }
+        ],
+        "tick": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "bracken:player/species/hunter/morph/cod"
+                }
+            }
+        ]
+    }
+}

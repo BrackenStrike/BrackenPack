@@ -1,16 +1,10 @@
 {
-	"parent": "bracken:root",
+	"parent": "bracken:technical/species/hunter/root",
 	"criteria": {
-		"requirement": {
+		"morph": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
-				"player": {
-					"type": "minecraft:entity_properties",
-					"entity": "this",
-					"predicate": {
-						"nbt": "{Tags:[\"bp.hunter\"]}"
-					}
-				},
+				"player": "bracken:species/hunter",
 				"item": {
 					"items": [
 						"minecraft:rabbit"
@@ -20,6 +14,6 @@
 		}
 	},
 	"rewards": {
-		"function": "bracken:player/species/hunter/rabbit"
+		"function": "bracken:player/species/hunter/food/rabbit"
 	}
 }

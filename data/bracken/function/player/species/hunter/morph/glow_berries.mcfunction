@@ -1,0 +1,1 @@
+posteffect add @s bracken:hunter_glow

@@ -1,0 +1,54 @@
+{
+    "anvil_cost": 2,
+    "description": {
+        "text": "Chicken Morph",
+        "color": "#fff1eb"
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 8
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 5,
+        "per_level_above_first": 8
+    },
+    "slots": [
+        "head"
+    ],
+    "supported_items": "iron_helmet",
+    "weight": 1,
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "attribute": "minecraft:fall_damage_multiplier",
+                "id": "bracken:hunter.chicken",
+                "amount": -1,
+                "operation": "add_multiplied_total"
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "requirements": {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "type_specific/player": {
+                            "input": {
+                                "sneak": true
+                            }
+                        }
+                    }
+                },
+                "effect": {
+                    "type": "minecraft:apply_mob_effect",
+                    "to_apply": "minecraft:slow_falling",
+                    "min_duration": 1,
+                    "max_duration": 1,
+                    "min_amplifier": 0,
+                    "max_amplifier": 0
+                }
+            }
+        ]
+    }
+}
