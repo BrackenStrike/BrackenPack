@@ -4,6 +4,7 @@
 ##########################################################
 
 function bracken:player/species/common/join.macro {species:automech, Species:Automech}
+advancement revoke @s only bracken:technical/omnitrigger/enable_books
 
 attribute @s minecraft:scale modifier add bracken:automech.scale 0.5 add_multiplied_base
 attribute @s minecraft:armor modifier add bracken:automech.armor 8 add_value

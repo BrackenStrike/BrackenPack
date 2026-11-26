@@ -3,7 +3,6 @@
 # Creators: Sulfenir and Grandmaster
 ##########################################################
 
-say joining dweller
 function bracken:player/species/common/join.macro {species:dweller, Species:Dweller}
 
 attribute @s minecraft:scale modifier add bracken:dweller.scale -0.25 add_multiplied_base

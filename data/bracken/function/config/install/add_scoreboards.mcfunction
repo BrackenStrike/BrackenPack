@@ -67,8 +67,6 @@ scoreboard objectives add bracken.species_info trigger
 scoreboard objectives add bp.omni_flight dummy
 scoreboard objectives add bp.omni_sprint dummy
 scoreboard objectives add OMNI.COMMAND trigger
-scoreboard objectives add OMNI.PERMISSIONS_BOOK dummy {text: "DO NOT CHANGE THIS SCOREBOARD MANUALLY", color: "dark_red"}
-scoreboard objectives add OMNI.PERMISSIONS_OTHER dummy {text: "DO NOT CHANGE THIS SCOREBOARD MANUALLY", color: "dark_red"}
 
 # Varskstorm
 scoreboard objectives add bp.varskstorm dummy

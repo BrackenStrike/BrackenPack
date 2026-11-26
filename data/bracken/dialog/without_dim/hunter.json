@@ -35,7 +35,7 @@
     "label": "Yes",
     "action": {
         "type": "run_command",
-        "command": "trigger bp.species_selected set 105"
+        "command": "trigger bp.species_selected set 104"
     }
   },
   "no": {

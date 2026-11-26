@@ -17,10 +17,10 @@
     "actions": [
         {
             "label": "Teleport to nearest player",
-            "tooltip": "ID = 27",
+            "tooltip": "ID = 26",
             "action": {
                 "type": "minecraft:run_command",
-                "command": "trigger OMNI.COMMAND set 27"
+                "command": "trigger OMNI.COMMAND set 26"
             }
         }
     ]
