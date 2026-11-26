@@ -1,0 +1,223 @@
+
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "uniform",
+        "min": 4,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.08
+          }
+        },
+        {
+			"type": "minecraft:item",
+			"name": "minecraft:rail",
+			"condition": {
+				"type": "minecraft:random_chance",
+				"chance": 0.5
+			}
+		},
+        {
+			"type": "minecraft:item",
+			"name": "minecraft:crossbow",
+			"condition": {
+				"type": "minecraft:random_chance",
+				"chance": 0.05
+			}
+		},
+        {
+			"type": "minecraft:item",
+			"name": "minecraft:powered_rail",
+			"condition": {
+				"type": "minecraft:random_chance",
+				"chance": 0.5
+			}
+		},
+        {
+			"type": "minecraft:item",
+			"name": "minecraft:minecart",
+			"condition": {
+				"type": "minecraft:random_chance",
+				"chance": 0.2
+			}
+		},
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.65
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.25
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.45
+          }
+        },
+        {
+          "type": "loot_table",
+          "value": "bracken:item/ability_books/fireball",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.04
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.75
+          }
+        },
+        {
+          "type": "loot_table",
+          "value": "bracken:item/metal_apples/iron_apple",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.06
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_log",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.4
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.18
+          }
+        },
+        {
+          "type": "loot_table",
+          "value": "bracken:item/ability_books/truelight_glow",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.03
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.35
+          }
+        },
+        {
+          "type": "loot_table",
+          "value": "bracken:item/music_discs/underdark",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.02
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone_torch",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        },
+        {
+			"type": "minecraft:item",
+			"name": "minecraft:torch",
+			"condition": {
+				"type": "minecraft:random_chance",
+				"chance": 0.5
+			}
+		},
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_planks",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.55
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lantern",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.15
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.55
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.3
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.12
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.06
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.18
+          }
+        },
+        {
+          "type": "loot_table",
+          "value": "bracken:item/maps/twice_abandoned_mineshaft",
+          "condition": {
+            "type": "minecraft:random_chance",
+            "chance": 0.01
+          }
+        }
+      ]
+    }
+  ]
+}
