@@ -3,8 +3,12 @@
         "icon": {
             "id": "minecraft:dandelion"
         },
-        "title": "Elsewhere Wanderer",
-        "description": "Visit all Faewild biomes",
+        "title": {
+            "translate": "Elsewhere Wanderer"
+        },
+        "description": {
+            "translate": "Visit all Faewild biomes"
+        },
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

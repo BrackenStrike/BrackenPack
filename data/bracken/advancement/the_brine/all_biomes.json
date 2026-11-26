@@ -3,8 +3,12 @@
         "icon": {
             "id": "minecraft:mangrove_chest_boat"
         },
-        "title": "Strong-hearted Voyager",
-        "description": "Visit all Brine biomes",
+        "title": {
+            "translate": "Strong-hearted Voyager"
+        },
+        "description": {
+            "translate": "Visit all Brine biomes"
+        },
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

@@ -8,8 +8,12 @@
 				}
 			}
 		},
-		"title": "Accomplished Archaeologist",
-		"description": "Visit all Sanctum biomes",
+		"title": {
+            "translate": "Accomplished Archaeologist"
+        },
+		"description": {
+            "translate": "Visit all Sanctum biomes"
+        },
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

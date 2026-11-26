@@ -6,8 +6,12 @@
                 "minecraft:enchantment_glint_override": true
             }
         },
-        "title": "Eternal Walker",
-        "description": "Visit all Pax biomes",
+        "title": {
+            "translate": "Eternal Walker"
+        },
+        "description": {
+            "translate": "Visit all Pax biomes"
+        },
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

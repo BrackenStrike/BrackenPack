@@ -6,8 +6,12 @@
                 "minecraft:item_model": "bracken:average_weapons/verdant/boots"
             }
         },
-        "title": "Dauntless Survivalist",
-        "description": "Visit all Panacea biomes",
+        "title": {
+            "translate": "Dauntless Survivalist"
+        },
+        "description": {
+            "translate": "Visit all Panacea biomes"
+        },
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

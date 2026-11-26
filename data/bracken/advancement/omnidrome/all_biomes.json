@@ -3,8 +3,12 @@
 		"icon": {
 			"id": "minecraft:lime_stained_glass"
 		},
-		"title": "Adept Researcher",
-		"description": "Visit all Omnidrome biomes",
+		"title": {
+            "translate": "Adept Researcher"
+        },
+		"description": {
+            "translate": "Visit all Omnidrome biomes"
+        },
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
