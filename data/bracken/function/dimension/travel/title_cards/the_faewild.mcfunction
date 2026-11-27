@@ -3,5 +3,5 @@
 # Creators: Grandmaster, Bracken
 ##########################################################
 
-title @s title ["~ ",{"text":"The Faewild","bold":false,"color":"dark_aqua"}," ~"]
-title @s subtitle [{"text":"The Dawn Above","bold":false,"color":"gray"}]
+title @s title ["~ ",{"translate":"The Faewild","bold":false,"color":"dark_aqua"}," ~"]
+title @s subtitle [{"translate":"The Dawn Above","bold":false,"color":"gray"}]

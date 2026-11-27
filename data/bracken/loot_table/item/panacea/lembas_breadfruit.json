@@ -13,7 +13,7 @@
 			"type": "minecraft:set_lore",
 			"entity": "this",
 			"lore": [{
-				"text": "How many did you eat?",
+				"translate": "How many did you eat?",
 				"color": "gray",
 				"italic": false
 			}],

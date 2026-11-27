@@ -19,7 +19,7 @@
                   "asset_id": "bracken:old_world_bronze",
                   "slot": "feet"
                 },
-                "minecraft:item_name": {"text":"Pharaoh's Boots","color":"gold","bold":true}
+                "minecraft:item_name": {"translate":"Pharaoh's Boots","color":"gold","bold":true}
               }
             }
           ]

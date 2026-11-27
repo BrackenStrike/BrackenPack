@@ -6,8 +6,8 @@ DeathLootTable:"bracken:entity/glacium/riderkin",attributes:[{id:armor,base:20}]
 equipment:{chest:{id:"minecraft:iron_chestplate",count:1b,\
 components:{"minecraft:item_model":"bracken:average_weapons/cryolith/chestplate",\
 "minecraft:equippable":{asset_id:'bracken:cryolith',slot:'chest'},\
-"minecraft:enchantments":{"minecraft:vanishing_curse":1,"minecraft:protection":4,"bracken:quenching":1}}},\
-mainhand:{id:"minecraft:bow",count:1b,components:{"minecraft:custom_name":{"text":"Frozen Recurve","italic":false},\
+"minecraft:enchantments":{"minecraft:vanishing_curse":1,"minecraft:protection":4,"bracken:boon/quenching":1}}},\
+mainhand:{id:"minecraft:bow",count:1b,components:{"minecraft:custom_name":{"translate":"Frozen Recurve","italic":false},\
 "minecraft:enchantments":{"minecraft:power":5,"minecraft:punch":2,"minecraft:vanishing_curse":1}} },\
 head:{id:"minecraft:bamboo",count:1b,components:{\
     "minecraft:item_model":"bracken:shadows/frostkin3","minecraft:enchantment_glint_override":false,\

@@ -3,5 +3,5 @@
 # Creators: Grandmaster, Bracken
 ##########################################################
 
-title @s title ["~ ",{"text":"The Brine","bold":false,"color":"dark_blue"}," ~"]
-title @s subtitle [{"text":"The Sequestered Realm","bold":false,"color":"gray"}]
+title @s title ["~ ",{"translate":"The Brine","bold":false,"color":"dark_blue"}," ~"]
+title @s subtitle [{"translate":"The Sequestered Realm","bold":false,"color":"gray"}]

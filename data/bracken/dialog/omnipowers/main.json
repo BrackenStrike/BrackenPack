@@ -5,7 +5,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "With great powers comes great stupidity.",
+        "translate": "With great powers comes great stupidity.",
         "font": "minecraft:alt",
         "italic": true
       }
@@ -13,7 +13,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "These dialogs will do /trigger OMNI.COMMAND set (ID) for you.",
+        "translate": "These dialogs will do /trigger OMNI.COMMAND set (ID) for you.",
         "font": "minecraft:default",
         "italic": false
       }

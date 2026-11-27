@@ -26,7 +26,7 @@
 			"modifier": [{
 				"type": "minecraft:set_name",
 				"name": {
-					"text": "Potion of Night Vision",
+					"translate": "Potion of Night Vision",
 					"color": "white",
 					"italic": false
 				}

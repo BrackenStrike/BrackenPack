@@ -15,7 +15,7 @@
 			"minecraft:item_name": "Cryolith Chestplate",
 			"minecraft:enchantments": {
 				"minecraft:vanishing_curse": 1,
-				"bracken:quenching": 1,
+				"bracken:boon/quenching": 1,
 				"bracken:curse/fragility": 1
 			},
 			"minecraft:item_model": "bracken:average_weapons/cryolith/chestplate"

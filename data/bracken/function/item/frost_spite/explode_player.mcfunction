@@ -9,7 +9,7 @@ playsound minecraft:block.glass.break player @a[distance=..10] ~ ~ ~ 10 0
 playsound minecraft:entity.dolphin.death player @a[distance=..10] ~ ~ ~ 1 0
 
 damage @p[distance=0.5..6] 100 minecraft:fireworks
-execute if entity @p[distance=0.5..6] run tellraw @a ["",{"selector":"@s"},{"text":" had the last laugh"}]
+execute if entity @p[distance=0.5..6] run tellraw @a ["",{"selector":"@s"},{"translate":" had the last laugh"}]
 
 item replace entity @s[predicate=bracken:item/spite_offhand,predicate=!bracken:item/spite_mainhand] weapon.offhand with air
 item replace entity @s[predicate=bracken:item/spite_mainhand] weapon.mainhand with air

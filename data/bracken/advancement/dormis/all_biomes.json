@@ -3,8 +3,12 @@
         "icon": {
             "id": "minecraft:chainmail_boots"
         },
-        "title": "Prison Tour",
-        "description": "Visit all Dormis biomes",
+        "title": {
+            "translate": "Prison Tour"
+        },
+        "description": {
+            "translate": "Visit all Dormis biomes"
+        },
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

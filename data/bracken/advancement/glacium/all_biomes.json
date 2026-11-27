@@ -7,8 +7,12 @@
                 "minecraft:item_model": "bracken:average_weapons/cryolith/boots"
             }
         },
-        "title": "Unbreakable Expeditionist",
-        "description": "Visit all Glacium biomes",
+        "title": {
+            "translate": "Unbreakable Expeditionist"
+        },
+        "description": {
+            "translate": "Visit all Glacium biomes"
+        },
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

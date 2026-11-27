@@ -3,6 +3,6 @@
 # Creators: Grandmaster
 ##########################################################
 
-title @s title ["~ ",{"text":"Dormis","bold":false,"color":"dark_red"}," ~"]
-title @s subtitle [{"text":"The Great Cosmic Prison","bold":false,"color":"gray"}]
+title @s title ["~ ",{"translate":"Dormis","bold":false,"color":"dark_red"}," ~"]
+title @s subtitle [{"translate":"The Great Cosmic Prison","bold":false,"color":"gray"}]
 

@@ -3,7 +3,7 @@
 # Creators: Bracken and Grandmaster
 ##########################################################
 
-tellraw @a[distance=..25] "The portal has been activated."
+tellraw @a[distance=..25] {"translate":"The portal has been activated."}
 
 kill @e[type=minecraft:marker,distance=..50,limit=5,tag=bp.floating_text]
 

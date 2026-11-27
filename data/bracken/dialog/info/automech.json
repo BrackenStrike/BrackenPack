@@ -16,7 +16,9 @@
     },
     {
       "type": "minecraft:plain_message",
-      "contents": "3 blocks tall"
+      "contents": {
+        "translate": "3 blocks tall"
+      }
     },
     {
       "type": "minecraft:plain_message",

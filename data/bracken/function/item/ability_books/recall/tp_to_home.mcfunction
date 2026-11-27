@@ -5,7 +5,7 @@
 
 tag @s remove bp.recall_wait
 
-tellraw @s ["",{"selector":"@s"},{"translate":" generated [RECALL]"}]
+tellraw @s ["",{"selector":"@s"},{"translate":" generated [RETURNING TIDES]"}]
 playsound minecraft:entity.player.splash.high_speed player @a[distance=..30] ~ ~ ~ 10 0
 tag @s add bp.target
 execute as @e[type=marker,tag=bp.recall] at @s if score @p[tag=bp.target] bp.world_player_id = @s bp.world_player_id run tp @p[tag=bp.target] @s

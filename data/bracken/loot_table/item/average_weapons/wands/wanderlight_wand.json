@@ -7,6 +7,7 @@
 			"modifier": [{
 				"type": "minecraft:set_components",
 				"components": {
+					"minecraft:max_damage": 5,
 					
 					"minecraft:enchantments": {
 						"bracken:boon/banishment": 1

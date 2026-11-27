@@ -36,7 +36,7 @@
 			},{
 				"type": "set_lore",
 				"lore": [{
-					"text": "Protector usque in diem, dum omnes gladii confringentur",
+					"translate": "Protector usque in diem, dum omnes gladii confringentur",
 					"color": "white",
 					"italic": false
 				}],

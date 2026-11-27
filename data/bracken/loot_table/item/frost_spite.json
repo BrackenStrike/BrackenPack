@@ -11,7 +11,7 @@
 			},{
 				"type": "minecraft:set_lore",
 				"lore": [{
-					"text": "Combat",
+					"translate": "Combat",
 					"color": "dark_blue",
 					"italic": false
 				}],

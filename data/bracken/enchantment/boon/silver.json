@@ -5,6 +5,35 @@
 	},
 	"anvil_cost": 1000,
 	"effects": {
+    
+    "minecraft:damage": [
+		{
+		  "effect": {
+			"type": "minecraft:add",
+			"value": {
+			  "type": "minecraft:linear",
+			  "base": 2.5,
+			  "per_level_above_first": 2.5
+			}
+		  },
+		  "requirements": {
+			"type": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+			  "minecraft:entity_type": "#minecraft:sensitive_to_smite"
+			}
+		  }
+		}
+	  ],
+		"minecraft:post_attack": [{
+			"enchanted": "attacker",
+			"affected": "victim",
+			"effect": {
+				"type": "minecraft:run_function",
+				"function": "bracken:item/enchantment/silvered"
+			}
+		}],
+    
 		
 	   "minecraft:damage_protection": [
       {
@@ -46,7 +75,7 @@
 
 	"exclusive_set": "#bracken:exclusive_set/all",
 	"slots": [
-		"armor"
+		"armor","mainhand"
 	],
 	"supported_items": "#minecraft:enchantable/durability",
 	"weight": 5

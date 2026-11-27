@@ -3,8 +3,12 @@
         "icon": {
             "id": "minecraft:lantern"
         },
-        "title": "Expert Spelunker",
-        "description": "Visit all Underdark biomes",
+        "title": {
+            "translate": "Expert Spelunker"
+        },
+        "description": {
+            "translate": "Visit all Underdark biomes"
+        },
         "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": true,

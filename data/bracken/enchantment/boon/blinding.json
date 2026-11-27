@@ -19,6 +19,12 @@
 					"max_duration": 10,
 					"min_amplifier": 0,
 					"max_amplifier": 1
+				},
+				{
+				  "type": "minecraft:play_sound",
+				  "pitch": 0.5,
+				  "sound": "minecraft:block.wool.break",
+				  "volume": 5.0
 				}]
 			}
 		}],
