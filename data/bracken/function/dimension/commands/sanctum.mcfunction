@@ -5,6 +5,9 @@
 
 execute unless function bracken:dimension/commands/revoke_tick/sanctum run return fail
 
+# Effects
+effect give @s invisibility 1 0 true
+
 # Mobs
 execute if score @s bp.1_second matches 2 run function bracken:entity/sanctum/sanctum_entities
 

@@ -7,22 +7,11 @@ execute unless function bracken:player/species/revoke_tick/enderling run return 
 
 function bracken:player/species/enderling/hydrophobia/tick
 
-#if-else: if not sneaking, function returns.
 execute unless predicate bracken:input/shift \
     run return run clear @s *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}]
 
-execute if items entity @s hotbar.* *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}] \
+execute if items entity @s bracken:enderling_no_tp *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}] \
     run clear @s *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}]
-
-execute if items entity @s inventory.* *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}] \
-    run clear @s *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}]
-
-execute if items entity @s player.cursor *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}] \
-    run clear @s *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}]
-    
-execute if items entity @s player.crafting.* *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}] \
-    run clear @s *[minecraft:custom_data~{bracken:{id:"enderling_controlled_teleport"}}]
-
 
 execute if predicate bracken:item/empty_slot/offhand \
     run item replace entity @s weapon.offhand with music_disc_5[\

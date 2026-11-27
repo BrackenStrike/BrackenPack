@@ -5,6 +5,8 @@
 
 execute unless function bracken:player/species/revoke_tick/dweller run return fail
 
+effect give @s night_vision 20 0 true
+
 effect give @s[scores={bp.food=15..}] minecraft:hunger 1 0 true
 effect give @s[\
     predicate=bracken:item/empty_slot/head,\

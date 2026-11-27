@@ -8,3 +8,6 @@ function bracken:player/species/common/leave.macro {species:hunter, Species:Hunt
 attribute @s minecraft:scale modifier remove bracken:hunter.scale
 attribute @s minecraft:scale modifier remove bracken:hunter.step_height
 effect clear @s
+
+clear @s *[minecraft:custom_data~{bracken:{id:"hunter_morph_helmet"}}]
+scoreboard players reset @s bp.hunter_morph

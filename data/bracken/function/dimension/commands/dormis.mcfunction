@@ -7,6 +7,7 @@ execute unless function bracken:dimension/commands/revoke_tick/dormis run return
 
 # Effects
 #effect give @s[scores={bp.10_second=10}] minecraft:resistance 3 9 false
+effect give @s bad_omen 1 9 false
 
 # Mobs
 execute if score @s bp.1_second matches 13 run function bracken:entity/dormis/dormis_mobs

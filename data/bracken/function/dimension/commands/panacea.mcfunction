@@ -13,9 +13,7 @@ execute if score @s bp.1_second matches 9 run function bracken:entity/panacea/pa
 
 # Effects
 effect give @s[scores={bp.10_second=3}] minecraft:regeneration 2 0 true
-
-
-
+effect give @s hunger 1 0 true
 
 # QUICKSAND
 execute if entity @s[predicate=bracken:quicksand] run function bracken:dimension/commands/other/quicksand

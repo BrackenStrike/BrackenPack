@@ -1,3 +1,2 @@
-$return run \
-    data modify storage $(target) \
+$return run data modify storage $(target) \
         set from storage $(source)[$(index)]
