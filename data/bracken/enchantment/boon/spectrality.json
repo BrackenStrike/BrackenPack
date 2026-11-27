@@ -17,6 +17,12 @@
 					"max_duration": 15,
 					"min_amplifier": 0,
 					"max_amplifier": 0
+				},
+				{
+				  "type": "minecraft:play_sound",
+				  "pitch": 2.0,
+				  "sound": "minecraft:entity.illusioner.mirror_move",
+				  "volume": 5.0
 				}]
 			}
 		}]

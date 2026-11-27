@@ -34,15 +34,15 @@
         "bracken:lifesteal",
         "bracken:litheness",
 
-        "bracken:lunar_concordance_armor",
-        "bracken:lunar_concordance_weapon",
+        "bracken:technical/lunar_concordance_armor",
+        "bracken:technical/lunar_concordance_weapon",
 
         "bracken:curse/maiming",
         "bracken:mortality",
         "bracken:boon/poisoning",
         "bracken:pugnacity",
         "bracken:pushback",
-        "bracken:quenching",
+        "bracken:boon/quenching",
         "bracken:rending",
         "bracken:boon/scorning",
         "bracken:reverse_thorns",
@@ -60,7 +60,7 @@
         "bracken:obliteration",
         "bracken:trampling",
         "bracken:boon/vitality",
-        "bracken:weakening",
+        "bracken:boon/weakening",
         "bracken:wisdom",
         "bracken:boon/withering",
 

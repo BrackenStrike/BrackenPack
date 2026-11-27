@@ -29,11 +29,30 @@
 					"italic": false
 				}],
 				"mode": "insert"
-			},{
+			},
+			{
+				"type": "set_enchantments",
+				"enchantments": {
+					"bracken:curse/dishonor": 1
+				}
+			},
+			{
+              "type": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#bracken:exclusive_set/bp_curses"
+            },
+			{
+              "type": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#bracken:exclusive_set/bp_curses"
+            },
+
+			{
 				"type": "minecraft:set_components",
 				"components": {
 					"minecraft:item_model": "bracken:average_weapons/meteoric/shovel",
-					"minecraft:max_damage": 1000
+					"minecraft:max_damage": 1000,
+					"minecraft:enchantment_glint_override": false
 				}
 			},{
 				"type": "minecraft:set_attributes",

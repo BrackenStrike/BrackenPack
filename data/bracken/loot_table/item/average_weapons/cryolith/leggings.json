@@ -23,7 +23,7 @@
 				"type": "set_enchantments",
 				"enchantments": {
 					"bracken:curse/fragility": 1,
-					"bracken:quenching": 1,
+					"bracken:boon/quenching": 1,
 					"minecraft:vanishing_curse": 1
 				}
 			}]

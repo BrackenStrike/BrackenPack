@@ -45,7 +45,7 @@
             }
         ]
     },
-    "exclusive_set": "bracken:quenching",
+    "exclusive_set": "bracken:boon/quenching",
     "max_cost": {
         "base": 60,
         "per_level_above_first": 20

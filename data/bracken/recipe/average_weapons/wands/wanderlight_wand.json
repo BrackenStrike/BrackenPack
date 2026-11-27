@@ -8,7 +8,7 @@
 		"id": "minecraft:iron_shovel",
 		"count": 1,
 		"components": {
-			
+			"minecraft:max_damage": 5,
             "minecraft:enchantments": {
 				"bracken:boon/banishment": 1
 			  },

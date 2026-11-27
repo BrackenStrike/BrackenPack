@@ -32,7 +32,7 @@
 			},{
 				"type": "set_enchantments",
 				"enchantments": {
-					"bracken:boon/silver": 1,"bracken:dentine_touch": 1,"bracken:boon/cleansing": 1
+					"bracken:boon/silver": 1,"bracken:dentine_touch": 1
 				
 				}
 			},{

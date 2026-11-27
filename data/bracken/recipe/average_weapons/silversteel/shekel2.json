@@ -14,7 +14,7 @@
 		"components": {
 			"minecraft:item_name": "Silversteel Ingot",
 			"minecraft:enchantments": {
-				"bracken:boon/silver": 1,"bracken:boon/cleansing": 1
+				"bracken:boon/silver": 1
 				},
 			"minecraft:entity_data": {
 				"id": "minecraft:player"
