@@ -23,8 +23,5 @@
 				"to": "bracken:void"
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:voi1"
-	]]
+	}
 }

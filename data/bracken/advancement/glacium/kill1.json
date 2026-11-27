@@ -47,8 +47,5 @@
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:glacium/kill11"
-	]]
+	}
 }

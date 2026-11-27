@@ -27,8 +27,5 @@
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:sanctum/fish1"
-	]]
+	}
 }

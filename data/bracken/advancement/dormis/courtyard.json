@@ -32,8 +32,5 @@
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:dormis/courtyard1"
-	]]
+	}
 }

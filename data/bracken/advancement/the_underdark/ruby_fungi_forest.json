@@ -31,8 +31,5 @@
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:the_underdark/fungus1"
-	]]
+	}
 }

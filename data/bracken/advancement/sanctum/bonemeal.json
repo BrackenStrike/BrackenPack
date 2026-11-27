@@ -34,8 +34,5 @@
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:sanctum/bonemeal1"
-	]]
+	}
 }

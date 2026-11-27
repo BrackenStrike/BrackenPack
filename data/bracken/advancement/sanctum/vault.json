@@ -35,10 +35,5 @@
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:sanctum/vault1"
-        ]
-    ]
+    }
 }

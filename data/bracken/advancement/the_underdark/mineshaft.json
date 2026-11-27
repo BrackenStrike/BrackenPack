@@ -32,8 +32,5 @@
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:the_underdark/mineshaft1"
-	]]
+	}
 }

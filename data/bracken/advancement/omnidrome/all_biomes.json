@@ -87,17 +87,6 @@
 			"trigger": "minecraft:location"
 		}
 	},
-	"requirements": [[
-		"bracken:omnidrome/stanterion"
-	],[
-		"bracken:omnidrome/malvergent_zone"
-	],[
-		"bracken:omnidrome/infrapolis"
-	],[
-		"bracken:omnidrome/fabricylum"
-	],[
-		"bracken:omnidrome/archivistory"
-	]],
 	"rewards": {
 		"experience": 500
 	},

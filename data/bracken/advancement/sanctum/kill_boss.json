@@ -37,9 +37,6 @@
 			}
 		}
 	},
-	"requirements": [[
-		"bracken:sanctum/kill_boss1"
-	]],
 	"rewards": {
 		"function": "bracken:player/omni_powers/trigger_commands/unlock/k_ostiarius"
 	}

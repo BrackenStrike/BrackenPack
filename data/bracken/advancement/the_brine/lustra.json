@@ -39,8 +39,5 @@
 				}]
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:the_brine/lustra1"
-	]]
+	}
 }

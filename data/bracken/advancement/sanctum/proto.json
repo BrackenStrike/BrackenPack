@@ -32,8 +32,5 @@
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:sanctum/proto1"
-	]]
+	}
 }

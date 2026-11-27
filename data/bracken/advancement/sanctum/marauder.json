@@ -30,8 +30,5 @@
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:sanctum/marauder1"
-	]]
+	}
 }

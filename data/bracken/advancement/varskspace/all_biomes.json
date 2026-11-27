@@ -1,0 +1,60 @@
+{
+    "criteria": {
+        "bracken:varskspace/ahimaaz_reach": {
+            "conditions": {
+                "player": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:location": {
+                            "biomes": "bracken:varskspace/ahimaaz_reach"
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:location"
+        },
+        "bracken:varskspace/chrysoprase_belt": {
+            "conditions": {
+                "player": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:location": {
+                            "biomes": "bracken:varskspace/chrysoprase_belt"
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:location"
+        },
+        "bracken:varskspace/non_maxwellian_sector": {
+            "conditions": {
+                "player": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:location": {
+                            "biomes": "bracken:varskspace/non_maxwellian_sector"
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:location"
+        },
+        "bracken:varskspace/vonstein_expanse": {
+            "conditions": {
+                "player": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:location": {
+                            "biomes": "bracken:varskspace/vonstein_expanse"
+                        }
+                    }
+                }
+            },
+            "trigger": "minecraft:location"
+        }
+    }
+}

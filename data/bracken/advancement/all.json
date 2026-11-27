@@ -30,52 +30,40 @@
                 "player": "bracken:dimensions/omnidrome"
             }
         },
-        "bracken:panacea": {
-            "trigger": "location",
-            "conditions": {
-                "player": "bracken:dimensions/panacea"
-            }
-        },
         "bracken:pax": {
             "trigger": "location",
             "conditions": {
                 "player": "bracken:dimensions/pax"
             }
         },
-        "bracken:glacium": {
+        "bracken:sanctum": {
             "trigger": "location",
             "conditions": {
-                "player": "bracken:dimensions/glacium"
+                "player": "bracken:dimensions/sanctum"
             }
         },
-        "bracken:glacium": {
+        "bracken:the_brine": {
             "trigger": "location",
             "conditions": {
-                "player": "bracken:dimensions/glacium"
+                "player": "bracken:dimensions/the_brine"
             }
         },
-        "bracken:glacium": {
+        "bracken:the_underdark": {
             "trigger": "location",
             "conditions": {
-                "player": "bracken:dimensions/glacium"
+                "player": "bracken:dimensions/the_underdark"
             }
         },
-        "bracken:glacium": {
+        "bracken:varskspace": {
             "trigger": "location",
             "conditions": {
-                "player": "bracken:dimensions/glacium"
+                "player": "bracken:dimensions/varskspace"
             }
         },
-        "bracken:glacium": {
+        "bracken:void": {
             "trigger": "location",
             "conditions": {
-                "player": "bracken:dimensions/glacium"
-            }
-        },
-        "bracken:glacium": {
-            "trigger": "location",
-            "conditions": {
-                "player": "bracken:dimensions/glacium"
+                "player": "bracken:dimensions/void"
             }
         }
     },

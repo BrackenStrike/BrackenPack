@@ -40,8 +40,5 @@
 				}]
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:panacea/spore1"
-	]]
+	}
 }

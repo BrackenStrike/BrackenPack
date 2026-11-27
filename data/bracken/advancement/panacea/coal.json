@@ -36,8 +36,5 @@
 				}]
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:panacea/coal1"
-	]]
+	}
 }

@@ -31,10 +31,5 @@
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:panacea/tree1"
-        ]
-    ]
+    }
 }

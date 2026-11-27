@@ -22,8 +22,5 @@
 				"loot_tables": "bracken:omnidrome/omnidrome_library"
 			}
 		}
-	},
-	"requirements": [[
-		"library_loot1"
-	]]
+	}
 }

@@ -39,8 +39,5 @@
 				}]
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:glacium/cryolith1"
-	]]
+	}
 }

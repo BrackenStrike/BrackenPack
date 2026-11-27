@@ -12,816 +12,173 @@
     },
     "parent": "bracken:all",
     "criteria": {
-        "bracken:dormis/bezerium": {
-            "trigger": "minecraft:location",
+        "bracken:dormis": {
+            "trigger": "location",
             "conditions": {
                 "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:dormis/bezerium"
-                    }
-                }
-            }
-        },
-        "bracken:dormis/golanium": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:dormis/golanium"
-                    }
-                }
-            }
-        },
-        "bracken:dormis/hebronium": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:dormis/hebronium"
-                    }
-                }
-            }
-        },
-        "bracken:dormis/kedeshium": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:dormis/kedeshium"
-                    }
-                }
-            }
-        },
-        "bracken:dormis/ramothium": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:dormis/ramothium"
-                    }
-                }
-            }
-        },
-        "bracken:dormis/shechemium": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:dormis/shechemium"
-                    }
-                }
-            }
-        },
-        "bracken:glacium/arctic_knolls": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:glacium/arctic_knolls"
-                    }
-                }
-            }
-        },
-        "bracken:glacium/boreal_frontier": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:glacium/boreal_frontier"
-                    }
-                }
-            }
-        },
-        "bracken:glacium/destitute_garrison": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:glacium/destitute_garrison"
-                    }
-                }
-            }
-        },
-        "bracken:glacium/fractured_wastes": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:glacium/fractured_wastes"
-                    }
-                }
-            }
-        },
-        "bracken:glacium/gathheim": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:glacium/gathheim"
-                    }
-                }
-            }
-        },
-        "bracken:glacium/glacial_mass": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:glacium/glacial_mass"
-                    }
-                }
-            }
-        },
-        "bracken:glacium/invasive_forest": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:glacium/invasive_forest"
-                    }
-                }
-            }
-        },
-        "bracken:omnidrome/archivistory": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:omnidrome/archivistory"
-                    }
-                }
-            }
-        },
-        "bracken:omnidrome/fabricylum": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:omnidrome/fabricylum"
-                    }
-                }
-            }
-        },
-        "bracken:omnidrome/infrapolis": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:omnidrome/infrapolis"
-                    }
-                }
-            }
-        },
-        "bracken:omnidrome/malvergent_zone": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:omnidrome/malvergent_zone"
-                    }
-                }
-            }
-        },
-        "bracken:omnidrome/stanterion": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:omnidrome/stanterion"
-                    }
-                }
-            }
-        },
-        "bracken:panacea/bamboo_valley": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:panacea/bamboo_valley"
-                    }
-                }
-            }
-        },
-        "bracken:panacea/condemned_taiga": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:panacea/condemned_taiga"
-                    }
-                }
-            }
-        },
-        "bracken:panacea/conure_conclave": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:panacea/conure_conclave"
-                    }
-                }
-            }
-        },
-        "bracken:panacea/creeper_dominion": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:panacea/creeper_dominion"
-                    }
-                }
-            }
-        },
-        "bracken:panacea/crimson_organism": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:panacea/crimson_organism"
-                    }
-                }
-            }
-        },
-        "bracken:panacea/honeybee_biome": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:panacea/honeybee_biome"
-                    }
-                }
-            }
-        },
-        "bracken:panacea/horsetail_tropics": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:panacea/horsetail_tropics"
-                    }
-                }
-            }
-        },
-        "bracken:panacea/hungering_jungle": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:panacea/hungering_jungle"
-                    }
-                }
-            }
-        },
-        "bracken:panacea/polypore_plains": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:panacea/polypore_plains"
-                    }
-                }
-            }
-        },
-        "bracken:panacea/quicksand_springs": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:panacea/quicksand_springs"
-                    }
-                }
-            }
-        },
-        "bracken:panacea/ravenous_greenwood": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:panacea/ravenous_greenwood"
-                    }
-                }
-            }
-        },
-        "bracken:panacea/sweltering_swamp": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:panacea/sweltering_swamp"
-                    }
-                }
-            }
-        },
-        "bracken:panacea/wildflower_bog": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:panacea/wildflower_bog"
-                    }
-                }
-            }
-        },
-        "bracken:pax/autumn_idyll": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:pax/autumn_idyll"
-                    }
-                }
-            }
-        },
-        "bracken:pax/cenotaph": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
+                    "type": "entity_properties",
+                    "entity": "this",
                     "predicate": {
-                        "biomes": "bracken:pax/cenotaph"
+                        "type_specific/player": {
+                            "advancements": {
+                                "bracken:dormis/all_biomes": true
+                            }
+                        }
                     }
                 }
             }
         },
-        "bracken:pax/cloud_canopy": {
-            "trigger": "minecraft:location",
+        "bracken:glacium": {
+            "trigger": "location",
             "conditions": {
                 "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:pax/cloud_canopy"
-                    }
-                }
-            }
-        },
-        "bracken:pax/grand_machair": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:pax/grand_machair"
-                    }
-                }
-            }
-        },
-        "bracken:pax/petal_grove": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:pax/petal_grove"
-                    }
-                }
-            }
-        },
-        "bracken:pax/sky_garden": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:pax/sky_garden"
-                    }
-                }
-            }
-        },
-        "bracken:sanctum/dark_soot_dunes": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:sanctum/dark_soot_dunes"
-                    }
-                }
-            }
-        },
-        "bracken:sanctum/no_mans_land": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:sanctum/no_mans_land"
-                    }
-                }
-            }
-        },
-        "bracken:sanctum/rubblework_city": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:sanctum/rubblework_city"
-                    }
-                }
-            }
-        },
-        "bracken:sanctum/toxic_playa": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:sanctum/toxic_playa"
-                    }
-                }
-            }
-        },
-        "bracken:sanctum/voidship_harbor": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:sanctum/voidship_harbor"
-                    }
-                }
-            }
-        },
-        "bracken:the_brine/blackwater_depths": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_brine/blackwater_depths"
-                    }
-                }
-            }
-        },
-        "bracken:the_brine/blossom_reef": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_brine/blossom_reef"
-                    }
-                }
-            }
-        },
-        "bracken:the_brine/cinder_harbor": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_brine/cinder_harbor"
-                    }
-                }
-            }
-        },
-        "bracken:the_brine/dead_reef": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_brine/dead_reef"
-                    }
-                }
-            }
-        },
-        "bracken:the_brine/incursive_fungus": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_brine/incursive_fungus"
-                    }
-                }
-            }
-        },
-        "bracken:the_brine/indigo_median": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_brine/indigo_median"
-                    }
-                }
-            }
-        },
-        "bracken:the_brine/keeper_district": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_brine/keeper_district"
-                    }
-                }
-            }
-        },
-        "bracken:the_brine/kelp_cove": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_brine/kelp_cove"
-                    }
-                }
-            }
-        },
-        "bracken:the_brine/revered_waters": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_brine/revered_waters"
-                    }
-                }
-            }
-        },
-        "bracken:the_brine/sponge_ranch": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_brine/sponge_ranch"
-                    }
-                }
-            }
-        },
-        "bracken:the_brine/sugar_sand_beach": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_brine/sugar_sand_beach"
-                    }
-                }
-            }
-        },
-        "bracken:the_brine/yonder_saltbreaker_bay": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_brine/yonder_saltbreaker_bay"
-                    }
-                }
-            }
-        },
-        "bracken:the_faewild/clandestine_castlegrounds": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_faewild/clandestine_castlegrounds"
-                    }
-                }
-            }
-        },
-        "bracken:the_faewild/darkthunder_thicket": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_faewild/darkthunder_thicket"
-                    }
-                }
-            }
-        },
-        "bracken:the_faewild/dreamfall_dells": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_faewild/dreamfall_dells"
-                    }
-                }
-            }
-        },
-        "bracken:the_faewild/foison_fields": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_faewild/foison_fields"
-                    }
-                }
-            }
-        },
-        "bracken:the_faewild/hidden_hamlet": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_faewild/hidden_hamlet"
-                    }
-                }
-            }
-        },
-        "bracken:the_faewild/malmsey_meadow": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_faewild/malmsey_meadow"
-                    }
-                }
-            }
-        },
-        "bracken:the_faewild/mesosphere": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_faewild/mesosphere"
-                    }
-                }
-            }
-        },
-        "bracken:the_faewild/wanderlight_woods": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_faewild/wanderlight_woods"
-                    }
-                }
-            }
-        },
-        "bracken:the_underdark/crystal_caves": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_underdark/crystal_caves"
-                    }
-                }
-            }
-        },
-        "bracken:the_underdark/diorite_sea": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
-                    "predicate": {
-                        "biomes": "bracken:the_underdark/diorite_sea"
-                    }
-                }
-            }
-        },
-        "bracken:the_underdark/eroded_basin": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "type": "location_check",
+                    "type": "entity_properties",
+                    "entity": "this",
                     "predicate": {
-                        "biomes": "bracken:the_underdark/eroded_basin"
+                        "type_specific/player": {
+                            "advancements": {
+                                "bracken:glacium/all_biomes": true
+                            }
+                        }
                     }
                 }
             }
         },
-        "bracken:the_underdark/petrified_forest": {
-            "trigger": "minecraft:location",
+        "bracken:omnidrome": {
+            "trigger": "location",
             "conditions": {
                 "player": {
-                    "type": "location_check",
+                    "type": "entity_properties",
+                    "entity": "this",
                     "predicate": {
-                        "biomes": "bracken:the_underdark/petrified_forest"
+                        "type_specific/player": {
+                            "advancements": {
+                                "bracken:omnidrome/all_biomes": true
+                            }
+                        }
                     }
                 }
             }
         },
-        "bracken:the_underdark/ruby_fungi_forest": {
-            "trigger": "minecraft:location",
+        "bracken:panacea": {
+            "trigger": "location",
             "conditions": {
                 "player": {
-                    "type": "location_check",
+                    "type": "entity_properties",
+                    "entity": "this",
                     "predicate": {
-                        "biomes": "bracken:the_underdark/ruby_fungi_forest"
+                        "type_specific/player": {
+                            "advancements": {
+                                "bracken:panacea/all_biomes": true
+                            }
+                        }
                     }
                 }
             }
         },
-        "bracken:the_underdark/sulfur_caldera": {
-            "trigger": "minecraft:location",
+        "bracken:pax": {
+            "trigger": "location",
             "conditions": {
                 "player": {
-                    "type": "location_check",
+                    "type": "entity_properties",
+                    "entity": "this",
                     "predicate": {
-                        "biomes": "bracken:the_underdark/sulfur_caldera"
+                        "type_specific/player": {
+                            "advancements": {
+                                "bracken:pax/all_biomes": true
+                            }
+                        }
                     }
                 }
             }
         },
-        "bracken:the_underdark/titan_dripstone_cavern": {
-            "trigger": "minecraft:location",
+        "bracken:sanctum": {
+            "trigger": "location",
             "conditions": {
                 "player": {
-                    "type": "location_check",
+                    "type": "entity_properties",
+                    "entity": "this",
                     "predicate": {
-                        "biomes": "bracken:the_underdark/titan_dripstone_cavern"
+                        "type_specific/player": {
+                            "advancements": {
+                                "bracken:sanctum/all_biomes": true
+                            }
+                        }
                     }
                 }
             }
         },
-        "bracken:varskspace/ahimaaz_reach": {
-            "trigger": "minecraft:location",
+        "bracken:the_brine": {
+            "trigger": "location",
             "conditions": {
                 "player": {
-                    "type": "location_check",
+                    "type": "entity_properties",
+                    "entity": "this",
                     "predicate": {
-                        "biomes": "bracken:varskspace/ahimaaz_reach"
+                        "type_specific/player": {
+                            "advancements": {
+                                "bracken:the_brine/all_biomes": true
+                            }
+                        }
                     }
                 }
             }
         },
-        "bracken:varskspace/chrysoprase_belt": {
-            "trigger": "minecraft:location",
+        "bracken:the_faewild": {
+            "trigger": "location",
             "conditions": {
                 "player": {
-                    "type": "location_check",
+                    "type": "entity_properties",
+                    "entity": "this",
                     "predicate": {
-                        "biomes": "bracken:varskspace/chrysoprase_belt"
+                        "type_specific/player": {
+                            "advancements": {
+                                "bracken:the_faewild/all_biomes": true
+                            }
+                        }
                     }
                 }
             }
         },
-        "bracken:varskspace/non_maxwellian_sector": {
-            "trigger": "minecraft:location",
+        "bracken:the_underdark": {
+            "trigger": "location",
             "conditions": {
                 "player": {
-                    "type": "location_check",
+                    "type": "entity_properties",
+                    "entity": "this",
                     "predicate": {
-                        "biomes": "bracken:varskspace/non_maxwellian_sector"
+                        "type_specific/player": {
+                            "advancements": {
+                                "bracken:the_underdark/all_biomes": true
+                            }
+                        }
                     }
                 }
             }
         },
-        "bracken:varskspace/vonstein_expanse": {
-            "trigger": "minecraft:location",
+        "bracken:varskspace": {
+            "trigger": "location",
             "conditions": {
                 "player": {
-                    "type": "location_check",
+                    "type": "entity_properties",
+                    "entity": "this",
                     "predicate": {
-                        "biomes": "bracken:varskspace/vonstein_expanse"
+                        "type_specific/player": {
+                            "advancements": {
+                                "bracken:varskspace/all_biomes": true
+                            }
+                        }
                     }
                 }
             }
         },
-        "bracken:void/void": {
-            "trigger": "minecraft:location",
+        "bracken:void": {
+            "trigger": "location",
             "conditions": {
                 "player": {
                     "type": "location_check",
                     "predicate": {
-                        "biomes": "bracken:void/void"
+                        "dimension": "bracken:void"
                     }
                 }
             }

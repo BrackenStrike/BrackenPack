@@ -23,8 +23,5 @@
 				"to": "bracken:dormis"
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:pax/dor1"
-	]]
+	}
 }

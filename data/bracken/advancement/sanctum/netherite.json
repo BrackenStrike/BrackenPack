@@ -44,8 +44,5 @@
 				}]
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:sanctum/netherite1"
-	]]
+	}
 }

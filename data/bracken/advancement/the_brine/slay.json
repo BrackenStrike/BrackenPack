@@ -30,8 +30,5 @@
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:the_brine/slay21"
-	]]
+	}
 }

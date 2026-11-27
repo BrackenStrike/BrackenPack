@@ -38,8 +38,5 @@
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:glacium/valk1"
-	]]
+	}
 }

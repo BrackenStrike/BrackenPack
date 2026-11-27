@@ -31,10 +31,5 @@
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:pax/double_tree1"
-        ]
-    ]
+    }
 }

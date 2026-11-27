@@ -40,8 +40,5 @@
 				}]
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:glacium/heart1"
-	]]
+	}
 }

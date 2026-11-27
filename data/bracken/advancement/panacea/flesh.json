@@ -33,8 +33,5 @@
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:panacea/flesh1"
-	]]
+	}
 }

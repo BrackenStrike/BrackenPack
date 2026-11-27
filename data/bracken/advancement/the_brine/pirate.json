@@ -41,10 +41,5 @@
                 }
             }
         }
-    },
-    "requirements": [
-        [
-            "bracken:the_brine/pirate1"
-        ]
-    ]
+    }
 }

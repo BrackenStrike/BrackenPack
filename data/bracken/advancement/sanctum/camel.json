@@ -35,8 +35,5 @@
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:sanctum/camel1"
-	]]
+	}
 }

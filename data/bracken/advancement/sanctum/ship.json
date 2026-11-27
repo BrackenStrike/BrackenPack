@@ -37,8 +37,5 @@
 				}
 			}
 		}
-	},
-	"requirements": [[
-		"bracken:sanctum/ship1"
-	]]
+	}
 }
