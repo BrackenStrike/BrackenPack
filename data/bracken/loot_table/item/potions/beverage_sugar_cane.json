@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Sugar Cane Beverage"
+			"name": {"translate":"Sugar Cane Beverage"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

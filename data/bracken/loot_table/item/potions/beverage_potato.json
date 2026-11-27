@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Potato Beverage"
+			"name": {"translate":"Potato Beverage"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

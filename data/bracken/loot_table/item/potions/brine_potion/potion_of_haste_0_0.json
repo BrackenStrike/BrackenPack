@@ -7,7 +7,7 @@
 		}],
 		"modifier": [{
 			"type": "minecraft:set_components",
-			"components": {"minecraft:custom_name":"Potion of Haste","minecraft:potion_contents":{"custom_color":13421582,"custom_effects":[{"duration":1800,"id":"haste","amplifier":0}]},"minecraft:custom_data":{"bp.potion":105,"bp":[{"id":"custom_potion"}]}}
+			"components": {"minecraft:custom_name":{"translate":"Potion of Haste","italic":false},"minecraft:potion_contents":{"custom_color":13421582,"custom_effects":[{"duration":1800,"id":"haste","amplifier":0}]},"minecraft:custom_data":{"bp.potion":105,"bp":[{"id":"custom_potion"}]}}
 		}]
 	}]
 }

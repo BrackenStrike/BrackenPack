@@ -7,7 +7,7 @@
 		}],
 		"modifier": [{
 			"type": "minecraft:set_components",
-			"components": {"minecraft:custom_name":"Saturation Potion","minecraft:potion_contents":{"custom_color":16711705,"custom_effects":[{"id":"saturation","duration":400,"amplifier":5}]}}
+			"components": {"minecraft:custom_name":{"translate":"Saturation Potion"},"minecraft:potion_contents":{"custom_color":16711705,"custom_effects":[{"id":"saturation","duration":400,"amplifier":5}]}}
 		}]
 	}]
 }
