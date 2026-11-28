@@ -113,19 +113,14 @@
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:potion",
-			"modifier": [{
-				"type": "minecraft:set_name",
-				"name": {
-					"translate": "Potion of Weakness",
-					"color": "white",
-					"italic": false
-				}
-			},{
+			"modifier": {
 				"type": "minecraft:set_components",
 				"components": {
-					"minecraft:potion_contents": "minecraft:weakness"
+					"minecraft:potion_contents": {
+						"potion": "minecraft:weakness"
+					}
 				}
-			}]
+			}
 		},{
 			"type": "minecraft:item",
 			"name": "minecraft:chainmail_chestplate",

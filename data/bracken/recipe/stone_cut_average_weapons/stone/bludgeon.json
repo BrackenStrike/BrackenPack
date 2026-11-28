@@ -4,7 +4,7 @@
   "result": {
 		"id": "minecraft:stone_sword",
 		"components": {
-			"minecraft:item_name": "Stone Bludgeon",
+			"minecraft:item_name": {"translate":"Stone Bludgeon"},
 			"minecraft:item_model": "bracken:average_weapons/stone/bludgeon",
 			"minecraft:lore": [
 				{"translate":"","color":"white","italic":false},

@@ -4,7 +4,7 @@
   "result": {
 		"id": "minecraft:stone_sword",
 		"components": {
-			"minecraft:item_name": "Stone Sickle",
+			"minecraft:item_name": {"translate":"Stone Sickle"},
 			"minecraft:item_model": "bracken:average_weapons/stone/sickle",
 			"minecraft:lore": [
 				{"translate":"","color":"white","italic":false},

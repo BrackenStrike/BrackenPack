@@ -15,7 +15,7 @@
 				"type": "minecraft:set_lore",
 				"entity": "this",
 				"lore": [{
-					"translate": "Still warm from the great forge",
+					"translate": "Still warm from the great forge.",
 					"color": "gray",
 					"italic": false
 				}],

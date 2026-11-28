@@ -12,7 +12,7 @@
 	"result": {
     "id": "minecraft:creaking_spawn_egg",
     "components": {
-		"minecraft:item_name": "Flying Boat",
+		"minecraft:item_name": {"translate":"Flying Boat"},
       "minecraft:entity_data": {
         "id": "minecraft:pale_oak_boat",       
        "NoGravity":true,

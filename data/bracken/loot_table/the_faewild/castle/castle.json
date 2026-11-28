@@ -20,22 +20,18 @@
 				"type": "minecraft:random_chance",
 				"chance": 0.3
 			}
-		},{
+		},
+		{
 			"type": "minecraft:item",
 			"name": "minecraft:potion",
-			"modifier": [{
-				"type": "minecraft:set_name",
-				"name": {
-					"translate": "Potion of Night Vision",
-					"color": "white",
-					"italic": false
-				}
-			},{
+			"modifier": {
 				"type": "minecraft:set_components",
 				"components": {
-					"minecraft:potion_contents": "minecraft:night_vision"
+					"minecraft:potion_contents": {
+						"potion": "minecraft:night_vision"
+					}
 				}
-			}]
+			}
 		},
 {
 			"type": "loot_table",

@@ -4,7 +4,7 @@
   "result": {
 		"id": "minecraft:stone_sword",
 		"components": {
-			"minecraft:item_name": "Stone Buckler",
+			"minecraft:item_name": {"translate":"Stone Buckler"},
 			"minecraft:item_model": "bracken:average_weapons/stone/buckler",
 			"minecraft:blocks_attacks": {
   "block_delay_seconds": 0.25,

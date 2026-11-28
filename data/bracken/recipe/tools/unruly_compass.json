@@ -13,7 +13,7 @@
 	"result": {
 		"id": "minecraft:spider_eye",
 		"components": {
-			"minecraft:item_name": "Unruly Compass",
+			"minecraft:item_name": {"translate":"Unruly Compass"},
 			"minecraft:item_model": "bracken:tools/unruly_compass",
 			"minecraft:food": {
 				"nutrition": 1,

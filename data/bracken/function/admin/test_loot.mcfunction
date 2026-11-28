@@ -572,8 +572,8 @@ loot replace block ~-13 ~ ~ container.3 loot bracken:item/sanctum/nightfall
 loot replace block ~-13 ~ ~ container.4 loot bracken:item/sanctum/ostiarius_capsule
 loot replace block ~-13 ~ ~ container.5 loot bracken:item/sanctum/sanctum_den_void_bomb
 loot replace block ~-13 ~ ~ container.6 loot bracken:item/sanctum/shepherdess_cloak
-loot replace block ~-13 ~ ~ container.7 loot bracken:item/species_beginner_book
-loot replace block ~-13 ~ ~ container.8 loot bracken:item/species_book
+#loot replace block ~-13 ~ ~ container.7 loot bracken:item/UNUSED_species_beginner_book
+#loot replace block ~-13 ~ ~ container.8 loot bracken:item/UNUSED_species_book
 loot replace block ~-13 ~ ~ container.9 loot bracken:item/species_fruits/automech_fruit
 loot replace block ~-13 ~ ~ container.10 loot bracken:item/species_fruits/bad_bread
 loot replace block ~-13 ~ ~ container.11 loot bracken:item/species_fruits/banana
