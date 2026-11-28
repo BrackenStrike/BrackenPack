@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Lustra Upgrade Smithing Template"
+			"name": {"translate":"Lustra Upgrade Smithing Template"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

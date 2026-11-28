@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Sickle Weapon Template"
+			"name": {"translate":"Sickle Weapon Template"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Tetra Slime"
+			"name": {"translate":"Tetra Slime"}
 		},{
 			"type": "minecraft:set_lore",
 			"lore": [{

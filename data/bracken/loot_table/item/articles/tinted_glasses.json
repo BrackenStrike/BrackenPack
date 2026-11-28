@@ -7,7 +7,7 @@
 			"modifier": [{
 				"type": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Tinted Glasses"
+				"name": {"translate":"Tinted Glasses"}
 			},{
 				"type": "minecraft:set_components",
 				"components": {

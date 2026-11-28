@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Void Petal"
+			"name": {"translate":"Void Petal"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

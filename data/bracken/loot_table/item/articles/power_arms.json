@@ -7,7 +7,7 @@
 			"modifier": [{
 				"type": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Power Arms"
+				"name": {"translate":"Power Arms"}
 			},{
 				"type": "minecraft:set_components",
 				"components": {

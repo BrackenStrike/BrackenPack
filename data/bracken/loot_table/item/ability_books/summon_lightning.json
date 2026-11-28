@@ -8,11 +8,11 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Summon Lightning"
+			"name": {"translate":"Summon Lightning"}
 		},{
 			"type": "minecraft:set_lore",
 			"lore": [{
-				"translate": "consumes 4 levels",
+				"translate": "consumes 6 levels",
 				"color": "gray",
 				"italic": false
 			}],

@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Worm Toothed Burrower"
+			"name": {"translate":"Worm Toothed Burrower"}
 		},{
 			"type": "minecraft:set_lore",
 			"lore": [{

@@ -23,7 +23,7 @@
 			},{
 				"type": "set_name",
 				"target": "item_name",
-				"name": "Penance Leggings"
+				"name": {"translate":"Penance Leggings"}
 			},{
 				"type": "set_lore",
 				"lore": [{

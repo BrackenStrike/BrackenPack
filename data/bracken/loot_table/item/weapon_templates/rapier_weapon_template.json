@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Rapier Weapon Template"
+			"name": {"translate":"Rapier Weapon Template"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

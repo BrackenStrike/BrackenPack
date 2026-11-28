@@ -7,7 +7,7 @@
 			"modifier": [{
 				"type": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Mim Silk Helmet"
+				"name": {"translate":"Mim Silk Helmet"}
 			},{
 				"type": "set_enchantments",
 				"enchantments": {

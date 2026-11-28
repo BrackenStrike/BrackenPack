@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Essence of Infinity"
+			"name": {"translate":"Essence of Infinity"}
 		},{
 			"type": "minecraft:set_custom_data",
 			"tag": "{bp.potion:1b,bp:{id:\"potion_modifier\"}}"

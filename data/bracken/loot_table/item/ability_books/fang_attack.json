@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Fang Attack"
+			"name": {"translate":"Fang Attack"}
 		},{
 			"type": "minecraft:set_lore",
 			"lore": [{

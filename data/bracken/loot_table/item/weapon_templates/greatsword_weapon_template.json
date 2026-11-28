@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Greatsword Weapon Template"
+			"name": {"translate":"Greatsword Weapon Template"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

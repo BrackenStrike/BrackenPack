@@ -37,7 +37,7 @@
 			},{
 				"type": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Species Beginner Scroll"
+				"name": {"translate":"Species Beginner Scroll"}
 			},{
 				"type": "minecraft:set_lore",
 				"lore": [{

@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Mim Silk Patch"
+			"name": {"translate":"Mim Silk Patch"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

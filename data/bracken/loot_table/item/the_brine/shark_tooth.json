@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Shark Tooth"
+			"name": {"translate":"Shark Tooth"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

@@ -62,7 +62,7 @@
 			},{
 				"type": "set_name",
 				"target": "item_name",
-				"name": "Ostiarius Capsule"
+				"name": {"translate":"Ostiarius Capsule"}
 			},{
 				"type": "set_lore",
 				"lore": [{

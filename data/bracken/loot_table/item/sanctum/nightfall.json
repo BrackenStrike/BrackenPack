@@ -33,7 +33,7 @@
 			},{
 				"type": "set_name",
 				"target": "item_name",
-				"name": "Nightfall"
+				"name": {"translate":"Nightfall"}
 			},{
 				"type": "set_enchantments",
 				"enchantments": { "bracken:technical/nightfall": 1 }

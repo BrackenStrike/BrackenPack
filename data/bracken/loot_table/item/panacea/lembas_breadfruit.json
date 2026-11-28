@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Lembas Breadfruit"
+			"name": {"translate":"Lembas Breadfruit"}
 		},{
 			"type": "minecraft:set_lore",
 			"entity": "this",

@@ -7,7 +7,7 @@
 			"modifier": [{
 				"type": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Wolf Hood"
+				"name": {"translate":"Wolf Hood"}
 			},{
 				"type": "minecraft:set_components",
 				"components": {

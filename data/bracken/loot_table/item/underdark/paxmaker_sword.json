@@ -32,7 +32,7 @@
 			},{
 				"type": "set_name",
 				"target": "item_name",
-				"name": "Paxmaker Sword"
+				"name": {"translate":"Paxmaker Sword"}
 			},{
 				"type": "set_lore",
 				"lore": [{

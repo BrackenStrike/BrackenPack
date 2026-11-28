@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Warhammer Weapon Template"
+			"name": {"translate":"Warhammer Weapon Template"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

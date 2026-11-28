@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Iron Golem"
+			"name": {"translate":"Iron Golem"}
 		},{
 			"type": "minecraft:set_lore",
 			"lore": [{

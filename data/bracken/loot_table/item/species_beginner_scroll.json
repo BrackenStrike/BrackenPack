@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Bracken Species Scroll"
+			"name": {"translate":"Bracken Species Scroll"}
 		},
 		{
 				"type": "minecraft:set_lore",

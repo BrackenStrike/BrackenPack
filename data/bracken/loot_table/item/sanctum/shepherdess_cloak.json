@@ -7,7 +7,7 @@
 			"modifier": [{
 				"type": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Shepherdess Cloak"
+				"name": {"translate":"Shepherdess Cloak"}
 			},{
 				"type": "minecraft:set_lore",
 				"entity": "this",

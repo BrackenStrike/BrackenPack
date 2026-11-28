@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Voidfish Venom"
+			"name": {"translate":"Voidfish Venom"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

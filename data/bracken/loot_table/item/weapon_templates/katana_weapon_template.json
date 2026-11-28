@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Katana Weapon Template"
+			"name": {"translate":"Katana Weapon Template"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

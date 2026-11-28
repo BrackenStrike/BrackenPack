@@ -7,7 +7,7 @@
 			"modifier": [{
 				"type": "minecraft:set_name",
 				"target": "item_name",
-				"name": "Weighted Cuffs"
+				"name": {"translate":"Weighted Cuffs"}
 			},{
 				"type": "minecraft:set_components",
 				"components": {

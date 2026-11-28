@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Panaspore"
+			"name": {"translate":"Panaspore"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

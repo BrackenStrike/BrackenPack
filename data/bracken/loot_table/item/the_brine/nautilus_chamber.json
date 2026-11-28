@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Nautilus Chamber"
+			"name": {"translate":"Nautilus Chamber"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

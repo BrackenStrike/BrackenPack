@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Brine Foam"
+			"name": {"translate":"Brine Foam"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

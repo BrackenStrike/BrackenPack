@@ -15,7 +15,7 @@
 			},{
 				"type": "set_name",
 				"target": "item_name",
-				"name": "Immortal Spade"
+				"name": {"translate":"Immortal Spade"}
 			},
 			{
 				"type": "set_enchantments",

@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Bagpipe"
+			"name": {"translate":"Bagpipe"}
 		},{
 			"type": "minecraft:set_lore",
 			"entity": "this",

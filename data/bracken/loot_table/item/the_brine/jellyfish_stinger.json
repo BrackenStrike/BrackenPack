@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Jellyfish Stinger"
+			"name": {"translate":"Jellyfish Stinger"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

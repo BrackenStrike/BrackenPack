@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Essence of Eternity"
+			"name": {"translate":"Essence of Eternity"}
 		},{
 			"type": "minecraft:set_custom_data",
 			"tag": "{bp.potion:2b,bp:{id:\"potion_modifier\"}}"

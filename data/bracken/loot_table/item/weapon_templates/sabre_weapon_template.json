@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Sabre Weapon Template"
+			"name": {"translate":"Sabre Weapon Template"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

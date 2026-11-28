@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "Iron Apple"
+			"name": {"translate":"Iron Apple"}
 		},{
 			"type": "minecraft:set_components",
 			"components": {

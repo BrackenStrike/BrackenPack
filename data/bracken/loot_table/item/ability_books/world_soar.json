@@ -8,7 +8,7 @@
 		"modifier": [{
 			"type": "minecraft:set_name",
 			"target": "item_name",
-			"name": "World Soar"
+			"name": {"translate":"World Soar"}
 		},{
 			"type": "minecraft:set_lore",
 			"lore": [{
