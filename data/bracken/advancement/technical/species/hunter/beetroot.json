@@ -6,9 +6,6 @@
 			"conditions": {
 				"player": "bracken:species/hunter",
 				"item": {
-					"items": [
-						"minecraft:beetroot"
-					]
 				}
 			}
 		}

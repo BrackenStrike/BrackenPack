@@ -1,14 +1,17 @@
 {
 	"parent": "bracken:technical/species/hunter/root",
 	"criteria": {
-		"requirement": {
+		"morph": {
 			"trigger": "minecraft:consume_item",
 			"conditions": {
 				"player": "bracken:species/hunter",
 				"item": {
 					"items": [
 						"minecraft:porkchop"
-					]
+					],
+					"components": {
+						"custom_data": {}
+					}
 				}
 			}
 		}

@@ -8,7 +8,10 @@
 				"item": {
 					"items": [
 						"minecraft:chorus_fruit"
-					]
+					],
+					"components": {
+						"custom_data": {}
+					}
 				}
 			}
 		}

@@ -25,7 +25,7 @@
                     "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "nbt": "{Tags:[\"bp.outlander\"]}"
+                        "entity_tags": { "all_of": [ "bp.outlander" ] }
                     }
                 }
             }

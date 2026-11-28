@@ -25,7 +25,7 @@
                     "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "nbt": "{Tags:[\"bp.automech\"]}"
+                        "entity_tags": { "all_of": [ "bp.automech" ] }
                     }
                 }
             }

@@ -25,7 +25,7 @@
 					"entity": "this",
 					"predicate": {
 						"minecraft:entity_type": "minecraft:squid",
-						"nbt": "{Tags:[\"bp.kraken\"]}"
+						"entity_tags": { "all_of": [ "bp.kraken" ] }
 					}
 				}
 			}

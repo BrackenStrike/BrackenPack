@@ -30,7 +30,7 @@
 					"entity": "this",
 					"predicate": {
 						"minecraft:entity_type": "minecraft:drowned",
-						"nbt": "{Tags:[\"bp.valkyrie\"]}",
+						"entity_tags": { "all_of": [ "bp.valkyrie" ] },
 						"location": {
 							"dimension": "bracken:glacium"
 						}

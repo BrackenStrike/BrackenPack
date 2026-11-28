@@ -25,7 +25,7 @@
 					"entity": "this",
 					"predicate": {
 						"minecraft:entity_type": "minecraft:wither_skeleton",
-						"nbt": "{Tags:[\"bp.bygone_viceroy.bottom\"]}"
+						"entity_tags": { "all_of": [ "bp.bygone_viceroy.bottom" ] }
 					}
 				},
 				"killing_blow": {

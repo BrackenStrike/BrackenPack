@@ -1,5 +1,5 @@
 {
 	"type": "entity_properties",
 	"entity": "this",
-	"predicate": { "nbt": "{Tags:[\"bp.frostkin\"]}" }
+	"predicate": { "entity_tags": { "all_of": [ "bp.frostkin" ] } }
 }

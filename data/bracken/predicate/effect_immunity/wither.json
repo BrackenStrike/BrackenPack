@@ -19,7 +19,7 @@
       "type": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Tags:[\"bp.frostkin\"]}"
+        "entity_tags": { "all_of": [ "bp.frostkin" ] }
       }
     },
     "bracken:item/glacium_glider",

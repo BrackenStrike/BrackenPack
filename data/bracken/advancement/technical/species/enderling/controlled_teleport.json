@@ -7,7 +7,7 @@
                     "type": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "nbt": "{Tags:[\"bp.enderling\"]}"
+                        "entity_tags": { "all_of": [ "bp.enderling" ] }
                     }
                 },
                 "item": {

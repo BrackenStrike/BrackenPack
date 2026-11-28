@@ -15,11 +15,7 @@
 								"max": 3
 							}
 						},
-						"nbt": {
-						"Tags": [
-						"bp.varsk_lightning"
-					]
-              }
+						"entity_tags": { "all_of": [ "bp.varsk_lightning"] }
 					}
 				}
 			}

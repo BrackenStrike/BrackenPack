@@ -8,7 +8,10 @@
 				"item": {
 					"items": [
 						"minecraft:mushroom_stew"
-					]
+					],
+					"components": {
+						"custom_data": {}
+					}
 				}
 			}
 		}

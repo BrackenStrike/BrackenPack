@@ -8,7 +8,10 @@
 				"item": {
 					"items": [
 						"minecraft:pufferfish"
-					]
+					],
+					"components": {
+						"custom_data": {}
+					}
 				}
 			}
 		}

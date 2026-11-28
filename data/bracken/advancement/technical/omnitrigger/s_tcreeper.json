@@ -8,7 +8,7 @@
                     "entity": "this",
                     "predicate": {
                         "minecraft:entity_type": "minecraft:creeper",
-                        "nbt": "{Tags:[\"bp.theoretical\"]}"
+                        "entity_tags": { "all_of": [ "bp.theoretical" ] }
                     }
                 }
             }
